@@ -1,0 +1,79 @@
+{
+  "scale": "0-5 integer. 0 = absent, 5 = dominant. No decimals, no floats.",
+  "food": {
+    "protein_intensity": {
+      "description": "How dominant and heavy the protein presence is. Primary driver of wine body alignment.",
+      "scale": { "0": "No protein", "1": "Very light", "2": "Light", "3": "Moderate", "4": "High", "5": "Very high" },
+      "examples": { "0": "Fruit salad", "1": "Tofu, white fish (poached)", "2": "Chicken breast, turkey", "3": "Pork loin, salmon", "4": "Lamb, duck", "5": "Ribeye, short ribs, game meats" }
+    },
+    "fat_level": {
+      "description": "Richness, marbling, oil, cream, butter. Controls acid/tannin need.",
+      "scale": { "0": "Fat-free", "1": "Very lean", "2": "Lean", "3": "Moderate", "4": "Rich", "5": "Very rich" },
+      "examples": { "0": "Steamed vegetables", "1": "Poached fish", "2": "Grilled chicken", "3": "Salmon, pork chop", "4": "Cream pasta, duck", "5": "Ribeye, Alfredo, BBQ ribs" }
+    },
+    "acidity": {
+      "description": "Natural acidity in the dish. Wine acidity must ≥ food acidity to avoid flat pairing.",
+      "scale": { "0": "None", "1": "Very low", "2": "Mild", "3": "Noticeable", "4": "High", "5": "Very high" },
+      "examples": { "0": "Cream sauce", "1": "Steak", "2": "Roast chicken", "3": "Tomato pasta", "4": "Vinaigrette salad", "5": "Lemon ceviche" }
+    },
+    "sweetness": {
+      "description": "Perceived sweetness in final dish. Wine sweetness must be ≥ food sweetness. Hard rule.",
+      "scale": { "0": "Savory", "1": "Slight", "2": "Mild", "3": "Noticeable", "4": "High", "5": "Dessert level" },
+      "examples": { "0": "Steak", "1": "Caramelized onions", "2": "BBQ sauce", "3": "Sweet glaze", "4": "Honey chicken", "5": "Chocolate cake" }
+    },
+    "spice_heat": {
+      "description": "Capsaicin-driven heat. Triggers alcohol & tannin penalties.",
+      "scale": { "0": "None", "1": "Very mild", "2": "Mild", "3": "Medium", "4": "Hot", "5": "Very hot" },
+      "examples": { "0": "Steak", "1": "Black pepper", "2": "Mild salsa", "3": "Thai curry", "4": "Spicy arrabbiata", "5": "Vindaloo" }
+    },
+    "umami": {
+      "description": "Savory depth from glutamates. Boosts need for acidity.",
+      "scale": { "0": "None", "1": "Very mild", "2": "Mild", "3": "Moderate", "4": "High", "5": "Very high" },
+      "examples": { "0": "Plain rice", "1": "Chicken", "2": "Mushrooms", "3": "Parmesan", "4": "Soy sauce", "5": "Anchovies, aged cheese" }
+    },
+    "texture_weight": {
+      "description": "Perceived mouth-coating heaviness. Helps align with wine body.",
+      "scale": { "0": "Watery", "1": "Light", "2": "Soft", "3": "Medium", "4": "Dense", "5": "Heavy" },
+      "examples": { "0": "Broth", "1": "Salad", "2": "Poached fish", "3": "Roast chicken", "4": "Risotto", "5": "Steak, creamy pasta" }
+    }
+  },
+  "wine": {
+    "body": {
+      "description": "Perceived weight in mouth. Primary intensity match.",
+      "scale": { "0": "Ultra light", "1": "Very light", "2": "Light", "3": "Medium", "4": "Medium-full", "5": "Full" },
+      "examples": { "0": "Moscato", "1": "Light Pinot Grigio", "2": "Sauvignon Blanc", "3": "Pinot Noir", "4": "Merlot", "5": "Cabernet Sauvignon" }
+    },
+    "tannin": {
+      "description": "Drying structure from grape skins. Balances fat + protein.",
+      "scale": { "0": "None", "1": "Very soft", "2": "Light", "3": "Moderate", "4": "High", "5": "Very high" },
+      "examples": { "0": "White wines", "1": "Gamay", "2": "Pinot Noir", "3": "Merlot", "4": "Malbec", "5": "Cabernet Sauvignon" }
+    },
+    "acidity": {
+      "description": "Perceived freshness. Must equal or exceed food acidity.",
+      "scale": { "0": "Flat", "1": "Low", "2": "Moderate", "3": "Bright", "4": "High", "5": "Very high" },
+      "examples": { "0": "Some cheap reds", "1": "Oaked Chardonnay", "2": "Merlot", "3": "Pinot Noir", "4": "Sauvignon Blanc", "5": "Champagne" }
+    },
+    "alcohol": {
+      "description": "Impacts heat + spice reaction. High alcohol penalized for spicy foods.",
+      "scale": { "1": "Low", "2": "Moderate", "3": "Medium", "4": "High", "5": "Very high" },
+      "abv_range": { "1": "<11.5%", "2": "11.5–12.5%", "3": "12.5–13.5%", "4": "13.5–14.5%", "5": "14.5%+" }
+    },
+    "sweetness": {
+      "description": "Must be ≥ food sweetness.",
+      "scale": { "0": "Bone dry", "1": "Dry", "2": "Off-dry", "3": "Medium sweet", "4": "Sweet", "5": "Dessert wine" },
+      "examples": { "0": "Cabernet", "1": "Sauvignon Blanc", "2": "Riesling Kabinett", "3": "Moscato", "4": "Late harvest", "5": "Port" }
+    },
+    "aromatic_intensity": {
+      "description": "Supports flavor bridge bonus.",
+      "scale": { "1": "Subtle", "2": "Moderate", "3": "Expressive", "4": "Bold", "5": "Explosive" },
+      "examples": { "1": "Pinot Grigio", "2": "Chardonnay", "3": "Pinot Noir", "4": "Syrah", "5": "Gewürztraminer" }
+    }
+  },
+  "pairing_rules": {
+    "1_sweetness_violation": "If wine.sweetness < food.sweetness → score capped at 40 max.",
+    "2_acid_gap": "If wine.acidity + 1 < food.acidity → heavy penalty (-20 points).",
+    "3_spice_clash": "If food.spice_heat ≥ 3 AND wine.alcohol ≥ 4 → -15. If wine.tannin ≥ 4 AND food.spice_heat ≥ 3 → -10.",
+    "4_fat_balance_boost": "If food.fat_level ≥ 3 AND (wine.acidity ≥ 3 OR wine.tannin ≥ 3) → +10 bonus.",
+    "5_intensity_harmony": "If |food.protein_intensity - wine.body| ≤ 1 → +15 bonus."
+  }
+}
