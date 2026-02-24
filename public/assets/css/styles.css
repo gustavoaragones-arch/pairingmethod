@@ -34,6 +34,94 @@ h3 { font-size: 1.1rem; }
   padding: 0 1rem;
 }
 
+/* ---------- Breadcrumb ---------- */
+.breadcrumb {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #5a2a27;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb span {
+  color: #555;
+}
+
+/* ---------- Grape / structure table ---------- */
+.structure-table {
+  width: 100%;
+  max-width: 320px;
+  border-collapse: collapse;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.structure-table td {
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.structure-table tr:last-child td {
+  border-bottom: none;
+}
+
+.structure-table td:first-child {
+  font-weight: 500;
+  color: #333;
+}
+
+.structure-table td:last-child {
+  color: #555;
+}
+
+/* ---------- Pairings hub ---------- */
+.hub-intro {
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.hub-categories {
+  margin-top: 2rem;
+}
+
+.hub-categories h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hub-categories h2:first-child {
+  margin-top: 0;
+}
+
+.hub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.hub-list li {
+  padding: 0.35rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.hub-list li:last-child {
+  border-bottom: none;
+}
+
+.hub-list a {
+  color: #5a2a27;
+  text-decoration: none;
+}
+
+.hub-list a:hover {
+  text-decoration: underline;
+}
+
 /* ---------- Header ---------- */
 header {
   padding: 1rem 0;
@@ -87,8 +175,53 @@ main {
 }
 
 #pairing-engine-root {
-  margin-top: 2rem;
-  min-height: 1px;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.engine-controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+#pairing-engine-root select,
+#pairing-engine-root button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+#pairing-engine-root button {
+  cursor: pointer;
+  background-color: #5a2a27;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+#pairing-engine-root button:hover {
+  background-color: #4a221f;
+}
+
+.pairing-card {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  background: #faf8f5;
+}
+
+.pairing-card .score {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+#results .engine-error {
+  color: #8b2a2a;
+  padding: 1rem;
 }
 
 /* ---------- Wine / content cards ---------- */
@@ -112,6 +245,91 @@ main {
 .answer-block {
   margin: 1rem 0;
   padding: 0.5rem 0;
+}
+
+/* ---------- High-intent template: direct answer + wine cards ---------- */
+.direct-answer {
+  margin: 1.5rem 0;
+  padding: 1.25rem 1.5rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-left: 4px solid #5a2a27;
+  border-radius: 0 6px 6px 0;
+  line-height: 1.6;
+}
+
+.direct-answer p {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.top-wines {
+  margin-top: 2.5rem;
+}
+
+.top-wines > h2 {
+  margin-bottom: 1.25rem;
+}
+
+/* Wine cards: consistent styling across template and engine results */
+.top-wines .wine-card,
+.wine-cards .wine-card {
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  background: #faf8f5;
+  line-height: 1.6;
+}
+
+.top-wines .wine-card:last-child,
+.wine-cards .wine-card:last-child {
+  margin-bottom: 0;
+}
+
+.top-wines .wine-card h3,
+.wine-cards .wine-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.15rem;
+}
+
+.top-wines .wine-card .score,
+.wine-cards .wine-card .score {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #5a2a27;
+}
+
+.top-wines .wine-card p:last-child,
+.wine-cards .wine-card p:last-child {
+  margin: 0;
+}
+
+/* FAQ items: clean spacing, readable */
+.faq-item {
+  margin-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.faq-item h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.faq-item p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Engine enhancement section: visual tie-in */
+#engine-enhancement {
+  margin-top: 2.5rem;
 }
 
 /* ---------- Sections ---------- */

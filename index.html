@@ -24,8 +24,8 @@
       <nav aria-label="Main navigation">
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="/wine-with-steak.html">Pairings</a></li>
-          <li><a href="#">Grapes</a></li>
+          <li><a href="/pairings.html">Pairings</a></li>
+          <li><a href="/grapes.html">Grapes</a></li>
           <li><a href="#">Seasonal</a></li>
           <li><a href="/about.html">About</a></li>
         </ul>
@@ -42,8 +42,21 @@
         We break down why certain wines work with certain dishes, so you can apply the same thinking
         to any meal. Built for clarity, crawlability, and a future pairing engine you can trust.
       </p>
-      <!-- Placeholder: future pairing engine mount point -->
-      <section id="pairing-engine-root" aria-label="Pairing engine"></section>
+      <!-- Pairing engine: Food → Wine selector -->
+      <section id="pairing-engine-root" aria-label="Pairing engine">
+        <h2>Find the Right Wine</h2>
+
+        <div class="engine-controls">
+          <label for="food-select">Choose a dish:</label>
+          <select id="food-select">
+            <option value="">-- Select a Dish --</option>
+          </select>
+
+          <button id="calculate-btn">Find Pairing</button>
+        </div>
+
+        <div id="results"></div>
+      </section>
     </div>
   </main>
 
@@ -71,5 +84,6 @@
     "description": "Structured wine pairing intelligence and culinary logic."
   }
   </script>
+  <script type="module" src="/assets/js/ui.js"></script>
 </body>
 </html>

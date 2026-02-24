@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 1️⃣ Head: unique title, meta, canonical, Open Graph -->
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <link rel="canonical" href="{{CANONICAL_URL}}">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{CANONICAL_URL}}">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{META_DESCRIPTION}}">
+  <meta property="og:locale" content="en_US">
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <!-- ========== HEADER ========== -->
+  <header>
+    <div class="container">
+      <a href="/" class="logo">Pairing Method</a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/pairings.html">Pairings</a></li>
+          <li><a href="/grapes.html">Grapes</a></li>
+          <li><a href="#">Seasonal</a></li>
+          <li><a href="/about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== MAIN: high-intent page structure ========== -->
+  <main class="container">
+    <article>
+      <h1>{{PAGE_TITLE}}</h1>
+
+      <!-- Direct Answer Block: 40–60 words, featured-snippet ready -->
+      <section class="direct-answer" aria-label="Quick answer">
+        <p>
+          {{DIRECT_ANSWER}}
+        </p>
+      </section>
+
+      <!-- Top 3 Wines: static content, crawlable -->
+      <section class="top-wines" aria-label="Top wine pairings">
+        <h2>Top Wine Pairings</h2>
+
+        <div class="wine-card">
+          <h3>{{WINE_1_NAME}}</h3>
+          <p class="score">Pairing Strength: {{WINE_1_SCORE}}%</p>
+          <p>{{WINE_1_EXPLANATION}}</p>
+        </div>
+
+        <div class="wine-card">
+          <h3>{{WINE_2_NAME}}</h3>
+          <p class="score">Pairing Strength: {{WINE_2_SCORE}}%</p>
+          <p>{{WINE_2_EXPLANATION}}</p>
+        </div>
+
+        <div class="wine-card">
+          <h3>{{WINE_3_NAME}}</h3>
+          <p class="score">Pairing Strength: {{WINE_3_SCORE}}%</p>
+          <p>{{WINE_3_EXPLANATION}}</p>
+        </div>
+      </section>
+
+      <!-- Why It Works: structural culinary logic -->
+      <section aria-label="Why these wines work">
+        <h2>Why These Wines Work</h2>
+        <p>{{WHY_IT_WORKS}}</p>
+      </section>
+
+      <!-- Wines to Avoid: clash scenarios -->
+      <section aria-label="Wines to avoid">
+        <h2>Wines to Avoid</h2>
+        <p>{{WINES_TO_AVOID}}</p>
+      </section>
+
+      <!-- Preparation Variations: method-based guidance -->
+      <section aria-label="Preparation variations">
+        <h2>Preparation Variations</h2>
+        <ul>
+          <li><strong>Grilled:</strong> {{PREP_GRILLED}}</li>
+          <li><strong>With Sauce:</strong> {{PREP_WITH_SAUCE}}</li>
+          <li><strong>Spiced Version:</strong> {{PREP_SPICED}}</li>
+        </ul>
+      </section>
+
+      <!-- Interactive Engine: enhances page, does not replace main content -->
+      <section id="engine-enhancement" aria-label="Refine your pairing">
+        <h2>Refine Your Pairing</h2>
+        <p>Adjust cooking method and intensity for more tailored results.</p>
+        <div id="pairing-engine-root"></div>
+      </section>
+
+      <!-- FAQ: 3 items, People Also Ask / snippet ready -->
+      <section class="faq" aria-label="Frequently asked questions">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+          <h3>{{FAQ_1_QUESTION}}</h3>
+          <p>{{FAQ_1_ANSWER}}</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>{{FAQ_2_QUESTION}}</h3>
+          <p>{{FAQ_2_ANSWER}}</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>{{FAQ_3_QUESTION}}</h3>
+          <p>{{FAQ_3_ANSWER}}</p>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container">
+      <nav aria-label="Footer navigation">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/privacy.html">Privacy</a></li>
+        </ul>
+      </nav>
+      <p><small>© Pairing Method. For educational purposes.</small></p>
+    </div>
+  </footer>
+
+  <!-- FAQ schema placeholder: replace {{FAQ_SCHEMA_JSON}} with valid JSON-LD FAQPage (no </script> in content) -->
+  <script type="application/ld+json">
+  {{FAQ_SCHEMA_JSON}}
+  </script>
+  <script type="module" src="/assets/js/ui.js"></script>
+</body>
+</html>
