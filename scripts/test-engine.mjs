@@ -6,11 +6,11 @@
 import { readFileSync } from "fs";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
-import { calculatePairing } from "../public/assets/js/engine.js";
+import { calculatePairing } from "../assets/js/engine.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
-const dataDir = join(root, "public", "data");
+const dataDir = join(root, "data");
 
 const foods = JSON.parse(readFileSync(join(dataDir, "foods.json"), "utf8"));
 const wines = JSON.parse(readFileSync(join(dataDir, "wines.json"), "utf8"));
