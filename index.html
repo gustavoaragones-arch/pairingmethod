@@ -17,58 +17,48 @@
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
-  <!-- ========== HEADER ========== -->
   <header>
     <div class="container">
       <a href="/" class="logo">Pairing Method</a>
-      <nav aria-label="Main navigation">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/pairings.html">Pairings</a></li>
-          <li><a href="/grapes.html">Grapes</a></li>
-          <li><a href="#">Seasonal</a></li>
-          <li><a href="/about.html">About</a></li>
-        </ul>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/pairings.html">Pairings</a>
+        <a href="/grapes.html">Grapes</a>
+        <a href="#">Seasonal</a>
+        <a href="/about.html">About</a>
       </nav>
     </div>
   </header>
 
-  <!-- ========== MAIN ========== -->
-  <main>
-    <div class="container">
-      <h1>Structured Wine Pairing Intelligence</h1>
-      <p class="intro">
-        Pairing Method helps you choose the right wine using structured culinary logic — not guesswork.
-        We break down why certain wines work with certain dishes, so you can apply the same thinking
-        to any meal. Built for clarity, crawlability, and a future pairing engine you can trust.
-      </p>
-      <!-- Pairing engine: Food → Wine selector -->
-      <section id="pairing-engine-root" aria-label="Pairing engine">
-        <h2>Find the Right Wine</h2>
+  <main class="container">
+    <h1>Structured Wine Pairing Intelligence</h1>
+    <p class="intro">
+      Pairing Method helps you choose the right wine using structured culinary logic — not guesswork.
+      We break down why certain wines work with certain dishes, so you can apply the same thinking
+      to any meal. Built for clarity, crawlability, and a future pairing engine you can trust.
+    </p>
+    <section id="pairing-engine-root" aria-label="Pairing engine">
+      <h2>Find the Right Wine</h2>
 
-        <div class="engine-controls">
-          <label for="food-select">Choose a dish:</label>
-          <select id="food-select">
-            <option value="">-- Select a Dish --</option>
-          </select>
+      <div class="engine-controls">
+        <label for="food-select">Choose a dish:</label>
+        <select id="food-select">
+          <option value="">-- Select a Dish --</option>
+        </select>
 
-          <button id="calculate-btn">Find Pairing</button>
-        </div>
+        <button id="calculate-btn">Find Pairing</button>
+      </div>
 
-        <div id="results"></div>
-      </section>
-    </div>
+      <div id="results"></div>
+    </section>
   </main>
 
-  <!-- ========== FOOTER ========== -->
   <footer>
     <div class="container">
-      <nav aria-label="Footer navigation">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/privacy.html">Privacy</a></li>
-        </ul>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/privacy.html">Privacy</a>
       </nav>
       <p><small>© Pairing Method. For educational purposes.</small></p>
     </div>
