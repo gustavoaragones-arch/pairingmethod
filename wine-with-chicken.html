@@ -25,6 +25,37 @@
     ]
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Pairing Method",
+    "url": "https://pairingmethod.com",
+    "description": "Structured culinary wine pairing system based on food and wine attributes.",
+    "founder": { "@type": "Person", "name": "Gustavo Aragones" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Red or white wine with chicken?", "acceptedAnswer": { "@type": "Answer", "text": "Both work depending on preparation and sauce." } },
+      { "@type": "Question", "name": "What wine for fried chicken?", "acceptedAnswer": { "@type": "Answer", "text": "Sparkling wine cuts through richness." } },
+      { "@type": "Question", "name": "Does spice change pairing?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Off-dry Riesling helps with heat." } }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best Wine for Chicken",
+    "author": { "@type": "Person", "name": "Gustavo Aragones" },
+    "publisher": { "@type": "Organization", "name": "Pairing Method" },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pairingmethod.com/wine-with-chicken.html" }
+  }
+  </script>
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
@@ -53,13 +84,16 @@
       <h1>Best Wine for Chicken</h1>
 
       <section class="direct-answer" aria-label="Quick answer">
+        <h2>Quick answer</h2>
         <p>
-          Chicken pairs with versatile wines depending on preparation. Sauvignon Blanc suits lighter roasted chicken, Chardonnay complements creamy sauces, and Pinot Noir works with grilled or herb-seasoned dishes.
+          The best wine for chicken is a crisp white, versatile Chardonnay, or light Pinot Noir chosen by sauce and roast style. Bright acidity lifts lean breast; body follows cream and herbs; soft tannin supports grill. Very tannic reds often overpower simple roast chicken unless the dish is dark and sauced.
         </p>
       </section>
 
+      <p class="definition-block"><strong>Poultry pairing prioritizes sauce weight and cook method: the wine should mirror the dish’s intensity.</strong></p>
+
       <section class="top-wines" aria-label="Top wine pairings">
-        <h2>Top Wine Pairings</h2>
+        <h2>Top pairings</h2>
 
         <div class="wine-card">
           <h3><a href="/grapes/sauvignon-blanc.html">Sauvignon Blanc</a></h3>
@@ -77,6 +111,28 @@
           <h3><a href="/grapes/pinot-noir.html">Pinot Noir</a></h3>
           <p class="score">Pairing Strength: 83%</p>
           <p>Light tannin supports grilled variation.</p>
+        </div>
+      </section>
+
+      <section class="recommendation-block" aria-label="Recommended bottles">
+        <h2>Recommended Bottles</h2>
+
+        <div class="recommendation-card">
+          <h3>Chardonnay — Mâcon or California</h3>
+          <p>Round texture and citrus for roast chicken and cream sauces.</p>
+          <a href="#" class="cta">View Bottle</a>
+        </div>
+
+        <div class="recommendation-card">
+          <h3>Sauvignon Blanc — Loire or New Zealand</h3>
+          <p>Herbaceous and crisp for lemon-herb and lighter preparations.</p>
+          <a href="#" class="cta">View Bottle</a>
+        </div>
+
+        <div class="recommendation-card">
+          <h3>Pinot Noir — Oregon or Burgundy</h3>
+          <p>Soft tannins for dark meat, mushrooms, and richer sauces.</p>
+          <a href="#" class="cta">View Bottle</a>
         </div>
       </section>
 
@@ -110,7 +166,7 @@
       </section>
 
       <section class="faq" aria-label="Frequently asked questions">
-        <h2>Frequently Asked Questions</h2>
+        <h2>FAQ</h2>
 
         <div class="faq-item">
           <h3>Red or white wine with chicken?</h3>
@@ -126,6 +182,21 @@
           <h3>Does spice change pairing?</h3>
           <p>Yes. Off-dry Riesling helps with heat.</p>
         </div>
+      </section>
+
+      <section class="serving-essentials" aria-label="Serving essentials">
+        <h2>Serving Essentials</h2>
+        <ul>
+          <li>Chill Sauvignon Blanc well; serve oaked Chardonnay cool, not ice-cold.</li>
+          <li>Light reds: a short decant can soften Pinot for mushroom dishes.</li>
+          <li>Match glass size to body—smaller bowls for crisp whites, wider for oaked whites.</li>
+        </ul>
+      </section>
+
+      <section class="final-cta" aria-label="Pairing tool call to action">
+        <h2>Refine Your Pairing</h2>
+        <p>Use our pairing engine to adjust preparation method, fat level, and intensity.</p>
+        <a href="/" class="cta">Open Pairing Tool</a>
       </section>
     </article>
   </main>
@@ -144,17 +215,6 @@
     </div>
   </footer>
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": "Red or white wine with chicken?", "acceptedAnswer": { "@type": "Answer", "text": "Both work depending on preparation and sauce." } },
-      { "@type": "Question", "name": "What wine for fried chicken?", "acceptedAnswer": { "@type": "Answer", "text": "Sparkling wine cuts through richness." } },
-      { "@type": "Question", "name": "Does spice change pairing?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Off-dry Riesling helps with heat." } }
-    ]
-  }
-  </script>
   <script type="module" src="/assets/js/ui.js"></script>
 </body>
 </html>

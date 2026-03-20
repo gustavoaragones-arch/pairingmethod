@@ -25,6 +25,37 @@
     ]
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Pairing Method",
+    "url": "https://pairingmethod.com",
+    "description": "Structured culinary wine pairing system based on food and wine attributes.",
+    "founder": { "@type": "Person", "name": "Gustavo Aragones" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Can you drink red wine with salmon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Pinot Noir is ideal due to moderate tannin and bright acidity." } },
+      { "@type": "Question", "name": "Is rosé good with salmon?", "acceptedAnswer": { "@type": "Answer", "text": "Dry rosé works well for lighter preparations." } },
+      { "@type": "Question", "name": "Does smoked salmon change pairing?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Sparkling wine complements smoky texture." } }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best Wine for Salmon",
+    "author": { "@type": "Person", "name": "Gustavo Aragones" },
+    "publisher": { "@type": "Organization", "name": "Pairing Method" },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pairingmethod.com/wine-with-salmon.html" }
+  }
+  </script>
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
@@ -53,13 +84,16 @@
       <h1>Best Wine for Salmon</h1>
 
       <section class="direct-answer" aria-label="Quick answer">
+        <h2>Quick answer</h2>
         <p>
-          Salmon pairs best with medium-bodied wines that balance its natural oil and moderate intensity. Pinot Noir leads for grilled salmon, while oaked Chardonnay complements buttery preparations. For lighter styles, Sauvignon Blanc offers freshness and contrast.
+          The best wine for salmon is a medium-bodied red or balanced white chosen by fillet richness and cooking method. Pinot Noir suits grill and char; oaked Chardonnay matches butter; Sauvignon Blanc lifts citrus and herbs. Avoid high-tannin reds that read bitter against delicate fish.
         </p>
       </section>
 
+      <p class="definition-block"><strong>Salmon pairing hinges on matching wine body and acidity to oil content and preparation—not the fillet alone.</strong></p>
+
       <section class="top-wines" aria-label="Top wine pairings">
-        <h2>Top Wine Pairings</h2>
+        <h2>Top pairings</h2>
 
         <div class="wine-card">
           <h3><a href="/grapes/pinot-noir.html">Pinot Noir</a></h3>
@@ -77,6 +111,28 @@
           <h3><a href="/grapes/sauvignon-blanc.html">Sauvignon Blanc</a></h3>
           <p class="score">Pairing Strength: 84%</p>
           <p>High acidity cuts through oil content.</p>
+        </div>
+      </section>
+
+      <section class="recommendation-block" aria-label="Recommended bottles">
+        <h2>Recommended Bottles</h2>
+
+        <div class="recommendation-card">
+          <h3>Pinot Noir — Oregon or Burgundy</h3>
+          <p>Silky, red-fruit driven; ideal for grilled or cedar-plank salmon.</p>
+          <a href="#" class="cta">View Bottle</a>
+        </div>
+
+        <div class="recommendation-card">
+          <h3>Chardonnay — Unoaked or lightly oaked</h3>
+          <p>Citrus and mineral notes match lemon-herb and butter-poached preparations.</p>
+          <a href="#" class="cta">View Bottle</a>
+        </div>
+
+        <div class="recommendation-card">
+          <h3>Rosé — Provence style</h3>
+          <p>Dry, crisp, and versatile for warm-weather salmon and salads.</p>
+          <a href="#" class="cta">View Bottle</a>
         </div>
       </section>
 
@@ -110,7 +166,7 @@
       </section>
 
       <section class="faq" aria-label="Frequently asked questions">
-        <h2>Frequently Asked Questions</h2>
+        <h2>FAQ</h2>
 
         <div class="faq-item">
           <h3>Can you drink red wine with salmon?</h3>
@@ -126,6 +182,21 @@
           <h3>Does smoked salmon change pairing?</h3>
           <p>Yes. Sparkling wine complements smoky texture.</p>
         </div>
+      </section>
+
+      <section class="serving-essentials" aria-label="Serving essentials">
+        <h2>Serving Essentials</h2>
+        <ul>
+          <li>White and rosé: serve cooler (8–12°C / 46–54°F) to lift acidity.</li>
+          <li>Light reds: slight chill (14–16°C / 57–61°F) keeps Pinot fresh.</li>
+          <li>Wide bowls for reds; narrower stems for aromatic whites.</li>
+        </ul>
+      </section>
+
+      <section class="final-cta" aria-label="Pairing tool call to action">
+        <h2>Refine Your Pairing</h2>
+        <p>Use our pairing engine to adjust preparation method, fat level, and intensity.</p>
+        <a href="/" class="cta">Open Pairing Tool</a>
       </section>
     </article>
   </main>
@@ -144,17 +215,6 @@
     </div>
   </footer>
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": "Can you drink red wine with salmon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Pinot Noir is ideal due to moderate tannin and bright acidity." } },
-      { "@type": "Question", "name": "Is rosé good with salmon?", "acceptedAnswer": { "@type": "Answer", "text": "Dry rosé works well for lighter preparations." } },
-      { "@type": "Question", "name": "Does smoked salmon change pairing?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Sparkling wine complements smoky texture." } }
-    ]
-  }
-  </script>
   <script type="module" src="/assets/js/ui.js"></script>
 </body>
 </html>
