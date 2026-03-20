@@ -41,8 +41,8 @@
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "What is Pairing Method?", "acceptedAnswer": { "@type": "Answer", "text": "Pairing Method is a structured culinary wine pairing system that scores food and wine by attributes like intensity, fat, acidity, and preparation." } },
-      { "@type": "Question", "name": "How does the pairing engine work?", "acceptedAnswer": { "@type": "Answer", "text": "You select a dish; the engine returns top wine matches with short reasoning based on structured rules, not random picks." } },
+      { "@type": "Question", "name": "What is Pairing Method?", "acceptedAnswer": { "@type": "Answer", "text": "Pairing Method is a structured wine pairing system that scores nine wine style families against food matrix rows (poster-style 0–3 cells)." } },
+      { "@type": "Question", "name": "How does the pairing engine work?", "acceptedAnswer": { "@type": "Answer", "text": "You multi-select food dimensions (protein, prep, dairy, vegetable, spice, starch). Each pick activates matrix rows; scores update instantly for bold red through dessert styles, with reasoning." } },
       { "@type": "Question", "name": "Who writes Pairing Method content?", "acceptedAnswer": { "@type": "Answer", "text": "Content is authored by Gustavo Aragones for Pairing Method, with chef-forward, educational intent." } }
     ]
   }
@@ -75,39 +75,35 @@
   <main class="container">
     <section class="hero">
       <h1>Structured Wine Pairing Intelligence</h1>
-      <section class="direct-answer" aria-label="Quick answer">
-        <h2>Quick answer</h2>
-        <p>
-          Pairing Method is a structured wine pairing tool and guide hub that matches dishes to wines using culinary logic. The pairing engine scores combinations by weight, tannin, acidity, and preparation—not guesswork. Use dish guides and grape pages when you want deeper context beyond a single recommendation.
-        </p>
-      </section>
-      <p class="definition-block"><strong>Wine pairing works by balancing intensity, acidity, tannin, fat, and texture between food and wine.</strong></p>
-      <p class="intro">
-        Pairing Method helps you choose the right wine using structured culinary logic — not guesswork.
-        We break down why certain wines work with certain dishes, so you can apply the same thinking
-        to any meal. Built for clarity, crawlability, and a pairing engine you can trust.
+      <p class="hero-sub">
+        Find the right wine using structured culinary logic — not guesswork.
       </p>
     </section>
-    <section id="pairing-engine-root" aria-label="Pairing engine">
-      <h2>Find the Right Wine</h2>
 
-      <div class="engine-controls">
-        <label for="food-select">Choose a dish:</label>
-        <select id="food-select">
-          <option value="">-- Select a Dish --</option>
-        </select>
-
-        <button id="calculate-btn">Find Pairing</button>
-      </div>
-
-      <div id="results"></div>
+    <section class="engine-hero" aria-label="Pairing engine">
+      <div id="pairing-engine-root"></div>
+      <div id="matrix-root" aria-label="Pairing matrix heatmap"></div>
     </section>
+
+    <section class="quick-explanation">
+      <h2>How It Works</h2>
+      <p>
+        Wine pairing works by balancing intensity, acidity, tannin, fat, and texture between food and wine.
+      </p>
+    </section>
+
+    <section class="supporting-text">
+      <p>
+        Pairing Method helps you choose the right wine using structured culinary logic. We break down why wines work with specific dishes so you can apply the same thinking to any meal.
+      </p>
+    </section>
+
     <section class="disclaimer">
-    <p>
-      This site provides structured wine pairing guidance for informational purposes only. Recommendations are based on general culinary principles and may vary depending on preparation, ingredients, and personal preference.
-    </p>
-  </section>
-</main>
+      <p>
+        This site provides structured wine pairing guidance for informational purposes only. Recommendations are based on general culinary principles and may vary depending on preparation, ingredients, and personal preference.
+      </p>
+    </section>
+  </main>
 
   <footer>
     <div class="container">
@@ -129,6 +125,6 @@
     </div>
   </footer>
 
-  <script type="module" src="/assets/js/ui.js"></script>
+  <script type="module" src="/assets/js/pairing-engine.js"></script>
 </body>
 </html>

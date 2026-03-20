@@ -83,7 +83,45 @@ main.container > p,
 }
 
 .hero {
-  padding: 3rem 0 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 2rem 0 0;
+}
+
+.hero-sub {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.engine-hero {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.engine-hero #pairing-engine-root {
+  margin-top: 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.quick-explanation {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quick-explanation h2 {
+  margin-top: 0;
+}
+
+.supporting-text {
+  margin-top: 2rem;
+  color: #444;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
@@ -137,6 +175,93 @@ p {
   border-radius: 10px;
   border: 1px solid var(--border);
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+}
+
+/* ---------- Pairing Engine V2 (multi-attribute intersection) ---------- */
+#pairing-engine-root.engine .engine-title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+#pairing-engine-root.engine .engine-lede {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-bottom: 1.25rem;
+  max-width: 40rem;
+}
+
+#pairing-engine-root.engine .filters {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.filter-group .filter-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.filter-chip {
+  margin: 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  background: white;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.filter-chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.filter-chip.is-selected {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.pairing-results {
+  margin-top: 0.75rem;
+}
+
+.result-card {
+  border: 1px solid var(--border);
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.result-card h3 {
+  margin-top: 0;
+}
+
+.result-meta {
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.result-reasoning {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.result-reasoning li {
+  margin-bottom: 0.35rem;
 }
 
 .engine-controls {
@@ -533,4 +658,81 @@ a:hover { text-decoration: underline; }
   h1 {
     font-size: 1.75rem;
   }
+}
+
+/* ---------- Pairing matrix heatmap (live visualization) ---------- */
+#matrix-root {
+  margin-top: 1.25rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.matrix {
+  margin-top: 0;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 0.9rem;
+  min-width: min(100%, 720px);
+}
+
+.matrix-row {
+  display: grid;
+  grid-template-columns: 140px repeat(9, minmax(0, 1fr));
+}
+
+.matrix-header {
+  background: #f3efe9;
+  font-weight: 600;
+}
+
+.matrix-label {
+  padding: 0.6rem;
+  text-transform: capitalize;
+  border-bottom: 1px solid var(--border);
+}
+
+.matrix-corner {
+  border-bottom: 1px solid var(--border);
+}
+
+.matrix-cell {
+  text-align: center;
+  padding: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  border-left: 1px solid var(--border);
+}
+
+.matrix-col.is-top {
+  background: #e8f5e9;
+}
+
+.matrix-row.is-active .matrix-label {
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.cell-perfect {
+  background: #2e7d32;
+  color: white;
+}
+
+.cell-strong {
+  background: #66bb6a;
+  color: white;
+}
+
+.cell-ok {
+  background: #c8e6c9;
+}
+
+.cell-none {
+  background: #f5f5f5;
+}
+
+.matrix-empty {
+  padding: 1rem;
+  text-align: center;
+  color: #777;
+  border-top: 1px solid var(--border);
 }
