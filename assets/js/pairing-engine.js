@@ -11,11 +11,114 @@ import {
   CATEGORY_WEIGHTS,
 } from "./pairing-data.js";
 import { renderMatrix } from "./matrix-view.js";
+import { generateContent } from "./content-engine.js";
+import { injectInternalLinks } from "./internal-links.js";
 
 const CATEGORIES = FILTER_GROUPS.map((g) => g.key);
 
+/** Valid matrix row ids per category (for safe page-context preload). */
+const ALLOWED_VALUES = Object.fromEntries(
+  FILTER_GROUPS.map((g) => [
+    g.key,
+    new Set(g.options.map((o) => o.value)),
+  ])
+);
+
+/**
+ * Empty authoring shape (arrays). Runtime state uses Sets — see `applyContext` + `resetSelections`.
+ */
+export const DEFAULT_STATE = Object.fromEntries(
+  CATEGORIES.map((k) => [k, []])
+);
+
 /** @type {Record<string, Set<string>>} */
 const state = Object.fromEntries(CATEGORIES.map((k) => [k, new Set()]));
+
+/** Skip “Updating…” flash on first paint only */
+let isFirstResultsPaint = true;
+
+/**
+ * Parse `?protein=fish,pork&preparation=grilled` into validated row ids per category.
+ * @returns {Record<string, string[]>}
+ */
+function parseURLState() {
+  if (typeof window === "undefined") return {};
+  const params = new URLSearchParams(window.location.search);
+  const urlState = {};
+
+  Object.keys(DEFAULT_STATE).forEach((key) => {
+    if (!params.has(key)) return;
+    const raw = params.get(key);
+    if (raw == null || raw.trim() === "") return;
+    const allowed = ALLOWED_VALUES[key];
+    if (!allowed) return;
+    const parts = raw
+      .split(",")
+      .map((s) => s.trim())
+      .filter(Boolean)
+      .filter((v) => allowed.has(v));
+    if (parts.length) urlState[key] = parts;
+  });
+
+  return urlState;
+}
+
+/**
+ * Priority: URL query > `window.PAIRING_CONTEXT` > empty.
+ * When any category has valid URL values, URL fully drives initial state (no context merge).
+ */
+function initializeState() {
+  CATEGORIES.forEach((k) => state[k].clear());
+
+  const urlState = parseURLState();
+  if (Object.keys(urlState).length > 0) {
+    Object.entries(urlState).forEach(([key, values]) => {
+      values.forEach((v) => state[key].add(v));
+    });
+    return;
+  }
+
+  applyContext();
+}
+
+/**
+ * Merge `window.PAIRING_CONTEXT` into engine state (arrays of row ids per category).
+ * Invalid keys/values are ignored. Used when URL has no engine params.
+ * @returns {boolean} true if at least one value was applied
+ */
+function applyContext() {
+  const ctx = typeof window !== "undefined" ? window.PAIRING_CONTEXT : null;
+  if (!ctx || typeof ctx !== "object") return false;
+
+  let applied = false;
+  Object.entries(ctx).forEach(([key, values]) => {
+    if (!state[key] || !Array.isArray(values)) return;
+    const allowed = ALLOWED_VALUES[key];
+    if (!allowed) return;
+    values.forEach((v) => {
+      if (typeof v === "string" && allowed.has(v)) {
+        state[key].add(v);
+        applied = true;
+      }
+    });
+  });
+  return applied;
+}
+
+function updateURL() {
+  if (typeof window === "undefined") return;
+  const params = new URLSearchParams();
+  Object.entries(state).forEach(([key, values]) => {
+    const arr = values instanceof Set ? [...values] : [];
+    if (arr.length > 0) params.set(key, arr.join(","));
+  });
+  const qs = params.toString();
+  const hash = window.location.hash || "";
+  const newURL = qs
+    ? `${window.location.pathname}?${qs}${hash}`
+    : `${window.location.pathname}${hash}`;
+  window.history.replaceState({}, "", newURL);
+}
 
 function escapeHtml(s) {
   return String(s)
@@ -27,6 +130,21 @@ function escapeHtml(s) {
 
 function flattenSelections() {
   return CATEGORIES.flatMap((cat) => [...state[cat]]);
+}
+
+function scrollEngineIntoViewIfSelections() {
+  if (typeof window === "undefined") return;
+  if (flattenSelections().length === 0) return;
+
+  const prefersReduce =
+    window.matchMedia &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  requestAnimationFrame(() => {
+    document.getElementById("pairing-engine-root")?.scrollIntoView({
+      behavior: prefersReduce ? "auto" : "smooth",
+      block: "start",
+    });
+  });
 }
 
 function humanizeNode(key) {
@@ -122,7 +240,16 @@ function getResults() {
     .slice(0, 3);
 }
 
-function renderResults(root) {
+function animateResultCards(container) {
+  requestAnimationFrame(() => {
+    container.querySelectorAll(".result-card").forEach((el) => {
+      el.classList.add("result-card-enter");
+      setTimeout(() => el.classList.add("result-card-active"), 10);
+    });
+  });
+}
+
+function paintResults(root) {
   const container = root.querySelector("#results");
   if (!container) return;
 
@@ -158,6 +285,106 @@ function renderResults(root) {
     .join("");
 
   renderMatrix(state, rows);
+  renderActiveSelections(root);
+  animateResultCards(container);
+  updateURL();
+
+  const dynamic = generateContent(state, rows);
+  renderDynamicContent(dynamic);
+  injectInternalLinks(state);
+}
+
+/**
+ * Long-form explanations beside the engine (same for URL + page context).
+ * @param {{ why: string; topWines: { label: string; score: number; baseline: boolean }[]; avoid: string[]; tips: string }} content
+ */
+function renderDynamicContent(content) {
+  const root = document.getElementById("dynamic-content");
+  if (!root) return;
+
+  const avoidText =
+    content.avoid.length > 0
+      ? content.avoid.join(", ")
+      : "No wine style column hits zero on your selected rows — still watch weight and acidity so the bottle doesn’t overpower the plate.";
+
+  const topHtml = content.topWines
+    .map((w) => {
+      const meta = w.baseline
+        ? " — reference order until you add rows"
+        : ` — ${w.score}% matrix match`;
+      return `<li><strong>${escapeHtml(w.label)}</strong>${escapeHtml(meta)}</li>`;
+    })
+    .join("");
+
+  root.innerHTML = `
+    <section class="dynamic-section" aria-live="polite">
+      <h2>Why This Works</h2>
+      <p>${escapeHtml(content.why)}</p>
+
+      <h2>Top Wines</h2>
+      <ul class="dynamic-top-wines">${topHtml}</ul>
+
+      <h2>Wines to Avoid</h2>
+      <p>${escapeHtml(avoidText)}</p>
+
+      <h2>Serving Tips</h2>
+      <p>${escapeHtml(content.tips)}</p>
+    </section>
+  `;
+}
+
+function renderResults(root) {
+  const container = root.querySelector("#results");
+  if (!container) return;
+
+  if (isFirstResultsPaint) {
+    isFirstResultsPaint = false;
+    paintResults(root);
+    return;
+  }
+
+  container.innerHTML = "<p class=\"loading\">Updating pairing…</p>";
+  setTimeout(() => paintResults(root), 55);
+}
+
+/**
+ * Summary of current picks; chips remove via same toggle as filter buttons.
+ * @param {HTMLElement} root
+ */
+function renderActiveSelections(root) {
+  const container =
+    root.querySelector("#active-selections") ||
+    document.getElementById("active-selections");
+  if (!container) return;
+
+  const pairs = FILTER_GROUPS.flatMap(({ key }) => {
+    const bag = state[key];
+    const values =
+      bag instanceof Set ? [...bag] : Array.isArray(bag) ? bag : [];
+    return values.map((v) => ({ cat: key, v }));
+  });
+
+  if (pairs.length === 0) {
+    container.innerHTML =
+      '<p class="active-selections-empty">Pick ingredients above — your choices appear here.</p>';
+    return;
+  }
+
+  container.innerHTML = pairs
+    .map(
+      ({ cat, v }) =>
+        `<button type="button" class="active-chip" data-pe-remove-cat="${escapeHtml(cat)}" data-pe-remove-val="${escapeHtml(v)}">${escapeHtml(humanizeNode(v))} <span aria-hidden="true">✕</span></button>`
+    )
+    .join(" ");
+}
+
+function resetSelections() {
+  CATEGORIES.forEach((k) => state[k].clear());
+  const root = document.getElementById("pairing-engine-root");
+  if (root) {
+    syncButtonState(root);
+    renderResults(root);
+  }
 }
 
 function syncButtonState(root) {
@@ -191,11 +418,14 @@ function buildFilterMarkup() {
 
 const ENGINE_MARKUP = `
   <h2 class="engine-title">Build Your Pairing</h2>
+  <div id="active-selections" class="active-selections" aria-label="Current selections"></div>
   <p class="engine-lede">Multi-select food dimensions — each choice activates a matrix row. We score all nine wine style columns (0–3 per cell) and surface the top three matches with live reasoning.</p>
   <div class="filters">
     ${buildFilterMarkup()}
   </div>
+  <button type="button" class="reset-btn">Reset</button>
   <div id="results" class="pairing-results" aria-live="polite"></div>
+  <button type="button" class="share-btn">Copy shareable link</button>
 `;
 
 export function toggleSelection(category, value) {
@@ -215,11 +445,43 @@ export function setSelection(category, value) {
 }
 
 function onRootClick(e) {
+  const removeChip = e.target.closest(
+    ".active-chip[data-pe-remove-cat][data-pe-remove-val]"
+  );
+  if (removeChip) {
+    const cat = removeChip.getAttribute("data-pe-remove-cat");
+    const val = removeChip.getAttribute("data-pe-remove-val");
+    if (cat && val) toggleSelection(cat, val);
+    return;
+  }
+
+  if (e.target.closest(".reset-btn")) {
+    e.preventDefault();
+    resetSelections();
+    return;
+  }
+
   const btn = e.target.closest("[data-pe-category][data-pe-value]");
   if (!btn) return;
   const cat = btn.getAttribute("data-pe-category");
   const val = btn.getAttribute("data-pe-value");
   if (cat && val) toggleSelection(cat, val);
+}
+
+function copyPairingLink() {
+  const href = window.location.href;
+  if (navigator.clipboard?.writeText) {
+    navigator.clipboard.writeText(href).then(
+      () => {
+        alert("Link copied");
+      },
+      () => {
+        prompt("Copy this link:", href);
+      }
+    );
+  } else {
+    prompt("Copy this link:", href);
+  }
 }
 
 export function initPairingEngine() {
@@ -230,13 +492,21 @@ export function initPairingEngine() {
     root.innerHTML = ENGINE_MARKUP;
   }
 
+  initializeState();
+
   root.classList.add("engine");
   root.addEventListener("click", onRootClick);
   syncButtonState(root);
   renderResults(root);
 
+  if (flattenSelections().length > 0) {
+    scrollEngineIntoViewIfSelections();
+  }
+
   window.setSelection = setSelection;
   window.toggleSelection = toggleSelection;
+  window.resetSelections = resetSelections;
+  window.copyPairingLink = copyPairingLink;
 }
 
 if (document.readyState === "loading") {

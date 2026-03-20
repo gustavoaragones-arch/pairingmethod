@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pinot Noir Wine Guide | Pairing Method</title>
-  <meta name="description" content="Pinot Noir structure, acidity, regions, and best pairings explained using structured culinary logic.">
-  <link rel="canonical" href="https://pairingmethod.com/grapes/pinot-noir.html">
+  <title>{{PAGE_TITLE}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <link rel="canonical" href="{{CANONICAL_URL}}">
 
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://pairingmethod.com/grapes/pinot-noir.html">
-  <meta property="og:title" content="Pinot Noir Wine Guide | Pairing Method">
-  <meta property="og:description" content="Pinot Noir: structure, flavor, regions, and best food pairings. Chef-forward guide.">
+  <meta property="og:url" content="{{CANONICAL_URL}}">
+  <meta property="og:title" content="{{OG_TITLE}}">
+  <meta property="og:description" content="{{META_DESCRIPTION}}">
   <meta property="og:locale" content="en_US">
 
   <script type="application/ld+json">
@@ -36,24 +36,16 @@
   }
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": "Is Pinot Noir good with fish?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. It works especially well with salmon and other fatty fish due to moderate tannin and acidity." } },
-      { "@type": "Question", "name": "What's the difference between Burgundy and New World Pinot?", "acceptedAnswer": { "@type": "Answer", "text": "Burgundy tends to be leaner and earthier; New World examples often have riper fruit and more body." } },
-      { "@type": "Question", "name": "Should Pinot Noir be served chilled?", "acceptedAnswer": { "@type": "Answer", "text": "Light chill (55–60°F) is ideal; too warm flattens the fruit." } }
-    ]
-  }
+  {{FAQ_SCHEMA_JSON}}
   </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Pinot Noir",
+    "headline": "{{H1}}",
     "author": { "@type": "Person", "name": "Gustavo Aragones" },
     "publisher": { "@type": "Organization", "name": "Pairing Method" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://pairingmethod.com/grapes/pinot-noir.html" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "{{CANONICAL_URL}}" }
   }
   </script>
   <link rel="stylesheet" href="/assets/css/styles.css">
@@ -77,61 +69,60 @@
   <main class="container">
     <article>
       <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a> &gt; <a href="/grapes.html">Grapes</a> &gt; <span>Pinot Noir</span>
+        <a href="/">Home</a> &gt; <a href="/pairings.html">Wine Pairings</a> &gt; <span>{{BREADCRUMB_LABEL}}</span>
       </nav>
-      <h1>Pinot Noir</h1>
+
+      <h1>{{H1}}</h1>
 
       <section class="direct-answer" aria-label="Quick answer">
         <h2>Quick answer</h2>
-        <p>
-          Pinot Noir is a medium-bodied red with bright acidity and soft, moderate tannin. That profile suits salmon, poultry, and lean meats without overwhelming lighter flavors. Very rich, fatty cuts may call for a more structured red instead.
-        </p>
+        <p>{{INTRO}}</p>
       </section>
 
-      <p class="definition-block"><strong>Medium-bodied reds bridge lighter proteins and earth-driven flavors when tannin stays restrained.</strong></p>
+      <p class="definition-block"><strong>Wine pairing works by balancing intensity, acidity, tannin, fat, and texture between food and wine.</strong></p>
 
-      <h2>Structural Profile</h2>
-      <table class="structure-table">
-        <tr><td>Body</td><td>3 / 5</td></tr>
-        <tr><td>Tannin</td><td>2 / 5</td></tr>
-        <tr><td>Acidity</td><td>3 / 5</td></tr>
-        <tr><td>Alcohol</td><td>3 / 5</td></tr>
-        <tr><td>Sweetness</td><td>0 / 5</td></tr>
-      </table>
+      <section aria-label="Related pairing guides">
+        <h2>How this fits your meal</h2>
+        <p>{{RELATED_BODY}}</p>
+      </section>
 
-      <h2>Flavor Profile</h2>
-      <p>Cherry, raspberry, mushroom, earth, forest floor.</p>
+      <section id="engine-enhancement" aria-label="Refine your pairing">
+        <h2>Refine Your Pairing</h2>
+        <p>Adjust ingredients and preparation below—the matrix scores nine wine style families from the same logic as our <a href="/pairing-matrix.html">pairing matrix</a>.</p>
 
-      <h2>Top pairings</h2>
-      <ul>
-        <li><a href="/wine-with-salmon.html">Salmon</a></li>
-        <li><a href="/wine-with-chicken.html">Roast Chicken</a></li>
-        <li><a href="/wine-for-thanksgiving-turkey.html">Turkey</a></li>
-      </ul>
+        {{CONTEXT}}
 
-      <h2>Key Regions</h2>
-      <p>Burgundy (France), Oregon, New Zealand, California.</p>
-
-      <h2>Price Expectations</h2>
-      <p>$15–$30 entry. $40+ premium Burgundy.</p>
-
-      <h2>Similar Wines</h2>
-      <p>Gamay, lighter Grenache.</p>
+        <p class="context-note">
+          Showing recommended pairing for this dish. Adjust to refine.
+        </p>
+        <div id="pairing-engine-root"></div>
+        <div id="matrix-root" aria-label="Pairing matrix heatmap"></div>
+        <div id="dynamic-content" aria-label="Pairing insights"></div>
+        <div id="internal-links" class="internal-links" aria-label="Related pairing guides"></div>
+      </section>
 
       <section class="faq" aria-label="Frequently asked questions">
         <h2>FAQ</h2>
-        <div class="faq-item">
-          <h3>Is Pinot Noir good with fish?</h3>
-          <p>Yes. It works especially well with salmon and other fatty fish due to moderate tannin and acidity.</p>
-        </div>
-        <div class="faq-item">
-          <h3>What’s the difference between Burgundy and New World Pinot?</h3>
-          <p>Burgundy tends to be leaner and earthier; New World examples often have riper fruit and more body.</p>
-        </div>
-        <div class="faq-item">
-          <h3>Should Pinot Noir be served chilled?</h3>
-          <p>Light chill (55–60°F) is ideal; too warm flattens the fruit.</p>
-        </div>
+        {{FAQ_HTML}}
+      </section>
+
+      <section class="serving-essentials" aria-label="Serving essentials">
+        <h2>Serving essentials</h2>
+        <ul>
+          {{SERVING_LI}}
+        </ul>
+      </section>
+
+      <section class="final-cta" aria-label="Pairing tool call to action">
+        <h2>Explore more pairings</h2>
+        <p>Browse <a href="/pairings.html">all wine pairing guides</a> or return to the <a href="/">home pairing tool</a>.</p>
+      </section>
+
+      <section class="explore-pairings-cta" aria-label="Explore all pairings">
+        <h2>Explore All Pairings</h2>
+        <p>
+          Browse our complete <a href="/pairings.html">wine pairing guides</a> for different foods and cooking styles.
+        </p>
       </section>
     </article>
     <section class="mini-disclaimer">
@@ -139,7 +130,7 @@
         Pairing guidance is based on general culinary principles and may vary by preparation and preference.
       </p>
     </section>
-</main>
+  </main>
 
   <footer class="site-footer">
   <div class="container footer-grid">
@@ -196,5 +187,6 @@
   </div>
 </footer>
 
+  <script type="module" src="/assets/js/pairing-engine.js"></script>
 </body>
 </html>

@@ -79,7 +79,15 @@
   <!-- ========== MAIN ========== -->
   <main class="container">
     <article>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a> &gt; <span>Wine Pairing Guides</span>
+      </nav>
       <h1>Wine Pairing Guides</h1>
+
+      <section class="new-pairings" aria-label="Latest pairing guides">
+        <h2>Latest Pairing Guides</h2>
+        <ul id="latest-pages"></ul>
+      </section>
 
       <section class="direct-answer" aria-label="Quick answer">
         <h2>Quick answer</h2>
@@ -119,34 +127,99 @@
         <ul class="hub-list">
           <li><a href="/wine-with-salmon.html">Best Wine for Salmon</a> — Grilled, pan-seared, butter and lemon</li>
         </ul>
+
+        <section aria-label="Explore by cooking method">
+          <h2>Explore by Cooking Method</h2>
+          <ul class="hub-list">
+            <li><a href="/wine-with-grilled-steak.html">Best wine for grilled foods</a> — Grilled steak lens (char + red meat)</li>
+            <li><a href="/wine-with-roasted-chicken.html">Best wine for roasted dishes</a> — Roasted chicken lens (oven + poultry)</li>
+            <li><a href="/wine-with-fried-fish.html">Best wine for fried foods</a> — Fried fish lens (crisp crust + seafood)</li>
+          </ul>
+        </section>
+
+        <h2>Preparation &amp; flavor lenses</h2>
+        <p class="hub-intro" style="margin-top: 0.5rem;">
+          High-intent pages keyed to 2–3 matrix attributes (validated pairings only—no random combos). Each uses the same engine as <a href="/">home</a>.
+        </p>
+        <ul class="hub-list">
+          <li><a href="/wine-with-grilled-steak.html">Best Wine for Grilled Steak</a> — Char + red meat</li>
+          <li><a href="/wine-with-roasted-chicken.html">Best Wine for Roasted Chicken</a> — Oven roast + poultry</li>
+          <li><a href="/wine-with-fried-fish.html">Best Wine for Fried Fish</a> — Crisp crust + fish</li>
+          <li><a href="/wine-with-spicy-food.html">Best Wine for Spicy Food</a> — Heat-forward dishes</li>
+          <li><a href="/wine-with-creamy-dishes.html">Best Wine for Creamy Dishes</a> — Dairy-rich plates</li>
+          <li><a href="/wine-with-smoked-pork.html">Best Wine for Smoked Pork</a> — Smoke + pork</li>
+        </ul>
+      </section>
+
+      <section class="explore-pairings-cta" aria-label="Explore all pairings">
+        <h2>Explore All Pairings</h2>
+        <p>
+          Browse our complete <a href="/pairings.html">wine pairing guides hub</a> for different foods and cooking styles, or open the <a href="/">interactive pairing engine</a> with shareable URLs.
+        </p>
       </section>
     </article>
-    <section class="disclaimer">
-    <p>
-      This site provides structured wine pairing guidance for informational purposes only. Recommendations are based on general culinary principles and may vary depending on preparation, ingredients, and personal preference.
-    </p>
-  </section>
+    <section class="mini-disclaimer">
+      <p>
+        Pairing guidance is based on general culinary principles and may vary by preparation and preference.
+      </p>
+    </section>
 </main>
 
   <!-- ========== FOOTER ========== -->
-  <footer>
-    <div class="container">
+  <footer class="site-footer">
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+      <div class="footer-logo">Pairing Method</div>
+      <p class="footer-tagline">
+        Structured wine pairing intelligence based on culinary principles.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <div>
+        <strong>Explore</strong>
+        <a href="/pairings.html">Pairings</a>
+        <a href="/seasonal-wine-guides.html">Seasonal</a>
+        <a href="/pairing-matrix.html">Pairing Matrix</a>
+      </div>
 
       <div>
-        <a href="/">Home</a>
-        <a href="/pairings.html">Pairings</a>
+        <strong>Resources</strong>
+        <a href="/grapes/cabernet-sauvignon.html">Cabernet Sauvignon</a>
+        <a href="/grapes/pinot-noir.html">Pinot Noir</a>
+        <a href="/grapes/chardonnay.html">Chardonnay</a>
+      </div>
+
+      <div>
+        <strong>Company</strong>
+        <a href="/about.html">About</a>
         <a href="/privacy.html">Privacy</a>
         <a href="/terms.html">Terms</a>
         <a href="/disclaimer.html">Disclaimer</a>
       </div>
-
-      <div>
-        <p>© Pairing Method — Operated by Albor Digital LLC</p>
-        <p>Wyoming, United States</p>
-        <p>Contact: contact@albor.digital</p>
-      </div>
-
     </div>
-  </footer>
+
+    <div class="footer-meta">
+      <p>Operated by Albor Digital LLC</p>
+      <p>Wyoming, United States</p>
+      <p>
+        <a href="mailto:contact@pairingmethod.com">
+          contact@pairingmethod.com
+        </a>
+      </p>
+    </div>
+
+  </div>
+
+  <p class="crawl-hint">
+    Explore more structured wine pairings across different foods and cooking styles.
+  </p>
+
+  <div class="footer-bottom">
+    © Pairing Method — All rights reserved
+  </div>
+</footer>
+  <script src="/assets/js/latest-pages.js" defer></script>
 </body>
 </html>

@@ -35,16 +35,38 @@ function getClass(val) {
   return "cell-none";
 }
 
-function dot(val) {
-  if (val === 3 || val === 2 || val === 1) return "●";
-  return "";
-}
-
 function formatLabel(str) {
   return str
     .split("_")
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(" ");
+}
+
+function buildTooltip(selection, style, val) {
+  const food = formatLabel(selection);
+  const wine = formatLabel(style);
+  if (val === 3) {
+    return `${food} × ${wine}: perfect pairing — structural alignment`;
+  }
+  if (val === 2) {
+    return `${food} × ${wine}: strong pairing — good balance`;
+  }
+  if (val === 1) {
+    return `${food} × ${wine}: acceptable pairing`;
+  }
+  return `${food} × ${wine}: not recommended`;
+}
+
+/**
+ * @param {number} val
+ * @param {string} selection
+ * @param {string} style
+ */
+function dot(val, selection, style) {
+  if (!val) return "";
+
+  const tip = escapeHtml(buildTooltip(selection, style, val));
+  return `<span class="matrix-dot" data-tip="${tip}" tabindex="0" role="img" aria-label="${tip}">●</span>`;
 }
 
 function cellTitle(val) {
@@ -95,7 +117,7 @@ export function renderMatrix(state, results) {
           const title = escapeHtml(cellTitle(val));
           return `
           <div class="matrix-cell ${cls}" role="gridcell" title="${title}" aria-label="${title}">
-            ${dot(val)}
+            ${dot(val, sel, style)}
           </div>
         `;
         }).join("")}
