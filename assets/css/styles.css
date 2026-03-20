@@ -446,6 +446,12 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
 }
 
+.disclaimer {
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
 /* ---------- Mobile ---------- */
 @media (max-width: 768px) {
   h1 {

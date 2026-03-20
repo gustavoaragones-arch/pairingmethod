@@ -14,10 +14,26 @@
   <meta property="og:locale" content="en_US">
 
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://pairingmethod.com/"},{"@type":"ListItem","position":2,"name":"Thanksgiving Wine Guide","item":"https://pairingmethod.com/thanksgiving-wine-guide.html"}]}
-  </script>
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Organization","name":"Pairing Method","url":"https://pairingmethod.com","description":"Structured culinary wine pairing system based on food and wine attributes.","founder":{"@type":"Person","name":"Gustavo Aragones"}}
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Pairing Method",
+    "url": "https://pairingmethod.com",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Albor Digital LLC",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Wyoming",
+        "addressCountry": "US"
+      }
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "contact@pairingmethod.com",
+      "contactType": "customer support"
+    }
+  }
   </script>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Red or white wine for Thanksgiving?","acceptedAnswer":{"@type":"Answer","text":"Medium-bodied reds and balanced whites both work. Avoid heavy tannins."}},{"@type":"Question","name":"Is Cabernet Sauvignon good for Thanksgiving?","acceptedAnswer":{"@type":"Answer","text":"Usually too tannic unless the meal centers on red meat."}},{"@type":"Question","name":"How many bottles should I buy?","acceptedAnswer":{"@type":"Answer","text":"Plan one bottle per 2–3 guests."}}]}
@@ -35,7 +51,7 @@
         <a href="/">Home</a>
         <a href="/pairings.html">Pairings</a>
         <a href="/grapes.html">Grapes</a>
-        <a href="#">Seasonal</a>
+        <a href="/seasonal-wine-guides.html">Seasonal</a>
         <a href="/about.html">About</a>
       </nav>
     </div>
@@ -102,16 +118,30 @@
         <p>Plan one bottle per 2–3 guests.</p>
       </div>
     </section>
-  </main>
+    <section class="disclaimer">
+    <p>
+      This site provides structured wine pairing guidance for informational purposes only. Recommendations are based on general culinary principles and may vary depending on preparation, ingredients, and personal preference.
+    </p>
+  </section>
+</main>
 
   <footer>
     <div class="container">
-      <nav>
+
+      <div>
         <a href="/">Home</a>
-        <a href="/about.html">About</a>
+        <a href="/pairings.html">Pairings</a>
         <a href="/privacy.html">Privacy</a>
-      </nav>
-      <p><small>© Pairing Method. For educational purposes.</small></p>
+        <a href="/terms.html">Terms</a>
+        <a href="/disclaimer.html">Disclaimer</a>
+      </div>
+
+      <div>
+        <p>© Pairing Method — Operated by Albor Digital LLC</p>
+        <p>Wyoming, United States</p>
+        <p>Contact: contact@albor.digital</p>
+      </div>
+
     </div>
   </footer>
 
