@@ -1075,6 +1075,7 @@ a:hover { text-decoration: underline; }
 }
 
 /* Hub + homepage: freshness / discovery blocks */
+.popular-pairings,
 .new-pairings,
 .recent-updates {
   margin: 1.5rem 0 2rem;
@@ -1084,6 +1085,7 @@ a:hover { text-decoration: underline; }
   border-radius: 8px;
 }
 
+.popular-pairings h2,
 .new-pairings h2,
 .recent-updates h2 {
   font-family: Georgia, serif;
@@ -1092,12 +1094,14 @@ a:hover { text-decoration: underline; }
   color: var(--text);
 }
 
+.popular-pairings ul,
 .new-pairings ul,
 .recent-updates ul {
   margin: 0;
   padding-left: 1.25rem;
 }
 
+.popular-pairings li,
 .new-pairings li,
 .recent-updates li {
   margin: 0.35rem 0;
