@@ -3,6 +3,10 @@
  * Matrix cells: 0 = avoid, 1 = acceptable, 2 = strong, 3 = perfect.
  */
 
+/**
+ * Semantic descriptor slugs — must exist in wine-terms-data.js WINE_TERMS.
+ * Keys: body, tannin, acidity, fruit, spice, earth (pairing + SEO layer).
+ */
 export const WINES = [
   {
     id: "cabernet",
@@ -12,6 +16,14 @@ export const WINES = [
     acidity: 3,
     sweetness: 1,
     tags: ["red", "bold"],
+    descriptors: {
+      body: ["full-bodied", "powerful", "concentrated"],
+      tannin: ["firm", "grippy", "tannic"],
+      acidity: ["structured", "fresh"],
+      fruit: ["blackberry", "cassis", "black-fruit"],
+      spice: ["vanilla", "cedar", "oak"],
+      earth: ["graphite", "tobacco"],
+    },
   },
   {
     id: "pinot-noir",
@@ -21,6 +33,14 @@ export const WINES = [
     acidity: 4,
     sweetness: 1,
     tags: ["red", "light"],
+    descriptors: {
+      body: ["light-bodied", "delicate", "elegant"],
+      tannin: ["silky", "soft", "supple"],
+      acidity: ["bright", "fresh", "racy"],
+      fruit: ["cherry", "red-fruit"],
+      spice: ["spicy"],
+      earth: ["earthy", "violet"],
+    },
   },
   {
     id: "chardonnay",
@@ -30,6 +50,14 @@ export const WINES = [
     acidity: 3,
     sweetness: 1,
     tags: ["white", "rich"],
+    descriptors: {
+      body: ["rich", "opulent", "full-bodied"],
+      tannin: ["soft"],
+      acidity: ["fresh", "crisp"],
+      fruit: ["stone-fruit", "citrus"],
+      spice: ["buttery", "vanilla", "toast", "oak"],
+      earth: ["minerality"],
+    },
   },
   {
     id: "sauvignon-blanc",
@@ -39,6 +67,14 @@ export const WINES = [
     acidity: 5,
     sweetness: 1,
     tags: ["white", "light"],
+    descriptors: {
+      body: ["light-bodied", "lean"],
+      tannin: ["soft"],
+      acidity: ["high-acidity", "zesty", "racy", "crisp"],
+      fruit: ["citrus", "grassy"],
+      spice: ["herbal", "black-pepper"],
+      earth: ["minerality"],
+    },
   },
   {
     id: "riesling",
@@ -48,8 +84,92 @@ export const WINES = [
     acidity: 5,
     sweetness: 3,
     tags: ["white", "sweet"],
+    descriptors: {
+      body: ["light-bodied"],
+      tannin: ["soft"],
+      acidity: ["high-acidity", "racy", "linear"],
+      fruit: ["apricot", "citrus", "lychee"],
+      spice: [],
+      earth: ["minerality"],
+    },
   },
 ];
+
+/** Matrix column → semantic tags (for “why this works” copy + term links). */
+export const WINE_STYLE_SEMANTICS = {
+  bold_red: {
+    body: ["full-bodied", "powerful", "concentrated"],
+    tannin: ["firm", "grippy", "tannic"],
+    acidity: ["structured", "fresh"],
+    fruit: ["blackberry", "cassis"],
+    spice: ["vanilla", "clove", "oak"],
+    earth: ["graphite", "tobacco"],
+  },
+  medium_red: {
+    body: ["structured", "rich"],
+    tannin: ["supple", "firm"],
+    acidity: ["bright", "balanced"],
+    fruit: ["cherry", "plummy", "red-fruit"],
+    spice: ["spicy", "oak"],
+    earth: ["earthy", "leathery"],
+  },
+  light_red: {
+    body: ["light-bodied", "delicate"],
+    tannin: ["soft", "silky"],
+    acidity: ["bright", "fresh"],
+    fruit: ["red-fruit", "cherry"],
+    spice: [],
+    earth: ["earthy"],
+  },
+  rose: {
+    body: ["light-bodied"],
+    tannin: ["soft"],
+    acidity: ["crisp", "bright"],
+    fruit: ["red-fruit", "citrus"],
+    spice: [],
+    earth: [],
+  },
+  rich_white: {
+    body: ["rich", "opulent"],
+    tannin: ["soft"],
+    acidity: ["fresh", "crisp"],
+    fruit: ["stone-fruit", "citrus"],
+    spice: ["buttery", "vanilla", "toast", "oak"],
+    earth: ["minerality"],
+  },
+  light_white: {
+    body: ["light-bodied", "lean"],
+    tannin: ["soft"],
+    acidity: ["high-acidity", "crisp", "zesty"],
+    fruit: ["citrus"],
+    spice: ["herbal"],
+    earth: ["minerality", "grassy"],
+  },
+  sparkling: {
+    body: ["light-bodied"],
+    tannin: ["soft"],
+    acidity: ["high-acidity", "racy", "crisp"],
+    fruit: ["citrus", "stone-fruit"],
+    spice: ["toast", "brioche"],
+    earth: ["minerality"],
+  },
+  sweet_white: {
+    body: ["rich"],
+    tannin: ["soft"],
+    acidity: ["racy", "bright"],
+    fruit: ["apricot", "lychee", "ripe", "lush"],
+    spice: [],
+    earth: [],
+  },
+  dessert: {
+    body: ["opulent"],
+    tannin: ["soft"],
+    acidity: ["balanced"],
+    fruit: ["honeyed", "marmalade"],
+    spice: ["toffee", "caramel"],
+    earth: [],
+  },
+};
 
 /** Legacy attribute rules — retained for future hybrid layering. */
 export const RULES = {

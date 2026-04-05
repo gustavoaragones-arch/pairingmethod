@@ -92,11 +92,44 @@
       </ul>
     </section>
 
+    <section class="semantic-entry" aria-label="Wine vocabulary">
+      <h2>Start from flavor, not guesswork</h2>
+      <p>Search a tasting note, then jump into the same structured logic the pairing engine uses.</p>
+      <label class="visually-hidden" for="term-search-input">Search wine terms</label>
+      <input type="search" id="term-search-input" class="term-search-input" placeholder="Search terms like 'high acidity', 'jammy', 'tannic'" autocomplete="off" enterkeyhint="search">
+      <div id="term-search-results" class="term-search-results" hidden></div>
+      <div id="term-shortcuts" class="term-shortcuts"></div>
+    </section>
+
     <section class="engine-hero" aria-label="Pairing engine">
       <div id="pairing-engine-root"></div>
       <div id="matrix-root" aria-label="Pairing matrix heatmap"></div>
       <div id="dynamic-content" aria-label="Pairing insights"></div>
       <div id="internal-links" class="internal-links" aria-label="Related pairing guides"></div>
+    </section>
+
+    <section class="seo-block" aria-label="Wine pairing overview for search">
+      <h2>Wine pairing explained simply</h2>
+      <p>Wine pairing works by balancing <a href="/terms/acidity.html">acidity</a>, <a href="/terms/tannin.html">tannin</a>, <a href="/terms/body.html">body</a>, and flavor intensity. For example, high-tannin wines like <a href="/grapes/cabernet-sauvignon.html">Cabernet Sauvignon</a> pair well with fatty meats such as <a href="/wine-with-steak.html">steak</a> because tannins bind to protein and fat, softening the wine’s structure on the palate.</p>
+    </section>
+
+    <section class="term-grid-section" aria-label="Top wine glossary entries">
+      <h2>Core wine terms</h2>
+      <p class="term-grid-lede">Jump straight into the vocabulary the pairing engine uses—no extra click depth.</p>
+      <div class="term-grid">
+        <a class="term-grid-cell" href="/terms/tannin.html">Tannin</a>
+        <a class="term-grid-cell" href="/terms/acidity.html">Acidity</a>
+        <a class="term-grid-cell" href="/terms/body.html">Body</a>
+        <a class="term-grid-cell" href="/terms/tannic.html">Tannic</a>
+        <a class="term-grid-cell" href="/terms/high-acidity.html">High acidity</a>
+        <a class="term-grid-cell" href="/terms/full-bodied.html">Full-bodied</a>
+        <a class="term-grid-cell" href="/terms/jammy.html">Jammy</a>
+        <a class="term-grid-cell" href="/terms/crisp.html">Crisp</a>
+        <a class="term-grid-cell" href="/terms/minerality.html">Minerality</a>
+        <a class="term-grid-cell" href="/terms/earthy.html">Earthy</a>
+        <a class="term-grid-cell" href="/terms/grippy.html">Grippy</a>
+        <a class="term-grid-cell" href="/terms/balanced.html">Balanced</a>
+      </div>
     </section>
 
     <section class="quick-explanation">
@@ -190,6 +223,16 @@
   </div>
 </footer>
 
+  <div id="term-cta-sticky" class="term-cta-sticky" aria-hidden="true">
+    <p class="term-cta-sticky-text">Not sure what to pick? <strong>Start with flavor</strong> →</p>
+    <button type="button" class="term-cta-sticky-btn">Explore Wine Terms</button>
+  </div>
+
+  <script type="module" src="/assets/js/quick-learn.js"></script>
+  <script type="module" src="/assets/js/term-delegate.js"></script>
+  <script type="module" src="/assets/js/term-cta-scroll.js"></script>
+  <script type="module" src="/assets/js/semantic-entry.js"></script>
   <script type="module" src="/assets/js/pairing-engine.js"></script>
+  <script type="module" src="/assets/js/term-auto-link.js"></script>
 </body>
 </html>

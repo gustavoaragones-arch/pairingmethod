@@ -13,6 +13,11 @@ import {
 import { renderMatrix } from "./matrix-view.js";
 import { generateContent } from "./content-engine.js";
 import { injectInternalLinks } from "./internal-links.js";
+import {
+  buildResultExplanationHtml,
+  buildStructureBreakdownHtml,
+  buildEngineFeedbackHtml,
+} from "./wine-semantic.js";
 
 const CATEGORIES = FILTER_GROUPS.map((g) => g.key);
 
@@ -256,7 +261,18 @@ function paintResults(root) {
   const rows = getResults();
   const selections = flattenSelections();
 
-  container.innerHTML = rows
+  const topRow = rows[0];
+  const primaryInner =
+    topRow && !topRow.baseline && selections.length > 0
+      ? buildResultExplanationHtml(topRow.style, state, { primary: true })
+      : "";
+
+  const primaryBlock =
+    primaryInner !== ""
+      ? `<div class="pairing-explanation-primary"><h3 class="explanation-title">Why these wines work</h3>${primaryInner}</div>`
+      : "";
+
+  const cardsHtml = rows
     .map((r) => {
       let lines = r.baseline ? baselineReasons() : buildReasoning(r.style);
       if (!r.baseline && lines.length === 0) {
@@ -284,6 +300,16 @@ function paintResults(root) {
     })
     .join("");
 
+  container.innerHTML = `${primaryBlock}<div class="pairing-results-cards" aria-label="Top wine style matches">${cardsHtml}</div>`;
+
+  const feedbackEl = root.querySelector("#engine-feedback");
+  if (feedbackEl) {
+    feedbackEl.innerHTML =
+      selections.length > 0 && topRow
+        ? buildEngineFeedbackHtml(state, topRow.style)
+        : "";
+  }
+
   renderMatrix(state, rows);
   renderActiveSelections(root);
   animateResultCards(container);
@@ -292,6 +318,13 @@ function paintResults(root) {
   const dynamic = generateContent(state, rows);
   renderDynamicContent(dynamic);
   injectInternalLinks(state);
+
+  import("./term-auto-link.js").then((m) => {
+    m.rescanTermLinks(document.getElementById("dynamic-content"));
+    m.rescanTermLinks(document.getElementById("internal-links"));
+    m.rescanTermLinks(container);
+    m.rescanTermLinks(feedbackEl);
+  });
 }
 
 /**
@@ -301,6 +334,12 @@ function paintResults(root) {
 function renderDynamicContent(content) {
   const root = document.getElementById("dynamic-content");
   if (!root) return;
+
+  const structureInner =
+    flattenSelections().length > 0 ? buildStructureBreakdownHtml(state) : "";
+  const structureBlock = structureInner
+    ? `<section class="structure-breakdown" aria-label="Structure breakdown">${structureInner}</section>`
+    : "";
 
   const avoidText =
     content.avoid.length > 0
@@ -318,6 +357,7 @@ function renderDynamicContent(content) {
 
   root.innerHTML = `
     <section class="dynamic-section" aria-live="polite">
+      ${structureBlock}
       <h2>Why This Works</h2>
       <p>${escapeHtml(content.why)}</p>
 
@@ -424,6 +464,7 @@ const ENGINE_MARKUP = `
     ${buildFilterMarkup()}
   </div>
   <button type="button" class="reset-btn">Reset</button>
+  <div id="engine-feedback" class="engine-feedback" aria-live="polite"></div>
   <div id="results" class="pairing-results" aria-live="polite"></div>
   <button type="button" class="share-btn">Copy shareable link</button>
 `;
