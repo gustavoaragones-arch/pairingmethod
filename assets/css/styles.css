@@ -2,13 +2,25 @@
 /* Pairing Method — Base Styles  */
 /* ============================= */
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600&display=swap");
+
 :root {
-  --bg: #f7f3ee;
-  --accent: #5a2a27;
-  --text: #1e1e1e;
-  --muted: #666;
+  --bg-main: #f7f4f1;
+  --bg-soft: #f1ece8;
   --card-bg: #ffffff;
-  --border: #e2ddd7;
+  --text-primary: #1f1a17;
+  --text-secondary: #5c524b;
+  --text-muted: #8a7f77;
+  --wine-red: #6e2c2c;
+  --wine-deep: #3e1f1f;
+  --wine-gold: #c6a15b;
+  --border-subtle: #e6ded8;
+  /* Legacy aliases (existing rules) */
+  --bg: var(--bg-main);
+  --text: var(--text-primary);
+  --accent: var(--wine-red);
+  --muted: var(--text-muted);
+  --border: var(--border-subtle);
 }
 
 * {
@@ -17,10 +29,14 @@
   padding: 0;
 }
 
+section {
+  margin-bottom: 40px;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background-color: var(--bg);
-  color: var(--text);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
   line-height: 1.6;
 }
 
@@ -39,8 +55,8 @@ body.has-term-sticky {
 /* Header */
 
 header {
-  background: white;
-  border-bottom: 1px solid var(--border);
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--border-subtle);
   padding: 1rem 0;
 }
 
@@ -51,39 +67,62 @@ header .container {
 }
 
 .logo {
-  font-family: Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.4rem;
   font-weight: bold;
-  color: var(--accent);
+  color: var(--wine-red);
   text-decoration: none;
 }
 
 nav a {
   margin-left: 1.5rem;
   text-decoration: none;
-  color: var(--text);
+  color: var(--text-primary);
   font-size: 0.95rem;
 }
 
 nav a:hover {
-  color: var(--accent);
+  color: var(--wine-red);
+  text-decoration: underline;
 }
 
 /* Typography */
 
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  letter-spacing: -0.01em;
+}
+
 h1 {
-  font-family: Georgia, serif;
-  font-size: 2.6rem;
+  font-size: 42px;
+  font-weight: 600;
   line-height: 1.2;
   margin-bottom: 1.2rem;
-  letter-spacing: -0.5px;
+  color: var(--wine-deep);
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--wine-gold);
+  margin-top: 12px;
+}
+
+.hero h1::after {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main.container > p,
-.hero p {
-  font-size: 1.05rem;
-  color: #3a3a3a;
-  max-width: 650px;
+.hero p,
+.engine-hero p {
+  font-size: 16px;
+  color: var(--text-secondary);
+  max-width: 640px;
 }
 
 .hero {
@@ -94,7 +133,7 @@ main.container > p,
 
 .hero-sub {
   font-size: 1.1rem;
-  color: #555;
+  color: var(--text-muted);
   max-width: 36rem;
   margin-left: auto;
   margin-right: auto;
@@ -107,7 +146,6 @@ main.container > p,
 
 .engine-hero #pairing-engine-root {
   margin-top: 0;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
 }
 
 .quick-explanation {
@@ -122,34 +160,42 @@ main.container > p,
 
 .supporting-text {
   margin-top: 2rem;
-  color: #444;
-  max-width: 650px;
+  color: var(--text-secondary);
+  max-width: 640px;
   margin-left: auto;
   margin-right: auto;
 }
 
 h2 {
-  font-family: Georgia, serif;
-  font-size: 1.5rem;
-  margin: 2.5rem 0 1rem;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 2rem 0 10px;
 }
 
 h3 {
-  font-family: Georgia, serif;
+  font-size: 20px;
+  font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
 p {
   margin-bottom: 1rem;
-  color: var(--text);
+  font-size: 16px;
+  color: var(--text-secondary);
+}
+
+a {
+  color: var(--wine-red);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /* Direct Answer Block */
 
 .direct-answer {
-  background: white;
+  background: var(--card-bg);
   padding: 1.5rem;
-  border-left: 4px solid var(--accent);
+  border-left: 4px solid var(--wine-red);
   border-radius: 6px;
   margin-bottom: 2rem;
 }
@@ -159,9 +205,10 @@ p {
 .wine-card {
   background: var(--card-bg);
   padding: 1.5rem;
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
   margin-bottom: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
 }
 
 .score {
@@ -174,11 +221,11 @@ p {
 
 #pairing-engine-root {
   margin-top: 3rem;
-  padding: 2.5rem;
-  background: white;
-  border-radius: 10px;
-  border: 1px solid var(--border);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  padding: 28px;
+  background: var(--card-bg);
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
 }
 
 /* ---------- Pairing Engine V2 (multi-attribute intersection) ---------- */
@@ -215,24 +262,25 @@ p {
 
 .filter-chip {
   margin: 0;
-  border: 1px solid var(--border);
-  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--border-subtle);
+  padding: 6px 12px;
   border-radius: 999px;
   cursor: pointer;
-  background: white;
-  transition: all 0.15s ease;
-  font-size: 0.9rem;
-  color: var(--text);
+  background: transparent;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+  font-size: 14px;
+  color: var(--text-primary);
 }
 
 .filter-chip:hover {
-  border-color: var(--accent);
+  border-color: var(--wine-red);
+  color: var(--wine-red);
 }
 
 .filter-chip.is-selected {
-  background: var(--accent);
-  color: white;
-  border-color: var(--accent);
+  background: var(--wine-red);
+  color: #fff;
+  border-color: var(--wine-red);
 }
 
 .pairing-results {
@@ -240,8 +288,9 @@ p {
 }
 
 .result-card {
-  border: 1px solid var(--border);
-  padding: 1rem;
+  border: 1px solid var(--border-subtle);
+  border-left: 4px solid var(--wine-gold);
+  padding: 1rem 1rem 1rem 16px;
   margin-top: 1rem;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.65);
@@ -273,7 +322,7 @@ p {
 .result-reasoning {
   margin: 0;
   padding-left: 1.25rem;
-  color: #444;
+  color: var(--text-secondary);
   font-size: 0.95rem;
 }
 
@@ -304,8 +353,8 @@ button {
 }
 
 button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  filter: brightness(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
 }
 
 /* Breadcrumb */
@@ -318,21 +367,22 @@ button:hover {
 
 .breadcrumb a {
   text-decoration: none;
-  color: var(--accent);
+  color: var(--wine-red);
 }
 
 .breadcrumb span {
   color: var(--muted);
 }
 
-/* Footer */
+/* Footer (simple pages) */
 
 footer {
-  background: #eee8e3;
-  border-top: 1px solid var(--border);
-  padding: 2rem 0;
+  background: #2b1a1a;
+  color: #ede6e1;
+  padding: 50px 0 0;
   margin-top: 4rem;
   font-size: 0.9rem;
+  border-top: none;
 }
 
 footer .container {
@@ -342,9 +392,17 @@ footer .container {
 }
 
 footer a {
+  color: var(--wine-gold);
   text-decoration: none;
-  color: var(--accent);
   margin-right: 1rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: #c8bfb9;
 }
 
 /* ---------- Compatibility: other pages (pairings, grapes, pairing guides) ---------- */
@@ -358,27 +416,44 @@ nav ul {
 
 nav ul li { margin: 0; }
 
-nav ul a { margin-left: 0; }
+nav ul a {
+  margin-left: 0;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+nav ul a:hover {
+  color: var(--wine-red);
+  text-decoration: underline;
+}
 
 .direct-answer p { margin-bottom: 0; }
 
 .pairing-card {
   background: var(--card-bg);
   padding: 1.5rem;
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
   margin-bottom: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
 }
 
 #results .engine-error { color: #8b2a2a; padding: 1rem; }
 
 footer nav { display: flex; gap: 1rem; }
 
-footer p { margin-bottom: 0; color: var(--muted); }
+footer p { margin-bottom: 0; color: #c8bfb9; }
 
 .hub-intro { margin-bottom: 2rem; line-height: 1.6; }
 
-.hub-intro a { color: var(--accent); text-decoration: none; }
+.hub-intro a {
+  color: var(--wine-red);
+  text-decoration: none;
+}
+
+.hub-intro a:hover {
+  text-decoration: underline;
+}
 
 .hub-categories h2 { margin-top: 1.5rem; margin-bottom: 0.5rem; }
 
@@ -386,7 +461,14 @@ footer p { margin-bottom: 0; color: var(--muted); }
 
 .hub-list li { padding: 0.35rem 0; border-bottom: 1px solid var(--border); }
 
-.hub-list a { color: var(--accent); text-decoration: none; }
+.hub-list a {
+  color: var(--wine-red);
+  text-decoration: none;
+}
+
+.hub-list a:hover {
+  text-decoration: underline;
+}
 
 .faq-item { margin-top: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
 
@@ -410,13 +492,9 @@ footer p { margin-bottom: 0; color: var(--muted); }
 
 main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 
-a { color: var(--accent); text-decoration: none; }
+.wine-card h3 a, .pairing-card h3 a { color: inherit; text-decoration: none; }
 
-a:hover { text-decoration: underline; }
-
-.wine-card h3 a, .pairing-card h3 a { color: inherit; }
-
-.wine-card h3 a:hover, .pairing-card h3 a:hover { color: var(--accent); text-decoration: underline; }
+.wine-card h3 a:hover, .pairing-card h3 a:hover { color: var(--wine-red); text-decoration: underline; }
 
 /* ---------- Pairing matrix (lead magnet / printable) ---------- */
 .matrix {
@@ -436,7 +514,7 @@ a:hover { text-decoration: underline; }
 }
 
 .matrix-header div {
-  background: #eee8e3;
+  background: var(--bg-soft);
   padding: 1rem;
   font-weight: bold;
   font-size: 0.9rem;
@@ -548,8 +626,8 @@ a:hover { text-decoration: underline; }
 .final-cta {
   margin-top: 3rem;
   padding: 2rem;
-  background: #eee8e3;
-  border-radius: 8px;
+  background: var(--bg-soft);
+  border-radius: 12px;
   text-align: center;
 }
 
@@ -591,13 +669,13 @@ a:hover { text-decoration: underline; }
 .disclaimer {
   margin-top: 3rem;
   font-size: 0.85rem;
-  color: #666;
+  color: var(--text-muted);
 }
 
 /* ---------- Mobile ---------- */
 @media (max-width: 768px) {
   h1 {
-    font-size: 2rem;
+    font-size: 32px;
   }
 
   .engine-controls {
@@ -664,7 +742,7 @@ a:hover { text-decoration: underline; }
   }
 
   .matrix-header div {
-    background: #eee8e3 !important;
+    background: var(--bg-soft) !important;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
@@ -701,7 +779,7 @@ a:hover { text-decoration: underline; }
 }
 
 #matrix-root .matrix-header {
-  background: #f3efe9;
+  background: var(--bg-soft);
   font-weight: 600;
 }
 
@@ -762,10 +840,11 @@ a:hover { text-decoration: underline; }
 }
 
 .internal-links-inner {
-  padding: 1.25rem 1.5rem;
-  background: rgba(255, 255, 255, 0.85);
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  padding: 28px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
 }
 
 .internal-links-inner h2 {
@@ -950,7 +1029,7 @@ a:hover { text-decoration: underline; }
   text-align: center;
   z-index: 10;
   pointer-events: none;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
 }
 
 @media (max-width: 768px) {
@@ -989,10 +1068,12 @@ a:hover { text-decoration: underline; }
 
 /* ---------- Brand: site footer (global) ---------- */
 .site-footer {
-  background: #f3efe9;
-  border-top: 1px solid var(--border);
+  background: #2b1a1a;
+  color: #ede6e1;
+  border-top: none;
   margin-top: 4rem;
   font-size: 0.9rem;
+  padding: 50px 0 0;
 }
 
 .site-footer .container {
@@ -1007,18 +1088,26 @@ a:hover { text-decoration: underline; }
   display: grid;
   grid-template-columns: 1.5fr 2fr 1fr;
   gap: 2rem;
-  padding: 2rem 0;
+  padding: 0 0 2rem;
 }
 
 .footer-logo {
-  font-family: Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.2rem;
-  color: var(--accent);
+  color: #ede6e1;
 }
 
 .footer-tagline {
   margin-top: 0.5rem;
-  color: #555;
+  color: #c8bfb9;
+}
+
+.site-footer h4 {
+  font-family: "Playfair Display", Georgia, serif;
+  margin-bottom: 10px;
+  color: #ede6e1;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .footer-links {
@@ -1034,37 +1123,42 @@ a:hover { text-decoration: underline; }
 
 .footer-links strong {
   display: block;
-  margin-bottom: 0.25rem;
-  font-size: 0.85rem;
-  color: var(--text);
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 600;
+  color: #ede6e1;
 }
 
 .footer-links a {
   text-decoration: none;
-  color: #333;
+  color: var(--wine-gold);
   margin-top: 0.4rem;
 }
 
 .footer-links a:hover {
-  color: var(--accent);
   text-decoration: underline;
 }
 
 .footer-meta {
   font-size: 0.85rem;
-  color: #555;
+  color: #c8bfb9;
+}
+
+.footer-meta p {
+  color: #c8bfb9;
 }
 
 .footer-meta a {
-  color: var(--accent);
+  color: var(--wine-gold);
 }
 
 .footer-bottom {
   text-align: center;
   padding: 1rem;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
   font-size: 0.8rem;
-  color: #777;
+  color: #c8bfb9;
 }
 
 /* Indexing / crawl: subtle topical line above copyright */
@@ -1074,7 +1168,7 @@ a:hover { text-decoration: underline; }
   padding: 1rem 1.5rem 0;
   text-align: center;
   font-size: 0.85rem;
-  color: #666;
+  color: #c8bfb9;
   line-height: 1.5;
 }
 
@@ -1083,19 +1177,19 @@ a:hover { text-decoration: underline; }
 .new-pairings,
 .recent-updates {
   margin: 1.5rem 0 2rem;
-  padding: 1.25rem 1.25rem;
-  background: rgba(255, 255, 255, 0.75);
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  padding: 28px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
 }
 
 .popular-pairings h2,
 .new-pairings h2,
 .recent-updates h2 {
-  font-family: Georgia, serif;
-  font-size: 1.25rem;
+  font-size: 26px;
   margin-bottom: 0.75rem;
-  color: var(--text);
+  color: var(--text-primary);
 }
 
 .popular-pairings ul,
@@ -1109,6 +1203,10 @@ a:hover { text-decoration: underline; }
 .new-pairings li,
 .recent-updates li {
   margin: 0.35rem 0;
+}
+
+.popular-pairings a {
+  font-weight: 500;
 }
 
 .visually-hidden {
@@ -1126,15 +1224,15 @@ a:hover { text-decoration: underline; }
 /* Homepage semantic entry + term shortcuts */
 .semantic-entry {
   margin: 1.5rem 0 2rem;
-  padding: 1.25rem 1.25rem;
-  background: rgba(255, 255, 255, 0.8);
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  padding: 28px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
 }
 
 .semantic-entry h2 {
-  font-family: Georgia, serif;
-  font-size: 1.35rem;
+  font-size: 26px;
   margin-bottom: 0.5rem;
 }
 
@@ -1159,10 +1257,10 @@ a:hover { text-decoration: underline; }
   max-width: 520px;
   max-height: 280px;
   overflow-y: auto;
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-subtle);
   border-radius: 8px;
   background: #fff;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
 }
 
 .term-search-list {
@@ -1186,7 +1284,7 @@ a:hover { text-decoration: underline; }
 }
 
 .term-search-hit:hover {
-  background: rgba(90, 42, 39, 0.06);
+  background: rgba(110, 44, 44, 0.06);
 }
 
 .term-search-hit-cat {
@@ -1219,7 +1317,7 @@ a:hover { text-decoration: underline; }
   color: #f7f3ee;
   transform: translateY(110%);
   transition: transform 0.35s ease;
-  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.03);
 }
 
 .term-cta-sticky.is-visible {
@@ -1270,21 +1368,17 @@ a:hover { text-decoration: underline; }
 .pairing-explanation-primary {
   margin-bottom: 1.75rem;
   padding: 1.35rem 1.35rem 1.25rem;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.95) 0%,
-    rgba(247, 243, 238, 0.98) 100%
-  );
-  border-left: 5px solid var(--accent);
+  background: #faf7f5;
+  border-left: 4px solid var(--wine-red);
   border-radius: 0 10px 10px 0;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
 }
 
 .explanation-title {
-  font-family: Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.45rem;
   margin: 0 0 1rem;
-  color: var(--accent);
+  color: var(--wine-deep);
   letter-spacing: -0.02em;
 }
 
@@ -1312,13 +1406,14 @@ a:hover { text-decoration: underline; }
 
 .engine-feedback-inner {
   padding: 1.1rem 1.2rem;
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid var(--border);
-  border-radius: 10px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
 }
 
 .engine-feedback-title {
-  font-family: Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.05rem;
   margin: 0 0 0.5rem;
   color: var(--accent);
@@ -1344,13 +1439,13 @@ a:hover { text-decoration: underline; }
   margin: 1.25rem 0 1.5rem;
   padding: 1.15rem 1.25rem;
   background: #fff;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
 }
 
 .definition-box h2 {
-  font-family: Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.2rem;
   margin: 0 0 0.65rem;
 }
@@ -1402,7 +1497,7 @@ a:hover { text-decoration: underline; }
 }
 
 .term-to-pairing h2 {
-  font-family: Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.2rem;
   margin: 0 0 0.65rem;
 }
@@ -1419,7 +1514,7 @@ a:hover { text-decoration: underline; }
 
 /* Term pages — pairing intent + cross-links */
 .term-pairing-intent-h2 {
-  font-family: Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.15rem;
   font-weight: 600;
   margin: 0.35rem 0 1rem;
@@ -1435,7 +1530,7 @@ a:hover { text-decoration: underline; }
 }
 
 .term-intent h2 {
-  font-family: Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.2rem;
   margin: 0 0 0.65rem;
 }
@@ -1453,7 +1548,7 @@ a:hover { text-decoration: underline; }
 }
 
 .term-cross-density h2 {
-  font-family: Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.15rem;
   margin: 0 0 0.65rem;
 }
@@ -1479,7 +1574,7 @@ a:hover { text-decoration: underline; }
 }
 
 .term-deep-links h2 {
-  font-family: Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.15rem;
   margin: 0 0 0.65rem;
 }
@@ -1494,21 +1589,26 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
 }
 
+/* Editorial surfaces (shared) */
+.card,
+.seo-block {
+  background: var(--card-bg);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
+}
+
 /* Homepage — crawler-facing copy + term grid */
 .seo-block {
   margin: 2rem 0 1.5rem;
-  padding: 1.15rem 1.25rem;
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: 10px;
   font-size: 0.98rem;
   line-height: 1.6;
-  color: #333;
+  color: var(--text-secondary);
 }
 
 .seo-block h2 {
-  font-family: Georgia, serif;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   margin: 0 0 0.6rem;
 }
 
@@ -1517,7 +1617,7 @@ a:hover { text-decoration: underline; }
 }
 
 .seo-block a {
-  color: var(--accent);
+  color: var(--wine-red);
   font-weight: 600;
 }
 
@@ -1526,8 +1626,7 @@ a:hover { text-decoration: underline; }
 }
 
 .term-grid-section h2 {
-  font-family: Georgia, serif;
-  font-size: 1.25rem;
+  font-size: 26px;
   margin-bottom: 0.35rem;
 }
 
@@ -1557,7 +1656,7 @@ a:hover { text-decoration: underline; }
 }
 
 .term-grid-cell:hover {
-  background: rgba(90, 42, 39, 0.08);
+  background: rgba(110, 44, 44, 0.08);
   text-decoration: underline;
 }
 
@@ -1580,7 +1679,7 @@ a:hover { text-decoration: underline; }
 }
 
 .term-shortcut-chip:hover {
-  background: rgba(90, 42, 39, 0.08);
+  background: rgba(110, 44, 44, 0.08);
 }
 
 /* Clickable glossary terms (modal) */
@@ -1634,13 +1733,14 @@ a:hover { text-decoration: underline; }
 .structure-breakdown {
   margin-bottom: 1.75rem;
   padding: 1rem 1.1rem;
-  background: rgba(255, 255, 255, 0.75);
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
 }
 
 .structure-breakdown-title {
-  font-family: Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.15rem;
   margin: 0 0 0.75rem;
 }
@@ -1677,8 +1777,8 @@ body.term-modal-open {
   max-width: 640px;
   background: var(--card-bg);
   border-radius: 12px;
-  border: 1px solid var(--border);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
   padding: 1.5rem 1.5rem 2rem;
   margin-bottom: 2rem;
 }
@@ -1700,7 +1800,7 @@ body.term-modal-open {
 }
 
 .term-modal-title {
-  font-family: Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.5rem;
   margin: 0 2rem 0.5rem 0;
   padding-right: 1rem;
@@ -1843,7 +1943,7 @@ body.term-modal-open {
 }
 
 .term-page h2 {
-  font-family: Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-size: 1.2rem;
   margin-top: 1.5rem;
 }
