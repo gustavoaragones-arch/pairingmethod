@@ -60,6 +60,7 @@ function buildPhrases() {
 const PHRASES = buildPhrases();
 
 function acceptableParent(node) {
+  if (node.parentElement?.closest?.("h1, h2, h3, h4, h5, h6")) return false;
   let p = node.parentElement;
   while (p) {
     if (p.classList?.contains("no-term-link")) return false;
