@@ -27,6 +27,10 @@ const SKIP_PARENT = new Set([
   "INPUT",
 ]);
 
+/** Do not auto-wrap glossary terms in these regions (UI labels, nav, hero, engine, matrix, promos). */
+const SKIP_TERM_LINK_ANCESTOR =
+  "#pairing-engine-root, #matrix-root, #dynamic-content, #internal-links, .hero, .semantic-entry, .seo-block, .quick-explanation, .supporting-text, .term-grid-section, .popular-pairings, .new-pairings, .recent-updates, .explore-pairings-cta, .mini-disclaimer, .crawl-hint, header, nav, footer, .site-footer, .breadcrumb, .quick-learn";
+
 /** @type {Map<string, number>} */
 const counts = new Map();
 
@@ -60,8 +64,11 @@ function buildPhrases() {
 const PHRASES = buildPhrases();
 
 function acceptableParent(node) {
-  if (node.parentElement?.closest?.("h1, h2, h3, h4, h5, h6")) return false;
-  let p = node.parentElement;
+  const par = node.parentElement;
+  if (!par) return false;
+  if (par.closest("h1, h2, h3, h4, h5, h6")) return false;
+  if (par.closest(SKIP_TERM_LINK_ANCESTOR)) return false;
+  let p = par;
   while (p) {
     if (p.classList?.contains("no-term-link")) return false;
     if (SKIP_PARENT.has(p.tagName)) return false;
