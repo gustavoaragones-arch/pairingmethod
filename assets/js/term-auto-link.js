@@ -29,7 +29,7 @@ const SKIP_PARENT = new Set([
 
 /** Do not auto-wrap glossary terms in these regions (UI labels, nav, hero, engine, matrix, promos). */
 const SKIP_TERM_LINK_ANCESTOR =
-  "#pairing-engine-root, #matrix-root, #dynamic-content, #internal-links, .hero, .semantic-entry, .seo-block, .quick-explanation, .supporting-text, .term-grid-section, .popular-pairings, .new-pairings, .recent-updates, .explore-pairings-cta, .mini-disclaimer, .crawl-hint, header, nav, footer, .site-footer, .breadcrumb, .quick-learn";
+  "#pairing-engine-root, #matrix-root, #dynamic-content, #internal-links, .hero, .semantic-entry, .seo-block, .quick-explanation, .supporting-text, .term-grid-section, .popular-pairings, .new-pairings, .recent-updates, .explore-pairings-cta, .mini-disclaimer, .crawl-hint, header, nav, footer, .site-footer, .breadcrumb, .quick-learn, .direct-answer, .query-match";
 
 /** @type {Map<string, number>} */
 const counts = new Map();

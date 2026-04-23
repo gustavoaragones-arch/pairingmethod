@@ -34,31 +34,31 @@ export function injectInternalLinks(state) {
 
   /* --- Pairing guides (dish + context) --- */
   if (has(state, "protein", "red_meat")) {
-    add("/wine-with-steak.html", "Best wine for steak — full pairing guide");
+    add("/wine-with-steak.html", "Best wine with steak — full pairing guide");
     if (has(state, "preparation", "grilled")) {
       add("/wine-with-grilled-steak.html", "Best wine for grilled steak");
     }
   }
   if (has(state, "protein", "fish")) {
-    add("/wine-with-salmon.html", "Best wine for salmon — seafood pairing guide");
+    add("/wine-with-salmon.html", "Best wine with salmon — seafood pairing guide");
     if (has(state, "preparation", "fried")) {
       add("/wine-with-fried-fish.html", "Best wine for fried fish");
     }
   }
   if (has(state, "protein", "poultry")) {
-    add("/wine-with-chicken.html", "Best wine for chicken — pairing guide");
+    add("/wine-with-chicken.html", "Best wine with chicken — pairing guide");
     if (has(state, "preparation", "roasted")) {
       add("/wine-with-roasted-chicken.html", "Best wine for roasted chicken");
     }
   }
   if (has(state, "protein", "pork")) {
-    add("/wine-for-bbq-ribs.html", "Best wine for BBQ ribs — smoke & glaze");
+    add("/wine-for-bbq-ribs.html", "Best wine with BBQ ribs — smoke & glaze");
     if (has(state, "preparation", "smoked")) {
       add("/wine-with-smoked-pork.html", "Best wine for smoked pork");
     }
   }
   if (has(state, "protein", "shellfish")) {
-    add("/wine-with-salmon.html", "Best wine for salmon & rich seafood guides");
+    add("/wine-with-salmon.html", "Best wine with salmon & rich seafood guides");
   }
 
   if (has(state, "spice", "spicy")) {
@@ -105,7 +105,7 @@ export function injectInternalLinks(state) {
   add("/seasonal-wine-guides.html", "Seasonal wine guides — holidays & occasions");
 
   if (links.length === 0) {
-    add("/wine-with-steak.html", "Best wine for steak");
+    add("/wine-with-steak.html", "Best wine with steak");
     add("/wine-with-spicy-food.html", "Best wine for spicy food");
     add("/pairings.html", "Explore all wine pairings");
     add("/seasonal-wine-guides.html", "Seasonal wine guides");

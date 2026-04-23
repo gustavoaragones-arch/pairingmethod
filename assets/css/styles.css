@@ -196,14 +196,22 @@ a {
   transition: color 0.2s, border-color 0.2s;
 }
 
-/* Direct Answer Block */
+/* Pairing guide — lead line under H1 (intent-aligned title + subline) */
+.page-subline {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0 0 1.5rem;
+  max-width: 42rem;
+}
+
+/* Direct Answer Block — above-the-fold / snippet target */
 
 .direct-answer {
-  background: var(--card-bg);
-  padding: 1.5rem;
+  background: #faf7f5;
   border-left: 4px solid var(--wine-red);
-  border-radius: 3px;
-  margin-bottom: 2rem;
+  padding: 18px;
+  margin-bottom: 24px;
 }
 
 /* Wine Cards */
@@ -433,7 +441,21 @@ nav ul a:hover {
   text-decoration: underline;
 }
 
-.direct-answer p { margin-bottom: 0; }
+.direct-answer p {
+  margin: 0 0 0.75rem;
+}
+.direct-answer p:last-child {
+  margin-bottom: 0;
+}
+
+/* Search-intent bridge: natural query phrases after quick answer */
+.query-match {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0 0 1.5rem;
+  max-width: 44rem;
+}
 
 .pairing-card {
   background: var(--card-bg);

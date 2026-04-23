@@ -61,6 +61,8 @@ const combinations = [
       "Best wine for grilled steak: structured reds and matrix logic for char, fat, and smoke. Refine cuts and sides with the Pairing Method engine.",
     intro:
       "Grilled steak layers caramelized fat, smoke from the grate, and deep beef savor. Wines need enough structure—tannin, body, and acidity—to mirror that intensity without thinning out. Leaner cuts can bend toward medium reds, but char and browning usually favor bolder bottles. Use the interactive matrix below to align your exact cut, sides, and heat level with nine wine style families.",
+    queryMatch:
+      "What wine goes with grilled steak, the best wine for your cut and char, and a focused grilled steak wine pairing all come down to structure and smoke. This page leads with the written answer, then the matrix at the end when you want to encode sides, rub, and heat.",
     context: {
       protein: ["red_meat"],
       preparation: ["grilled"],
@@ -97,6 +99,8 @@ const combinations = [
       "Best wine for roasted chicken: medium reds, rich whites, and rosé—scored with the Pairing Method matrix for herbs, skin, and gravy.",
     intro:
       "Roasted chicken delivers crisp skin, juicy meat, and gentle savory depth—often with herbs and pan juices. Wines should match that moderate intensity without overpowering: medium reds, rich whites, and many rosés sit in the sweet spot. Acidity keeps the pairing fresh when the bird comes straight from the oven. Layer dark meat, gravy, or vegetables in the engine to sharpen the match.",
+    queryMatch:
+      "If you are searching what wine goes with roasted chicken, the best wine for pan juices and herbs, or a roasted chicken wine pairing in one pass, the logic is the same: moderate weight and good acidity. Read the lead answer first, then use the tool last to layer gravy, sides, and vegetables.",
     context: {
       protein: ["poultry"],
       preparation: ["roasted"],
@@ -133,6 +137,8 @@ const combinations = [
       "Best wine for fried fish: crisp whites, sparkling, and rosé—cut richness with acidity. Use the pairing matrix for fish plus fryer prep.",
     intro:
       "Fried fish pairs crunch, oil, and mild protein—so wine needs lift. High-acid whites, sparkling wine, and lighter rosés cut grease and refresh the palate. Heavy oaked reds usually clash with delicate fillets. The matrix below encodes fish plus fried preparation so you can see which columns stay green while you adjust batter, spice, and sides.",
+    queryMatch:
+      "What wine goes with fried fish, the best wine for a hot crust, and a practical fried fish wine pairing all lean on acid and bubbles. This guide gives the answer in text before the engine, with the matrix last when you want to model batter, lemon, and sides.",
     context: {
       protein: ["fish"],
       preparation: ["fried"],
@@ -169,6 +175,8 @@ const combinations = [
       "Best wine for spicy food: off-dry whites, aromatic styles, rosé—balance heat without fanning alcohol burn. Matrix-driven pairing logic.",
     intro:
       "Spicy food amplifies heat and can make tannin and high alcohol feel harsher. Slight sweetness, lower alcohol, and aromatic lift often work better than dry, grippy reds—sweetness is structural, not dessert. Rosé, off-dry whites, and sparkling can tame capsaicin while refreshing the palate. Add protein and starch rows when your dish isn’t heat alone so the matrix reflects the full plate.",
+    queryMatch:
+      "What wine goes with spicy food, the best wine for taming capsaicin without harshening alcohol, and a clear spicy food wine pairing: reach for lift and a touch of sweetness before tannin. The explanation leads; the tool follows when you want the full matrix on the plate you actually cooked.",
     context: {
       spice: ["spicy"],
     },
@@ -204,6 +212,8 @@ const combinations = [
       "Best wine for creamy dishes: acidity-driven whites, structured whites, and selective reds—pair fat with cut-through, via the pairing matrix.",
     intro:
       "Creamy sauces, soft cheeses, and dairy-forward plates coat the palate and raise richness. Wines need enough acidity to cut through fat—or controlled richness that matches without doubling weight blindly. Thin, tannic reds without acidity often feel awkward; crisp and structured whites frequently lead. Add starch, protein, and prep rows when cream sits on pasta, poultry, or vegetables so the matrix stays honest.",
+    queryMatch:
+      "If you are asking what wine goes with creamy dishes, the best wine for cheese- or dairy-weight plates, or a one-stop creamy dish wine pairing, acid cutting fat is the through-line. The answer is up front; the engine sits after so you can add starch, protein, and how you made the cream.",
     context: {
       dairy: ["soft_cheese"],
     },
@@ -239,6 +249,8 @@ const combinations = [
       "Best wine for smoked pork: medium reds, rosé, structured whites—balance smoke, sweetness, and fat using Pairing Method’s matrix.",
     intro:
       "Smoked pork stacks sweet, savory, and smoky notes from wood and low heat. Medium reds, rosés, and structured whites can align with smoke without amplifying bitterness. Rubs and sauces—sweet, spicy, or vinegary—shift the matrix: update spice, fruit, and starch rows to match what’s on the plate. The tool below keeps preparation and protein explicit so scores stay interpretable.",
+    queryMatch:
+      "What wine goes with smoked pork, the best wine for your rub and glaze, and a full smoked pork wine pairing start with sweet, smoke, and fat in balance. Read the direct guidance first, then open the matrix to reflect your exact sauce, sides, and heat.",
     context: {
       protein: ["pork"],
       preparation: ["smoked"],
@@ -287,6 +299,7 @@ function applyTemplate(template, page) {
     "{{H1}}": escapeHtml(page.h1),
     "{{BREADCRUMB_LABEL}}": escapeHtml(page.breadcrumbLabel),
     "{{INTRO}}": escapeHtml(page.intro),
+    "{{QUERY_MATCH_TEXT}}": escapeHtml(page.queryMatch),
     "{{RELATED_BODY}}": page.relatedBody,
     "{{CONTEXT}}": contextScript(page.context),
     "{{FAQ_SCHEMA_JSON}}": faqSchemaJson,
