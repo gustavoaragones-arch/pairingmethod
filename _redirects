@@ -1,0 +1,13 @@
+# Force HTTPS
+http://pairingmethod.com/* https://pairingmethod.com/:splat 301
+
+# Remove index.html
+https://pairingmethod.com/index.html https://pairingmethod.com/ 301
+
+# Remove trailing slash (except root)
+https://pairingmethod.com/*/ https://pairingmethod.com/:splat 301
+
+# Force .html for known routes
+https://pairingmethod.com/pairings https://pairingmethod.com/pairings.html 301
+https://pairingmethod.com/wine-with-salmon https://pairingmethod.com/wine-with-salmon.html 301
+https://pairingmethod.com/wine-with-roasted-chicken https://pairingmethod.com/wine-with-roasted-chicken.html 301
