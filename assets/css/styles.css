@@ -149,6 +149,19 @@ main.container > p,
   margin-bottom: 3rem;
 }
 
+.engine-entry {
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
+
+.engine-entry #pairing-engine-root {
+  border: 1px solid rgba(122, 44, 58, 0.12);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.04);
+  border-radius: 12px;
+  padding: 24px;
+  background: #fff;
+}
+
 .engine-hero #pairing-engine-root {
   margin-top: 0;
 }
@@ -1252,11 +1265,21 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 /* Homepage semantic entry + term shortcuts */
 .semantic-entry {
   margin: 1.5rem 0 2rem;
+  margin-top: 24px;
   padding: 28px;
   background: var(--card-bg);
   border: 1px solid var(--border-subtle);
   border-radius: 3px;
   box-shadow: none;
+  opacity: 0.92;
+}
+
+.section-kicker {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--wine-muted, var(--text-muted));
+  margin-bottom: 12px;
 }
 
 .semantic-entry h2 {

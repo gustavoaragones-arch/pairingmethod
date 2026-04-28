@@ -459,7 +459,7 @@ function buildFilterMarkup() {
 const ENGINE_MARKUP = `
   <h2 class="engine-title">Build Your Pairing</h2>
   <div id="active-selections" class="active-selections" aria-label="Current selections"></div>
-  <p class="engine-lede">Multi-select food dimensions — each choice activates a matrix row. We score all nine wine style columns (0–3 per cell) and surface the top three matches with live reasoning.</p>
+  <p class="engine-lede engine-intro">Choose your ingredients — we calculate the best wine matches in real time.</p>
   <div class="filters">
     ${buildFilterMarkup()}
   </div>

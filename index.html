@@ -79,8 +79,16 @@
     <section class="hero">
       <h1>Structured Wine Pairing Intelligence</h1>
       <p class="hero-sub">
-        Find the right wine using structured culinary logic — not guesswork.
+        Select your dish and get the best wine instantly — based on structure, not guesswork.
       </p>
+    </section>
+
+    <!-- PRIMARY: ENGINE FIRST -->
+    <section id="start-pairing" class="engine-entry engine-hero" aria-label="Pairing engine">
+      <div id="pairing-engine-root"></div>
+      <div id="matrix-root" aria-label="Pairing matrix heatmap"></div>
+      <div id="dynamic-content" aria-label="Pairing insights"></div>
+      <div id="internal-links" class="internal-links" aria-label="Related pairing guides"></div>
     </section>
 
     <section class="popular-pairings" aria-label="Popular pairings">
@@ -92,6 +100,7 @@
       </ul>
     </section>
 
+    <h2 class="section-kicker">Understand flavor</h2>
     <section class="semantic-entry" aria-label="Wine vocabulary">
       <h2>Start from flavor, not guesswork</h2>
       <p>Search a tasting note, then jump into the same structured logic the pairing engine uses.</p>
@@ -99,13 +108,6 @@
       <input type="search" id="term-search-input" class="term-search-input" placeholder="Search terms like 'high acidity', 'jammy', 'tannic'" autocomplete="off" enterkeyhint="search">
       <div id="term-search-results" class="term-search-results" hidden></div>
       <div id="term-shortcuts" class="term-shortcuts"></div>
-    </section>
-
-    <section class="engine-hero" aria-label="Pairing engine">
-      <div id="pairing-engine-root"></div>
-      <div id="matrix-root" aria-label="Pairing matrix heatmap"></div>
-      <div id="dynamic-content" aria-label="Pairing insights"></div>
-      <div id="internal-links" class="internal-links" aria-label="Related pairing guides"></div>
     </section>
 
     <section class="seo-block" aria-label="Wine pairing overview for search">
