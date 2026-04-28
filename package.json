@@ -7,6 +7,7 @@
     "generate:pages": "node scripts/generate-pages.js",
     "generate:sitemap": "node scripts/generate-sitemap.js",
     "generate:terms": "node scripts/generate-terms-pages.js",
+    "inject:url-normalize": "node scripts/inject-url-normalize.mjs",
     "ping:sitemap": "node scripts/ping-sitemap.js"
   }
 }
