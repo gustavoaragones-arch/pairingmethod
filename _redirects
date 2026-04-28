@@ -1,13 +1,91 @@
-# Force HTTPS
-http://pairingmethod.com/* https://pairingmethod.com/:splat 301
+# ------------------------------------------------------------------------------
+# Hostname (CANNOT live in Pages _redirects — CF matches path only).
+# Cloudflare Dashboard → Redirect Rules (or Bulk Redirects), apex project:
+#   • www → apex 301:
+#       https://www.pairingmethod.com/*  →  https://pairingmethod.com/:splat
+#       http://www.pairingmethod.com/*   →  https://pairingmethod.com/:splat
+#   • HTTP → HTTPS: SSL/TLS → Edge Certificates → Always Use HTTPS = ON
+# ------------------------------------------------------------------------------
 
-# Remove index.html
-https://pairingmethod.com/index.html https://pairingmethod.com/ 301
+# Homepage: remove literal index filename
+/index.html / 301
 
-# Remove trailing slash (except root)
-https://pairingmethod.com/*/ https://pairingmethod.com/:splat 301
+# --- Root pages: extensionless + trailing-slash → single .html (explicit, no splat) ---
+/about /about.html 301
+/about/ /about.html 301
 
-# Force .html for known routes
-https://pairingmethod.com/pairings https://pairingmethod.com/pairings.html 301
-https://pairingmethod.com/wine-with-salmon https://pairingmethod.com/wine-with-salmon.html 301
-https://pairingmethod.com/wine-with-roasted-chicken https://pairingmethod.com/wine-with-roasted-chicken.html 301
+/christmas-wine-pairing-guide /christmas-wine-pairing-guide.html 301
+/christmas-wine-pairing-guide/ /christmas-wine-pairing-guide.html 301
+
+/cookies /cookies.html 301
+/cookies/ /cookies.html 301
+
+/disclaimer /disclaimer.html 301
+/disclaimer/ /disclaimer.html 301
+
+/grapes /grapes.html 301
+/grapes/ /grapes.html 301
+
+/pairing-matrix /pairing-matrix.html 301
+/pairing-matrix/ /pairing-matrix.html 301
+
+/pairings /pairings.html 301
+/pairings/ /pairings.html 301
+
+/privacy /privacy.html 301
+/privacy/ /privacy.html 301
+
+/romantic-dinner-wine-guide /romantic-dinner-wine-guide.html 301
+/romantic-dinner-wine-guide/ /romantic-dinner-wine-guide.html 301
+
+/seasonal-wine-guides /seasonal-wine-guides.html 301
+/seasonal-wine-guides/ /seasonal-wine-guides.html 301
+
+/summer-bbq-wine-guide /summer-bbq-wine-guide.html 301
+/summer-bbq-wine-guide/ /summer-bbq-wine-guide.html 301
+
+/thanksgiving-wine-guide /thanksgiving-wine-guide.html 301
+/thanksgiving-wine-guide/ /thanksgiving-wine-guide.html 301
+
+/terms /terms.html 301
+/terms/ /terms.html 301
+
+/wine-for-bbq-ribs /wine-for-bbq-ribs.html 301
+/wine-for-bbq-ribs/ /wine-for-bbq-ribs.html 301
+
+/wine-for-thanksgiving-turkey /wine-for-thanksgiving-turkey.html 301
+/wine-for-thanksgiving-turkey/ /wine-for-thanksgiving-turkey.html 301
+
+/wine-with-chicken /wine-with-chicken.html 301
+/wine-with-chicken/ /wine-with-chicken.html 301
+
+/wine-with-creamy-dishes /wine-with-creamy-dishes.html 301
+/wine-with-creamy-dishes/ /wine-with-creamy-dishes.html 301
+
+/wine-with-fried-fish /wine-with-fried-fish.html 301
+/wine-with-fried-fish/ /wine-with-fried-fish.html 301
+
+/wine-with-grilled-steak /wine-with-grilled-steak.html 301
+/wine-with-grilled-steak/ /wine-with-grilled-steak.html 301
+
+/wine-with-roasted-chicken /wine-with-roasted-chicken.html 301
+/wine-with-roasted-chicken/ /wine-with-roasted-chicken.html 301
+
+/wine-with-salmon /wine-with-salmon.html 301
+/wine-with-salmon/ /wine-with-salmon.html 301
+
+/wine-with-smoked-pork /wine-with-smoked-pork.html 301
+/wine-with-smoked-pork/ /wine-with-smoked-pork.html 301
+
+/wine-with-spicy-food /wine-with-spicy-food.html 301
+/wine-with-spicy-food/ /wine-with-spicy-food.html 301
+
+/wine-with-steak /wine-with-steak.html 301
+/wine-with-steak/ /wine-with-steak.html 301
+
+# --- terms/* and grapes/*: extensionless or trailing-slash → .html ---
+/terms/:slug /terms/:slug.html 301
+/terms/:slug/ /terms/:slug.html 301
+
+/grapes/:variety /grapes/:variety.html 301
+/grapes/:variety/ /grapes/:variety.html 301
