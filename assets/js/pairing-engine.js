@@ -180,6 +180,94 @@ function formatStyleTitle(style) {
   return humanizeNode(style);
 }
 
+function hasSelection(category, value) {
+  return !!state[category]?.has(value);
+}
+
+const STYLE_STRUCTURE = {
+  bold_red: { acidity: "medium", tannin: "high", body: "full", sweetness: "dry" },
+  medium_red: { acidity: "medium", tannin: "medium", body: "medium", sweetness: "dry" },
+  light_red: { acidity: "high", tannin: "low", body: "light", sweetness: "dry" },
+  rose: { acidity: "high", tannin: "low", body: "light", sweetness: "dry" },
+  rich_white: { acidity: "medium", tannin: "low", body: "full", sweetness: "dry" },
+  light_white: { acidity: "high", tannin: "low", body: "light", sweetness: "dry" },
+  sparkling: { acidity: "high", tannin: "low", body: "light", sweetness: "dry" },
+  sweet_white: { acidity: "high", tannin: "low", body: "medium", sweetness: "off-dry" },
+  dessert: { acidity: "medium", tannin: "low", body: "full", sweetness: "off-dry" },
+};
+
+function buildStructureReason(topWine) {
+  const profile = STYLE_STRUCTURE[topWine.style];
+  if (!profile) return "";
+
+  const reasons = [];
+
+  if (profile.acidity === "high") {
+    reasons.push("its acidity cuts through richness");
+  }
+
+  if (profile.tannin === "high") {
+    reasons.push("its tannins bind with protein and fat");
+  }
+
+  if (profile.body === "full") {
+    reasons.push("its body matches the weight of the dish");
+  }
+
+  if (profile.sweetness === "off-dry") {
+    reasons.push("a touch of sweetness balances spice");
+  }
+
+  if (reasons.length === 0) return "";
+
+  return `, because ${reasons.join(", ")}`;
+}
+
+function generateSommelierText(topWine) {
+  const parts = [];
+
+  if (hasSelection("protein", "red_meat")) {
+    parts.push("your dish is rich and protein-heavy");
+  } else if (hasSelection("protein", "poultry")) {
+    parts.push("your dish is lighter with moderate protein");
+  } else if (hasSelection("protein", "fish")) {
+    parts.push("your dish is delicate and lean");
+  }
+
+  if (hasSelection("preparation", "grilled")) {
+    parts.push("the grilled preparation adds char and intensity");
+  }
+  if (hasSelection("preparation", "fried")) {
+    parts.push("the frying adds fat and crisp texture");
+  }
+  if (hasSelection("preparation", "roasted")) {
+    parts.push("roasting adds depth and savory notes");
+  }
+
+  if (state.dairy?.size > 0) {
+    parts.push("there is added richness from dairy");
+  }
+
+  if (hasSelection("spice", "spicy")) {
+    parts.push("spice requires a wine that will not amplify heat");
+  }
+
+  if (hasSelection("starch", "sweet_starch") || hasSelection("fruit", "ripe_fruit")) {
+    parts.push("sweetness needs balance from acidity or residual sugar");
+  }
+
+  let explanation = "";
+  if (parts.length > 0) {
+    explanation = `Because ${parts.join(", ")}, `;
+  }
+
+  const wineLabel = formatStyleTitle(topWine.style);
+  explanation += `a <strong>${escapeHtml(wineLabel)}</strong> works best`;
+  explanation += buildStructureReason(topWine);
+
+  return `${explanation}.`;
+}
+
 /**
  * Weighted matrix score + contradiction penalty (zeros add flat penalty so bad rows don't rank high).
  * @param {string} style
@@ -274,6 +362,7 @@ function animateResultCards(container) {
 function paintResults(root) {
   const container = root.querySelector("#results");
   if (!container) return;
+  const sommelierEl = root.querySelector("#sommelier-output");
 
   const rows = getResults();
   const selections = flattenSelections();
@@ -320,6 +409,16 @@ function paintResults(root) {
     .join("");
 
   container.innerHTML = `${primaryBlock}<div class="pairing-results-cards" aria-label="Top wine style matches">${cardsHtml}</div>`;
+
+  if (sommelierEl) {
+    if (rows.length > 0 && selections.length > 0 && !rows[0].baseline) {
+      sommelierEl.innerHTML = generateSommelierText(rows[0]);
+      sommelierEl.hidden = false;
+    } else {
+      sommelierEl.innerHTML = "";
+      sommelierEl.hidden = true;
+    }
+  }
 
   const feedbackEl = root.querySelector("#engine-feedback");
   if (feedbackEl) {
@@ -486,6 +585,7 @@ const ENGINE_MARKUP = `
   </div>
   <button type="button" class="reset-btn">Reset</button>
   <div id="engine-feedback" class="engine-feedback" aria-live="polite"></div>
+  <div id="sommelier-output" class="sommelier-output" hidden></div>
   <div id="results" class="pairing-results" aria-live="polite"></div>
   <button type="button" class="share-btn">Copy shareable link</button>
 `;
