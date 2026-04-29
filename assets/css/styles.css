@@ -395,6 +395,11 @@ a {
     transform: none;
     animation: none;
   }
+
+  .result-card:hover .confidence-badge {
+    transform: none;
+    opacity: 1;
+  }
 }
 
 .pairing-results {
@@ -424,6 +429,46 @@ a {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.confidence-badge {
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.result-card:hover .confidence-badge {
+  transform: translateY(-1px);
+  opacity: 0.9;
+}
+
+.confidence-badge.ideal {
+  background: #e8f3ec;
+  color: #1f5a36;
+}
+
+.confidence-badge.strong {
+  background: #eef2f7;
+  color: #2f3e52;
+}
+
+.confidence-badge.safe {
+  background: #f5efe6;
+  color: #6a5132;
+}
+
+.confidence-badge.weak {
+  background: #f8f5f2;
+  color: #7a6a5a;
+}
+
+.confidence-badge.avoid {
+  background: #fbeaea;
+  color: #7a2f2f;
 }
 
 .result-card {

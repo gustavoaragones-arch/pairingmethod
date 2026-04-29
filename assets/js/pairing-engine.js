@@ -180,6 +180,23 @@ function formatStyleTitle(style) {
   return humanizeNode(style);
 }
 
+/** Map matrix score to plain-language confidence (deterministic). */
+function getConfidenceTier(score) {
+  if (score >= 85) {
+    return { label: "Ideal pairing", tone: "ideal" };
+  }
+  if (score >= 70) {
+    return { label: "Excellent match", tone: "strong" };
+  }
+  if (score >= 55) {
+    return { label: "Safe pairing", tone: "safe" };
+  }
+  if (score >= 40) {
+    return { label: "Works, but not optimal", tone: "weak" };
+  }
+  return { label: "Best avoided", tone: "avoid" };
+}
+
 function hasSelection(category, value) {
   return !!state[category]?.has(value);
 }
@@ -224,6 +241,7 @@ function buildStructureReason(topWine) {
 }
 
 function generateSommelierText(topWine) {
+  const confidence = getConfidenceTier(topWine.score);
   const parts = [];
 
   if (hasSelection("protein", "red_meat")) {
@@ -261,9 +279,23 @@ function generateSommelierText(topWine) {
     explanation = `Because ${parts.join(", ")}, `;
   }
 
-  const wineLabel = formatStyleTitle(topWine.style);
-  explanation += `a <strong>${escapeHtml(wineLabel)}</strong> works best`;
-  explanation += buildStructureReason(topWine);
+  const wineLabel = escapeHtml(formatStyleTitle(topWine.style));
+
+  let matchClause;
+  if (confidence.tone === "avoid") {
+    matchClause = `a <strong>${wineLabel}</strong> is <strong>best avoided</strong>`;
+  } else if (confidence.tone === "weak") {
+    matchClause = `a <strong>${wineLabel}</strong> <strong>works, but is not optimal</strong>`;
+  } else {
+    const lower = confidence.label.toLowerCase();
+    const article = /^[aeiou]/.test(lower) ? "an" : "a";
+    matchClause = `a <strong>${wineLabel}</strong> is ${article} <strong>${lower}</strong>`;
+  }
+
+  explanation += matchClause;
+  if (confidence.tone !== "avoid") {
+    explanation += buildStructureReason(topWine);
+  }
 
   return `${explanation}.`;
 }
@@ -397,9 +429,12 @@ function paintResults(root) {
         : `${r.score}% matrix match · ${selections.length} active row${selections.length === 1 ? "" : "s"}`;
 
       const topClass = i === 0 ? " top-result" : "";
+      const tier = getConfidenceTier(r.score);
+      const badge = `<div class="confidence-badge ${escapeHtml(tier.tone)}">${escapeHtml(tier.label)}</div>`;
 
       return `
         <div class="result-card${topClass}">
+          ${badge}
           <h3>${escapeHtml(title)}</h3>
           <p class="result-meta">${escapeHtml(meta)}</p>
           <ul class="result-reasoning">${reasons}</ul>
