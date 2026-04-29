@@ -245,14 +245,14 @@ function generateSommelierText(topWine) {
   }
 
   if (state.dairy?.size > 0) {
-    parts.push("there is added richness from dairy");
+    parts.push("there’s added richness from dairy");
   }
 
   if (hasSelection("spice", "spicy")) {
-    parts.push("spice requires a wine that will not amplify heat");
+    parts.push("spice requires a wine that won’t amplify heat");
   }
 
-  if (hasSelection("starch", "sweet_starch") || hasSelection("fruit", "ripe_fruit")) {
+  if (hasSelection("starch", "sweet_starch") || hasSelection("starch", "fruit")) {
     parts.push("sweetness needs balance from acidity or residual sugar");
   }
 
