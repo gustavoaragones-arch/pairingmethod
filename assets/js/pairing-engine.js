@@ -152,6 +152,23 @@ function scrollEngineIntoViewIfSelections() {
   });
 }
 
+/** Micro “system responding” cue after each successful paint (CSS-only). */
+function pulseEngine(root) {
+  const el =
+    root || document.getElementById("pairing-engine-root");
+  if (!el) return;
+  const prefersReduce =
+    typeof window !== "undefined" &&
+    window.matchMedia &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (prefersReduce) return;
+
+  el.classList.remove("is-updating");
+  void el.offsetWidth;
+  el.classList.add("is-updating");
+  window.setTimeout(() => el.classList.remove("is-updating"), 180);
+}
+
 function humanizeNode(key) {
   return key
     .split("_")
@@ -273,7 +290,7 @@ function paintResults(root) {
       : "";
 
   const cardsHtml = rows
-    .map((r) => {
+    .map((r, i) => {
       let lines = r.baseline ? baselineReasons() : buildReasoning(r.style);
       if (!r.baseline && lines.length === 0) {
         lines = [
@@ -290,8 +307,10 @@ function paintResults(root) {
         ? "50% baseline — add food rows to score"
         : `${r.score}% matrix match · ${selections.length} active row${selections.length === 1 ? "" : "s"}`;
 
+      const topClass = i === 0 ? " top-result" : "";
+
       return `
-        <div class="result-card">
+        <div class="result-card${topClass}">
           <h3>${escapeHtml(title)}</h3>
           <p class="result-meta">${escapeHtml(meta)}</p>
           <ul class="result-reasoning">${reasons}</ul>
@@ -325,6 +344,8 @@ function paintResults(root) {
     m.rescanTermLinks(container);
     m.rescanTermLinks(feedbackEl);
   });
+
+  pulseEngine(root);
 }
 
 /**
