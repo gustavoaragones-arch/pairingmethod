@@ -249,6 +249,42 @@ a {
   margin-bottom: 24px;
 }
 
+/* Sommelier verdict — authority block above engine */
+.sommelier-verdict {
+  background: linear-gradient(135deg, #faf7f5 0%, #f3ebe6 100%);
+  border: 1px solid var(--border-subtle);
+  border-left: 4px solid var(--wine-accent, var(--wine-red));
+  padding: 1.25rem 1.35rem;
+  margin-bottom: 1.5rem;
+  max-width: 42rem;
+}
+
+.sommelier-verdict h2 {
+  font-size: 1.1rem;
+  margin: 0 0 0.65rem;
+  color: var(--wine-accent, var(--wine-red));
+  font-family: var(--font-serif, Georgia, serif);
+}
+
+.sommelier-verdict p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 1.02rem;
+}
+
+.sommelier-verdict strong {
+  color: var(--text-primary);
+}
+
+.confidence-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--wine-accent, var(--wine-red));
+  margin: 0 0 0.35rem;
+}
+
 /* Wine Cards */
 
 .wine-card {

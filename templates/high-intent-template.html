@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- 1️⃣ Head: unique title, meta, canonical, Open Graph -->
-  <title>{{TITLE}}</title>
+  <title>{{TITLE}}</title><!-- Best Wine with {Food} (+ Sommelier Pairing Guide) | Pairing Method -->
   <meta name="description" content="{{META_DESCRIPTION}}">
   <link rel="canonical" href="{{CANONICAL_URL}}">
 
@@ -27,7 +27,7 @@
           <li><a href="/">Home</a></li>
           <li><a href="/pairings.html">Pairings</a></li>
           <li><a href="/grapes.html">Grapes</a></li>
-          <li><a href="#">Seasonal</a></li>
+          <li><a href="/seasonal-wine-guides.html">Seasonal</a></li>
           <li><a href="/about.html">About</a></li>
         </ul>
       </nav>
@@ -37,14 +37,17 @@
   <!-- ========== MAIN: high-intent page structure ========== -->
   <main class="container">
     <article>
-      <h1>{{PAGE_TITLE}}</h1>
+      <h1>{{H1}}</h1>
+      <p class="page-subline">{{PAGE_SUBLINE}}</p>
 
-      <!-- Direct Answer Block: 40–60 words, featured-snippet ready -->
       <section class="direct-answer" aria-label="Quick answer">
-        <p>
-          {{DIRECT_ANSWER}}
-        </p>
+        <h2>Quick answer</h2>
+        <p>{{DIRECT_ANSWER}}</p>
       </section>
+
+      {{SOMMELIER_VERDICT_HTML}}
+
+      <p class="query-match">{{QUERY_MATCH}}</p>
 
       <!-- Top 3 Wines: static content, crawlable -->
       <section class="top-wines" aria-label="Top wine pairings">

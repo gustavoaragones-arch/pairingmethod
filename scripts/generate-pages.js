@@ -6,6 +6,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { buildSeoBundle } from "./pairing-seo.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -48,27 +49,30 @@ function buildFaqHtml(faqs) {
 }
 
 /**
- * Each entry: slug, SEO, unique intro, 2–3 matrix attributes max, FAQs, related HTML, serving bullets.
+ * Each entry: slug + foodLabel + copy blocks (SEO derived via pairing-seo.js).
  */
 const combinations = [
   {
     slug: "wine-with-grilled-steak",
-    pageTitle: "Best Wine for Grilled Steak | Pairing Method",
-    ogTitle: "Best Wine for Grilled Steak",
-    h1: "Best Wine for Grilled Steak",
-    breadcrumbLabel: "Best Wine for Grilled Steak",
-    metaDescription:
-      "Best wine for grilled steak: structured reds and matrix logic for char, fat, and smoke. Refine cuts and sides with the Pairing Method engine.",
-    intro:
-      "Grilled steak layers caramelized fat, smoke from the grate, and deep beef savor. Wines need enough structure—tannin, body, and acidity—to mirror that intensity without thinning out. Leaner cuts can bend toward medium reds, but char and browning usually favor bolder bottles. Use the interactive matrix below to align your exact cut, sides, and heat level with nine wine style families.",
-    queryMatch:
-      "What wine goes with grilled steak, the best wine for your cut and char, and a focused grilled steak wine pairing all come down to structure and smoke. This page leads with the written answer, then the matrix at the end when you want to encode sides, rub, and heat.",
-    context: {
-      protein: ["red_meat"],
-      preparation: ["grilled"],
+    foodLabel: "Grilled Steak",
+    pageSubline:
+      "The best wine with grilled steak matches char, smoke, and fat—Cabernet Sauvignon and Syrah lead; lean cuts can take Merlot or Pinot Noir.",
+    directAnswer:
+      "Cabernet Sauvignon and Syrah are the best wines with grilled steak when the cut is fatty and the grate adds smoke. Tannin binds to protein, acidity refreshes between bites, and peppery fruit mirrors char. For all steak preparations—including pan-seared ribeye—see our general wine with steak guide.",
+    sommelierVerdict: {
+      wine: "Cabernet Sauvignon",
+      confidenceKey: "smoky",
+      dishContext: "grilled ribeye and strip steak",
+      reasoning:
+        "firm tannin and full body stand up to grill smoke and caramelized fat without thinning on the palate",
     },
+    queryMatch:
+      "Best wine for grilled steak, what wine goes with grilled steak, and grilled steak wine pairing all point to structured reds first. This page owns grill and char; pan-seared or butter-basted cuts are covered on the main steak guide.",
+    metaDescription:
+      "Cabernet Sauvignon and Syrah are the best wines with grilled steak for char and fat. Sommelier pairing guide for cuts, rubs, and smoke.",
+    context: { protein: ["red_meat"], preparation: ["grilled"] },
     relatedBody:
-      'Compare with <a href="/wine-with-steak.html">wine with steak</a> (all preparations), <a href="/wine-for-bbq-ribs.html">BBQ ribs</a> for sweet smoke, and the full <a href="/pairings.html">pairing guide hub</a>.',
+      'For steak in any preparation, see <a href="/wine-with-steak.html">wine with steak</a>. Sweet-smoke plates: <a href="/wine-for-bbq-ribs.html">wine with BBQ ribs</a>. Hub: <a href="/pairings.html">all pairing guides</a>.',
     faqs: [
       {
         q: "Does grilled steak need a bolder wine than pan-seared?",
@@ -91,22 +95,25 @@ const combinations = [
   },
   {
     slug: "wine-with-roasted-chicken",
-    pageTitle: "Best Wine for Roasted Chicken | Pairing Method",
-    ogTitle: "Best Wine for Roasted Chicken",
-    h1: "Best Wine for Roasted Chicken",
-    breadcrumbLabel: "Best Wine for Roasted Chicken",
-    metaDescription:
-      "Best wine for roasted chicken: medium reds, rich whites, and rosé—scored with the Pairing Method matrix for herbs, skin, and gravy.",
-    intro:
-      "Roasted chicken delivers crisp skin, juicy meat, and gentle savory depth—often with herbs and pan juices. Wines should match that moderate intensity without overpowering: medium reds, rich whites, and many rosés sit in the sweet spot. Acidity keeps the pairing fresh when the bird comes straight from the oven. Layer dark meat, gravy, or vegetables in the engine to sharpen the match.",
-    queryMatch:
-      "If you are searching what wine goes with roasted chicken, the best wine for pan juices and herbs, or a roasted chicken wine pairing in one pass, the logic is the same: moderate weight and good acidity. Read the lead answer first, then use the tool last to layer gravy, sides, and vegetables.",
-    context: {
-      protein: ["poultry"],
-      preparation: ["roasted"],
+    foodLabel: "Roasted Chicken",
+    pageSubline:
+      "The best wine for roasted chicken is Pinot Noir or Chardonnay—moderate weight, bright acidity, and enough body for pan juices and herbs.",
+    directAnswer:
+      "Pinot Noir and Chardonnay are the best wines for roasted chicken: Pinot lifts white and dark meat with acidity and gentle earth; Chardonnay matches butter, gravy, and root vegetables. Best wine for roast chicken and roast chicken wine pairing both favor moderate intensity—not heavy, tannic reds.",
+    sommelierVerdict: {
+      wine: "Pinot Noir",
+      confidenceKey: "safest",
+      dishContext: "roast chicken with herbs and pan juices",
+      reasoning:
+        "its acidity lifts the meat while earthy notes mirror roasted skin and savory depth",
     },
+    queryMatch:
+      "Best wine for roasted chicken, roast chicken wine pairing, and wine with roast chicken are answered here. For grilled, fried, or cream-sauced chicken, see the general wine with chicken guide.",
+    metaDescription:
+      "Pinot Noir and Chardonnay are the best wines for roasted chicken—herbs, skin, and gravy. Sommelier roast chicken pairing guide.",
+    context: { protein: ["poultry"], preparation: ["roasted"] },
     relatedBody:
-      'See <a href="/wine-with-chicken.html">wine with chicken</a> for broader cuts, <a href="/wine-for-thanksgiving-turkey.html">Thanksgiving turkey</a> for holiday roasts, and <a href="/pairings.html">more guides</a>.',
+      'General poultry pairings: <a href="/wine-with-chicken.html">wine with chicken</a>. Holiday roasts: <a href="/wine-for-thanksgiving-turkey.html">wine with Thanksgiving turkey</a>. <a href="/grapes/pinot-noir.html">Pinot Noir</a> and <a href="/grapes/chardonnay.html">Chardonnay</a> guides. More: <a href="/pairings.html">pairing hub</a>.',
     faqs: [
       {
         q: "Is Chardonnay good with roast chicken?",
@@ -129,22 +136,25 @@ const combinations = [
   },
   {
     slug: "wine-with-fried-fish",
-    pageTitle: "Best Wine for Fried Fish | Pairing Method",
-    ogTitle: "Best Wine for Fried Fish",
-    h1: "Best Wine for Fried Fish",
-    breadcrumbLabel: "Best Wine for Fried Fish",
-    metaDescription:
-      "Best wine for fried fish: crisp whites, sparkling, and rosé—cut richness with acidity. Use the pairing matrix for fish plus fryer prep.",
-    intro:
-      "Fried fish pairs crunch, oil, and mild protein—so wine needs lift. High-acid whites, sparkling wine, and lighter rosés cut grease and refresh the palate. Heavy oaked reds usually clash with delicate fillets. The matrix below encodes fish plus fried preparation so you can see which columns stay green while you adjust batter, spice, and sides.",
-    queryMatch:
-      "What wine goes with fried fish, the best wine for a hot crust, and a practical fried fish wine pairing all lean on acid and bubbles. This guide gives the answer in text before the engine, with the matrix last when you want to model batter, lemon, and sides.",
-    context: {
-      protein: ["fish"],
-      preparation: ["fried"],
+    foodLabel: "Fried Fish",
+    pageSubline:
+      "The best wine with fried fish cuts oil with acidity—Sauvignon Blanc, sparkling wine, and dry rosé are the top sommelier picks.",
+    directAnswer:
+      "Sauvignon Blanc, sparkling wine, and dry rosé are the best wines with fried fish because high acidity and bubbles refresh the palate against hot fat and batter. Heavy tannic reds clash with delicate fillets.",
+    sommelierVerdict: {
+      wine: "Sauvignon Blanc",
+      confidenceKey: "classic",
+      dishContext: "beer-battered and pan-fried fish",
+      reasoning:
+        "crisp acidity and citrus lift cut through oil without competing with mild protein",
     },
+    queryMatch:
+      "What wine goes with fried fish, the best wine for fried fish, and fried fish wine pairing all lean on acid and bubbles. Lighter fish without fryer prep: <a href=\"/wine-with-salmon.html\">wine with salmon</a>.",
+    metaDescription:
+      "Sauvignon Blanc, sparkling wine, and rosé are the best wines with fried fish—cut richness with acidity. Sommelier pairing guide.",
+    context: { protein: ["fish"], preparation: ["fried"] },
     relatedBody:
-      'Contrast with <a href="/wine-with-salmon.html">wine with salmon</a>, lighter <a href="/wine-with-chicken.html">chicken</a> fried dishes, and browse <a href="/pairings.html">all pairings</a>.',
+      'Richer fish: <a href="/wine-with-salmon.html">wine with salmon</a>. Poultry fry: <a href="/wine-with-chicken.html">wine with chicken</a>. <a href="/terms/acidity.html">Acidity</a> in pairing. <a href="/pairings.html">All guides</a>.',
     faqs: [
       {
         q: "Is sparkling wine good with fried fish?",
@@ -167,21 +177,25 @@ const combinations = [
   },
   {
     slug: "wine-with-spicy-food",
-    pageTitle: "Best Wine for Spicy Food | Pairing Method",
-    ogTitle: "Best Wine for Spicy Food",
-    h1: "Best Wine for Spicy Food",
-    breadcrumbLabel: "Best Wine for Spicy Food",
-    metaDescription:
-      "Best wine for spicy food: off-dry whites, aromatic styles, rosé—balance heat without fanning alcohol burn. Matrix-driven pairing logic.",
-    intro:
-      "Spicy food amplifies heat and can make tannin and high alcohol feel harsher. Slight sweetness, lower alcohol, and aromatic lift often work better than dry, grippy reds—sweetness is structural, not dessert. Rosé, off-dry whites, and sparkling can tame capsaicin while refreshing the palate. Add protein and starch rows when your dish isn’t heat alone so the matrix reflects the full plate.",
-    queryMatch:
-      "What wine goes with spicy food, the best wine for taming capsaicin without harshening alcohol, and a clear spicy food wine pairing: reach for lift and a touch of sweetness before tannin. The explanation leads; the tool follows when you want the full matrix on the plate you actually cooked.",
-    context: {
-      spice: ["spicy"],
+    foodLabel: "Spicy Food",
+    pageSubline:
+      "The best wine with spicy food balances heat—off-dry Riesling, aromatic whites, and rosé tame capsaicin better than grippy tannic reds.",
+    directAnswer:
+      "Off-dry Riesling, Gewürztraminer-style aromatics, and dry rosé are the best wines with spicy food because a touch of sweetness and lower alcohol soften heat without fanning burn. Bold dry reds often taste harsher beside capsaicin.",
+    sommelierVerdict: {
+      wine: "Off-dry Riesling",
+      confidenceKey: "friendly",
+      dishContext: "chili-forward and pepper-heavy dishes",
+      reasoning:
+        "residual sugar and acidity calm heat the way dairy can, without clashing like high tannin",
     },
+    queryMatch:
+      "What wine goes with spicy food, best wine for spicy food, and spicy food wine pairing: reach for lift and gentle sweetness before tannin. Smoky-sweet plates: <a href=\"/wine-for-bbq-ribs.html\">wine with BBQ ribs</a>.",
+    metaDescription:
+      "Off-dry Riesling and rosé are the best wines with spicy food—balance heat without harsh tannin. Sommelier pairing guide.",
+    context: { spice: ["spicy"] },
     relatedBody:
-      'Pair with <a href="/wine-for-bbq-ribs.html">BBQ ribs</a> when smoke meets sugar, explore <a href="/wine-with-chicken.html">chicken</a> for protein context, and see <a href="/pairings.html">more guides</a>.',
+      'Smoke and sugar: <a href="/wine-for-bbq-ribs.html">wine with BBQ ribs</a>. Protein context: <a href="/wine-with-chicken.html">wine with chicken</a>. <a href="/terms/off-dry.html">Off-dry</a> wines explained. <a href="/pairings.html">More guides</a>.',
     faqs: [
       {
         q: "Why is a little sweetness recommended with heat?",
@@ -204,21 +218,25 @@ const combinations = [
   },
   {
     slug: "wine-with-creamy-dishes",
-    pageTitle: "Best Wine for Creamy Dishes | Pairing Method",
-    ogTitle: "Best Wine for Creamy Dishes",
-    h1: "Best Wine for Creamy Dishes",
-    breadcrumbLabel: "Best Wine for Creamy Dishes",
-    metaDescription:
-      "Best wine for creamy dishes: acidity-driven whites, structured whites, and selective reds—pair fat with cut-through, via the pairing matrix.",
-    intro:
-      "Creamy sauces, soft cheeses, and dairy-forward plates coat the palate and raise richness. Wines need enough acidity to cut through fat—or controlled richness that matches without doubling weight blindly. Thin, tannic reds without acidity often feel awkward; crisp and structured whites frequently lead. Add starch, protein, and prep rows when cream sits on pasta, poultry, or vegetables so the matrix stays honest.",
-    queryMatch:
-      "If you are asking what wine goes with creamy dishes, the best wine for cheese- or dairy-weight plates, or a one-stop creamy dish wine pairing, acid cutting fat is the through-line. The answer is up front; the engine sits after so you can add starch, protein, and how you made the cream.",
-    context: {
-      dairy: ["soft_cheese"],
+    foodLabel: "Creamy Dishes",
+    pageSubline:
+      "The best wine with creamy dishes needs acidity to cut fat—Chardonnay, Sauvignon Blanc, and selective medium reds lead.",
+    directAnswer:
+      "Chardonnay, Sauvignon Blanc, and medium-bodied Pinot Noir are the best wines with creamy dishes when acidity matches sauce weight. Thin, highly tannic reds without acid feel awkward against dairy-rich plates.",
+    sommelierVerdict: {
+      wine: "Chardonnay",
+      confidenceKey: "restaurant",
+      dishContext: "cream sauces and soft-cheese plates",
+      reasoning:
+        "balanced acidity and controlled richness cut through fat without doubling heaviness on the palate",
     },
+    queryMatch:
+      "What wine goes with creamy dishes, best wine for creamy pasta, and creamy dish wine pairing: acid cutting fat is the rule. Creamy poultry: <a href=\"/wine-with-chicken.html\">wine with chicken</a>.",
+    metaDescription:
+      "Chardonnay and Sauvignon Blanc are the best wines with creamy dishes—cut fat with acidity. Sommelier pairing guide.",
+    context: { dairy: ["soft_cheese"] },
     relatedBody:
-      'Explore <a href="/wine-with-chicken.html">chicken with cream sauces</a>, <a href="/wine-with-salmon.html">salmon</a> for fatty fish, and the <a href="/pairing-matrix.html">full matrix</a> reference.',
+      'Creamy poultry: <a href="/wine-with-chicken.html">wine with chicken</a>. Fatty fish: <a href="/wine-with-salmon.html">wine with salmon</a>. <a href="/grapes/chardonnay.html">Chardonnay</a>. <a href="/pairing-matrix.html">Pairing matrix</a>.',
     faqs: [
       {
         q: "Is Chardonnay always the answer for cream?",
@@ -241,22 +259,25 @@ const combinations = [
   },
   {
     slug: "wine-with-smoked-pork",
-    pageTitle: "Best Wine for Smoked Pork | Pairing Method",
-    ogTitle: "Best Wine for Smoked Pork",
-    h1: "Best Wine for Smoked Pork",
-    breadcrumbLabel: "Best Wine for Smoked Pork",
-    metaDescription:
-      "Best wine for smoked pork: medium reds, rosé, structured whites—balance smoke, sweetness, and fat using Pairing Method’s matrix.",
-    intro:
-      "Smoked pork stacks sweet, savory, and smoky notes from wood and low heat. Medium reds, rosés, and structured whites can align with smoke without amplifying bitterness. Rubs and sauces—sweet, spicy, or vinegary—shift the matrix: update spice, fruit, and starch rows to match what’s on the plate. The tool below keeps preparation and protein explicit so scores stay interpretable.",
-    queryMatch:
-      "What wine goes with smoked pork, the best wine for your rub and glaze, and a full smoked pork wine pairing start with sweet, smoke, and fat in balance. Read the direct guidance first, then open the matrix to reflect your exact sauce, sides, and heat.",
-    context: {
-      protein: ["pork"],
-      preparation: ["smoked"],
+    foodLabel: "Smoked Pork",
+    pageSubline:
+      "The best wine with smoked pork balances sweet, smoke, and fat—Zinfandel, off-dry Riesling, and medium reds are sommelier favorites.",
+    directAnswer:
+      "Zinfandel, Grenache-style medium reds, and off-dry Riesling are the best wines with smoked pork when rubs and glazes add sweetness. Acidity and fruit keep smoke from reading bitter; update spice rows for hot rubs.",
+    sommelierVerdict: {
+      wine: "Zinfandel",
+      confidenceKey: "smoky",
+      dishContext: "smoked pork with sweet or pepper rub",
+      reasoning:
+        "jammy fruit and moderate tannin mirror smoke and glaze without amplifying bitterness",
     },
+    queryMatch:
+      "What wine goes with smoked pork, best wine for smoked pork, and smoked pork wine pairing balance sugar, smoke, and fat. Char without long smoke: <a href=\"/wine-with-grilled-steak.html\">wine with grilled steak</a>.",
+    metaDescription:
+      "Zinfandel and off-dry Riesling are the best wines with smoked pork—smoke, sweetness, and fat. Sommelier pairing guide.",
+    context: { protein: ["pork"], preparation: ["smoked"] },
     relatedBody:
-      'Compare <a href="/wine-for-bbq-ribs.html">BBQ ribs</a>, <a href="/wine-with-grilled-steak.html">grilled steak</a> for char without long smoke, and <a href="/pairings.html">all pairing guides</a>.',
+      'Sweet smoke: <a href="/wine-for-bbq-ribs.html">wine with BBQ ribs</a>. Grill char: <a href="/wine-with-grilled-steak.html">wine with grilled steak</a>. <a href="/terms/smoky.html">Smoky</a> flavor in wine. <a href="/pairings.html">All guides</a>.',
     faqs: [
       {
         q: "Does smoke make wine taste more bitter?",
@@ -288,18 +309,28 @@ window.PAIRING_CONTEXT = ${json};
 
 function applyTemplate(template, page) {
   const canonicalUrl = `${BASE}/${page.slug}.html`;
+  const seo = buildSeoBundle({
+    foodLabel: page.foodLabel,
+    pageSubline: page.pageSubline,
+    directAnswer: page.directAnswer,
+    sommelierVerdict: page.sommelierVerdict,
+    queryMatch: page.queryMatch,
+    metaDescription: page.metaDescription,
+  });
   const faqSchemaJson = JSON.stringify(buildFaqSchema(page.faqs), null, 2);
   const servingLi = page.servingLi.map((t) => `          <li>${escapeHtml(t)}</li>`).join("\n");
 
   const replacements = {
-    "{{PAGE_TITLE}}": page.pageTitle,
-    "{{META_DESCRIPTION}}": escapeHtml(page.metaDescription),
+    "{{PAGE_TITLE}}": seo.pageTitle,
+    "{{META_DESCRIPTION}}": escapeHtml(seo.metaDescription),
     "{{CANONICAL_URL}}": canonicalUrl,
-    "{{OG_TITLE}}": escapeHtml(page.ogTitle),
-    "{{H1}}": escapeHtml(page.h1),
-    "{{BREADCRUMB_LABEL}}": escapeHtml(page.breadcrumbLabel),
-    "{{INTRO}}": escapeHtml(page.intro),
-    "{{QUERY_MATCH_TEXT}}": escapeHtml(page.queryMatch),
+    "{{OG_TITLE}}": escapeHtml(seo.ogTitle),
+    "{{H1}}": escapeHtml(seo.h1),
+    "{{BREADCRUMB_LABEL}}": escapeHtml(seo.breadcrumbLabel),
+    "{{PAGE_SUBLINE}}": escapeHtml(seo.pageSubline),
+    "{{DIRECT_ANSWER}}": escapeHtml(seo.directAnswer),
+    "{{SOMMELIER_VERDICT_HTML}}": seo.sommelierVerdictHtml,
+    "{{QUERY_MATCH_TEXT}}": page.queryMatch,
     "{{RELATED_BODY}}": page.relatedBody,
     "{{CONTEXT}}": contextScript(page.context),
     "{{FAQ_SCHEMA_JSON}}": faqSchemaJson,
