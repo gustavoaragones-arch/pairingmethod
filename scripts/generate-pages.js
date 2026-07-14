@@ -6,6 +6,16 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import {
+  absoluteUrl,
+  canonicalUrl,
+  grapeUrl,
+  ogUrl,
+  pairingUrl,
+  publicPath,
+  schemaUrl,
+  termUrl,
+} from "../lib/public-url.js";
 import { buildSeoBundle } from "./pairing-seo.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -15,7 +25,17 @@ const root = path.join(__dirname, "..");
 const templatesDir = path.join(root, "templates");
 const outputDir = root;
 
-const BASE = "https://pairingmethod.com";
+const SHARED_ROUTES = Object.freeze({
+  home: publicPath("index.html"),
+  pairings: publicPath("pairings.html"),
+  grapes: publicPath("grapes.html"),
+  seasonal: publicPath("seasonal-wine-guides.html"),
+  about: publicPath("about.html"),
+  matrix: publicPath("pairing-matrix.html"),
+  privacy: publicPath("privacy.html"),
+  termsOfService: publicPath("terms.html"),
+  disclaimer: publicPath("disclaimer.html"),
+});
 
 function escapeHtml(s) {
   return String(s)
@@ -48,6 +68,10 @@ function buildFaqHtml(faqs) {
     .join("\n\n");
 }
 
+function pageLink(href, label) {
+  return `<a href="${escapeHtml(href)}">${escapeHtml(label)}</a>`;
+}
+
 /**
  * Each entry: slug + foodLabel + copy blocks (SEO derived via pairing-seo.js).
  */
@@ -71,8 +95,7 @@ const combinations = [
     metaDescription:
       "Cabernet Sauvignon and Syrah are the best wines with grilled steak for char and fat. Sommelier pairing guide for cuts, rubs, and smoke.",
     context: { protein: ["red_meat"], preparation: ["grilled"] },
-    relatedBody:
-      'For steak in any preparation, see <a href="/wine-with-steak.html">wine with steak</a>. Sweet-smoke plates: <a href="/wine-for-bbq-ribs.html">wine with BBQ ribs</a>. Hub: <a href="/pairings.html">all pairing guides</a>.',
+    relatedBody: `For steak in any preparation, see ${pageLink(pairingUrl("wine-with-steak"), "wine with steak")}. Sweet-smoke plates: ${pageLink(pairingUrl("wine-for-bbq-ribs"), "wine with BBQ ribs")}. Hub: ${pageLink(SHARED_ROUTES.pairings, "all pairing guides")}.`,
     faqs: [
       {
         q: "Does grilled steak need a bolder wine than pan-seared?",
@@ -112,8 +135,7 @@ const combinations = [
     metaDescription:
       "Pinot Noir and Chardonnay are the best wines for roasted chicken—herbs, skin, and gravy. Sommelier roast chicken pairing guide.",
     context: { protein: ["poultry"], preparation: ["roasted"] },
-    relatedBody:
-      'General poultry pairings: <a href="/wine-with-chicken.html">wine with chicken</a>. Holiday roasts: <a href="/wine-for-thanksgiving-turkey.html">wine with Thanksgiving turkey</a>. <a href="/grapes/pinot-noir.html">Pinot Noir</a> and <a href="/grapes/chardonnay.html">Chardonnay</a> guides. More: <a href="/pairings.html">pairing hub</a>.',
+    relatedBody: `General poultry pairings: ${pageLink(pairingUrl("wine-with-chicken"), "wine with chicken")}. Holiday roasts: ${pageLink(pairingUrl("wine-for-thanksgiving-turkey"), "wine with Thanksgiving turkey")}. ${pageLink(grapeUrl("pinot-noir"), "Pinot Noir")} and ${pageLink(grapeUrl("chardonnay"), "Chardonnay")} guides. More: ${pageLink(SHARED_ROUTES.pairings, "pairing hub")}.`,
     faqs: [
       {
         q: "Is Chardonnay good with roast chicken?",
@@ -148,13 +170,11 @@ const combinations = [
       reasoning:
         "crisp acidity and citrus lift cut through oil without competing with mild protein",
     },
-    queryMatch:
-      "What wine goes with fried fish, the best wine for fried fish, and fried fish wine pairing all lean on acid and bubbles. Lighter fish without fryer prep: <a href=\"/wine-with-salmon.html\">wine with salmon</a>.",
+    queryMatch: `What wine goes with fried fish, the best wine for fried fish, and fried fish wine pairing all lean on acid and bubbles. Lighter fish without fryer prep: ${pageLink(pairingUrl("wine-with-salmon"), "wine with salmon")}.`,
     metaDescription:
       "Sauvignon Blanc, sparkling wine, and rosé are the best wines with fried fish—cut richness with acidity. Sommelier pairing guide.",
     context: { protein: ["fish"], preparation: ["fried"] },
-    relatedBody:
-      'Richer fish: <a href="/wine-with-salmon.html">wine with salmon</a>. Poultry fry: <a href="/wine-with-chicken.html">wine with chicken</a>. <a href="/terms/acidity.html">Acidity</a> in pairing. <a href="/pairings.html">All guides</a>.',
+    relatedBody: `Richer fish: ${pageLink(pairingUrl("wine-with-salmon"), "wine with salmon")}. Poultry fry: ${pageLink(pairingUrl("wine-with-chicken"), "wine with chicken")}. ${pageLink(termUrl("acidity"), "Acidity")} in pairing. ${pageLink(SHARED_ROUTES.pairings, "All guides")}.`,
     faqs: [
       {
         q: "Is sparkling wine good with fried fish?",
@@ -189,13 +209,11 @@ const combinations = [
       reasoning:
         "residual sugar and acidity calm heat the way dairy can, without clashing like high tannin",
     },
-    queryMatch:
-      "What wine goes with spicy food, best wine for spicy food, and spicy food wine pairing: reach for lift and gentle sweetness before tannin. Smoky-sweet plates: <a href=\"/wine-for-bbq-ribs.html\">wine with BBQ ribs</a>.",
+    queryMatch: `What wine goes with spicy food, best wine for spicy food, and spicy food wine pairing: reach for lift and gentle sweetness before tannin. Smoky-sweet plates: ${pageLink(pairingUrl("wine-for-bbq-ribs"), "wine with BBQ ribs")}.`,
     metaDescription:
       "Off-dry Riesling and rosé are the best wines with spicy food—balance heat without harsh tannin. Sommelier pairing guide.",
     context: { spice: ["spicy"] },
-    relatedBody:
-      'Smoke and sugar: <a href="/wine-for-bbq-ribs.html">wine with BBQ ribs</a>. Protein context: <a href="/wine-with-chicken.html">wine with chicken</a>. <a href="/terms/off-dry.html">Off-dry</a> wines explained. <a href="/pairings.html">More guides</a>.',
+    relatedBody: `Smoke and sugar: ${pageLink(pairingUrl("wine-for-bbq-ribs"), "wine with BBQ ribs")}. Protein context: ${pageLink(pairingUrl("wine-with-chicken"), "wine with chicken")}. ${pageLink(termUrl("off-dry"), "Off-dry")} wines explained. ${pageLink(SHARED_ROUTES.pairings, "More guides")}.`,
     faqs: [
       {
         q: "Why is a little sweetness recommended with heat?",
@@ -230,13 +248,11 @@ const combinations = [
       reasoning:
         "balanced acidity and controlled richness cut through fat without doubling heaviness on the palate",
     },
-    queryMatch:
-      "What wine goes with creamy dishes, best wine for creamy pasta, and creamy dish wine pairing: acid cutting fat is the rule. Creamy poultry: <a href=\"/wine-with-chicken.html\">wine with chicken</a>.",
+    queryMatch: `What wine goes with creamy dishes, best wine for creamy pasta, and creamy dish wine pairing: acid cutting fat is the rule. Creamy poultry: ${pageLink(pairingUrl("wine-with-chicken"), "wine with chicken")}.`,
     metaDescription:
       "Chardonnay and Sauvignon Blanc are the best wines with creamy dishes—cut fat with acidity. Sommelier pairing guide.",
     context: { dairy: ["soft_cheese"] },
-    relatedBody:
-      'Creamy poultry: <a href="/wine-with-chicken.html">wine with chicken</a>. Fatty fish: <a href="/wine-with-salmon.html">wine with salmon</a>. <a href="/grapes/chardonnay.html">Chardonnay</a>. <a href="/pairing-matrix.html">Pairing matrix</a>.',
+    relatedBody: `Creamy poultry: ${pageLink(pairingUrl("wine-with-chicken"), "wine with chicken")}. Fatty fish: ${pageLink(pairingUrl("wine-with-salmon"), "wine with salmon")}. ${pageLink(grapeUrl("chardonnay"), "Chardonnay")}. ${pageLink(SHARED_ROUTES.matrix, "Pairing matrix")}.`,
     faqs: [
       {
         q: "Is Chardonnay always the answer for cream?",
@@ -271,13 +287,11 @@ const combinations = [
       reasoning:
         "jammy fruit and moderate tannin mirror smoke and glaze without amplifying bitterness",
     },
-    queryMatch:
-      "What wine goes with smoked pork, best wine for smoked pork, and smoked pork wine pairing balance sugar, smoke, and fat. Char without long smoke: <a href=\"/wine-with-grilled-steak.html\">wine with grilled steak</a>.",
+    queryMatch: `What wine goes with smoked pork, best wine for smoked pork, and smoked pork wine pairing balance sugar, smoke, and fat. Char without long smoke: ${pageLink(pairingUrl("wine-with-grilled-steak"), "wine with grilled steak")}.`,
     metaDescription:
       "Zinfandel and off-dry Riesling are the best wines with smoked pork—smoke, sweetness, and fat. Sommelier pairing guide.",
     context: { protein: ["pork"], preparation: ["smoked"] },
-    relatedBody:
-      'Sweet smoke: <a href="/wine-for-bbq-ribs.html">wine with BBQ ribs</a>. Grill char: <a href="/wine-with-grilled-steak.html">wine with grilled steak</a>. <a href="/terms/smoky.html">Smoky</a> flavor in wine. <a href="/pairings.html">All guides</a>.',
+    relatedBody: `Sweet smoke: ${pageLink(pairingUrl("wine-for-bbq-ribs"), "wine with BBQ ribs")}. Grill char: ${pageLink(pairingUrl("wine-with-grilled-steak"), "wine with grilled steak")}. ${pageLink(termUrl("smoky"), "Smoky")} flavor in wine. ${pageLink(SHARED_ROUTES.pairings, "All guides")}.`,
     faqs: [
       {
         q: "Does smoke make wine taste more bitter?",
@@ -308,7 +322,10 @@ window.PAIRING_CONTEXT = ${json};
 }
 
 function applyTemplate(template, page) {
-  const canonicalUrl = `${BASE}/${page.slug}.html`;
+  const publicRoute = pairingUrl(page.slug);
+  const pageCanonicalUrl = canonicalUrl(publicRoute);
+  const pageOgUrl = ogUrl(publicRoute);
+  const pageSchemaUrl = schemaUrl(publicRoute);
   const seo = buildSeoBundle({
     foodLabel: page.foodLabel,
     pageSubline: page.pageSubline,
@@ -323,7 +340,10 @@ function applyTemplate(template, page) {
   const replacements = {
     "{{PAGE_TITLE}}": seo.pageTitle,
     "{{META_DESCRIPTION}}": escapeHtml(seo.metaDescription),
-    "{{CANONICAL_URL}}": canonicalUrl,
+    "{{CANONICAL_URL}}": pageCanonicalUrl,
+    "{{OG_URL}}": pageOgUrl,
+    "{{SCHEMA_URL}}": pageSchemaUrl,
+    "{{SITE_URL}}": absoluteUrl(SHARED_ROUTES.home),
     "{{OG_TITLE}}": escapeHtml(seo.ogTitle),
     "{{H1}}": escapeHtml(seo.h1),
     "{{BREADCRUMB_LABEL}}": escapeHtml(seo.breadcrumbLabel),
@@ -336,6 +356,21 @@ function applyTemplate(template, page) {
     "{{FAQ_SCHEMA_JSON}}": faqSchemaJson,
     "{{FAQ_HTML}}": buildFaqHtml(page.faqs),
     "{{SERVING_LI}}": servingLi,
+    "{{HOME_URL}}": SHARED_ROUTES.home,
+    "{{PAIRINGS_URL}}": SHARED_ROUTES.pairings,
+    "{{GRAPES_URL}}": SHARED_ROUTES.grapes,
+    "{{SEASONAL_URL}}": SHARED_ROUTES.seasonal,
+    "{{ABOUT_URL}}": SHARED_ROUTES.about,
+    "{{MATRIX_URL}}": SHARED_ROUTES.matrix,
+    "{{PRIVACY_URL}}": SHARED_ROUTES.privacy,
+    "{{TERMS_OF_SERVICE_URL}}": SHARED_ROUTES.termsOfService,
+    "{{DISCLAIMER_URL}}": SHARED_ROUTES.disclaimer,
+    "{{TERM_TANNIN_URL}}": termUrl("tannin"),
+    "{{TERM_ACIDITY_URL}}": termUrl("acidity"),
+    "{{TERM_BODY_URL}}": termUrl("body"),
+    "{{GRAPE_CABERNET_URL}}": grapeUrl("cabernet-sauvignon"),
+    "{{GRAPE_PINOT_URL}}": grapeUrl("pinot-noir"),
+    "{{GRAPE_CHARDONNAY_URL}}": grapeUrl("chardonnay"),
   };
 
   let html = template;

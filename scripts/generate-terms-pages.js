@@ -8,10 +8,29 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { WINE_TERMS } from "../assets/js/wine-terms-data.js";
 import { WINES } from "../assets/js/pairing-data.js";
+import {
+  canonicalUrl,
+  grapeUrl,
+  ogUrl,
+  pairingUrl,
+  publicPath,
+  schemaUrl,
+  termUrl,
+} from "../lib/public-url.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
 const OUT_DIR = path.join(ROOT, "terms");
+const SHARED_ROUTES = Object.freeze({
+  home: publicPath("index.html"),
+  pairings: publicPath("pairings.html"),
+  grapes: publicPath("grapes.html"),
+  seasonal: publicPath("seasonal-wine-guides.html"),
+  matrix: publicPath("pairing-matrix.html"),
+  about: publicPath("about.html"),
+  privacy: publicPath("privacy.html"),
+  termsOfService: publicPath("terms.html"),
+});
 
 function escapeHtml(s) {
   return String(s)
@@ -112,37 +131,37 @@ function termFoodBridge(slug, def) {
     ["earthy", "graphite", "minerality", "herbal", "grassy"].includes(slug);
 
   if (tanninSlug) {
-    add("Steak & red meat", "/wine-with-steak.html");
-    add("Grilled steak (char)", "/wine-with-grilled-steak.html");
-    add("BBQ ribs", "/wine-for-bbq-ribs.html");
-    add("Aged / hard cheese plates", "/wine-with-creamy-dishes.html");
+    add("Steak & red meat", pairingUrl("wine-with-steak"));
+    add("Grilled steak (char)", pairingUrl("wine-with-grilled-steak"));
+    add("BBQ ribs", pairingUrl("wine-for-bbq-ribs"));
+    add("Aged / hard cheese plates", pairingUrl("wine-with-creamy-dishes"));
   } else if (acidSlug) {
-    add("Salmon & seafood", "/wine-with-salmon.html");
-    add("Fried fish", "/wine-with-fried-fish.html");
-    add("Chicken", "/wine-with-chicken.html");
-    add("Spicy dishes (careful with RS)", "/wine-with-spicy-food.html");
+    add("Salmon & seafood", pairingUrl("wine-with-salmon"));
+    add("Fried fish", pairingUrl("wine-with-fried-fish"));
+    add("Chicken", pairingUrl("wine-with-chicken"));
+    add("Spicy dishes (careful with RS)", pairingUrl("wine-with-spicy-food"));
   } else if (fruitSlug) {
-    add("BBQ & caramelized meats", "/wine-for-bbq-ribs.html");
-    add("Grilled proteins", "/wine-with-grilled-steak.html");
-    add("Turkey & holiday tables", "/wine-for-thanksgiving-turkey.html");
+    add("BBQ & caramelized meats", pairingUrl("wine-for-bbq-ribs"));
+    add("Grilled proteins", pairingUrl("wine-with-grilled-steak"));
+    add("Turkey & holiday tables", pairingUrl("wine-for-thanksgiving-turkey"));
   } else if (oakSlug) {
-    add("Grilled & smoky plates", "/wine-with-grilled-steak.html");
-    add("Smoked pork", "/wine-with-smoked-pork.html");
-    add("Roasted chicken", "/wine-with-roasted-chicken.html");
+    add("Grilled & smoky plates", pairingUrl("wine-with-grilled-steak"));
+    add("Smoked pork", pairingUrl("wine-with-smoked-pork"));
+    add("Roasted chicken", pairingUrl("wine-with-roasted-chicken"));
   } else if (earthSlug) {
-    add("Mushroom-forward dishes", "/wine-with-creamy-dishes.html");
-    add("Roasted poultry", "/wine-with-roasted-chicken.html");
-    add("Game & savory sides", "/wine-with-steak.html");
+    add("Mushroom-forward dishes", pairingUrl("wine-with-creamy-dishes"));
+    add("Roasted poultry", pairingUrl("wine-with-roasted-chicken"));
+    add("Game & savory sides", pairingUrl("wine-with-steak"));
   } else {
-    add("All dish guides", "/pairings.html");
-    add("Interactive engine", "/");
+    add("All dish guides", SHARED_ROUTES.pairings);
+    add("Interactive engine", SHARED_ROUTES.home);
   }
 
   return out.slice(0, 6);
 }
 
 function graphLinkLi(s) {
-  return `<li><a href="/terms/${escapeHtml(s)}.html" class="term-graph-link term-link" data-term="${escapeHtml(s)}">${escapeHtml(WINE_TERMS[s].label)}</a></li>`;
+  return `<li><a href="${termUrl(s)}" class="term-graph-link term-link" data-term="${escapeHtml(s)}">${escapeHtml(WINE_TERMS[s].label)}</a></li>`;
 }
 
 /** 2–3 sentences; always names ≥1 food and ≥1 wine style. */
@@ -203,41 +222,41 @@ function termIntentParagraph(slug, def) {
 function grapeLinkForCategory(categoryId) {
   const m = {
     tannin: {
-      href: "/grapes/cabernet-sauvignon.html",
+      href: grapeUrl("cabernet-sauvignon"),
       label: "Cabernet Sauvignon (grape guide)",
     },
     acidity: {
-      href: "/grapes/sauvignon-blanc.html",
+      href: grapeUrl("sauvignon-blanc"),
       label: "Sauvignon Blanc (grape guide)",
     },
     fruit: {
-      href: "/grapes/pinot-noir.html",
+      href: grapeUrl("pinot-noir"),
       label: "Pinot Noir (grape guide)",
     },
     spice_oak: {
-      href: "/grapes/chardonnay.html",
+      href: grapeUrl("chardonnay"),
       label: "Chardonnay (grape guide)",
     },
     flower_herb_earth: {
-      href: "/grapes/pinot-noir.html",
+      href: grapeUrl("pinot-noir"),
       label: "Pinot Noir (grape guide)",
     },
     yeast: {
-      href: "/grapes/chardonnay.html",
+      href: grapeUrl("chardonnay"),
       label: "Chardonnay (grape guide)",
     },
     alcohol: {
-      href: "/grapes/riesling.html",
+      href: grapeUrl("riesling"),
       label: "Riesling (grape guide)",
     },
     body_style: {
-      href: "/grapes/chardonnay.html",
+      href: grapeUrl("chardonnay"),
       label: "Chardonnay (grape guide)",
     },
   };
   return (
     m[categoryId] || {
-      href: "/grapes/cabernet-sauvignon.html",
+      href: grapeUrl("cabernet-sauvignon"),
       label: "Cabernet Sauvignon (grape guide)",
     }
   );
@@ -255,7 +274,7 @@ function buildCrossDensityList(slug, def) {
 
   const relPick = (def.related || []).filter((s) => WINE_TERMS[s]);
   relPick.slice(0, 2).forEach((s) =>
-    add(`/terms/${s}.html`, `${WINE_TERMS[s].label} (related term)`)
+    add(termUrl(s), `${WINE_TERMS[s].label} (related term)`)
   );
 
   const foods = termFoodBridge(slug, def);
@@ -269,11 +288,13 @@ function buildCrossDensityList(slug, def) {
   while (rows.length < 5 && i < pool.length) {
     const s = pool[i++];
     if (!WINE_TERMS[s]) continue;
-    add(`/terms/${s}.html`, WINE_TERMS[s].label);
+    add(termUrl(s), WINE_TERMS[s].label);
   }
-  if (rows.length < 5) add("/pairings.html", "Wine pairing guides hub");
-  if (rows.length < 5) add("/", "Interactive pairing engine");
-  if (rows.length < 5) add("/wine-with-steak.html", "Wine with steak guide");
+  if (rows.length < 5) add(SHARED_ROUTES.pairings, "Wine pairing guides hub");
+  if (rows.length < 5) add(SHARED_ROUTES.home, "Interactive pairing engine");
+  if (rows.length < 5) {
+    add(pairingUrl("wine-with-steak"), "Wine with steak guide");
+  }
 
   return rows
     .slice(0, 8)
@@ -286,7 +307,10 @@ function buildCrossDensityList(slug, def) {
 
 function pageHtml(slug, def) {
   const title = `What Does ‘${def.label}’ Mean in Wine? (and what to pair it with)`;
-  const canonical = `https://pairingmethod.com/terms/${slug}.html`;
+  const publicRoute = termUrl(slug);
+  const pageCanonicalUrl = canonicalUrl(publicRoute);
+  const pageOgUrl = ogUrl(publicRoute);
+  const definedTermSetUrl = schemaUrl(SHARED_ROUTES.home);
   const wines = winesForSlug(slug);
   const related = (def.related || [])
     .filter((s) => WINE_TERMS[s])
@@ -348,9 +372,9 @@ function pageHtml(slug, def) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(title)} | Pairing Method</title>
   <meta name="description" content="${escapeHtml(metaDesc)}">
-  <link rel="canonical" href="${canonical}">
+  <link rel="canonical" href="${pageCanonicalUrl}">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="${canonical}">
+  <meta property="og:url" content="${pageOgUrl}">
   <meta property="og:title" content="${escapeHtml(title)}">
   <meta property="og:description" content="${escapeHtml(def.definition.slice(0, 200))}">
   <link rel="stylesheet" href="/assets/css/styles.css">
@@ -363,7 +387,7 @@ function pageHtml(slug, def) {
     inDefinedTermSet: {
       "@type": "DefinedTermSet",
       name: "Pairing Method wine glossary",
-      url: "https://pairingmethod.com/",
+      url: definedTermSetUrl,
     },
   })}
   </script>
@@ -371,14 +395,14 @@ function pageHtml(slug, def) {
 <body>
   <header>
     <div class="container">
-      <a href="/" class="logo">Pairing Method</a>
+      <a href="${SHARED_ROUTES.home}" class="logo">Pairing Method</a>
       <nav aria-label="Main navigation">
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/pairings.html">Pairings</a></li>
-          <li><a href="/grapes.html">Grapes</a></li>
-          <li><a href="/seasonal-wine-guides.html">Seasonal</a></li>
-          <li><a href="/about.html">About</a></li>
+          <li><a href="${SHARED_ROUTES.home}">Home</a></li>
+          <li><a href="${SHARED_ROUTES.pairings}">Pairings</a></li>
+          <li><a href="${SHARED_ROUTES.grapes}">Grapes</a></li>
+          <li><a href="${SHARED_ROUTES.seasonal}">Seasonal</a></li>
+          <li><a href="${SHARED_ROUTES.about}">About</a></li>
         </ul>
       </nav>
     </div>
@@ -388,7 +412,7 @@ function pageHtml(slug, def) {
     <div class="container">
       <article class="term-page">
         <nav class="breadcrumb" aria-label="Breadcrumb">
-          <a href="/">Home</a> &gt; <a href="/">Glossary</a> &gt; <span>${escapeHtml(def.label)}</span>
+          <a href="${SHARED_ROUTES.home}">Home</a> &gt; <a href="${SHARED_ROUTES.home}">Glossary</a> &gt; <span>${escapeHtml(def.label)}</span>
         </nav>
         <p class="term-page-cat">${escapeHtml(categoryLabel(def.categoryId))}</p>
         <h1>${escapeHtml(title)}</h1>
@@ -432,7 +456,7 @@ function pageHtml(slug, def) {
         <h2>Pairing suggestions</h2>
         <p>${escapeHtml(pairingBlurb(def.categoryId))}</p>
 
-        <p class="term-page-engine-cta"><a href="/">Open the pairing engine</a> to match this structure to your ingredients.</p>
+        <p class="term-page-engine-cta"><a href="${SHARED_ROUTES.home}">Open the pairing engine</a> to match this structure to your ingredients.</p>
 
         ${crossSection}
       </article>
@@ -448,15 +472,15 @@ function pageHtml(slug, def) {
     <div class="footer-links">
       <div>
         <strong>Explore</strong>
-        <a href="/pairings.html">Pairings</a>
-        <a href="/seasonal-wine-guides.html">Seasonal</a>
-        <a href="/pairing-matrix.html">Pairing Matrix</a>
+        <a href="${SHARED_ROUTES.pairings}">Pairings</a>
+        <a href="${SHARED_ROUTES.seasonal}">Seasonal</a>
+        <a href="${SHARED_ROUTES.matrix}">Pairing Matrix</a>
       </div>
       <div>
         <strong>Company</strong>
-        <a href="/about.html">About</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
+        <a href="${SHARED_ROUTES.about}">About</a>
+        <a href="${SHARED_ROUTES.privacy}">Privacy</a>
+        <a href="${SHARED_ROUTES.termsOfService}">Terms</a>
       </div>
     </div>
     <div class="footer-meta">

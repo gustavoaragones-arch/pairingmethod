@@ -8,7 +8,7 @@
   <link rel="canonical" href="{{CANONICAL_URL}}">
 
   <meta property="og:type" content="article">
-  <meta property="og:url" content="{{CANONICAL_URL}}">
+  <meta property="og:url" content="{{OG_URL}}">
   <meta property="og:title" content="{{OG_TITLE}}">
   <meta property="og:description" content="{{META_DESCRIPTION}}">
   <meta property="og:locale" content="en_US">
@@ -18,7 +18,7 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Pairing Method",
-    "url": "https://pairingmethod.com",
+    "url": "{{SITE_URL}}",
     "parentOrganization": {
       "@type": "Organization",
       "name": "Albor Digital LLC",
@@ -45,7 +45,7 @@
     "headline": "{{H1}}",
     "author": { "@type": "Person", "name": "Gustavo Aragones" },
     "publisher": { "@type": "Organization", "name": "Pairing Method" },
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "{{CANONICAL_URL}}" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "{{SCHEMA_URL}}" }
   }
   </script>
   <link rel="stylesheet" href="/assets/css/styles.css">
@@ -53,14 +53,14 @@
 <body>
   <header>
     <div class="container">
-      <a href="/" class="logo">Pairing Method</a>
+      <a href="{{HOME_URL}}" class="logo">Pairing Method</a>
       <nav aria-label="Main navigation">
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/pairings.html">Pairings</a></li>
-          <li><a href="/grapes.html">Grapes</a></li>
-          <li><a href="/seasonal-wine-guides.html">Seasonal</a></li>
-          <li><a href="/about.html">About</a></li>
+          <li><a href="{{HOME_URL}}">Home</a></li>
+          <li><a href="{{PAIRINGS_URL}}">Pairings</a></li>
+          <li><a href="{{GRAPES_URL}}">Grapes</a></li>
+          <li><a href="{{SEASONAL_URL}}">Seasonal</a></li>
+          <li><a href="{{ABOUT_URL}}">About</a></li>
         </ul>
       </nav>
     </div>
@@ -69,7 +69,7 @@
   <main class="container">
     <article>
       <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a> &gt; <a href="/pairings.html">Wine Pairings</a> &gt; <span>{{BREADCRUMB_LABEL}}</span>
+        <a href="{{HOME_URL}}">Home</a> &gt; <a href="{{PAIRINGS_URL}}">Wine Pairings</a> &gt; <span>{{BREADCRUMB_LABEL}}</span>
       </nav>
 
       <h1>{{H1}}</h1>
@@ -93,7 +93,7 @@
 
       <section id="engine-enhancement" aria-label="Refine your pairing">
         <h2>Refine Your Pairing</h2>
-        <p>Adjust ingredients and preparation below—the matrix scores nine wine style families from the same logic as our <a href="/pairing-matrix.html">pairing matrix</a>.</p>
+        <p>Adjust ingredients and preparation below—the matrix scores nine wine style families from the same logic as our <a href="{{MATRIX_URL}}">pairing matrix</a>.</p>
 
         {{CONTEXT}}
 
@@ -120,21 +120,21 @@
 
       <section class="final-cta" aria-label="Pairing tool call to action">
         <h2>Explore more pairings</h2>
-        <p>Browse <a href="/pairings.html">all wine pairing guides</a> or return to the <a href="/">home pairing tool</a>.</p>
+        <p>Browse <a href="{{PAIRINGS_URL}}">all wine pairing guides</a> or return to the <a href="{{HOME_URL}}">home pairing tool</a>.</p>
       </section>
 
       <section class="explore-pairings-cta" aria-label="Explore all pairings">
         <h2>Explore All Pairings</h2>
         <p>
-          Browse our complete <a href="/pairings.html">wine pairing guides</a> for different foods and cooking styles.
+          Browse our complete <a href="{{PAIRINGS_URL}}">wine pairing guides</a> for different foods and cooking styles.
         </p>
       </section>
       <section class="term-deep-links">
         <h2>Understand the structure behind this pairing</h2>
         <ul>
-          <li><a href="/terms/tannin.html">What is tannin in wine?</a></li>
-          <li><a href="/terms/acidity.html">How acidity affects pairing</a></li>
-          <li><a href="/terms/body.html">What body means in wine</a></li>
+          <li><a href="{{TERM_TANNIN_URL}}">What is tannin in wine?</a></li>
+          <li><a href="{{TERM_ACIDITY_URL}}">How acidity affects pairing</a></li>
+          <li><a href="{{TERM_BODY_URL}}">What body means in wine</a></li>
         </ul>
       </section>
 
@@ -159,24 +159,24 @@
     <div class="footer-links">
       <div>
         <strong>Explore</strong>
-        <a href="/pairings.html">Pairings</a>
-        <a href="/seasonal-wine-guides.html">Seasonal</a>
-        <a href="/pairing-matrix.html">Pairing Matrix</a>
+        <a href="{{PAIRINGS_URL}}">Pairings</a>
+        <a href="{{SEASONAL_URL}}">Seasonal</a>
+        <a href="{{MATRIX_URL}}">Pairing Matrix</a>
       </div>
 
       <div>
         <strong>Resources</strong>
-        <a href="/grapes/cabernet-sauvignon.html">Cabernet Sauvignon</a>
-        <a href="/grapes/pinot-noir.html">Pinot Noir</a>
-        <a href="/grapes/chardonnay.html">Chardonnay</a>
+        <a href="{{GRAPE_CABERNET_URL}}">Cabernet Sauvignon</a>
+        <a href="{{GRAPE_PINOT_URL}}">Pinot Noir</a>
+        <a href="{{GRAPE_CHARDONNAY_URL}}">Chardonnay</a>
       </div>
 
       <div>
         <strong>Company</strong>
-        <a href="/about.html">About</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
-        <a href="/disclaimer.html">Disclaimer</a>
+        <a href="{{ABOUT_URL}}">About</a>
+        <a href="{{PRIVACY_URL}}">Privacy</a>
+        <a href="{{TERMS_OF_SERVICE_URL}}">Terms</a>
+        <a href="{{DISCLAIMER_URL}}">Disclaimer</a>
       </div>
     </div>
 

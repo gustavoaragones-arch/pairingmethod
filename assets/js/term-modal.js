@@ -7,6 +7,7 @@ import {
   EXPLORER_CATEGORIES,
   TERM_CONNECTIONS,
 } from "./wine-terms-data.js";
+import { termUrl } from "../../lib/public-url.js";
 
 function escapeHtml(s) {
   return String(s)
@@ -167,7 +168,7 @@ function showTermDetail(slug) {
     <p>${rel || "—"}</p>
     <h3 class="term-modal-h3">Opposites / contrasts</h3>
     <p>${opp || "—"}</p>
-    <p class="term-modal-seo"><a href="/terms/${escapeHtml(slug)}.html">Open full glossary page</a> (indexed reference)</p>
+    <p class="term-modal-seo"><a href="${termUrl(slug)}">Open full glossary page</a> (indexed reference)</p>
     <p><button type="button" class="term-modal-back">← Back to category</button></p>
   `;
 

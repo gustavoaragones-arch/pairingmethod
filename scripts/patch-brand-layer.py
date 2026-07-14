@@ -19,24 +19,24 @@ FOOTER = """<footer class="site-footer">
     <div class="footer-links">
       <div>
         <strong>Explore</strong>
-        <a href="/pairings.html">Pairings</a>
-        <a href="/seasonal-wine-guides.html">Seasonal</a>
-        <a href="/pairing-matrix.html">Pairing Matrix</a>
+        <a href="/pairings">Pairings</a>
+        <a href="/seasonal-wine-guides">Seasonal</a>
+        <a href="/pairing-matrix">Pairing Matrix</a>
       </div>
 
       <div>
         <strong>Resources</strong>
-        <a href="/grapes/cabernet-sauvignon.html">Cabernet Sauvignon</a>
-        <a href="/grapes/pinot-noir.html">Pinot Noir</a>
-        <a href="/grapes/chardonnay.html">Chardonnay</a>
+        <a href="/grapes/cabernet-sauvignon">Cabernet Sauvignon</a>
+        <a href="/grapes/pinot-noir">Pinot Noir</a>
+        <a href="/grapes/chardonnay">Chardonnay</a>
       </div>
 
       <div>
         <strong>Company</strong>
-        <a href="/about.html">About</a>
-        <a href="/privacy.html">Privacy</a>
-        <a href="/terms.html">Terms</a>
-        <a href="/disclaimer.html">Disclaimer</a>
+        <a href="/about">About</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="/disclaimer">Disclaimer</a>
       </div>
     </div>
 

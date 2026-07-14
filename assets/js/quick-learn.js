@@ -2,8 +2,10 @@
  * Pairing guide pages: insight strip after H1 (term-linked + grape link).
  */
 
+import { grapeUrl } from "../../lib/public-url.js";
+
 const PAIRING_PAGE =
-  /\/wine-(with|for)-[^/]+\.html$/i.test(location.pathname);
+  /\/wine-(with|for)-[^/]+(?:\.html)?\/?$/i.test(location.pathname);
 
 if (PAIRING_PAGE) {
   const inject = () => {
@@ -15,7 +17,7 @@ if (PAIRING_PAGE) {
     const div = document.createElement("div");
     div.className = "quick-learn";
     div.setAttribute("role", "note");
-    div.innerHTML = `<p><strong>Quick insight:</strong> High <span class="term-link" role="button" tabindex="0" data-term="tannic">tannic</span> wines (like <a href="/grapes/cabernet-sauvignon.html">Cabernet Sauvignon</a>) bind to fat, reducing <span class="term-link" role="button" tabindex="0" data-term="astringent">astringent</span> edge and improving <span class="term-link" role="button" tabindex="0" data-term="balanced">balance</span> on the palate.</p>`;
+    div.innerHTML = `<p><strong>Quick insight:</strong> High <span class="term-link" role="button" tabindex="0" data-term="tannic">tannic</span> wines (like <a href="${grapeUrl("cabernet-sauvignon")}">Cabernet Sauvignon</a>) bind to fat, reducing <span class="term-link" role="button" tabindex="0" data-term="astringent">astringent</span> edge and improving <span class="term-link" role="button" tabindex="0" data-term="balanced">balance</span> on the palate.</p>`;
     h1.insertAdjacentElement("afterend", div);
   };
 

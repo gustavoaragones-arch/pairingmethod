@@ -6,10 +6,10 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { absoluteUrl, publicPath } from "../lib/public-url.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
-const BASE = "https://pairingmethod.com";
 
 /** Explicit priorities; anything else gets defaultPriority */
 const PRIORITY = {
@@ -64,8 +64,7 @@ function walkHtmlFiles(dir, rel = "") {
 }
 
 function toLoc(filePath) {
-  if (filePath === "index.html") return `${BASE}/`;
-  return `${BASE}/${filePath}`;
+  return absoluteUrl(publicPath(filePath));
 }
 
 function main() {

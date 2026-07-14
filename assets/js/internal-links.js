@@ -3,6 +3,18 @@
  * State uses Set per category (same as pairing-engine).
  */
 
+import {
+  grapeUrl,
+  pairingUrl,
+  publicPath,
+} from "../../lib/public-url.js";
+
+const SHARED_ROUTES = Object.freeze({
+  pairings: publicPath("pairings.html"),
+  matrix: publicPath("pairing-matrix.html"),
+  seasonal: publicPath("seasonal-wine-guides.html"),
+});
+
 function escapeHtml(s) {
   return String(s)
     .replace(/&/g, "&amp;")
@@ -34,51 +46,51 @@ export function injectInternalLinks(state) {
 
   /* --- Pairing guides (dish + context) --- */
   if (has(state, "protein", "red_meat")) {
-    add("/wine-with-steak.html", "Best wine with steak — full pairing guide");
+    add(pairingUrl("wine-with-steak"), "Best wine with steak — full pairing guide");
     if (has(state, "preparation", "grilled")) {
-      add("/wine-with-grilled-steak.html", "Best wine for grilled steak");
+      add(pairingUrl("wine-with-grilled-steak"), "Best wine for grilled steak");
     }
   }
   if (has(state, "protein", "fish")) {
-    add("/wine-with-salmon.html", "Best wine with salmon — seafood pairing guide");
+    add(pairingUrl("wine-with-salmon"), "Best wine with salmon — seafood pairing guide");
     if (has(state, "preparation", "fried")) {
-      add("/wine-with-fried-fish.html", "Best wine for fried fish");
+      add(pairingUrl("wine-with-fried-fish"), "Best wine for fried fish");
     }
   }
   if (has(state, "protein", "poultry")) {
-    add("/wine-with-chicken.html", "Best wine with chicken — pairing guide");
+    add(pairingUrl("wine-with-chicken"), "Best wine with chicken — pairing guide");
     if (has(state, "preparation", "roasted")) {
-      add("/wine-with-roasted-chicken.html", "Best wine for roasted chicken");
+      add(pairingUrl("wine-with-roasted-chicken"), "Best wine for roasted chicken");
     }
   }
   if (has(state, "protein", "pork")) {
-    add("/wine-for-bbq-ribs.html", "Best wine with BBQ ribs — smoke & glaze");
+    add(pairingUrl("wine-for-bbq-ribs"), "Best wine with BBQ ribs — smoke & glaze");
     if (has(state, "preparation", "smoked")) {
-      add("/wine-with-smoked-pork.html", "Best wine for smoked pork");
+      add(pairingUrl("wine-with-smoked-pork"), "Best wine for smoked pork");
     }
   }
   if (has(state, "protein", "shellfish")) {
-    add("/wine-with-salmon.html", "Best wine with salmon & rich seafood guides");
+    add(pairingUrl("wine-with-salmon"), "Best wine with salmon & rich seafood guides");
   }
 
   if (has(state, "spice", "spicy")) {
-    add("/wine-with-spicy-food.html", "Best wine for spicy food");
+    add(pairingUrl("wine-with-spicy-food"), "Best wine for spicy food");
   }
 
   if (has(state, "dairy", "soft_cheese")) {
-    add("/wine-with-creamy-dishes.html", "Best wine for creamy dishes & soft cheese");
+    add(pairingUrl("wine-with-creamy-dishes"), "Best wine for creamy dishes & soft cheese");
   }
 
   if (has(state, "preparation", "grilled") && !has(state, "protein", "red_meat")) {
-    add("/wine-with-grilled-steak.html", "Best wine for grilled foods (steak lens)");
+    add(pairingUrl("wine-with-grilled-steak"), "Best wine for grilled foods (steak lens)");
   }
   if (has(state, "preparation", "fried") && !has(state, "protein", "fish")) {
-    add("/wine-with-fried-fish.html", "Best wine for fried foods (fish lens)");
+    add(pairingUrl("wine-with-fried-fish"), "Best wine for fried foods (fish lens)");
   }
 
   /* --- Hub + matrix (always useful) --- */
-  add("/pairings.html", "Explore all wine pairings");
-  add("/pairing-matrix.html", "Printable wine pairing matrix overview");
+  add(SHARED_ROUTES.pairings, "Explore all wine pairings");
+  add(SHARED_ROUTES.matrix, "Printable wine pairing matrix overview");
 
   /* --- Grape cluster (varietals tied to common rows) --- */
   if (
@@ -86,30 +98,30 @@ export function injectInternalLinks(state) {
     has(state, "preparation", "grilled") ||
     has(state, "preparation", "smoked")
   ) {
-    add("/grapes/cabernet-sauvignon.html", "Cabernet Sauvignon — grape guide");
+    add(grapeUrl("cabernet-sauvignon"), "Cabernet Sauvignon — grape guide");
   }
   if (has(state, "protein", "fish") || has(state, "protein", "shellfish")) {
-    add("/grapes/sauvignon-blanc.html", "Sauvignon Blanc — grape guide");
+    add(grapeUrl("sauvignon-blanc"), "Sauvignon Blanc — grape guide");
   }
   if (has(state, "spice", "spicy")) {
-    add("/grapes/riesling.html", "Riesling — grape guide (acidity & sweetness)");
+    add(grapeUrl("riesling"), "Riesling — grape guide (acidity & sweetness)");
   }
   if (has(state, "protein", "poultry") || has(state, "dairy", "soft_cheese")) {
-    add("/grapes/chardonnay.html", "Chardonnay — grape guide");
+    add(grapeUrl("chardonnay"), "Chardonnay — grape guide");
   }
   if (links.length < 5) {
-    add("/grapes/pinot-noir.html", "Pinot Noir — grape guide");
+    add(grapeUrl("pinot-noir"), "Pinot Noir — grape guide");
   }
 
   /* --- Seasonal hub --- */
-  add("/seasonal-wine-guides.html", "Seasonal wine guides — holidays & occasions");
+  add(SHARED_ROUTES.seasonal, "Seasonal wine guides — holidays & occasions");
 
   if (links.length === 0) {
-    add("/wine-with-steak.html", "Best wine with steak");
-    add("/wine-with-spicy-food.html", "Best wine for spicy food");
-    add("/pairings.html", "Explore all wine pairings");
-    add("/seasonal-wine-guides.html", "Seasonal wine guides");
-    add("/grapes/cabernet-sauvignon.html", "Cabernet Sauvignon — grape guide");
+    add(pairingUrl("wine-with-steak"), "Best wine with steak");
+    add(pairingUrl("wine-with-spicy-food"), "Best wine for spicy food");
+    add(SHARED_ROUTES.pairings, "Explore all wine pairings");
+    add(SHARED_ROUTES.seasonal, "Seasonal wine guides");
+    add(grapeUrl("cabernet-sauvignon"), "Cabernet Sauvignon — grape guide");
   }
 
   const show = links.slice(0, 8);
@@ -124,7 +136,7 @@ export function injectInternalLinks(state) {
   container.innerHTML = `
     <section class="internal-links-inner">
       <h2>Related pairings &amp; resources</h2>
-      <p class="internal-links-lede">Curated from your current matrix rows — same logic as our <a href="/pairing-matrix.html">pairing matrix</a>.</p>
+      <p class="internal-links-lede">Curated from your current matrix rows — same logic as our <a href="${SHARED_ROUTES.matrix}">pairing matrix</a>.</p>
       <ul class="internal-links-list">
       ${lis}
       </ul>
