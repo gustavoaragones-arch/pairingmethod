@@ -10,6 +10,7 @@ import {
   publicPath,
   schemaUrl,
   termUrl,
+  termCategoryUrl,
 } from "../lib/public-url.js";
 
 test("publicPath maps physical HTML files to public routes", () => {
@@ -17,7 +18,10 @@ test("publicPath maps physical HTML files to public routes", () => {
   assert.equal(publicPath("about.html"), "/about");
   assert.equal(publicPath("pairings.html"), "/pairings");
   assert.equal(publicPath("wine-with-steak.html"), "/wine-with-steak");
-  assert.equal(publicPath("terms/earthy.html"), "/terms/earthy");
+  assert.equal(
+    publicPath("terms/body/index.html"),
+    "/terms/body/"
+  );
   assert.equal(
     publicPath("grapes/cabernet-sauvignon.html"),
     "/grapes/cabernet-sauvignon"
@@ -47,6 +51,7 @@ test("absolute URL helpers share the production origin and public path", () => {
 test("route helpers build extensionless routes", () => {
   assert.equal(pairingUrl("wine-with-steak"), "/wine-with-steak");
   assert.equal(termUrl("tannic"), "/terms/tannic");
+  assert.equal(termCategoryUrl("fruit"), "/terms/fruit/");
   assert.equal(grapeUrl("pinot-noir"), "/grapes/pinot-noir");
 });
 

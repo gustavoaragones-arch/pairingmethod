@@ -7,6 +7,19 @@
     "generate:pages": "node scripts/generate-pages.js",
     "generate:sitemap": "node scripts/generate-sitemap.js",
     "generate:terms": "node scripts/generate-terms-pages.js",
+    "taxonomy:bootstrap": "node scripts/bootstrap-wine-taxonomy.js",
+    "taxonomy:validate": "node scripts/validate-wine-taxonomy.js",
+    "generate:term-categories": "node scripts/generate-term-categories.js",
+    "generate:term-descriptors": "node scripts/generate-term-descriptors.js",
+    "generate:taxonomy-runtime": "node scripts/generate-taxonomy-runtime.js",
+    "generate:grapes": "node scripts/generate-grapes.js",
+    "enrich:pairing-guides": "node scripts/enrich-pairing-guides.js",
+    "generate:knowledge-04": "npm run generate:taxonomy-runtime && npm run generate:term-descriptors && npm run generate:term-categories && npm run generate:grapes && npm run enrich:pairing-guides && npm run generate:sitemap",
+    "validate:knowledge-02": "node scripts/validate-knowledge-02.js",
+    "validate:knowledge-03": "node scripts/validate-knowledge-03.js",
+    "validate:knowledge-04": "node scripts/validate-knowledge-04.js",
+    "knowledge:coverage-report": "node scripts/knowledge-graph-coverage-report.js",
+    "knowledge:link-audit": "node scripts/knowledge-graph-link-audit.js",
     "ping:sitemap": "node scripts/ping-sitemap.js"
   }
 }

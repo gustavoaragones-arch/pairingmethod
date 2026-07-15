@@ -1,9 +1,9 @@
 /**
- * Auto-link known wine terms (max 5 per slug). Priority terms link on first occurrence site-wide in root.
- * Call rescanTermLinks(container) after dynamic HTML injection (pairing engine).
+ * KNOWLEDGE-04 — Auto-link wine terms from taxonomy + legacy fallback.
  */
 
 import { WINE_TERMS } from "./wine-terms-data.js";
+import { TAXONOMY_PHRASES, hasTaxonomyNode, getTaxonomyNode, taxonomyHref } from "./taxonomy-runtime.js";
 
 const MAX_PER_SLUG = 5;
 
@@ -38,25 +38,37 @@ const counts = new Map();
 const priorityDone = new Set();
 
 function buildPhrases() {
-  /** @type {{ phrase: string, slug: string, re: RegExp }[]} */
+  /** @type {{ phrase: string, slug: string, re: RegExp, href?: string }[]} */
   const out = [];
+  const seen = new Set();
+
+  for (const { phrase, slug } of TAXONOMY_PHRASES) {
+    const key = `${slug}:${phrase.toLowerCase()}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    const escaped = phrase.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    out.push({
+      phrase,
+      slug,
+      href: getTaxonomyNode(slug)?.href,
+      re: new RegExp(`^(${escaped})\\b`, "i"),
+    });
+  }
+
   for (const [slug, d] of Object.entries(WINE_TERMS)) {
-    const set = new Set([
-      d.label,
-      slug.replace(/-/g, " "),
-      ...(d.phrases || []),
-    ]);
+    if (hasTaxonomyNode(slug)) continue;
+    const set = new Set([d.label, slug.replace(/-/g, " "), ...(d.phrases || [])]);
     for (const p of set) {
       const phrase = String(p).trim();
       if (phrase.length < 3) continue;
+      const key = `${slug}:${phrase.toLowerCase()}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
       const escaped = phrase.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-      out.push({
-        phrase,
-        slug,
-        re: new RegExp(`^(${escaped})\\b`, "i"),
-      });
+      out.push({ phrase, slug, re: new RegExp(`^(${escaped})\\b`, "i") });
     }
   }
+
   out.sort((a, b) => b.phrase.length - a.phrase.length);
   return out;
 }
@@ -92,18 +104,26 @@ function collectTextNodes(root) {
   return nodes;
 }
 
-function wrapRange(node, start, end, slug, display) {
+function wrapRange(node, start, end, slug, display, href) {
   const text = node.nodeValue;
   if (!text) return false;
   const frag = document.createDocumentFragment();
   if (start > 0) frag.appendChild(document.createTextNode(text.slice(0, start)));
-  const span = document.createElement("span");
-  span.className = "term-link";
-  span.setAttribute("data-term", slug);
-  span.setAttribute("role", "button");
-  span.setAttribute("tabindex", "0");
-  span.textContent = display;
-  frag.appendChild(span);
+  if (href && hasTaxonomyNode(slug)) {
+    const a = document.createElement("a");
+    a.className = "term-link term-link-entity";
+    a.href = href;
+    a.textContent = display;
+    frag.appendChild(a);
+  } else {
+    const span = document.createElement("span");
+    span.className = "term-link";
+    span.setAttribute("data-term", slug);
+    span.setAttribute("role", "button");
+    span.setAttribute("tabindex", "0");
+    span.textContent = display;
+    frag.appendChild(span);
+  }
   if (end < text.length) frag.appendChild(document.createTextNode(text.slice(end)));
   node.parentNode?.replaceChild(frag, node);
   return true;
@@ -123,7 +143,7 @@ function applyPriorityLinks(root) {
       if (!m || m.index === undefined) continue;
       const start = m.index;
       const end = start + m[0].length;
-      if (wrapRange(node, start, end, slug, m[0])) {
+      if (wrapRange(node, start, end, slug, m[0], taxonomyHref(slug))) {
         counts.set(slug, (counts.get(slug) || 0) + 1);
         priorityDone.add(slug);
       }
@@ -147,7 +167,7 @@ function processTextNode(node) {
     }
 
     let best = null;
-    for (const { slug, re } of PHRASES) {
+    for (const { slug, re, href } of PHRASES) {
       const sub = text.slice(i);
       const m = sub.match(re);
       if (!m || m.index !== 0) continue;
@@ -156,20 +176,28 @@ function processTextNode(node) {
       const c = counts.get(slug) || 0;
       if (c >= MAX_PER_SLUG) continue;
       if (!best || len > best.len) {
-        best = { len, slug, display: m[1] };
+        best = { len, slug, display: m[1], href };
       }
     }
 
     if (best) {
       linked = true;
       counts.set(best.slug, (counts.get(best.slug) || 0) + 1);
-      const span = document.createElement("span");
-      span.className = "term-link";
-      span.setAttribute("data-term", best.slug);
-      span.setAttribute("role", "button");
-      span.setAttribute("tabindex", "0");
-      span.textContent = best.display;
-      frag.appendChild(span);
+      if (best.href && hasTaxonomyNode(best.slug)) {
+        const a = document.createElement("a");
+        a.className = "term-link term-link-entity";
+        a.href = best.href;
+        a.textContent = best.display;
+        frag.appendChild(a);
+      } else {
+        const span = document.createElement("span");
+        span.className = "term-link";
+        span.setAttribute("data-term", best.slug);
+        span.setAttribute("role", "button");
+        span.setAttribute("tabindex", "0");
+        span.textContent = best.display;
+        frag.appendChild(span);
+      }
       i += best.len;
     } else {
       frag.appendChild(document.createTextNode(text[i]));

@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-07-15T03:33:35.153Z",
+  "phase": "KNOWLEDGE-03",
+  "taxonomy": {
+    "total_nodes": 209,
+    "category_nodes": 12,
+    "hierarchy_nodes": 10,
+    "descriptor_nodes": 187,
+    "ordered_scales": 3
+  },
+  "pages": {
+    "generated_descriptor_pages": 187,
+    "generated_category_pages": 12,
+    "expected_descriptor_pages": 187
+  },
+  "relationships": {
+    "total_semantic_relationships": 914,
+    "per_category_internal_edges": {
+      "inorganic": 2,
+      "flower": 1,
+      "herb": 11,
+      "oak": 15,
+      "fruit": 25,
+      "spice": 9,
+      "alcohol": 2,
+      "acidity": 40,
+      "tannin": 38,
+      "style": 3,
+      "yeast": 3,
+      "body": 45
+    }
+  },
+  "linking": {
+    "average_internal_links_per_descriptor_page": 63.1
+  },
+  "sitemap": {
+    "total": 239,
+    "descriptorUrls": 197,
+    "categoryUrls": 12
+  },
+  "ontology_gaps": []
+}

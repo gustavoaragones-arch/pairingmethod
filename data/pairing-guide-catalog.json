@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "phase": "KNOWLEDGE-04",
+    "description": "High-intent pairing guide taxonomy enrichment config."
+  },
+  "guides": {
+    "wine-with-steak": {
+      "wineStyle": "bold_red",
+      "primaryWineId": "cabernet",
+      "whyIntro": "Steak is high in protein and fat, requiring structured wines with tannin. Tannins bind to meat proteins, reducing astringency and enhancing flavor perception.",
+      "descriptorBuckets": ["tannin", "body", "fruit"]
+    },
+    "wine-with-chicken": {
+      "wineStyle": "medium_red",
+      "primaryWineId": "pinot-noir",
+      "whyIntro": "Chicken spans lean breast to rich dark meat — moderate tannin and bright acidity keep the match balanced without overpowering.",
+      "descriptorBuckets": ["body", "acidity", "tannin"]
+    },
+    "wine-with-salmon": {
+      "wineStyle": "light_white",
+      "primaryWineId": "pinot-noir",
+      "whyIntro": "Salmon's fat and richness need either a light red with soft tannin or a structured white with acidity to refresh the palate.",
+      "descriptorBuckets": ["acidity", "body", "fruit"]
+    },
+    "wine-for-bbq-ribs": {
+      "wineStyle": "bold_red",
+      "primaryWineId": "cabernet",
+      "whyIntro": "BBQ ribs combine smoke, sweetness, and fat — bold reds with tannin and concentrated fruit stand up to the sauce without thinning.",
+      "descriptorBuckets": ["tannin", "fruit", "spice"]
+    },
+    "wine-for-thanksgiving-turkey": {
+      "wineStyle": "medium_red",
+      "primaryWineId": "pinot-noir",
+      "whyIntro": "Thanksgiving spreads mix lean turkey, rich sides, and sweet elements — versatile reds with moderate structure bridge the table.",
+      "descriptorBuckets": ["acidity", "body", "fruit"]
+    }
+  }
+}

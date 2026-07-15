@@ -2699,3 +2699,569 @@ body.term-modal-open {
 #dynamic-content .why-bullets li {
   margin-bottom: 0.35rem;
 }
+
+/* ---------- KNOWLEDGE-02: Term category hub pages ---------- */
+.term-category-page {
+  --term-category-accent: var(--wine-red);
+}
+
+.term-category {
+  max-width: 52rem;
+  margin: 0 auto 3rem;
+}
+
+.term-category-hero {
+  margin: 1rem 0 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.term-category-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--term-category-accent);
+  margin: 0 0 0.5rem;
+}
+
+.term-category-hero h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.75rem, 4vw, 2.35rem);
+  margin: 0 0 0.75rem;
+  color: #2a1a1a;
+}
+
+.term-category-intro {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.term-category-section {
+  margin: 2rem 0;
+}
+
+.term-category-section h2 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.45rem;
+  margin: 0 0 0.85rem;
+  color: #2a1a1a;
+}
+
+.term-category-count {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.term-category-stats-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0.85rem 1rem;
+  background: rgba(107, 41, 64, 0.04);
+  border: 1px solid var(--border-subtle);
+  border-radius: 3px;
+  font-size: 0.92rem;
+}
+
+.term-category-stats-list strong {
+  color: var(--wine-red);
+}
+
+.taxonomy-tree {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.taxonomy-tree-children {
+  list-style: none;
+  margin: 0.35rem 0 0.5rem 1rem;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--border-subtle);
+}
+
+.taxonomy-tree-group {
+  font-weight: 600;
+  color: var(--term-category-accent);
+}
+
+.taxonomy-tree-leaf a,
+.taxonomy-tree-branch > a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.taxonomy-tree-leaf a:hover,
+.taxonomy-tree-branch > a:hover {
+  text-decoration: underline;
+}
+
+.taxonomy-scale {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  max-width: 20rem;
+}
+
+.taxonomy-scale-step {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.taxonomy-scale-link {
+  display: inline-block;
+  padding: 0.4rem 0.85rem;
+  background: #fff;
+  border: 1px solid var(--border-subtle);
+  border-radius: 3px;
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.taxonomy-scale-link:hover {
+  border-color: var(--term-category-accent);
+  background: rgba(107, 41, 64, 0.03);
+}
+
+.taxonomy-scale-arrow {
+  display: block;
+  padding: 0.2rem 0 0.35rem 1.25rem;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+.term-category-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.term-category-card {
+  padding: 1rem 1.1rem;
+  background: #fff;
+  border: 1px solid var(--border-subtle);
+  border-radius: 3px;
+}
+
+.term-category-card-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.15rem;
+  margin: 0 0 0.45rem;
+}
+
+.term-category-card-title a {
+  color: var(--wine-red);
+  text-decoration: none;
+}
+
+.term-category-card-title a:hover {
+  text-decoration: underline;
+}
+
+.term-category-card-def {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  margin: 0 0 0.5rem;
+}
+
+.term-category-card-meta {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  margin: 0 0 0.5rem;
+}
+
+.term-category-card-related {
+  margin: 0 0 0.5rem;
+  padding-left: 1rem;
+  font-size: 0.85rem;
+}
+
+.term-category-card-cta {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.term-category-card-cta a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.term-category-link-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.term-category-link-list a {
+  color: var(--accent);
+}
+
+.term-category-pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.term-category-pill {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: var(--term-category-accent);
+  background: #fff;
+}
+
+.term-category-pill:hover {
+  background: rgba(107, 41, 64, 0.04);
+}
+
+.term-category-pill-term {
+  color: var(--accent);
+}
+
+.term-category-faq-list {
+  margin: 0;
+}
+
+.term-category-faq-list dt {
+  font-weight: 600;
+  margin: 1rem 0 0.35rem;
+  color: #2a1a1a;
+}
+
+.term-category-faq-list dd {
+  margin: 0 0 0.5rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .term-category-stats-list {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .taxonomy-scale {
+    max-width: 100%;
+  }
+}
+
+/* ---------- KNOWLEDGE-03: Descriptor entity pages ---------- */
+.term-entity-page {
+  --term-entity-accent: var(--wine-red);
+}
+
+.term-entity {
+  max-width: 52rem;
+  margin: 0 auto 3rem;
+}
+
+.term-entity-hero {
+  margin: 1rem 0 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.term-entity-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--term-entity-accent);
+  margin: 0 0 0.5rem;
+}
+
+.term-entity-hero h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.75rem, 4vw, 2.35rem);
+  margin: 0;
+  color: #2a1a1a;
+}
+
+.term-entity-section {
+  margin: 2rem 0;
+}
+
+.term-entity-section h2 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.45rem;
+  margin: 0 0 0.85rem;
+  color: #2a1a1a;
+}
+
+.term-entity-link-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.term-entity-link-list a {
+  color: var(--accent);
+}
+
+.term-entity-pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.term-entity-pill {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: var(--term-entity-accent);
+  background: #fff;
+}
+
+.term-entity-pill:hover {
+  background: rgba(107, 41, 64, 0.04);
+}
+
+.term-entity-pill-term {
+  color: var(--accent);
+}
+
+.term-entity-pill-opposite {
+  border-color: rgba(107, 41, 64, 0.25);
+}
+
+.term-entity-pill-confused {
+  border-style: dashed;
+}
+
+.term-entity-parent-link {
+  font-weight: 600;
+  color: var(--term-entity-accent);
+  text-decoration: none;
+}
+
+.term-entity-parent-link:hover {
+  text-decoration: underline;
+}
+
+.taxonomy-path {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 1rem 1.1rem;
+  background: rgba(107, 41, 64, 0.03);
+  border: 1px solid var(--border-subtle);
+  border-radius: 3px;
+  max-width: 22rem;
+}
+
+.taxonomy-path-step {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.taxonomy-path-step a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.taxonomy-path-step a:hover {
+  text-decoration: underline;
+}
+
+.taxonomy-path-current span {
+  font-weight: 700;
+  color: var(--term-entity-accent);
+}
+
+.taxonomy-path-arrow {
+  display: block;
+  padding: 0.25rem 0 0.35rem 0.5rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.taxonomy-scale-rail {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 22rem;
+}
+
+.taxonomy-scale-rail-item {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.35rem 0;
+}
+
+.taxonomy-scale-rail-item a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.taxonomy-scale-rail-item.is-current a {
+  font-weight: 700;
+  color: var(--term-entity-accent);
+}
+
+.scale-rail-dot {
+  flex-shrink: 0;
+  width: 1.25rem;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.scale-rail-dot.is-current {
+  color: var(--term-entity-accent);
+}
+
+.term-entity-scale-position {
+  margin: 0.75rem 0 0;
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+}
+
+.term-entity-faq-list {
+  margin: 0;
+}
+
+.term-entity-faq-list dt {
+  font-weight: 600;
+  margin: 1rem 0 0.35rem;
+  color: #2a1a1a;
+}
+
+.term-entity-faq-list dd {
+  margin: 0 0 0.5rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.term-entity-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.term-entity-nav-prev,
+.term-entity-nav-next {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+  max-width: 45%;
+}
+
+.term-entity-nav-prev:hover,
+.term-entity-nav-next:hover {
+  text-decoration: underline;
+}
+
+.term-entity-nav-next {
+  text-align: right;
+  margin-left: auto;
+}
+
+.term-search-hit-entity {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.65rem 0.85rem;
+  border: none;
+  background: transparent;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+.term-search-hit-entity:hover {
+  background: rgba(107, 41, 64, 0.04);
+}
+
+.taxonomy-checklist {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.taxonomy-checklist li {
+  margin: 0.35rem 0;
+}
+
+.taxonomy-checklist a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.taxonomy-checklist a:hover {
+  text-decoration: underline;
+}
+
+.pairing-why-taxonomy .pairing-recommended-grape {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.term-shortcut-chip-entity {
+  text-decoration: none;
+  color: inherit;
+}
+
+.grape-entity-page .grape-profile-bucket h3 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.15rem;
+  margin: 0 0 0.65rem;
+}
+
+@media (max-width: 768px) {
+  .taxonomy-path,
+  .taxonomy-scale-rail {
+    max-width: 100%;
+  }
+
+  .term-entity-nav {
+    flex-direction: column;
+  }
+
+  .term-entity-nav-prev,
+  .term-entity-nav-next {
+    max-width: 100%;
+    text-align: left;
+  }
+}
+

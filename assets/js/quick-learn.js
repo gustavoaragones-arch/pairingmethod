@@ -1,11 +1,19 @@
 /**
- * Pairing guide pages: insight strip after H1 (term-linked + grape link).
+ * KNOWLEDGE-04 — Pairing guide quick insight from taxonomy descriptors.
  */
 
 import { grapeUrl } from "../../lib/public-url.js";
+import { hasTaxonomyNode } from "./taxonomy-runtime.js";
 
 const PAIRING_PAGE =
   /\/wine-(with|for)-[^/]+(?:\.html)?\/?$/i.test(location.pathname);
+
+function termEntityLink(slug, label) {
+  if (hasTaxonomyNode(slug)) {
+    return `<a href="/terms/${slug}" class="term-link term-link-entity">${label}</a>`;
+  }
+  return `<span class="term-link" role="button" tabindex="0" data-term="${slug}">${label}</span>`;
+}
 
 if (PAIRING_PAGE) {
   const inject = () => {
@@ -17,7 +25,7 @@ if (PAIRING_PAGE) {
     const div = document.createElement("div");
     div.className = "quick-learn";
     div.setAttribute("role", "note");
-    div.innerHTML = `<p><strong>Quick insight:</strong> High <span class="term-link" role="button" tabindex="0" data-term="tannic">tannic</span> wines (like <a href="${grapeUrl("cabernet-sauvignon")}">Cabernet Sauvignon</a>) bind to fat, reducing <span class="term-link" role="button" tabindex="0" data-term="astringent">astringent</span> edge and improving <span class="term-link" role="button" tabindex="0" data-term="balanced">balance</span> on the palate.</p>`;
+    div.innerHTML = `<p><strong>Quick insight:</strong> High ${termEntityLink("tannic", "tannic")} wines (like <a href="${grapeUrl("cabernet-sauvignon")}">Cabernet Sauvignon</a>) bind to fat, reducing ${termEntityLink("astringent", "astringent")} edge and improving ${termEntityLink("balanced", "balance")} on the palate.</p>`;
     h1.insertAdjacentElement("afterend", div);
   };
 

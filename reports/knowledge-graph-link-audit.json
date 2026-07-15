@@ -1,0 +1,181 @@
+{
+  "generated_at": "2026-07-15T03:48:10.587Z",
+  "phase": "KNOWLEDGE-04",
+  "edges": {
+    "descriptor_to_grape": 64,
+    "descriptor_to_pairing": 68,
+    "grape_to_descriptor": 64,
+    "pairing_to_descriptor": 68,
+    "grape_to_pairing": 38,
+    "pairing_to_grape": 38
+  },
+  "graph_stats": {
+    "descriptorCount": 187,
+    "grapeCount": 5,
+    "averageDegree": 2.6,
+    "strongestNodes": [
+      {
+        "slug": "tannic",
+        "degree": 10
+      },
+      {
+        "slug": "full-bodied",
+        "degree": 9
+      },
+      {
+        "slug": "high-acidity",
+        "degree": 9
+      },
+      {
+        "slug": "light-bodied",
+        "degree": 9
+      },
+      {
+        "slug": "firm",
+        "degree": 8
+      },
+      {
+        "slug": "grippy",
+        "degree": 8
+      },
+      {
+        "slug": "soft",
+        "degree": 8
+      },
+      {
+        "slug": "bright",
+        "degree": 7
+      },
+      {
+        "slug": "crisp",
+        "degree": 7
+      },
+      {
+        "slug": "fresh",
+        "degree": 7
+      }
+    ]
+  },
+  "orphan_descriptors": [
+    "accessible",
+    "aggressive",
+    "anise",
+    "asparagus",
+    "banana",
+    "blueberry",
+    "burn",
+    "cats-pee",
+    "charcoal",
+    "cheesy",
+    "chocolate",
+    "citrus-blossom",
+    "citrus-zest",
+    "cliff-edge",
+    "closed",
+    "coconut",
+    "complex",
+    "dense",
+    "diesel",
+    "dill",
+    "flamboyant",
+    "fleshy",
+    "geranium",
+    "ginger",
+    "gooseberry",
+    "grapefruit",
+    "jalapeno",
+    "juicy",
+    "lavender",
+    "legs",
+    "lemon",
+    "lime",
+    "musky",
+    "nectarine",
+    "nerve",
+    "nutty",
+    "oily",
+    "orange",
+    "peach",
+    "petrichor",
+    "petroleum",
+    "pineapple",
+    "plastic",
+    "quince",
+    "raspberry",
+    "refined",
+    "rose",
+    "rubber",
+    "saffron",
+    "sage",
+    "sour",
+    "stalky",
+    "stemmy",
+    "strawberry",
+    "sweet-tobacco",
+    "tar",
+    "tight",
+    "unctuous",
+    "vegetal",
+    "voluptuous",
+    "white-flowers"
+  ],
+  "missing_taxonomy_slugs": [],
+  "sample_links": {
+    "graphite": {
+      "grapes": [
+        "/grapes/cabernet-sauvignon"
+      ],
+      "pairings": []
+    },
+    "cabernet": {
+      "descriptors": [
+        "/terms/black-fruit",
+        "/terms/blackberry",
+        "/terms/cassis",
+        "/terms/cedar",
+        "/terms/concentrated",
+        "/terms/firm",
+        "/terms/fresh",
+        "/terms/full-bodied",
+        "/terms/graphite",
+        "/terms/grippy",
+        "/terms/oak",
+        "/terms/powerful",
+        "/terms/structured",
+        "/terms/tannic",
+        "/terms/tobacco",
+        "/terms/vanilla"
+      ],
+      "pairings": [
+        "/wine-for-bbq-ribs",
+        "/wine-for-thanksgiving-turkey",
+        "/wine-with-chicken",
+        "/wine-with-creamy-dishes",
+        "/wine-with-fried-fish",
+        "/wine-with-grilled-steak",
+        "/wine-with-roasted-chicken",
+        "/wine-with-salmon",
+        "/wine-with-smoked-pork",
+        "/wine-with-spicy-food",
+        "/wine-with-steak"
+      ]
+    },
+    "steak": {
+      "descriptors": [
+        "/terms/acidity",
+        "/terms/blackberry",
+        "/terms/body",
+        "/terms/cassis",
+        "/terms/concentrated",
+        "/terms/firm",
+        "/terms/full-bodied",
+        "/terms/grippy"
+      ],
+      "grapes": [
+        "/grapes/cabernet-sauvignon",
+        "/grapes/chardonnay",
+        "/grapes/pinot-noir"
+      ]
+    }
+  }
+}

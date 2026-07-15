@@ -1,9 +1,9 @@
 /**
- * Maps matrix state + wine style → semantic explanation HTML (term-linked).
+ * KNOWLEDGE-04 — Taxonomy-backed term links for pairing engine copy.
  */
 
 import { WINE_STYLE_SEMANTICS } from "./pairing-data.js";
-import { WINE_TERMS } from "./wine-terms-data.js";
+import { hasTaxonomyNode, getTaxonomyNode, taxonomyHref, taxonomyLabel } from "./taxonomy-runtime.js";
 
 function escapeHtml(s) {
   return String(s)
@@ -24,11 +24,12 @@ function flattenState(state) {
  * @returns {string}
  */
 export function termLinkHtml(slug) {
-  if (!slug || !WINE_TERMS[slug]) {
-    return escapeHtml(slug || "");
+  if (!slug) return "";
+  if (hasTaxonomyNode(slug)) {
+    const n = getTaxonomyNode(slug);
+    return `<a href="${escapeHtml(n.href)}" class="term-link term-link-entity">${escapeHtml(n.name)}</a>`;
   }
-  const label = WINE_TERMS[slug].label;
-  return `<span class="term-link" role="button" tabindex="0" data-term="${escapeHtml(slug)}">${escapeHtml(label)}</span>`;
+  return escapeHtml(taxonomyLabel(slug));
 }
 
 /**
@@ -36,7 +37,7 @@ export function termLinkHtml(slug) {
  * @param {number} max
  */
 export function termLinksJoin(slugs, max = 4) {
-  const use = slugs.filter((s) => WINE_TERMS[s]).slice(0, max);
+  const use = slugs.filter((s) => hasTaxonomyNode(s) || s).slice(0, max);
   return use.map(termLinkHtml).join(", ");
 }
 
@@ -119,6 +120,20 @@ export function buildResultExplanationHtml(style, state, opts = {}) {
   return `<p class="result-explanation-lede"><strong>Why this works</strong></p><ul class="result-explanation-list">${items}</ul>`;
 }
 
+/** Descriptor slugs for structure breakdown — sourced from WINE_STYLE_SEMANTICS + taxonomy validation. */
+const STRUCTURE_DESCRIPTORS = {
+  red_meat: ["grippy", "firm", "tannic"],
+  poultry: ["silky", "supple", "bright"],
+  fish: ["crisp", "high-acidity", "citrus"],
+  pork_acid: ["fresh", "bright", "racy"],
+  fat_acid: ["bright", "fresh", "crisp"],
+  grilled: ["toasty", "smoky", "vanilla"],
+  smoked: ["smoky", "earthy", "leathery"],
+  roasted: ["toasty", "rich", "concentrated"],
+  fried: ["crisp", "zesty", "high-acidity"],
+  spicy: ["off-dry", "ripe", "lush"],
+};
+
 /**
  * “Structure breakdown” for dynamic column + matrix context.
  * @param {Record<string, Set<string>>} state
@@ -133,60 +148,60 @@ export function buildStructureBreakdownHtml(state) {
   if (has("red_meat") || has("cured_meat")) {
     rows.push({
       k: "Protein",
-      t: `binds tannin (${termLinksJoin(["grippy", "firm", "tannic"], 3)})`,
+      t: `binds tannin (${termLinksJoin(STRUCTURE_DESCRIPTORS.red_meat, 3)})`,
     });
   } else if (has("poultry")) {
     rows.push({
       k: "Protein",
-      t: `likes moderate structure (${termLinksJoin(["silky", "supple", "bright"], 3)})`,
+      t: `likes moderate structure (${termLinksJoin(STRUCTURE_DESCRIPTORS.poultry, 3)})`,
     });
   } else if (has("fish") || has("shellfish")) {
     rows.push({
       k: "Protein",
-      t: `needs lift (${termLinksJoin(["crisp", "high-acidity", "citrus"], 3)})`,
+      t: `needs lift (${termLinksJoin(STRUCTURE_DESCRIPTORS.fish, 3)})`,
     });
   }
 
   if (has("pork")) {
     rows.push({
       k: "Fat & smoke",
-      t: `softened by acidity (${termLinksJoin(["fresh", "bright", "racy"], 3)}) or matched by ${termLinksJoin(["smoky", "spicy"], 2)}`,
+      t: `softened by acidity (${termLinksJoin(STRUCTURE_DESCRIPTORS.pork_acid, 3)}) or matched by ${termLinksJoin(["smoky", "spicy"], 2)}`,
     });
   } else if (has("red_meat") || has("dairy")) {
     rows.push({
       k: "Fat",
-      t: `softened by acidity (${termLinksJoin(["bright", "fresh", "crisp"], 3)})`,
+      t: `softened by acidity (${termLinksJoin(STRUCTURE_DESCRIPTORS.fat_acid, 3)})`,
     });
   }
 
   if (has("grilled")) {
     rows.push({
       k: "Char",
-      t: `mirrors oak spice (${termLinksJoin(["toasty", "smoky", "vanilla"], 3)})`,
+      t: `mirrors oak spice (${termLinksJoin(STRUCTURE_DESCRIPTORS.grilled, 3)})`,
     });
   }
   if (has("smoked")) {
     rows.push({
       k: "Smoke",
-      t: `echoed by ${termLinksJoin(["smoky", "earthy", "leathery"], 3)}`,
+      t: `echoed by ${termLinksJoin(STRUCTURE_DESCRIPTORS.smoked, 3)}`,
     });
   }
   if (has("roasted")) {
     rows.push({
       k: "Roast",
-      t: `pairs with ${termLinksJoin(["toasty", "rich", "concentrated"], 3)}`,
+      t: `pairs with ${termLinksJoin(STRUCTURE_DESCRIPTORS.roasted, 3)}`,
     });
   }
   if (has("fried")) {
     rows.push({
       k: "Fry",
-      t: `cut by ${termLinksJoin(["crisp", "zesty", "high-acidity"], 3)}`,
+      t: `cut by ${termLinksJoin(STRUCTURE_DESCRIPTORS.fried, 3)}`,
     });
   }
   if (has("spicy")) {
     rows.push({
       k: "Heat",
-      t: `often needs ${termLinksJoin(["off-dry", "ripe", "lush"], 2)} or modest alcohol`,
+      t: `often needs ${termLinksJoin(STRUCTURE_DESCRIPTORS.spicy, 2)} or modest alcohol`,
     });
   }
 

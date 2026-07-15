@@ -7,6 +7,7 @@ import {
   EXPLORER_CATEGORIES,
   TERM_CONNECTIONS,
 } from "./wine-terms-data.js";
+import { hasTaxonomyNode, hasDescriptor, getDescriptor, getTaxonomyNode } from "./taxonomy-runtime.js";
 import { termUrl } from "../../lib/public-url.js";
 
 function escapeHtml(s) {
@@ -135,31 +136,70 @@ function showCategoryList(catId) {
 
 function showTermDetail(slug) {
   ensureShell();
-  const def = WINE_TERMS[slug];
-  if (!def) return;
 
-  renderCategoryTabs(def.categoryId);
+  const tax = hasTaxonomyNode(slug) ? getTaxonomyNode(slug) : null;
+  const def = WINE_TERMS[slug];
+  if (!tax && !def) return;
+
+  const categoryId = def?.categoryId ?? tax?.category;
+  renderCategoryTabs(categoryId);
   const title = document.getElementById("term-modal-title");
   const body = document.getElementById("term-modal-body");
   if (!title || !body) return;
 
-  title.textContent = def.label;
-  const rel = (def.related || [])
-    .filter((s) => WINE_TERMS[s])
-    .map(
-      (s) =>
-        `<button type="button" class="term-link term-link-inline" data-term="${escapeHtml(s)}">${escapeHtml(WINE_TERMS[s].label)}</button>`
-    )
-    .join(", ");
-  const opp = (def.opposites || [])
-    .filter((s) => WINE_TERMS[s])
-    .map(
-      (s) =>
-        `<button type="button" class="term-link term-link-inline" data-term="${escapeHtml(s)}">${escapeHtml(WINE_TERMS[s].label)}</button>`
-    )
-    .join(", ");
+  title.textContent = tax?.name ?? def.label;
 
-  body.innerHTML = `
+  if (tax) {
+    const rel = (tax.related ?? [])
+      .filter((s) => hasTaxonomyNode(s))
+      .map(
+        (s) =>
+          `<a href="${getTaxonomyNode(s).href}" class="term-link term-link-entity">${escapeHtml(getTaxonomyNode(s).name)}</a>`
+      )
+      .join(", ");
+    const opp = (tax.opposite ?? [])
+      .filter((s) => hasTaxonomyNode(s))
+      .map(
+        (s) =>
+          `<a href="${getTaxonomyNode(s).href}" class="term-link term-link-entity">${escapeHtml(getTaxonomyNode(s).name)}</a>`
+      )
+      .join(", ");
+
+    body.innerHTML = `
+    <p class="term-modal-cat-badge" style="--cat:${categoryColor(categoryId)}">${escapeHtml(tax.categoryName)}</p>
+    <p class="term-modal-def">${escapeHtml(tax.definition)}</p>
+    <h3 class="term-modal-h3">Why this matters</h3>
+    <p>${escapeHtml(tax.description)}</p>
+    <h3 class="term-modal-h3">Related terms</h3>
+    <p>${rel || "—"}</p>
+    <h3 class="term-modal-h3">Opposites / contrasts</h3>
+    <p>${opp || "—"}</p>
+    <p class="term-modal-seo"><a href="${tax.href}">Open full entity page</a></p>
+    <p><button type="button" class="term-modal-back">← Back to category</button></p>
+  `;
+  } else {
+    const rel = (def.related || [])
+      .filter((s) => WINE_TERMS[s] || hasDescriptor(s))
+      .map((s) => {
+        const label = hasDescriptor(s) ? getDescriptor(s).name : WINE_TERMS[s].label;
+        if (hasDescriptor(s)) {
+          return `<a href="${getDescriptor(s).href}" class="term-link term-link-entity">${escapeHtml(label)}</a>`;
+        }
+        return `<button type="button" class="term-link term-link-inline" data-term="${escapeHtml(s)}">${escapeHtml(label)}</button>`;
+      })
+      .join(", ");
+    const opp = (def.opposites || [])
+      .filter((s) => WINE_TERMS[s] || hasDescriptor(s))
+      .map((s) => {
+        const label = hasDescriptor(s) ? getDescriptor(s).name : WINE_TERMS[s].label;
+        if (hasDescriptor(s)) {
+          return `<a href="${getDescriptor(s).href}" class="term-link term-link-entity">${escapeHtml(label)}</a>`;
+        }
+        return `<button type="button" class="term-link term-link-inline" data-term="${escapeHtml(s)}">${escapeHtml(label)}</button>`;
+      })
+      .join(", ");
+
+    body.innerHTML = `
     <p class="term-modal-cat-badge" style="--cat:${categoryColor(def.categoryId)}">${escapeHtml(categoryLabel(def.categoryId))}</p>
     <p class="term-modal-def">${escapeHtml(def.definition)}</p>
     <h3 class="term-modal-h3">Context</h3>
@@ -168,12 +208,13 @@ function showTermDetail(slug) {
     <p>${rel || "—"}</p>
     <h3 class="term-modal-h3">Opposites / contrasts</h3>
     <p>${opp || "—"}</p>
-    <p class="term-modal-seo"><a href="${termUrl(slug)}">Open full glossary page</a> (indexed reference)</p>
+    ${hasDescriptor(slug) ? `<p class="term-modal-seo"><a href="${getDescriptor(slug).href}">Open full entity page</a></p>` : `<p class="term-modal-seo"><a href="${termUrl(slug)}">Open glossary page</a></p>`}
     <p><button type="button" class="term-modal-back">← Back to category</button></p>
   `;
+  }
 
   body.querySelector(".term-modal-back")?.addEventListener("click", () => {
-    showCategoryList(def.categoryId);
+    showCategoryList(categoryId);
   });
 
   document.getElementById("term-modal-relationships").innerHTML = "";
@@ -188,13 +229,13 @@ export function openTermModal(slugOrLabel) {
   }
   ensureShell();
   let slug = slugOrLabel;
-  if (!WINE_TERMS[slug]) {
+  if (!WINE_TERMS[slug] && !hasDescriptor(slug)) {
     const found = Object.entries(WINE_TERMS).find(
       ([, d]) => d.label.toLowerCase() === String(slugOrLabel).toLowerCase()
     );
     if (found) slug = found[0];
   }
-  if (!WINE_TERMS[slug]) {
+  if (!WINE_TERMS[slug] && !hasDescriptor(slug)) {
     console.warn("Unknown term:", slugOrLabel);
     return;
   }

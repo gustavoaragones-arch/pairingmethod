@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "phase": "KNOWLEDGE-04",
+    "description": "Editorial grape content — descriptors come from pairing-data.js WINES via taxonomy graph."
+  },
+  "grapes": [
+    {
+      "wineId": "cabernet",
+      "slug": "cabernet-sauvignon",
+      "name": "Cabernet Sauvignon",
+      "quickAnswer": "Cabernet Sauvignon is a full-bodied red defined by high tannin, dark fruit, and structured intensity. Tannins bind to protein and fat in red meat, softening the wine and balancing richness. Avoid it with delicate fish or very spicy dishes where tannin reads harsh.",
+      "definition": "Full-bodied red pairing relies on tannin and body weight matching protein and fat in the dish.",
+      "structure": { "body": 5, "tannin": 5, "acidity": 3, "alcohol": 4, "sweetness": 0 },
+      "regions": "Bordeaux (France), Napa Valley (USA), Chile, Australia.",
+      "price": "$15–$25 entry level. $30–$70 premium. Icon wines $100+.",
+      "similar": "Malbec, Syrah, Bordeaux blends.",
+      "pairings": [
+        { "slug": "wine-with-steak", "label": "Steak" },
+        { "slug": "wine-for-bbq-ribs", "label": "BBQ Ribs" },
+        { "slug": "wine-with-grilled-steak", "label": "Grilled Steak" }
+      ],
+      "pairingLabels": ["Grilled Lamb", "Aged Cheddar"],
+      "faqs": [
+        { "q": "Is Cabernet Sauvignon always dry?", "a": "Yes. It is a dry wine with no residual sugar." },
+        { "q": "Does Cabernet need aging?", "a": "Higher-quality examples benefit from 5–15 years aging." },
+        { "q": "What food should you avoid with Cabernet?", "a": "Light seafood and spicy dishes often clash with tannin." }
+      ]
+    },
+    {
+      "wineId": "pinot-noir",
+      "slug": "pinot-noir",
+      "name": "Pinot Noir",
+      "quickAnswer": "Pinot Noir is a light- to medium-bodied red with soft tannin, bright acidity, and red fruit. It pairs with salmon, roast poultry, and earthy dishes where a lighter red won't overpower delicate protein.",
+      "definition": "Light red pairing favors moderate tannin and acidity to match poultry, fatty fish, and umami without heaviness.",
+      "structure": { "body": 2, "tannin": 2, "acidity": 4, "alcohol": 3, "sweetness": 0 },
+      "regions": "Burgundy (France), Oregon, New Zealand, California.",
+      "price": "$15–$30 entry. $40+ premium Burgundy.",
+      "similar": "Gamay, lighter Grenache.",
+      "pairings": [
+        { "slug": "wine-with-salmon", "label": "Salmon" },
+        { "slug": "wine-with-chicken", "label": "Roast Chicken" },
+        { "slug": "wine-for-thanksgiving-turkey", "label": "Turkey" }
+      ],
+      "faqs": [
+        { "q": "Is Pinot Noir good with fish?", "a": "Yes. It works especially well with salmon and other fatty fish due to moderate tannin and acidity." },
+        { "q": "What's the difference between Burgundy and New World Pinot?", "a": "Burgundy tends to be leaner and earthier; New World examples often have riper fruit and more body." },
+        { "q": "Should Pinot Noir be served chilled?", "a": "Light chill (55–60°F) is ideal; too warm flattens the fruit." }
+      ]
+    },
+    {
+      "wineId": "chardonnay",
+      "slug": "chardonnay",
+      "name": "Chardonnay",
+      "quickAnswer": "Chardonnay spans lean unoaked styles to rich, buttery oaked examples. Match weight to the dish: oaked Chardonnay for cream sauces and salmon; unoaked for roast chicken and lighter fare.",
+      "definition": "White pairing tracks body and oak — richer dishes need fuller, often barrel-aged Chardonnay.",
+      "structure": { "body": 4, "tannin": 1, "acidity": 3, "alcohol": 4, "sweetness": 0 },
+      "regions": "Burgundy (France), California, Australia, Chile.",
+      "price": "$12–$25 entry. $30–$80 premium white Burgundy.",
+      "similar": "Viognier, oaked Sauvignon Blanc (Fumé Blanc), white Rioja.",
+      "pairings": [
+        { "slug": "wine-with-chicken", "label": "Chicken" },
+        { "slug": "wine-with-salmon", "label": "Salmon" },
+        { "slug": "wine-for-thanksgiving-turkey", "label": "Thanksgiving Turkey" },
+        { "slug": "wine-with-creamy-dishes", "label": "Creamy Dishes" }
+      ],
+      "pairingLabels": ["Cream pasta", "Soft cheeses"],
+      "faqs": [
+        { "q": "What's the difference between oaked and unoaked Chardonnay?", "a": "Oaked has vanilla, butter, and weight from barrel aging; unoaked is leaner, with more fruit and acidity." },
+        { "q": "Is Chardonnay good with fish?", "a": "Yes. Oaked Chardonnay pairs well with salmon and richer fish; unoaked with lighter preparations." },
+        { "q": "Should Chardonnay be chilled?", "a": "Yes. Serve at 50–55°F; too cold mutes flavor." }
+      ]
+    },
+    {
+      "wineId": "sauvignon-blanc",
+      "slug": "sauvignon-blanc",
+      "name": "Sauvignon Blanc",
+      "quickAnswer": "Sauvignon Blanc is a high-acid, aromatic white with citrus, herb, and mineral notes. Its lift cuts richness and pairs with goat cheese, salads, and lighter proteins.",
+      "definition": "High-acid white pairing refreshes the palate and mirrors herbal, citrus, and green elements on the plate.",
+      "structure": { "body": 2, "tannin": 0, "acidity": 5, "alcohol": 3, "sweetness": 0 },
+      "regions": "Loire (France), Marlborough (New Zealand), California, Chile.",
+      "price": "$12–$22 entry. $25–$45 premium Sancerre or single-vineyard.",
+      "similar": "Vermentino, Grüner Veltliner, unoaked Chardonnay.",
+      "pairings": [
+        { "slug": "wine-with-chicken", "label": "Chicken" },
+        { "slug": "wine-with-salmon", "label": "Salmon (lemon-based)" },
+        { "slug": "wine-with-spicy-food", "label": "Spicy Food" }
+      ],
+      "pairingLabels": ["Goat cheese and salads", "Tomato-based dishes"],
+      "faqs": [
+        { "q": "Is Sauvignon Blanc always dry?", "a": "Most are dry. Some New World examples have a touch of residual sugar." },
+        { "q": "What's the difference between Sancerre and Marlborough Sauvignon Blanc?", "a": "Sancerre is typically leaner and more mineral; Marlborough is fruit-forward with pronounced tropical and citrus notes." },
+        { "q": "What food should you avoid with Sauvignon Blanc?", "a": "Very rich or sweet dishes can make it taste thin or sharp." }
+      ]
+    },
+    {
+      "wineId": "riesling",
+      "slug": "riesling",
+      "name": "Riesling",
+      "quickAnswer": "Riesling ranges from bone-dry to lusciously sweet, always with piercing acidity. Off-dry styles tame spice; dry styles lift fatty fish and aromatic Asian dishes.",
+      "definition": "Aromatic white pairing uses acidity and optional sweetness to balance heat, umami, and rich sauces.",
+      "structure": { "body": 2, "tannin": 0, "acidity": 5, "alcohol": 3, "sweetness": 3 },
+      "regions": "Mosel and Rheingau (Germany), Alsace (France), Austria, Australia.",
+      "price": "$12–$25 entry. $30–$60 premium German or Alsace.",
+      "similar": "Gewürztraminer, Chenin Blanc, Torrontés.",
+      "pairings": [
+        { "slug": "wine-with-spicy-food", "label": "Spicy Food" },
+        { "slug": "wine-with-fried-fish", "label": "Fried Fish" },
+        { "slug": "wine-for-thanksgiving-turkey", "label": "Thanksgiving Turkey" }
+      ],
+      "pairingLabels": ["Pork with fruit glazes", "Asian cuisine"],
+      "faqs": [
+        { "q": "Is all Riesling sweet?", "a": "No. Many are dry (Trocken); sweetness varies by region and style." },
+        { "q": "Why does Riesling pair with spicy food?", "a": "Off-dry fruit and acidity soften heat better than high-alcohol dry reds." },
+        { "q": "What is petrol in Riesling?", "a": "A mineral note from TDN in aged Riesling — prized, not a fault." }
+      ]
+    }
+  ]
+}
