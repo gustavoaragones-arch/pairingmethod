@@ -1309,26 +1309,19 @@ export const WINE_TERMS = {
 
 /** Slugs for homepage shortcuts (modal triggers). */
 export const HOMEPAGE_TERM_SHORTCUTS = [
-  "high-acidity",
-  "full-bodied",
-  "tannic",
-  "jammy",
-  "earthy",
-  "crisp",
-];
-
-/** Homepage term grid — shallow paths to glossary (SEO / crawl depth). */
-export const TERM_GRID_TOP_12 = [
   "tannin",
   "acidity",
   "body",
-  "tannic",
   "high-acidity",
   "full-bodied",
-  "jammy",
   "crisp",
-  "minerality",
+  "jammy",
   "earthy",
-  "grippy",
+  "minerality",
   "balanced",
+  "grippy",
+  "tannic",
 ];
+
+/** Homepage term grid — shallow paths to glossary (SEO / crawl depth). */
+export const TERM_GRID_TOP_12 = [...HOMEPAGE_TERM_SHORTCUTS];

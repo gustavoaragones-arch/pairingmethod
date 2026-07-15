@@ -1413,7 +1413,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.5fr 2fr 1fr;
+  grid-template-columns: 1.5fr 2fr;
   gap: 2rem;
   padding: 0 0 2rem;
 }
@@ -2007,12 +2007,14 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 .term-shortcut-chip {
   font: inherit;
   cursor: pointer;
+  width: auto;
   padding: 0.45rem 0.85rem;
   border-radius: 999px;
   border: 1px solid var(--accent);
   background: #fff;
   color: var(--accent);
   font-size: 0.9rem;
+  white-space: nowrap;
 }
 
 .term-shortcut-chip:hover {
@@ -2445,17 +2447,48 @@ body.term-modal-open {
 }
 
 .page-home .term-grid-section .semantic-entry {
-  margin: 0 0 1rem;
+  margin: 0;
   padding: 1.1rem 1.25rem;
 }
 
-.page-home .term-grid-label {
-  margin: 0 0 0.65rem;
-  font-size: 0.82rem;
+.page-home .term-vocabulary-lede {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  max-width: 42rem;
+}
+
+.page-home .term-grid-section .term-search-input {
+  margin-top: 0;
+  padding: 0.5rem 0.85rem;
+  font-size: 0.9rem;
+  border: 1px solid rgba(221, 208, 196, 0.9);
+  color: var(--text-secondary);
+}
+
+.page-home .term-grid-section .term-search-input::placeholder {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.page-home .term-grid-section .term-search-input:focus {
+  border-color: rgba(107, 41, 64, 0.35);
+  color: var(--text-primary);
+}
+
+.page-home .term-chips-label {
+  margin: 0.6rem 0 0.35rem;
+  font-size: 0.72rem;
   font-weight: 600;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--text-muted);
+}
+
+.page-home .term-grid-section .term-shortcuts {
+  margin-top: 0;
+  gap: 0.45rem;
 }
 
 .page-home .popular-pairings {

@@ -483,10 +483,6 @@ function pageHtml(slug, def) {
         <a href="${SHARED_ROUTES.termsOfService}">Terms</a>
       </div>
     </div>
-    <div class="footer-meta">
-      <p>Operated by Albor Digital LLC</p>
-      <p><a href="mailto:contact@pairingmethod.com">contact@pairingmethod.com</a></p>
-    </div>
   </div>
   <p class="crawl-hint">Explore more structured wine pairings across different foods and cooking styles.</p>
   <div class="footer-bottom">© Pairing Method — All rights reserved</div>

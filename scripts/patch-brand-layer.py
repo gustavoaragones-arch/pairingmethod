@@ -39,17 +39,6 @@ FOOTER = """<footer class="site-footer">
         <a href="/disclaimer">Disclaimer</a>
       </div>
     </div>
-
-    <div class="footer-meta">
-      <p>Operated by Albor Digital LLC</p>
-      <p>Wyoming, United States</p>
-      <p>
-        <a href="mailto:contact@pairingmethod.com">
-          contact@pairingmethod.com
-        </a>
-      </p>
-    </div>
-
   </div>
 
   <div class="footer-bottom">

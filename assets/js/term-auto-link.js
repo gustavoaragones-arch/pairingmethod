@@ -29,7 +29,7 @@ const SKIP_PARENT = new Set([
 
 /** Do not auto-wrap glossary terms in these regions (UI labels, nav, hero, engine, matrix, promos). */
 const SKIP_TERM_LINK_ANCESTOR =
-  "#pairing-engine-root, #matrix-root, #dynamic-content, #internal-links, .hero, .hero-trust, .hero-cta, .semantic-entry, .seo-block, .pairing-authority, .sommelier-think, .quick-explanation, .supporting-text, .term-grid-section, .popular-pairings, .pairing-card-grid, .new-pairings, .recent-updates, .footer-freshness, .footer-trust, .explore-pairings-cta, .proof-slot, .homepage-closing, .matrix-section-header, .mini-disclaimer, .crawl-hint, header, nav, footer, .site-footer, .breadcrumb, .quick-learn, .direct-answer, .query-match, .workflow-step";
+  "#pairing-engine-root, #matrix-root, #dynamic-content, #internal-links, .hero, .hero-trust, .hero-cta, .semantic-entry, .seo-block, .pairing-authority, .sommelier-think, .quick-explanation, .supporting-text, .term-grid-section, .term-vocabulary-lede, .term-chips-label, .popular-pairings, .pairing-card-grid, .new-pairings, .recent-updates, .footer-freshness, .footer-trust, .explore-pairings-cta, .proof-slot, .homepage-closing, .matrix-section-header, .mini-disclaimer, .crawl-hint, header, nav, footer, .site-footer, .breadcrumb, .quick-learn, .direct-answer, .query-match, .workflow-step";
 
 /** @type {Map<string, number>} */
 const counts = new Map();
