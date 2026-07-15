@@ -58,7 +58,7 @@
   </script>
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
-<body>
+<body class="page-home">
   <header>
     <div class="container">
       <a href="/" class="logo">Pairing Method</a>
@@ -73,53 +73,62 @@
   </header>
 
   <main class="container">
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="/">Home</a> &gt; <span>Pairing engine</span>
-    </nav>
     <section class="hero">
       <h1>Find the Right Wine for Any Dish</h1>
       <p class="hero-sub">
-        Professional-style wine pairings based on flavor, preparation, and structure—choose wines with the same logic sommeliers use in restaurants.
+        Professional-style wine pairings based on flavor, preparation, and structure. Pairing Method uses structured culinary logic to explain why wines work with specific dishes, helping you choose wine with the same reasoning sommeliers use in restaurants.
       </p>
+      <ul class="hero-trust" aria-label="Why trust Pairing Method">
+        <li>Based on culinary pairing principles</li>
+        <li>Explains every recommendation</li>
+        <li>Free · No registration</li>
+      </ul>
+      <p class="hero-cta">Select your ingredients below to discover your best wine pairing.</p>
     </section>
 
     <!-- PRIMARY: ENGINE FIRST -->
     <section id="start-pairing" class="engine-entry engine-hero" aria-label="Pairing engine">
       <div id="pairing-engine-root"></div>
+      <div class="matrix-section-header" aria-label="Why these wines match">
+        <h2 class="matrix-section-title">Why These Wines Match</h2>
+        <p class="matrix-section-lede">See how each ingredient scores against wine styles at a glance.</p>
+      </div>
       <div id="matrix-root" aria-label="Pairing matrix heatmap"></div>
       <div id="dynamic-content" aria-label="Pairing insights"></div>
       <div id="internal-links" class="internal-links" aria-label="Related pairing guides"></div>
     </section>
 
-    <h2 class="section-kicker">Understand flavor</h2>
-    <section class="semantic-entry" aria-label="Wine vocabulary">
-      <h2>Start from flavor, not guesswork</h2>
-      <p>Search a tasting note, then jump into the same structured logic the pairing engine uses.</p>
-      <label class="visually-hidden" for="term-search-input">Search wine terms</label>
-      <input type="search" id="term-search-input" class="term-search-input" placeholder="Search terms like 'high acidity', 'jammy', 'tannic'" autocomplete="off" enterkeyhint="search">
-      <div id="term-search-results" class="term-search-results" hidden></div>
-      <div id="term-shortcuts" class="term-shortcuts"></div>
-    </section>
-
-    <section class="popular-pairings" aria-label="Popular pairings">
-      <h2>Popular Pairings</h2>
-      <ul>
-        <li><a href="/wine-with-steak">Best Wine with Steak</a></li>
-        <li><a href="/wine-with-salmon">Best Wine with Salmon</a></li>
-        <li><a href="/wine-with-chicken">Best Wine with Chicken</a></li>
-        <li><a href="/wine-for-bbq-ribs">Best Wine with BBQ Ribs</a></li>
-        <li><a href="/wine-for-thanksgiving-turkey">Best Wine with Thanksgiving Turkey</a></li>
-      </ul>
-    </section>
-
-    <section class="seo-block" aria-label="Wine pairing overview for search">
-      <h2>Wine pairing explained simply</h2>
-      <p>Wine pairing works by balancing acidity, tannin, body, and flavor intensity. For example, high-tannin wines like Cabernet Sauvignon pair well with fatty meats such as steak because tannins bind to protein and fat, softening the wine’s structure on the palate.</p>
+    <section class="seo-block pairing-authority" aria-label="Why these pairings work">
+      <h2>Why These Pairings Work</h2>
+      <div class="pairing-authority-grid">
+        <div class="think-card">
+          <h3>Acidity</h3>
+          <p>High acidity cuts richness and keeps each bite balanced with your dish.</p>
+        </div>
+        <div class="think-card">
+          <h3>Tannin</h3>
+          <p>Tannin softens against protein and fat—the reason bold reds work with steak.</p>
+        </div>
+        <div class="think-card">
+          <h3>Body</h3>
+          <p>Matching body to dish weight prevents the wine from overpowering the plate.</p>
+        </div>
+        <div class="think-card">
+          <h3>Flavor Intensity</h3>
+          <p>Aligned intensity lets delicate dishes stay delicate and bold flavors stay in harmony.</p>
+        </div>
+      </div>
     </section>
 
     <section class="term-grid-section" aria-label="Top wine glossary entries">
-      <h2>Core wine terms</h2>
-      <p class="term-grid-lede">Jump straight into the vocabulary the pairing engine uses—no extra click depth.</p>
+      <h2>Explore Wine Vocabulary</h2>
+      <div class="semantic-entry" aria-label="Wine vocabulary">
+        <label class="visually-hidden" for="term-search-input">Search wine terms</label>
+        <input type="search" id="term-search-input" class="term-search-input" placeholder="Search terms like 'high acidity', 'jammy', 'tannic'" autocomplete="off" enterkeyhint="search">
+        <div id="term-search-results" class="term-search-results" hidden></div>
+        <div id="term-shortcuts" class="term-shortcuts"></div>
+      </div>
+      <p class="term-grid-label">Popular terms</p>
       <div class="term-grid">
         <a class="term-grid-cell" href="/terms/tannin">Tannin</a>
         <a class="term-grid-cell" href="/terms/acidity">Acidity</a>
@@ -136,33 +145,46 @@
       </div>
     </section>
 
-    <section class="quick-explanation">
-      <h2>How It Works</h2>
-      <p>
-        Wine pairing works by balancing intensity, acidity, tannin, fat, and texture between food and wine.
-      </p>
+    <section class="popular-pairings" aria-label="Popular pairings">
+      <h2>Popular Pairings</h2>
+      <div class="pairing-card-grid">
+        <a class="pairing-card" href="/wine-with-steak">
+          <span class="pairing-card-icon" aria-hidden="true">🍷 🥩</span>
+          <h3 class="pairing-card-title">Best Wine with Steak</h3>
+          <p class="pairing-card-subtitle">Match tannin and body to rich, protein-heavy cuts.</p>
+          <span class="pairing-card-cta">Open guide</span>
+        </a>
+        <a class="pairing-card" href="/wine-with-salmon">
+          <span class="pairing-card-icon" aria-hidden="true">🍷 🐟</span>
+          <h3 class="pairing-card-title">Best Wine with Salmon</h3>
+          <p class="pairing-card-subtitle">Balance delicate fish with acidity and subtle flavor.</p>
+          <span class="pairing-card-cta">Open guide</span>
+        </a>
+        <a class="pairing-card" href="/wine-with-chicken">
+          <span class="pairing-card-icon" aria-hidden="true">🍷 🍗</span>
+          <h3 class="pairing-card-title">Best Wine with Chicken</h3>
+          <p class="pairing-card-subtitle">Versatile pairings for roast, grilled, and sauced chicken.</p>
+          <span class="pairing-card-cta">Open guide</span>
+        </a>
+        <a class="pairing-card" href="/wine-for-bbq-ribs">
+          <span class="pairing-card-icon" aria-hidden="true">🍷 🍖</span>
+          <h3 class="pairing-card-title">Best Wine with BBQ Ribs</h3>
+          <p class="pairing-card-subtitle">Stand up to smoke, sweetness, and sticky barbecue glaze.</p>
+          <span class="pairing-card-cta">Open guide</span>
+        </a>
+        <a class="pairing-card" href="/wine-for-thanksgiving-turkey">
+          <span class="pairing-card-icon" aria-hidden="true">🍷 🦃</span>
+          <h3 class="pairing-card-title">Best Wine with Thanksgiving Turkey</h3>
+          <p class="pairing-card-subtitle">Holiday roast pairings that work with rich sides and gravy.</p>
+          <span class="pairing-card-cta">Open guide</span>
+        </a>
+      </div>
     </section>
 
-    <section class="supporting-text">
-      <p>
-        Pairing Method helps you choose the right wine using structured culinary logic. We break down why wines work with specific dishes so you can apply the same thinking to any meal.
-      </p>
-    </section>
-
-    <section class="explore-pairings-cta" aria-label="Explore all pairings">
+    <section class="explore-pairings-cta explore-pairings-cta--primary" aria-label="Explore all pairings">
       <h2>Explore All Pairings</h2>
-      <p>
-        Browse our complete <a href="/pairings">wine pairing guides</a> for different foods and cooking styles, or jump to <a href="/seasonal-wine-guides">seasonal wine guides</a> and <a href="/grapes">grape variety guides</a>.
-      </p>
-    </section>
-
-    <section class="recent-updates" aria-label="Recently updated pairings">
-      <h2>Recently Updated Pairings</h2>
-      <ul>
-        <li><a href="/wine-with-grilled-steak">Wine with Grilled Steak</a></li>
-        <li><a href="/wine-with-roasted-chicken">Wine with Roasted Chicken</a></li>
-        <li><a href="/wine-with-spicy-food">Wine for Spicy Food</a></li>
-      </ul>
+      <p class="explore-pairings-lede">Browse structured guides for every dish, cooking style, and occasion.</p>
+      <a class="explore-pairings-btn" href="/pairings">View all pairing guides</a>
     </section>
 
     <section class="mini-disclaimer">
@@ -170,9 +192,23 @@
         Pairing guidance is based on general culinary principles and may vary by preparation and preference.
       </p>
     </section>
+
+    <section class="proof-slot" id="proof-slot" aria-label="Social proof placeholder">
+      <!-- Future: Featured in… · Used by… · Most searched pairings… · Recently improved… -->
+    </section>
   </main>
 
+  <p class="footer-trust container">Pairing recommendations are based on established culinary pairing principles and are intended as educational guidance.</p>
+
   <footer class="site-footer">
+  <div class="footer-freshness container" aria-label="Recently updated pairings">
+    <h2 class="footer-freshness-title">Recently Updated</h2>
+    <ul>
+      <li><a href="/wine-with-grilled-steak">Wine with Grilled Steak</a></li>
+      <li><a href="/wine-with-roasted-chicken">Wine with Roasted Chicken</a></li>
+      <li><a href="/wine-with-spicy-food">Wine for Spicy Food</a></li>
+    </ul>
+  </div>
   <div class="container footer-grid">
 
     <div class="footer-brand">
@@ -227,14 +263,8 @@
   </div>
 </footer>
 
-  <div id="term-cta-sticky" class="term-cta-sticky" aria-hidden="true">
-    <p class="term-cta-sticky-text">Not sure what to pick? <strong>Start with flavor</strong> →</p>
-    <button type="button" class="term-cta-sticky-btn">Explore Wine Terms</button>
-  </div>
-
   <script type="module" src="/assets/js/quick-learn.js"></script>
   <script type="module" src="/assets/js/term-delegate.js"></script>
-  <script type="module" src="/assets/js/term-cta-scroll.js"></script>
   <script type="module" src="/assets/js/semantic-entry.js"></script>
   <script type="module" src="/assets/js/pairing-engine.js"></script>
   <script type="module" src="/assets/js/term-auto-link.js"></script>

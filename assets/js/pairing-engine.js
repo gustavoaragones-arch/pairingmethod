@@ -14,7 +14,6 @@ import { renderMatrix } from "./matrix-view.js";
 import { generateContent } from "./content-engine.js";
 import { injectInternalLinks } from "./internal-links.js";
 import {
-  buildResultExplanationHtml,
   buildStructureBreakdownHtml,
   buildEngineFeedbackHtml,
 } from "./wine-semantic.js";
@@ -176,8 +175,20 @@ function humanizeNode(key) {
     .join(" ");
 }
 
-function formatStyleTitle(style) {
-  return humanizeNode(style);
+/** Plain-language verdict for the top recommendation card (presentation only). */
+function getMatchVerdict(tone) {
+  const map = {
+    ideal: "Excellent choice",
+    strong: "Excellent choice",
+    safe: "Solid pairing",
+    weak: "Acceptable match",
+    avoid: "Poor match",
+  };
+  return map[tone] || "Good match";
+}
+
+function isHomePage() {
+  return document.body.classList.contains("page-home");
 }
 
 /** Map matrix score to plain-language confidence (deterministic). */
@@ -195,109 +206,6 @@ function getConfidenceTier(score) {
     return { label: "Works, but not optimal", tone: "weak" };
   }
   return { label: "Best avoided", tone: "avoid" };
-}
-
-function hasSelection(category, value) {
-  return !!state[category]?.has(value);
-}
-
-const STYLE_STRUCTURE = {
-  bold_red: { acidity: "medium", tannin: "high", body: "full", sweetness: "dry" },
-  medium_red: { acidity: "medium", tannin: "medium", body: "medium", sweetness: "dry" },
-  light_red: { acidity: "high", tannin: "low", body: "light", sweetness: "dry" },
-  rose: { acidity: "high", tannin: "low", body: "light", sweetness: "dry" },
-  rich_white: { acidity: "medium", tannin: "low", body: "full", sweetness: "dry" },
-  light_white: { acidity: "high", tannin: "low", body: "light", sweetness: "dry" },
-  sparkling: { acidity: "high", tannin: "low", body: "light", sweetness: "dry" },
-  sweet_white: { acidity: "high", tannin: "low", body: "medium", sweetness: "off-dry" },
-  dessert: { acidity: "medium", tannin: "low", body: "full", sweetness: "off-dry" },
-};
-
-function buildStructureReason(topWine) {
-  const profile = STYLE_STRUCTURE[topWine.style];
-  if (!profile) return "";
-
-  const reasons = [];
-
-  if (profile.acidity === "high") {
-    reasons.push("its acidity cuts through richness");
-  }
-
-  if (profile.tannin === "high") {
-    reasons.push("its tannins bind with protein and fat");
-  }
-
-  if (profile.body === "full") {
-    reasons.push("its body matches the weight of the dish");
-  }
-
-  if (profile.sweetness === "off-dry") {
-    reasons.push("a touch of sweetness balances spice");
-  }
-
-  if (reasons.length === 0) return "";
-
-  return `, because ${reasons.join(", ")}`;
-}
-
-function generateSommelierText(topWine) {
-  const confidence = getConfidenceTier(topWine.score);
-  const parts = [];
-
-  if (hasSelection("protein", "red_meat")) {
-    parts.push("your dish is rich and protein-heavy");
-  } else if (hasSelection("protein", "poultry")) {
-    parts.push("your dish is lighter with moderate protein");
-  } else if (hasSelection("protein", "fish")) {
-    parts.push("your dish is delicate and lean");
-  }
-
-  if (hasSelection("preparation", "grilled")) {
-    parts.push("the grilled preparation adds char and intensity");
-  }
-  if (hasSelection("preparation", "fried")) {
-    parts.push("the frying adds fat and crisp texture");
-  }
-  if (hasSelection("preparation", "roasted")) {
-    parts.push("roasting adds depth and savory notes");
-  }
-
-  if (state.dairy?.size > 0) {
-    parts.push("there’s added richness from dairy");
-  }
-
-  if (hasSelection("spice", "spicy")) {
-    parts.push("spice requires a wine that won’t amplify heat");
-  }
-
-  if (hasSelection("starch", "sweet_starch") || hasSelection("starch", "fruit")) {
-    parts.push("sweetness needs balance from acidity or residual sugar");
-  }
-
-  let explanation = "";
-  if (parts.length > 0) {
-    explanation = `Because ${parts.join(", ")}, `;
-  }
-
-  const wineLabel = escapeHtml(formatStyleTitle(topWine.style));
-
-  let matchClause;
-  if (confidence.tone === "avoid") {
-    matchClause = `a <strong>${wineLabel}</strong> is <strong>best avoided</strong>`;
-  } else if (confidence.tone === "weak") {
-    matchClause = `a <strong>${wineLabel}</strong> <strong>works, but is not optimal</strong>`;
-  } else {
-    const lower = confidence.label.toLowerCase();
-    const article = /^[aeiou]/.test(lower) ? "an" : "a";
-    matchClause = `a <strong>${wineLabel}</strong> is ${article} <strong>${lower}</strong>`;
-  }
-
-  explanation += matchClause;
-  if (confidence.tone !== "avoid") {
-    explanation += buildStructureReason(topWine);
-  }
-
-  return `${explanation}.`;
 }
 
 /**
@@ -394,22 +302,12 @@ function animateResultCards(container) {
 function paintResults(root) {
   const container = root.querySelector("#results");
   if (!container) return;
-  const sommelierEl = root.querySelector("#sommelier-output");
+  const scope = root.closest(".engine-entry") || root.parentElement || root;
 
   const rows = getResults();
   const selections = flattenSelections();
 
   const topRow = rows[0];
-  const primaryInner =
-    topRow && !topRow.baseline && selections.length > 0
-      ? buildResultExplanationHtml(topRow.style, state, { primary: true })
-      : "";
-
-  const primaryBlock =
-    primaryInner !== ""
-      ? `<div class="pairing-explanation-primary"><h3 class="explanation-title">Why these wines work</h3>${primaryInner}</div>`
-      : "";
-
   const cardsHtml = rows
     .map((r, i) => {
       let lines = r.baseline ? baselineReasons() : buildReasoning(r.style);
@@ -428,13 +326,25 @@ function paintResults(root) {
         ? "50% baseline — add food rows to score"
         : `${r.score}% matrix match · ${selections.length} active row${selections.length === 1 ? "" : "s"}`;
 
-      const topClass = i === 0 ? " top-result" : "";
+      const topClass = i === 0 ? " top-result" : " secondary-result";
       const tier = getConfidenceTier(r.score);
-      const badge = `<div class="confidence-badge ${escapeHtml(tier.tone)}">${escapeHtml(tier.label)}</div>`;
+
+      let rankHtml;
+      if (i === 0 && !r.baseline) {
+        rankHtml = `<div class="match-rank match-rank--primary" aria-label="Best match rating">
+          <span class="match-rank-label">Best Match</span>
+          <span class="match-rank-score">${r.score}%</span>
+          <span class="match-rank-verdict">${escapeHtml(getMatchVerdict(tier.tone))}</span>
+        </div>`;
+      } else if (!r.baseline) {
+        rankHtml = `<div class="confidence-badge ${escapeHtml(tier.tone)}">${escapeHtml(tier.label)}</div>`;
+      } else {
+        rankHtml = "";
+      }
 
       return `
         <div class="result-card${topClass}">
-          ${badge}
+          ${rankHtml}
           <h3>${escapeHtml(title)}</h3>
           <p class="result-meta">${escapeHtml(meta)}</p>
           <ul class="result-reasoning">${reasons}</ul>
@@ -443,19 +353,13 @@ function paintResults(root) {
     })
     .join("");
 
-  container.innerHTML = `${primaryBlock}<div class="pairing-results-cards" aria-label="Top wine style matches">${cardsHtml}</div>`;
+  const resultsHeader = isHomePage()
+    ? `<div class="workflow-step workflow-step--results"><span class="workflow-step-label">Step 2</span><h2 class="workflow-step-title">Recommended Wines</h2></div>`
+    : "";
 
-  if (sommelierEl) {
-    if (rows.length > 0 && selections.length > 0 && !rows[0].baseline) {
-      sommelierEl.innerHTML = generateSommelierText(rows[0]);
-      sommelierEl.hidden = false;
-    } else {
-      sommelierEl.innerHTML = "";
-      sommelierEl.hidden = true;
-    }
-  }
+  container.innerHTML = `${resultsHeader}<div class="pairing-results-cards" aria-label="Top wine style matches">${cardsHtml}</div>`;
 
-  const feedbackEl = root.querySelector("#engine-feedback");
+  const feedbackEl = scope.querySelector("#engine-feedback");
   if (feedbackEl) {
     feedbackEl.innerHTML =
       selections.length > 0 && topRow
@@ -483,6 +387,28 @@ function paintResults(root) {
 }
 
 /**
+ * Scan-friendly “Why this works” — one intro line plus bullets (presentation only).
+ * @param {{ why: string }} content
+ * @param {{ style: string; baseline?: boolean } | undefined} topRow
+ * @param {number} selectionCount
+ */
+function formatWhyHtml(content, topRow, selectionCount) {
+  if (!topRow || selectionCount === 0 || topRow.baseline) {
+    return `<p>${escapeHtml(content.why)}</p>`;
+  }
+
+  const bullets = buildReasoning(topRow.style).slice(0, 5);
+  if (bullets.length === 0) {
+    return `<p>${escapeHtml(content.why)}</p>`;
+  }
+
+  const intro = `Your top match, ${formatStyleTitle(topRow.style)}, aligns with your current ingredient selections.`;
+  const list = bullets.map((b) => `<li>${escapeHtml(b)}</li>`).join("");
+
+  return `<p>${escapeHtml(intro)}</p><ul class="why-bullets">${list}</ul>`;
+}
+
+/**
  * Long-form explanations beside the engine (same for URL + page context).
  * @param {{ why: string; topWines: { label: string; score: number; baseline: boolean }[]; avoid: string[]; tips: string }} content
  */
@@ -490,37 +416,22 @@ function renderDynamicContent(content) {
   const root = document.getElementById("dynamic-content");
   if (!root) return;
 
+  const rows = getResults();
+  const topRow = rows[0];
+  const selectionCount = flattenSelections().length;
+  const whyHtml = formatWhyHtml(content, topRow, selectionCount);
+
   const structureInner =
     flattenSelections().length > 0 ? buildStructureBreakdownHtml(state) : "";
   const structureBlock = structureInner
     ? `<section class="structure-breakdown" aria-label="Structure breakdown">${structureInner}</section>`
     : "";
 
-  const avoidText =
-    content.avoid.length > 0
-      ? content.avoid.join(", ")
-      : "No wine style column hits zero on your selected rows — still watch weight and acidity so the bottle doesn’t overpower the plate.";
-
-  const topHtml = content.topWines
-    .map((w) => {
-      const meta = w.baseline
-        ? " — reference order until you add rows"
-        : ` — ${w.score}% matrix match`;
-      return `<li><strong>${escapeHtml(w.label)}</strong>${escapeHtml(meta)}</li>`;
-    })
-    .join("");
-
   root.innerHTML = `
     <section class="dynamic-section" aria-live="polite">
-      ${structureBlock}
       <h2>Why This Works</h2>
-      <p>${escapeHtml(content.why)}</p>
-
-      <h2>Top Wines</h2>
-      <ul class="dynamic-top-wines">${topHtml}</ul>
-
-      <h2>Wines to Avoid</h2>
-      <p>${escapeHtml(avoidText)}</p>
+      ${whyHtml}
+      ${structureBlock}
 
       <h2>Serving Tips</h2>
       <p>${escapeHtml(content.tips)}</p>
@@ -561,7 +472,7 @@ function renderActiveSelections(root) {
 
   if (pairs.length === 0) {
     container.innerHTML =
-      '<p class="active-selections-empty">Pick ingredients above — your choices appear here.</p>';
+      '<p class="active-selections-empty">Choose ingredients below — your recommended wines will appear here.</p>';
     return;
   }
 
@@ -611,18 +522,37 @@ function buildFilterMarkup() {
   ).join("");
 }
 
-const ENGINE_MARKUP = `
-  <h2 class="engine-title">Build Your Pairing</h2>
+function buildBuilderMarkup() {
+  if (isHomePage()) {
+    return `
+  <div class="workflow-step workflow-step--builder">
+    <span class="workflow-step-label">Step 1</span>
+    <h2 class="engine-title workflow-step-title">Choose Your Ingredients</h2>
+  </div>
   <div id="active-selections" class="active-selections" aria-label="Current selections"></div>
-  <p class="engine-lede engine-intro">Choose your ingredients — we calculate the best wine matches in real time.</p>
   <div class="filters">
     ${buildFilterMarkup()}
   </div>
-  <button type="button" class="reset-btn">Reset</button>
-  <div id="engine-feedback" class="engine-feedback" aria-live="polite"></div>
-  <div id="sommelier-output" class="sommelier-output" hidden></div>
   <div id="results" class="pairing-results" aria-live="polite"></div>
-  <button type="button" class="share-btn">Copy shareable link</button>
+`;
+  }
+
+  return `
+  <h2 class="engine-title">Build Your Pairing</h2>
+  <div id="active-selections" class="active-selections" aria-label="Current selections"></div>
+  <div class="filters">
+    ${buildFilterMarkup()}
+  </div>
+  <div id="results" class="pairing-results" aria-live="polite"></div>
+`;
+}
+
+const ENGINE_AUX_MARKUP = `
+  <div class="results-actions" role="group" aria-label="Result actions">
+    <button type="button" class="share-btn">Copy share link</button>
+    <button type="button" class="reset-btn">Reset</button>
+  </div>
+  <div id="engine-feedback" class="engine-feedback" aria-live="polite"></div>
 `;
 
 export function toggleSelection(category, value) {
@@ -641,7 +571,7 @@ export function setSelection(category, value) {
   toggleSelection(category, value);
 }
 
-function onRootClick(e) {
+function onEngineClick(e) {
   const removeChip = e.target.closest(
     ".active-chip[data-pe-remove-cat][data-pe-remove-val]"
   );
@@ -649,6 +579,12 @@ function onRootClick(e) {
     const cat = removeChip.getAttribute("data-pe-remove-cat");
     const val = removeChip.getAttribute("data-pe-remove-val");
     if (cat && val) toggleSelection(cat, val);
+    return;
+  }
+
+  if (e.target.closest(".share-btn")) {
+    e.preventDefault();
+    copyPairingLink();
     return;
   }
 
@@ -686,13 +622,18 @@ export function initPairingEngine() {
   if (!root) return;
 
   if (!root.querySelector(".filters")) {
-    root.innerHTML = ENGINE_MARKUP;
+    root.innerHTML = buildBuilderMarkup();
+    const entry = root.closest(".engine-entry");
+    if (entry && !entry.querySelector(".results-actions")) {
+      root.insertAdjacentHTML("afterend", ENGINE_AUX_MARKUP);
+    }
   }
 
   initializeState();
 
   root.classList.add("engine");
-  root.addEventListener("click", onRootClick);
+  const clickScope = root.closest(".engine-entry") || root.parentElement || root;
+  clickScope.addEventListener("click", onEngineClick);
   syncButtonState(root);
   renderResults(root);
 
