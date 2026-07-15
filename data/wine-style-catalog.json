@@ -1,0 +1,2263 @@
+{
+  "meta": {
+    "phase": "ONTOLOGY-01A",
+    "tier": 1,
+    "description": "Tier 1 launch wine styles — editorial catalog SSOT for style pages and knowledge graph edges."
+  },
+  "styles": [
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Is Cabernet Sauvignon always dry?",
+          "a": "Yes. It is a dry red with no perceptible sweetness in classic styles."
+        },
+        {
+          "q": "Cabernet Sauvignon vs Merlot?",
+          "a": "Cabernet is typically firmer, more tannic, and more structured; Merlot is softer and more approachable."
+        }
+      ],
+      "avoid_pairings": [
+        "Delicate white fish",
+        "Very spicy dishes without protein",
+        "Light salads"
+      ],
+      "related_styles": [
+        "merlot",
+        "syrah-shiraz",
+        "malbec"
+      ],
+      "substitutes": [
+        "merlot",
+        "malbec",
+        "syrah-shiraz"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-for-bbq-ribs",
+          "label": "BBQ Ribs"
+        },
+        {
+          "tier": "secondary",
+          "label": "Aged hard cheese"
+        },
+        {
+          "tier": "secondary",
+          "label": "Lamb chops"
+        }
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "cassis",
+        "graphite",
+        "cedar",
+        "firm",
+        "structured",
+        "powerful"
+      ],
+      "primary_grapes": [
+        "cabernet-sauvignon"
+      ],
+      "typical_regions": [
+        "Bordeaux (France)",
+        "Napa Valley (USA)",
+        "Chile",
+        "Coonawarra (Australia)"
+      ],
+      "aliases": [
+        "Cab",
+        "Cab Sauv"
+      ],
+      "pronunciation": "kab-er-nay so-vin-yon",
+      "serving_temperature": "60–65°F (15–18°C)",
+      "glassware": "Large Bordeaux glass",
+      "decanting": "Young, tannic examples benefit from 1–2 hours; older wines 30–60 minutes",
+      "aging": "Premium examples 10–25+ years; entry level 3–8 years",
+      "beginner_notes": "If you like bold reds with grip and dark fruit, start here. Pair with fatty protein — the wine needs something to soften against.",
+      "seo_title": "Cabernet Sauvignon — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "What is Cabernet Sauvignon? Full-bodied red wine style with high tannin, dark fruit, and classic steak pairings. Structure, descriptors, and substitutes.",
+      "id": "cabernet-sauvignon",
+      "slug": "cabernet-sauvignon",
+      "name": "Cabernet Sauvignon",
+      "summary": "Cabernet Sauvignon is a full-bodied red built on high tannin, dark fruit, and oak structure. It is the benchmark steak wine because tannin binds with protein and fat, softening the wine while balancing rich dishes. Classic examples show cassis, cedar, and graphite with firm, age-worthy structure.",
+      "classification": "Red Wine",
+      "structure": {
+        "body": 5,
+        "tannin": 5,
+        "acidity": 3,
+        "alcohol": 4,
+        "sweetness": 0,
+        "oak": 4
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Is Merlot lighter than Cabernet?",
+          "a": "Generally yes: softer tannin, rounder fruit, and often less angular structure."
+        }
+      ],
+      "avoid_pairings": [
+        "Very delicate seafood",
+        "High-heat spice without fat"
+      ],
+      "related_styles": [
+        "cabernet-sauvignon",
+        "pinot-noir",
+        "malbec"
+      ],
+      "substitutes": [
+        "cabernet-sauvignon",
+        "malbec"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Roast Chicken"
+        },
+        {
+          "tier": "secondary",
+          "label": "Mushroom dishes"
+        }
+      ],
+      "typical_descriptors": [
+        "plummy",
+        "blackberry",
+        "chocolate",
+        "smooth",
+        "supple",
+        "ripe"
+      ],
+      "primary_grapes": [
+        "merlot"
+      ],
+      "typical_regions": [
+        "Bordeaux Right Bank (France)",
+        "California",
+        "Chile",
+        "Italy"
+      ],
+      "aliases": [],
+      "pronunciation": "mer-loh",
+      "serving_temperature": "60–65°F (15–18°C)",
+      "glassware": "Standard red wine glass",
+      "decanting": "Optional for young oaky examples; 30 minutes",
+      "aging": "5–15 years for quality examples",
+      "beginner_notes": "A friendly entry to structured reds — softer than Cabernet but still substantial.",
+      "seo_title": "Merlot — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Merlot wine style explained: plummy fruit, softer tannin, regions, structure, and food pairings including roast meats.",
+      "id": "merlot",
+      "slug": "merlot",
+      "name": "Merlot",
+      "summary": "Merlot is a medium- to full-bodied red with softer tannin and plummy fruit. It bridges Cabernet's power and Pinot's elegance, pairing with roast meats, mushrooms, and medium-rich dishes. Right Bank Bordeaux and California versions show chocolate and supple texture.",
+      "classification": "Red Wine",
+      "structure": {
+        "body": 4,
+        "tannin": 3,
+        "acidity": 3,
+        "alcohol": 4,
+        "sweetness": 0,
+        "oak": 3
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Can Pinot Noir pair with fish?",
+          "a": "Yes — especially salmon and other fatty fish where tannin stays gentle."
+        }
+      ],
+      "avoid_pairings": [
+        "Very heavy red-meat stews (better with Cabernet)",
+        "Aggressive spice"
+      ],
+      "related_styles": [
+        "grenache",
+        "merlot"
+      ],
+      "substitutes": [
+        "grenache",
+        "merlot"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-salmon",
+          "label": "Salmon"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Roast Chicken"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-for-thanksgiving-turkey",
+          "label": "Turkey"
+        },
+        {
+          "tier": "secondary",
+          "label": "Duck"
+        }
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "raspberry",
+        "earthy",
+        "silky",
+        "elegant",
+        "bright"
+      ],
+      "primary_grapes": [
+        "pinot-noir"
+      ],
+      "typical_regions": [
+        "Burgundy (France)",
+        "Oregon",
+        "Marlborough (New Zealand)",
+        "Sonoma (USA)"
+      ],
+      "aliases": [],
+      "pronunciation": "pee-noh nwahr",
+      "serving_temperature": "55–60°F (13–15°C)",
+      "glassware": "Burgundy glass (wide bowl)",
+      "decanting": "Usually not required; older Burgundy 20–30 minutes",
+      "aging": "Top Burgundy 8–20+ years; New World 3–8 years",
+      "beginner_notes": "Think red fruit, earth, and elegance — one of the most food-friendly light reds.",
+      "seo_title": "Pinot Noir — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Pinot Noir wine style: light body, red fruit, Burgundy and Oregon classics, and pairings from salmon to roast chicken.",
+      "id": "pinot-noir",
+      "slug": "pinot-noir",
+      "name": "Pinot Noir",
+      "summary": "Pinot Noir is a light- to medium-bodied red with bright acidity, soft tannin, and red fruit. It excels with salmon, roast poultry, and earthy dishes where heavier reds would overpower the plate. Burgundy sets the benchmark for silky cherry and forest-floor complexity.",
+      "classification": "Red Wine",
+      "structure": {
+        "body": 2,
+        "tannin": 2,
+        "acidity": 4,
+        "alcohol": 3,
+        "sweetness": 0,
+        "oak": 2
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Is Syrah the same as Shiraz?",
+          "a": "Same grape, different naming convention. Shiraz usually signals a riper, New World style."
+        },
+        {
+          "q": "Why does Syrah taste peppery?",
+          "a": "Rotundone in the grape gives black-pepper aromatics, especially in cooler sites."
+        }
+      ],
+      "avoid_pairings": [
+        "Delicate white fish",
+        "Light vegetarian dishes without umami"
+      ],
+      "related_styles": [
+        "cabernet-sauvignon",
+        "malbec",
+        "grenache"
+      ],
+      "substitutes": [
+        "malbec",
+        "cabernet-sauvignon"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-for-bbq-ribs",
+          "label": "BBQ Ribs"
+        },
+        {
+          "tier": "secondary",
+          "label": "Grilled lamb"
+        },
+        {
+          "tier": "secondary",
+          "label": "Game meats"
+        }
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "black-pepper",
+        "smoky",
+        "spicy",
+        "leathery",
+        "ripe"
+      ],
+      "primary_grapes": [
+        "syrah"
+      ],
+      "typical_regions": [
+        "Northern Rhône (France)",
+        "Barossa Valley (Australia)",
+        "Washington State",
+        "South Africa"
+      ],
+      "aliases": [
+        "Syrah",
+        "Shiraz"
+      ],
+      "pronunciation": "see-rah / shih-raz",
+      "serving_temperature": "60–65°F (15–18°C)",
+      "glassware": "Standard red wine glass",
+      "decanting": "1 hour for young, tannic Syrah; 30 minutes for plush Shiraz",
+      "aging": "Rhône 8–20 years; Australian 5–15 years",
+      "beginner_notes": "Expect dark fruit and pepper — a bold red that loves the grill. Shiraz tends to be fruitier; Syrah often more savory.",
+      "seo_title": "Syrah / Shiraz — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Syrah and Shiraz wine style guide: pepper, dark fruit, Rhône vs Australian profiles, structure, and steak and BBQ pairings.",
+      "id": "syrah-shiraz",
+      "slug": "syrah-shiraz",
+      "name": "Syrah / Shiraz",
+      "summary": "Syrah (Shiraz in Australia) is a full-bodied red with dark fruit, pepper, and smoky or meaty notes. Northern Rhône Syrah is lean and peppery; Australian Shiraz is riper and more opulent. Both styles handle grilled meats, BBQ, and bold savory dishes.",
+      "classification": "Red Wine",
+      "structure": {
+        "body": 5,
+        "tannin": 4,
+        "acidity": 3,
+        "alcohol": 4,
+        "sweetness": 0,
+        "oak": 3
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Is Malbec good for beginners?",
+          "a": "Yes. Softer tannin and ripe fruit make it more approachable than many structured reds."
+        }
+      ],
+      "avoid_pairings": [
+        "Delicate seafood",
+        "Very light salads"
+      ],
+      "related_styles": [
+        "merlot",
+        "syrah-shiraz",
+        "cabernet-sauvignon"
+      ],
+      "substitutes": [
+        "merlot",
+        "syrah-shiraz"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-for-bbq-ribs",
+          "label": "BBQ Ribs"
+        },
+        {
+          "tier": "secondary",
+          "label": "Empanadas and savory pastries"
+        }
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "plummy",
+        "violet",
+        "chocolate",
+        "smooth",
+        "ripe"
+      ],
+      "primary_grapes": [
+        "malbec"
+      ],
+      "typical_regions": [
+        "Mendoza (Argentina)",
+        "Cahors (France)",
+        "Chile",
+        "California"
+      ],
+      "aliases": [],
+      "pronunciation": "mal-bek",
+      "serving_temperature": "60–65°F (15–18°C)",
+      "glassware": "Standard red wine glass",
+      "decanting": "Optional; 30 minutes for young oak-aged bottles",
+      "aging": "5–12 years for premium Mendoza",
+      "beginner_notes": "One of the easiest bold reds to enjoy — soft, fruity, and great with steak night.",
+      "seo_title": "Malbec — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Malbec wine style: Argentine dark fruit, violet, soft tannin, Mendoza regions, and classic grilled meat pairings.",
+      "id": "malbec",
+      "slug": "malbec",
+      "name": "Malbec",
+      "summary": "Malbec is a plush, full-bodied red with soft tannin, dark fruit, and violet notes. Argentina's Mendoza flagship delivers ripe blackberry and chocolate at approachable prices. It pairs easily with grilled meats and hearty fare without Cabernet's angular grip.",
+      "classification": "Red Wine",
+      "structure": {
+        "body": 4,
+        "tannin": 3,
+        "acidity": 3,
+        "alcohol": 4,
+        "sweetness": 0,
+        "oak": 3
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Is Grenache usually blended?",
+          "a": "Often yes in Châteauneuf-du-Pape and GSM blends, but single-varietal examples are increasingly common."
+        }
+      ],
+      "avoid_pairings": [
+        "Very delicate white fish",
+        "Minimalist raw preparations"
+      ],
+      "related_styles": [
+        "pinot-noir",
+        "syrah-shiraz",
+        "tempranillo"
+      ],
+      "substitutes": [
+        "pinot-noir",
+        "tempranillo"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Roast Chicken"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-for-bbq-ribs",
+          "label": "BBQ Ribs"
+        },
+        {
+          "tier": "secondary",
+          "label": "Tapas and cured meats"
+        }
+      ],
+      "typical_descriptors": [
+        "raspberry",
+        "strawberry",
+        "spicy",
+        "herbal",
+        "ripe",
+        "vibrant"
+      ],
+      "primary_grapes": [
+        "grenache"
+      ],
+      "typical_regions": [
+        "Southern Rhône (France)",
+        "Priorat (Spain)",
+        "Barossa Valley (Australia)",
+        "California"
+      ],
+      "aliases": [
+        "Garnacha"
+      ],
+      "pronunciation": "gruh-nosh",
+      "serving_temperature": "58–62°F (14–17°C)",
+      "glassware": "Standard red wine glass",
+      "decanting": "Optional for young, high-alcohol examples",
+      "aging": "3–10 years; best examples gain complexity",
+      "beginner_notes": "Look for red berry and spice — softer than Cabernet but still substantial with food.",
+      "seo_title": "Grenache — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Grenache (Garnacha) wine style: red fruit, spice, Rhône and Spanish regions, structure, and Mediterranean food pairings.",
+      "id": "grenache",
+      "slug": "grenache",
+      "name": "Grenache",
+      "summary": "Grenache is a medium- to full-bodied red with red fruit, spice, and often high alcohol but gentle tannin. It shines in Southern Rhône blends and solo in Priorat and Spain's Garnacha heartlands. A versatile match for roast meats, Mediterranean dishes, and charcuterie.",
+      "classification": "Red Wine",
+      "structure": {
+        "body": 4,
+        "tannin": 2,
+        "acidity": 3,
+        "alcohol": 5,
+        "sweetness": 0,
+        "oak": 2
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Chianti vs Brunello?",
+          "a": "Both are Sangiovese. Brunello uses a specific clone, more body, and longer aging requirements."
+        }
+      ],
+      "avoid_pairings": [
+        "Cream-heavy dishes without acidity bridge",
+        "Sweet desserts"
+      ],
+      "related_styles": [
+        "nebbiolo",
+        "tempranillo",
+        "pinot-noir"
+      ],
+      "substitutes": [
+        "tempranillo",
+        "pinot-noir"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Roast Chicken"
+        },
+        {
+          "tier": "secondary",
+          "label": "Tomato-based pasta"
+        },
+        {
+          "tier": "secondary",
+          "label": "Bistecca and grilled meats"
+        }
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "earthy",
+        "herbal",
+        "firm",
+        "tart",
+        "rustic"
+      ],
+      "primary_grapes": [
+        "sangiovese"
+      ],
+      "typical_regions": [
+        "Tuscany (Italy)",
+        "Emilia-Romagna",
+        "California",
+        "Australia"
+      ],
+      "aliases": [],
+      "pronunciation": "san-joh-vay-zeh",
+      "serving_temperature": "58–62°F (14–17°C)",
+      "glassware": "Medium-bowl red wine glass",
+      "decanting": "1–2 hours for young Brunello; Chianti often needs less",
+      "aging": "Chianti 3–8 years; Brunello 10–25+ years",
+      "beginner_notes": "High acidity makes Sangiovese a natural at the dinner table — especially Italian food.",
+      "seo_title": "Sangiovese — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Sangiovese wine style: Chianti and Brunello profiles, cherry and earth, high acidity, and Italian food pairings.",
+      "id": "sangiovese",
+      "slug": "sangiovese",
+      "name": "Sangiovese",
+      "summary": "Sangiovese is Italy's signature red grape, built on high acidity, firm tannin, and sour-cherry fruit. Chianti and Brunello di Montalcino define the style — savory, food-driven wines for tomato sauces, grilled meats, and hard cheese. Expect earthy, herbal complexity with age.",
+      "classification": "Red Wine",
+      "structure": {
+        "body": 3,
+        "tannin": 4,
+        "acidity": 4,
+        "alcohol": 4,
+        "sweetness": 0,
+        "oak": 2
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Why is Nebbiolo so tannic?",
+          "a": "Thick skins and traditional long maceration build structure meant to age and soften over years."
+        }
+      ],
+      "avoid_pairings": [
+        "Delicate seafood",
+        "Light salads",
+        "Spicy food without richness"
+      ],
+      "related_styles": [
+        "sangiovese",
+        "tempranillo",
+        "pinot-noir"
+      ],
+      "substitutes": [
+        "sangiovese",
+        "tempranillo"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        },
+        {
+          "tier": "secondary",
+          "label": "Braised short rib"
+        },
+        {
+          "tier": "secondary",
+          "label": "Truffle dishes"
+        }
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "tar",
+        "rose-petal",
+        "violet",
+        "firm",
+        "austere"
+      ],
+      "primary_grapes": [
+        "nebbiolo"
+      ],
+      "typical_regions": [
+        "Piedmont (Italy)",
+        "Lombardy (Valtellina)",
+        "California",
+        "Australia"
+      ],
+      "aliases": [],
+      "pronunciation": "neb-ee-oh-loh",
+      "serving_temperature": "60–65°F (15–18°C)",
+      "glassware": "Large Burgundy-style glass",
+      "decanting": "Essential for young Barolo — 2–4 hours; older wines 1 hour",
+      "aging": "Barolo 10–30+ years; Barbaresco 8–20 years",
+      "beginner_notes": "Pale color can surprise — focus on aroma and tannin. Give it air and fatty protein.",
+      "seo_title": "Nebbiolo — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Nebbiolo wine style: Barolo and Barbaresco, tar and rose, high tannin and acidity, decanting tips, and food pairings.",
+      "id": "nebbiolo",
+      "slug": "nebbiolo",
+      "name": "Nebbiolo",
+      "summary": "Nebbiolo is a high-acid, high-tannin Italian red with haunting tar, rose, and cherry aromas despite often pale color. Barolo and Barbaresco are its apex — wines that demand time, decanting, and rich, savory food. Not a casual sipper, but unforgettable with truffle, braised meats, and aged cheese.",
+      "classification": "Red Wine",
+      "structure": {
+        "body": 4,
+        "tannin": 5,
+        "acidity": 5,
+        "alcohol": 4,
+        "sweetness": 0,
+        "oak": 3
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "What does Reserva mean on Rioja?",
+          "a": "Minimum oak and bottle aging requirements — typically more developed, smoother styles."
+        }
+      ],
+      "avoid_pairings": [
+        "Very delicate raw seafood",
+        "Aggressive chili heat without fat"
+      ],
+      "related_styles": [
+        "sangiovese",
+        "grenache",
+        "merlot"
+      ],
+      "substitutes": [
+        "sangiovese",
+        "merlot"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Roast Chicken"
+        },
+        {
+          "tier": "secondary",
+          "label": "Chorizo and tapas"
+        }
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "leathery",
+        "vanilla",
+        "earthy",
+        "smooth",
+        "balanced"
+      ],
+      "primary_grapes": [
+        "tempranillo"
+      ],
+      "typical_regions": [
+        "Rioja (Spain)",
+        "Ribera del Duero (Spain)",
+        "Portugal (as Touriga Nacional blends)",
+        "California"
+      ],
+      "aliases": [],
+      "pronunciation": "tem-prah-nee-yoh",
+      "serving_temperature": "58–62°F (14–17°C)",
+      "glassware": "Standard red wine glass",
+      "decanting": "30–60 minutes for reserva and gran reserva",
+      "aging": "Crianza 2–5 years; Gran Reserva 15–25+ years",
+      "beginner_notes": "Rioja Crianza is an excellent entry — cherry, gentle oak, and easy with food.",
+      "seo_title": "Tempranillo — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Tempranillo wine style: Rioja and Ribera del Duero, cherry and oak, aging categories, and Spanish food pairings.",
+      "id": "tempranillo",
+      "slug": "tempranillo",
+      "name": "Tempranillo",
+      "summary": "Tempranillo is Spain's noble red — medium body, moderate tannin, and red cherry with leather and vanilla from oak. Rioja and Ribera del Duero span youthful joven to long-aged gran reserva styles. A versatile partner for lamb, tapas, and anything off the grill.",
+      "classification": "Red Wine",
+      "structure": {
+        "body": 3,
+        "tannin": 3,
+        "acidity": 3,
+        "alcohol": 4,
+        "sweetness": 0,
+        "oak": 4
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Is Zinfandel sweet?",
+          "a": "The wine is dry, but ripe fruit can taste jammy. White Zinfandel is a separate, sweet rosé style."
+        }
+      ],
+      "avoid_pairings": [
+        "Delicate poached fish",
+        "Light vinaigrette salads"
+      ],
+      "related_styles": [
+        "syrah-shiraz",
+        "malbec",
+        "cabernet-sauvignon"
+      ],
+      "substitutes": [
+        "syrah-shiraz",
+        "malbec"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-for-bbq-ribs",
+          "label": "BBQ Ribs"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        },
+        {
+          "tier": "secondary",
+          "label": "Burgers and sliders"
+        }
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "jammy",
+        "spicy",
+        "ripe",
+        "powerful",
+        "sweet-tobacco"
+      ],
+      "primary_grapes": [
+        "zinfandel"
+      ],
+      "typical_regions": [
+        "California (USA)",
+        "Lodi",
+        "Sonoma",
+        "Puglia (Italy, as Primitivo)"
+      ],
+      "aliases": [
+        "Zin",
+        "Primitivo"
+      ],
+      "pronunciation": "zin-fan-dell",
+      "serving_temperature": "60–65°F (15–18°C)",
+      "glassware": "Large red wine glass",
+      "decanting": "Optional; 30–60 minutes for young, high-alcohol bottles",
+      "aging": "Best drunk within 3–8 years; top old-vine 8–12 years",
+      "beginner_notes": "Expect big, ripe fruit — great for casual cookouts and bold flavors.",
+      "seo_title": "Zinfandel — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Zinfandel wine style: jammy California red, BBQ and burger pairings, alcohol and structure, and Primitivo connection.",
+      "id": "zinfandel",
+      "slug": "zinfandel",
+      "name": "Zinfandel",
+      "summary": "Zinfandel is a bold California classic — high alcohol, jammy black fruit, and spice from ripe grapes and often American oak. It ranges from hearty red table wine to plush old-vine expressions. Built for BBQ, burgers, and anything smoky or sauced.",
+      "classification": "Red Wine",
+      "structure": {
+        "body": 5,
+        "tannin": 3,
+        "acidity": 3,
+        "alcohol": 5,
+        "sweetness": 0,
+        "oak": 3
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Oaked vs unoaked Chardonnay?",
+          "a": "Oaked shows vanilla, butter, and weight; unoaked is leaner with brighter fruit and acidity."
+        }
+      ],
+      "avoid_pairings": [
+        "Very spicy food without dairy balance",
+        "Light citrus-only dishes with heavy oak versions"
+      ],
+      "related_styles": [
+        "viognier",
+        "chenin-blanc",
+        "pinot-grigio"
+      ],
+      "substitutes": [
+        "viognier",
+        "chenin-blanc"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Chicken"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-with-salmon",
+          "label": "Salmon"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-with-creamy-dishes",
+          "label": "Creamy Dishes"
+        },
+        {
+          "tier": "secondary",
+          "slug": "wine-for-thanksgiving-turkey",
+          "label": "Thanksgiving Turkey"
+        }
+      ],
+      "typical_descriptors": [
+        "buttery",
+        "toasty",
+        "vanilla",
+        "peach",
+        "quince",
+        "rich"
+      ],
+      "primary_grapes": [
+        "chardonnay"
+      ],
+      "typical_regions": [
+        "Burgundy (France)",
+        "California",
+        "Australia",
+        "Chile"
+      ],
+      "aliases": [],
+      "pronunciation": "shar-doh-nay",
+      "serving_temperature": "50–55°F (10–13°C)",
+      "glassware": "Standard white wine glass",
+      "decanting": "Rarely needed; allow 10 minutes in glass for premium white Burgundy",
+      "aging": "Entry 1–3 years; top Burgundy 5–15 years",
+      "beginner_notes": "Try both unoaked and oaked — they can feel like different wines. Oak = cream and toast; unoaked = crisp apple.",
+      "seo_title": "Chardonnay — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Chardonnay wine style: oaked vs unoaked, buttery vs crisp, Burgundy and California, and creamy dish pairings.",
+      "id": "chardonnay",
+      "slug": "chardonnay",
+      "name": "Chardonnay",
+      "summary": "Chardonnay spans lean unoaked styles to rich, buttery oaked examples from barrel fermentation and malolactic conversion. Match weight to the dish: oaked Chardonnay for cream sauces and salmon; unoaked for roast chicken and lighter fare. White Burgundy remains the global benchmark.",
+      "classification": "White Wine",
+      "structure": {
+        "body": 4,
+        "tannin": 0,
+        "acidity": 3,
+        "alcohol": 4,
+        "sweetness": 0,
+        "oak": 4
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Sancerre vs Marlborough?",
+          "a": "Sancerre is typically leaner and more mineral; Marlborough is fruit-forward with pronounced citrus and herb."
+        }
+      ],
+      "avoid_pairings": [
+        "Heavy cream sauces",
+        "Sweet desserts"
+      ],
+      "related_styles": [
+        "albarino",
+        "pinot-grigio",
+        "chenin-blanc"
+      ],
+      "substitutes": [
+        "albarino",
+        "pinot-grigio"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Chicken"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-with-salmon",
+          "label": "Salmon (lemon-based)"
+        },
+        {
+          "tier": "secondary",
+          "label": "Goat cheese and salads"
+        }
+      ],
+      "typical_descriptors": [
+        "grapefruit",
+        "gooseberry",
+        "grassy",
+        "zesty",
+        "crisp",
+        "minerality"
+      ],
+      "primary_grapes": [
+        "sauvignon-blanc"
+      ],
+      "typical_regions": [
+        "Loire (France)",
+        "Marlborough (New Zealand)",
+        "California",
+        "Chile"
+      ],
+      "aliases": [],
+      "pronunciation": "so-vee-nyon blahn",
+      "serving_temperature": "45–50°F (7–10°C)",
+      "glassware": "Standard white wine glass",
+      "decanting": "Not needed — serve well chilled",
+      "aging": "Drink within 1–3 years for freshness",
+      "beginner_notes": "Think citrus and green notes — one of the most refreshing food whites.",
+      "seo_title": "Sauvignon Blanc — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Sauvignon Blanc wine style: citrus, grass, Sancerre and Marlborough, high acidity, and goat cheese pairings.",
+      "id": "sauvignon-blanc",
+      "slug": "sauvignon-blanc",
+      "name": "Sauvignon Blanc",
+      "summary": "Sauvignon Blanc is a high-acid, aromatic white with citrus, herb, and mineral notes. Its lift cuts richness and pairs with goat cheese, salads, and lighter proteins. Sancerre is lean and stony; Marlborough is zesty and tropical-leaning.",
+      "classification": "White Wine",
+      "structure": {
+        "body": 2,
+        "tannin": 0,
+        "acidity": 5,
+        "alcohol": 3,
+        "sweetness": 0,
+        "oak": 0
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Is all Riesling sweet?",
+          "a": "No. Many are dry (Trocken); sweetness varies by region and style."
+        },
+        {
+          "q": "Why pair Riesling with spicy food?",
+          "a": "Off-dry fruit and acidity soften heat better than high-alcohol dry reds."
+        }
+      ],
+      "avoid_pairings": [
+        "Heavy red-meat stews",
+        "Very bitter greens without fat"
+      ],
+      "related_styles": [
+        "gewurztraminer",
+        "chenin-blanc",
+        "albarino"
+      ],
+      "substitutes": [
+        "gewurztraminer",
+        "chenin-blanc"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-for-thanksgiving-turkey",
+          "label": "Thanksgiving Turkey"
+        },
+        {
+          "tier": "secondary",
+          "label": "Spicy Asian cuisine"
+        },
+        {
+          "tier": "secondary",
+          "label": "Pork with fruit glazes"
+        }
+      ],
+      "typical_descriptors": [
+        "lime",
+        "peach",
+        "floral",
+        "minerality",
+        "crisp",
+        "honeyed"
+      ],
+      "primary_grapes": [
+        "riesling"
+      ],
+      "typical_regions": [
+        "Mosel (Germany)",
+        "Alsace (France)",
+        "Austria",
+        "Australia (Clare Valley)"
+      ],
+      "aliases": [],
+      "pronunciation": "rees-ling",
+      "serving_temperature": "45–50°F (7–10°C)",
+      "glassware": "Standard white wine glass",
+      "decanting": "Not required",
+      "aging": "Dry 3–10 years; sweet German 10–30+ years",
+      "beginner_notes": "Check the label for sweetness — German terms like Kabinett, Spätlese, and Trocken guide style.",
+      "seo_title": "Riesling — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Riesling wine style: dry to sweet, Mosel and Alsace, acidity, spice pairing logic, and Thanksgiving matches.",
+      "id": "riesling",
+      "slug": "riesling",
+      "name": "Riesling",
+      "summary": "Riesling ranges from bone-dry to lusciously sweet, always with piercing acidity and aromatic precision. Off-dry styles tame spice; dry styles lift fatty fish and aromatic Asian dishes. German Mosel and Alsace set the quality bar across the sweetness spectrum.",
+      "classification": "White Wine",
+      "structure": {
+        "body": 2,
+        "tannin": 0,
+        "acidity": 5,
+        "alcohol": 3,
+        "sweetness": 3,
+        "oak": 0
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Pinot Grigio vs Pinot Gris?",
+          "a": "Same grape. Grigio usually means lighter Italian style; Gris often signals richer Alsace character."
+        }
+      ],
+      "avoid_pairings": [
+        "Heavy cream sauces",
+        "Bold BBQ"
+      ],
+      "related_styles": [
+        "sauvignon-blanc",
+        "albarino",
+        "chenin-blanc"
+      ],
+      "substitutes": [
+        "sauvignon-blanc",
+        "albarino"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-salmon",
+          "label": "Salmon (light preparations)"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Chicken"
+        },
+        {
+          "tier": "secondary",
+          "label": "Shellfish and crudo"
+        }
+      ],
+      "typical_descriptors": [
+        "lemon",
+        "crisp",
+        "bright",
+        "light-bodied",
+        "clean",
+        "delicate"
+      ],
+      "primary_grapes": [
+        "pinot-grigio"
+      ],
+      "typical_regions": [
+        "Veneto and Friuli (Italy)",
+        "Alsace (France)",
+        "Oregon",
+        "California"
+      ],
+      "aliases": [
+        "Pinot Gris"
+      ],
+      "pronunciation": "pee-noh gree-joh",
+      "serving_temperature": "45–50°F (7–10°C)",
+      "glassware": "Standard white wine glass",
+      "decanting": "Serve chilled; no decanting",
+      "aging": "Drink young — 1–2 years",
+      "beginner_notes": "A safe, crowd-pleasing white — light, crisp, and low commitment.",
+      "seo_title": "Pinot Grigio — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Pinot Grigio wine style: crisp Italian white, light body, seafood and antipasti pairings, and Pinot Gris comparison.",
+      "id": "pinot-grigio",
+      "slug": "pinot-grigio",
+      "name": "Pinot Grigio",
+      "summary": "Pinot Grigio is a light, crisp white prized for easy drinking and food flexibility. Italian versions are lean and neutral; Alsace Pinot Gris is richer and spicier. Ideal for antipasti, seafood, and warm-weather sipping.",
+      "classification": "White Wine",
+      "structure": {
+        "body": 2,
+        "tannin": 0,
+        "acidity": 4,
+        "alcohol": 3,
+        "sweetness": 0,
+        "oak": 0
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "What is Vouvray?",
+          "a": "A Loire appellation for Chenin Blanc ranging from dry (sec) to sweet (moelleux)."
+        }
+      ],
+      "avoid_pairings": [
+        "Very tannic red-meat mains",
+        "Aggressive oak bombs with delicate food"
+      ],
+      "related_styles": [
+        "riesling",
+        "viognier",
+        "chardonnay"
+      ],
+      "substitutes": [
+        "riesling",
+        "chardonnay"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-creamy-dishes",
+          "label": "Creamy Dishes"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Chicken"
+        },
+        {
+          "tier": "secondary",
+          "label": "Thai and aromatic Asian dishes"
+        }
+      ],
+      "typical_descriptors": [
+        "quince",
+        "peach",
+        "honeyed",
+        "minerality",
+        "crisp",
+        "balanced"
+      ],
+      "primary_grapes": [
+        "chenin-blanc"
+      ],
+      "typical_regions": [
+        "Loire Valley (France)",
+        "South Africa",
+        "California",
+        "Australia"
+      ],
+      "aliases": [],
+      "pronunciation": "shuh-nan blahn",
+      "serving_temperature": "48–52°F (9–11°C)",
+      "glassware": "Standard white wine glass",
+      "decanting": "Optional for aged Savennières",
+      "aging": "Dry 5–15 years; sweet Loire 10–30+ years",
+      "beginner_notes": "Check whether the bottle is dry or off-dry — Chenin spans both beautifully.",
+      "seo_title": "Chenin Blanc — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Chenin Blanc wine style: Loire Vouvray, high acidity, dry to sweet range, and versatile food pairings.",
+      "id": "chenin-blanc",
+      "slug": "chenin-blanc",
+      "name": "Chenin Blanc",
+      "summary": "Chenin Blanc is a high-acid white capable of dry, off-dry, sparkling, and noble sweet styles. Loire Valley Vouvray and Savennières showcase honeyed fruit, wool, and chalky minerality. One of the most versatile food whites — from salads to spicy fare to creamy dishes.",
+      "classification": "White Wine",
+      "structure": {
+        "body": 3,
+        "tannin": 0,
+        "acidity": 5,
+        "alcohol": 3,
+        "sweetness": 2,
+        "oak": 1
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Is Viognier oaked?",
+          "a": "Sometimes lightly, but aroma and texture come mainly from the grape itself."
+        }
+      ],
+      "avoid_pairings": [
+        "Very light, acidic dishes that flatten the wine",
+        "Delicate raw oysters"
+      ],
+      "related_styles": [
+        "chardonnay",
+        "gewurztraminer",
+        "chenin-blanc"
+      ],
+      "substitutes": [
+        "chardonnay",
+        "gewurztraminer"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-creamy-dishes",
+          "label": "Creamy Dishes"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Chicken"
+        },
+        {
+          "tier": "secondary",
+          "label": "Curries with coconut or cream"
+        }
+      ],
+      "typical_descriptors": [
+        "apricot",
+        "peach",
+        "floral",
+        "perfumed",
+        "rich",
+        "oily"
+      ],
+      "primary_grapes": [
+        "viognier"
+      ],
+      "typical_regions": [
+        "Condrieu (France)",
+        "California",
+        "Australia",
+        "Languedoc (France)"
+      ],
+      "aliases": [],
+      "pronunciation": "vee-ohn-yay",
+      "serving_temperature": "50–55°F (10–13°C)",
+      "glassware": "White wine glass with slightly wider bowl",
+      "decanting": "Not required; warm slightly if over-chilled",
+      "aging": "Drink 1–5 years; top Condrieu 5–8 years",
+      "beginner_notes": "If you like aromatic, plush whites, Viognier is a step up in texture from Sauvignon Blanc.",
+      "seo_title": "Viognier — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Viognier wine style: apricot, floral, Condrieu, full-bodied white profile, and creamy dish pairings.",
+      "id": "viognier",
+      "slug": "viognier",
+      "name": "Viognier",
+      "summary": "Viognier is an aromatic, full-bodied white with apricot, floral, and sometimes subtle spice. Condrieu in the Northern Rhône is its spiritual home; California and Australia produce lush, perfumed examples. Pairs with rich poultry, cream sauces, and aromatic spices.",
+      "classification": "White Wine",
+      "structure": {
+        "body": 4,
+        "tannin": 0,
+        "acidity": 3,
+        "alcohol": 4,
+        "sweetness": 0,
+        "oak": 2
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Is Gewürztraminer sweet?",
+          "a": "It can be dry or off-dry. Alsace labels indicate sweetness level — look for 'sec' for dry."
+        }
+      ],
+      "avoid_pairings": [
+        "Delicate raw seafood",
+        "Very acidic vinaigrettes"
+      ],
+      "related_styles": [
+        "riesling",
+        "viognier",
+        "moscato"
+      ],
+      "substitutes": [
+        "riesling",
+        "viognier"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Spicy Thai and Indian cuisine"
+        },
+        {
+          "tier": "secondary",
+          "label": "Foie gras and rich terrines"
+        },
+        {
+          "tier": "secondary",
+          "label": "Aromatic cheese plates"
+        }
+      ],
+      "typical_descriptors": [
+        "lychee",
+        "rose-petal",
+        "ginger",
+        "spicy",
+        "floral",
+        "perfumed"
+      ],
+      "primary_grapes": [
+        "gewurztraminer"
+      ],
+      "typical_regions": [
+        "Alsace (France)",
+        "Alto Adige (Italy)",
+        "Washington State",
+        "New Zealand"
+      ],
+      "aliases": [
+        "Gewurztraminer"
+      ],
+      "pronunciation": "geh-vurt-strah-mee-ner",
+      "serving_temperature": "45–50°F (7–10°C)",
+      "glassware": "Aromatic white wine glass",
+      "decanting": "Not needed",
+      "aging": "Drink 1–5 years for primary aromatics",
+      "beginner_notes": "Love-it-or-hate-it aromatics — if you enjoy perfume and spice, start here.",
+      "seo_title": "Gewürztraminer — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Gewürztraminer wine style: lychee, rose, spice, Alsace aromatics, and spicy Asian food pairings.",
+      "id": "gewurztraminer",
+      "slug": "gewurztraminer",
+      "name": "Gewürztraminer",
+      "summary": "Gewürztraminer is intensely aromatic — lychee, rose, spice, and ginger leap from the glass. Alsace produces the benchmark dry to off-dry styles. A natural match for spicy Asian cuisine, aromatic cheeses, and dishes with ginger or five-spice.",
+      "classification": "White Wine",
+      "structure": {
+        "body": 3,
+        "tannin": 0,
+        "acidity": 3,
+        "alcohol": 4,
+        "sweetness": 2,
+        "oak": 0
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Albariño vs Alvarinho?",
+          "a": "Same grape. Alvarinho in Portugal often appears in Vinho Verde blends."
+        }
+      ],
+      "avoid_pairings": [
+        "Heavy red-sauce pasta",
+        "Rich cream reductions"
+      ],
+      "related_styles": [
+        "sauvignon-blanc",
+        "pinot-grigio",
+        "chenin-blanc"
+      ],
+      "substitutes": [
+        "sauvignon-blanc",
+        "pinot-grigio"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-salmon",
+          "label": "Salmon"
+        },
+        {
+          "tier": "secondary",
+          "label": "Shellfish and ceviche"
+        },
+        {
+          "tier": "secondary",
+          "label": "Grilled octopus"
+        }
+      ],
+      "typical_descriptors": [
+        "peach",
+        "citrus-zest",
+        "saline",
+        "crisp",
+        "bright",
+        "minerality"
+      ],
+      "primary_grapes": [
+        "albarino"
+      ],
+      "typical_regions": [
+        "Rías Baixas (Spain)",
+        "Vinho Verde (Portugal)",
+        "California",
+        "Oregon"
+      ],
+      "aliases": [
+        "Albarino"
+      ],
+      "pronunciation": "al-bah-ree-nyoh",
+      "serving_temperature": "45–50°F (7–10°C)",
+      "glassware": "Standard white wine glass",
+      "decanting": "Serve well chilled",
+      "aging": "Drink 1–3 years for freshness",
+      "beginner_notes": "Think seaside white — crisp, slightly salty, perfect with fish.",
+      "seo_title": "Albariño — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Albariño wine style: Rías Baixas, peach and saline notes, crisp acidity, and seafood pairings.",
+      "id": "albarino",
+      "slug": "albarino",
+      "name": "Albariño",
+      "summary": "Albariño is a crisp, saline Atlantic white from Spain's Rías Baixas — peach and citrus with bright acidity and subtle bitterness. It is built for seafood, tapas, and anything from the ocean. Increasingly planted in Portugal (Alvarinho) and the New World.",
+      "classification": "White Wine",
+      "structure": {
+        "body": 2,
+        "tannin": 0,
+        "acidity": 4,
+        "alcohol": 3,
+        "sweetness": 0,
+        "oak": 0
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Champagne vs sparkling wine?",
+          "a": "Champagne is sparkling wine from the Champagne region made by traditional method."
+        }
+      ],
+      "avoid_pairings": [
+        "Very sweet desserts (unless demi-sec or doux)",
+        "Heavy bitter greens alone"
+      ],
+      "related_styles": [
+        "prosecco",
+        "cava"
+      ],
+      "substitutes": [
+        "cava",
+        "prosecco"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-creamy-dishes",
+          "label": "Creamy Dishes"
+        },
+        {
+          "tier": "secondary",
+          "label": "Oysters and raw shellfish"
+        },
+        {
+          "tier": "secondary",
+          "label": "Fried chicken and tempura"
+        }
+      ],
+      "typical_descriptors": [
+        "brioche",
+        "toast",
+        "citrus-zest",
+        "crisp",
+        "elegant",
+        "refined"
+      ],
+      "primary_grapes": [
+        "chardonnay",
+        "pinot-noir",
+        "pinot-meunier"
+      ],
+      "typical_regions": [
+        "Champagne (France)"
+      ],
+      "aliases": [],
+      "pronunciation": "sham-payn",
+      "serving_temperature": "45–48°F (7–9°C)",
+      "glassware": "Flute or tulip glass",
+      "decanting": "Never decant — preserve bubbles",
+      "aging": "NV 2–5 years; prestige cuvée 10–25+ years",
+      "beginner_notes": "Brut is dry — start there. Blanc de Blancs is Chardonnay; Blanc de Noirs uses dark grapes.",
+      "seo_title": "Champagne — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Champagne wine style: traditional method, brioche and citrus, sweetness levels, and celebratory food pairings.",
+      "id": "champagne",
+      "slug": "champagne",
+      "name": "Champagne",
+      "summary": "Champagne is the benchmark traditional-method sparkling wine — fine bubbles, high acidity, and layers of toast, citrus, and brioche from extended lees aging. Only wines from Champagne, France may use the name. From apéritif to fried foods, its acidity and effervescence cleanse the palate.",
+      "classification": "Sparkling Wine",
+      "structure": {
+        "body": 3,
+        "tannin": 0,
+        "acidity": 5,
+        "alcohol": 4,
+        "sweetness": 1,
+        "oak": 2
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Prosecco vs Champagne?",
+          "a": "Prosecco uses tank fermentation for fruit-forward freshness; Champagne uses bottle fermentation for more complexity."
+        }
+      ],
+      "avoid_pairings": [
+        "Heavy steak mains",
+        "Rich chocolate dessert (unless extra dry with fruit)"
+      ],
+      "related_styles": [
+        "cava",
+        "champagne",
+        "moscato"
+      ],
+      "substitutes": [
+        "cava",
+        "champagne"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Chicken"
+        },
+        {
+          "tier": "secondary",
+          "label": "Prosciutto and melon"
+        },
+        {
+          "tier": "secondary",
+          "label": "Light seafood"
+        }
+      ],
+      "typical_descriptors": [
+        "peach",
+        "quince",
+        "white-flowers",
+        "fresh",
+        "bright",
+        "crisp"
+      ],
+      "primary_grapes": [
+        "glera"
+      ],
+      "typical_regions": [
+        "Veneto (Italy)",
+        "Friuli-Venezia Giulia"
+      ],
+      "aliases": [],
+      "pronunciation": "proh-seh-koh",
+      "serving_temperature": "42–45°F (6–7°C)",
+      "glassware": "Flute or tulip glass",
+      "decanting": "Serve very chilled",
+      "aging": "Drink within 1–2 years of release",
+      "beginner_notes": "Brut Prosecco is widely available and easy — think fresh fruit and bubbles.",
+      "seo_title": "Prosecco — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Prosecco wine style: Italian sparkling, Glera grape, fresh fruit, brunch pairings, and Prosecco vs Champagne.",
+      "id": "prosecco",
+      "slug": "prosecco",
+      "name": "Prosecco",
+      "summary": "Prosecco is Italy's Charmat-method sparkling wine — fresh, fruity, and approachable with gentle bubbles. Glera grape delivers pear, apple, and white flowers. Ideal for brunch, antipasti, and light fare where Champagne's complexity is not required.",
+      "classification": "Sparkling Wine",
+      "structure": {
+        "body": 2,
+        "tannin": 0,
+        "acidity": 4,
+        "alcohol": 3,
+        "sweetness": 2,
+        "oak": 0
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Is Cava made like Champagne?",
+          "a": "Yes — traditional bottle fermentation, though grape varieties and climate differ."
+        }
+      ],
+      "avoid_pairings": [
+        "Very sweet desserts",
+        "Aggressive chili without fat"
+      ],
+      "related_styles": [
+        "champagne",
+        "prosecco"
+      ],
+      "substitutes": [
+        "champagne",
+        "prosecco"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-creamy-dishes",
+          "label": "Creamy Dishes"
+        },
+        {
+          "tier": "secondary",
+          "label": "Jamón and olives"
+        },
+        {
+          "tier": "secondary",
+          "label": "Fried calamari"
+        }
+      ],
+      "typical_descriptors": [
+        "quince",
+        "nutty",
+        "citrus-zest",
+        "crisp",
+        "toasty",
+        "dry"
+      ],
+      "primary_grapes": [
+        "macabeo",
+        "xarel-lo",
+        "parellada"
+      ],
+      "typical_regions": [
+        "Penedès (Spain)",
+        "Other Spanish DOs"
+      ],
+      "aliases": [],
+      "pronunciation": "kah-vah",
+      "serving_temperature": "42–48°F (6–9°C)",
+      "glassware": "Flute or tulip glass",
+      "decanting": "Not needed",
+      "aging": "NV 1–3 years; Reserva and Gran Reserva 3–10 years",
+      "beginner_notes": "Great value bubbly — look for Reserva for more toast and depth.",
+      "seo_title": "Cava — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Cava wine style: Spanish traditional-method sparkling, tapas pairings, and value alternative to Champagne.",
+      "id": "cava",
+      "slug": "cava",
+      "name": "Cava",
+      "summary": "Cava is Spain's traditional-method sparkling wine, traditionally from Macabeo, Xarel·lo, and Parellada. It offers Champagne-like structure at friendlier prices — crisp acidity, green apple, and almond notes. Excellent with tapas, fried foods, and salty snacks.",
+      "classification": "Sparkling Wine",
+      "structure": {
+        "body": 3,
+        "tannin": 0,
+        "acidity": 4,
+        "alcohol": 3,
+        "sweetness": 1,
+        "oak": 1
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Is rosé sweet?",
+          "a": "Most quality rosé today is dry. Sweet rosé exists (e.g. White Zinfandel) but is a separate category."
+        }
+      ],
+      "avoid_pairings": [
+        "Heavy red-meat stews",
+        "Rich chocolate dessert"
+      ],
+      "related_styles": [
+        "dry-rose",
+        "provence-rose",
+        "pinot-noir"
+      ],
+      "substitutes": [
+        "dry-rose",
+        "provence-rose"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Chicken"
+        },
+        {
+          "tier": "secondary",
+          "label": "Salads and Niçoise"
+        },
+        {
+          "tier": "secondary",
+          "label": "Grilled vegetables"
+        }
+      ],
+      "typical_descriptors": [
+        "strawberry",
+        "peach",
+        "crisp",
+        "bright",
+        "dry",
+        "fresh"
+      ],
+      "primary_grapes": [
+        "grenache",
+        "syrah",
+        "pinot-noir",
+        "mourvedre"
+      ],
+      "typical_regions": [
+        "Provence (France)",
+        "Spain",
+        "California",
+        "Italy"
+      ],
+      "aliases": [
+        "Rosé Wine"
+      ],
+      "pronunciation": "roh-zay",
+      "serving_temperature": "45–50°F (7–10°C)",
+      "glassware": "Standard white wine glass",
+      "decanting": "Serve chilled; no decanting",
+      "aging": "Drink within 1–2 years for freshness",
+      "beginner_notes": "Most rosé is dry — color does not indicate sweetness. When in doubt, check the label.",
+      "seo_title": "Rosé — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Rosé wine style: dry pink wine, Provence to global styles, food flexibility, and serving tips.",
+      "id": "rose",
+      "slug": "rose",
+      "name": "Rosé",
+      "summary": "Rosé spans pale Provence-style wines to deeper, fruit-forward examples from short skin contact with red grapes. Generally dry with refreshing acidity, it bridges white and red — perfect for warm weather, picnics, and flexible food pairing from salads to grilled chicken.",
+      "classification": "Rosé Wine",
+      "structure": {
+        "body": 2,
+        "tannin": 1,
+        "acidity": 4,
+        "alcohol": 3,
+        "sweetness": 0,
+        "oak": 0
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Dry rosé vs regular rosé?",
+          "a": "Most modern rosé is dry; this style explicitly highlights zero-sweetness, crisp profiles."
+        }
+      ],
+      "avoid_pairings": [
+        "Sweet barbecue sauce without acid bridge",
+        "Heavy braised meats"
+      ],
+      "related_styles": [
+        "provence-rose",
+        "rose",
+        "sauvignon-blanc"
+      ],
+      "substitutes": [
+        "provence-rose",
+        "rose"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-salmon",
+          "label": "Salmon"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Chicken"
+        },
+        {
+          "tier": "secondary",
+          "label": "Goat cheese and olives"
+        }
+      ],
+      "typical_descriptors": [
+        "strawberry",
+        "citrus-zest",
+        "minerality",
+        "crisp",
+        "dry",
+        "elegant"
+      ],
+      "primary_grapes": [
+        "grenache",
+        "cinsault",
+        "syrah",
+        "pinot-noir"
+      ],
+      "typical_regions": [
+        "Provence (France)",
+        "Loire (France)",
+        "Spain",
+        "California"
+      ],
+      "aliases": [],
+      "pronunciation": "dry roh-zay",
+      "serving_temperature": "45–50°F (7–10°C)",
+      "glassware": "Standard white wine glass",
+      "decanting": "Serve well chilled",
+      "aging": "Drink within 1–2 years",
+      "beginner_notes": "If you want guaranteed dry, look for Provence or labels marked 'sec' or 'brut nature' style rosé.",
+      "seo_title": "Dry Rosé — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Dry rosé wine style: crisp, zero-sweetness pink wine, Provence character, and salmon and salad pairings.",
+      "id": "dry-rose",
+      "slug": "dry-rose",
+      "name": "Dry Rosé",
+      "summary": "Dry Rosé emphasizes crisp acidity and minimal residual sugar — the dominant style in Provence, Loire, and premium New World production. Expect red berry, citrus, and mineral notes without sweetness. Built for Mediterranean fare, seafood, and al fresco dining.",
+      "classification": "Rosé Wine",
+      "structure": {
+        "body": 2,
+        "tannin": 1,
+        "acidity": 4,
+        "alcohol": 3,
+        "sweetness": 0,
+        "oak": 0
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Why is Provence rosé so pale?",
+          "a": "Short skin contact and gentle pressing limit color extraction while preserving freshness."
+        }
+      ],
+      "avoid_pairings": [
+        "Heavy peppercorn steak",
+        "Sweet glazes without acid"
+      ],
+      "related_styles": [
+        "dry-rose",
+        "rose",
+        "sauvignon-blanc"
+      ],
+      "substitutes": [
+        "dry-rose",
+        "rose"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-salmon",
+          "label": "Salmon"
+        },
+        {
+          "tier": "secondary",
+          "label": "Bouillabaisse and seafood stews"
+        },
+        {
+          "tier": "secondary",
+          "label": "Ratatouille and grilled vegetables"
+        }
+      ],
+      "typical_descriptors": [
+        "strawberry",
+        "peach",
+        "herbal",
+        "saline",
+        "crisp",
+        "elegant"
+      ],
+      "primary_grapes": [
+        "grenache",
+        "cinsault",
+        "syrah"
+      ],
+      "typical_regions": [
+        "Provence (France)",
+        "Côtes de Provence",
+        "Bandol"
+      ],
+      "aliases": [],
+      "pronunciation": "proh-vahnss roh-zay",
+      "serving_temperature": "45–50°F (7–10°C)",
+      "glassware": "Standard white wine glass",
+      "decanting": "Serve chilled; best enjoyed young",
+      "aging": "Drink within 1–2 years",
+      "beginner_notes": "The pale onion-skin color is intentional — flavor is delicate, not weak.",
+      "seo_title": "Provence Rosé — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Provence rosé wine style: pale dry pink, Côtes de Provence, Mediterranean pairings, and serving guide.",
+      "id": "provence-rose",
+      "slug": "provence-rose",
+      "name": "Provence Rosé",
+      "summary": "Provence Rosé defines the pale, dry, elegant pink wine style — subtle strawberry, white peach, and herb notes with saline minerality. Made primarily from Grenache, Cinsault, and Syrah in southern France. The benchmark for poolside sipping and Mediterranean cuisine.",
+      "classification": "Rosé Wine",
+      "structure": {
+        "body": 2,
+        "tannin": 1,
+        "acidity": 4,
+        "alcohol": 3,
+        "sweetness": 0,
+        "oak": 0
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Ruby vs Tawny Port?",
+          "a": "Ruby is reductive and fruit-forward; Tawny oxidizes in barrel gaining nut, caramel, and dried fruit."
+        }
+      ],
+      "avoid_pairings": [
+        "Light salads",
+        "Delicate white fish",
+        "Dry savory mains without sweetness bridge"
+      ],
+      "related_styles": [
+        "madeira",
+        "sherry",
+        "moscato"
+      ],
+      "substitutes": [
+        "madeira",
+        "moscato"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Dark chocolate and berries"
+        },
+        {
+          "tier": "secondary",
+          "label": "Stilton and blue cheese"
+        },
+        {
+          "tier": "secondary",
+          "label": "Nut-based desserts"
+        }
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "chocolate",
+        "rich",
+        "sweet",
+        "ripe",
+        "spicy"
+      ],
+      "primary_grapes": [
+        "touriga-nacional",
+        "tinta-roriz",
+        "touriga-franca",
+        "tinta-barroca"
+      ],
+      "typical_regions": [
+        "Douro Valley (Portugal)"
+      ],
+      "aliases": [],
+      "pronunciation": "port",
+      "serving_temperature": "55–60°F (13–15°C) for Ruby; slightly cooler for White Port cocktails",
+      "glassware": "Small port or dessert wine glass",
+      "decanting": "Vintage Port benefits from decanting; Ruby and Tawny typically do not",
+      "aging": "Ruby 2–5 years; Vintage 20–40+ years; Tawny aged in wood per label",
+      "beginner_notes": "Start with Late Bottled Vintage (LBV) or 10-Year Tawny — easier than young Vintage Port.",
+      "seo_title": "Port — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Port wine style: fortified Douro sweet red, Ruby vs Tawny, dessert and cheese pairings, and serving tips.",
+      "id": "port",
+      "slug": "port",
+      "name": "Port",
+      "summary": "Port is a fortified sweet red (and some white) wine from Portugal's Douro Valley — grape spirit stops fermentation, preserving natural sugar. Ruby Port is fruity and youthful; Tawny shows nut and caramel from extended oxidative aging. Classic with blue cheese, chocolate, and after dinner.",
+      "classification": "Fortified Wine",
+      "structure": {
+        "body": 5,
+        "tannin": 4,
+        "acidity": 3,
+        "alcohol": 5,
+        "sweetness": 4,
+        "oak": 3
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Why doesn't Madeira spoil?",
+          "a": "Fortification plus deliberate heating create stable wines that tolerate oxygen and warmth."
+        }
+      ],
+      "avoid_pairings": [
+        "Very light citrus salads",
+        "Delicate raw seafood"
+      ],
+      "related_styles": [
+        "sherry",
+        "port",
+        "madeira"
+      ],
+      "substitutes": [
+        "sherry",
+        "port"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Mushroom soup and rich broths"
+        },
+        {
+          "tier": "secondary",
+          "label": "Caramel desserts"
+        },
+        {
+          "tier": "secondary",
+          "label": "Aged hard cheese"
+        }
+      ],
+      "typical_descriptors": [
+        "caramel",
+        "nutty",
+        "orange",
+        "toasty",
+        "rich",
+        "complex"
+      ],
+      "primary_grapes": [
+        "sercial",
+        "verdelho",
+        "boal",
+        "malvasia"
+      ],
+      "typical_regions": [
+        "Madeira (Portugal)"
+      ],
+      "aliases": [],
+      "pronunciation": "muh-deer-uh",
+      "serving_temperature": "55–65°F (13–18°C) depending on sweetness",
+      "glassware": "Small tulip or white wine glass",
+      "decanting": "Optional for older vintage; not required for most",
+      "aging": "Indefinitely once opened; bottles age decades",
+      "beginner_notes": "Try 10-Year Bual or Verdelho — sweet enough for dessert, acidic enough for savory.",
+      "seo_title": "Madeira — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Madeira wine style: fortified Atlantic wine, caramel and nut flavors, sweetness levels, and food pairings.",
+      "id": "madeira",
+      "slug": "madeira",
+      "name": "Madeira",
+      "summary": "Madeira is a fortified wine from the Portuguese island of Madeira, deliberately heated (estufagem or canteiro) for remarkable longevity and complex caramel, nut, and citrus peel flavors. Ranges from dry Sercial to sweet Malmsey. Virtually immortal once opened — excellent with soup, nuts, and desserts.",
+      "classification": "Fortified Wine",
+      "structure": {
+        "body": 4,
+        "tannin": 2,
+        "acidity": 4,
+        "alcohol": 5,
+        "sweetness": 3,
+        "oak": 4
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Is Sherry always sweet?",
+          "a": "No. Fino, Manzanilla, and most Amontillado are dry. PX and cream styles are sweet."
+        }
+      ],
+      "avoid_pairings": [
+        "Sweet desserts with dry Fino (unless PX)",
+        "Very spicy chili without fat"
+      ],
+      "related_styles": [
+        "madeira",
+        "port",
+        "cava"
+      ],
+      "substitutes": [
+        "madeira",
+        "cava"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Jamón and almonds"
+        },
+        {
+          "tier": "secondary",
+          "label": "Gazpacho and olives"
+        },
+        {
+          "tier": "secondary",
+          "label": "Aged Manchego"
+        }
+      ],
+      "typical_descriptors": [
+        "nutty",
+        "saline",
+        "toasty",
+        "dry",
+        "complex",
+        "refined"
+      ],
+      "primary_grapes": [
+        "palomino",
+        "pedro-ximenez",
+        "moscatel"
+      ],
+      "typical_regions": [
+        "Jerez (Spain)",
+        "Sanlúcar de Barrameda",
+        "El Puerto de Santa María"
+      ],
+      "aliases": [],
+      "pronunciation": "sher-ee",
+      "serving_temperature": "45–55°F (7–13°C) for Fino/Manzanilla; slightly warmer for Oloroso",
+      "glassware": "Copita or small white wine glass",
+      "decanting": "Not required; serve Fino fresh and chilled",
+      "aging": "Solera systems age average stock for years to decades",
+      "beginner_notes": "Start with Manzanilla — dry, briny, and great with seafood tapas.",
+      "seo_title": "Sherry — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Sherry wine style: Fino to Oloroso, Jerez fortification, dry vs sweet, and tapas pairings.",
+      "id": "sherry",
+      "slug": "sherry",
+      "name": "Sherry",
+      "summary": "Sherry is a fortified wine from Jerez, Spain — biologically aged Fino and Manzanilla are dry, pale, and saline; Oloroso is oxidative, nutty, and rich. Amontillado bridges both worlds. One of the most food-versatile wines, from almonds and olives to consommé and tapas.",
+      "classification": "Fortified Wine",
+      "structure": {
+        "body": 3,
+        "tannin": 1,
+        "acidity": 3,
+        "alcohol": 4,
+        "sweetness": 1,
+        "oak": 3
+      }
+    },
+    {
+      "entity_type": "wine_style",
+      "domain": "wine",
+      "blend": false,
+      "faq": [
+        {
+          "q": "Moscato vs Prosecco?",
+          "a": "Moscato is aromatic, sweet, and low-alcohol; Prosecco is typically dry and higher in alcohol."
+        }
+      ],
+      "avoid_pairings": [
+        "Dry savory steak mains",
+        "Heavy cream sauces",
+        "Aged hard cheese plates"
+      ],
+      "related_styles": [
+        "gewurztraminer",
+        "riesling",
+        "prosecco"
+      ],
+      "substitutes": [
+        "gewurztraminer",
+        "prosecco"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Fresh fruit and berry tarts"
+        },
+        {
+          "tier": "secondary",
+          "label": "Brunch pastries"
+        },
+        {
+          "tier": "secondary",
+          "label": "Light spicy Asian appetizers"
+        }
+      ],
+      "typical_descriptors": [
+        "peach",
+        "orange",
+        "floral",
+        "sweet",
+        "fresh",
+        "perfumed"
+      ],
+      "primary_grapes": [
+        "moscato"
+      ],
+      "typical_regions": [
+        "Piedmont (Italy)",
+        "Asti",
+        "California",
+        "Australia"
+      ],
+      "aliases": [
+        "Moscato d'Asti",
+        "Muscat"
+      ],
+      "pronunciation": "mohs-kah-toh",
+      "serving_temperature": "42–45°F (6–7°C)",
+      "glassware": "Small white wine or tulip glass",
+      "decanting": "Serve very chilled; drink young",
+      "aging": "Drink within 1–2 years",
+      "beginner_notes": "Low alcohol and gentle sweetness — approachable for newcomers to wine.",
+      "seo_title": "Moscato — Wine Style Guide, Profile & Food Pairing",
+      "seo_description": "Moscato wine style: sweet aromatic white, Moscato d'Asti, low alcohol, brunch and dessert pairings.",
+      "id": "moscato",
+      "slug": "moscato",
+      "name": "Moscato",
+      "summary": "Moscato is a lightly sweet, low-alcohol aromatic white — grapey, floral, and often lightly sparkling (frizzante). Moscato d'Asti from Piedmont is the classic: gentle bubbles, peach and orange blossom, and refreshing sweetness. Best with fruit desserts, brunch, and spicy-sweet contrasts.",
+      "classification": "Fortified & Sweet Wine",
+      "structure": {
+        "body": 2,
+        "tannin": 0,
+        "acidity": 3,
+        "alcohol": 2,
+        "sweetness": 4,
+        "oak": 0
+      }
+    }
+  ]
+}

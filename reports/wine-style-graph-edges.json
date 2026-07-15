@@ -1,0 +1,817 @@
+{
+  "generated_at": "2026-07-15T13:59:01.853Z",
+  "style_count": 28,
+  "total_edges": 356,
+  "descriptor_links": 169,
+  "grape_links": 9,
+  "pairing_links": 40,
+  "styles": [
+    {
+      "slug": "cabernet-sauvignon",
+      "name": "Cabernet Sauvignon",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "cassis",
+          "graphite",
+          "cedar",
+          "firm",
+          "structured",
+          "powerful"
+        ],
+        "grapes": [
+          "cabernet-sauvignon"
+        ],
+        "pairings": [
+          "wine-with-steak",
+          "wine-for-bbq-ribs"
+        ],
+        "related_styles": [
+          "merlot",
+          "syrah-shiraz",
+          "malbec"
+        ],
+        "substitutes": [
+          "merlot",
+          "malbec",
+          "syrah-shiraz"
+        ],
+        "edge_count": 16
+      }
+    },
+    {
+      "slug": "merlot",
+      "name": "Merlot",
+      "edges": {
+        "descriptors": [
+          "plummy",
+          "blackberry",
+          "chocolate",
+          "smooth",
+          "supple",
+          "ripe"
+        ],
+        "grapes": [],
+        "pairings": [
+          "wine-with-steak",
+          "wine-with-chicken"
+        ],
+        "related_styles": [
+          "cabernet-sauvignon",
+          "pinot-noir",
+          "malbec"
+        ],
+        "substitutes": [
+          "cabernet-sauvignon",
+          "malbec"
+        ],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "pinot-noir",
+      "name": "Pinot Noir",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "raspberry",
+          "earthy",
+          "silky",
+          "elegant",
+          "bright"
+        ],
+        "grapes": [
+          "pinot-noir"
+        ],
+        "pairings": [
+          "wine-with-salmon",
+          "wine-with-chicken",
+          "wine-for-thanksgiving-turkey"
+        ],
+        "related_styles": [
+          "grenache",
+          "merlot"
+        ],
+        "substitutes": [
+          "grenache",
+          "merlot"
+        ],
+        "edge_count": 14
+      }
+    },
+    {
+      "slug": "syrah-shiraz",
+      "name": "Syrah / Shiraz",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "black-pepper",
+          "smoky",
+          "spicy",
+          "leathery",
+          "ripe"
+        ],
+        "grapes": [],
+        "pairings": [
+          "wine-with-steak",
+          "wine-for-bbq-ribs"
+        ],
+        "related_styles": [
+          "cabernet-sauvignon",
+          "malbec",
+          "grenache"
+        ],
+        "substitutes": [
+          "malbec",
+          "cabernet-sauvignon"
+        ],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "malbec",
+      "name": "Malbec",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "plummy",
+          "violet",
+          "chocolate",
+          "smooth",
+          "ripe"
+        ],
+        "grapes": [],
+        "pairings": [
+          "wine-with-steak",
+          "wine-for-bbq-ribs"
+        ],
+        "related_styles": [
+          "merlot",
+          "syrah-shiraz",
+          "cabernet-sauvignon"
+        ],
+        "substitutes": [
+          "merlot",
+          "syrah-shiraz"
+        ],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "grenache",
+      "name": "Grenache",
+      "edges": {
+        "descriptors": [
+          "raspberry",
+          "strawberry",
+          "spicy",
+          "herbal",
+          "ripe",
+          "vibrant"
+        ],
+        "grapes": [],
+        "pairings": [
+          "wine-with-chicken",
+          "wine-for-bbq-ribs"
+        ],
+        "related_styles": [
+          "pinot-noir",
+          "syrah-shiraz",
+          "tempranillo"
+        ],
+        "substitutes": [
+          "pinot-noir",
+          "tempranillo"
+        ],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "sangiovese",
+      "name": "Sangiovese",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "earthy",
+          "herbal",
+          "firm",
+          "tart",
+          "rustic"
+        ],
+        "grapes": [],
+        "pairings": [
+          "wine-with-chicken"
+        ],
+        "related_styles": [
+          "nebbiolo",
+          "tempranillo",
+          "pinot-noir"
+        ],
+        "substitutes": [
+          "tempranillo",
+          "pinot-noir"
+        ],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "nebbiolo",
+      "name": "Nebbiolo",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "tar",
+          "rose-petal",
+          "violet",
+          "firm",
+          "austere"
+        ],
+        "grapes": [],
+        "pairings": [
+          "wine-with-steak"
+        ],
+        "related_styles": [
+          "sangiovese",
+          "tempranillo",
+          "pinot-noir"
+        ],
+        "substitutes": [
+          "sangiovese",
+          "tempranillo"
+        ],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "tempranillo",
+      "name": "Tempranillo",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "leathery",
+          "vanilla",
+          "earthy",
+          "smooth",
+          "balanced"
+        ],
+        "grapes": [],
+        "pairings": [
+          "wine-with-steak",
+          "wine-with-chicken"
+        ],
+        "related_styles": [
+          "sangiovese",
+          "grenache",
+          "merlot"
+        ],
+        "substitutes": [
+          "sangiovese",
+          "merlot"
+        ],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "zinfandel",
+      "name": "Zinfandel",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "jammy",
+          "spicy",
+          "ripe",
+          "powerful",
+          "sweet-tobacco"
+        ],
+        "grapes": [],
+        "pairings": [
+          "wine-for-bbq-ribs",
+          "wine-with-steak"
+        ],
+        "related_styles": [
+          "syrah-shiraz",
+          "malbec",
+          "cabernet-sauvignon"
+        ],
+        "substitutes": [
+          "syrah-shiraz",
+          "malbec"
+        ],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "chardonnay",
+      "name": "Chardonnay",
+      "edges": {
+        "descriptors": [
+          "buttery",
+          "toasty",
+          "vanilla",
+          "peach",
+          "quince",
+          "rich"
+        ],
+        "grapes": [
+          "chardonnay"
+        ],
+        "pairings": [
+          "wine-with-chicken",
+          "wine-with-salmon",
+          "wine-with-creamy-dishes",
+          "wine-for-thanksgiving-turkey"
+        ],
+        "related_styles": [
+          "viognier",
+          "chenin-blanc",
+          "pinot-grigio"
+        ],
+        "substitutes": [
+          "viognier",
+          "chenin-blanc"
+        ],
+        "edge_count": 16
+      }
+    },
+    {
+      "slug": "sauvignon-blanc",
+      "name": "Sauvignon Blanc",
+      "edges": {
+        "descriptors": [
+          "grapefruit",
+          "gooseberry",
+          "grassy",
+          "zesty",
+          "crisp",
+          "minerality"
+        ],
+        "grapes": [
+          "sauvignon-blanc"
+        ],
+        "pairings": [
+          "wine-with-chicken",
+          "wine-with-salmon"
+        ],
+        "related_styles": [
+          "albarino",
+          "pinot-grigio",
+          "chenin-blanc"
+        ],
+        "substitutes": [
+          "albarino",
+          "pinot-grigio"
+        ],
+        "edge_count": 14
+      }
+    },
+    {
+      "slug": "riesling",
+      "name": "Riesling",
+      "edges": {
+        "descriptors": [
+          "lime",
+          "peach",
+          "floral",
+          "minerality",
+          "crisp",
+          "honeyed"
+        ],
+        "grapes": [
+          "riesling"
+        ],
+        "pairings": [
+          "wine-for-thanksgiving-turkey"
+        ],
+        "related_styles": [
+          "gewurztraminer",
+          "chenin-blanc",
+          "albarino"
+        ],
+        "substitutes": [
+          "gewurztraminer",
+          "chenin-blanc"
+        ],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "pinot-grigio",
+      "name": "Pinot Grigio",
+      "edges": {
+        "descriptors": [
+          "lemon",
+          "crisp",
+          "bright",
+          "light-bodied",
+          "clean",
+          "delicate"
+        ],
+        "grapes": [],
+        "pairings": [
+          "wine-with-salmon",
+          "wine-with-chicken"
+        ],
+        "related_styles": [
+          "sauvignon-blanc",
+          "albarino",
+          "chenin-blanc"
+        ],
+        "substitutes": [
+          "sauvignon-blanc",
+          "albarino"
+        ],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "chenin-blanc",
+      "name": "Chenin Blanc",
+      "edges": {
+        "descriptors": [
+          "quince",
+          "peach",
+          "honeyed",
+          "minerality",
+          "crisp",
+          "balanced"
+        ],
+        "grapes": [],
+        "pairings": [
+          "wine-with-creamy-dishes",
+          "wine-with-chicken"
+        ],
+        "related_styles": [
+          "riesling",
+          "viognier",
+          "chardonnay"
+        ],
+        "substitutes": [
+          "riesling",
+          "chardonnay"
+        ],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "viognier",
+      "name": "Viognier",
+      "edges": {
+        "descriptors": [
+          "apricot",
+          "peach",
+          "floral",
+          "perfumed",
+          "rich",
+          "oily"
+        ],
+        "grapes": [],
+        "pairings": [
+          "wine-with-creamy-dishes",
+          "wine-with-chicken"
+        ],
+        "related_styles": [
+          "chardonnay",
+          "gewurztraminer",
+          "chenin-blanc"
+        ],
+        "substitutes": [
+          "chardonnay",
+          "gewurztraminer"
+        ],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "gewurztraminer",
+      "name": "Gewürztraminer",
+      "edges": {
+        "descriptors": [
+          "lychee",
+          "rose-petal",
+          "ginger",
+          "spicy",
+          "floral",
+          "perfumed"
+        ],
+        "grapes": [],
+        "pairings": [],
+        "related_styles": [
+          "riesling",
+          "viognier",
+          "moscato"
+        ],
+        "substitutes": [
+          "riesling",
+          "viognier"
+        ],
+        "edge_count": 11
+      }
+    },
+    {
+      "slug": "albarino",
+      "name": "Albariño",
+      "edges": {
+        "descriptors": [
+          "peach",
+          "citrus-zest",
+          "saline",
+          "crisp",
+          "bright",
+          "minerality"
+        ],
+        "grapes": [],
+        "pairings": [
+          "wine-with-salmon"
+        ],
+        "related_styles": [
+          "sauvignon-blanc",
+          "pinot-grigio",
+          "chenin-blanc"
+        ],
+        "substitutes": [
+          "sauvignon-blanc",
+          "pinot-grigio"
+        ],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "champagne",
+      "name": "Champagne",
+      "edges": {
+        "descriptors": [
+          "brioche",
+          "toast",
+          "citrus-zest",
+          "crisp",
+          "elegant",
+          "refined"
+        ],
+        "grapes": [
+          "chardonnay",
+          "pinot-noir"
+        ],
+        "pairings": [
+          "wine-with-creamy-dishes"
+        ],
+        "related_styles": [
+          "prosecco",
+          "cava"
+        ],
+        "substitutes": [
+          "cava",
+          "prosecco"
+        ],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "prosecco",
+      "name": "Prosecco",
+      "edges": {
+        "descriptors": [
+          "peach",
+          "quince",
+          "white-flowers",
+          "fresh",
+          "bright",
+          "crisp"
+        ],
+        "grapes": [],
+        "pairings": [
+          "wine-with-chicken"
+        ],
+        "related_styles": [
+          "cava",
+          "champagne",
+          "moscato"
+        ],
+        "substitutes": [
+          "cava",
+          "champagne"
+        ],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "cava",
+      "name": "Cava",
+      "edges": {
+        "descriptors": [
+          "quince",
+          "nutty",
+          "citrus-zest",
+          "crisp",
+          "toasty",
+          "dry"
+        ],
+        "grapes": [],
+        "pairings": [
+          "wine-with-creamy-dishes"
+        ],
+        "related_styles": [
+          "champagne",
+          "prosecco"
+        ],
+        "substitutes": [
+          "champagne",
+          "prosecco"
+        ],
+        "edge_count": 11
+      }
+    },
+    {
+      "slug": "rose",
+      "name": "Rosé",
+      "edges": {
+        "descriptors": [
+          "strawberry",
+          "peach",
+          "crisp",
+          "bright",
+          "dry",
+          "fresh"
+        ],
+        "grapes": [
+          "pinot-noir"
+        ],
+        "pairings": [
+          "wine-with-chicken"
+        ],
+        "related_styles": [
+          "dry-rose",
+          "provence-rose",
+          "pinot-noir"
+        ],
+        "substitutes": [
+          "dry-rose",
+          "provence-rose"
+        ],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "dry-rose",
+      "name": "Dry Rosé",
+      "edges": {
+        "descriptors": [
+          "strawberry",
+          "citrus-zest",
+          "minerality",
+          "crisp",
+          "dry",
+          "elegant"
+        ],
+        "grapes": [
+          "pinot-noir"
+        ],
+        "pairings": [
+          "wine-with-salmon",
+          "wine-with-chicken"
+        ],
+        "related_styles": [
+          "provence-rose",
+          "rose",
+          "sauvignon-blanc"
+        ],
+        "substitutes": [
+          "provence-rose",
+          "rose"
+        ],
+        "edge_count": 14
+      }
+    },
+    {
+      "slug": "provence-rose",
+      "name": "Provence Rosé",
+      "edges": {
+        "descriptors": [
+          "strawberry",
+          "peach",
+          "herbal",
+          "saline",
+          "crisp",
+          "elegant"
+        ],
+        "grapes": [],
+        "pairings": [
+          "wine-with-salmon"
+        ],
+        "related_styles": [
+          "dry-rose",
+          "rose",
+          "sauvignon-blanc"
+        ],
+        "substitutes": [
+          "dry-rose",
+          "rose"
+        ],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "port",
+      "name": "Port",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "chocolate",
+          "rich",
+          "sweet",
+          "ripe",
+          "spicy"
+        ],
+        "grapes": [],
+        "pairings": [],
+        "related_styles": [
+          "madeira",
+          "sherry",
+          "moscato"
+        ],
+        "substitutes": [
+          "madeira",
+          "moscato"
+        ],
+        "edge_count": 11
+      }
+    },
+    {
+      "slug": "madeira",
+      "name": "Madeira",
+      "edges": {
+        "descriptors": [
+          "caramel",
+          "nutty",
+          "orange",
+          "toasty",
+          "rich",
+          "complex"
+        ],
+        "grapes": [],
+        "pairings": [],
+        "related_styles": [
+          "sherry",
+          "port",
+          "madeira"
+        ],
+        "substitutes": [
+          "sherry",
+          "port"
+        ],
+        "edge_count": 11
+      }
+    },
+    {
+      "slug": "sherry",
+      "name": "Sherry",
+      "edges": {
+        "descriptors": [
+          "nutty",
+          "saline",
+          "toasty",
+          "dry",
+          "complex",
+          "refined"
+        ],
+        "grapes": [],
+        "pairings": [],
+        "related_styles": [
+          "madeira",
+          "port",
+          "cava"
+        ],
+        "substitutes": [
+          "madeira",
+          "cava"
+        ],
+        "edge_count": 11
+      }
+    },
+    {
+      "slug": "moscato",
+      "name": "Moscato",
+      "edges": {
+        "descriptors": [
+          "peach",
+          "orange",
+          "floral",
+          "sweet",
+          "fresh",
+          "perfumed"
+        ],
+        "grapes": [],
+        "pairings": [],
+        "related_styles": [
+          "gewurztraminer",
+          "riesling",
+          "prosecco"
+        ],
+        "substitutes": [
+          "gewurztraminer",
+          "prosecco"
+        ],
+        "edge_count": 11
+      }
+    }
+  ]
+}

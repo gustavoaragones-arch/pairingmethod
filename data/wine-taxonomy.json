@@ -1,26 +1,49 @@
 {
   "meta": {
-    "version": "1.1.0",
-    "phase": "KNOWLEDGE-04",
+    "version": "2.0.0",
+    "phase": "KNOWLEDGE-05",
     "source": "Wine Folly — Wine Descriptions & What They Mean",
     "updated": "2026-07-15",
     "node_count": 209,
     "category_count": 12,
     "scale_count": 3,
-    "supported_node_types": [
-      "category",
-      "group",
-      "descriptor",
-      "wine_fault",
-      "winemaking_technique",
-      "wine_region",
-      "grape_growing",
-      "serving_temperature",
-      "glassware",
-      "food_ingredient",
-      "cooking_technique"
-    ],
-    "graph_integration": "KNOWLEDGE-04 — taxonomy SSOT across grapes, pairings, engine presentation"
+    "graph_integration": "KNOWLEDGE-05 — entity-centric ontology; descriptor graph is one wine-domain subgraph",
+    "ontology": "entity_graph",
+    "entity_model": {
+      "structural_types": [
+        "category",
+        "group",
+        "descriptor",
+        "entity"
+      ],
+      "supported_entity_types": [
+        "descriptor_category",
+        "descriptor_group",
+        "descriptor",
+        "wine_style",
+        "grape_variety",
+        "wine_region",
+        "wine_fault",
+        "winemaking_technique",
+        "serving",
+        "glassware",
+        "food",
+        "protein",
+        "cooking_method",
+        "sauce",
+        "cheese",
+        "herb",
+        "spice",
+        "vegetable",
+        "fruit",
+        "mushroom"
+      ],
+      "domains": [
+        "wine",
+        "culinary",
+        "shared"
+      ]
+    }
   },
   "categories": [
     {
@@ -245,7 +268,9 @@
         "inorganic"
       ],
       "seo_title": "Inorganic in Wine — Inorganic Descriptor & Pairing Guide",
-      "seo_description": "What does Inorganic mean in wine? Non-fruit, mineral, and textural descriptors — the stoniness, petrol, and tactile qualities that define terroir and winemaking texture. Pairing Method glossary."
+      "seo_description": "What does Inorganic mean in wine? Non-fruit, mineral, and textural descriptors — the stoniness, petrol, and tactile qualities that define terroir and winemaking texture. Pairing Method glossary.",
+      "entity_type": "descriptor_category",
+      "domain": "wine"
     },
     "flower": {
       "id": "flower",
@@ -275,7 +300,9 @@
         "flower"
       ],
       "seo_title": "Flower in Wine — Flower Descriptor & Pairing Guide",
-      "seo_description": "What does Flower mean in wine? Floral aromatics from grape and fermentation — violet in Cabernet, citrus blossom in Riesling, and perfumed whites. Pairing Method glossary."
+      "seo_description": "What does Flower mean in wine? Floral aromatics from grape and fermentation — violet in Cabernet, citrus blossom in Riesling, and perfumed whites. Pairing Method glossary.",
+      "entity_type": "descriptor_category",
+      "domain": "wine"
     },
     "herb": {
       "id": "herb",
@@ -318,7 +345,9 @@
         "herb"
       ],
       "seo_title": "Herb in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Herb mean in wine? Herbaceous, green, and savory vegetal notes — from grassy Sauvignon Blanc to bell pepper pyrazines in Carmenère. Pairing Method glossary."
+      "seo_description": "What does Herb mean in wine? Herbaceous, green, and savory vegetal notes — from grassy Sauvignon Blanc to bell pepper pyrazines in Carmenère. Pairing Method glossary.",
+      "entity_type": "descriptor_category",
+      "domain": "wine"
     },
     "oak": {
       "id": "oak",
@@ -355,7 +384,9 @@
         "oak"
       ],
       "seo_title": "Oak in Wine — Oak Descriptor & Pairing Guide",
-      "seo_description": "What does Oak mean in wine? Barrel-derived flavors and textures — toast, vanilla, spice, and creamy malolactic notes from oak aging. Pairing Method glossary."
+      "seo_description": "What does Oak mean in wine? Barrel-derived flavors and textures — toast, vanilla, spice, and creamy malolactic notes from oak aging. Pairing Method glossary.",
+      "entity_type": "descriptor_category",
+      "domain": "wine"
     },
     "fruit": {
       "id": "fruit",
@@ -396,7 +427,9 @@
         "fruit"
       ],
       "seo_title": "Fruit in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Fruit mean in wine? Primary fruit character organized by ripeness, color family, and fruit type — the aromatic core of most wine descriptions. Pairing Method glossary."
+      "seo_description": "What does Fruit mean in wine? Primary fruit character organized by ripeness, color family, and fruit type — the aromatic core of most wine descriptions. Pairing Method glossary.",
+      "entity_type": "descriptor_category",
+      "domain": "wine"
     },
     "spice": {
       "id": "spice",
@@ -429,7 +462,9 @@
         "spice"
       ],
       "seo_title": "Spice in Wine — Spice Descriptor & Pairing Guide",
-      "seo_description": "What does Spice mean in wine? Spice and aromatic warmth — pepper, clove, cinnamon, and exotic notes from grape, oak, or fermentation. Pairing Method glossary."
+      "seo_description": "What does Spice mean in wine? Spice and aromatic warmth — pepper, clove, cinnamon, and exotic notes from grape, oak, or fermentation. Pairing Method glossary.",
+      "entity_type": "descriptor_category",
+      "domain": "wine"
     },
     "alcohol": {
       "id": "alcohol",
@@ -456,7 +491,9 @@
         "alcohol"
       ],
       "seo_title": "Alcohol in Wine — Alcohol Descriptor & Pairing Guide",
-      "seo_description": "What does Alcohol mean in wine? Alcohol perception — heat, ripeness, and viscosity cues including legs and jammy over-ripeness. Pairing Method glossary."
+      "seo_description": "What does Alcohol mean in wine? Alcohol perception — heat, ripeness, and viscosity cues including legs and jammy over-ripeness. Pairing Method glossary.",
+      "entity_type": "descriptor_category",
+      "domain": "wine"
     },
     "acidity": {
       "id": "acidity",
@@ -508,7 +545,9 @@
         "acidity"
       ],
       "seo_title": "Acidity in Wine — Acidity Descriptor & Pairing Guide",
-      "seo_description": "What does Acidity mean in wine? Acid structure on a continuum from flat to nervy — the backbone that drives food pairing more than any other single trait. Pairing Method glossary."
+      "seo_description": "What does Acidity mean in wine? Acid structure on a continuum from flat to nervy — the backbone that drives food pairing more than any other single trait. Pairing Method glossary.",
+      "entity_type": "descriptor_category",
+      "domain": "wine"
     },
     "tannin": {
       "id": "tannin",
@@ -560,7 +599,9 @@
         "tannin"
       ],
       "seo_title": "Tannin in Wine — Tannin Descriptor & Pairing Guide",
-      "seo_description": "What does Tannin mean in wine? Phenolic grip and texture — from silky Pinot to aggressive young Nebbiolo; tannin is the main red-wine pairing lever. Pairing Method glossary."
+      "seo_description": "What does Tannin mean in wine? Phenolic grip and texture — from silky Pinot to aggressive young Nebbiolo; tannin is the main red-wine pairing lever. Pairing Method glossary.",
+      "entity_type": "descriptor_category",
+      "domain": "wine"
     },
     "style": {
       "id": "style",
@@ -591,7 +632,9 @@
         "style"
       ],
       "seo_title": "Style in Wine — Style Descriptor & Pairing Guide",
-      "seo_description": "What does Style mean in wine? Overall personality — earthy vs. polished, rustic vs. refined, accessible vs. closed. Pairing Method glossary."
+      "seo_description": "What does Style mean in wine? Overall personality — earthy vs. polished, rustic vs. refined, accessible vs. closed. Pairing Method glossary.",
+      "entity_type": "descriptor_category",
+      "domain": "wine"
     },
     "yeast": {
       "id": "yeast",
@@ -620,7 +663,9 @@
         "yeast"
       ],
       "seo_title": "Yeast in Wine — Yeast Descriptor & Pairing Guide",
-      "seo_description": "What does Yeast mean in wine? Fermentation and lees character — biscuit in Champagne, creamy MLF whites, and sourdough-like autolytic notes. Pairing Method glossary."
+      "seo_description": "What does Yeast mean in wine? Fermentation and lees character — biscuit in Champagne, creamy MLF whites, and sourdough-like autolytic notes. Pairing Method glossary.",
+      "entity_type": "descriptor_category",
+      "domain": "wine"
     },
     "body": {
       "id": "body",
@@ -678,7 +723,9 @@
         "body"
       ],
       "seo_title": "Body in Wine — Body Descriptor & Pairing Guide",
-      "seo_description": "What does Body mean in wine? Perceived weight and density — the mouthfeel scale from thin to fat that must track dish heaviness. Pairing Method glossary."
+      "seo_description": "What does Body mean in wine? Perceived weight and density — the mouthfeel scale from thin to fat that must track dish heaviness. Pairing Method glossary.",
+      "entity_type": "descriptor_category",
+      "domain": "wine"
     },
     "minerality": {
       "id": "minerality",
@@ -706,7 +753,9 @@
         "mineral"
       ],
       "seo_title": "Minerality in Wine — Inorganic Descriptor & Pairing Guide",
-      "seo_description": "What does Minerality mean in wine? Umbrella for wet stone, flint, chalk, saline — non-fruit savory lift. Pairing Method glossary."
+      "seo_description": "What does Minerality mean in wine? Umbrella for wet stone, flint, chalk, saline — non-fruit savory lift. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "graphite": {
       "id": "graphite",
@@ -733,7 +782,9 @@
         "graphite"
       ],
       "seo_title": "Graphite in Wine — Inorganic Descriptor & Pairing Guide",
-      "seo_description": "What does Graphite mean in wine? Pencil lead, minerally reduction — classic in structured Cabernet. Pairing Method glossary."
+      "seo_description": "What does Graphite mean in wine? Pencil lead, minerally reduction — classic in structured Cabernet. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "petrichor": {
       "id": "petrichor",
@@ -760,7 +811,9 @@
         "wet earth"
       ],
       "seo_title": "Petrichor in Wine — Inorganic Descriptor & Pairing Guide",
-      "seo_description": "What does Petrichor mean in wine? The smell of rain on dry earth — sometimes evoked in mineral, earthy whites and cool-climate reds after rain-soaked terroir. Pairing Method glossary."
+      "seo_description": "What does Petrichor mean in wine? The smell of rain on dry earth — sometimes evoked in mineral, earthy whites and cool-climate reds after rain-soaked terroir. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "unctuous": {
       "id": "unctuous",
@@ -788,7 +841,9 @@
         "rich texture"
       ],
       "seo_title": "Unctuous in Wine — Inorganic Descriptor & Pairing Guide",
-      "seo_description": "What does Unctuous mean in wine? Rich, oily mouthfeel — often from lees, malolactic fermentation, or ripe extract in full whites. Pairing Method glossary."
+      "seo_description": "What does Unctuous mean in wine? Rich, oily mouthfeel — often from lees, malolactic fermentation, or ripe extract in full whites. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "oily": {
       "id": "oily",
@@ -814,7 +869,9 @@
         "oily texture"
       ],
       "seo_title": "Oily in Wine — Inorganic Descriptor & Pairing Guide",
-      "seo_description": "What does Oily mean in wine? A slick, viscous texture on the mid-palate — common in lees-aged or malolactic whites. Pairing Method glossary."
+      "seo_description": "What does Oily mean in wine? A slick, viscous texture on the mid-palate — common in lees-aged or malolactic whites. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "petroleum": {
       "id": "petroleum",
@@ -842,7 +899,9 @@
         "diesel note"
       ],
       "seo_title": "Petroleum in Wine — Inorganic Descriptor & Pairing Guide",
-      "seo_description": "What does Petroleum mean in wine? Kerosene or petrol note from TDN in aged Riesling — prized in mature German and Australian examples. Pairing Method glossary."
+      "seo_description": "What does Petroleum mean in wine? Kerosene or petrol note from TDN in aged Riesling — prized in mature German and Australian examples. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "plastic": {
       "id": "plastic",
@@ -869,7 +928,9 @@
         "rubber band"
       ],
       "seo_title": "Plastic in Wine — Inorganic Descriptor & Pairing Guide",
-      "seo_description": "What does Plastic mean in wine? Synthetic, vinyl-like aroma — can indicate reduction or certain high-acid white winemaking; usually negative at high intensity. Pairing Method glossary."
+      "seo_description": "What does Plastic mean in wine? Synthetic, vinyl-like aroma — can indicate reduction or certain high-acid white winemaking; usually negative at high intensity. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "tar": {
       "id": "tar",
@@ -897,7 +958,9 @@
         "resinous"
       ],
       "seo_title": "Tar in Wine — Inorganic Descriptor & Pairing Guide",
-      "seo_description": "What does Tar mean in wine? Burnt, resinous, road-tar aroma in dense, earthy full-bodied reds — classic in Northern Rhône Syrah. Pairing Method glossary."
+      "seo_description": "What does Tar mean in wine? Burnt, resinous, road-tar aroma in dense, earthy full-bodied reds — classic in Northern Rhône Syrah. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "rubber": {
       "id": "rubber",
@@ -924,7 +987,9 @@
         "eraser"
       ],
       "seo_title": "Rubber in Wine — Inorganic Descriptor & Pairing Guide",
-      "seo_description": "What does Rubber mean in wine? Resinous rubber or tire note — can be reduction, brett, or terroir depending on context and intensity. Pairing Method glossary."
+      "seo_description": "What does Rubber mean in wine? Resinous rubber or tire note — can be reduction, brett, or terroir depending on context and intensity. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "diesel": {
       "id": "diesel",
@@ -950,7 +1015,9 @@
         "fuel"
       ],
       "seo_title": "Diesel in Wine — Inorganic Descriptor & Pairing Guide",
-      "seo_description": "What does Diesel mean in wine? Strong gasoline or diesel fuel aroma — closely related to petroleum/petrol in aged aromatic whites. Pairing Method glossary."
+      "seo_description": "What does Diesel mean in wine? Strong gasoline or diesel fuel aroma — closely related to petroleum/petrol in aged aromatic whites. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "white-flowers": {
       "id": "white-flowers",
@@ -979,7 +1046,9 @@
         "floral white"
       ],
       "seo_title": "White Flowers in Wine — Flower Descriptor & Pairing Guide",
-      "seo_description": "What does White Flowers mean in wine? Delicate floral bouquet — lily, apple blossom, gardenia — typical of aromatic whites. Pairing Method glossary."
+      "seo_description": "What does White Flowers mean in wine? Delicate floral bouquet — lily, apple blossom, gardenia — typical of aromatic whites. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "violet": {
       "id": "violet",
@@ -1004,7 +1073,9 @@
         "violet"
       ],
       "seo_title": "Violet in Wine — Flower Descriptor & Pairing Guide",
-      "seo_description": "What does Violet mean in wine? Perfumed purple flower — classic in Syrah and some Malbec. Pairing Method glossary."
+      "seo_description": "What does Violet mean in wine? Perfumed purple flower — classic in Syrah and some Malbec. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "perfumed": {
       "id": "perfumed",
@@ -1031,7 +1102,9 @@
         "perfumed"
       ],
       "seo_title": "Perfumed in Wine — Flower Descriptor & Pairing Guide",
-      "seo_description": "What does Perfumed mean in wine? High aromatic lift — floral + spice combined. Pairing Method glossary."
+      "seo_description": "What does Perfumed mean in wine? High aromatic lift — floral + spice combined. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "lavender": {
       "id": "lavender",
@@ -1058,7 +1131,9 @@
         "herbes de provence"
       ],
       "seo_title": "Lavender in Wine — Flower Descriptor & Pairing Guide",
-      "seo_description": "What does Lavender mean in wine? Resinous floral herb note — often in fine Rhône and Provence-influenced reds. Pairing Method glossary."
+      "seo_description": "What does Lavender mean in wine? Resinous floral herb note — often in fine Rhône and Provence-influenced reds. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "rose": {
       "id": "rose",
@@ -1086,7 +1161,9 @@
         "rose petals"
       ],
       "seo_title": "Rose in Wine — Flower Descriptor & Pairing Guide",
-      "seo_description": "What does Rose mean in wine? Fresh rose-petal aroma — positive in light reds, rosés, and some aromatic whites. Pairing Method glossary."
+      "seo_description": "What does Rose mean in wine? Fresh rose-petal aroma — positive in light reds, rosés, and some aromatic whites. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "citrus-blossom": {
       "id": "citrus-blossom",
@@ -1115,7 +1192,9 @@
         "lemon blossom"
       ],
       "seo_title": "Citrus Blossom in Wine — Flower Descriptor & Pairing Guide",
-      "seo_description": "What does Citrus Blossom mean in wine? Orange or lemon blossom aroma — common in Riesling, Chenin, and white Rhône varieties. Pairing Method glossary."
+      "seo_description": "What does Citrus Blossom mean in wine? Orange or lemon blossom aroma — common in Riesling, Chenin, and white Rhône varieties. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "geranium": {
       "id": "geranium",
@@ -1139,7 +1218,9 @@
         "geranium"
       ],
       "seo_title": "Geranium in Wine — Flower Descriptor & Pairing Guide",
-      "seo_description": "What does Geranium mean in wine? Leafy floral note — can become a fault at high levels from improper winemaking or stressed fruit. Pairing Method glossary."
+      "seo_description": "What does Geranium mean in wine? Leafy floral note — can become a fault at high levels from improper winemaking or stressed fruit. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "stemmy": {
       "id": "stemmy",
@@ -1165,7 +1246,9 @@
         "stems"
       ],
       "seo_title": "Stemmy in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Stemmy mean in wine? Green, bitter stem character from whole-cluster or underripe extraction — often negative. Pairing Method glossary."
+      "seo_description": "What does Stemmy mean in wine? Green, bitter stem character from whole-cluster or underripe extraction — often negative. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "stalky": {
       "id": "stalky",
@@ -1190,7 +1273,9 @@
         "stalks"
       ],
       "seo_title": "Stalky in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Stalky mean in wine? Woody, herbaceous stalk bitterness — related to stemmy and green extraction. Pairing Method glossary."
+      "seo_description": "What does Stalky mean in wine? Woody, herbaceous stalk bitterness — related to stemmy and green extraction. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "vegetal": {
       "id": "vegetal",
@@ -1217,7 +1302,9 @@
         "vegetable"
       ],
       "seo_title": "Vegetal in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Vegetal mean in wine? Cooked or raw vegetable note — asparagus, pea, or canned veg; intensity determines whether it helps or hurts. Pairing Method glossary."
+      "seo_description": "What does Vegetal mean in wine? Cooked or raw vegetable note — asparagus, pea, or canned veg; intensity determines whether it helps or hurts. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "cats-pee": {
       "id": "cats-pee",
@@ -1244,7 +1331,9 @@
         "cat pee"
       ],
       "seo_title": "Cat's Pee in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Cat's Pee mean in wine? Pungent, ammonia-adjacent aromatics in cool-climate Sauvignon Blanc — polarizing but classic in New Zealand SB. Pairing Method glossary."
+      "seo_description": "What does Cat's Pee mean in wine? Pungent, ammonia-adjacent aromatics in cool-climate Sauvignon Blanc — polarizing but classic in New Zealand SB. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "asparagus": {
       "id": "asparagus",
@@ -1269,7 +1358,9 @@
         "asparagus"
       ],
       "seo_title": "Asparagus in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Asparagus mean in wine? Green, slightly sulfurous vegetal note — can appear in unoaked whites and some reds. Pairing Method glossary."
+      "seo_description": "What does Asparagus mean in wine? Green, slightly sulfurous vegetal note — can appear in unoaked whites and some reds. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "green": {
       "id": "green",
@@ -1296,7 +1387,9 @@
         "green"
       ],
       "seo_title": "Green in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Green mean in wine? Underripe or vegetal edge — pyrazines or stemmy notes. Pairing Method glossary."
+      "seo_description": "What does Green mean in wine? Underripe or vegetal edge — pyrazines or stemmy notes. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "grassy": {
       "id": "grassy",
@@ -1324,7 +1417,9 @@
         "grassy"
       ],
       "seo_title": "Grassy in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Grassy mean in wine? Fresh-cut grass, herbaceous — often pyrazines or cool-climate Sauvignon. Pairing Method glossary."
+      "seo_description": "What does Grassy mean in wine? Fresh-cut grass, herbaceous — often pyrazines or cool-climate Sauvignon. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "sage": {
       "id": "sage",
@@ -1351,7 +1446,9 @@
         "herbal"
       ],
       "seo_title": "Sage in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Sage mean in wine? Savory herbal note — Mediterranean garrigue character in Rhône and Italian reds. Pairing Method glossary."
+      "seo_description": "What does Sage mean in wine? Savory herbal note — Mediterranean garrigue character in Rhône and Italian reds. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "eucalyptus": {
       "id": "eucalyptus",
@@ -1376,7 +1473,9 @@
         "eucalyptus"
       ],
       "seo_title": "Eucalyptus in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Eucalyptus mean in wine? Mentholated bush note — Australian terroir marker in some Shiraz. Pairing Method glossary."
+      "seo_description": "What does Eucalyptus mean in wine? Mentholated bush note — Australian terroir marker in some Shiraz. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "jalapeno": {
       "id": "jalapeno",
@@ -1403,7 +1502,9 @@
         "green pepper"
       ],
       "seo_title": "Jalapeño in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Jalapeño mean in wine? Fresh green chili aroma — classic pyrazine note in Sauvignon Blanc and some Carmenère. Pairing Method glossary."
+      "seo_description": "What does Jalapeño mean in wine? Fresh green chili aroma — classic pyrazine note in Sauvignon Blanc and some Carmenère. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "dill": {
       "id": "dill",
@@ -1428,7 +1529,9 @@
         "dill"
       ],
       "seo_title": "Dill in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Dill mean in wine? Herbal dill note — sometimes associated with American oak influence. Pairing Method glossary."
+      "seo_description": "What does Dill mean in wine? Herbal dill note — sometimes associated with American oak influence. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "bell-pepper": {
       "id": "bell-pepper",
@@ -1455,7 +1558,9 @@
         "capsicum"
       ],
       "seo_title": "Bell pepper in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Bell pepper mean in wine? Pyrazine note — leafy capsicum. Pairing Method glossary."
+      "seo_description": "What does Bell pepper mean in wine? Pyrazine note — leafy capsicum. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "gooseberry": {
       "id": "gooseberry",
@@ -1479,7 +1584,9 @@
         "gooseberry"
       ],
       "seo_title": "Gooseberry in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Gooseberry mean in wine? Tart green berry — hallmark of Sauvignon Blanc, especially Loire and New Zealand. Pairing Method glossary."
+      "seo_description": "What does Gooseberry mean in wine? Tart green berry — hallmark of Sauvignon Blanc, especially Loire and New Zealand. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "quince": {
       "id": "quince",
@@ -1504,7 +1611,9 @@
         "quince"
       ],
       "seo_title": "Quince in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Quince mean in wine? Tart, fuzzy golden fruit — astringent and aromatic; common in Chenin and aromatic whites. Pairing Method glossary."
+      "seo_description": "What does Quince mean in wine? Tart, fuzzy golden fruit — astringent and aromatic; common in Chenin and aromatic whites. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "smoky": {
       "id": "smoky",
@@ -1533,7 +1642,9 @@
         "smoke"
       ],
       "seo_title": "Smoky in Wine — Oak Descriptor & Pairing Guide",
-      "seo_description": "What does Smoky mean in wine? Char, campfire, or smoked-meat aroma — oak toast or reduction. Pairing Method glossary."
+      "seo_description": "What does Smoky mean in wine? Char, campfire, or smoked-meat aroma — oak toast or reduction. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "charcoal": {
       "id": "charcoal",
@@ -1560,7 +1671,9 @@
         "ashy"
       ],
       "seo_title": "Charcoal in Wine — Oak Descriptor & Pairing Guide",
-      "seo_description": "What does Charcoal mean in wine? Burnt, ashy oak or smoke note from heavy toast barrels or charred wood influence. Pairing Method glossary."
+      "seo_description": "What does Charcoal mean in wine? Burnt, ashy oak or smoke note from heavy toast barrels or charred wood influence. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "sweet-tobacco": {
       "id": "sweet-tobacco",
@@ -1588,7 +1701,9 @@
         "tobacco leaf"
       ],
       "seo_title": "Sweet Tobacco in Wine — Oak Descriptor & Pairing Guide",
-      "seo_description": "What does Sweet Tobacco mean in wine? Sweet resinous tobacco leaf — developed with age in fine reds and some oaked whites. Pairing Method glossary."
+      "seo_description": "What does Sweet Tobacco mean in wine? Sweet resinous tobacco leaf — developed with age in fine reds and some oaked whites. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "toasty": {
       "id": "toasty",
@@ -1616,7 +1731,9 @@
         "toast"
       ],
       "seo_title": "Toasty in Wine — Oak Descriptor & Pairing Guide",
-      "seo_description": "What does Toasty mean in wine? Bread crust, brioche, barrel toast — lees or oak. Pairing Method glossary."
+      "seo_description": "What does Toasty mean in wine? Bread crust, brioche, barrel toast — lees or oak. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "nutty": {
       "id": "nutty",
@@ -1644,7 +1761,9 @@
         "almond"
       ],
       "seo_title": "Nutty in Wine — Oak Descriptor & Pairing Guide",
-      "seo_description": "What does Nutty mean in wine? Almond, hazelnut, or walnut character from oxidation, age, or certain oak regimes. Pairing Method glossary."
+      "seo_description": "What does Nutty mean in wine? Almond, hazelnut, or walnut character from oxidation, age, or certain oak regimes. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "coconut": {
       "id": "coconut",
@@ -1670,7 +1789,9 @@
         "dill oak"
       ],
       "seo_title": "Coconut in Wine — Oak Descriptor & Pairing Guide",
-      "seo_description": "What does Coconut mean in wine? Coconut or dill-like lactone from American oak — classic in many California Chardonnays and Cabs. Pairing Method glossary."
+      "seo_description": "What does Coconut mean in wine? Coconut or dill-like lactone from American oak — classic in many California Chardonnays and Cabs. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "caramel": {
       "id": "caramel",
@@ -1695,7 +1816,9 @@
         "caramel"
       ],
       "seo_title": "Caramel in Wine — Oak Descriptor & Pairing Guide",
-      "seo_description": "What does Caramel mean in wine? Cooked sugar from oak or age — sweet aromatic without residual sugar. Pairing Method glossary."
+      "seo_description": "What does Caramel mean in wine? Cooked sugar from oak or age — sweet aromatic without residual sugar. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "vanilla": {
       "id": "vanilla",
@@ -1722,7 +1845,9 @@
         "vanilla"
       ],
       "seo_title": "Vanilla in Wine — Oak Descriptor & Pairing Guide",
-      "seo_description": "What does Vanilla mean in wine? Sweet spice from oak lactones — often American oak or heavy toast. Pairing Method glossary."
+      "seo_description": "What does Vanilla mean in wine? Sweet spice from oak lactones — often American oak or heavy toast. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "buttery": {
       "id": "buttery",
@@ -1751,7 +1876,9 @@
         "butter"
       ],
       "seo_title": "Buttery in Wine — Oak Descriptor & Pairing Guide",
-      "seo_description": "What does Buttery mean in wine? Diacetyl creaminess — malolactic fermentation note. Pairing Method glossary."
+      "seo_description": "What does Buttery mean in wine? Diacetyl creaminess — malolactic fermentation note. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "creamy": {
       "id": "creamy",
@@ -1780,7 +1907,9 @@
         "cream"
       ],
       "seo_title": "Creamy in Wine — Oak Descriptor & Pairing Guide",
-      "seo_description": "What does Creamy mean in wine? Lees, MLF, or oak textural roundness — mouth-coating without sugar. Pairing Method glossary."
+      "seo_description": "What does Creamy mean in wine? Lees, MLF, or oak textural roundness — mouth-coating without sugar. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "spicy": {
       "id": "spicy",
@@ -1808,7 +1937,9 @@
         "spice"
       ],
       "seo_title": "Spicy in Wine — Spice Descriptor & Pairing Guide",
-      "seo_description": "What does Spicy mean in wine? Peppercorn, baking spice, or generic spice box — oak or variety. Pairing Method glossary."
+      "seo_description": "What does Spicy mean in wine? Peppercorn, baking spice, or generic spice box — oak or variety. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "musky": {
       "id": "musky",
@@ -1835,7 +1966,9 @@
         "musk"
       ],
       "seo_title": "Musky in Wine — Spice Descriptor & Pairing Guide",
-      "seo_description": "What does Musky mean in wine? Animalic, musk-like perfume — can be spice, style, or variety-driven. Pairing Method glossary."
+      "seo_description": "What does Musky mean in wine? Animalic, musk-like perfume — can be spice, style, or variety-driven. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "bright": {
       "id": "bright",
@@ -1870,7 +2003,9 @@
         "position": 0,
         "previous": null,
         "next": "astringent"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "black-pepper": {
       "id": "black-pepper",
@@ -1897,7 +2032,9 @@
         "pepper"
       ],
       "seo_title": "Black pepper in Wine — Spice Descriptor & Pairing Guide",
-      "seo_description": "What does Black pepper mean in wine? Rotundone-driven or similar — savory spike on nose and finish. Pairing Method glossary."
+      "seo_description": "What does Black pepper mean in wine? Rotundone-driven or similar — savory spike on nose and finish. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "anise": {
       "id": "anise",
@@ -1925,7 +2062,9 @@
         "liquorice"
       ],
       "seo_title": "Anise in Wine — Spice Descriptor & Pairing Guide",
-      "seo_description": "What does Anise mean in wine? Licorice or anise seed spice — Rhône reds and some Italian varieties. Pairing Method glossary."
+      "seo_description": "What does Anise mean in wine? Licorice or anise seed spice — Rhône reds and some Italian varieties. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "clove": {
       "id": "clove",
@@ -1950,7 +2089,9 @@
         "clove"
       ],
       "seo_title": "Clove in Wine — Spice Descriptor & Pairing Guide",
-      "seo_description": "What does Clove mean in wine? Baking spice from oak or variety — part of the ‘sweet spice’ cluster. Pairing Method glossary."
+      "seo_description": "What does Clove mean in wine? Baking spice from oak or variety — part of the ‘sweet spice’ cluster. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "cinnamon": {
       "id": "cinnamon",
@@ -1975,7 +2116,9 @@
         "cinnamon"
       ],
       "seo_title": "Cinnamon in Wine — Spice Descriptor & Pairing Guide",
-      "seo_description": "What does Cinnamon mean in wine? Sweet baking spice — oak or variety. Pairing Method glossary."
+      "seo_description": "What does Cinnamon mean in wine? Sweet baking spice — oak or variety. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "nutmeg": {
       "id": "nutmeg",
@@ -2000,7 +2143,9 @@
         "nutmeg"
       ],
       "seo_title": "Nutmeg in Wine — Spice Descriptor & Pairing Guide",
-      "seo_description": "What does Nutmeg mean in wine? Warm nutty spice — often oak-derived. Pairing Method glossary."
+      "seo_description": "What does Nutmeg mean in wine? Warm nutty spice — often oak-derived. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "saffron": {
       "id": "saffron",
@@ -2025,7 +2170,9 @@
         "saffron"
       ],
       "seo_title": "Saffron in Wine — Spice Descriptor & Pairing Guide",
-      "seo_description": "What does Saffron mean in wine? Exotic honeyed spice — occasional in aromatic whites and skin-contact wines. Pairing Method glossary."
+      "seo_description": "What does Saffron mean in wine? Exotic honeyed spice — occasional in aromatic whites and skin-contact wines. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "ginger": {
       "id": "ginger",
@@ -2050,7 +2197,9 @@
         "ginger"
       ],
       "seo_title": "Ginger in Wine — Spice Descriptor & Pairing Guide",
-      "seo_description": "What does Ginger mean in wine? Fresh or candied ginger spice — spice and alcohol warmth overlap. Pairing Method glossary."
+      "seo_description": "What does Ginger mean in wine? Fresh or candied ginger spice — spice and alcohol warmth overlap. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "hot": {
       "id": "hot",
@@ -2082,7 +2231,9 @@
         "hot wine"
       ],
       "seo_title": "Hot in Wine — Alcohol Descriptor & Pairing Guide",
-      "seo_description": "What does Hot mean in wine? Noticeable alcohol warmth on palate or finish — imbalance when it dominates. Pairing Method glossary."
+      "seo_description": "What does Hot mean in wine? Noticeable alcohol warmth on palate or finish — imbalance when it dominates. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "burn": {
       "id": "burn",
@@ -2109,7 +2260,9 @@
         "ethanol burn"
       ],
       "seo_title": "Burn in Wine — Alcohol Descriptor & Pairing Guide",
-      "seo_description": "What does Burn mean in wine? Ethanol burn at back of throat — stronger than 'hot'; pairing liability with delicate food. Pairing Method glossary."
+      "seo_description": "What does Burn mean in wine? Ethanol burn at back of throat — stronger than 'hot'; pairing liability with delicate food. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "legs": {
       "id": "legs",
@@ -2136,7 +2289,9 @@
         "wine legs"
       ],
       "seo_title": "Legs in Wine — Alcohol Descriptor & Pairing Guide",
-      "seo_description": "What does Legs mean in wine? Viscous tears on glass walls — indicates alcohol/glycerol; not a quality score on its own. Pairing Method glossary."
+      "seo_description": "What does Legs mean in wine? Viscous tears on glass walls — indicates alcohol/glycerol; not a quality score on its own. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "barnyard": {
       "id": "barnyard",
@@ -2163,7 +2318,9 @@
         "barnyard"
       ],
       "seo_title": "Barnyard in Wine — Style Descriptor & Pairing Guide",
-      "seo_description": "What does Barnyard mean in wine? Sweaty leather, horse blanket — brettanomyces. Pairing Method glossary."
+      "seo_description": "What does Barnyard mean in wine? Sweaty leather, horse blanket — brettanomyces. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "earthy": {
       "id": "earthy",
@@ -2191,7 +2348,9 @@
         "earth"
       ],
       "seo_title": "Earthy in Wine — Style Descriptor & Pairing Guide",
-      "seo_description": "What does Earthy mean in wine? Forest floor, mushroom, damp soil — often develops with age or cool sites. Pairing Method glossary."
+      "seo_description": "What does Earthy mean in wine? Forest floor, mushroom, damp soil — often develops with age or cool sites. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "accessible": {
       "id": "accessible",
@@ -2217,7 +2376,9 @@
         "approachable"
       ],
       "seo_title": "Accessible in Wine — Style Descriptor & Pairing Guide",
-      "seo_description": "What does Accessible mean in wine? Easy to appreciate young — low barriers; crowd-pleasing without deep complexity. Pairing Method glossary."
+      "seo_description": "What does Accessible mean in wine? Easy to appreciate young — low barriers; crowd-pleasing without deep complexity. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "clean": {
       "id": "clean",
@@ -2244,7 +2405,9 @@
         "clean"
       ],
       "seo_title": "Clean in Wine — Style Descriptor & Pairing Guide",
-      "seo_description": "What does Clean mean in wine? No obvious faults — precise winemaking. Pairing Method glossary."
+      "seo_description": "What does Clean mean in wine? No obvious faults — precise winemaking. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "elegant": {
       "id": "elegant",
@@ -2279,7 +2442,9 @@
         "position": 8,
         "previous": "delicate",
         "next": "light-bodied"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "polished": {
       "id": "polished",
@@ -2313,7 +2478,9 @@
         "position": 12,
         "previous": "closed",
         "next": "complex"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "refined": {
       "id": "refined",
@@ -2339,7 +2506,9 @@
         "polished"
       ],
       "seo_title": "Refined in Wine — Style Descriptor & Pairing Guide",
-      "seo_description": "What does Refined mean in wine? Polished, precise, without rough edges — high craftsmanship signal. Pairing Method glossary."
+      "seo_description": "What does Refined mean in wine? Polished, precise, without rough edges — high craftsmanship signal. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "complex": {
       "id": "complex",
@@ -2368,7 +2537,9 @@
         "position": 13,
         "previous": "polished",
         "next": "full-bodied"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "sour": {
       "id": "sour",
@@ -2394,7 +2565,9 @@
         "sour dough"
       ],
       "seo_title": "Sour in Wine — Yeast Descriptor & Pairing Guide",
-      "seo_description": "What does Sour mean in wine? Sourdough or sourdough-bread tang from lees or wild ferment — can be positive in sparkling. Pairing Method glossary."
+      "seo_description": "What does Sour mean in wine? Sourdough or sourdough-bread tang from lees or wild ferment — can be positive in sparkling. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "cheesy": {
       "id": "cheesy",
@@ -2420,7 +2593,9 @@
         "cheese rind"
       ],
       "seo_title": "Cheesy in Wine — Yeast Descriptor & Pairing Guide",
-      "seo_description": "What does Cheesy mean in wine? Savory cheese or nutritional-yeast note from lees — positive in low dose. Pairing Method glossary."
+      "seo_description": "What does Cheesy mean in wine? Savory cheese or nutritional-yeast note from lees — positive in low dose. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "biscuit": {
       "id": "biscuit",
@@ -2445,7 +2620,9 @@
         "biscuit"
       ],
       "seo_title": "Biscuit in Wine — Yeast Descriptor & Pairing Guide",
-      "seo_description": "What does Biscuit mean in wine? Autolytic pastry note — aged sparkling or lees contact. Pairing Method glossary."
+      "seo_description": "What does Biscuit mean in wine? Autolytic pastry note — aged sparkling or lees contact. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "fruit-ripeness": {
       "id": "fruit-ripeness",
@@ -2476,7 +2653,9 @@
         "fruit ripeness"
       ],
       "seo_title": "Fruit Ripeness in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Fruit Ripeness mean in wine? Fruit Ripeness is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary."
+      "seo_description": "What does Fruit Ripeness mean in wine? Fruit Ripeness is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary.",
+      "entity_type": "descriptor_group",
+      "domain": "wine"
     },
     "jammy": {
       "id": "jammy",
@@ -2504,7 +2683,9 @@
         "jammy"
       ],
       "seo_title": "Jammy in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Jammy mean in wine? Overripe, cooked-fruit concentration — low acid relative to sugar impression. Pairing Method glossary."
+      "seo_description": "What does Jammy mean in wine? Overripe, cooked-fruit concentration — low acid relative to sugar impression. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "ripe": {
       "id": "ripe",
@@ -2532,7 +2713,9 @@
         "ripe"
       ],
       "seo_title": "Ripe in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Ripe mean in wine? Fruit at full phenolic maturity — sweet aromatic impression. Pairing Method glossary."
+      "seo_description": "What does Ripe mean in wine? Fruit at full phenolic maturity — sweet aromatic impression. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "juicy": {
       "id": "juicy",
@@ -2559,7 +2742,9 @@
         "succulent"
       ],
       "seo_title": "Juicy in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Juicy mean in wine? Fresh, mouthwatering fruit that feels liquid and immediate — high appeal, low formality. Pairing Method glossary."
+      "seo_description": "What does Juicy mean in wine? Fresh, mouthwatering fruit that feels liquid and immediate — high appeal, low formality. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "flamboyant": {
       "id": "flamboyant",
@@ -2585,7 +2770,9 @@
         "showy"
       ],
       "seo_title": "Flamboyant in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Flamboyant mean in wine? Showy, exuberant fruit and aroma — high aromatic impact without necessarily heavy structure. Pairing Method glossary."
+      "seo_description": "What does Flamboyant mean in wine? Showy, exuberant fruit and aroma — high aromatic impact without necessarily heavy structure. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "fleshy": {
       "id": "fleshy",
@@ -2612,7 +2799,9 @@
         "meaty"
       ],
       "seo_title": "Fleshy in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Fleshy mean in wine? Meaty, substantial mid-palate fruit — weight without necessarily high tannin. Pairing Method glossary."
+      "seo_description": "What does Fleshy mean in wine? Meaty, substantial mid-palate fruit — weight without necessarily high tannin. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "extracted": {
       "id": "extracted",
@@ -2646,7 +2835,9 @@
         "position": 22,
         "previous": "rich",
         "next": "flabby"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "plummy": {
       "id": "plummy",
@@ -2677,7 +2868,9 @@
         "plum"
       ],
       "seo_title": "Plummy in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Plummy mean in wine? Soft, sweet plum fruit — common in Merlot and warm-climate blends. Pairing Method glossary."
+      "seo_description": "What does Plummy mean in wine? Soft, sweet plum fruit — common in Merlot and warm-climate blends. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "red-fruit": {
       "id": "red-fruit",
@@ -2706,7 +2899,9 @@
         "red fruit"
       ],
       "seo_title": "Red Fruit in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Red Fruit mean in wine? Red Fruit is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary."
+      "seo_description": "What does Red Fruit mean in wine? Red Fruit is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary.",
+      "entity_type": "descriptor_group",
+      "domain": "wine"
     },
     "strawberry": {
       "id": "strawberry",
@@ -2731,7 +2926,9 @@
         "strawberry"
       ],
       "seo_title": "Strawberry in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Strawberry mean in wine? Fresh red berry — classic Pinot Noir and light Gamay marker. Pairing Method glossary."
+      "seo_description": "What does Strawberry mean in wine? Fresh red berry — classic Pinot Noir and light Gamay marker. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "raspberry": {
       "id": "raspberry",
@@ -2756,7 +2953,9 @@
         "raspberry"
       ],
       "seo_title": "Raspberry in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Raspberry mean in wine? Bright red berry — Pinot, Grenache, and cool-climate reds. Pairing Method glossary."
+      "seo_description": "What does Raspberry mean in wine? Bright red berry — Pinot, Grenache, and cool-climate reds. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "cherry": {
       "id": "cherry",
@@ -2781,7 +2980,9 @@
         "cherry"
       ],
       "seo_title": "Cherry in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Cherry mean in wine? Fresh or cooked cherry note — bridge between red and black fruit. Pairing Method glossary."
+      "seo_description": "What does Cherry mean in wine? Fresh or cooked cherry note — bridge between red and black fruit. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "blueberry": {
       "id": "blueberry",
@@ -2806,7 +3007,9 @@
         "blueberry"
       ],
       "seo_title": "Blueberry in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Blueberry mean in wine? Soft blue fruit — warmer-climate Merlot and Shiraz. Pairing Method glossary."
+      "seo_description": "What does Blueberry mean in wine? Soft blue fruit — warmer-climate Merlot and Shiraz. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "blackberry": {
       "id": "blackberry",
@@ -2838,7 +3041,9 @@
         "bramble"
       ],
       "seo_title": "Blackberry in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Blackberry mean in wine? Dark brambly berry — Syrah, Zinfandel, warm Cabernet. Pairing Method glossary."
+      "seo_description": "What does Blackberry mean in wine? Dark brambly berry — Syrah, Zinfandel, warm Cabernet. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "black-fruit": {
       "id": "black-fruit",
@@ -2863,7 +3068,9 @@
         "black fruit"
       ],
       "seo_title": "Black Fruit in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Black Fruit mean in wine? Black Fruit is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary."
+      "seo_description": "What does Black Fruit mean in wine? Black Fruit is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary.",
+      "entity_type": "descriptor_group",
+      "domain": "wine"
     },
     "cassis": {
       "id": "cassis",
@@ -2890,7 +3097,9 @@
         "cassis"
       ],
       "seo_title": "Cassis in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Cassis mean in wine? Blackcurrant — classic Cabernet aromatic, slightly leafy edge when combined with pyrazines. Pairing Method glossary."
+      "seo_description": "What does Cassis mean in wine? Blackcurrant — classic Cabernet aromatic, slightly leafy edge when combined with pyrazines. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "grapey": {
       "id": "grapey",
@@ -2912,7 +3121,9 @@
         "grapey"
       ],
       "seo_title": "Grapey in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Grapey mean in wine? Grapey is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary."
+      "seo_description": "What does Grapey mean in wine? Grapey is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary.",
+      "entity_type": "descriptor_group",
+      "domain": "wine"
     },
     "berry": {
       "id": "berry",
@@ -2934,7 +3145,9 @@
         "berry"
       ],
       "seo_title": "Berry in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Berry mean in wine? Berry is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary."
+      "seo_description": "What does Berry mean in wine? Berry is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary.",
+      "entity_type": "descriptor_group",
+      "domain": "wine"
     },
     "citrus": {
       "id": "citrus",
@@ -2962,7 +3175,9 @@
         "citrus"
       ],
       "seo_title": "Citrus in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Citrus mean in wine? Citrus is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary."
+      "seo_description": "What does Citrus mean in wine? Citrus is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary.",
+      "entity_type": "descriptor_group",
+      "domain": "wine"
     },
     "lime": {
       "id": "lime",
@@ -2989,7 +3204,9 @@
         "lime zest"
       ],
       "seo_title": "Lime in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Lime mean in wine? Sharp citrus — high-acid whites and some sparkling. Pairing Method glossary."
+      "seo_description": "What does Lime mean in wine? Sharp citrus — high-acid whites and some sparkling. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "lemon": {
       "id": "lemon",
@@ -3016,7 +3233,9 @@
         "lemon zest"
       ],
       "seo_title": "Lemon in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Lemon mean in wine? Clean citrus acidity — universal white and sparkling marker. Pairing Method glossary."
+      "seo_description": "What does Lemon mean in wine? Clean citrus acidity — universal white and sparkling marker. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "orange": {
       "id": "orange",
@@ -3042,7 +3261,9 @@
         "orange peel"
       ],
       "seo_title": "Orange in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Orange mean in wine? Orange fruit or peel — oxidative and skin-contact whites. Pairing Method glossary."
+      "seo_description": "What does Orange mean in wine? Orange fruit or peel — oxidative and skin-contact whites. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "grapefruit": {
       "id": "grapefruit",
@@ -3067,7 +3288,9 @@
         "grapefruit"
       ],
       "seo_title": "Grapefruit in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Grapefruit mean in wine? Bitter-edged citrus — classic New World Sauvignon Blanc. Pairing Method glossary."
+      "seo_description": "What does Grapefruit mean in wine? Bitter-edged citrus — classic New World Sauvignon Blanc. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "citrus-zest": {
       "id": "citrus-zest",
@@ -3094,7 +3317,9 @@
         "zest"
       ],
       "seo_title": "Citrus Zest in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Citrus Zest mean in wine? Aromatic peel oils — pithy, perfumed citrus without full juice sweetness. Pairing Method glossary."
+      "seo_description": "What does Citrus Zest mean in wine? Aromatic peel oils — pithy, perfumed citrus without full juice sweetness. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "stone-fruit": {
       "id": "stone-fruit",
@@ -3121,7 +3346,9 @@
         "stone fruit"
       ],
       "seo_title": "Stone Fruit in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Stone Fruit mean in wine? Stone Fruit is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary."
+      "seo_description": "What does Stone Fruit mean in wine? Stone Fruit is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary.",
+      "entity_type": "descriptor_group",
+      "domain": "wine"
     },
     "apricot": {
       "id": "apricot",
@@ -3146,7 +3373,9 @@
         "apricot"
       ],
       "seo_title": "Apricot in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Apricot mean in wine? Stone fruit on the orange spectrum — Viognier, aged Riesling. Pairing Method glossary."
+      "seo_description": "What does Apricot mean in wine? Stone fruit on the orange spectrum — Viognier, aged Riesling. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "nectarine": {
       "id": "nectarine",
@@ -3172,7 +3401,9 @@
         "nectarine"
       ],
       "seo_title": "Nectarine in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Nectarine mean in wine? Soft stone fruit — aromatic whites and off-dry styles. Pairing Method glossary."
+      "seo_description": "What does Nectarine mean in wine? Soft stone fruit — aromatic whites and off-dry styles. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "peach": {
       "id": "peach",
@@ -3194,7 +3425,9 @@
         "peach"
       ],
       "seo_title": "Peach in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Peach mean in wine? Peach is a wine descriptor in the fruit family on the Wine Folly tasting vocabulary. Pairing Method glossary."
+      "seo_description": "What does Peach mean in wine? Peach is a wine descriptor in the fruit family on the Wine Folly tasting vocabulary. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "tropical-fruit": {
       "id": "tropical-fruit",
@@ -3222,7 +3455,9 @@
         "tropical fruit"
       ],
       "seo_title": "Tropical Fruit in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Tropical Fruit mean in wine? Tropical Fruit is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary."
+      "seo_description": "What does Tropical Fruit mean in wine? Tropical Fruit is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary.",
+      "entity_type": "descriptor_group",
+      "domain": "wine"
     },
     "banana": {
       "id": "banana",
@@ -3247,7 +3482,9 @@
         "banana"
       ],
       "seo_title": "Banana in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Banana mean in wine? Isoamyl acetate ester — carbonic or warm fermentation note; common in Beaujolais. Pairing Method glossary."
+      "seo_description": "What does Banana mean in wine? Isoamyl acetate ester — carbonic or warm fermentation note; common in Beaujolais. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "pineapple": {
       "id": "pineapple",
@@ -3272,7 +3509,9 @@
         "pineapple"
       ],
       "seo_title": "Pineapple in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Pineapple mean in wine? Tropical ripe fruit — warm-climate Chardonnay and Sauvignon. Pairing Method glossary."
+      "seo_description": "What does Pineapple mean in wine? Tropical ripe fruit — warm-climate Chardonnay and Sauvignon. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "lychee": {
       "id": "lychee",
@@ -3297,7 +3536,9 @@
         "lychee"
       ],
       "seo_title": "Lychee in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Lychee mean in wine? Exotic aromatic marker — Gewürztraminer signature. Pairing Method glossary."
+      "seo_description": "What does Lychee mean in wine? Exotic aromatic marker — Gewürztraminer signature. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "melon": {
       "id": "melon",
@@ -3319,7 +3560,9 @@
         "melon"
       ],
       "seo_title": "Melon in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Melon mean in wine? Melon is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary."
+      "seo_description": "What does Melon mean in wine? Melon is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary.",
+      "entity_type": "descriptor_group",
+      "domain": "wine"
     },
     "apple": {
       "id": "apple",
@@ -3341,7 +3584,9 @@
         "apple"
       ],
       "seo_title": "Apple in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Apple mean in wine? Apple is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary."
+      "seo_description": "What does Apple mean in wine? Apple is a sub-family within the fruit taxonomy on the Wine Folly descriptor poster. Pairing Method glossary.",
+      "entity_type": "descriptor_group",
+      "domain": "wine"
     },
     "thin": {
       "id": "thin",
@@ -3375,7 +3620,9 @@
         "position": 0,
         "previous": null,
         "next": "cliff-edge"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "cliff-edge": {
       "id": "cliff-edge",
@@ -3407,7 +3654,9 @@
         "position": 1,
         "previous": "thin",
         "next": "hollow"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "hollow": {
       "id": "hollow",
@@ -3440,7 +3689,9 @@
         "position": 2,
         "previous": "cliff-edge",
         "next": "mellow"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "mellow": {
       "id": "mellow",
@@ -3474,7 +3725,9 @@
         "position": 3,
         "previous": "hollow",
         "next": "short"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "short": {
       "id": "short",
@@ -3507,7 +3760,9 @@
         "position": 4,
         "previous": "mellow",
         "next": "austere"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "austere": {
       "id": "austere",
@@ -3541,7 +3796,9 @@
         "position": 5,
         "previous": "short",
         "next": "angular"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "angular": {
       "id": "angular",
@@ -3576,7 +3833,9 @@
         "position": 6,
         "previous": "austere",
         "next": "delicate"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "delicate": {
       "id": "delicate",
@@ -3611,7 +3870,9 @@
         "position": 7,
         "previous": "angular",
         "next": "elegant"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "light-bodied": {
       "id": "light-bodied",
@@ -3648,7 +3909,9 @@
         "position": 9,
         "previous": "elegant",
         "next": "finesse"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "finesse": {
       "id": "finesse",
@@ -3682,7 +3945,9 @@
         "position": 10,
         "previous": "light-bodied",
         "next": "closed"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "closed": {
       "id": "closed",
@@ -3711,7 +3976,9 @@
         "position": 11,
         "previous": "finesse",
         "next": "polished"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "full-bodied": {
       "id": "full-bodied",
@@ -3749,7 +4016,9 @@
         "position": 14,
         "previous": "complex",
         "next": "tight"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "tight": {
       "id": "tight",
@@ -3778,7 +4047,9 @@
         "position": 15,
         "previous": "full-bodied",
         "next": "firm"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "firm": {
       "id": "firm",
@@ -3813,7 +4084,9 @@
         "position": 16,
         "previous": "tight",
         "next": "powerful"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "powerful": {
       "id": "powerful",
@@ -3848,7 +4121,9 @@
         "position": 17,
         "previous": "firm",
         "next": "concentrated"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "concentrated": {
       "id": "concentrated",
@@ -3883,7 +4158,9 @@
         "position": 18,
         "previous": "powerful",
         "next": "dense"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "dense": {
       "id": "dense",
@@ -3916,7 +4193,9 @@
         "position": 19,
         "previous": "concentrated",
         "next": "opulent"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "opulent": {
       "id": "opulent",
@@ -3951,7 +4230,9 @@
         "position": 20,
         "previous": "dense",
         "next": "rich"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "rich": {
       "id": "rich",
@@ -3986,7 +4267,9 @@
         "position": 21,
         "previous": "opulent",
         "next": "extracted"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "flabby": {
       "id": "flabby",
@@ -4021,7 +4304,9 @@
         "position": 23,
         "previous": "extracted",
         "next": "fat"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "fat": {
       "id": "fat",
@@ -4058,7 +4343,9 @@
         "position": 24,
         "previous": "flabby",
         "next": null
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "astringent": {
       "id": "astringent",
@@ -4093,7 +4380,9 @@
         "position": 1,
         "previous": "bright",
         "next": "austere"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "lean": {
       "id": "lean",
@@ -4128,7 +4417,9 @@
         "position": 4,
         "previous": "thin",
         "next": "angular"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "racy": {
       "id": "racy",
@@ -4163,7 +4454,9 @@
         "position": 6,
         "previous": "angular",
         "next": "tart"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "tart": {
       "id": "tart",
@@ -4198,7 +4491,9 @@
         "position": 7,
         "previous": "racy",
         "next": "edgy"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "edgy": {
       "id": "edgy",
@@ -4235,7 +4530,9 @@
         "position": 8,
         "previous": "tart",
         "next": "nerve"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "nerve": {
       "id": "nerve",
@@ -4268,7 +4565,9 @@
         "position": 9,
         "previous": "edgy",
         "next": "zippy"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "zippy": {
       "id": "zippy",
@@ -4302,7 +4601,9 @@
         "position": 10,
         "previous": "nerve",
         "next": "zesty"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "zesty": {
       "id": "zesty",
@@ -4337,7 +4638,9 @@
         "position": 11,
         "previous": "zippy",
         "next": "lively"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "lively": {
       "id": "lively",
@@ -4371,7 +4674,9 @@
         "position": 12,
         "previous": "zesty",
         "next": "fresh"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "fresh": {
       "id": "fresh",
@@ -4406,7 +4711,9 @@
         "position": 13,
         "previous": "lively",
         "next": "crisp"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "crisp": {
       "id": "crisp",
@@ -4441,7 +4748,9 @@
         "position": 14,
         "previous": "fresh",
         "next": "delicate"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "soft": {
       "id": "soft",
@@ -4476,7 +4785,9 @@
         "position": 16,
         "previous": "delicate",
         "next": "flabby"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "fallen-over": {
       "id": "fallen-over",
@@ -4514,7 +4825,9 @@
         "position": 18,
         "previous": "flabby",
         "next": "flat"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "flat": {
       "id": "flat",
@@ -4548,7 +4861,9 @@
         "position": 19,
         "previous": "fallen-over",
         "next": null
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "bitter": {
       "id": "bitter",
@@ -4586,7 +4901,9 @@
         "position": 0,
         "previous": null,
         "next": "harsh"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "harsh": {
       "id": "harsh",
@@ -4623,7 +4940,9 @@
         "position": 1,
         "previous": "bitter",
         "next": "aggressive"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "aggressive": {
       "id": "aggressive",
@@ -4655,7 +4974,9 @@
         "position": 2,
         "previous": "harsh",
         "next": "grippy"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "grippy": {
       "id": "grippy",
@@ -4692,7 +5013,9 @@
         "position": 3,
         "previous": "aggressive",
         "next": "angular"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "coarse": {
       "id": "coarse",
@@ -4730,7 +5053,9 @@
         "position": 6,
         "previous": "powerful",
         "next": "leathery"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "leathery": {
       "id": "leathery",
@@ -4765,7 +5090,9 @@
         "position": 7,
         "previous": "coarse",
         "next": "rigid"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "rigid": {
       "id": "rigid",
@@ -4802,7 +5129,9 @@
         "position": 8,
         "previous": "leathery",
         "next": "muscular"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "muscular": {
       "id": "muscular",
@@ -4839,7 +5168,9 @@
         "position": 9,
         "previous": "rigid",
         "next": "firm"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "structured": {
       "id": "structured",
@@ -4874,7 +5205,9 @@
         "position": 11,
         "previous": "firm",
         "next": "chewy"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "chewy": {
       "id": "chewy",
@@ -4908,7 +5241,9 @@
         "position": 12,
         "previous": "structured",
         "next": "chocolate"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "chocolate": {
       "id": "chocolate",
@@ -4942,7 +5277,9 @@
         "position": 13,
         "previous": "chewy",
         "next": "silky"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "silky": {
       "id": "silky",
@@ -4977,7 +5314,9 @@
         "position": 14,
         "previous": "chocolate",
         "next": "smooth"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "smooth": {
       "id": "smooth",
@@ -5012,7 +5351,9 @@
         "position": 15,
         "previous": "silky",
         "next": "round"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "round": {
       "id": "round",
@@ -5046,7 +5387,9 @@
         "position": 16,
         "previous": "smooth",
         "next": "opulent"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "velvety": {
       "id": "velvety",
@@ -5081,7 +5424,9 @@
         "position": 18,
         "previous": "opulent",
         "next": "voluptuous"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "voluptuous": {
       "id": "voluptuous",
@@ -5113,7 +5458,9 @@
         "position": 19,
         "previous": "velvety",
         "next": "supple"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "supple": {
       "id": "supple",
@@ -5147,7 +5494,9 @@
         "position": 20,
         "previous": "voluptuous",
         "next": "soft"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "spineless": {
       "id": "spineless",
@@ -5184,7 +5533,9 @@
         "position": 23,
         "previous": "mellow",
         "next": "flabby"
-      }
+      },
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "tannic": {
       "id": "tannic",
@@ -5215,7 +5566,9 @@
         "tannin"
       ],
       "seo_title": "Tannic in Wine — Tannin Descriptor & Pairing Guide",
-      "seo_description": "What does Tannic mean in wine? High tannin load overall — drying, sometimes bitter edge depending on ripeness and oak. Pairing Method glossary."
+      "seo_description": "What does Tannic mean in wine? High tannin load overall — drying, sometimes bitter edge depending on ripeness and oak. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "high-acidity": {
       "id": "high-acidity",
@@ -5246,7 +5599,9 @@
         "high acidity"
       ],
       "seo_title": "High acidity in Wine — Acidity Descriptor & Pairing Guide",
-      "seo_description": "What does High acidity mean in wine? Strong titratable acid — makes the mouth water and cuts through fat. Pairing Method glossary."
+      "seo_description": "What does High acidity mean in wine? Strong titratable acid — makes the mouth water and cuts through fat. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "herbal": {
       "id": "herbal",
@@ -5272,7 +5627,9 @@
         "herb"
       ],
       "seo_title": "Herbal in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Herbal mean in wine? Thyme, rosemary, dried herbs — variety or terroir driven. Pairing Method glossary."
+      "seo_description": "What does Herbal mean in wine? Thyme, rosemary, dried herbs — variety or terroir driven. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "floral": {
       "id": "floral",
@@ -5300,7 +5657,9 @@
         "flower"
       ],
       "seo_title": "Floral in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Floral mean in wine? Rose, violet, orange blossom — aromatic lift. Pairing Method glossary."
+      "seo_description": "What does Floral mean in wine? Rose, violet, orange blossom — aromatic lift. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "linear": {
       "id": "linear",
@@ -5327,7 +5686,9 @@
         "linear"
       ],
       "seo_title": "Linear in Wine — Acidity Descriptor & Pairing Guide",
-      "seo_description": "What does Linear mean in wine? Straight acid-driven line — less breadth, more precision. Pairing Method glossary."
+      "seo_description": "What does Linear mean in wine? Straight acid-driven line — less breadth, more precision. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "toast": {
       "id": "toast",
@@ -5353,7 +5714,9 @@
         "toasted"
       ],
       "seo_title": "Toast in Wine — Oak Descriptor & Pairing Guide",
-      "seo_description": "What does Toast mean in wine? Barrel char and browned bread — oak program signature. Pairing Method glossary."
+      "seo_description": "What does Toast mean in wine? Barrel char and browned bread — oak program signature. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "tobacco": {
       "id": "tobacco",
@@ -5378,7 +5741,9 @@
         "tobacco"
       ],
       "seo_title": "Tobacco in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Tobacco mean in wine? Leafy, dried tobacco — tertiary in aged reds. Pairing Method glossary."
+      "seo_description": "What does Tobacco mean in wine? Leafy, dried tobacco — tertiary in aged reds. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "cedar": {
       "id": "cedar",
@@ -5403,7 +5768,9 @@
         "cedar"
       ],
       "seo_title": "Cedar in Wine — Oak Descriptor & Pairing Guide",
-      "seo_description": "What does Cedar mean in wine? Cigar box, pencil shavings — oak + age in Cabernet. Pairing Method glossary."
+      "seo_description": "What does Cedar mean in wine? Cigar box, pencil shavings — oak + age in Cabernet. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "saline": {
       "id": "saline",
@@ -5429,7 +5796,9 @@
         "salty"
       ],
       "seo_title": "Saline in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Saline mean in wine? Sea spray, salt — coastal whites. Pairing Method glossary."
+      "seo_description": "What does Saline mean in wine? Sea spray, salt — coastal whites. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "rose-petal": {
       "id": "rose-petal",
@@ -5456,7 +5825,9 @@
         "rose"
       ],
       "seo_title": "Rose petal in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Rose petal mean in wine? Delicate rose — Nebbiolo, some Grenache. Pairing Method glossary."
+      "seo_description": "What does Rose petal mean in wine? Delicate rose — Nebbiolo, some Grenache. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "brioche": {
       "id": "brioche",
@@ -5481,7 +5852,9 @@
         "brioche"
       ],
       "seo_title": "Brioche in Wine — Yeast Descriptor & Pairing Guide",
-      "seo_description": "What does Brioche mean in wine? Rich autolytic bread — aged Champagne. Pairing Method glossary."
+      "seo_description": "What does Brioche mean in wine? Rich autolytic bread — aged Champagne. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "moderate-alcohol": {
       "id": "moderate-alcohol",
@@ -5508,7 +5881,9 @@
         "moderate alcohol"
       ],
       "seo_title": "Moderate alcohol in Wine — Alcohol Descriptor & Pairing Guide",
-      "seo_description": "What does Moderate alcohol mean in wine? Ethanol feels integrated — warmth without burn. Pairing Method glossary."
+      "seo_description": "What does Moderate alcohol mean in wine? Ethanol feels integrated — warmth without burn. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "balanced": {
       "id": "balanced",
@@ -5536,7 +5911,9 @@
         "balanced"
       ],
       "seo_title": "Balanced in Wine — Body Descriptor & Pairing Guide",
-      "seo_description": "What does Balanced mean in wine? No single element sticks out — acid, tannin, fruit, alcohol in proportion. Pairing Method glossary."
+      "seo_description": "What does Balanced mean in wine? No single element sticks out — acid, tannin, fruit, alcohol in proportion. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "harmonious": {
       "id": "harmonious",
@@ -5563,7 +5940,9 @@
         "harmonious"
       ],
       "seo_title": "Harmonious in Wine — Body Descriptor & Pairing Guide",
-      "seo_description": "What does Harmonious mean in wine? Elements knit together — difficult to pull apart. Pairing Method glossary."
+      "seo_description": "What does Harmonious mean in wine? Elements knit together — difficult to pull apart. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "seamless": {
       "id": "seamless",
@@ -5590,7 +5969,9 @@
         "seamless"
       ],
       "seo_title": "Seamless in Wine — Body Descriptor & Pairing Guide",
-      "seo_description": "What does Seamless mean in wine? No obvious transitions — texture flows. Pairing Method glossary."
+      "seo_description": "What does Seamless mean in wine? No obvious transitions — texture flows. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "lush": {
       "id": "lush",
@@ -5617,7 +5998,9 @@
         "lush"
       ],
       "seo_title": "Lush in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Lush mean in wine? Opulent fruit generosity — soft edges, ripe. Pairing Method glossary."
+      "seo_description": "What does Lush mean in wine? Opulent fruit generosity — soft edges, ripe. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "toffee": {
       "id": "toffee",
@@ -5642,7 +6025,9 @@
         "toffee"
       ],
       "seo_title": "Toffee in Wine — Oak Descriptor & Pairing Guide",
-      "seo_description": "What does Toffee mean in wine? Brown butter candy — oxidation or oak. Pairing Method glossary."
+      "seo_description": "What does Toffee mean in wine? Brown butter candy — oxidation or oak. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "honeyed": {
       "id": "honeyed",
@@ -5670,7 +6055,9 @@
         "honey"
       ],
       "seo_title": "Honeyed in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Honeyed mean in wine? Noble rot or age — honey without cloying (ideally). Pairing Method glossary."
+      "seo_description": "What does Honeyed mean in wine? Noble rot or age — honey without cloying (ideally). Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "marmalade": {
       "id": "marmalade",
@@ -5695,7 +6082,9 @@
         "marmalade"
       ],
       "seo_title": "Marmalade in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Marmalade mean in wine? Cooked citrus peel — botrytis or aged Semillon. Pairing Method glossary."
+      "seo_description": "What does Marmalade mean in wine? Cooked citrus peel — botrytis or aged Semillon. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "charred": {
       "id": "charred",
@@ -5721,7 +6110,9 @@
         "char"
       ],
       "seo_title": "Charred in Wine — Oak Descriptor & Pairing Guide",
-      "seo_description": "What does Charred mean in wine? Burnt-edge aroma — grill marks, heavy toast. Pairing Method glossary."
+      "seo_description": "What does Charred mean in wine? Burnt-edge aroma — grill marks, heavy toast. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "primary": {
       "id": "primary",
@@ -5749,7 +6140,9 @@
         "primary fruit"
       ],
       "seo_title": "Primary Wine Aromas — Meaning & Tasting Guide",
-      "seo_description": "What are primary aromas in wine? Fresh grape fruit character before tertiary bottle development — youthful fruit vs. evolved notes. Pairing Method glossary."
+      "seo_description": "What are primary aromas in wine? Fresh grape fruit character before tertiary bottle development — youthful fruit vs. evolved notes. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "tertiary": {
       "id": "tertiary",
@@ -5776,7 +6169,9 @@
         "tertiary"
       ],
       "seo_title": "Tertiary in Wine — Body Descriptor & Pairing Guide",
-      "seo_description": "What does Tertiary mean in wine? Bottle development — leather, forest floor, dried fruit. Pairing Method glossary."
+      "seo_description": "What does Tertiary mean in wine? Bottle development — leather, forest floor, dried fruit. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "lithe": {
       "id": "lithe",
@@ -5803,7 +6198,9 @@
         "lithe"
       ],
       "seo_title": "Lithe in Wine — Body Descriptor & Pairing Guide",
-      "seo_description": "What does Lithe mean in wine? Slender, agile frame — light but not weak. Pairing Method glossary."
+      "seo_description": "What does Lithe mean in wine? Slender, agile frame — light but not weak. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "nimble": {
       "id": "nimble",
@@ -5830,7 +6227,9 @@
         "nimble"
       ],
       "seo_title": "Nimble in Wine — Acidity Descriptor & Pairing Guide",
-      "seo_description": "What does Nimble mean in wine? Quick on its feet — acid-led agility. Pairing Method glossary."
+      "seo_description": "What does Nimble mean in wine? Quick on its feet — acid-led agility. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "ponderous": {
       "id": "ponderous",
@@ -5857,7 +6256,9 @@
         "ponderous"
       ],
       "seo_title": "Ponderous in Wine — Body Descriptor & Pairing Guide",
-      "seo_description": "What does Ponderous mean in wine? Heavy-footed — hard to refresh palate. Pairing Method glossary."
+      "seo_description": "What does Ponderous mean in wine? Heavy-footed — hard to refresh palate. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "broad": {
       "id": "broad",
@@ -5884,7 +6285,9 @@
         "broad"
       ],
       "seo_title": "Broad in Wine — Body Descriptor & Pairing Guide",
-      "seo_description": "What does Broad mean in wine? Wide mid-palate spread — less linear precision. Pairing Method glossary."
+      "seo_description": "What does Broad mean in wine? Wide mid-palate spread — less linear precision. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "resolved": {
       "id": "resolved",
@@ -5911,7 +6314,9 @@
         "resolved"
       ],
       "seo_title": "Resolved in Wine — Tannin Descriptor & Pairing Guide",
-      "seo_description": "What does Resolved mean in wine? Tannins polymerized — silk instead of sand. Pairing Method glossary."
+      "seo_description": "What does Resolved mean in wine? Tannins polymerized — silk instead of sand. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "rustic": {
       "id": "rustic",
@@ -5938,7 +6343,9 @@
         "rustic"
       ],
       "seo_title": "Rustic in Wine — Tannin Descriptor & Pairing Guide",
-      "seo_description": "What does Rustic mean in wine? Earthy, slightly rough charm — traditional cellar. Pairing Method glossary."
+      "seo_description": "What does Rustic mean in wine? Earthy, slightly rough charm — traditional cellar. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "tired": {
       "id": "tired",
@@ -5964,7 +6371,9 @@
         "tired"
       ],
       "seo_title": "Tired in Wine — Acidity Descriptor & Pairing Guide",
-      "seo_description": "What does Tired mean in wine? Past peak — flat, faded. Pairing Method glossary."
+      "seo_description": "What does Tired mean in wine? Past peak — flat, faded. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "vibrant": {
       "id": "vibrant",
@@ -5991,7 +6400,9 @@
         "vibrant"
       ],
       "seo_title": "Vibrant in Wine — Acidity Descriptor & Pairing Guide",
-      "seo_description": "What does Vibrant mean in wine? Electric clarity — fruit + acid both vivid. Pairing Method glossary."
+      "seo_description": "What does Vibrant mean in wine? Electric clarity — fruit + acid both vivid. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "awkward": {
       "id": "awkward",
@@ -6018,7 +6429,9 @@
         "awkward"
       ],
       "seo_title": "Awkward in Wine — Body Descriptor & Pairing Guide",
-      "seo_description": "What does Awkward mean in wine? Phase or imbalance — elements don’t align yet. Pairing Method glossary."
+      "seo_description": "What does Awkward mean in wine? Phase or imbalance — elements don’t align yet. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "chunky": {
       "id": "chunky",
@@ -6045,7 +6458,9 @@
         "chunky"
       ],
       "seo_title": "Chunky in Wine — Tannin Descriptor & Pairing Guide",
-      "seo_description": "What does Chunky mean in wine? Blocky texture — tannins in lumps not lace. Pairing Method glossary."
+      "seo_description": "What does Chunky mean in wine? Blocky texture — tannins in lumps not lace. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "dry": {
       "id": "dry",
@@ -6072,7 +6487,9 @@
         "dry"
       ],
       "seo_title": "Dry in Wine — Acidity Descriptor & Pairing Guide",
-      "seo_description": "What does Dry mean in wine? No perceptible residual sugar — finish clean. Pairing Method glossary."
+      "seo_description": "What does Dry mean in wine? No perceptible residual sugar — finish clean. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "sweet": {
       "id": "sweet",
@@ -6099,7 +6516,9 @@
         "sweet"
       ],
       "seo_title": "Sweet in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Sweet mean in wine? Residual sugar perceptible — can balance heat and salt. Pairing Method glossary."
+      "seo_description": "What does Sweet mean in wine? Residual sugar perceptible — can balance heat and salt. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "off-dry": {
       "id": "off-dry",
@@ -6127,7 +6546,9 @@
         "off dry"
       ],
       "seo_title": "Off-dry in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Off-dry mean in wine? Touch of sugar — enough to round acid, not dessert. Pairing Method glossary."
+      "seo_description": "What does Off-dry mean in wine? Touch of sugar — enough to round acid, not dessert. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "fruit-bomb": {
       "id": "fruit-bomb",
@@ -6155,7 +6576,9 @@
         "fruit bomb"
       ],
       "seo_title": "Fruit bomb in Wine — Fruit Descriptor & Pairing Guide",
-      "seo_description": "What does Fruit bomb mean in wine? Over-the-top primary fruit — little earth or acid showing. Pairing Method glossary."
+      "seo_description": "What does Fruit bomb mean in wine? Over-the-top primary fruit — little earth or acid showing. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "primary-fruit": {
       "id": "primary-fruit",
@@ -6183,7 +6606,9 @@
         "primary fruit"
       ],
       "seo_title": "Primary Fruit in Wine — Meaning, Examples & Food Pairing",
-      "seo_description": "What does primary fruit mean in wine? Fresh grape fruit character dominant in young wines — examples and food pairing. Pairing Method glossary."
+      "seo_description": "What does primary fruit mean in wine? Fresh grape fruit character dominant in young wines — examples and food pairing. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "neutral": {
       "id": "neutral",
@@ -6209,7 +6634,9 @@
         "neutral"
       ],
       "seo_title": "Neutral in Wine — Body Descriptor & Pairing Guide",
-      "seo_description": "What does Neutral mean in wine? Low aromatic assertiveness — canvas wine. Pairing Method glossary."
+      "seo_description": "What does Neutral mean in wine? Low aromatic assertiveness — canvas wine. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "pristine": {
       "id": "pristine",
@@ -6236,7 +6663,9 @@
         "pristine"
       ],
       "seo_title": "Pristine in Wine — Acidity Descriptor & Pairing Guide",
-      "seo_description": "What does Pristine mean in wine? Unmarked, crystalline — no funk. Pairing Method glossary."
+      "seo_description": "What does Pristine mean in wine? Unmarked, crystalline — no funk. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "steely": {
       "id": "steely",
@@ -6264,7 +6693,9 @@
         "steel"
       ],
       "seo_title": "Steely in Wine — Acidity Descriptor & Pairing Guide",
-      "seo_description": "What does Steely mean in wine? Metal-wire acid — very linear. Pairing Method glossary."
+      "seo_description": "What does Steely mean in wine? Metal-wire acid — very linear. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "reductive-fault": {
       "id": "reductive-fault",
@@ -6289,7 +6720,9 @@
         "reductive"
       ],
       "seo_title": "Reductive in Wine — Yeast Descriptor & Pairing Guide",
-      "seo_description": "What does Reductive mean in wine? Matchstick, rubber edge — reduction; fault when dominant. Pairing Method glossary."
+      "seo_description": "What does Reductive mean in wine? Matchstick, rubber edge — reduction; fault when dominant. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "oxidized": {
       "id": "oxidized",
@@ -6317,7 +6750,9 @@
         "oxidation"
       ],
       "seo_title": "Oxidized in Wine — Yeast Descriptor & Pairing Guide",
-      "seo_description": "What does Oxidized mean in wine? Brown apple, sherry-like — oxygen exposure. Pairing Method glossary."
+      "seo_description": "What does Oxidized mean in wine? Brown apple, sherry-like — oxygen exposure. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "dirty": {
       "id": "dirty",
@@ -6343,7 +6778,9 @@
         "dirty"
       ],
       "seo_title": "Dirty in Wine — Herb Descriptor & Pairing Guide",
-      "seo_description": "What does Dirty mean in wine? Brett, VA, or unclean cellar note — usually negative. Pairing Method glossary."
+      "seo_description": "What does Dirty mean in wine? Brett, VA, or unclean cellar note — usually negative. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "long": {
       "id": "long",
@@ -6370,7 +6807,9 @@
         "length"
       ],
       "seo_title": "Long in Wine — Body Descriptor & Pairing Guide",
-      "seo_description": "What does Long mean in wine? Finish persists — quality marker. Pairing Method glossary."
+      "seo_description": "What does Long mean in wine? Finish persists — quality marker. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     },
     "persistent": {
       "id": "persistent",
@@ -6397,7 +6836,9 @@
         "persistent"
       ],
       "seo_title": "Persistent in Wine — Acidity Descriptor & Pairing Guide",
-      "seo_description": "What does Persistent mean in wine? Flavor and acid carry — won’t quit. Pairing Method glossary."
+      "seo_description": "What does Persistent mean in wine? Flavor and acid carry — won’t quit. Pairing Method glossary.",
+      "entity_type": "descriptor",
+      "domain": "wine"
     }
   }
 }

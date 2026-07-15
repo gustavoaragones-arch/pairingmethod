@@ -3265,3 +3265,95 @@ body.term-modal-open {
   }
 }
 
+/* ---------- ONTOLOGY-01A — Wine Style entity pages ---------- */
+.wine-style-entity-page {
+  --term-entity-accent: var(--wine-red);
+}
+
+.wine-style-classification {
+  font-size: 1.05rem;
+  color: var(--muted);
+  margin: 0.35rem 0 0;
+}
+
+.wine-style-summary p {
+  font-size: 1.1rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.wine-style-pronunciation,
+.wine-style-aliases {
+  color: var(--muted);
+  margin: 0.5rem 0 1rem;
+}
+
+.wine-structure-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  max-width: 420px;
+  margin: 0.75rem 0 0;
+}
+
+.wine-structure-bar {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr 3rem;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.wine-structure-label {
+  font-weight: 500;
+  font-size: 0.92rem;
+}
+
+.wine-structure-track {
+  display: block;
+  height: 0.55rem;
+  background: var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.wine-structure-fill {
+  display: block;
+  height: 100%;
+  width: var(--fill, 0%);
+  background: linear-gradient(90deg, var(--wine-red), #a83232);
+  border-radius: 999px;
+}
+
+.wine-structure-value {
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: right;
+}
+
+.wine-style-subhead {
+  font-size: 1rem;
+  margin: 1rem 0 0.35rem;
+  color: var(--muted);
+}
+
+.wine-style-substitute-intro {
+  margin-bottom: 0.5rem;
+}
+
+.term-search-hit-cat {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-left: 0.35rem;
+}
+
+@media (max-width: 768px) {
+  .wine-structure-bar {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .wine-structure-value {
+    text-align: left;
+  }
+}
+

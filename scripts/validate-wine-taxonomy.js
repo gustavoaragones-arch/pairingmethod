@@ -6,6 +6,11 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import {
+  inferDomain,
+  inferEntityType,
+  SUPPORTED_ENTITY_TYPES,
+} from "../lib/entity-model.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const TAXONOMY_PATH = path.join(__dirname, "..", "data", "wine-taxonomy.json");
@@ -15,6 +20,8 @@ const REQUIRED_NODE_FIELDS = [
   "slug",
   "name",
   "type",
+  "entity_type",
+  "domain",
   "category",
   "parent",
   "children",
@@ -67,8 +74,17 @@ function main() {
     for (const field of REQUIRED_NODE_FIELDS) {
       if (!(field in node)) errors.push(`${slug}: missing ${field}`);
     }
-    if (!["category", "group", "descriptor"].includes(node.type)) {
+    if (!["category", "group", "descriptor", "entity"].includes(node.type)) {
       errors.push(`${slug}: invalid type ${node.type}`);
+    }
+    if (!SUPPORTED_ENTITY_TYPES.includes(node.entity_type)) {
+      errors.push(`${slug}: invalid entity_type ${node.entity_type}`);
+    }
+    if (node.entity_type !== inferEntityType(node)) {
+      errors.push(`${slug}: entity_type ${node.entity_type} inconsistent with type ${node.type}`);
+    }
+    if (node.domain !== inferDomain(node)) {
+      errors.push(`${slug}: domain ${node.domain} inconsistent with entity_type ${node.entity_type}`);
     }
     for (const child of node.children ?? []) {
       if (!slugs.has(child)) errors.push(`${slug}: unknown child ${child}`);

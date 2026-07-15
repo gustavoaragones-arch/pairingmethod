@@ -379,7 +379,7 @@ export const REVERSE_GRAPH = {
       "wine-with-spicy-food",
       "wine-with-steak"
     ],
-    "chardonnay": [
+    "pinot-noir": [
       "wine-for-bbq-ribs",
       "wine-for-thanksgiving-turkey",
       "wine-with-chicken",
@@ -392,7 +392,7 @@ export const REVERSE_GRAPH = {
       "wine-with-spicy-food",
       "wine-with-steak"
     ],
-    "pinot-noir": [
+    "chardonnay": [
       "wine-for-bbq-ribs",
       "wine-for-thanksgiving-turkey",
       "wine-with-chicken",

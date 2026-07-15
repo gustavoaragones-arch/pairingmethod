@@ -1,9 +1,18 @@
 /**
- * Homepage: term shortcuts + unified taxonomy search (descriptor entity pages).
+ * Homepage: term shortcuts + unified taxonomy search (descriptors + wine styles + grapes).
  */
 
 import { HOMEPAGE_TERM_SHORTCUTS, WINE_TERMS } from "./wine-terms-data.js";
 import { TAXONOMY_SEARCH_INDEX } from "./taxonomy-search-index.js";
+import { WINE_STYLE_SEARCH_INDEX } from "./wine-style-search-index.js";
+
+const GRAPE_SEARCH_INDEX = [
+  { slug: "cabernet-sauvignon", name: "Cabernet Sauvignon", href: "/grapes/cabernet-sauvignon", haystack: "cabernet sauvignon grape variety red full bodied tannin" },
+  { slug: "pinot-noir", name: "Pinot Noir", href: "/grapes/pinot-noir", haystack: "pinot noir grape variety light red burgundy" },
+  { slug: "chardonnay", name: "Chardonnay", href: "/grapes/chardonnay", haystack: "chardonnay grape variety white burgundy" },
+  { slug: "sauvignon-blanc", name: "Sauvignon Blanc", href: "/grapes/sauvignon-blanc", haystack: "sauvignon blanc grape variety white herbaceous" },
+  { slug: "riesling", name: "Riesling", href: "/grapes/riesling", haystack: "riesling grape variety white aromatic german" },
+];
 
 function escapeHtml(s) {
   return String(s)
@@ -63,12 +72,37 @@ function setupSearch() {
     slug: entry.slug,
     label: entry.name,
     category: entry.categoryName,
+    entityKind: "descriptor",
+    href: entry.href,
+    hay: entry.haystack,
+  }));
+
+  const styleHits = WINE_STYLE_SEARCH_INDEX.map((entry) => ({
+    kind: "entity",
+    slug: entry.slug,
+    label: entry.name,
+    category: "Wine Style",
+    entityKind: "wine_style",
+    href: entry.href,
+    hay: entry.haystack,
+  }));
+
+  const grapeHits = GRAPE_SEARCH_INDEX.map((entry) => ({
+    kind: "entity",
+    slug: entry.slug,
+    label: entry.name,
+    category: "Grape Variety",
+    entityKind: "grape",
     href: entry.href,
     hay: entry.haystack,
   }));
 
   const legacyHits = Object.entries(WINE_TERMS)
-    .filter(([slug]) => !taxonomyHits.some((t) => t.slug === slug))
+    .filter(
+      ([slug]) =>
+        !taxonomyHits.some((t) => t.slug === slug) &&
+        !styleHits.some((t) => t.slug === slug)
+    )
     .map(([slug, d]) => ({
       kind: "modal",
       slug,
@@ -78,7 +112,7 @@ function setupSearch() {
       hay: legacyTermHaystack(slug, d),
     }));
 
-  const all = [...taxonomyHits, ...legacyHits];
+  const all = [...styleHits, ...grapeHits, ...taxonomyHits, ...legacyHits];
 
   function renderList(q) {
     const query = q.trim().toLowerCase();

@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-07-15T13:59:02.631Z",
+  "phase": "ONTOLOGY-01A",
+  "ontology_version": "2.0.0",
+  "supported_entity_types": [
+    "descriptor_category",
+    "descriptor_group",
+    "descriptor",
+    "wine_style",
+    "grape_variety",
+    "wine_region",
+    "wine_fault",
+    "winemaking_technique",
+    "serving",
+    "glassware",
+    "food",
+    "protein",
+    "cooking_method",
+    "sauce",
+    "cheese",
+    "herb",
+    "spice",
+    "vegetable",
+    "fruit",
+    "mushroom"
+  ],
+  "dashboard": [
+    {
+      "domain": "Wine",
+      "entity_type": "Descriptor",
+      "target": 187,
+      "current": 187,
+      "status": "complete"
+    },
+    {
+      "domain": "Wine",
+      "entity_type": "Category",
+      "target": 12,
+      "current": 12,
+      "status": "complete"
+    },
+    {
+      "domain": "Wine",
+      "entity_type": "Hierarchy (Group)",
+      "target": 10,
+      "current": 10,
+      "status": "complete"
+    },
+    {
+      "domain": "Wine",
+      "entity_type": "Grape Variety",
+      "target": 5,
+      "current": 5,
+      "status": "complete"
+    },
+    {
+      "domain": "Wine",
+      "entity_type": "Wine Style (Tier 1)",
+      "target": 28,
+      "current": 28,
+      "pages": 28,
+      "status": "complete"
+    },
+    {
+      "domain": "Wine",
+      "entity_type": "Region",
+      "target": 100,
+      "current": 0,
+      "status": "pending"
+    },
+    {
+      "domain": "Wine",
+      "entity_type": "Wine Fault",
+      "target": 20,
+      "current": 0,
+      "status": "pending"
+    },
+    {
+      "domain": "Wine",
+      "entity_type": "Winemaking Technique",
+      "target": 30,
+      "current": 0,
+      "status": "pending"
+    },
+    {
+      "domain": "Wine",
+      "entity_type": "Serving & Storage",
+      "target": 20,
+      "current": 0,
+      "status": "pending"
+    },
+    {
+      "domain": "Wine",
+      "entity_type": "Glassware",
+      "target": 15,
+      "current": 0,
+      "status": "pending"
+    },
+    {
+      "domain": "Culinary",
+      "entity_type": "Protein",
+      "target": null,
+      "current": 0,
+      "status": "planned"
+    },
+    {
+      "domain": "Culinary",
+      "entity_type": "Cooking Method",
+      "target": null,
+      "current": 0,
+      "status": "planned"
+    },
+    {
+      "domain": "Culinary",
+      "entity_type": "Ingredient",
+      "target": null,
+      "current": 0,
+      "status": "planned"
+    }
+  ],
+  "sitemap": {
+    "total": 258,
+    "style_urls": 28,
+    "descriptor_urls": 187,
+    "category_urls": 12
+  }
+}
