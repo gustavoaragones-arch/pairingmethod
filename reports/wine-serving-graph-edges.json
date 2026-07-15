@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T19:57:22.449Z",
+  "generated_at": "2026-07-15T22:55:48.950Z",
   "entity_count": 40,
   "total_edges": 512,
   "entities": [
@@ -29,7 +29,77 @@
         "mistakes": [
           "served-too-cold"
         ],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "moscato",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cava",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "veneto",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "penedes",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "piedmont",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "served-too-cold",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 11,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -68,7 +138,137 @@
         "mistakes": [
           "served-too-cold"
         ],
-        "edge_count": 21
+        "edge_count": 21,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "zesty",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "albarino",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "dry-rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "provence-rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "rias-baixas",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "provence",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "served-too-cold",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 21,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -103,7 +303,113 @@
           "served-too-cold",
           "served-too-warm"
         ],
-        "edge_count": 17
+        "edge_count": 17,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "balanced",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "viognier",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sangiovese",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "rhone-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "rioja",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "sonoma",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "served-too-cold",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          },
+          {
+            "type": "confused_with",
+            "target": "served-too-warm",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 17,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -133,7 +439,83 @@
           "served-too-warm",
           "served-too-cold"
         ],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "silky",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "perfumed",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "willamette-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "douro",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "served-too-warm",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          },
+          {
+            "type": "confused_with",
+            "target": "served-too-cold",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 12,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -167,7 +549,107 @@
         "mistakes": [
           "served-too-warm"
         ],
-        "edge_count": 16
+        "edge_count": 16,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "powerful",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "zinfandel",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "barossa-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "barolo",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "served-too-warm",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 16,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -189,7 +671,47 @@
         ],
         "regions": [],
         "mistakes": [],
-        "edge_count": 6
+        "edge_count": 6,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "hot",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          }
+        ],
+        "typed_edge_count": 6,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -222,7 +744,101 @@
         "mistakes": [
           "wrong-glass"
         ],
-        "edge_count": 15
+        "edge_count": 15,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "balanced",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sangiovese",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "mendoza",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "rioja",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "tuscany",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "wrong-glass",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 15,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -251,7 +867,77 @@
         "mistakes": [
           "wrong-glass"
         ],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "cassis",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "zinfandel",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "coonawarra",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "wrong-glass",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 11,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -279,7 +965,71 @@
         "mistakes": [
           "wrong-glass"
         ],
-        "edge_count": 10
+        "edge_count": 10,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "perfumed",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "silky",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "barolo",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "willamette-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "wrong-glass",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 10,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -319,7 +1069,143 @@
         "mistakes": [
           "wrong-glass"
         ],
-        "edge_count": 22
+        "edge_count": 22,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "zesty",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "albarino",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "dry-rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "provence-rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sherry",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "viognier",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "chablis",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "jerez",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "wrong-glass",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -344,7 +1230,59 @@
         "mistakes": [
           "wrong-glass"
         ],
-        "edge_count": 8
+        "edge_count": 8,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "recommended_for",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cava",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "veneto",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "penedes",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "wrong-glass",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 8,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -371,7 +1309,65 @@
         "mistakes": [
           "wrong-glass"
         ],
-        "edge_count": 9
+        "edge_count": 9,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "toasty",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cava",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "wrong-glass",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 9,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -393,7 +1389,41 @@
         "mistakes": [
           "wrong-glass"
         ],
-        "edge_count": 5
+        "edge_count": 5,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "recommended_for",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "wrong-glass",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 5,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -422,7 +1452,77 @@
         "mistakes": [
           "wrong-glass"
         ],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "sweet",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "rich",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "nutty",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "madeira",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "moscato",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "douro",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "madeira",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "piedmont",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "wrong-glass",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 11,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -465,7 +1565,161 @@
         "mistakes": [
           "over-decanted"
         ],
-        "edge_count": 25
+        "edge_count": 25,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cava",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "dry-rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "provence-rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "albarino",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "madeira",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "moscato",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sherry",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "viognier",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "veneto",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "provence",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "over-decanted",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 25,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -492,7 +1746,65 @@
           "under-decanted",
           "over-decanted"
         ],
-        "edge_count": 9
+        "edge_count": 9,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "creamy",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "balanced",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "chablis",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "under-decanted",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          },
+          {
+            "type": "confused_with",
+            "target": "over-decanted",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 9,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -520,7 +1832,71 @@
         "mistakes": [
           "under-decanted"
         ],
-        "edge_count": 10
+        "edge_count": 10,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "supple",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "mendoza",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "under-decanted",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 10,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -556,7 +1932,119 @@
           "under-decanted",
           "over-decanted"
         ],
-        "edge_count": 18
+        "edge_count": 18,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "balanced",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "zinfandel",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "rioja",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "barossa-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "sonoma",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "under-decanted",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          },
+          {
+            "type": "confused_with",
+            "target": "over-decanted",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 18,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -588,7 +2076,95 @@
           "under-decanted",
           "over-decanted"
         ],
-        "edge_count": 14
+        "edge_count": 14,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "cassis",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sangiovese",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "rhone-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "douro",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "under-decanted",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          },
+          {
+            "type": "confused_with",
+            "target": "over-decanted",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 14,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -618,7 +2194,83 @@
         "mistakes": [
           "under-decanted"
         ],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "tannic",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sangiovese",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "barolo",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "under-decanted",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 12,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -645,7 +2297,59 @@
         "mistakes": [
           "over-decanted"
         ],
-        "edge_count": 9
+        "edge_count": 9,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "tannic",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "barolo",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "over-decanted",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 8,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -679,7 +2383,113 @@
           "rias-baixas"
         ],
         "mistakes": [],
-        "edge_count": 17
+        "edge_count": 17,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "dry-rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "provence-rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "moscato",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "albarino",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "veneto",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "provence",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "rias-baixas",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 17,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -711,7 +2521,101 @@
           "rhone-valley"
         ],
         "mistakes": [],
-        "edge_count": 15
+        "edge_count": 15,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "balanced",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cava",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "zinfandel",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "viognier",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "penedes",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "alsace",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "rhone-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 15,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -748,7 +2652,131 @@
           "barossa-valley"
         ],
         "mistakes": [],
-        "edge_count": 20
+        "edge_count": 20,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "balanced",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "complex",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sangiovese",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "rioja",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "mosel",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "barossa-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 20,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -785,7 +2813,131 @@
           "madeira"
         ],
         "mistakes": [],
-        "edge_count": 20
+        "edge_count": 20,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "complex",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "powerful",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "madeira",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sherry",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "barolo",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "mosel",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "douro",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "madeira",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 20,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -813,7 +2965,77 @@
           "veneto"
         ],
         "mistakes": [],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "moscato",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "veneto",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 11,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -846,7 +3068,107 @@
           "burgundy"
         ],
         "mistakes": [],
-        "edge_count": 16
+        "edge_count": 16,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "balanced",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "complex",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "barolo",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "mosel",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 16,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -879,7 +3201,101 @@
         "mistakes": [
           "over-decanted"
         ],
-        "edge_count": 15
+        "edge_count": 15,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "leathery",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "complex",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "madeira",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "rioja",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "barolo",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "douro",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "over-decanted",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 15,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -911,7 +3327,95 @@
           "over-decanted",
           "oxidized-after-opening"
         ],
-        "edge_count": 14
+        "edge_count": 14,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "tired",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "oxidized",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "madeira",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sherry",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "douro",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "madeira",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "jerez",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "over-decanted",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          },
+          {
+            "type": "confused_with",
+            "target": "oxidized-after-opening",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 14,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -934,7 +3438,53 @@
         ],
         "regions": [],
         "mistakes": [],
-        "edge_count": 7
+        "edge_count": 7,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "austere",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "thin",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          }
+        ],
+        "typed_edge_count": 7,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -957,7 +3507,53 @@
         ],
         "regions": [],
         "mistakes": [],
-        "edge_count": 7
+        "edge_count": 7,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "hot",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          }
+        ],
+        "typed_edge_count": 7,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -981,7 +3577,59 @@
         ],
         "regions": [],
         "mistakes": [],
-        "edge_count": 8
+        "edge_count": 8,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "oxidized",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "tired",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          }
+        ],
+        "typed_edge_count": 8,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -1008,7 +3656,71 @@
           "barolo"
         ],
         "mistakes": [],
-        "edge_count": 10
+        "edge_count": 10,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "austere",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "closed",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sangiovese",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "barolo",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 10,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -1031,7 +3743,53 @@
         ],
         "regions": [],
         "mistakes": [],
-        "edge_count": 7
+        "edge_count": 7,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          }
+        ],
+        "typed_edge_count": 7,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -1055,7 +3813,59 @@
         ],
         "regions": [],
         "mistakes": [],
-        "edge_count": 8
+        "edge_count": 8,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "oxidized",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "tired",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          }
+        ],
+        "typed_edge_count": 8,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -1093,7 +3903,131 @@
           "served-too-cold",
           "served-too-warm"
         ],
-        "edge_count": 20
+        "edge_count": 20,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "balanced",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "mosel",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "served-too-cold",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          },
+          {
+            "type": "confused_with",
+            "target": "served-too-warm",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 20,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -1123,7 +4057,83 @@
         "mistakes": [
           "served-too-cold"
         ],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "honeyed",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "viognier",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "mosel",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "clare-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "served-too-cold",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 12,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -1153,7 +4163,83 @@
         "mistakes": [
           "served-too-warm"
         ],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "toasty",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "cava",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "veneto",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "penedes",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "served-too-warm",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 12,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -1181,7 +4267,77 @@
           "served-too-warm",
           "oxidized-after-opening"
         ],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "nutty",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "rich",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "saline",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "recommended_for",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "sherry",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "madeira",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "douro",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "jerez",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "madeira",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "served-too-warm",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          },
+          {
+            "type": "confused_with",
+            "target": "oxidized-after-opening",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 11,
+        "source_kind": "wine_serving"
       }
     },
     {
@@ -1210,7 +4366,77 @@
           "served-too-cold",
           "wrong-glass"
         ],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "related_descriptor",
+            "target": "perfumed",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "related_descriptor",
+            "target": "lychee",
+            "target_kind": "descriptor",
+            "source_field": "related_descriptors"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "related_grapes"
+          },
+          {
+            "type": "recommended_for",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "recommended_for",
+            "target": "moscato",
+            "target_kind": "wine_style",
+            "source_field": "related_styles|recommended_for|reverse"
+          },
+          {
+            "type": "associated_with",
+            "target": "alsace",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "mosel",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "confused_with",
+            "target": "served-too-cold",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          },
+          {
+            "type": "confused_with",
+            "target": "wrong-glass",
+            "target_kind": "wine_serving",
+            "source_field": "common_mistakes"
+          }
+        ],
+        "typed_edge_count": 11,
+        "source_kind": "wine_serving"
       }
     }
   ]

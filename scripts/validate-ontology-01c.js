@@ -159,6 +159,7 @@ function main() {
     const report = JSON.parse(fs.readFileSync(ONTOLOGY_REPORT, "utf8"));
     const row = report.dashboard?.find((r) => r.entity_type === "Serving & Service");
     if (!row || row.current < 40) fail("Ontology dashboard missing Serving & Service row");
+    else if (!report.graph_maturity?.semantic_relationships) fail("Semantic relationships missing from dashboard");
     else ok("Ontology coverage dashboard updated");
   }
 

@@ -95,7 +95,7 @@ function main() {
 
   const report = {
     generated_at: new Date().toISOString(),
-    phase: "ONTOLOGY-01C",
+    phase: "ONTOLOGY-01C.5",
     ontology_version: taxonomy.meta?.version ?? "unknown",
     supported_entity_types: taxonomy.meta?.entity_model?.supported_entity_types ?? ENTITY_TYPES,
     dashboard: rows,
@@ -112,6 +112,22 @@ function main() {
 
   fs.mkdirSync(path.dirname(REPORT_OUT), { recursive: true });
   fs.writeFileSync(REPORT_OUT, `${JSON.stringify(report, null, 2)}\n`, "utf8");
+
+  const semanticOut = path.join(ROOT, "reports", "semantic-relationship-summary.json");
+  fs.writeFileSync(
+    semanticOut,
+    `${JSON.stringify(
+      {
+        generated_at: report.generated_at,
+        phase: report.phase,
+        canonical_relationship_types: graphMaturity.semantic_relationships?.canonical_relationship_types,
+        ...graphMaturity.semantic_relationships,
+      },
+      null,
+      2
+    )}\n`,
+    "utf8"
+  );
 
   console.log("Ontology Coverage Report");
   console.log("========================");
@@ -138,6 +154,21 @@ function main() {
   console.log(`Fully connected (≥5 edges):  ${graphMaturity.fully_connected_entities_pct}%`);
   console.log(`Orphan entities:             ${graphMaturity.orphan_entities}`);
   console.log(`Broken graph edges:          ${graphMaturity.broken_graph_edges}`);
+  if (graphMaturity.semantic_relationships) {
+    const sr = graphMaturity.semantic_relationships;
+    console.log("\nSemantic Relationships");
+    console.log("----------------------");
+    console.log(`Canonical relationship types: ${sr.canonical_relationship_types}`);
+    console.log(`Typed edges (explicit):       ${sr.explicit_typed_edges}`);
+    console.log(`Typed edges (+ inferred rev): ${sr.total_edges_with_inferred_reverse}`);
+    console.log(`Anonymous edges remaining:    ${sr.anonymous_edges_remaining}`);
+    console.log(`Graph density (typed/entity): ${sr.graph_density}`);
+    console.log(`Traversal benchmark:          ${sr.traversal_benchmark.ms_per_lookup} ms/lookup`);
+    console.log("Top relationship types:");
+    for (const row of sr.most_common_relationships.slice(0, 5)) {
+      console.log(`  ${row.type.padEnd(28)} ${row.count}`);
+    }
+  }
   console.log(`\nFull report → ${path.relative(ROOT, REPORT_OUT)}`);
 }
 

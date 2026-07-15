@@ -1,0 +1,495 @@
+{
+  "meta": {
+    "phase": "ONTOLOGY-01C.5",
+    "version": "1.0.0",
+    "description": "Canonical semantic relationship types for the Pairing Method knowledge graph.",
+    "type_count": 53
+  },
+  "types": [
+    {
+      "id": "parent_of",
+      "label": "Parent of",
+      "category": "hierarchy",
+      "reverse": "child_of",
+      "requires_reverse": true,
+      "allowed_sources": ["wine_region", "descriptor_group", "descriptor", "descriptor_category"],
+      "allowed_targets": ["wine_region", "descriptor_group", "descriptor", "wine_region"]
+    },
+    {
+      "id": "child_of",
+      "label": "Child of",
+      "category": "hierarchy",
+      "reverse": "parent_of",
+      "requires_reverse": true,
+      "allowed_sources": ["wine_region", "descriptor_group", "descriptor"],
+      "allowed_targets": ["wine_region", "descriptor_group", "descriptor", "descriptor_category"]
+    },
+    {
+      "id": "contains",
+      "label": "Contains",
+      "category": "hierarchy",
+      "reverse": "contained_in",
+      "requires_reverse": true,
+      "allowed_sources": ["wine_region", "descriptor_category", "descriptor_group"],
+      "allowed_targets": ["wine_region", "descriptor", "descriptor_group", "wine_style"]
+    },
+    {
+      "id": "contained_in",
+      "label": "Contained in",
+      "category": "hierarchy",
+      "reverse": "contains",
+      "requires_reverse": true,
+      "allowed_sources": ["wine_region", "descriptor", "descriptor_group", "wine_style"],
+      "allowed_targets": ["wine_region", "descriptor_category", "descriptor_group"]
+    },
+    {
+      "id": "produced_in",
+      "label": "Produced in",
+      "category": "geography",
+      "reverse": "typical_of_region",
+      "requires_reverse": true,
+      "allowed_sources": ["wine_style"],
+      "allowed_targets": ["wine_region"]
+    },
+    {
+      "id": "located_in",
+      "label": "Located in",
+      "category": "geography",
+      "reverse": "contains",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_region", "grape_variety", "producer"],
+      "allowed_targets": ["wine_region"]
+    },
+    {
+      "id": "originates_from",
+      "label": "Originates from",
+      "category": "geography",
+      "reverse": "associated_with",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style", "grape_variety"],
+      "allowed_targets": ["wine_region"]
+    },
+    {
+      "id": "typically_has",
+      "label": "Typically has",
+      "category": "wine_structure",
+      "reverse": "associated_with",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style", "grape_variety"],
+      "allowed_targets": ["descriptor"]
+    },
+    {
+      "id": "typically_exhibits",
+      "label": "Typically exhibits",
+      "category": "wine_structure",
+      "reverse": "associated_with",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style", "grape_variety"],
+      "allowed_targets": ["descriptor"]
+    },
+    {
+      "id": "commonly_displays",
+      "label": "Commonly displays",
+      "category": "wine_structure",
+      "reverse": "associated_with",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style", "grape_variety", "wine_region"],
+      "allowed_targets": ["descriptor"]
+    },
+    {
+      "id": "commonly_expresses",
+      "label": "Commonly expresses",
+      "category": "wine_structure",
+      "reverse": "associated_with",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_region", "wine_style"],
+      "allowed_targets": ["descriptor"]
+    },
+    {
+      "id": "pairs_with",
+      "label": "Pairs with",
+      "category": "pairing",
+      "reverse": "pairs_with",
+      "symmetric": true,
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style", "wine_region", "grape_variety", "protein", "food"],
+      "allowed_targets": ["pairing", "protein", "food", "wine_style"]
+    },
+    {
+      "id": "pairs_best_with",
+      "label": "Pairs best with",
+      "category": "pairing",
+      "reverse": "pairs_with",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style", "wine_region", "grape_variety"],
+      "allowed_targets": ["pairing", "protein", "food"]
+    },
+    {
+      "id": "avoid_pairing_with",
+      "label": "Avoid pairing with",
+      "category": "pairing",
+      "reverse": "associated_with",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style", "grape_variety"],
+      "allowed_targets": ["pairing", "protein", "food"]
+    },
+    {
+      "id": "enhances",
+      "label": "Enhances",
+      "category": "pairing",
+      "reverse": "enhanced_by",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style", "cooking_method", "protein", "cheese"],
+      "allowed_targets": ["descriptor", "protein", "food"]
+    },
+    {
+      "id": "enhanced_by",
+      "label": "Enhanced by",
+      "category": "pairing",
+      "reverse": "enhances",
+      "requires_reverse": false,
+      "allowed_sources": ["descriptor", "protein", "food"],
+      "allowed_targets": ["wine_style", "cooking_method", "cheese"]
+    },
+    {
+      "id": "balances",
+      "label": "Balances",
+      "category": "pairing",
+      "reverse": "balanced_by",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style", "descriptor"],
+      "allowed_targets": ["descriptor", "protein", "food"]
+    },
+    {
+      "id": "balanced_by",
+      "label": "Balanced by",
+      "category": "pairing",
+      "reverse": "balances",
+      "requires_reverse": false,
+      "allowed_sources": ["descriptor", "protein", "food"],
+      "allowed_targets": ["wine_style", "descriptor"]
+    },
+    {
+      "id": "contrasts_with",
+      "label": "Contrasts with",
+      "category": "pairing",
+      "reverse": "contrasts_with",
+      "symmetric": true,
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style", "descriptor", "cheese", "protein"],
+      "allowed_targets": ["descriptor", "cheese", "protein", "food"]
+    },
+    {
+      "id": "recommended_glass",
+      "label": "Recommended glass",
+      "category": "serving",
+      "reverse": "recommended_for",
+      "requires_reverse": true,
+      "allowed_sources": ["wine_style"],
+      "allowed_targets": ["wine_serving"]
+    },
+    {
+      "id": "recommended_temperature",
+      "label": "Recommended temperature",
+      "category": "serving",
+      "reverse": "recommended_for",
+      "requires_reverse": true,
+      "allowed_sources": ["wine_style"],
+      "allowed_targets": ["wine_serving"]
+    },
+    {
+      "id": "recommended_decanting",
+      "label": "Recommended decanting",
+      "category": "serving",
+      "reverse": "recommended_for",
+      "requires_reverse": true,
+      "allowed_sources": ["wine_style"],
+      "allowed_targets": ["wine_serving"]
+    },
+    {
+      "id": "recommended_cellaring",
+      "label": "Recommended cellaring",
+      "category": "serving",
+      "reverse": "recommended_for",
+      "requires_reverse": true,
+      "allowed_sources": ["wine_style"],
+      "allowed_targets": ["wine_serving"]
+    },
+    {
+      "id": "recommended_aging",
+      "label": "Recommended aging",
+      "category": "serving",
+      "reverse": "recommended_for",
+      "requires_reverse": true,
+      "allowed_sources": ["wine_style"],
+      "allowed_targets": ["wine_serving"]
+    },
+    {
+      "id": "recommended_for",
+      "label": "Recommended for",
+      "category": "serving",
+      "reverse": "recommended_glass",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_serving"],
+      "allowed_targets": ["wine_style"]
+    },
+    {
+      "id": "served_in",
+      "label": "Served in",
+      "category": "serving",
+      "reverse": "recommended_for",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style"],
+      "allowed_targets": ["wine_serving"]
+    },
+    {
+      "id": "served_at",
+      "label": "Served at",
+      "category": "serving",
+      "reverse": "recommended_for",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style"],
+      "allowed_targets": ["wine_serving"]
+    },
+    {
+      "id": "aged_by",
+      "label": "Aged by",
+      "category": "serving",
+      "reverse": "recommended_for",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style"],
+      "allowed_targets": ["wine_serving"]
+    },
+    {
+      "id": "creates_descriptor",
+      "label": "Creates descriptor",
+      "category": "descriptor",
+      "reverse": "derived_from",
+      "requires_reverse": false,
+      "allowed_sources": ["winemaking_technique", "wine_fault"],
+      "allowed_targets": ["descriptor"]
+    },
+    {
+      "id": "reduces_descriptor",
+      "label": "Reduces descriptor",
+      "category": "descriptor",
+      "reverse": "enhances_descriptor",
+      "requires_reverse": false,
+      "allowed_sources": ["winemaking_technique", "wine_fault"],
+      "allowed_targets": ["descriptor"]
+    },
+    {
+      "id": "enhances_descriptor",
+      "label": "Enhances descriptor",
+      "category": "descriptor",
+      "reverse": "reduces_descriptor",
+      "requires_reverse": false,
+      "allowed_sources": ["winemaking_technique", "wine_serving"],
+      "allowed_targets": ["descriptor"]
+    },
+    {
+      "id": "related_descriptor",
+      "label": "Related descriptor",
+      "category": "descriptor",
+      "reverse": "related_descriptor",
+      "symmetric": true,
+      "requires_reverse": false,
+      "allowed_sources": ["descriptor", "wine_serving", "wine_style", "wine_region"],
+      "allowed_targets": ["descriptor"]
+    },
+    {
+      "id": "opposite_descriptor",
+      "label": "Opposite descriptor",
+      "category": "descriptor",
+      "reverse": "opposite_descriptor",
+      "symmetric": true,
+      "requires_reverse": false,
+      "allowed_sources": ["descriptor"],
+      "allowed_targets": ["descriptor"]
+    },
+    {
+      "id": "confused_with",
+      "label": "Confused with",
+      "category": "descriptor",
+      "reverse": "confused_with",
+      "symmetric": true,
+      "requires_reverse": false,
+      "allowed_sources": ["descriptor", "wine_serving", "wine_style", "wine_region"],
+      "allowed_targets": ["descriptor", "wine_serving", "wine_style", "wine_region"]
+    },
+    {
+      "id": "increases_perception_of",
+      "label": "Increases perception of",
+      "category": "descriptor",
+      "reverse": "reduces_descriptor",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_serving", "wine_fault", "winemaking_technique"],
+      "allowed_targets": ["descriptor"]
+    },
+    {
+      "id": "similar_to",
+      "label": "Similar to",
+      "category": "similarity",
+      "reverse": "similar_to",
+      "symmetric": true,
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style", "wine_region", "grape_variety", "descriptor"],
+      "allowed_targets": ["wine_style", "wine_region", "grape_variety", "descriptor"]
+    },
+    {
+      "id": "alternative_to",
+      "label": "Alternative to",
+      "category": "similarity",
+      "reverse": "alternative_to",
+      "symmetric": true,
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style", "grape_variety"],
+      "allowed_targets": ["wine_style", "grape_variety"]
+    },
+    {
+      "id": "substitute_for",
+      "label": "Substitute for",
+      "category": "similarity",
+      "reverse": "alternative_to",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style"],
+      "allowed_targets": ["wine_style"]
+    },
+    {
+      "id": "contains_grape",
+      "label": "Contains grape",
+      "category": "composition",
+      "reverse": "blend_component",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style"],
+      "allowed_targets": ["grape_variety"]
+    },
+    {
+      "id": "made_from",
+      "label": "Made from",
+      "category": "composition",
+      "reverse": "blend_component",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_style"],
+      "allowed_targets": ["grape_variety"]
+    },
+    {
+      "id": "blend_component",
+      "label": "Blend component",
+      "category": "composition",
+      "reverse": "contains_grape",
+      "requires_reverse": false,
+      "allowed_sources": ["grape_variety"],
+      "allowed_targets": ["wine_style"]
+    },
+    {
+      "id": "typical_of_region",
+      "label": "Typical of region",
+      "category": "region",
+      "reverse": "produced_in",
+      "requires_reverse": true,
+      "allowed_sources": ["wine_region"],
+      "allowed_targets": ["wine_style"]
+    },
+    {
+      "id": "grown_in",
+      "label": "Grown in",
+      "category": "region",
+      "reverse": "common_in_region",
+      "requires_reverse": true,
+      "allowed_sources": ["grape_variety"],
+      "allowed_targets": ["wine_region"]
+    },
+    {
+      "id": "common_in_region",
+      "label": "Common in region",
+      "category": "region",
+      "reverse": "grown_in",
+      "requires_reverse": true,
+      "allowed_sources": ["wine_region", "wine_serving"],
+      "allowed_targets": ["grape_variety", "wine_serving"]
+    },
+    {
+      "id": "requires",
+      "label": "Requires",
+      "category": "miscellaneous",
+      "reverse": "associated_with",
+      "requires_reverse": false,
+      "allowed_sources": ["winemaking_technique", "wine_serving"],
+      "allowed_targets": ["descriptor", "wine_serving", "winemaking_technique"]
+    },
+    {
+      "id": "influences",
+      "label": "Influences",
+      "category": "miscellaneous",
+      "reverse": "influenced_by",
+      "requires_reverse": false,
+      "allowed_sources": ["winemaking_technique", "wine_region", "cooking_method"],
+      "allowed_targets": ["descriptor", "wine_style"]
+    },
+    {
+      "id": "influenced_by",
+      "label": "Influenced by",
+      "category": "miscellaneous",
+      "reverse": "influences",
+      "requires_reverse": false,
+      "allowed_sources": ["descriptor", "wine_style"],
+      "allowed_targets": ["winemaking_technique", "wine_region", "cooking_method"]
+    },
+    {
+      "id": "derived_from",
+      "label": "Derived from",
+      "category": "miscellaneous",
+      "reverse": "creates_descriptor",
+      "requires_reverse": false,
+      "allowed_sources": ["descriptor", "wine_style"],
+      "allowed_targets": ["winemaking_technique", "wine_fault", "descriptor"]
+    },
+    {
+      "id": "associated_with",
+      "label": "Associated with",
+      "category": "miscellaneous",
+      "reverse": "associated_with",
+      "symmetric": true,
+      "requires_reverse": false,
+      "allowed_sources": ["wine_serving", "wine_region", "descriptor", "grape_variety"],
+      "allowed_targets": ["grape_variety", "wine_region", "descriptor", "wine_serving"]
+    },
+    {
+      "id": "causes",
+      "label": "Causes",
+      "category": "miscellaneous",
+      "reverse": "caused_by",
+      "requires_reverse": false,
+      "allowed_sources": ["wine_fault", "wine_serving", "winemaking_technique"],
+      "allowed_targets": ["descriptor", "wine_fault"]
+    },
+    {
+      "id": "caused_by",
+      "label": "Caused by",
+      "category": "miscellaneous",
+      "reverse": "causes",
+      "requires_reverse": false,
+      "allowed_sources": ["descriptor", "wine_fault"],
+      "allowed_targets": ["wine_fault", "wine_serving", "winemaking_technique"]
+    },
+    {
+      "id": "common_in",
+      "label": "Common in",
+      "category": "miscellaneous",
+      "reverse": "typical_of_region",
+      "requires_reverse": false,
+      "allowed_sources": ["winemaking_technique", "wine_fault"],
+      "allowed_targets": ["wine_style", "wine_region"]
+    },
+    {
+      "id": "reduces",
+      "label": "Reduces",
+      "category": "miscellaneous",
+      "reverse": "enhances",
+      "requires_reverse": false,
+      "allowed_sources": ["winemaking_technique", "wine_fault"],
+      "allowed_targets": ["descriptor"]
+    }
+  ]
+}

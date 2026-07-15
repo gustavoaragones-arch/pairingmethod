@@ -1,0 +1,163 @@
+{
+  "generated_at": "2026-07-15T22:56:15.092Z",
+  "phase": "ONTOLOGY-01C.5",
+  "canonical_relationship_types": 53,
+  "typed_edges": 2625,
+  "explicit_typed_edges": 2625,
+  "total_edges_with_inferred_reverse": 4423,
+  "anonymous_edges_remaining": 0,
+  "relationship_type_counts": {
+    "typically_exhibits": 169,
+    "contains_grape": 48,
+    "pairs_best_with": 39,
+    "similar_to": 212,
+    "substitute_for": 57,
+    "produced_in": 90,
+    "recommended_temperature": 28,
+    "recommended_glass": 28,
+    "recommended_decanting": 28,
+    "recommended_cellaring": 28,
+    "pairs_with": 72,
+    "commonly_expresses": 306,
+    "common_in_region": 192,
+    "typical_of_region": 161,
+    "contains": 39,
+    "child_of": 226,
+    "related_descriptor": 361,
+    "associated_with": 176,
+    "recommended_for": 189,
+    "confused_with": 36,
+    "opposite_descriptor": 140
+  },
+  "most_common_relationships": [
+    {
+      "type": "related_descriptor",
+      "count": 361
+    },
+    {
+      "type": "commonly_expresses",
+      "count": 306
+    },
+    {
+      "type": "child_of",
+      "count": 226
+    },
+    {
+      "type": "similar_to",
+      "count": 212
+    },
+    {
+      "type": "common_in_region",
+      "count": 192
+    },
+    {
+      "type": "recommended_for",
+      "count": 189
+    },
+    {
+      "type": "associated_with",
+      "count": 176
+    },
+    {
+      "type": "typically_exhibits",
+      "count": 169
+    },
+    {
+      "type": "typical_of_region",
+      "count": 161
+    },
+    {
+      "type": "opposite_descriptor",
+      "count": 140
+    }
+  ],
+  "least_used_relationships": [
+    {
+      "type": "pairs_with",
+      "count": 72
+    },
+    {
+      "type": "substitute_for",
+      "count": 57
+    },
+    {
+      "type": "contains_grape",
+      "count": 48
+    },
+    {
+      "type": "pairs_best_with",
+      "count": 39
+    },
+    {
+      "type": "contains",
+      "count": 39
+    },
+    {
+      "type": "confused_with",
+      "count": 36
+    },
+    {
+      "type": "recommended_temperature",
+      "count": 28
+    },
+    {
+      "type": "recommended_glass",
+      "count": 28
+    },
+    {
+      "type": "recommended_decanting",
+      "count": 28
+    },
+    {
+      "type": "recommended_cellaring",
+      "count": 28
+    }
+  ],
+  "entity_type_relationship_matrix": {
+    "wine_style": {
+      "typically_exhibits": 169,
+      "contains_grape": 48,
+      "pairs_best_with": 39,
+      "similar_to": 81,
+      "substitute_for": 57,
+      "produced_in": 90,
+      "recommended_temperature": 28,
+      "recommended_glass": 28,
+      "recommended_decanting": 28,
+      "recommended_cellaring": 28,
+      "pairs_with": 1
+    },
+    "wine_region": {
+      "commonly_expresses": 306,
+      "common_in_region": 192,
+      "typical_of_region": 161,
+      "contains": 39,
+      "similar_to": 131,
+      "pairs_with": 33,
+      "child_of": 39
+    },
+    "wine_serving": {
+      "related_descriptor": 110,
+      "associated_with": 176,
+      "recommended_for": 189,
+      "confused_with": 36
+    },
+    "descriptor": {
+      "child_of": 187,
+      "related_descriptor": 251,
+      "opposite_descriptor": 140
+    },
+    "grape_variety": {
+      "pairs_with": 38
+    }
+  },
+  "graph_density": 8.44,
+  "validation_errors": 0,
+  "traversal_benchmark": {
+    "iterations": 3000,
+    "ms_total": 55.024,
+    "ms_per_lookup": 0.01834,
+    "keys_tested": 398,
+    "relationship_types_tested": 26
+  }
+}

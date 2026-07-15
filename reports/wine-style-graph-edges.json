@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T19:57:23.389Z",
+  "generated_at": "2026-07-15T22:55:50.400Z",
   "style_count": 28,
   "total_edges": 356,
   "descriptor_links": 169,
@@ -36,7 +36,155 @@
           "malbec",
           "syrah-shiraz"
         ],
-        "edge_count": 16
+        "edge_count": 16,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "cassis",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "graphite",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "cedar",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "powerful",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-for-bbq-ribs",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "chile",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "coonawarra",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "room-temperature",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "bordeaux-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "1-hour",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "long-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 24,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -65,7 +213,143 @@
           "cabernet-sauvignon",
           "malbec"
         ],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "plummy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "chocolate",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "supple",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "merlot",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "chile",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "italy",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "room-temperature",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "universal-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "30-minutes",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "medium-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -96,7 +380,143 @@
           "grenache",
           "merlot"
         ],
-        "edge_count": 14
+        "edge_count": 14,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "raspberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "silky",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-salmon",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-for-thanksgiving-turkey",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "willamette-valley",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "sonoma",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "cellar-temperature",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "burgundy-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "30-minutes",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "medium-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -125,7 +545,143 @@
           "malbec",
           "cabernet-sauvignon"
         ],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "black-pepper",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "smoky",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "spicy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "leathery",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "syrah",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-for-bbq-ribs",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "rhone-valley",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "barossa-valley",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "south-africa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "room-temperature",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "universal-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "1-hour",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "medium-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -154,7 +710,143 @@
           "merlot",
           "syrah-shiraz"
         ],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "plummy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "violet",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "chocolate",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "malbec",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-for-bbq-ribs",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "mendoza",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "cahors",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "chile",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "room-temperature",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "universal-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "30-minutes",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "medium-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -183,7 +875,143 @@
           "pinot-noir",
           "tempranillo"
         ],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "raspberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "strawberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "spicy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "herbal",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "vibrant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "grenache",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-for-bbq-ribs",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "rhone-valley",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "priorat",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "barossa-valley",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "cool",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "universal-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "short-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -211,7 +1039,137 @@
           "tempranillo",
           "pinot-noir"
         ],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "herbal",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "tart",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "rustic",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "sangiovese",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "tuscany",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "italy",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "cool",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "universal-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "1-hour",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "medium-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 21,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -239,7 +1197,137 @@
           "sangiovese",
           "tempranillo"
         ],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "tar",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "rose-petal",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "violet",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "austere",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "nebbiolo",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "sangiovese",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "sangiovese",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "piedmont",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "italy",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "room-temperature",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "burgundy-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "extended-decant",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "long-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 21,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -268,7 +1356,143 @@
           "sangiovese",
           "merlot"
         ],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "leathery",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "vanilla",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "balanced",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "tempranillo",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "sangiovese",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "sangiovese",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "rioja",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "ribera-del-duero",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "portugal",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "cool",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "universal-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "30-minutes",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "medium-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -297,7 +1521,137 @@
           "syrah-shiraz",
           "malbec"
         ],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "jammy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "spicy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "powerful",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "sweet-tobacco",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "zinfandel",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-for-bbq-ribs",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "sonoma",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "italy",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "room-temperature",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "bordeaux-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "30-minutes",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "short-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 21,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -330,7 +1684,155 @@
           "viognier",
           "chenin-blanc"
         ],
-        "edge_count": 16
+        "edge_count": 16,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "buttery",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "toasty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "vanilla",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "peach",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "quince",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "rich",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-salmon",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-creamy-dishes",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-for-thanksgiving-turkey",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "viognier",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "viognier",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "chile",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "cool",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "white-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "splash-decant",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "short-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 24,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -361,7 +1863,143 @@
           "albarino",
           "pinot-grigio"
         ],
-        "edge_count": 14
+        "edge_count": 14,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "grapefruit",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "gooseberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "grassy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "zesty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-salmon",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "albarino",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "albarino",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "chile",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "white-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -391,7 +2029,137 @@
           "gewurztraminer",
           "chenin-blanc"
         ],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "lime",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "peach",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "honeyed",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-for-thanksgiving-turkey",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "albarino",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "mosel",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "alsace",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "austria",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "clare-valley",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "white-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "medium-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 21,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -420,7 +2188,143 @@
           "sauvignon-blanc",
           "albarino"
         ],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "lemon",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "light-bodied",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "clean",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "delicate",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "pinot-grigio",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-salmon",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "albarino",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "albarino",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "veneto",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "alsace",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "willamette-valley",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "white-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -449,7 +2353,143 @@
           "riesling",
           "chardonnay"
         ],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "quince",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "peach",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "honeyed",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "balanced",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "chenin-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-creamy-dishes",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "viognier",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "south-africa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "lightly-chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "white-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "30-minutes",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "medium-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -478,7 +2518,143 @@
           "chardonnay",
           "gewurztraminer"
         ],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "apricot",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "peach",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "perfumed",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "rich",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "oily",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "viognier",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-creamy-dishes",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "rhone-valley",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "cool",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "white-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "short-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -504,7 +2680,131 @@
           "riesling",
           "viognier"
         ],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "lychee",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "rose-petal",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "ginger",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "spicy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "perfumed",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "gewurztraminer",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "similar_to",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "viognier",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "moscato",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "viognier",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "alsace",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "italy",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "new-zealand",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "aromatic-white-service",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "short-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 20,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -532,7 +2832,137 @@
           "sauvignon-blanc",
           "pinot-grigio"
         ],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "peach",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "citrus-zest",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "saline",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "albarino",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-salmon",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "rias-baixas",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "portugal",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "willamette-valley",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "white-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 21,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -562,7 +2992,125 @@
           "cava",
           "prosecco"
         ],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "brioche",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "toast",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "citrus-zest",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "pinot-meunier",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-creamy-dishes",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "cava",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "cava",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "sparkling-chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "champagne-tulip",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "medium-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 19,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -590,7 +3138,119 @@
           "cava",
           "champagne"
         ],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "peach",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "quince",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "white-flowers",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "glera",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "cava",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "moscato",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "cava",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "veneto",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "ice-cold",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "champagne-flute",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 18,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -617,7 +3277,131 @@
           "champagne",
           "prosecco"
         ],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "quince",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "nutty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "citrus-zest",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "toasty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "dry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "macabeo",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "xarel-lo",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "parellada",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-creamy-dishes",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "penedes",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "spain",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "sparkling-chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "champagne-flute",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "short-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 20,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -647,7 +3431,155 @@
           "dry-rose",
           "provence-rose"
         ],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "strawberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "peach",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "dry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "grenache",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "syrah",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "mourvedre",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "dry-rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "provence-rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "dry-rose",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "provence-rose",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "provence",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "spain",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "italy",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "white-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 24,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -678,7 +3610,161 @@
           "provence-rose",
           "rose"
         ],
-        "edge_count": 14
+        "edge_count": 14,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "strawberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "citrus-zest",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "dry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "grenache",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "cinsault",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "syrah",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-salmon",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "provence-rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "provence-rose",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "provence",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "spain",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "white-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 25,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -706,7 +3792,131 @@
           "dry-rose",
           "rose"
         ],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "strawberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "peach",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "herbal",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "saline",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "grenache",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "cinsault",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "syrah",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "pairs_best_with",
+            "target": "wine-with-salmon",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "similar_to",
+            "target": "dry-rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "dry-rose",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "provence",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "white-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 20,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -732,7 +3942,131 @@
           "madeira",
           "moscato"
         ],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "chocolate",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "rich",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "sweet",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "spicy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "touriga-nacional",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "tinta-roriz",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "touriga-franca",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "tinta-barroca",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "similar_to",
+            "target": "madeira",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "sherry",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "moscato",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "madeira",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "moscato",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "douro",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "fortified-service",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "dessert-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "1-hour",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "long-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 20,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -758,7 +4092,131 @@
           "sherry",
           "port"
         ],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "caramel",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "nutty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "orange",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "toasty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "rich",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "complex",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "sercial",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "verdelho",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "boal",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "malvasia",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "similar_to",
+            "target": "sherry",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "madeira",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "sherry",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "madeira",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "fortified-service",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "dessert-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "long-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 20,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -784,7 +4242,125 @@
           "madeira",
           "cava"
         ],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "nutty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "saline",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "toasty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "dry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "complex",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "palomino",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "pedro-ximenez",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "contains_grape",
+            "target": "moscatel",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "similar_to",
+            "target": "madeira",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "cava",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "madeira",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "cava",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "jerez",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "fortified-service",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "white-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "long-term-aging",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 19,
+        "source_kind": "wine_style"
       }
     },
     {
@@ -810,7 +4386,125 @@
           "gewurztraminer",
           "prosecco"
         ],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "typically_exhibits",
+            "target": "peach",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "orange",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "sweet",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "typically_exhibits",
+            "target": "perfumed",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "contains_grape",
+            "target": "moscato",
+            "target_kind": "grape_variety",
+            "source_field": "primary_grapes"
+          },
+          {
+            "type": "similar_to",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "related_styles"
+          },
+          {
+            "type": "substitute_for",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "substitute_for",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "substitutes"
+          },
+          {
+            "type": "produced_in",
+            "target": "piedmont",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "produced_in",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "typical_regions"
+          },
+          {
+            "type": "recommended_temperature",
+            "target": "ice-cold",
+            "target_kind": "wine_serving",
+            "source_field": "serving.temperature"
+          },
+          {
+            "type": "recommended_glass",
+            "target": "dessert-wine-glass",
+            "target_kind": "wine_serving",
+            "source_field": "serving.glassware"
+          },
+          {
+            "type": "recommended_decanting",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving.decanting"
+          },
+          {
+            "type": "recommended_cellaring",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving.cellaring"
+          }
+        ],
+        "typed_edge_count": 19,
+        "source_kind": "wine_style"
       }
     }
   ]
