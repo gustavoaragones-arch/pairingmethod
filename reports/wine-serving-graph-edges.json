@@ -1,0 +1,1217 @@
+{
+  "generated_at": "2026-07-15T19:57:22.449Z",
+  "entity_count": 40,
+  "total_edges": 512,
+  "entities": [
+    {
+      "slug": "ice-cold",
+      "name": "Ice Cold",
+      "family": "temperature",
+      "edges": {
+        "descriptors": [
+          "crisp",
+          "bright",
+          "fresh"
+        ],
+        "grapes": [
+          "riesling"
+        ],
+        "styles": [
+          "prosecco",
+          "moscato",
+          "cava"
+        ],
+        "regions": [
+          "veneto",
+          "penedes",
+          "piedmont"
+        ],
+        "mistakes": [
+          "served-too-cold"
+        ],
+        "edge_count": 11
+      }
+    },
+    {
+      "slug": "chilled",
+      "name": "Chilled",
+      "family": "temperature",
+      "edges": {
+        "descriptors": [
+          "crisp",
+          "bright",
+          "zesty"
+        ],
+        "grapes": [
+          "sauvignon-blanc",
+          "chardonnay",
+          "riesling"
+        ],
+        "styles": [
+          "sauvignon-blanc",
+          "pinot-grigio",
+          "albarino",
+          "rose",
+          "dry-rose",
+          "provence-rose",
+          "gewurztraminer",
+          "riesling",
+          "champagne"
+        ],
+        "regions": [
+          "marlborough",
+          "rias-baixas",
+          "loire-valley",
+          "champagne",
+          "provence"
+        ],
+        "mistakes": [
+          "served-too-cold"
+        ],
+        "edge_count": 21
+      }
+    },
+    {
+      "slug": "cool",
+      "name": "Cool",
+      "family": "temperature",
+      "edges": {
+        "descriptors": [
+          "balanced",
+          "elegant",
+          "smooth"
+        ],
+        "grapes": [
+          "chardonnay",
+          "pinot-noir"
+        ],
+        "styles": [
+          "chardonnay",
+          "viognier",
+          "pinot-noir",
+          "tempranillo",
+          "grenache",
+          "sangiovese"
+        ],
+        "regions": [
+          "burgundy",
+          "rhone-valley",
+          "rioja",
+          "sonoma"
+        ],
+        "mistakes": [
+          "served-too-cold",
+          "served-too-warm"
+        ],
+        "edge_count": 17
+      }
+    },
+    {
+      "slug": "cellar-temperature",
+      "name": "Cellar Temperature",
+      "family": "temperature",
+      "edges": {
+        "descriptors": [
+          "elegant",
+          "silky",
+          "perfumed"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "pinot-noir",
+          "port"
+        ],
+        "regions": [
+          "burgundy",
+          "willamette-valley",
+          "douro"
+        ],
+        "mistakes": [
+          "served-too-warm",
+          "served-too-cold"
+        ],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "room-temperature",
+      "name": "Room Temperature",
+      "family": "temperature",
+      "edges": {
+        "descriptors": [
+          "structured",
+          "powerful",
+          "firm"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "pinot-noir"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "merlot",
+          "syrah-shiraz",
+          "malbec",
+          "nebbiolo",
+          "zinfandel"
+        ],
+        "regions": [
+          "bordeaux",
+          "napa-valley",
+          "barossa-valley",
+          "barolo"
+        ],
+        "mistakes": [
+          "served-too-warm"
+        ],
+        "edge_count": 16
+      }
+    },
+    {
+      "slug": "too-warm",
+      "name": "Too Warm",
+      "family": "temperature",
+      "edges": {
+        "descriptors": [
+          "hot",
+          "flat"
+        ],
+        "grapes": [
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "chardonnay",
+          "port"
+        ],
+        "regions": [],
+        "mistakes": [],
+        "edge_count": 6
+      }
+    },
+    {
+      "slug": "universal-wine-glass",
+      "name": "Universal Wine Glass",
+      "family": "glassware",
+      "edges": {
+        "descriptors": [
+          "balanced",
+          "smooth"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "pinot-noir"
+        ],
+        "styles": [
+          "merlot",
+          "malbec",
+          "syrah-shiraz",
+          "grenache",
+          "tempranillo",
+          "sangiovese"
+        ],
+        "regions": [
+          "bordeaux",
+          "mendoza",
+          "rioja",
+          "tuscany"
+        ],
+        "mistakes": [
+          "wrong-glass"
+        ],
+        "edge_count": 15
+      }
+    },
+    {
+      "slug": "bordeaux-glass",
+      "name": "Bordeaux Glass",
+      "family": "glassware",
+      "edges": {
+        "descriptors": [
+          "structured",
+          "cassis",
+          "firm"
+        ],
+        "grapes": [
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "zinfandel",
+          "merlot"
+        ],
+        "regions": [
+          "bordeaux",
+          "napa-valley",
+          "coonawarra"
+        ],
+        "mistakes": [
+          "wrong-glass"
+        ],
+        "edge_count": 11
+      }
+    },
+    {
+      "slug": "burgundy-glass",
+      "name": "Burgundy Glass",
+      "family": "glassware",
+      "edges": {
+        "descriptors": [
+          "elegant",
+          "perfumed",
+          "silky"
+        ],
+        "grapes": [
+          "pinot-noir"
+        ],
+        "styles": [
+          "pinot-noir",
+          "nebbiolo"
+        ],
+        "regions": [
+          "burgundy",
+          "barolo",
+          "willamette-valley"
+        ],
+        "mistakes": [
+          "wrong-glass"
+        ],
+        "edge_count": 10
+      }
+    },
+    {
+      "slug": "white-wine-glass",
+      "name": "White Wine Glass",
+      "family": "glassware",
+      "edges": {
+        "descriptors": [
+          "crisp",
+          "bright",
+          "zesty"
+        ],
+        "grapes": [
+          "chardonnay",
+          "sauvignon-blanc",
+          "riesling"
+        ],
+        "styles": [
+          "sauvignon-blanc",
+          "pinot-grigio",
+          "albarino",
+          "chenin-blanc",
+          "rose",
+          "dry-rose",
+          "provence-rose",
+          "riesling",
+          "chardonnay",
+          "sherry",
+          "viognier"
+        ],
+        "regions": [
+          "marlborough",
+          "loire-valley",
+          "chablis",
+          "jerez"
+        ],
+        "mistakes": [
+          "wrong-glass"
+        ],
+        "edge_count": 22
+      }
+    },
+    {
+      "slug": "champagne-flute",
+      "name": "Champagne Flute",
+      "family": "glassware",
+      "edges": {
+        "descriptors": [
+          "bright",
+          "crisp",
+          "fresh"
+        ],
+        "grapes": [],
+        "styles": [
+          "prosecco",
+          "cava"
+        ],
+        "regions": [
+          "veneto",
+          "penedes"
+        ],
+        "mistakes": [
+          "wrong-glass"
+        ],
+        "edge_count": 8
+      }
+    },
+    {
+      "slug": "champagne-tulip",
+      "name": "Champagne Tulip",
+      "family": "glassware",
+      "edges": {
+        "descriptors": [
+          "toasty",
+          "elegant",
+          "minerality"
+        ],
+        "grapes": [
+          "chardonnay",
+          "pinot-noir"
+        ],
+        "styles": [
+          "champagne",
+          "cava"
+        ],
+        "regions": [
+          "champagne"
+        ],
+        "mistakes": [
+          "wrong-glass"
+        ],
+        "edge_count": 9
+      }
+    },
+    {
+      "slug": "coupe",
+      "name": "Coupe Glass",
+      "family": "glassware",
+      "edges": {
+        "descriptors": [
+          "flat"
+        ],
+        "grapes": [],
+        "styles": [
+          "champagne",
+          "prosecco"
+        ],
+        "regions": [
+          "champagne"
+        ],
+        "mistakes": [
+          "wrong-glass"
+        ],
+        "edge_count": 5
+      }
+    },
+    {
+      "slug": "dessert-wine-glass",
+      "name": "Dessert Wine Glass",
+      "family": "glassware",
+      "edges": {
+        "descriptors": [
+          "sweet",
+          "rich",
+          "nutty"
+        ],
+        "grapes": [
+          "riesling"
+        ],
+        "styles": [
+          "port",
+          "madeira",
+          "moscato"
+        ],
+        "regions": [
+          "douro",
+          "madeira",
+          "piedmont"
+        ],
+        "mistakes": [
+          "wrong-glass"
+        ],
+        "edge_count": 11
+      }
+    },
+    {
+      "slug": "no-decanting",
+      "name": "No Decanting",
+      "family": "decanting",
+      "edges": {
+        "descriptors": [
+          "fresh",
+          "crisp",
+          "bright"
+        ],
+        "grapes": [
+          "sauvignon-blanc",
+          "riesling"
+        ],
+        "styles": [
+          "sauvignon-blanc",
+          "pinot-grigio",
+          "prosecco",
+          "cava",
+          "rose",
+          "dry-rose",
+          "provence-rose",
+          "gewurztraminer",
+          "albarino",
+          "champagne",
+          "grenache",
+          "madeira",
+          "moscato",
+          "riesling",
+          "sherry",
+          "viognier"
+        ],
+        "regions": [
+          "marlborough",
+          "veneto",
+          "provence"
+        ],
+        "mistakes": [
+          "over-decanted"
+        ],
+        "edge_count": 25
+      }
+    },
+    {
+      "slug": "splash-decant",
+      "name": "Splash Decant",
+      "family": "decanting",
+      "edges": {
+        "descriptors": [
+          "creamy",
+          "balanced"
+        ],
+        "grapes": [
+          "chardonnay"
+        ],
+        "styles": [
+          "chardonnay",
+          "chenin-blanc"
+        ],
+        "regions": [
+          "burgundy",
+          "chablis"
+        ],
+        "mistakes": [
+          "under-decanted",
+          "over-decanted"
+        ],
+        "edge_count": 9
+      }
+    },
+    {
+      "slug": "15-minutes",
+      "name": "15 Minutes Decant",
+      "family": "decanting",
+      "edges": {
+        "descriptors": [
+          "smooth",
+          "supple"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "pinot-noir"
+        ],
+        "styles": [
+          "merlot",
+          "malbec",
+          "grenache"
+        ],
+        "regions": [
+          "bordeaux",
+          "mendoza"
+        ],
+        "mistakes": [
+          "under-decanted"
+        ],
+        "edge_count": 10
+      }
+    },
+    {
+      "slug": "30-minutes",
+      "name": "30 Minutes Decant",
+      "family": "decanting",
+      "edges": {
+        "descriptors": [
+          "smooth",
+          "balanced",
+          "earthy"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "tempranillo",
+          "syrah-shiraz",
+          "pinot-noir",
+          "zinfandel",
+          "merlot",
+          "malbec",
+          "chenin-blanc"
+        ],
+        "regions": [
+          "rioja",
+          "barossa-valley",
+          "burgundy",
+          "sonoma"
+        ],
+        "mistakes": [
+          "under-decanted",
+          "over-decanted"
+        ],
+        "edge_count": 18
+      }
+    },
+    {
+      "slug": "1-hour",
+      "name": "1 Hour Decant",
+      "family": "decanting",
+      "edges": {
+        "descriptors": [
+          "structured",
+          "firm",
+          "cassis"
+        ],
+        "grapes": [
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "syrah-shiraz",
+          "sangiovese",
+          "port"
+        ],
+        "regions": [
+          "bordeaux",
+          "napa-valley",
+          "rhone-valley",
+          "douro"
+        ],
+        "mistakes": [
+          "under-decanted",
+          "over-decanted"
+        ],
+        "edge_count": 14
+      }
+    },
+    {
+      "slug": "2-hours",
+      "name": "2 Hours Decant",
+      "family": "decanting",
+      "edges": {
+        "descriptors": [
+          "firm",
+          "tannic",
+          "structured"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "pinot-noir"
+        ],
+        "styles": [
+          "nebbiolo",
+          "cabernet-sauvignon",
+          "sangiovese"
+        ],
+        "regions": [
+          "barolo",
+          "bordeaux",
+          "napa-valley"
+        ],
+        "mistakes": [
+          "under-decanted"
+        ],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "extended-decant",
+      "name": "Extended Decant",
+      "family": "decanting",
+      "edges": {
+        "descriptors": [
+          "firm",
+          "structured",
+          "tannic"
+        ],
+        "grapes": [
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "nebbiolo",
+          "cabernet-sauvignon"
+        ],
+        "regions": [
+          "barolo",
+          "barolo"
+        ],
+        "mistakes": [
+          "over-decanted"
+        ],
+        "edge_count": 9
+      }
+    },
+    {
+      "slug": "drink-now",
+      "name": "Drink Now",
+      "family": "cellaring",
+      "edges": {
+        "descriptors": [
+          "fresh",
+          "bright",
+          "crisp"
+        ],
+        "grapes": [
+          "sauvignon-blanc",
+          "riesling"
+        ],
+        "styles": [
+          "pinot-grigio",
+          "sauvignon-blanc",
+          "rose",
+          "dry-rose",
+          "provence-rose",
+          "prosecco",
+          "moscato",
+          "albarino"
+        ],
+        "regions": [
+          "marlborough",
+          "veneto",
+          "provence",
+          "rias-baixas"
+        ],
+        "mistakes": [],
+        "edge_count": 17
+      }
+    },
+    {
+      "slug": "short-term-aging",
+      "name": "Short-Term Aging",
+      "family": "cellaring",
+      "edges": {
+        "descriptors": [
+          "balanced",
+          "smooth",
+          "ripe"
+        ],
+        "grapes": [
+          "chardonnay",
+          "riesling"
+        ],
+        "styles": [
+          "chardonnay",
+          "cava",
+          "gewurztraminer",
+          "grenache",
+          "zinfandel",
+          "viognier"
+        ],
+        "regions": [
+          "burgundy",
+          "penedes",
+          "alsace",
+          "rhone-valley"
+        ],
+        "mistakes": [],
+        "edge_count": 15
+      }
+    },
+    {
+      "slug": "medium-term-aging",
+      "name": "Medium-Term Aging",
+      "family": "cellaring",
+      "edges": {
+        "descriptors": [
+          "balanced",
+          "complex",
+          "structured"
+        ],
+        "grapes": [
+          "riesling",
+          "cabernet-sauvignon",
+          "pinot-noir"
+        ],
+        "styles": [
+          "merlot",
+          "syrah-shiraz",
+          "tempranillo",
+          "riesling",
+          "champagne",
+          "sangiovese",
+          "malbec",
+          "chenin-blanc",
+          "pinot-noir"
+        ],
+        "regions": [
+          "bordeaux",
+          "rioja",
+          "mosel",
+          "champagne",
+          "barossa-valley"
+        ],
+        "mistakes": [],
+        "edge_count": 20
+      }
+    },
+    {
+      "slug": "long-term-aging",
+      "name": "Long-Term Aging",
+      "family": "cellaring",
+      "edges": {
+        "descriptors": [
+          "structured",
+          "complex",
+          "powerful"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "riesling",
+          "pinot-noir"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "nebbiolo",
+          "riesling",
+          "champagne",
+          "port",
+          "madeira",
+          "tempranillo",
+          "sherry"
+        ],
+        "regions": [
+          "bordeaux",
+          "barolo",
+          "mosel",
+          "champagne",
+          "douro",
+          "madeira"
+        ],
+        "mistakes": [],
+        "edge_count": 20
+      }
+    },
+    {
+      "slug": "early-drinking",
+      "name": "Early Drinking Window",
+      "family": "aging",
+      "edges": {
+        "descriptors": [
+          "fresh",
+          "bright",
+          "crisp"
+        ],
+        "grapes": [
+          "sauvignon-blanc"
+        ],
+        "styles": [
+          "sauvignon-blanc",
+          "pinot-grigio",
+          "rose",
+          "prosecco",
+          "moscato"
+        ],
+        "regions": [
+          "marlborough",
+          "veneto"
+        ],
+        "mistakes": [],
+        "edge_count": 11
+      }
+    },
+    {
+      "slug": "peak-window",
+      "name": "Peak Drinking Window",
+      "family": "aging",
+      "edges": {
+        "descriptors": [
+          "balanced",
+          "complex",
+          "elegant"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "pinot-noir",
+          "riesling"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "nebbiolo",
+          "riesling",
+          "champagne",
+          "tempranillo",
+          "pinot-noir"
+        ],
+        "regions": [
+          "bordeaux",
+          "barolo",
+          "mosel",
+          "burgundy"
+        ],
+        "mistakes": [],
+        "edge_count": 16
+      }
+    },
+    {
+      "slug": "mature",
+      "name": "Mature",
+      "family": "aging",
+      "edges": {
+        "descriptors": [
+          "earthy",
+          "leathery",
+          "complex"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "pinot-noir"
+        ],
+        "styles": [
+          "tempranillo",
+          "cabernet-sauvignon",
+          "nebbiolo",
+          "port",
+          "madeira"
+        ],
+        "regions": [
+          "rioja",
+          "bordeaux",
+          "barolo",
+          "douro"
+        ],
+        "mistakes": [
+          "over-decanted"
+        ],
+        "edge_count": 15
+      }
+    },
+    {
+      "slug": "fully-mature",
+      "name": "Fully Mature",
+      "family": "aging",
+      "edges": {
+        "descriptors": [
+          "tired",
+          "oxidized",
+          "flat"
+        ],
+        "grapes": [
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "port",
+          "madeira",
+          "sherry",
+          "cabernet-sauvignon",
+          "nebbiolo"
+        ],
+        "regions": [
+          "douro",
+          "madeira",
+          "jerez"
+        ],
+        "mistakes": [
+          "over-decanted",
+          "oxidized-after-opening"
+        ],
+        "edge_count": 14
+      }
+    },
+    {
+      "slug": "served-too-cold",
+      "name": "Served Too Cold",
+      "family": "mistake",
+      "edges": {
+        "descriptors": [
+          "austere",
+          "thin"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "chardonnay"
+        ],
+        "styles": [
+          "pinot-noir",
+          "chardonnay",
+          "cabernet-sauvignon"
+        ],
+        "regions": [],
+        "mistakes": [],
+        "edge_count": 7
+      }
+    },
+    {
+      "slug": "served-too-warm",
+      "name": "Served Too Warm",
+      "family": "mistake",
+      "edges": {
+        "descriptors": [
+          "hot",
+          "flat"
+        ],
+        "grapes": [
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "merlot",
+          "chardonnay",
+          "rose"
+        ],
+        "regions": [],
+        "mistakes": [],
+        "edge_count": 7
+      }
+    },
+    {
+      "slug": "over-decanted",
+      "name": "Over-Decanted",
+      "family": "mistake",
+      "edges": {
+        "descriptors": [
+          "flat",
+          "oxidized",
+          "tired"
+        ],
+        "grapes": [
+          "pinot-noir"
+        ],
+        "styles": [
+          "pinot-noir",
+          "nebbiolo",
+          "chardonnay",
+          "champagne"
+        ],
+        "regions": [],
+        "mistakes": [],
+        "edge_count": 8
+      }
+    },
+    {
+      "slug": "under-decanted",
+      "name": "Under-Decanted",
+      "family": "mistake",
+      "edges": {
+        "descriptors": [
+          "firm",
+          "austere",
+          "closed"
+        ],
+        "grapes": [
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "nebbiolo",
+          "syrah-shiraz",
+          "sangiovese"
+        ],
+        "regions": [
+          "bordeaux",
+          "barolo"
+        ],
+        "mistakes": [],
+        "edge_count": 10
+      }
+    },
+    {
+      "slug": "wrong-glass",
+      "name": "Wrong Glass",
+      "family": "mistake",
+      "edges": {
+        "descriptors": [
+          "flat"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "chardonnay"
+        ],
+        "styles": [
+          "champagne",
+          "pinot-noir",
+          "cabernet-sauvignon",
+          "port"
+        ],
+        "regions": [],
+        "mistakes": [],
+        "edge_count": 7
+      }
+    },
+    {
+      "slug": "oxidized-after-opening",
+      "name": "Oxidized After Opening",
+      "family": "mistake",
+      "edges": {
+        "descriptors": [
+          "oxidized",
+          "flat",
+          "tired"
+        ],
+        "grapes": [
+          "chardonnay",
+          "pinot-noir"
+        ],
+        "styles": [
+          "chardonnay",
+          "pinot-noir",
+          "sauvignon-blanc"
+        ],
+        "regions": [],
+        "mistakes": [],
+        "edge_count": 8
+      }
+    },
+    {
+      "slug": "ideal-serving-temperature",
+      "name": "Ideal Serving Temperature",
+      "family": "temperature",
+      "edges": {
+        "descriptors": [
+          "balanced",
+          "bright",
+          "structured"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "pinot-noir",
+          "chardonnay",
+          "riesling",
+          "sauvignon-blanc"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "pinot-noir",
+          "chardonnay",
+          "champagne",
+          "riesling",
+          "sauvignon-blanc"
+        ],
+        "regions": [
+          "bordeaux",
+          "burgundy",
+          "champagne",
+          "mosel"
+        ],
+        "mistakes": [
+          "served-too-cold",
+          "served-too-warm"
+        ],
+        "edge_count": 20
+      }
+    },
+    {
+      "slug": "lightly-chilled",
+      "name": "Lightly Chilled",
+      "family": "temperature",
+      "edges": {
+        "descriptors": [
+          "crisp",
+          "bright",
+          "honeyed"
+        ],
+        "grapes": [
+          "riesling",
+          "chardonnay"
+        ],
+        "styles": [
+          "chenin-blanc",
+          "riesling",
+          "viognier"
+        ],
+        "regions": [
+          "loire-valley",
+          "mosel",
+          "clare-valley"
+        ],
+        "mistakes": [
+          "served-too-cold"
+        ],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "sparkling-chilled",
+      "name": "Sparkling Chilled",
+      "family": "temperature",
+      "edges": {
+        "descriptors": [
+          "crisp",
+          "bright",
+          "toasty"
+        ],
+        "grapes": [
+          "chardonnay",
+          "pinot-noir"
+        ],
+        "styles": [
+          "champagne",
+          "prosecco",
+          "cava"
+        ],
+        "regions": [
+          "champagne",
+          "veneto",
+          "penedes"
+        ],
+        "mistakes": [
+          "served-too-warm"
+        ],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "fortified-service",
+      "name": "Fortified Wine Service",
+      "family": "temperature",
+      "edges": {
+        "descriptors": [
+          "nutty",
+          "rich",
+          "saline"
+        ],
+        "grapes": [],
+        "styles": [
+          "port",
+          "sherry",
+          "madeira"
+        ],
+        "regions": [
+          "douro",
+          "jerez",
+          "madeira"
+        ],
+        "mistakes": [
+          "served-too-warm",
+          "oxidized-after-opening"
+        ],
+        "edge_count": 11
+      }
+    },
+    {
+      "slug": "aromatic-white-service",
+      "name": "Aromatic White Wine Service",
+      "family": "glassware",
+      "edges": {
+        "descriptors": [
+          "perfumed",
+          "floral",
+          "lychee"
+        ],
+        "grapes": [
+          "riesling"
+        ],
+        "styles": [
+          "gewurztraminer",
+          "riesling",
+          "moscato"
+        ],
+        "regions": [
+          "alsace",
+          "mosel"
+        ],
+        "mistakes": [
+          "served-too-cold",
+          "wrong-glass"
+        ],
+        "edge_count": 11
+      }
+    }
+  ]
+}

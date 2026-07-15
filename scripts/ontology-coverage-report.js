@@ -11,6 +11,7 @@ import { listDescriptorNodes } from "../lib/taxonomy-descriptor.js";
 import { loadGrapeCatalog } from "../lib/taxonomy-grape.js";
 import { listWineStyleEntries } from "../lib/taxonomy-wine-style.js";
 import { listWineRegionEntries } from "../lib/taxonomy-wine-region.js";
+import { listWineServingEntries } from "../lib/taxonomy-wine-serving.js";
 import { computeGraphMaturity, validateGraphEdges } from "../lib/graph-maturity.js";
 import { ENTITY_TYPES } from "../lib/entity-model.js";
 
@@ -19,6 +20,7 @@ const ROOT = path.join(__dirname, "..");
 const REPORT_OUT = path.join(ROOT, "reports", "ontology-coverage.json");
 const STYLES_DIR = path.join(ROOT, "styles");
 const REGIONS_DIR = path.join(ROOT, "regions");
+const SERVING_DIR = path.join(ROOT, "serving");
 const SITEMAP = path.join(ROOT, "sitemap.xml");
 
 const TARGETS = {
@@ -28,10 +30,9 @@ const TARGETS = {
   grape_varieties: 5,
   wine_styles_tier1: 28,
   wine_regions_tier1: 45,
+  wine_serving: 40,
   wine_faults: 20,
   winemaking_techniques: 30,
-  serving: 20,
-  glassware: 15,
 };
 
 function countGroups(taxonomy) {
@@ -68,8 +69,10 @@ function main() {
   const grapes = loadGrapeCatalog().grapes.length;
   const styles = listWineStyleEntries().length;
   const regions = listWineRegionEntries().length;
+  const servings = listWineServingEntries().length;
   const stylePages = countGeneratedPages(STYLES_DIR);
   const regionPages = countGeneratedPages(REGIONS_DIR);
+  const servingPages = countGeneratedPages(SERVING_DIR);
   const graphMaturity = computeGraphMaturity(taxonomy);
   const brokenEdges = validateGraphEdges(taxonomy);
 
@@ -82,10 +85,9 @@ function main() {
     { domain: "Wine", entity_type: "Grape Variety", target: TARGETS.grape_varieties, current: grapes, status: status(grapes, TARGETS.grape_varieties) },
     { domain: "Wine", entity_type: "Wine Style (Tier 1)", target: TARGETS.wine_styles_tier1, current: styles, pages: stylePages, status: status(styles, TARGETS.wine_styles_tier1) },
     { domain: "Wine", entity_type: "Wine Region (Tier 1)", target: TARGETS.wine_regions_tier1, current: regions, pages: regionPages, status: status(regions, TARGETS.wine_regions_tier1) },
+    { domain: "Wine", entity_type: "Serving & Service", target: TARGETS.wine_serving, current: servings, pages: servingPages, status: status(servings, TARGETS.wine_serving) },
     { domain: "Wine", entity_type: "Wine Fault", target: TARGETS.wine_faults, current: 0, status: "pending" },
     { domain: "Wine", entity_type: "Winemaking Technique", target: TARGETS.winemaking_techniques, current: 0, status: "pending" },
-    { domain: "Wine", entity_type: "Serving & Storage", target: TARGETS.serving, current: 0, status: "pending" },
-    { domain: "Wine", entity_type: "Glassware", target: TARGETS.glassware, current: 0, status: "pending" },
     { domain: "Culinary", entity_type: "Protein", target: null, current: 0, status: "planned" },
     { domain: "Culinary", entity_type: "Cooking Method", target: null, current: 0, status: "planned" },
     { domain: "Culinary", entity_type: "Ingredient", target: null, current: 0, status: "planned" },
@@ -93,7 +95,7 @@ function main() {
 
   const report = {
     generated_at: new Date().toISOString(),
-    phase: "ONTOLOGY-01B",
+    phase: "ONTOLOGY-01C",
     ontology_version: taxonomy.meta?.version ?? "unknown",
     supported_entity_types: taxonomy.meta?.entity_model?.supported_entity_types ?? ENTITY_TYPES,
     dashboard: rows,
@@ -101,6 +103,7 @@ function main() {
     sitemap: {
       total: sitemapCount(/.+/),
       region_urls: sitemapCount(/\/regions\/[a-z0-9-]+\/$/),
+      serving_urls: sitemapCount(/\/serving\/[a-z0-9-]+\/$/),
       style_urls: sitemapCount(/\/styles\/[a-z0-9-]+\/$/),
       descriptor_urls: sitemapCount(/\/terms\/[a-z0-9-]+$/),
       category_urls: sitemapCount(/\/terms\/[a-z0-9-]+\/$/),
@@ -127,6 +130,11 @@ function main() {
   console.log(`Entities with structured data: ${graphMaturity.entities_with_structured_data}`);
   console.log(`Style→region links:          ${graphMaturity.reverse_relationship_coverage.style_to_region_links}`);
   console.log(`Region→style reverse:        ${graphMaturity.reverse_relationship_coverage.region_to_style_reverse}`);
+  console.log(`Style→serving links:         ${graphMaturity.reverse_relationship_coverage.style_to_serving_links}`);
+  console.log(`Serving→style links:         ${graphMaturity.reverse_relationship_coverage.serving_to_style_links}`);
+  console.log(`Serving→descriptor links:    ${graphMaturity.reverse_relationship_coverage.serving_to_descriptor_links}`);
+  console.log(`Serving→region links:        ${graphMaturity.reverse_relationship_coverage.serving_to_region_links}`);
+  console.log(`Serving→grape links:         ${graphMaturity.reverse_relationship_coverage.serving_to_grape_links}`);
   console.log(`Fully connected (≥5 edges):  ${graphMaturity.fully_connected_entities_pct}%`);
   console.log(`Orphan entities:             ${graphMaturity.orphan_entities}`);
   console.log(`Broken graph edges:          ${graphMaturity.broken_graph_edges}`);

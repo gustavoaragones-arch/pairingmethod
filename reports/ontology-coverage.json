@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T14:28:06.722Z",
-  "phase": "ONTOLOGY-01B",
+  "generated_at": "2026-07-15T19:57:24.898Z",
+  "phase": "ONTOLOGY-01C",
   "ontology_version": "2.0.0",
   "supported_entity_types": [
     "descriptor_category",
@@ -71,6 +71,14 @@
     },
     {
       "domain": "Wine",
+      "entity_type": "Serving & Service",
+      "target": 40,
+      "current": 40,
+      "pages": 40,
+      "status": "complete"
+    },
+    {
+      "domain": "Wine",
       "entity_type": "Wine Fault",
       "target": 20,
       "current": 0,
@@ -80,20 +88,6 @@
       "domain": "Wine",
       "entity_type": "Winemaking Technique",
       "target": 30,
-      "current": 0,
-      "status": "pending"
-    },
-    {
-      "domain": "Wine",
-      "entity_type": "Serving & Storage",
-      "target": 20,
-      "current": 0,
-      "status": "pending"
-    },
-    {
-      "domain": "Wine",
-      "entity_type": "Glassware",
-      "target": 15,
       "current": 0,
       "status": "pending"
     },
@@ -120,23 +114,29 @@
     }
   ],
   "graph_maturity": {
-    "total_entities": 271,
-    "total_relationships": 1724,
-    "average_relationships_per_entity": 6.4,
-    "entities_with_faq": 79,
-    "entities_with_structured_data": 79,
+    "total_entities": 311,
+    "total_relationships": 2236,
+    "average_relationships_per_entity": 7.2,
+    "entities_with_faq": 119,
+    "entities_with_structured_data": 119,
     "reverse_relationship_coverage": {
       "style_to_region_links": 90,
-      "region_to_style_reverse": 90
+      "region_to_style_reverse": 90,
+      "style_to_serving_links": 112,
+      "serving_to_style_links": 404,
+      "serving_to_descriptor_links": 110,
+      "serving_to_region_links": 109,
+      "serving_to_grape_links": 68
     },
-    "fully_connected_entities_pct": 43.2,
+    "fully_connected_entities_pct": 50.7,
     "orphan_entities": 0,
     "orphan_slugs": [],
     "broken_graph_edges": 0
   },
   "sitemap": {
-    "total": 310,
+    "total": 351,
     "region_urls": 51,
+    "serving_urls": 40,
     "style_urls": 28,
     "descriptor_urls": 187,
     "category_urls": 12

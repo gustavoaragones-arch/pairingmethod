@@ -1,9 +1,10 @@
 {
   "meta": {
-    "phase": "ONTOLOGY-01B",
+    "phase": "ONTOLOGY-01C",
     "tier": 1,
     "description": "Tier 1 launch wine styles — editorial catalog SSOT for style pages and knowledge graph edges.",
-    "region_slugs_migrated": "2026-07-15"
+    "region_slugs_migrated": "2026-07-15",
+    "serving_slugs_migrated": "2026-07-15"
   },
   "styles": [
     {
@@ -78,10 +79,6 @@
         "Cab Sauv"
       ],
       "pronunciation": "kab-er-nay so-vin-yon",
-      "serving_temperature": "60–65°F (15–18°C)",
-      "glassware": "Large Bordeaux glass",
-      "decanting": "Young, tannic examples benefit from 1–2 hours; older wines 30–60 minutes",
-      "aging": "Premium examples 10–25+ years; entry level 3–8 years",
       "beginner_notes": "If you like bold reds with grip and dark fruit, start here. Pair with fatty protein — the wine needs something to soften against.",
       "seo_title": "Cabernet Sauvignon — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "What is Cabernet Sauvignon? Full-bodied red wine style with high tannin, dark fruit, and classic steak pairings. Structure, descriptors, and substitutes.",
@@ -97,6 +94,13 @@
         "alcohol": 4,
         "sweetness": 0,
         "oak": 4
+      },
+      "serving_notes": "Young, tannic examples benefit from 1–2 hours decanting; older wines 30–60 minutes.",
+      "serving": {
+        "temperature": "room-temperature",
+        "glassware": "bordeaux-glass",
+        "decanting": "1-hour",
+        "cellaring": "long-term-aging"
       }
     },
     {
@@ -157,10 +161,6 @@
       ],
       "aliases": [],
       "pronunciation": "mer-loh",
-      "serving_temperature": "60–65°F (15–18°C)",
-      "glassware": "Standard red wine glass",
-      "decanting": "Optional for young oaky examples; 30 minutes",
-      "aging": "5–15 years for quality examples",
       "beginner_notes": "A friendly entry to structured reds — softer than Cabernet but still substantial.",
       "seo_title": "Merlot — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Merlot wine style explained: plummy fruit, softer tannin, regions, structure, and food pairings including roast meats.",
@@ -176,6 +176,13 @@
         "alcohol": 4,
         "sweetness": 0,
         "oak": 3
+      },
+      "serving_notes": "Optional for young oaky examples; 30 minutes is usually enough.",
+      "serving": {
+        "temperature": "room-temperature",
+        "glassware": "universal-wine-glass",
+        "decanting": "30-minutes",
+        "cellaring": "medium-term-aging"
       }
     },
     {
@@ -240,10 +247,6 @@
       ],
       "aliases": [],
       "pronunciation": "pee-noh nwahr",
-      "serving_temperature": "55–60°F (13–15°C)",
-      "glassware": "Burgundy glass (wide bowl)",
-      "decanting": "Usually not required; older Burgundy 20–30 minutes",
-      "aging": "Top Burgundy 8–20+ years; New World 3–8 years",
       "beginner_notes": "Think red fruit, earth, and elegance — one of the most food-friendly light reds.",
       "seo_title": "Pinot Noir — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Pinot Noir wine style: light body, red fruit, Burgundy and Oregon classics, and pairings from salmon to roast chicken.",
@@ -259,6 +262,13 @@
         "alcohol": 3,
         "sweetness": 0,
         "oak": 2
+      },
+      "serving_notes": "Usually not required; older Burgundy may need only 20–30 minutes for sediment.",
+      "serving": {
+        "temperature": "cellar-temperature",
+        "glassware": "burgundy-glass",
+        "decanting": "30-minutes",
+        "cellaring": "medium-term-aging"
       }
     },
     {
@@ -330,10 +340,6 @@
         "Shiraz"
       ],
       "pronunciation": "see-rah / shih-raz",
-      "serving_temperature": "60–65°F (15–18°C)",
-      "glassware": "Standard red wine glass",
-      "decanting": "1 hour for young, tannic Syrah; 30 minutes for plush Shiraz",
-      "aging": "Rhône 8–20 years; Australian 5–15 years",
       "beginner_notes": "Expect dark fruit and pepper — a bold red that loves the grill. Shiraz tends to be fruitier; Syrah often more savory.",
       "seo_title": "Syrah / Shiraz — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Syrah and Shiraz wine style guide: pepper, dark fruit, Rhône vs Australian profiles, structure, and steak and BBQ pairings.",
@@ -349,6 +355,13 @@
         "alcohol": 4,
         "sweetness": 0,
         "oak": 3
+      },
+      "serving_notes": "1 hour for young, tannic Syrah; 30 minutes for plush Shiraz.",
+      "serving": {
+        "temperature": "room-temperature",
+        "glassware": "universal-wine-glass",
+        "decanting": "1-hour",
+        "cellaring": "medium-term-aging"
       }
     },
     {
@@ -409,10 +422,6 @@
       ],
       "aliases": [],
       "pronunciation": "mal-bek",
-      "serving_temperature": "60–65°F (15–18°C)",
-      "glassware": "Standard red wine glass",
-      "decanting": "Optional; 30 minutes for young oak-aged bottles",
-      "aging": "5–12 years for premium Mendoza",
       "beginner_notes": "One of the easiest bold reds to enjoy — soft, fruity, and great with steak night.",
       "seo_title": "Malbec — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Malbec wine style: Argentine dark fruit, violet, soft tannin, Mendoza regions, and classic grilled meat pairings.",
@@ -428,6 +437,13 @@
         "alcohol": 4,
         "sweetness": 0,
         "oak": 3
+      },
+      "serving_notes": "Optional; 30 minutes for young oak-aged bottles.",
+      "serving": {
+        "temperature": "room-temperature",
+        "glassware": "universal-wine-glass",
+        "decanting": "30-minutes",
+        "cellaring": "medium-term-aging"
       }
     },
     {
@@ -490,10 +506,6 @@
         "Garnacha"
       ],
       "pronunciation": "gruh-nosh",
-      "serving_temperature": "58–62°F (14–17°C)",
-      "glassware": "Standard red wine glass",
-      "decanting": "Optional for young, high-alcohol examples",
-      "aging": "3–10 years; best examples gain complexity",
       "beginner_notes": "Look for red berry and spice — softer than Cabernet but still substantial with food.",
       "seo_title": "Grenache — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Grenache (Garnacha) wine style: red fruit, spice, Rhône and Spanish regions, structure, and Mediterranean food pairings.",
@@ -509,6 +521,13 @@
         "alcohol": 5,
         "sweetness": 0,
         "oak": 2
+      },
+      "serving_notes": "Optional decant for young, high-alcohol examples.",
+      "serving": {
+        "temperature": "cool",
+        "glassware": "universal-wine-glass",
+        "decanting": "no-decanting",
+        "cellaring": "short-term-aging"
       }
     },
     {
@@ -568,10 +587,6 @@
       ],
       "aliases": [],
       "pronunciation": "san-joh-vay-zeh",
-      "serving_temperature": "58–62°F (14–17°C)",
-      "glassware": "Medium-bowl red wine glass",
-      "decanting": "1–2 hours for young Brunello; Chianti often needs less",
-      "aging": "Chianti 3–8 years; Brunello 10–25+ years",
       "beginner_notes": "High acidity makes Sangiovese a natural at the dinner table — especially Italian food.",
       "seo_title": "Sangiovese — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Sangiovese wine style: Chianti and Brunello profiles, cherry and earth, high acidity, and Italian food pairings.",
@@ -587,6 +602,13 @@
         "alcohol": 4,
         "sweetness": 0,
         "oak": 2
+      },
+      "serving_notes": "1–2 hours for young Brunello; Chianti often needs less.",
+      "serving": {
+        "temperature": "cool",
+        "glassware": "universal-wine-glass",
+        "decanting": "1-hour",
+        "cellaring": "medium-term-aging"
       }
     },
     {
@@ -647,10 +669,6 @@
       ],
       "aliases": [],
       "pronunciation": "neb-ee-oh-loh",
-      "serving_temperature": "60–65°F (15–18°C)",
-      "glassware": "Large Burgundy-style glass",
-      "decanting": "Essential for young Barolo — 2–4 hours; older wines 1 hour",
-      "aging": "Barolo 10–30+ years; Barbaresco 8–20 years",
       "beginner_notes": "Pale color can surprise — focus on aroma and tannin. Give it air and fatty protein.",
       "seo_title": "Nebbiolo — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Nebbiolo wine style: Barolo and Barbaresco, tar and rose, high tannin and acidity, decanting tips, and food pairings.",
@@ -666,6 +684,13 @@
         "alcohol": 4,
         "sweetness": 0,
         "oak": 3
+      },
+      "serving_notes": "Essential for young Barolo — 2–4 hours; older wines about 1 hour.",
+      "serving": {
+        "temperature": "room-temperature",
+        "glassware": "burgundy-glass",
+        "decanting": "extended-decant",
+        "cellaring": "long-term-aging"
       }
     },
     {
@@ -726,10 +751,6 @@
       ],
       "aliases": [],
       "pronunciation": "tem-prah-nee-yoh",
-      "serving_temperature": "58–62°F (14–17°C)",
-      "glassware": "Standard red wine glass",
-      "decanting": "30–60 minutes for reserva and gran reserva",
-      "aging": "Crianza 2–5 years; Gran Reserva 15–25+ years",
       "beginner_notes": "Rioja Crianza is an excellent entry — cherry, gentle oak, and easy with food.",
       "seo_title": "Tempranillo — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Tempranillo wine style: Rioja and Ribera del Duero, cherry and oak, aging categories, and Spanish food pairings.",
@@ -745,6 +766,13 @@
         "alcohol": 4,
         "sweetness": 0,
         "oak": 4
+      },
+      "serving_notes": "30–60 minutes for reserva and gran reserva.",
+      "serving": {
+        "temperature": "cool",
+        "glassware": "universal-wine-glass",
+        "decanting": "30-minutes",
+        "cellaring": "medium-term-aging"
       }
     },
     {
@@ -807,10 +835,6 @@
         "Primitivo"
       ],
       "pronunciation": "zin-fan-dell",
-      "serving_temperature": "60–65°F (15–18°C)",
-      "glassware": "Large red wine glass",
-      "decanting": "Optional; 30–60 minutes for young, high-alcohol bottles",
-      "aging": "Best drunk within 3–8 years; top old-vine 8–12 years",
       "beginner_notes": "Expect big, ripe fruit — great for casual cookouts and bold flavors.",
       "seo_title": "Zinfandel — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Zinfandel wine style: jammy California red, BBQ and burger pairings, alcohol and structure, and Primitivo connection.",
@@ -826,6 +850,13 @@
         "alcohol": 5,
         "sweetness": 0,
         "oak": 3
+      },
+      "serving_notes": "Optional; 30–60 minutes for young, high-alcohol bottles.",
+      "serving": {
+        "temperature": "room-temperature",
+        "glassware": "bordeaux-glass",
+        "decanting": "30-minutes",
+        "cellaring": "short-term-aging"
       }
     },
     {
@@ -892,10 +923,6 @@
       ],
       "aliases": [],
       "pronunciation": "shar-doh-nay",
-      "serving_temperature": "50–55°F (10–13°C)",
-      "glassware": "Standard white wine glass",
-      "decanting": "Rarely needed; allow 10 minutes in glass for premium white Burgundy",
-      "aging": "Entry 1–3 years; top Burgundy 5–15 years",
       "beginner_notes": "Try both unoaked and oaked — they can feel like different wines. Oak = cream and toast; unoaked = crisp apple.",
       "seo_title": "Chardonnay — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Chardonnay wine style: oaked vs unoaked, buttery vs crisp, Burgundy and California, and creamy dish pairings.",
@@ -911,6 +938,13 @@
         "alcohol": 4,
         "sweetness": 0,
         "oak": 4
+      },
+      "serving_notes": "Rarely needed; allow 10 minutes in glass for premium white Burgundy.",
+      "serving": {
+        "temperature": "cool",
+        "glassware": "white-wine-glass",
+        "decanting": "splash-decant",
+        "cellaring": "short-term-aging"
       }
     },
     {
@@ -971,10 +1005,6 @@
       ],
       "aliases": [],
       "pronunciation": "so-vee-nyon blahn",
-      "serving_temperature": "45–50°F (7–10°C)",
-      "glassware": "Standard white wine glass",
-      "decanting": "Not needed — serve well chilled",
-      "aging": "Drink within 1–3 years for freshness",
       "beginner_notes": "Think citrus and green notes — one of the most refreshing food whites.",
       "seo_title": "Sauvignon Blanc — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Sauvignon Blanc wine style: citrus, grass, Sancerre and Marlborough, high acidity, and goat cheese pairings.",
@@ -990,6 +1020,13 @@
         "alcohol": 3,
         "sweetness": 0,
         "oak": 0
+      },
+      "serving_notes": "Serve well chilled — decanting strips freshness.",
+      "serving": {
+        "temperature": "chilled",
+        "glassware": "white-wine-glass",
+        "decanting": "no-decanting",
+        "cellaring": "drink-now"
       }
     },
     {
@@ -1053,10 +1090,6 @@
       ],
       "aliases": [],
       "pronunciation": "rees-ling",
-      "serving_temperature": "45–50°F (7–10°C)",
-      "glassware": "Standard white wine glass",
-      "decanting": "Not required",
-      "aging": "Dry 3–10 years; sweet German 10–30+ years",
       "beginner_notes": "Check the label for sweetness — German terms like Kabinett, Spätlese, and Trocken guide style.",
       "seo_title": "Riesling — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Riesling wine style: dry to sweet, Mosel and Alsace, acidity, spice pairing logic, and Thanksgiving matches.",
@@ -1072,6 +1105,13 @@
         "alcohol": 3,
         "sweetness": 3,
         "oak": 0
+      },
+      "serving_notes": "Dry 3–10 years; sweet German examples 10–30+ years.",
+      "serving": {
+        "temperature": "chilled",
+        "glassware": "white-wine-glass",
+        "decanting": "no-decanting",
+        "cellaring": "medium-term-aging"
       }
     },
     {
@@ -1134,10 +1174,6 @@
         "Pinot Gris"
       ],
       "pronunciation": "pee-noh gree-joh",
-      "serving_temperature": "45–50°F (7–10°C)",
-      "glassware": "Standard white wine glass",
-      "decanting": "Serve chilled; no decanting",
-      "aging": "Drink young — 1–2 years",
       "beginner_notes": "A safe, crowd-pleasing white — light, crisp, and low commitment.",
       "seo_title": "Pinot Grigio — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Pinot Grigio wine style: crisp Italian white, light body, seafood and antipasti pairings, and Pinot Gris comparison.",
@@ -1153,6 +1189,12 @@
         "alcohol": 3,
         "sweetness": 0,
         "oak": 0
+      },
+      "serving": {
+        "temperature": "chilled",
+        "glassware": "white-wine-glass",
+        "decanting": "no-decanting",
+        "cellaring": "drink-now"
       }
     },
     {
@@ -1213,10 +1255,6 @@
       ],
       "aliases": [],
       "pronunciation": "shuh-nan blahn",
-      "serving_temperature": "48–52°F (9–11°C)",
-      "glassware": "Standard white wine glass",
-      "decanting": "Optional for aged Savennières",
-      "aging": "Dry 5–15 years; sweet Loire 10–30+ years",
       "beginner_notes": "Check whether the bottle is dry or off-dry — Chenin spans both beautifully.",
       "seo_title": "Chenin Blanc — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Chenin Blanc wine style: Loire Vouvray, high acidity, dry to sweet range, and versatile food pairings.",
@@ -1232,6 +1270,13 @@
         "alcohol": 3,
         "sweetness": 2,
         "oak": 1
+      },
+      "serving_notes": "Optional for aged Savennières; dry 5–15 years, sweet Loire 10–30+ years.",
+      "serving": {
+        "temperature": "lightly-chilled",
+        "glassware": "white-wine-glass",
+        "decanting": "30-minutes",
+        "cellaring": "medium-term-aging"
       }
     },
     {
@@ -1292,10 +1337,6 @@
       ],
       "aliases": [],
       "pronunciation": "vee-ohn-yay",
-      "serving_temperature": "50–55°F (10–13°C)",
-      "glassware": "White wine glass with slightly wider bowl",
-      "decanting": "Not required; warm slightly if over-chilled",
-      "aging": "Drink 1–5 years; top Condrieu 5–8 years",
       "beginner_notes": "If you like aromatic, plush whites, Viognier is a step up in texture from Sauvignon Blanc.",
       "seo_title": "Viognier — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Viognier wine style: apricot, floral, Condrieu, full-bodied white profile, and creamy dish pairings.",
@@ -1311,6 +1352,13 @@
         "alcohol": 4,
         "sweetness": 0,
         "oak": 2
+      },
+      "serving_notes": "Warm slightly if over-chilled.",
+      "serving": {
+        "temperature": "cool",
+        "glassware": "white-wine-glass",
+        "decanting": "no-decanting",
+        "cellaring": "short-term-aging"
       }
     },
     {
@@ -1371,10 +1419,6 @@
         "Gewurztraminer"
       ],
       "pronunciation": "geh-vurt-strah-mee-ner",
-      "serving_temperature": "45–50°F (7–10°C)",
-      "glassware": "Aromatic white wine glass",
-      "decanting": "Not needed",
-      "aging": "Drink 1–5 years for primary aromatics",
       "beginner_notes": "Love-it-or-hate-it aromatics — if you enjoy perfume and spice, start here.",
       "seo_title": "Gewürztraminer — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Gewürztraminer wine style: lychee, rose, spice, Alsace aromatics, and spicy Asian food pairings.",
@@ -1390,6 +1434,13 @@
         "alcohol": 4,
         "sweetness": 2,
         "oak": 0
+      },
+      "serving_notes": "Drink 1–5 years for primary aromatics.",
+      "serving": {
+        "temperature": "chilled",
+        "glassware": "aromatic-white-service",
+        "decanting": "no-decanting",
+        "cellaring": "short-term-aging"
       }
     },
     {
@@ -1451,10 +1502,6 @@
         "Albarino"
       ],
       "pronunciation": "al-bah-ree-nyoh",
-      "serving_temperature": "45–50°F (7–10°C)",
-      "glassware": "Standard white wine glass",
-      "decanting": "Serve well chilled",
-      "aging": "Drink 1–3 years for freshness",
       "beginner_notes": "Think seaside white — crisp, slightly salty, perfect with fish.",
       "seo_title": "Albariño — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Albariño wine style: Rías Baixas, peach and saline notes, crisp acidity, and seafood pairings.",
@@ -1470,6 +1517,13 @@
         "alcohol": 3,
         "sweetness": 0,
         "oak": 0
+      },
+      "serving_notes": "Serve well chilled.",
+      "serving": {
+        "temperature": "chilled",
+        "glassware": "white-wine-glass",
+        "decanting": "no-decanting",
+        "cellaring": "drink-now"
       }
     },
     {
@@ -1527,10 +1581,6 @@
       ],
       "aliases": [],
       "pronunciation": "sham-payn",
-      "serving_temperature": "45–48°F (7–9°C)",
-      "glassware": "Flute or tulip glass",
-      "decanting": "Never decant — preserve bubbles",
-      "aging": "NV 2–5 years; prestige cuvée 10–25+ years",
       "beginner_notes": "Brut is dry — start there. Blanc de Blancs is Chardonnay; Blanc de Noirs uses dark grapes.",
       "seo_title": "Champagne — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Champagne wine style: traditional method, brioche and citrus, sweetness levels, and celebratory food pairings.",
@@ -1546,6 +1596,13 @@
         "alcohol": 4,
         "sweetness": 1,
         "oak": 2
+      },
+      "serving_notes": "Never decant — preserve bubbles. NV 2–5 years; prestige cuvée 10–25+ years.",
+      "serving": {
+        "temperature": "sparkling-chilled",
+        "glassware": "champagne-tulip",
+        "decanting": "no-decanting",
+        "cellaring": "medium-term-aging"
       }
     },
     {
@@ -1602,10 +1659,6 @@
       ],
       "aliases": [],
       "pronunciation": "proh-seh-koh",
-      "serving_temperature": "42–45°F (6–7°C)",
-      "glassware": "Flute or tulip glass",
-      "decanting": "Serve very chilled",
-      "aging": "Drink within 1–2 years of release",
       "beginner_notes": "Brut Prosecco is widely available and easy — think fresh fruit and bubbles.",
       "seo_title": "Prosecco — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Prosecco wine style: Italian sparkling, Glera grape, fresh fruit, brunch pairings, and Prosecco vs Champagne.",
@@ -1621,6 +1674,13 @@
         "alcohol": 3,
         "sweetness": 2,
         "oak": 0
+      },
+      "serving_notes": "Serve very chilled; drink within 1–2 years of release.",
+      "serving": {
+        "temperature": "ice-cold",
+        "glassware": "champagne-flute",
+        "decanting": "no-decanting",
+        "cellaring": "drink-now"
       }
     },
     {
@@ -1679,10 +1739,6 @@
       ],
       "aliases": [],
       "pronunciation": "kah-vah",
-      "serving_temperature": "42–48°F (6–9°C)",
-      "glassware": "Flute or tulip glass",
-      "decanting": "Not needed",
-      "aging": "NV 1–3 years; Reserva and Gran Reserva 3–10 years",
       "beginner_notes": "Great value bubbly — look for Reserva for more toast and depth.",
       "seo_title": "Cava — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Cava wine style: Spanish traditional-method sparkling, tapas pairings, and value alternative to Champagne.",
@@ -1698,6 +1754,13 @@
         "alcohol": 3,
         "sweetness": 1,
         "oak": 1
+      },
+      "serving_notes": "NV 1–3 years; Reserva and Gran Reserva 3–10 years.",
+      "serving": {
+        "temperature": "sparkling-chilled",
+        "glassware": "champagne-flute",
+        "decanting": "no-decanting",
+        "cellaring": "short-term-aging"
       }
     },
     {
@@ -1762,10 +1825,6 @@
         "Rosé Wine"
       ],
       "pronunciation": "roh-zay",
-      "serving_temperature": "45–50°F (7–10°C)",
-      "glassware": "Standard white wine glass",
-      "decanting": "Serve chilled; no decanting",
-      "aging": "Drink within 1–2 years for freshness",
       "beginner_notes": "Most rosé is dry — color does not indicate sweetness. When in doubt, check the label.",
       "seo_title": "Rosé — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Rosé wine style: dry pink wine, Provence to global styles, food flexibility, and serving tips.",
@@ -1781,6 +1840,13 @@
         "alcohol": 3,
         "sweetness": 0,
         "oak": 0
+      },
+      "serving_notes": "Serve chilled; drink within 1–2 years for freshness.",
+      "serving": {
+        "temperature": "chilled",
+        "glassware": "white-wine-glass",
+        "decanting": "no-decanting",
+        "cellaring": "drink-now"
       }
     },
     {
@@ -1844,10 +1910,6 @@
       ],
       "aliases": [],
       "pronunciation": "dry roh-zay",
-      "serving_temperature": "45–50°F (7–10°C)",
-      "glassware": "Standard white wine glass",
-      "decanting": "Serve well chilled",
-      "aging": "Drink within 1–2 years",
       "beginner_notes": "If you want guaranteed dry, look for Provence or labels marked 'sec' or 'brut nature' style rosé.",
       "seo_title": "Dry Rosé — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Dry rosé wine style: crisp, zero-sweetness pink wine, Provence character, and salmon and salad pairings.",
@@ -1863,6 +1925,13 @@
         "alcohol": 3,
         "sweetness": 0,
         "oak": 0
+      },
+      "serving_notes": "Serve well chilled.",
+      "serving": {
+        "temperature": "chilled",
+        "glassware": "white-wine-glass",
+        "decanting": "no-decanting",
+        "cellaring": "drink-now"
       }
     },
     {
@@ -1921,10 +1990,6 @@
       ],
       "aliases": [],
       "pronunciation": "proh-vahnss roh-zay",
-      "serving_temperature": "45–50°F (7–10°C)",
-      "glassware": "Standard white wine glass",
-      "decanting": "Serve chilled; best enjoyed young",
-      "aging": "Drink within 1–2 years",
       "beginner_notes": "The pale onion-skin color is intentional — flavor is delicate, not weak.",
       "seo_title": "Provence Rosé — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Provence rosé wine style: pale dry pink, Côtes de Provence, Mediterranean pairings, and serving guide.",
@@ -1940,6 +2005,13 @@
         "alcohol": 3,
         "sweetness": 0,
         "oak": 0
+      },
+      "serving_notes": "Serve chilled; best enjoyed young.",
+      "serving": {
+        "temperature": "chilled",
+        "glassware": "white-wine-glass",
+        "decanting": "no-decanting",
+        "cellaring": "drink-now"
       }
     },
     {
@@ -1999,10 +2071,6 @@
       ],
       "aliases": [],
       "pronunciation": "port",
-      "serving_temperature": "55–60°F (13–15°C) for Ruby; slightly cooler for White Port cocktails",
-      "glassware": "Small port or dessert wine glass",
-      "decanting": "Vintage Port benefits from decanting; Ruby and Tawny typically do not",
-      "aging": "Ruby 2–5 years; Vintage 20–40+ years; Tawny aged in wood per label",
       "beginner_notes": "Start with Late Bottled Vintage (LBV) or 10-Year Tawny — easier than young Vintage Port.",
       "seo_title": "Port — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Port wine style: fortified Douro sweet red, Ruby vs Tawny, dessert and cheese pairings, and serving tips.",
@@ -2018,6 +2086,13 @@
         "alcohol": 5,
         "sweetness": 4,
         "oak": 3
+      },
+      "serving_notes": "55–60°F for Ruby; slightly cooler for White Port cocktails. Vintage Port benefits from decanting; Ruby and Tawny typically do not.",
+      "serving": {
+        "temperature": "fortified-service",
+        "glassware": "dessert-wine-glass",
+        "decanting": "1-hour",
+        "cellaring": "long-term-aging"
       }
     },
     {
@@ -2076,10 +2151,6 @@
       ],
       "aliases": [],
       "pronunciation": "muh-deer-uh",
-      "serving_temperature": "55–65°F (13–18°C) depending on sweetness",
-      "glassware": "Small tulip or white wine glass",
-      "decanting": "Optional for older vintage; not required for most",
-      "aging": "Indefinitely once opened; bottles age decades",
       "beginner_notes": "Try 10-Year Bual or Verdelho — sweet enough for dessert, acidic enough for savory.",
       "seo_title": "Madeira — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Madeira wine style: fortified Atlantic wine, caramel and nut flavors, sweetness levels, and food pairings.",
@@ -2095,6 +2166,13 @@
         "alcohol": 5,
         "sweetness": 3,
         "oak": 4
+      },
+      "serving_notes": "55–65°F depending on sweetness; optional decant for older vintage.",
+      "serving": {
+        "temperature": "fortified-service",
+        "glassware": "dessert-wine-glass",
+        "decanting": "no-decanting",
+        "cellaring": "long-term-aging"
       }
     },
     {
@@ -2152,10 +2230,6 @@
       ],
       "aliases": [],
       "pronunciation": "sher-ee",
-      "serving_temperature": "45–55°F (7–13°C) for Fino/Manzanilla; slightly warmer for Oloroso",
-      "glassware": "Copita or small white wine glass",
-      "decanting": "Not required; serve Fino fresh and chilled",
-      "aging": "Solera systems age average stock for years to decades",
       "beginner_notes": "Start with Manzanilla — dry, briny, and great with seafood tapas.",
       "seo_title": "Sherry — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Sherry wine style: Fino to Oloroso, Jerez fortification, dry vs sweet, and tapas pairings.",
@@ -2171,6 +2245,13 @@
         "alcohol": 4,
         "sweetness": 1,
         "oak": 3
+      },
+      "serving_notes": "45–55°F for Fino/Manzanilla; slightly warmer for Oloroso. Serve Fino fresh and chilled.",
+      "serving": {
+        "temperature": "fortified-service",
+        "glassware": "white-wine-glass",
+        "decanting": "no-decanting",
+        "cellaring": "long-term-aging"
       }
     },
     {
@@ -2232,10 +2313,6 @@
         "Muscat"
       ],
       "pronunciation": "mohs-kah-toh",
-      "serving_temperature": "42–45°F (6–7°C)",
-      "glassware": "Small white wine or tulip glass",
-      "decanting": "Serve very chilled; drink young",
-      "aging": "Drink within 1–2 years",
       "beginner_notes": "Low alcohol and gentle sweetness — approachable for newcomers to wine.",
       "seo_title": "Moscato — Wine Style Guide, Profile & Food Pairing",
       "seo_description": "Moscato wine style: sweet aromatic white, Moscato d'Asti, low alcohol, brunch and dessert pairings.",
@@ -2251,6 +2328,13 @@
         "alcohol": 2,
         "sweetness": 4,
         "oak": 0
+      },
+      "serving_notes": "Serve very chilled; drink young.",
+      "serving": {
+        "temperature": "ice-cold",
+        "glassware": "dessert-wine-glass",
+        "decanting": "no-decanting",
+        "cellaring": "drink-now"
       }
     }
   ]

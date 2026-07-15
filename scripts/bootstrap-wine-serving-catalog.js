@@ -1,0 +1,1068 @@
+/**
+ * ONTOLOGY-01C — Seed data/wine-serving-catalog.json (Tier 1 wine serving entities).
+ * Run: node scripts/bootstrap-wine-serving-catalog.js
+ */
+
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.join(__dirname, "..");
+const OUT = path.join(ROOT, "data", "wine-serving-catalog.json");
+const TAXONOMY_PATH = path.join(ROOT, "data", "wine-taxonomy.json");
+const STYLE_CATALOG = path.join(ROOT, "data", "wine-style-catalog.json");
+const REGION_CATALOG = path.join(ROOT, "data", "wine-region-catalog.json");
+
+function serving(entry) {
+  return {
+    type: "entity",
+    entity_type: "wine_serving",
+    domain: "wine",
+    aliases: [],
+    summary: "",
+    recommended_for: [],
+    related_styles: [],
+    related_grapes: [],
+    related_descriptors: [],
+    related_regions: [],
+    common_mistakes: [],
+    faq: [],
+    seo_title: "",
+    seo_description: "",
+    ...entry,
+    id: entry.id ?? entry.slug,
+  };
+}
+
+const entities = [
+  // —— Temperature (6) ——
+  serving({
+    slug: "ice-cold",
+    family: "temperature",
+    name: "Ice Cold",
+    aliases: ["Very cold", "6–7°C"],
+    summary:
+      "Ice-cold service (roughly 40–45°F / 4–7°C) suits lightly sweet sparklers and aromatic dessert whites where low temperature preserves bubbles and checks sweetness. Prosecco, Moscato, and entry Cava are classic examples.",
+    recommended_for: ["prosecco", "moscato", "cava"],
+    related_styles: ["prosecco", "moscato", "cava"],
+    related_grapes: ["riesling"],
+    related_descriptors: ["crisp", "bright", "fresh"],
+    related_regions: ["veneto", "penedes", "piedmont"],
+    common_mistakes: ["served-too-cold"],
+    faq: [
+      {
+        q: "When is ice-cold too cold?",
+        a: "For dry, complex whites or light reds, ice-cold service can mute aroma and tighten texture — reserve it for sweet or simple sparklers.",
+      },
+    ],
+    seo_title: "Ice Cold Wine Serving Temperature",
+    seo_description:
+      "When to serve wine ice cold: Prosecco, Moscato, and light sparklers at 40–45°F for freshness and bubble retention.",
+  }),
+  serving({
+    slug: "chilled",
+    family: "temperature",
+    name: "Chilled",
+    aliases: ["Well chilled", "7–10°C"],
+    summary:
+      "Chilled service (45–50°F / 7–10°C) is the default for crisp dry whites, rosé, and many sparkling wines. The cold amplifies acidity and refreshment while keeping fruit clean and primary.",
+    recommended_for: ["sauvignon-blanc", "pinot-grigio", "albarino", "rose", "dry-rose", "provence-rose", "champagne"],
+    related_styles: ["sauvignon-blanc", "pinot-grigio", "albarino", "rose", "dry-rose", "provence-rose", "gewurztraminer"],
+    related_grapes: ["sauvignon-blanc", "chardonnay", "riesling"],
+    related_descriptors: ["crisp", "bright", "zesty"],
+    related_regions: ["marlborough", "rias-baixas", "loire-valley", "champagne", "provence"],
+    common_mistakes: ["served-too-cold"],
+    faq: [
+      {
+        q: "How long should a white wine stay in the fridge?",
+        a: "About 2–3 hours in a home refrigerator, or 30–40 minutes in an ice bucket, reaches chilled service for a standard 750ml bottle.",
+      },
+    ],
+    seo_title: "Chilled Wine Serving Temperature",
+    seo_description:
+      "Chilled wine service at 45–50°F for Sauvignon Blanc, rosé, and sparkling — when and why to serve well chilled.",
+  }),
+  serving({
+    slug: "cool",
+    family: "temperature",
+    name: "Cool",
+    aliases: ["Slightly cool", "10–14°C"],
+    summary:
+      "Cool service (50–55°F / 10–14°C) balances freshness with aromatic expression for fuller whites and lighter reds. Chardonnay and Viognier show texture and oak without feeling heavy; Pinot Noir and Tempranillo gain clarity.",
+    recommended_for: ["chardonnay", "viognier", "pinot-noir", "tempranillo", "grenache"],
+    related_styles: ["chardonnay", "viognier", "pinot-noir", "tempranillo", "grenache", "sangiovese"],
+    related_grapes: ["chardonnay", "pinot-noir"],
+    related_descriptors: ["balanced", "elegant", "smooth"],
+    related_regions: ["burgundy", "rhone-valley", "rioja", "sonoma"],
+    common_mistakes: ["served-too-cold", "served-too-warm"],
+    faq: [
+      {
+        q: "Is cool the same as cellar temperature?",
+        a: "Cool is slightly colder than classic cellar temperature — ideal for aromatic whites and lighter reds that would feel flat if served too warm.",
+      },
+    ],
+    seo_title: "Cool Wine Serving Temperature",
+    seo_description:
+      "Cool wine service at 50–55°F for Chardonnay, Viognier, Pinot Noir, and lighter reds — the sweet spot between refreshment and aroma.",
+  }),
+  serving({
+    slug: "cellar-temperature",
+    family: "temperature",
+    name: "Cellar Temperature",
+    aliases: ["55–60°F", "13–15°C"],
+    summary:
+      "Cellar temperature (55–60°F / 13–15°C) is the benchmark for elegant, lighter-bodied reds and some fortified wines. Pinot Noir and Ruby Port show perfume and silky texture without alcohol heat.",
+    recommended_for: ["pinot-noir", "port"],
+    related_styles: ["pinot-noir", "port"],
+    related_grapes: ["pinot-noir", "cabernet-sauvignon"],
+    related_descriptors: ["elegant", "silky", "perfumed"],
+    related_regions: ["burgundy", "willamette-valley", "douro"],
+    common_mistakes: ["served-too-warm", "served-too-cold"],
+    faq: [
+      {
+        q: "What is ideal cellar temperature for wine storage?",
+        a: "55°F (13°C) is the classic storage target; serving at cellar temperature means pulling the bottle slightly warmer than fridge-cold.",
+      },
+    ],
+    seo_title: "Cellar Temperature Wine Service",
+    seo_description:
+      "Serve Pinot Noir and lighter reds at cellar temperature (55–60°F) for balanced aroma, tannin, and alcohol integration.",
+  }),
+  serving({
+    slug: "room-temperature",
+    family: "temperature",
+    name: "Room Temperature",
+    aliases: ["60–65°F", "15–18°C"],
+    summary:
+      "Room temperature for wine means cool room — about 60–65°F (15–18°C), not ambient summer heat. Full-bodied reds like Cabernet Sauvignon, Merlot, Syrah, and Nebbiolo need this range for tannin, oak, and fruit to integrate.",
+    recommended_for: ["cabernet-sauvignon", "merlot", "syrah-shiraz", "malbec", "nebbiolo", "zinfandel"],
+    related_styles: ["cabernet-sauvignon", "merlot", "syrah-shiraz", "malbec", "nebbiolo", "zinfandel"],
+    related_grapes: ["cabernet-sauvignon", "pinot-noir"],
+    related_descriptors: ["structured", "powerful", "firm"],
+    related_regions: ["bordeaux", "napa-valley", "barossa-valley", "barolo"],
+    common_mistakes: ["served-too-warm"],
+    faq: [
+      {
+        q: "Why is room temperature misleading for red wine?",
+        a: "Modern heated homes run 68–72°F+, which exaggerates alcohol and tannin. Aim for 60–65°F — a cool room or brief fridge rest before serving.",
+      },
+    ],
+    seo_title: "Room Temperature Red Wine Service",
+    seo_description:
+      "Proper room temperature for red wine is 60–65°F, not warm room heat — ideal for Cabernet, Merlot, Syrah, and Nebbiolo.",
+  }),
+  serving({
+    slug: "too-warm",
+    family: "temperature",
+    name: "Too Warm",
+    aliases: ["Overheated", "Flabby service"],
+    summary:
+      "Wine served too warm — typically above 65°F for reds or 55°F for whites — tastes alcoholic, loose, and fatigued. Tannins feel harsh, acidity drops, and freshness collapses into stewed fruit.",
+    recommended_for: [],
+    related_styles: ["cabernet-sauvignon", "chardonnay", "port"],
+    related_grapes: ["cabernet-sauvignon"],
+    related_descriptors: ["hot", "flat"],
+    related_regions: [],
+    common_mistakes: [],
+    faq: [
+      {
+        q: "How do you cool an overheated bottle quickly?",
+        a: "Submerge in salted ice water for 10–15 minutes, or wrap in a damp cloth in the freezer for no more than 15 minutes.",
+      },
+    ],
+    seo_title: "Wine Served Too Warm — Signs & Fixes",
+    seo_description:
+      "What happens when wine is served too warm: hot alcohol, flat acidity, and how to cool a bottle quickly.",
+  }),
+
+  // —— Glassware (8) ——
+  serving({
+    slug: "universal-wine-glass",
+    family: "glassware",
+    name: "Universal Wine Glass",
+    aliases: ["Standard red wine glass", "All-purpose glass"],
+    summary:
+      "A medium-bowl universal glass works for everyday reds that do not need extreme bowl size — Merlot, Malbec, Syrah, Grenache, Tempranillo, and Sangiovese. The bowl balances aroma concentration with moderate aeration.",
+    recommended_for: ["merlot", "malbec", "syrah-shiraz", "grenache", "tempranillo", "sangiovese"],
+    related_styles: ["merlot", "malbec", "syrah-shiraz", "grenache", "tempranillo", "sangiovese"],
+    related_grapes: ["cabernet-sauvignon", "pinot-noir"],
+    related_descriptors: ["balanced", "smooth"],
+    related_regions: ["bordeaux", "mendoza", "rioja", "tuscany"],
+    common_mistakes: ["wrong-glass"],
+    faq: [
+      {
+        q: "Is a universal glass good enough?",
+        a: "For most weeknight reds, yes. Dedicated shapes help more with fine, structured, or aromatic wines.",
+      },
+    ],
+    seo_title: "Universal Wine Glass — When to Use",
+    seo_description:
+      "Standard universal red wine glass for Merlot, Malbec, Syrah, Grenache, and everyday reds.",
+  }),
+  serving({
+    slug: "bordeaux-glass",
+    family: "glassware",
+    name: "Bordeaux Glass",
+    aliases: ["Large Bordeaux glass", "Cabernet glass"],
+    summary:
+      "The tall, broad-bowled Bordeaux glass directs full-bodied, high-tannin reds to the back of the palate while concentrating cassis and cedar aromas. Built for Cabernet Sauvignon, Bordeaux blends, and powerful Zinfandel.",
+    recommended_for: ["cabernet-sauvignon", "zinfandel"],
+    related_styles: ["cabernet-sauvignon", "zinfandel", "merlot"],
+    related_grapes: ["cabernet-sauvignon"],
+    related_descriptors: ["structured", "cassis", "firm"],
+    related_regions: ["bordeaux", "napa-valley", "coonawarra"],
+    common_mistakes: ["wrong-glass"],
+    faq: [
+      {
+        q: "Bordeaux vs Burgundy glass?",
+        a: "Bordeaux glasses are taller with a smaller bowl opening; Burgundy glasses are wider to amplify delicate aromatics.",
+      },
+    ],
+    seo_title: "Bordeaux Wine Glass — Shape & Use",
+    seo_description:
+      "Bordeaux glass for Cabernet Sauvignon and full-bodied reds — tall bowl, tannin delivery, and aroma focus.",
+  }),
+  serving({
+    slug: "burgundy-glass",
+    family: "glassware",
+    name: "Burgundy Glass",
+    aliases: ["Wide-bowl glass", "Pinot glass"],
+    summary:
+      "The wide, shallow Burgundy bowl maximizes surface area for delicate, aromatic reds — Pinot Noir and Nebbiolo benefit from enhanced perfume and softer tannin perception. The lip delivers wine across the palate evenly.",
+    recommended_for: ["pinot-noir", "nebbiolo"],
+    related_styles: ["pinot-noir", "nebbiolo"],
+    related_grapes: ["pinot-noir"],
+    related_descriptors: ["elegant", "perfumed", "silky"],
+    related_regions: ["burgundy", "barolo", "willamette-valley"],
+    common_mistakes: ["wrong-glass"],
+    faq: [
+      {
+        q: "Can you use a Burgundy glass for Chardonnay?",
+        a: "Yes — the wide bowl suits rich, barrel-fermented whites as well as aromatic reds.",
+      },
+    ],
+    seo_title: "Burgundy Wine Glass — Pinot Noir & Nebbiolo",
+    seo_description:
+      "Burgundy glass shape for Pinot Noir and Nebbiolo — wide bowl, aromatic focus, and silky palate delivery.",
+  }),
+  serving({
+    slug: "white-wine-glass",
+    family: "glassware",
+    name: "White Wine Glass",
+    aliases: ["Standard white glass", "Smaller bowl glass"],
+    summary:
+      "The narrower white wine glass preserves temperature and concentrates citrus, stone fruit, and floral aromatics. Standard choice for Sauvignon Blanc, Pinot Grigio, Albariño, Chenin Blanc, rosé, and Sherry.",
+    recommended_for: ["sauvignon-blanc", "pinot-grigio", "albarino", "chenin-blanc", "rose", "sherry"],
+    related_styles: ["sauvignon-blanc", "pinot-grigio", "albarino", "chenin-blanc", "rose", "dry-rose", "provence-rose", "riesling"],
+    related_grapes: ["chardonnay", "sauvignon-blanc", "riesling"],
+    related_descriptors: ["crisp", "bright", "zesty"],
+    related_regions: ["marlborough", "loire-valley", "chablis", "jerez"],
+    common_mistakes: ["wrong-glass"],
+    faq: [
+      {
+        q: "Why are white wine glasses smaller?",
+        a: "Smaller bowls keep wine colder longer and funnel delicate aromatics to the nose.",
+      },
+    ],
+    seo_title: "White Wine Glass — Shape & Styles",
+    seo_description:
+      "Standard white wine glass for Sauvignon Blanc, Pinot Grigio, rosé, and crisp whites — temperature and aroma benefits.",
+  }),
+  serving({
+    slug: "champagne-flute",
+    family: "glassware",
+    name: "Champagne Flute",
+    aliases: ["Flute glass", "Sparkling flute"],
+    summary:
+      "The narrow flute preserves bubbles and creates a vertical visual show — ideal for Prosecco and Cava where lively effervescence is the primary appeal. Less ideal for complex Champagne where aroma development matters more.",
+    recommended_for: ["prosecco", "cava"],
+    related_styles: ["prosecco", "cava"],
+    related_grapes: [],
+    related_descriptors: ["bright", "crisp", "fresh"],
+    related_regions: ["veneto", "penedes"],
+    common_mistakes: ["wrong-glass"],
+    faq: [
+      {
+        q: "Is a flute outdated for Champagne?",
+        a: "For prestige Champagne, tulip or white wine shapes are often preferred; flutes remain popular for casual sparklers.",
+      },
+    ],
+    seo_title: "Champagne Flute — Prosecco & Cava",
+    seo_description:
+      "Champagne flute for Prosecco and Cava — bubble preservation, serving temperature, and when to choose a tulip instead.",
+  }),
+  serving({
+    slug: "champagne-tulip",
+    family: "glassware",
+    name: "Champagne Tulip",
+    aliases: ["Sparkling tulip", "Champagne glass"],
+    summary:
+      "The tulip glass balances bubble retention with a wider belly that allows Champagne and premium sparkling wines to express brioche, citrus, and mineral complexity. Preferred for Champagne over a narrow flute.",
+    recommended_for: ["champagne"],
+    related_styles: ["champagne", "cava"],
+    related_grapes: ["chardonnay", "pinot-noir"],
+    related_descriptors: ["toasty", "elegant", "minerality"],
+    related_regions: ["champagne"],
+    common_mistakes: ["wrong-glass"],
+    faq: [
+      {
+        q: "Tulip vs coupe for Champagne?",
+        a: "Tulips preserve bubbles far better than coupes while still allowing aroma development.",
+      },
+    ],
+    seo_title: "Champagne Tulip Glass — Best for Champagne",
+    seo_description:
+      "Champagne tulip glass shape for complex sparkling — aroma, bubble balance, and serving tips.",
+  }),
+  serving({
+    slug: "coupe",
+    family: "glassware",
+    name: "Coupe Glass",
+    aliases: ["Champagne coupe", "Saucer glass"],
+    summary:
+      "The shallow coupe is a vintage presentation glass — bubbles dissipate quickly, making it style over substance for serious sparkling evaluation. Acceptable for cocktails and festive service, not for analyzing fine Champagne.",
+    recommended_for: [],
+    related_styles: ["champagne", "prosecco"],
+    related_grapes: [],
+    related_descriptors: ["flat"],
+    related_regions: ["champagne"],
+    common_mistakes: ["wrong-glass"],
+    faq: [
+      {
+        q: "Why do coupes lose bubbles fast?",
+        a: "The wide open surface allows CO₂ to escape rapidly compared with flutes or tulips.",
+      },
+    ],
+    seo_title: "Champagne Coupe Glass — Pros & Cons",
+    seo_description:
+      "Champagne coupe glass: festive presentation vs bubble loss — when coupes work and when to use a tulip.",
+  }),
+  serving({
+    slug: "dessert-wine-glass",
+    family: "glassware",
+    name: "Dessert Wine Glass",
+    aliases: ["Small port glass", "Fortified wine glass"],
+    summary:
+      "A smaller glass with a slight taper concentrates sweetness, alcohol, and nutty complexity for Port, Madeira, and Moscato. The reduced pour size keeps fortified and dessert wines balanced on the palate.",
+    recommended_for: ["port", "madeira", "moscato"],
+    related_styles: ["port", "madeira", "moscato"],
+    related_grapes: ["riesling"],
+    related_descriptors: ["sweet", "rich", "nutty"],
+    related_regions: ["douro", "madeira", "piedmont"],
+    common_mistakes: ["wrong-glass"],
+    faq: [
+      {
+        q: "How much do you pour in a dessert wine glass?",
+        a: "Typically 2–3 ounces — about half a standard wine pour — for fortified and sweet wines.",
+      },
+    ],
+    seo_title: "Dessert Wine Glass — Port, Madeira & Moscato",
+    seo_description:
+      "Dessert and fortified wine glass for Port, Madeira, and Moscato — pour size, shape, and aroma concentration.",
+  }),
+
+  // —— Decanting (7) ——
+  serving({
+    slug: "no-decanting",
+    family: "decanting",
+    name: "No Decanting",
+    aliases: ["Serve directly", "No decant needed"],
+    summary:
+      "Many wines — crisp whites, young rosé, aromatic whites, and most sparklers — are best opened and poured without decanting. Oxygen would strip freshness; the goal is primary fruit and chill retention.",
+    recommended_for: ["sauvignon-blanc", "pinot-grigio", "prosecco", "cava", "rose", "gewurztraminer"],
+    related_styles: ["sauvignon-blanc", "pinot-grigio", "prosecco", "cava", "rose", "dry-rose", "provence-rose", "gewurztraminer", "albarino"],
+    related_grapes: ["sauvignon-blanc", "riesling"],
+    related_descriptors: ["fresh", "crisp", "bright"],
+    related_regions: ["marlborough", "veneto", "provence"],
+    common_mistakes: ["over-decanted"],
+    faq: [
+      {
+        q: "Does opening a bottle count as decanting?",
+        a: "Brief exposure in the neck is minimal — true decanting means pouring into a vessel to increase oxygen contact.",
+      },
+    ],
+    seo_title: "When Not to Decant Wine",
+    seo_description:
+      "Wines that should not be decanted: crisp whites, rosé, sparklers, and young aromatic styles.",
+  }),
+  serving({
+    slug: "splash-decant",
+    family: "decanting",
+    name: "Splash Decant",
+    aliases: ["Quick decant", "Brief aeration"],
+    summary:
+      "A splash decant — a quick pour into a decanter or glass — adds light aeration without extended oxygen exposure. Useful for restrained whites like premium Chardonnay that benefit from a few minutes of opening.",
+    recommended_for: ["chardonnay"],
+    related_styles: ["chardonnay", "chenin-blanc"],
+    related_grapes: ["chardonnay"],
+    related_descriptors: ["creamy", "balanced"],
+    related_regions: ["burgundy", "chablis"],
+    common_mistakes: ["under-decanted", "over-decanted"],
+    faq: [
+      {
+        q: "How long is a splash decant?",
+        a: "Pour and let rest 5–15 minutes — enough to release aromatics without warming or flattening the wine.",
+      },
+    ],
+    seo_title: "Splash Decant — Quick Wine Aeration",
+    seo_description:
+      "Splash decanting for light aeration — when a quick pour helps Chardonnay and restrained whites open up.",
+  }),
+  serving({
+    slug: "15-minutes",
+    family: "decanting",
+    name: "15 Minutes Decant",
+    aliases: ["Short decant", "Quarter hour"],
+    summary:
+      "Fifteen minutes in a decanter softens youthful edges on medium-bodied reds without risking volatile aroma loss. A practical choice for approachable Merlot or Malbec when the bottle feels tight on opening.",
+    recommended_for: ["merlot", "malbec"],
+    related_styles: ["merlot", "malbec", "grenache"],
+    related_grapes: ["cabernet-sauvignon", "pinot-noir"],
+    related_descriptors: ["smooth", "supple"],
+    related_regions: ["bordeaux", "mendoza"],
+    common_mistakes: ["under-decanted"],
+    faq: [
+      {
+        q: "Is 15 minutes enough for young Cabernet?",
+        a: "Usually not — tannic Cabernet typically needs 30 minutes to 2 hours; 15 minutes suits softer reds.",
+      },
+    ],
+    seo_title: "15 Minute Wine Decant Guide",
+    seo_description:
+      "When to decant wine for 15 minutes — medium-bodied reds like Merlot and Malbec.",
+  }),
+  serving({
+    slug: "30-minutes",
+    family: "decanting",
+    name: "30 Minutes Decant",
+    aliases: ["Half hour decant", "Moderate aeration"],
+    summary:
+      "Thirty minutes of decanting is the workhorse for many reds — Tempranillo Reserva, plush Shiraz, older Pinot Noir, and optional Zinfandel. Tannins round slightly and reductive notes blow off without over-oxidizing fragile older wines.",
+    recommended_for: ["tempranillo", "syrah-shiraz", "pinot-noir", "zinfandel", "merlot"],
+    related_styles: ["tempranillo", "syrah-shiraz", "pinot-noir", "zinfandel", "merlot", "malbec"],
+    related_grapes: ["pinot-noir", "cabernet-sauvignon"],
+    related_descriptors: ["smooth", "balanced", "earthy"],
+    related_regions: ["rioja", "barossa-valley", "burgundy", "sonoma"],
+    common_mistakes: ["under-decanted", "over-decanted"],
+    faq: [
+      {
+        q: "Should you decant old Pinot Noir for 30 minutes?",
+        a: "Older, fragile bottles may need less — taste at 15 minutes and decide; sediment separation is the main goal.",
+      },
+    ],
+    seo_title: "30 Minute Wine Decant — When & Why",
+    seo_description:
+      "Decant wine for 30 minutes: Tempranillo, Shiraz, Pinot Noir, and everyday structured reds.",
+  }),
+  serving({
+    slug: "1-hour",
+    family: "decanting",
+    name: "1 Hour Decant",
+    aliases: ["One hour aeration", "60 minute decant"],
+    summary:
+      "One hour in a decanter opens young, structured reds — Cabernet Sauvignon, Syrah, Sangiovese Brunello, and Vintage Port. Tannins polymerize perceptibly, fruit integrates, and youthful reduction clears.",
+    recommended_for: ["cabernet-sauvignon", "syrah-shiraz", "sangiovese", "port"],
+    related_styles: ["cabernet-sauvignon", "syrah-shiraz", "sangiovese", "port"],
+    related_grapes: ["cabernet-sauvignon"],
+    related_descriptors: ["structured", "firm", "cassis"],
+    related_regions: ["bordeaux", "napa-valley", "rhone-valley", "douro"],
+    common_mistakes: ["under-decanted", "over-decanted"],
+    faq: [
+      {
+        q: "Can you decant too long at one hour?",
+        a: "Rarely for young tannic reds; delicate or very old wines may fade — taste periodically.",
+      },
+    ],
+    seo_title: "1 Hour Wine Decant Guide",
+    seo_description:
+      "Decant structured reds for 1 hour — Cabernet Sauvignon, Syrah, Brunello, and Vintage Port.",
+  }),
+  serving({
+    slug: "2-hours",
+    family: "decanting",
+    name: "2 Hours Decant",
+    aliases: ["Two hour decant", "Extended young red aeration"],
+    summary:
+      "Two hours suits powerfully tannic, youthful reds that remain closed after shorter aeration — young Barolo-adjacent Nebbiolo and top Cabernet. Plan ahead for dinner service and taste at 90 minutes to track evolution.",
+    recommended_for: ["nebbiolo", "cabernet-sauvignon"],
+    related_styles: ["nebbiolo", "cabernet-sauvignon", "sangiovese"],
+    related_grapes: ["cabernet-sauvignon", "pinot-noir"],
+    related_descriptors: ["firm", "tannic", "structured"],
+    related_regions: ["barolo", "bordeaux", "napa-valley"],
+    common_mistakes: ["under-decanted"],
+    faq: [
+      {
+        q: "Should all Barolo decant for 2 hours?",
+        a: "Young, tannic vintages often need it; aged Barolo may require gentler, shorter decanting for sediment only.",
+      },
+    ],
+    seo_title: "2 Hour Wine Decant — Tannic Reds",
+    seo_description:
+      "When to decant wine for 2 hours: young Nebbiolo, Cabernet Sauvignon, and powerfully structured reds.",
+  }),
+  serving({
+    slug: "extended-decant",
+    family: "decanting",
+    name: "Extended Decant",
+    aliases: ["3+ hours", "Long decant"],
+    summary:
+      "Extended decanting (three hours or more) is reserved for the most youthful, tannic giants — young Barolo, top Nebbiolo, and some young Bordeaux. Requires careful monitoring; older wines risk collapse with this much oxygen.",
+    recommended_for: ["nebbiolo"],
+    related_styles: ["nebbiolo", "cabernet-sauvignon"],
+    related_grapes: ["cabernet-sauvignon"],
+    related_descriptors: ["firm", "structured", "tannic"],
+    related_regions: ["barolo", "barolo"],
+    common_mistakes: ["over-decanted"],
+    faq: [
+      {
+        q: "What is the longest safe decant?",
+        a: "Depends on wine age and structure — young Barolo may improve over 4 hours; a 20-year-old Bordeaux may fade in 30 minutes.",
+      },
+    ],
+    seo_title: "Extended Wine Decanting — 3+ Hours",
+    seo_description:
+      "Extended decanting for young Barolo and tannic Nebbiolo — when long aeration helps and risks to avoid.",
+  }),
+
+  // —— Cellaring (4) ——
+  serving({
+    slug: "drink-now",
+    family: "cellaring",
+    name: "Drink Now",
+    aliases: ["Enjoy young", "No cellaring needed"],
+    summary:
+      "Drink-now wines are made for immediate freshness — most Pinot Grigio, Sauvignon Blanc, rosé, Prosecco, Moscato, and young Albariño. Cellaring adds little; the appeal is primary fruit and vibrancy.",
+    recommended_for: ["pinot-grigio", "sauvignon-blanc", "rose", "prosecco", "moscato", "albarino"],
+    related_styles: ["pinot-grigio", "sauvignon-blanc", "rose", "dry-rose", "provence-rose", "prosecco", "moscato", "albarino"],
+    related_grapes: ["sauvignon-blanc", "riesling"],
+    related_descriptors: ["fresh", "bright", "crisp"],
+    related_regions: ["marlborough", "veneto", "provence", "rias-baixas"],
+    common_mistakes: [],
+    faq: [
+      {
+        q: "Can drink-now wines age at all?",
+        a: "A year or two is fine for many; beyond that, fruit and acidity typically fade without compensating complexity.",
+      },
+    ],
+    seo_title: "Drink Now Wines — No Cellaring Needed",
+    seo_description:
+      "Wines to drink now: crisp whites, rosé, Prosecco, and Moscato — styles built for youthful freshness.",
+  }),
+  serving({
+    slug: "short-term-aging",
+    family: "cellaring",
+    name: "Short-Term Aging",
+    aliases: ["2–5 years", "Near-term cellaring"],
+    summary:
+      "Short-term aging (roughly 2–5 years) suits entry Chardonnay, Cava Reserva, Gewürztraminer, Grenache, and Zinfandel — modest gains in integration without long-term commitment.",
+    recommended_for: ["chardonnay", "cava", "gewurztraminer", "grenache", "zinfandel"],
+    related_styles: ["chardonnay", "cava", "gewurztraminer", "grenache", "zinfandel", "viognier"],
+    related_grapes: ["chardonnay", "riesling"],
+    related_descriptors: ["balanced", "smooth", "ripe"],
+    related_regions: ["burgundy", "penedes", "alsace", "rhone-valley"],
+    common_mistakes: [],
+    faq: [
+      {
+        q: "What conditions for short-term storage?",
+        a: "Cool (55°F), dark, humid, and vibration-free — a closet or wine fridge works; no need for a full cellar.",
+      },
+    ],
+    seo_title: "Short-Term Wine Aging — 2 to 5 Years",
+    seo_description:
+      "Wines for short-term aging: Chardonnay, Cava, Gewürztraminer, and approachable reds over 2–5 years.",
+  }),
+  serving({
+    slug: "medium-term-aging",
+    family: "cellaring",
+    name: "Medium-Term Aging",
+    aliases: ["5–15 years", "Mid-term cellaring"],
+    summary:
+      "Medium-term aging (5–15 years) rewards quality Merlot, Syrah, Tempranillo Reserva, dry Riesling, Champagne NV, and Sangiovese — structure and acidity integrate into broader, softer profiles.",
+    recommended_for: ["merlot", "syrah-shiraz", "tempranillo", "riesling", "champagne", "sangiovese"],
+    related_styles: ["merlot", "syrah-shiraz", "tempranillo", "riesling", "champagne", "sangiovese", "malbec", "chenin-blanc"],
+    related_grapes: ["riesling", "cabernet-sauvignon", "pinot-noir"],
+    related_descriptors: ["balanced", "complex", "structured"],
+    related_regions: ["bordeaux", "rioja", "mosel", "champagne", "barossa-valley"],
+    common_mistakes: [],
+    faq: [
+      {
+        q: "How do you know if a wine is medium-term?",
+        a: "Balance of acidity, tannin, and fruit concentration — producer track record and vintage matter as much as style.",
+      },
+    ],
+    seo_title: "Medium-Term Wine Aging — 5 to 15 Years",
+    seo_description:
+      "Medium-term cellaring for Merlot, Syrah, Tempranillo, Riesling, and Champagne — 5–15 year potential.",
+  }),
+  serving({
+    slug: "long-term-aging",
+    family: "cellaring",
+    name: "Long-Term Aging",
+    aliases: ["15+ years", "Cellar worthy"],
+    summary:
+      "Long-term aging (15 years and beyond) is for top Cabernet Sauvignon, Nebbiolo, sweet German Riesling, prestige Champagne, Vintage Port, Madeira, and Gran Reserva Tempranillo — wines with concentration, acidity, and tannin to evolve.",
+    recommended_for: ["cabernet-sauvignon", "nebbiolo", "riesling", "champagne", "port", "madeira"],
+    related_styles: ["cabernet-sauvignon", "nebbiolo", "riesling", "champagne", "port", "madeira", "tempranillo"],
+    related_grapes: ["cabernet-sauvignon", "riesling", "pinot-noir"],
+    related_descriptors: ["structured", "complex", "powerful"],
+    related_regions: ["bordeaux", "barolo", "mosel", "champagne", "douro", "madeira"],
+    common_mistakes: [],
+    faq: [
+      {
+        q: "Does long-term aging require a cellar?",
+        a: "Stable cool temperature and darkness are essential — professional cellars or quality wine fridges are strongly recommended.",
+      },
+    ],
+    seo_title: "Long-Term Wine Aging — 15+ Years",
+    seo_description:
+      "Long-term cellaring wines: Cabernet, Nebbiolo, German Riesling, Vintage Port, Madeira, and prestige Champagne.",
+  }),
+
+  // —— Aging (4) ——
+  serving({
+    slug: "early-drinking",
+    family: "aging",
+    name: "Early Drinking Window",
+    aliases: ["Youthful phase", "Primary fruit stage"],
+    summary:
+      "Early-drinking window captures wine in its youthful phase — primary fruit dominant, tannins firm or absent, and aromatics straightforward. Most inexpensive whites and rosé peak here within the first year or two.",
+    recommended_for: ["sauvignon-blanc", "pinot-grigio", "rose", "prosecco"],
+    related_styles: ["sauvignon-blanc", "pinot-grigio", "rose", "prosecco", "moscato"],
+    related_grapes: ["sauvignon-blanc"],
+    related_descriptors: ["fresh", "bright", "crisp"],
+    related_regions: ["marlborough", "veneto"],
+    common_mistakes: [],
+    faq: [
+      {
+        q: "Is early drinking a quality judgment?",
+        a: "No — many great wines are designed for immediate pleasure; others simply have not matured yet.",
+      },
+    ],
+    seo_title: "Early Drinking Wine Window",
+    seo_description:
+      "Early drinking window for youthful wines — primary fruit, crisp whites, rosé, and sparklers at peak freshness.",
+  }),
+  serving({
+    slug: "peak-window",
+    family: "aging",
+    name: "Peak Drinking Window",
+    aliases: ["Optimal maturity", "Best drinking period"],
+    summary:
+      "Peak window is when fruit, acidity, tannin, and tertiary notes align — the wine shows maximum harmony. Cabernet and Nebbiolo often hit peak after years of cellaring; quality Riesling and Champagne develop layered complexity.",
+    recommended_for: ["cabernet-sauvignon", "nebbiolo", "riesling", "champagne"],
+    related_styles: ["cabernet-sauvignon", "nebbiolo", "riesling", "champagne", "tempranillo", "pinot-noir"],
+    related_grapes: ["cabernet-sauvignon", "pinot-noir", "riesling"],
+    related_descriptors: ["balanced", "complex", "elegant"],
+    related_regions: ["bordeaux", "barolo", "mosel", "burgundy"],
+    common_mistakes: [],
+    faq: [
+      {
+        q: "How long is the peak window?",
+        a: "Varies widely — some wines peak for 2–3 years, others hold for a decade depending on structure and storage.",
+      },
+    ],
+    seo_title: "Peak Drinking Window for Wine",
+    seo_description:
+      "Wine peak drinking window — when Cabernet, Nebbiolo, Riesling, and age-worthy reds show best balance.",
+  }),
+  serving({
+    slug: "mature",
+    family: "aging",
+    name: "Mature",
+    aliases: ["Developed", "Secondary notes"],
+    summary:
+      "Mature wines show developed secondary and tertiary character — leather, tobacco, dried fruit, honey — while retaining core structure. Tempranillo Gran Reserva, aged Bordeaux, and older Barolo often shine in mature phase.",
+    recommended_for: ["tempranillo", "cabernet-sauvignon", "nebbiolo", "port"],
+    related_styles: ["tempranillo", "cabernet-sauvignon", "nebbiolo", "port", "madeira"],
+    related_grapes: ["cabernet-sauvignon", "pinot-noir"],
+    related_descriptors: ["earthy", "leathery", "complex"],
+    related_regions: ["rioja", "bordeaux", "barolo", "douro"],
+    common_mistakes: ["over-decanted"],
+    faq: [
+      {
+        q: "How do you recognize a mature wine?",
+        a: "Fruit shifts from fresh to dried or savory, edges soften, and new aromas emerge — leather, forest floor, truffle.",
+      },
+    ],
+    seo_title: "Mature Wine — Developed Flavors",
+    seo_description:
+      "Mature wine phase: secondary aromas, softened tannin, and when Tempranillo, Bordeaux, and Barolo excel.",
+  }),
+  serving({
+    slug: "fully-mature",
+    family: "aging",
+    name: "Fully Mature",
+    aliases: ["Late phase", "Declining plateau"],
+    summary:
+      "Fully mature wines are at or near the end of their optimal arc — tertiary notes dominate, fruit fades, and texture thins. Handle gently: shorter decants, cooler service, and prompt consumption once opened.",
+    recommended_for: ["port", "madeira", "sherry"],
+    related_styles: ["port", "madeira", "sherry", "cabernet-sauvignon", "nebbiolo"],
+    related_grapes: ["cabernet-sauvignon"],
+    related_descriptors: ["tired", "oxidized", "flat"],
+    related_regions: ["douro", "madeira", "jerez"],
+    common_mistakes: ["over-decanted", "oxidized-after-opening"],
+    faq: [
+      {
+        q: "Is fully mature the same as over the hill?",
+        a: "Not always — some styles like Tawny Port and Madeira are designed to taste best fully mature.",
+      },
+    ],
+    seo_title: "Fully Mature Wine — Late Drinking Phase",
+    seo_description:
+      "Fully mature wine characteristics, serving care, and styles like Port, Madeira, and aged Sherry.",
+  }),
+
+  // —— Mistakes (6) ——
+  serving({
+    slug: "served-too-cold",
+    family: "mistake",
+    name: "Served Too Cold",
+    aliases: ["Over-chilled", "Ice-cold red"],
+    summary:
+      "Serving wine too cold suppresses aroma and tightens texture — reds taste thin and austere, rich whites become mute. Common with Pinot Noir pulled straight from a cold cellar or whites left in the freezer too long.",
+    recommended_for: [],
+    related_styles: ["pinot-noir", "chardonnay", "cabernet-sauvignon"],
+    related_grapes: ["pinot-noir", "chardonnay"],
+    related_descriptors: ["austere", "thin"],
+    related_regions: [],
+    common_mistakes: [],
+    faq: [
+      {
+        q: "How do you warm an over-chilled wine?",
+        a: "Cup the bowl in your hands or let rest 10–15 minutes at room temperature — avoid microwaving or hot water.",
+      },
+    ],
+    seo_title: "Wine Served Too Cold — Signs & Fixes",
+    seo_description:
+      "Over-chilled wine tastes austere and thin — how to recognize and warm wine to proper serving temperature.",
+  }),
+  serving({
+    slug: "served-too-warm",
+    family: "mistake",
+    name: "Served Too Warm",
+    aliases: ["Overheated wine", "Warm red"],
+    summary:
+      "Wine served too warm amplifies alcohol, flattens acidity, and makes tannins harsh. Reds taste stewed; whites lose freshness. A frequent summer patio mistake and a common issue with room-temperature advice in heated homes.",
+    recommended_for: [],
+    related_styles: ["cabernet-sauvignon", "merlot", "chardonnay", "rose"],
+    related_grapes: ["cabernet-sauvignon"],
+    related_descriptors: ["hot", "flat"],
+    related_regions: [],
+    common_mistakes: [],
+    faq: [
+      {
+        q: "What temperature is too warm for red wine?",
+        a: "Above 65°F (18°C) most reds show excess heat; above 70°F quality drops sharply.",
+      },
+    ],
+    seo_title: "Wine Served Too Warm — Signs & Fixes",
+    seo_description:
+      "Wine served too warm tastes hot and flat — proper temperatures and quick cooling fixes.",
+  }),
+  serving({
+    slug: "over-decanted",
+    family: "mistake",
+    name: "Over-Decanted",
+    aliases: ["Too much aeration", "Oxidized from decanting"],
+    summary:
+      "Over-decanting exposes wine to excessive oxygen — fragile older bottles fade within minutes, aromatic whites flatten, and sparklers are ruined entirely. Young tannic reds tolerate more; aged wines need caution.",
+    recommended_for: [],
+    related_styles: ["pinot-noir", "nebbiolo", "chardonnay", "champagne"],
+    related_grapes: ["pinot-noir"],
+    related_descriptors: ["flat", "oxidized", "tired"],
+    related_regions: [],
+    common_mistakes: [],
+    faq: [
+      {
+        q: "Can you save an over-decanted wine?",
+        a: "Sometimes recorking and chilling slows further decline, but lost aromatics rarely return.",
+      },
+    ],
+    seo_title: "Over-Decanted Wine — Prevention & Signs",
+    seo_description:
+      "Over-decanting risks: flattened aroma, premature oxidation, and which wines need gentle aeration.",
+  }),
+  serving({
+    slug: "under-decanted",
+    family: "mistake",
+    name: "Under-Decanted",
+    aliases: ["Insufficient aeration", "Closed wine"],
+    summary:
+      "Under-decanting leaves young, tannic reds tight and reductive — closed fruit, aggressive tannin, and muted aroma. Common with young Cabernet, Nebbiolo, and Syrah opened just before pouring.",
+    recommended_for: [],
+    related_styles: ["cabernet-sauvignon", "nebbiolo", "syrah-shiraz", "sangiovese"],
+    related_grapes: ["cabernet-sauvignon"],
+    related_descriptors: ["firm", "austere", "closed"],
+    related_regions: ["bordeaux", "barolo"],
+    common_mistakes: [],
+    faq: [
+      {
+        q: "How do you fix under-decanted wine?",
+        a: "Pour into a decanter or large glass and wait — double decanting accelerates opening for stubborn bottles.",
+      },
+    ],
+    seo_title: "Under-Decanted Wine — When Wine Needs More Air",
+    seo_description:
+      "Under-decanted young reds taste closed and tannic — signs your wine needs more aeration.",
+  }),
+  serving({
+    slug: "wrong-glass",
+    family: "mistake",
+    name: "Wrong Glass",
+    aliases: ["Incorrect glassware", "Mismatched glass"],
+    summary:
+      "Wrong glassware undermines the wine — Champagne in a coupe loses bubbles, Pinot Noir in a small glass mutes aroma, and fortified wine in a large bowl exaggerates alcohol heat. Glass shape directs wine to palate zones and concentrates aromatics.",
+    recommended_for: [],
+    related_styles: ["champagne", "pinot-noir", "cabernet-sauvignon", "port"],
+    related_grapes: ["pinot-noir", "chardonnay"],
+    related_descriptors: ["flat"],
+    related_regions: [],
+    common_mistakes: [],
+    faq: [
+      {
+        q: "Does glassware really matter?",
+        a: "For fine wine, yes — shape affects aroma intensity, bubble retention, and perceived tannin more than most expect.",
+      },
+    ],
+    seo_title: "Wrong Wine Glass — Common Mistakes",
+    seo_description:
+      "Wrong glassware for wine: coupe vs tulip, red vs white bowls, and how glass shape changes perception.",
+  }),
+  serving({
+    slug: "oxidized-after-opening",
+    family: "mistake",
+    name: "Oxidized After Opening",
+    aliases: ["Stale wine", "Left open too long"],
+    summary:
+      "Wine oxidizes after opening when stored improperly — fruit browns, freshness collapses, and Sherry-like notes emerge in table wine. Whites fade within 2–3 days; delicate reds within 1–2. Vacuum pumps and inert gas slow but do not stop decline.",
+    recommended_for: [],
+    related_styles: ["chardonnay", "pinot-noir", "sauvignon-blanc"],
+    related_grapes: ["chardonnay", "pinot-noir"],
+    related_descriptors: ["oxidized", "flat", "tired"],
+    related_regions: [],
+    common_mistakes: [],
+    faq: [
+      {
+        q: "How long does wine last after opening?",
+        a: "Sparkling 1–2 days with stopper; whites 3–5 days refrigerated; full reds 3–4 days; fragile old reds often one evening.",
+      },
+    ],
+    seo_title: "Wine Oxidized After Opening — Storage Tips",
+    seo_description:
+      "Prevent wine oxidation after opening — storage methods, shelf life, and signs of stale wine.",
+  }),
+
+  // —— Bridging entities (5) ——
+  serving({
+    slug: "ideal-serving-temperature",
+    family: "temperature",
+    name: "Ideal Serving Temperature",
+    aliases: ["Optimal temperature", "Target serve temp"],
+    summary:
+      "Ideal serving temperature is style-specific — not one number for all wine. Light whites and sparklers need chill; Pinot Noir prefers cellar cool; Cabernet needs cool-room service. Matching temperature to style unlocks intended balance.",
+    recommended_for: ["cabernet-sauvignon", "pinot-noir", "chardonnay", "champagne", "riesling"],
+    related_styles: ["cabernet-sauvignon", "pinot-noir", "chardonnay", "champagne", "riesling", "sauvignon-blanc"],
+    related_grapes: ["cabernet-sauvignon", "pinot-noir", "chardonnay", "riesling", "sauvignon-blanc"],
+    related_descriptors: ["balanced", "bright", "structured"],
+    related_regions: ["bordeaux", "burgundy", "champagne", "mosel"],
+    common_mistakes: ["served-too-cold", "served-too-warm"],
+    faq: [
+      {
+        q: "Is there a single ideal wine temperature?",
+        a: "No — use style guides: sparkling coldest, then crisp whites, fuller whites, light reds, and structured reds warmest.",
+      },
+    ],
+    seo_title: "Ideal Wine Serving Temperature by Style",
+    seo_description:
+      "Ideal serving temperature for every wine style — reds, whites, sparkling, and fortified guidelines.",
+  }),
+  serving({
+    slug: "lightly-chilled",
+    family: "temperature",
+    name: "Lightly Chilled",
+    aliases: ["48–52°F", "9–11°C"],
+    summary:
+      "Lightly chilled (48–52°F / 9–11°C) bridges crisp whites and cool service — perfect for Chenin Blanc and off-dry Riesling where a touch of chill lifts acidity without muting honeyed or waxy texture.",
+    recommended_for: ["chenin-blanc", "riesling"],
+    related_styles: ["chenin-blanc", "riesling", "viognier"],
+    related_grapes: ["riesling", "chardonnay"],
+    related_descriptors: ["crisp", "bright", "honeyed"],
+    related_regions: ["loire-valley", "mosel", "clare-valley"],
+    common_mistakes: ["served-too-cold"],
+    faq: [
+      {
+        q: "When is lightly chilled better than fully chilled?",
+        a: "When wine has texture, sweetness, or complex aromatics that full chilling would flatten — Chenin and German Riesling are classic cases.",
+      },
+    ],
+    seo_title: "Lightly Chilled White Wine Temperature",
+    seo_description:
+      "Lightly chilled service at 48–52°F for Chenin Blanc, Riesling, and aromatic whites with texture.",
+  }),
+  serving({
+    slug: "sparkling-chilled",
+    family: "temperature",
+    name: "Sparkling Chilled",
+    aliases: ["Sparkling serve temp", "6–9°C"],
+    summary:
+      "Sparkling wines thrive well chilled (42–48°F / 6–9°C) — bubbles stay fine, acidity feels crisp, and autolytic notes stay clean. Applies to Champagne, Prosecco, and Cava with slight variation by sweetness and style.",
+    recommended_for: ["champagne", "prosecco", "cava"],
+    related_styles: ["champagne", "prosecco", "cava"],
+    related_grapes: ["chardonnay", "pinot-noir"],
+    related_descriptors: ["crisp", "bright", "toasty"],
+    related_regions: ["champagne", "veneto", "penedes"],
+    common_mistakes: ["served-too-warm"],
+    faq: [
+      {
+        q: "Should sweet sparkling be colder?",
+        a: "Often yes — extra chill balances residual sugar and keeps the finish refreshing.",
+      },
+    ],
+    seo_title: "Sparkling Wine Serving Temperature",
+    seo_description:
+      "Sparkling wine serving temperature for Champagne, Prosecco, and Cava — chill range and glass tips.",
+  }),
+  serving({
+    slug: "fortified-service",
+    family: "temperature",
+    name: "Fortified Wine Service",
+    aliases: ["Port and Sherry service", "Fortified protocol"],
+    summary:
+      "Fortified wines need tailored service — Fino Sherry and Manzanilla chilled; Oloroso and Port slightly cool to cellar warm; Madeira flexible by sweetness. Small pours, appropriate glassware, and freshness for biologically aged styles are essential.",
+    recommended_for: ["port", "sherry", "madeira"],
+    related_styles: ["port", "sherry", "madeira"],
+    related_grapes: [],
+    related_descriptors: ["nutty", "rich", "saline"],
+    related_regions: ["douro", "jerez", "madeira"],
+    common_mistakes: ["served-too-warm", "oxidized-after-opening"],
+    faq: [
+      {
+        q: "Should Port be served warm like red wine?",
+        a: "Ruby and Vintage Port do well at cool room or cellar temperature — not summer-warm; Tawny can take a slight chill.",
+      },
+    ],
+    seo_title: "Fortified Wine Serving Guide — Port, Sherry, Madeira",
+    seo_description:
+      "How to serve fortified wines: Port, Sherry, and Madeira temperatures, pours, and glassware.",
+  }),
+  serving({
+    slug: "aromatic-white-service",
+    family: "glassware",
+    name: "Aromatic White Wine Service",
+    aliases: ["Gewürztraminer service", "Perfumed white protocol"],
+    summary:
+      "Aromatic whites like Gewürztraminer need a glass with a slightly wider opening and moderate chill to amplify lychee, rose, and spice without residual sugar cloying. Serve chilled, not ice-cold, in a shape that collects perfume.",
+    recommended_for: ["gewurztraminer"],
+    related_styles: ["gewurztraminer", "riesling", "moscato"],
+    related_grapes: ["riesling"],
+    related_descriptors: ["perfumed", "floral", "lychee"],
+    related_regions: ["alsace", "mosel"],
+    common_mistakes: ["served-too-cold", "wrong-glass"],
+    faq: [
+      {
+        q: "Why does Gewürztraminer need a wider glass?",
+        a: "The intense perfume benefits from a bowl that collects volatile aromatics — a standard narrow white glass can underdeliver.",
+      },
+    ],
+    seo_title: "Aromatic White Wine Service — Gewürztraminer",
+    seo_description:
+      "Serving aromatic whites: Gewürztraminer temperature, glassware, and chill tips for perfumed varieties.",
+  }),
+];
+
+function loadValidSlugs() {
+  const taxonomy = JSON.parse(fs.readFileSync(TAXONOMY_PATH, "utf8"));
+  const descriptorSlugs = new Set(
+    Object.values(taxonomy.nodes)
+      .filter((n) => n.type === "descriptor")
+      .map((n) => n.slug)
+  );
+  const styleSlugs = new Set(
+    JSON.parse(fs.readFileSync(STYLE_CATALOG, "utf8")).styles.map((s) => s.slug)
+  );
+  const regionSlugs = new Set(
+    JSON.parse(fs.readFileSync(REGION_CATALOG, "utf8")).regions.map((r) => r.slug)
+  );
+  return { descriptorSlugs, styleSlugs, regionSlugs };
+}
+
+function validate(entities, { descriptorSlugs, styleSlugs, regionSlugs }) {
+  const servingSlugs = new Set(entities.map((e) => e.slug));
+  const mistakeSlugs = new Set(entities.filter((e) => e.family === "mistake").map((e) => e.slug));
+  const errors = [];
+
+  if (entities.length !== 40) {
+    errors.push(`Expected 40 entities, got ${entities.length}`);
+  }
+
+  for (const entity of entities) {
+    for (const slug of entity.related_styles ?? []) {
+      if (!styleSlugs.has(slug)) errors.push(`${entity.slug}: invalid related_style "${slug}"`);
+    }
+    for (const slug of entity.related_descriptors ?? []) {
+      if (!descriptorSlugs.has(slug)) errors.push(`${entity.slug}: invalid related_descriptor "${slug}"`);
+    }
+    for (const slug of entity.related_regions ?? []) {
+      if (!regionSlugs.has(slug)) errors.push(`${entity.slug}: invalid related_region "${slug}"`);
+    }
+    for (const slug of entity.common_mistakes ?? []) {
+      if (!mistakeSlugs.has(slug)) errors.push(`${entity.slug}: invalid common_mistake "${slug}"`);
+    }
+    for (const slug of entity.recommended_for ?? []) {
+      if (!styleSlugs.has(slug)) errors.push(`${entity.slug}: invalid recommended_for "${slug}"`);
+    }
+  }
+
+  const expectedSlugs = [
+    "ice-cold", "chilled", "cool", "cellar-temperature", "room-temperature", "too-warm",
+    "universal-wine-glass", "bordeaux-glass", "burgundy-glass", "white-wine-glass",
+    "champagne-flute", "champagne-tulip", "coupe", "dessert-wine-glass",
+    "no-decanting", "splash-decant", "15-minutes", "30-minutes", "1-hour", "2-hours", "extended-decant",
+    "drink-now", "short-term-aging", "medium-term-aging", "long-term-aging",
+    "early-drinking", "peak-window", "mature", "fully-mature",
+    "served-too-cold", "served-too-warm", "over-decanted", "under-decanted", "wrong-glass", "oxidized-after-opening",
+    "ideal-serving-temperature", "lightly-chilled", "sparkling-chilled", "fortified-service", "aromatic-white-service",
+  ];
+  for (const slug of expectedSlugs) {
+    if (!servingSlugs.has(slug)) errors.push(`Missing required slug: ${slug}`);
+  }
+
+  if (errors.length) {
+    console.error("✗ Validation failed:");
+    for (const err of errors) console.error(`  - ${err}`);
+    process.exit(1);
+  }
+}
+
+function familyBreakdown(entities) {
+  const counts = {};
+  for (const e of entities) {
+    counts[e.family] = (counts[e.family] ?? 0) + 1;
+  }
+  return counts;
+}
+
+function main() {
+  const valid = loadValidSlugs();
+  validate(entities, valid);
+
+  const catalog = {
+    meta: {
+      phase: "ONTOLOGY-01C",
+      tier: 1,
+      description: "Tier 1 launch wine serving entities — temperature, glassware, decanting, cellaring, aging, and service mistakes.",
+      entity_count: entities.length,
+      seeded: new Date().toISOString().slice(0, 10),
+    },
+    entities,
+  };
+
+  fs.writeFileSync(OUT, JSON.stringify(catalog, null, 2) + "\n");
+
+  const families = familyBreakdown(entities);
+  console.log(`✓ Wrote ${entities.length} entities to data/wine-serving-catalog.json`);
+  console.log("Families:", families);
+}
+
+main();

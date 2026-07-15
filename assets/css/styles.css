@@ -3351,6 +3351,28 @@ body.term-modal-open {
   color: var(--muted);
 }
 
+/* ---------- ONTOLOGY-01C — Wine Serving entity pages ---------- */
+.wine-serving-entity-page {
+  --term-entity-accent: var(--wine-red);
+}
+
+.wine-serving-family {
+  font-size: 1.05rem;
+  color: var(--muted);
+  margin: 0.35rem 0 0;
+}
+
+.wine-serving-summary p {
+  font-size: 1.1rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.wine-serving-aliases {
+  color: var(--muted);
+  margin: 0.5rem 0 1rem;
+}
+
 @media (max-width: 768px) {
   .wine-structure-bar {
     grid-template-columns: 1fr;
