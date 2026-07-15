@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T13:59:02.631Z",
-  "phase": "ONTOLOGY-01A",
+  "generated_at": "2026-07-15T14:28:06.722Z",
+  "phase": "ONTOLOGY-01B",
   "ontology_version": "2.0.0",
   "supported_entity_types": [
     "descriptor_category",
@@ -63,10 +63,11 @@
     },
     {
       "domain": "Wine",
-      "entity_type": "Region",
-      "target": 100,
-      "current": 0,
-      "status": "pending"
+      "entity_type": "Wine Region (Tier 1)",
+      "target": 45,
+      "current": 51,
+      "pages": 51,
+      "status": "complete"
     },
     {
       "domain": "Wine",
@@ -118,8 +119,24 @@
       "status": "planned"
     }
   ],
+  "graph_maturity": {
+    "total_entities": 271,
+    "total_relationships": 1724,
+    "average_relationships_per_entity": 6.4,
+    "entities_with_faq": 79,
+    "entities_with_structured_data": 79,
+    "reverse_relationship_coverage": {
+      "style_to_region_links": 90,
+      "region_to_style_reverse": 90
+    },
+    "fully_connected_entities_pct": 43.2,
+    "orphan_entities": 0,
+    "orphan_slugs": [],
+    "broken_graph_edges": 0
+  },
   "sitemap": {
-    "total": 258,
+    "total": 310,
+    "region_urls": 51,
     "style_urls": 28,
     "descriptor_urls": 187,
     "category_urls": 12

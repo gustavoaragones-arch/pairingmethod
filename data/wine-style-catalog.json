@@ -1,8 +1,9 @@
 {
   "meta": {
-    "phase": "ONTOLOGY-01A",
+    "phase": "ONTOLOGY-01B",
     "tier": 1,
-    "description": "Tier 1 launch wine styles — editorial catalog SSOT for style pages and knowledge graph edges."
+    "description": "Tier 1 launch wine styles — editorial catalog SSOT for style pages and knowledge graph edges.",
+    "region_slugs_migrated": "2026-07-15"
   },
   "styles": [
     {
@@ -67,10 +68,10 @@
         "cabernet-sauvignon"
       ],
       "typical_regions": [
-        "Bordeaux (France)",
-        "Napa Valley (USA)",
-        "Chile",
-        "Coonawarra (Australia)"
+        "bordeaux",
+        "napa-valley",
+        "chile",
+        "coonawarra"
       ],
       "aliases": [
         "Cab",
@@ -149,10 +150,10 @@
         "merlot"
       ],
       "typical_regions": [
-        "Bordeaux Right Bank (France)",
-        "California",
-        "Chile",
-        "Italy"
+        "bordeaux",
+        "usa",
+        "chile",
+        "italy"
       ],
       "aliases": [],
       "pronunciation": "mer-loh",
@@ -232,10 +233,10 @@
         "pinot-noir"
       ],
       "typical_regions": [
-        "Burgundy (France)",
-        "Oregon",
-        "Marlborough (New Zealand)",
-        "Sonoma (USA)"
+        "burgundy",
+        "willamette-valley",
+        "marlborough",
+        "sonoma"
       ],
       "aliases": [],
       "pronunciation": "pee-noh nwahr",
@@ -319,10 +320,10 @@
         "syrah"
       ],
       "typical_regions": [
-        "Northern Rhône (France)",
-        "Barossa Valley (Australia)",
-        "Washington State",
-        "South Africa"
+        "rhone-valley",
+        "barossa-valley",
+        "usa",
+        "south-africa"
       ],
       "aliases": [
         "Syrah",
@@ -401,10 +402,10 @@
         "malbec"
       ],
       "typical_regions": [
-        "Mendoza (Argentina)",
-        "Cahors (France)",
-        "Chile",
-        "California"
+        "mendoza",
+        "cahors",
+        "chile",
+        "usa"
       ],
       "aliases": [],
       "pronunciation": "mal-bek",
@@ -480,10 +481,10 @@
         "grenache"
       ],
       "typical_regions": [
-        "Southern Rhône (France)",
-        "Priorat (Spain)",
-        "Barossa Valley (Australia)",
-        "California"
+        "rhone-valley",
+        "priorat",
+        "barossa-valley",
+        "usa"
       ],
       "aliases": [
         "Garnacha"
@@ -560,10 +561,10 @@
         "sangiovese"
       ],
       "typical_regions": [
-        "Tuscany (Italy)",
-        "Emilia-Romagna",
-        "California",
-        "Australia"
+        "tuscany",
+        "italy",
+        "usa",
+        "australia"
       ],
       "aliases": [],
       "pronunciation": "san-joh-vay-zeh",
@@ -639,10 +640,10 @@
         "nebbiolo"
       ],
       "typical_regions": [
-        "Piedmont (Italy)",
-        "Lombardy (Valtellina)",
-        "California",
-        "Australia"
+        "piedmont",
+        "italy",
+        "usa",
+        "australia"
       ],
       "aliases": [],
       "pronunciation": "neb-ee-oh-loh",
@@ -718,10 +719,10 @@
         "tempranillo"
       ],
       "typical_regions": [
-        "Rioja (Spain)",
-        "Ribera del Duero (Spain)",
-        "Portugal (as Touriga Nacional blends)",
-        "California"
+        "rioja",
+        "ribera-del-duero",
+        "portugal",
+        "usa"
       ],
       "aliases": [],
       "pronunciation": "tem-prah-nee-yoh",
@@ -797,10 +798,9 @@
         "zinfandel"
       ],
       "typical_regions": [
-        "California (USA)",
-        "Lodi",
-        "Sonoma",
-        "Puglia (Italy, as Primitivo)"
+        "usa",
+        "sonoma",
+        "italy"
       ],
       "aliases": [
         "Zin",
@@ -885,10 +885,10 @@
         "chardonnay"
       ],
       "typical_regions": [
-        "Burgundy (France)",
-        "California",
-        "Australia",
-        "Chile"
+        "burgundy",
+        "usa",
+        "australia",
+        "chile"
       ],
       "aliases": [],
       "pronunciation": "shar-doh-nay",
@@ -964,10 +964,10 @@
         "sauvignon-blanc"
       ],
       "typical_regions": [
-        "Loire (France)",
-        "Marlborough (New Zealand)",
-        "California",
-        "Chile"
+        "loire-valley",
+        "marlborough",
+        "usa",
+        "chile"
       ],
       "aliases": [],
       "pronunciation": "so-vee-nyon blahn",
@@ -1046,10 +1046,10 @@
         "riesling"
       ],
       "typical_regions": [
-        "Mosel (Germany)",
-        "Alsace (France)",
-        "Austria",
-        "Australia (Clare Valley)"
+        "mosel",
+        "alsace",
+        "austria",
+        "clare-valley"
       ],
       "aliases": [],
       "pronunciation": "rees-ling",
@@ -1125,10 +1125,10 @@
         "pinot-grigio"
       ],
       "typical_regions": [
-        "Veneto and Friuli (Italy)",
-        "Alsace (France)",
-        "Oregon",
-        "California"
+        "veneto",
+        "alsace",
+        "willamette-valley",
+        "usa"
       ],
       "aliases": [
         "Pinot Gris"
@@ -1206,10 +1206,10 @@
         "chenin-blanc"
       ],
       "typical_regions": [
-        "Loire Valley (France)",
-        "South Africa",
-        "California",
-        "Australia"
+        "loire-valley",
+        "south-africa",
+        "usa",
+        "australia"
       ],
       "aliases": [],
       "pronunciation": "shuh-nan blahn",
@@ -1285,10 +1285,10 @@
         "viognier"
       ],
       "typical_regions": [
-        "Condrieu (France)",
-        "California",
-        "Australia",
-        "Languedoc (France)"
+        "rhone-valley",
+        "usa",
+        "australia",
+        "france"
       ],
       "aliases": [],
       "pronunciation": "vee-ohn-yay",
@@ -1362,10 +1362,10 @@
         "gewurztraminer"
       ],
       "typical_regions": [
-        "Alsace (France)",
-        "Alto Adige (Italy)",
-        "Washington State",
-        "New Zealand"
+        "alsace",
+        "italy",
+        "usa",
+        "new-zealand"
       ],
       "aliases": [
         "Gewurztraminer"
@@ -1442,10 +1442,10 @@
         "albarino"
       ],
       "typical_regions": [
-        "Rías Baixas (Spain)",
-        "Vinho Verde (Portugal)",
-        "California",
-        "Oregon"
+        "rias-baixas",
+        "portugal",
+        "usa",
+        "willamette-valley"
       ],
       "aliases": [
         "Albarino"
@@ -1523,7 +1523,7 @@
         "pinot-meunier"
       ],
       "typical_regions": [
-        "Champagne (France)"
+        "champagne"
       ],
       "aliases": [],
       "pronunciation": "sham-payn",
@@ -1598,8 +1598,7 @@
         "glera"
       ],
       "typical_regions": [
-        "Veneto (Italy)",
-        "Friuli-Venezia Giulia"
+        "veneto"
       ],
       "aliases": [],
       "pronunciation": "proh-seh-koh",
@@ -1675,8 +1674,8 @@
         "parellada"
       ],
       "typical_regions": [
-        "Penedès (Spain)",
-        "Other Spanish DOs"
+        "penedes",
+        "spain"
       ],
       "aliases": [],
       "pronunciation": "kah-vah",
@@ -1754,10 +1753,10 @@
         "mourvedre"
       ],
       "typical_regions": [
-        "Provence (France)",
-        "Spain",
-        "California",
-        "Italy"
+        "provence",
+        "spain",
+        "usa",
+        "italy"
       ],
       "aliases": [
         "Rosé Wine"
@@ -1838,10 +1837,10 @@
         "pinot-noir"
       ],
       "typical_regions": [
-        "Provence (France)",
-        "Loire (France)",
-        "Spain",
-        "California"
+        "provence",
+        "loire-valley",
+        "spain",
+        "usa"
       ],
       "aliases": [],
       "pronunciation": "dry roh-zay",
@@ -1918,9 +1917,7 @@
         "syrah"
       ],
       "typical_regions": [
-        "Provence (France)",
-        "Côtes de Provence",
-        "Bandol"
+        "provence"
       ],
       "aliases": [],
       "pronunciation": "proh-vahnss roh-zay",
@@ -1998,7 +1995,7 @@
         "tinta-barroca"
       ],
       "typical_regions": [
-        "Douro Valley (Portugal)"
+        "douro"
       ],
       "aliases": [],
       "pronunciation": "port",
@@ -2075,7 +2072,7 @@
         "malvasia"
       ],
       "typical_regions": [
-        "Madeira (Portugal)"
+        "madeira"
       ],
       "aliases": [],
       "pronunciation": "muh-deer-uh",
@@ -2151,9 +2148,7 @@
         "moscatel"
       ],
       "typical_regions": [
-        "Jerez (Spain)",
-        "Sanlúcar de Barrameda",
-        "El Puerto de Santa María"
+        "jerez"
       ],
       "aliases": [],
       "pronunciation": "sher-ee",
@@ -2228,10 +2223,9 @@
         "moscato"
       ],
       "typical_regions": [
-        "Piedmont (Italy)",
-        "Asti",
-        "California",
-        "Australia"
+        "piedmont",
+        "usa",
+        "australia"
       ],
       "aliases": [
         "Moscato d'Asti",

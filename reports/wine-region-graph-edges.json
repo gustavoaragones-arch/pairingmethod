@@ -1,0 +1,1784 @@
+{
+  "generated_at": "2026-07-15T14:28:04.442Z",
+  "region_count": 51,
+  "total_edges": 790,
+  "style_links": 161,
+  "grape_links": 81,
+  "descriptor_links": 306,
+  "regions": [
+    {
+      "slug": "france",
+      "name": "France",
+      "edges": {
+        "descriptors": [
+          "elegant",
+          "structured",
+          "minerality",
+          "earthy",
+          "refined",
+          "balanced"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "pinot-noir",
+          "chardonnay",
+          "sauvignon-blanc",
+          "riesling"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "merlot",
+          "pinot-noir",
+          "chardonnay",
+          "sauvignon-blanc",
+          "riesling",
+          "champagne",
+          "rose",
+          "viognier"
+        ],
+        "parent": [],
+        "subregions": [
+          "bordeaux",
+          "burgundy",
+          "champagne",
+          "loire-valley",
+          "rhone-valley",
+          "alsace",
+          "beaujolais",
+          "provence",
+          "cahors"
+        ],
+        "related_regions": [
+          "italy",
+          "spain",
+          "germany"
+        ],
+        "pairings": [
+          "Steak"
+        ],
+        "edge_count": 33
+      }
+    },
+    {
+      "slug": "italy",
+      "name": "Italy",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "earthy",
+          "herbal",
+          "firm",
+          "rustic",
+          "bright"
+        ],
+        "grapes": [
+          "pinot-noir"
+        ],
+        "styles": [
+          "sangiovese",
+          "nebbiolo",
+          "pinot-grigio",
+          "prosecco",
+          "moscato",
+          "rose",
+          "gewurztraminer",
+          "merlot",
+          "zinfandel"
+        ],
+        "parent": [],
+        "subregions": [
+          "piedmont",
+          "tuscany",
+          "veneto",
+          "sicily"
+        ],
+        "related_regions": [
+          "france",
+          "spain",
+          "portugal"
+        ],
+        "pairings": [
+          "Roast Chicken"
+        ],
+        "edge_count": 24
+      }
+    },
+    {
+      "slug": "spain",
+      "name": "Spain",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "leathery",
+          "earthy",
+          "spicy",
+          "saline",
+          "crisp"
+        ],
+        "grapes": [],
+        "styles": [
+          "tempranillo",
+          "grenache",
+          "albarino",
+          "cava",
+          "sherry",
+          "rose",
+          "dry-rose"
+        ],
+        "parent": [],
+        "subregions": [
+          "rioja",
+          "ribera-del-duero",
+          "priorat",
+          "rias-baixas",
+          "jerez",
+          "penedes"
+        ],
+        "related_regions": [
+          "portugal",
+          "france",
+          "italy"
+        ],
+        "pairings": [],
+        "edge_count": 22
+      }
+    },
+    {
+      "slug": "germany",
+      "name": "Germany",
+      "edges": {
+        "descriptors": [
+          "lime",
+          "peach",
+          "floral",
+          "minerality",
+          "crisp",
+          "honeyed"
+        ],
+        "grapes": [
+          "riesling",
+          "pinot-noir",
+          "sauvignon-blanc"
+        ],
+        "styles": [
+          "riesling"
+        ],
+        "parent": [],
+        "subregions": [
+          "mosel",
+          "rheingau"
+        ],
+        "related_regions": [
+          "france",
+          "austria"
+        ],
+        "pairings": [],
+        "edge_count": 14
+      }
+    },
+    {
+      "slug": "portugal",
+      "name": "Portugal",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "floral",
+          "saline",
+          "crisp",
+          "rich",
+          "complex"
+        ],
+        "grapes": [],
+        "styles": [
+          "port",
+          "albarino",
+          "madeira",
+          "tempranillo"
+        ],
+        "parent": [],
+        "subregions": [
+          "douro",
+          "madeira"
+        ],
+        "related_regions": [
+          "spain",
+          "france"
+        ],
+        "pairings": [],
+        "edge_count": 14
+      }
+    },
+    {
+      "slug": "usa",
+      "name": "United States",
+      "edges": {
+        "descriptors": [
+          "ripe",
+          "blackberry",
+          "vanilla",
+          "powerful",
+          "smooth",
+          "rich"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "pinot-noir",
+          "chardonnay",
+          "sauvignon-blanc"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "merlot",
+          "pinot-noir",
+          "chardonnay",
+          "zinfandel",
+          "sauvignon-blanc",
+          "albarino",
+          "chenin-blanc",
+          "dry-rose",
+          "gewurztraminer",
+          "grenache",
+          "malbec",
+          "moscato",
+          "nebbiolo",
+          "pinot-grigio",
+          "rose",
+          "sangiovese",
+          "syrah-shiraz",
+          "tempranillo",
+          "viognier"
+        ],
+        "parent": [],
+        "subregions": [
+          "napa-valley",
+          "sonoma",
+          "willamette-valley"
+        ],
+        "related_regions": [
+          "france",
+          "italy",
+          "australia"
+        ],
+        "pairings": [
+          "Steak",
+          "BBQ Ribs"
+        ],
+        "edge_count": 38
+      }
+    },
+    {
+      "slug": "australia",
+      "name": "Australia",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "black-pepper",
+          "ripe",
+          "powerful",
+          "crisp",
+          "citrus-zest"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "chardonnay",
+          "riesling",
+          "sauvignon-blanc",
+          "pinot-noir"
+        ],
+        "styles": [
+          "syrah-shiraz",
+          "cabernet-sauvignon",
+          "chardonnay",
+          "riesling",
+          "sauvignon-blanc",
+          "chenin-blanc",
+          "moscato",
+          "nebbiolo",
+          "sangiovese",
+          "viognier"
+        ],
+        "parent": [],
+        "subregions": [
+          "barossa-valley",
+          "margaret-river",
+          "yarra-valley",
+          "coonawarra",
+          "clare-valley"
+        ],
+        "related_regions": [
+          "new-zealand",
+          "usa",
+          "france"
+        ],
+        "pairings": [
+          "BBQ Ribs"
+        ],
+        "edge_count": 30
+      }
+    },
+    {
+      "slug": "new-zealand",
+      "name": "New Zealand",
+      "edges": {
+        "descriptors": [
+          "gooseberry",
+          "grassy",
+          "zesty",
+          "crisp",
+          "cherry",
+          "bright"
+        ],
+        "grapes": [
+          "sauvignon-blanc",
+          "pinot-noir",
+          "chardonnay",
+          "riesling"
+        ],
+        "styles": [
+          "sauvignon-blanc",
+          "pinot-noir",
+          "gewurztraminer",
+          "rose"
+        ],
+        "parent": [],
+        "subregions": [
+          "marlborough",
+          "central-otago"
+        ],
+        "related_regions": [
+          "australia",
+          "france"
+        ],
+        "pairings": [
+          "Salmon"
+        ],
+        "edge_count": 19
+      }
+    },
+    {
+      "slug": "argentina",
+      "name": "Argentina",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "plummy",
+          "violet",
+          "smooth",
+          "ripe",
+          "chocolate"
+        ],
+        "grapes": [
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "malbec",
+          "cabernet-sauvignon"
+        ],
+        "parent": [],
+        "subregions": [
+          "mendoza"
+        ],
+        "related_regions": [
+          "chile",
+          "france"
+        ],
+        "pairings": [
+          "Steak"
+        ],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "chile",
+      "name": "Chile",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "cassis",
+          "ripe",
+          "smooth",
+          "crisp",
+          "citrus-zest"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "sauvignon-blanc",
+          "chardonnay"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "merlot",
+          "malbec",
+          "sauvignon-blanc",
+          "chardonnay"
+        ],
+        "parent": [],
+        "subregions": [
+          "maipo-valley",
+          "colchagua-valley"
+        ],
+        "related_regions": [
+          "argentina",
+          "usa",
+          "france"
+        ],
+        "pairings": [
+          "Steak"
+        ],
+        "edge_count": 20
+      }
+    },
+    {
+      "slug": "austria",
+      "name": "Austria",
+      "edges": {
+        "descriptors": [
+          "lime",
+          "peach",
+          "black-pepper",
+          "crisp",
+          "minerality",
+          "elegant"
+        ],
+        "grapes": [
+          "riesling",
+          "pinot-noir",
+          "sauvignon-blanc"
+        ],
+        "styles": [
+          "riesling",
+          "pinot-grigio"
+        ],
+        "parent": [],
+        "subregions": [],
+        "related_regions": [
+          "germany",
+          "france"
+        ],
+        "pairings": [],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "south-africa",
+      "name": "South Africa",
+      "edges": {
+        "descriptors": [
+          "grapefruit",
+          "minerality",
+          "spicy",
+          "blackberry",
+          "crisp",
+          "balanced"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "pinot-noir",
+          "sauvignon-blanc"
+        ],
+        "styles": [
+          "chenin-blanc",
+          "syrah-shiraz",
+          "cabernet-sauvignon",
+          "pinot-noir"
+        ],
+        "parent": [],
+        "subregions": [],
+        "related_regions": [
+          "france",
+          "australia"
+        ],
+        "pairings": [],
+        "edge_count": 15
+      }
+    },
+    {
+      "slug": "bordeaux",
+      "name": "Bordeaux",
+      "edges": {
+        "descriptors": [
+          "cassis",
+          "graphite",
+          "cedar",
+          "structured",
+          "firm",
+          "blackberry"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "sauvignon-blanc"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "merlot"
+        ],
+        "parent": [
+          "france"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "burgundy",
+          "rhone-valley",
+          "napa-valley"
+        ],
+        "pairings": [
+          "Steak"
+        ],
+        "edge_count": 15
+      }
+    },
+    {
+      "slug": "burgundy",
+      "name": "Burgundy",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "earthy",
+          "silky",
+          "minerality",
+          "elegant",
+          "toasty"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "chardonnay"
+        ],
+        "styles": [
+          "pinot-noir",
+          "chardonnay"
+        ],
+        "parent": [
+          "france"
+        ],
+        "subregions": [
+          "chablis"
+        ],
+        "related_regions": [
+          "champagne",
+          "loire-valley",
+          "willamette-valley"
+        ],
+        "pairings": [
+          "Salmon",
+          "Roast Chicken"
+        ],
+        "edge_count": 17
+      }
+    },
+    {
+      "slug": "chablis",
+      "name": "Chablis",
+      "edges": {
+        "descriptors": [
+          "crisp",
+          "minerality",
+          "citrus-zest",
+          "bright",
+          "clean",
+          "elegant"
+        ],
+        "grapes": [
+          "chardonnay"
+        ],
+        "styles": [
+          "chardonnay"
+        ],
+        "parent": [
+          "burgundy"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "burgundy",
+          "loire-valley",
+          "marlborough"
+        ],
+        "pairings": [],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "champagne",
+      "name": "Champagne",
+      "edges": {
+        "descriptors": [
+          "brioche",
+          "toast",
+          "citrus-zest",
+          "crisp",
+          "elegant",
+          "refined"
+        ],
+        "grapes": [
+          "chardonnay",
+          "pinot-noir"
+        ],
+        "styles": [
+          "champagne"
+        ],
+        "parent": [
+          "france"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "burgundy",
+          "penedes",
+          "veneto"
+        ],
+        "pairings": [
+          "Creamy Dishes"
+        ],
+        "edge_count": 14
+      }
+    },
+    {
+      "slug": "loire-valley",
+      "name": "Loire Valley",
+      "edges": {
+        "descriptors": [
+          "grassy",
+          "zesty",
+          "crisp",
+          "minerality",
+          "quince",
+          "bright"
+        ],
+        "grapes": [
+          "sauvignon-blanc",
+          "pinot-noir"
+        ],
+        "styles": [
+          "sauvignon-blanc",
+          "chenin-blanc",
+          "cabernet-sauvignon",
+          "rose",
+          "dry-rose"
+        ],
+        "parent": [
+          "france"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "burgundy",
+          "bordeaux",
+          "chablis"
+        ],
+        "pairings": [],
+        "edge_count": 17
+      }
+    },
+    {
+      "slug": "rhone-valley",
+      "name": "Rhône Valley",
+      "edges": {
+        "descriptors": [
+          "black-pepper",
+          "blackberry",
+          "spicy",
+          "floral",
+          "herbal",
+          "ripe"
+        ],
+        "grapes": [],
+        "styles": [
+          "syrah-shiraz",
+          "grenache",
+          "viognier",
+          "rose"
+        ],
+        "parent": [
+          "france"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "provence",
+          "burgundy",
+          "barossa-valley"
+        ],
+        "pairings": [
+          "Steak"
+        ],
+        "edge_count": 15
+      }
+    },
+    {
+      "slug": "alsace",
+      "name": "Alsace",
+      "edges": {
+        "descriptors": [
+          "floral",
+          "lychee",
+          "lime",
+          "spicy",
+          "minerality",
+          "crisp"
+        ],
+        "grapes": [
+          "riesling",
+          "pinot-noir"
+        ],
+        "styles": [
+          "riesling",
+          "gewurztraminer",
+          "pinot-grigio"
+        ],
+        "parent": [
+          "france"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "germany",
+          "loire-valley"
+        ],
+        "pairings": [],
+        "edge_count": 14
+      }
+    },
+    {
+      "slug": "beaujolais",
+      "name": "Beaujolais",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "bright",
+          "vibrant",
+          "light-bodied",
+          "fresh",
+          "supple"
+        ],
+        "grapes": [
+          "pinot-noir"
+        ],
+        "styles": [
+          "pinot-noir"
+        ],
+        "parent": [
+          "france"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "burgundy",
+          "loire-valley"
+        ],
+        "pairings": [
+          "Roast Chicken"
+        ],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "provence",
+      "name": "Provence",
+      "edges": {
+        "descriptors": [
+          "strawberry",
+          "herbal",
+          "saline",
+          "crisp",
+          "dry",
+          "elegant"
+        ],
+        "grapes": [],
+        "styles": [
+          "rose",
+          "dry-rose",
+          "provence-rose",
+          "grenache"
+        ],
+        "parent": [
+          "france"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "rhone-valley",
+          "france"
+        ],
+        "pairings": [
+          "Salmon"
+        ],
+        "edge_count": 14
+      }
+    },
+    {
+      "slug": "cahors",
+      "name": "Cahors",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "firm",
+          "structured",
+          "earthy",
+          "plummy",
+          "leathery"
+        ],
+        "grapes": [],
+        "styles": [
+          "malbec"
+        ],
+        "parent": [
+          "france"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "bordeaux",
+          "mendoza"
+        ],
+        "pairings": [
+          "Steak"
+        ],
+        "edge_count": 11
+      }
+    },
+    {
+      "slug": "piedmont",
+      "name": "Piedmont",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "tar",
+          "rose-petal",
+          "violet",
+          "firm",
+          "austere"
+        ],
+        "grapes": [],
+        "styles": [
+          "nebbiolo",
+          "moscato",
+          "pinot-noir"
+        ],
+        "parent": [
+          "italy"
+        ],
+        "subregions": [
+          "barolo",
+          "langhe"
+        ],
+        "related_regions": [
+          "tuscany",
+          "burgundy"
+        ],
+        "pairings": [],
+        "edge_count": 14
+      }
+    },
+    {
+      "slug": "langhe",
+      "name": "Langhe",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "tar",
+          "earthy",
+          "firm",
+          "elegant",
+          "structured"
+        ],
+        "grapes": [],
+        "styles": [
+          "nebbiolo"
+        ],
+        "parent": [
+          "piedmont"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "barolo",
+          "piedmont",
+          "burgundy"
+        ],
+        "pairings": [],
+        "edge_count": 11
+      }
+    },
+    {
+      "slug": "barolo",
+      "name": "Barolo",
+      "edges": {
+        "descriptors": [
+          "tar",
+          "rose-petal",
+          "cherry",
+          "firm",
+          "austere",
+          "structured"
+        ],
+        "grapes": [],
+        "styles": [
+          "nebbiolo"
+        ],
+        "parent": [
+          "piedmont"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "langhe",
+          "piedmont",
+          "burgundy"
+        ],
+        "pairings": [
+          "Steak"
+        ],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "tuscany",
+      "name": "Tuscany",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "earthy",
+          "herbal",
+          "firm",
+          "tart",
+          "rustic"
+        ],
+        "grapes": [
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "sangiovese",
+          "cabernet-sauvignon",
+          "merlot"
+        ],
+        "parent": [
+          "italy"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "piedmont",
+          "rioja"
+        ],
+        "pairings": [],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "veneto",
+      "name": "Veneto",
+      "edges": {
+        "descriptors": [
+          "peach",
+          "crisp",
+          "bright",
+          "fresh",
+          "cherry",
+          "smooth"
+        ],
+        "grapes": [],
+        "styles": [
+          "prosecco",
+          "pinot-grigio",
+          "merlot"
+        ],
+        "parent": [
+          "italy"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "tuscany",
+          "alsace",
+          "champagne"
+        ],
+        "pairings": [
+          "Roast Chicken"
+        ],
+        "edge_count": 14
+      }
+    },
+    {
+      "slug": "sicily",
+      "name": "Sicily",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "spicy",
+          "earthy",
+          "ripe",
+          "minerality",
+          "herbal"
+        ],
+        "grapes": [],
+        "styles": [
+          "sangiovese",
+          "rose",
+          "grenache"
+        ],
+        "parent": [
+          "italy"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "tuscany",
+          "spain"
+        ],
+        "pairings": [],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "rioja",
+      "name": "Rioja",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "vanilla",
+          "leathery",
+          "smooth",
+          "earthy",
+          "balanced"
+        ],
+        "grapes": [],
+        "styles": [
+          "tempranillo",
+          "grenache"
+        ],
+        "parent": [
+          "spain"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "ribera-del-duero",
+          "bordeaux"
+        ],
+        "pairings": [
+          "Steak"
+        ],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "ribera-del-duero",
+      "name": "Ribera del Duero",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "firm",
+          "structured",
+          "leathery",
+          "vanilla",
+          "earthy"
+        ],
+        "grapes": [
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "tempranillo"
+        ],
+        "parent": [
+          "spain"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "rioja",
+          "priorat"
+        ],
+        "pairings": [
+          "Steak"
+        ],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "priorat",
+      "name": "Priorat",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "minerality",
+          "spicy",
+          "structured",
+          "ripe",
+          "powerful"
+        ],
+        "grapes": [
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "grenache",
+          "syrah-shiraz"
+        ],
+        "parent": [
+          "spain"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "rhone-valley",
+          "rioja",
+          "barossa-valley"
+        ],
+        "pairings": [],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "rias-baixas",
+      "name": "Rías Baixas",
+      "edges": {
+        "descriptors": [
+          "peach",
+          "citrus-zest",
+          "saline",
+          "crisp",
+          "bright",
+          "minerality"
+        ],
+        "grapes": [],
+        "styles": [
+          "albarino"
+        ],
+        "parent": [
+          "spain"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "portugal",
+          "loire-valley"
+        ],
+        "pairings": [
+          "Salmon"
+        ],
+        "edge_count": 11
+      }
+    },
+    {
+      "slug": "jerez",
+      "name": "Jerez",
+      "edges": {
+        "descriptors": [
+          "nutty",
+          "saline",
+          "toasty",
+          "dry",
+          "complex",
+          "refined"
+        ],
+        "grapes": [],
+        "styles": [
+          "sherry"
+        ],
+        "parent": [
+          "spain"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "portugal",
+          "madeira"
+        ],
+        "pairings": [],
+        "edge_count": 10
+      }
+    },
+    {
+      "slug": "penedes",
+      "name": "Penedès",
+      "edges": {
+        "descriptors": [
+          "quince",
+          "citrus-zest",
+          "crisp",
+          "toasty",
+          "dry",
+          "bright"
+        ],
+        "grapes": [
+          "chardonnay",
+          "pinot-noir"
+        ],
+        "styles": [
+          "cava"
+        ],
+        "parent": [
+          "spain"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "champagne",
+          "rioja"
+        ],
+        "pairings": [],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "mosel",
+      "name": "Mosel",
+      "edges": {
+        "descriptors": [
+          "lime",
+          "floral",
+          "crisp",
+          "minerality",
+          "honeyed",
+          "elegant"
+        ],
+        "grapes": [
+          "riesling"
+        ],
+        "styles": [
+          "riesling"
+        ],
+        "parent": [
+          "germany"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "rheingau",
+          "alsace"
+        ],
+        "pairings": [],
+        "edge_count": 11
+      }
+    },
+    {
+      "slug": "rheingau",
+      "name": "Rheingau",
+      "edges": {
+        "descriptors": [
+          "peach",
+          "apricot",
+          "floral",
+          "minerality",
+          "crisp",
+          "elegant"
+        ],
+        "grapes": [
+          "riesling",
+          "pinot-noir"
+        ],
+        "styles": [
+          "riesling"
+        ],
+        "parent": [
+          "germany"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "mosel",
+          "alsace"
+        ],
+        "pairings": [],
+        "edge_count": 12
+      }
+    },
+    {
+      "slug": "douro",
+      "name": "Douro",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "floral",
+          "violet",
+          "rich",
+          "spicy",
+          "structured"
+        ],
+        "grapes": [],
+        "styles": [
+          "port"
+        ],
+        "parent": [
+          "portugal"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "rioja",
+          "priorat"
+        ],
+        "pairings": [],
+        "edge_count": 10
+      }
+    },
+    {
+      "slug": "madeira",
+      "name": "Madeira",
+      "edges": {
+        "descriptors": [
+          "caramel",
+          "nutty",
+          "orange",
+          "toasty",
+          "rich",
+          "complex"
+        ],
+        "grapes": [],
+        "styles": [
+          "madeira"
+        ],
+        "parent": [
+          "portugal"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "jerez",
+          "portugal"
+        ],
+        "pairings": [],
+        "edge_count": 10
+      }
+    },
+    {
+      "slug": "napa-valley",
+      "name": "Napa Valley",
+      "edges": {
+        "descriptors": [
+          "cassis",
+          "blackberry",
+          "vanilla",
+          "cedar",
+          "powerful",
+          "structured"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "chardonnay",
+          "sauvignon-blanc"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "merlot",
+          "chardonnay"
+        ],
+        "parent": [
+          "usa"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "sonoma",
+          "bordeaux",
+          "mendoza"
+        ],
+        "pairings": [
+          "Steak"
+        ],
+        "edge_count": 17
+      }
+    },
+    {
+      "slug": "sonoma",
+      "name": "Sonoma",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "blackberry",
+          "smooth",
+          "ripe",
+          "jammy",
+          "elegant"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "chardonnay",
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "pinot-noir",
+          "chardonnay",
+          "cabernet-sauvignon",
+          "zinfandel"
+        ],
+        "parent": [
+          "usa"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "napa-valley",
+          "willamette-valley",
+          "burgundy"
+        ],
+        "pairings": [
+          "Salmon",
+          "BBQ Ribs"
+        ],
+        "edge_count": 19
+      }
+    },
+    {
+      "slug": "willamette-valley",
+      "name": "Willamette Valley",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "earthy",
+          "silky",
+          "bright",
+          "elegant",
+          "crisp"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "chardonnay",
+          "riesling"
+        ],
+        "styles": [
+          "pinot-noir",
+          "pinot-grigio",
+          "chardonnay",
+          "albarino"
+        ],
+        "parent": [
+          "usa"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "burgundy",
+          "marlborough",
+          "sonoma"
+        ],
+        "pairings": [
+          "Salmon"
+        ],
+        "edge_count": 18
+      }
+    },
+    {
+      "slug": "barossa-valley",
+      "name": "Barossa Valley",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "black-pepper",
+          "chocolate",
+          "ripe",
+          "powerful",
+          "jammy"
+        ],
+        "grapes": [
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "syrah-shiraz",
+          "grenache"
+        ],
+        "parent": [
+          "australia"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "rhone-valley",
+          "coonawarra",
+          "mendoza"
+        ],
+        "pairings": [
+          "BBQ Ribs"
+        ],
+        "edge_count": 14
+      }
+    },
+    {
+      "slug": "margaret-river",
+      "name": "Margaret River",
+      "edges": {
+        "descriptors": [
+          "cassis",
+          "citrus-zest",
+          "minerality",
+          "elegant",
+          "structured",
+          "crisp"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "chardonnay",
+          "sauvignon-blanc"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "chardonnay",
+          "sauvignon-blanc"
+        ],
+        "parent": [
+          "australia"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "bordeaux",
+          "coonawarra",
+          "marlborough"
+        ],
+        "pairings": [
+          "Salmon"
+        ],
+        "edge_count": 17
+      }
+    },
+    {
+      "slug": "yarra-valley",
+      "name": "Yarra Valley",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "citrus-zest",
+          "elegant",
+          "crisp",
+          "earthy",
+          "refined"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "chardonnay"
+        ],
+        "styles": [
+          "pinot-noir",
+          "chardonnay",
+          "champagne"
+        ],
+        "parent": [
+          "australia"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "burgundy",
+          "willamette-valley",
+          "marlborough"
+        ],
+        "pairings": [
+          "Roast Chicken"
+        ],
+        "edge_count": 16
+      }
+    },
+    {
+      "slug": "coonawarra",
+      "name": "Coonawarra",
+      "edges": {
+        "descriptors": [
+          "cassis",
+          "herbal",
+          "firm",
+          "structured",
+          "blackberry",
+          "cedar"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "chardonnay"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "merlot",
+          "syrah-shiraz"
+        ],
+        "parent": [
+          "australia"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "bordeaux",
+          "margaret-river",
+          "napa-valley"
+        ],
+        "pairings": [
+          "Steak"
+        ],
+        "edge_count": 16
+      }
+    },
+    {
+      "slug": "clare-valley",
+      "name": "Clare Valley",
+      "edges": {
+        "descriptors": [
+          "lime",
+          "crisp",
+          "citrus-zest",
+          "floral",
+          "minerality",
+          "bright"
+        ],
+        "grapes": [
+          "riesling",
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "riesling"
+        ],
+        "parent": [
+          "australia"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "mosel",
+          "marlborough",
+          "barossa-valley"
+        ],
+        "pairings": [],
+        "edge_count": 13
+      }
+    },
+    {
+      "slug": "marlborough",
+      "name": "Marlborough",
+      "edges": {
+        "descriptors": [
+          "gooseberry",
+          "grassy",
+          "zesty",
+          "crisp",
+          "grapefruit",
+          "bright"
+        ],
+        "grapes": [
+          "sauvignon-blanc",
+          "pinot-noir",
+          "chardonnay",
+          "riesling"
+        ],
+        "styles": [
+          "sauvignon-blanc",
+          "pinot-noir"
+        ],
+        "parent": [
+          "new-zealand"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "loire-valley",
+          "central-otago",
+          "chablis"
+        ],
+        "pairings": [],
+        "edge_count": 16
+      }
+    },
+    {
+      "slug": "central-otago",
+      "name": "Central Otago",
+      "edges": {
+        "descriptors": [
+          "cherry",
+          "raspberry",
+          "firm",
+          "bright",
+          "spicy",
+          "elegant"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "riesling"
+        ],
+        "styles": [
+          "pinot-noir",
+          "rose"
+        ],
+        "parent": [
+          "new-zealand"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "willamette-valley",
+          "burgundy",
+          "marlborough"
+        ],
+        "pairings": [
+          "Salmon"
+        ],
+        "edge_count": 15
+      }
+    },
+    {
+      "slug": "mendoza",
+      "name": "Mendoza",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "violet",
+          "plummy",
+          "smooth",
+          "ripe",
+          "chocolate"
+        ],
+        "grapes": [
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "malbec",
+          "cabernet-sauvignon"
+        ],
+        "parent": [
+          "argentina"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "cahors",
+          "napa-valley",
+          "maipo-valley"
+        ],
+        "pairings": [
+          "Steak"
+        ],
+        "edge_count": 14
+      }
+    },
+    {
+      "slug": "maipo-valley",
+      "name": "Maipo Valley",
+      "edges": {
+        "descriptors": [
+          "cassis",
+          "herbal",
+          "blackberry",
+          "firm",
+          "structured",
+          "ripe"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "sauvignon-blanc"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "merlot"
+        ],
+        "parent": [
+          "chile"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "mendoza",
+          "napa-valley",
+          "bordeaux"
+        ],
+        "pairings": [
+          "Steak"
+        ],
+        "edge_count": 15
+      }
+    },
+    {
+      "slug": "colchagua-valley",
+      "name": "Colchagua Valley",
+      "edges": {
+        "descriptors": [
+          "blackberry",
+          "plummy",
+          "spicy",
+          "ripe",
+          "smooth",
+          "chocolate"
+        ],
+        "grapes": [
+          "cabernet-sauvignon"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "merlot",
+          "syrah-shiraz"
+        ],
+        "parent": [
+          "chile"
+        ],
+        "subregions": [],
+        "related_regions": [
+          "maipo-valley",
+          "mendoza",
+          "rioja"
+        ],
+        "pairings": [
+          "BBQ Ribs"
+        ],
+        "edge_count": 15
+      }
+    }
+  ]
+}

@@ -3340,10 +3340,15 @@ body.term-modal-open {
   margin-bottom: 0.5rem;
 }
 
-.term-search-hit-cat {
-  font-size: 0.78rem;
+.wine-region-meta {
+  font-size: 1.05rem;
   color: var(--muted);
-  margin-left: 0.35rem;
+  margin: 0.35rem 0 0;
+}
+
+.wine-region-hub-class {
+  font-size: 0.85rem;
+  color: var(--muted);
 }
 
 @media (max-width: 768px) {

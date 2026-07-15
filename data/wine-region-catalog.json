@@ -1,0 +1,3144 @@
+{
+  "meta": {
+    "phase": "ONTOLOGY-01B",
+    "tier": 1,
+    "description": "Tier 1 launch wine regions — editorial catalog SSOT for region pages and knowledge graph edges."
+  },
+  "regions": [
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "French wine"
+      ],
+      "parent_region": "",
+      "classification": "Country",
+      "summary": "France sets the global benchmark for appellation law, terroir expression, and food-aligned wine culture. From Bordeaux's structured reds to Champagne's méthode traditionnelle, French regions define classic styles referenced worldwide.",
+      "typical_styles": [
+        "cabernet-sauvignon",
+        "merlot",
+        "pinot-noir",
+        "chardonnay",
+        "sauvignon-blanc",
+        "riesling",
+        "champagne",
+        "rose"
+      ],
+      "typical_grapes": [
+        "cabernet-sauvignon",
+        "merlot",
+        "pinot-noir",
+        "chardonnay",
+        "sauvignon-blanc",
+        "riesling",
+        "syrah",
+        "grenache"
+      ],
+      "typical_descriptors": [
+        "elegant",
+        "structured",
+        "minerality",
+        "earthy",
+        "refined",
+        "balanced"
+      ],
+      "climate": "Maritime to continental; varied by region",
+      "soil": [
+        "limestone",
+        "clay",
+        "gravel",
+        "schist",
+        "granite"
+      ],
+      "elevation": "Sea level to 600m+ in Alps foothills",
+      "subregions": [
+        "bordeaux",
+        "burgundy",
+        "champagne",
+        "loire-valley",
+        "rhone-valley",
+        "alsace",
+        "beaujolais",
+        "provence",
+        "cahors"
+      ],
+      "related_regions": [
+        "italy",
+        "spain",
+        "germany"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        },
+        {
+          "tier": "secondary",
+          "label": "Artisan cheese"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is AOC in France?",
+          "a": "Appellation d'Origine Contrôlée — regulated geographic and production standards for wine."
+        }
+      ],
+      "seo_title": "French Wine Regions — Guide to France's Appellations",
+      "seo_description": "Explore French wine regions from Bordeaux and Burgundy to Champagne and the Loire. Terroir, classic styles, and food pairings.",
+      "slug": "france",
+      "name": "France",
+      "country": "France",
+      "id": "france"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "",
+      "classification": "Country",
+      "summary": "Italy offers unmatched regional diversity — high-acid food wines from Piedmont and Tuscany, sparkling Prosecco from Veneto, and Mediterranean styles from Sicily. Native grapes and cuisine-driven pairing define the landscape.",
+      "typical_styles": [
+        "sangiovese",
+        "nebbiolo",
+        "pinot-grigio",
+        "prosecco",
+        "moscato",
+        "rose"
+      ],
+      "typical_grapes": [
+        "sangiovese",
+        "nebbiolo",
+        "pinot-grigio",
+        "glera",
+        "moscato",
+        "pinot-noir"
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "earthy",
+        "herbal",
+        "firm",
+        "rustic",
+        "bright"
+      ],
+      "climate": "Mediterranean to alpine",
+      "soil": [
+        "volcanic",
+        "limestone",
+        "clay",
+        "sandstone"
+      ],
+      "elevation": "Sea level to 800m+ in Alps and Apennines",
+      "subregions": [
+        "piedmont",
+        "tuscany",
+        "veneto",
+        "sicily"
+      ],
+      "related_regions": [
+        "france",
+        "spain",
+        "portugal"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Roast Chicken"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is DOC vs DOCG?",
+          "a": "DOCG is Italy's highest quality tier with stricter rules; DOC is the broader appellation level."
+        }
+      ],
+      "seo_title": "Italian Wine Regions — Piedmont, Tuscany & Beyond",
+      "seo_description": "Italian wine regions explained: Piedmont, Tuscany, Veneto, Sicily, native grapes, and classic food pairings.",
+      "slug": "italy",
+      "name": "Italy",
+      "country": "Italy",
+      "id": "italy"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "",
+      "classification": "Country",
+      "summary": "Spain combines ancient viticulture with modern quality — Rioja and Ribera del Duero for Tempranillo, Priorat for powerful Garnacha, and Atlantic whites from Rías Baixas. Value and age-worthy reds dominate export markets.",
+      "typical_styles": [
+        "tempranillo",
+        "grenache",
+        "albarino",
+        "cava",
+        "sherry",
+        "rose"
+      ],
+      "typical_grapes": [
+        "tempranillo",
+        "grenache",
+        "albarino",
+        "macabeo",
+        "palomino"
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "leathery",
+        "earthy",
+        "spicy",
+        "saline",
+        "crisp"
+      ],
+      "climate": "Mediterranean, continental, and Atlantic",
+      "soil": [
+        "limestone",
+        "slate",
+        "clay",
+        "alluvial"
+      ],
+      "elevation": "Sea level to 1,000m on central plateau",
+      "subregions": [
+        "rioja",
+        "ribera-del-duero",
+        "priorat",
+        "rias-baixas",
+        "jerez",
+        "penedes"
+      ],
+      "related_regions": [
+        "portugal",
+        "france",
+        "italy"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Tapas and jamón"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What grape is Rioja based on?",
+          "a": "Tempranillo, often blended with Garnacha, Mazuelo, and Graciano."
+        }
+      ],
+      "seo_title": "Spanish Wine Regions — Rioja, Ribera & Priorat Guide",
+      "seo_description": "Spanish wine regions: Rioja, Ribera del Duero, Priorat, Rías Baixas, Cava, and Sherry — styles and pairings.",
+      "slug": "spain",
+      "name": "Spain",
+      "country": "Spain",
+      "id": "spain"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "",
+      "classification": "Country",
+      "summary": "Germany excels at aromatic whites — especially Riesling — with a precision born from cool climate and steep slate slopes. Mosel and Rheingau produce benchmark dry to lusciously sweet styles with piercing acidity.",
+      "typical_styles": [
+        "riesling"
+      ],
+      "typical_grapes": [
+        "riesling",
+        "pinot-noir",
+        "sauvignon-blanc"
+      ],
+      "typical_descriptors": [
+        "lime",
+        "peach",
+        "floral",
+        "minerality",
+        "crisp",
+        "honeyed"
+      ],
+      "climate": "Cool continental",
+      "soil": [
+        "slate",
+        "limestone",
+        "sandstone"
+      ],
+      "elevation": "100–350m on river valleys",
+      "subregions": [
+        "mosel",
+        "rheingau"
+      ],
+      "related_regions": [
+        "france",
+        "austria"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Pork and fruit glazes"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is German Riesling always sweet?",
+          "a": "No — many are dry (Trocken). Sweetness levels are indicated on the label."
+        }
+      ],
+      "seo_title": "German Wine Regions — Mosel, Rheingau & Riesling",
+      "seo_description": "German wine regions guide: Mosel and Rheingau Riesling, slate terroir, and food pairing tips.",
+      "slug": "germany",
+      "name": "Germany",
+      "country": "Germany",
+      "id": "germany"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "",
+      "classification": "Country",
+      "summary": "Portugal is defined by indigenous grapes and Atlantic influence — Port from the Douro, Vinho Verde's spritz, and increasingly serious table wines. Fortified traditions coexist with modern dry styles.",
+      "typical_styles": [
+        "port",
+        "albarino",
+        "madeira"
+      ],
+      "typical_grapes": [
+        "touriga-nacional",
+        "albarino",
+        "sercial",
+        "malvasia"
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "floral",
+        "saline",
+        "crisp",
+        "rich",
+        "complex"
+      ],
+      "climate": "Maritime Atlantic to hot interior",
+      "soil": [
+        "schist",
+        "granite",
+        "clay",
+        "volcanic"
+      ],
+      "elevation": "Sea level to 700m in Douro",
+      "subregions": [
+        "douro",
+        "madeira"
+      ],
+      "related_regions": [
+        "spain",
+        "france"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Seafood and salt cod"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Port wine?",
+          "a": "Fortified wine from the Douro Valley — fermentation stopped with grape spirit to preserve sweetness."
+        }
+      ],
+      "seo_title": "Portuguese Wine Regions — Douro, Madeira & Vinho Verde",
+      "seo_description": "Portuguese wine regions: Douro Port, Madeira, Atlantic whites, indigenous grapes, and pairings.",
+      "slug": "portugal",
+      "name": "Portugal",
+      "country": "Portugal",
+      "id": "portugal"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "USA",
+        "American wine",
+        "California"
+      ],
+      "parent_region": "",
+      "classification": "Country",
+      "summary": "The United States is dominated by California but Oregon and Washington lead cool-climate Pinot Noir and aromatic whites. Napa and Sonoma set premium Cabernet and Chardonnay benchmarks; Willamette Valley rivals Burgundy for Pinot.",
+      "typical_styles": [
+        "cabernet-sauvignon",
+        "merlot",
+        "pinot-noir",
+        "chardonnay",
+        "zinfandel",
+        "sauvignon-blanc"
+      ],
+      "typical_grapes": [
+        "cabernet-sauvignon",
+        "merlot",
+        "pinot-noir",
+        "chardonnay",
+        "zinfandel",
+        "sauvignon-blanc"
+      ],
+      "typical_descriptors": [
+        "ripe",
+        "blackberry",
+        "vanilla",
+        "powerful",
+        "smooth",
+        "rich"
+      ],
+      "climate": "Mediterranean to maritime Pacific",
+      "soil": [
+        "volcanic",
+        "alluvial",
+        "limestone",
+        "clay"
+      ],
+      "elevation": "Sea level to 800m in mountain AVAs",
+      "subregions": [
+        "napa-valley",
+        "sonoma",
+        "willamette-valley"
+      ],
+      "related_regions": [
+        "france",
+        "italy",
+        "australia"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-for-bbq-ribs",
+          "label": "BBQ Ribs"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is an AVA?",
+          "a": "American Viticultural Area — a federally recognized wine grape-growing region with geographic distinction."
+        }
+      ],
+      "seo_title": "American Wine Regions — Napa, Sonoma & Oregon",
+      "seo_description": "US wine regions guide: Napa Valley, Sonoma, Willamette Valley, California classics, and food pairings.",
+      "slug": "usa",
+      "name": "United States",
+      "country": "United States",
+      "id": "usa"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "",
+      "classification": "Country",
+      "summary": "Australia built its reputation on bold Shiraz and structured Cabernet from warm regions like Barossa and Coonawarra, while Margaret River and Yarra Valley excel at elegant Chardonnay and Pinot Noir.",
+      "typical_styles": [
+        "syrah-shiraz",
+        "cabernet-sauvignon",
+        "chardonnay",
+        "riesling",
+        "sauvignon-blanc"
+      ],
+      "typical_grapes": [
+        "syrah",
+        "cabernet-sauvignon",
+        "chardonnay",
+        "riesling",
+        "sauvignon-blanc",
+        "pinot-noir"
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "black-pepper",
+        "ripe",
+        "powerful",
+        "crisp",
+        "citrus-zest"
+      ],
+      "climate": "Warm continental to cool maritime",
+      "soil": [
+        "terra rossa",
+        "limestone",
+        "sand",
+        "clay"
+      ],
+      "elevation": "Sea level to 600m",
+      "subregions": [
+        "barossa-valley",
+        "margaret-river",
+        "yarra-valley",
+        "coonawarra",
+        "clare-valley"
+      ],
+      "related_regions": [
+        "new-zealand",
+        "usa",
+        "france"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-for-bbq-ribs",
+          "label": "BBQ Ribs"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why is Australian Shiraz so bold?",
+          "a": "Warm climate, ripe fruit, and often American oak create full-bodied, peppery styles."
+        }
+      ],
+      "seo_title": "Australian Wine Regions — Barossa, Margaret River & Coonawarra",
+      "seo_description": "Australian wine regions: Barossa Shiraz, Coonawarra Cabernet, Margaret River Chardonnay, and pairings.",
+      "slug": "australia",
+      "name": "Australia",
+      "country": "Australia",
+      "id": "australia"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "",
+      "classification": "Country",
+      "summary": "New Zealand is synonymous with zesty Sauvignon Blanc from Marlborough and elegant Pinot Noir from Central Otago and Martinborough. Cool maritime climate preserves vibrant acidity and pure fruit.",
+      "typical_styles": [
+        "sauvignon-blanc",
+        "pinot-noir",
+        "gewurztraminer",
+        "rose"
+      ],
+      "typical_grapes": [
+        "sauvignon-blanc",
+        "pinot-noir",
+        "chardonnay",
+        "riesling",
+        "gewurztraminer"
+      ],
+      "typical_descriptors": [
+        "gooseberry",
+        "grassy",
+        "zesty",
+        "crisp",
+        "cherry",
+        "bright"
+      ],
+      "climate": "Cool maritime",
+      "soil": [
+        "alluvial",
+        "gravel",
+        "clay",
+        "schist"
+      ],
+      "elevation": "Sea level to 400m",
+      "subregions": [
+        "marlborough",
+        "central-otago"
+      ],
+      "related_regions": [
+        "australia",
+        "france"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-salmon",
+          "label": "Salmon"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What region is famous for NZ Sauvignon Blanc?",
+          "a": "Marlborough — especially the Wairau and Awatere valleys."
+        }
+      ],
+      "seo_title": "New Zealand Wine Regions — Marlborough & Central Otago",
+      "seo_description": "New Zealand wine regions: Marlborough Sauvignon Blanc, Central Otago Pinot Noir, climate, and pairings.",
+      "slug": "new-zealand",
+      "name": "New Zealand",
+      "country": "New Zealand",
+      "id": "new-zealand"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "",
+      "classification": "Country",
+      "summary": "Argentina's high-altitude Mendoza vineyards produce plush Malbec with soft tannin and violet aromatics. Andean snowmelt irrigation and intense sunlight create ripe, approachable reds at strong value.",
+      "typical_styles": [
+        "malbec",
+        "cabernet-sauvignon"
+      ],
+      "typical_grapes": [
+        "malbec",
+        "cabernet-sauvignon",
+        "bonarda",
+        "torrontes"
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "plummy",
+        "violet",
+        "smooth",
+        "ripe",
+        "chocolate"
+      ],
+      "climate": "High-altitude continental desert",
+      "soil": [
+        "alluvial",
+        "sand",
+        "clay"
+      ],
+      "elevation": "600–1,500m in Mendoza foothills",
+      "subregions": [
+        "mendoza"
+      ],
+      "related_regions": [
+        "chile",
+        "france"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why is Argentine Malbec so popular?",
+          "a": "High altitude, sunny days, and soft tannin create approachable, fruit-forward reds ideal with grilled meats."
+        }
+      ],
+      "seo_title": "Argentine Wine Regions — Mendoza Malbec Guide",
+      "seo_description": "Argentina wine regions: Mendoza Malbec, high-altitude viticulture, and classic steak pairings.",
+      "slug": "argentina",
+      "name": "Argentina",
+      "country": "Argentina",
+      "id": "argentina"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "",
+      "classification": "Country",
+      "summary": "Chile's natural barriers — Andes, Pacific, and desert — create phylloxera-free vineyards with consistent quality. Maipo and Colchagua lead for Cabernet and Carmenère; coastal areas excel at Sauvignon Blanc.",
+      "typical_styles": [
+        "cabernet-sauvignon",
+        "merlot",
+        "malbec",
+        "sauvignon-blanc",
+        "chardonnay"
+      ],
+      "typical_grapes": [
+        "cabernet-sauvignon",
+        "merlot",
+        "malbec",
+        "sauvignon-blanc",
+        "chardonnay",
+        "carmenere"
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "cassis",
+        "ripe",
+        "smooth",
+        "crisp",
+        "citrus-zest"
+      ],
+      "climate": "Mediterranean with Andean and coastal influence",
+      "soil": [
+        "alluvial",
+        "clay",
+        "granite",
+        "volcanic"
+      ],
+      "elevation": "Sea level to 1,000m in Andes foothills",
+      "subregions": [
+        "maipo-valley",
+        "colchagua-valley"
+      ],
+      "related_regions": [
+        "argentina",
+        "usa",
+        "france"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Chile's signature red grape?",
+          "a": "Carmenère — originally Bordeaux, now Chile's flagship variety alongside Cabernet Sauvignon."
+        }
+      ],
+      "seo_title": "Chilean Wine Regions — Maipo, Colchagua & Cabernet",
+      "seo_description": "Chile wine regions: Maipo Valley, Colchagua, Cabernet Sauvignon, value benchmarks, and pairings.",
+      "slug": "chile",
+      "name": "Chile",
+      "country": "Chile",
+      "id": "chile"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "",
+      "classification": "Country",
+      "summary": "Austria specializes in precise, dry whites — Grüner Veltliner and Riesling from terraced Danube valleys — with a strict quality system and food-friendly acidity.",
+      "typical_styles": [
+        "riesling",
+        "pinot-grigio"
+      ],
+      "typical_grapes": [
+        "riesling",
+        "pinot-noir",
+        "sauvignon-blanc"
+      ],
+      "typical_descriptors": [
+        "lime",
+        "peach",
+        "black-pepper",
+        "crisp",
+        "minerality",
+        "elegant"
+      ],
+      "climate": "Cool continental",
+      "soil": [
+        "loess",
+        "gneiss",
+        "limestone"
+      ],
+      "elevation": "200–400m on river terraces",
+      "subregions": [],
+      "related_regions": [
+        "germany",
+        "france"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Viennese cuisine and schnitzel"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Grüner Veltliner?",
+          "a": "Austria's signature white grape — peppery, citrusy, and versatile with food."
+        }
+      ],
+      "seo_title": "Austrian Wine Regions — Wachau & Riesling Guide",
+      "seo_description": "Austrian wine regions: Wachau Riesling, Grüner Veltliner, terraced vineyards, and food pairings.",
+      "slug": "austria",
+      "name": "Austria",
+      "country": "Austria",
+      "id": "austria"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "",
+      "classification": "Country",
+      "summary": "South Africa blends Old World heritage with Cape floral diversity — Chenin Blanc, Cabernet, and Pinotage from Stellenbosch and Swartland. A maritime climate with cooling ocean breezes preserves acidity.",
+      "typical_styles": [
+        "chenin-blanc",
+        "syrah-shiraz",
+        "cabernet-sauvignon",
+        "pinot-noir"
+      ],
+      "typical_grapes": [
+        "chenin-blanc",
+        "syrah",
+        "cabernet-sauvignon",
+        "pinot-noir",
+        "sauvignon-blanc"
+      ],
+      "typical_descriptors": [
+        "grapefruit",
+        "minerality",
+        "spicy",
+        "blackberry",
+        "crisp",
+        "balanced"
+      ],
+      "climate": "Mediterranean maritime",
+      "soil": [
+        "granite",
+        "sandstone",
+        "clay",
+        "schist"
+      ],
+      "elevation": "Sea level to 400m",
+      "subregions": [],
+      "related_regions": [
+        "france",
+        "australia"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Cape Malay curry and braai"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Pinotage?",
+          "a": "South Africa's crossing of Pinot Noir and Cinsault — smoky, plumy, uniquely Cape."
+        }
+      ],
+      "seo_title": "South African Wine Regions — Stellenbosch & Chenin Blanc",
+      "seo_description": "South Africa wine regions: Stellenbosch, Swartland, Chenin Blanc, Cape blends, and pairings.",
+      "slug": "south-africa",
+      "name": "South Africa",
+      "country": "South Africa",
+      "id": "south-africa"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "france",
+      "classification": "Appellation Region",
+      "summary": "Bordeaux is the benchmark for Cabernet-Merlot blends — Left Bank gravel cassis and structure, Right Bank Merlot plushness. Age-worthy, food-driven reds define the global fine wine market.",
+      "typical_styles": [
+        "cabernet-sauvignon",
+        "merlot"
+      ],
+      "typical_grapes": [
+        "cabernet-sauvignon",
+        "merlot",
+        "cabernet-franc",
+        "sauvignon-blanc"
+      ],
+      "typical_descriptors": [
+        "cassis",
+        "graphite",
+        "cedar",
+        "structured",
+        "firm",
+        "blackberry"
+      ],
+      "climate": "Maritime temperate",
+      "soil": [
+        "gravel",
+        "clay",
+        "limestone"
+      ],
+      "elevation": "0–100m",
+      "subregions": [],
+      "related_regions": [
+        "burgundy",
+        "rhone-valley",
+        "napa-valley"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Left Bank vs Right Bank Bordeaux?",
+          "a": "Left Bank is Cabernet-dominant on gravel; Right Bank is Merlot-dominant on clay-limestone."
+        }
+      ],
+      "seo_title": "Bordeaux Wine Region — Left Bank, Right Bank & Cabernet",
+      "seo_description": "Bordeaux wine region guide: Médoc, Saint-Émilion, Cabernet Sauvignon, Merlot blends, and steak pairings.",
+      "slug": "bordeaux",
+      "name": "Bordeaux",
+      "country": "France",
+      "id": "bordeaux"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "france",
+      "classification": "Appellation Region",
+      "summary": "Burgundy is Pinot Noir and Chardonnay terroir incarnate — village to grand cru hierarchy on limestone and clay. Red Burgundy shows silky cherry and earth; white Burgundy spans steely Chablis to rich Meursault.",
+      "typical_styles": [
+        "pinot-noir",
+        "chardonnay"
+      ],
+      "typical_grapes": [
+        "pinot-noir",
+        "chardonnay",
+        "aligote"
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "earthy",
+        "silky",
+        "minerality",
+        "elegant",
+        "toasty"
+      ],
+      "climate": "Continental",
+      "soil": [
+        "limestone",
+        "clay",
+        "marl"
+      ],
+      "elevation": "200–400m",
+      "subregions": [
+        "chablis"
+      ],
+      "related_regions": [
+        "champagne",
+        "loire-valley",
+        "willamette-valley"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-salmon",
+          "label": "Salmon"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Roast Chicken"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What grapes define Burgundy?",
+          "a": "Pinot Noir for reds and Chardonnay for whites — with rare Aligoté and Gamay exceptions."
+        }
+      ],
+      "seo_title": "Burgundy Wine Region — Pinot Noir & Chardonnay Guide",
+      "seo_description": "Burgundy wine region: Côte d'Or, Pinot Noir, white Burgundy, terroir hierarchy, and food pairings.",
+      "slug": "burgundy",
+      "name": "Burgundy",
+      "country": "France",
+      "id": "burgundy"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "burgundy",
+      "classification": "Subregion",
+      "summary": "Chablis is steely, unoaked Chardonnay on Kimmeridgian limestone — green apple, citrus, and oyster-shell minerality. A benchmark for lean, food-friendly white Burgundy.",
+      "typical_styles": [
+        "chardonnay"
+      ],
+      "typical_grapes": [
+        "chardonnay"
+      ],
+      "typical_descriptors": [
+        "crisp",
+        "minerality",
+        "citrus-zest",
+        "bright",
+        "clean",
+        "elegant"
+      ],
+      "climate": "Cool continental",
+      "soil": [
+        "limestone",
+        "clay",
+        "kimmeridgian"
+      ],
+      "elevation": "150–250m",
+      "subregions": [],
+      "related_regions": [
+        "burgundy",
+        "loire-valley",
+        "marlborough"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Oysters and shellfish"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Chablis oaked?",
+          "a": "Traditionally no — stainless or neutral vessel preserves purity and minerality."
+        }
+      ],
+      "seo_title": "Chablis Wine Region — Unoaked Chardonnay Guide",
+      "seo_description": "Chablis wine region: steely Chardonnay, Kimmeridgian limestone, Premier and Grand Cru, seafood pairings.",
+      "slug": "chablis",
+      "name": "Chablis",
+      "country": "France",
+      "id": "chablis"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "france",
+      "classification": "Appellation Region",
+      "summary": "Champagne is the world's benchmark traditional-method sparkling wine — Chardonnay, Pinot Noir, and Pinot Meunier on chalk soils yield fine bubbles, high acidity, and brioche complexity.",
+      "typical_styles": [
+        "champagne"
+      ],
+      "typical_grapes": [
+        "chardonnay",
+        "pinot-noir",
+        "pinot-meunier"
+      ],
+      "typical_descriptors": [
+        "brioche",
+        "toast",
+        "citrus-zest",
+        "crisp",
+        "elegant",
+        "refined"
+      ],
+      "climate": "Cool continental",
+      "soil": [
+        "chalk",
+        "limestone",
+        "clay"
+      ],
+      "elevation": "100–300m",
+      "subregions": [],
+      "related_regions": [
+        "burgundy",
+        "penedes",
+        "veneto"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-creamy-dishes",
+          "label": "Creamy Dishes"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What grapes are in Champagne?",
+          "a": "Chardonnay, Pinot Noir, and Pinot Meunier — often blended; blanc de blancs is 100% Chardonnay."
+        }
+      ],
+      "seo_title": "Champagne Wine Region — Sparkling Wine Guide",
+      "seo_description": "Champagne region guide: traditional method, grape blends, prestige cuvées, and celebratory pairings.",
+      "slug": "champagne",
+      "name": "Champagne",
+      "country": "France",
+      "id": "champagne"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Loire"
+      ],
+      "parent_region": "france",
+      "classification": "Appellation Region",
+      "summary": "The Loire spans Sauvignon Blanc in Sancerre, Chenin Blanc in Vouvray, and Cabernet Franc in Chinon — all marked by vibrant acidity and food versatility across a long, cool river valley.",
+      "typical_styles": [
+        "sauvignon-blanc",
+        "chenin-blanc",
+        "cabernet-sauvignon",
+        "rose",
+        "dry-rose"
+      ],
+      "typical_grapes": [
+        "sauvignon-blanc",
+        "chenin-blanc",
+        "cabernet-franc",
+        "pinot-noir"
+      ],
+      "typical_descriptors": [
+        "grassy",
+        "zesty",
+        "crisp",
+        "minerality",
+        "quince",
+        "bright"
+      ],
+      "climate": "Cool maritime to continental",
+      "soil": [
+        "limestone",
+        "flint",
+        "tuffeau",
+        "gravel"
+      ],
+      "elevation": "0–200m",
+      "subregions": [],
+      "related_regions": [
+        "burgundy",
+        "bordeaux",
+        "chablis"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Goat cheese and river fish"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Sancerre?",
+          "a": "A Loire appellation for Sauvignon Blanc — lean, mineral, and herb-scented."
+        }
+      ],
+      "seo_title": "Loire Valley Wine Region — Sancerre, Vouvray & Chenin",
+      "seo_description": "Loire Valley wine guide: Sancerre Sauvignon Blanc, Vouvray Chenin, Cabernet Franc, and pairings.",
+      "slug": "loire-valley",
+      "name": "Loire Valley",
+      "country": "France",
+      "id": "loire-valley"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Rhône",
+        "Northern Rhône",
+        "Southern Rhône"
+      ],
+      "parent_region": "france",
+      "classification": "Appellation Region",
+      "summary": "The Rhône splits into peppery Northern Syrah (Hermitage, Côte-Rôtie) and warm Southern blends (Châteauneuf-du-Pape). Condrieu showcases Viognier; the south excels at Grenache-based GSM wines.",
+      "typical_styles": [
+        "syrah-shiraz",
+        "grenache",
+        "viognier",
+        "rose"
+      ],
+      "typical_grapes": [
+        "syrah",
+        "grenache",
+        "viognier",
+        "mourvedre",
+        "cinsault"
+      ],
+      "typical_descriptors": [
+        "black-pepper",
+        "blackberry",
+        "spicy",
+        "floral",
+        "herbal",
+        "ripe"
+      ],
+      "climate": "Continental north; Mediterranean south",
+      "soil": [
+        "granite",
+        "schist",
+        "galets",
+        "clay"
+      ],
+      "elevation": "100–500m",
+      "subregions": [],
+      "related_regions": [
+        "provence",
+        "burgundy",
+        "barossa-valley"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Northern vs Southern Rhône?",
+          "a": "North is Syrah-focused and peppery; south is Grenache blends, warmer and riper."
+        }
+      ],
+      "seo_title": "Rhône Valley Wine Region — Syrah, Grenache & Viognier",
+      "seo_description": "Rhône Valley wine guide: Northern Syrah, Châteauneuf-du-Pape, Condrieu Viognier, and food pairings.",
+      "slug": "rhone-valley",
+      "name": "Rhône Valley",
+      "country": "France",
+      "id": "rhone-valley"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "france",
+      "classification": "Appellation Region",
+      "summary": "Alsace produces aromatic, food-friendly whites — Riesling, Gewürztraminer, and Pinot Gris — in a dry to off-dry spectrum on sheltered east-facing slopes.",
+      "typical_styles": [
+        "riesling",
+        "gewurztraminer",
+        "pinot-grigio"
+      ],
+      "typical_grapes": [
+        "riesling",
+        "gewurztraminer",
+        "pinot-grigio",
+        "pinot-noir"
+      ],
+      "typical_descriptors": [
+        "floral",
+        "lychee",
+        "lime",
+        "spicy",
+        "minerality",
+        "crisp"
+      ],
+      "climate": "Semi-continental, rain-shadowed",
+      "soil": [
+        "granite",
+        "limestone",
+        "sandstone",
+        "volcanic"
+      ],
+      "elevation": "200–400m",
+      "subregions": [],
+      "related_regions": [
+        "germany",
+        "loire-valley"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Choucroute and aromatic cuisine"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Are Alsace wines sweet?",
+          "a": "Many are dry (sec); Vendange Tardive and Sélection de Grains Nobles are sweet styles."
+        }
+      ],
+      "seo_title": "Alsace Wine Region — Riesling & Gewürztraminer",
+      "seo_description": "Alsace wine region: Riesling, Gewürztraminer, Pinot Gris, dry to sweet styles, and food pairings.",
+      "slug": "alsace",
+      "name": "Alsace",
+      "country": "France",
+      "id": "alsace"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "france",
+      "classification": "Appellation Region",
+      "summary": "Beaujolais is Gamay country — juicy, low-tannin reds from granite slopes, from Nouveau to structured Cru villages like Morgon and Fleurie.",
+      "typical_styles": [
+        "pinot-noir"
+      ],
+      "typical_grapes": [
+        "gamay",
+        "pinot-noir"
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "bright",
+        "vibrant",
+        "light-bodied",
+        "fresh",
+        "supple"
+      ],
+      "climate": "Semi-continental",
+      "soil": [
+        "granite",
+        "schist",
+        "clay"
+      ],
+      "elevation": "200–500m",
+      "subregions": [],
+      "related_regions": [
+        "burgundy",
+        "loire-valley"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Roast Chicken"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What grape is Beaujolais?",
+          "a": "Gamay — light, fruity, and best served slightly chilled."
+        }
+      ],
+      "seo_title": "Beaujolais Wine Region — Gamay & Cru Villages",
+      "seo_description": "Beaujolais wine region: Gamay, Nouveau vs Cru, granite terroir, and versatile food pairings.",
+      "slug": "beaujolais",
+      "name": "Beaujolais",
+      "country": "France",
+      "id": "beaujolais"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "france",
+      "classification": "Appellation Region",
+      "summary": "Provence defines pale, dry rosé — Grenache, Cinsault, and Syrah on limestone hills with Mediterranean herb influence. Côtes de Provence and Bandol anchor the style.",
+      "typical_styles": [
+        "rose",
+        "dry-rose",
+        "provence-rose",
+        "grenache"
+      ],
+      "typical_grapes": [
+        "grenache",
+        "cinsault",
+        "syrah",
+        "mourvedre"
+      ],
+      "typical_descriptors": [
+        "strawberry",
+        "herbal",
+        "saline",
+        "crisp",
+        "dry",
+        "elegant"
+      ],
+      "climate": "Mediterranean",
+      "soil": [
+        "limestone",
+        "clay",
+        "schist"
+      ],
+      "elevation": "0–400m",
+      "subregions": [],
+      "related_regions": [
+        "rhone-valley",
+        "france"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-salmon",
+          "label": "Salmon"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why is Provence rosé so pale?",
+          "a": "Short skin contact and gentle pressing limit color while preserving freshness."
+        }
+      ],
+      "seo_title": "Provence Wine Region — Rosé & Mediterranean Styles",
+      "seo_description": "Provence wine region: Côtes de Provence rosé, Bandol, pale dry pink wines, and Mediterranean pairings.",
+      "slug": "provence",
+      "name": "Provence",
+      "country": "France",
+      "id": "provence"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "france",
+      "classification": "Subregion",
+      "summary": "Cahors is the original Malbec homeland — dark, structured Cot wines on limestone plateaus along the Lot River, requiring age and hearty food to soften tannin.",
+      "typical_styles": [
+        "malbec"
+      ],
+      "typical_grapes": [
+        "malbec"
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "firm",
+        "structured",
+        "earthy",
+        "plummy",
+        "leathery"
+      ],
+      "climate": "Continental with Atlantic influence",
+      "soil": [
+        "limestone",
+        "clay",
+        "gravel"
+      ],
+      "elevation": "200–350m",
+      "subregions": [],
+      "related_regions": [
+        "bordeaux",
+        "mendoza"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Cahors Malbec the same as Argentina?",
+          "a": "Same grape (Cot/Malbec) but Cahors is typically darker, firmer, and more tannic."
+        }
+      ],
+      "seo_title": "Cahors Wine Region — Original Malbec Guide",
+      "seo_description": "Cahors wine region: French Malbec, Cot noir, limestone terroir, and bold meat pairings.",
+      "slug": "cahors",
+      "name": "Cahors",
+      "country": "France",
+      "id": "cahors"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Piemonte"
+      ],
+      "parent_region": "italy",
+      "classification": "Appellation Region",
+      "summary": "Piedmont is Nebbiolo's kingdom — Barolo and Barbaresco on fog-shrouded hills, plus Moscato d'Asti and Barbera. High acidity and firm tannin define food-centric Italian classics.",
+      "typical_styles": [
+        "nebbiolo",
+        "moscato",
+        "pinot-noir"
+      ],
+      "typical_grapes": [
+        "nebbiolo",
+        "moscato",
+        "barbera",
+        "dolcetto"
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "tar",
+        "rose-petal",
+        "violet",
+        "firm",
+        "austere"
+      ],
+      "climate": "Continental with fog",
+      "soil": [
+        "limestone",
+        "marl",
+        "clay",
+        "sand"
+      ],
+      "elevation": "200–500m",
+      "subregions": [
+        "barolo",
+        "langhe"
+      ],
+      "related_regions": [
+        "tuscany",
+        "burgundy"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Truffle pasta and braised meats"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Barolo vs Barbaresco?",
+          "a": "Both are Nebbiolo; Barolo is fuller and longer-aging; Barbaresco is earlier maturing and often more perfumed."
+        }
+      ],
+      "seo_title": "Piedmont Wine Region — Barolo, Barbaresco & Nebbiolo",
+      "seo_description": "Piedmont wine guide: Barolo, Barbaresco, Nebbiolo, Langhe, Moscato d'Asti, and food pairings.",
+      "slug": "piedmont",
+      "name": "Piedmont",
+      "country": "Italy",
+      "id": "piedmont"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "piedmont",
+      "classification": "Subregion",
+      "summary": "The Langhe hills encompass Barolo, Barbaresco, and Dolcetto d'Alba — UNESCO-listed vineyards where Nebbiolo reaches its apex on calcareous marl.",
+      "typical_styles": [
+        "nebbiolo"
+      ],
+      "typical_grapes": [
+        "nebbiolo",
+        "barbera",
+        "dolcetto"
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "tar",
+        "earthy",
+        "firm",
+        "elegant",
+        "structured"
+      ],
+      "climate": "Continental",
+      "soil": [
+        "marl",
+        "limestone",
+        "sand",
+        "clay"
+      ],
+      "elevation": "250–500m",
+      "subregions": [],
+      "related_regions": [
+        "barolo",
+        "piedmont",
+        "burgundy"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Tajarin with truffle"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the Langhe?",
+          "a": "A Piedmont subregion including Barolo and Barbaresco DOCG zones on rolling hills south of the Tanaro River."
+        }
+      ],
+      "seo_title": "Langhe Wine Region — Barolo & Barbaresco Hills",
+      "seo_description": "Langhe wine region: Nebbiolo heartland, Barolo and Barbaresco communes, terroir, and pairings.",
+      "slug": "langhe",
+      "name": "Langhe",
+      "country": "Italy",
+      "id": "langhe"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "piedmont",
+      "classification": "Subregion",
+      "summary": "Barolo DOCG is Italy's wine of kings — 100% Nebbiolo aged minimum three years, with tar, rose, and cherry on calcareous marl. Demands decanting and rich, savory food.",
+      "typical_styles": [
+        "nebbiolo"
+      ],
+      "typical_grapes": [
+        "nebbiolo"
+      ],
+      "typical_descriptors": [
+        "tar",
+        "rose-petal",
+        "cherry",
+        "firm",
+        "austere",
+        "structured"
+      ],
+      "climate": "Continental",
+      "soil": [
+        "marl",
+        "limestone",
+        "sand"
+      ],
+      "elevation": "250–450m",
+      "subregions": [],
+      "related_regions": [
+        "langhe",
+        "piedmont",
+        "burgundy"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How long should Barolo age?",
+          "a": "Young Barolo benefits from 2–4 hours decanting; top bottles improve 10–30+ years."
+        }
+      ],
+      "seo_title": "Barolo Wine Region — Nebbiolo DOCG Guide",
+      "seo_description": "Barolo wine region: Nebbiolo DOCG, communes, aging requirements, decanting, and food pairings.",
+      "slug": "barolo",
+      "name": "Barolo",
+      "country": "Italy",
+      "id": "barolo"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Toscana"
+      ],
+      "parent_region": "italy",
+      "classification": "Appellation Region",
+      "summary": "Tuscany is Sangiovese territory — Chianti, Brunello di Montalcino, and Super Tuscans on galestro and clay. High acidity and savory cherry define Italy's most iconic food wines.",
+      "typical_styles": [
+        "sangiovese",
+        "cabernet-sauvignon",
+        "merlot"
+      ],
+      "typical_grapes": [
+        "sangiovese",
+        "cabernet-sauvignon",
+        "merlot",
+        "canaiolo"
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "earthy",
+        "herbal",
+        "firm",
+        "tart",
+        "rustic"
+      ],
+      "climate": "Mediterranean",
+      "soil": [
+        "galestro",
+        "clay",
+        "limestone",
+        "sandstone"
+      ],
+      "elevation": "150–600m",
+      "subregions": [],
+      "related_regions": [
+        "piedmont",
+        "rioja"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Bistecca and tomato pasta"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Chianti vs Brunello?",
+          "a": "Both Sangiovese — Brunello uses a specific clone (Sangiovese Grosso) with stricter aging."
+        }
+      ],
+      "seo_title": "Tuscany Wine Region — Chianti, Brunello & Sangiovese",
+      "seo_description": "Tuscany wine guide: Chianti, Brunello di Montalcino, Sangiovese, Super Tuscans, and pairings.",
+      "slug": "tuscany",
+      "name": "Tuscany",
+      "country": "Italy",
+      "id": "tuscany"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Veneto and Friuli"
+      ],
+      "parent_region": "italy",
+      "classification": "Appellation Region",
+      "summary": "Veneto produces Prosecco, Pinot Grigio, and Amarone — from sparkling Glera in the hills to rich appassimento reds in Valpolicella.",
+      "typical_styles": [
+        "prosecco",
+        "pinot-grigio",
+        "merlot"
+      ],
+      "typical_grapes": [
+        "glera",
+        "pinot-grigio",
+        "corvina",
+        "merlot"
+      ],
+      "typical_descriptors": [
+        "peach",
+        "crisp",
+        "bright",
+        "fresh",
+        "cherry",
+        "smooth"
+      ],
+      "climate": "Continental to sub-Mediterranean",
+      "soil": [
+        "volcanic",
+        "limestone",
+        "alluvial",
+        "clay"
+      ],
+      "elevation": "50–500m",
+      "subregions": [],
+      "related_regions": [
+        "tuscany",
+        "alsace",
+        "champagne"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Roast Chicken"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Where is Prosecco made?",
+          "a": "Primarily Veneto and Friuli-Venezia Giulia — Conegliano-Valdobbiadene is the premium heartland."
+        }
+      ],
+      "seo_title": "Veneto Wine Region — Prosecco & Pinot Grigio",
+      "seo_description": "Veneto wine region: Prosecco, Pinot Grigio, Amarone, Valpolicella, and food pairings.",
+      "slug": "veneto",
+      "name": "Veneto",
+      "country": "Italy",
+      "id": "veneto"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "italy",
+      "classification": "Appellation Region",
+      "summary": "Sicily blends ancient viticulture with volcanic terroir — Nero d'Avola, Etna Nerello, and aromatic whites from sun-drenched Mediterranean slopes.",
+      "typical_styles": [
+        "sangiovese",
+        "rose",
+        "grenache"
+      ],
+      "typical_grapes": [
+        "nerello-mascalese",
+        "nero-d-avola",
+        "grillo",
+        "catarratto"
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "spicy",
+        "earthy",
+        "ripe",
+        "minerality",
+        "herbal"
+      ],
+      "climate": "Hot Mediterranean",
+      "soil": [
+        "volcanic",
+        "limestone",
+        "sand"
+      ],
+      "elevation": "Sea level to 1,000m on Mount Etna",
+      "subregions": [],
+      "related_regions": [
+        "tuscany",
+        "spain"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Grilled swordfish and caponata"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Etna wine?",
+          "a": "High-altitude Nerello Mascalese and Carricante from volcanic slopes on Mount Etna."
+        }
+      ],
+      "seo_title": "Sicily Wine Region — Etna & Nero d'Avola Guide",
+      "seo_description": "Sicily wine region: Etna volcanic wines, Nero d'Avola, Mediterranean styles, and pairings.",
+      "slug": "sicily",
+      "name": "Sicily",
+      "country": "Italy",
+      "id": "sicily"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "spain",
+      "classification": "Appellation Region",
+      "summary": "Rioja is Spain's most recognized red wine region — Tempranillo aged in American oak with cherry, vanilla, and leather. Crianza to Gran Reserva tiers define maturity and style.",
+      "typical_styles": [
+        "tempranillo",
+        "grenache"
+      ],
+      "typical_grapes": [
+        "tempranillo",
+        "grenache",
+        "graciano",
+        "mazuelo"
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "vanilla",
+        "leathery",
+        "smooth",
+        "earthy",
+        "balanced"
+      ],
+      "climate": "Continental with Atlantic influence",
+      "soil": [
+        "limestone",
+        "clay",
+        "alluvial",
+        "ferrous clay"
+      ],
+      "elevation": "400–700m",
+      "subregions": [],
+      "related_regions": [
+        "ribera-del-duero",
+        "bordeaux"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Rioja Reserva mean?",
+          "a": "Minimum aging requirements — typically 3+ years with at least one year in oak."
+        }
+      ],
+      "seo_title": "Rioja Wine Region — Tempranillo & Oak Aging",
+      "seo_description": "Rioja wine region: Tempranillo, Crianza vs Reserva, American oak, and Spanish food pairings.",
+      "slug": "rioja",
+      "name": "Rioja",
+      "country": "Spain",
+      "id": "rioja"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "spain",
+      "classification": "Appellation Region",
+      "summary": "Ribera del Duero produces powerful Tempranillo (Tinto Fino) on high plateau — darker fruit, firmer tannin, and longer aging potential than many Rioja styles.",
+      "typical_styles": [
+        "tempranillo"
+      ],
+      "typical_grapes": [
+        "tempranillo",
+        "cabernet-sauvignon",
+        "merlot"
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "firm",
+        "structured",
+        "leathery",
+        "vanilla",
+        "earthy"
+      ],
+      "climate": "Continental, extreme diurnal shift",
+      "soil": [
+        "limestone",
+        "clay",
+        "alluvial"
+      ],
+      "elevation": "750–900m",
+      "subregions": [],
+      "related_regions": [
+        "rioja",
+        "priorat"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Rioja vs Ribera del Duero?",
+          "a": "Both Tempranillo — Ribera is typically darker, more concentrated, and higher altitude."
+        }
+      ],
+      "seo_title": "Ribera del Duero — Tempranillo Wine Region Guide",
+      "seo_description": "Ribera del Duero wine region: Tinto Fino, high plateau terroir, aging, and lamb pairings.",
+      "slug": "ribera-del-duero",
+      "name": "Ribera del Duero",
+      "country": "Spain",
+      "id": "ribera-del-duero"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "spain",
+      "classification": "Appellation Region",
+      "summary": "Priorat is rugged Garnacha and Cariñena on steep llicorella slate — concentrated, mineral-driven reds with depth and intensity rivaling top global regions.",
+      "typical_styles": [
+        "grenache",
+        "syrah-shiraz"
+      ],
+      "typical_grapes": [
+        "grenache",
+        "carignan",
+        "syrah",
+        "cabernet-sauvignon"
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "minerality",
+        "spicy",
+        "structured",
+        "ripe",
+        "powerful"
+      ],
+      "climate": "Mediterranean continental",
+      "soil": [
+        "slate",
+        "llicorella",
+        "quartzite"
+      ],
+      "elevation": "100–700m on steep terraces",
+      "subregions": [],
+      "related_regions": [
+        "rhone-valley",
+        "rioja",
+        "barossa-valley"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Grilled lamb and game"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is llicorella?",
+          "a": "Priorat's distinctive slate-and-quartz soil that stresses vines and concentrates flavor."
+        }
+      ],
+      "seo_title": "Priorat Wine Region — Garnacha & Slate Terroir",
+      "seo_description": "Priorat wine region: Garnacha, llicorella slate, steep terraces, and bold food pairings.",
+      "slug": "priorat",
+      "name": "Priorat",
+      "country": "Spain",
+      "id": "priorat"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Rías Baixas (Spain)"
+      ],
+      "parent_region": "spain",
+      "classification": "Appellation Region",
+      "summary": "Rías Baixas is Atlantic Albariño — peach, citrus, and saline minerality in a cool, rainy corner of Galicia built for seafood.",
+      "typical_styles": [
+        "albarino"
+      ],
+      "typical_grapes": [
+        "albarino"
+      ],
+      "typical_descriptors": [
+        "peach",
+        "citrus-zest",
+        "saline",
+        "crisp",
+        "bright",
+        "minerality"
+      ],
+      "climate": "Cool Atlantic maritime",
+      "soil": [
+        "granite",
+        "sand",
+        "alluvial"
+      ],
+      "elevation": "0–300m",
+      "subregions": [],
+      "related_regions": [
+        "portugal",
+        "loire-valley"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-salmon",
+          "label": "Salmon"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What grape is Rías Baixas?",
+          "a": "Albariño — Spain's premier Atlantic white variety."
+        }
+      ],
+      "seo_title": "Rías Baixas Wine Region — Albariño Guide",
+      "seo_description": "Rías Baixas wine region: Albariño, Atlantic Galicia, seafood pairings, and saline minerality.",
+      "slug": "rias-baixas",
+      "name": "Rías Baixas",
+      "country": "Spain",
+      "id": "rias-baixas"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Sherry",
+        "Jerez (Spain)",
+        "Sanlúcar de Barrameda",
+        "El Puerto de Santa María"
+      ],
+      "parent_region": "spain",
+      "classification": "Appellation Region",
+      "summary": "Jerez and the Sherry Triangle produce solera-aged fortified wines — dry Fino and Manzanilla, oxidative Oloroso, and sweet Pedro Ximénez from Palomino and PX grapes.",
+      "typical_styles": [
+        "sherry"
+      ],
+      "typical_grapes": [
+        "palomino",
+        "pedro-ximenez",
+        "moscatel"
+      ],
+      "typical_descriptors": [
+        "nutty",
+        "saline",
+        "toasty",
+        "dry",
+        "complex",
+        "refined"
+      ],
+      "climate": "Hot Mediterranean with Atlantic influence",
+      "soil": [
+        "albariza",
+        "limestone",
+        "clay"
+      ],
+      "elevation": "0–100m",
+      "subregions": [],
+      "related_regions": [
+        "portugal",
+        "madeira"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Jamón, almonds, and gazpacho"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is all Sherry sweet?",
+          "a": "No — Fino, Manzanilla, and most Amontillado are dry; PX and cream styles are sweet."
+        }
+      ],
+      "seo_title": "Jerez & Sherry Wine Region — Fino to Oloroso Guide",
+      "seo_description": "Jerez Sherry region: Fino, Manzanilla, Oloroso, solera aging, and tapas pairings.",
+      "slug": "jerez",
+      "name": "Jerez",
+      "country": "Spain",
+      "id": "jerez"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Penedès (Spain)"
+      ],
+      "parent_region": "spain",
+      "classification": "Appellation Region",
+      "summary": "Penedès is Cava's heartland — traditional-method sparkling from Macabeo, Xarel·lo, and Parellada on rolling hills between Barcelona and the Mediterranean.",
+      "typical_styles": [
+        "cava"
+      ],
+      "typical_grapes": [
+        "macabeo",
+        "xarel-lo",
+        "parellada",
+        "chardonnay",
+        "pinot-noir"
+      ],
+      "typical_descriptors": [
+        "quince",
+        "citrus-zest",
+        "crisp",
+        "toasty",
+        "dry",
+        "bright"
+      ],
+      "climate": "Mediterranean",
+      "soil": [
+        "limestone",
+        "clay",
+        "sand"
+      ],
+      "elevation": "200–800m",
+      "subregions": [],
+      "related_regions": [
+        "champagne",
+        "rioja"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Tapas and fried calamari"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Cava made like Champagne?",
+          "a": "Yes — traditional bottle fermentation, though grape varieties and climate differ."
+        }
+      ],
+      "seo_title": "Penedès Wine Region — Cava & Sparkling Guide",
+      "seo_description": "Penedès wine region: Cava production, Macabeo and Xarel·lo, traditional method, and tapas pairings.",
+      "slug": "penedes",
+      "name": "Penedès",
+      "country": "Spain",
+      "id": "penedes"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Mosel (Germany)"
+      ],
+      "parent_region": "germany",
+      "classification": "Appellation Region",
+      "summary": "The Mosel's steep slate slopes produce ethereal Riesling — low alcohol, racy acidity, and slate minerality from some of the world's most dramatic vineyard landscapes.",
+      "typical_styles": [
+        "riesling"
+      ],
+      "typical_grapes": [
+        "riesling"
+      ],
+      "typical_descriptors": [
+        "lime",
+        "floral",
+        "crisp",
+        "minerality",
+        "honeyed",
+        "elegant"
+      ],
+      "climate": "Cool continental",
+      "soil": [
+        "slate",
+        "devonian slate",
+        "blue slate"
+      ],
+      "elevation": "100–350m on river slopes",
+      "subregions": [],
+      "related_regions": [
+        "rheingau",
+        "alsace"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Spicy Asian cuisine"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why is Mosel Riesling so acidic?",
+          "a": "Cool climate and slate terroir preserve sharp acidity even in riper vintages."
+        }
+      ],
+      "seo_title": "Mosel Wine Region — Slate Riesling Guide",
+      "seo_description": "Mosel wine region: steep slate vineyards, Riesling Kabinett to Auslese, and food pairings.",
+      "slug": "mosel",
+      "name": "Mosel",
+      "country": "Germany",
+      "id": "mosel"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "germany",
+      "classification": "Appellation Region",
+      "summary": "The Rheingau is Germany's historic Riesling center — south-facing slopes along the Rhine producing dry Spätlese and structured Grosses Gewächs.",
+      "typical_styles": [
+        "riesling"
+      ],
+      "typical_grapes": [
+        "riesling",
+        "pinot-noir"
+      ],
+      "typical_descriptors": [
+        "peach",
+        "apricot",
+        "floral",
+        "minerality",
+        "crisp",
+        "elegant"
+      ],
+      "climate": "Cool continental, sheltered",
+      "soil": [
+        "slate",
+        "loess",
+        "quartzite"
+      ],
+      "elevation": "80–200m",
+      "subregions": [],
+      "related_regions": [
+        "mosel",
+        "alsace"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Pork schnitzel and river fish"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Grosses Gewächs?",
+          "a": "Germany's dry grand cru Riesling classification from top vineyard sites."
+        }
+      ],
+      "seo_title": "Rheingau Wine Region — Riesling & Pinot Noir",
+      "seo_description": "Rheingau wine region: Riesling Grosses Gewächs, Rhine slopes, and classic German pairings.",
+      "slug": "rheingau",
+      "name": "Rheingau",
+      "country": "Germany",
+      "id": "rheingau"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Douro Valley",
+        "Douro Valley (Portugal)"
+      ],
+      "parent_region": "portugal",
+      "classification": "Appellation Region",
+      "summary": "The Douro Valley terraces produce Port and increasingly acclaimed dry reds from Touriga Nacional, Tinta Roriz, and other indigenous varieties on schist slopes.",
+      "typical_styles": [
+        "port"
+      ],
+      "typical_grapes": [
+        "touriga-nacional",
+        "tinta-roriz",
+        "touriga-franca",
+        "tinta-barroca"
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "floral",
+        "violet",
+        "rich",
+        "spicy",
+        "structured"
+      ],
+      "climate": "Hot continental, river moderating",
+      "soil": [
+        "schist",
+        "granite",
+        "slate"
+      ],
+      "elevation": "100–700m on terraced slopes",
+      "subregions": [],
+      "related_regions": [
+        "rioja",
+        "priorat"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Dark chocolate and blue cheese"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Port vs Douro table wine?",
+          "a": "Same region — Port is fortified; dry reds use the same grapes without fortification."
+        }
+      ],
+      "seo_title": "Douro Valley Wine Region — Port & Table Wine",
+      "seo_description": "Douro Valley wine region: Port, Touriga Nacional, terraced vineyards, and dessert pairings.",
+      "slug": "douro",
+      "name": "Douro",
+      "country": "Portugal",
+      "id": "douro"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Madeira (Portugal)"
+      ],
+      "parent_region": "portugal",
+      "classification": "Subregion",
+      "summary": "Madeira is a volcanic Atlantic island producing heat-aged fortified wines — Sercial to Malmsey with remarkable longevity and caramel-nut complexity.",
+      "typical_styles": [
+        "madeira"
+      ],
+      "typical_grapes": [
+        "sercial",
+        "verdelho",
+        "boal",
+        "malvasia"
+      ],
+      "typical_descriptors": [
+        "caramel",
+        "nutty",
+        "orange",
+        "toasty",
+        "rich",
+        "complex"
+      ],
+      "climate": "Subtropical maritime",
+      "soil": [
+        "volcanic basalt",
+        "clay"
+      ],
+      "elevation": "Sea level to 800m",
+      "subregions": [],
+      "related_regions": [
+        "jerez",
+        "portugal"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Caramel desserts and mushroom soup"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why doesn't Madeira spoil?",
+          "a": "Fortification and deliberate heating create oxidative stability — open bottles last indefinitely."
+        }
+      ],
+      "seo_title": "Madeira Wine Region — Fortified Atlantic Wine",
+      "seo_description": "Madeira wine region: Sercial to Malmsey, estufagem aging, and savory-sweet pairings.",
+      "slug": "madeira",
+      "name": "Madeira",
+      "country": "Portugal",
+      "id": "madeira"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Napa Valley (USA)"
+      ],
+      "parent_region": "usa",
+      "classification": "AVA",
+      "summary": "Napa Valley is California's premium Cabernet Sauvignon capital — warm valley floor and benchland vineyards producing cassis, cedar, and structured reds with global recognition.",
+      "typical_styles": [
+        "cabernet-sauvignon",
+        "merlot",
+        "chardonnay"
+      ],
+      "typical_grapes": [
+        "cabernet-sauvignon",
+        "merlot",
+        "chardonnay",
+        "sauvignon-blanc"
+      ],
+      "typical_descriptors": [
+        "cassis",
+        "blackberry",
+        "vanilla",
+        "cedar",
+        "powerful",
+        "structured"
+      ],
+      "climate": "Warm Mediterranean",
+      "soil": [
+        "volcanic",
+        "alluvial",
+        "clay",
+        "gravel"
+      ],
+      "elevation": "0–600m",
+      "subregions": [],
+      "related_regions": [
+        "sonoma",
+        "bordeaux",
+        "mendoza"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Napa Valley known for?",
+          "a": "Cabernet Sauvignon — especially from Rutherford, Oakville, and Stags Leap District."
+        }
+      ],
+      "seo_title": "Napa Valley Wine Region — Cabernet Sauvignon Guide",
+      "seo_description": "Napa Valley AVA: Cabernet Sauvignon, sub-AVAs, structure, and classic steak pairings.",
+      "slug": "napa-valley",
+      "name": "Napa Valley",
+      "country": "United States",
+      "id": "napa-valley"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Sonoma (USA)",
+        "Sonoma County"
+      ],
+      "parent_region": "usa",
+      "classification": "AVA",
+      "summary": "Sonoma County spans cool Russian River Pinot Noir, Alexander Valley Cabernet, and Dry Creek Zinfandel — diverse microclimates in one county.",
+      "typical_styles": [
+        "pinot-noir",
+        "chardonnay",
+        "cabernet-sauvignon",
+        "zinfandel"
+      ],
+      "typical_grapes": [
+        "pinot-noir",
+        "chardonnay",
+        "cabernet-sauvignon",
+        "zinfandel"
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "blackberry",
+        "smooth",
+        "ripe",
+        "jammy",
+        "elegant"
+      ],
+      "climate": "Maritime to warm inland",
+      "soil": [
+        "volcanic",
+        "alluvial",
+        "clay",
+        "sand"
+      ],
+      "elevation": "0–700m",
+      "subregions": [],
+      "related_regions": [
+        "napa-valley",
+        "willamette-valley",
+        "burgundy"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-salmon",
+          "label": "Salmon"
+        },
+        {
+          "tier": "primary",
+          "slug": "wine-for-bbq-ribs",
+          "label": "BBQ Ribs"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Sonoma vs Napa?",
+          "a": "Sonoma is more diverse and often cooler; Napa is more Cabernet-focused and warmer overall."
+        }
+      ],
+      "seo_title": "Sonoma Wine Region — Pinot Noir & Zinfandel",
+      "seo_description": "Sonoma County wine guide: Russian River Pinot, Alexander Valley Cabernet, Zinfandel, and pairings.",
+      "slug": "sonoma",
+      "name": "Sonoma",
+      "country": "United States",
+      "id": "sonoma"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Oregon",
+        "Willamette Valley (Oregon)"
+      ],
+      "parent_region": "usa",
+      "classification": "AVA",
+      "summary": "Willamette Valley is Oregon's Pinot Noir heartland — cool, rainy climate on volcanic and sedimentary soils producing Burgundian-style elegance.",
+      "typical_styles": [
+        "pinot-noir",
+        "pinot-grigio",
+        "chardonnay"
+      ],
+      "typical_grapes": [
+        "pinot-noir",
+        "pinot-grigio",
+        "chardonnay",
+        "riesling"
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "earthy",
+        "silky",
+        "bright",
+        "elegant",
+        "crisp"
+      ],
+      "climate": "Cool maritime",
+      "soil": [
+        "volcanic",
+        "sedimentary",
+        "clay",
+        "loess"
+      ],
+      "elevation": "50–300m",
+      "subregions": [],
+      "related_regions": [
+        "burgundy",
+        "marlborough",
+        "sonoma"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-salmon",
+          "label": "Salmon"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why is Oregon good for Pinot Noir?",
+          "a": "Cool climate and long growing season mirror Burgundy — preserving acidity and delicate aromatics."
+        }
+      ],
+      "seo_title": "Willamette Valley — Oregon Pinot Noir Guide",
+      "seo_description": "Willamette Valley wine region: Oregon Pinot Noir, AVAs, Burgundian style, and salmon pairings.",
+      "slug": "willamette-valley",
+      "name": "Willamette Valley",
+      "country": "United States",
+      "id": "willamette-valley"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Barossa Valley (Australia)"
+      ],
+      "parent_region": "australia",
+      "classification": "Geographic Indication",
+      "summary": "Barossa Valley is Shiraz heartland — old-vine, full-bodied, peppery reds from warm valley floor and elevated Eden Valley fringe.",
+      "typical_styles": [
+        "syrah-shiraz",
+        "grenache"
+      ],
+      "typical_grapes": [
+        "syrah",
+        "grenache",
+        "cabernet-sauvignon",
+        "semillon"
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "black-pepper",
+        "chocolate",
+        "ripe",
+        "powerful",
+        "jammy"
+      ],
+      "climate": "Warm continental",
+      "soil": [
+        "clay",
+        "sand",
+        "ironstone",
+        "limestone"
+      ],
+      "elevation": "200–400m",
+      "subregions": [],
+      "related_regions": [
+        "rhone-valley",
+        "coonawarra",
+        "mendoza"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-for-bbq-ribs",
+          "label": "BBQ Ribs"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Barossa vs Eden Valley?",
+          "a": "Barossa floor is warmer Shiraz; Eden Valley is cooler, higher, and more peppery."
+        }
+      ],
+      "seo_title": "Barossa Valley — Australian Shiraz Guide",
+      "seo_description": "Barossa Valley wine region: old-vine Shiraz, GSM blends, warm climate reds, and BBQ pairings.",
+      "slug": "barossa-valley",
+      "name": "Barossa Valley",
+      "country": "Australia",
+      "id": "barossa-valley"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "australia",
+      "classification": "Geographic Indication",
+      "summary": "Margaret River excels at elegant Cabernet Sauvignon and Chardonnay — maritime climate on gravelly loam with consistent quality and freshness.",
+      "typical_styles": [
+        "cabernet-sauvignon",
+        "chardonnay",
+        "sauvignon-blanc"
+      ],
+      "typical_grapes": [
+        "cabernet-sauvignon",
+        "chardonnay",
+        "sauvignon-blanc",
+        "semillon"
+      ],
+      "typical_descriptors": [
+        "cassis",
+        "citrus-zest",
+        "minerality",
+        "elegant",
+        "structured",
+        "crisp"
+      ],
+      "climate": "Maritime Mediterranean",
+      "soil": [
+        "gravel",
+        "loam",
+        "laterite",
+        "granite"
+      ],
+      "elevation": "0–200m",
+      "subregions": [],
+      "related_regions": [
+        "bordeaux",
+        "coonawarra",
+        "marlborough"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-salmon",
+          "label": "Salmon"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Margaret River known for?",
+          "a": "Cabernet Sauvignon and Chardonnay — often compared to Bordeaux in structure."
+        }
+      ],
+      "seo_title": "Margaret River Wine Region — Cabernet & Chardonnay",
+      "seo_description": "Margaret River wine guide: Western Australia Cabernet, Chardonnay, maritime terroir, and pairings.",
+      "slug": "margaret-river",
+      "name": "Margaret River",
+      "country": "Australia",
+      "id": "margaret-river"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "australia",
+      "classification": "Geographic Indication",
+      "summary": "The Yarra Valley is Victoria's cool-climate hub — Pinot Noir and Chardonnay with finesse, plus sparkling wines from elevated sites near Melbourne.",
+      "typical_styles": [
+        "pinot-noir",
+        "chardonnay",
+        "champagne"
+      ],
+      "typical_grapes": [
+        "pinot-noir",
+        "chardonnay",
+        "pinot-meunier"
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "citrus-zest",
+        "elegant",
+        "crisp",
+        "earthy",
+        "refined"
+      ],
+      "climate": "Cool maritime",
+      "soil": [
+        "volcanic",
+        "clay",
+        "sandstone"
+      ],
+      "elevation": "50–400m",
+      "subregions": [],
+      "related_regions": [
+        "burgundy",
+        "willamette-valley",
+        "marlborough"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-chicken",
+          "label": "Roast Chicken"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Yarra Valley good for Pinot Noir?",
+          "a": "Yes — cool climate and volcanic soils produce elegant, Burgundy-inspired styles."
+        }
+      ],
+      "seo_title": "Yarra Valley Wine Region — Pinot Noir & Sparkling",
+      "seo_description": "Yarra Valley wine region: cool-climate Pinot Noir, Chardonnay, sparkling, and food pairings.",
+      "slug": "yarra-valley",
+      "name": "Yarra Valley",
+      "country": "Australia",
+      "id": "yarra-valley"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Coonawarra (Australia)"
+      ],
+      "parent_region": "australia",
+      "classification": "Geographic Indication",
+      "summary": "Coonawarra's terra rossa strip over limestone produces structured Cabernet Sauvignon — cassis, mint, and firm tannin with exceptional aging.",
+      "typical_styles": [
+        "cabernet-sauvignon",
+        "merlot",
+        "syrah-shiraz"
+      ],
+      "typical_grapes": [
+        "cabernet-sauvignon",
+        "merlot",
+        "syrah",
+        "chardonnay"
+      ],
+      "typical_descriptors": [
+        "cassis",
+        "herbal",
+        "firm",
+        "structured",
+        "blackberry",
+        "cedar"
+      ],
+      "climate": "Cool maritime",
+      "soil": [
+        "terra rossa",
+        "limestone",
+        "clay"
+      ],
+      "elevation": "20–60m",
+      "subregions": [],
+      "related_regions": [
+        "bordeaux",
+        "margaret-river",
+        "napa-valley"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is terra rossa?",
+          "a": "Coonawarra's famous red clay-over-limestone soil strip — ideal for Cabernet Sauvignon."
+        }
+      ],
+      "seo_title": "Coonawarra Wine Region — Terra Rossa Cabernet",
+      "seo_description": "Coonawarra wine region: terra rossa Cabernet Sauvignon, minty structure, and steak pairings.",
+      "slug": "coonawarra",
+      "name": "Coonawarra",
+      "country": "Australia",
+      "id": "coonawarra"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Australia (Clare Valley)",
+        "Clare Valley (Australia)"
+      ],
+      "parent_region": "australia",
+      "classification": "Geographic Indication",
+      "summary": "Clare Valley Riesling is Australia's benchmark dry white — lime, slate, and piercing acidity from a warm days/cool nights valley north of Adelaide.",
+      "typical_styles": [
+        "riesling"
+      ],
+      "typical_grapes": [
+        "riesling",
+        "syrah",
+        "cabernet-sauvignon"
+      ],
+      "typical_descriptors": [
+        "lime",
+        "crisp",
+        "citrus-zest",
+        "floral",
+        "minerality",
+        "bright"
+      ],
+      "climate": "Warm days, cool nights",
+      "soil": [
+        "slate",
+        "limestone",
+        "clay",
+        "red loam"
+      ],
+      "elevation": "300–500m",
+      "subregions": [],
+      "related_regions": [
+        "mosel",
+        "marlborough",
+        "barossa-valley"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Spicy Asian cuisine"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Clare Valley Riesling dry?",
+          "a": "Yes — Australian Clare Riesling is typically bone dry with intense lime and slate notes."
+        }
+      ],
+      "seo_title": "Clare Valley Wine Region — Australian Riesling",
+      "seo_description": "Clare Valley wine region: dry Riesling, warm-cool diurnal shift, and spicy food pairings.",
+      "slug": "clare-valley",
+      "name": "Clare Valley",
+      "country": "Australia",
+      "id": "clare-valley"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Marlborough (New Zealand)"
+      ],
+      "parent_region": "new-zealand",
+      "classification": "Geographic Indication",
+      "summary": "Marlborough Sauvignon Blanc defines the global category — intense gooseberry, passionfruit, and herb on Wairau and Awatere valley alluvium.",
+      "typical_styles": [
+        "sauvignon-blanc",
+        "pinot-noir"
+      ],
+      "typical_grapes": [
+        "sauvignon-blanc",
+        "pinot-noir",
+        "chardonnay",
+        "riesling"
+      ],
+      "typical_descriptors": [
+        "gooseberry",
+        "grassy",
+        "zesty",
+        "crisp",
+        "grapefruit",
+        "bright"
+      ],
+      "climate": "Cool maritime, sunny",
+      "soil": [
+        "alluvial",
+        "gravel",
+        "clay",
+        "silt"
+      ],
+      "elevation": "0–300m",
+      "subregions": [],
+      "related_regions": [
+        "loire-valley",
+        "central-otago",
+        "chablis"
+      ],
+      "food_pairings": [
+        {
+          "tier": "secondary",
+          "label": "Goat cheese and green salads"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why is Marlborough Sauvignon so aromatic?",
+          "a": "Long sunny days, cool nights, and thiol-rich clones preserve intense varietal character."
+        }
+      ],
+      "seo_title": "Marlborough Wine Region — Sauvignon Blanc Guide",
+      "seo_description": "Marlborough wine region: New Zealand Sauvignon Blanc, Wairau Valley, and crisp food pairings.",
+      "slug": "marlborough",
+      "name": "Marlborough",
+      "country": "New Zealand",
+      "id": "marlborough"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "new-zealand",
+      "classification": "Geographic Indication",
+      "summary": "Central Otago is the world's southernmost Pinot Noir region — continental climate, schist soils, and vivid cherry fruit with firm structure.",
+      "typical_styles": [
+        "pinot-noir",
+        "rose"
+      ],
+      "typical_grapes": [
+        "pinot-noir",
+        "pinot-grigio",
+        "riesling"
+      ],
+      "typical_descriptors": [
+        "cherry",
+        "raspberry",
+        "firm",
+        "bright",
+        "spicy",
+        "elegant"
+      ],
+      "climate": "Continental, semi-arid",
+      "soil": [
+        "schist",
+        "gravel",
+        "clay",
+        "silt"
+      ],
+      "elevation": "200–450m",
+      "subregions": [],
+      "related_regions": [
+        "willamette-valley",
+        "burgundy",
+        "marlborough"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-salmon",
+          "label": "Salmon"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What makes Central Otago Pinot unique?",
+          "a": "Continental climate and schist soils produce riper fruit with firm acidity and spice."
+        }
+      ],
+      "seo_title": "Central Otago Wine Region — Pinot Noir Guide",
+      "seo_description": "Central Otago wine region: New Zealand Pinot Noir, schist terroir, and alpine-influenced styles.",
+      "slug": "central-otago",
+      "name": "Central Otago",
+      "country": "New Zealand",
+      "id": "central-otago"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [
+        "Mendoza (Argentina)"
+      ],
+      "parent_region": "argentina",
+      "classification": "Appellation Region",
+      "summary": "Mendoza accounts for most Argentine wine — high-altitude Malbec from Luján de Cuyo and Uco Valley with plush fruit, violet, and soft tannin.",
+      "typical_styles": [
+        "malbec",
+        "cabernet-sauvignon"
+      ],
+      "typical_grapes": [
+        "malbec",
+        "cabernet-sauvignon",
+        "bonarda",
+        "torrontes"
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "violet",
+        "plummy",
+        "smooth",
+        "ripe",
+        "chocolate"
+      ],
+      "climate": "High-altitude desert",
+      "soil": [
+        "alluvial",
+        "sand",
+        "clay"
+      ],
+      "elevation": "600–1,500m",
+      "subregions": [],
+      "related_regions": [
+        "cahors",
+        "napa-valley",
+        "maipo-valley"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the Uco Valley?",
+          "a": "Mendoza's premium subzone — higher altitude, cooler, and increasingly focused on Malbec and Cabernet."
+        }
+      ],
+      "seo_title": "Mendoza Wine Region — Argentine Malbec Guide",
+      "seo_description": "Mendoza wine region: high-altitude Malbec, Uco Valley, Luján de Cuyo, and steak pairings.",
+      "slug": "mendoza",
+      "name": "Mendoza",
+      "country": "Argentina",
+      "id": "mendoza"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "chile",
+      "classification": "Appellation Region",
+      "summary": "Maipo Valley near Santiago is Chile's Cabernet Sauvignon benchmark — Andes-cooled vineyards producing structured cassis and minty reds.",
+      "typical_styles": [
+        "cabernet-sauvignon",
+        "merlot"
+      ],
+      "typical_grapes": [
+        "cabernet-sauvignon",
+        "merlot",
+        "carmenere",
+        "sauvignon-blanc"
+      ],
+      "typical_descriptors": [
+        "cassis",
+        "herbal",
+        "blackberry",
+        "firm",
+        "structured",
+        "ripe"
+      ],
+      "climate": "Mediterranean with Andes cooling",
+      "soil": [
+        "alluvial",
+        "gravel",
+        "clay"
+      ],
+      "elevation": "400–800m",
+      "subregions": [],
+      "related_regions": [
+        "mendoza",
+        "napa-valley",
+        "bordeaux"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-with-steak",
+          "label": "Steak"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why is Maipo good for Cabernet?",
+          "a": "Andes cooling and alluvial soils create structured, age-worthy Cabernet Sauvignon."
+        }
+      ],
+      "seo_title": "Maipo Valley Wine Region — Chilean Cabernet",
+      "seo_description": "Maipo Valley wine region: Chilean Cabernet Sauvignon, Andes influence, and steak pairings.",
+      "slug": "maipo-valley",
+      "name": "Maipo Valley",
+      "country": "Chile",
+      "id": "maipo-valley"
+    },
+    {
+      "type": "entity",
+      "entity_type": "wine_region",
+      "domain": "wine",
+      "aliases": [],
+      "parent_region": "chile",
+      "classification": "Appellation Region",
+      "summary": "Colchagua Valley is warm-climate Chile — Carmenère, Cabernet, and Syrah from Apalta and Los Lingues with ripe fruit and value.",
+      "typical_styles": [
+        "cabernet-sauvignon",
+        "merlot",
+        "syrah-shiraz"
+      ],
+      "typical_grapes": [
+        "cabernet-sauvignon",
+        "carmenere",
+        "syrah",
+        "merlot"
+      ],
+      "typical_descriptors": [
+        "blackberry",
+        "plummy",
+        "spicy",
+        "ripe",
+        "smooth",
+        "chocolate"
+      ],
+      "climate": "Warm Mediterranean",
+      "soil": [
+        "alluvial",
+        "clay",
+        "granite"
+      ],
+      "elevation": "100–600m",
+      "subregions": [],
+      "related_regions": [
+        "maipo-valley",
+        "mendoza",
+        "rioja"
+      ],
+      "food_pairings": [
+        {
+          "tier": "primary",
+          "slug": "wine-for-bbq-ribs",
+          "label": "BBQ Ribs"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Apalta?",
+          "a": "Colchagua's star subzone — steep hills producing concentrated Carmenère and Cabernet."
+        }
+      ],
+      "seo_title": "Colchagua Valley Wine Region — Carmenère & Cabernet",
+      "seo_description": "Colchagua Valley wine region: Apalta, Carmenère, warm-climate reds, and grilled meat pairings.",
+      "slug": "colchagua-valley",
+      "name": "Colchagua Valley",
+      "country": "Chile",
+      "id": "colchagua-valley"
+    }
+  ]
+}

@@ -9,7 +9,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Red Wine",
     "href": "/styles/cabernet-sauvignon/",
-    "haystack": "cabernet-sauvignon cabernet sauvignon cab cab sauv red wine cabernet sauvignon is a full-bodied red built on high tannin, dark fruit, and oak structure. it is the benchmark steak wine because tannin binds with protein and fat, softening the wine while balancing rich dishes. classic examples show cassis, cedar, and graphite with firm, age-worthy structure. bordeaux (france) napa valley (usa) chile coonawarra (australia) cabernet-sauvignon"
+    "haystack": "cabernet-sauvignon cabernet sauvignon cab cab sauv red wine cabernet sauvignon is a full-bodied red built on high tannin, dark fruit, and oak structure. it is the benchmark steak wine because tannin binds with protein and fat, softening the wine while balancing rich dishes. classic examples show cassis, cedar, and graphite with firm, age-worthy structure. bordeaux napa-valley chile coonawarra cabernet-sauvignon"
   },
   {
     "slug": "merlot",
@@ -17,7 +17,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Red Wine",
     "href": "/styles/merlot/",
-    "haystack": "merlot merlot red wine merlot is a medium- to full-bodied red with softer tannin and plummy fruit. it bridges cabernet's power and pinot's elegance, pairing with roast meats, mushrooms, and medium-rich dishes. right bank bordeaux and california versions show chocolate and supple texture. bordeaux right bank (france) california chile italy merlot"
+    "haystack": "merlot merlot red wine merlot is a medium- to full-bodied red with softer tannin and plummy fruit. it bridges cabernet's power and pinot's elegance, pairing with roast meats, mushrooms, and medium-rich dishes. right bank bordeaux and california versions show chocolate and supple texture. bordeaux usa chile italy merlot"
   },
   {
     "slug": "pinot-noir",
@@ -25,7 +25,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Red Wine",
     "href": "/styles/pinot-noir/",
-    "haystack": "pinot-noir pinot noir red wine pinot noir is a light- to medium-bodied red with bright acidity, soft tannin, and red fruit. it excels with salmon, roast poultry, and earthy dishes where heavier reds would overpower the plate. burgundy sets the benchmark for silky cherry and forest-floor complexity. burgundy (france) oregon marlborough (new zealand) sonoma (usa) pinot-noir"
+    "haystack": "pinot-noir pinot noir red wine pinot noir is a light- to medium-bodied red with bright acidity, soft tannin, and red fruit. it excels with salmon, roast poultry, and earthy dishes where heavier reds would overpower the plate. burgundy sets the benchmark for silky cherry and forest-floor complexity. burgundy willamette-valley marlborough sonoma pinot-noir"
   },
   {
     "slug": "syrah-shiraz",
@@ -33,7 +33,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Red Wine",
     "href": "/styles/syrah-shiraz/",
-    "haystack": "syrah-shiraz syrah / shiraz syrah shiraz red wine syrah (shiraz in australia) is a full-bodied red with dark fruit, pepper, and smoky or meaty notes. northern rhône syrah is lean and peppery; australian shiraz is riper and more opulent. both styles handle grilled meats, bbq, and bold savory dishes. northern rhône (france) barossa valley (australia) washington state south africa syrah"
+    "haystack": "syrah-shiraz syrah / shiraz syrah shiraz red wine syrah (shiraz in australia) is a full-bodied red with dark fruit, pepper, and smoky or meaty notes. northern rhône syrah is lean and peppery; australian shiraz is riper and more opulent. both styles handle grilled meats, bbq, and bold savory dishes. rhone-valley barossa-valley usa south-africa syrah"
   },
   {
     "slug": "malbec",
@@ -41,7 +41,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Red Wine",
     "href": "/styles/malbec/",
-    "haystack": "malbec malbec red wine malbec is a plush, full-bodied red with soft tannin, dark fruit, and violet notes. argentina's mendoza flagship delivers ripe blackberry and chocolate at approachable prices. it pairs easily with grilled meats and hearty fare without cabernet's angular grip. mendoza (argentina) cahors (france) chile california malbec"
+    "haystack": "malbec malbec red wine malbec is a plush, full-bodied red with soft tannin, dark fruit, and violet notes. argentina's mendoza flagship delivers ripe blackberry and chocolate at approachable prices. it pairs easily with grilled meats and hearty fare without cabernet's angular grip. mendoza cahors chile usa malbec"
   },
   {
     "slug": "grenache",
@@ -49,7 +49,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Red Wine",
     "href": "/styles/grenache/",
-    "haystack": "grenache grenache garnacha red wine grenache is a medium- to full-bodied red with red fruit, spice, and often high alcohol but gentle tannin. it shines in southern rhône blends and solo in priorat and spain's garnacha heartlands. a versatile match for roast meats, mediterranean dishes, and charcuterie. southern rhône (france) priorat (spain) barossa valley (australia) california grenache"
+    "haystack": "grenache grenache garnacha red wine grenache is a medium- to full-bodied red with red fruit, spice, and often high alcohol but gentle tannin. it shines in southern rhône blends and solo in priorat and spain's garnacha heartlands. a versatile match for roast meats, mediterranean dishes, and charcuterie. rhone-valley priorat barossa-valley usa grenache"
   },
   {
     "slug": "sangiovese",
@@ -57,7 +57,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Red Wine",
     "href": "/styles/sangiovese/",
-    "haystack": "sangiovese sangiovese red wine sangiovese is italy's signature red grape, built on high acidity, firm tannin, and sour-cherry fruit. chianti and brunello di montalcino define the style — savory, food-driven wines for tomato sauces, grilled meats, and hard cheese. expect earthy, herbal complexity with age. tuscany (italy) emilia-romagna california australia sangiovese"
+    "haystack": "sangiovese sangiovese red wine sangiovese is italy's signature red grape, built on high acidity, firm tannin, and sour-cherry fruit. chianti and brunello di montalcino define the style — savory, food-driven wines for tomato sauces, grilled meats, and hard cheese. expect earthy, herbal complexity with age. tuscany italy usa australia sangiovese"
   },
   {
     "slug": "nebbiolo",
@@ -65,7 +65,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Red Wine",
     "href": "/styles/nebbiolo/",
-    "haystack": "nebbiolo nebbiolo red wine nebbiolo is a high-acid, high-tannin italian red with haunting tar, rose, and cherry aromas despite often pale color. barolo and barbaresco are its apex — wines that demand time, decanting, and rich, savory food. not a casual sipper, but unforgettable with truffle, braised meats, and aged cheese. piedmont (italy) lombardy (valtellina) california australia nebbiolo"
+    "haystack": "nebbiolo nebbiolo red wine nebbiolo is a high-acid, high-tannin italian red with haunting tar, rose, and cherry aromas despite often pale color. barolo and barbaresco are its apex — wines that demand time, decanting, and rich, savory food. not a casual sipper, but unforgettable with truffle, braised meats, and aged cheese. piedmont italy usa australia nebbiolo"
   },
   {
     "slug": "tempranillo",
@@ -73,7 +73,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Red Wine",
     "href": "/styles/tempranillo/",
-    "haystack": "tempranillo tempranillo red wine tempranillo is spain's noble red — medium body, moderate tannin, and red cherry with leather and vanilla from oak. rioja and ribera del duero span youthful joven to long-aged gran reserva styles. a versatile partner for lamb, tapas, and anything off the grill. rioja (spain) ribera del duero (spain) portugal (as touriga nacional blends) california tempranillo"
+    "haystack": "tempranillo tempranillo red wine tempranillo is spain's noble red — medium body, moderate tannin, and red cherry with leather and vanilla from oak. rioja and ribera del duero span youthful joven to long-aged gran reserva styles. a versatile partner for lamb, tapas, and anything off the grill. rioja ribera-del-duero portugal usa tempranillo"
   },
   {
     "slug": "zinfandel",
@@ -81,7 +81,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Red Wine",
     "href": "/styles/zinfandel/",
-    "haystack": "zinfandel zinfandel zin primitivo red wine zinfandel is a bold california classic — high alcohol, jammy black fruit, and spice from ripe grapes and often american oak. it ranges from hearty red table wine to plush old-vine expressions. built for bbq, burgers, and anything smoky or sauced. california (usa) lodi sonoma puglia (italy, as primitivo) zinfandel"
+    "haystack": "zinfandel zinfandel zin primitivo red wine zinfandel is a bold california classic — high alcohol, jammy black fruit, and spice from ripe grapes and often american oak. it ranges from hearty red table wine to plush old-vine expressions. built for bbq, burgers, and anything smoky or sauced. usa sonoma italy zinfandel"
   },
   {
     "slug": "chardonnay",
@@ -89,7 +89,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "White Wine",
     "href": "/styles/chardonnay/",
-    "haystack": "chardonnay chardonnay white wine chardonnay spans lean unoaked styles to rich, buttery oaked examples from barrel fermentation and malolactic conversion. match weight to the dish: oaked chardonnay for cream sauces and salmon; unoaked for roast chicken and lighter fare. white burgundy remains the global benchmark. burgundy (france) california australia chile chardonnay"
+    "haystack": "chardonnay chardonnay white wine chardonnay spans lean unoaked styles to rich, buttery oaked examples from barrel fermentation and malolactic conversion. match weight to the dish: oaked chardonnay for cream sauces and salmon; unoaked for roast chicken and lighter fare. white burgundy remains the global benchmark. burgundy usa australia chile chardonnay"
   },
   {
     "slug": "sauvignon-blanc",
@@ -97,7 +97,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "White Wine",
     "href": "/styles/sauvignon-blanc/",
-    "haystack": "sauvignon-blanc sauvignon blanc white wine sauvignon blanc is a high-acid, aromatic white with citrus, herb, and mineral notes. its lift cuts richness and pairs with goat cheese, salads, and lighter proteins. sancerre is lean and stony; marlborough is zesty and tropical-leaning. loire (france) marlborough (new zealand) california chile sauvignon-blanc"
+    "haystack": "sauvignon-blanc sauvignon blanc white wine sauvignon blanc is a high-acid, aromatic white with citrus, herb, and mineral notes. its lift cuts richness and pairs with goat cheese, salads, and lighter proteins. sancerre is lean and stony; marlborough is zesty and tropical-leaning. loire-valley marlborough usa chile sauvignon-blanc"
   },
   {
     "slug": "riesling",
@@ -105,7 +105,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "White Wine",
     "href": "/styles/riesling/",
-    "haystack": "riesling riesling white wine riesling ranges from bone-dry to lusciously sweet, always with piercing acidity and aromatic precision. off-dry styles tame spice; dry styles lift fatty fish and aromatic asian dishes. german mosel and alsace set the quality bar across the sweetness spectrum. mosel (germany) alsace (france) austria australia (clare valley) riesling"
+    "haystack": "riesling riesling white wine riesling ranges from bone-dry to lusciously sweet, always with piercing acidity and aromatic precision. off-dry styles tame spice; dry styles lift fatty fish and aromatic asian dishes. german mosel and alsace set the quality bar across the sweetness spectrum. mosel alsace austria clare-valley riesling"
   },
   {
     "slug": "pinot-grigio",
@@ -113,7 +113,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "White Wine",
     "href": "/styles/pinot-grigio/",
-    "haystack": "pinot-grigio pinot grigio pinot gris white wine pinot grigio is a light, crisp white prized for easy drinking and food flexibility. italian versions are lean and neutral; alsace pinot gris is richer and spicier. ideal for antipasti, seafood, and warm-weather sipping. veneto and friuli (italy) alsace (france) oregon california pinot-grigio"
+    "haystack": "pinot-grigio pinot grigio pinot gris white wine pinot grigio is a light, crisp white prized for easy drinking and food flexibility. italian versions are lean and neutral; alsace pinot gris is richer and spicier. ideal for antipasti, seafood, and warm-weather sipping. veneto alsace willamette-valley usa pinot-grigio"
   },
   {
     "slug": "chenin-blanc",
@@ -121,7 +121,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "White Wine",
     "href": "/styles/chenin-blanc/",
-    "haystack": "chenin-blanc chenin blanc white wine chenin blanc is a high-acid white capable of dry, off-dry, sparkling, and noble sweet styles. loire valley vouvray and savennières showcase honeyed fruit, wool, and chalky minerality. one of the most versatile food whites — from salads to spicy fare to creamy dishes. loire valley (france) south africa california australia chenin-blanc"
+    "haystack": "chenin-blanc chenin blanc white wine chenin blanc is a high-acid white capable of dry, off-dry, sparkling, and noble sweet styles. loire valley vouvray and savennières showcase honeyed fruit, wool, and chalky minerality. one of the most versatile food whites — from salads to spicy fare to creamy dishes. loire-valley south-africa usa australia chenin-blanc"
   },
   {
     "slug": "viognier",
@@ -129,7 +129,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "White Wine",
     "href": "/styles/viognier/",
-    "haystack": "viognier viognier white wine viognier is an aromatic, full-bodied white with apricot, floral, and sometimes subtle spice. condrieu in the northern rhône is its spiritual home; california and australia produce lush, perfumed examples. pairs with rich poultry, cream sauces, and aromatic spices. condrieu (france) california australia languedoc (france) viognier"
+    "haystack": "viognier viognier white wine viognier is an aromatic, full-bodied white with apricot, floral, and sometimes subtle spice. condrieu in the northern rhône is its spiritual home; california and australia produce lush, perfumed examples. pairs with rich poultry, cream sauces, and aromatic spices. rhone-valley usa australia france viognier"
   },
   {
     "slug": "gewurztraminer",
@@ -137,7 +137,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "White Wine",
     "href": "/styles/gewurztraminer/",
-    "haystack": "gewurztraminer gewürztraminer gewurztraminer white wine gewürztraminer is intensely aromatic — lychee, rose, spice, and ginger leap from the glass. alsace produces the benchmark dry to off-dry styles. a natural match for spicy asian cuisine, aromatic cheeses, and dishes with ginger or five-spice. alsace (france) alto adige (italy) washington state new zealand gewurztraminer"
+    "haystack": "gewurztraminer gewürztraminer gewurztraminer white wine gewürztraminer is intensely aromatic — lychee, rose, spice, and ginger leap from the glass. alsace produces the benchmark dry to off-dry styles. a natural match for spicy asian cuisine, aromatic cheeses, and dishes with ginger or five-spice. alsace italy usa new-zealand gewurztraminer"
   },
   {
     "slug": "albarino",
@@ -145,7 +145,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "White Wine",
     "href": "/styles/albarino/",
-    "haystack": "albarino albariño albarino white wine albariño is a crisp, saline atlantic white from spain's rías baixas — peach and citrus with bright acidity and subtle bitterness. it is built for seafood, tapas, and anything from the ocean. increasingly planted in portugal (alvarinho) and the new world. rías baixas (spain) vinho verde (portugal) california oregon albarino"
+    "haystack": "albarino albariño albarino white wine albariño is a crisp, saline atlantic white from spain's rías baixas — peach and citrus with bright acidity and subtle bitterness. it is built for seafood, tapas, and anything from the ocean. increasingly planted in portugal (alvarinho) and the new world. rias-baixas portugal usa willamette-valley albarino"
   },
   {
     "slug": "champagne",
@@ -153,7 +153,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Sparkling Wine",
     "href": "/styles/champagne/",
-    "haystack": "champagne champagne sparkling wine champagne is the benchmark traditional-method sparkling wine — fine bubbles, high acidity, and layers of toast, citrus, and brioche from extended lees aging. only wines from champagne, france may use the name. from apéritif to fried foods, its acidity and effervescence cleanse the palate. champagne (france) chardonnay pinot-noir pinot-meunier"
+    "haystack": "champagne champagne sparkling wine champagne is the benchmark traditional-method sparkling wine — fine bubbles, high acidity, and layers of toast, citrus, and brioche from extended lees aging. only wines from champagne, france may use the name. from apéritif to fried foods, its acidity and effervescence cleanse the palate. champagne chardonnay pinot-noir pinot-meunier"
   },
   {
     "slug": "prosecco",
@@ -161,7 +161,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Sparkling Wine",
     "href": "/styles/prosecco/",
-    "haystack": "prosecco prosecco sparkling wine prosecco is italy's charmat-method sparkling wine — fresh, fruity, and approachable with gentle bubbles. glera grape delivers pear, apple, and white flowers. ideal for brunch, antipasti, and light fare where champagne's complexity is not required. veneto (italy) friuli-venezia giulia glera"
+    "haystack": "prosecco prosecco sparkling wine prosecco is italy's charmat-method sparkling wine — fresh, fruity, and approachable with gentle bubbles. glera grape delivers pear, apple, and white flowers. ideal for brunch, antipasti, and light fare where champagne's complexity is not required. veneto glera"
   },
   {
     "slug": "cava",
@@ -169,7 +169,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Sparkling Wine",
     "href": "/styles/cava/",
-    "haystack": "cava cava sparkling wine cava is spain's traditional-method sparkling wine, traditionally from macabeo, xarel·lo, and parellada. it offers champagne-like structure at friendlier prices — crisp acidity, green apple, and almond notes. excellent with tapas, fried foods, and salty snacks. penedès (spain) other spanish dos macabeo xarel-lo parellada"
+    "haystack": "cava cava sparkling wine cava is spain's traditional-method sparkling wine, traditionally from macabeo, xarel·lo, and parellada. it offers champagne-like structure at friendlier prices — crisp acidity, green apple, and almond notes. excellent with tapas, fried foods, and salty snacks. penedes spain macabeo xarel-lo parellada"
   },
   {
     "slug": "rose",
@@ -177,7 +177,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Rosé Wine",
     "href": "/styles/rose/",
-    "haystack": "rose rosé rosé wine rosé wine rosé spans pale provence-style wines to deeper, fruit-forward examples from short skin contact with red grapes. generally dry with refreshing acidity, it bridges white and red — perfect for warm weather, picnics, and flexible food pairing from salads to grilled chicken. provence (france) spain california italy grenache syrah pinot-noir mourvedre"
+    "haystack": "rose rosé rosé wine rosé wine rosé spans pale provence-style wines to deeper, fruit-forward examples from short skin contact with red grapes. generally dry with refreshing acidity, it bridges white and red — perfect for warm weather, picnics, and flexible food pairing from salads to grilled chicken. provence spain usa italy grenache syrah pinot-noir mourvedre"
   },
   {
     "slug": "dry-rose",
@@ -185,7 +185,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Rosé Wine",
     "href": "/styles/dry-rose/",
-    "haystack": "dry-rose dry rosé rosé wine dry rosé emphasizes crisp acidity and minimal residual sugar — the dominant style in provence, loire, and premium new world production. expect red berry, citrus, and mineral notes without sweetness. built for mediterranean fare, seafood, and al fresco dining. provence (france) loire (france) spain california grenache cinsault syrah pinot-noir"
+    "haystack": "dry-rose dry rosé rosé wine dry rosé emphasizes crisp acidity and minimal residual sugar — the dominant style in provence, loire, and premium new world production. expect red berry, citrus, and mineral notes without sweetness. built for mediterranean fare, seafood, and al fresco dining. provence loire-valley spain usa grenache cinsault syrah pinot-noir"
   },
   {
     "slug": "provence-rose",
@@ -193,7 +193,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Rosé Wine",
     "href": "/styles/provence-rose/",
-    "haystack": "provence-rose provence rosé rosé wine provence rosé defines the pale, dry, elegant pink wine style — subtle strawberry, white peach, and herb notes with saline minerality. made primarily from grenache, cinsault, and syrah in southern france. the benchmark for poolside sipping and mediterranean cuisine. provence (france) côtes de provence bandol grenache cinsault syrah"
+    "haystack": "provence-rose provence rosé rosé wine provence rosé defines the pale, dry, elegant pink wine style — subtle strawberry, white peach, and herb notes with saline minerality. made primarily from grenache, cinsault, and syrah in southern france. the benchmark for poolside sipping and mediterranean cuisine. provence grenache cinsault syrah"
   },
   {
     "slug": "port",
@@ -201,7 +201,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Fortified Wine",
     "href": "/styles/port/",
-    "haystack": "port port fortified wine port is a fortified sweet red (and some white) wine from portugal's douro valley — grape spirit stops fermentation, preserving natural sugar. ruby port is fruity and youthful; tawny shows nut and caramel from extended oxidative aging. classic with blue cheese, chocolate, and after dinner. douro valley (portugal) touriga-nacional tinta-roriz touriga-franca tinta-barroca"
+    "haystack": "port port fortified wine port is a fortified sweet red (and some white) wine from portugal's douro valley — grape spirit stops fermentation, preserving natural sugar. ruby port is fruity and youthful; tawny shows nut and caramel from extended oxidative aging. classic with blue cheese, chocolate, and after dinner. douro touriga-nacional tinta-roriz touriga-franca tinta-barroca"
   },
   {
     "slug": "madeira",
@@ -209,7 +209,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Fortified Wine",
     "href": "/styles/madeira/",
-    "haystack": "madeira madeira fortified wine madeira is a fortified wine from the portuguese island of madeira, deliberately heated (estufagem or canteiro) for remarkable longevity and complex caramel, nut, and citrus peel flavors. ranges from dry sercial to sweet malmsey. virtually immortal once opened — excellent with soup, nuts, and desserts. madeira (portugal) sercial verdelho boal malvasia"
+    "haystack": "madeira madeira fortified wine madeira is a fortified wine from the portuguese island of madeira, deliberately heated (estufagem or canteiro) for remarkable longevity and complex caramel, nut, and citrus peel flavors. ranges from dry sercial to sweet malmsey. virtually immortal once opened — excellent with soup, nuts, and desserts. madeira sercial verdelho boal malvasia"
   },
   {
     "slug": "sherry",
@@ -217,7 +217,7 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Fortified Wine",
     "href": "/styles/sherry/",
-    "haystack": "sherry sherry fortified wine sherry is a fortified wine from jerez, spain — biologically aged fino and manzanilla are dry, pale, and saline; oloroso is oxidative, nutty, and rich. amontillado bridges both worlds. one of the most food-versatile wines, from almonds and olives to consommé and tapas. jerez (spain) sanlúcar de barrameda el puerto de santa maría palomino pedro-ximenez moscatel"
+    "haystack": "sherry sherry fortified wine sherry is a fortified wine from jerez, spain — biologically aged fino and manzanilla are dry, pale, and saline; oloroso is oxidative, nutty, and rich. amontillado bridges both worlds. one of the most food-versatile wines, from almonds and olives to consommé and tapas. jerez palomino pedro-ximenez moscatel"
   },
   {
     "slug": "moscato",
@@ -225,6 +225,6 @@ export const WINE_STYLE_SEARCH_INDEX = [
     "entityType": "wine_style",
     "classification": "Fortified & Sweet Wine",
     "href": "/styles/moscato/",
-    "haystack": "moscato moscato moscato d'asti muscat fortified & sweet wine moscato is a lightly sweet, low-alcohol aromatic white — grapey, floral, and often lightly sparkling (frizzante). moscato d'asti from piedmont is the classic: gentle bubbles, peach and orange blossom, and refreshing sweetness. best with fruit desserts, brunch, and spicy-sweet contrasts. piedmont (italy) asti california australia moscato"
+    "haystack": "moscato moscato moscato d'asti muscat fortified & sweet wine moscato is a lightly sweet, low-alcohol aromatic white — grapey, floral, and often lightly sparkling (frizzante). moscato d'asti from piedmont is the classic: gentle bubbles, peach and orange blossom, and refreshing sweetness. best with fruit desserts, brunch, and spicy-sweet contrasts. piedmont usa australia moscato"
   }
 ];
