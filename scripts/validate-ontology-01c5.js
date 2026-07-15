@@ -153,7 +153,9 @@ function main() {
   if (!fs.existsSync(ONTOLOGY_REPORT)) fail("ontology-coverage.json missing");
   else {
     const report = JSON.parse(fs.readFileSync(ONTOLOGY_REPORT, "utf8"));
-    if (report.phase !== "ONTOLOGY-01C.5") fail("Ontology dashboard phase not updated");
+    if (!["ONTOLOGY-01C.5", "ONTOLOGY-01C.6"].includes(report.phase)) {
+      fail("Ontology dashboard phase not updated");
+    }
     else if (!report.graph_maturity?.semantic_relationships) fail("Semantic relationships missing from dashboard");
     else ok("Ontology dashboard updated with semantic relationship metrics");
   }

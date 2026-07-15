@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-07-15T23:33:14.584Z",
+  "phase": "ONTOLOGY-01C.6",
+  "relationships_with_evidence": 26,
+  "relationships_without_evidence": 2573,
+  "evidence_coverage_pct": 1,
+  "confidence_distribution": {
+    "high": 24,
+    "medium": 2,
+    "low": 0,
+    "unspecified": 0
+  },
+  "most_cited_reason_entities": [
+    {
+      "slug": "firm",
+      "count": 6
+    },
+    {
+      "slug": "crisp",
+      "count": 4
+    },
+    {
+      "slug": "full-bodied",
+      "count": 3
+    },
+    {
+      "slug": "silky",
+      "count": 3
+    },
+    {
+      "slug": "bright",
+      "count": 3
+    },
+    {
+      "slug": "concentrated",
+      "count": 2
+    },
+    {
+      "slug": "elegant",
+      "count": 2
+    },
+    {
+      "slug": "austere",
+      "count": 2
+    },
+    {
+      "slug": "structured",
+      "count": 2
+    },
+    {
+      "slug": "ripe",
+      "count": 1
+    }
+  ],
+  "evidence_benchmark": {
+    "iterations": 3000,
+    "ms_total": 8.578,
+    "ms_per_lookup": 0.00286,
+    "edges_tested": 26
+  }
+}

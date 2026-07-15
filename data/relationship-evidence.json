@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "phase": "ONTOLOGY-01C.6",
+    "version": "1.0.0",
+    "description": "Optional evidence annotations for typed semantic relationships. All fields optional; references ontology entities where possible.",
+    "annotation_count": 26
+  },
+  "annotations": [
+    {
+      "source_kind": "wine_style",
+      "source": "cabernet-sauvignon",
+      "type": "recommended_glass",
+      "target_kind": "wine_serving",
+      "target": "bordeaux-glass",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "full-bodied" },
+          { "kind": "descriptor", "slug": "firm" },
+          { "kind": "descriptor", "slug": "concentrated" }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_style",
+      "source": "nebbiolo",
+      "type": "produced_in",
+      "target_kind": "wine_region",
+      "target": "piedmont",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "tar" },
+          { "kind": "descriptor", "slug": "austere" }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_style",
+      "source": "champagne",
+      "type": "recommended_temperature",
+      "target_kind": "wine_serving",
+      "target": "sparkling-chilled",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "crisp" },
+          { "kind": "descriptor", "slug": "bright" }
+        ],
+        "confidence": "high",
+        "notes": "Sparkling wines need colder service to preserve effervescence and acidity."
+      }
+    },
+    {
+      "source_kind": "wine_style",
+      "source": "cabernet-sauvignon",
+      "type": "pairs_best_with",
+      "target_kind": "pairing",
+      "target": "wine-with-steak",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "firm" },
+          { "kind": "descriptor", "slug": "full-bodied" }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_style",
+      "source": "pinot-noir",
+      "type": "produced_in",
+      "target_kind": "wine_region",
+      "target": "burgundy",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "elegant" },
+          { "kind": "descriptor", "slug": "silky" }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_style",
+      "source": "nebbiolo",
+      "type": "similar_to",
+      "target_kind": "wine_style",
+      "target": "sangiovese",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "firm" },
+          { "kind": "descriptor", "slug": "cherry" }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "source_kind": "wine_style",
+      "source": "nebbiolo",
+      "type": "recommended_decanting",
+      "target_kind": "wine_serving",
+      "target": "extended-decant",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "firm" },
+          { "kind": "descriptor", "slug": "austere" }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_style",
+      "source": "malbec",
+      "type": "produced_in",
+      "target_kind": "wine_region",
+      "target": "mendoza",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "ripe" },
+          { "kind": "descriptor", "slug": "plummy" }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_style",
+      "source": "riesling",
+      "type": "recommended_temperature",
+      "target_kind": "wine_serving",
+      "target": "chilled",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "crisp" },
+          { "kind": "descriptor", "slug": "bright" }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_style",
+      "source": "champagne",
+      "type": "recommended_glass",
+      "target_kind": "wine_serving",
+      "target": "champagne-tulip",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "crisp" },
+          { "kind": "descriptor", "slug": "refined" }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_style",
+      "source": "pinot-noir",
+      "type": "recommended_glass",
+      "target_kind": "wine_serving",
+      "target": "burgundy-glass",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "elegant" },
+          { "kind": "descriptor", "slug": "silky" }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_style",
+      "source": "cabernet-sauvignon",
+      "type": "contains_grape",
+      "target_kind": "grape_variety",
+      "target": "cabernet-sauvignon",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_style",
+      "source": "pinot-noir",
+      "type": "pairs_best_with",
+      "target_kind": "pairing",
+      "target": "wine-with-salmon",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "silky" },
+          { "kind": "descriptor", "slug": "bright" }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_style",
+      "source": "prosecco",
+      "type": "recommended_temperature",
+      "target_kind": "wine_serving",
+      "target": "ice-cold",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "crisp" },
+          { "kind": "descriptor", "slug": "fresh" }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_region",
+      "source": "piedmont",
+      "type": "typical_of_region",
+      "target_kind": "wine_style",
+      "target": "nebbiolo",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_region",
+      "source": "burgundy",
+      "type": "typical_of_region",
+      "target_kind": "wine_style",
+      "target": "pinot-noir",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_region",
+      "source": "mendoza",
+      "type": "typical_of_region",
+      "target_kind": "wine_style",
+      "target": "malbec",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_region",
+      "source": "bordeaux",
+      "type": "typical_of_region",
+      "target_kind": "wine_style",
+      "target": "cabernet-sauvignon",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "structured" },
+          { "kind": "descriptor", "slug": "firm" }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_region",
+      "source": "burgundy",
+      "type": "child_of",
+      "target_kind": "wine_region",
+      "target": "france",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_serving",
+      "source": "bordeaux-glass",
+      "type": "recommended_for",
+      "target_kind": "wine_style",
+      "target": "cabernet-sauvignon",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "full-bodied" },
+          { "kind": "descriptor", "slug": "concentrated" }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "wine_serving",
+      "source": "served-too-warm",
+      "type": "related_descriptor",
+      "target_kind": "descriptor",
+      "target": "hot",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "flat" }
+        ],
+        "confidence": "high",
+        "notes": "Warm service amplifies alcohol heat and flattens freshness."
+      }
+    },
+    {
+      "source_kind": "wine_style",
+      "source": "chardonnay",
+      "type": "typically_exhibits",
+      "target_kind": "descriptor",
+      "target": "buttery",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "toasty" },
+          { "kind": "descriptor", "slug": "rich" }
+        ],
+        "confidence": "high",
+        "notes": "Malolactic and oak influence often drive buttery texture — winemaking evidence expands in ONTOLOGY-01D."
+      }
+    },
+    {
+      "source_kind": "descriptor",
+      "source": "graphite",
+      "type": "child_of",
+      "target_kind": "descriptor_group",
+      "target": "inorganic",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "descriptor",
+      "source": "firm",
+      "type": "opposite_descriptor",
+      "target_kind": "descriptor",
+      "target": "soft",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "descriptor",
+      "source": "crisp",
+      "type": "related_descriptor",
+      "target_kind": "descriptor",
+      "target": "zesty",
+      "evidence": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "source_kind": "grape_variety",
+      "source": "cabernet-sauvignon",
+      "type": "pairs_with",
+      "target_kind": "pairing",
+      "target": "wine-with-steak",
+      "evidence": {
+        "reason": [
+          { "kind": "descriptor", "slug": "firm" },
+          { "kind": "descriptor", "slug": "structured" }
+        ],
+        "confidence": "high"
+      }
+    }
+  ]
+}

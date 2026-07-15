@@ -95,7 +95,7 @@ function main() {
 
   const report = {
     generated_at: new Date().toISOString(),
-    phase: "ONTOLOGY-01C.5",
+    phase: "ONTOLOGY-01C.6",
     ontology_version: taxonomy.meta?.version ?? "unknown",
     supported_entity_types: taxonomy.meta?.entity_model?.supported_entity_types ?? ENTITY_TYPES,
     dashboard: rows,
@@ -122,6 +122,26 @@ function main() {
         phase: report.phase,
         canonical_relationship_types: graphMaturity.semantic_relationships?.canonical_relationship_types,
         ...graphMaturity.semantic_relationships,
+      },
+      null,
+      2
+    )}\n`,
+    "utf8"
+  );
+
+  const evidenceOut = path.join(ROOT, "reports", "relationship-evidence-summary.json");
+  fs.writeFileSync(
+    evidenceOut,
+    `${JSON.stringify(
+      {
+        generated_at: report.generated_at,
+        phase: report.phase,
+        relationships_with_evidence: graphMaturity.semantic_relationships?.relationships_with_evidence,
+        relationships_without_evidence: graphMaturity.semantic_relationships?.relationships_without_evidence,
+        evidence_coverage_pct: graphMaturity.semantic_relationships?.evidence_coverage_pct,
+        confidence_distribution: graphMaturity.semantic_relationships?.confidence_distribution,
+        most_cited_reason_entities: graphMaturity.semantic_relationships?.most_cited_reason_entities,
+        evidence_benchmark: graphMaturity.semantic_relationships?.evidence_benchmark,
       },
       null,
       2
@@ -167,6 +187,17 @@ function main() {
     console.log("Top relationship types:");
     for (const row of sr.most_common_relationships.slice(0, 5)) {
       console.log(`  ${row.type.padEnd(28)} ${row.count}`);
+    }
+    if (sr.relationships_with_evidence !== undefined) {
+      console.log("\nRelationship Evidence");
+      console.log("---------------------");
+      console.log(`With evidence:               ${sr.relationships_with_evidence}`);
+      console.log(`Without evidence:            ${sr.relationships_without_evidence}`);
+      console.log(`Evidence coverage:           ${sr.evidence_coverage_pct}%`);
+      console.log(`Confidence high/medium/low:    ${sr.confidence_distribution?.high ?? 0}/${sr.confidence_distribution?.medium ?? 0}/${sr.confidence_distribution?.low ?? 0}`);
+      if (sr.most_cited_reason_entities?.length) {
+        console.log(`Top cited reason entity:     ${sr.most_cited_reason_entities[0].slug} (${sr.most_cited_reason_entities[0].count})`);
+      }
     }
   }
   console.log(`\nFull report → ${path.relative(ROOT, REPORT_OUT)}`);
