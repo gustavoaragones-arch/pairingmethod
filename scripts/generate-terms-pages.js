@@ -377,7 +377,7 @@ function pageHtml(slug, def) {
   <meta property="og:url" content="${pageOgUrl}">
   <meta property="og:title" content="${escapeHtml(title)}">
   <meta property="og:description" content="${escapeHtml(def.definition.slice(0, 200))}">
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=4">
   <script type="application/ld+json">
   ${JSON.stringify({
     "@context": "https://schema.org",
@@ -395,7 +395,7 @@ function pageHtml(slug, def) {
 <body>
   <header>
     <div class="container">
-      <a href="${SHARED_ROUTES.home}" class="logo">Pairing Method</a>
+      <a href="${SHARED_ROUTES.home}" class="logo" aria-label="Pairing Method home"><img src="/assets/logo.png" alt="Pairing Method" class="logo-img" width="807" height="480" decoding="async"></a>
       <nav aria-label="Main navigation">
         <ul>
           <li><a href="${SHARED_ROUTES.home}">Home</a></li>

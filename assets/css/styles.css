@@ -61,22 +61,29 @@ body.has-term-sticky {
 header {
   background: var(--card-bg);
   border-bottom: 1px solid var(--border-subtle);
-  padding: 1rem 0;
+  padding: 0;
 }
 
-header .container {
+header > .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0.25rem 1.5rem;
 }
 
 .logo {
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  color: var(--wine-red);
+  display: block;
+  padding: 10px 0;
   text-decoration: none;
+  line-height: 0;
+  flex-shrink: 0;
+}
+
+.logo-img {
+  display: block;
+  height: 5.5rem;
+  width: auto;
+  max-width: min(24rem, 60vw);
 }
 
 nav a {
