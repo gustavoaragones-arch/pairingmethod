@@ -241,7 +241,15 @@ Registration targets: `lib/entity-model.js`, `data/wine-taxonomy.json` meta.supp
   },
   "categories": [ /* protein_category entries */ ],
   "groups": [ /* protein_group entries */ ],
-  "protein_foods": [ /* protein_food entries */ ]
+  "protein_foods": [
+    {
+      "id": "food.protein.beef.ribeye",
+      "slug": "ribeye",
+      "entity_type": "protein_food",
+      "scientific_name": "Bos taurus"
+      /* ... */
+    }
+  ]
 }
 ```
 
@@ -249,17 +257,66 @@ Registration targets: `lib/entity-model.js`, `data/wine-taxonomy.json` meta.supp
 
 | Field | Requirement |
 |-------|-------------|
-| `slug` | Unique within entity type; URL-safe |
+| `id` | **Stable ontology identifier** — permanent, never changes on slug rename (see §7.1) |
+| `slug` | URL-safe identifier; unique within entity type; may change for SEO |
 | `name` | Display name |
 | `entity_type` | `protein_category`, `protein_group`, or `protein_food` |
 | `domain` | `culinary` |
 | `summary` | 2–4 sentences, pairing-relevant |
+
+### 7.1 Stable Ontology Identifiers
+
+Every entity carries two distinct identifiers:
+
+| Identifier | Purpose | Example |
+|------------|---------|---------|
+| **`id`** | Graph permanence, evidence refs, external integrations | `food.protein.beef.ribeye` |
+| **`slug`** | URLs, SEO, human-readable paths | `ribeye` |
+
+**Slug** is optimized for URLs and search. **Ontology ID** is optimized for permanence and graph references.
+
+If a slug is renamed (`chicken-breast` → `boneless-skinless-chicken-breast`), the ontology `id` remains stable. Evidence annotations, typed edges, and external references continue to resolve without migration.
+
+#### ID Format
+
+```text
+food.protein.{group}.{entity}
+```
+
+| Entity Level | Pattern | Examples |
+|--------------|---------|----------|
+| Category | `food.protein.{category}` | `food.protein.animal`, `food.protein.plant` |
+| Group | `food.protein.{group}` | `food.protein.beef`, `food.protein.shellfish` |
+| Food | `food.protein.{group}.{entity}` | `food.protein.beef.ribeye`, `food.protein.pork.belly`, `food.protein.seafood.salmon`, `food.protein.plant.tofu` |
+
+Rules:
+
+1. IDs are lowercase, dot-separated, immutable once assigned.
+2. IDs do not appear in public URLs — slugs do.
+3. Graph edges, evidence, and internal references use `id` where stability matters; slugs remain the public lookup key for pages and search.
+4. Validation must reject duplicate IDs across the full ontology (wine + food).
+
+#### Example Catalog Entry
+
+```jsonc
+{
+  "id": "food.protein.beef.ribeye",
+  "slug": "ribeye",
+  "name": "Ribeye",
+  "entity_type": "protein_food",
+  "domain": "culinary",
+  "parent_group": "beef",
+  "scientific_name": "Bos taurus",
+  "summary": "..."
+}
+```
 
 ### Required Fields — `protein_food` Entities
 
 | Field | Requirement |
 |-------|-------------|
 | `parent_group` | Slug of parent `protein_group` |
+| `scientific_name` | Binomial or common scientific name; **empty string `""` if unknown** (field reserved — do not omit) |
 | `aliases` | Search aliases (e.g. "NY strip" → striploin) |
 | `fat_content` | `lean` \| `moderate` \| `rich` |
 | `texture` | Primary texture descriptor slugs (e.g. tender, firm, flaky) |
