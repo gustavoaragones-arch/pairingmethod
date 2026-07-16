@@ -146,7 +146,7 @@ function main() {
   if (!fs.existsSync(ONTOLOGY_REPORT)) fail("ontology-coverage.json missing");
   else {
     const report = JSON.parse(fs.readFileSync(ONTOLOGY_REPORT, "utf8"));
-    if (report.phase !== "ONTOLOGY-01C.6") fail("Dashboard phase not ONTOLOGY-01C.6");
+    if (!["ONTOLOGY-01C.6", "ONTOLOGY-01D"].includes(report.phase)) fail(`Dashboard phase not updated (got ${report.phase})`);
     else ok("Ontology Foundation v1 dashboard phase updated");
   }
 

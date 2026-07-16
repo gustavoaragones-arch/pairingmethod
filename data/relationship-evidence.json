@@ -1,9 +1,10 @@
 {
   "meta": {
-    "phase": "ONTOLOGY-01C.6",
+    "phase": "ONTOLOGY-01D",
     "version": "1.0.0",
     "description": "Optional evidence annotations for typed semantic relationships. All fields optional; references ontology entities where possible.",
-    "annotation_count": 26
+    "annotation_count": 70,
+    "winemaking_evidence_count": 46
   },
   "annotations": [
     {
@@ -14,9 +15,18 @@
       "target": "bordeaux-glass",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "full-bodied" },
-          { "kind": "descriptor", "slug": "firm" },
-          { "kind": "descriptor", "slug": "concentrated" }
+          {
+            "kind": "descriptor",
+            "slug": "full-bodied"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "firm"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "concentrated"
+          }
         ],
         "confidence": "high"
       }
@@ -29,8 +39,14 @@
       "target": "piedmont",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "tar" },
-          { "kind": "descriptor", "slug": "austere" }
+          {
+            "kind": "descriptor",
+            "slug": "tar"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "austere"
+          }
         ],
         "confidence": "high"
       }
@@ -43,8 +59,14 @@
       "target": "sparkling-chilled",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "crisp" },
-          { "kind": "descriptor", "slug": "bright" }
+          {
+            "kind": "descriptor",
+            "slug": "crisp"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "bright"
+          }
         ],
         "confidence": "high",
         "notes": "Sparkling wines need colder service to preserve effervescence and acidity."
@@ -58,8 +80,14 @@
       "target": "wine-with-steak",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "firm" },
-          { "kind": "descriptor", "slug": "full-bodied" }
+          {
+            "kind": "descriptor",
+            "slug": "firm"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "full-bodied"
+          }
         ],
         "confidence": "high"
       }
@@ -72,8 +100,14 @@
       "target": "burgundy",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "elegant" },
-          { "kind": "descriptor", "slug": "silky" }
+          {
+            "kind": "descriptor",
+            "slug": "elegant"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "silky"
+          }
         ],
         "confidence": "high"
       }
@@ -86,8 +120,14 @@
       "target": "sangiovese",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "firm" },
-          { "kind": "descriptor", "slug": "cherry" }
+          {
+            "kind": "descriptor",
+            "slug": "firm"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "cherry"
+          }
         ],
         "confidence": "medium"
       }
@@ -100,8 +140,14 @@
       "target": "extended-decant",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "firm" },
-          { "kind": "descriptor", "slug": "austere" }
+          {
+            "kind": "descriptor",
+            "slug": "firm"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "austere"
+          }
         ],
         "confidence": "high"
       }
@@ -114,8 +160,14 @@
       "target": "mendoza",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "ripe" },
-          { "kind": "descriptor", "slug": "plummy" }
+          {
+            "kind": "descriptor",
+            "slug": "ripe"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "plummy"
+          }
         ],
         "confidence": "high"
       }
@@ -128,8 +180,14 @@
       "target": "chilled",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "crisp" },
-          { "kind": "descriptor", "slug": "bright" }
+          {
+            "kind": "descriptor",
+            "slug": "crisp"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "bright"
+          }
         ],
         "confidence": "high"
       }
@@ -142,8 +200,14 @@
       "target": "champagne-tulip",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "crisp" },
-          { "kind": "descriptor", "slug": "refined" }
+          {
+            "kind": "descriptor",
+            "slug": "crisp"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "refined"
+          }
         ],
         "confidence": "high"
       }
@@ -156,8 +220,14 @@
       "target": "burgundy-glass",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "elegant" },
-          { "kind": "descriptor", "slug": "silky" }
+          {
+            "kind": "descriptor",
+            "slug": "elegant"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "silky"
+          }
         ],
         "confidence": "high"
       }
@@ -180,8 +250,14 @@
       "target": "wine-with-salmon",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "silky" },
-          { "kind": "descriptor", "slug": "bright" }
+          {
+            "kind": "descriptor",
+            "slug": "silky"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "bright"
+          }
         ],
         "confidence": "high"
       }
@@ -194,8 +270,14 @@
       "target": "ice-cold",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "crisp" },
-          { "kind": "descriptor", "slug": "fresh" }
+          {
+            "kind": "descriptor",
+            "slug": "crisp"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "fresh"
+          }
         ],
         "confidence": "high"
       }
@@ -238,8 +320,14 @@
       "target": "cabernet-sauvignon",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "structured" },
-          { "kind": "descriptor", "slug": "firm" }
+          {
+            "kind": "descriptor",
+            "slug": "structured"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "firm"
+          }
         ],
         "confidence": "high"
       }
@@ -262,8 +350,14 @@
       "target": "cabernet-sauvignon",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "full-bodied" },
-          { "kind": "descriptor", "slug": "concentrated" }
+          {
+            "kind": "descriptor",
+            "slug": "full-bodied"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "concentrated"
+          }
         ],
         "confidence": "high"
       }
@@ -276,7 +370,10 @@
       "target": "hot",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "flat" }
+          {
+            "kind": "descriptor",
+            "slug": "flat"
+          }
         ],
         "confidence": "high",
         "notes": "Warm service amplifies alcohol heat and flattens freshness."
@@ -290,8 +387,14 @@
       "target": "buttery",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "toasty" },
-          { "kind": "descriptor", "slug": "rich" }
+          {
+            "kind": "descriptor",
+            "slug": "toasty"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "rich"
+          }
         ],
         "confidence": "high",
         "notes": "Malolactic and oak influence often drive buttery texture — winemaking evidence expands in ONTOLOGY-01D."
@@ -335,10 +438,525 @@
       "target": "wine-with-steak",
       "evidence": {
         "reason": [
-          { "kind": "descriptor", "slug": "firm" },
-          { "kind": "descriptor", "slug": "structured" }
+          {
+            "kind": "descriptor",
+            "slug": "firm"
+          },
+          {
+            "kind": "descriptor",
+            "slug": "structured"
+          }
         ],
         "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "malolactic-fermentation",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "buttery",
+      "evidence": {
+        "reason": [
+          {
+            "kind": "descriptor",
+            "slug": "creamy"
+          }
+        ],
+        "confidence": "high",
+        "notes": "Diacetyl produced during MLF creates buttery aroma and texture."
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "malolactic-fermentation",
+      "type": "reduces_descriptor",
+      "target_kind": "descriptor",
+      "target": "zesty",
+      "evidence": {
+        "reason": [
+          {
+            "kind": "descriptor",
+            "slug": "tart"
+          }
+        ],
+        "confidence": "high",
+        "notes": "Conversion of malic to lactic acid lowers perceived acidity."
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "malolactic-fermentation",
+      "type": "common_in",
+      "target_kind": "wine_style",
+      "target": "chardonnay",
+      "evidence": {
+        "reason": [
+          {
+            "kind": "descriptor",
+            "slug": "buttery"
+          }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "carbonic-maceration",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "banana",
+      "evidence": {
+        "confidence": "high",
+        "notes": "Intracellular fermentation produces distinctive ester-driven fruit notes."
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "carbonic-maceration",
+      "type": "common_in",
+      "target_kind": "wine_region",
+      "target": "beaujolais",
+      "evidence": {
+        "reason": [
+          {
+            "kind": "descriptor",
+            "slug": "banana"
+          }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "carbonic-maceration",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "jammy",
+      "evidence": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "lees-aging",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "brioche",
+      "evidence": {
+        "reason": [
+          {
+            "kind": "descriptor",
+            "slug": "rich"
+          }
+        ],
+        "confidence": "high",
+        "notes": "Autolysis of yeast lees releases bready, creamy compounds."
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "lees-aging",
+      "type": "common_in",
+      "target_kind": "wine_style",
+      "target": "champagne",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "batonnage",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "creamy",
+      "evidence": {
+        "reason": [
+          {
+            "kind": "winemaking_technique",
+            "slug": "lees-aging"
+          }
+        ],
+        "confidence": "high",
+        "notes": "Stirring lees increases contact and mouthfeel integration."
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "amphora-aging",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "earthy",
+      "evidence": {
+        "confidence": "high",
+        "notes": "Porous clay vessels allow micro-oxygenation and earthy expression."
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "barrel-aging",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "vanilla",
+      "evidence": {
+        "reason": [
+          {
+            "kind": "descriptor",
+            "slug": "toast"
+          }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "new-french-oak",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "toast",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "neutral-oak",
+      "type": "reduces_descriptor",
+      "target_kind": "descriptor",
+      "target": "vanilla",
+      "evidence": {
+        "confidence": "medium",
+        "notes": "Previously used barrels impart less overt oak flavor."
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "cold-soak",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "juicy",
+      "evidence": {
+        "confidence": "medium",
+        "notes": "Pre-fermentation skin contact extracts color and phenolics."
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "extended-maceration",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "tannic",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "whole-cluster-fermentation",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "spicy",
+      "evidence": {
+        "confidence": "medium",
+        "notes": "Stem inclusion can add herbal and peppery notes."
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "native-fermentation",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "earthy",
+      "evidence": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "traditional-method",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "brioche",
+      "evidence": {
+        "reason": [
+          {
+            "kind": "winemaking_technique",
+            "slug": "lees-aging"
+          }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "traditional-method",
+      "type": "common_in",
+      "target_kind": "wine_style",
+      "target": "champagne",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "charmant-method",
+      "type": "common_in",
+      "target_kind": "wine_style",
+      "target": "prosecco",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "fortification",
+      "type": "common_in",
+      "target_kind": "wine_style",
+      "target": "port",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "fortification",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "rich",
+      "evidence": {
+        "confidence": "high",
+        "notes": "Added spirit raises alcohol and preserves sweetness."
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "solera-system",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "oxidized",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "noble-rot-production",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "honeyed",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "ice-wine-production",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "honeyed",
+      "evidence": {
+        "confidence": "high",
+        "notes": "Frozen harvest concentrates sugars and acidity."
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "late-harvest",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "honeyed",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "cold-fermentation",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "crisp",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "warm-fermentation",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "ripe",
+      "evidence": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "micro-oxygenation",
+      "type": "reduces_descriptor",
+      "target_kind": "descriptor",
+      "target": "tannic",
+      "evidence": {
+        "confidence": "medium",
+        "notes": "Controlled oxygen softens tannins pre-bottling."
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "fining",
+      "type": "reduces_descriptor",
+      "target_kind": "descriptor",
+      "target": "tannic",
+      "evidence": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "unfiltered-bottling",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "earthy",
+      "evidence": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "skin-contact",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "tannic",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "flash-detente",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "jammy",
+      "evidence": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "concrete-egg-aging",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "rich",
+      "evidence": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "stainless-steel-aging",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "crisp",
+      "evidence": {
+        "confidence": "high",
+        "notes": "Inert vessels preserve primary fruit and acidity."
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "malolactic-fermentation",
+      "type": "associated_with",
+      "target_kind": "grape_variety",
+      "target": "chardonnay",
+      "evidence": {
+        "reason": [
+          {
+            "kind": "descriptor",
+            "slug": "buttery"
+          }
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "carbonic-maceration",
+      "type": "associated_with",
+      "target_kind": "grape_variety",
+      "target": "pinot-noir",
+      "evidence": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "lees-aging",
+      "type": "associated_with",
+      "target_kind": "wine_serving",
+      "target": "cool",
+      "evidence": {
+        "confidence": "medium",
+        "notes": "Textural wines often show best with moderate cellar service."
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "barrel-aging",
+      "type": "common_in",
+      "target_kind": "wine_region",
+      "target": "napa-valley",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "malolactic-fermentation",
+      "type": "common_in",
+      "target_kind": "wine_region",
+      "target": "burgundy",
+      "evidence": {
+        "confidence": "high"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "ancestral-method",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "earthy",
+      "evidence": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "crossflow-filtration",
+      "type": "reduces_descriptor",
+      "target_kind": "descriptor",
+      "target": "complex",
+      "evidence": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "oak-alternatives",
+      "type": "creates_descriptor",
+      "target_kind": "descriptor",
+      "target": "toast",
+      "evidence": {
+        "confidence": "medium"
+      }
+    },
+    {
+      "source_kind": "winemaking_technique",
+      "source": "inoculated-fermentation",
+      "type": "confused_with",
+      "target_kind": "winemaking_technique",
+      "target": "native-fermentation",
+      "evidence": {
+        "confidence": "medium",
+        "notes": "Both are fermentation approaches — differ by yeast source."
       }
     }
   ]

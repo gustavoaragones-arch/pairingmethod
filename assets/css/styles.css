@@ -3373,6 +3373,34 @@ body.term-modal-open {
   margin: 0.5rem 0 1rem;
 }
 
+/* ---------- ONTOLOGY-01D — Winemaking Technique entity pages ---------- */
+.winemaking-technique-entity-page {
+  --term-entity-accent: var(--wine-red);
+}
+
+.winemaking-technique-classification {
+  font-size: 1.05rem;
+  color: var(--muted);
+  margin: 0.35rem 0 0;
+}
+
+.winemaking-technique-summary p {
+  font-size: 1.1rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.winemaking-technique-aliases {
+  color: var(--muted);
+  margin: 0.5rem 0 1rem;
+}
+
+.term-entity-kind {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-left: 0.35rem;
+}
+
 @media (max-width: 768px) {
   .wine-structure-bar {
     grid-template-columns: 1fr;

@@ -1,0 +1,1770 @@
+/**
+ * ONTOLOGY-01D — Seed data/winemaking-technique-catalog.json (Tier 1 winemaking techniques).
+ * Run: node scripts/bootstrap-winemaking-technique-catalog.js
+ */
+
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.join(__dirname, "..");
+const OUT = path.join(ROOT, "data", "winemaking-technique-catalog.json");
+const TAXONOMY_PATH = path.join(ROOT, "data", "wine-taxonomy.json");
+const STYLE_CATALOG = path.join(ROOT, "data", "wine-style-catalog.json");
+const REGION_CATALOG = path.join(ROOT, "data", "wine-region-catalog.json");
+const SERVING_CATALOG = path.join(ROOT, "data", "wine-serving-catalog.json");
+const GRAPE_CATALOG = path.join(ROOT, "data", "grape-catalog.json");
+
+function technique(entry) {
+  return {
+    type: "entity",
+    entity_type: "winemaking_technique",
+    domain: "wine",
+    aliases: [],
+    classification: "",
+    summary: "",
+    purpose: "",
+    process_stage: "",
+    used_for: [],
+    common_regions: [],
+    common_styles: [],
+    common_grapes: [],
+    creates_descriptors: [],
+    reduces_descriptors: [],
+    related_techniques: [],
+    opposite_techniques: [],
+    serving_implications: [],
+    beginner_notes: "",
+    faq: [],
+    seo_title: "",
+    seo_description: "",
+    ...entry,
+    id: entry.id ?? entry.slug,
+  };
+}
+
+const entities = [
+  // —— Fermentation (6) ——
+  technique({
+    slug: "alcoholic-fermentation",
+    name: "Alcoholic Fermentation",
+    aliases: ["Primary fermentation", "AF"],
+    classification: "Primary Fermentation",
+    process_stage: "fermentation",
+    summary:
+      "Alcoholic fermentation converts grape sugars into ethanol and CO₂ via yeast metabolism — the defining step that turns grape juice into wine. Temperature, yeast strain, and nutrient management shape aroma intensity, alcohol level, and fermentation kinetics.",
+    purpose: "Convert must sugars to alcohol and generate primary fermentation aromas.",
+    used_for: ["All still wines", "Base wines for sparkling", "Fortified wine bases"],
+    common_regions: ["france", "italy", "spain", "napa-valley", "mendoza"],
+    common_styles: ["chardonnay", "cabernet-sauvignon", "pinot-noir", "riesling"],
+    common_grapes: ["chardonnay", "cabernet-sauvignon", "pinot-noir"],
+    creates_descriptors: ["juicy", "floral"],
+    reduces_descriptors: [],
+    related_techniques: ["native-fermentation", "inoculated-fermentation", "cold-fermentation"],
+    opposite_techniques: [],
+    serving_implications: ["cellar-temperature", "chilled"],
+    beginner_notes: "This is the core step every wine undergoes — everything else in winemaking builds on or modifies what happens here.",
+    faq: [
+      {
+        q: "How long does alcoholic fermentation take?",
+        a: "Typically 5–14 days for still wines, depending on temperature, yeast strain, and sugar level.",
+      },
+    ],
+    seo_title: "Alcoholic Fermentation — How Wine Becomes Wine",
+    seo_description:
+      "Alcoholic fermentation explained: yeast converts grape sugar to alcohol and CO₂, shaping wine's body, aroma, and style.",
+  }),
+  technique({
+    slug: "malolactic-fermentation",
+    name: "Malolactic Fermentation",
+    aliases: ["MLF", "Malo", "Secondary fermentation"],
+    classification: "Secondary Fermentation",
+    process_stage: "post-fermentation",
+    summary:
+      "Malolactic fermentation converts sharp malic acid into softer lactic acid via bacteria, rounding acidity and adding creamy, dairy-like notes. It is standard for many Chardonnays and most red wines, but often blocked for crisp aromatic whites.",
+    purpose: "Soften acidity and add textural richness through bacterial conversion of malic to lactic acid.",
+    used_for: ["Full-bodied whites", "Most red wines", "Some sparkling bases"],
+    common_regions: ["burgundy", "napa-valley", "bordeaux", "rhone-valley"],
+    common_styles: ["chardonnay", "cabernet-sauvignon", "pinot-noir", "syrah-shiraz"],
+    common_grapes: ["chardonnay", "cabernet-sauvignon", "pinot-noir"],
+    creates_descriptors: ["buttery", "creamy", "earthy"],
+    reduces_descriptors: ["zesty", "tart", "crisp"],
+    related_techniques: ["lees-aging", "barrel-aging", "batonnage"],
+    opposite_techniques: ["cold-stabilization"],
+    serving_implications: ["cool", "cellar-temperature"],
+    beginner_notes: "MLF is why some Chardonnays taste buttery — it's a bacterial process, not yeast fermentation.",
+    faq: [
+      {
+        q: "Does every wine go through malolactic fermentation?",
+        a: "No — many Sauvignon Blanc, Riesling, and sparkling wines block MLF to preserve bright acidity.",
+      },
+    ],
+    seo_title: "Malolactic Fermentation (MLF) — Butteriness in Wine",
+    seo_description:
+      "Malolactic fermentation softens wine acidity and adds buttery, creamy notes — common in Chardonnay and most reds.",
+  }),
+  technique({
+    slug: "native-fermentation",
+    name: "Native Fermentation",
+    aliases: ["Wild fermentation", "Spontaneous fermentation", "Indigenous yeast"],
+    classification: "Fermentation Method",
+    process_stage: "fermentation",
+    summary:
+      "Native fermentation relies on ambient yeasts from the vineyard, cellar, or grape skins rather than a cultured inoculum. It can add complexity and regional character but requires careful monitoring because fermentation kinetics are less predictable.",
+    purpose: "Ferment with indigenous microflora to express site-specific character and complexity.",
+    used_for: ["Natural wine programs", "Traditional regional styles", "Artisan producers"],
+    common_regions: ["beaujolais", "loire-valley", "rhone-valley", "piedmont"],
+    common_styles: ["pinot-noir", "grenache", "sangiovese"],
+    common_grapes: ["pinot-noir", "chardonnay"],
+    creates_descriptors: ["earthy", "complex", "floral"],
+    reduces_descriptors: ["clean"],
+    related_techniques: ["alcoholic-fermentation", "whole-cluster-fermentation", "inoculated-fermentation"],
+    opposite_techniques: ["inoculated-fermentation"],
+    serving_implications: ["cellar-temperature", "extended-decant"],
+    beginner_notes: "Wild yeast ferments can taste more savory or complex — but 'native' doesn't automatically mean better.",
+    faq: [
+      {
+        q: "Is native fermentation the same as natural wine?",
+        a: "Not necessarily — native fermentation is one technique; natural wine typically avoids additions and heavy intervention throughout.",
+      },
+    ],
+    seo_title: "Native Fermentation — Wild Yeast in Winemaking",
+    seo_description:
+      "Native fermentation uses ambient yeasts for spontaneous ferments, adding complexity and regional character to wine.",
+  }),
+  technique({
+    slug: "inoculated-fermentation",
+    name: "Inoculated Fermentation",
+    aliases: ["Cultured yeast", "Selected yeast", "Commercial inoculation"],
+    classification: "Fermentation Method",
+    process_stage: "fermentation",
+    summary:
+      "Inoculated fermentation introduces a selected commercial yeast strain to start fermentation predictably and cleanly. Winemakers choose strains for specific aroma profiles, alcohol tolerance, or reliability in difficult conditions.",
+    purpose: "Ensure reliable, controlled fermentation with a chosen yeast strain.",
+    used_for: ["Commercial production", "Difficult vintages", "Aromatic style targets"],
+    common_regions: ["napa-valley", "champagne", "marlborough", "barossa-valley"],
+    common_styles: ["chardonnay", "sauvignon-blanc", "cabernet-sauvignon", "prosecco"],
+    common_grapes: ["chardonnay", "sauvignon-blanc", "cabernet-sauvignon"],
+    creates_descriptors: ["clean", "juicy", "floral"],
+    reduces_descriptors: [],
+    related_techniques: ["alcoholic-fermentation", "cold-fermentation", "native-fermentation"],
+    opposite_techniques: ["native-fermentation"],
+    serving_implications: ["chilled", "ideal-serving-temperature"],
+    beginner_notes: "Most commercial wine uses selected yeast — it gives winemakers control over fermentation speed and flavor.",
+    faq: [
+      {
+        q: "Why inoculate instead of using wild yeast?",
+        a: "Selected yeasts reduce stuck-ferment risk and let winemakers target specific fruit or floral aromatics reliably.",
+      },
+    ],
+    seo_title: "Inoculated Fermentation — Selected Yeast in Winemaking",
+    seo_description:
+      "Inoculated fermentation uses commercial yeast strains for predictable, clean ferments with targeted aroma profiles.",
+  }),
+  technique({
+    slug: "cold-fermentation",
+    name: "Cold Fermentation",
+    aliases: ["Cool ferment", "Low-temperature fermentation"],
+    classification: "Fermentation Method",
+    process_stage: "fermentation",
+    summary:
+      "Cold fermentation runs at lower temperatures (often 50–60°F / 10–15°C) to preserve delicate primary fruit and floral aromatics. It is standard for aromatic whites and many rosés where freshness matters more than extraction.",
+    purpose: "Retain primary fruit and floral aromatics by slowing yeast metabolism.",
+    used_for: ["Aromatic whites", "Rosé", "Fruit-forward styles"],
+    common_regions: ["marlborough", "alsace", "loire-valley", "penedes"],
+    common_styles: ["sauvignon-blanc", "riesling", "rose", "gewurztraminer"],
+    common_grapes: ["sauvignon-blanc", "riesling", "chardonnay"],
+    creates_descriptors: ["crisp", "bright", "floral"],
+    reduces_descriptors: [],
+    related_techniques: ["inoculated-fermentation", "stainless-steel-aging"],
+    opposite_techniques: ["warm-fermentation"],
+    serving_implications: ["chilled", "lightly-chilled"],
+    beginner_notes: "Cold ferments are why Sauvignon Blanc smells so vividly of citrus and tropical fruit.",
+    faq: [
+      {
+        q: "What temperature is cold fermentation?",
+        a: "Typically 10–15°C (50–59°F) for whites and rosés — well below the 25–30°C range used for many red ferments.",
+      },
+    ],
+    seo_title: "Cold Fermentation — Preserving Fresh Aromatics",
+    seo_description:
+      "Cold fermentation preserves bright fruit and floral notes in aromatic whites and rosé at lower yeast temperatures.",
+  }),
+  technique({
+    slug: "warm-fermentation",
+    name: "Warm Fermentation",
+    aliases: ["Hot ferment", "High-temperature fermentation"],
+    classification: "Fermentation Method",
+    process_stage: "fermentation",
+    summary:
+      "Warm fermentation at higher temperatures (often 77–86°F / 25–30°C) drives faster extraction of color, tannin, and structural compounds from red grape skins. It suits full-bodied reds where depth and pigment matter more than primary fruit delicacy.",
+    purpose: "Maximize color, tannin, and structural extraction during red wine fermentation.",
+    used_for: ["Full-bodied reds", "High-extraction styles", "Short ferment cycles"],
+    common_regions: ["barossa-valley", "napa-valley", "mendoza", "priorat"],
+    common_styles: ["cabernet-sauvignon", "syrah-shiraz", "malbec", "zinfandel"],
+    common_grapes: ["cabernet-sauvignon", "pinot-noir"],
+    creates_descriptors: ["jammy", "extracted", "ripe"],
+    reduces_descriptors: ["crisp", "bright"],
+    related_techniques: ["pumpover", "pigeage", "extended-maceration"],
+    opposite_techniques: ["cold-fermentation"],
+    serving_implications: ["room-temperature", "extended-decant"],
+    beginner_notes: "Warm red ferments extract more tannin and color — think bold Shiraz vs delicate Pinot Noir.",
+    faq: [
+      {
+        q: "Can warm fermentation ruin a wine?",
+        a: "Excessive heat can drive off delicate aromatics and create cooked or jammy characters — temperature control is critical.",
+      },
+    ],
+    seo_title: "Warm Fermentation — Extraction in Red Winemaking",
+    seo_description:
+      "Warm fermentation extracts color and tannin for full-bodied reds like Cabernet, Syrah, and Malbec.",
+  }),
+
+  // —— Maceration (10) ——
+  technique({
+    slug: "carbonic-maceration",
+    name: "Carbonic Maceration",
+    aliases: ["CM", "Whole-grape anaerobic maceration"],
+    classification: "Maceration & Extraction",
+    process_stage: "pre-fermentation",
+    summary:
+      "Carbonic maceration ferments whole berries in a CO₂-filled tank before crushing, producing low-tannin reds with vivid candied fruit and banana-like esters. Beaujolais Nouveau is the classic expression, though the technique appears in other regions for fruit-forward styles.",
+    purpose: "Create low-tannin, fruit-forward reds with distinctive candied aromatics.",
+    used_for: ["Early-drinking reds", "Beaujolais-style wines", "Blending component"],
+    common_regions: ["beaujolais", "loire-valley", "rhone-valley"],
+    common_styles: ["grenache", "pinot-noir"],
+    common_grapes: ["pinot-noir"],
+    creates_descriptors: ["banana", "jammy", "juicy"],
+    reduces_descriptors: ["tannic"],
+    related_techniques: ["semi-carbonic-maceration", "whole-berry-fermentation", "whole-cluster-fermentation"],
+    opposite_techniques: ["extended-maceration"],
+    serving_implications: ["cellar-temperature", "chilled", "no-decanting"],
+    beginner_notes: "This is why Beaujolais smells like bananas and bubblegum — the grapes ferment whole inside their skins.",
+    faq: [
+      {
+        q: "Is carbonic maceration only for Gamay?",
+        a: "Gamay is the classic grape, but producers apply CM to Grenache, Pinot Noir, and other varieties for fruity, early-drinking styles.",
+      },
+    ],
+    seo_title: "Carbonic Maceration — Beaujolais Winemaking",
+    seo_description:
+      "Carbonic maceration produces fruity, low-tannin reds with banana and jammy notes — classic in Beaujolais.",
+  }),
+  technique({
+    slug: "semi-carbonic-maceration",
+    name: "Semi-Carbonic Maceration",
+    aliases: ["Partial carbonic", "Semi-carbonic"],
+    classification: "Maceration & Extraction",
+    process_stage: "pre-fermentation",
+    summary:
+      "Semi-carbonic maceration combines whole-cluster carbonic fermentation with traditional crushing of a portion of the cap. It balances the candied fruit of full CM with more structure and tannin from conventional extraction.",
+    purpose: "Blend carbonic fruit character with traditional tannin structure.",
+    used_for: ["Beaujolais Cru", "Light-bodied reds", "Natural wine styles"],
+    common_regions: ["beaujolais", "loire-valley", "piedmont"],
+    common_styles: ["pinot-noir", "grenache"],
+    common_grapes: ["pinot-noir"],
+    creates_descriptors: ["banana", "juicy", "earthy"],
+    reduces_descriptors: [],
+    related_techniques: ["carbonic-maceration", "whole-cluster-fermentation"],
+    opposite_techniques: ["extended-maceration"],
+    serving_implications: ["cellar-temperature", "cool"],
+    beginner_notes: "Many Beaujolais Cru wines use semi-carbonic — more structure than Nouveau, still fruit-forward.",
+    faq: [],
+    seo_title: "Semi-Carbonic Maceration — Hybrid Red Winemaking",
+    seo_description:
+      "Semi-carbonic maceration blends whole-berry CO₂ fermentation with traditional extraction for balanced reds.",
+  }),
+  technique({
+    slug: "whole-cluster-fermentation",
+    name: "Whole-Cluster Fermentation",
+    aliases: ["Whole bunch", "Stem inclusion", "Whole cluster"],
+    classification: "Maceration & Extraction",
+    process_stage: "fermentation",
+    summary:
+      "Whole-cluster fermentation includes grape stems and intact bunches in the ferment, adding herbal, spicy, and structural notes from stem tannins. Pinot Noir producers in Burgundy and Syrah in the Rhône use it for complexity and savory lift.",
+    purpose: "Add stem-derived spice, structure, and savory complexity to red wines.",
+    used_for: ["Pinot Noir", "Syrah", "Gamay blends", "Aromatic complexity"],
+    common_regions: ["burgundy", "rhone-valley", "beaujolais", "willamette-valley"],
+    common_styles: ["pinot-noir", "syrah-shiraz", "grenache"],
+    common_grapes: ["pinot-noir"],
+    creates_descriptors: ["spicy", "earthy", "herbal"],
+    reduces_descriptors: ["jammy"],
+    related_techniques: ["carbonic-maceration", "semi-carbonic-maceration", "whole-berry-fermentation"],
+    opposite_techniques: ["gentle-press"],
+    serving_implications: ["cellar-temperature", "30-minutes"],
+    beginner_notes: "Whole-cluster can add a peppery, herbal edge — great when balanced, harsh if stems are underripe.",
+    faq: [
+      {
+        q: "Why do winemakers include stems?",
+        a: "Ripe stems contribute tannin, floral spice, and savory lift — especially valued in elegant Pinot Noir and Syrah.",
+      },
+    ],
+    seo_title: "Whole-Cluster Fermentation — Stem Inclusion",
+    seo_description:
+      "Whole-cluster fermentation includes stems for spicy, savory complexity in Pinot Noir, Syrah, and Beaujolais.",
+  }),
+  technique({
+    slug: "maceration",
+    name: "Maceration",
+    aliases: ["Skin contact", "Skin maceration"],
+    classification: "Maceration & Extraction",
+    process_stage: "fermentation",
+    summary:
+      "Maceration is the soaking of grape skins in juice or wine to extract color, tannin, flavor compounds, and aroma precursors. Duration and temperature determine whether the result is a pale rosé, a structured red, or an amber skin-contact white.",
+    purpose: "Extract color, tannin, and flavor compounds from grape skins.",
+    used_for: ["Red wines", "Rosé", "Orange wines"],
+    common_regions: ["bordeaux", "tuscany", "rioja", "provence"],
+    common_styles: ["cabernet-sauvignon", "sangiovese", "tempranillo", "rose"],
+    common_grapes: ["cabernet-sauvignon", "pinot-noir"],
+    creates_descriptors: ["tannic", "rich", "earthy"],
+    reduces_descriptors: ["crisp"],
+    related_techniques: ["extended-maceration", "short-maceration", "cold-soak"],
+    opposite_techniques: ["gentle-press"],
+    serving_implications: ["room-temperature", "extended-decant"],
+    beginner_notes: "Maceration time is why red wine is red — longer skin contact means more color and tannin.",
+    faq: [
+      {
+        q: "How is maceration different from cold soak?",
+        a: "Cold soak is a pre-ferment maceration at low temperature; maceration generally refers to skin contact during or after fermentation.",
+      },
+    ],
+    seo_title: "Maceration — Skin Contact in Winemaking",
+    seo_description:
+      "Maceration extracts color, tannin, and flavor from grape skins — fundamental to red, rosé, and orange wine production.",
+  }),
+  technique({
+    slug: "extended-maceration",
+    name: "Extended Maceration",
+    aliases: ["Long maceration", "Post-ferment maceration"],
+    classification: "Maceration & Extraction",
+    process_stage: "post-fermentation",
+    summary:
+      "Extended maceration keeps wine on skins for days or weeks after fermentation completes, extracting additional tannin, color stability, and structural depth. It suits ageworthy reds where long-term integration of tannin is the goal.",
+    purpose: "Build tannin structure and aging potential through prolonged skin contact.",
+    used_for: ["Age-worthy reds", "Nebbiolo", "Cabernet", "Traditional Italian styles"],
+    common_regions: ["piedmont", "bordeaux", "napa-valley", "tuscany"],
+    common_styles: ["nebbiolo", "cabernet-sauvignon", "sangiovese"],
+    common_grapes: ["cabernet-sauvignon", "pinot-noir"],
+    creates_descriptors: ["tannic", "extracted", "earthy"],
+    reduces_descriptors: ["bright", "juicy"],
+    related_techniques: ["maceration", "pigeage", "pumpover"],
+    opposite_techniques: ["short-maceration", "carbonic-maceration"],
+    serving_implications: ["extended-decant", "long-term-aging"],
+    beginner_notes: "Extended maceration makes young reds feel very tannic — they often need years in bottle to soften.",
+    faq: [
+      {
+        q: "When does extended maceration make sense?",
+        a: "For thick-skinned, structured varieties and vintages where long-term aging is intended — not for early-drinking styles.",
+      },
+    ],
+    seo_title: "Extended Maceration — Building Age-Worthy Reds",
+    seo_description:
+      "Extended maceration prolongs skin contact post-ferment for deeper tannin structure in age-worthy red wines.",
+  }),
+  technique({
+    slug: "cold-soak",
+    name: "Cold Soak",
+    aliases: ["Pre-ferment maceration", "Cold maceration"],
+    classification: "Maceration & Extraction",
+    process_stage: "pre-fermentation",
+    summary:
+      "Cold soak holds crushed grapes at low temperature before yeast inoculation, extracting color and fruit aromatics without ferment-derived heat or alcohol. It is common in Pinot Noir and premium red programs seeking vivid fruit before structural extraction begins.",
+    purpose: "Extract color and fruit aromatics before fermentation starts.",
+    used_for: ["Pinot Noir", "Premium reds", "Color extraction"],
+    common_regions: ["burgundy", "willamette-valley", "sonoma", "marlborough"],
+    common_styles: ["pinot-noir", "cabernet-sauvignon"],
+    common_grapes: ["pinot-noir", "cabernet-sauvignon"],
+    creates_descriptors: ["juicy", "floral", "bright"],
+    reduces_descriptors: [],
+    related_techniques: ["maceration", "skin-contact"],
+    opposite_techniques: ["warm-fermentation"],
+    serving_implications: ["cellar-temperature"],
+    beginner_notes: "Cold soak is a gentle head start — winemakers get color and aroma without starting fermentation yet.",
+    faq: [],
+    seo_title: "Cold Soak — Pre-Ferment Maceration",
+    seo_description:
+      "Cold soak extracts fruit and color at low temperature before fermentation — common in premium Pinot Noir.",
+  }),
+  technique({
+    slug: "skin-contact",
+    name: "Skin Contact",
+    aliases: ["Extended skin contact", "Orange wine technique"],
+    classification: "Maceration & Extraction",
+    process_stage: "fermentation",
+    summary:
+      "Skin contact for white wines leaves juice on skins for hours to months, producing amber or orange wines with tannin grip, dried fruit, and savory complexity. The technique revives ancient Georgian and Italian traditions now popular in natural wine.",
+    purpose: "Add tannin, texture, and oxidative complexity to white wines.",
+    used_for: ["Orange wines", "Amber whites", "Textural whites"],
+    common_regions: ["loire-valley", "alsace", "piedmont", "rhone-valley"],
+    common_styles: ["chenin-blanc", "pinot-grigio", "gewurztraminer"],
+    common_grapes: ["pinot-noir", "riesling"],
+    creates_descriptors: ["tannic", "earthy", "oxidized"],
+    reduces_descriptors: ["crisp", "bright"],
+    related_techniques: ["maceration", "amphora-aging", "cold-soak"],
+    opposite_techniques: ["gentle-press"],
+    serving_implications: ["cool", "cellar-temperature"],
+    beginner_notes: "Orange wine isn't a grape — it's white wine made with extended skin contact like a red.",
+    faq: [
+      {
+        q: "What does skin-contact white taste like?",
+        a: "Expect dried apricot, nuts, tea-like tannin, and savory notes — very different from crisp, unoaked Sauvignon Blanc.",
+      },
+    ],
+    seo_title: "Skin Contact — Orange Wine Winemaking",
+    seo_description:
+      "Skin contact whites ferment on skins for tannin and amber color — the technique behind orange wine.",
+  }),
+  technique({
+    slug: "flash-detente",
+    name: "Flash Détente",
+    aliases: ["Flash détente", "Thermovinification"],
+    classification: "Maceration & Extraction",
+    process_stage: "pre-fermentation",
+    summary:
+      "Flash détente rapidly heats grapes then vacuums them to burst cells, extracting deep color and softening tannins in minutes. The technology suits difficult vintages and high-volume production where traditional maceration would be slow or inconsistent.",
+    purpose: "Rapidly extract color and soften tannins via heat-vacuum treatment.",
+    used_for: ["Difficult vintages", "Color correction", "Large-scale production"],
+    common_regions: ["chile", "napa-valley", "rhone-valley"],
+    common_styles: ["cabernet-sauvignon", "syrah-shiraz", "malbec"],
+    common_grapes: ["cabernet-sauvignon"],
+    creates_descriptors: ["jammy", "ripe", "extracted"],
+    reduces_descriptors: ["tannic"],
+    related_techniques: ["warm-fermentation", "micro-oxygenation"],
+    opposite_techniques: ["gentle-press", "cold-soak"],
+    serving_implications: ["room-temperature"],
+    beginner_notes: "Flash détente is industrial — it can fix green or pale wines but may reduce fine terroir expression.",
+    faq: [],
+    seo_title: "Flash Détente — Rapid Extraction Technology",
+    seo_description:
+      "Flash détente uses heat and vacuum for rapid color extraction and tannin softening in red winemaking.",
+  }),
+  technique({
+    slug: "short-maceration",
+    name: "Short Maceration",
+    aliases: ["Brief maceration", "Limited skin contact"],
+    classification: "Maceration & Extraction",
+    process_stage: "fermentation",
+    summary:
+      "Short maceration limits skin contact to hours or a few days, producing lighter color and softer tannin. It is essential for delicate rosé and early-drinking reds where freshness and pale hue take priority over extraction.",
+    purpose: "Minimize tannin and color extraction for light, fresh styles.",
+    used_for: ["Rosé", "Light reds", "Early-drinking wines"],
+    common_regions: ["provence", "loire-valley", "beaujolais"],
+    common_styles: ["rose", "provence-rose", "pinot-noir"],
+    common_grapes: ["pinot-noir"],
+    creates_descriptors: ["bright", "crisp", "floral"],
+    reduces_descriptors: ["tannic", "extracted"],
+    related_techniques: ["saignee", "maceration"],
+    opposite_techniques: ["extended-maceration"],
+    serving_implications: ["chilled", "lightly-chilled"],
+    beginner_notes: "Provence rosé gets its pale color from very short maceration — sometimes just a few hours.",
+    faq: [],
+    seo_title: "Short Maceration — Light Rosé and Red Styles",
+    seo_description:
+      "Short maceration limits skin contact for pale rosé and fresh, low-tannin red wines.",
+  }),
+  technique({
+    slug: "whole-berry-fermentation",
+    name: "Whole-Berry Fermentation",
+    aliases: ["Intact berry ferment", "Whole grape fermentation"],
+    classification: "Maceration & Extraction",
+    process_stage: "fermentation",
+    summary:
+      "Whole-berry fermentation crushes grapes gently so many berries remain intact, enabling partial intracellular fermentation similar to carbonic maceration. The result blends fresh fruit purity with moderate structure from crushed portions.",
+    purpose: "Preserve fresh berry fruit while building moderate structure.",
+    used_for: ["Beaujolais-style reds", "Fruit-forward Pinot", "Natural wines"],
+    common_regions: ["beaujolais", "burgundy", "willamette-valley"],
+    common_styles: ["pinot-noir", "grenache"],
+    common_grapes: ["pinot-noir"],
+    creates_descriptors: ["juicy", "banana", "bright"],
+    reduces_descriptors: ["extracted"],
+    related_techniques: ["carbonic-maceration", "whole-cluster-fermentation"],
+    opposite_techniques: ["extended-maceration"],
+    serving_implications: ["cellar-temperature", "no-decanting"],
+    beginner_notes: "Whole-berry sits between full carbonic and standard crushing — more fruit, less extraction.",
+    faq: [],
+    seo_title: "Whole-Berry Fermentation — Intact Grape Ferment",
+    seo_description:
+      "Whole-berry fermentation keeps grapes intact for fresh, fruit-forward reds with partial carbonic character.",
+  }),
+
+  // —— Pressing (4) ——
+  technique({
+    slug: "pressing",
+    name: "Pressing",
+    aliases: ["Grape pressing", "Press cycle"],
+    classification: "Pressing",
+    process_stage: "pre-fermentation",
+    summary:
+      "Pressing separates juice or wine from grape solids after crushing or fermentation. Timing and pressure determine whether the must is free-run (delicate) or press fraction (more tannin and phenolics) — a critical quality decision for whites and reds alike.",
+    purpose: "Separate liquid from grape solids at controlled pressure.",
+    used_for: ["All wine types", "Free-run vs press fraction separation"],
+    common_regions: ["champagne", "burgundy", "bordeaux", "mosel"],
+    common_styles: ["chardonnay", "pinot-noir", "riesling", "champagne"],
+    common_grapes: ["chardonnay", "pinot-noir", "riesling"],
+    creates_descriptors: ["tannic", "rich"],
+    reduces_descriptors: ["delicate"],
+    related_techniques: ["gentle-press", "basket-press", "whole-cluster-press"],
+    opposite_techniques: ["whole-cluster-fermentation"],
+    serving_implications: ["ideal-serving-temperature"],
+    beginner_notes: "Free-run juice is the gentlest fraction; harder pressing extracts more bitter tannins.",
+    faq: [
+      {
+        q: "What is free-run juice?",
+        a: "Juice that flows by gravity before pressing — typically the highest quality, least tannic fraction.",
+      },
+    ],
+    seo_title: "Pressing — Separating Juice and Wine from Grapes",
+    seo_description:
+      "Wine pressing separates juice or wine from skins and seeds — free-run vs press fractions shape quality.",
+  }),
+  technique({
+    slug: "whole-cluster-press",
+    name: "Whole-Cluster Press",
+    aliases: ["Whole bunch press", "Champagne press"],
+    classification: "Pressing",
+    process_stage: "pre-fermentation",
+    summary:
+      "Whole-cluster pressing loads intact bunches into a press, yielding exceptionally clean, low-phenolic juice ideal for base wines. Champagne and fine sparkling production rely on it to minimize color pickup and harsh tannins in Pinot Noir and Chardonnay.",
+    purpose: "Extract pristine, low-tannin juice from intact bunches for sparkling bases.",
+    used_for: ["Champagne", "Sparkling base wines", "Delicate whites"],
+    common_regions: ["champagne", "penedes", "tuscany"],
+    common_styles: ["champagne", "cava", "prosecco"],
+    common_grapes: ["chardonnay", "pinot-noir"],
+    creates_descriptors: ["clean", "crisp"],
+    reduces_descriptors: ["tannic"],
+    related_techniques: ["pressing", "gentle-press", "traditional-method"],
+    opposite_techniques: ["extended-maceration"],
+    serving_implications: ["sparkling-chilled", "chilled"],
+    beginner_notes: "Champagne starts with whole-cluster pressing — that's why the base wine is so pale and clean.",
+    faq: [],
+    seo_title: "Whole-Cluster Press — Champagne & Sparkling",
+    seo_description:
+      "Whole-cluster pressing yields clean, low-tannin juice for Champagne and premium sparkling wine production.",
+  }),
+  technique({
+    slug: "gentle-press",
+    name: "Gentle Press",
+    aliases: ["Soft press", "Low-pressure pressing"],
+    classification: "Pressing",
+    process_stage: "pre-fermentation",
+    summary:
+      "Gentle pressing applies minimal pressure to avoid extracting bitter seed tannins and harsh phenolics. It is standard for premium white wines and elegant reds where finesse and purity outweigh maximum yield.",
+    purpose: "Minimize harsh tannin extraction during pressing.",
+    used_for: ["Premium whites", "Elegant reds", "Low-intervention wines"],
+    common_regions: ["burgundy", "chablis", "mosel", "marlborough"],
+    common_styles: ["chardonnay", "riesling", "sauvignon-blanc", "pinot-noir"],
+    common_grapes: ["chardonnay", "riesling", "sauvignon-blanc"],
+    creates_descriptors: ["elegant", "crisp", "clean"],
+    reduces_descriptors: ["tannic", "bitter"],
+    related_techniques: ["basket-press", "pressing", "whole-cluster-press"],
+    opposite_techniques: ["flash-detente"],
+    serving_implications: ["chilled", "lightly-chilled"],
+    beginner_notes: "Gentle pressing keeps white wines fresh — hard pressing can make them taste coarse or bitter.",
+    faq: [],
+    seo_title: "Gentle Press — Low-Pressure Winemaking",
+    seo_description:
+      "Gentle pressing minimizes tannin extraction for elegant, clean white and red wines.",
+  }),
+  technique({
+    slug: "basket-press",
+    name: "Basket Press",
+    aliases: ["Traditional basket press", "Vertical basket press"],
+    classification: "Pressing",
+    process_stage: "pre-fermentation",
+    summary:
+      "Basket press uses a vertical cylinder with a plunger to slowly compress grapes, allowing soft drainage and gentle extraction. Many artisan producers prefer it over pneumatic presses for reds where integrated tannin texture matters.",
+    purpose: "Achieve gentle, gradual pressing with traditional equipment.",
+    used_for: ["Artisan reds", "Premium Pinot", "Small-lot production"],
+    common_regions: ["burgundy", "willamette-valley", "barolo", "sonoma"],
+    common_styles: ["pinot-noir", "nebbiolo", "sangiovese"],
+    common_grapes: ["pinot-noir"],
+    creates_descriptors: ["elegant", "silky"],
+    reduces_descriptors: ["harsh"],
+    related_techniques: ["gentle-press", "pressing"],
+    opposite_techniques: ["flash-detente"],
+    serving_implications: ["cellar-temperature"],
+    beginner_notes: "Basket presses are slower but gentler — you'll see them at small boutique wineries.",
+    faq: [],
+    seo_title: "Basket Press — Traditional Grape Pressing",
+    seo_description:
+      "Basket press uses vertical gentle compression for elegant tannin extraction in artisan red wines.",
+  }),
+
+  // —— Aging & Vessels (7) ——
+  technique({
+    slug: "lees-aging",
+    name: "Lees Aging",
+    aliases: ["Sur lie", "On lees", "Lees contact"],
+    classification: "Aging Vessel",
+    process_stage: "aging",
+    summary:
+      "Lees aging keeps wine in contact with dead yeast cells after fermentation, adding texture, complexity, and autolytic flavors like bread and brioche. Extended lees contact defines many Champagnes and rich Chardonnays without new oak.",
+    purpose: "Build texture and savory complexity through yeast sediment contact.",
+    used_for: ["Chardonnay", "Champagne bases", "White Burgundy"],
+    common_regions: ["burgundy", "champagne", "loire-valley", "chablis"],
+    common_styles: ["chardonnay", "champagne", "chenin-blanc"],
+    common_grapes: ["chardonnay", "pinot-noir"],
+    creates_descriptors: ["rich", "brioche", "creamy"],
+    reduces_descriptors: ["crisp"],
+    related_techniques: ["batonnage", "malolactic-fermentation", "autolytic-aging"],
+    opposite_techniques: ["filtration"],
+    serving_implications: ["cool", "sparkling-chilled"],
+    beginner_notes: "Lees are dead yeast — aging on them adds a creamy, bready richness without oak.",
+    faq: [
+      {
+        q: "What does 'sur lie' mean on a label?",
+        a: "The wine was aged on lees (sur lie in French), gaining texture and autolytic notes like brioche or cream.",
+      },
+    ],
+    seo_title: "Lees Aging (Sur Lie) — Texture in Wine",
+    seo_description:
+      "Lees aging adds rich, brioche-like complexity and creamy texture — key in Chardonnay and Champagne.",
+  }),
+  technique({
+    slug: "batonnage",
+    name: "Bâtonnage",
+    aliases: ["Lees stirring", "Stirring the lees"],
+    classification: "Aging Vessel",
+    process_stage: "aging",
+    summary:
+      "Bâtonnage stirs lees back into suspension during barrel aging, amplifying mouthfeel and autolytic character beyond passive sur lie contact. White Burgundy producers use it to build creamy texture without heavy oak influence.",
+    purpose: "Enhance lees-derived texture and flavor through periodic stirring.",
+    used_for: ["White Burgundy", "Rich Chardonnay", "Complex whites"],
+    common_regions: ["burgundy", "chablis", "sonoma", "marlborough"],
+    common_styles: ["chardonnay", "chenin-blanc"],
+    common_grapes: ["chardonnay"],
+    creates_descriptors: ["creamy", "brioche", "rich"],
+    reduces_descriptors: ["crisp"],
+    related_techniques: ["lees-aging", "barrel-aging", "malolactic-fermentation"],
+    opposite_techniques: ["filtration"],
+    serving_implications: ["cool", "lightly-chilled"],
+    beginner_notes: "Lees stirring is why some unoaked Chardonnays still feel rich and creamy.",
+    faq: [
+      {
+        q: "How often is bâtonnage done?",
+        a: "Typically weekly or biweekly during aging — frequency depends on desired texture and wine style.",
+      },
+    ],
+    seo_title: "Bâtonnage — Lees Stirring in Winemaking",
+    seo_description:
+      "Bâtonnage stirs lees during aging for creamy texture and brioche notes in Chardonnay and white Burgundy.",
+  }),
+  technique({
+    slug: "barrel-aging",
+    name: "Barrel Aging",
+    aliases: ["Oak barrel maturation", "Élevage in barrel"],
+    classification: "Aging Vessel",
+    process_stage: "aging",
+    summary:
+      "Barrel aging matures wine in oak casks, allowing slow micro-oxygenation and oak flavor integration. The choice of barrel size, age, toast level, and duration shapes vanilla, spice, and tannin contributions alongside natural softening.",
+    purpose: "Mature wine with controlled oxygen exchange and optional oak flavor.",
+    used_for: ["Premium reds", "Oaked whites", "Complex styles"],
+    common_regions: ["bordeaux", "burgundy", "napa-valley", "rioja", "barossa-valley"],
+    common_styles: ["cabernet-sauvignon", "chardonnay", "tempranillo", "syrah-shiraz"],
+    common_grapes: ["cabernet-sauvignon", "chardonnay", "pinot-noir"],
+    creates_descriptors: ["vanilla", "toast", "spicy"],
+    reduces_descriptors: ["bright"],
+    related_techniques: ["new-french-oak", "neutral-oak", "malolactic-fermentation"],
+    opposite_techniques: ["stainless-steel-aging"],
+    serving_implications: ["room-temperature", "extended-decant"],
+    beginner_notes: "Barrel aging adds flavor and softens tannin — but not all barrel-aged wine tastes oaky.",
+    faq: [
+      {
+        q: "How long do wines age in barrel?",
+        a: "From a few months for fresh whites to 18–24+ months for structured reds — duration varies by style and region.",
+      },
+    ],
+    seo_title: "Barrel Aging — Oak Maturation in Wine",
+    seo_description:
+      "Barrel aging matures wine in oak with micro-oxygenation, adding vanilla, toast, and integrated structure.",
+  }),
+  technique({
+    slug: "stainless-steel-aging",
+    name: "Stainless Steel Aging",
+    aliases: ["Inox aging", "Tank aging", "Steel maturation"],
+    classification: "Aging Vessel",
+    process_stage: "aging",
+    summary:
+      "Stainless steel aging holds wine in neutral, airtight tanks that preserve primary fruit and crisp acidity without oak influence or oxygen exposure. It is the default for fresh whites, many rosés, and modern fruit-forward styles worldwide.",
+    purpose: "Preserve fresh fruit character and acidity without oak or oxygen.",
+    used_for: ["Crisp whites", "Rosé", "Fruit-forward styles"],
+    common_regions: ["marlborough", "alsace", "veneto", "mendoza"],
+    common_styles: ["sauvignon-blanc", "pinot-grigio", "rose", "prosecco"],
+    common_grapes: ["sauvignon-blanc", "riesling", "chardonnay"],
+    creates_descriptors: ["crisp", "bright", "clean"],
+    reduces_descriptors: ["vanilla", "toast"],
+    related_techniques: ["cold-fermentation", "cold-stabilization"],
+    opposite_techniques: ["barrel-aging", "new-french-oak"],
+    serving_implications: ["chilled", "lightly-chilled"],
+    beginner_notes: "Steel tank = no oak flavor — the wine tastes like the grape, not the barrel.",
+    faq: [],
+    seo_title: "Stainless Steel Aging — Fresh Wine Style",
+    seo_description:
+      "Stainless steel aging preserves crisp fruit and acidity without oak — standard for fresh whites and rosé.",
+  }),
+  technique({
+    slug: "concrete-tank-aging",
+    name: "Concrete Tank Aging",
+    aliases: ["Concrete egg", "Cement tank", "Concrete vat"],
+    classification: "Aging Vessel",
+    process_stage: "aging",
+    summary:
+      "Concrete tank aging uses neutral cement vessels that allow slight micro-oxygenation without oak flavor, often adding a subtle mineral texture. The material's thermal mass also stabilizes fermentation and aging temperatures naturally.",
+    purpose: "Age wine with neutral micro-oxygenation and thermal stability.",
+    used_for: ["Natural wines", "Rhône-style reds", "Minimal-intervention programs"],
+    common_regions: ["rhone-valley", "loire-valley", "barossa-valley", "mendoza"],
+    common_styles: ["syrah-shiraz", "grenache", "chenin-blanc"],
+    common_grapes: ["chardonnay"],
+    creates_descriptors: ["earthy", "minerality", "unctuous"],
+    reduces_descriptors: ["vanilla"],
+    related_techniques: ["concrete-egg-aging", "amphora-aging"],
+    opposite_techniques: ["new-french-oak"],
+    serving_implications: ["cellar-temperature"],
+    beginner_notes: "Concrete is neutral like steel but breathes slightly — popular in natural wine circles.",
+    faq: [],
+    seo_title: "Concrete Tank Aging — Neutral Vessel Winemaking",
+    seo_description:
+      "Concrete tank aging offers neutral micro-oxygenation and thermal stability without oak flavor.",
+  }),
+  technique({
+    slug: "concrete-egg-aging",
+    name: "Concrete Egg Aging",
+    aliases: ["Egg fermenter", "Concrete egg fermenter"],
+    classification: "Aging Vessel",
+    process_stage: "aging",
+    summary:
+      "Concrete egg fermenters use an ovoid shape to create natural convection currents that keep lees in suspension without stirring. The form combines neutral vessel character with passive bâtonnage-like texture enhancement.",
+    purpose: "Promote natural lees suspension and neutral aging in an ovoid vessel.",
+    used_for: ["Textural whites", "Natural wine", "Experimental programs"],
+    common_regions: ["rhone-valley", "loire-valley", "napa-valley"],
+    common_styles: ["chardonnay", "chenin-blanc", "viognier"],
+    common_grapes: ["chardonnay"],
+    creates_descriptors: ["rich", "creamy", "unctuous"],
+    reduces_descriptors: [],
+    related_techniques: ["concrete-tank-aging", "lees-aging", "batonnage"],
+    opposite_techniques: ["filtration"],
+    serving_implications: ["cool"],
+    beginner_notes: "The egg shape moves lees around naturally — like automatic lees stirring.",
+    faq: [],
+    seo_title: "Concrete Egg Aging — Ovoid Fermenter",
+    seo_description:
+      "Concrete egg fermenters use natural convection for lees suspension and neutral textural aging.",
+  }),
+  technique({
+    slug: "amphora-aging",
+    name: "Amphora Aging",
+    aliases: ["Qvevri", "Terracotta aging", "Clay vessel"],
+    classification: "Aging Vessel",
+    process_stage: "aging",
+    summary:
+      "Amphora aging matures wine in clay vessels — Georgian qvevri being the ancient archetype — allowing subtle oxygen exchange and earthy mineral influence. Extended skin contact in amphora produces distinctive amber wines with tactile tannin.",
+    purpose: "Age wine in porous clay for subtle oxygen and mineral character.",
+    used_for: ["Orange wines", "Natural wine", "Ancient method revival"],
+    common_regions: ["loire-valley", "tuscany", "rhone-valley", "piedmont"],
+    common_styles: ["chenin-blanc", "pinot-grigio", "sangiovese"],
+    common_grapes: ["riesling", "pinot-noir"],
+    creates_descriptors: ["earthy", "oxidized", "tannic"],
+    reduces_descriptors: ["crisp", "bright"],
+    related_techniques: ["skin-contact", "concrete-tank-aging"],
+    opposite_techniques: ["stainless-steel-aging"],
+    serving_implications: ["cellar-temperature", "cool"],
+    beginner_notes: "Amphora winemaking goes back thousands of years — expect savory, earthy, textured wines.",
+    faq: [],
+    seo_title: "Amphora Aging — Clay Vessel Winemaking",
+    seo_description:
+      "Amphora and qvevri aging in clay vessels adds earthy texture and subtle oxidation to wine.",
+  }),
+
+  // —— Oak Treatment (5) ——
+  technique({
+    slug: "new-french-oak",
+    name: "New French Oak",
+    aliases: ["French barrique", "New Allier oak"],
+    classification: "Oak Treatment",
+    process_stage: "aging",
+    summary:
+      "New French oak barrels impart fine-grained tannin, subtle spice, and elegant vanilla or toast notes from tight-grain wood typical of Allier and Tronçais forests. Bordeaux and Burgundy use French barriques as the benchmark for premium oak integration.",
+    purpose: "Add structured oak tannin and refined spice from new French barrels.",
+    used_for: ["Premium reds", "Top Chardonnay", "Age-worthy cuvées"],
+    common_regions: ["bordeaux", "burgundy", "napa-valley", "rhone-valley"],
+    common_styles: ["cabernet-sauvignon", "chardonnay", "syrah-shiraz"],
+    common_grapes: ["cabernet-sauvignon", "chardonnay"],
+    creates_descriptors: ["vanilla", "toast", "spicy"],
+    reduces_descriptors: ["bright", "crisp"],
+    related_techniques: ["barrel-aging", "neutral-oak", "new-american-oak"],
+    opposite_techniques: ["stainless-steel-aging", "oak-alternatives"],
+    serving_implications: ["room-temperature", "extended-decant"],
+    beginner_notes: "French oak tends to be more subtle and spicy than American oak — the gold standard for fine wine.",
+    faq: [],
+    seo_title: "New French Oak — Barrique Winemaking",
+    seo_description:
+      "New French oak barrels add elegant vanilla, toast, and spice — standard in Bordeaux and Burgundy.",
+  }),
+  technique({
+    slug: "new-american-oak",
+    name: "New American Oak",
+    aliases: ["American barrique", "Missouri oak"],
+    classification: "Oak Treatment",
+    process_stage: "aging",
+    summary:
+      "New American oak delivers pronounced vanilla, coconut, and sweet spice from wider-grain wood, often with shorter aging cycles than French barriques. Napa Cabernet, Rioja tradicional, and Australian Shiraz have historically embraced its bold flavor signature.",
+    purpose: "Impart bold vanilla and coconut oak flavors from new American barrels.",
+    used_for: ["Bold reds", "Rioja reserva", "Napa Cabernet"],
+    common_regions: ["napa-valley", "rioja", "barossa-valley", "mendoza"],
+    common_styles: ["cabernet-sauvignon", "tempranillo", "syrah-shiraz", "zinfandel"],
+    common_grapes: ["cabernet-sauvignon"],
+    creates_descriptors: ["vanilla", "coconut", "spicy"],
+    reduces_descriptors: ["crisp"],
+    related_techniques: ["barrel-aging", "new-french-oak", "neutral-oak"],
+    opposite_techniques: ["stainless-steel-aging"],
+    serving_implications: ["room-temperature", "1-hour"],
+    beginner_notes: "American oak tastes more obviously of vanilla and coconut — Rioja and Napa fans know it well.",
+    faq: [],
+    seo_title: "New American Oak — Bold Barrel Flavor",
+    seo_description:
+      "New American oak adds pronounced vanilla and coconut notes — common in Napa Cabernet and Rioja.",
+  }),
+  technique({
+    slug: "neutral-oak",
+    name: "Neutral Oak",
+    aliases: ["Old oak", "Used barrel", "Third-fill barrel"],
+    classification: "Oak Treatment",
+    process_stage: "aging",
+    summary:
+      "Neutral oak barrels have been used multiple times until they contribute little flavor but still allow gentle oxygen exchange and softening. Winemakers use them to mature wine without overt oak taste while building integrated texture.",
+    purpose: "Mature wine with micro-oxygenation but minimal oak flavor.",
+    used_for: ["Elegant reds", "Extended élevage", "Blended programs"],
+    common_regions: ["burgundy", "bordeaux", "rioja", "piedmont"],
+    common_styles: ["pinot-noir", "nebbiolo", "tempranillo", "sangiovese"],
+    common_grapes: ["pinot-noir", "cabernet-sauvignon"],
+    creates_descriptors: ["silky", "elegant", "smooth"],
+    reduces_descriptors: ["vanilla"],
+    related_techniques: ["barrel-aging", "large-oak-foudres", "new-french-oak"],
+    opposite_techniques: ["new-french-oak", "new-american-oak"],
+    serving_implications: ["cellar-temperature", "30-minutes"],
+    beginner_notes: "Old barrels breathe without tasting oaky — many 'elegant' wines age in neutral wood.",
+    faq: [],
+    seo_title: "Neutral Oak — Used Barrel Aging",
+    seo_description:
+      "Neutral oak barrels soften wine through oxygen without adding strong vanilla or toast flavors.",
+  }),
+  technique({
+    slug: "large-oak-foudres",
+    name: "Large Oak Foudres",
+    aliases: ["Foudre", "Large format oak", "Oak vat"],
+    classification: "Oak Treatment",
+    process_stage: "aging",
+    summary:
+      "Large oak foudres hold hundreds to thousands of liters, offering minimal oak flavor impact relative to barriques while providing slow, even maturation. Rhône, Alsace, and traditional European cellars use them for volume with subtle oak influence.",
+    purpose: "Age wine in large oak with minimal flavor extraction from wood.",
+    used_for: ["Rhône blends", "Alsace whites", "Traditional cellars"],
+    common_regions: ["rhone-valley", "alsace", "piedmont", "jerez"],
+    common_styles: ["syrah-shiraz", "grenache", "gewurztraminer", "sherry"],
+    common_grapes: ["riesling", "pinot-noir"],
+    creates_descriptors: ["nutty", "earthy", "complex"],
+    reduces_descriptors: ["vanilla"],
+    related_techniques: ["neutral-oak", "solera-system"],
+    opposite_techniques: ["new-french-oak"],
+    serving_implications: ["cellar-temperature", "fortified-service"],
+    beginner_notes: "Foudres are huge oak tanks — wine picks up texture and stability, not obvious oak flavor.",
+    faq: [],
+    seo_title: "Large Oak Foudres — Traditional Vessel Aging",
+    seo_description:
+      "Large oak foudres age wine with subtle oak influence — common in Rhône, Alsace, and Sherry soleras.",
+  }),
+  technique({
+    slug: "oak-alternatives",
+    name: "Oak Alternatives",
+    aliases: ["Oak chips", "Oak staves", "Oak adjuncts"],
+    classification: "Oak Treatment",
+    process_stage: "aging",
+    summary:
+      "Oak alternatives — chips, staves, cubes, or powder — add oak flavor in steel tanks at lower cost than barrels. They can mimic toast and vanilla but lack the micro-oxygenation integration of proper barrel aging.",
+    purpose: "Add oak flavor economically without full barrel maturation.",
+    used_for: ["Commercial production", "Budget oaked styles", "Tank maturation"],
+    common_regions: ["mendoza", "chile", "napa-valley", "barossa-valley"],
+    common_styles: ["cabernet-sauvignon", "chardonnay", "malbec"],
+    common_grapes: ["cabernet-sauvignon", "chardonnay"],
+    creates_descriptors: ["vanilla", "toast"],
+    reduces_descriptors: ["elegant"],
+    related_techniques: ["stainless-steel-aging", "barrel-aging"],
+    opposite_techniques: ["barrel-aging", "new-french-oak"],
+    serving_implications: ["room-temperature"],
+    beginner_notes: "Oak chips speed up flavor addition but rarely match the integration of real barrels.",
+    faq: [],
+    seo_title: "Oak Alternatives — Chips and Staves",
+    seo_description:
+      "Oak chips and staves add vanilla and toast flavor in tank — a cost alternative to barrel aging.",
+  }),
+
+  // —— Sparkling Production (5) ——
+  technique({
+    slug: "traditional-method",
+    name: "Traditional Method",
+    aliases: ["Méthode traditionnelle", "Champagne method", "Méthode champenoise"],
+    classification: "Sparkling Production",
+    process_stage: "bottling",
+    summary:
+      "Traditional method sparkles wine via a second fermentation in bottle, followed by lees aging, riddling, and disgorgement. Champagne is the reference — autolytic brioche and toast develop during extended time on yeast before sediment removal.",
+    purpose: "Produce sparkling wine with in-bottle second ferment and lees complexity.",
+    used_for: ["Champagne", "Cava", "Crémant", "Premium sparkling"],
+    common_regions: ["champagne", "penedes", "loire-valley", "tuscany"],
+    common_styles: ["champagne", "cava"],
+    common_grapes: ["chardonnay", "pinot-noir"],
+    creates_descriptors: ["brioche", "toast", "creamy"],
+    reduces_descriptors: ["crisp"],
+    related_techniques: ["autolytic-aging", "riddling", "disgorgement", "lees-aging"],
+    opposite_techniques: ["charmant-method", "continuous-method"],
+    serving_implications: ["sparkling-chilled", "champagne-flute"],
+    beginner_notes: "Real Champagne method means bubbles form in the bottle — not in a tank.",
+    faq: [
+      {
+        q: "How is traditional method different from Prosecco?",
+        a: "Traditional method ferments in bottle for complex brioche notes; Charmat method (Prosecco) ferments in pressurized tanks for fresher fruit.",
+      },
+    ],
+    seo_title: "Traditional Method — Champagne Sparkling Production",
+    seo_description:
+      "Traditional method sparkling wine: second ferment in bottle with brioche complexity — Champagne and Cava.",
+  }),
+  technique({
+    slug: "charmant-method",
+    name: "Charmat Method",
+    aliases: ["Tank method", "Martinotti method", "Metodo Italiano"],
+    classification: "Sparkling Production",
+    process_stage: "fermentation",
+    summary:
+      "Charmat method conducts the second fermentation in large pressurized tanks rather than individual bottles, preserving primary fruit and producing fresh, approachable bubbles quickly. Prosecco is the global flagship of this efficient, fruit-forward approach.",
+    purpose: "Create sparkling wine with tank-based second fermentation for fresh fruit.",
+    used_for: ["Prosecco", "Affordable sparkling", "Fruit-forward styles"],
+    common_regions: ["veneto", "penedes"],
+    common_styles: ["prosecco"],
+    common_grapes: ["chardonnay"],
+    creates_descriptors: ["crisp", "bright", "juicy"],
+    reduces_descriptors: ["brioche"],
+    related_techniques: ["transfer-method", "cold-fermentation"],
+    opposite_techniques: ["traditional-method", "ancestral-method"],
+    serving_implications: ["sparkling-chilled", "chilled"],
+    beginner_notes: "Prosecco uses the tank method — that's why it tastes fresh and fruity, not toasty.",
+    faq: [
+      {
+        q: "Is Charmat method lower quality than traditional method?",
+        a: "Not inherently — it targets a different style (fresh and fruity) rather than lees-complex Champagne character.",
+      },
+    ],
+    seo_title: "Charmat Method — Tank Sparkling Wine",
+    seo_description:
+      "Charmat method makes Prosecco-style sparkling in pressurized tanks — fresh, fruity, and approachable.",
+  }),
+  technique({
+    slug: "transfer-method",
+    name: "Transfer Method",
+    aliases: ["Transversage", "Bottle-to-tank transfer"],
+    classification: "Sparkling Production",
+    process_stage: "bottling",
+    summary:
+      "Transfer method starts like traditional method with in-bottle second fermentation but then moves wine to a tank for filtration and rebottling under pressure. It captures some lees character while avoiding manual disgorgement costs.",
+    purpose: "Combine bottle ferment complexity with tank finishing efficiency.",
+    used_for: ["Mid-tier sparkling", "Small formats", "Export markets"],
+    common_regions: ["australia", "new-zealand", "champagne", "penedes"],
+    common_styles: ["cava", "champagne"],
+    common_grapes: ["chardonnay", "pinot-noir"],
+    creates_descriptors: ["brioche", "crisp"],
+    reduces_descriptors: [],
+    related_techniques: ["traditional-method", "charmant-method", "filtration"],
+    opposite_techniques: ["ancestral-method"],
+    serving_implications: ["sparkling-chilled"],
+    beginner_notes: "Transfer method is a hybrid — bottle bubbles, tank cleanup.",
+    faq: [],
+    seo_title: "Transfer Method — Hybrid Sparkling Production",
+    seo_description:
+      "Transfer method sparkles wine in bottle then finishes in tank — a hybrid sparkling technique.",
+  }),
+  technique({
+    slug: "ancestral-method",
+    name: "Ancestral Method",
+    aliases: ["Méthode ancestrale", "Pétillant naturel", "Pét-nat"],
+    classification: "Sparkling Production",
+    process_stage: "bottling",
+    summary:
+      "Ancestral method bottles wine before primary fermentation finishes, trapping natural CO₂ without added sugar or secondary inoculation. Pét-nat wines are often cloudy, low-alcohol, and wildly variable — beloved in natural wine culture.",
+    purpose: "Create natural bubbles by bottling mid-fermentation.",
+    used_for: ["Pét-nat", "Natural sparkling", "Low-intervention wines"],
+    common_regions: ["loire-valley", "beaujolais", "veneto", "alsace"],
+    common_styles: ["prosecco", "chenin-blanc", "rose"],
+    common_grapes: ["pinot-noir", "riesling"],
+    creates_descriptors: ["earthy", "juicy", "bright"],
+    reduces_descriptors: ["polished"],
+    related_techniques: ["native-fermentation", "unfiltered-bottling"],
+    opposite_techniques: ["traditional-method", "filtration"],
+    serving_implications: ["chilled", "sparkling-chilled"],
+    beginner_notes: "Pét-nat can be funky and cloudy — that's part of the charm, not a flaw.",
+    faq: [
+      {
+        q: "Why is pét-nat sometimes cloudy?",
+        a: "Ancestral method often skips filtration, leaving yeast sediment that can make the wine hazy.",
+      },
+    ],
+    seo_title: "Ancestral Method — Pét-Nat Sparkling Wine",
+    seo_description:
+      "Ancestral method (pét-nat) bottles wine mid-ferment for natural bubbles without added sugar.",
+  }),
+  technique({
+    slug: "continuous-method",
+    name: "Continuous Method",
+    aliases: ["Russian method", "Continuous sparkling process"],
+    classification: "Sparkling Production",
+    process_stage: "fermentation",
+    summary:
+      "Continuous method runs base wine through a series of linked pressurized tanks with added yeast in each, building bubble and autolytic flavor in an industrial loop. It was developed for high-volume Soviet sparkling production and rare today outside legacy markets.",
+    purpose: "Produce sparkling wine at scale through continuous tank fermentation.",
+    used_for: ["Bulk sparkling", "Legacy production", "High-volume markets"],
+    common_regions: ["spain", "italy", "france"],
+    common_styles: ["prosecco", "cava"],
+    common_grapes: [],
+    creates_descriptors: ["brioche", "biscuit"],
+    reduces_descriptors: ["elegant"],
+    related_techniques: ["charmant-method", "autolytic-aging"],
+    opposite_techniques: ["traditional-method", "ancestral-method"],
+    serving_implications: ["sparkling-chilled"],
+    beginner_notes: "Rare today — most quality sparkling uses traditional or Charmat methods instead.",
+    faq: [],
+    seo_title: "Continuous Method — Industrial Sparkling",
+    seo_description:
+      "Continuous method produces sparkling wine through linked pressurized tanks — a rare industrial process.",
+  }),
+
+  // —— Fortification (2) ——
+  technique({
+    slug: "fortification",
+    name: "Fortification",
+    aliases: ["Adding spirit", "Mutage", "Fortified wine production"],
+    classification: "Fortification & Blending",
+    process_stage: "fermentation",
+    summary:
+      "Fortification adds grape spirit to halt fermentation or raise alcohol, creating Port, Sherry, Madeira, and other fortified styles. Timing of the addition determines sweetness — early fortification preserves residual sugar; late fortification yields dry styles.",
+    purpose: "Raise alcohol and stabilize wine by adding neutral grape spirit.",
+    used_for: ["Port", "Sherry", "Madeira", "Vin doux naturel"],
+    common_regions: ["douro", "jerez", "madeira", "rhone-valley"],
+    common_styles: ["port", "sherry", "madeira"],
+    common_grapes: [],
+    creates_descriptors: ["rich", "hot", "nutty"],
+    reduces_descriptors: ["crisp", "bright"],
+    related_techniques: ["solera-system", "blending"],
+    opposite_techniques: ["cold-fermentation"],
+    serving_implications: ["fortified-service", "cellar-temperature"],
+    beginner_notes: "Fortified wines are stronger (17–20% ABV) — the spirit stops fermentation and preserves sweetness in Port.",
+    faq: [
+      {
+        q: "Why is Port sweet but Sherry often dry?",
+        a: "Port is fortified during fermentation to retain sugar; dry Sherry ferments fully before fortification.",
+      },
+    ],
+    seo_title: "Fortification — Port, Sherry & Fortified Wine",
+    seo_description:
+      "Fortification adds grape spirit to make Port, Sherry, and Madeira — halting fermentation and raising alcohol.",
+  }),
+  technique({
+    slug: "solera-system",
+    name: "Solera System",
+    aliases: ["Solera aging", "Fractional blending"],
+    classification: "Fortification & Blending",
+    process_stage: "aging",
+    summary:
+      "The solera system fractionally blends wines across stacked barrels, drawing oldest wine for bottling while replenishing with younger lots to maintain a consistent house style. Jerez Sherry and Montilla-Moriles rely on solera for average age and oxidative character.",
+    purpose: "Maintain consistent aged style through fractional barrel blending.",
+    used_for: ["Sherry", "Brandy de Jerez", "Some fortified styles"],
+    common_regions: ["jerez", "madeira", "douro"],
+    common_styles: ["sherry", "madeira"],
+    common_grapes: [],
+    creates_descriptors: ["nutty", "oxidized", "complex"],
+    reduces_descriptors: ["bright", "juicy"],
+    related_techniques: ["fortification", "large-oak-foudres", "blending"],
+    opposite_techniques: ["unfiltered-bottling"],
+    serving_implications: ["fortified-service", "cellar-temperature"],
+    beginner_notes: "Solera means your bottle may contain tiny amounts of very old wine blended over decades.",
+    faq: [
+      {
+        q: "How old is solera Sherry?",
+        a: "Labels show average age — a solera may contain wine from many vintages spanning decades.",
+      },
+    ],
+    seo_title: "Solera System — Sherry Aging Method",
+    seo_description:
+      "Solera fractional blending ages Sherry and fortified wines for consistent, complex oxidative character.",
+  }),
+
+  // —— Stabilization & Finishing (10) ——
+  technique({
+    slug: "cold-stabilization",
+    name: "Cold Stabilization",
+    aliases: ["Cold stabilization", "Tartrate stabilization"],
+    classification: "Stabilization & Finishing",
+    process_stage: "finishing",
+    summary:
+      "Cold stabilization chills wine near freezing to precipitate tartrate crystals before bottling, preventing harmless but unsightly sediment in the bottle. It is standard commercial practice for whites and rosés sold in clear glass.",
+    purpose: "Remove tartrate crystals before bottling via cold treatment.",
+    used_for: ["Commercial whites", "Rosé", "Retail-ready wines"],
+    common_regions: ["marlborough", "chile", "napa-valley", "mosel"],
+    common_styles: ["sauvignon-blanc", "riesling", "chardonnay", "rose"],
+    common_grapes: ["riesling", "chardonnay", "sauvignon-blanc"],
+    creates_descriptors: ["clean", "bright"],
+    reduces_descriptors: [],
+    related_techniques: ["filtration", "fining"],
+    opposite_techniques: ["unfiltered-bottling"],
+    serving_implications: ["chilled"],
+    beginner_notes: "Those glass-like crystals in cold white wine are tartrates — cold stabilization prevents them.",
+    faq: [],
+    seo_title: "Cold Stabilization — Tartrate Removal",
+    seo_description:
+      "Cold stabilization prevents tartrate crystals in bottled white and rosé wine through pre-bottling chill.",
+  }),
+  technique({
+    slug: "fining",
+    name: "Fining",
+    aliases: ["Wine fining", "Clarification"],
+    classification: "Stabilization & Finishing",
+    process_stage: "finishing",
+    summary:
+      "Fining adds agents like bentonite, egg white, or isinglass that bind to suspended particles and precipitate, clarifying wine and reducing astringency. Many traditional and modern producers fine for stability and visual brilliance.",
+    purpose: "Clarify wine and reduce harsh tannins or proteins via fining agents.",
+    used_for: ["Clarity", "Tannin softening", "Protein stability"],
+    common_regions: ["bordeaux", "burgundy", "rioja", "marlborough"],
+    common_styles: ["cabernet-sauvignon", "chardonnay", "sauvignon-blanc"],
+    common_grapes: ["cabernet-sauvignon", "chardonnay"],
+    creates_descriptors: ["polished", "clean", "silky"],
+    reduces_descriptors: ["harsh", "tannic"],
+    related_techniques: ["filtration", "crossflow-filtration"],
+    opposite_techniques: ["unfiltered-bottling"],
+    serving_implications: ["ideal-serving-temperature"],
+    beginner_notes: "Fining agents settle out before bottling — they're used for clarity, not left in the wine.",
+    faq: [
+      {
+        q: "Is fined wine vegan?",
+        a: "Traditional fining agents like egg white or casein mean some wines aren't vegan — bentonite fining can be.",
+      },
+    ],
+    seo_title: "Fining — Wine Clarification",
+    seo_description:
+      "Wine fining clarifies and stabilizes wine using bentonite, egg white, or other agents before bottling.",
+  }),
+  technique({
+    slug: "filtration",
+    name: "Filtration",
+    aliases: ["Wine filtration", "Sterile filtration"],
+    classification: "Stabilization & Finishing",
+    process_stage: "finishing",
+    summary:
+      "Filtration passes wine through media or membranes to remove yeast, bacteria, and particles before bottling, ensuring microbial stability and visual clarity. Aggressive filtration can strip flavor; minimal filtration preserves more character.",
+    purpose: "Remove microbes and particles for stable, clear bottled wine.",
+    used_for: ["Microbial stability", "Commercial bottling", "Clarity"],
+    common_regions: ["napa-valley", "marlborough", "chile", "bordeaux"],
+    common_styles: ["prosecco", "sauvignon-blanc", "rose"],
+    common_grapes: ["sauvignon-blanc", "chardonnay"],
+    creates_descriptors: ["clean", "bright"],
+    reduces_descriptors: ["complex", "earthy"],
+    related_techniques: ["crossflow-filtration", "fining", "cold-stabilization"],
+    opposite_techniques: ["unfiltered-bottling"],
+    serving_implications: ["chilled"],
+    beginner_notes: "'Unfiltered' on a label means the winemaker skipped this step for more texture and flavor.",
+    faq: [],
+    seo_title: "Filtration — Wine Bottling Preparation",
+    seo_description:
+      "Wine filtration removes yeast and particles before bottling for clarity and microbial stability.",
+  }),
+  technique({
+    slug: "crossflow-filtration",
+    name: "Crossflow Filtration",
+    aliases: ["Cross-flow filter", "Tangential filtration"],
+    classification: "Stabilization & Finishing",
+    process_stage: "finishing",
+    summary:
+      "Crossflow filtration pushes wine tangentially across a membrane, reducing clogging and allowing gentler clarification than pad filtration at scale. Large wineries use it for pre-bottling stability with less flavor stripping than sterile pad filters.",
+    purpose: "Clarify and stabilize wine efficiently at commercial scale.",
+    used_for: ["Large production", "Pre-bottling stability", "Microbial control"],
+    common_regions: ["napa-valley", "barossa-valley", "mendoza", "chile"],
+    common_styles: ["chardonnay", "cabernet-sauvignon", "prosecco"],
+    common_grapes: ["chardonnay", "cabernet-sauvignon"],
+    creates_descriptors: ["clean", "polished"],
+    reduces_descriptors: ["complex"],
+    related_techniques: ["filtration", "fining"],
+    opposite_techniques: ["unfiltered-bottling"],
+    serving_implications: ["ideal-serving-temperature"],
+    beginner_notes: "Crossflow is a gentler industrial filter — common at big wineries you won't visit on vacation.",
+    faq: [],
+    seo_title: "Crossflow Filtration — Commercial Wine Finishing",
+    seo_description:
+      "Crossflow filtration clarifies wine at scale with less clogging than traditional pad filtration.",
+  }),
+  technique({
+    slug: "unfiltered-bottling",
+    name: "Unfiltered Bottling",
+    aliases: ["Unfiltered wine", "Minimal filtration"],
+    classification: "Stabilization & Finishing",
+    process_stage: "bottling",
+    summary:
+      "Unfiltered bottling skips or minimizes filtration to preserve texture, lees character, and microbial complexity in bottle. Natural wine and artisan producers often accept haze or sediment as trade-offs for richer mouthfeel and authenticity.",
+    purpose: "Preserve texture and complexity by avoiding aggressive filtration.",
+    used_for: ["Natural wine", "Artisan reds", "Pét-nat"],
+    common_regions: ["beaujolais", "loire-valley", "willamette-valley", "barossa-valley"],
+    common_styles: ["pinot-noir", "grenache", "chenin-blanc"],
+    common_grapes: ["pinot-noir", "chardonnay"],
+    creates_descriptors: ["earthy", "complex", "rich"],
+    reduces_descriptors: ["polished", "clean"],
+    related_techniques: ["ancestral-method", "lees-aging", "native-fermentation"],
+    opposite_techniques: ["filtration", "crossflow-filtration"],
+    serving_implications: ["extended-decant", "cellar-temperature"],
+    beginner_notes: "Sediment in unfiltered wine is normal — decant or pour carefully off the lees.",
+    faq: [
+      {
+        q: "Is unfiltered wine safe?",
+        a: "Yes when properly made — stable alcohol and acidity inhibit spoilage; sediment is harmless yeast or tartrates.",
+      },
+    ],
+    seo_title: "Unfiltered Bottling — Natural Wine Finishing",
+    seo_description:
+      "Unfiltered bottling skips filtration for richer texture — common in natural and artisan wine.",
+  }),
+  technique({
+    slug: "micro-oxygenation",
+    name: "Micro-Oxygenation",
+    aliases: ["Micro-ox", "MOx", "Controlled oxygenation"],
+    classification: "Stabilization & Finishing",
+    process_stage: "aging",
+    summary:
+      "Micro-oxygenation introduces tiny, controlled amounts of oxygen during tank aging to soften tannins and stabilize color without barrel cost. Developed in Madiran for Tannat, it mimics slow oak oxygen exchange in stainless steel.",
+    purpose: "Softens tannins and stabilizes color via controlled oxygen doses.",
+    used_for: ["Bold reds", "Tank-aged wines", "Tannat and Cabernet"],
+    common_regions: ["cahors", "mendoza", "napa-valley", "barossa-valley"],
+    common_styles: ["malbec", "cabernet-sauvignon", "syrah-shiraz"],
+    common_grapes: ["cabernet-sauvignon"],
+    creates_descriptors: ["smooth", "silky", "ripe"],
+    reduces_descriptors: ["harsh", "tannic"],
+    related_techniques: ["barrel-aging", "flash-detente"],
+    opposite_techniques: ["stainless-steel-aging"],
+    serving_implications: ["room-temperature", "30-minutes"],
+    beginner_notes: "Micro-ox softens tough tannins in tank — controversial among purists but widely used commercially.",
+    faq: [],
+    seo_title: "Micro-Oxygenation — Tannin Softening",
+    seo_description:
+      "Micro-oxygenation adds controlled oxygen to soften tannins during tank aging — common in bold reds.",
+  }),
+  technique({
+    slug: "reverse-osmosis",
+    name: "Reverse Osmosis",
+    aliases: ["RO", "Membrane concentration"],
+    classification: "Stabilization & Finishing",
+    process_stage: "finishing",
+    summary:
+      "Reverse osmosis filters wine through membranes to remove water, alcohol, or volatile acidity depending on configuration — a corrective tool for challenging vintages. Its use is regulated and often undisclosed on labels.",
+    purpose: "Adjust alcohol, water content, or correct faults via membrane filtration.",
+    used_for: ["Alcohol reduction", "Fault correction", "Concentration"],
+    common_regions: ["napa-valley", "mendoza", "australia", "chile"],
+    common_styles: ["cabernet-sauvignon", "chardonnay", "zinfandel"],
+    common_grapes: ["cabernet-sauvignon", "chardonnay"],
+    creates_descriptors: ["concentrated", "ripe"],
+    reduces_descriptors: ["hot"],
+    related_techniques: ["crossflow-filtration", "blending"],
+    opposite_techniques: ["native-fermentation"],
+    serving_implications: ["room-temperature"],
+    beginner_notes: "RO is a technical adjustment tool — legal in many regions but rarely advertised.",
+    faq: [],
+    seo_title: "Reverse Osmosis — Wine Adjustment Technology",
+    seo_description:
+      "Reverse osmosis adjusts alcohol and concentration in wine through membrane technology.",
+  }),
+  technique({
+    slug: "cryoextraction",
+    name: "Cryoextraction",
+    aliases: ["Cryogenic extraction", "Freeze concentration"],
+    classification: "Stabilization & Finishing",
+    process_stage: "harvest",
+    summary:
+      "Cryoextraction freezes grapes before pressing to concentrate sugars and acids, mimicking natural ice wine conditions in warmer climates. The technique enables dessert wine production where reliable natural freezing is impossible.",
+    purpose: "Concentrate must sugars by freezing grapes before pressing.",
+    used_for: ["Ice wine style", "Dessert wine", "Concentrated musts"],
+    common_regions: ["germany", "austria", "mosel"],
+    common_styles: ["riesling", "chenin-blanc", "gewurztraminer"],
+    common_grapes: ["riesling"],
+    creates_descriptors: ["rich", "honeyed", "crisp"],
+    reduces_descriptors: [],
+    related_techniques: ["ice-wine-production", "late-harvest"],
+    opposite_techniques: ["warm-fermentation"],
+    serving_implications: ["dessert-wine-glass", "chilled"],
+    beginner_notes: "Cryoextraction makes ice-wine-style sweetness where winters aren't cold enough for natural ice wine.",
+    faq: [],
+    seo_title: "Cryoextraction — Frozen Grape Concentration",
+    seo_description:
+      "Cryoextraction freezes grapes to concentrate sugars for ice wine-style dessert wines.",
+  }),
+  technique({
+    slug: "late-harvest",
+    name: "Late Harvest",
+    aliases: ["Vendange tardive", "Late-picked grapes"],
+    classification: "Harvest & Must Adjustment",
+    process_stage: "harvest",
+    summary:
+      "Late harvest picks grapes weeks after normal ripeness, allowing sugar concentration, flavor intensification, and sometimes noble rot development. Alsace Vendange Tardive and German Spätlese exemplify the spectrum from off-dry to lusciously sweet.",
+    purpose: "Increase sugar concentration and flavor intensity through delayed picking.",
+    used_for: ["Dessert wines", "Off-dry styles", "Alsace VT"],
+    common_regions: ["alsace", "mosel", "rheingau", "germany"],
+    common_styles: ["riesling", "gewurztraminer", "chenin-blanc"],
+    common_grapes: ["riesling"],
+    creates_descriptors: ["honeyed", "rich", "floral"],
+    reduces_descriptors: ["crisp", "zesty"],
+    related_techniques: ["noble-rot-production", "ice-wine-production"],
+    opposite_techniques: ["cold-fermentation"],
+    serving_implications: ["dessert-wine-glass", "lightly-chilled"],
+    beginner_notes: "Late harvest doesn't always mean sweet — check the label for sweetness level.",
+    faq: [
+      {
+        q: "Is late harvest always sweet?",
+        a: "Not always — some late-harvest wines are off-dry; Alsace VT and German Auslese span a wide sweetness range.",
+      },
+    ],
+    seo_title: "Late Harvest — Dessert Wine Winemaking",
+    seo_description:
+      "Late harvest winemaking picks overripe grapes for concentrated, often sweet wines like Alsace VT.",
+  }),
+  technique({
+    slug: "ice-wine-production",
+    name: "Ice Wine Production",
+    aliases: ["Eiswein", "Icewine", "Frozen harvest"],
+    classification: "Harvest & Must Adjustment",
+    process_stage: "harvest",
+    summary:
+      "Ice wine production harvests grapes frozen on the vine, pressing them while solid so water stays as ice crystals and sugar-rich juice runs off. Canada and Germany lead production of these intensely sweet, high-acid dessert wines.",
+    purpose: "Produce lusciously sweet wine from naturally frozen grapes.",
+    used_for: ["Ice wine", "Dessert wine", "Premium sweet styles"],
+    common_regions: ["germany", "austria", "mosel"],
+    common_styles: ["riesling", "chenin-blanc", "gewurztraminer"],
+    common_grapes: ["riesling"],
+    creates_descriptors: ["honeyed", "crisp", "floral"],
+    reduces_descriptors: [],
+    related_techniques: ["cryoextraction", "late-harvest", "noble-rot-production"],
+    opposite_techniques: ["warm-fermentation"],
+    serving_implications: ["dessert-wine-glass", "chilled"],
+    beginner_notes: "Real ice wine requires grapes frozen on the vine — cryoextraction is the technical alternative.",
+    faq: [
+      {
+        q: "Why is ice wine expensive?",
+        a: "Yields are tiny — frozen grapes produce minimal juice — and harvest happens in dangerous pre-dawn cold.",
+      },
+    ],
+    seo_title: "Ice Wine Production — Eiswein Winemaking",
+    seo_description:
+      "Ice wine production presses frozen grapes for intensely sweet, high-acid dessert wines.",
+  }),
+  technique({
+    slug: "noble-rot-production",
+    name: "Noble Rot Production",
+    aliases: ["Botrytis cinerea", "Botrytized wine", "Pourriture noble"],
+    classification: "Harvest & Must Adjustment",
+    process_stage: "harvest",
+    summary:
+      "Noble rot production relies on Botrytis cinerea fungus under humid conditions to shrivel grapes and concentrate sugars while adding honey, ginger, and marmalade complexity. Sauternes, Tokaji, and German Beerenauslese are the world's greatest botrytized expressions.",
+    purpose: "Concentrate sugars and add complexity via beneficial Botrytis infection.",
+    used_for: ["Sauternes", "Tokaji", "Botrytized Riesling"],
+    common_regions: ["bordeaux", "alsace", "mosel", "germany"],
+    common_styles: ["riesling", "chenin-blanc", "sauvignon-blanc"],
+    common_grapes: ["riesling", "sauvignon-blanc"],
+    creates_descriptors: ["honeyed", "marmalade", "floral"],
+    reduces_descriptors: ["crisp"],
+    related_techniques: ["late-harvest", "ice-wine-production"],
+    opposite_techniques: ["filtration"],
+    serving_implications: ["dessert-wine-glass", "lightly-chilled"],
+    beginner_notes: "Noble rot sounds bad but creates some of the world's greatest sweet wines — Sauternes, Tokaji.",
+    faq: [
+      {
+        q: "Is noble rot the same as grape rot?",
+        a: "Noble rot (Botrytis cinerea under the right conditions) concentrates and flavors grapes; grey rot in wet weather ruins them.",
+      },
+    ],
+    seo_title: "Noble Rot Production — Botrytized Wine",
+    seo_description:
+      "Noble rot (Botrytis) concentrates grapes for Sauternes, Tokaji, and honeyed dessert wines.",
+  }),
+
+  // —— Cap Management (3) ——
+  technique({
+    slug: "pigeage",
+    name: "Pigeage",
+    aliases: ["Punch-down", "Cap punching"],
+    classification: "Cap Management",
+    process_stage: "fermentation",
+    summary:
+      "Pigeage pushes the floating grape cap down into fermenting must using a plunger or foot, extracting color and tannin while keeping skins submerged. It is gentler than pumpover and favored in Pinot Noir and elegant red programs.",
+    purpose: "Submerge grape cap for controlled extraction during fermentation.",
+    used_for: ["Pinot Noir", "Elegant reds", "Open-top fermenters"],
+    common_regions: ["burgundy", "willamette-valley", "sonoma", "beaujolais"],
+    common_styles: ["pinot-noir", "syrah-shiraz", "grenache"],
+    common_grapes: ["pinot-noir"],
+    creates_descriptors: ["extracted", "tannic", "earthy"],
+    reduces_descriptors: ["delicate"],
+    related_techniques: ["pumpover", "extended-maceration", "maceration"],
+    opposite_techniques: ["carbonic-maceration"],
+    serving_implications: ["cellar-temperature", "30-minutes"],
+    beginner_notes: "Punch-down is literally pushing the grape skins back into the juice — classic in Burgundy.",
+    faq: [],
+    seo_title: "Pigeage — Punch-Down Cap Management",
+    seo_description:
+      "Pigeage (punch-down) submerges the grape cap during red fermentation for color and tannin extraction.",
+  }),
+  technique({
+    slug: "pumpover",
+    name: "Pumpover",
+    aliases: ["Remontage", "Pump-over"],
+    classification: "Cap Management",
+    process_stage: "fermentation",
+    summary:
+      "Pumpover draws fermenting juice from the tank bottom and sprays it over the floating cap, extracting color and tannin while aerating the ferment. It suits larger tanks and full-bodied reds where vigorous extraction is desired.",
+    purpose: "Extract color and tannin by circulating juice over the cap.",
+    used_for: ["Cabernet", "Syrah", "Large-scale red production"],
+    common_regions: ["bordeaux", "napa-valley", "barossa-valley", "mendoza"],
+    common_styles: ["cabernet-sauvignon", "syrah-shiraz", "malbec"],
+    common_grapes: ["cabernet-sauvignon"],
+    creates_descriptors: ["extracted", "tannic", "jammy"],
+    reduces_descriptors: ["delicate"],
+    related_techniques: ["pigeage", "warm-fermentation", "extended-maceration"],
+    opposite_techniques: ["carbonic-maceration"],
+    serving_implications: ["room-temperature", "extended-decant"],
+    beginner_notes: "Pumpover is the industrial version of keeping red fermenting must in contact with skins.",
+    faq: [],
+    seo_title: "Pumpover — Remontage Cap Management",
+    seo_description:
+      "Pumpover (remontage) circulates juice over the grape cap for extraction in full-bodied red ferments.",
+  }),
+  technique({
+    slug: "saignee",
+    name: "Saignée",
+    aliases: ["Bleeding the tank", "Saignee method"],
+    classification: "Cap Management",
+    process_stage: "fermentation",
+    summary:
+      "Saignée removes juice from a red wine tank early in maceration, concentrating the remaining red while the bled juice ferments into rosé. Provence and many New World producers use it to make rosé and red simultaneously from one lot.",
+    purpose: "Produce rosé while concentrating remaining red wine extraction.",
+    used_for: ["Provence rosé", "Dual rosé/red production"],
+    common_regions: ["provence", "rhone-valley", "napa-valley", "tuscany"],
+    common_styles: ["rose", "provence-rose", "cabernet-sauvignon", "grenache"],
+    common_grapes: ["pinot-noir", "cabernet-sauvignon"],
+    creates_descriptors: ["bright", "crisp", "floral"],
+    reduces_descriptors: [],
+    related_techniques: ["short-maceration", "maceration"],
+    opposite_techniques: ["extended-maceration"],
+    serving_implications: ["chilled", "lightly-chilled"],
+    beginner_notes: "Many rosés start as bled-off juice from red wine tanks — not always a dedicated rosé harvest.",
+    faq: [
+      {
+        q: "Is saignée rosé inferior to direct-press rosé?",
+        a: "Not necessarily — quality depends on grape maturity and winemaking; saignée is a legitimate Provence tradition.",
+      },
+    ],
+    seo_title: "Saignée — Rosé from Red Wine Tanks",
+    seo_description:
+      "Saignée bleeds juice from red ferments to make rosé while concentrating the remaining red wine.",
+  }),
+
+  // —— Blending & Adjustments (3) ——
+  technique({
+    slug: "blending",
+    name: "Blending",
+    aliases: ["Assemblage", "Cuvée blending", "Wine blending"],
+    classification: "Fortification & Blending",
+    process_stage: "finishing",
+    summary:
+      "Blending combines wines from different tanks, barrels, varieties, or vintages to achieve balance, consistency, or complexity. Bordeaux assemblage and Champagne cuvée blending are archetypes — the sum intended to exceed any single component.",
+    purpose: "Achieve balance and house style by combining wine components.",
+    used_for: ["Bordeaux blends", "Champagne cuvées", "Consistency"],
+    common_regions: ["bordeaux", "champagne", "rhone-valley", "napa-valley"],
+    common_styles: ["cabernet-sauvignon", "champagne", "syrah-shiraz", "port"],
+    common_grapes: ["cabernet-sauvignon", "pinot-noir", "chardonnay"],
+    creates_descriptors: ["complex", "balanced", "elegant"],
+    reduces_descriptors: [],
+    related_techniques: ["solera-system", "fortification"],
+    opposite_techniques: [],
+    serving_implications: ["ideal-serving-temperature", "extended-decant"],
+    beginner_notes: "Most wines are blends — even 'single varietal' wines may combine tanks or barrels.",
+    faq: [
+      {
+        q: "Why do winemakers blend?",
+        a: "To balance acidity, tannin, and fruit; compensate for vintage variation; and create a consistent house style.",
+      },
+    ],
+    seo_title: "Blending — Assemblage in Winemaking",
+    seo_description:
+      "Wine blending combines components for balance and complexity — from Bordeaux to Champagne cuvées.",
+  }),
+  technique({
+    slug: "chaptalization",
+    name: "Chaptalization",
+    aliases: ["Enrichment", "Adding sugar", "Suizen"],
+    classification: "Harvest & Must Adjustment",
+    process_stage: "pre-fermentation",
+    summary:
+      "Chaptalization adds beet or cane sugar to must before fermentation to raise potential alcohol in cool climates where grapes struggle to ripen fully. It is regulated and permitted in regions like Burgundy and Germany under specific conditions.",
+    purpose: "Increase potential alcohol by adding sugar to underripe must.",
+    used_for: ["Cool vintages", "Northern climates", "Alcohol correction"],
+    common_regions: ["burgundy", "champagne", "loire-valley", "alsace"],
+    common_styles: ["pinot-noir", "chardonnay", "riesling", "champagne"],
+    common_grapes: ["pinot-noir", "chardonnay", "riesling"],
+    creates_descriptors: ["ripe", "hot"],
+    reduces_descriptors: ["tart"],
+    related_techniques: ["acidification", "blending"],
+    opposite_techniques: ["reverse-osmosis"],
+    serving_implications: ["cellar-temperature"],
+    beginner_notes: "Chaptalization boosts alcohol, not sweetness — the added sugar ferments away.",
+    faq: [
+      {
+        q: "Is chaptalization cheating?",
+        a: "It's legal and regulated in many European regions — a tool for cool vintages, not universal practice.",
+      },
+    ],
+    seo_title: "Chaptalization — Must Enrichment",
+    seo_description:
+      "Chaptalization adds sugar to grape must to raise alcohol in cool-climate winemaking.",
+  }),
+  technique({
+    slug: "acidification",
+    name: "Acidification",
+    aliases: ["Adding acid", "Acid adjustment", "TA correction"],
+    classification: "Harvest & Must Adjustment",
+    process_stage: "pre-fermentation",
+    summary:
+      "Acidification adds tartaric or other acids to must or wine to balance flabby, overripe fruit in warm climates. Napa, Australia, and many New World regions use it judiciously when natural acidity falls short of winemaker targets.",
+    purpose: "Raise acidity for balance in warm-climate or overripe grapes.",
+    used_for: ["Warm climates", "Overripe vintages", "Balance correction"],
+    common_regions: ["napa-valley", "barossa-valley", "mendoza", "australia"],
+    common_styles: ["cabernet-sauvignon", "chardonnay", "malbec"],
+    common_grapes: ["cabernet-sauvignon", "chardonnay"],
+    creates_descriptors: ["crisp", "bright", "zesty"],
+    reduces_descriptors: ["flabby"],
+    related_techniques: ["chaptalization", "malolactic-fermentation"],
+    opposite_techniques: ["malolactic-fermentation"],
+    serving_implications: ["room-temperature", "chilled"],
+    beginner_notes: "Adding acid sounds odd but helps hot-climate wines taste fresh rather than jammy and flat.",
+    faq: [],
+    seo_title: "Acidification — Wine Acidity Adjustment",
+    seo_description:
+      "Acidification adds tartaric acid to balance warm-climate wines with low natural acidity.",
+  }),
+
+  // —— Sparkling Finishing (4) ——
+  technique({
+    slug: "autolytic-aging",
+    name: "Autolytic Aging",
+    aliases: ["Yeast autolysis", "Sur lie sparkling aging"],
+    classification: "Sparkling Production",
+    process_stage: "aging",
+    summary:
+      "Autolytic aging allows dead yeast cells to break down during extended lees contact, releasing amino acids and compounds that create brioche, biscuit, and creamy complexity. It is essential to traditional-method sparkling character beyond mere bubbles.",
+    purpose: "Develop brioche and savory complexity through yeast cell breakdown.",
+    used_for: ["Champagne", "Cava reserva", "Traditional sparkling"],
+    common_regions: ["champagne", "penedes", "loire-valley", "tuscany"],
+    common_styles: ["champagne", "cava"],
+    common_grapes: ["chardonnay", "pinot-noir"],
+    creates_descriptors: ["brioche", "biscuit", "creamy"],
+    reduces_descriptors: ["crisp", "juicy"],
+    related_techniques: ["lees-aging", "traditional-method", "riddling"],
+    opposite_techniques: ["charmant-method"],
+    serving_implications: ["sparkling-chilled", "champagne-tulip"],
+    beginner_notes: "Autolysis is why aged Champagne tastes like toast and bread — yeast breaking down over years.",
+    faq: [
+      {
+        q: "How long does autolytic aging take?",
+        a: "Non-vintage Champagne requires minimum 15 months on lees; vintage and prestige cuvées often age 3–10+ years.",
+      },
+    ],
+    seo_title: "Autolytic Aging — Champagne Lees Character",
+    seo_description:
+      "Autolytic aging on yeast lees creates brioche and biscuit notes in traditional-method sparkling wine.",
+  }),
+  technique({
+    slug: "riddling",
+    name: "Riddling",
+    aliases: ["Remuage", "Gyropalette"],
+    classification: "Sparkling Production",
+    process_stage: "finishing",
+    summary:
+      "Riddling gradually tilts and rotates bottles to collect yeast sediment in the neck before disgorgement. Hand riddling on pupitres is the classic Champagne image; gyropalettes automate the process for large producers.",
+    purpose: "Collect yeast sediment in bottle neck before disgorgement.",
+    used_for: ["Traditional-method sparkling", "Champagne", "Cava reserva"],
+    common_regions: ["champagne", "penedes", "loire-valley"],
+    common_styles: ["champagne", "cava"],
+    common_grapes: ["chardonnay", "pinot-noir"],
+    creates_descriptors: ["clean", "bright"],
+    reduces_descriptors: [],
+    related_techniques: ["disgorgement", "traditional-method", "autolytic-aging"],
+    opposite_techniques: ["ancestral-method"],
+    serving_implications: ["sparkling-chilled"],
+    beginner_notes: "Riddling moves yeast to the bottle neck so it can be removed — leaving clear sparkling wine.",
+    faq: [],
+    seo_title: "Riddling — Champagne Remuage",
+    seo_description:
+      "Riddling (remuage) collects yeast sediment in sparkling wine bottles before disgorgement.",
+  }),
+  technique({
+    slug: "disgorgement",
+    name: "Disgorgement",
+    aliases: ["Dégorgement", "Lees removal"],
+    classification: "Sparkling Production",
+    process_stage: "bottling",
+    summary:
+      "Disgorgement freezes the bottle neck, expels yeast sediment, and tops up with liqueur d'expédition before final corking. It is the final clarity step in traditional-method sparkling production after months or years on lees.",
+    purpose: "Remove yeast sediment and finalize sparkling wine before sale.",
+    used_for: ["Champagne", "Traditional-method Cava", "Premium sparkling"],
+    common_regions: ["champagne", "penedes", "loire-valley"],
+    common_styles: ["champagne", "cava"],
+    common_grapes: ["chardonnay", "pinot-noir"],
+    creates_descriptors: ["clean", "bright", "brioche"],
+    reduces_descriptors: [],
+    related_techniques: ["riddling", "traditional-method", "autolytic-aging"],
+    opposite_techniques: ["ancestral-method", "unfiltered-bottling"],
+    serving_implications: ["sparkling-chilled", "champagne-flute"],
+    beginner_notes: "Disgorgement is when the yeast plug shoots out — then dosage sugar is added for the final style.",
+    faq: [
+      {
+        q: "What is dosage?",
+        a: "The liqueur d'expédition added after disgorgement — it determines final sweetness from Brut Nature to Doux.",
+      },
+    ],
+    seo_title: "Disgorgement — Sparkling Wine Finishing",
+    seo_description:
+      "Disgorgement removes yeast sediment from traditional-method sparkling wine before final corking.",
+  }),
+  technique({
+    slug: "devatting",
+    name: "Devatting",
+    aliases: ["Délestage", "Racking off skins", "Drain and return"],
+    classification: "Cap Management",
+    process_stage: "fermentation",
+    summary:
+      "Devatting drains fermenting wine off the grape solids into a clean vessel, separating free-run wine from the cap before pressing or extended maceration decisions. It is a key transfer point between active fermentation and post-ferment handling.",
+    purpose: "Separate wine from grape solids at a chosen fermentation stage.",
+    used_for: ["Free-run separation", "Press decisions", "Ferment management"],
+    common_regions: ["bordeaux", "burgundy", "rioja", "tuscany"],
+    common_styles: ["cabernet-sauvignon", "sangiovese", "tempranillo"],
+    common_grapes: ["cabernet-sauvignon", "pinot-noir"],
+    creates_descriptors: ["clean", "elegant"],
+    reduces_descriptors: ["harsh"],
+    related_techniques: ["pressing", "extended-maceration", "pumpover"],
+    opposite_techniques: ["whole-cluster-fermentation"],
+    serving_implications: ["cellar-temperature"],
+    beginner_notes: "Devatting is when wine comes off the skins — free-run vs press wine split happens here.",
+    faq: [],
+    seo_title: "Devatting — Separating Wine from Solids",
+    seo_description:
+      "Devatting drains fermenting wine off grape skins for free-run separation and press decisions.",
+  }),
+];
+
+const EXPECTED_SLUGS = [
+  "alcoholic-fermentation", "malolactic-fermentation", "native-fermentation", "inoculated-fermentation",
+  "cold-fermentation", "warm-fermentation", "carbonic-maceration", "semi-carbonic-maceration",
+  "whole-cluster-fermentation", "maceration", "extended-maceration", "cold-soak", "skin-contact",
+  "flash-detente", "pressing", "whole-cluster-press", "gentle-press", "basket-press", "lees-aging",
+  "batonnage", "barrel-aging", "stainless-steel-aging", "concrete-tank-aging", "concrete-egg-aging",
+  "amphora-aging", "new-french-oak", "new-american-oak", "neutral-oak", "large-oak-foudres",
+  "oak-alternatives", "traditional-method", "charmant-method", "transfer-method", "ancestral-method",
+  "continuous-method", "fortification", "solera-system", "cold-stabilization", "fining", "filtration",
+  "crossflow-filtration", "unfiltered-bottling", "micro-oxygenation", "reverse-osmosis", "cryoextraction",
+  "late-harvest", "ice-wine-production", "noble-rot-production", "pigeage", "pumpover", "saignee",
+  "blending", "chaptalization", "acidification", "autolytic-aging", "riddling", "disgorgement",
+  "short-maceration", "whole-berry-fermentation", "devatting",
+];
+
+function loadValidSlugs() {
+  const taxonomy = JSON.parse(fs.readFileSync(TAXONOMY_PATH, "utf8"));
+  const descriptorSlugs = new Set(
+    Object.values(taxonomy.nodes)
+      .filter((n) => n.type === "descriptor")
+      .map((n) => n.slug)
+  );
+  const styleSlugs = new Set(
+    JSON.parse(fs.readFileSync(STYLE_CATALOG, "utf8")).styles.map((s) => s.slug)
+  );
+  const regionSlugs = new Set(
+    JSON.parse(fs.readFileSync(REGION_CATALOG, "utf8")).regions.map((r) => r.slug)
+  );
+  const servingSlugs = new Set(
+    JSON.parse(fs.readFileSync(SERVING_CATALOG, "utf8")).entities.map((e) => e.slug)
+  );
+  const grapeSlugs = new Set(
+    JSON.parse(fs.readFileSync(GRAPE_CATALOG, "utf8")).grapes.map((g) => g.slug)
+  );
+  return { descriptorSlugs, styleSlugs, regionSlugs, servingSlugs, grapeSlugs };
+}
+
+function validate(entities, valid) {
+  const { descriptorSlugs, styleSlugs, regionSlugs, servingSlugs, grapeSlugs } = valid;
+  const techniqueSlugs = new Set(entities.map((e) => e.slug));
+  const errors = [];
+
+  if (entities.length !== 60) {
+    errors.push(`Expected 60 entities, got ${entities.length}`);
+  }
+
+  for (const slug of EXPECTED_SLUGS) {
+    if (!techniqueSlugs.has(slug)) errors.push(`Missing required slug: ${slug}`);
+  }
+
+  for (const entity of entities) {
+    for (const d of [...(entity.creates_descriptors ?? []), ...(entity.reduces_descriptors ?? [])]) {
+      if (!descriptorSlugs.has(d)) errors.push(`${entity.slug}: invalid descriptor "${d}"`);
+    }
+    for (const s of entity.common_styles ?? []) {
+      if (!styleSlugs.has(s)) errors.push(`${entity.slug}: invalid common_style "${s}"`);
+    }
+    for (const r of entity.common_regions ?? []) {
+      if (!regionSlugs.has(r)) errors.push(`${entity.slug}: invalid common_region "${r}"`);
+    }
+    for (const g of entity.common_grapes ?? []) {
+      if (!grapeSlugs.has(g)) errors.push(`${entity.slug}: invalid common_grape "${g}"`);
+    }
+    for (const t of [...(entity.related_techniques ?? []), ...(entity.opposite_techniques ?? [])]) {
+      if (!techniqueSlugs.has(t)) errors.push(`${entity.slug}: invalid technique "${t}"`);
+    }
+    for (const srv of entity.serving_implications ?? []) {
+      if (!servingSlugs.has(srv)) errors.push(`${entity.slug}: invalid serving_implication "${srv}"`);
+    }
+  }
+
+  if (errors.length) {
+    console.error("✗ Validation failed:");
+    for (const err of errors) console.error(`  - ${err}`);
+    process.exit(1);
+  }
+}
+
+function classificationBreakdown(entities) {
+  const counts = {};
+  for (const e of entities) {
+    counts[e.classification] = (counts[e.classification] ?? 0) + 1;
+  }
+  return counts;
+}
+
+function main() {
+  const valid = loadValidSlugs();
+  validate(entities, valid);
+
+  const catalog = {
+    meta: {
+      phase: "ONTOLOGY-01D",
+      tier: 1,
+      description: "Tier 1 launch winemaking technique entities — fermentation, maceration, aging, sparkling, fortification, and finishing.",
+      entity_count: entities.length,
+      wine_ontology_version: "1.5",
+      seeded: new Date().toISOString().slice(0, 10),
+    },
+    techniques: entities,
+  };
+
+  fs.writeFileSync(OUT, JSON.stringify(catalog, null, 2) + "\n");
+
+  const classifications = classificationBreakdown(entities);
+  console.log(`✓ Wrote ${entities.length} entities to data/winemaking-technique-catalog.json`);
+  console.log("Classifications:", classifications);
+}
+
+main();

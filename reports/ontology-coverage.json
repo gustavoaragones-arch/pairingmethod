@@ -1,7 +1,8 @@
 {
-  "generated_at": "2026-07-15T23:33:14.584Z",
-  "phase": "ONTOLOGY-01C.6",
+  "generated_at": "2026-07-16T00:01:44.004Z",
+  "phase": "ONTOLOGY-01D",
   "ontology_version": "2.0.0",
+  "wine_ontology_version": "1.5",
   "supported_entity_types": [
     "descriptor_category",
     "descriptor_group",
@@ -87,9 +88,10 @@
     {
       "domain": "Wine",
       "entity_type": "Winemaking Technique",
-      "target": 30,
-      "current": 0,
-      "status": "pending"
+      "target": 60,
+      "current": 60,
+      "pages": 60,
+      "status": "complete"
     },
     {
       "domain": "Culinary",
@@ -114,11 +116,11 @@
     }
   ],
   "graph_maturity": {
-    "total_entities": 311,
-    "total_relationships": 2236,
-    "average_relationships_per_entity": 7.2,
-    "entities_with_faq": 119,
-    "entities_with_structured_data": 119,
+    "total_entities": 371,
+    "total_relationships": 3310,
+    "average_relationships_per_entity": 8.9,
+    "entities_with_faq": 149,
+    "entities_with_structured_data": 179,
     "reverse_relationship_coverage": {
       "style_to_region_links": 90,
       "region_to_style_reverse": 90,
@@ -130,15 +132,15 @@
     },
     "semantic_relationships": {
       "canonical_relationship_types": 53,
-      "typed_edges": 2625,
-      "explicit_typed_edges": 2625,
-      "total_edges_with_inferred_reverse": 4423,
+      "typed_edges": 3699,
+      "explicit_typed_edges": 3699,
+      "total_edges_with_inferred_reverse": 5957,
       "anonymous_edges_remaining": 0,
       "relationship_type_counts": {
         "typically_exhibits": 169,
         "contains_grape": 48,
         "pairs_best_with": 39,
-        "similar_to": 212,
+        "similar_to": 365,
         "substitute_for": 57,
         "produced_in": 90,
         "recommended_temperature": 28,
@@ -152,12 +154,27 @@
         "contains": 39,
         "child_of": 226,
         "related_descriptor": 361,
-        "associated_with": 176,
+        "associated_with": 387,
         "recommended_for": 189,
-        "confused_with": 36,
+        "confused_with": 106,
+        "creates_descriptor": 166,
+        "common_in": 410,
+        "reduces_descriptor": 64,
         "opposite_descriptor": 140
       },
       "most_common_relationships": [
+        {
+          "type": "common_in",
+          "count": 410
+        },
+        {
+          "type": "associated_with",
+          "count": 387
+        },
+        {
+          "type": "similar_to",
+          "count": 365
+        },
         {
           "type": "related_descriptor",
           "count": 361
@@ -171,10 +188,6 @@
           "count": 226
         },
         {
-          "type": "similar_to",
-          "count": 212
-        },
-        {
           "type": "common_in_region",
           "count": 192
         },
@@ -183,26 +196,22 @@
           "count": 189
         },
         {
-          "type": "associated_with",
-          "count": 176
-        },
-        {
           "type": "typically_exhibits",
           "count": 169
         },
         {
-          "type": "typical_of_region",
-          "count": 161
-        },
-        {
-          "type": "opposite_descriptor",
-          "count": 140
+          "type": "creates_descriptor",
+          "count": 166
         }
       ],
       "least_used_relationships": [
         {
           "type": "pairs_with",
           "count": 72
+        },
+        {
+          "type": "reduces_descriptor",
+          "count": 64
         },
         {
           "type": "substitute_for",
@@ -219,10 +228,6 @@
         {
           "type": "contains",
           "count": 39
-        },
-        {
-          "type": "confused_with",
-          "count": 36
         },
         {
           "type": "recommended_temperature",
@@ -270,6 +275,14 @@
           "recommended_for": 189,
           "confused_with": 36
         },
+        "winemaking_technique": {
+          "creates_descriptor": 166,
+          "common_in": 410,
+          "associated_with": 211,
+          "similar_to": 153,
+          "reduces_descriptor": 64,
+          "confused_with": 70
+        },
         "descriptor": {
           "child_of": 187,
           "related_descriptor": 251,
@@ -279,27 +292,27 @@
           "pairs_with": 38
         }
       },
-      "graph_density": 8.44,
+      "graph_density": 9.97,
       "validation_errors": 0,
       "traversal_benchmark": {
         "iterations": 3000,
-        "ms_total": 47.927,
-        "ms_per_lookup": 0.01598,
-        "keys_tested": 398,
-        "relationship_types_tested": 26
+        "ms_total": 54.395,
+        "ms_per_lookup": 0.01813,
+        "keys_tested": 458,
+        "relationship_types_tested": 30
       },
       "evidence_benchmark": {
         "iterations": 3000,
-        "ms_total": 8.578,
-        "ms_per_lookup": 0.00286,
-        "edges_tested": 26
+        "ms_total": 8.264,
+        "ms_per_lookup": 0.00275,
+        "edges_tested": 70
       },
-      "relationships_with_evidence": 26,
-      "relationships_without_evidence": 2573,
-      "evidence_coverage_pct": 1,
+      "relationships_with_evidence": 70,
+      "relationships_without_evidence": 3603,
+      "evidence_coverage_pct": 1.91,
       "confidence_distribution": {
-        "high": 24,
-        "medium": 2,
+        "high": 51,
+        "medium": 19,
         "low": 0,
         "unspecified": 0
       },
@@ -337,24 +350,25 @@
           "count": 2
         },
         {
-          "slug": "structured",
+          "slug": "rich",
           "count": 2
         },
         {
-          "slug": "ripe",
-          "count": 1
+          "slug": "structured",
+          "count": 2
         }
       ]
     },
-    "fully_connected_entities_pct": 50.7,
+    "fully_connected_entities_pct": 58.7,
     "orphan_entities": 0,
     "orphan_slugs": [],
     "broken_graph_edges": 0
   },
   "sitemap": {
-    "total": 351,
+    "total": 412,
     "region_urls": 51,
     "serving_urls": 40,
+    "technique_urls": 60,
     "style_urls": 28,
     "descriptor_urls": 187,
     "category_urls": 12

@@ -7,6 +7,7 @@ import { TAXONOMY_SEARCH_INDEX } from "./taxonomy-search-index.js";
 import { WINE_STYLE_SEARCH_INDEX } from "./wine-style-search-index.js";
 import { WINE_REGION_SEARCH_INDEX } from "./wine-region-search-index.js";
 import { WINE_SERVING_SEARCH_INDEX } from "./wine-serving-search-index.js";
+import { WINEMAKING_TECHNIQUE_SEARCH_INDEX } from "./winemaking-technique-search-index.js";
 
 const GRAPE_SEARCH_INDEX = [
   { slug: "cabernet-sauvignon", name: "Cabernet Sauvignon", href: "/grapes/cabernet-sauvignon", haystack: "cabernet sauvignon grape variety red full bodied tannin" },
@@ -109,6 +110,16 @@ function setupSearch() {
     hay: entry.haystack,
   }));
 
+  const techniqueHits = WINEMAKING_TECHNIQUE_SEARCH_INDEX.map((entry) => ({
+    kind: "entity",
+    slug: entry.slug,
+    label: entry.name,
+    category: entry.classification || "Winemaking Technique",
+    entityKind: "winemaking_technique",
+    href: entry.href,
+    hay: entry.haystack,
+  }));
+
   const grapeHits = GRAPE_SEARCH_INDEX.map((entry) => ({
     kind: "entity",
     slug: entry.slug,
@@ -125,7 +136,8 @@ function setupSearch() {
         !taxonomyHits.some((t) => t.slug === slug) &&
         !styleHits.some((t) => t.slug === slug) &&
         !regionHits.some((t) => t.slug === slug) &&
-        !servingHits.some((t) => t.slug === slug)
+        !servingHits.some((t) => t.slug === slug) &&
+        !techniqueHits.some((t) => t.slug === slug)
     )
     .map(([slug, d]) => ({
       kind: "modal",
@@ -136,7 +148,7 @@ function setupSearch() {
       hay: legacyTermHaystack(slug, d),
     }));
 
-  const all = [...servingHits, ...regionHits, ...styleHits, ...grapeHits, ...taxonomyHits, ...legacyHits];
+  const all = [...techniqueHits, ...servingHits, ...regionHits, ...styleHits, ...grapeHits, ...taxonomyHits, ...legacyHits];
 
   function renderList(q) {
     const query = q.trim().toLowerCase();

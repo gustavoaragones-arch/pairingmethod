@@ -314,8 +314,8 @@
       "reverse": "confused_with",
       "symmetric": true,
       "requires_reverse": false,
-      "allowed_sources": ["descriptor", "wine_serving", "wine_style", "wine_region"],
-      "allowed_targets": ["descriptor", "wine_serving", "wine_style", "wine_region"]
+      "allowed_sources": ["descriptor", "wine_serving", "wine_style", "wine_region", "winemaking_technique"],
+      "allowed_targets": ["descriptor", "wine_serving", "wine_style", "wine_region", "winemaking_technique"]
     },
     {
       "id": "increases_perception_of",
@@ -333,8 +333,8 @@
       "reverse": "similar_to",
       "symmetric": true,
       "requires_reverse": false,
-      "allowed_sources": ["wine_style", "wine_region", "grape_variety", "descriptor"],
-      "allowed_targets": ["wine_style", "wine_region", "grape_variety", "descriptor"]
+      "allowed_sources": ["wine_style", "wine_region", "grape_variety", "descriptor", "winemaking_technique"],
+      "allowed_targets": ["wine_style", "wine_region", "grape_variety", "descriptor", "winemaking_technique"]
     },
     {
       "id": "alternative_to",
@@ -452,8 +452,8 @@
       "reverse": "associated_with",
       "symmetric": true,
       "requires_reverse": false,
-      "allowed_sources": ["wine_serving", "wine_region", "descriptor", "grape_variety"],
-      "allowed_targets": ["grape_variety", "wine_region", "descriptor", "wine_serving"]
+      "allowed_sources": ["wine_serving", "wine_region", "descriptor", "grape_variety", "winemaking_technique"],
+      "allowed_targets": ["grape_variety", "wine_region", "descriptor", "wine_serving", "winemaking_technique"]
     },
     {
       "id": "causes",
