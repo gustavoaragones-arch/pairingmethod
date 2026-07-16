@@ -175,6 +175,35 @@ function humanizeNode(key) {
     .join(" ");
 }
 
+/** Display title for a wine style family key (e.g. bold_red → Bold Red). */
+function formatStyleTitle(style) {
+  return humanizeNode(style);
+}
+
+/** Example grape varieties / wine types for each style family. */
+const STYLE_VARIETY_EXAMPLES = {
+  bold_red: ["Cabernet Sauvignon", "Syrah", "Malbec"],
+  medium_red: ["Merlot", "Sangiovese", "Tempranillo"],
+  light_red: ["Pinot Noir", "Gamay"],
+  rose: ["Provence Rosé", "dry rosés"],
+  rich_white: ["Chardonnay", "Viognier"],
+  light_white: ["Sauvignon Blanc", "Pinot Grigio", "Albariño"],
+  sparkling: ["Champagne", "Prosecco", "Cava"],
+  sweet_white: ["off-dry Riesling", "Moscato", "Gewürztraminer"],
+  dessert: ["Port", "Sauternes", "Ice Wine"],
+};
+
+/**
+ * Style title with concrete variety examples for the results cards.
+ * e.g. "Bold Red (such as Cabernet Sauvignon, Syrah, Malbec)"
+ */
+function formatStyleTitleWithExamples(style) {
+  const title = formatStyleTitle(style);
+  const examples = STYLE_VARIETY_EXAMPLES[style];
+  if (!examples?.length) return title;
+  return `${title} (such as ${examples.join(", ")})`;
+}
+
 /** Plain-language verdict for the top recommendation card (presentation only). */
 function getMatchVerdict(tone) {
   const map = {
@@ -321,7 +350,7 @@ function paintResults(root) {
         .map((t) => `<li>${escapeHtml(t)}</li>`)
         .join("");
 
-      const title = formatStyleTitle(r.style);
+      const title = formatStyleTitleWithExamples(r.style);
       const meta = r.baseline
         ? "50% baseline — add food rows to score"
         : `${r.score}% matrix match · ${selections.length} active row${selections.length === 1 ? "" : "s"}`;
@@ -445,12 +474,26 @@ function renderResults(root) {
 
   if (isFirstResultsPaint) {
     isFirstResultsPaint = false;
-    paintResults(root);
+    try {
+      paintResults(root);
+    } catch (err) {
+      console.error("[pairing-engine] paintResults failed:", err);
+      container.innerHTML =
+        '<p class="loading">Unable to update pairing. Please refresh and try again.</p>';
+    }
     return;
   }
 
   container.innerHTML = "<p class=\"loading\">Updating pairing…</p>";
-  setTimeout(() => paintResults(root), 55);
+  setTimeout(() => {
+    try {
+      paintResults(root);
+    } catch (err) {
+      console.error("[pairing-engine] paintResults failed:", err);
+      container.innerHTML =
+        '<p class="loading">Unable to update pairing. Please refresh and try again.</p>';
+    }
+  }, 55);
 }
 
 /**
