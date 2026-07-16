@@ -1,8 +1,8 @@
 # ONTOLOGY-02A.1 — Protein Taxonomy Blueprint
 
-**Status:** Pre-catalog review (planning artifact)  
+**Status:** **Approved for implementation** (2026-07-16)  
 **Parent:** [`ONTOLOGY-02A_ARCHITECTURE.md`](ONTOLOGY-02A_ARCHITECTURE.md)  
-**Catalog SSOT:** `data/protein-food-catalog.json` (empty — do not populate until blueprint approved)
+**Catalog SSOT:** `data/protein-food-catalog.json` (empty — populate per Section 6)
 
 This document defines the **protein foods taxonomy** independently of the catalog. Review and approve this blueprint before adding entities to `protein-food-catalog.json`.
 
@@ -20,7 +20,9 @@ Analogous to the wine descriptor hierarchy designed before descriptor pages were
 
 **Total categories:** 3  
 **Total groups:** 16  
-**Total `protein_food` entities (target):** **168**
+**Total `protein_food` entities (minimum target):** **168+**
+
+The 168 figure is a **minimum** for balanced coverage — not a fixed ceiling. Certification evaluates taxonomy coverage and connectivity, not whether the catalog stopped at exactly 168.
 
 ---
 
@@ -33,16 +35,16 @@ Animal Protein Foods (animal-protein)
 ├── Lamb (lamb)
 ├── Veal (veal)
 ├── Poultry (poultry)
-├── Game (game)
-├── White Fish (white-fish)
-├── Oily Fish (oily-fish)
-├── Shellfish (shellfish)
-└── Cephalopod (cephalopod)
+├── Wild Game (wild-game)
+├── Fin Fish (fin-fish)
+├── Crustaceans (crustaceans)
+├── Mollusks (mollusks)
+└── Cephalopods (cephalopods)
 
 Plant Protein Foods (plant-protein)
-├── Soy (soy)
 ├── Legumes (legumes)
-├── Wheat Protein (wheat-protein)
+├── Soy Foods (soy-foods)
+├── Grains & Wheat Protein (grains-wheat-protein)
 └── Nuts & Seeds (nuts-seeds)
 
 Fungi Protein Foods (fungi-protein)
@@ -75,15 +77,15 @@ Cuts, preparations, and species variants are `protein_food` leaf entities, not n
 | Animal | Lamb | `lamb` | 10 |
 | Animal | Veal | `veal` | 8 |
 | Animal | Poultry | `poultry` | 18 |
-| Animal | Game | `game` | 12 |
-| Animal | White Fish | `white-fish` | 12 |
-| Animal | Oily Fish | `oily-fish` | 10 |
-| Animal | Shellfish | `shellfish` | 15 |
-| Animal | Cephalopod | `cephalopod` | 8 |
+| Animal | Wild Game | `wild-game` | 12 |
+| Animal | Fin Fish | `fin-fish` | 22 |
+| Animal | Crustaceans | `crustaceans` | 7 |
+| Animal | Mollusks | `mollusks` | 8 |
+| Animal | Cephalopods | `cephalopods` | 8 |
 | **Animal subtotal** | | | **131** |
-| Plant | Soy | `soy` | 8 |
 | Plant | Legumes | `legumes` | 12 |
-| Plant | Wheat Protein | `wheat-protein` | 4 |
+| Plant | Soy Foods | `soy-foods` | 8 |
+| Plant | Grains & Wheat Protein | `grains-wheat-protein` | 4 |
 | Plant | Nuts & Seeds | `nuts-seeds` | 10 |
 | **Plant subtotal** | | | **34** |
 | Fungi | Mushrooms | `mushrooms` | 12 |
@@ -91,7 +93,7 @@ Cuts, preparations, and species variants are `protein_food` leaf entities, not n
 | **Fungi subtotal** | | | **15** |
 | **Grand total** | | | **168** |
 
-Counts are targets for balanced coverage — not hard caps. Validation should flag deviation >10% per group without explicit approval.
+Counts are minimum targets for balanced coverage — not hard caps. Groups may exceed targets where coverage warrants. Certification evaluates coverage quality, not exact entity totals.
 
 ---
 
@@ -198,7 +200,7 @@ Counts are targets for balanced coverage — not hard caps. Validation should fl
 | `chicken-liver` | Chicken Liver | Gallus gallus domesticus |
 | `foie-gras` | Foie Gras | Anas platyrhynchos domesticus |
 
-#### Game (`game`) — 12
+#### Wild Game (`wild-game`) — 12
 
 | Slug | Display Name | Scientific name (initial) |
 |------|--------------|---------------------------|
@@ -215,7 +217,7 @@ Counts are targets for balanced coverage — not hard caps. Validation should fl
 | `wild-turkey` | Wild Turkey | Meleagris gallopavo |
 | `wild-hare` | Wild Hare | Lepus europaeus |
 
-#### White Fish (`white-fish`) — 12
+#### Fin Fish (`fin-fish`) — 22
 
 | Slug | Display Name | Scientific name (initial) |
 |------|--------------|---------------------------|
@@ -231,11 +233,6 @@ Counts are targets for balanced coverage — not hard caps. Validation should fl
 | `pollock` | Pollock | Gadus chalcogrammus |
 | `tilapia` | Tilapia | Oreochromis niloticus |
 | `striped-bass` | Striped Bass | Morone saxatilis |
-
-#### Oily Fish (`oily-fish`) — 10
-
-| Slug | Display Name | Scientific name (initial) |
-|------|--------------|---------------------------|
 | `salmon` | Salmon | Salmo salar |
 | `tuna` | Tuna | Thunnus albacares |
 | `mackerel` | Mackerel | Scomber scombrus |
@@ -247,7 +244,7 @@ Counts are targets for balanced coverage — not hard caps. Validation should fl
 | `arctic-char` | Arctic Char | Salvelinus alpinus |
 | `bluefish` | Bluefish | Pomatomus saltatrix |
 
-#### Shellfish (`shellfish`) — 15
+#### Crustaceans (`crustaceans`) — 7
 
 | Slug | Display Name | Scientific name (initial) |
 |------|--------------|---------------------------|
@@ -256,18 +253,23 @@ Counts are targets for balanced coverage — not hard caps. Validation should fl
 | `crab` | Crab | Callinectes sapidus |
 | `king-crab` | King Crab | Paralithodes camtschaticus |
 | `dungeness-crab` | Dungeness Crab | Metacarcinus magister |
+| `crawfish` | Crawfish | Procambarus clarkii |
+| `langoustine` | Langoustine | Nephrops norvegicus |
+
+#### Mollusks (`mollusks`) — 8
+
+| Slug | Display Name | Scientific name (initial) |
+|------|--------------|---------------------------|
 | `mussels` | Mussels | Mytilus edulis |
 | `clams` | Clams | Mercenaria mercenaria |
 | `oysters` | Oysters | Crassostrea virginica |
 | `scallops` | Scallops | Pecten maximus |
-| `langoustine` | Langoustine | Nephrops norvegicus |
-| `crawfish` | Crawfish | Procambarus clarkii |
 | `abalone` | Abalone | Haliotis rufescens |
 | `cockles` | Cockles | Cerastoderma edule |
 | `geoduck` | Geoduck | Panopea generosa |
 | `green-lip-mussels` | Green-Lip Mussels | Perna canaliculus |
 
-#### Cephalopod (`cephalopod`) — 8
+#### Cephalopods (`cephalopods`) — 8
 
 | Slug | Display Name | Scientific name (initial) |
 |------|--------------|---------------------------|
@@ -283,19 +285,6 @@ Counts are targets for balanced coverage — not hard caps. Validation should fl
 ---
 
 ### Plant Protein Foods
-
-#### Soy (`soy`) — 8
-
-| Slug | Display Name | Scientific name (initial) |
-|------|--------------|---------------------------|
-| `tofu-firm` | Firm Tofu | Glycine max |
-| `tofu-silken` | Silken Tofu | Glycine max |
-| `tofu-extra-firm` | Extra-Firm Tofu | Glycine max |
-| `tempeh` | Tempeh | Glycine max |
-| `edamame` | Edamame | Glycine max |
-| `yuba` | Yuba (Tofu Skin) | Glycine max |
-| `smoked-tofu` | Smoked Tofu | Glycine max |
-| `natto` | Natto | Glycine max |
 
 #### Legumes (`legumes`) — 12
 
@@ -314,7 +303,20 @@ Counts are targets for balanced coverage — not hard caps. Validation should fl
 | `mung-beans` | Mung Beans | Vigna radiata |
 | `adzuki-beans` | Adzuki Beans | Vicia angularis |
 
-#### Wheat Protein (`wheat-protein`) — 4
+#### Soy Foods (`soy-foods`) — 8
+
+| Slug | Display Name | Scientific name (initial) |
+|------|--------------|---------------------------|
+| `tofu-firm` | Firm Tofu | Glycine max |
+| `tofu-silken` | Silken Tofu | Glycine max |
+| `tofu-extra-firm` | Extra-Firm Tofu | Glycine max |
+| `tempeh` | Tempeh | Glycine max |
+| `edamame` | Edamame | Glycine max |
+| `yuba` | Yuba (Tofu Skin) | Glycine max |
+| `smoked-tofu` | Smoked Tofu | Glycine max |
+| `natto` | Natto | Glycine max |
+
+#### Grains & Wheat Protein (`grains-wheat-protein`) — 4
 
 | Slug | Display Name | Scientific name (initial) |
 |------|--------------|---------------------------|
@@ -403,12 +405,12 @@ Populate `data/protein-food-catalog.json` **category by category** in this seque
 | 2 | Pork | Broad white/red pairing range |
 | 3 | Lamb & Veal | Classic European pairing context |
 | 4 | Poultry | Highest volume home cooking |
-| 5 | Seafood (white-fish, oily-fish, shellfish, cephalopod) | Major white-wine pairing category |
-| 6 | Game | Regional and seasonal pairing depth |
-| 7 | Plant Protein Foods (soy, legumes, wheat-protein, nuts-seeds) | Vegetarian pairing growth |
+| 5 | Seafood (`fin-fish`, `crustaceans`, `mollusks`, `cephalopods`) | Biologically grouped; major white-wine pairing category |
+| 6 | Wild Game (`wild-game`) | Regional and seasonal pairing depth |
+| 7 | Plant Protein Foods (`legumes`, `soy-foods`, `grains-wheat-protein`, `nuts-seeds`) | Vegetarian pairing growth |
 | 8 | Fungi Protein Foods (mushrooms, mycoprotein) | Umami-forward pairing niche |
 
-Do not begin bootstrap, validator, or generator until all groups are populated and blueprint approved.
+Do not begin bootstrap, validator, or generator until all groups are populated per this blueprint.
 
 ---
 
@@ -424,7 +426,9 @@ Every `protein_food` catalog entry must include these arrays from day one — **
   "related_serving": [],
   "related_techniques": [],
   "similar_foods": [],
-  "substitutes": []
+  "substitutes": [],
+  "common_preparations": [],
+  "common_cuisines": []
 }
 ```
 
@@ -437,6 +441,10 @@ Every `protein_food` catalog entry must include these arrays from day one — **
 | `related_techniques` | Reserved | 02B |
 | `similar_foods` | `similar_to` | 02A |
 | `substitutes` | `substitute_for` | 02A |
+| `common_preparations` | Placeholder — not cooking techniques or dishes | 02B / 02G |
+| `common_cuisines` | Placeholder — regional culinary context | 02G |
+
+`common_preparations` and `common_cuisines` are cross-domain placeholders — not cooking techniques (02B) or dishes (02H). Reserved now to avoid schema evolution later.
 
 Empty arrays are preferable to omitting fields. Reinforces SSOT and prevents schema migration.
 
@@ -450,23 +458,23 @@ Empty arrays are preferable to omitting fields. Reinforces SSOT and prevents sch
 | Group | `food.protein.{group}` | `food.protein.beef` |
 | Food | `food.protein.{group}.{entity}` | `food.protein.beef.ribeye` |
 
-Fungi and plant foods use their group slug: `food.protein.mushrooms.shiitake`, `food.protein.soy.tofu-firm`.
+Fungi and plant foods use their group slug: `food.protein.mushrooms.shiitake`, `food.protein.soy-foods.tofu-firm`.
 
 ---
 
 ## 9. Approval Checklist
 
-Before populating the catalog:
+- [x] Category count and names approved (3 categories)
+- [x] Group slugs approved (16 groups)
+- [x] Entity counts balanced (168+ minimum)
+- [x] Wild Game (not Game); seafood split by biology; plant groups reordered
+- [x] No prepared dishes or cooking methods in entity list
+- [x] Population order confirmed
+- [x] Reserved relationship arrays in schema (9 arrays)
 
-- [ ] Category count and names approved (3 categories)
-- [ ] Group slugs approved (16 groups)
-- [ ] Entity counts balanced (~168 total)
-- [ ] No prepared dishes or cooking methods in entity list
-- [ ] Cephalopod entries reviewed for scope creep
-- [ ] Population order confirmed
-- [ ] Reserved relationship arrays in schema
+**Status:** **Approved for implementation** — 2026-07-16
 
-**Approved by:** _pending review_
+Refinements applied: Wild Game rename; seafood → Fin Fish / Crustaceans / Mollusks / Cephalopods; plant → Legumes / Soy Foods / Grains & Wheat Protein / Nuts & Seeds; `common_preparations` and `common_cuisines` arrays reserved.
 
 ---
 

@@ -176,30 +176,30 @@ Review and approve the blueprint before populating `data/protein-food-catalog.js
 
 ### Groups & Entities (Tier 1 launch set)
 
-Target **~15 groups** and **~120–180 leaf entities**. The table below defines the launch taxonomy. Leaf counts are approximate targets for catalog bootstrap.
+Target **16 groups** and **168+ leaf entities** (minimum — see blueprint). Authoritative entity lists: [`PROTEIN_TAXONOMY_BLUEPRINT.md`](PROTEIN_TAXONOMY_BLUEPRINT.md).
 
 #### Animal Protein Foods
 
 | Group | Slug | Example Leaf Entities (`protein_food`) |
 |-------|------|------------------------------------------|
-| **Beef** | `beef` | ribeye, striploin, tenderloin, brisket, flank, chuck, short-rib, sirloin, round, oxtail, beef-cheek |
-| **Pork** | `pork` | belly, loin, shoulder, tenderloin, ham, chop, rib, sausage-meat |
-| **Lamb** | `lamb` | leg, rack, shoulder, shank, chop, ground-lamb |
-| **Veal** | `veal` | cutlet, shank, chop, tenderloin |
-| **Poultry** | `poultry` | chicken-breast, chicken-thigh, chicken-wing, duck-breast, duck-leg, turkey-breast, quail |
-| **Game** | `game` | venison, rabbit, pheasant, squab, wild-boar |
-| **White Fish** | `white-fish` | cod, halibut, sole, flounder, sea-bass, snapper, haddock, turbot |
-| **Oily Fish** | `oily-fish` | salmon, tuna, mackerel, sardine, anchovy, trout, herring |
-| **Shellfish** | `shellfish` | shrimp, lobster, crab, mussels, clams, oysters, scallops, langoustine |
-| **Cephalopod** | `cephalopod` | squid, octopus, cuttlefish |
+| **Beef** | `beef` | ribeye, striploin, tenderloin, brisket, flank, chuck, short-rib |
+| **Pork** | `pork` | pork-belly, pork-loin, pork-shoulder, ham, bacon |
+| **Lamb** | `lamb` | lamb-leg, lamb-rack, lamb-shoulder, lamb-chop |
+| **Veal** | `veal` | veal-cutlet, veal-shank, veal-chop |
+| **Poultry** | `poultry` | chicken-breast, chicken-thigh, duck-breast, turkey-breast |
+| **Wild Game** | `wild-game` | venison, rabbit, pheasant, wild-boar |
+| **Fin Fish** | `fin-fish` | cod, halibut, salmon, tuna, trout, sardine |
+| **Crustaceans** | `crustaceans` | shrimp, lobster, crab, langoustine |
+| **Mollusks** | `mollusks` | mussels, clams, oysters, scallops |
+| **Cephalopods** | `cephalopods` | squid, octopus, cuttlefish |
 
 #### Plant Protein Foods
 
 | Group | Slug | Example Leaf Entities (`protein_food`) |
 |-------|------|------------------------------------------|
-| **Soy** | `soy` | tofu-firm, tempeh, edamame, yuba |
 | **Legumes** | `legumes` | lentils, chickpeas, black-beans, kidney-beans |
-| **Wheat Protein** | `wheat-protein` | seitan, vital-wheat-gluten |
+| **Soy Foods** | `soy-foods` | tofu-firm, tempeh, edamame, yuba |
+| **Grains & Wheat Protein** | `grains-wheat-protein` | seitan, vital-wheat-gluten |
 | **Nuts & Seeds** | `nuts-seeds` | almonds, walnuts, cashews, pumpkin-seeds |
 
 #### Fungi Protein Foods
@@ -379,6 +379,8 @@ Rules:
 | `related_serving` | Wine serving slugs — reserved |
 | `related_techniques` | Cooking technique slugs — reserved for 02B |
 | `substitutes` | Substitute food slugs — maps to `substitute_for` |
+| `common_preparations` | Placeholder — cross-domain prep context (not 02B techniques) |
+| `common_cuisines` | Placeholder — regional culinary context (02G) |
 | `beginner_notes` | Plain-language explainer |
 | `faq` | ≥ 2 Q&A pairs |
 | `seo_title` | Unique, no marketing language |
@@ -396,7 +398,9 @@ Every catalog entry must include these arrays from day one — empty `[]` if unk
   "related_serving": [],
   "related_techniques": [],
   "similar_foods": [],
-  "substitutes": []
+  "substitutes": [],
+  "common_preparations": [],
+  "common_cuisines": []
 }
 ```
 
@@ -651,7 +655,7 @@ Cabernet Sauvignon (wine_style)
 
 | Criterion | Requirement |
 |-----------|-------------|
-| Major concepts represented | 120–180 protein_food entities across 2 categories, ~15 groups |
+| Major concepts represented | 168+ protein_food entities across 3 categories, 16 groups |
 | Single connected component | Protein foods graph connects to Wine Ontology |
 | Zero orphan entities | Validated by `validate-ontology-02a.js` |
 | Cross-domain connectivity | Every protein_food connects to ≥ 1 wine entity |
