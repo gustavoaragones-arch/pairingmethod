@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-16T00:01:44.004Z",
-  "phase": "ONTOLOGY-01D",
-  "relationships_with_evidence": 70,
-  "relationships_without_evidence": 3603,
-  "evidence_coverage_pct": 1.91,
+  "generated_at": "2026-07-16T01:45:56.697Z",
+  "phase": "ONTOLOGY-01E",
+  "relationships_with_evidence": 110,
+  "relationships_without_evidence": 4185,
+  "evidence_coverage_pct": 2.56,
   "confidence_distribution": {
-    "high": 51,
-    "medium": 19,
+    "high": 79,
+    "medium": 31,
     "low": 0,
     "unspecified": 0
   },
@@ -54,8 +54,8 @@
   ],
   "evidence_benchmark": {
     "iterations": 3000,
-    "ms_total": 8.264,
-    "ms_per_lookup": 0.00275,
-    "edges_tested": 70
+    "ms_total": 5.628,
+    "ms_per_lookup": 0.00188,
+    "edges_tested": 110
   }
 }

@@ -3395,6 +3395,29 @@ body.term-modal-open {
   margin: 0.5rem 0 1rem;
 }
 
+/* ---------- ONTOLOGY-01E — Wine Fault entity pages ---------- */
+.wine-fault-entity-page {
+  --term-entity-accent: #8b3a3a;
+}
+
+.wine-fault-classification {
+  font-size: 1.05rem;
+  color: var(--muted);
+  margin: 0.35rem 0 0;
+}
+
+.wine-fault-summary p {
+  font-size: 1.1rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.wine-fault-aliases,
+.wine-fault-severity {
+  color: var(--muted);
+  margin: 0.5rem 0 1rem;
+}
+
 .term-entity-kind {
   font-size: 0.8rem;
   color: var(--muted);

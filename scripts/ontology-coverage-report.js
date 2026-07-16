@@ -13,6 +13,7 @@ import { listWineStyleEntries } from "../lib/taxonomy-wine-style.js";
 import { listWineRegionEntries } from "../lib/taxonomy-wine-region.js";
 import { listWineServingEntries } from "../lib/taxonomy-wine-serving.js";
 import { listWinemakingTechniqueEntries } from "../lib/taxonomy-winemaking-technique.js";
+import { listWineFaultEntries } from "../lib/taxonomy-wine-fault.js";
 import { computeGraphMaturity, validateGraphEdges } from "../lib/graph-maturity.js";
 import { ENTITY_TYPES } from "../lib/entity-model.js";
 
@@ -23,6 +24,7 @@ const STYLES_DIR = path.join(ROOT, "styles");
 const REGIONS_DIR = path.join(ROOT, "regions");
 const SERVING_DIR = path.join(ROOT, "serving");
 const TECHNIQUES_DIR = path.join(ROOT, "techniques");
+const FAULTS_DIR = path.join(ROOT, "faults");
 const SITEMAP = path.join(ROOT, "sitemap.xml");
 
 const TARGETS = {
@@ -33,7 +35,7 @@ const TARGETS = {
   wine_styles_tier1: 28,
   wine_regions_tier1: 45,
   wine_serving: 40,
-  wine_faults: 20,
+  wine_faults: 30,
   winemaking_techniques: 60,
 };
 
@@ -73,10 +75,12 @@ function main() {
   const regions = listWineRegionEntries().length;
   const servings = listWineServingEntries().length;
   const techniques = listWinemakingTechniqueEntries().length;
+  const faults = listWineFaultEntries().length;
   const stylePages = countGeneratedPages(STYLES_DIR);
   const regionPages = countGeneratedPages(REGIONS_DIR);
   const servingPages = countGeneratedPages(SERVING_DIR);
   const techniquePages = countGeneratedPages(TECHNIQUES_DIR);
+  const faultPages = countGeneratedPages(FAULTS_DIR);
   const graphMaturity = computeGraphMaturity(taxonomy);
   const brokenEdges = validateGraphEdges(taxonomy);
 
@@ -90,7 +94,7 @@ function main() {
     { domain: "Wine", entity_type: "Wine Style (Tier 1)", target: TARGETS.wine_styles_tier1, current: styles, pages: stylePages, status: status(styles, TARGETS.wine_styles_tier1) },
     { domain: "Wine", entity_type: "Wine Region (Tier 1)", target: TARGETS.wine_regions_tier1, current: regions, pages: regionPages, status: status(regions, TARGETS.wine_regions_tier1) },
     { domain: "Wine", entity_type: "Serving & Service", target: TARGETS.wine_serving, current: servings, pages: servingPages, status: status(servings, TARGETS.wine_serving) },
-    { domain: "Wine", entity_type: "Wine Fault", target: TARGETS.wine_faults, current: 0, status: "pending" },
+    { domain: "Wine", entity_type: "Wine Fault", target: TARGETS.wine_faults, current: faults, pages: faultPages, status: status(faults, TARGETS.wine_faults) },
     { domain: "Wine", entity_type: "Winemaking Technique", target: TARGETS.winemaking_techniques, current: techniques, pages: techniquePages, status: status(techniques, TARGETS.winemaking_techniques) },
     { domain: "Culinary", entity_type: "Protein", target: null, current: 0, status: "planned" },
     { domain: "Culinary", entity_type: "Cooking Method", target: null, current: 0, status: "planned" },
@@ -99,10 +103,10 @@ function main() {
 
   const report = {
     generated_at: new Date().toISOString(),
-    phase: "ONTOLOGY-01D",
+    phase: "ONTOLOGY-01E",
     ontology_version: taxonomy.meta?.version ?? "unknown",
     wine_ontology_version: JSON.parse(
-      fs.readFileSync(path.join(ROOT, "data", "winemaking-technique-catalog.json"), "utf8")
+      fs.readFileSync(path.join(ROOT, "data", "wine-fault-catalog.json"), "utf8")
     ).meta?.wine_ontology_version ?? "unknown",
     supported_entity_types: taxonomy.meta?.entity_model?.supported_entity_types ?? ENTITY_TYPES,
     dashboard: rows,
@@ -112,6 +116,7 @@ function main() {
       region_urls: sitemapCount(/\/regions\/[a-z0-9-]+\/$/),
       serving_urls: sitemapCount(/\/serving\/[a-z0-9-]+\/$/),
       technique_urls: sitemapCount(/\/techniques\/[a-z0-9-]+\/$/),
+      fault_urls: sitemapCount(/\/faults\/[a-z0-9-]+\/$/),
       style_urls: sitemapCount(/\/styles\/[a-z0-9-]+\/$/),
       descriptor_urls: sitemapCount(/\/terms\/[a-z0-9-]+$/),
       category_urls: sitemapCount(/\/terms\/[a-z0-9-]+\/$/),

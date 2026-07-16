@@ -1,0 +1,5201 @@
+{
+  "generated_at": "2026-07-16T01:46:27.538Z",
+  "entity_count": 30,
+  "total_edges": 622,
+  "entities": [
+    {
+      "slug": "brettanomyces",
+      "name": "Brettanomyces",
+      "classification": "Microbial",
+      "edges": {
+        "creates_descriptors": [
+          "barnyard",
+          "leathery",
+          "earthy",
+          "musky"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "bright",
+          "clean",
+          "elegant"
+        ],
+        "styles": [
+          "pinot-noir",
+          "syrah-shiraz",
+          "nebbiolo",
+          "grenache"
+        ],
+        "regions": [
+          "rhone-valley",
+          "burgundy",
+          "napa-valley",
+          "barossa-valley"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "cabernet-sauvignon"
+        ],
+        "related_techniques": [
+          "native-fermentation",
+          "barrel-aging",
+          "unfiltered-bottling"
+        ],
+        "commonly_confused_with": [
+          "native-fermentation",
+          "earthy"
+        ],
+        "serving_implications": [
+          "extended-decant",
+          "drink-now"
+        ],
+        "edge_count": 25,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "barnyard",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "leathery",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "musky",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "clean",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "rhone-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "barossa-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "native-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "barrel-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "unfiltered-bottling",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "extended-decant",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "native-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 25,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "acetobacter",
+      "name": "Acetobacter",
+      "classification": "Microbial",
+      "edges": {
+        "creates_descriptors": [
+          "sour",
+          "tart"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "elegant",
+          "complex",
+          "refined"
+        ],
+        "styles": [
+          "port",
+          "sherry",
+          "pinot-noir"
+        ],
+        "regions": [
+          "beaujolais",
+          "bordeaux",
+          "napa-valley"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "chardonnay"
+        ],
+        "related_techniques": [
+          "native-fermentation",
+          "barrel-aging"
+        ],
+        "commonly_confused_with": [
+          "volatile-acidity",
+          "ethyl-acetate"
+        ],
+        "serving_implications": [
+          "drink-now"
+        ],
+        "edge_count": 19,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "sour",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "tart",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "complex",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "sherry",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "beaujolais",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "native-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "barrel-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "volatile-acidity",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "ethyl-acetate",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 19,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "lactobacillus",
+      "name": "Lactobacillus",
+      "classification": "Microbial",
+      "edges": {
+        "creates_descriptors": [
+          "sour",
+          "cheesy"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "bright",
+          "clean"
+        ],
+        "styles": [
+          "chardonnay",
+          "pinot-noir",
+          "grenache"
+        ],
+        "regions": [
+          "burgundy",
+          "beaujolais",
+          "loire-valley"
+        ],
+        "grapes": [
+          "chardonnay",
+          "pinot-noir"
+        ],
+        "related_techniques": [
+          "malolactic-fermentation",
+          "native-fermentation"
+        ],
+        "commonly_confused_with": [
+          "malolactic-fermentation",
+          "pediococcus",
+          "mouse-taint"
+        ],
+        "serving_implications": [
+          "drink-now"
+        ],
+        "edge_count": 19,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "sour",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "cheesy",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "clean",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "beaujolais",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "malolactic-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "native-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "malolactic-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "pediococcus",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "mouse-taint",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 19,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "pediococcus",
+      "name": "Pediococcus",
+      "classification": "Microbial",
+      "edges": {
+        "creates_descriptors": [
+          "cheesy",
+          "buttery",
+          "sour"
+        ],
+        "reduces_descriptors": [
+          "clean",
+          "elegant",
+          "refined"
+        ],
+        "styles": [
+          "chardonnay",
+          "pinot-noir",
+          "grenache"
+        ],
+        "regions": [
+          "burgundy",
+          "beaujolais",
+          "willamette-valley"
+        ],
+        "grapes": [
+          "chardonnay",
+          "pinot-noir"
+        ],
+        "related_techniques": [
+          "malolactic-fermentation",
+          "native-fermentation"
+        ],
+        "commonly_confused_with": [
+          "diacetyl-excess",
+          "malolactic-fermentation",
+          "lactobacillus"
+        ],
+        "serving_implications": [
+          "drink-now"
+        ],
+        "edge_count": 20,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "cheesy",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "buttery",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "sour",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "clean",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "beaujolais",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "willamette-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "malolactic-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "native-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "diacetyl-excess",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "malolactic-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "lactobacillus",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 20,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "cork-taint",
+      "name": "Cork Taint",
+      "classification": "Chemical",
+      "edges": {
+        "creates_descriptors": [
+          "earthy",
+          "flat",
+          "musky"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "bright",
+          "floral",
+          "juicy"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "nebbiolo",
+          "champagne",
+          "merlot"
+        ],
+        "regions": [
+          "bordeaux",
+          "burgundy",
+          "napa-valley",
+          "champagne"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "pinot-noir",
+          "chardonnay"
+        ],
+        "related_techniques": [
+          "barrel-aging"
+        ],
+        "commonly_confused_with": [
+          "geosmin",
+          "brettanomyces"
+        ],
+        "serving_implications": [
+          "drink-now"
+        ],
+        "edge_count": 22,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "musky",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "juicy",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "barrel-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "geosmin",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "brettanomyces",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "oxidation",
+      "name": "Oxidation",
+      "classification": "Chemical",
+      "edges": {
+        "creates_descriptors": [
+          "oxidized",
+          "nutty",
+          "caramel"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "bright",
+          "floral",
+          "juicy"
+        ],
+        "styles": [
+          "sherry",
+          "port",
+          "chardonnay",
+          "riesling"
+        ],
+        "regions": [
+          "burgundy",
+          "jerez",
+          "douro",
+          "bordeaux"
+        ],
+        "grapes": [
+          "chardonnay",
+          "riesling",
+          "pinot-noir"
+        ],
+        "related_techniques": [
+          "barrel-aging",
+          "solera-system",
+          "fortification"
+        ],
+        "commonly_confused_with": [
+          "maderization",
+          "premature-oxidation",
+          "acetaldehyde"
+        ],
+        "serving_implications": [
+          "drink-now",
+          "extended-decant"
+        ],
+        "edge_count": 26,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "oxidized",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "nutty",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "caramel",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "juicy",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "sherry",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "jerez",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "douro",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "barrel-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "solera-system",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "fortification",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "associated_with",
+            "target": "extended-decant",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "maderization",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "premature-oxidation",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "acetaldehyde",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 26,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "reduction",
+      "name": "Reduction",
+      "classification": "Chemical",
+      "edges": {
+        "creates_descriptors": [
+          "rubber",
+          "vegetal"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "floral",
+          "bright"
+        ],
+        "styles": [
+          "chardonnay",
+          "riesling",
+          "champagne",
+          "sauvignon-blanc"
+        ],
+        "regions": [
+          "burgundy",
+          "champagne",
+          "marlborough",
+          "mosel"
+        ],
+        "grapes": [
+          "chardonnay",
+          "riesling",
+          "sauvignon-blanc"
+        ],
+        "related_techniques": [
+          "lees-aging",
+          "stainless-steel-aging",
+          "traditional-method"
+        ],
+        "commonly_confused_with": [
+          "hydrogen-sulfide",
+          "mercaptans",
+          "sulfur-dioxide-excess"
+        ],
+        "serving_implications": [
+          "extended-decant",
+          "splash-decant"
+        ],
+        "edge_count": 24,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "rubber",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "vegetal",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "mosel",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "lees-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "stainless-steel-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "traditional-method",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "extended-decant",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "associated_with",
+            "target": "splash-decant",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "hydrogen-sulfide",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "mercaptans",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "sulfur-dioxide-excess",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 24,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "volatile-acidity",
+      "name": "Volatile Acidity",
+      "classification": "Chemical",
+      "edges": {
+        "creates_descriptors": [
+          "sour",
+          "tart"
+        ],
+        "reduces_descriptors": [
+          "elegant",
+          "refined",
+          "complex"
+        ],
+        "styles": [
+          "nebbiolo",
+          "grenache",
+          "port"
+        ],
+        "regions": [
+          "piedmont",
+          "beaujolais",
+          "rhone-valley"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "cabernet-sauvignon"
+        ],
+        "related_techniques": [
+          "native-fermentation",
+          "barrel-aging"
+        ],
+        "commonly_confused_with": [
+          "acetobacter",
+          "ethyl-acetate"
+        ],
+        "serving_implications": [
+          "drink-now"
+        ],
+        "edge_count": 18,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "sour",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "tart",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "complex",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "piedmont",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "beaujolais",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "rhone-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "native-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "barrel-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "acetobacter",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "ethyl-acetate",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 18,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "sulfur-dioxide-excess",
+      "name": "Sulfur Dioxide Excess",
+      "classification": "Chemical",
+      "edges": {
+        "creates_descriptors": [
+          "rubber",
+          "vegetal"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "floral",
+          "juicy"
+        ],
+        "styles": [
+          "riesling",
+          "sauvignon-blanc",
+          "gewurztraminer",
+          "chenin-blanc"
+        ],
+        "regions": [
+          "alsace",
+          "marlborough",
+          "mosel",
+          "loire-valley"
+        ],
+        "grapes": [
+          "riesling",
+          "sauvignon-blanc"
+        ],
+        "related_techniques": [
+          "filtration",
+          "cold-stabilization"
+        ],
+        "commonly_confused_with": [
+          "reduction",
+          "hydrogen-sulfide"
+        ],
+        "serving_implications": [
+          "splash-decant",
+          "extended-decant"
+        ],
+        "edge_count": 21,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "rubber",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "vegetal",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "juicy",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "alsace",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "mosel",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "filtration",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "cold-stabilization",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "splash-decant",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "associated_with",
+            "target": "extended-decant",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "reduction",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "hydrogen-sulfide",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 21,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "hydrogen-sulfide",
+      "name": "Hydrogen Sulfide",
+      "classification": "Chemical",
+      "edges": {
+        "creates_descriptors": [
+          "rubber",
+          "tar",
+          "vegetal"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "floral",
+          "bright"
+        ],
+        "styles": [
+          "chardonnay",
+          "cabernet-sauvignon",
+          "syrah-shiraz"
+        ],
+        "regions": [
+          "napa-valley",
+          "bordeaux",
+          "rhone-valley"
+        ],
+        "grapes": [
+          "chardonnay",
+          "cabernet-sauvignon"
+        ],
+        "related_techniques": [
+          "inoculated-fermentation",
+          "alcoholic-fermentation"
+        ],
+        "commonly_confused_with": [
+          "reduction",
+          "mercaptans"
+        ],
+        "serving_implications": [
+          "splash-decant"
+        ],
+        "edge_count": 19,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "rubber",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "tar",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "vegetal",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "rhone-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "inoculated-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "alcoholic-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "splash-decant",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "reduction",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "mercaptans",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 19,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "heat-damage",
+      "name": "Heat Damage",
+      "classification": "Physical",
+      "edges": {
+        "creates_descriptors": [
+          "jammy",
+          "flat",
+          "caramel"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "bright",
+          "elegant",
+          "refined"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "merlot",
+          "zinfandel",
+          "port"
+        ],
+        "regions": [
+          "napa-valley",
+          "mendoza",
+          "barossa-valley"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "pinot-noir"
+        ],
+        "related_techniques": [
+          "barrel-aging"
+        ],
+        "commonly_confused_with": [
+          "cooked-wine",
+          "maderization",
+          "oxidation"
+        ],
+        "serving_implications": [
+          "drink-now",
+          "served-too-warm"
+        ],
+        "edge_count": 22,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "jammy",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "caramel",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "zinfandel",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "mendoza",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "barossa-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "barrel-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "associated_with",
+            "target": "served-too-warm",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "cooked-wine",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "maderization",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "oxidation",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "lightstrike",
+      "name": "Lightstrike",
+      "classification": "Physical",
+      "edges": {
+        "creates_descriptors": [
+          "rubber",
+          "vegetal",
+          "flat"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "floral",
+          "bright"
+        ],
+        "styles": [
+          "champagne",
+          "prosecco",
+          "sauvignon-blanc",
+          "riesling"
+        ],
+        "regions": [
+          "champagne",
+          "marlborough",
+          "mosel",
+          "loire-valley"
+        ],
+        "grapes": [
+          "riesling",
+          "sauvignon-blanc",
+          "chardonnay"
+        ],
+        "related_techniques": [
+          "traditional-method",
+          "charmant-method"
+        ],
+        "commonly_confused_with": [
+          "reduction",
+          "sulfur-dioxide-excess"
+        ],
+        "serving_implications": [
+          "chilled",
+          "sparkling-chilled"
+        ],
+        "edge_count": 23,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "rubber",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "vegetal",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "mosel",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "traditional-method",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "charmant-method",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "associated_with",
+            "target": "sparkling-chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "reduction",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "sulfur-dioxide-excess",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 23,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "refermentation",
+      "name": "Refermentation",
+      "classification": "Physical",
+      "edges": {
+        "creates_descriptors": [
+          "tart",
+          "sour"
+        ],
+        "reduces_descriptors": [
+          "clean",
+          "refined",
+          "elegant"
+        ],
+        "styles": [
+          "riesling",
+          "gewurztraminer",
+          "chenin-blanc",
+          "grenache"
+        ],
+        "regions": [
+          "loire-valley",
+          "alsace",
+          "beaujolais"
+        ],
+        "grapes": [
+          "riesling",
+          "chardonnay"
+        ],
+        "related_techniques": [
+          "malolactic-fermentation",
+          "filtration",
+          "unfiltered-bottling"
+        ],
+        "commonly_confused_with": [
+          "cloudiness",
+          "bottle-shock"
+        ],
+        "serving_implications": [
+          "chilled",
+          "drink-now"
+        ],
+        "edge_count": 21,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "tart",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "sour",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "clean",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "alsace",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "beaujolais",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "malolactic-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "filtration",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "unfiltered-bottling",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "cloudiness",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "bottle-shock",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 21,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "protein-haze",
+      "name": "Protein Haze",
+      "classification": "Physical",
+      "edges": {
+        "creates_descriptors": [
+          "flat"
+        ],
+        "reduces_descriptors": [
+          "bright",
+          "clean"
+        ],
+        "styles": [
+          "sauvignon-blanc",
+          "riesling",
+          "gewurztraminer",
+          "chenin-blanc"
+        ],
+        "regions": [
+          "marlborough",
+          "mosel",
+          "alsace",
+          "loire-valley"
+        ],
+        "grapes": [
+          "sauvignon-blanc",
+          "riesling"
+        ],
+        "related_techniques": [
+          "fining",
+          "filtration",
+          "cold-stabilization"
+        ],
+        "commonly_confused_with": [
+          "cloudiness",
+          "tartrate-crystals"
+        ],
+        "serving_implications": [
+          "chilled"
+        ],
+        "edge_count": 19,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "clean",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "mosel",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "alsace",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "fining",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "filtration",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "cold-stabilization",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "cloudiness",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "tartrate-crystals",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 19,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "tartrate-crystals",
+      "name": "Tartrate Crystals",
+      "classification": "Physical",
+      "edges": {
+        "creates_descriptors": [
+          "tart"
+        ],
+        "reduces_descriptors": [
+          "clean"
+        ],
+        "styles": [
+          "riesling",
+          "sauvignon-blanc",
+          "chardonnay",
+          "gewurztraminer"
+        ],
+        "regions": [
+          "mosel",
+          "marlborough",
+          "alsace",
+          "chile"
+        ],
+        "grapes": [
+          "riesling",
+          "sauvignon-blanc",
+          "chardonnay"
+        ],
+        "related_techniques": [
+          "cold-stabilization",
+          "filtration"
+        ],
+        "commonly_confused_with": [
+          "protein-haze",
+          "cloudiness"
+        ],
+        "serving_implications": [
+          "chilled",
+          "lightly-chilled"
+        ],
+        "edge_count": 19,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "tart",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "clean",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "mosel",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "alsace",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "chile",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "cold-stabilization",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "filtration",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "associated_with",
+            "target": "lightly-chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "protein-haze",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "cloudiness",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 19,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "mouse-taint",
+      "name": "Mouse Taint",
+      "classification": "Sensory",
+      "edges": {
+        "creates_descriptors": [
+          "sour",
+          "earthy"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "refined",
+          "elegant"
+        ],
+        "styles": [
+          "grenache",
+          "pinot-noir",
+          "chenin-blanc"
+        ],
+        "regions": [
+          "beaujolais",
+          "loire-valley",
+          "australia"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "chardonnay"
+        ],
+        "related_techniques": [
+          "native-fermentation",
+          "unfiltered-bottling"
+        ],
+        "commonly_confused_with": [
+          "lactobacillus",
+          "brettanomyces",
+          "geosmin"
+        ],
+        "serving_implications": [
+          "drink-now"
+        ],
+        "edge_count": 19,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "sour",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "beaujolais",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "native-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "unfiltered-bottling",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "lactobacillus",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "brettanomyces",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "geosmin",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 19,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "premature-oxidation",
+      "name": "Premature Oxidation",
+      "classification": "Sensory",
+      "edges": {
+        "creates_descriptors": [
+          "oxidized",
+          "nutty",
+          "flat"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "bright",
+          "elegant",
+          "refined"
+        ],
+        "styles": [
+          "chardonnay",
+          "chenin-blanc"
+        ],
+        "regions": [
+          "burgundy",
+          "beaujolais",
+          "loire-valley"
+        ],
+        "grapes": [
+          "chardonnay"
+        ],
+        "related_techniques": [
+          "barrel-aging",
+          "batonnage",
+          "lees-aging",
+          "malolactic-fermentation"
+        ],
+        "commonly_confused_with": [
+          "oxidation",
+          "maderization"
+        ],
+        "serving_implications": [
+          "drink-now"
+        ],
+        "edge_count": 20,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "oxidized",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "nutty",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "beaujolais",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "barrel-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "batonnage",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "lees-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "malolactic-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "oxidation",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "maderization",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 20,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "cooked-wine",
+      "name": "Cooked Wine",
+      "classification": "Sensory",
+      "edges": {
+        "creates_descriptors": [
+          "jammy",
+          "flat",
+          "caramel"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "bright",
+          "elegant",
+          "juicy"
+        ],
+        "styles": [
+          "zinfandel",
+          "cabernet-sauvignon",
+          "merlot",
+          "port"
+        ],
+        "regions": [
+          "napa-valley",
+          "barossa-valley",
+          "mendoza"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "pinot-noir"
+        ],
+        "related_techniques": [
+          "warm-fermentation"
+        ],
+        "commonly_confused_with": [
+          "heat-damage",
+          "maderization",
+          "oxidation"
+        ],
+        "serving_implications": [
+          "drink-now",
+          "served-too-warm"
+        ],
+        "edge_count": 22,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "jammy",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "caramel",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "juicy",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "zinfandel",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "barossa-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "mendoza",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "warm-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "associated_with",
+            "target": "served-too-warm",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "heat-damage",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "maderization",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "oxidation",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "cloudiness",
+      "name": "Cloudiness",
+      "classification": "Sensory",
+      "edges": {
+        "creates_descriptors": [
+          "flat"
+        ],
+        "reduces_descriptors": [
+          "bright",
+          "clean"
+        ],
+        "styles": [
+          "grenache",
+          "prosecco",
+          "chenin-blanc"
+        ],
+        "regions": [
+          "beaujolais",
+          "loire-valley",
+          "veneto"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "chardonnay"
+        ],
+        "related_techniques": [
+          "unfiltered-bottling",
+          "fining",
+          "filtration"
+        ],
+        "commonly_confused_with": [
+          "protein-haze",
+          "refermentation",
+          "unfiltered-bottling"
+        ],
+        "serving_implications": [
+          "chilled",
+          "extended-decant"
+        ],
+        "edge_count": 19,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "clean",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "beaujolais",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "veneto",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "unfiltered-bottling",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "fining",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "filtration",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "chilled",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "associated_with",
+            "target": "extended-decant",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "protein-haze",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "refermentation",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "unfiltered-bottling",
+            "target_kind": "winemaking_technique",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 19,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "bottle-shock",
+      "name": "Bottle Shock",
+      "classification": "Sensory",
+      "edges": {
+        "creates_descriptors": [
+          "flat"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "bright",
+          "complex"
+        ],
+        "styles": [
+          "chardonnay",
+          "pinot-noir",
+          "champagne",
+          "nebbiolo"
+        ],
+        "regions": [
+          "burgundy",
+          "champagne",
+          "napa-valley",
+          "piedmont"
+        ],
+        "grapes": [
+          "chardonnay",
+          "pinot-noir"
+        ],
+        "related_techniques": [
+          "traditional-method",
+          "filtration"
+        ],
+        "commonly_confused_with": [
+          "reduction",
+          "cork-taint"
+        ],
+        "serving_implications": [
+          "drink-now",
+          "no-decanting"
+        ],
+        "edge_count": 20,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "complex",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "piedmont",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "traditional-method",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "filtration",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "associated_with",
+            "target": "no-decanting",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "reduction",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "cork-taint",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 20,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "maderization",
+      "name": "Maderization",
+      "classification": "Additional",
+      "edges": {
+        "creates_descriptors": [
+          "caramel",
+          "nutty",
+          "oxidized"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "bright",
+          "floral",
+          "juicy"
+        ],
+        "styles": [
+          "madeira",
+          "sherry",
+          "port",
+          "chardonnay"
+        ],
+        "regions": [
+          "madeira",
+          "jerez",
+          "douro",
+          "burgundy"
+        ],
+        "grapes": [
+          "chardonnay",
+          "riesling"
+        ],
+        "related_techniques": [
+          "fortification",
+          "solera-system"
+        ],
+        "commonly_confused_with": [
+          "oxidation",
+          "cooked-wine",
+          "heat-damage"
+        ],
+        "serving_implications": [
+          "drink-now",
+          "fortified-service"
+        ],
+        "edge_count": 24,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "caramel",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "nutty",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "oxidized",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "juicy",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "madeira",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "sherry",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "madeira",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "jerez",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "douro",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "fortification",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "solera-system",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "associated_with",
+            "target": "fortified-service",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "oxidation",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "cooked-wine",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "heat-damage",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 24,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "mercaptans",
+      "name": "Mercaptans",
+      "classification": "Additional",
+      "edges": {
+        "creates_descriptors": [
+          "rubber",
+          "tar",
+          "vegetal"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "floral",
+          "elegant"
+        ],
+        "styles": [
+          "chardonnay",
+          "riesling",
+          "syrah-shiraz"
+        ],
+        "regions": [
+          "burgundy",
+          "rhone-valley",
+          "napa-valley"
+        ],
+        "grapes": [
+          "chardonnay",
+          "riesling"
+        ],
+        "related_techniques": [
+          "lees-aging",
+          "alcoholic-fermentation"
+        ],
+        "commonly_confused_with": [
+          "hydrogen-sulfide",
+          "reduction"
+        ],
+        "serving_implications": [
+          "splash-decant"
+        ],
+        "edge_count": 19,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "rubber",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "tar",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "vegetal",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "rhone-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "lees-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "alcoholic-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "splash-decant",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "hydrogen-sulfide",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "reduction",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 19,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "geosmin",
+      "name": "Geosmin",
+      "classification": "Additional",
+      "edges": {
+        "creates_descriptors": [
+          "earthy",
+          "vegetal"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "elegant",
+          "refined",
+          "floral"
+        ],
+        "styles": [
+          "pinot-noir",
+          "riesling",
+          "sauvignon-blanc"
+        ],
+        "regions": [
+          "burgundy",
+          "marlborough",
+          "loire-valley"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "riesling"
+        ],
+        "related_techniques": [
+          "native-fermentation"
+        ],
+        "commonly_confused_with": [
+          "brettanomyces",
+          "cork-taint"
+        ],
+        "serving_implications": [
+          "drink-now"
+        ],
+        "edge_count": 18,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "vegetal",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "native-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "brettanomyces",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "cork-taint",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 18,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "acetaldehyde",
+      "name": "Acetaldehyde",
+      "classification": "Additional",
+      "edges": {
+        "creates_descriptors": [
+          "oxidized",
+          "nutty",
+          "tart"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "floral",
+          "bright",
+          "juicy"
+        ],
+        "styles": [
+          "sherry",
+          "chardonnay",
+          "riesling"
+        ],
+        "regions": [
+          "jerez",
+          "burgundy",
+          "rioja"
+        ],
+        "grapes": [
+          "chardonnay",
+          "riesling"
+        ],
+        "related_techniques": [
+          "solera-system",
+          "barrel-aging"
+        ],
+        "commonly_confused_with": [
+          "oxidation",
+          "maderization",
+          "film-yeast"
+        ],
+        "serving_implications": [
+          "extended-decant",
+          "drink-now"
+        ],
+        "edge_count": 22,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "oxidized",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "nutty",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "tart",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "juicy",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "sherry",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "jerez",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "rioja",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "solera-system",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "barrel-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "extended-decant",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "oxidation",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "maderization",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "film-yeast",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "ethyl-acetate",
+      "name": "Ethyl Acetate",
+      "classification": "Additional",
+      "edges": {
+        "creates_descriptors": [
+          "sour",
+          "tart"
+        ],
+        "reduces_descriptors": [
+          "elegant",
+          "refined",
+          "complex"
+        ],
+        "styles": [
+          "grenache",
+          "port"
+        ],
+        "regions": [
+          "beaujolais",
+          "bordeaux"
+        ],
+        "grapes": [
+          "pinot-noir"
+        ],
+        "related_techniques": [
+          "native-fermentation"
+        ],
+        "commonly_confused_with": [
+          "volatile-acidity",
+          "acetobacter"
+        ],
+        "serving_implications": [
+          "drink-now"
+        ],
+        "edge_count": 14,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "sour",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "tart",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "complex",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "beaujolais",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "native-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "volatile-acidity",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "acetobacter",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 14,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "diacetyl-excess",
+      "name": "Diacetyl Excess",
+      "classification": "Additional",
+      "edges": {
+        "creates_descriptors": [
+          "buttery",
+          "cheesy"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "bright",
+          "floral"
+        ],
+        "styles": [
+          "chardonnay",
+          "chenin-blanc"
+        ],
+        "regions": [
+          "burgundy",
+          "napa-valley",
+          "marlborough"
+        ],
+        "grapes": [
+          "chardonnay"
+        ],
+        "related_techniques": [
+          "malolactic-fermentation",
+          "lees-aging",
+          "barrel-aging"
+        ],
+        "commonly_confused_with": [
+          "malolactic-fermentation",
+          "pediococcus"
+        ],
+        "serving_implications": [
+          "cool",
+          "cellar-temperature"
+        ],
+        "edge_count": 18,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "buttery",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "cheesy",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "malolactic-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "lees-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "barrel-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "cool",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "associated_with",
+            "target": "cellar-temperature",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "malolactic-fermentation",
+            "target_kind": "winemaking_technique",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "pediococcus",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 18,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "smoke-taint",
+      "name": "Smoke Taint",
+      "classification": "Additional",
+      "edges": {
+        "creates_descriptors": [
+          "smoky",
+          "tar",
+          "vegetal"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "floral",
+          "elegant",
+          "refined",
+          "juicy"
+        ],
+        "styles": [
+          "pinot-noir",
+          "chardonnay",
+          "cabernet-sauvignon",
+          "syrah-shiraz"
+        ],
+        "regions": [
+          "napa-valley",
+          "sonoma",
+          "australia",
+          "willamette-valley"
+        ],
+        "grapes": [
+          "pinot-noir",
+          "chardonnay",
+          "cabernet-sauvignon"
+        ],
+        "related_techniques": [
+          "reverse-osmosis",
+          "flash-detente"
+        ],
+        "commonly_confused_with": [
+          "toasty",
+          "oak-alternatives"
+        ],
+        "serving_implications": [
+          "drink-now"
+        ],
+        "edge_count": 24,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "smoky",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "tar",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "vegetal",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "juicy",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "sonoma",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "willamette-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "reverse-osmosis",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "flash-detente",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "toasty",
+            "target_kind": "descriptor",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "oak-alternatives",
+            "target_kind": "winemaking_technique",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 24,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "film-yeast",
+      "name": "Film Yeast",
+      "classification": "Additional",
+      "edges": {
+        "creates_descriptors": [
+          "oxidized",
+          "nutty",
+          "sour"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "bright",
+          "juicy"
+        ],
+        "styles": [
+          "sherry",
+          "port",
+          "madeira"
+        ],
+        "regions": [
+          "jerez",
+          "douro",
+          "madeira"
+        ],
+        "grapes": [
+          "chardonnay"
+        ],
+        "related_techniques": [
+          "solera-system",
+          "fortification",
+          "barrel-aging"
+        ],
+        "commonly_confused_with": [
+          "acetaldehyde",
+          "acetobacter",
+          "solera-system"
+        ],
+        "serving_implications": [
+          "drink-now"
+        ],
+        "edge_count": 20,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "oxidized",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "nutty",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "sour",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "juicy",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "sherry",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "madeira",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "jerez",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "douro",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "madeira",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "solera-system",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "fortification",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "barrel-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "acetaldehyde",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "acetobacter",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "solera-system",
+            "target_kind": "winemaking_technique",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 20,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "ladybug-taint",
+      "name": "Ladybug Taint",
+      "classification": "Additional",
+      "edges": {
+        "creates_descriptors": [
+          "vegetal",
+          "green",
+          "earthy"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "elegant",
+          "refined",
+          "floral"
+        ],
+        "styles": [
+          "riesling",
+          "pinot-noir",
+          "chardonnay"
+        ],
+        "regions": [
+          "germany",
+          "australia",
+          "usa",
+          "france"
+        ],
+        "grapes": [
+          "riesling",
+          "pinot-noir",
+          "chardonnay"
+        ],
+        "related_techniques": [
+          "gentle-press",
+          "whole-cluster-press"
+        ],
+        "commonly_confused_with": [
+          "green",
+          "vegetal"
+        ],
+        "serving_implications": [
+          "drink-now"
+        ],
+        "edge_count": 22,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "vegetal",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "green",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "germany",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "gentle-press",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "whole-cluster-press",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "green",
+            "target_kind": "descriptor",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "vegetal",
+            "target_kind": "descriptor",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 22,
+        "source_kind": "wine_fault"
+      }
+    },
+    {
+      "slug": "ullage-oxidation",
+      "name": "Ullage Oxidation",
+      "classification": "Additional",
+      "edges": {
+        "creates_descriptors": [
+          "oxidized",
+          "nutty",
+          "flat"
+        ],
+        "reduces_descriptors": [
+          "fresh",
+          "bright",
+          "complex",
+          "elegant"
+        ],
+        "styles": [
+          "cabernet-sauvignon",
+          "nebbiolo",
+          "port",
+          "pinot-noir"
+        ],
+        "regions": [
+          "bordeaux",
+          "burgundy",
+          "piedmont",
+          "napa-valley"
+        ],
+        "grapes": [
+          "cabernet-sauvignon",
+          "pinot-noir"
+        ],
+        "related_techniques": [
+          "barrel-aging",
+          "solera-system"
+        ],
+        "commonly_confused_with": [
+          "oxidation",
+          "maderization",
+          "cork-taint"
+        ],
+        "serving_implications": [
+          "extended-decant",
+          "drink-now"
+        ],
+        "edge_count": 24,
+        "typed_edges": [
+          {
+            "type": "creates_descriptor",
+            "target": "oxidized",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "nutty",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "creates_descriptor",
+            "target": "flat",
+            "target_kind": "descriptor",
+            "source_field": "creates_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "complex",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "reduces_descriptor",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "reduces_descriptors"
+          },
+          {
+            "type": "common_in",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "common_styles"
+          },
+          {
+            "type": "common_in",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "piedmont",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "common_in",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "common_regions"
+          },
+          {
+            "type": "associated_with",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "common_grapes"
+          },
+          {
+            "type": "associated_with",
+            "target": "barrel-aging",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "solera-system",
+            "target_kind": "winemaking_technique",
+            "source_field": "related_techniques"
+          },
+          {
+            "type": "associated_with",
+            "target": "extended-decant",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "associated_with",
+            "target": "drink-now",
+            "target_kind": "wine_serving",
+            "source_field": "serving_implications"
+          },
+          {
+            "type": "confused_with",
+            "target": "oxidation",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "maderization",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          },
+          {
+            "type": "confused_with",
+            "target": "cork-taint",
+            "target_kind": "wine_fault",
+            "source_field": "commonly_confused_with"
+          }
+        ],
+        "typed_edge_count": 24,
+        "source_kind": "wine_fault"
+      }
+    }
+  ]
+}

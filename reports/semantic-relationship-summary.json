@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-16T00:01:44.004Z",
-  "phase": "ONTOLOGY-01D",
+  "generated_at": "2026-07-16T01:45:56.697Z",
+  "phase": "ONTOLOGY-01E",
   "canonical_relationship_types": 53,
-  "typed_edges": 3699,
-  "explicit_typed_edges": 3699,
-  "total_edges_with_inferred_reverse": 5957,
+  "typed_edges": 4321,
+  "explicit_typed_edges": 4321,
+  "total_edges_with_inferred_reverse": 6855,
   "anonymous_edges_remaining": 0,
   "relationship_type_counts": {
     "typically_exhibits": 169,
@@ -24,22 +24,22 @@
     "contains": 39,
     "child_of": 226,
     "related_descriptor": 361,
-    "associated_with": 387,
+    "associated_with": 560,
     "recommended_for": 189,
-    "confused_with": 106,
-    "creates_descriptor": 166,
-    "common_in": 410,
-    "reduces_descriptor": 64,
+    "confused_with": 178,
+    "creates_descriptor": 239,
+    "common_in": 614,
+    "reduces_descriptor": 164,
     "opposite_descriptor": 140
   },
   "most_common_relationships": [
     {
       "type": "common_in",
-      "count": 410
+      "count": 614
     },
     {
       "type": "associated_with",
-      "count": 387
+      "count": 560
     },
     {
       "type": "similar_to",
@@ -54,6 +54,10 @@
       "count": 306
     },
     {
+      "type": "creates_descriptor",
+      "count": 239
+    },
+    {
       "type": "child_of",
       "count": 226
     },
@@ -66,22 +70,18 @@
       "count": 189
     },
     {
-      "type": "typically_exhibits",
-      "count": 169
-    },
-    {
-      "type": "creates_descriptor",
-      "count": 166
+      "type": "confused_with",
+      "count": 178
     }
   ],
   "least_used_relationships": [
     {
-      "type": "pairs_with",
-      "count": 72
+      "type": "produced_in",
+      "count": 90
     },
     {
-      "type": "reduces_descriptor",
-      "count": 64
+      "type": "pairs_with",
+      "count": 72
     },
     {
       "type": "substitute_for",
@@ -153,6 +153,13 @@
       "reduces_descriptor": 64,
       "confused_with": 70
     },
+    "wine_fault": {
+      "creates_descriptor": 73,
+      "reduces_descriptor": 100,
+      "common_in": 204,
+      "associated_with": 173,
+      "confused_with": 72
+    },
     "descriptor": {
       "child_of": 187,
       "related_descriptor": 251,
@@ -162,27 +169,27 @@
       "pairs_with": 38
     }
   },
-  "graph_density": 9.97,
+  "graph_density": 10.78,
   "validation_errors": 0,
   "traversal_benchmark": {
     "iterations": 3000,
-    "ms_total": 54.395,
-    "ms_per_lookup": 0.01813,
-    "keys_tested": 458,
+    "ms_total": 53.798,
+    "ms_per_lookup": 0.01793,
+    "keys_tested": 488,
     "relationship_types_tested": 30
   },
   "evidence_benchmark": {
     "iterations": 3000,
-    "ms_total": 8.264,
-    "ms_per_lookup": 0.00275,
-    "edges_tested": 70
+    "ms_total": 5.628,
+    "ms_per_lookup": 0.00188,
+    "edges_tested": 110
   },
-  "relationships_with_evidence": 70,
-  "relationships_without_evidence": 3603,
-  "evidence_coverage_pct": 1.91,
+  "relationships_with_evidence": 110,
+  "relationships_without_evidence": 4185,
+  "evidence_coverage_pct": 2.56,
   "confidence_distribution": {
-    "high": 51,
-    "medium": 19,
+    "high": 79,
+    "medium": 31,
     "low": 0,
     "unspecified": 0
   },
