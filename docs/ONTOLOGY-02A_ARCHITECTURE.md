@@ -234,24 +234,66 @@ Registration targets: `lib/entity-model.js`, `data/wine-taxonomy.json` meta.supp
   "meta": {
     "phase": "ONTOLOGY-02A",
     "tier": 1,
+    "catalog_version": "1.0.0",
+    "entity_type": "protein_food",
     "description": "Tier 1 Food Ontology — protein food entities with biological hierarchy.",
-    "entity_count": 150,
+    "entity_count": 0,
     "food_ontology_version": "1.0",
-    "wine_ontology_version": "2.0"
+    "wine_ontology_version": "2.0",
+    "ontology_foundation_version": "1.0.0"
   },
-  "categories": [ /* protein_category entries */ ],
-  "groups": [ /* protein_group entries */ ],
-  "protein_foods": [
-    {
-      "id": "food.protein.beef.ribeye",
-      "slug": "ribeye",
-      "entity_type": "protein_food",
-      "scientific_name": "Bos taurus"
-      /* ... */
-    }
-  ]
+  "categories": [],
+  "groups": [],
+  "protein_foods": []
 }
 ```
+
+Every catalog is versioned independently. `catalog_version` tracks schema and content revisions for migrations and validation. `food_ontology_version` tracks knowledge program releases; `wine_ontology_version` records the wine graph the food catalog was built against.
+
+### Ontology Identity Rule
+
+Every ontology entity must have **three distinct identities**:
+
+| Identity | Field | Purpose | Mutable? |
+|----------|-------|---------|----------|
+| Ontology ID | `id` | Permanent graph identity | ❌ Never |
+| Slug | `slug` | Public URL / SEO | ✅ Yes |
+| Display Name | `name` | Human-readable label | ✅ Yes |
+
+Example:
+
+```jsonc
+{
+  "id": "food.protein.beef.ribeye",
+  "slug": "ribeye",
+  "name": "Ribeye Steak"
+}
+```
+
+If the display name changes to "Boneless Ribeye Steak" or the slug changes to `boneless-ribeye`, the ontology `id` **never changes**. Graph edges, evidence annotations, and external references remain stable.
+
+This distinction becomes critical as the graph grows to thousands of entities.
+
+### Reserved Fields (all entity levels)
+
+| Field | Requirement | Purpose |
+|-------|-------------|---------|
+| `scientific_name` | Required on `protein_food`; `""` if unknown | Nutrition, sustainability, regional naming, multilingual |
+| `external_ids` | Required; `{}` if empty | External integrations separate from ontology IDs |
+
+```jsonc
+"external_ids": {}
+
+// Future example:
+"external_ids": {
+  "wikidata": "Q12345",
+  "usda_fooddata": "...",
+  "gbif": "...",
+  "itis": "..."
+}
+```
+
+Do not store external system identifiers in `id` or `slug`. Ontology IDs are PairingMethod-native and permanent.
 
 ### Required Fields — All Nodes
 
@@ -263,19 +305,12 @@ Registration targets: `lib/entity-model.js`, `data/wine-taxonomy.json` meta.supp
 | `entity_type` | `protein_category`, `protein_group`, or `protein_food` |
 | `domain` | `culinary` |
 | `summary` | 2–4 sentences, pairing-relevant |
+| `scientific_name` | On `protein_food` only; `""` if unknown |
+| `external_ids` | Object; `{}` if empty — reserved for wikidata, USDA, GBIF, ITIS, etc. |
 
 ### 7.1 Stable Ontology Identifiers
 
-Every entity carries two distinct identifiers:
-
-| Identifier | Purpose | Example |
-|------------|---------|---------|
-| **`id`** | Graph permanence, evidence refs, external integrations | `food.protein.beef.ribeye` |
-| **`slug`** | URLs, SEO, human-readable paths | `ribeye` |
-
-**Slug** is optimized for URLs and search. **Ontology ID** is optimized for permanence and graph references.
-
-If a slug is renamed (`chicken-breast` → `boneless-skinless-chicken-breast`), the ontology `id` remains stable. Evidence annotations, typed edges, and external references continue to resolve without migration.
+See **Ontology Identity Rule** above. Every entity carries `id` (immutable), `slug` (mutable URL key), and `name` (mutable display label).
 
 #### ID Format
 
@@ -307,6 +342,7 @@ Rules:
   "domain": "culinary",
   "parent_group": "beef",
   "scientific_name": "Bos taurus",
+  "external_ids": {},
   "summary": "..."
 }
 ```
@@ -317,6 +353,7 @@ Rules:
 |-------|-------------|
 | `parent_group` | Slug of parent `protein_group` |
 | `scientific_name` | Binomial or common scientific name; **empty string `""` if unknown** (field reserved — do not omit) |
+| `external_ids` | Object; **`{}` if empty** (field reserved — do not omit) |
 | `aliases` | Search aliases (e.g. "NY strip" → striploin) |
 | `fat_content` | `lean` \| `moderate` \| `rich` |
 | `texture` | Primary texture descriptor slugs (e.g. tender, firm, flaky) |
@@ -438,29 +475,29 @@ Reuse `data/relationship-evidence.json` annotation format:
 
 ## 10. Implementation Lifecycle
 
-Every Food Ontology project repeats the proven Wine Ontology lifecycle:
+Every Food Ontology project follows this sequence — **no shortcuts**:
 
 ```text
-Entity Definition (this document)
+protein-food-catalog.json   (SSOT — begin here)
         ↓
-Catalog SSOT (data/protein-food-catalog.json)
+bootstrap
         ↓
-Typed Relationships (lib/typed-edges.js — buildProteinFoodTypedEdges)
+validator
         ↓
-Evidence (scripts/bootstrap-protein-food-evidence.js)
+relationship mapper
         ↓
-Validation (scripts/validate-ontology-02a.js)
+generator
         ↓
-Generators (scripts/generate-protein-foods.js)
+pages
         ↓
-Pages (/proteins/{slug}/)
+search
         ↓
-Search (assets/js/protein-food-search-index.js)
+knowledge density report
         ↓
-Knowledge Density Report
-        ↓
-Domain Certification
+certification
 ```
+
+The Wine Ontology proved this lifecycle works. Do not generate pages, search indexes, or structured data before the catalog and typed relationships exist.
 
 ### Planned Artifacts
 

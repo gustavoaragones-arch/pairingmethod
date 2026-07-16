@@ -47,12 +47,14 @@ Every first-class entity **must** provide:
 
 | Field | Requirement |
 |-------|-------------|
-| `id` | Stable internal identifier (taxonomy nodes) or equivalent unique key |
-| `slug` | URL-safe canonical identifier; unique within entity type; may change for SEO |
+| `id` | Stable ontology identifier — **immutable** once assigned |
+| `slug` | URL-safe canonical identifier; unique within entity type; **mutable** for SEO |
+| `name` | Display name — **mutable** |
 | `entity_type` | One of the supported types below |
 | `domain` | `wine`, `culinary`, or `shared` |
+| `external_ids` | Object for external system IDs (`{}` if empty) — Food Ontology onward |
 
-**Food Ontology IDs:** Culinary entities use dot-separated permanent identifiers (e.g. `food.protein.beef.ribeye`). Slugs serve URLs; IDs serve graph permanence. See [`ONTOLOGY-02A_ARCHITECTURE.md`](ONTOLOGY-02A_ARCHITECTURE.md) §7.1.
+**Food Ontology IDs:** Culinary entities use dot-separated permanent identifiers (e.g. `food.protein.beef.ribeye`). Slugs serve URLs; IDs serve graph permanence. See [`ONTOLOGY-02A_ARCHITECTURE.md`](ONTOLOGY-02A_ARCHITECTURE.md).
 
 Catalog entities (styles, regions, serving, techniques) additionally carry editorial fields (`name`, `summary`, `faq`, etc.) defined per catalog schema. Generators read catalogs only — never hardcoded entity lists.
 
@@ -92,7 +94,7 @@ Architecture specification: [`ONTOLOGY-02A_ARCHITECTURE.md`](ONTOLOGY-02A_ARCHIT
 
 Culinary entity types are registered in the entity model but have **zero active instances** until the Food Ontology Program begins with ONTOLOGY-02A.
 
-**Food catalog fields (02A):** `protein_food` entities require `scientific_name` (empty string if unknown — field reserved for future nutrition, sustainability, and multilingual use).
+**Food catalog fields (02A):** `protein_food` entities require `scientific_name` (`""` if unknown) and `external_ids` (`{}` if empty). Catalog `meta` must include `catalog_version` (semver).
 
 ---
 

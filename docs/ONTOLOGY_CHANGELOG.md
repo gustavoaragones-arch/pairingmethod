@@ -729,6 +729,29 @@ A domain is considered **complete** only when it satisfies **all** of the follow
 
 This rule applies to every future ontology project in the Food Ontology Program and beyond.
 
+### Ontology Identity Rule
+
+Every ontology entity must have **three distinct identities**:
+
+| Identity | Field | Purpose | Mutable? |
+|----------|-------|---------|----------|
+| Ontology ID | `id` | Permanent graph identity | ❌ Never |
+| Slug | `slug` | Public URL / SEO | ✅ Yes |
+| Display Name | `name` | Human-readable label | ✅ Yes |
+
+Ontology IDs are PairingMethod-native (e.g. `food.protein.beef.ribeye`). External system identifiers belong in `external_ids`, never in `id` or `slug`. See [`ONTOLOGY-02A_ARCHITECTURE.md`](ONTOLOGY-02A_ARCHITECTURE.md).
+
+### Catalog Versioning
+
+Every domain catalog carries independent versioning in `meta`:
+
+| Field | Purpose |
+|-------|---------|
+| `catalog_version` | Schema and content revision (semver) |
+| `food_ontology_version` | Food knowledge program release |
+| `wine_ontology_version` | Wine graph version the catalog was built against |
+| `ontology_foundation_version` | Platform foundation version consumed |
+
 ### Cross-Domain Connectivity Rule
 
 Every new Food Ontology entity must connect to **at least one Wine Ontology entity** before domain certification.
