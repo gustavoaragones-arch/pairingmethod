@@ -43,8 +43,8 @@ Domain-specific knowledge versions expand **what** the graph knows:
 
 | Domain | Version scheme | Current |
 |--------|----------------|---------|
-| Wine Ontology | v1.x | **v1.5** (in progress toward v1.6) |
-| Culinary Ontology | v2.x | Not started |
+| Wine Ontology | v1.x → v2.x | **v2.0 Certified** (v2.1 maintenance planned) |
+| Culinary Ontology | v2.x | Not started (Culinary Ontology Program) |
 | Future domains | Independent semantic versions | Planned |
 
 A knowledge release may add entities and relationships without changing foundation primitives. For example, ONTOLOGY-01D (Winemaking Techniques) added 60 entities and 1,074 typed edges while consuming Ontology Foundation v1.0 unchanged.
@@ -410,6 +410,168 @@ SSOT vocabulary extended (blocker only): `similar_to`, `confused_with`, and `ass
 
 ---
 
+## Wine Ontology v1.6 — Wine Faults
+
+**Phase:** ONTOLOGY-01E  
+**Commit:** `fbd4fe8` — *Introduce Wine Fault entity graph*  
+**Catalog version:** `wine_ontology_version: 1.6`
+
+### What was added
+
+- **30** wine fault entities in `data/wine-fault-catalog.json`
+- Fault hub + **30** fault pages at `/faults/{slug}/`
+- Fault search index (`assets/js/wine-fault-search-index.js`)
+- **40** fault evidence annotations added to relationship evidence SSOT
+
+### New entity type
+
+- `wine_fault`
+
+### Relationships consumed (existing canonical types)
+
+| Catalog field | Canonical type |
+|---------------|----------------|
+| `creates_descriptors` | `creates_descriptor` |
+| `reduces_descriptors` | `reduces_descriptor` |
+| `common_styles`, `common_regions`, `common_techniques` | `common_in` |
+| `related_faults`, `related_techniques` | `associated_with` |
+| `confused_with_faults` | `confused_with` |
+
+SSOT vocabulary extended (blocker only): `confused_with`, `similar_to`, and `associated_with` now allow `wine_fault` as source/target.
+
+### Evidence
+
+| Metric | Value |
+|--------|-------|
+| Total evidence annotations | 110 |
+| Wine fault annotations | 40 |
+| Other domains (technique, style, region, descriptor, serving, grape) | 70 |
+| Evidence coverage | 2.56% |
+| Confidence (high / medium) | 79 / 31 |
+
+### Metrics
+
+| Metric | Before (01D) | After (01E) | Delta | Source |
+|--------|--------------|-------------|-------|--------|
+| Entities | 371 | **401** | +30 | `reports/ontology-coverage.json` |
+| Explicit typed edges | 3,699 | **4,321** | +622 | `reports/ontology-coverage.json` |
+| Fault graph edges | — | **622** | — | `reports/wine-fault-graph-edges.json` |
+| Evidence annotations | 70 | **110** | +40 | `data/relationship-evidence.json` |
+| Pages | 412 | **443** | +31 | Sitemap |
+| Fault pages | — | **31** (30 + hub) | +31 | Generated |
+| Search entities | 371 | **401** | +30 | All search indexes |
+| Sitemap URLs | 412 | **443** | +31 | `reports/ontology-coverage.json` |
+| Avg relationships / entity | 8.9 | **9.8** | +0.9 | `reports/ontology-coverage.json` |
+| Graph density | 9.97 | **10.78** | +0.81 | `reports/ontology-coverage.json` |
+| Fully connected entities | 58.7% | **61.9%** | +3.2pp | `reports/ontology-coverage.json` |
+| Connected components | 1 | **1** | — | `reports/wine-ontology-certification.json` |
+| Orphans | 0 | **0** | — | `reports/ontology-coverage.json` |
+| Broken edges | 0 | **0** | — | `reports/ontology-coverage.json` |
+
+### Semantic capabilities unlocked
+
+- Fault reasoning paths: Fault → creates_descriptor → Style → pairs_with
+- Example chain: Brettanomyces → barnyard → Pinot Noir → earthy pairings
+- Cross-domain enrichment: 105 pre-existing entities gained new fault relationships
+- Fault search (brettanomyces, cork taint, oxidation, volatile acidity)
+
+### Ontology Impact Report
+
+| Domain | Entities enriched |
+|--------|------------------:|
+| Wine Regions | 25 |
+| Descriptors | 26 |
+| Winemaking Techniques | 21 |
+| Wine Styles | 17 |
+| Serving & Service | 11 |
+| Grape Varieties | 5 |
+
+---
+
+## Wine Ontology v2.0 — Certified
+
+**Phase:** ONTOLOGY-01F  
+**Commit:** ONTOLOGY-01F — *Certify Wine Ontology v2.0*  
+**Status:** **CERTIFIED WITH MINOR ISSUES**
+
+This is a certification and release-gate phase — not a content expansion. No new entity types, relationship types, or generators were introduced.
+
+### Certification decision
+
+**CERTIFIED WITH MINOR ISSUES** — approved for production and as the stable foundation for the Culinary Ontology Program.
+
+No blocking issues. Minor findings are editorial and density improvements, deferred to **Wine Ontology v2.1** (maintenance release).
+
+### Deliverables
+
+| Artifact | Path |
+|----------|------|
+| Machine-readable audit | `reports/wine-ontology-certification.json` |
+| Public milestone document | `docs/WINE_ONTOLOGY_V2.md` |
+| Reproducible audit runner | `scripts/wine-ontology-certification.js` |
+
+### Certification metrics (authoritative)
+
+| Metric | Value |
+|--------|------:|
+| Total entities | 401 |
+| Explicit typed edges | 4,321 |
+| Evidence annotations | 110 |
+| Graph density | 10.78 |
+| Connected components | **1** |
+| Orphan entities | **0** |
+| Broken graph edges | **0** |
+| Search coverage | 100% |
+| Fully connected entities | 61.9% |
+
+### Density by domain (avg edges / entity)
+
+| Domain | Avg edges / entity |
+|--------|-------------------:|
+| Wine Styles | 21.32 |
+| Wine Faults | 20.73 |
+| Winemaking Techniques | 17.90 |
+| Wine Regions | 17.67 |
+| Serving & Service | 12.78 |
+| Grape Varieties | 7.60 |
+| Descriptors | 3.09 |
+
+### Minor issues (deferred to v2.1)
+
+- Evidence coverage 2.56% (below 5% aspirational target)
+- 135 nodes with degree &lt; 5 in semantic graph
+- 51 regions and 40 serving entities missing `beginner_notes`
+- 30 winemaking techniques missing FAQ entries
+- Duplicate SEO title (`too-warm` / `served-too-warm`)
+- One marketing-language flag (nebbiolo)
+- Optional grape variety reference pages
+
+### Validations passed
+
+- `validate:ontology-01e`
+- `validate:ontology-01d`
+- `validate:ontology-01c6`
+- `validate:knowledge-04`
+- Homepage unchanged
+- Pairing engine unchanged
+
+---
+
+## Wine Ontology v2.1 — Editorial & Density Improvements (planned)
+
+**Status:** Maintenance release — not a blocker for Culinary Ontology Program
+
+Planned improvements from ONTOLOGY-01F certification findings:
+
+- Beginner notes completion (regions, serving)
+- FAQ completion (winemaking techniques)
+- Evidence expansion toward 5% coverage
+- SEO deduplication and marketing-language cleanup
+- Low-degree descriptor enrichment
+- Optional grape variety reference pages
+
+---
+
 ## Timeline
 
 ```text
@@ -427,20 +589,24 @@ ONTOLOGY-01C.6 — Evidence Layer (Foundation v1.0)
         ↓
 ONTOLOGY-01D — Winemaking Techniques (v1.5)
         ↓
-ONTOLOGY-01E — Wine Faults (planned, v1.6)
+ONTOLOGY-01E — Wine Faults (v1.6)
         ↓
-Phase II — Culinary Ontology (planned, v2.x)
+ONTOLOGY-01F — Wine Ontology Certification (v2.0 Certified)
         ↓
-Phase III — Pairing Intelligence (planned)
+Wine Ontology v2.1 — Editorial & Density Improvements (planned, maintenance)
         ↓
-Phase IV — Digital Sommelier (planned)
+Culinary Ontology Program — 02A Proteins → 02G Cuisines (planned)
+        ↓
+Pairing Intelligence (planned)
+        ↓
+Digital Sommelier (planned)
 ```
 
 ---
 
 ## Current State
 
-**As of:** 2026-07-16 (post ONTOLOGY-01D)
+**As of:** 2026-07-16 (post ONTOLOGY-01F — Wine Ontology v2.0 Certified)
 
 ### Ontology Foundation
 
@@ -454,67 +620,69 @@ Phase IV — Digital Sommelier (planned)
 | Validation Framework | Complete — Frozen |
 | Coverage Dashboard | Complete — Frozen |
 
+**Ontology Foundation v1.0 — Complete.**
+
 ### Wine Ontology
 
 | Entity Type | Count | Pages | Status |
 |-------------|-------|-------|--------|
 | Descriptors | 187 | 187 | Complete |
 | Category Hubs | 12 | 12 | Complete |
-| Grape Varieties | 5 | 5 | Complete |
+| Grape Varieties | 5 | — | Complete (graph hubs) |
 | Wine Styles | 28 | 28 | Complete |
 | Wine Regions | 51 | 51 | Complete |
 | Serving & Service | 40 | 40 | Complete |
 | Winemaking Techniques | 60 | 60 | Complete |
-| Wine Faults | 0 | 0 | **Next** |
+| Wine Faults | 30 | 30 | Complete |
 
-**Wine Ontology status:** In progress (v1.5 shipped; v1.6 pending Wine Faults)
+**Wine Ontology v2.0 — Certified.** Maintenance improvements planned for v2.1.
 
 ### Graph Summary (current)
 
 | Metric | Value |
 |--------|-------|
-| Total entities | 371 |
-| Explicit typed edges | 3,699 |
-| Total edges (with inferred reverses) | 5,957 |
+| Total entities | 401 |
+| Explicit typed edges | 4,321 |
+| Total edges (with inferred reverses) | 6,855 |
 | Canonical relationship types | 53 |
-| Evidence annotations | 70 |
-| Evidence coverage | 1.91% |
-| Graph density | 9.97 |
-| Avg relationships / entity | 8.9 |
-| Fully connected entities | 58.7% |
-| Orphan entities | 0 |
-| Broken graph edges | 0 |
-| Sitemap URLs | 412 |
-| Unified search entities | 371 (187 + 28 + 51 + 40 + 60 + 5 grapes) |
+| Evidence annotations | 110 |
+| Evidence coverage | 2.56% |
+| Graph density | 10.78 |
+| Avg relationships / entity | 9.8 |
+| Connected components | **1** |
+| Fully connected entities | 61.9% |
+| Orphan entities | **0** |
+| Broken graph edges | **0** |
+| Sitemap URLs | 443 |
+| Unified search entities | 401 |
 
-**Next milestone:** ONTOLOGY-01E — Wine Faults (~25–35 first-class fault entities)
+**Next milestone:** Culinary Ontology Program — ONTOLOGY-02A (Proteins)
 
 ---
 
 ## Long-Term Vision
 
-### Phase I — Wine Knowledge Platform
+### Phase I — Wine Knowledge Platform (complete)
 
-Complete the wine domain before crossing into food. One remaining major area: **Wine Faults** (ONTOLOGY-01E). When faults ship, the Wine Ontology is functionally complete.
+Wine Ontology v2.0 certified. All seven major wine domains represented in a single connected semantic graph.
 
-### Phase II — Culinary Ontology (v2.x)
+### Culinary Ontology Program
 
-Planned entity domains, in recommended order:
+PairingMethod expands from a wine knowledge platform into a semantic knowledge platform. The Culinary Ontology Program follows the same frozen-foundation pattern established by the Wine Ontology.
 
-| Phase | Domain |
-|-------|--------|
-| 02A | Proteins |
-| 02B | Cooking Techniques |
-| 02C | Sauces |
-| 02D | Ingredients |
-| 02E | Herbs & Spices |
-| 02F | Vegetables |
-| 02G | Cheeses |
-| 02H | Starches & Grains |
-| 02I | Cuisines |
-| 02J | Desserts |
+| Project | Domain |
+|---------|--------|
+| ONTOLOGY-02A | Proteins |
+| ONTOLOGY-02B | Cooking Techniques |
+| ONTOLOGY-02C | Sauces |
+| ONTOLOGY-02D | Ingredients |
+| ONTOLOGY-02E | Herbs & Spices |
+| ONTOLOGY-02F | Cheeses |
+| ONTOLOGY-02G | Cuisines |
 
-### Phase III — Pairing Intelligence
+Wine Ontology v2.1 maintenance (editorial and density improvements) proceeds in parallel — it does not block the Culinary Ontology Program.
+
+### Pairing Intelligence
 
 Emerges from the existing graph — no new engine required:
 
@@ -530,7 +698,7 @@ Example reasoning path (future):
 Grilled Steak → High Maillard → Pairs with High Tannin → Cabernet Sauvignon → Napa Valley
 ```
 
-### Phase IV — Digital Sommelier
+### Digital Sommelier
 
 - Natural-language reasoning over semantic paths
 - Meal planner and multi-course pairing
@@ -542,6 +710,21 @@ Every explanation sentence maps to a typed relationship traversal already in the
 ---
 
 ## Maintenance Rules
+
+### Domain Completion Rule
+
+A domain is considered **complete** only when it satisfies **all** of the following:
+
+1. All major concepts represented
+2. Single connected component (graph integrates with existing ontology)
+3. Zero orphan entities
+4. Search coverage ≥ 99%
+5. Structured data coverage ≥ 99%
+6. Editorial audit passes without blocking issues
+7. Certification report generated (`reports/wine-ontology-certification.json` or domain equivalent)
+8. Public milestone document published (`docs/WINE_ONTOLOGY_V2.md` or domain equivalent)
+
+This rule applies to every future ontology project in the Culinary Ontology Program and beyond.
 
 Every ontology phase **must** update this changelog before the phase is considered complete.
 
@@ -590,7 +773,7 @@ Entity types defined in the foundation model (current utilization):
 | `wine_region` | wine | Active (51) |
 | `wine_serving` | wine | Active (40) |
 | `winemaking_technique` | wine | Active (60) |
-| `wine_fault` | wine | Defined, pending |
+| `wine_fault` | wine | Active (30) |
 | `glassware` | wine | Absorbed into `wine_serving` |
 | `food` | culinary | Planned |
 | `protein` | culinary | Planned |

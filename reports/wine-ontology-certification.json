@@ -1,0 +1,1249 @@
+{
+  "generated_at": "2026-07-16T02:59:14.724Z",
+  "phase": "ONTOLOGY-01F",
+  "certification_decision": "CERTIFIED WITH MINOR ISSUES",
+  "blockers": [],
+  "minor_issues": [
+    "Evidence coverage 2.56% below 5% target",
+    "135 nodes with degree < 5 in semantic graph"
+  ],
+  "versions": {
+    "platform": "Ontology Foundation v1.0",
+    "wine_ontology": "v2.0",
+    "knowledge_version": "1.6",
+    "ontology_foundation_version": "2.0.0"
+  },
+  "coverage_audit": [
+    {
+      "domain": "Descriptors",
+      "entity_type": "descriptor",
+      "entity_count": 187,
+      "page_count": 0,
+      "hub_pages": 12,
+      "search_coverage": 187,
+      "search_pct": 100,
+      "structured_data": {
+        "total": 12,
+        "web_page": 0,
+        "breadcrumb": 12,
+        "faq_page": 12,
+        "canonical": 12,
+        "extensionless_canonical": 12
+      },
+      "graph_integration": "taxonomy + typed descriptor edges"
+    },
+    {
+      "domain": "Wine Styles",
+      "entity_type": "wine_style",
+      "entity_count": 28,
+      "page_count": 28,
+      "search_coverage": 28,
+      "search_pct": 100,
+      "structured_data": {
+        "total": 28,
+        "web_page": 28,
+        "breadcrumb": 28,
+        "faq_page": 28,
+        "canonical": 28,
+        "extensionless_canonical": 28
+      },
+      "catalog_gaps": [
+        {
+          "slug": "nebbiolo",
+          "field": "marketing_language",
+          "pattern": "\\bunforgettable\\b"
+        }
+      ],
+      "evidence_count": 15
+    },
+    {
+      "domain": "Wine Regions",
+      "entity_type": "wine_region",
+      "entity_count": 51,
+      "page_count": 51,
+      "search_coverage": 51,
+      "search_pct": 100,
+      "structured_data": {
+        "total": 51,
+        "web_page": 51,
+        "breadcrumb": 51,
+        "faq_page": 51,
+        "canonical": 51,
+        "extensionless_canonical": 51
+      },
+      "catalog_gaps": [
+        {
+          "slug": "france",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "italy",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "spain",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "germany",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "portugal",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "usa",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "australia",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "new-zealand",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "argentina",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "chile",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "austria",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "south-africa",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "bordeaux",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "burgundy",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "chablis",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "champagne",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "loire-valley",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "rhone-valley",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "alsace",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "beaujolais",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "provence",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "cahors",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "piedmont",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "langhe",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "barolo",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "tuscany",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "veneto",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "sicily",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "rioja",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "ribera-del-duero",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "priorat",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "rias-baixas",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "jerez",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "penedes",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "mosel",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "rheingau",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "douro",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "madeira",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "napa-valley",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "sonoma",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "willamette-valley",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "barossa-valley",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "margaret-river",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "yarra-valley",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "coonawarra",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "clare-valley",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "marlborough",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "central-otago",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "mendoza",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "maipo-valley",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "colchagua-valley",
+          "field": "beginner_notes"
+        }
+      ],
+      "evidence_count": 5
+    },
+    {
+      "domain": "Grape Varieties",
+      "entity_type": "grape_variety",
+      "entity_count": 5,
+      "page_count": 0,
+      "search_coverage": 5,
+      "search_pct": 100,
+      "structured_data": {
+        "total": 0,
+        "web_page": 0,
+        "breadcrumb": 0,
+        "faq_page": 0,
+        "canonical": 0,
+        "extensionless_canonical": 0
+      }
+    },
+    {
+      "domain": "Serving & Service",
+      "entity_type": "wine_serving",
+      "entity_count": 40,
+      "page_count": 40,
+      "search_coverage": 40,
+      "search_pct": 100,
+      "structured_data": {
+        "total": 40,
+        "web_page": 40,
+        "breadcrumb": 40,
+        "faq_page": 40,
+        "canonical": 40,
+        "extensionless_canonical": 40
+      },
+      "catalog_gaps": [
+        {
+          "slug": "ice-cold",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "chilled",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "cool",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "cellar-temperature",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "room-temperature",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "too-warm",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "universal-wine-glass",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "bordeaux-glass",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "burgundy-glass",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "white-wine-glass",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "champagne-flute",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "champagne-tulip",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "coupe",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "dessert-wine-glass",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "no-decanting",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "splash-decant",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "15-minutes",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "30-minutes",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "1-hour",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "2-hours",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "extended-decant",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "drink-now",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "short-term-aging",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "medium-term-aging",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "long-term-aging",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "early-drinking",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "peak-window",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "mature",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "fully-mature",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "served-too-cold",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "served-too-warm",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "over-decanted",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "under-decanted",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "wrong-glass",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "oxidized-after-opening",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "ideal-serving-temperature",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "lightly-chilled",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "sparkling-chilled",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "fortified-service",
+          "field": "beginner_notes"
+        },
+        {
+          "slug": "aromatic-white-service",
+          "field": "beginner_notes"
+        }
+      ],
+      "evidence_count": 2
+    },
+    {
+      "domain": "Winemaking Techniques",
+      "entity_type": "winemaking_technique",
+      "entity_count": 60,
+      "page_count": 60,
+      "search_coverage": 60,
+      "search_pct": 100,
+      "structured_data": {
+        "total": 60,
+        "web_page": 60,
+        "breadcrumb": 60,
+        "faq_page": 30,
+        "canonical": 60,
+        "extensionless_canonical": 60
+      },
+      "catalog_gaps": [
+        {
+          "slug": "semi-carbonic-maceration",
+          "field": "faq"
+        },
+        {
+          "slug": "cold-soak",
+          "field": "faq"
+        },
+        {
+          "slug": "flash-detente",
+          "field": "faq"
+        },
+        {
+          "slug": "short-maceration",
+          "field": "faq"
+        },
+        {
+          "slug": "whole-berry-fermentation",
+          "field": "faq"
+        },
+        {
+          "slug": "whole-cluster-press",
+          "field": "faq"
+        },
+        {
+          "slug": "gentle-press",
+          "field": "faq"
+        },
+        {
+          "slug": "basket-press",
+          "field": "faq"
+        },
+        {
+          "slug": "stainless-steel-aging",
+          "field": "faq"
+        },
+        {
+          "slug": "concrete-tank-aging",
+          "field": "faq"
+        },
+        {
+          "slug": "concrete-egg-aging",
+          "field": "faq"
+        },
+        {
+          "slug": "amphora-aging",
+          "field": "faq"
+        },
+        {
+          "slug": "new-french-oak",
+          "field": "faq"
+        },
+        {
+          "slug": "new-american-oak",
+          "field": "faq"
+        },
+        {
+          "slug": "neutral-oak",
+          "field": "faq"
+        },
+        {
+          "slug": "large-oak-foudres",
+          "field": "faq"
+        },
+        {
+          "slug": "oak-alternatives",
+          "field": "faq"
+        },
+        {
+          "slug": "transfer-method",
+          "field": "faq"
+        },
+        {
+          "slug": "continuous-method",
+          "field": "faq"
+        },
+        {
+          "slug": "cold-stabilization",
+          "field": "faq"
+        },
+        {
+          "slug": "filtration",
+          "field": "faq"
+        },
+        {
+          "slug": "crossflow-filtration",
+          "field": "faq"
+        },
+        {
+          "slug": "micro-oxygenation",
+          "field": "faq"
+        },
+        {
+          "slug": "reverse-osmosis",
+          "field": "faq"
+        },
+        {
+          "slug": "cryoextraction",
+          "field": "faq"
+        },
+        {
+          "slug": "pigeage",
+          "field": "faq"
+        },
+        {
+          "slug": "pumpover",
+          "field": "faq"
+        },
+        {
+          "slug": "acidification",
+          "field": "faq"
+        },
+        {
+          "slug": "riddling",
+          "field": "faq"
+        },
+        {
+          "slug": "devatting",
+          "field": "faq"
+        }
+      ],
+      "evidence_count": 44
+    },
+    {
+      "domain": "Wine Faults",
+      "entity_type": "wine_fault",
+      "entity_count": 30,
+      "page_count": 30,
+      "search_coverage": 30,
+      "search_pct": 100,
+      "structured_data": {
+        "total": 30,
+        "web_page": 30,
+        "breadcrumb": 30,
+        "faq_page": 30,
+        "canonical": 30,
+        "extensionless_canonical": 30
+      },
+      "catalog_gaps": [],
+      "evidence_count": 40
+    }
+  ],
+  "graph_health": {
+    "total_entities": 401,
+    "total_typed_relationships": 4321,
+    "total_evidence_annotations": 110,
+    "relationship_density": 10.78,
+    "evidence_density_pct": 2.56,
+    "connected_components": 1,
+    "largest_component_size": 488,
+    "weakly_connected_nodes": 135,
+    "orphan_entities": 0,
+    "broken_graph_edges": 0,
+    "fully_connected_pct": 61.9,
+    "relationship_distribution": {
+      "typically_exhibits": 169,
+      "contains_grape": 48,
+      "pairs_best_with": 39,
+      "similar_to": 365,
+      "substitute_for": 57,
+      "produced_in": 90,
+      "recommended_temperature": 28,
+      "recommended_glass": 28,
+      "recommended_decanting": 28,
+      "recommended_cellaring": 28,
+      "pairs_with": 72,
+      "commonly_expresses": 306,
+      "common_in_region": 192,
+      "typical_of_region": 161,
+      "contains": 39,
+      "child_of": 226,
+      "related_descriptor": 361,
+      "associated_with": 560,
+      "recommended_for": 189,
+      "confused_with": 178,
+      "creates_descriptor": 239,
+      "common_in": 614,
+      "reduces_descriptor": 164,
+      "opposite_descriptor": 140
+    },
+    "entity_type_matrix": {
+      "wine_style": {
+        "typically_exhibits": 169,
+        "contains_grape": 48,
+        "pairs_best_with": 39,
+        "similar_to": 81,
+        "substitute_for": 57,
+        "produced_in": 90,
+        "recommended_temperature": 28,
+        "recommended_glass": 28,
+        "recommended_decanting": 28,
+        "recommended_cellaring": 28,
+        "pairs_with": 1
+      },
+      "wine_region": {
+        "commonly_expresses": 306,
+        "common_in_region": 192,
+        "typical_of_region": 161,
+        "contains": 39,
+        "similar_to": 131,
+        "pairs_with": 33,
+        "child_of": 39
+      },
+      "wine_serving": {
+        "related_descriptor": 110,
+        "associated_with": 176,
+        "recommended_for": 189,
+        "confused_with": 36
+      },
+      "winemaking_technique": {
+        "creates_descriptor": 166,
+        "common_in": 410,
+        "associated_with": 211,
+        "similar_to": 153,
+        "reduces_descriptor": 64,
+        "confused_with": 70
+      },
+      "wine_fault": {
+        "creates_descriptor": 73,
+        "reduces_descriptor": 100,
+        "common_in": 204,
+        "associated_with": 173,
+        "confused_with": 72
+      },
+      "descriptor": {
+        "child_of": 187,
+        "related_descriptor": 251,
+        "opposite_descriptor": 140
+      },
+      "grape_variety": {
+        "pairs_with": 38
+      }
+    },
+    "highest_degree_nodes": [
+      {
+        "kind": "grape_variety",
+        "slug": "pinot-noir",
+        "degree": 208
+      },
+      {
+        "kind": "grape_variety",
+        "slug": "chardonnay",
+        "degree": 186
+      },
+      {
+        "kind": "grape_variety",
+        "slug": "cabernet-sauvignon",
+        "degree": 158
+      },
+      {
+        "kind": "descriptor",
+        "slug": "crisp",
+        "degree": 137
+      },
+      {
+        "kind": "wine_style",
+        "slug": "cabernet-sauvignon",
+        "degree": 121
+      },
+      {
+        "kind": "descriptor",
+        "slug": "bright",
+        "degree": 115
+      },
+      {
+        "kind": "wine_region",
+        "slug": "france",
+        "degree": 111
+      },
+      {
+        "kind": "grape_variety",
+        "slug": "riesling",
+        "degree": 108
+      },
+      {
+        "kind": "wine_region",
+        "slug": "burgundy",
+        "degree": 106
+      },
+      {
+        "kind": "wine_style",
+        "slug": "pinot-noir",
+        "degree": 104
+      },
+      {
+        "kind": "wine_style",
+        "slug": "chardonnay",
+        "degree": 103
+      },
+      {
+        "kind": "wine_serving",
+        "slug": "chilled",
+        "degree": 92
+      },
+      {
+        "kind": "wine_region",
+        "slug": "bordeaux",
+        "degree": 91
+      },
+      {
+        "kind": "wine_region",
+        "slug": "usa",
+        "degree": 89
+      },
+      {
+        "kind": "descriptor",
+        "slug": "earthy",
+        "degree": 86
+      }
+    ],
+    "lowest_degree_nodes": [
+      {
+        "kind": "descriptor",
+        "slug": "voluptuous",
+        "degree": 2
+      },
+      {
+        "kind": "descriptor",
+        "slug": "tight",
+        "degree": 2
+      },
+      {
+        "kind": "descriptor",
+        "slug": "stemmy",
+        "degree": 2
+      },
+      {
+        "kind": "descriptor",
+        "slug": "stalky",
+        "degree": 2
+      },
+      {
+        "kind": "descriptor",
+        "slug": "sage",
+        "degree": 2
+      },
+      {
+        "kind": "descriptor",
+        "slug": "saffron",
+        "degree": 2
+      },
+      {
+        "kind": "descriptor",
+        "slug": "rose",
+        "degree": 2
+      },
+      {
+        "kind": "descriptor",
+        "slug": "plastic",
+        "degree": 2
+      },
+      {
+        "kind": "descriptor",
+        "slug": "pineapple",
+        "degree": 2
+      },
+      {
+        "kind": "descriptor",
+        "slug": "petroleum",
+        "degree": 2
+      },
+      {
+        "kind": "descriptor",
+        "slug": "petrichor",
+        "degree": 2
+      },
+      {
+        "kind": "descriptor",
+        "slug": "nerve",
+        "degree": 2
+      },
+      {
+        "kind": "descriptor",
+        "slug": "nectarine",
+        "degree": 2
+      },
+      {
+        "kind": "descriptor",
+        "slug": "legs",
+        "degree": 2
+      },
+      {
+        "kind": "descriptor",
+        "slug": "lavender",
+        "degree": 2
+      }
+    ],
+    "reverse_relationship_coverage": {
+      "style_to_region_links": 90,
+      "region_to_style_reverse": 90,
+      "style_to_serving_links": 112,
+      "serving_to_style_links": 404,
+      "serving_to_descriptor_links": 110,
+      "serving_to_region_links": 109,
+      "serving_to_grape_links": 68
+    }
+  },
+  "knowledge_quality": {
+    "average_relationships_per_entity": 9.8,
+    "average_evidence_per_entity": 0.274,
+    "entities_with_faq": 179,
+    "entities_with_structured_data": 209,
+    "faq_coverage_pct": 85.6,
+    "density_by_domain": [
+      {
+        "domain": "Descriptors",
+        "entity_type": "descriptor",
+        "entities": 187,
+        "typed_edges": 578,
+        "avg_edges_per_entity": 3.09
+      },
+      {
+        "domain": "Wine Styles",
+        "entity_type": "wine_style",
+        "entities": 28,
+        "typed_edges": 597,
+        "avg_edges_per_entity": 21.32
+      },
+      {
+        "domain": "Wine Regions",
+        "entity_type": "wine_region",
+        "entities": 51,
+        "typed_edges": 901,
+        "avg_edges_per_entity": 17.67
+      },
+      {
+        "domain": "Grape Varieties",
+        "entity_type": "grape_variety",
+        "entities": 5,
+        "typed_edges": 38,
+        "avg_edges_per_entity": 7.6
+      },
+      {
+        "domain": "Serving & Service",
+        "entity_type": "wine_serving",
+        "entities": 40,
+        "typed_edges": 511,
+        "avg_edges_per_entity": 12.78
+      },
+      {
+        "domain": "Winemaking Techniques",
+        "entity_type": "winemaking_technique",
+        "entities": 60,
+        "typed_edges": 1074,
+        "avg_edges_per_entity": 17.9
+      },
+      {
+        "domain": "Wine Faults",
+        "entity_type": "wine_fault",
+        "entities": 30,
+        "typed_edges": 622,
+        "avg_edges_per_entity": 20.73
+      }
+    ]
+  },
+  "editorial_audit": {
+    "catalog_gaps_by_domain": [
+      {
+        "domain": "Wine Styles",
+        "count": 1,
+        "sample": [
+          {
+            "slug": "nebbiolo",
+            "field": "marketing_language",
+            "pattern": "\\bunforgettable\\b"
+          }
+        ]
+      },
+      {
+        "domain": "Wine Regions",
+        "count": 51,
+        "sample": [
+          {
+            "slug": "france",
+            "field": "beginner_notes"
+          },
+          {
+            "slug": "italy",
+            "field": "beginner_notes"
+          },
+          {
+            "slug": "spain",
+            "field": "beginner_notes"
+          },
+          {
+            "slug": "germany",
+            "field": "beginner_notes"
+          },
+          {
+            "slug": "portugal",
+            "field": "beginner_notes"
+          }
+        ]
+      },
+      {
+        "domain": "Serving & Service",
+        "count": 40,
+        "sample": [
+          {
+            "slug": "ice-cold",
+            "field": "beginner_notes"
+          },
+          {
+            "slug": "chilled",
+            "field": "beginner_notes"
+          },
+          {
+            "slug": "cool",
+            "field": "beginner_notes"
+          },
+          {
+            "slug": "cellar-temperature",
+            "field": "beginner_notes"
+          },
+          {
+            "slug": "room-temperature",
+            "field": "beginner_notes"
+          }
+        ]
+      },
+      {
+        "domain": "Winemaking Techniques",
+        "count": 30,
+        "sample": [
+          {
+            "slug": "semi-carbonic-maceration",
+            "field": "faq"
+          },
+          {
+            "slug": "cold-soak",
+            "field": "faq"
+          },
+          {
+            "slug": "flash-detente",
+            "field": "faq"
+          },
+          {
+            "slug": "short-maceration",
+            "field": "faq"
+          },
+          {
+            "slug": "whole-berry-fermentation",
+            "field": "faq"
+          }
+        ]
+      }
+    ],
+    "marketing_language_hits": [
+      {
+        "slug": "nebbiolo",
+        "field": "marketing_language",
+        "pattern": "\\bunforgettable\\b"
+      }
+    ],
+    "duplicate_seo_titles": [
+      {
+        "title": "Wine Served Too Warm — Signs & Fixes",
+        "slugs": [
+          "too-warm",
+          "served-too-warm"
+        ]
+      }
+    ]
+  },
+  "search_audit": {
+    "total_searchable_entities": 401,
+    "total_first_class_entities": 401,
+    "search_coverage_pct": 100,
+    "indexes": {
+      "descriptor": 187,
+      "wine_style": 28,
+      "wine_region": 51,
+      "wine_serving": 40,
+      "winemaking_technique": 60,
+      "wine_fault": 30
+    },
+    "grape_search_entries": 5,
+    "ambiguous_queries": [
+      {
+        "query": "champagne",
+        "note": "Returns both Wine Region and Wine Style — intentional disambiguation"
+      }
+    ]
+  },
+  "structured_data_audit": {
+    "styles": {
+      "total": 28,
+      "web_page": 28,
+      "breadcrumb": 28,
+      "faq_page": 28,
+      "canonical": 28,
+      "extensionless_canonical": 28
+    },
+    "regions": {
+      "total": 51,
+      "web_page": 51,
+      "breadcrumb": 51,
+      "faq_page": 51,
+      "canonical": 51,
+      "extensionless_canonical": 51
+    },
+    "serving": {
+      "total": 40,
+      "web_page": 40,
+      "breadcrumb": 40,
+      "faq_page": 40,
+      "canonical": 40,
+      "extensionless_canonical": 40
+    },
+    "techniques": {
+      "total": 60,
+      "web_page": 60,
+      "breadcrumb": 60,
+      "faq_page": 30,
+      "canonical": 60,
+      "extensionless_canonical": 60
+    },
+    "faults": {
+      "total": 30,
+      "web_page": 30,
+      "breadcrumb": 30,
+      "faq_page": 30,
+      "canonical": 30,
+      "extensionless_canonical": 30
+    },
+    "grapes": {
+      "total": 0,
+      "web_page": 0,
+      "breadcrumb": 0,
+      "faq_page": 0,
+      "canonical": 0,
+      "extensionless_canonical": 0
+    }
+  },
+  "url_crawl_audit": {
+    "sitemap_total": 443,
+    "extensionless_urls": 443,
+    "html_urls_in_sitemap": 0,
+    "ontology_entity_urls": {
+      "total": 443,
+      "region_urls": 51,
+      "serving_urls": 40,
+      "technique_urls": 60,
+      "fault_urls": 30,
+      "style_urls": 28,
+      "descriptor_urls": 187,
+      "category_urls": 12
+    },
+    "broken_internal_links": 0
+  },
+  "knowledge_density": {
+    "total_entities": 401,
+    "total_typed_relationships": 4321,
+    "total_evidence_annotations": 110,
+    "average_relationships_per_entity": 9.8,
+    "average_evidence_per_entity": 0.274,
+    "existing_entities_enriched_by_faults": {
+      "styles": 17,
+      "regions": 25,
+      "descriptors": 26,
+      "techniques": 21,
+      "grapes": 5,
+      "serving": 11
+    },
+    "cross_domain_relationships": 4321,
+    "graph_density": 10.78,
+    "connected_components": 1,
+    "orphan_entities": 0,
+    "density_by_domain": [
+      {
+        "domain": "Descriptors",
+        "entity_type": "descriptor",
+        "entities": 187,
+        "typed_edges": 578,
+        "avg_edges_per_entity": 3.09
+      },
+      {
+        "domain": "Wine Styles",
+        "entity_type": "wine_style",
+        "entities": 28,
+        "typed_edges": 597,
+        "avg_edges_per_entity": 21.32
+      },
+      {
+        "domain": "Wine Regions",
+        "entity_type": "wine_region",
+        "entities": 51,
+        "typed_edges": 901,
+        "avg_edges_per_entity": 17.67
+      },
+      {
+        "domain": "Grape Varieties",
+        "entity_type": "grape_variety",
+        "entities": 5,
+        "typed_edges": 38,
+        "avg_edges_per_entity": 7.6
+      },
+      {
+        "domain": "Serving & Service",
+        "entity_type": "wine_serving",
+        "entities": 40,
+        "typed_edges": 511,
+        "avg_edges_per_entity": 12.78
+      },
+      {
+        "domain": "Winemaking Techniques",
+        "entity_type": "winemaking_technique",
+        "entities": 60,
+        "typed_edges": 1074,
+        "avg_edges_per_entity": 17.9
+      },
+      {
+        "domain": "Wine Faults",
+        "entity_type": "wine_fault",
+        "entities": 30,
+        "typed_edges": 622,
+        "avg_edges_per_entity": 20.73
+      }
+    ]
+  },
+  "readiness_checklist": {
+    "platform": {
+      "entity_model": "Certified",
+      "relationship_model": "Certified",
+      "evidence_layer": "Certified",
+      "graph_engine": "Certified",
+      "runtime_api": "Certified",
+      "validation": "Certified"
+    },
+    "governance": {
+      "changelog": "Certified",
+      "specification": "Certified",
+      "editorial_standards": "Certified"
+    },
+    "wine_domains": {
+      "descriptors": "Major Issues",
+      "wine_styles": "Certified",
+      "wine_regions": "Certified",
+      "grape_varieties": "Major Issues",
+      "serving_service": "Certified",
+      "winemaking_techniques": "Certified",
+      "wine_faults": "Certified"
+    },
+    "applications": {
+      "search": "Certified",
+      "pairing_engine": "Certified",
+      "pages": "Certified",
+      "runtime": "Certified"
+    }
+  },
+  "validations": {
+    "ontology_01e": "passed",
+    "ontology_01d": "passed",
+    "ontology_01c6": "passed_with_phase_label",
+    "knowledge_04": "passed"
+  }
+}
