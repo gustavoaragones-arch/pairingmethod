@@ -44,7 +44,7 @@ Domain-specific knowledge versions expand **what** the graph knows:
 | Domain | Version scheme | Current |
 |--------|----------------|---------|
 | Wine Ontology | v1.x → v2.x | **v2.0 Certified** (v2.1 maintenance planned) |
-| Culinary Ontology | v2.x | Not started (Culinary Ontology Program) |
+| Culinary Ontology | v2.x | Not started (**Food Ontology** Program) |
 | Future domains | Independent semantic versions | Planned |
 
 A knowledge release may add entities and relationships without changing foundation primitives. For example, ONTOLOGY-01D (Winemaking Techniques) added 60 entities and 1,074 typed edges while consuming Ontology Foundation v1.0 unchanged.
@@ -498,7 +498,7 @@ This is a certification and release-gate phase — not a content expansion. No n
 
 ### Certification decision
 
-**CERTIFIED WITH MINOR ISSUES** — approved for production and as the stable foundation for the Culinary Ontology Program.
+**CERTIFIED WITH MINOR ISSUES** — approved for production and as the stable foundation for the Food Ontology Program.
 
 No blocking issues. Minor findings are editorial and density improvements, deferred to **Wine Ontology v2.1** (maintenance release).
 
@@ -559,7 +559,7 @@ No blocking issues. Minor findings are editorial and density improvements, defer
 
 ## Wine Ontology v2.1 — Editorial & Density Improvements (planned)
 
-**Status:** Maintenance release — not a blocker for Culinary Ontology Program
+**Status:** Maintenance release — not a blocker for Food Ontology Program
 
 Planned improvements from ONTOLOGY-01F certification findings:
 
@@ -595,7 +595,7 @@ ONTOLOGY-01F — Wine Ontology Certification (v2.0 Certified)
         ↓
 Wine Ontology v2.1 — Editorial & Density Improvements (planned, maintenance)
         ↓
-Culinary Ontology Program — 02A Proteins → 02G Cuisines (planned)
+Food Ontology Program — 02A Protein Foods → 02H Dishes (planned)
         ↓
 Pairing Intelligence (planned)
         ↓
@@ -656,7 +656,7 @@ Digital Sommelier (planned)
 | Sitemap URLs | 443 |
 | Unified search entities | 401 |
 
-**Next milestone:** Culinary Ontology Program — ONTOLOGY-02A (Proteins)
+**Next milestone:** Food Ontology — ONTOLOGY-02A (Protein Foods) — see [`ONTOLOGY-02A_ARCHITECTURE.md`](ONTOLOGY-02A_ARCHITECTURE.md)
 
 ---
 
@@ -666,21 +666,24 @@ Digital Sommelier (planned)
 
 Wine Ontology v2.0 certified. All seven major wine domains represented in a single connected semantic graph.
 
-### Culinary Ontology Program
+### Food Ontology Program
 
-PairingMethod expands from a wine knowledge platform into a semantic knowledge platform. The Culinary Ontology Program follows the same frozen-foundation pattern established by the Wine Ontology.
+PairingMethod expands from a wine knowledge platform into a **semantic knowledge platform**. The Food Ontology Program follows the same frozen-foundation pattern established by the Wine Ontology.
 
-| Project | Domain |
-|---------|--------|
-| ONTOLOGY-02A | Proteins |
-| ONTOLOGY-02B | Cooking Techniques |
-| ONTOLOGY-02C | Sauces |
-| ONTOLOGY-02D | Ingredients |
-| ONTOLOGY-02E | Herbs & Spices |
-| ONTOLOGY-02F | Cheeses |
-| ONTOLOGY-02G | Cuisines |
+| Project | Domain | Notes |
+|---------|--------|-------|
+| ONTOLOGY-02A | Protein Foods | Biological hierarchy; 120–180 `protein_food` entities |
+| ONTOLOGY-02B | Cooking Techniques | Maillard, braising, grilling |
+| ONTOLOGY-02C | Ingredients | **Before sauces** — atomic components |
+| ONTOLOGY-02D | Herbs & Spices | Aromatic and heat elements |
+| ONTOLOGY-02E | Sauces | Compositional — mostly `contains` edges |
+| ONTOLOGY-02F | Cheeses | Fermented dairy |
+| ONTOLOGY-02G | Cuisines | Regional traditions |
+| ONTOLOGY-02H | Dishes | Convergence nodes (protein_food + ingredient + sauce + technique + cuisine) |
 
-Wine Ontology v2.1 maintenance (editorial and density improvements) proceeds in parallel — it does not block the Culinary Ontology Program.
+Wine Ontology v2.1 maintenance (editorial and density improvements) proceeds in parallel — it does not block the Food Ontology Program.
+
+**Architecture:** [`ONTOLOGY-02A_ARCHITECTURE.md`](ONTOLOGY-02A_ARCHITECTURE.md)
 
 ### Pairing Intelligence
 
@@ -724,7 +727,34 @@ A domain is considered **complete** only when it satisfies **all** of the follow
 7. Certification report generated (`reports/wine-ontology-certification.json` or domain equivalent)
 8. Public milestone document published (`docs/WINE_ONTOLOGY_V2.md` or domain equivalent)
 
-This rule applies to every future ontology project in the Culinary Ontology Program and beyond.
+This rule applies to every future ontology project in the Food Ontology Program and beyond.
+
+### Cross-Domain Connectivity Rule
+
+Every new Food Ontology entity must connect to **at least one Wine Ontology entity** before domain certification.
+
+Domains may be internally complete but **must not be externally isolated**. The culinary ontology exists to enrich and explain wine pairing through explicit, traversable relationships — not as a standalone encyclopedia.
+
+| Condition | Result |
+|-----------|--------|
+| Entity has ≥ 1 typed edge to wine domain | Pass |
+| Entity has 0 typed edges to wine domain | Certification blocker |
+| Food domain forms separate connected component | Certification blocker |
+
+Applies to all Food Ontology projects (02A–02H). See [`ONTOLOGY-02A_ARCHITECTURE.md`](ONTOLOGY-02A_ARCHITECTURE.md) §12.
+
+### Explainability Coverage (Food Ontology onward)
+
+Starting with the Food Ontology, every domain certification report must also measure **explainability** — the percentage of pairing recommendations explainable entirely through ontology paths.
+
+| Metric | Description |
+|--------|-------------|
+| Explainable recommendation paths | % of pairing claims with a complete typed path |
+| Avg reasoning depth | Mean hops in explainable paths |
+| Longest validated reasoning chain | Maximum evidenced path length |
+| Cross-domain reasoning coverage | % of paths crossing culinary ↔ wine boundary |
+
+See [`ONTOLOGY-02A_ARCHITECTURE.md`](ONTOLOGY-02A_ARCHITECTURE.md) §11 for targets and examples.
 
 Every ontology phase **must** update this changelog before the phase is considered complete.
 
@@ -776,12 +806,17 @@ Entity types defined in the foundation model (current utilization):
 | `wine_fault` | wine | Active (30) |
 | `glassware` | wine | Absorbed into `wine_serving` |
 | `food` | culinary | Planned |
-| `protein` | culinary | Planned |
-| `cooking_method` | culinary | Planned |
-| `sauce` | culinary | Planned |
-| `cheese` | culinary | Planned |
-| `herb` | culinary | Planned |
-| `spice` | culinary | Planned |
-| `vegetable` | culinary | Planned |
-| `fruit` | culinary | Planned |
-| `mushroom` | culinary | Planned |
+| `protein_food` | culinary | Planned (02A) |
+| `protein_category` | culinary | Planned (02A) |
+| `protein_group` | culinary | Planned (02A) |
+| `protein` | culinary | Superseded by `protein_food` (02A) |
+| `cooking_method` | culinary | Planned (02B) |
+| `sauce` | culinary | Planned (02E) |
+| `cheese` | culinary | Planned (02F) |
+| `herb` | culinary | Planned (02D) |
+| `spice` | culinary | Planned (02D) |
+| `vegetable` | culinary | Planned (02C) |
+| `fruit` | culinary | Planned (02C) |
+| `mushroom` | culinary | Planned (02C) |
+| `cuisine` | culinary | Planned (02G) |
+| `dish` | culinary | Planned (02H) |

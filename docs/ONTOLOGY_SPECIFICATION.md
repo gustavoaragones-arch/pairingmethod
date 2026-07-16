@@ -1,8 +1,9 @@
 # PairingMethod Ontology Specification
 
-**Version:** Ontology Foundation v1.0 · Wine Ontology v1.5  
+**Version:** Ontology Foundation v1.0 · Wine Ontology v2.0  
 **Status:** Authoritative  
-**SSOT:** `data/relationship-types.json`, `lib/entity-model.js`, domain catalogs
+**SSOT:** `data/relationship-types.json`, `lib/entity-model.js`, domain catalogs  
+**Food Ontology (planned):** [`ONTOLOGY-02A_ARCHITECTURE.md`](ONTOLOGY-02A_ARCHITECTURE.md)
 
 This document defines **what is allowed** in the PairingMethod semantic ontology.
 
@@ -30,8 +31,8 @@ Every entity belongs to exactly one domain:
 
 | Domain | Scope | Status |
 |--------|-------|--------|
-| `wine` | Descriptors, styles, regions, grapes, serving, techniques, faults | Active |
-| `culinary` | Proteins, cooking methods, sauces, ingredients, cuisines | Planned (Phase II) |
+| `wine` | Descriptors, styles, regions, grapes, serving, techniques, faults | Active (v2.0 certified) |
+| `culinary` | Proteins, cooking methods, ingredients, sauces, cuisines, dishes | Planned (**Food Ontology** Program) |
 | `shared` | Cross-domain concepts (reserved) | Future |
 
 Domain is inferred from `entity_type` when not explicitly set (`lib/entity-model.js`).
@@ -65,31 +66,29 @@ Catalog entities (styles, regions, serving, techniques) additionally carry edito
 | `wine_region` | Geographic wine region (country → appellation hierarchy) | 51 | `data/wine-region-catalog.json` |
 | `wine_serving` | Serving temperature, glassware, decanting, cellaring, mistakes | 40 | `data/wine-serving-catalog.json` |
 | `winemaking_technique` | Production technique entity | 60 | `data/winemaking-technique-catalog.json` |
+| `wine_fault` | Causal wine fault entity (TCA, oxidation, brett, etc.) | 30 | `data/wine-fault-catalog.json` |
 
 **Note:** `serving` and `glassware` are registered legacy types. All serving entities use `wine_serving` in practice (glassware is a serving family, not a separate entity class).
 
-### 3.3 Wine Domain — Defined, Pending
+### 3.3 Culinary Domain — Planned (Food Ontology)
 
-| Entity Type | Description | Target |
-|-------------|-------------|--------|
-| `wine_fault` | Causal wine fault entity (TCA, oxidation, brett, etc.) | ~25–35 (ONTOLOGY-01E) |
+Architecture specification: [`ONTOLOGY-02A_ARCHITECTURE.md`](ONTOLOGY-02A_ARCHITECTURE.md)
 
-### 3.4 Culinary Domain — Planned
+| Entity Type | Description | Project |
+|-------------|-------------|---------|
+| `protein_category` | Top-level protein foods hub (Animal, Plant) | 02A |
+| `protein_group` | Mid-level hub (Beef, Seafood, Legumes) | 02A |
+| `protein_food` | First-class protein food entity (Ribeye, Salmon, Tofu) | 02A |
+| `cooking_method` | Grilling, roasting, braising, frying, smoking | 02B |
+| `vegetable`, `fruit`, `mushroom` | Ingredient entities | 02C |
+| `herb`, `spice` | Herbs and spices | 02D |
+| `sauce` | Compositional sauce entities | 02E |
+| `cheese` | Cheese entities | 02F |
+| `cuisine` | Regional culinary tradition | 02G |
+| `dish` | Convergence entity (protein_food + ingredient + sauce + technique) | 02H |
+| `food` | General food entity (reserved) | Future |
 
-| Entity Type | Description |
-|-------------|-------------|
-| `food` | General food entity |
-| `protein` | Beef, lamb, pork, chicken, fish, shellfish, game, etc. |
-| `cooking_method` | Grilling, roasting, braising, frying, smoking, etc. |
-| `sauce` | Cream, tomato, butter, wine reduction, etc. |
-| `cheese` | Cheese entities |
-| `herb` | Fresh and dried herbs |
-| `spice` | Spices and heat elements |
-| `vegetable` | Vegetable ingredients |
-| `fruit` | Culinary fruit (distinct from wine descriptor fruit) |
-| `mushroom` | Mushroom ingredients |
-
-Culinary entity types are registered in the entity model but have **zero active instances** until Phase II.
+Culinary entity types are registered in the entity model but have **zero active instances** until the Food Ontology Program begins with ONTOLOGY-02A.
 
 ---
 

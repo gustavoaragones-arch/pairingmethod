@@ -13,7 +13,7 @@ PairingMethod declares **Wine Ontology v2.0** — the first stable, production-r
 
 This milestone completes Phase I of the PairingMethod ontology program. Seven major wine domains are represented, connected, searchable, and published. The graph contains **401 entities**, **4,321 typed relationships**, and **110 evidence annotations**, with zero orphan entities and zero broken edges.
 
-Wine Ontology v2.0 is certified as the stable foundation for the **Culinary Ontology Program**, beginning with ONTOLOGY-02A (Proteins).
+Wine Ontology v2.0 is certified as the stable foundation for the **Food Ontology Program**, beginning with ONTOLOGY-02A (Protein Foods).
 
 Certification passed with minor follow-up items: evidence coverage remains below the 5% aspirational target, and a subset of editorial fields (beginner notes, FAQs) are incomplete in specific domains. None of these block release.
 
@@ -245,7 +245,7 @@ Wine Ontology v2.0 enables the pairing engine and public pages to answer *why* �
 5. **Weakly connected nodes** — 135 semantic graph nodes have degree &lt; 5, predominantly peripheral descriptor vocabulary.
 6. **Marketing language** — One instance flagged (`nebbiolo` — "unforgettable" in marketing copy check).
 
-These are documented follow-ups for **Wine Ontology v2.1** (maintenance release), not certification blockers. They do not delay the Culinary Ontology Program.
+These are documented follow-ups for **Wine Ontology v2.1** (maintenance release), not certification blockers. They do not delay the Food Ontology Program.
 
 ---
 
@@ -269,21 +269,20 @@ These are documented follow-ups for **Wine Ontology v2.1** (maintenance release)
 
 ---
 
-## Culinary Ontology Program
+## Culinary Ontology Program → Food Ontology
 
-With Wine Ontology v2.0 certified, PairingMethod enters the Culinary Ontology Program. Each project follows the same frozen-foundation pattern: new catalogs, typed edges, evidence, pages, and search — without modifying Ontology Foundation v1.0.
+With Wine Ontology v2.0 certified, PairingMethod enters the **Food Ontology Program**. Each project follows the same frozen-foundation lifecycle. See [`ONTOLOGY-02A_ARCHITECTURE.md`](ONTOLOGY-02A_ARCHITECTURE.md) for the architectural plan.
 
-Wine Ontology v2.1 (editorial and density improvements) proceeds as a parallel maintenance track and does not block culinary development.
-
-| Project | Domain | Entity Type |
-|---------|--------|-------------|
-| ONTOLOGY-02A | Proteins | `protein` |
-| ONTOLOGY-02B | Cooking Techniques | `cooking_method` |
-| ONTOLOGY-02C | Sauces | `sauce` |
-| ONTOLOGY-02D | Ingredients | `vegetable`, `fruit`, `mushroom` |
-| ONTOLOGY-02E | Herbs & Spices | `herb`, `spice` |
-| ONTOLOGY-02F | Cheeses | `cheese` |
-| ONTOLOGY-02G | Cuisines | `cuisine` |
+| Project | Domain |
+|---------|--------|
+| ONTOLOGY-02A | Protein Foods |
+| ONTOLOGY-02B | Cooking Techniques |
+| ONTOLOGY-02C | Ingredients |
+| ONTOLOGY-02D | Herbs & Spices |
+| ONTOLOGY-02E | Sauces |
+| ONTOLOGY-02F | Cheeses |
+| ONTOLOGY-02G | Cuisines |
+| ONTOLOGY-02H | Dishes |
 
 Cross-domain relationships (Wine ↔ Culinary) will activate pairing reasoning across both ontologies. Culinary Ontology will use version scheme **v2.x** to distinguish it from the completed Wine Ontology v2.0 knowledge release.
 
