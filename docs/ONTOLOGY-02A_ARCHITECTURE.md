@@ -162,12 +162,17 @@ This is the same structural insight as `descriptor_category → descriptor_group
 
 ## 6. Protein Foods Taxonomy
 
-### Top-Level Categories (2)
+**Blueprint (authoritative for 02A):** [`PROTEIN_TAXONOMY_BLUEPRINT.md`](PROTEIN_TAXONOMY_BLUEPRINT.md)
+
+Review and approve the blueprint before populating `data/protein-food-catalog.json`.
+
+### Top-Level Categories (3)
 
 | Slug | Name | Role |
 |------|------|------|
 | `animal-protein` | Animal Protein Foods | Meat, poultry, game, seafood |
-| `plant-protein` | Plant Protein Foods | Legumes, soy, seitan, nuts |
+| `plant-protein` | Plant Protein Foods | Legumes, soy, wheat protein, nuts & seeds |
+| `fungi-protein` | Fungi Protein Foods | Mushrooms, mycoprotein |
 
 ### Groups & Entities (Tier 1 launch set)
 
@@ -192,9 +197,17 @@ Target **~15 groups** and **~120–180 leaf entities**. The table below defines 
 
 | Group | Slug | Example Leaf Entities (`protein_food`) |
 |-------|------|------------------------------------------|
-| **Soy & Alternates** | `soy-protein` | tofu, tempeh, seitan, edamame |
-| **Legumes** | `legumes` | lentils, chickpeas, black-beans, kidney-beans, cannellini-beans |
-| **Nuts & Seeds** | `nuts-seeds` | almonds, walnuts, cashews, pumpkin-seeds (protein-forward foods) |
+| **Soy** | `soy` | tofu-firm, tempeh, edamame, yuba |
+| **Legumes** | `legumes` | lentils, chickpeas, black-beans, kidney-beans |
+| **Wheat Protein** | `wheat-protein` | seitan, vital-wheat-gluten |
+| **Nuts & Seeds** | `nuts-seeds` | almonds, walnuts, cashews, pumpkin-seeds |
+
+#### Fungi Protein Foods
+
+| Group | Slug | Example Leaf Entities (`protein_food`) |
+|-------|------|------------------------------------------|
+| **Mushrooms** | `mushrooms` | shiitake, portobello, oyster-mushroom, chanterelle |
+| **Mycoprotein** | `mycoprotein` | quorn-fillets, mycoprotein-ground |
 
 ### Hierarchy Rules
 
@@ -208,7 +221,7 @@ Target **~15 groups** and **~120–180 leaf entities**. The table below defines 
 
 - Lowercase, hyphenated: `chicken-breast`, `short-rib`
 - Group slugs are singular domain nouns: `beef`, `shellfish`
-- Category slugs: `animal-protein`, `plant-protein`
+- Category slugs: `animal-protein`, `plant-protein`, `fungi-protein`
 - No slug may collide with wine entity slugs (validate at bootstrap)
 
 ---
@@ -358,13 +371,36 @@ Rules:
 | `fat_content` | `lean` \| `moderate` \| `rich` |
 | `texture` | Primary texture descriptor slugs (e.g. tender, firm, flaky) |
 | `typical_descriptors` | Descriptor slugs the food commonly expresses or pairs with |
-| `wine_pairings` | Slugs of `wine_style` entities with tier (`primary` \| `secondary`) |
+| `wine_pairings` | Slugs of `wine_style` entities with tier (`primary` \| `secondary`) — editorial; `related_styles` is graph SSOT |
 | `avoid_wine_pairings` | Wine styles or contexts to avoid |
-| `similar_foods` | Substitute / similarity slugs (other `protein_food` entities) |
+| `related_styles` | Wine style slugs — maps to `pairs_best_with` / `pairs_with` |
+| `related_descriptors` | Descriptor slugs — maps to `typically_exhibits` |
+| `related_regions` | Wine region slugs — optional regional pairing context |
+| `related_serving` | Wine serving slugs — reserved |
+| `related_techniques` | Cooking technique slugs — reserved for 02B |
+| `substitutes` | Substitute food slugs — maps to `substitute_for` |
 | `beginner_notes` | Plain-language explainer |
 | `faq` | ≥ 2 Q&A pairs |
 | `seo_title` | Unique, no marketing language |
 | `seo_description` | 150–160 characters |
+
+### Reserved Relationship Arrays (required on every `protein_food`)
+
+Every catalog entry must include these arrays from day one — empty `[]` if unknown:
+
+```jsonc
+{
+  "related_styles": [],
+  "related_descriptors": [],
+  "related_regions": [],
+  "related_serving": [],
+  "related_techniques": [],
+  "similar_foods": [],
+  "substitutes": []
+}
+```
+
+See [`PROTEIN_TAXONOMY_BLUEPRINT.md`](PROTEIN_TAXONOMY_BLUEPRINT.md) §7 for field-to-edge mapping.
 
 ### Optional Fields — `protein_food` Entities
 

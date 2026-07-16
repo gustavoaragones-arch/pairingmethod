@@ -672,7 +672,7 @@ PairingMethod expands from a wine knowledge platform into a **semantic knowledge
 
 | Project | Domain | Notes |
 |---------|--------|-------|
-| ONTOLOGY-02A | Protein Foods | Biological hierarchy; 120–180 `protein_food` entities |
+| ONTOLOGY-02A | Protein Foods | Biological hierarchy; ~168 `protein_food` entities — see [`PROTEIN_TAXONOMY_BLUEPRINT.md`](PROTEIN_TAXONOMY_BLUEPRINT.md) |
 | ONTOLOGY-02B | Cooking Techniques | Maillard, braising, grilling |
 | ONTOLOGY-02C | Ingredients | **Before sauces** — atomic components |
 | ONTOLOGY-02D | Herbs & Spices | Aromatic and heat elements |
@@ -683,7 +683,7 @@ PairingMethod expands from a wine knowledge platform into a **semantic knowledge
 
 Wine Ontology v2.1 maintenance (editorial and density improvements) proceeds in parallel — it does not block the Food Ontology Program.
 
-**Architecture:** [`ONTOLOGY-02A_ARCHITECTURE.md`](ONTOLOGY-02A_ARCHITECTURE.md)
+**Architecture:** [`ONTOLOGY-02A_ARCHITECTURE.md`](ONTOLOGY-02A_ARCHITECTURE.md) · **Taxonomy blueprint:** [`PROTEIN_TAXONOMY_BLUEPRINT.md`](PROTEIN_TAXONOMY_BLUEPRINT.md)
 
 ### Pairing Intelligence
 
