@@ -37,6 +37,8 @@
     "ontology:seed-fault-evidence": "node scripts/bootstrap-wine-fault-evidence.js",
     "generate:ontology-01e": "npm run generate:wine-faults && npm run generate:winemaking-techniques && npm run generate:wine-serving && npm run generate:wine-styles && npm run generate:sitemap && npm run ontology:coverage-report",
     "validate:ontology-01e": "node scripts/validate-ontology-01e.js",
+    "ontology:bootstrap-protein-food": "node scripts/bootstrap-protein-food-catalog.js",
+    "ontology:catalog-audit-protein-food": "node scripts/catalog-audit-02aa.mjs",
     "generate:term-categories": "node scripts/generate-term-categories.js",
     "generate:term-descriptors": "node scripts/generate-term-descriptors.js",
     "generate:taxonomy-runtime": "node scripts/generate-taxonomy-runtime.js",

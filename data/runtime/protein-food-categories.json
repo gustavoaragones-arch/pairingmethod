@@ -1,0 +1,42 @@
+[
+  {
+    "food_category": "animal",
+    "group_slugs": [
+      "beef",
+      "cephalopods",
+      "crustaceans",
+      "fin-fish",
+      "lamb",
+      "mollusks",
+      "pork",
+      "poultry",
+      "veal",
+      "wild-game"
+    ],
+    "id": "food.protein.animal",
+    "name": "Animal Protein Foods",
+    "slug": "animal-protein"
+  },
+  {
+    "food_category": "fungi",
+    "group_slugs": [
+      "mushrooms",
+      "mycoprotein"
+    ],
+    "id": "food.protein.fungi",
+    "name": "Fungi Protein Foods",
+    "slug": "fungi-protein"
+  },
+  {
+    "food_category": "plant",
+    "group_slugs": [
+      "grains-wheat-protein",
+      "legumes",
+      "nuts-seeds",
+      "soy-foods"
+    ],
+    "id": "food.protein.plant",
+    "name": "Plant Protein Foods",
+    "slug": "plant-protein"
+  }
+]

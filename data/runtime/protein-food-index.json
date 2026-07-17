@@ -1,0 +1,1510 @@
+{
+  "hierarchy": {
+    "category_to_groups": {
+      "animal-protein": [
+        "beef",
+        "cephalopods",
+        "crustaceans",
+        "fin-fish",
+        "lamb",
+        "mollusks",
+        "pork",
+        "poultry",
+        "veal",
+        "wild-game"
+      ],
+      "fungi-protein": [
+        "mushrooms",
+        "mycoprotein"
+      ],
+      "plant-protein": [
+        "grains-wheat-protein",
+        "legumes",
+        "nuts-seeds",
+        "soy-foods"
+      ]
+    },
+    "food_to_group": {
+      "abalone": "mollusks",
+      "almonds": "nuts-seeds",
+      "amaranth": "grains-wheat-protein",
+      "anchovy": "fin-fish",
+      "arctic-char-fillet": "fin-fish",
+      "baby-back-ribs": "pork",
+      "baby-octopus": "cephalopods",
+      "bacon": "pork",
+      "barley": "grains-wheat-protein",
+      "bavette": "beef",
+      "beef-shank": "beef",
+      "bison-ribeye": "wild-game",
+      "bison-striploin": "wild-game",
+      "black-beans": "legumes",
+      "black-lentils": "legumes",
+      "blade-steak": "beef",
+      "bottom-round": "beef",
+      "brisket": "beef",
+      "buckwheat": "grains-wheat-protein",
+      "button-mushroom": "mushrooms",
+      "calamari-rings": "cephalopods",
+      "cannellini-beans": "legumes",
+      "cashews": "nuts-seeds",
+      "chanterelle": "mushrooms",
+      "chia-seeds": "nuts-seeds",
+      "chicken-breast": "poultry",
+      "chicken-drumstick": "poultry",
+      "chicken-leg-quarter": "poultry",
+      "chicken-tenderloin": "poultry",
+      "chicken-thigh": "poultry",
+      "chicken-wing": "poultry",
+      "chickpeas": "legumes",
+      "chuck-roast": "beef",
+      "clam": "mollusks",
+      "cockle": "mollusks",
+      "cod-fillet": "fin-fish",
+      "conch": "mollusks",
+      "coppa": "pork",
+      "country-style-ribs": "pork",
+      "crab": "crustaceans",
+      "crawfish": "crustaceans",
+      "cremini": "mushrooms",
+      "crown-roast-pork": "pork",
+      "cuttlefish": "cephalopods",
+      "cuttlefish-tentacles": "cephalopods",
+      "denver-steak": "beef",
+      "duck-breast": "poultry",
+      "duck-confit-leg": "poultry",
+      "duck-leg": "poultry",
+      "edamame": "soy-foods",
+      "elk": "wild-game",
+      "elk-loin": "wild-game",
+      "elk-tenderloin": "wild-game",
+      "enoki": "mushrooms",
+      "eye-of-round": "beef",
+      "farro": "grains-wheat-protein",
+      "flank-steak": "beef",
+      "flat-iron": "beef",
+      "flaxseed": "nuts-seeds",
+      "flounder-fillet": "fin-fish",
+      "goose-breast": "poultry",
+      "goose-leg": "poultry",
+      "green-lentils": "legumes",
+      "ground-beef": "beef",
+      "ground-bison": "wild-game",
+      "ground-chicken": "poultry",
+      "ground-elk": "wild-game",
+      "ground-lamb": "lamb",
+      "ground-pork": "pork",
+      "ground-turkey": "poultry",
+      "ground-veal": "veal",
+      "ground-venison": "wild-game",
+      "ground-wild-boar": "wild-game",
+      "grouper-fillet": "fin-fish",
+      "guanciale": "pork",
+      "halibut-fillet": "fin-fish",
+      "ham": "pork",
+      "hanger-steak": "beef",
+      "hare-saddle": "wild-game",
+      "hemp-seeds": "nuts-seeds",
+      "herring": "fin-fish",
+      "kidney-beans": "legumes",
+      "king-crab-leg": "crustaceans",
+      "king-oyster": "mushrooms",
+      "lamb-breast": "lamb",
+      "lamb-chop": "lamb",
+      "lamb-leg": "lamb",
+      "lamb-loin": "lamb",
+      "lamb-neck": "lamb",
+      "lamb-rack": "lamb",
+      "lamb-ribs": "lamb",
+      "lamb-saddle": "lamb",
+      "lamb-shank": "lamb",
+      "lamb-shoulder": "lamb",
+      "lamb-tenderloin": "lamb",
+      "lentils": "legumes",
+      "lima-beans": "legumes",
+      "lions-mane": "mushrooms",
+      "lobster-tail": "crustaceans",
+      "mackerel": "fin-fish",
+      "mahi-mahi-fillet": "fin-fish",
+      "maitake": "mushrooms",
+      "miso": "soy-foods",
+      "monkfish-tail": "fin-fish",
+      "morel": "mushrooms",
+      "mussel": "mollusks",
+      "mycoprotein": "mycoprotein",
+      "mycoprotein-fillet": "mycoprotein",
+      "mycoprotein-grounds": "mycoprotein",
+      "mycoprotein-pieces": "mycoprotein",
+      "mycoprotein-steak": "mycoprotein",
+      "natto": "soy-foods",
+      "navy-beans": "legumes",
+      "oats": "grains-wheat-protein",
+      "octopus": "cephalopods",
+      "octopus-tentacles": "cephalopods",
+      "oyster": "mollusks",
+      "oyster-mushroom": "mushrooms",
+      "pancetta": "pork",
+      "peanuts": "nuts-seeds",
+      "peas": "legumes",
+      "pine-nuts": "nuts-seeds",
+      "pinto-beans": "legumes",
+      "pistachios": "nuts-seeds",
+      "porcini": "mushrooms",
+      "pork-belly": "pork",
+      "pork-chop": "pork",
+      "pork-hock": "pork",
+      "pork-loin": "pork",
+      "pork-neck": "pork",
+      "pork-shoulder": "pork",
+      "pork-tenderloin": "pork",
+      "porterhouse": "beef",
+      "portobello": "mushrooms",
+      "prawn": "crustaceans",
+      "prime-rib": "beef",
+      "pumpkin-seeds": "nuts-seeds",
+      "quail-breast": "poultry",
+      "quinoa": "grains-wheat-protein",
+      "rabbit-leg": "wild-game",
+      "rabbit-saddle": "wild-game",
+      "razor-clam": "mollusks",
+      "red-lentils": "legumes",
+      "ribeye": "beef",
+      "salmon-fillet": "fin-fish",
+      "sardine": "fin-fish",
+      "scallop": "mollusks",
+      "sea-bass-fillet": "fin-fish",
+      "seitan": "grains-wheat-protein",
+      "sesame-seeds": "nuts-seeds",
+      "shiitake": "mushrooms",
+      "short-rib": "beef",
+      "shrimp": "crustaceans",
+      "silken-tofu": "soy-foods",
+      "skirt-steak": "beef",
+      "snapper-fillet": "fin-fish",
+      "sole-fillet": "fin-fish",
+      "soy-curls": "soy-foods",
+      "soy-milk": "soy-foods",
+      "soybeans": "soy-foods",
+      "spare-ribs": "pork",
+      "squid": "cephalopods",
+      "squid-tube": "cephalopods",
+      "striploin": "beef",
+      "sunflower-seeds": "nuts-seeds",
+      "swordfish-steak": "fin-fish",
+      "t-bone": "beef",
+      "tempeh": "soy-foods",
+      "tenderloin": "beef",
+      "textured-vegetable-protein": "soy-foods",
+      "tilapia-fillet": "fin-fish",
+      "tofu-firm": "soy-foods",
+      "top-round": "beef",
+      "top-sirloin": "beef",
+      "tri-tip": "beef",
+      "trout-fillet": "fin-fish",
+      "tuna-loin": "fin-fish",
+      "tuna-steak": "fin-fish",
+      "turkey-breast": "poultry",
+      "turkey-drumstick": "poultry",
+      "turkey-thigh": "poultry",
+      "veal-breast": "veal",
+      "veal-chop": "veal",
+      "veal-cutlet": "veal",
+      "veal-loin": "veal",
+      "veal-shank": "veal",
+      "veal-shoulder": "veal",
+      "veal-tenderloin": "veal",
+      "venison": "wild-game",
+      "venison-leg": "wild-game",
+      "venison-loin": "wild-game",
+      "venison-tenderloin": "wild-game",
+      "vital-wheat-gluten": "grains-wheat-protein",
+      "walnuts": "nuts-seeds",
+      "whole-branzino": "fin-fish",
+      "whole-chicken": "poultry",
+      "whole-duck": "poultry",
+      "whole-goose": "poultry",
+      "whole-hare": "wild-game",
+      "whole-lobster": "crustaceans",
+      "whole-quail": "poultry",
+      "whole-rabbit": "wild-game",
+      "whole-salmon": "fin-fish",
+      "whole-turkey": "poultry",
+      "wild-boar": "wild-game",
+      "wild-boar-loin": "wild-game",
+      "wild-boar-shoulder": "wild-game"
+    },
+    "group_to_category": {
+      "beef": "animal-protein",
+      "cephalopods": "animal-protein",
+      "crustaceans": "animal-protein",
+      "fin-fish": "animal-protein",
+      "grains-wheat-protein": "plant-protein",
+      "lamb": "animal-protein",
+      "legumes": "plant-protein",
+      "mollusks": "animal-protein",
+      "mushrooms": "fungi-protein",
+      "mycoprotein": "fungi-protein",
+      "nuts-seeds": "plant-protein",
+      "pork": "animal-protein",
+      "poultry": "animal-protein",
+      "soy-foods": "plant-protein",
+      "veal": "animal-protein",
+      "wild-game": "animal-protein"
+    },
+    "group_to_foods": {
+      "beef": [
+        "food.protein.beef.bavette",
+        "food.protein.beef.beef-shank",
+        "food.protein.beef.blade-steak",
+        "food.protein.beef.bottom-round",
+        "food.protein.beef.brisket",
+        "food.protein.beef.chuck-roast",
+        "food.protein.beef.denver-steak",
+        "food.protein.beef.eye-of-round",
+        "food.protein.beef.flank-steak",
+        "food.protein.beef.flat-iron",
+        "food.protein.beef.ground-beef",
+        "food.protein.beef.hanger-steak",
+        "food.protein.beef.porterhouse",
+        "food.protein.beef.prime-rib",
+        "food.protein.beef.ribeye",
+        "food.protein.beef.short-rib",
+        "food.protein.beef.skirt-steak",
+        "food.protein.beef.striploin",
+        "food.protein.beef.t-bone",
+        "food.protein.beef.tenderloin",
+        "food.protein.beef.top-round",
+        "food.protein.beef.top-sirloin",
+        "food.protein.beef.tri-tip"
+      ],
+      "cephalopods": [
+        "food.protein.cephalopods.baby-octopus",
+        "food.protein.cephalopods.calamari-rings",
+        "food.protein.cephalopods.cuttlefish",
+        "food.protein.cephalopods.cuttlefish-tentacles",
+        "food.protein.cephalopods.octopus",
+        "food.protein.cephalopods.octopus-tentacles",
+        "food.protein.cephalopods.squid",
+        "food.protein.cephalopods.squid-tube"
+      ],
+      "crustaceans": [
+        "food.protein.crustaceans.crab",
+        "food.protein.crustaceans.crawfish",
+        "food.protein.crustaceans.king-crab-leg",
+        "food.protein.crustaceans.lobster-tail",
+        "food.protein.crustaceans.prawn",
+        "food.protein.crustaceans.shrimp",
+        "food.protein.crustaceans.whole-lobster"
+      ],
+      "fin-fish": [
+        "food.protein.fin-fish.anchovy",
+        "food.protein.fin-fish.arctic-char-fillet",
+        "food.protein.fin-fish.cod-fillet",
+        "food.protein.fin-fish.flounder-fillet",
+        "food.protein.fin-fish.grouper-fillet",
+        "food.protein.fin-fish.halibut-fillet",
+        "food.protein.fin-fish.herring",
+        "food.protein.fin-fish.mackerel",
+        "food.protein.fin-fish.mahi-mahi-fillet",
+        "food.protein.fin-fish.monkfish-tail",
+        "food.protein.fin-fish.salmon-fillet",
+        "food.protein.fin-fish.sardine",
+        "food.protein.fin-fish.sea-bass-fillet",
+        "food.protein.fin-fish.snapper-fillet",
+        "food.protein.fin-fish.sole-fillet",
+        "food.protein.fin-fish.swordfish-steak",
+        "food.protein.fin-fish.tilapia-fillet",
+        "food.protein.fin-fish.trout-fillet",
+        "food.protein.fin-fish.tuna-loin",
+        "food.protein.fin-fish.tuna-steak",
+        "food.protein.fin-fish.whole-branzino",
+        "food.protein.fin-fish.whole-salmon"
+      ],
+      "grains-wheat-protein": [
+        "food.protein.grains-wheat-protein.amaranth",
+        "food.protein.grains-wheat-protein.barley",
+        "food.protein.grains-wheat-protein.buckwheat",
+        "food.protein.grains-wheat-protein.farro",
+        "food.protein.grains-wheat-protein.oats",
+        "food.protein.grains-wheat-protein.quinoa",
+        "food.protein.grains-wheat-protein.seitan",
+        "food.protein.grains-wheat-protein.vital-wheat-gluten"
+      ],
+      "lamb": [
+        "food.protein.lamb.ground-lamb",
+        "food.protein.lamb.lamb-breast",
+        "food.protein.lamb.lamb-chop",
+        "food.protein.lamb.lamb-leg",
+        "food.protein.lamb.lamb-loin",
+        "food.protein.lamb.lamb-neck",
+        "food.protein.lamb.lamb-rack",
+        "food.protein.lamb.lamb-ribs",
+        "food.protein.lamb.lamb-saddle",
+        "food.protein.lamb.lamb-shank",
+        "food.protein.lamb.lamb-shoulder",
+        "food.protein.lamb.lamb-tenderloin"
+      ],
+      "legumes": [
+        "food.protein.legumes.black-beans",
+        "food.protein.legumes.black-lentils",
+        "food.protein.legumes.cannellini-beans",
+        "food.protein.legumes.chickpeas",
+        "food.protein.legumes.green-lentils",
+        "food.protein.legumes.kidney-beans",
+        "food.protein.legumes.lentils",
+        "food.protein.legumes.lima-beans",
+        "food.protein.legumes.navy-beans",
+        "food.protein.legumes.peas",
+        "food.protein.legumes.pinto-beans",
+        "food.protein.legumes.red-lentils"
+      ],
+      "mollusks": [
+        "food.protein.mollusks.abalone",
+        "food.protein.mollusks.clam",
+        "food.protein.mollusks.cockle",
+        "food.protein.mollusks.conch",
+        "food.protein.mollusks.mussel",
+        "food.protein.mollusks.oyster",
+        "food.protein.mollusks.razor-clam",
+        "food.protein.mollusks.scallop"
+      ],
+      "mushrooms": [
+        "food.protein.mushrooms.button-mushroom",
+        "food.protein.mushrooms.chanterelle",
+        "food.protein.mushrooms.cremini",
+        "food.protein.mushrooms.enoki",
+        "food.protein.mushrooms.king-oyster",
+        "food.protein.mushrooms.lions-mane",
+        "food.protein.mushrooms.maitake",
+        "food.protein.mushrooms.morel",
+        "food.protein.mushrooms.oyster-mushroom",
+        "food.protein.mushrooms.porcini",
+        "food.protein.mushrooms.portobello",
+        "food.protein.mushrooms.shiitake"
+      ],
+      "mycoprotein": [
+        "food.protein.mycoprotein.mycoprotein",
+        "food.protein.mycoprotein.mycoprotein-fillet",
+        "food.protein.mycoprotein.mycoprotein-grounds",
+        "food.protein.mycoprotein.mycoprotein-pieces",
+        "food.protein.mycoprotein.mycoprotein-steak"
+      ],
+      "nuts-seeds": [
+        "food.protein.nuts-seeds.almonds",
+        "food.protein.nuts-seeds.cashews",
+        "food.protein.nuts-seeds.chia-seeds",
+        "food.protein.nuts-seeds.flaxseed",
+        "food.protein.nuts-seeds.hemp-seeds",
+        "food.protein.nuts-seeds.peanuts",
+        "food.protein.nuts-seeds.pine-nuts",
+        "food.protein.nuts-seeds.pistachios",
+        "food.protein.nuts-seeds.pumpkin-seeds",
+        "food.protein.nuts-seeds.sesame-seeds",
+        "food.protein.nuts-seeds.sunflower-seeds",
+        "food.protein.nuts-seeds.walnuts"
+      ],
+      "pork": [
+        "food.protein.pork.baby-back-ribs",
+        "food.protein.pork.bacon",
+        "food.protein.pork.coppa",
+        "food.protein.pork.country-style-ribs",
+        "food.protein.pork.crown-roast-pork",
+        "food.protein.pork.ground-pork",
+        "food.protein.pork.guanciale",
+        "food.protein.pork.ham",
+        "food.protein.pork.pancetta",
+        "food.protein.pork.pork-belly",
+        "food.protein.pork.pork-chop",
+        "food.protein.pork.pork-hock",
+        "food.protein.pork.pork-loin",
+        "food.protein.pork.pork-neck",
+        "food.protein.pork.pork-shoulder",
+        "food.protein.pork.pork-tenderloin",
+        "food.protein.pork.spare-ribs"
+      ],
+      "poultry": [
+        "food.protein.poultry.chicken-breast",
+        "food.protein.poultry.chicken-drumstick",
+        "food.protein.poultry.chicken-leg-quarter",
+        "food.protein.poultry.chicken-tenderloin",
+        "food.protein.poultry.chicken-thigh",
+        "food.protein.poultry.chicken-wing",
+        "food.protein.poultry.duck-breast",
+        "food.protein.poultry.duck-confit-leg",
+        "food.protein.poultry.duck-leg",
+        "food.protein.poultry.goose-breast",
+        "food.protein.poultry.goose-leg",
+        "food.protein.poultry.ground-chicken",
+        "food.protein.poultry.ground-turkey",
+        "food.protein.poultry.quail-breast",
+        "food.protein.poultry.turkey-breast",
+        "food.protein.poultry.turkey-drumstick",
+        "food.protein.poultry.turkey-thigh",
+        "food.protein.poultry.whole-chicken",
+        "food.protein.poultry.whole-duck",
+        "food.protein.poultry.whole-goose",
+        "food.protein.poultry.whole-quail",
+        "food.protein.poultry.whole-turkey"
+      ],
+      "soy-foods": [
+        "food.protein.soy-foods.edamame",
+        "food.protein.soy-foods.miso",
+        "food.protein.soy-foods.natto",
+        "food.protein.soy-foods.silken-tofu",
+        "food.protein.soy-foods.soy-curls",
+        "food.protein.soy-foods.soy-milk",
+        "food.protein.soy-foods.soybeans",
+        "food.protein.soy-foods.tempeh",
+        "food.protein.soy-foods.textured-vegetable-protein",
+        "food.protein.soy-foods.tofu-firm"
+      ],
+      "veal": [
+        "food.protein.veal.ground-veal",
+        "food.protein.veal.veal-breast",
+        "food.protein.veal.veal-chop",
+        "food.protein.veal.veal-cutlet",
+        "food.protein.veal.veal-loin",
+        "food.protein.veal.veal-shank",
+        "food.protein.veal.veal-shoulder",
+        "food.protein.veal.veal-tenderloin"
+      ],
+      "wild-game": [
+        "food.protein.wild-game.bison-ribeye",
+        "food.protein.wild-game.bison-striploin",
+        "food.protein.wild-game.elk",
+        "food.protein.wild-game.elk-loin",
+        "food.protein.wild-game.elk-tenderloin",
+        "food.protein.wild-game.ground-bison",
+        "food.protein.wild-game.ground-elk",
+        "food.protein.wild-game.ground-venison",
+        "food.protein.wild-game.ground-wild-boar",
+        "food.protein.wild-game.hare-saddle",
+        "food.protein.wild-game.rabbit-leg",
+        "food.protein.wild-game.rabbit-saddle",
+        "food.protein.wild-game.venison",
+        "food.protein.wild-game.venison-leg",
+        "food.protein.wild-game.venison-loin",
+        "food.protein.wild-game.venison-tenderloin",
+        "food.protein.wild-game.whole-hare",
+        "food.protein.wild-game.whole-rabbit",
+        "food.protein.wild-game.wild-boar",
+        "food.protein.wild-game.wild-boar-loin",
+        "food.protein.wild-game.wild-boar-shoulder"
+      ]
+    }
+  },
+  "lookup": {
+    "by_name": {
+      "abalone": [
+        "food.protein.mollusks.abalone"
+      ],
+      "almonds": [
+        "food.protein.nuts-seeds.almonds"
+      ],
+      "amaranth": [
+        "food.protein.grains-wheat-protein.amaranth"
+      ],
+      "anchovy": [
+        "food.protein.fin-fish.anchovy"
+      ],
+      "arctic char fillet": [
+        "food.protein.fin-fish.arctic-char-fillet"
+      ],
+      "baby back ribs": [
+        "food.protein.pork.baby-back-ribs"
+      ],
+      "baby octopus": [
+        "food.protein.cephalopods.baby-octopus"
+      ],
+      "bacon": [
+        "food.protein.pork.bacon"
+      ],
+      "barley": [
+        "food.protein.grains-wheat-protein.barley"
+      ],
+      "bavette steak": [
+        "food.protein.beef.bavette"
+      ],
+      "beef brisket": [
+        "food.protein.beef.brisket"
+      ],
+      "beef shank": [
+        "food.protein.beef.beef-shank"
+      ],
+      "beef short ribs": [
+        "food.protein.beef.short-rib"
+      ],
+      "beef tenderloin": [
+        "food.protein.beef.tenderloin"
+      ],
+      "bison ribeye": [
+        "food.protein.wild-game.bison-ribeye"
+      ],
+      "bison striploin": [
+        "food.protein.wild-game.bison-striploin"
+      ],
+      "black beans": [
+        "food.protein.legumes.black-beans"
+      ],
+      "black lentils": [
+        "food.protein.legumes.black-lentils"
+      ],
+      "blade steak": [
+        "food.protein.beef.blade-steak"
+      ],
+      "bottom round": [
+        "food.protein.beef.bottom-round"
+      ],
+      "buckwheat": [
+        "food.protein.grains-wheat-protein.buckwheat"
+      ],
+      "button mushroom": [
+        "food.protein.mushrooms.button-mushroom"
+      ],
+      "calamari rings": [
+        "food.protein.cephalopods.calamari-rings"
+      ],
+      "cannellini beans": [
+        "food.protein.legumes.cannellini-beans"
+      ],
+      "cashews": [
+        "food.protein.nuts-seeds.cashews"
+      ],
+      "chanterelle mushroom": [
+        "food.protein.mushrooms.chanterelle"
+      ],
+      "chia seeds": [
+        "food.protein.nuts-seeds.chia-seeds"
+      ],
+      "chicken breast": [
+        "food.protein.poultry.chicken-breast"
+      ],
+      "chicken drumstick": [
+        "food.protein.poultry.chicken-drumstick"
+      ],
+      "chicken leg quarter": [
+        "food.protein.poultry.chicken-leg-quarter"
+      ],
+      "chicken tenderloin": [
+        "food.protein.poultry.chicken-tenderloin"
+      ],
+      "chicken thigh": [
+        "food.protein.poultry.chicken-thigh"
+      ],
+      "chicken wing": [
+        "food.protein.poultry.chicken-wing"
+      ],
+      "chickpeas": [
+        "food.protein.legumes.chickpeas"
+      ],
+      "chuck roast": [
+        "food.protein.beef.chuck-roast"
+      ],
+      "clam": [
+        "food.protein.mollusks.clam"
+      ],
+      "cockle": [
+        "food.protein.mollusks.cockle"
+      ],
+      "cod fillet": [
+        "food.protein.fin-fish.cod-fillet"
+      ],
+      "conch": [
+        "food.protein.mollusks.conch"
+      ],
+      "coppa": [
+        "food.protein.pork.coppa"
+      ],
+      "country-style ribs": [
+        "food.protein.pork.country-style-ribs"
+      ],
+      "crab": [
+        "food.protein.crustaceans.crab"
+      ],
+      "crawfish": [
+        "food.protein.crustaceans.crawfish"
+      ],
+      "cremini mushroom": [
+        "food.protein.mushrooms.cremini"
+      ],
+      "crown roast of pork": [
+        "food.protein.pork.crown-roast-pork"
+      ],
+      "cuttlefish": [
+        "food.protein.cephalopods.cuttlefish"
+      ],
+      "cuttlefish tentacles": [
+        "food.protein.cephalopods.cuttlefish-tentacles"
+      ],
+      "denver steak": [
+        "food.protein.beef.denver-steak"
+      ],
+      "duck breast": [
+        "food.protein.poultry.duck-breast"
+      ],
+      "duck confit leg": [
+        "food.protein.poultry.duck-confit-leg"
+      ],
+      "duck leg": [
+        "food.protein.poultry.duck-leg"
+      ],
+      "edamame": [
+        "food.protein.soy-foods.edamame"
+      ],
+      "elk": [
+        "food.protein.wild-game.elk"
+      ],
+      "elk loin": [
+        "food.protein.wild-game.elk-loin"
+      ],
+      "elk tenderloin": [
+        "food.protein.wild-game.elk-tenderloin"
+      ],
+      "enoki mushroom": [
+        "food.protein.mushrooms.enoki"
+      ],
+      "eye of round": [
+        "food.protein.beef.eye-of-round"
+      ],
+      "farro": [
+        "food.protein.grains-wheat-protein.farro"
+      ],
+      "flank steak": [
+        "food.protein.beef.flank-steak"
+      ],
+      "flat iron steak": [
+        "food.protein.beef.flat-iron"
+      ],
+      "flaxseed": [
+        "food.protein.nuts-seeds.flaxseed"
+      ],
+      "flounder fillet": [
+        "food.protein.fin-fish.flounder-fillet"
+      ],
+      "goose breast": [
+        "food.protein.poultry.goose-breast"
+      ],
+      "goose leg": [
+        "food.protein.poultry.goose-leg"
+      ],
+      "green lentils": [
+        "food.protein.legumes.green-lentils"
+      ],
+      "ground beef": [
+        "food.protein.beef.ground-beef"
+      ],
+      "ground bison": [
+        "food.protein.wild-game.ground-bison"
+      ],
+      "ground chicken": [
+        "food.protein.poultry.ground-chicken"
+      ],
+      "ground elk": [
+        "food.protein.wild-game.ground-elk"
+      ],
+      "ground lamb": [
+        "food.protein.lamb.ground-lamb"
+      ],
+      "ground pork": [
+        "food.protein.pork.ground-pork"
+      ],
+      "ground turkey": [
+        "food.protein.poultry.ground-turkey"
+      ],
+      "ground veal": [
+        "food.protein.veal.ground-veal"
+      ],
+      "ground venison": [
+        "food.protein.wild-game.ground-venison"
+      ],
+      "ground wild boar": [
+        "food.protein.wild-game.ground-wild-boar"
+      ],
+      "grouper fillet": [
+        "food.protein.fin-fish.grouper-fillet"
+      ],
+      "guanciale": [
+        "food.protein.pork.guanciale"
+      ],
+      "halibut fillet": [
+        "food.protein.fin-fish.halibut-fillet"
+      ],
+      "ham": [
+        "food.protein.pork.ham"
+      ],
+      "hanger steak": [
+        "food.protein.beef.hanger-steak"
+      ],
+      "hare saddle": [
+        "food.protein.wild-game.hare-saddle"
+      ],
+      "hemp seeds": [
+        "food.protein.nuts-seeds.hemp-seeds"
+      ],
+      "herring": [
+        "food.protein.fin-fish.herring"
+      ],
+      "kidney beans": [
+        "food.protein.legumes.kidney-beans"
+      ],
+      "king crab leg": [
+        "food.protein.crustaceans.king-crab-leg"
+      ],
+      "king oyster mushroom": [
+        "food.protein.mushrooms.king-oyster"
+      ],
+      "lamb breast": [
+        "food.protein.lamb.lamb-breast"
+      ],
+      "lamb chop": [
+        "food.protein.lamb.lamb-chop"
+      ],
+      "lamb loin": [
+        "food.protein.lamb.lamb-loin"
+      ],
+      "lamb neck": [
+        "food.protein.lamb.lamb-neck"
+      ],
+      "lamb ribs": [
+        "food.protein.lamb.lamb-ribs"
+      ],
+      "lamb saddle": [
+        "food.protein.lamb.lamb-saddle"
+      ],
+      "lamb shank": [
+        "food.protein.lamb.lamb-shank"
+      ],
+      "lamb shoulder": [
+        "food.protein.lamb.lamb-shoulder"
+      ],
+      "lamb tenderloin": [
+        "food.protein.lamb.lamb-tenderloin"
+      ],
+      "leg of lamb": [
+        "food.protein.lamb.lamb-leg"
+      ],
+      "lentils": [
+        "food.protein.legumes.lentils"
+      ],
+      "lima beans": [
+        "food.protein.legumes.lima-beans"
+      ],
+      "lion's mane mushroom": [
+        "food.protein.mushrooms.lions-mane"
+      ],
+      "lobster tail": [
+        "food.protein.crustaceans.lobster-tail"
+      ],
+      "mackerel": [
+        "food.protein.fin-fish.mackerel"
+      ],
+      "mahi-mahi fillet": [
+        "food.protein.fin-fish.mahi-mahi-fillet"
+      ],
+      "maitake mushroom": [
+        "food.protein.mushrooms.maitake"
+      ],
+      "miso": [
+        "food.protein.soy-foods.miso"
+      ],
+      "monkfish tail": [
+        "food.protein.fin-fish.monkfish-tail"
+      ],
+      "morel mushroom": [
+        "food.protein.mushrooms.morel"
+      ],
+      "mussel": [
+        "food.protein.mollusks.mussel"
+      ],
+      "mycoprotein": [
+        "food.protein.mycoprotein.mycoprotein"
+      ],
+      "mycoprotein fillet": [
+        "food.protein.mycoprotein.mycoprotein-fillet"
+      ],
+      "mycoprotein grounds": [
+        "food.protein.mycoprotein.mycoprotein-grounds"
+      ],
+      "mycoprotein pieces": [
+        "food.protein.mycoprotein.mycoprotein-pieces"
+      ],
+      "mycoprotein steak": [
+        "food.protein.mycoprotein.mycoprotein-steak"
+      ],
+      "natto": [
+        "food.protein.soy-foods.natto"
+      ],
+      "navy beans": [
+        "food.protein.legumes.navy-beans"
+      ],
+      "oats": [
+        "food.protein.grains-wheat-protein.oats"
+      ],
+      "octopus": [
+        "food.protein.cephalopods.octopus"
+      ],
+      "octopus tentacles": [
+        "food.protein.cephalopods.octopus-tentacles"
+      ],
+      "oyster": [
+        "food.protein.mollusks.oyster"
+      ],
+      "oyster mushroom": [
+        "food.protein.mushrooms.oyster-mushroom"
+      ],
+      "pancetta": [
+        "food.protein.pork.pancetta"
+      ],
+      "peanuts": [
+        "food.protein.nuts-seeds.peanuts"
+      ],
+      "peas": [
+        "food.protein.legumes.peas"
+      ],
+      "pine nuts": [
+        "food.protein.nuts-seeds.pine-nuts"
+      ],
+      "pinto beans": [
+        "food.protein.legumes.pinto-beans"
+      ],
+      "pistachios": [
+        "food.protein.nuts-seeds.pistachios"
+      ],
+      "porcini mushroom": [
+        "food.protein.mushrooms.porcini"
+      ],
+      "pork belly": [
+        "food.protein.pork.pork-belly"
+      ],
+      "pork chop": [
+        "food.protein.pork.pork-chop"
+      ],
+      "pork hock": [
+        "food.protein.pork.pork-hock"
+      ],
+      "pork loin": [
+        "food.protein.pork.pork-loin"
+      ],
+      "pork neck": [
+        "food.protein.pork.pork-neck"
+      ],
+      "pork shoulder": [
+        "food.protein.pork.pork-shoulder"
+      ],
+      "pork spare ribs": [
+        "food.protein.pork.spare-ribs"
+      ],
+      "pork tenderloin": [
+        "food.protein.pork.pork-tenderloin"
+      ],
+      "porterhouse steak": [
+        "food.protein.beef.porterhouse"
+      ],
+      "portobello mushroom": [
+        "food.protein.mushrooms.portobello"
+      ],
+      "prawn": [
+        "food.protein.crustaceans.prawn"
+      ],
+      "prime rib": [
+        "food.protein.beef.prime-rib"
+      ],
+      "pumpkin seeds": [
+        "food.protein.nuts-seeds.pumpkin-seeds"
+      ],
+      "quail breast": [
+        "food.protein.poultry.quail-breast"
+      ],
+      "quinoa": [
+        "food.protein.grains-wheat-protein.quinoa"
+      ],
+      "rabbit leg": [
+        "food.protein.wild-game.rabbit-leg"
+      ],
+      "rabbit saddle": [
+        "food.protein.wild-game.rabbit-saddle"
+      ],
+      "rack of lamb": [
+        "food.protein.lamb.lamb-rack"
+      ],
+      "razor clam": [
+        "food.protein.mollusks.razor-clam"
+      ],
+      "red lentils": [
+        "food.protein.legumes.red-lentils"
+      ],
+      "ribeye steak": [
+        "food.protein.beef.ribeye"
+      ],
+      "salmon fillet": [
+        "food.protein.fin-fish.salmon-fillet"
+      ],
+      "sardine": [
+        "food.protein.fin-fish.sardine"
+      ],
+      "scallop": [
+        "food.protein.mollusks.scallop"
+      ],
+      "sea bass fillet": [
+        "food.protein.fin-fish.sea-bass-fillet"
+      ],
+      "seitan": [
+        "food.protein.grains-wheat-protein.seitan"
+      ],
+      "sesame seeds": [
+        "food.protein.nuts-seeds.sesame-seeds"
+      ],
+      "shiitake mushroom": [
+        "food.protein.mushrooms.shiitake"
+      ],
+      "shrimp": [
+        "food.protein.crustaceans.shrimp"
+      ],
+      "silken tofu": [
+        "food.protein.soy-foods.silken-tofu"
+      ],
+      "skirt steak": [
+        "food.protein.beef.skirt-steak"
+      ],
+      "snapper fillet": [
+        "food.protein.fin-fish.snapper-fillet"
+      ],
+      "sole fillet": [
+        "food.protein.fin-fish.sole-fillet"
+      ],
+      "soy curls": [
+        "food.protein.soy-foods.soy-curls"
+      ],
+      "soy milk": [
+        "food.protein.soy-foods.soy-milk"
+      ],
+      "soybeans": [
+        "food.protein.soy-foods.soybeans"
+      ],
+      "squid": [
+        "food.protein.cephalopods.squid"
+      ],
+      "squid tube": [
+        "food.protein.cephalopods.squid-tube"
+      ],
+      "striploin steak": [
+        "food.protein.beef.striploin"
+      ],
+      "sunflower seeds": [
+        "food.protein.nuts-seeds.sunflower-seeds"
+      ],
+      "swordfish steak": [
+        "food.protein.fin-fish.swordfish-steak"
+      ],
+      "t-bone steak": [
+        "food.protein.beef.t-bone"
+      ],
+      "tempeh": [
+        "food.protein.soy-foods.tempeh"
+      ],
+      "textured vegetable protein": [
+        "food.protein.soy-foods.textured-vegetable-protein"
+      ],
+      "tilapia fillet": [
+        "food.protein.fin-fish.tilapia-fillet"
+      ],
+      "tofu (firm)": [
+        "food.protein.soy-foods.tofu-firm"
+      ],
+      "top round": [
+        "food.protein.beef.top-round"
+      ],
+      "top sirloin steak": [
+        "food.protein.beef.top-sirloin"
+      ],
+      "tri-tip": [
+        "food.protein.beef.tri-tip"
+      ],
+      "trout fillet": [
+        "food.protein.fin-fish.trout-fillet"
+      ],
+      "tuna loin": [
+        "food.protein.fin-fish.tuna-loin"
+      ],
+      "tuna steak": [
+        "food.protein.fin-fish.tuna-steak"
+      ],
+      "turkey breast": [
+        "food.protein.poultry.turkey-breast"
+      ],
+      "turkey drumstick": [
+        "food.protein.poultry.turkey-drumstick"
+      ],
+      "turkey thigh": [
+        "food.protein.poultry.turkey-thigh"
+      ],
+      "veal breast": [
+        "food.protein.veal.veal-breast"
+      ],
+      "veal chop": [
+        "food.protein.veal.veal-chop"
+      ],
+      "veal cutlet": [
+        "food.protein.veal.veal-cutlet"
+      ],
+      "veal loin": [
+        "food.protein.veal.veal-loin"
+      ],
+      "veal shank": [
+        "food.protein.veal.veal-shank"
+      ],
+      "veal shoulder": [
+        "food.protein.veal.veal-shoulder"
+      ],
+      "veal tenderloin": [
+        "food.protein.veal.veal-tenderloin"
+      ],
+      "venison": [
+        "food.protein.wild-game.venison"
+      ],
+      "venison leg": [
+        "food.protein.wild-game.venison-leg"
+      ],
+      "venison loin": [
+        "food.protein.wild-game.venison-loin"
+      ],
+      "venison tenderloin": [
+        "food.protein.wild-game.venison-tenderloin"
+      ],
+      "vital wheat gluten": [
+        "food.protein.grains-wheat-protein.vital-wheat-gluten"
+      ],
+      "walnuts": [
+        "food.protein.nuts-seeds.walnuts"
+      ],
+      "whole branzino": [
+        "food.protein.fin-fish.whole-branzino"
+      ],
+      "whole chicken": [
+        "food.protein.poultry.whole-chicken"
+      ],
+      "whole duck": [
+        "food.protein.poultry.whole-duck"
+      ],
+      "whole goose": [
+        "food.protein.poultry.whole-goose"
+      ],
+      "whole hare": [
+        "food.protein.wild-game.whole-hare"
+      ],
+      "whole lobster": [
+        "food.protein.crustaceans.whole-lobster"
+      ],
+      "whole quail": [
+        "food.protein.poultry.whole-quail"
+      ],
+      "whole rabbit": [
+        "food.protein.wild-game.whole-rabbit"
+      ],
+      "whole salmon": [
+        "food.protein.fin-fish.whole-salmon"
+      ],
+      "whole turkey": [
+        "food.protein.poultry.whole-turkey"
+      ],
+      "wild boar": [
+        "food.protein.wild-game.wild-boar"
+      ],
+      "wild boar loin": [
+        "food.protein.wild-game.wild-boar-loin"
+      ],
+      "wild boar shoulder": [
+        "food.protein.wild-game.wild-boar-shoulder"
+      ]
+    },
+    "by_scientific_name": {
+      "Agaricus bisporus": [
+        "food.protein.mushrooms.button-mushroom",
+        "food.protein.mushrooms.cremini",
+        "food.protein.mushrooms.portobello"
+      ],
+      "Amaranthus cruentus": [
+        "food.protein.grains-wheat-protein.amaranth"
+      ],
+      "Anacardium occidentale": [
+        "food.protein.nuts-seeds.cashews"
+      ],
+      "Anas platyrhynchos domesticus": [
+        "food.protein.poultry.duck-breast",
+        "food.protein.poultry.duck-confit-leg",
+        "food.protein.poultry.duck-leg",
+        "food.protein.poultry.whole-duck"
+      ],
+      "Anser anser domesticus": [
+        "food.protein.poultry.goose-breast",
+        "food.protein.poultry.goose-leg",
+        "food.protein.poultry.whole-goose"
+      ],
+      "Arachis hypogaea": [
+        "food.protein.nuts-seeds.peanuts"
+      ],
+      "Avena sativa": [
+        "food.protein.grains-wheat-protein.oats"
+      ],
+      "Bison bison": [
+        "food.protein.wild-game.bison-ribeye",
+        "food.protein.wild-game.bison-striploin",
+        "food.protein.wild-game.ground-bison"
+      ],
+      "Boletus edulis": [
+        "food.protein.mushrooms.porcini"
+      ],
+      "Bos taurus": [
+        "food.protein.beef.bavette",
+        "food.protein.beef.beef-shank",
+        "food.protein.beef.blade-steak",
+        "food.protein.beef.bottom-round",
+        "food.protein.beef.brisket",
+        "food.protein.beef.chuck-roast",
+        "food.protein.beef.denver-steak",
+        "food.protein.beef.eye-of-round",
+        "food.protein.beef.flank-steak",
+        "food.protein.beef.flat-iron",
+        "food.protein.beef.ground-beef",
+        "food.protein.beef.hanger-steak",
+        "food.protein.beef.porterhouse",
+        "food.protein.beef.prime-rib",
+        "food.protein.beef.ribeye",
+        "food.protein.beef.short-rib",
+        "food.protein.beef.skirt-steak",
+        "food.protein.beef.striploin",
+        "food.protein.beef.t-bone",
+        "food.protein.beef.tenderloin",
+        "food.protein.beef.top-round",
+        "food.protein.beef.top-sirloin",
+        "food.protein.beef.tri-tip",
+        "food.protein.veal.ground-veal",
+        "food.protein.veal.veal-breast",
+        "food.protein.veal.veal-chop",
+        "food.protein.veal.veal-cutlet",
+        "food.protein.veal.veal-loin",
+        "food.protein.veal.veal-shank",
+        "food.protein.veal.veal-shoulder",
+        "food.protein.veal.veal-tenderloin"
+      ],
+      "Callinectes sapidus": [
+        "food.protein.crustaceans.crab"
+      ],
+      "Cannabis sativa": [
+        "food.protein.nuts-seeds.hemp-seeds"
+      ],
+      "Cantharellus cibarius": [
+        "food.protein.mushrooms.chanterelle"
+      ],
+      "Cerastoderma edule": [
+        "food.protein.mollusks.cockle"
+      ],
+      "Cervus canadensis": [
+        "food.protein.wild-game.elk",
+        "food.protein.wild-game.elk-loin",
+        "food.protein.wild-game.elk-tenderloin",
+        "food.protein.wild-game.ground-elk"
+      ],
+      "Cervus elaphus": [
+        "food.protein.wild-game.ground-venison",
+        "food.protein.wild-game.venison",
+        "food.protein.wild-game.venison-leg",
+        "food.protein.wild-game.venison-loin",
+        "food.protein.wild-game.venison-tenderloin"
+      ],
+      "Chenopodium quinoa": [
+        "food.protein.grains-wheat-protein.quinoa"
+      ],
+      "Cicer arietinum": [
+        "food.protein.legumes.chickpeas"
+      ],
+      "Clupea harengus": [
+        "food.protein.fin-fish.herring"
+      ],
+      "Coryphaena hippurus": [
+        "food.protein.fin-fish.mahi-mahi-fillet"
+      ],
+      "Coturnix japonica": [
+        "food.protein.poultry.quail-breast",
+        "food.protein.poultry.whole-quail"
+      ],
+      "Crassostrea virginica": [
+        "food.protein.mollusks.oyster"
+      ],
+      "Cucurbita pepo": [
+        "food.protein.nuts-seeds.pumpkin-seeds"
+      ],
+      "Dicentrarchus labrax": [
+        "food.protein.fin-fish.sea-bass-fillet",
+        "food.protein.fin-fish.whole-branzino"
+      ],
+      "Engraulis encrasicolus": [
+        "food.protein.fin-fish.anchovy"
+      ],
+      "Ensis directus": [
+        "food.protein.mollusks.razor-clam"
+      ],
+      "Epinephelus marginatus": [
+        "food.protein.fin-fish.grouper-fillet"
+      ],
+      "Fagopyrum esculentum": [
+        "food.protein.grains-wheat-protein.buckwheat"
+      ],
+      "Flammulina velutipes": [
+        "food.protein.mushrooms.enoki"
+      ],
+      "Fusarium venenatum": [
+        "food.protein.mycoprotein.mycoprotein",
+        "food.protein.mycoprotein.mycoprotein-fillet",
+        "food.protein.mycoprotein.mycoprotein-grounds",
+        "food.protein.mycoprotein.mycoprotein-pieces",
+        "food.protein.mycoprotein.mycoprotein-steak"
+      ],
+      "Gadus morhua": [
+        "food.protein.fin-fish.cod-fillet"
+      ],
+      "Gallus gallus domesticus": [
+        "food.protein.poultry.chicken-breast",
+        "food.protein.poultry.chicken-drumstick",
+        "food.protein.poultry.chicken-leg-quarter",
+        "food.protein.poultry.chicken-tenderloin",
+        "food.protein.poultry.chicken-thigh",
+        "food.protein.poultry.chicken-wing",
+        "food.protein.poultry.ground-chicken",
+        "food.protein.poultry.whole-chicken"
+      ],
+      "Glycine max": [
+        "food.protein.soy-foods.edamame",
+        "food.protein.soy-foods.miso",
+        "food.protein.soy-foods.natto",
+        "food.protein.soy-foods.silken-tofu",
+        "food.protein.soy-foods.soy-curls",
+        "food.protein.soy-foods.soy-milk",
+        "food.protein.soy-foods.soybeans",
+        "food.protein.soy-foods.tempeh",
+        "food.protein.soy-foods.textured-vegetable-protein",
+        "food.protein.soy-foods.tofu-firm"
+      ],
+      "Grifola frondosa": [
+        "food.protein.mushrooms.maitake"
+      ],
+      "Haliotis rufescens": [
+        "food.protein.mollusks.abalone"
+      ],
+      "Helianthus annuus": [
+        "food.protein.nuts-seeds.sunflower-seeds"
+      ],
+      "Hericium erinaceus": [
+        "food.protein.mushrooms.lions-mane"
+      ],
+      "Hippoglossus hippoglossus": [
+        "food.protein.fin-fish.halibut-fillet"
+      ],
+      "Homarus americanus": [
+        "food.protein.crustaceans.lobster-tail",
+        "food.protein.crustaceans.whole-lobster"
+      ],
+      "Hordeum vulgare": [
+        "food.protein.grains-wheat-protein.barley"
+      ],
+      "Juglans regia": [
+        "food.protein.nuts-seeds.walnuts"
+      ],
+      "Lens culinaris": [
+        "food.protein.legumes.black-lentils",
+        "food.protein.legumes.green-lentils",
+        "food.protein.legumes.lentils",
+        "food.protein.legumes.red-lentils"
+      ],
+      "Lentinula edodes": [
+        "food.protein.mushrooms.shiitake"
+      ],
+      "Lepus europaeus": [
+        "food.protein.wild-game.hare-saddle",
+        "food.protein.wild-game.whole-hare"
+      ],
+      "Linum usitatissimum": [
+        "food.protein.nuts-seeds.flaxseed"
+      ],
+      "Litopenaeus vannamei": [
+        "food.protein.crustaceans.shrimp"
+      ],
+      "Lobatus gigas": [
+        "food.protein.mollusks.conch"
+      ],
+      "Loligo vulgaris": [
+        "food.protein.cephalopods.calamari-rings",
+        "food.protein.cephalopods.squid",
+        "food.protein.cephalopods.squid-tube"
+      ],
+      "Lophius piscatorius": [
+        "food.protein.fin-fish.monkfish-tail"
+      ],
+      "Lutjanus campechanus": [
+        "food.protein.fin-fish.snapper-fillet"
+      ],
+      "Meleagris gallopavo": [
+        "food.protein.poultry.ground-turkey",
+        "food.protein.poultry.turkey-breast",
+        "food.protein.poultry.turkey-drumstick",
+        "food.protein.poultry.turkey-thigh",
+        "food.protein.poultry.whole-turkey"
+      ],
+      "Mercenaria mercenaria": [
+        "food.protein.mollusks.clam"
+      ],
+      "Morchella esculenta": [
+        "food.protein.mushrooms.morel"
+      ],
+      "Mytilus edulis": [
+        "food.protein.mollusks.mussel"
+      ],
+      "Octopus vulgaris": [
+        "food.protein.cephalopods.baby-octopus",
+        "food.protein.cephalopods.octopus",
+        "food.protein.cephalopods.octopus-tentacles"
+      ],
+      "Oncorhynchus mykiss": [
+        "food.protein.fin-fish.trout-fillet"
+      ],
+      "Oreochromis niloticus": [
+        "food.protein.fin-fish.tilapia-fillet"
+      ],
+      "Oryctolagus cuniculus": [
+        "food.protein.wild-game.rabbit-leg",
+        "food.protein.wild-game.rabbit-saddle",
+        "food.protein.wild-game.whole-rabbit"
+      ],
+      "Ovis aries": [
+        "food.protein.lamb.ground-lamb",
+        "food.protein.lamb.lamb-breast",
+        "food.protein.lamb.lamb-chop",
+        "food.protein.lamb.lamb-leg",
+        "food.protein.lamb.lamb-loin",
+        "food.protein.lamb.lamb-neck",
+        "food.protein.lamb.lamb-rack",
+        "food.protein.lamb.lamb-ribs",
+        "food.protein.lamb.lamb-saddle",
+        "food.protein.lamb.lamb-shank",
+        "food.protein.lamb.lamb-shoulder",
+        "food.protein.lamb.lamb-tenderloin"
+      ],
+      "Paralichthys dentatus": [
+        "food.protein.fin-fish.flounder-fillet"
+      ],
+      "Paralithodes camtschaticus": [
+        "food.protein.crustaceans.king-crab-leg"
+      ],
+      "Pecten maximus": [
+        "food.protein.mollusks.scallop"
+      ],
+      "Penaeus monodon": [
+        "food.protein.crustaceans.prawn"
+      ],
+      "Phaseolus lunatus": [
+        "food.protein.legumes.lima-beans"
+      ],
+      "Phaseolus vulgaris": [
+        "food.protein.legumes.black-beans",
+        "food.protein.legumes.cannellini-beans",
+        "food.protein.legumes.kidney-beans",
+        "food.protein.legumes.navy-beans",
+        "food.protein.legumes.pinto-beans"
+      ],
+      "Pinus pinea": [
+        "food.protein.nuts-seeds.pine-nuts"
+      ],
+      "Pistacia vera": [
+        "food.protein.nuts-seeds.pistachios"
+      ],
+      "Pisum sativum": [
+        "food.protein.legumes.peas"
+      ],
+      "Pleurotus eryngii": [
+        "food.protein.mushrooms.king-oyster"
+      ],
+      "Pleurotus ostreatus": [
+        "food.protein.mushrooms.oyster-mushroom"
+      ],
+      "Procambarus clarkii": [
+        "food.protein.crustaceans.crawfish"
+      ],
+      "Prunus dulcis": [
+        "food.protein.nuts-seeds.almonds"
+      ],
+      "Salmo salar": [
+        "food.protein.fin-fish.salmon-fillet",
+        "food.protein.fin-fish.whole-salmon"
+      ],
+      "Salvelinus alpinus": [
+        "food.protein.fin-fish.arctic-char-fillet"
+      ],
+      "Salvia hispanica": [
+        "food.protein.nuts-seeds.chia-seeds"
+      ],
+      "Sardina pilchardus": [
+        "food.protein.fin-fish.sardine"
+      ],
+      "Scomber scombrus": [
+        "food.protein.fin-fish.mackerel"
+      ],
+      "Sepia officinalis": [
+        "food.protein.cephalopods.cuttlefish",
+        "food.protein.cephalopods.cuttlefish-tentacles"
+      ],
+      "Sesamum indicum": [
+        "food.protein.nuts-seeds.sesame-seeds"
+      ],
+      "Solea solea": [
+        "food.protein.fin-fish.sole-fillet"
+      ],
+      "Sus scrofa": [
+        "food.protein.wild-game.ground-wild-boar",
+        "food.protein.wild-game.wild-boar",
+        "food.protein.wild-game.wild-boar-loin",
+        "food.protein.wild-game.wild-boar-shoulder"
+      ],
+      "Sus scrofa domesticus": [
+        "food.protein.pork.baby-back-ribs",
+        "food.protein.pork.bacon",
+        "food.protein.pork.coppa",
+        "food.protein.pork.country-style-ribs",
+        "food.protein.pork.crown-roast-pork",
+        "food.protein.pork.ground-pork",
+        "food.protein.pork.guanciale",
+        "food.protein.pork.ham",
+        "food.protein.pork.pancetta",
+        "food.protein.pork.pork-belly",
+        "food.protein.pork.pork-chop",
+        "food.protein.pork.pork-hock",
+        "food.protein.pork.pork-loin",
+        "food.protein.pork.pork-neck",
+        "food.protein.pork.pork-shoulder",
+        "food.protein.pork.pork-tenderloin",
+        "food.protein.pork.spare-ribs"
+      ],
+      "Thunnus albacares": [
+        "food.protein.fin-fish.tuna-loin",
+        "food.protein.fin-fish.tuna-steak"
+      ],
+      "Triticum aestivum": [
+        "food.protein.grains-wheat-protein.seitan",
+        "food.protein.grains-wheat-protein.vital-wheat-gluten"
+      ],
+      "Triticum dicoccum": [
+        "food.protein.grains-wheat-protein.farro"
+      ],
+      "Xiphias gladius": [
+        "food.protein.fin-fish.swordfish-steak"
+      ]
+    }
+  },
+  "meta": {
+    "bootstrapped_at": "2.0.0",
+    "catalog_version": "2.0.0",
+    "entity_count": 207,
+    "food_ontology_version": "1.0",
+    "phase": "ONTOLOGY-02B.1",
+    "source": "data/protein-food-catalog.json"
+  }
+}

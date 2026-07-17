@@ -1,0 +1,23 @@
+{
+  "artifacts": [
+    "data/runtime/protein-food-index.json",
+    "data/runtime/protein-food-categories.json",
+    "data/runtime/protein-food-groups.json",
+    "data/runtime/protein-food-id-map.json",
+    "data/runtime/protein-food-slug-map.json",
+    "data/runtime/protein-food-species-map.json",
+    "data/runtime/protein-food-vocabulary-index.json"
+  ],
+  "bootstrap_errors": [],
+  "catalog_version": "2.0.0",
+  "metrics": {
+    "Bootstrap errors": 0,
+    "Categories indexed": 3,
+    "Foods indexed": 207,
+    "Groups indexed": 16,
+    "Runtime artifacts": 7,
+    "Species indexed": 93
+  },
+  "overall_result": "PASS",
+  "phase": "ONTOLOGY-02B.1"
+}
