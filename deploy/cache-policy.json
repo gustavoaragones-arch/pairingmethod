@@ -1,0 +1,22 @@
+{
+  "phase": "DEPLOY-01",
+  "production_origin": "https://pairingmethod.com",
+  "immutable_assets": {
+    "paths": ["/assets/*"],
+    "cache_control": "public, max-age=31536000, immutable"
+  },
+  "mutable_publication": {
+    "paths": [
+      "/sitemap.xml",
+      "/sitemaps/*",
+      "/crawl-manifest.json",
+      "/release-manifest.json",
+      "/robots.txt"
+    ],
+    "cache_control": "public, max-age=300"
+  },
+  "html_pages": {
+    "paths": ["/foods/*", "/groups/*", "/categories/*"],
+    "cache_control": "public, max-age=3600"
+  }
+}

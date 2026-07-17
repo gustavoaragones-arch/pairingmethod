@@ -1,0 +1,30 @@
+# DEPLOY-01 — Cloudflare Pages cache policy
+# Immutable build assets
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Mutable publication metadata
+/sitemap.xml
+  Cache-Control: public, max-age=300
+
+/sitemaps/*
+  Cache-Control: public, max-age=300
+
+/crawl-manifest.json
+  Cache-Control: public, max-age=300
+
+/release-manifest.json
+  Cache-Control: public, max-age=300
+
+/robots.txt
+  Cache-Control: public, max-age=300
+
+# Protein food HTML pages
+/foods/*
+  Cache-Control: public, max-age=3600
+
+/groups/*
+  Cache-Control: public, max-age=3600
+
+/categories/*
+  Cache-Control: public, max-age=3600

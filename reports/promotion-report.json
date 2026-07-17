@@ -1,0 +1,47 @@
+{
+  "metrics": {
+    "Category pages promoted": 3,
+    "Food pages promoted": 207,
+    "Group pages promoted": 16,
+    "Overall result": "PASS",
+    "Promotion targets": 6,
+    "Validation errors": 0
+  },
+  "overall_result": "PASS",
+  "phase": "DEPLOY-01",
+  "promoted": [
+    {
+      "html_files": 207,
+      "source": "dist/foods",
+      "target": "foods"
+    },
+    {
+      "html_files": 16,
+      "source": "dist/groups",
+      "target": "groups"
+    },
+    {
+      "html_files": 3,
+      "source": "dist/categories",
+      "target": "categories"
+    },
+    {
+      "html_files": 0,
+      "source": "dist/crawl-manifest.json",
+      "target": "crawl-manifest.json"
+    },
+    {
+      "html_files": 0,
+      "source": "dist/release-manifest.json",
+      "target": "release-manifest.json"
+    },
+    {
+      "html_files": 0,
+      "site_pages_sitemap": "sitemaps/site-pages.xml",
+      "source": "dist/sitemaps + existing site sitemap",
+      "target": "sitemap.xml"
+    }
+  ],
+  "step": "promotion",
+  "validation_errors": []
+}

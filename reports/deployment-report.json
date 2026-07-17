@@ -1,0 +1,26 @@
+{
+  "deploy_base_url": null,
+  "deployment_gate": true,
+  "metrics": {
+    "Broken links": 0,
+    "Cache policy verified": true,
+    "Canonical URLs verified": 0,
+    "Deployment status": "PASS",
+    "HTML pages deployed": 226,
+    "Live verification": "skipped",
+    "Redirect issues": 0,
+    "Robots.txt verified": true,
+    "Sitemap URLs verified": 669,
+    "Smoke tests passed": "18/18"
+  },
+  "outputs": [
+    "reports/deployment-report.json",
+    "reports/redirect-audit-report.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "DEPLOY-01",
+  "validation_errors": [],
+  "warnings": [
+    "DEPLOY_BASE_URL not set — skipping live HTTP verification"
+  ]
+}

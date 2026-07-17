@@ -1,0 +1,12 @@
+{
+  "issues": [],
+  "overall_result": "PASS",
+  "phase": "DEPLOY-01",
+  "policies": {
+    "apex_www": "Production host is apex domain pairingmethod.com.",
+    "https": "HTTP requests redirect to HTTPS via _redirects.",
+    "trailing_slash": "Protein canonical URLs use trailing slashes (/foods/<slug>/)."
+  },
+  "redirect_rules": 12,
+  "warnings": []
+}
