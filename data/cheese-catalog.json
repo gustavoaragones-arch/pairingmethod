@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "phase": "FOOD-04A",
+    "tier": 2,
+    "domain": "cheese",
+    "catalog_version": "1.0.0",
+    "entity_type": "cheese",
+    "description": "Cheese Ontology — governance frozen catalog shell (FOOD-04A). No cheese entities until FOOD-04B.",
+    "entity_count": 0,
+    "group_count": 0,
+    "category_count": 0,
+    "food_ontology_version": "1.1.0",
+    "wine_ontology_version": "2.0",
+    "ontology_foundation_version": "1.0.0",
+    "platform_version": "1.0.0",
+    "governance_status": "frozen",
+    "freeze_phase": "FOOD-04A",
+    "freeze_label": "Cheese Governance Frozen v1.0.0",
+    "seeded": null,
+    "last_entity": null
+  },
+  "schema": {
+    "domain_contract": "Protein Food Ontology Platform v1.0.0",
+    "identity_contract": {
+      "namespace": "food.cheese",
+      "id_immutable": true,
+      "slug_mutable": true,
+      "display_name_mutable": true,
+      "scientific_name_semantics": "milk_source_species",
+      "scientific_name_mutable": false,
+      "external_ids_required": true,
+      "ids_never_recycled": true,
+      "entity_id_pattern": "^food\\.cheese\\.[a-z0-9-]+\\.[a-z0-9-]+$",
+      "group_id_pattern": "^food\\.cheese\\.[a-z0-9-]+$",
+      "category_id_pattern": "^food\\.cheese$",
+      "required_identity_fields": [
+        "id",
+        "slug",
+        "display_name",
+        "scientific_name",
+        "external_ids"
+      ],
+      "per_entity_version_fields": {
+        "catalog_version": "1.0.0",
+        "food_ontology_version": "1.1.0"
+      }
+    },
+    "entity_types": {
+      "cheese_category": {
+        "description": "Top-level cheese domain hub (single category in v1).",
+        "id_example": "food.cheese",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "cheese_group": {
+        "description": "Taxonomic group (Fresh, Blue, Hard, etc.).",
+        "id_example": "food.cheese.hard",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "cheese": {
+        "description": "Canonical cheese leaf entity.",
+        "id_example": "food.cheese.hard.cheddar",
+        "required_fields": [
+          "id",
+          "slug",
+          "display_name",
+          "entity_type",
+          "domain",
+          "parent_group",
+          "scientific_name",
+          "external_ids",
+          "aliases",
+          "cheese_category",
+          "milk_source",
+          "aging_class",
+          "texture",
+          "moisture_class",
+          "rind_type",
+          "pasteurization",
+          "origin_country",
+          "protected_status",
+          "summary",
+          "beginner_notes",
+          "faq",
+          "seo_title",
+          "seo_description",
+          "texture",
+          "typical_descriptors",
+          "wine_pairings",
+          "avoid_wine_pairings",
+          "related_styles",
+          "related_descriptors",
+          "related_regions",
+          "related_serving",
+          "related_techniques",
+          "similar_cheeses",
+          "substitutions",
+          "serving_styles",
+          "common_preparations",
+          "common_cuisines"
+        ]
+      }
+    },
+    "scientific_name_policy": {
+      "purpose": "Milk source species only — not cheese identity.",
+      "allowed_values": [
+        "Bos taurus",
+        "Capra hircus",
+        "Ovis aries",
+        "Bubalus bubalis"
+      ],
+      "mixed_milk_limitation": "Schema v1 supports a single scientific_name per entity. Mixed-milk cheeses must use the primary milk source species in scientific_name and document secondary sources in external_ids.milk_sources (reserved) or editorial summary until a future schema extension.",
+      "required_on_cheese": true,
+      "empty_string_permitted": false
+    },
+    "controlled_vocabularies": {
+      "cheese_category": {
+        "description": "Intrinsic classification aligned to taxonomy group.",
+        "allowed_values": [
+          "fresh",
+          "bloomy_rind",
+          "washed_rind",
+          "natural_rind",
+          "blue",
+          "semi_hard",
+          "hard",
+          "pasta_filata",
+          "brined"
+        ],
+        "nullable": false,
+        "extension_policy": "New values require FOOD-04A governance amendment and catalog audit update."
+      },
+      "milk_source": {
+        "description": "Primary milk source for pairing and dietary context.",
+        "allowed_values": ["cow", "goat", "sheep", "buffalo", "mixed"],
+        "nullable": false,
+        "extension_policy": "New values require governance amendment."
+      },
+      "aging_class": {
+        "description": "Typical aging duration class.",
+        "allowed_values": [
+          "unaged",
+          "short_aged",
+          "medium_aged",
+          "long_aged",
+          "extra_aged"
+        ],
+        "nullable": false,
+        "extension_policy": "New values require governance amendment."
+      },
+      "texture": {
+        "description": "Primary eating texture at service temperature.",
+        "allowed_values": [
+          "soft",
+          "semi_soft",
+          "firm",
+          "hard",
+          "crumbly",
+          "creamy",
+          "granular",
+          "elastic"
+        ],
+        "nullable": false,
+        "extension_policy": "New values require governance amendment."
+      },
+      "moisture_class": {
+        "description": "Moisture band for pairing weight and body reasoning.",
+        "allowed_values": ["high", "medium", "low", "extra_low"],
+        "nullable": false,
+        "extension_policy": "New values require governance amendment."
+      },
+      "rind_type": {
+        "description": "Dominant rind treatment.",
+        "allowed_values": [
+          "none",
+          "bloomy",
+          "washed",
+          "natural",
+          "blue",
+          "wax",
+          "cloth",
+          "leaf_wrapped",
+          "smoked"
+        ],
+        "nullable": false,
+        "extension_policy": "New values require governance amendment."
+      },
+      "pasteurization": {
+        "description": "Milk heat treatment before cheesemaking.",
+        "allowed_values": ["raw", "pasteurized", "thermalized", "mixed", "unknown"],
+        "nullable": false,
+        "extension_policy": "New values require governance amendment."
+      },
+      "origin_country": {
+        "description": "Canonical country of origin when geographically defined.",
+        "allowed_values": "ISO 3166-1 alpha-2 codes plus empty string for style-generic cheeses",
+        "nullable": true,
+        "empty_string_permitted": true,
+        "extension_policy": "Use ISO codes only; regional subdivisions deferred to external_ids."
+      },
+      "protected_status": {
+        "description": "Geographic or traditional protection designation.",
+        "allowed_values": [
+          "none",
+          "PDO",
+          "PGI",
+          "AOP",
+          "TSG",
+          "other",
+          "pending_documentation"
+        ],
+        "nullable": false,
+        "extension_policy": "New designation types require governance amendment."
+      }
+    },
+    "external_id_namespaces": {
+      "wikidata": {
+        "key": "wikidata",
+        "format": "Q-number string",
+        "required": false,
+        "populate_phase": "FOOD-04B+"
+      },
+      "wikipedia": {
+        "key": "wikipedia",
+        "format": "article title or URL slug",
+        "required": false,
+        "populate_phase": "FOOD-04B+"
+      },
+      "open_food_facts": {
+        "key": "open_food_facts",
+        "format": "barcode or OFF product id",
+        "required": false,
+        "populate_phase": "deferred"
+      },
+      "pdo_registry": {
+        "key": "pdo_registry",
+        "format": "official PDO/PGI/AOP registry identifier",
+        "required": false,
+        "populate_phase": "FOOD-04B+"
+      },
+      "milk_sources": {
+        "key": "milk_sources",
+        "format": "array of milk_source vocabulary values for mixed-milk cheeses",
+        "required": false,
+        "populate_phase": "FOOD-04B+",
+        "note": "Reserved extension for mixed-milk documentation without changing scientific_name semantics."
+      }
+    },
+    "relationship_placeholders": {
+      "description": "Reserved arrays — must be present and empty [] until relationship mapping (FOOD-04D/E).",
+      "arrays": [
+        "texture",
+        "typical_descriptors",
+        "wine_pairings",
+        "avoid_wine_pairings",
+        "related_styles",
+        "related_descriptors",
+        "related_regions",
+        "related_serving",
+        "related_techniques",
+        "similar_cheeses",
+        "substitutions",
+        "serving_styles",
+        "common_preparations",
+        "common_cuisines"
+      ]
+    },
+    "audit_rules": {
+      "required_checks": [
+        "unique_ids",
+        "unique_slugs",
+        "immutable_identity",
+        "required_scientific_name",
+        "required_external_ids_object",
+        "schema_version_validation",
+        "controlled_vocabulary_validation",
+        "hierarchy_integrity",
+        "alias_uniqueness",
+        "metadata_completeness",
+        "relationship_arrays_present_and_empty",
+        "entity_count_matches_meta",
+        "id_pattern_compliance",
+        "group_parent_category_alignment",
+        "cheese_parent_group_alignment"
+      ],
+      "advisory_checks": [
+        "origin_country_population_coverage",
+        "protected_status_documentation",
+        "external_ids_enrichment",
+        "mixed_milk_documentation"
+      ],
+      "certification_mirror": "Protein Food catalog audit (ONTOLOGY-02A.A)"
+    },
+    "processed_cheese_policy": {
+      "status": "out_of_scope_v1",
+      "rationale": "Processed cheese products are excluded unless a compelling pairing-relevant exception is approved during FOOD-04B review."
+    }
+  },
+  "categories": [],
+  "groups": [],
+  "cheeses": []
+}
