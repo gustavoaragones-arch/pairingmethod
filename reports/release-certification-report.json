@@ -1,0 +1,20 @@
+{
+  "deployment_gate": true,
+  "metrics": {
+    "Broken navigation links": 0,
+    "HTML pages": 226,
+    "Overall result": "PASS",
+    "Publication entities": 226,
+    "Search suggestions": 226,
+    "Sitemap URLs": 226,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "dist/release-manifest.json",
+    "reports/release-certification-report.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "ONTOLOGY-03I",
+  "validation_errors": [],
+  "warnings": []
+}

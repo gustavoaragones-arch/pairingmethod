@@ -1,0 +1,111 @@
+{
+  "artifacts": {
+    "catalog": "data/protein-food-catalog.json",
+    "html": [
+      "dist/foods",
+      "dist/groups",
+      "dist/categories"
+    ],
+    "navigation": [
+      "data/navigation/protein-food-links.json",
+      "data/navigation/protein-group-links.json",
+      "data/navigation/protein-category-links.json"
+    ],
+    "pages": [
+      "data/pages/protein-food-pages.json",
+      "data/pages/protein-group-pages.json",
+      "data/pages/protein-category-pages.json"
+    ],
+    "projections": [
+      "data/generated/protein-food-pages.json",
+      "data/generated/protein-group-pages.json",
+      "data/generated/protein-category-pages.json"
+    ],
+    "relationships": [
+      "data/runtime/protein-food-relationships.json",
+      "data/runtime/protein-food-editorial-relationships.json",
+      "data/runtime/protein-food-wine-relationships.json"
+    ],
+    "runtime": [
+      "data/runtime/protein-food-index.json",
+      "data/runtime/protein-food-groups.json",
+      "data/runtime/protein-food-categories.json"
+    ],
+    "schema": [
+      "data/schema/protein-food-schema.json",
+      "data/schema/protein-group-schema.json",
+      "data/schema/protein-category-schema.json"
+    ],
+    "search": [
+      "data/search/protein-food-search-index.json",
+      "data/search/protein-group-search-index.json",
+      "data/search/protein-category-search-index.json",
+      "data/search/protein-search-suggestions.json"
+    ],
+    "sitemaps": [
+      "dist/sitemap.xml",
+      "dist/sitemaps/protein-food-pages.xml",
+      "dist/sitemaps/protein-group-pages.xml",
+      "dist/sitemaps/protein-category-pages.xml",
+      "dist/crawl-manifest.json"
+    ]
+  },
+  "catalog_version": "2.0.0",
+  "certification": "PASS",
+  "checksums": {
+    "catalog": "831e063c148bf035793d1ef45066c16020e6c2977d9f73e5479bc162d9950c9c",
+    "html": {},
+    "navigation": {
+      "data/navigation/protein-category-links.json": "f6031e7bedf0d1bae33c19c9c7a6ef66d75b5f02c60dcac30b2df0516049aed9",
+      "data/navigation/protein-food-links.json": "1350319f7ef498aa98c8e8ed41ac77a51c900c3fc7cfa5bbea221072243115fb",
+      "data/navigation/protein-group-links.json": "bd4eec5bbaa680c4ce5b4700b9736618f464bd0ede88c47b5da036d83a3ffc35"
+    },
+    "pages": {
+      "data/pages/protein-category-pages.json": "0003e3edfdf7a122875e3bc83352cf3cf3529287f0801d7d865ab358229345d6",
+      "data/pages/protein-food-pages.json": "802c2bea9cf443d1ac190561d7301166af5dbd50ef929a4bb0eb4fe22bb90092",
+      "data/pages/protein-group-pages.json": "bebd6f57e324e90fe21996e9b8d59fadca846ef4808449e9b815a54266f8216d"
+    },
+    "projections": {
+      "data/generated/protein-category-pages.json": "1eb232703b857f83a362bde3916e11e27e8bc4becd823536186abf160fdc554a",
+      "data/generated/protein-food-pages.json": "40e22d9c512c9c1e992315ade65ce039ee0922a2887f1219cdd4ee3c31a6c592",
+      "data/generated/protein-group-pages.json": "3df983ad0451f0349c23ed70c70cf21c8a76497792b3eb0cd7529be0674a80fd"
+    },
+    "relationships": {
+      "data/runtime/protein-food-editorial-relationships.json": "55325c90ac185e6e5ea88fb2d93ba63d54fe6d4ec0db840f1225a7d4ae942864",
+      "data/runtime/protein-food-relationships.json": "5221bba266ef3374b6bb421d18dabd3c1a65df1a54aae4ea15269dcf0d7c89f5",
+      "data/runtime/protein-food-wine-relationships.json": "1a5fe8e3cab2bd90706ce5301468b671e4f1a8c2a4aa3e06f6d430ba42a26e34"
+    },
+    "runtime": {
+      "data/runtime/protein-food-categories.json": "8de813c9c1d7fc7bfd6bdf27b73b11d83df7faba11efa7934419ec1c9e3f068d",
+      "data/runtime/protein-food-groups.json": "24eaadbfefb2df0c078f171d4a43c6185859796b16ac492a336a07de071381cd",
+      "data/runtime/protein-food-index.json": "d0021c32779f163f5d70b12b96fe0933ec26c915dcbb7fb9e87466a81bd1e5f2"
+    },
+    "schema": {
+      "data/schema/protein-category-schema.json": "66e90fe3950ac22aebd25e4e91f6f0d0ed6b2d7d10242c381f59221103440dee",
+      "data/schema/protein-food-schema.json": "d62b51b445902b6452c79d4a09b226ba4f111f7d1df8656a7ae86c91c888fa1f",
+      "data/schema/protein-group-schema.json": "9a7d15d9b72f5464b1bf0731d843af0ff1ba6d5b0b92d6e6274b590ffc371913"
+    },
+    "search": {
+      "data/search/protein-category-search-index.json": "4eff3ee5c2f3f8d6c17bc72cb48de31c1208cf192d47cb2949f95ce2eb094c8c",
+      "data/search/protein-food-search-index.json": "a62defef7e7f7969d4d3ac47299d913ce7c25b823c22c78405ff938cdc7b8960",
+      "data/search/protein-group-search-index.json": "a55c628d88047b1e36b4541d9cd2a254c00189ec0321feecfbd98e426d1395f9",
+      "data/search/protein-search-suggestions.json": "ff352ee00f2de1226c0ec4cca5f6eb36eebcb316046c66530ae7858f80e8e493"
+    },
+    "sitemaps": {
+      "dist/crawl-manifest.json": "0f414f51e76340f3e2da0e0a5c2a2844a4e54391bc1e8c6472c7eb06b0b6cbef",
+      "dist/sitemap.xml": "6b1f9db511d567a65399d84d4981a869597c1cd08a8664def2fb03fb9ce735df",
+      "dist/sitemaps/protein-category-pages.xml": "7b7fedc1e120d1d3ceef7c6b43ef75d4999823dcab09085d2d35618925204752",
+      "dist/sitemaps/protein-food-pages.xml": "43d4a72ca5d9e6e0dcd0306dcf2f660bf67c8146e0a44c4aed77b2b50ef53493",
+      "dist/sitemaps/protein-group-pages.xml": "c03b9e6450b6e90bc379371a6223da01fb909b03d70c046e394d32c5fea96678"
+    }
+  },
+  "generated_at": "2026-07-17T13:47:50.835Z",
+  "pages": {
+    "categories": 3,
+    "foods": 207,
+    "groups": 16,
+    "total": 226
+  },
+  "publication": "protein-food-ontology",
+  "release_version": "1.0"
+}
