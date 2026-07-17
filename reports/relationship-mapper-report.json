@@ -1,0 +1,29 @@
+{
+  "catalog_version": "2.0.0",
+  "errors": [],
+  "metrics": {
+    "Determinism": "PASS",
+    "Duplicate edges": 0,
+    "Missing entities": 0,
+    "Overall result": "PASS",
+    "Relationship types": 12,
+    "Total edges": 35734
+  },
+  "output": "data/runtime/protein-food-relationships.json",
+  "overall_result": "PASS",
+  "phase": "ONTOLOGY-02C.1",
+  "relationship_type_counts": {
+    "belongs_to_category": 223,
+    "belongs_to_group": 207,
+    "category_contains": 16,
+    "group_contains": 207,
+    "shares_anatomical_cut": 583,
+    "shares_bone_state": 6188,
+    "shares_cut_type": 4131,
+    "shares_edible_structure": 667,
+    "shares_food_category": 11875,
+    "shares_processing_state": 10664,
+    "shares_scientific_name": 830,
+    "shares_species": 143
+  }
+}
