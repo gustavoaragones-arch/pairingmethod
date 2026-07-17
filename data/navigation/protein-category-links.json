@@ -1,0 +1,165 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/categories/animal-protein/",
+      "projection_id": "food.protein.animal",
+      "sections": {
+        "groups": [
+          {
+            "href": "/groups/beef/",
+            "id": "food.protein.beef",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Beef"
+          },
+          {
+            "href": "/groups/cephalopods/",
+            "id": "food.protein.cephalopods",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Cephalopods"
+          },
+          {
+            "href": "/groups/crustaceans/",
+            "id": "food.protein.crustaceans",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Crustaceans"
+          },
+          {
+            "href": "/groups/fin-fish/",
+            "id": "food.protein.fin-fish",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Fin Fish"
+          },
+          {
+            "href": "/groups/lamb/",
+            "id": "food.protein.lamb",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Lamb"
+          },
+          {
+            "href": "/groups/mollusks/",
+            "id": "food.protein.mollusks",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Mollusks"
+          },
+          {
+            "href": "/groups/pork/",
+            "id": "food.protein.pork",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Pork"
+          },
+          {
+            "href": "/groups/poultry/",
+            "id": "food.protein.poultry",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Poultry"
+          },
+          {
+            "href": "/groups/veal/",
+            "id": "food.protein.veal",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Veal"
+          },
+          {
+            "href": "/groups/wild-game/",
+            "id": "food.protein.wild-game",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Wild Game"
+          }
+        ],
+        "member_food_summary": {
+          "food_count": 148,
+          "group_count": 10
+        },
+        "related_categories": []
+      },
+      "slug": "animal-protein"
+    },
+    {
+      "canonical_path": "/categories/fungi-protein/",
+      "projection_id": "food.protein.fungi",
+      "sections": {
+        "groups": [
+          {
+            "href": "/groups/mushrooms/",
+            "id": "food.protein.mushrooms",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Mushrooms"
+          },
+          {
+            "href": "/groups/mycoprotein/",
+            "id": "food.protein.mycoprotein",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Mycoprotein"
+          }
+        ],
+        "member_food_summary": {
+          "food_count": 17,
+          "group_count": 2
+        },
+        "related_categories": []
+      },
+      "slug": "fungi-protein"
+    },
+    {
+      "canonical_path": "/categories/plant-protein/",
+      "projection_id": "food.protein.plant",
+      "sections": {
+        "groups": [
+          {
+            "href": "/groups/grains-wheat-protein/",
+            "id": "food.protein.grains-wheat-protein",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Grains & Wheat Protein"
+          },
+          {
+            "href": "/groups/legumes/",
+            "id": "food.protein.legumes",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          {
+            "href": "/groups/nuts-seeds/",
+            "id": "food.protein.nuts-seeds",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Nuts & Seeds"
+          },
+          {
+            "href": "/groups/soy-foods/",
+            "id": "food.protein.soy-foods",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Soy Foods"
+          }
+        ],
+        "member_food_summary": {
+          "food_count": 42,
+          "group_count": 4
+        },
+        "related_categories": []
+      },
+      "slug": "plant-protein"
+    }
+  ],
+  "meta": {
+    "catalog_version": "2.0.0",
+    "food_ontology_version": "1.0",
+    "link_set_count": 3,
+    "link_set_type": "protein_category",
+    "phase": "ONTOLOGY-03D"
+  }
+}
