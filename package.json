@@ -41,6 +41,7 @@
     "ontology:catalog-audit-protein-food": "node scripts/catalog-audit-02aa.mjs",
     "ontology:validate-protein-food-runtime": "node scripts/validate-runtime-protein-food-02b2.mjs",
     "ontology:map-protein-food-relationships": "node scripts/map-protein-food-relationships-02c1.mjs",
+    "ontology:map-protein-food-editorial-relationships": "node scripts/map-protein-food-editorial-relationships-02c2.mjs",
     "generate:term-categories": "node scripts/generate-term-categories.js",
     "generate:term-descriptors": "node scripts/generate-term-descriptors.js",
     "generate:taxonomy-runtime": "node scripts/generate-taxonomy-runtime.js",

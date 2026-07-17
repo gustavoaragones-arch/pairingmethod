@@ -1,0 +1,382 @@
+{
+  "edges": [
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Brisket is a canonical low-and-slow barbecue cut across many culinary traditions.",
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.beef.brisket",
+      "target": "preparation.barbecue",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Chuck roast is a classic pot roast and braise cut for moist-heat cooking.",
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.beef.chuck-roast",
+      "target": "preparation.braise",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Collagen-rich braising cuts that become tender with long moist-heat cooking.",
+      "relationship": "similar_to",
+      "source": "food.protein.beef.chuck-roast",
+      "target": "food.protein.pork.pork-shoulder",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Thin beef cuts from the plate/flank area, commonly marinated and grilled or seared.",
+      "relationship": "similar_to",
+      "source": "food.protein.beef.flank-steak",
+      "target": "food.protein.beef.skirt-steak",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are bulk ground proteins used in meatballs, sauces, and mixed-meat formulations.",
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.beef.ground-beef",
+      "target": "food.protein.pork.ground-pork",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Ribeye is widely prepared on the grill to render marbling and develop crust.",
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.beef.ribeye",
+      "target": "preparation.grill",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both serve as premium center-cut steak options on steakhouse and grill menus.",
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.beef.ribeye",
+      "target": "food.protein.beef.striploin",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are premium beef steak cuts with comparable grilling applications and eating quality.",
+      "relationship": "similar_to",
+      "source": "food.protein.beef.ribeye",
+      "target": "food.protein.beef.striploin",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are ultra-tender center cuts used for quick-cook medallions and fine dining mains.",
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.beef.tenderloin",
+      "target": "food.protein.veal.veal-tenderloin",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Very tender center cuts suited to quick high-heat cooking across beef and pork.",
+      "relationship": "similar_to",
+      "source": "food.protein.beef.tenderloin",
+      "target": "food.protein.pork.pork-tenderloin",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both fill the same shellfish protein role in appetizers, pastas, and stir-fries.",
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.crustaceans.prawn",
+      "target": "food.protein.crustaceans.shrimp",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Shellfish with comparable size, texture, and sauté or grill applications.",
+      "relationship": "similar_to",
+      "source": "food.protein.crustaceans.prawn",
+      "target": "food.protein.crustaceans.shrimp",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Shrimp is a common stir-fry protein in many Asian and fusion cuisines.",
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.crustaceans.shrimp",
+      "target": "preparation.stir-fry",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Cod fillets are commonly oven-baked as a mild, flaky white fish preparation.",
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.fin-fish.cod-fillet",
+      "target": "preparation.bake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Mild white fish fillets used in similar baked and pan-fried preparations.",
+      "relationship": "similar_to",
+      "source": "food.protein.fin-fish.cod-fillet",
+      "target": "food.protein.fin-fish.halibut-fillet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are firm white fish fillets used as premium mild fish entrée options.",
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.fin-fish.halibut-fillet",
+      "target": "food.protein.fin-fish.sea-bass-fillet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Salmon fillets are routinely pan-seared to crisp the skin and keep the center moist.",
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.fin-fish.salmon-fillet",
+      "target": "preparation.pan-seared",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both function as fatty fish fillet mains in similar menu and home-cook contexts.",
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.fin-fish.salmon-fillet",
+      "target": "food.protein.fin-fish.trout-fillet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Fatty fish fillets commonly prepared with the same pan-sear or oven methods.",
+      "relationship": "similar_to",
+      "source": "food.protein.fin-fish.salmon-fillet",
+      "target": "food.protein.fin-fish.trout-fillet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Wheat protein with a firm chew used as a chicken breast alternative in many recipes.",
+      "relationship": "substitutes_for",
+      "source": "food.protein.grains-wheat-protein.seitan",
+      "target": "food.protein.poultry.chicken-breast",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Bone-in or boneless lamb leg is a standard holiday and Sunday roast cut.",
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.lamb.lamb-leg",
+      "target": "preparation.roast",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are lean center-loin roasts used interchangeably for roast or chop preparations.",
+      "relationship": "similar_to",
+      "source": "food.protein.lamb.lamb-loin",
+      "target": "food.protein.pork.pork-loin",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are common stewing beans in chili, rice bowls, and Latin-inspired dishes.",
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.legumes.black-beans",
+      "target": "food.protein.legumes.kidney-beans",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are staple legume proteins in soups, stews, salads, and plant-forward cooking.",
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.legumes.chickpeas",
+      "target": "food.protein.legumes.lentils",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Mycoprotein crumbles are formulated as a direct ground beef substitute.",
+      "relationship": "substitutes_for",
+      "source": "food.protein.mycoprotein.mycoprotein-grounds",
+      "target": "food.protein.beef.ground-beef",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Bacon strips are routinely pan-seared or skillet-rendered before other uses.",
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.pork.bacon",
+      "target": "preparation.pan-seared",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both provide cured pork fat and savory depth as flavoring or supporting ingredients.",
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.pork.bacon",
+      "target": "food.protein.pork.pancetta",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Cured pork belly products used for rendering fat and savory depth in cooking.",
+      "relationship": "similar_to",
+      "source": "food.protein.pork.bacon",
+      "target": "food.protein.pork.pancetta",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Pork belly is commonly braised to render fat and tenderize connective tissue.",
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.pork.pork-belly",
+      "target": "preparation.braise",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Whole or portioned chicken breast is a standard oven-roast poultry preparation.",
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.poultry.chicken-breast",
+      "target": "preparation.roast",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Lean poultry breast cuts with similar mild flavor and quick-cooking behavior.",
+      "relationship": "similar_to",
+      "source": "food.protein.poultry.chicken-breast",
+      "target": "food.protein.poultry.turkey-breast",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are dark-meat poultry cuts suited to roasting, braising, and longer cooking.",
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.poultry.chicken-thigh",
+      "target": "food.protein.poultry.turkey-thigh",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Duck breast is typically scored and pan-seared to render fat and crisp the skin.",
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.poultry.duck-breast",
+      "target": "preparation.pan-seared",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Lean ground poultry commonly used where recipes call for ground beef.",
+      "relationship": "substitutes_for",
+      "source": "food.protein.poultry.ground-chicken",
+      "target": "food.protein.beef.ground-beef",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Commonly substituted in recipes for similar texture with lower fat content.",
+      "relationship": "substitutes_for",
+      "source": "food.protein.poultry.ground-turkey",
+      "target": "food.protein.beef.ground-beef",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Lean poultry breast cuts substituted in sandwiches, salads, and roasting.",
+      "relationship": "substitutes_for",
+      "source": "food.protein.poultry.turkey-breast",
+      "target": "food.protein.poultry.chicken-breast",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Whole chicken is a foundational roast preparation across home and restaurant cooking.",
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.poultry.whole-chicken",
+      "target": "preparation.roast",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Fermented soy protein crumbled as a plant-based ground meat alternative.",
+      "relationship": "substitutes_for",
+      "source": "food.protein.soy-foods.tempeh",
+      "target": "food.protein.beef.ground-beef",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Rehydrated TVP is a standard plant-based substitute for crumbled ground beef.",
+      "relationship": "substitutes_for",
+      "source": "food.protein.soy-foods.textured-vegetable-protein",
+      "target": "food.protein.beef.ground-beef",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Firm tofu is a staple stir-fry protein that holds shape over high heat.",
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.soy-foods.tofu-firm",
+      "target": "preparation.stir-fry",
+      "version": "1.0"
+    }
+  ],
+  "meta": {
+    "catalog_version": "2.0.0",
+    "edge_count": 40,
+    "inputs": [
+      "data/protein-food-catalog.json",
+      "data/runtime/protein-food-index.json",
+      "data/runtime/protein-food-relationships.json"
+    ],
+    "layer": "editorial",
+    "phase": "ONTOLOGY-02C.2",
+    "relationship_types": [
+      "similar_to",
+      "substitutes_for",
+      "commonly_prepared_as",
+      "shares_culinary_role"
+    ],
+    "version": "1.0"
+  }
+}

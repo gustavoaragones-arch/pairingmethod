@@ -1,0 +1,21 @@
+{
+  "catalog_version": "2.0.0",
+  "errors": [],
+  "metrics": {
+    "Conflicts": 0,
+    "Duplicate edges": 0,
+    "Editorial edges": 40,
+    "Editorial relationship types": 4,
+    "Missing entities": 0,
+    "Overall result": "PASS"
+  },
+  "output": "data/runtime/protein-food-editorial-relationships.json",
+  "overall_result": "PASS",
+  "phase": "ONTOLOGY-02C.2",
+  "relationship_type_counts": {
+    "commonly_prepared_as": 13,
+    "shares_culinary_role": 10,
+    "similar_to": 10,
+    "substitutes_for": 7
+  }
+}
