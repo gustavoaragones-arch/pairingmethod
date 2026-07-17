@@ -369,7 +369,17 @@ Rules:
 | `external_ids` | Object; **`{}` if empty** (field reserved — do not omit) |
 | `aliases` | Search aliases (e.g. "NY strip" → striploin) |
 | `fat_content` | `lean` \| `moderate` \| `rich` |
-| `texture` | Primary texture descriptor slugs (e.g. tender, firm, flaky) |
+| `food_category` | Immutable classification: `animal` \| `plant` \| `fungi` — simplifies queries without hierarchy traversal |
+| `cut_type` | Intrinsic cut class: `steak` \| `roast` \| `rib` \| `shank` \| `ground` \| `trim` \| `organ` (organ deferred to future offal subgroup) |
+| `anatomical_cut` | Intrinsic anatomical region (e.g. `loin`, `rib`, `flank`) — not hierarchy; use `""` for mixed/ground; enables cross-species queries |
+| `species` | Intrinsic species tag (e.g. `chicken`, `turkey`, `duck`) — required on multi-species groups; use `""` on single-species mammal groups until audit backfill |
+| `bone_state` | `bone_in` \| `boneless` \| `either` \| `not_applicable` (plant and fungi) |
+| `primary_cooking_methods` | Intrinsic default methods as strings (e.g. `grill`, `braise`) — not ontology links until 02B |
+| `recommended_doneness` | Intrinsic doneness guidance as strings (e.g. `medium-rare`) — metadata only |
+| `processing_state` | Intrinsic product state — not ontology links; see approved vocabulary below |
+| `plant_part` | Botanical part class (`legume`, `bean`, `grain`, `nut`, `seed`, `processed`, etc.) — plant/fungi groups |
+| `edible_structure` | Botanical structure eaten (`seed`, `root`, `fungal_body`, `processed`, etc.) — complements `plant_part` |
+| `texture` | Primary texture descriptor slugs — leave empty in catalog-first phase |
 | `typical_descriptors` | Descriptor slugs the food commonly expresses or pairs with |
 | `wine_pairings` | Slugs of `wine_style` entities with tier (`primary` \| `secondary`) — editorial; `related_styles` is graph SSOT |
 | `avoid_wine_pairings` | Wine styles or contexts to avoid |
@@ -405,6 +415,129 @@ Every catalog entry must include these arrays from day one — empty `[]` if unk
 ```
 
 See [`PROTEIN_TAXONOMY_BLUEPRINT.md`](PROTEIN_TAXONOMY_BLUEPRINT.md) §7 for field-to-edge mapping.
+
+### Intrinsic Metadata (catalog-first phase)
+
+These fields describe the food itself — not ontology relationships. Populate during catalog acquisition; 02B maps `primary_cooking_methods` strings to Cooking Technique entities.
+
+#### Catalog Rule #4 — Commercial vs anatomical cuts
+
+`cut_type` classifies the **commercial cut form** (steak, roast, rib, ground). `anatomical_cut` records the **intrinsic anatomical region** (loin, rib, flank, brisket) — not another hierarchy level.
+
+Examples:
+
+| Entity | `cut_type` | `anatomical_cut` |
+|--------|------------|------------------|
+| Ribeye | `steak` | `rib` |
+| Striploin | `steak` | `loin` |
+| Brisket | `roast` | `brisket` |
+| Ground Beef | `ground` | `""` |
+
+Reserve `""` when no single anatomical region applies (e.g. ground trim). Later queries can return every `loin` cut across Beef, Pork, Lamb, and Veal without duplicate entities.
+
+#### Catalog Rule #5 — Species tagging (multi-species groups)
+
+`species` records intrinsic species identity on `protein_food` entities — not hierarchy. Required on poultry and future multi-species groups (seafood). Values: `chicken`, `turkey`, `duck`, `goose`, `quail`, etc. Single-species mammal groups may use `""` until catalog audit backfill.
+
+**Offal / organ meats** (liver, tongue, heart, gizzard, feet, necks) are **deferred** from muscle-cut groups in 02A. A future offal subgroup will use `cut_type: organ`.
+
+### Controlled Vocabularies (freeze before Seafood — 02A.7)
+
+Catalog Audit (02A.A) enforces these vocabularies. New values require architecture amendment — not ad-hoc catalog edits.
+
+#### Approved `cut_type` vocabulary
+
+| Value | Domain | Meaning |
+|-------|--------|---------|
+| `steak` | Terrestrial, game | Individual muscle portion, cutlet, chop |
+| `roast` | Terrestrial, game, poultry | Roasting cut, portion, or whole animal |
+| `rib` | Terrestrial | Rib-section cut |
+| `shank` | Terrestrial | Lower leg / shank portion |
+| `ground` | All muscle groups | Minced / ground product |
+| `trim` | Cured, preserved | Charcuterie, confit, bacon-style products |
+| `organ` | Offal (deferred) | Liver, heart, kidney, etc. |
+| `whole` | Seafood (02A.7+) | Whole animal (fish, crustacean) |
+| `fillet` | Seafood (02A.7+) | Boneless fillet |
+| `portion` | Seafood (02A.7+) | Steak-cut, darne, cutlet (fish) |
+| `tail` | Seafood (02A.7+) | Lobster tail, langoustine tail |
+| `claw` | Seafood (02A.7+) | Crab claw, lobster claw |
+| `tentacle` | Seafood (02A.7+) | Squid, octopus tentacle |
+
+#### Approved `anatomical_cut` vocabulary
+
+| Value | Domain | Meaning |
+|-------|--------|---------|
+| `rib` | Mammals | Rib primal |
+| `loin` | Mammals, game, rabbit | Loin / backstrap / saddle |
+| `sirloin` | Mammals | Sirloin primal |
+| `chuck` | Mammals | Chuck / shoulder blade region |
+| `round` | Mammals | Hind leg round primal |
+| `brisket` | Mammals | Chest / brisket |
+| `flank` | Mammals | Flank primal |
+| `plate` | Mammals | Plate / skirt region |
+| `shank` | Mammals | Shank |
+| `neck` | Mammals | Neck |
+| `belly` | Mammals | Belly / side |
+| `shoulder` | Mammals, game | Shoulder primal |
+| `leg` | Mammals, game, poultry | Leg / haunch |
+| `breast` | Poultry, small game | Pectoral / breast |
+| `thigh` | Poultry | Thigh |
+| `wing` | Poultry | Wing |
+| `jowl` | Mammals | Cheek / jowl |
+| `""` | All | Mixed trim, ground, or whole-animal where no single primal applies |
+| `tail` | Seafood (02A.7+) | Tail meat |
+| `claw` | Seafood (02A.7+) | Claw meat |
+| `tentacle` | Seafood (02A.7+) | Tentacle / arm |
+| `fillet` | Seafood (02A.7+) | Fillet as anatomical region when distinct from cut_type |
+
+#### Approved `processing_state` vocabulary
+
+Intrinsic metadata distinguishing product form — not hierarchy, not ontology relationships. Freeze before Plant Protein (02A.8).
+
+| Value | Meaning | Examples |
+|-------|---------|----------|
+| `raw` | Raw, unprocessed | Sushi-grade fish (when sold raw) |
+| `fresh` | Fresh, uncured muscle | Salmon fillet, chicken breast |
+| `cured` | Salt-cured, dry-cured | Bacon, pancetta, ham |
+| `smoked` | Smoked (deferred products) | Reserved for future smoked catalog |
+| `dried` | Dried (deferred) | Reserved for future dried seafood |
+| `fermented` | Fermented (deferred) | Reserved for future fermented products |
+| `cooked` | Pre-cooked | Reserved for future pre-cooked retail |
+| `prepared` | Commercially prepared form | Duck confit leg, calamari rings |
+| `processed` | Industrially or culinarily processed product | Tofu, seitan, soy milk, TVP |
+| `ground` | Minced / ground | Ground beef, ground turkey |
+
+#### Approved `plant_part` vocabulary
+
+| Value | Meaning | Examples |
+|-------|---------|----------|
+| `seed` | Edible seed | Chia seeds, pumpkin seeds |
+| `bean` | Bean (often soy) | Soybeans, edamame |
+| `legume` | Legume seed | Chickpeas, lentils, black beans |
+| `grain` | Cereal / pseudograin | Quinoa, oats, barley |
+| `kernel` | Kernel (reserved) | Future expansion |
+| `nut` | Tree nut | Almonds, walnuts |
+| `sprout` | Sprout (reserved) | Future expansion |
+| `processed` | Processed plant product | Tofu, seitan, miso |
+
+#### Approved `edible_structure` vocabulary
+
+Freeze before Fungi (02A.9). Complements `plant_part` without overlapping — enables future vegetables, fruits, herbs, spices, and fungi.
+
+| Value | Meaning | Examples |
+|-------|---------|----------|
+| `fruit` | Fruit flesh | Reserved for future produce |
+| `seed` | Seed structure | Almond, quinoa, soybean |
+| `leaf` | Leaf | Reserved for future produce |
+| `stem` | Stem | Reserved for future produce |
+| `root` | Root | Reserved for future produce |
+| `tuber` | Tuber | Reserved for future produce |
+| `bulb` | Bulb | Reserved for future produce |
+| `flower` | Flower | Reserved for future produce |
+| `fungal_body` | Fungal fruiting body | Reserved for 02A.9 mushrooms |
+| `processed` | Processed structure | Tofu, tempeh, seitan |
+
+Values not in these tables must not appear in the catalog without a documented vocabulary extension.
 
 ### Optional Fields — `protein_food` Entities
 
@@ -520,7 +653,11 @@ Every Food Ontology project follows this sequence — **no shortcuts**:
 ```text
 protein-food-catalog.json   (SSOT — begin here)
         ↓
-bootstrap
+catalog audit (02A.A)       (vocabulary, aliases, metadata — PASS required)
+        ↓
+catalog freeze (02A.B)      (docs/FOOD_PROTEIN_CATALOG_V1.md — governance)
+        ↓
+bootstrap                   (read-only — never modifies catalog SSOT)
         ↓
 validator
         ↓
@@ -539,11 +676,66 @@ certification
 
 The Wine Ontology proved this lifecycle works. Do not generate pages, search indexes, or structured data before the catalog and typed relationships exist.
 
+### ONTOLOGY-02A.A — Catalog Audit (pre-bootstrap)
+
+After all planned protein groups are populated (through Fungi), run a dedicated catalog audit **before** bootstrap or generators. Treat `protein-food-catalog.json` as a reference dataset, not a content file.
+
+| Check | Requirement |
+|-------|-------------|
+| `anatomical_cut` vocabulary | Every value belongs to approved vocabulary |
+| `cut_type` vocabulary | Every value belongs to approved vocabulary |
+| `species` vocabulary | Every value belongs to approved vocabulary |
+| `processing_state` vocabulary | Every value belongs to approved vocabulary |
+| `plant_part` vocabulary | Every value belongs to approved vocabulary (plant/fungi entities) |
+| `edible_structure` vocabulary | Every value belongs to approved vocabulary (plant/fungi entities) |
+| Scientific names | Unique and correctly associated with species |
+| Aliases | Zero cross-species collisions |
+| Metadata | 100% completeness on required intrinsic fields |
+| Hierarchy | No orphan groups or categories |
+| Meta | `catalog_version`, `entity_count`, `last_group` internally consistent |
+
+**Audit script:** `scripts/catalog-audit-02aa.mjs`  
+**Audit report:** `reports/protein-food-catalog-audit.json`
+
+Audit sections: Identity (IDs, slugs, ID format, meta) · Hierarchy (categories, groups, child_slugs) · Controlled vocabularies · Scientific name consistency per `species` · Metadata completeness · Alias integrity · Unexpected keys.
+
+Overall **PASS** required before bootstrap (required checks only; advisory warnings do not block).
+
+**Rule reporting:** Each of 18 rules is evaluated independently. Summary reports `Passed`, `Failed`, `Warnings`, and `Advisory checks` separately so certification metrics are unambiguous.
+
+This is the Food Ontology equivalent of pre-certification validation performed on Wine Ontology v2.0 — a clean SSOT gate before downstream systems consume the catalog.
+
+### ONTOLOGY-02A.B — Catalog Freeze (pre-bootstrap)
+
+After catalog audit passes, freeze the catalog as a governance artifact before any implementation.
+
+| Artifact | Path |
+|----------|------|
+| Catalog freeze document | `docs/FOOD_PROTEIN_CATALOG_V1.md` |
+
+Records version, statistics, frozen schema, controlled vocabularies, change policy, and certification baseline. The catalog JSON remains the SSOT; the freeze document is the canonical contract.
+
+### Bootstrap contract (read-only catalog)
+
+Bootstrap **must not modify** `protein-food-catalog.json`. The catalog is immutable input.
+
+Bootstrap may:
+
+- Parse the catalog
+- Normalize into runtime structures
+- Build indexes
+- Emit derived artifacts (reports, bootstrap JSON, graph seeds)
+
+Bootstrap must not write back to the catalog SSOT. All generated artifacts must be reproducible from the catalog file alone.
+
 ### Planned Artifacts
 
 | Artifact | Path |
 |----------|------|
 | Catalog SSOT | `data/protein-food-catalog.json` |
+| Catalog audit | `scripts/catalog-audit-02aa.mjs` |
+| Catalog audit report | `reports/protein-food-catalog-audit.json` |
+| Catalog freeze | `docs/FOOD_PROTEIN_CATALOG_V1.md` |
 | Bootstrap catalog | `scripts/bootstrap-protein-food-catalog.js` |
 | Bootstrap evidence | `scripts/bootstrap-protein-food-evidence.js` |
 | Lib context | `lib/taxonomy-protein-food.js` |

@@ -1,0 +1,202 @@
+{
+  "audited_at": "2026-07-17",
+  "phase": "ONTOLOGY-02A.A",
+  "catalog_version": "2.0.0",
+  "validation": {
+    "total_validation_rules": 18,
+    "required_checks": 17,
+    "advisory_checks": 1,
+    "informational_checks": 0,
+    "passed": 17,
+    "failed": 0,
+    "warnings": 1,
+    "informational": 0,
+    "required_failed": 0,
+    "overall_result": "PASS"
+  },
+  "summary": {
+    "categories": 3,
+    "groups": 16,
+    "protein_foods": 207,
+    "scientific_names": 86,
+    "vocabulary_violations": 0,
+    "alias_conflicts": 0,
+    "metadata_completeness": "100%",
+    "overall_result": "PASS"
+  },
+  "metrics": {
+    "Total validation rules": 18,
+    "Passed": 17,
+    "Failed": 0,
+    "Warnings": 1,
+    "Informational checks": 0,
+    "Required checks": 17,
+    "Advisory checks": 1,
+    "Categories": 3,
+    "Groups": 16,
+    "Protein foods": 207,
+    "Scientific names": 86,
+    "Vocabulary violations": 0,
+    "Alias conflicts": 0,
+    "Metadata completeness": "100%",
+    "Overall result": "PASS"
+  },
+  "rules": [
+    {
+      "id": "META-001",
+      "name": "meta.entity_count matches protein_foods length",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-002",
+      "name": "meta.catalog_version present",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ID-001",
+      "name": "unique ontology IDs",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ID-002",
+      "name": "unique slugs",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ID-003",
+      "name": "stable protein_food ID format",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-001",
+      "name": "category ID format and group references",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-002",
+      "name": "group ID format and category parent",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-003",
+      "name": "every protein_food belongs to exactly one valid group",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-004",
+      "name": "group child_slugs bidirectionally complete",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "VOCAB-001",
+      "name": "controlled vocabulary compliance",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-003",
+      "name": "species populated where required",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-004",
+      "name": "plant/fungi botanical fields present and valid",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "SCI-001",
+      "name": "scientific_name consistent per species key",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-005",
+      "name": "required field coverage on every protein_food",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "REL-001",
+      "name": "reserved relationship arrays present and empty",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ALIAS-001",
+      "name": "no duplicate aliases across catalog",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "SCHEMA-001",
+      "name": "no unexpected keys on protein_food entities",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ADV-001",
+      "name": "mammal species field backfill (deferred to catalog audit follow-up)",
+      "severity": "advisory",
+      "status": "warning",
+      "messages": [
+        "60 mammal-group entities without species field (beef, pork, lamb, veal) — deferred backfill, not blocking v1"
+      ],
+      "truncated": false
+    }
+  ],
+  "details": {
+    "identity_errors": [],
+    "hierarchy_errors": [],
+    "vocabulary_violations": [],
+    "alias_conflicts": [],
+    "metadata_gaps_total": 0,
+    "metadata_gaps_sample": [],
+    "unexpected_keys": [],
+    "scientific_name_issues": []
+  }
+}

@@ -444,6 +444,27 @@ Every `protein_food` catalog entry must include these arrays from day one — **
 | `common_preparations` | Placeholder — not cooking techniques or dishes | 02B / 02G |
 | `common_cuisines` | Placeholder — regional culinary context | 02G |
 
+### Intrinsic metadata (catalog-first phase)
+
+Required on every `protein_food` from catalog acquisition:
+
+| Field | Values |
+|-------|--------|
+| `food_category` | `animal` \| `plant` \| `fungi` |
+| `cut_type` | `steak` \| `roast` \| `rib` \| `shank` \| `ground` \| `trim` \| `organ` (organ deferred — offal subgroup later) |
+| `anatomical_cut` | Intrinsic anatomical region (e.g. `loin`, `rib`, `flank`) — `""` for mixed/ground |
+| `species` | Intrinsic species tag (e.g. `chicken`, `turkey`) — required on multi-species groups |
+| `bone_state` | `bone_in` \| `boneless` \| `either` |
+| `primary_cooking_methods` | Strings only until 02B (e.g. `grill`, `braise`) |
+| `recommended_doneness` | Strings only (e.g. `medium-rare`) |
+| `processing_state` | `raw` \| `fresh` \| `cured` \| `smoked` \| `dried` \| `fermented` \| `cooked` \| `prepared` \| `ground` \| `processed` |
+| `plant_part` | `seed` \| `bean` \| `legume` \| `grain` \| `kernel` \| `nut` \| `sprout` \| `processed` (plant groups) |
+| `edible_structure` | `fruit` \| `seed` \| `leaf` \| `stem` \| `root` \| `tuber` \| `bulb` \| `flower` \| `fungal_body` \| `processed` (plant/fungi) |
+
+**Offal deferred:** Liver, tongue, heart, oxtail, tripe — future offal subgroup under each animal group, not 02A muscle cuts.
+
+**Controlled vocabularies:** See [`ONTOLOGY-02A_ARCHITECTURE.md`](ONTOLOGY-02A_ARCHITECTURE.md) §7 — `cut_type` and `anatomical_cut` vocabularies are frozen before Seafood (02A.7). Catalog Audit (02A.A) enforces them.
+
 `common_preparations` and `common_cuisines` are cross-domain placeholders — not cooking techniques (02B) or dishes (02H). Reserved now to avoid schema evolution later.
 
 Empty arrays are preferable to omitting fields. Reinforces SSOT and prevents schema migration.
