@@ -1,0 +1,54 @@
+{
+  "layers": {
+    "cross_layer": {
+      "complete_chains": 226,
+      "entities": 226,
+      "overall": 100
+    },
+    "determinism": {
+      "artifacts_checked": 16,
+      "artifacts_passing": 16,
+      "overall": 100
+    },
+    "json_ld": {
+      "categories": 100,
+      "foods": 100,
+      "groups": 100,
+      "overall": 100
+    },
+    "navigation": {
+      "categories": 100,
+      "foods": 100,
+      "groups": 100,
+      "overall": 100
+    },
+    "projections": {
+      "categories": 100,
+      "foods": 100,
+      "groups": 100,
+      "overall": 100
+    },
+    "relationships": {
+      "consumed_by_publication": 89,
+      "editorial_edges": 40,
+      "overall": 100,
+      "pairing_edges": 29,
+      "structural_edges": 35734
+    },
+    "search": {
+      "categories": 100,
+      "foods": 100,
+      "groups": 100,
+      "overall": 100
+    },
+    "viewmodels": {
+      "categories": 100,
+      "foods": 100,
+      "groups": 100,
+      "overall": 100
+    }
+  },
+  "overall_certification": "PASS",
+  "phase": "ONTOLOGY-03F",
+  "publication_completeness_percent": 100
+}

@@ -48,6 +48,8 @@
     "generate:protein-food-schema": "node scripts/generate-protein-food-schema-03c.mjs",
     "generate:protein-food-links": "node scripts/generate-protein-food-links-03d.mjs",
     "generate:protein-food-search-index": "node scripts/generate-protein-food-search-index-03e.mjs",
+    "certify:protein-food-publication": "node scripts/certify-protein-food-publication-03f.mjs",
+    "generate:protein-food-publication": "npm run generate:protein-food-projections && npm run generate:protein-food-pages && npm run generate:protein-food-schema && npm run generate:protein-food-links && npm run generate:protein-food-search-index && npm run certify:protein-food-publication",
     "generate:term-categories": "node scripts/generate-term-categories.js",
     "generate:term-descriptors": "node scripts/generate-term-descriptors.js",
     "generate:taxonomy-runtime": "node scripts/generate-taxonomy-runtime.js",
