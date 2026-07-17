@@ -3270,6 +3270,25 @@ body.term-modal-open {
   --term-entity-accent: var(--wine-red);
 }
 
+.protein-entity-page {
+  --term-entity-accent: #2f5d3a;
+}
+
+.protein-characteristics-list {
+  display: grid;
+  gap: 0.75rem 1.5rem;
+  margin: 0;
+}
+
+.protein-characteristics-list dt {
+  font-weight: 600;
+  color: var(--text-muted, #5a5a5a);
+}
+
+.protein-characteristics-list dd {
+  margin: 0.15rem 0 0;
+}
+
 .wine-style-classification {
   font-size: 1.05rem;
   color: var(--muted);
