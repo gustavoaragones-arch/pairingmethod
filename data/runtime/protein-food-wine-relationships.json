@@ -1,0 +1,289 @@
+{
+  "edges": [
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Jammy fruit and moderate tannin support barbecue sweetness and rendered fat.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.beef.brisket",
+      "target": "zinfandel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Smoke and spice in slow-cooked brisket align with bold, peppery red wine profiles.",
+      "relationship": "pairs_with_style",
+      "source": "food.protein.beef.brisket",
+      "target": "syrah-shiraz",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Oak-influenced wines echo smoke and spice common in barbecue brisket preparations.",
+      "relationship": "pairs_with_technique",
+      "source": "food.protein.beef.brisket",
+      "target": "barrel-aging",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Peppery, smoky Syrah complements charred crust and savory depth of grilled steak.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.beef.ribeye",
+      "target": "syrah-shiraz",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Rich marbling and protein fat balance firm tannic structure in full-bodied reds.",
+      "relationship": "pairs_with_style",
+      "source": "food.protein.beef.ribeye",
+      "target": "cabernet-sauvignon",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Lean, tender beef benefits from lower tannin and bright acidity in Pinot Noir.",
+      "relationship": "pairs_with_style",
+      "source": "food.protein.beef.tenderloin",
+      "target": "pinot-noir",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Richer salmon preparations align with fuller-bodied, lightly oaked Chardonnay.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.fin-fish.salmon-fillet",
+      "target": "chardonnay",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Citrus aromatics in white and rosé wines complement salmon's natural richness.",
+      "relationship": "pairs_with_descriptor",
+      "source": "food.protein.fin-fish.salmon-fillet",
+      "target": "lemon",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Fatty salmon texture pairs with low-tannin red wine and bright acidity.",
+      "relationship": "pairs_with_style",
+      "source": "food.protein.fin-fish.salmon-fillet",
+      "target": "pinot-noir",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Delicate tuna loin favors high-acidity, minimally oaked coastal whites.",
+      "relationship": "pairs_with_style",
+      "source": "food.protein.fin-fish.tuna-loin",
+      "target": "albarino",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Unoaked, stainless-aged whites preserve delicate fish aroma without wood masking.",
+      "relationship": "pairs_with_technique",
+      "source": "food.protein.fin-fish.tuna-loin",
+      "target": "stainless-steel-aging",
+      "version": "1.0"
+    },
+    {
+      "confidence": "medium",
+      "derived_from": "pairing",
+      "evidence": "Seared tuna's meaty texture can carry light red wine with moderate tannin.",
+      "relationship": "pairs_with_style",
+      "source": "food.protein.fin-fish.tuna-steak",
+      "target": "pinot-noir",
+      "version": "1.0"
+    },
+    {
+      "confidence": "medium",
+      "derived_from": "pairing",
+      "evidence": "Medium-bodied Grenache offers soft tannin for longer-cooked, milder lamb roasts.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.lamb.lamb-leg",
+      "target": "grenache",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Syrah pepper and smoke notes align with roasted lamb and common herb seasonings.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.lamb.lamb-rack",
+      "target": "syrah-shiraz",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Lamb's savory character commonly echoes black pepper notes found in Syrah and Cabernet.",
+      "relationship": "pairs_with_descriptor",
+      "source": "food.protein.lamb.lamb-rack",
+      "target": "black-pepper",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Gamey lamb fat and herb crust stand up to structured Cabernet tannins.",
+      "relationship": "pairs_with_style",
+      "source": "food.protein.lamb.lamb-rack",
+      "target": "cabernet-sauvignon",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Meaty portobello caps support peppery, medium-plus body Syrah profiles.",
+      "relationship": "pairs_with_style",
+      "source": "food.protein.mushrooms.portobello",
+      "target": "syrah-shiraz",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Mushroom savoriness aligns with earthy descriptors in Pinot Noir and aged Nebbiolo.",
+      "relationship": "pairs_with_descriptor",
+      "source": "food.protein.mushrooms.shiitake",
+      "target": "earthy",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Earthy mushroom umami pairs with forest-floor notes common in Pinot Noir.",
+      "relationship": "pairs_with_style",
+      "source": "food.protein.mushrooms.shiitake",
+      "target": "pinot-noir",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "High fat pork belly is balanced by aromatic acidity and slight sweetness in Riesling.",
+      "relationship": "pairs_with_style",
+      "source": "food.protein.pork.pork-belly",
+      "target": "riesling",
+      "version": "1.0"
+    },
+    {
+      "confidence": "medium",
+      "derived_from": "pairing",
+      "evidence": "Lightly oaked Chardonnay complements mild pork flavor without overpowering texture.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.pork.pork-chop",
+      "target": "chardonnay",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Moderate-weight pork chop pairs with silky tannin and red fruit in Pinot Noir.",
+      "relationship": "pairs_with_style",
+      "source": "food.protein.pork.pork-chop",
+      "target": "pinot-noir",
+      "version": "1.0"
+    },
+    {
+      "confidence": "medium",
+      "derived_from": "pairing",
+      "evidence": "Light red Pinot Noir suits simply prepared chicken without overwhelming delicate texture.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.poultry.chicken-breast",
+      "target": "pinot-noir",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Mild, lean poultry pairs with medium-bodied white wine and restrained oak.",
+      "relationship": "pairs_with_style",
+      "source": "food.protein.poultry.chicken-breast",
+      "target": "chardonnay",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Higher fat dark poultry benefits from earthy, moderate-tannin Pinot Noir.",
+      "relationship": "pairs_with_style",
+      "source": "food.protein.poultry.chicken-thigh",
+      "target": "pinot-noir",
+      "version": "1.0"
+    },
+    {
+      "confidence": "medium",
+      "derived_from": "pairing",
+      "evidence": "Light, crisp Pinot Grigio suits grilled tempeh without competing with umami.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.soy-foods.tempeh",
+      "target": "pinot-grigio",
+      "version": "1.0"
+    },
+    {
+      "confidence": "medium",
+      "derived_from": "pairing",
+      "evidence": "Fermented, nutty tempeh aligns with aromatic whites and subtle spice notes.",
+      "relationship": "pairs_with_style",
+      "source": "food.protein.soy-foods.tempeh",
+      "target": "gewurztraminer",
+      "version": "1.0"
+    },
+    {
+      "confidence": "medium",
+      "derived_from": "pairing",
+      "evidence": "Floral Gewürztraminer complements common ginger-garlic stir-fry aromatics with tofu.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.soy-foods.tofu-firm",
+      "target": "gewurztraminer",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Neutral tofu protein absorbs sauce; aromatic Riesling acidity cuts soy and spice.",
+      "relationship": "pairs_with_style",
+      "source": "food.protein.soy-foods.tofu-firm",
+      "target": "riesling",
+      "version": "1.0"
+    }
+  ],
+  "meta": {
+    "catalog_version": "2.0.0",
+    "edge_count": 29,
+    "inputs": [
+      "data/protein-food-catalog.json",
+      "data/runtime/protein-food-index.json",
+      "data/runtime/protein-food-editorial-relationships.json",
+      "data/wine-style-catalog.json",
+      "data/wine-taxonomy.json",
+      "data/winemaking-technique-catalog.json",
+      "data/wine-region-catalog.json",
+      "data/wine-serving-catalog.json",
+      "data/wine-fault-catalog.json"
+    ],
+    "layer": "pairing",
+    "phase": "ONTOLOGY-02D.1",
+    "relationship_types": [
+      "pairs_with_style",
+      "also_pairs_with_style",
+      "pairs_with_descriptor",
+      "pairs_with_technique"
+    ],
+    "version": "1.0"
+  }
+}

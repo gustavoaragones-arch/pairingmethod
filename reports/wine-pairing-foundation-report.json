@@ -1,0 +1,22 @@
+{
+  "catalog_version": "2.0.0",
+  "metrics": {
+    "Descriptor links": 3,
+    "Foods linked": 16,
+    "Overall result": "PASS",
+    "Pairing edges": 29,
+    "Technique links": 2,
+    "Validation errors": 0,
+    "Wine styles linked": 10
+  },
+  "output": "data/runtime/protein-food-wine-relationships.json",
+  "overall_result": "PASS",
+  "phase": "ONTOLOGY-02D.1",
+  "relationship_type_counts": {
+    "also_pairs_with_style": 9,
+    "pairs_with_descriptor": 3,
+    "pairs_with_style": 15,
+    "pairs_with_technique": 2
+  },
+  "validation_errors": []
+}
