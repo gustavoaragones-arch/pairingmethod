@@ -1,0 +1,2708 @@
+{
+  "meta": {
+    "catalog_version": "2.0.0",
+    "food_ontology_version": "1.0",
+    "phase": "ONTOLOGY-03C",
+    "schema_count": 16,
+    "schema_type": "protein_group"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/groups/beef/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/beef/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/animal-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.animal",
+            "name": "Animal Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/beef/#breadcrumb"
+          },
+          "description": "Beef — 23 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Beef — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/beef/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/beef/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/animal-protein/",
+              "name": "Animal Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/beef/",
+              "name": "Beef",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/beef/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "beef",
+          "description": "Beef — 23 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/bavette/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.bavette",
+              "name": "Bavette Steak",
+              "url": "https://pairingmethod.com/foods/bavette/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/beef-shank/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.beef-shank",
+              "name": "Beef Shank",
+              "url": "https://pairingmethod.com/foods/beef-shank/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/blade-steak/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.blade-steak",
+              "name": "Blade Steak",
+              "url": "https://pairingmethod.com/foods/blade-steak/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/bottom-round/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.bottom-round",
+              "name": "Bottom Round",
+              "url": "https://pairingmethod.com/foods/bottom-round/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/brisket/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.brisket",
+              "name": "Beef Brisket",
+              "url": "https://pairingmethod.com/foods/brisket/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/chuck-roast/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.chuck-roast",
+              "name": "Chuck Roast",
+              "url": "https://pairingmethod.com/foods/chuck-roast/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/denver-steak/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.denver-steak",
+              "name": "Denver Steak",
+              "url": "https://pairingmethod.com/foods/denver-steak/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/eye-of-round/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.eye-of-round",
+              "name": "Eye of Round",
+              "url": "https://pairingmethod.com/foods/eye-of-round/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/flank-steak/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.flank-steak",
+              "name": "Flank Steak",
+              "url": "https://pairingmethod.com/foods/flank-steak/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/flat-iron/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.flat-iron",
+              "name": "Flat Iron Steak",
+              "url": "https://pairingmethod.com/foods/flat-iron/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/ground-beef/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.ground-beef",
+              "name": "Ground Beef",
+              "url": "https://pairingmethod.com/foods/ground-beef/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/hanger-steak/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.hanger-steak",
+              "name": "Hanger Steak",
+              "url": "https://pairingmethod.com/foods/hanger-steak/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/porterhouse/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.porterhouse",
+              "name": "Porterhouse Steak",
+              "url": "https://pairingmethod.com/foods/porterhouse/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/prime-rib/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.prime-rib",
+              "name": "Prime Rib",
+              "url": "https://pairingmethod.com/foods/prime-rib/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/ribeye/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.ribeye",
+              "name": "Ribeye Steak",
+              "url": "https://pairingmethod.com/foods/ribeye/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/short-rib/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.short-rib",
+              "name": "Beef Short Ribs",
+              "url": "https://pairingmethod.com/foods/short-rib/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/skirt-steak/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.skirt-steak",
+              "name": "Skirt Steak",
+              "url": "https://pairingmethod.com/foods/skirt-steak/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/striploin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.striploin",
+              "name": "Striploin Steak",
+              "url": "https://pairingmethod.com/foods/striploin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/t-bone/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.t-bone",
+              "name": "T-Bone Steak",
+              "url": "https://pairingmethod.com/foods/t-bone/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/tenderloin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.tenderloin",
+              "name": "Beef Tenderloin",
+              "url": "https://pairingmethod.com/foods/tenderloin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/top-round/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.top-round",
+              "name": "Top Round",
+              "url": "https://pairingmethod.com/foods/top-round/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/top-sirloin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.top-sirloin",
+              "name": "Top Sirloin Steak",
+              "url": "https://pairingmethod.com/foods/top-sirloin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/tri-tip/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.beef.tri-tip",
+              "name": "Tri-Tip",
+              "url": "https://pairingmethod.com/foods/tri-tip/"
+            }
+          ],
+          "identifier": "food.protein.beef",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Beef",
+          "numberOfTerms": 23,
+          "url": "https://pairingmethod.com/groups/beef/"
+        }
+      ],
+      "projection_id": "food.protein.beef",
+      "slug": "beef"
+    },
+    {
+      "canonical_path": "/groups/cephalopods/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/cephalopods/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/animal-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.animal",
+            "name": "Animal Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/cephalopods/#breadcrumb"
+          },
+          "description": "Cephalopods — 8 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Cephalopods — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/cephalopods/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/cephalopods/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/animal-protein/",
+              "name": "Animal Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/cephalopods/",
+              "name": "Cephalopods",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/cephalopods/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "cephalopods",
+          "description": "Cephalopods — 8 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/baby-octopus/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.cephalopods.baby-octopus",
+              "name": "Baby Octopus",
+              "url": "https://pairingmethod.com/foods/baby-octopus/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/calamari-rings/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.cephalopods.calamari-rings",
+              "name": "Calamari Rings",
+              "url": "https://pairingmethod.com/foods/calamari-rings/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/cuttlefish/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.cephalopods.cuttlefish",
+              "name": "Cuttlefish",
+              "url": "https://pairingmethod.com/foods/cuttlefish/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/cuttlefish-tentacles/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.cephalopods.cuttlefish-tentacles",
+              "name": "Cuttlefish Tentacles",
+              "url": "https://pairingmethod.com/foods/cuttlefish-tentacles/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/octopus/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.cephalopods.octopus",
+              "name": "Octopus",
+              "url": "https://pairingmethod.com/foods/octopus/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/octopus-tentacles/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.cephalopods.octopus-tentacles",
+              "name": "Octopus Tentacles",
+              "url": "https://pairingmethod.com/foods/octopus-tentacles/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/squid/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.cephalopods.squid",
+              "name": "Squid",
+              "url": "https://pairingmethod.com/foods/squid/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/squid-tube/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.cephalopods.squid-tube",
+              "name": "Squid Tube",
+              "url": "https://pairingmethod.com/foods/squid-tube/"
+            }
+          ],
+          "identifier": "food.protein.cephalopods",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Cephalopods",
+          "numberOfTerms": 8,
+          "url": "https://pairingmethod.com/groups/cephalopods/"
+        }
+      ],
+      "projection_id": "food.protein.cephalopods",
+      "slug": "cephalopods"
+    },
+    {
+      "canonical_path": "/groups/crustaceans/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/crustaceans/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/animal-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.animal",
+            "name": "Animal Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/crustaceans/#breadcrumb"
+          },
+          "description": "Crustaceans — 7 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Crustaceans — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/crustaceans/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/crustaceans/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/animal-protein/",
+              "name": "Animal Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/crustaceans/",
+              "name": "Crustaceans",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/crustaceans/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "crustaceans",
+          "description": "Crustaceans — 7 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/crab/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.crustaceans.crab",
+              "name": "Crab",
+              "url": "https://pairingmethod.com/foods/crab/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/crawfish/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.crustaceans.crawfish",
+              "name": "Crawfish",
+              "url": "https://pairingmethod.com/foods/crawfish/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/king-crab-leg/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.crustaceans.king-crab-leg",
+              "name": "King Crab Leg",
+              "url": "https://pairingmethod.com/foods/king-crab-leg/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/lobster-tail/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.crustaceans.lobster-tail",
+              "name": "Lobster Tail",
+              "url": "https://pairingmethod.com/foods/lobster-tail/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/prawn/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.crustaceans.prawn",
+              "name": "Prawn",
+              "url": "https://pairingmethod.com/foods/prawn/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/shrimp/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.crustaceans.shrimp",
+              "name": "Shrimp",
+              "url": "https://pairingmethod.com/foods/shrimp/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/whole-lobster/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.crustaceans.whole-lobster",
+              "name": "Whole Lobster",
+              "url": "https://pairingmethod.com/foods/whole-lobster/"
+            }
+          ],
+          "identifier": "food.protein.crustaceans",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Crustaceans",
+          "numberOfTerms": 7,
+          "url": "https://pairingmethod.com/groups/crustaceans/"
+        }
+      ],
+      "projection_id": "food.protein.crustaceans",
+      "slug": "crustaceans"
+    },
+    {
+      "canonical_path": "/groups/fin-fish/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/fin-fish/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/animal-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.animal",
+            "name": "Animal Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/fin-fish/#breadcrumb"
+          },
+          "description": "Fin Fish — 22 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Fin Fish — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/fin-fish/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/fin-fish/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/animal-protein/",
+              "name": "Animal Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/fin-fish/",
+              "name": "Fin Fish",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/fin-fish/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "fin-fish",
+          "description": "Fin Fish — 22 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/anchovy/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.anchovy",
+              "name": "Anchovy",
+              "url": "https://pairingmethod.com/foods/anchovy/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/arctic-char-fillet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.arctic-char-fillet",
+              "name": "Arctic Char Fillet",
+              "url": "https://pairingmethod.com/foods/arctic-char-fillet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/cod-fillet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.cod-fillet",
+              "name": "Cod Fillet",
+              "url": "https://pairingmethod.com/foods/cod-fillet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/flounder-fillet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.flounder-fillet",
+              "name": "Flounder Fillet",
+              "url": "https://pairingmethod.com/foods/flounder-fillet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/grouper-fillet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.grouper-fillet",
+              "name": "Grouper Fillet",
+              "url": "https://pairingmethod.com/foods/grouper-fillet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/halibut-fillet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.halibut-fillet",
+              "name": "Halibut Fillet",
+              "url": "https://pairingmethod.com/foods/halibut-fillet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/herring/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.herring",
+              "name": "Herring",
+              "url": "https://pairingmethod.com/foods/herring/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/mackerel/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.mackerel",
+              "name": "Mackerel",
+              "url": "https://pairingmethod.com/foods/mackerel/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/mahi-mahi-fillet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.mahi-mahi-fillet",
+              "name": "Mahi-Mahi Fillet",
+              "url": "https://pairingmethod.com/foods/mahi-mahi-fillet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/monkfish-tail/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.monkfish-tail",
+              "name": "Monkfish Tail",
+              "url": "https://pairingmethod.com/foods/monkfish-tail/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/salmon-fillet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.salmon-fillet",
+              "name": "Salmon Fillet",
+              "url": "https://pairingmethod.com/foods/salmon-fillet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/sardine/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.sardine",
+              "name": "Sardine",
+              "url": "https://pairingmethod.com/foods/sardine/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/sea-bass-fillet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.sea-bass-fillet",
+              "name": "Sea Bass Fillet",
+              "url": "https://pairingmethod.com/foods/sea-bass-fillet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/snapper-fillet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.snapper-fillet",
+              "name": "Snapper Fillet",
+              "url": "https://pairingmethod.com/foods/snapper-fillet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/sole-fillet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.sole-fillet",
+              "name": "Sole Fillet",
+              "url": "https://pairingmethod.com/foods/sole-fillet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/swordfish-steak/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.swordfish-steak",
+              "name": "Swordfish Steak",
+              "url": "https://pairingmethod.com/foods/swordfish-steak/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/tilapia-fillet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.tilapia-fillet",
+              "name": "Tilapia Fillet",
+              "url": "https://pairingmethod.com/foods/tilapia-fillet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/trout-fillet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.trout-fillet",
+              "name": "Trout Fillet",
+              "url": "https://pairingmethod.com/foods/trout-fillet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/tuna-loin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.tuna-loin",
+              "name": "Tuna Loin",
+              "url": "https://pairingmethod.com/foods/tuna-loin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/tuna-steak/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.tuna-steak",
+              "name": "Tuna Steak",
+              "url": "https://pairingmethod.com/foods/tuna-steak/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/whole-branzino/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.whole-branzino",
+              "name": "Whole Branzino",
+              "url": "https://pairingmethod.com/foods/whole-branzino/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/whole-salmon/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.fin-fish.whole-salmon",
+              "name": "Whole Salmon",
+              "url": "https://pairingmethod.com/foods/whole-salmon/"
+            }
+          ],
+          "identifier": "food.protein.fin-fish",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Fin Fish",
+          "numberOfTerms": 22,
+          "url": "https://pairingmethod.com/groups/fin-fish/"
+        }
+      ],
+      "projection_id": "food.protein.fin-fish",
+      "slug": "fin-fish"
+    },
+    {
+      "canonical_path": "/groups/grains-wheat-protein/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/grains-wheat-protein/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/plant-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.plant",
+            "name": "Plant Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/grains-wheat-protein/#breadcrumb"
+          },
+          "description": "Grains & Wheat Protein — 8 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Grains & Wheat Protein — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/grains-wheat-protein/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/grains-wheat-protein/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/plant-protein/",
+              "name": "Plant Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/grains-wheat-protein/",
+              "name": "Grains & Wheat Protein",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/grains-wheat-protein/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "grains-wheat-protein",
+          "description": "Grains & Wheat Protein — 8 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/amaranth/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.grains-wheat-protein.amaranth",
+              "name": "Amaranth",
+              "url": "https://pairingmethod.com/foods/amaranth/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/barley/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.grains-wheat-protein.barley",
+              "name": "Barley",
+              "url": "https://pairingmethod.com/foods/barley/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/buckwheat/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.grains-wheat-protein.buckwheat",
+              "name": "Buckwheat",
+              "url": "https://pairingmethod.com/foods/buckwheat/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/farro/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.grains-wheat-protein.farro",
+              "name": "Farro",
+              "url": "https://pairingmethod.com/foods/farro/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/oats/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.grains-wheat-protein.oats",
+              "name": "Oats",
+              "url": "https://pairingmethod.com/foods/oats/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/quinoa/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.grains-wheat-protein.quinoa",
+              "name": "Quinoa",
+              "url": "https://pairingmethod.com/foods/quinoa/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/seitan/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.grains-wheat-protein.seitan",
+              "name": "Seitan",
+              "url": "https://pairingmethod.com/foods/seitan/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/vital-wheat-gluten/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.grains-wheat-protein.vital-wheat-gluten",
+              "name": "Vital Wheat Gluten",
+              "url": "https://pairingmethod.com/foods/vital-wheat-gluten/"
+            }
+          ],
+          "identifier": "food.protein.grains-wheat-protein",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Grains & Wheat Protein",
+          "numberOfTerms": 8,
+          "url": "https://pairingmethod.com/groups/grains-wheat-protein/"
+        }
+      ],
+      "projection_id": "food.protein.grains-wheat-protein",
+      "slug": "grains-wheat-protein"
+    },
+    {
+      "canonical_path": "/groups/lamb/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/lamb/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/animal-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.animal",
+            "name": "Animal Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/lamb/#breadcrumb"
+          },
+          "description": "Lamb — 12 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Lamb — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/lamb/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/lamb/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/animal-protein/",
+              "name": "Animal Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/lamb/",
+              "name": "Lamb",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/lamb/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "lamb",
+          "description": "Lamb — 12 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/ground-lamb/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.lamb.ground-lamb",
+              "name": "Ground Lamb",
+              "url": "https://pairingmethod.com/foods/ground-lamb/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/lamb-breast/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.lamb.lamb-breast",
+              "name": "Lamb Breast",
+              "url": "https://pairingmethod.com/foods/lamb-breast/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/lamb-chop/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.lamb.lamb-chop",
+              "name": "Lamb Chop",
+              "url": "https://pairingmethod.com/foods/lamb-chop/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/lamb-leg/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.lamb.lamb-leg",
+              "name": "Leg of Lamb",
+              "url": "https://pairingmethod.com/foods/lamb-leg/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/lamb-loin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.lamb.lamb-loin",
+              "name": "Lamb Loin",
+              "url": "https://pairingmethod.com/foods/lamb-loin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/lamb-neck/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.lamb.lamb-neck",
+              "name": "Lamb Neck",
+              "url": "https://pairingmethod.com/foods/lamb-neck/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/lamb-rack/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.lamb.lamb-rack",
+              "name": "Rack of Lamb",
+              "url": "https://pairingmethod.com/foods/lamb-rack/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/lamb-ribs/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.lamb.lamb-ribs",
+              "name": "Lamb Ribs",
+              "url": "https://pairingmethod.com/foods/lamb-ribs/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/lamb-saddle/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.lamb.lamb-saddle",
+              "name": "Lamb Saddle",
+              "url": "https://pairingmethod.com/foods/lamb-saddle/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/lamb-shank/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.lamb.lamb-shank",
+              "name": "Lamb Shank",
+              "url": "https://pairingmethod.com/foods/lamb-shank/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/lamb-shoulder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.lamb.lamb-shoulder",
+              "name": "Lamb Shoulder",
+              "url": "https://pairingmethod.com/foods/lamb-shoulder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/lamb-tenderloin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.lamb.lamb-tenderloin",
+              "name": "Lamb Tenderloin",
+              "url": "https://pairingmethod.com/foods/lamb-tenderloin/"
+            }
+          ],
+          "identifier": "food.protein.lamb",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Lamb",
+          "numberOfTerms": 12,
+          "url": "https://pairingmethod.com/groups/lamb/"
+        }
+      ],
+      "projection_id": "food.protein.lamb",
+      "slug": "lamb"
+    },
+    {
+      "canonical_path": "/groups/legumes/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/legumes/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/plant-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.plant",
+            "name": "Plant Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/legumes/#breadcrumb"
+          },
+          "description": "Legumes — 12 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Legumes — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/legumes/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/legumes/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/plant-protein/",
+              "name": "Plant Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/legumes/",
+              "name": "Legumes",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/legumes/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "legumes",
+          "description": "Legumes — 12 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/black-beans/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.legumes.black-beans",
+              "name": "Black Beans",
+              "url": "https://pairingmethod.com/foods/black-beans/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/black-lentils/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.legumes.black-lentils",
+              "name": "Black Lentils",
+              "url": "https://pairingmethod.com/foods/black-lentils/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/cannellini-beans/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.legumes.cannellini-beans",
+              "name": "Cannellini Beans",
+              "url": "https://pairingmethod.com/foods/cannellini-beans/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/chickpeas/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.legumes.chickpeas",
+              "name": "Chickpeas",
+              "url": "https://pairingmethod.com/foods/chickpeas/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/green-lentils/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.legumes.green-lentils",
+              "name": "Green Lentils",
+              "url": "https://pairingmethod.com/foods/green-lentils/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/kidney-beans/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.legumes.kidney-beans",
+              "name": "Kidney Beans",
+              "url": "https://pairingmethod.com/foods/kidney-beans/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/lentils/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.legumes.lentils",
+              "name": "Lentils",
+              "url": "https://pairingmethod.com/foods/lentils/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/lima-beans/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.legumes.lima-beans",
+              "name": "Lima Beans",
+              "url": "https://pairingmethod.com/foods/lima-beans/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/navy-beans/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.legumes.navy-beans",
+              "name": "Navy Beans",
+              "url": "https://pairingmethod.com/foods/navy-beans/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/peas/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.legumes.peas",
+              "name": "Peas",
+              "url": "https://pairingmethod.com/foods/peas/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/pinto-beans/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.legumes.pinto-beans",
+              "name": "Pinto Beans",
+              "url": "https://pairingmethod.com/foods/pinto-beans/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/red-lentils/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.legumes.red-lentils",
+              "name": "Red Lentils",
+              "url": "https://pairingmethod.com/foods/red-lentils/"
+            }
+          ],
+          "identifier": "food.protein.legumes",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Legumes",
+          "numberOfTerms": 12,
+          "url": "https://pairingmethod.com/groups/legumes/"
+        }
+      ],
+      "projection_id": "food.protein.legumes",
+      "slug": "legumes"
+    },
+    {
+      "canonical_path": "/groups/mollusks/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/mollusks/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/animal-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.animal",
+            "name": "Animal Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/mollusks/#breadcrumb"
+          },
+          "description": "Mollusks — 8 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Mollusks — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/mollusks/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/mollusks/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/animal-protein/",
+              "name": "Animal Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/mollusks/",
+              "name": "Mollusks",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/mollusks/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "mollusks",
+          "description": "Mollusks — 8 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/abalone/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mollusks.abalone",
+              "name": "Abalone",
+              "url": "https://pairingmethod.com/foods/abalone/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/clam/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mollusks.clam",
+              "name": "Clam",
+              "url": "https://pairingmethod.com/foods/clam/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/cockle/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mollusks.cockle",
+              "name": "Cockle",
+              "url": "https://pairingmethod.com/foods/cockle/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/conch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mollusks.conch",
+              "name": "Conch",
+              "url": "https://pairingmethod.com/foods/conch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/mussel/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mollusks.mussel",
+              "name": "Mussel",
+              "url": "https://pairingmethod.com/foods/mussel/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/oyster/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mollusks.oyster",
+              "name": "Oyster",
+              "url": "https://pairingmethod.com/foods/oyster/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/razor-clam/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mollusks.razor-clam",
+              "name": "Razor Clam",
+              "url": "https://pairingmethod.com/foods/razor-clam/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/scallop/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mollusks.scallop",
+              "name": "Scallop",
+              "url": "https://pairingmethod.com/foods/scallop/"
+            }
+          ],
+          "identifier": "food.protein.mollusks",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Mollusks",
+          "numberOfTerms": 8,
+          "url": "https://pairingmethod.com/groups/mollusks/"
+        }
+      ],
+      "projection_id": "food.protein.mollusks",
+      "slug": "mollusks"
+    },
+    {
+      "canonical_path": "/groups/mushrooms/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/mushrooms/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/fungi-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.fungi",
+            "name": "Fungi Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/mushrooms/#breadcrumb"
+          },
+          "description": "Mushrooms — 12 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Mushrooms — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/mushrooms/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/mushrooms/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/fungi-protein/",
+              "name": "Fungi Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/mushrooms/",
+              "name": "Mushrooms",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/mushrooms/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "mushrooms",
+          "description": "Mushrooms — 12 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/button-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mushrooms.button-mushroom",
+              "name": "Button Mushroom",
+              "url": "https://pairingmethod.com/foods/button-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/chanterelle/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mushrooms.chanterelle",
+              "name": "Chanterelle Mushroom",
+              "url": "https://pairingmethod.com/foods/chanterelle/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/cremini/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mushrooms.cremini",
+              "name": "Cremini Mushroom",
+              "url": "https://pairingmethod.com/foods/cremini/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/enoki/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mushrooms.enoki",
+              "name": "Enoki Mushroom",
+              "url": "https://pairingmethod.com/foods/enoki/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/king-oyster/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mushrooms.king-oyster",
+              "name": "King Oyster Mushroom",
+              "url": "https://pairingmethod.com/foods/king-oyster/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/lions-mane/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mushrooms.lions-mane",
+              "name": "Lion's Mane Mushroom",
+              "url": "https://pairingmethod.com/foods/lions-mane/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/maitake/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mushrooms.maitake",
+              "name": "Maitake Mushroom",
+              "url": "https://pairingmethod.com/foods/maitake/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/morel/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mushrooms.morel",
+              "name": "Morel Mushroom",
+              "url": "https://pairingmethod.com/foods/morel/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/oyster-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mushrooms.oyster-mushroom",
+              "name": "Oyster Mushroom",
+              "url": "https://pairingmethod.com/foods/oyster-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/porcini/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mushrooms.porcini",
+              "name": "Porcini Mushroom",
+              "url": "https://pairingmethod.com/foods/porcini/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/portobello/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mushrooms.portobello",
+              "name": "Portobello Mushroom",
+              "url": "https://pairingmethod.com/foods/portobello/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/shiitake/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mushrooms.shiitake",
+              "name": "Shiitake Mushroom",
+              "url": "https://pairingmethod.com/foods/shiitake/"
+            }
+          ],
+          "identifier": "food.protein.mushrooms",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Mushrooms",
+          "numberOfTerms": 12,
+          "url": "https://pairingmethod.com/groups/mushrooms/"
+        }
+      ],
+      "projection_id": "food.protein.mushrooms",
+      "slug": "mushrooms"
+    },
+    {
+      "canonical_path": "/groups/mycoprotein/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/mycoprotein/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/fungi-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.fungi",
+            "name": "Fungi Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/mycoprotein/#breadcrumb"
+          },
+          "description": "Mycoprotein — 5 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Mycoprotein — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/mycoprotein/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/mycoprotein/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/fungi-protein/",
+              "name": "Fungi Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/mycoprotein/",
+              "name": "Mycoprotein",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/mycoprotein/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "mycoprotein",
+          "description": "Mycoprotein — 5 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/mycoprotein/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mycoprotein.mycoprotein",
+              "name": "Mycoprotein",
+              "url": "https://pairingmethod.com/foods/mycoprotein/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/mycoprotein-fillet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mycoprotein.mycoprotein-fillet",
+              "name": "Mycoprotein Fillet",
+              "url": "https://pairingmethod.com/foods/mycoprotein-fillet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/mycoprotein-grounds/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mycoprotein.mycoprotein-grounds",
+              "name": "Mycoprotein Grounds",
+              "url": "https://pairingmethod.com/foods/mycoprotein-grounds/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/mycoprotein-pieces/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mycoprotein.mycoprotein-pieces",
+              "name": "Mycoprotein Pieces",
+              "url": "https://pairingmethod.com/foods/mycoprotein-pieces/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/mycoprotein-steak/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.mycoprotein.mycoprotein-steak",
+              "name": "Mycoprotein Steak",
+              "url": "https://pairingmethod.com/foods/mycoprotein-steak/"
+            }
+          ],
+          "identifier": "food.protein.mycoprotein",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Mycoprotein",
+          "numberOfTerms": 5,
+          "url": "https://pairingmethod.com/groups/mycoprotein/"
+        }
+      ],
+      "projection_id": "food.protein.mycoprotein",
+      "slug": "mycoprotein"
+    },
+    {
+      "canonical_path": "/groups/nuts-seeds/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/nuts-seeds/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/plant-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.plant",
+            "name": "Plant Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/nuts-seeds/#breadcrumb"
+          },
+          "description": "Nuts & Seeds — 12 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Nuts & Seeds — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/nuts-seeds/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/nuts-seeds/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/plant-protein/",
+              "name": "Plant Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/nuts-seeds/",
+              "name": "Nuts & Seeds",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/nuts-seeds/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "nuts-seeds",
+          "description": "Nuts & Seeds — 12 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/almonds/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.nuts-seeds.almonds",
+              "name": "Almonds",
+              "url": "https://pairingmethod.com/foods/almonds/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/cashews/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.nuts-seeds.cashews",
+              "name": "Cashews",
+              "url": "https://pairingmethod.com/foods/cashews/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/chia-seeds/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.nuts-seeds.chia-seeds",
+              "name": "Chia Seeds",
+              "url": "https://pairingmethod.com/foods/chia-seeds/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/flaxseed/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.nuts-seeds.flaxseed",
+              "name": "Flaxseed",
+              "url": "https://pairingmethod.com/foods/flaxseed/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/hemp-seeds/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.nuts-seeds.hemp-seeds",
+              "name": "Hemp Seeds",
+              "url": "https://pairingmethod.com/foods/hemp-seeds/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/peanuts/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.nuts-seeds.peanuts",
+              "name": "Peanuts",
+              "url": "https://pairingmethod.com/foods/peanuts/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/pine-nuts/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.nuts-seeds.pine-nuts",
+              "name": "Pine Nuts",
+              "url": "https://pairingmethod.com/foods/pine-nuts/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/pistachios/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.nuts-seeds.pistachios",
+              "name": "Pistachios",
+              "url": "https://pairingmethod.com/foods/pistachios/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/pumpkin-seeds/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.nuts-seeds.pumpkin-seeds",
+              "name": "Pumpkin Seeds",
+              "url": "https://pairingmethod.com/foods/pumpkin-seeds/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/sesame-seeds/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.nuts-seeds.sesame-seeds",
+              "name": "Sesame Seeds",
+              "url": "https://pairingmethod.com/foods/sesame-seeds/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/sunflower-seeds/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.nuts-seeds.sunflower-seeds",
+              "name": "Sunflower Seeds",
+              "url": "https://pairingmethod.com/foods/sunflower-seeds/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/walnuts/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.nuts-seeds.walnuts",
+              "name": "Walnuts",
+              "url": "https://pairingmethod.com/foods/walnuts/"
+            }
+          ],
+          "identifier": "food.protein.nuts-seeds",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Nuts & Seeds",
+          "numberOfTerms": 12,
+          "url": "https://pairingmethod.com/groups/nuts-seeds/"
+        }
+      ],
+      "projection_id": "food.protein.nuts-seeds",
+      "slug": "nuts-seeds"
+    },
+    {
+      "canonical_path": "/groups/pork/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/pork/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/animal-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.animal",
+            "name": "Animal Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/pork/#breadcrumb"
+          },
+          "description": "Pork — 17 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Pork — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/pork/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/pork/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/animal-protein/",
+              "name": "Animal Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/pork/",
+              "name": "Pork",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/pork/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "pork",
+          "description": "Pork — 17 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/baby-back-ribs/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.baby-back-ribs",
+              "name": "Baby Back Ribs",
+              "url": "https://pairingmethod.com/foods/baby-back-ribs/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/bacon/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.bacon",
+              "name": "Bacon",
+              "url": "https://pairingmethod.com/foods/bacon/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/coppa/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.coppa",
+              "name": "Coppa",
+              "url": "https://pairingmethod.com/foods/coppa/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/country-style-ribs/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.country-style-ribs",
+              "name": "Country-Style Ribs",
+              "url": "https://pairingmethod.com/foods/country-style-ribs/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/crown-roast-pork/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.crown-roast-pork",
+              "name": "Crown Roast of Pork",
+              "url": "https://pairingmethod.com/foods/crown-roast-pork/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/ground-pork/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.ground-pork",
+              "name": "Ground Pork",
+              "url": "https://pairingmethod.com/foods/ground-pork/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/guanciale/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.guanciale",
+              "name": "Guanciale",
+              "url": "https://pairingmethod.com/foods/guanciale/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/ham/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.ham",
+              "name": "Ham",
+              "url": "https://pairingmethod.com/foods/ham/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/pancetta/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.pancetta",
+              "name": "Pancetta",
+              "url": "https://pairingmethod.com/foods/pancetta/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/pork-belly/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.pork-belly",
+              "name": "Pork Belly",
+              "url": "https://pairingmethod.com/foods/pork-belly/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/pork-chop/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.pork-chop",
+              "name": "Pork Chop",
+              "url": "https://pairingmethod.com/foods/pork-chop/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/pork-hock/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.pork-hock",
+              "name": "Pork Hock",
+              "url": "https://pairingmethod.com/foods/pork-hock/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/pork-loin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.pork-loin",
+              "name": "Pork Loin",
+              "url": "https://pairingmethod.com/foods/pork-loin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/pork-neck/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.pork-neck",
+              "name": "Pork Neck",
+              "url": "https://pairingmethod.com/foods/pork-neck/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/pork-shoulder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.pork-shoulder",
+              "name": "Pork Shoulder",
+              "url": "https://pairingmethod.com/foods/pork-shoulder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/pork-tenderloin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.pork-tenderloin",
+              "name": "Pork Tenderloin",
+              "url": "https://pairingmethod.com/foods/pork-tenderloin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/spare-ribs/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.pork.spare-ribs",
+              "name": "Pork Spare Ribs",
+              "url": "https://pairingmethod.com/foods/spare-ribs/"
+            }
+          ],
+          "identifier": "food.protein.pork",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Pork",
+          "numberOfTerms": 17,
+          "url": "https://pairingmethod.com/groups/pork/"
+        }
+      ],
+      "projection_id": "food.protein.pork",
+      "slug": "pork"
+    },
+    {
+      "canonical_path": "/groups/poultry/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/poultry/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/animal-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.animal",
+            "name": "Animal Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/poultry/#breadcrumb"
+          },
+          "description": "Poultry — 22 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Poultry — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/poultry/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/poultry/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/animal-protein/",
+              "name": "Animal Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/poultry/",
+              "name": "Poultry",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/poultry/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "poultry",
+          "description": "Poultry — 22 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/chicken-breast/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.chicken-breast",
+              "name": "Chicken Breast",
+              "url": "https://pairingmethod.com/foods/chicken-breast/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/chicken-drumstick/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.chicken-drumstick",
+              "name": "Chicken Drumstick",
+              "url": "https://pairingmethod.com/foods/chicken-drumstick/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/chicken-leg-quarter/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.chicken-leg-quarter",
+              "name": "Chicken Leg Quarter",
+              "url": "https://pairingmethod.com/foods/chicken-leg-quarter/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/chicken-tenderloin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.chicken-tenderloin",
+              "name": "Chicken Tenderloin",
+              "url": "https://pairingmethod.com/foods/chicken-tenderloin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/chicken-thigh/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.chicken-thigh",
+              "name": "Chicken Thigh",
+              "url": "https://pairingmethod.com/foods/chicken-thigh/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/chicken-wing/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.chicken-wing",
+              "name": "Chicken Wing",
+              "url": "https://pairingmethod.com/foods/chicken-wing/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/duck-breast/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.duck-breast",
+              "name": "Duck Breast",
+              "url": "https://pairingmethod.com/foods/duck-breast/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/duck-confit-leg/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.duck-confit-leg",
+              "name": "Duck Confit Leg",
+              "url": "https://pairingmethod.com/foods/duck-confit-leg/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/duck-leg/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.duck-leg",
+              "name": "Duck Leg",
+              "url": "https://pairingmethod.com/foods/duck-leg/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/goose-breast/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.goose-breast",
+              "name": "Goose Breast",
+              "url": "https://pairingmethod.com/foods/goose-breast/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/goose-leg/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.goose-leg",
+              "name": "Goose Leg",
+              "url": "https://pairingmethod.com/foods/goose-leg/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/ground-chicken/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.ground-chicken",
+              "name": "Ground Chicken",
+              "url": "https://pairingmethod.com/foods/ground-chicken/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/ground-turkey/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.ground-turkey",
+              "name": "Ground Turkey",
+              "url": "https://pairingmethod.com/foods/ground-turkey/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/quail-breast/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.quail-breast",
+              "name": "Quail Breast",
+              "url": "https://pairingmethod.com/foods/quail-breast/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/turkey-breast/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.turkey-breast",
+              "name": "Turkey Breast",
+              "url": "https://pairingmethod.com/foods/turkey-breast/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/turkey-drumstick/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.turkey-drumstick",
+              "name": "Turkey Drumstick",
+              "url": "https://pairingmethod.com/foods/turkey-drumstick/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/turkey-thigh/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.turkey-thigh",
+              "name": "Turkey Thigh",
+              "url": "https://pairingmethod.com/foods/turkey-thigh/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/whole-chicken/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.whole-chicken",
+              "name": "Whole Chicken",
+              "url": "https://pairingmethod.com/foods/whole-chicken/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/whole-duck/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.whole-duck",
+              "name": "Whole Duck",
+              "url": "https://pairingmethod.com/foods/whole-duck/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/whole-goose/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.whole-goose",
+              "name": "Whole Goose",
+              "url": "https://pairingmethod.com/foods/whole-goose/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/whole-quail/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.whole-quail",
+              "name": "Whole Quail",
+              "url": "https://pairingmethod.com/foods/whole-quail/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/whole-turkey/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.poultry.whole-turkey",
+              "name": "Whole Turkey",
+              "url": "https://pairingmethod.com/foods/whole-turkey/"
+            }
+          ],
+          "identifier": "food.protein.poultry",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Poultry",
+          "numberOfTerms": 22,
+          "url": "https://pairingmethod.com/groups/poultry/"
+        }
+      ],
+      "projection_id": "food.protein.poultry",
+      "slug": "poultry"
+    },
+    {
+      "canonical_path": "/groups/soy-foods/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/soy-foods/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/plant-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.plant",
+            "name": "Plant Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/soy-foods/#breadcrumb"
+          },
+          "description": "Soy Foods — 10 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Soy Foods — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/soy-foods/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/soy-foods/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/plant-protein/",
+              "name": "Plant Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/soy-foods/",
+              "name": "Soy Foods",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/soy-foods/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "soy-foods",
+          "description": "Soy Foods — 10 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/edamame/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.soy-foods.edamame",
+              "name": "Edamame",
+              "url": "https://pairingmethod.com/foods/edamame/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/miso/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.soy-foods.miso",
+              "name": "Miso",
+              "url": "https://pairingmethod.com/foods/miso/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/natto/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.soy-foods.natto",
+              "name": "Natto",
+              "url": "https://pairingmethod.com/foods/natto/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/silken-tofu/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.soy-foods.silken-tofu",
+              "name": "Silken Tofu",
+              "url": "https://pairingmethod.com/foods/silken-tofu/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/soy-curls/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.soy-foods.soy-curls",
+              "name": "Soy Curls",
+              "url": "https://pairingmethod.com/foods/soy-curls/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/soy-milk/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.soy-foods.soy-milk",
+              "name": "Soy Milk",
+              "url": "https://pairingmethod.com/foods/soy-milk/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/soybeans/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.soy-foods.soybeans",
+              "name": "Soybeans",
+              "url": "https://pairingmethod.com/foods/soybeans/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/tempeh/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.soy-foods.tempeh",
+              "name": "Tempeh",
+              "url": "https://pairingmethod.com/foods/tempeh/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/textured-vegetable-protein/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.soy-foods.textured-vegetable-protein",
+              "name": "Textured Vegetable Protein",
+              "url": "https://pairingmethod.com/foods/textured-vegetable-protein/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/tofu-firm/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.soy-foods.tofu-firm",
+              "name": "Tofu (Firm)",
+              "url": "https://pairingmethod.com/foods/tofu-firm/"
+            }
+          ],
+          "identifier": "food.protein.soy-foods",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Soy Foods",
+          "numberOfTerms": 10,
+          "url": "https://pairingmethod.com/groups/soy-foods/"
+        }
+      ],
+      "projection_id": "food.protein.soy-foods",
+      "slug": "soy-foods"
+    },
+    {
+      "canonical_path": "/groups/veal/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/veal/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/animal-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.animal",
+            "name": "Animal Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/veal/#breadcrumb"
+          },
+          "description": "Veal — 8 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Veal — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/veal/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/veal/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/animal-protein/",
+              "name": "Animal Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/veal/",
+              "name": "Veal",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/veal/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "veal",
+          "description": "Veal — 8 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/ground-veal/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.veal.ground-veal",
+              "name": "Ground Veal",
+              "url": "https://pairingmethod.com/foods/ground-veal/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/veal-breast/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.veal.veal-breast",
+              "name": "Veal Breast",
+              "url": "https://pairingmethod.com/foods/veal-breast/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/veal-chop/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.veal.veal-chop",
+              "name": "Veal Chop",
+              "url": "https://pairingmethod.com/foods/veal-chop/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/veal-cutlet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.veal.veal-cutlet",
+              "name": "Veal Cutlet",
+              "url": "https://pairingmethod.com/foods/veal-cutlet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/veal-loin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.veal.veal-loin",
+              "name": "Veal Loin",
+              "url": "https://pairingmethod.com/foods/veal-loin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/veal-shank/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.veal.veal-shank",
+              "name": "Veal Shank",
+              "url": "https://pairingmethod.com/foods/veal-shank/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/veal-shoulder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.veal.veal-shoulder",
+              "name": "Veal Shoulder",
+              "url": "https://pairingmethod.com/foods/veal-shoulder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/veal-tenderloin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.veal.veal-tenderloin",
+              "name": "Veal Tenderloin",
+              "url": "https://pairingmethod.com/foods/veal-tenderloin/"
+            }
+          ],
+          "identifier": "food.protein.veal",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Veal",
+          "numberOfTerms": 8,
+          "url": "https://pairingmethod.com/groups/veal/"
+        }
+      ],
+      "projection_id": "food.protein.veal",
+      "slug": "veal"
+    },
+    {
+      "canonical_path": "/groups/wild-game/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/wild-game/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/categories/animal-protein/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.animal",
+            "name": "Animal Protein Foods"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/groups/wild-game/#breadcrumb"
+          },
+          "description": "Wild Game — 21 protein foods in the Food Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Wild Game — Protein Food Group",
+          "url": "https://pairingmethod.com/groups/wild-game/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/wild-game/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/animal-protein/",
+              "name": "Animal Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/wild-game/",
+              "name": "Wild Game",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/groups/wild-game/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "wild-game",
+          "description": "Wild Game — 21 protein foods in the Food Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/foods/bison-ribeye/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.bison-ribeye",
+              "name": "Bison Ribeye",
+              "url": "https://pairingmethod.com/foods/bison-ribeye/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/bison-striploin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.bison-striploin",
+              "name": "Bison Striploin",
+              "url": "https://pairingmethod.com/foods/bison-striploin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/elk/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.elk",
+              "name": "Elk",
+              "url": "https://pairingmethod.com/foods/elk/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/elk-loin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.elk-loin",
+              "name": "Elk Loin",
+              "url": "https://pairingmethod.com/foods/elk-loin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/elk-tenderloin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.elk-tenderloin",
+              "name": "Elk Tenderloin",
+              "url": "https://pairingmethod.com/foods/elk-tenderloin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/ground-bison/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.ground-bison",
+              "name": "Ground Bison",
+              "url": "https://pairingmethod.com/foods/ground-bison/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/ground-elk/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.ground-elk",
+              "name": "Ground Elk",
+              "url": "https://pairingmethod.com/foods/ground-elk/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/ground-venison/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.ground-venison",
+              "name": "Ground Venison",
+              "url": "https://pairingmethod.com/foods/ground-venison/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/ground-wild-boar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.ground-wild-boar",
+              "name": "Ground Wild Boar",
+              "url": "https://pairingmethod.com/foods/ground-wild-boar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/hare-saddle/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.hare-saddle",
+              "name": "Hare Saddle",
+              "url": "https://pairingmethod.com/foods/hare-saddle/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/rabbit-leg/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.rabbit-leg",
+              "name": "Rabbit Leg",
+              "url": "https://pairingmethod.com/foods/rabbit-leg/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/rabbit-saddle/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.rabbit-saddle",
+              "name": "Rabbit Saddle",
+              "url": "https://pairingmethod.com/foods/rabbit-saddle/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/venison/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.venison",
+              "name": "Venison",
+              "url": "https://pairingmethod.com/foods/venison/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/venison-leg/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.venison-leg",
+              "name": "Venison Leg",
+              "url": "https://pairingmethod.com/foods/venison-leg/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/venison-loin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.venison-loin",
+              "name": "Venison Loin",
+              "url": "https://pairingmethod.com/foods/venison-loin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/venison-tenderloin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.venison-tenderloin",
+              "name": "Venison Tenderloin",
+              "url": "https://pairingmethod.com/foods/venison-tenderloin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/whole-hare/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.whole-hare",
+              "name": "Whole Hare",
+              "url": "https://pairingmethod.com/foods/whole-hare/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/whole-rabbit/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.whole-rabbit",
+              "name": "Whole Rabbit",
+              "url": "https://pairingmethod.com/foods/whole-rabbit/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/wild-boar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.wild-boar",
+              "name": "Wild Boar",
+              "url": "https://pairingmethod.com/foods/wild-boar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/wild-boar-loin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.wild-boar-loin",
+              "name": "Wild Boar Loin",
+              "url": "https://pairingmethod.com/foods/wild-boar-loin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/wild-boar-shoulder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.protein.wild-game.wild-boar-shoulder",
+              "name": "Wild Boar Shoulder",
+              "url": "https://pairingmethod.com/foods/wild-boar-shoulder/"
+            }
+          ],
+          "identifier": "food.protein.wild-game",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Wild Game",
+          "numberOfTerms": 21,
+          "url": "https://pairingmethod.com/groups/wild-game/"
+        }
+      ],
+      "projection_id": "food.protein.wild-game",
+      "slug": "wild-game"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "builders": {
+    "category": [
+      "CollectionPage",
+      "BreadcrumbList",
+      "DefinedTermSet"
+    ],
+    "food": [
+      "WebPage",
+      "BreadcrumbList",
+      "DefinedTerm",
+      "Taxon"
+    ],
+    "group": [
+      "CollectionPage",
+      "BreadcrumbList",
+      "DefinedTermSet"
+    ]
+  },
+  "metrics": {
+    "Average objects per page": 3.92,
+    "Category schemas": 3,
+    "Deterministic regeneration": "PASS",
+    "Duplicate @id": 0,
+    "Food schemas": 207,
+    "Group schemas": 16,
+    "Invalid references": 0,
+    "JSON-LD objects emitted": 885,
+    "Overall certification": "PASS",
+    "Overall result": "PASS",
+    "Schema types generated": 6,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/schema/protein-food-schema.json",
+    "data/schema/protein-group-schema.json",
+    "data/schema/protein-category-schema.json"
+  ],
+  "overall_certification": "PASS",
+  "overall_result": "PASS",
+  "phase": "ONTOLOGY-03C",
+  "schema_types": [
+    "BreadcrumbList",
+    "CollectionPage",
+    "DefinedTerm",
+    "DefinedTermSet",
+    "Taxon",
+    "WebPage"
+  ],
+  "validation_errors": []
+}

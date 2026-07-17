@@ -45,6 +45,7 @@
     "ontology:map-protein-food-wine-relationships": "node scripts/map-protein-food-wine-relationships-02d1.mjs",
     "generate:protein-food-projections": "node scripts/generate-protein-food-projections-03a.mjs",
     "generate:protein-food-pages": "node scripts/generate-protein-food-pages-03b.mjs",
+    "generate:protein-food-schema": "node scripts/generate-protein-food-schema-03c.mjs",
     "generate:term-categories": "node scripts/generate-term-categories.js",
     "generate:term-descriptors": "node scripts/generate-term-descriptors.js",
     "generate:taxonomy-runtime": "node scripts/generate-taxonomy-runtime.js",

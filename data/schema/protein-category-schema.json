@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "catalog_version": "2.0.0",
+    "food_ontology_version": "1.0",
+    "phase": "ONTOLOGY-03C",
+    "schema_count": 3,
+    "schema_type": "protein_category"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/categories/animal-protein/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/categories/animal-protein/#collectionpage",
+          "@type": "CollectionPage",
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/categories/animal-protein/#breadcrumb"
+          },
+          "description": "Animal Protein Foods — 10 groups and 148 protein foods.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Animal Protein Foods — Protein Food Category",
+          "url": "https://pairingmethod.com/categories/animal-protein/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/categories/animal-protein/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/animal-protein/",
+              "name": "Animal Protein Foods",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/categories/animal-protein/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "animal-protein",
+          "description": "Animal Protein Foods — 10 groups and 148 protein foods.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/groups/beef/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.beef",
+              "name": "Beef",
+              "numberOfTerms": 23,
+              "url": "https://pairingmethod.com/groups/beef/"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/cephalopods/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.cephalopods",
+              "name": "Cephalopods",
+              "numberOfTerms": 8,
+              "url": "https://pairingmethod.com/groups/cephalopods/"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/crustaceans/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.crustaceans",
+              "name": "Crustaceans",
+              "numberOfTerms": 7,
+              "url": "https://pairingmethod.com/groups/crustaceans/"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/fin-fish/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.fin-fish",
+              "name": "Fin Fish",
+              "numberOfTerms": 22,
+              "url": "https://pairingmethod.com/groups/fin-fish/"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/lamb/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.lamb",
+              "name": "Lamb",
+              "numberOfTerms": 12,
+              "url": "https://pairingmethod.com/groups/lamb/"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/mollusks/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.mollusks",
+              "name": "Mollusks",
+              "numberOfTerms": 8,
+              "url": "https://pairingmethod.com/groups/mollusks/"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/pork/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.pork",
+              "name": "Pork",
+              "numberOfTerms": 17,
+              "url": "https://pairingmethod.com/groups/pork/"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/poultry/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.poultry",
+              "name": "Poultry",
+              "numberOfTerms": 22,
+              "url": "https://pairingmethod.com/groups/poultry/"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/veal/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.veal",
+              "name": "Veal",
+              "numberOfTerms": 8,
+              "url": "https://pairingmethod.com/groups/veal/"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/wild-game/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.wild-game",
+              "name": "Wild Game",
+              "numberOfTerms": 21,
+              "url": "https://pairingmethod.com/groups/wild-game/"
+            }
+          ],
+          "identifier": "food.protein.animal",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Animal Protein Foods",
+          "numberOfTerms": 148,
+          "url": "https://pairingmethod.com/categories/animal-protein/"
+        }
+      ],
+      "projection_id": "food.protein.animal",
+      "slug": "animal-protein"
+    },
+    {
+      "canonical_path": "/categories/fungi-protein/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/categories/fungi-protein/#collectionpage",
+          "@type": "CollectionPage",
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/categories/fungi-protein/#breadcrumb"
+          },
+          "description": "Fungi Protein Foods — 2 groups and 17 protein foods.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Fungi Protein Foods — Protein Food Category",
+          "url": "https://pairingmethod.com/categories/fungi-protein/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/categories/fungi-protein/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/fungi-protein/",
+              "name": "Fungi Protein Foods",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/categories/fungi-protein/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "fungi-protein",
+          "description": "Fungi Protein Foods — 2 groups and 17 protein foods.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/groups/mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.mushrooms",
+              "name": "Mushrooms",
+              "numberOfTerms": 12,
+              "url": "https://pairingmethod.com/groups/mushrooms/"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/mycoprotein/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.mycoprotein",
+              "name": "Mycoprotein",
+              "numberOfTerms": 5,
+              "url": "https://pairingmethod.com/groups/mycoprotein/"
+            }
+          ],
+          "identifier": "food.protein.fungi",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Fungi Protein Foods",
+          "numberOfTerms": 17,
+          "url": "https://pairingmethod.com/categories/fungi-protein/"
+        }
+      ],
+      "projection_id": "food.protein.fungi",
+      "slug": "fungi-protein"
+    },
+    {
+      "canonical_path": "/categories/plant-protein/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/categories/plant-protein/#collectionpage",
+          "@type": "CollectionPage",
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/categories/plant-protein/#breadcrumb"
+          },
+          "description": "Plant Protein Foods — 4 groups and 42 protein foods.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Plant Protein Foods — Protein Food Category",
+          "url": "https://pairingmethod.com/categories/plant-protein/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/categories/plant-protein/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/plant-protein/",
+              "name": "Plant Protein Foods",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/categories/plant-protein/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "plant-protein",
+          "description": "Plant Protein Foods — 4 groups and 42 protein foods.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/groups/grains-wheat-protein/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.grains-wheat-protein",
+              "name": "Grains & Wheat Protein",
+              "numberOfTerms": 8,
+              "url": "https://pairingmethod.com/groups/grains-wheat-protein/"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/legumes/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.legumes",
+              "name": "Legumes",
+              "numberOfTerms": 12,
+              "url": "https://pairingmethod.com/groups/legumes/"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/nuts-seeds/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.nuts-seeds",
+              "name": "Nuts & Seeds",
+              "numberOfTerms": 12,
+              "url": "https://pairingmethod.com/groups/nuts-seeds/"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/soy-foods/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.soy-foods",
+              "name": "Soy Foods",
+              "numberOfTerms": 10,
+              "url": "https://pairingmethod.com/groups/soy-foods/"
+            }
+          ],
+          "identifier": "food.protein.plant",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Plant Protein Foods",
+          "numberOfTerms": 42,
+          "url": "https://pairingmethod.com/categories/plant-protein/"
+        }
+      ],
+      "projection_id": "food.protein.plant",
+      "slug": "plant-protein"
+    }
+  ]
+}
