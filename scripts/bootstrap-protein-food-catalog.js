@@ -74,9 +74,13 @@ function sortKeysDeep(value) {
 }
 
 function writeJson(filePath, data) {
-  const text = `${JSON.stringify(sortKeysDeep(data), null, 2)}\n`;
+  const text = serializeRuntime(data);
   fs.writeFileSync(filePath, text, "utf8");
   return text;
+}
+
+function serializeRuntime(data) {
+  return `${JSON.stringify(sortKeysDeep(data), null, 2)}\n`;
 }
 
 function requireAuditPass() {
@@ -376,4 +380,21 @@ function main() {
   console.log(`Report: ${REPORT_PATH}`);
 }
 
-main();
+export {
+  ARTIFACTS,
+  VOCAB_FIELDS,
+  VOCAB,
+  PLANT_FUNGI_GROUPS,
+  fieldValue,
+  sortKeysDeep,
+  serializeRuntime,
+  bootstrap as compileProteinFoodRuntime,
+};
+
+const isMain =
+  process.argv[1] &&
+  path.resolve(fileURLToPath(import.meta.url)) === path.resolve(process.argv[1]);
+
+if (isMain) {
+  main();
+}

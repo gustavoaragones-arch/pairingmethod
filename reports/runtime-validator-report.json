@@ -1,0 +1,28 @@
+{
+  "artifacts": [
+    "data/runtime/protein-food-index.json",
+    "data/runtime/protein-food-categories.json",
+    "data/runtime/protein-food-groups.json",
+    "data/runtime/protein-food-id-map.json",
+    "data/runtime/protein-food-slug-map.json",
+    "data/runtime/protein-food-species-map.json",
+    "data/runtime/protein-food-vocabulary-index.json"
+  ],
+  "catalog_version": "2.0.0",
+  "errors": [],
+  "metrics": {
+    "Cross-index checks": 3,
+    "Determinism checks": 7,
+    "Errors": 0,
+    "Hierarchy checks": 4,
+    "Identity checks": 6,
+    "Overall result": "PASS",
+    "Runtime artifacts checked": 7,
+    "Species checks": 4,
+    "Vocabulary checks": 2,
+    "Warnings": 0
+  },
+  "overall_result": "PASS",
+  "phase": "ONTOLOGY-02B.2",
+  "warnings": []
+}
