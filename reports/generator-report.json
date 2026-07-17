@@ -1,0 +1,18 @@
+{
+  "metrics": {
+    "Category projections": 3,
+    "Food projections": 207,
+    "Group projections": 16,
+    "Overall result": "PASS",
+    "Referenced relationships": 89,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/generated/protein-food-pages.json",
+    "data/generated/protein-group-pages.json",
+    "data/generated/protein-category-pages.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "ONTOLOGY-03A",
+  "validation_errors": []
+}

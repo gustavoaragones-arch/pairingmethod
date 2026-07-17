@@ -1,0 +1,641 @@
+{
+  "meta": {
+    "catalog_version": "2.0.0",
+    "food_ontology_version": "1.0",
+    "phase": "ONTOLOGY-03A",
+    "projection_count": 16,
+    "projection_type": "protein_group"
+  },
+  "projections": [
+    {
+      "food_count": 23,
+      "identity": {
+        "id": "food.protein.beef",
+        "name": "Beef",
+        "slug": "beef"
+      },
+      "member_food_ids": [
+        "food.protein.beef.bavette",
+        "food.protein.beef.beef-shank",
+        "food.protein.beef.blade-steak",
+        "food.protein.beef.bottom-round",
+        "food.protein.beef.brisket",
+        "food.protein.beef.chuck-roast",
+        "food.protein.beef.denver-steak",
+        "food.protein.beef.eye-of-round",
+        "food.protein.beef.flank-steak",
+        "food.protein.beef.flat-iron",
+        "food.protein.beef.ground-beef",
+        "food.protein.beef.hanger-steak",
+        "food.protein.beef.porterhouse",
+        "food.protein.beef.prime-rib",
+        "food.protein.beef.ribeye",
+        "food.protein.beef.short-rib",
+        "food.protein.beef.skirt-steak",
+        "food.protein.beef.striploin",
+        "food.protein.beef.t-bone",
+        "food.protein.beef.tenderloin",
+        "food.protein.beef.top-round",
+        "food.protein.beef.top-sirloin",
+        "food.protein.beef.tri-tip"
+      ],
+      "parent_category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "processing_states_represented": [
+        "fresh",
+        "ground"
+      ],
+      "species_represented": []
+    },
+    {
+      "food_count": 8,
+      "identity": {
+        "id": "food.protein.cephalopods",
+        "name": "Cephalopods",
+        "slug": "cephalopods"
+      },
+      "member_food_ids": [
+        "food.protein.cephalopods.baby-octopus",
+        "food.protein.cephalopods.calamari-rings",
+        "food.protein.cephalopods.cuttlefish",
+        "food.protein.cephalopods.cuttlefish-tentacles",
+        "food.protein.cephalopods.octopus",
+        "food.protein.cephalopods.octopus-tentacles",
+        "food.protein.cephalopods.squid",
+        "food.protein.cephalopods.squid-tube"
+      ],
+      "parent_category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "processing_states_represented": [
+        "fresh",
+        "prepared"
+      ],
+      "species_represented": [
+        "cuttlefish",
+        "octopus",
+        "squid"
+      ]
+    },
+    {
+      "food_count": 7,
+      "identity": {
+        "id": "food.protein.crustaceans",
+        "name": "Crustaceans",
+        "slug": "crustaceans"
+      },
+      "member_food_ids": [
+        "food.protein.crustaceans.crab",
+        "food.protein.crustaceans.crawfish",
+        "food.protein.crustaceans.king-crab-leg",
+        "food.protein.crustaceans.lobster-tail",
+        "food.protein.crustaceans.prawn",
+        "food.protein.crustaceans.shrimp",
+        "food.protein.crustaceans.whole-lobster"
+      ],
+      "parent_category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "processing_states_represented": [
+        "fresh"
+      ],
+      "species_represented": [
+        "crab",
+        "crawfish",
+        "king-crab",
+        "lobster",
+        "prawn",
+        "shrimp"
+      ]
+    },
+    {
+      "food_count": 22,
+      "identity": {
+        "id": "food.protein.fin-fish",
+        "name": "Fin Fish",
+        "slug": "fin-fish"
+      },
+      "member_food_ids": [
+        "food.protein.fin-fish.anchovy",
+        "food.protein.fin-fish.arctic-char-fillet",
+        "food.protein.fin-fish.cod-fillet",
+        "food.protein.fin-fish.flounder-fillet",
+        "food.protein.fin-fish.grouper-fillet",
+        "food.protein.fin-fish.halibut-fillet",
+        "food.protein.fin-fish.herring",
+        "food.protein.fin-fish.mackerel",
+        "food.protein.fin-fish.mahi-mahi-fillet",
+        "food.protein.fin-fish.monkfish-tail",
+        "food.protein.fin-fish.salmon-fillet",
+        "food.protein.fin-fish.sardine",
+        "food.protein.fin-fish.sea-bass-fillet",
+        "food.protein.fin-fish.snapper-fillet",
+        "food.protein.fin-fish.sole-fillet",
+        "food.protein.fin-fish.swordfish-steak",
+        "food.protein.fin-fish.tilapia-fillet",
+        "food.protein.fin-fish.trout-fillet",
+        "food.protein.fin-fish.tuna-loin",
+        "food.protein.fin-fish.tuna-steak",
+        "food.protein.fin-fish.whole-branzino",
+        "food.protein.fin-fish.whole-salmon"
+      ],
+      "parent_category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "processing_states_represented": [
+        "fresh"
+      ],
+      "species_represented": [
+        "anchovy",
+        "arctic-char",
+        "branzino",
+        "cod",
+        "flounder",
+        "grouper",
+        "halibut",
+        "herring",
+        "mackerel",
+        "mahi-mahi",
+        "monkfish",
+        "salmon",
+        "sardine",
+        "sea-bass",
+        "snapper",
+        "sole",
+        "swordfish",
+        "tilapia",
+        "trout",
+        "tuna"
+      ]
+    },
+    {
+      "food_count": 8,
+      "identity": {
+        "id": "food.protein.grains-wheat-protein",
+        "name": "Grains & Wheat Protein",
+        "slug": "grains-wheat-protein"
+      },
+      "member_food_ids": [
+        "food.protein.grains-wheat-protein.amaranth",
+        "food.protein.grains-wheat-protein.barley",
+        "food.protein.grains-wheat-protein.buckwheat",
+        "food.protein.grains-wheat-protein.farro",
+        "food.protein.grains-wheat-protein.oats",
+        "food.protein.grains-wheat-protein.quinoa",
+        "food.protein.grains-wheat-protein.seitan",
+        "food.protein.grains-wheat-protein.vital-wheat-gluten"
+      ],
+      "parent_category": {
+        "id": "food.protein.plant",
+        "name": "Plant Protein Foods",
+        "slug": "plant-protein"
+      },
+      "processing_states_represented": [
+        "dried",
+        "processed"
+      ],
+      "species_represented": [
+        "amaranth",
+        "barley",
+        "buckwheat",
+        "farro",
+        "oat",
+        "quinoa",
+        "wheat"
+      ]
+    },
+    {
+      "food_count": 12,
+      "identity": {
+        "id": "food.protein.lamb",
+        "name": "Lamb",
+        "slug": "lamb"
+      },
+      "member_food_ids": [
+        "food.protein.lamb.ground-lamb",
+        "food.protein.lamb.lamb-breast",
+        "food.protein.lamb.lamb-chop",
+        "food.protein.lamb.lamb-leg",
+        "food.protein.lamb.lamb-loin",
+        "food.protein.lamb.lamb-neck",
+        "food.protein.lamb.lamb-rack",
+        "food.protein.lamb.lamb-ribs",
+        "food.protein.lamb.lamb-saddle",
+        "food.protein.lamb.lamb-shank",
+        "food.protein.lamb.lamb-shoulder",
+        "food.protein.lamb.lamb-tenderloin"
+      ],
+      "parent_category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "processing_states_represented": [
+        "fresh",
+        "ground"
+      ],
+      "species_represented": []
+    },
+    {
+      "food_count": 12,
+      "identity": {
+        "id": "food.protein.legumes",
+        "name": "Legumes",
+        "slug": "legumes"
+      },
+      "member_food_ids": [
+        "food.protein.legumes.black-beans",
+        "food.protein.legumes.black-lentils",
+        "food.protein.legumes.cannellini-beans",
+        "food.protein.legumes.chickpeas",
+        "food.protein.legumes.green-lentils",
+        "food.protein.legumes.kidney-beans",
+        "food.protein.legumes.lentils",
+        "food.protein.legumes.lima-beans",
+        "food.protein.legumes.navy-beans",
+        "food.protein.legumes.peas",
+        "food.protein.legumes.pinto-beans",
+        "food.protein.legumes.red-lentils"
+      ],
+      "parent_category": {
+        "id": "food.protein.plant",
+        "name": "Plant Protein Foods",
+        "slug": "plant-protein"
+      },
+      "processing_states_represented": [
+        "dried"
+      ],
+      "species_represented": [
+        "black-bean",
+        "black-lentil",
+        "cannellini-bean",
+        "chickpea",
+        "green-lentil",
+        "kidney-bean",
+        "lentil",
+        "lima-bean",
+        "navy-bean",
+        "pea",
+        "pinto-bean",
+        "red-lentil"
+      ]
+    },
+    {
+      "food_count": 8,
+      "identity": {
+        "id": "food.protein.mollusks",
+        "name": "Mollusks",
+        "slug": "mollusks"
+      },
+      "member_food_ids": [
+        "food.protein.mollusks.abalone",
+        "food.protein.mollusks.clam",
+        "food.protein.mollusks.cockle",
+        "food.protein.mollusks.conch",
+        "food.protein.mollusks.mussel",
+        "food.protein.mollusks.oyster",
+        "food.protein.mollusks.razor-clam",
+        "food.protein.mollusks.scallop"
+      ],
+      "parent_category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "processing_states_represented": [
+        "fresh"
+      ],
+      "species_represented": [
+        "abalone",
+        "clam",
+        "cockle",
+        "conch",
+        "mussel",
+        "oyster",
+        "razor-clam",
+        "scallop"
+      ]
+    },
+    {
+      "food_count": 12,
+      "identity": {
+        "id": "food.protein.mushrooms",
+        "name": "Mushrooms",
+        "slug": "mushrooms"
+      },
+      "member_food_ids": [
+        "food.protein.mushrooms.button-mushroom",
+        "food.protein.mushrooms.chanterelle",
+        "food.protein.mushrooms.cremini",
+        "food.protein.mushrooms.enoki",
+        "food.protein.mushrooms.king-oyster",
+        "food.protein.mushrooms.lions-mane",
+        "food.protein.mushrooms.maitake",
+        "food.protein.mushrooms.morel",
+        "food.protein.mushrooms.oyster-mushroom",
+        "food.protein.mushrooms.porcini",
+        "food.protein.mushrooms.portobello",
+        "food.protein.mushrooms.shiitake"
+      ],
+      "parent_category": {
+        "id": "food.protein.fungi",
+        "name": "Fungi Protein Foods",
+        "slug": "fungi-protein"
+      },
+      "processing_states_represented": [
+        "dried",
+        "fresh"
+      ],
+      "species_represented": [
+        "button-mushroom",
+        "chanterelle",
+        "cremini",
+        "enoki",
+        "king-oyster",
+        "lions-mane",
+        "maitake",
+        "morel",
+        "oyster-mushroom",
+        "porcini",
+        "portobello",
+        "shiitake"
+      ]
+    },
+    {
+      "food_count": 5,
+      "identity": {
+        "id": "food.protein.mycoprotein",
+        "name": "Mycoprotein",
+        "slug": "mycoprotein"
+      },
+      "member_food_ids": [
+        "food.protein.mycoprotein.mycoprotein",
+        "food.protein.mycoprotein.mycoprotein-fillet",
+        "food.protein.mycoprotein.mycoprotein-grounds",
+        "food.protein.mycoprotein.mycoprotein-pieces",
+        "food.protein.mycoprotein.mycoprotein-steak"
+      ],
+      "parent_category": {
+        "id": "food.protein.fungi",
+        "name": "Fungi Protein Foods",
+        "slug": "fungi-protein"
+      },
+      "processing_states_represented": [
+        "processed"
+      ],
+      "species_represented": [
+        "mycoprotein"
+      ]
+    },
+    {
+      "food_count": 12,
+      "identity": {
+        "id": "food.protein.nuts-seeds",
+        "name": "Nuts & Seeds",
+        "slug": "nuts-seeds"
+      },
+      "member_food_ids": [
+        "food.protein.nuts-seeds.almonds",
+        "food.protein.nuts-seeds.cashews",
+        "food.protein.nuts-seeds.chia-seeds",
+        "food.protein.nuts-seeds.flaxseed",
+        "food.protein.nuts-seeds.hemp-seeds",
+        "food.protein.nuts-seeds.peanuts",
+        "food.protein.nuts-seeds.pine-nuts",
+        "food.protein.nuts-seeds.pistachios",
+        "food.protein.nuts-seeds.pumpkin-seeds",
+        "food.protein.nuts-seeds.sesame-seeds",
+        "food.protein.nuts-seeds.sunflower-seeds",
+        "food.protein.nuts-seeds.walnuts"
+      ],
+      "parent_category": {
+        "id": "food.protein.plant",
+        "name": "Plant Protein Foods",
+        "slug": "plant-protein"
+      },
+      "processing_states_represented": [
+        "dried"
+      ],
+      "species_represented": [
+        "almond",
+        "cashew",
+        "chia-seed",
+        "flaxseed",
+        "hemp-seed",
+        "peanut",
+        "pine-nut",
+        "pistachio",
+        "pumpkin-seed",
+        "sesame-seed",
+        "sunflower-seed",
+        "walnut"
+      ]
+    },
+    {
+      "food_count": 17,
+      "identity": {
+        "id": "food.protein.pork",
+        "name": "Pork",
+        "slug": "pork"
+      },
+      "member_food_ids": [
+        "food.protein.pork.baby-back-ribs",
+        "food.protein.pork.bacon",
+        "food.protein.pork.coppa",
+        "food.protein.pork.country-style-ribs",
+        "food.protein.pork.crown-roast-pork",
+        "food.protein.pork.ground-pork",
+        "food.protein.pork.guanciale",
+        "food.protein.pork.ham",
+        "food.protein.pork.pancetta",
+        "food.protein.pork.pork-belly",
+        "food.protein.pork.pork-chop",
+        "food.protein.pork.pork-hock",
+        "food.protein.pork.pork-loin",
+        "food.protein.pork.pork-neck",
+        "food.protein.pork.pork-shoulder",
+        "food.protein.pork.pork-tenderloin",
+        "food.protein.pork.spare-ribs"
+      ],
+      "parent_category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "processing_states_represented": [
+        "cured",
+        "fresh",
+        "ground"
+      ],
+      "species_represented": []
+    },
+    {
+      "food_count": 22,
+      "identity": {
+        "id": "food.protein.poultry",
+        "name": "Poultry",
+        "slug": "poultry"
+      },
+      "member_food_ids": [
+        "food.protein.poultry.chicken-breast",
+        "food.protein.poultry.chicken-drumstick",
+        "food.protein.poultry.chicken-leg-quarter",
+        "food.protein.poultry.chicken-tenderloin",
+        "food.protein.poultry.chicken-thigh",
+        "food.protein.poultry.chicken-wing",
+        "food.protein.poultry.duck-breast",
+        "food.protein.poultry.duck-confit-leg",
+        "food.protein.poultry.duck-leg",
+        "food.protein.poultry.goose-breast",
+        "food.protein.poultry.goose-leg",
+        "food.protein.poultry.ground-chicken",
+        "food.protein.poultry.ground-turkey",
+        "food.protein.poultry.quail-breast",
+        "food.protein.poultry.turkey-breast",
+        "food.protein.poultry.turkey-drumstick",
+        "food.protein.poultry.turkey-thigh",
+        "food.protein.poultry.whole-chicken",
+        "food.protein.poultry.whole-duck",
+        "food.protein.poultry.whole-goose",
+        "food.protein.poultry.whole-quail",
+        "food.protein.poultry.whole-turkey"
+      ],
+      "parent_category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "processing_states_represented": [
+        "fresh",
+        "ground",
+        "prepared"
+      ],
+      "species_represented": [
+        "chicken",
+        "duck",
+        "goose",
+        "quail",
+        "turkey"
+      ]
+    },
+    {
+      "food_count": 10,
+      "identity": {
+        "id": "food.protein.soy-foods",
+        "name": "Soy Foods",
+        "slug": "soy-foods"
+      },
+      "member_food_ids": [
+        "food.protein.soy-foods.edamame",
+        "food.protein.soy-foods.miso",
+        "food.protein.soy-foods.natto",
+        "food.protein.soy-foods.silken-tofu",
+        "food.protein.soy-foods.soy-curls",
+        "food.protein.soy-foods.soy-milk",
+        "food.protein.soy-foods.soybeans",
+        "food.protein.soy-foods.tempeh",
+        "food.protein.soy-foods.textured-vegetable-protein",
+        "food.protein.soy-foods.tofu-firm"
+      ],
+      "parent_category": {
+        "id": "food.protein.plant",
+        "name": "Plant Protein Foods",
+        "slug": "plant-protein"
+      },
+      "processing_states_represented": [
+        "dried",
+        "fermented",
+        "fresh",
+        "processed"
+      ],
+      "species_represented": [
+        "soybean"
+      ]
+    },
+    {
+      "food_count": 8,
+      "identity": {
+        "id": "food.protein.veal",
+        "name": "Veal",
+        "slug": "veal"
+      },
+      "member_food_ids": [
+        "food.protein.veal.ground-veal",
+        "food.protein.veal.veal-breast",
+        "food.protein.veal.veal-chop",
+        "food.protein.veal.veal-cutlet",
+        "food.protein.veal.veal-loin",
+        "food.protein.veal.veal-shank",
+        "food.protein.veal.veal-shoulder",
+        "food.protein.veal.veal-tenderloin"
+      ],
+      "parent_category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "processing_states_represented": [
+        "fresh",
+        "ground"
+      ],
+      "species_represented": []
+    },
+    {
+      "food_count": 21,
+      "identity": {
+        "id": "food.protein.wild-game",
+        "name": "Wild Game",
+        "slug": "wild-game"
+      },
+      "member_food_ids": [
+        "food.protein.wild-game.bison-ribeye",
+        "food.protein.wild-game.bison-striploin",
+        "food.protein.wild-game.elk",
+        "food.protein.wild-game.elk-loin",
+        "food.protein.wild-game.elk-tenderloin",
+        "food.protein.wild-game.ground-bison",
+        "food.protein.wild-game.ground-elk",
+        "food.protein.wild-game.ground-venison",
+        "food.protein.wild-game.ground-wild-boar",
+        "food.protein.wild-game.hare-saddle",
+        "food.protein.wild-game.rabbit-leg",
+        "food.protein.wild-game.rabbit-saddle",
+        "food.protein.wild-game.venison",
+        "food.protein.wild-game.venison-leg",
+        "food.protein.wild-game.venison-loin",
+        "food.protein.wild-game.venison-tenderloin",
+        "food.protein.wild-game.whole-hare",
+        "food.protein.wild-game.whole-rabbit",
+        "food.protein.wild-game.wild-boar",
+        "food.protein.wild-game.wild-boar-loin",
+        "food.protein.wild-game.wild-boar-shoulder"
+      ],
+      "parent_category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "processing_states_represented": [
+        "fresh",
+        "ground"
+      ],
+      "species_represented": [
+        "bison",
+        "elk",
+        "hare",
+        "rabbit",
+        "venison",
+        "wild-boar"
+      ]
+    }
+  ]
+}
