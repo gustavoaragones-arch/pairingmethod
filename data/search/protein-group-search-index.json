@@ -1,0 +1,850 @@
+{
+  "documents": [
+    {
+      "canonical_path": "/groups/beef/",
+      "canonical_url": "https://pairingmethod.com/groups/beef/",
+      "category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "display_name": "Beef",
+      "document_type": "protein_group",
+      "id": "food.protein.beef",
+      "member_food_ids": [
+        "food.protein.beef.bavette",
+        "food.protein.beef.beef-shank",
+        "food.protein.beef.blade-steak",
+        "food.protein.beef.bottom-round",
+        "food.protein.beef.brisket",
+        "food.protein.beef.chuck-roast",
+        "food.protein.beef.denver-steak",
+        "food.protein.beef.eye-of-round",
+        "food.protein.beef.flank-steak",
+        "food.protein.beef.flat-iron",
+        "food.protein.beef.ground-beef",
+        "food.protein.beef.hanger-steak",
+        "food.protein.beef.porterhouse",
+        "food.protein.beef.prime-rib",
+        "food.protein.beef.ribeye",
+        "food.protein.beef.short-rib",
+        "food.protein.beef.skirt-steak",
+        "food.protein.beef.striploin",
+        "food.protein.beef.t-bone",
+        "food.protein.beef.tenderloin",
+        "food.protein.beef.top-round",
+        "food.protein.beef.top-sirloin",
+        "food.protein.beef.tri-tip"
+      ],
+      "processing_states_represented": [
+        "fresh",
+        "ground"
+      ],
+      "projection_id": "food.protein.beef",
+      "slug": "beef",
+      "species_represented": [],
+      "tokens": [
+        "animal protein foods",
+        "beef",
+        "fresh",
+        "ground"
+      ]
+    },
+    {
+      "canonical_path": "/groups/cephalopods/",
+      "canonical_url": "https://pairingmethod.com/groups/cephalopods/",
+      "category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "display_name": "Cephalopods",
+      "document_type": "protein_group",
+      "id": "food.protein.cephalopods",
+      "member_food_ids": [
+        "food.protein.cephalopods.baby-octopus",
+        "food.protein.cephalopods.calamari-rings",
+        "food.protein.cephalopods.cuttlefish",
+        "food.protein.cephalopods.cuttlefish-tentacles",
+        "food.protein.cephalopods.octopus",
+        "food.protein.cephalopods.octopus-tentacles",
+        "food.protein.cephalopods.squid",
+        "food.protein.cephalopods.squid-tube"
+      ],
+      "processing_states_represented": [
+        "fresh",
+        "prepared"
+      ],
+      "projection_id": "food.protein.cephalopods",
+      "slug": "cephalopods",
+      "species_represented": [
+        "cuttlefish",
+        "octopus",
+        "squid"
+      ],
+      "tokens": [
+        "animal protein foods",
+        "cephalopods",
+        "cuttlefish",
+        "fresh",
+        "octopus",
+        "prepared",
+        "squid"
+      ]
+    },
+    {
+      "canonical_path": "/groups/crustaceans/",
+      "canonical_url": "https://pairingmethod.com/groups/crustaceans/",
+      "category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "display_name": "Crustaceans",
+      "document_type": "protein_group",
+      "id": "food.protein.crustaceans",
+      "member_food_ids": [
+        "food.protein.crustaceans.crab",
+        "food.protein.crustaceans.crawfish",
+        "food.protein.crustaceans.king-crab-leg",
+        "food.protein.crustaceans.lobster-tail",
+        "food.protein.crustaceans.prawn",
+        "food.protein.crustaceans.shrimp",
+        "food.protein.crustaceans.whole-lobster"
+      ],
+      "processing_states_represented": [
+        "fresh"
+      ],
+      "projection_id": "food.protein.crustaceans",
+      "slug": "crustaceans",
+      "species_represented": [
+        "crab",
+        "crawfish",
+        "king-crab",
+        "lobster",
+        "prawn",
+        "shrimp"
+      ],
+      "tokens": [
+        "animal protein foods",
+        "crab",
+        "crawfish",
+        "crustaceans",
+        "fresh",
+        "king-crab",
+        "lobster",
+        "prawn",
+        "shrimp"
+      ]
+    },
+    {
+      "canonical_path": "/groups/fin-fish/",
+      "canonical_url": "https://pairingmethod.com/groups/fin-fish/",
+      "category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "display_name": "Fin Fish",
+      "document_type": "protein_group",
+      "id": "food.protein.fin-fish",
+      "member_food_ids": [
+        "food.protein.fin-fish.anchovy",
+        "food.protein.fin-fish.arctic-char-fillet",
+        "food.protein.fin-fish.cod-fillet",
+        "food.protein.fin-fish.flounder-fillet",
+        "food.protein.fin-fish.grouper-fillet",
+        "food.protein.fin-fish.halibut-fillet",
+        "food.protein.fin-fish.herring",
+        "food.protein.fin-fish.mackerel",
+        "food.protein.fin-fish.mahi-mahi-fillet",
+        "food.protein.fin-fish.monkfish-tail",
+        "food.protein.fin-fish.salmon-fillet",
+        "food.protein.fin-fish.sardine",
+        "food.protein.fin-fish.sea-bass-fillet",
+        "food.protein.fin-fish.snapper-fillet",
+        "food.protein.fin-fish.sole-fillet",
+        "food.protein.fin-fish.swordfish-steak",
+        "food.protein.fin-fish.tilapia-fillet",
+        "food.protein.fin-fish.trout-fillet",
+        "food.protein.fin-fish.tuna-loin",
+        "food.protein.fin-fish.tuna-steak",
+        "food.protein.fin-fish.whole-branzino",
+        "food.protein.fin-fish.whole-salmon"
+      ],
+      "processing_states_represented": [
+        "fresh"
+      ],
+      "projection_id": "food.protein.fin-fish",
+      "slug": "fin-fish",
+      "species_represented": [
+        "anchovy",
+        "arctic-char",
+        "branzino",
+        "cod",
+        "flounder",
+        "grouper",
+        "halibut",
+        "herring",
+        "mackerel",
+        "mahi-mahi",
+        "monkfish",
+        "salmon",
+        "sardine",
+        "sea-bass",
+        "snapper",
+        "sole",
+        "swordfish",
+        "tilapia",
+        "trout",
+        "tuna"
+      ],
+      "tokens": [
+        "anchovy",
+        "animal protein foods",
+        "arctic-char",
+        "branzino",
+        "cod",
+        "fin fish",
+        "fin-fish",
+        "flounder",
+        "fresh",
+        "grouper",
+        "halibut",
+        "herring",
+        "mackerel",
+        "mahi-mahi",
+        "monkfish",
+        "salmon",
+        "sardine",
+        "sea-bass",
+        "snapper",
+        "sole",
+        "swordfish",
+        "tilapia",
+        "trout",
+        "tuna"
+      ]
+    },
+    {
+      "canonical_path": "/groups/grains-wheat-protein/",
+      "canonical_url": "https://pairingmethod.com/groups/grains-wheat-protein/",
+      "category": {
+        "id": "food.protein.plant",
+        "name": "Plant Protein Foods",
+        "slug": "plant-protein"
+      },
+      "display_name": "Grains & Wheat Protein",
+      "document_type": "protein_group",
+      "id": "food.protein.grains-wheat-protein",
+      "member_food_ids": [
+        "food.protein.grains-wheat-protein.amaranth",
+        "food.protein.grains-wheat-protein.barley",
+        "food.protein.grains-wheat-protein.buckwheat",
+        "food.protein.grains-wheat-protein.farro",
+        "food.protein.grains-wheat-protein.oats",
+        "food.protein.grains-wheat-protein.quinoa",
+        "food.protein.grains-wheat-protein.seitan",
+        "food.protein.grains-wheat-protein.vital-wheat-gluten"
+      ],
+      "processing_states_represented": [
+        "dried",
+        "processed"
+      ],
+      "projection_id": "food.protein.grains-wheat-protein",
+      "slug": "grains-wheat-protein",
+      "species_represented": [
+        "amaranth",
+        "barley",
+        "buckwheat",
+        "farro",
+        "oat",
+        "quinoa",
+        "wheat"
+      ],
+      "tokens": [
+        "amaranth",
+        "barley",
+        "buckwheat",
+        "dried",
+        "farro",
+        "grains & wheat protein",
+        "grains wheat protein",
+        "grains-wheat-protein",
+        "oat",
+        "plant protein foods",
+        "processed",
+        "quinoa",
+        "wheat"
+      ]
+    },
+    {
+      "canonical_path": "/groups/lamb/",
+      "canonical_url": "https://pairingmethod.com/groups/lamb/",
+      "category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "display_name": "Lamb",
+      "document_type": "protein_group",
+      "id": "food.protein.lamb",
+      "member_food_ids": [
+        "food.protein.lamb.ground-lamb",
+        "food.protein.lamb.lamb-breast",
+        "food.protein.lamb.lamb-chop",
+        "food.protein.lamb.lamb-leg",
+        "food.protein.lamb.lamb-loin",
+        "food.protein.lamb.lamb-neck",
+        "food.protein.lamb.lamb-rack",
+        "food.protein.lamb.lamb-ribs",
+        "food.protein.lamb.lamb-saddle",
+        "food.protein.lamb.lamb-shank",
+        "food.protein.lamb.lamb-shoulder",
+        "food.protein.lamb.lamb-tenderloin"
+      ],
+      "processing_states_represented": [
+        "fresh",
+        "ground"
+      ],
+      "projection_id": "food.protein.lamb",
+      "slug": "lamb",
+      "species_represented": [],
+      "tokens": [
+        "animal protein foods",
+        "fresh",
+        "ground",
+        "lamb"
+      ]
+    },
+    {
+      "canonical_path": "/groups/legumes/",
+      "canonical_url": "https://pairingmethod.com/groups/legumes/",
+      "category": {
+        "id": "food.protein.plant",
+        "name": "Plant Protein Foods",
+        "slug": "plant-protein"
+      },
+      "display_name": "Legumes",
+      "document_type": "protein_group",
+      "id": "food.protein.legumes",
+      "member_food_ids": [
+        "food.protein.legumes.black-beans",
+        "food.protein.legumes.black-lentils",
+        "food.protein.legumes.cannellini-beans",
+        "food.protein.legumes.chickpeas",
+        "food.protein.legumes.green-lentils",
+        "food.protein.legumes.kidney-beans",
+        "food.protein.legumes.lentils",
+        "food.protein.legumes.lima-beans",
+        "food.protein.legumes.navy-beans",
+        "food.protein.legumes.peas",
+        "food.protein.legumes.pinto-beans",
+        "food.protein.legumes.red-lentils"
+      ],
+      "processing_states_represented": [
+        "dried"
+      ],
+      "projection_id": "food.protein.legumes",
+      "slug": "legumes",
+      "species_represented": [
+        "black-bean",
+        "black-lentil",
+        "cannellini-bean",
+        "chickpea",
+        "green-lentil",
+        "kidney-bean",
+        "lentil",
+        "lima-bean",
+        "navy-bean",
+        "pea",
+        "pinto-bean",
+        "red-lentil"
+      ],
+      "tokens": [
+        "black-bean",
+        "black-lentil",
+        "cannellini-bean",
+        "chickpea",
+        "dried",
+        "green-lentil",
+        "kidney-bean",
+        "legumes",
+        "lentil",
+        "lima-bean",
+        "navy-bean",
+        "pea",
+        "pinto-bean",
+        "plant protein foods",
+        "red-lentil"
+      ]
+    },
+    {
+      "canonical_path": "/groups/mollusks/",
+      "canonical_url": "https://pairingmethod.com/groups/mollusks/",
+      "category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "display_name": "Mollusks",
+      "document_type": "protein_group",
+      "id": "food.protein.mollusks",
+      "member_food_ids": [
+        "food.protein.mollusks.abalone",
+        "food.protein.mollusks.clam",
+        "food.protein.mollusks.cockle",
+        "food.protein.mollusks.conch",
+        "food.protein.mollusks.mussel",
+        "food.protein.mollusks.oyster",
+        "food.protein.mollusks.razor-clam",
+        "food.protein.mollusks.scallop"
+      ],
+      "processing_states_represented": [
+        "fresh"
+      ],
+      "projection_id": "food.protein.mollusks",
+      "slug": "mollusks",
+      "species_represented": [
+        "abalone",
+        "clam",
+        "cockle",
+        "conch",
+        "mussel",
+        "oyster",
+        "razor-clam",
+        "scallop"
+      ],
+      "tokens": [
+        "abalone",
+        "animal protein foods",
+        "clam",
+        "cockle",
+        "conch",
+        "fresh",
+        "mollusks",
+        "mussel",
+        "oyster",
+        "razor-clam",
+        "scallop"
+      ]
+    },
+    {
+      "canonical_path": "/groups/mushrooms/",
+      "canonical_url": "https://pairingmethod.com/groups/mushrooms/",
+      "category": {
+        "id": "food.protein.fungi",
+        "name": "Fungi Protein Foods",
+        "slug": "fungi-protein"
+      },
+      "display_name": "Mushrooms",
+      "document_type": "protein_group",
+      "id": "food.protein.mushrooms",
+      "member_food_ids": [
+        "food.protein.mushrooms.button-mushroom",
+        "food.protein.mushrooms.chanterelle",
+        "food.protein.mushrooms.cremini",
+        "food.protein.mushrooms.enoki",
+        "food.protein.mushrooms.king-oyster",
+        "food.protein.mushrooms.lions-mane",
+        "food.protein.mushrooms.maitake",
+        "food.protein.mushrooms.morel",
+        "food.protein.mushrooms.oyster-mushroom",
+        "food.protein.mushrooms.porcini",
+        "food.protein.mushrooms.portobello",
+        "food.protein.mushrooms.shiitake"
+      ],
+      "processing_states_represented": [
+        "dried",
+        "fresh"
+      ],
+      "projection_id": "food.protein.mushrooms",
+      "slug": "mushrooms",
+      "species_represented": [
+        "button-mushroom",
+        "chanterelle",
+        "cremini",
+        "enoki",
+        "king-oyster",
+        "lions-mane",
+        "maitake",
+        "morel",
+        "oyster-mushroom",
+        "porcini",
+        "portobello",
+        "shiitake"
+      ],
+      "tokens": [
+        "button-mushroom",
+        "chanterelle",
+        "cremini",
+        "dried",
+        "enoki",
+        "fresh",
+        "fungi protein foods",
+        "king-oyster",
+        "lions-mane",
+        "maitake",
+        "morel",
+        "mushrooms",
+        "oyster-mushroom",
+        "porcini",
+        "portobello",
+        "shiitake"
+      ]
+    },
+    {
+      "canonical_path": "/groups/mycoprotein/",
+      "canonical_url": "https://pairingmethod.com/groups/mycoprotein/",
+      "category": {
+        "id": "food.protein.fungi",
+        "name": "Fungi Protein Foods",
+        "slug": "fungi-protein"
+      },
+      "display_name": "Mycoprotein",
+      "document_type": "protein_group",
+      "id": "food.protein.mycoprotein",
+      "member_food_ids": [
+        "food.protein.mycoprotein.mycoprotein",
+        "food.protein.mycoprotein.mycoprotein-fillet",
+        "food.protein.mycoprotein.mycoprotein-grounds",
+        "food.protein.mycoprotein.mycoprotein-pieces",
+        "food.protein.mycoprotein.mycoprotein-steak"
+      ],
+      "processing_states_represented": [
+        "processed"
+      ],
+      "projection_id": "food.protein.mycoprotein",
+      "slug": "mycoprotein",
+      "species_represented": [
+        "mycoprotein"
+      ],
+      "tokens": [
+        "fungi protein foods",
+        "mycoprotein",
+        "processed"
+      ]
+    },
+    {
+      "canonical_path": "/groups/nuts-seeds/",
+      "canonical_url": "https://pairingmethod.com/groups/nuts-seeds/",
+      "category": {
+        "id": "food.protein.plant",
+        "name": "Plant Protein Foods",
+        "slug": "plant-protein"
+      },
+      "display_name": "Nuts & Seeds",
+      "document_type": "protein_group",
+      "id": "food.protein.nuts-seeds",
+      "member_food_ids": [
+        "food.protein.nuts-seeds.almonds",
+        "food.protein.nuts-seeds.cashews",
+        "food.protein.nuts-seeds.chia-seeds",
+        "food.protein.nuts-seeds.flaxseed",
+        "food.protein.nuts-seeds.hemp-seeds",
+        "food.protein.nuts-seeds.peanuts",
+        "food.protein.nuts-seeds.pine-nuts",
+        "food.protein.nuts-seeds.pistachios",
+        "food.protein.nuts-seeds.pumpkin-seeds",
+        "food.protein.nuts-seeds.sesame-seeds",
+        "food.protein.nuts-seeds.sunflower-seeds",
+        "food.protein.nuts-seeds.walnuts"
+      ],
+      "processing_states_represented": [
+        "dried"
+      ],
+      "projection_id": "food.protein.nuts-seeds",
+      "slug": "nuts-seeds",
+      "species_represented": [
+        "almond",
+        "cashew",
+        "chia-seed",
+        "flaxseed",
+        "hemp-seed",
+        "peanut",
+        "pine-nut",
+        "pistachio",
+        "pumpkin-seed",
+        "sesame-seed",
+        "sunflower-seed",
+        "walnut"
+      ],
+      "tokens": [
+        "almond",
+        "cashew",
+        "chia-seed",
+        "dried",
+        "flaxseed",
+        "hemp-seed",
+        "nuts & seeds",
+        "nuts seeds",
+        "nuts-seeds",
+        "peanut",
+        "pine-nut",
+        "pistachio",
+        "plant protein foods",
+        "pumpkin-seed",
+        "sesame-seed",
+        "sunflower-seed",
+        "walnut"
+      ]
+    },
+    {
+      "canonical_path": "/groups/pork/",
+      "canonical_url": "https://pairingmethod.com/groups/pork/",
+      "category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "display_name": "Pork",
+      "document_type": "protein_group",
+      "id": "food.protein.pork",
+      "member_food_ids": [
+        "food.protein.pork.baby-back-ribs",
+        "food.protein.pork.bacon",
+        "food.protein.pork.coppa",
+        "food.protein.pork.country-style-ribs",
+        "food.protein.pork.crown-roast-pork",
+        "food.protein.pork.ground-pork",
+        "food.protein.pork.guanciale",
+        "food.protein.pork.ham",
+        "food.protein.pork.pancetta",
+        "food.protein.pork.pork-belly",
+        "food.protein.pork.pork-chop",
+        "food.protein.pork.pork-hock",
+        "food.protein.pork.pork-loin",
+        "food.protein.pork.pork-neck",
+        "food.protein.pork.pork-shoulder",
+        "food.protein.pork.pork-tenderloin",
+        "food.protein.pork.spare-ribs"
+      ],
+      "processing_states_represented": [
+        "cured",
+        "fresh",
+        "ground"
+      ],
+      "projection_id": "food.protein.pork",
+      "slug": "pork",
+      "species_represented": [],
+      "tokens": [
+        "animal protein foods",
+        "cured",
+        "fresh",
+        "ground",
+        "pork"
+      ]
+    },
+    {
+      "canonical_path": "/groups/poultry/",
+      "canonical_url": "https://pairingmethod.com/groups/poultry/",
+      "category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "display_name": "Poultry",
+      "document_type": "protein_group",
+      "id": "food.protein.poultry",
+      "member_food_ids": [
+        "food.protein.poultry.chicken-breast",
+        "food.protein.poultry.chicken-drumstick",
+        "food.protein.poultry.chicken-leg-quarter",
+        "food.protein.poultry.chicken-tenderloin",
+        "food.protein.poultry.chicken-thigh",
+        "food.protein.poultry.chicken-wing",
+        "food.protein.poultry.duck-breast",
+        "food.protein.poultry.duck-confit-leg",
+        "food.protein.poultry.duck-leg",
+        "food.protein.poultry.goose-breast",
+        "food.protein.poultry.goose-leg",
+        "food.protein.poultry.ground-chicken",
+        "food.protein.poultry.ground-turkey",
+        "food.protein.poultry.quail-breast",
+        "food.protein.poultry.turkey-breast",
+        "food.protein.poultry.turkey-drumstick",
+        "food.protein.poultry.turkey-thigh",
+        "food.protein.poultry.whole-chicken",
+        "food.protein.poultry.whole-duck",
+        "food.protein.poultry.whole-goose",
+        "food.protein.poultry.whole-quail",
+        "food.protein.poultry.whole-turkey"
+      ],
+      "processing_states_represented": [
+        "fresh",
+        "ground",
+        "prepared"
+      ],
+      "projection_id": "food.protein.poultry",
+      "slug": "poultry",
+      "species_represented": [
+        "chicken",
+        "duck",
+        "goose",
+        "quail",
+        "turkey"
+      ],
+      "tokens": [
+        "animal protein foods",
+        "chicken",
+        "duck",
+        "fresh",
+        "goose",
+        "ground",
+        "poultry",
+        "prepared",
+        "quail",
+        "turkey"
+      ]
+    },
+    {
+      "canonical_path": "/groups/soy-foods/",
+      "canonical_url": "https://pairingmethod.com/groups/soy-foods/",
+      "category": {
+        "id": "food.protein.plant",
+        "name": "Plant Protein Foods",
+        "slug": "plant-protein"
+      },
+      "display_name": "Soy Foods",
+      "document_type": "protein_group",
+      "id": "food.protein.soy-foods",
+      "member_food_ids": [
+        "food.protein.soy-foods.edamame",
+        "food.protein.soy-foods.miso",
+        "food.protein.soy-foods.natto",
+        "food.protein.soy-foods.silken-tofu",
+        "food.protein.soy-foods.soy-curls",
+        "food.protein.soy-foods.soy-milk",
+        "food.protein.soy-foods.soybeans",
+        "food.protein.soy-foods.tempeh",
+        "food.protein.soy-foods.textured-vegetable-protein",
+        "food.protein.soy-foods.tofu-firm"
+      ],
+      "processing_states_represented": [
+        "dried",
+        "fermented",
+        "fresh",
+        "processed"
+      ],
+      "projection_id": "food.protein.soy-foods",
+      "slug": "soy-foods",
+      "species_represented": [
+        "soybean"
+      ],
+      "tokens": [
+        "dried",
+        "fermented",
+        "fresh",
+        "plant protein foods",
+        "processed",
+        "soy foods",
+        "soy-foods",
+        "soybean"
+      ]
+    },
+    {
+      "canonical_path": "/groups/veal/",
+      "canonical_url": "https://pairingmethod.com/groups/veal/",
+      "category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "display_name": "Veal",
+      "document_type": "protein_group",
+      "id": "food.protein.veal",
+      "member_food_ids": [
+        "food.protein.veal.ground-veal",
+        "food.protein.veal.veal-breast",
+        "food.protein.veal.veal-chop",
+        "food.protein.veal.veal-cutlet",
+        "food.protein.veal.veal-loin",
+        "food.protein.veal.veal-shank",
+        "food.protein.veal.veal-shoulder",
+        "food.protein.veal.veal-tenderloin"
+      ],
+      "processing_states_represented": [
+        "fresh",
+        "ground"
+      ],
+      "projection_id": "food.protein.veal",
+      "slug": "veal",
+      "species_represented": [],
+      "tokens": [
+        "animal protein foods",
+        "fresh",
+        "ground",
+        "veal"
+      ]
+    },
+    {
+      "canonical_path": "/groups/wild-game/",
+      "canonical_url": "https://pairingmethod.com/groups/wild-game/",
+      "category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "display_name": "Wild Game",
+      "document_type": "protein_group",
+      "id": "food.protein.wild-game",
+      "member_food_ids": [
+        "food.protein.wild-game.bison-ribeye",
+        "food.protein.wild-game.bison-striploin",
+        "food.protein.wild-game.elk",
+        "food.protein.wild-game.elk-loin",
+        "food.protein.wild-game.elk-tenderloin",
+        "food.protein.wild-game.ground-bison",
+        "food.protein.wild-game.ground-elk",
+        "food.protein.wild-game.ground-venison",
+        "food.protein.wild-game.ground-wild-boar",
+        "food.protein.wild-game.hare-saddle",
+        "food.protein.wild-game.rabbit-leg",
+        "food.protein.wild-game.rabbit-saddle",
+        "food.protein.wild-game.venison",
+        "food.protein.wild-game.venison-leg",
+        "food.protein.wild-game.venison-loin",
+        "food.protein.wild-game.venison-tenderloin",
+        "food.protein.wild-game.whole-hare",
+        "food.protein.wild-game.whole-rabbit",
+        "food.protein.wild-game.wild-boar",
+        "food.protein.wild-game.wild-boar-loin",
+        "food.protein.wild-game.wild-boar-shoulder"
+      ],
+      "processing_states_represented": [
+        "fresh",
+        "ground"
+      ],
+      "projection_id": "food.protein.wild-game",
+      "slug": "wild-game",
+      "species_represented": [
+        "bison",
+        "elk",
+        "hare",
+        "rabbit",
+        "venison",
+        "wild-boar"
+      ],
+      "tokens": [
+        "animal protein foods",
+        "bison",
+        "elk",
+        "fresh",
+        "ground",
+        "hare",
+        "rabbit",
+        "venison",
+        "wild game",
+        "wild-boar",
+        "wild-game"
+      ]
+    }
+  ],
+  "meta": {
+    "catalog_version": "2.0.0",
+    "document_count": 16,
+    "document_type": "protein_group",
+    "food_ontology_version": "1.0",
+    "phase": "ONTOLOGY-03E"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "documents": [
+    {
+      "canonical_path": "/categories/animal-protein/",
+      "canonical_url": "https://pairingmethod.com/categories/animal-protein/",
+      "display_name": "Animal Protein Foods",
+      "document_type": "protein_category",
+      "food_count": 148,
+      "group_count": 10,
+      "group_ids": [
+        "food.protein.beef",
+        "food.protein.cephalopods",
+        "food.protein.crustaceans",
+        "food.protein.fin-fish",
+        "food.protein.lamb",
+        "food.protein.mollusks",
+        "food.protein.pork",
+        "food.protein.poultry",
+        "food.protein.veal",
+        "food.protein.wild-game"
+      ],
+      "groups": [
+        {
+          "food_count": 23,
+          "id": "food.protein.beef",
+          "name": "Beef",
+          "slug": "beef"
+        },
+        {
+          "food_count": 8,
+          "id": "food.protein.cephalopods",
+          "name": "Cephalopods",
+          "slug": "cephalopods"
+        },
+        {
+          "food_count": 7,
+          "id": "food.protein.crustaceans",
+          "name": "Crustaceans",
+          "slug": "crustaceans"
+        },
+        {
+          "food_count": 22,
+          "id": "food.protein.fin-fish",
+          "name": "Fin Fish",
+          "slug": "fin-fish"
+        },
+        {
+          "food_count": 12,
+          "id": "food.protein.lamb",
+          "name": "Lamb",
+          "slug": "lamb"
+        },
+        {
+          "food_count": 8,
+          "id": "food.protein.mollusks",
+          "name": "Mollusks",
+          "slug": "mollusks"
+        },
+        {
+          "food_count": 17,
+          "id": "food.protein.pork",
+          "name": "Pork",
+          "slug": "pork"
+        },
+        {
+          "food_count": 22,
+          "id": "food.protein.poultry",
+          "name": "Poultry",
+          "slug": "poultry"
+        },
+        {
+          "food_count": 8,
+          "id": "food.protein.veal",
+          "name": "Veal",
+          "slug": "veal"
+        },
+        {
+          "food_count": 21,
+          "id": "food.protein.wild-game",
+          "name": "Wild Game",
+          "slug": "wild-game"
+        }
+      ],
+      "id": "food.protein.animal",
+      "projection_id": "food.protein.animal",
+      "slug": "animal-protein",
+      "tokens": [
+        "10",
+        "148",
+        "animal protein",
+        "animal protein foods",
+        "animal-protein",
+        "beef",
+        "cephalopods",
+        "crustaceans",
+        "fin fish",
+        "lamb",
+        "mollusks",
+        "pork",
+        "poultry",
+        "veal",
+        "wild game"
+      ]
+    },
+    {
+      "canonical_path": "/categories/fungi-protein/",
+      "canonical_url": "https://pairingmethod.com/categories/fungi-protein/",
+      "display_name": "Fungi Protein Foods",
+      "document_type": "protein_category",
+      "food_count": 17,
+      "group_count": 2,
+      "group_ids": [
+        "food.protein.mushrooms",
+        "food.protein.mycoprotein"
+      ],
+      "groups": [
+        {
+          "food_count": 12,
+          "id": "food.protein.mushrooms",
+          "name": "Mushrooms",
+          "slug": "mushrooms"
+        },
+        {
+          "food_count": 5,
+          "id": "food.protein.mycoprotein",
+          "name": "Mycoprotein",
+          "slug": "mycoprotein"
+        }
+      ],
+      "id": "food.protein.fungi",
+      "projection_id": "food.protein.fungi",
+      "slug": "fungi-protein",
+      "tokens": [
+        "17",
+        "2",
+        "fungi protein",
+        "fungi protein foods",
+        "fungi-protein",
+        "mushrooms",
+        "mycoprotein"
+      ]
+    },
+    {
+      "canonical_path": "/categories/plant-protein/",
+      "canonical_url": "https://pairingmethod.com/categories/plant-protein/",
+      "display_name": "Plant Protein Foods",
+      "document_type": "protein_category",
+      "food_count": 42,
+      "group_count": 4,
+      "group_ids": [
+        "food.protein.grains-wheat-protein",
+        "food.protein.legumes",
+        "food.protein.nuts-seeds",
+        "food.protein.soy-foods"
+      ],
+      "groups": [
+        {
+          "food_count": 8,
+          "id": "food.protein.grains-wheat-protein",
+          "name": "Grains & Wheat Protein",
+          "slug": "grains-wheat-protein"
+        },
+        {
+          "food_count": 12,
+          "id": "food.protein.legumes",
+          "name": "Legumes",
+          "slug": "legumes"
+        },
+        {
+          "food_count": 12,
+          "id": "food.protein.nuts-seeds",
+          "name": "Nuts & Seeds",
+          "slug": "nuts-seeds"
+        },
+        {
+          "food_count": 10,
+          "id": "food.protein.soy-foods",
+          "name": "Soy Foods",
+          "slug": "soy-foods"
+        }
+      ],
+      "id": "food.protein.plant",
+      "projection_id": "food.protein.plant",
+      "slug": "plant-protein",
+      "tokens": [
+        "4",
+        "42",
+        "grains & wheat protein",
+        "legumes",
+        "nuts & seeds",
+        "plant protein",
+        "plant protein foods",
+        "plant-protein",
+        "soy foods"
+      ]
+    }
+  ],
+  "meta": {
+    "catalog_version": "2.0.0",
+    "document_count": 3,
+    "document_type": "protein_category",
+    "food_ontology_version": "1.0",
+    "phase": "ONTOLOGY-03E"
+  }
+}

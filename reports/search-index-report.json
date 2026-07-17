@@ -1,0 +1,23 @@
+{
+  "metrics": {
+    "Broken references": 0,
+    "Category search documents": 3,
+    "Deterministic regeneration": "PASS",
+    "Duplicate documents": 0,
+    "Food search documents": 207,
+    "Group search documents": 16,
+    "Indexed tokens": 653,
+    "Overall result": "PASS",
+    "Suggestions": 226,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/search/protein-food-search-index.json",
+    "data/search/protein-group-search-index.json",
+    "data/search/protein-category-search-index.json",
+    "data/search/protein-search-suggestions.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "ONTOLOGY-03E",
+  "validation_errors": []
+}
