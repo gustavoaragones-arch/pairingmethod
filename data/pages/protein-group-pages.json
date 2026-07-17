@@ -1,0 +1,2188 @@
+{
+  "meta": {
+    "catalog_version": "2.0.0",
+    "food_ontology_version": "1.0",
+    "page_count": 16,
+    "page_type": "protein_group",
+    "phase": "ONTOLOGY-03B"
+  },
+  "pages": [
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/animal-protein/",
+          "label": "Animal Protein Foods"
+        },
+        {
+          "href": "/groups/beef/",
+          "label": "Beef"
+        }
+      ],
+      "canonical_path": "/groups/beef/",
+      "identity": {
+        "id": "food.protein.beef",
+        "slug": "beef",
+        "title": "Beef"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/bavette/",
+          "id": "food.protein.beef.bavette",
+          "name": "Bavette Steak",
+          "slug": "bavette"
+        },
+        {
+          "href": "/foods/beef-shank/",
+          "id": "food.protein.beef.beef-shank",
+          "name": "Beef Shank",
+          "slug": "beef-shank"
+        },
+        {
+          "href": "/foods/blade-steak/",
+          "id": "food.protein.beef.blade-steak",
+          "name": "Blade Steak",
+          "slug": "blade-steak"
+        },
+        {
+          "href": "/foods/bottom-round/",
+          "id": "food.protein.beef.bottom-round",
+          "name": "Bottom Round",
+          "slug": "bottom-round"
+        },
+        {
+          "href": "/foods/brisket/",
+          "id": "food.protein.beef.brisket",
+          "name": "Beef Brisket",
+          "slug": "brisket"
+        },
+        {
+          "href": "/foods/chuck-roast/",
+          "id": "food.protein.beef.chuck-roast",
+          "name": "Chuck Roast",
+          "slug": "chuck-roast"
+        },
+        {
+          "href": "/foods/denver-steak/",
+          "id": "food.protein.beef.denver-steak",
+          "name": "Denver Steak",
+          "slug": "denver-steak"
+        },
+        {
+          "href": "/foods/eye-of-round/",
+          "id": "food.protein.beef.eye-of-round",
+          "name": "Eye of Round",
+          "slug": "eye-of-round"
+        },
+        {
+          "href": "/foods/flank-steak/",
+          "id": "food.protein.beef.flank-steak",
+          "name": "Flank Steak",
+          "slug": "flank-steak"
+        },
+        {
+          "href": "/foods/flat-iron/",
+          "id": "food.protein.beef.flat-iron",
+          "name": "Flat Iron Steak",
+          "slug": "flat-iron"
+        },
+        {
+          "href": "/foods/ground-beef/",
+          "id": "food.protein.beef.ground-beef",
+          "name": "Ground Beef",
+          "slug": "ground-beef"
+        },
+        {
+          "href": "/foods/hanger-steak/",
+          "id": "food.protein.beef.hanger-steak",
+          "name": "Hanger Steak",
+          "slug": "hanger-steak"
+        },
+        {
+          "href": "/foods/porterhouse/",
+          "id": "food.protein.beef.porterhouse",
+          "name": "Porterhouse Steak",
+          "slug": "porterhouse"
+        },
+        {
+          "href": "/foods/prime-rib/",
+          "id": "food.protein.beef.prime-rib",
+          "name": "Prime Rib",
+          "slug": "prime-rib"
+        },
+        {
+          "href": "/foods/ribeye/",
+          "id": "food.protein.beef.ribeye",
+          "name": "Ribeye Steak",
+          "slug": "ribeye"
+        },
+        {
+          "href": "/foods/short-rib/",
+          "id": "food.protein.beef.short-rib",
+          "name": "Beef Short Ribs",
+          "slug": "short-rib"
+        },
+        {
+          "href": "/foods/skirt-steak/",
+          "id": "food.protein.beef.skirt-steak",
+          "name": "Skirt Steak",
+          "slug": "skirt-steak"
+        },
+        {
+          "href": "/foods/striploin/",
+          "id": "food.protein.beef.striploin",
+          "name": "Striploin Steak",
+          "slug": "striploin"
+        },
+        {
+          "href": "/foods/t-bone/",
+          "id": "food.protein.beef.t-bone",
+          "name": "T-Bone Steak",
+          "slug": "t-bone"
+        },
+        {
+          "href": "/foods/tenderloin/",
+          "id": "food.protein.beef.tenderloin",
+          "name": "Beef Tenderloin",
+          "slug": "tenderloin"
+        },
+        {
+          "href": "/foods/top-round/",
+          "id": "food.protein.beef.top-round",
+          "name": "Top Round",
+          "slug": "top-round"
+        },
+        {
+          "href": "/foods/top-sirloin/",
+          "id": "food.protein.beef.top-sirloin",
+          "name": "Top Sirloin Steak",
+          "slug": "top-sirloin"
+        },
+        {
+          "href": "/foods/tri-tip/",
+          "id": "food.protein.beef.tri-tip",
+          "name": "Tri-Tip",
+          "slug": "tri-tip"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/beef/",
+        "description": "Beef — 23 protein foods in the Food Ontology.",
+        "og_description": "Beef — 23 protein foods in the Food Ontology.",
+        "og_title": "Beef — Protein Food Group",
+        "title": "Beef — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Beef",
+        "food_count": 23,
+        "parent_category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "fresh",
+        "ground"
+      ],
+      "projection_id": "food.protein.beef",
+      "slug": "beef",
+      "species_represented": []
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/animal-protein/",
+          "label": "Animal Protein Foods"
+        },
+        {
+          "href": "/groups/cephalopods/",
+          "label": "Cephalopods"
+        }
+      ],
+      "canonical_path": "/groups/cephalopods/",
+      "identity": {
+        "id": "food.protein.cephalopods",
+        "slug": "cephalopods",
+        "title": "Cephalopods"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/baby-octopus/",
+          "id": "food.protein.cephalopods.baby-octopus",
+          "name": "Baby Octopus",
+          "slug": "baby-octopus"
+        },
+        {
+          "href": "/foods/calamari-rings/",
+          "id": "food.protein.cephalopods.calamari-rings",
+          "name": "Calamari Rings",
+          "slug": "calamari-rings"
+        },
+        {
+          "href": "/foods/cuttlefish/",
+          "id": "food.protein.cephalopods.cuttlefish",
+          "name": "Cuttlefish",
+          "slug": "cuttlefish"
+        },
+        {
+          "href": "/foods/cuttlefish-tentacles/",
+          "id": "food.protein.cephalopods.cuttlefish-tentacles",
+          "name": "Cuttlefish Tentacles",
+          "slug": "cuttlefish-tentacles"
+        },
+        {
+          "href": "/foods/octopus/",
+          "id": "food.protein.cephalopods.octopus",
+          "name": "Octopus",
+          "slug": "octopus"
+        },
+        {
+          "href": "/foods/octopus-tentacles/",
+          "id": "food.protein.cephalopods.octopus-tentacles",
+          "name": "Octopus Tentacles",
+          "slug": "octopus-tentacles"
+        },
+        {
+          "href": "/foods/squid/",
+          "id": "food.protein.cephalopods.squid",
+          "name": "Squid",
+          "slug": "squid"
+        },
+        {
+          "href": "/foods/squid-tube/",
+          "id": "food.protein.cephalopods.squid-tube",
+          "name": "Squid Tube",
+          "slug": "squid-tube"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/cephalopods/",
+        "description": "Cephalopods — 8 protein foods in the Food Ontology.",
+        "og_description": "Cephalopods — 8 protein foods in the Food Ontology.",
+        "og_title": "Cephalopods — Protein Food Group",
+        "title": "Cephalopods — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Cephalopods",
+        "food_count": 8,
+        "parent_category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "fresh",
+        "prepared"
+      ],
+      "projection_id": "food.protein.cephalopods",
+      "slug": "cephalopods",
+      "species_represented": [
+        "cuttlefish",
+        "octopus",
+        "squid"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/animal-protein/",
+          "label": "Animal Protein Foods"
+        },
+        {
+          "href": "/groups/crustaceans/",
+          "label": "Crustaceans"
+        }
+      ],
+      "canonical_path": "/groups/crustaceans/",
+      "identity": {
+        "id": "food.protein.crustaceans",
+        "slug": "crustaceans",
+        "title": "Crustaceans"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/crab/",
+          "id": "food.protein.crustaceans.crab",
+          "name": "Crab",
+          "slug": "crab"
+        },
+        {
+          "href": "/foods/crawfish/",
+          "id": "food.protein.crustaceans.crawfish",
+          "name": "Crawfish",
+          "slug": "crawfish"
+        },
+        {
+          "href": "/foods/king-crab-leg/",
+          "id": "food.protein.crustaceans.king-crab-leg",
+          "name": "King Crab Leg",
+          "slug": "king-crab-leg"
+        },
+        {
+          "href": "/foods/lobster-tail/",
+          "id": "food.protein.crustaceans.lobster-tail",
+          "name": "Lobster Tail",
+          "slug": "lobster-tail"
+        },
+        {
+          "href": "/foods/prawn/",
+          "id": "food.protein.crustaceans.prawn",
+          "name": "Prawn",
+          "slug": "prawn"
+        },
+        {
+          "href": "/foods/shrimp/",
+          "id": "food.protein.crustaceans.shrimp",
+          "name": "Shrimp",
+          "slug": "shrimp"
+        },
+        {
+          "href": "/foods/whole-lobster/",
+          "id": "food.protein.crustaceans.whole-lobster",
+          "name": "Whole Lobster",
+          "slug": "whole-lobster"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/crustaceans/",
+        "description": "Crustaceans — 7 protein foods in the Food Ontology.",
+        "og_description": "Crustaceans — 7 protein foods in the Food Ontology.",
+        "og_title": "Crustaceans — Protein Food Group",
+        "title": "Crustaceans — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Crustaceans",
+        "food_count": 7,
+        "parent_category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "fresh"
+      ],
+      "projection_id": "food.protein.crustaceans",
+      "slug": "crustaceans",
+      "species_represented": [
+        "crab",
+        "crawfish",
+        "king-crab",
+        "lobster",
+        "prawn",
+        "shrimp"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/animal-protein/",
+          "label": "Animal Protein Foods"
+        },
+        {
+          "href": "/groups/fin-fish/",
+          "label": "Fin Fish"
+        }
+      ],
+      "canonical_path": "/groups/fin-fish/",
+      "identity": {
+        "id": "food.protein.fin-fish",
+        "slug": "fin-fish",
+        "title": "Fin Fish"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/anchovy/",
+          "id": "food.protein.fin-fish.anchovy",
+          "name": "Anchovy",
+          "slug": "anchovy"
+        },
+        {
+          "href": "/foods/arctic-char-fillet/",
+          "id": "food.protein.fin-fish.arctic-char-fillet",
+          "name": "Arctic Char Fillet",
+          "slug": "arctic-char-fillet"
+        },
+        {
+          "href": "/foods/cod-fillet/",
+          "id": "food.protein.fin-fish.cod-fillet",
+          "name": "Cod Fillet",
+          "slug": "cod-fillet"
+        },
+        {
+          "href": "/foods/flounder-fillet/",
+          "id": "food.protein.fin-fish.flounder-fillet",
+          "name": "Flounder Fillet",
+          "slug": "flounder-fillet"
+        },
+        {
+          "href": "/foods/grouper-fillet/",
+          "id": "food.protein.fin-fish.grouper-fillet",
+          "name": "Grouper Fillet",
+          "slug": "grouper-fillet"
+        },
+        {
+          "href": "/foods/halibut-fillet/",
+          "id": "food.protein.fin-fish.halibut-fillet",
+          "name": "Halibut Fillet",
+          "slug": "halibut-fillet"
+        },
+        {
+          "href": "/foods/herring/",
+          "id": "food.protein.fin-fish.herring",
+          "name": "Herring",
+          "slug": "herring"
+        },
+        {
+          "href": "/foods/mackerel/",
+          "id": "food.protein.fin-fish.mackerel",
+          "name": "Mackerel",
+          "slug": "mackerel"
+        },
+        {
+          "href": "/foods/mahi-mahi-fillet/",
+          "id": "food.protein.fin-fish.mahi-mahi-fillet",
+          "name": "Mahi-Mahi Fillet",
+          "slug": "mahi-mahi-fillet"
+        },
+        {
+          "href": "/foods/monkfish-tail/",
+          "id": "food.protein.fin-fish.monkfish-tail",
+          "name": "Monkfish Tail",
+          "slug": "monkfish-tail"
+        },
+        {
+          "href": "/foods/salmon-fillet/",
+          "id": "food.protein.fin-fish.salmon-fillet",
+          "name": "Salmon Fillet",
+          "slug": "salmon-fillet"
+        },
+        {
+          "href": "/foods/sardine/",
+          "id": "food.protein.fin-fish.sardine",
+          "name": "Sardine",
+          "slug": "sardine"
+        },
+        {
+          "href": "/foods/sea-bass-fillet/",
+          "id": "food.protein.fin-fish.sea-bass-fillet",
+          "name": "Sea Bass Fillet",
+          "slug": "sea-bass-fillet"
+        },
+        {
+          "href": "/foods/snapper-fillet/",
+          "id": "food.protein.fin-fish.snapper-fillet",
+          "name": "Snapper Fillet",
+          "slug": "snapper-fillet"
+        },
+        {
+          "href": "/foods/sole-fillet/",
+          "id": "food.protein.fin-fish.sole-fillet",
+          "name": "Sole Fillet",
+          "slug": "sole-fillet"
+        },
+        {
+          "href": "/foods/swordfish-steak/",
+          "id": "food.protein.fin-fish.swordfish-steak",
+          "name": "Swordfish Steak",
+          "slug": "swordfish-steak"
+        },
+        {
+          "href": "/foods/tilapia-fillet/",
+          "id": "food.protein.fin-fish.tilapia-fillet",
+          "name": "Tilapia Fillet",
+          "slug": "tilapia-fillet"
+        },
+        {
+          "href": "/foods/trout-fillet/",
+          "id": "food.protein.fin-fish.trout-fillet",
+          "name": "Trout Fillet",
+          "slug": "trout-fillet"
+        },
+        {
+          "href": "/foods/tuna-loin/",
+          "id": "food.protein.fin-fish.tuna-loin",
+          "name": "Tuna Loin",
+          "slug": "tuna-loin"
+        },
+        {
+          "href": "/foods/tuna-steak/",
+          "id": "food.protein.fin-fish.tuna-steak",
+          "name": "Tuna Steak",
+          "slug": "tuna-steak"
+        },
+        {
+          "href": "/foods/whole-branzino/",
+          "id": "food.protein.fin-fish.whole-branzino",
+          "name": "Whole Branzino",
+          "slug": "whole-branzino"
+        },
+        {
+          "href": "/foods/whole-salmon/",
+          "id": "food.protein.fin-fish.whole-salmon",
+          "name": "Whole Salmon",
+          "slug": "whole-salmon"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/fin-fish/",
+        "description": "Fin Fish — 22 protein foods in the Food Ontology.",
+        "og_description": "Fin Fish — 22 protein foods in the Food Ontology.",
+        "og_title": "Fin Fish — Protein Food Group",
+        "title": "Fin Fish — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Fin Fish",
+        "food_count": 22,
+        "parent_category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "fresh"
+      ],
+      "projection_id": "food.protein.fin-fish",
+      "slug": "fin-fish",
+      "species_represented": [
+        "anchovy",
+        "arctic-char",
+        "branzino",
+        "cod",
+        "flounder",
+        "grouper",
+        "halibut",
+        "herring",
+        "mackerel",
+        "mahi-mahi",
+        "monkfish",
+        "salmon",
+        "sardine",
+        "sea-bass",
+        "snapper",
+        "sole",
+        "swordfish",
+        "tilapia",
+        "trout",
+        "tuna"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/plant-protein/",
+          "label": "Plant Protein Foods"
+        },
+        {
+          "href": "/groups/grains-wheat-protein/",
+          "label": "Grains & Wheat Protein"
+        }
+      ],
+      "canonical_path": "/groups/grains-wheat-protein/",
+      "identity": {
+        "id": "food.protein.grains-wheat-protein",
+        "slug": "grains-wheat-protein",
+        "title": "Grains & Wheat Protein"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/amaranth/",
+          "id": "food.protein.grains-wheat-protein.amaranth",
+          "name": "Amaranth",
+          "slug": "amaranth"
+        },
+        {
+          "href": "/foods/barley/",
+          "id": "food.protein.grains-wheat-protein.barley",
+          "name": "Barley",
+          "slug": "barley"
+        },
+        {
+          "href": "/foods/buckwheat/",
+          "id": "food.protein.grains-wheat-protein.buckwheat",
+          "name": "Buckwheat",
+          "slug": "buckwheat"
+        },
+        {
+          "href": "/foods/farro/",
+          "id": "food.protein.grains-wheat-protein.farro",
+          "name": "Farro",
+          "slug": "farro"
+        },
+        {
+          "href": "/foods/oats/",
+          "id": "food.protein.grains-wheat-protein.oats",
+          "name": "Oats",
+          "slug": "oats"
+        },
+        {
+          "href": "/foods/quinoa/",
+          "id": "food.protein.grains-wheat-protein.quinoa",
+          "name": "Quinoa",
+          "slug": "quinoa"
+        },
+        {
+          "href": "/foods/seitan/",
+          "id": "food.protein.grains-wheat-protein.seitan",
+          "name": "Seitan",
+          "slug": "seitan"
+        },
+        {
+          "href": "/foods/vital-wheat-gluten/",
+          "id": "food.protein.grains-wheat-protein.vital-wheat-gluten",
+          "name": "Vital Wheat Gluten",
+          "slug": "vital-wheat-gluten"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/grains-wheat-protein/",
+        "description": "Grains & Wheat Protein — 8 protein foods in the Food Ontology.",
+        "og_description": "Grains & Wheat Protein — 8 protein foods in the Food Ontology.",
+        "og_title": "Grains & Wheat Protein — Protein Food Group",
+        "title": "Grains & Wheat Protein — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Grains & Wheat Protein",
+        "food_count": 8,
+        "parent_category": {
+          "id": "food.protein.plant",
+          "name": "Plant Protein Foods",
+          "slug": "plant-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "dried",
+        "processed"
+      ],
+      "projection_id": "food.protein.grains-wheat-protein",
+      "slug": "grains-wheat-protein",
+      "species_represented": [
+        "amaranth",
+        "barley",
+        "buckwheat",
+        "farro",
+        "oat",
+        "quinoa",
+        "wheat"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/animal-protein/",
+          "label": "Animal Protein Foods"
+        },
+        {
+          "href": "/groups/lamb/",
+          "label": "Lamb"
+        }
+      ],
+      "canonical_path": "/groups/lamb/",
+      "identity": {
+        "id": "food.protein.lamb",
+        "slug": "lamb",
+        "title": "Lamb"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/ground-lamb/",
+          "id": "food.protein.lamb.ground-lamb",
+          "name": "Ground Lamb",
+          "slug": "ground-lamb"
+        },
+        {
+          "href": "/foods/lamb-breast/",
+          "id": "food.protein.lamb.lamb-breast",
+          "name": "Lamb Breast",
+          "slug": "lamb-breast"
+        },
+        {
+          "href": "/foods/lamb-chop/",
+          "id": "food.protein.lamb.lamb-chop",
+          "name": "Lamb Chop",
+          "slug": "lamb-chop"
+        },
+        {
+          "href": "/foods/lamb-leg/",
+          "id": "food.protein.lamb.lamb-leg",
+          "name": "Leg of Lamb",
+          "slug": "lamb-leg"
+        },
+        {
+          "href": "/foods/lamb-loin/",
+          "id": "food.protein.lamb.lamb-loin",
+          "name": "Lamb Loin",
+          "slug": "lamb-loin"
+        },
+        {
+          "href": "/foods/lamb-neck/",
+          "id": "food.protein.lamb.lamb-neck",
+          "name": "Lamb Neck",
+          "slug": "lamb-neck"
+        },
+        {
+          "href": "/foods/lamb-rack/",
+          "id": "food.protein.lamb.lamb-rack",
+          "name": "Rack of Lamb",
+          "slug": "lamb-rack"
+        },
+        {
+          "href": "/foods/lamb-ribs/",
+          "id": "food.protein.lamb.lamb-ribs",
+          "name": "Lamb Ribs",
+          "slug": "lamb-ribs"
+        },
+        {
+          "href": "/foods/lamb-saddle/",
+          "id": "food.protein.lamb.lamb-saddle",
+          "name": "Lamb Saddle",
+          "slug": "lamb-saddle"
+        },
+        {
+          "href": "/foods/lamb-shank/",
+          "id": "food.protein.lamb.lamb-shank",
+          "name": "Lamb Shank",
+          "slug": "lamb-shank"
+        },
+        {
+          "href": "/foods/lamb-shoulder/",
+          "id": "food.protein.lamb.lamb-shoulder",
+          "name": "Lamb Shoulder",
+          "slug": "lamb-shoulder"
+        },
+        {
+          "href": "/foods/lamb-tenderloin/",
+          "id": "food.protein.lamb.lamb-tenderloin",
+          "name": "Lamb Tenderloin",
+          "slug": "lamb-tenderloin"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/lamb/",
+        "description": "Lamb — 12 protein foods in the Food Ontology.",
+        "og_description": "Lamb — 12 protein foods in the Food Ontology.",
+        "og_title": "Lamb — Protein Food Group",
+        "title": "Lamb — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Lamb",
+        "food_count": 12,
+        "parent_category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "fresh",
+        "ground"
+      ],
+      "projection_id": "food.protein.lamb",
+      "slug": "lamb",
+      "species_represented": []
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/plant-protein/",
+          "label": "Plant Protein Foods"
+        },
+        {
+          "href": "/groups/legumes/",
+          "label": "Legumes"
+        }
+      ],
+      "canonical_path": "/groups/legumes/",
+      "identity": {
+        "id": "food.protein.legumes",
+        "slug": "legumes",
+        "title": "Legumes"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/black-beans/",
+          "id": "food.protein.legumes.black-beans",
+          "name": "Black Beans",
+          "slug": "black-beans"
+        },
+        {
+          "href": "/foods/black-lentils/",
+          "id": "food.protein.legumes.black-lentils",
+          "name": "Black Lentils",
+          "slug": "black-lentils"
+        },
+        {
+          "href": "/foods/cannellini-beans/",
+          "id": "food.protein.legumes.cannellini-beans",
+          "name": "Cannellini Beans",
+          "slug": "cannellini-beans"
+        },
+        {
+          "href": "/foods/chickpeas/",
+          "id": "food.protein.legumes.chickpeas",
+          "name": "Chickpeas",
+          "slug": "chickpeas"
+        },
+        {
+          "href": "/foods/green-lentils/",
+          "id": "food.protein.legumes.green-lentils",
+          "name": "Green Lentils",
+          "slug": "green-lentils"
+        },
+        {
+          "href": "/foods/kidney-beans/",
+          "id": "food.protein.legumes.kidney-beans",
+          "name": "Kidney Beans",
+          "slug": "kidney-beans"
+        },
+        {
+          "href": "/foods/lentils/",
+          "id": "food.protein.legumes.lentils",
+          "name": "Lentils",
+          "slug": "lentils"
+        },
+        {
+          "href": "/foods/lima-beans/",
+          "id": "food.protein.legumes.lima-beans",
+          "name": "Lima Beans",
+          "slug": "lima-beans"
+        },
+        {
+          "href": "/foods/navy-beans/",
+          "id": "food.protein.legumes.navy-beans",
+          "name": "Navy Beans",
+          "slug": "navy-beans"
+        },
+        {
+          "href": "/foods/peas/",
+          "id": "food.protein.legumes.peas",
+          "name": "Peas",
+          "slug": "peas"
+        },
+        {
+          "href": "/foods/pinto-beans/",
+          "id": "food.protein.legumes.pinto-beans",
+          "name": "Pinto Beans",
+          "slug": "pinto-beans"
+        },
+        {
+          "href": "/foods/red-lentils/",
+          "id": "food.protein.legumes.red-lentils",
+          "name": "Red Lentils",
+          "slug": "red-lentils"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/legumes/",
+        "description": "Legumes — 12 protein foods in the Food Ontology.",
+        "og_description": "Legumes — 12 protein foods in the Food Ontology.",
+        "og_title": "Legumes — Protein Food Group",
+        "title": "Legumes — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Legumes",
+        "food_count": 12,
+        "parent_category": {
+          "id": "food.protein.plant",
+          "name": "Plant Protein Foods",
+          "slug": "plant-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "dried"
+      ],
+      "projection_id": "food.protein.legumes",
+      "slug": "legumes",
+      "species_represented": [
+        "black-bean",
+        "black-lentil",
+        "cannellini-bean",
+        "chickpea",
+        "green-lentil",
+        "kidney-bean",
+        "lentil",
+        "lima-bean",
+        "navy-bean",
+        "pea",
+        "pinto-bean",
+        "red-lentil"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/animal-protein/",
+          "label": "Animal Protein Foods"
+        },
+        {
+          "href": "/groups/mollusks/",
+          "label": "Mollusks"
+        }
+      ],
+      "canonical_path": "/groups/mollusks/",
+      "identity": {
+        "id": "food.protein.mollusks",
+        "slug": "mollusks",
+        "title": "Mollusks"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/abalone/",
+          "id": "food.protein.mollusks.abalone",
+          "name": "Abalone",
+          "slug": "abalone"
+        },
+        {
+          "href": "/foods/clam/",
+          "id": "food.protein.mollusks.clam",
+          "name": "Clam",
+          "slug": "clam"
+        },
+        {
+          "href": "/foods/cockle/",
+          "id": "food.protein.mollusks.cockle",
+          "name": "Cockle",
+          "slug": "cockle"
+        },
+        {
+          "href": "/foods/conch/",
+          "id": "food.protein.mollusks.conch",
+          "name": "Conch",
+          "slug": "conch"
+        },
+        {
+          "href": "/foods/mussel/",
+          "id": "food.protein.mollusks.mussel",
+          "name": "Mussel",
+          "slug": "mussel"
+        },
+        {
+          "href": "/foods/oyster/",
+          "id": "food.protein.mollusks.oyster",
+          "name": "Oyster",
+          "slug": "oyster"
+        },
+        {
+          "href": "/foods/razor-clam/",
+          "id": "food.protein.mollusks.razor-clam",
+          "name": "Razor Clam",
+          "slug": "razor-clam"
+        },
+        {
+          "href": "/foods/scallop/",
+          "id": "food.protein.mollusks.scallop",
+          "name": "Scallop",
+          "slug": "scallop"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/mollusks/",
+        "description": "Mollusks — 8 protein foods in the Food Ontology.",
+        "og_description": "Mollusks — 8 protein foods in the Food Ontology.",
+        "og_title": "Mollusks — Protein Food Group",
+        "title": "Mollusks — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Mollusks",
+        "food_count": 8,
+        "parent_category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "fresh"
+      ],
+      "projection_id": "food.protein.mollusks",
+      "slug": "mollusks",
+      "species_represented": [
+        "abalone",
+        "clam",
+        "cockle",
+        "conch",
+        "mussel",
+        "oyster",
+        "razor-clam",
+        "scallop"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/fungi-protein/",
+          "label": "Fungi Protein Foods"
+        },
+        {
+          "href": "/groups/mushrooms/",
+          "label": "Mushrooms"
+        }
+      ],
+      "canonical_path": "/groups/mushrooms/",
+      "identity": {
+        "id": "food.protein.mushrooms",
+        "slug": "mushrooms",
+        "title": "Mushrooms"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/button-mushroom/",
+          "id": "food.protein.mushrooms.button-mushroom",
+          "name": "Button Mushroom",
+          "slug": "button-mushroom"
+        },
+        {
+          "href": "/foods/chanterelle/",
+          "id": "food.protein.mushrooms.chanterelle",
+          "name": "Chanterelle Mushroom",
+          "slug": "chanterelle"
+        },
+        {
+          "href": "/foods/cremini/",
+          "id": "food.protein.mushrooms.cremini",
+          "name": "Cremini Mushroom",
+          "slug": "cremini"
+        },
+        {
+          "href": "/foods/enoki/",
+          "id": "food.protein.mushrooms.enoki",
+          "name": "Enoki Mushroom",
+          "slug": "enoki"
+        },
+        {
+          "href": "/foods/king-oyster/",
+          "id": "food.protein.mushrooms.king-oyster",
+          "name": "King Oyster Mushroom",
+          "slug": "king-oyster"
+        },
+        {
+          "href": "/foods/lions-mane/",
+          "id": "food.protein.mushrooms.lions-mane",
+          "name": "Lion's Mane Mushroom",
+          "slug": "lions-mane"
+        },
+        {
+          "href": "/foods/maitake/",
+          "id": "food.protein.mushrooms.maitake",
+          "name": "Maitake Mushroom",
+          "slug": "maitake"
+        },
+        {
+          "href": "/foods/morel/",
+          "id": "food.protein.mushrooms.morel",
+          "name": "Morel Mushroom",
+          "slug": "morel"
+        },
+        {
+          "href": "/foods/oyster-mushroom/",
+          "id": "food.protein.mushrooms.oyster-mushroom",
+          "name": "Oyster Mushroom",
+          "slug": "oyster-mushroom"
+        },
+        {
+          "href": "/foods/porcini/",
+          "id": "food.protein.mushrooms.porcini",
+          "name": "Porcini Mushroom",
+          "slug": "porcini"
+        },
+        {
+          "href": "/foods/portobello/",
+          "id": "food.protein.mushrooms.portobello",
+          "name": "Portobello Mushroom",
+          "slug": "portobello"
+        },
+        {
+          "href": "/foods/shiitake/",
+          "id": "food.protein.mushrooms.shiitake",
+          "name": "Shiitake Mushroom",
+          "slug": "shiitake"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/mushrooms/",
+        "description": "Mushrooms — 12 protein foods in the Food Ontology.",
+        "og_description": "Mushrooms — 12 protein foods in the Food Ontology.",
+        "og_title": "Mushrooms — Protein Food Group",
+        "title": "Mushrooms — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Mushrooms",
+        "food_count": 12,
+        "parent_category": {
+          "id": "food.protein.fungi",
+          "name": "Fungi Protein Foods",
+          "slug": "fungi-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "dried",
+        "fresh"
+      ],
+      "projection_id": "food.protein.mushrooms",
+      "slug": "mushrooms",
+      "species_represented": [
+        "button-mushroom",
+        "chanterelle",
+        "cremini",
+        "enoki",
+        "king-oyster",
+        "lions-mane",
+        "maitake",
+        "morel",
+        "oyster-mushroom",
+        "porcini",
+        "portobello",
+        "shiitake"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/fungi-protein/",
+          "label": "Fungi Protein Foods"
+        },
+        {
+          "href": "/groups/mycoprotein/",
+          "label": "Mycoprotein"
+        }
+      ],
+      "canonical_path": "/groups/mycoprotein/",
+      "identity": {
+        "id": "food.protein.mycoprotein",
+        "slug": "mycoprotein",
+        "title": "Mycoprotein"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/mycoprotein/",
+          "id": "food.protein.mycoprotein.mycoprotein",
+          "name": "Mycoprotein",
+          "slug": "mycoprotein"
+        },
+        {
+          "href": "/foods/mycoprotein-fillet/",
+          "id": "food.protein.mycoprotein.mycoprotein-fillet",
+          "name": "Mycoprotein Fillet",
+          "slug": "mycoprotein-fillet"
+        },
+        {
+          "href": "/foods/mycoprotein-grounds/",
+          "id": "food.protein.mycoprotein.mycoprotein-grounds",
+          "name": "Mycoprotein Grounds",
+          "slug": "mycoprotein-grounds"
+        },
+        {
+          "href": "/foods/mycoprotein-pieces/",
+          "id": "food.protein.mycoprotein.mycoprotein-pieces",
+          "name": "Mycoprotein Pieces",
+          "slug": "mycoprotein-pieces"
+        },
+        {
+          "href": "/foods/mycoprotein-steak/",
+          "id": "food.protein.mycoprotein.mycoprotein-steak",
+          "name": "Mycoprotein Steak",
+          "slug": "mycoprotein-steak"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/mycoprotein/",
+        "description": "Mycoprotein — 5 protein foods in the Food Ontology.",
+        "og_description": "Mycoprotein — 5 protein foods in the Food Ontology.",
+        "og_title": "Mycoprotein — Protein Food Group",
+        "title": "Mycoprotein — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Mycoprotein",
+        "food_count": 5,
+        "parent_category": {
+          "id": "food.protein.fungi",
+          "name": "Fungi Protein Foods",
+          "slug": "fungi-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "processed"
+      ],
+      "projection_id": "food.protein.mycoprotein",
+      "slug": "mycoprotein",
+      "species_represented": [
+        "mycoprotein"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/plant-protein/",
+          "label": "Plant Protein Foods"
+        },
+        {
+          "href": "/groups/nuts-seeds/",
+          "label": "Nuts & Seeds"
+        }
+      ],
+      "canonical_path": "/groups/nuts-seeds/",
+      "identity": {
+        "id": "food.protein.nuts-seeds",
+        "slug": "nuts-seeds",
+        "title": "Nuts & Seeds"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/almonds/",
+          "id": "food.protein.nuts-seeds.almonds",
+          "name": "Almonds",
+          "slug": "almonds"
+        },
+        {
+          "href": "/foods/cashews/",
+          "id": "food.protein.nuts-seeds.cashews",
+          "name": "Cashews",
+          "slug": "cashews"
+        },
+        {
+          "href": "/foods/chia-seeds/",
+          "id": "food.protein.nuts-seeds.chia-seeds",
+          "name": "Chia Seeds",
+          "slug": "chia-seeds"
+        },
+        {
+          "href": "/foods/flaxseed/",
+          "id": "food.protein.nuts-seeds.flaxseed",
+          "name": "Flaxseed",
+          "slug": "flaxseed"
+        },
+        {
+          "href": "/foods/hemp-seeds/",
+          "id": "food.protein.nuts-seeds.hemp-seeds",
+          "name": "Hemp Seeds",
+          "slug": "hemp-seeds"
+        },
+        {
+          "href": "/foods/peanuts/",
+          "id": "food.protein.nuts-seeds.peanuts",
+          "name": "Peanuts",
+          "slug": "peanuts"
+        },
+        {
+          "href": "/foods/pine-nuts/",
+          "id": "food.protein.nuts-seeds.pine-nuts",
+          "name": "Pine Nuts",
+          "slug": "pine-nuts"
+        },
+        {
+          "href": "/foods/pistachios/",
+          "id": "food.protein.nuts-seeds.pistachios",
+          "name": "Pistachios",
+          "slug": "pistachios"
+        },
+        {
+          "href": "/foods/pumpkin-seeds/",
+          "id": "food.protein.nuts-seeds.pumpkin-seeds",
+          "name": "Pumpkin Seeds",
+          "slug": "pumpkin-seeds"
+        },
+        {
+          "href": "/foods/sesame-seeds/",
+          "id": "food.protein.nuts-seeds.sesame-seeds",
+          "name": "Sesame Seeds",
+          "slug": "sesame-seeds"
+        },
+        {
+          "href": "/foods/sunflower-seeds/",
+          "id": "food.protein.nuts-seeds.sunflower-seeds",
+          "name": "Sunflower Seeds",
+          "slug": "sunflower-seeds"
+        },
+        {
+          "href": "/foods/walnuts/",
+          "id": "food.protein.nuts-seeds.walnuts",
+          "name": "Walnuts",
+          "slug": "walnuts"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/nuts-seeds/",
+        "description": "Nuts & Seeds — 12 protein foods in the Food Ontology.",
+        "og_description": "Nuts & Seeds — 12 protein foods in the Food Ontology.",
+        "og_title": "Nuts & Seeds — Protein Food Group",
+        "title": "Nuts & Seeds — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Nuts & Seeds",
+        "food_count": 12,
+        "parent_category": {
+          "id": "food.protein.plant",
+          "name": "Plant Protein Foods",
+          "slug": "plant-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "dried"
+      ],
+      "projection_id": "food.protein.nuts-seeds",
+      "slug": "nuts-seeds",
+      "species_represented": [
+        "almond",
+        "cashew",
+        "chia-seed",
+        "flaxseed",
+        "hemp-seed",
+        "peanut",
+        "pine-nut",
+        "pistachio",
+        "pumpkin-seed",
+        "sesame-seed",
+        "sunflower-seed",
+        "walnut"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/animal-protein/",
+          "label": "Animal Protein Foods"
+        },
+        {
+          "href": "/groups/pork/",
+          "label": "Pork"
+        }
+      ],
+      "canonical_path": "/groups/pork/",
+      "identity": {
+        "id": "food.protein.pork",
+        "slug": "pork",
+        "title": "Pork"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/baby-back-ribs/",
+          "id": "food.protein.pork.baby-back-ribs",
+          "name": "Baby Back Ribs",
+          "slug": "baby-back-ribs"
+        },
+        {
+          "href": "/foods/bacon/",
+          "id": "food.protein.pork.bacon",
+          "name": "Bacon",
+          "slug": "bacon"
+        },
+        {
+          "href": "/foods/coppa/",
+          "id": "food.protein.pork.coppa",
+          "name": "Coppa",
+          "slug": "coppa"
+        },
+        {
+          "href": "/foods/country-style-ribs/",
+          "id": "food.protein.pork.country-style-ribs",
+          "name": "Country-Style Ribs",
+          "slug": "country-style-ribs"
+        },
+        {
+          "href": "/foods/crown-roast-pork/",
+          "id": "food.protein.pork.crown-roast-pork",
+          "name": "Crown Roast of Pork",
+          "slug": "crown-roast-pork"
+        },
+        {
+          "href": "/foods/ground-pork/",
+          "id": "food.protein.pork.ground-pork",
+          "name": "Ground Pork",
+          "slug": "ground-pork"
+        },
+        {
+          "href": "/foods/guanciale/",
+          "id": "food.protein.pork.guanciale",
+          "name": "Guanciale",
+          "slug": "guanciale"
+        },
+        {
+          "href": "/foods/ham/",
+          "id": "food.protein.pork.ham",
+          "name": "Ham",
+          "slug": "ham"
+        },
+        {
+          "href": "/foods/pancetta/",
+          "id": "food.protein.pork.pancetta",
+          "name": "Pancetta",
+          "slug": "pancetta"
+        },
+        {
+          "href": "/foods/pork-belly/",
+          "id": "food.protein.pork.pork-belly",
+          "name": "Pork Belly",
+          "slug": "pork-belly"
+        },
+        {
+          "href": "/foods/pork-chop/",
+          "id": "food.protein.pork.pork-chop",
+          "name": "Pork Chop",
+          "slug": "pork-chop"
+        },
+        {
+          "href": "/foods/pork-hock/",
+          "id": "food.protein.pork.pork-hock",
+          "name": "Pork Hock",
+          "slug": "pork-hock"
+        },
+        {
+          "href": "/foods/pork-loin/",
+          "id": "food.protein.pork.pork-loin",
+          "name": "Pork Loin",
+          "slug": "pork-loin"
+        },
+        {
+          "href": "/foods/pork-neck/",
+          "id": "food.protein.pork.pork-neck",
+          "name": "Pork Neck",
+          "slug": "pork-neck"
+        },
+        {
+          "href": "/foods/pork-shoulder/",
+          "id": "food.protein.pork.pork-shoulder",
+          "name": "Pork Shoulder",
+          "slug": "pork-shoulder"
+        },
+        {
+          "href": "/foods/pork-tenderloin/",
+          "id": "food.protein.pork.pork-tenderloin",
+          "name": "Pork Tenderloin",
+          "slug": "pork-tenderloin"
+        },
+        {
+          "href": "/foods/spare-ribs/",
+          "id": "food.protein.pork.spare-ribs",
+          "name": "Pork Spare Ribs",
+          "slug": "spare-ribs"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/pork/",
+        "description": "Pork — 17 protein foods in the Food Ontology.",
+        "og_description": "Pork — 17 protein foods in the Food Ontology.",
+        "og_title": "Pork — Protein Food Group",
+        "title": "Pork — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Pork",
+        "food_count": 17,
+        "parent_category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "cured",
+        "fresh",
+        "ground"
+      ],
+      "projection_id": "food.protein.pork",
+      "slug": "pork",
+      "species_represented": []
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/animal-protein/",
+          "label": "Animal Protein Foods"
+        },
+        {
+          "href": "/groups/poultry/",
+          "label": "Poultry"
+        }
+      ],
+      "canonical_path": "/groups/poultry/",
+      "identity": {
+        "id": "food.protein.poultry",
+        "slug": "poultry",
+        "title": "Poultry"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/chicken-breast/",
+          "id": "food.protein.poultry.chicken-breast",
+          "name": "Chicken Breast",
+          "slug": "chicken-breast"
+        },
+        {
+          "href": "/foods/chicken-drumstick/",
+          "id": "food.protein.poultry.chicken-drumstick",
+          "name": "Chicken Drumstick",
+          "slug": "chicken-drumstick"
+        },
+        {
+          "href": "/foods/chicken-leg-quarter/",
+          "id": "food.protein.poultry.chicken-leg-quarter",
+          "name": "Chicken Leg Quarter",
+          "slug": "chicken-leg-quarter"
+        },
+        {
+          "href": "/foods/chicken-tenderloin/",
+          "id": "food.protein.poultry.chicken-tenderloin",
+          "name": "Chicken Tenderloin",
+          "slug": "chicken-tenderloin"
+        },
+        {
+          "href": "/foods/chicken-thigh/",
+          "id": "food.protein.poultry.chicken-thigh",
+          "name": "Chicken Thigh",
+          "slug": "chicken-thigh"
+        },
+        {
+          "href": "/foods/chicken-wing/",
+          "id": "food.protein.poultry.chicken-wing",
+          "name": "Chicken Wing",
+          "slug": "chicken-wing"
+        },
+        {
+          "href": "/foods/duck-breast/",
+          "id": "food.protein.poultry.duck-breast",
+          "name": "Duck Breast",
+          "slug": "duck-breast"
+        },
+        {
+          "href": "/foods/duck-confit-leg/",
+          "id": "food.protein.poultry.duck-confit-leg",
+          "name": "Duck Confit Leg",
+          "slug": "duck-confit-leg"
+        },
+        {
+          "href": "/foods/duck-leg/",
+          "id": "food.protein.poultry.duck-leg",
+          "name": "Duck Leg",
+          "slug": "duck-leg"
+        },
+        {
+          "href": "/foods/goose-breast/",
+          "id": "food.protein.poultry.goose-breast",
+          "name": "Goose Breast",
+          "slug": "goose-breast"
+        },
+        {
+          "href": "/foods/goose-leg/",
+          "id": "food.protein.poultry.goose-leg",
+          "name": "Goose Leg",
+          "slug": "goose-leg"
+        },
+        {
+          "href": "/foods/ground-chicken/",
+          "id": "food.protein.poultry.ground-chicken",
+          "name": "Ground Chicken",
+          "slug": "ground-chicken"
+        },
+        {
+          "href": "/foods/ground-turkey/",
+          "id": "food.protein.poultry.ground-turkey",
+          "name": "Ground Turkey",
+          "slug": "ground-turkey"
+        },
+        {
+          "href": "/foods/quail-breast/",
+          "id": "food.protein.poultry.quail-breast",
+          "name": "Quail Breast",
+          "slug": "quail-breast"
+        },
+        {
+          "href": "/foods/turkey-breast/",
+          "id": "food.protein.poultry.turkey-breast",
+          "name": "Turkey Breast",
+          "slug": "turkey-breast"
+        },
+        {
+          "href": "/foods/turkey-drumstick/",
+          "id": "food.protein.poultry.turkey-drumstick",
+          "name": "Turkey Drumstick",
+          "slug": "turkey-drumstick"
+        },
+        {
+          "href": "/foods/turkey-thigh/",
+          "id": "food.protein.poultry.turkey-thigh",
+          "name": "Turkey Thigh",
+          "slug": "turkey-thigh"
+        },
+        {
+          "href": "/foods/whole-chicken/",
+          "id": "food.protein.poultry.whole-chicken",
+          "name": "Whole Chicken",
+          "slug": "whole-chicken"
+        },
+        {
+          "href": "/foods/whole-duck/",
+          "id": "food.protein.poultry.whole-duck",
+          "name": "Whole Duck",
+          "slug": "whole-duck"
+        },
+        {
+          "href": "/foods/whole-goose/",
+          "id": "food.protein.poultry.whole-goose",
+          "name": "Whole Goose",
+          "slug": "whole-goose"
+        },
+        {
+          "href": "/foods/whole-quail/",
+          "id": "food.protein.poultry.whole-quail",
+          "name": "Whole Quail",
+          "slug": "whole-quail"
+        },
+        {
+          "href": "/foods/whole-turkey/",
+          "id": "food.protein.poultry.whole-turkey",
+          "name": "Whole Turkey",
+          "slug": "whole-turkey"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/poultry/",
+        "description": "Poultry — 22 protein foods in the Food Ontology.",
+        "og_description": "Poultry — 22 protein foods in the Food Ontology.",
+        "og_title": "Poultry — Protein Food Group",
+        "title": "Poultry — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Poultry",
+        "food_count": 22,
+        "parent_category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "fresh",
+        "ground",
+        "prepared"
+      ],
+      "projection_id": "food.protein.poultry",
+      "slug": "poultry",
+      "species_represented": [
+        "chicken",
+        "duck",
+        "goose",
+        "quail",
+        "turkey"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/plant-protein/",
+          "label": "Plant Protein Foods"
+        },
+        {
+          "href": "/groups/soy-foods/",
+          "label": "Soy Foods"
+        }
+      ],
+      "canonical_path": "/groups/soy-foods/",
+      "identity": {
+        "id": "food.protein.soy-foods",
+        "slug": "soy-foods",
+        "title": "Soy Foods"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/edamame/",
+          "id": "food.protein.soy-foods.edamame",
+          "name": "Edamame",
+          "slug": "edamame"
+        },
+        {
+          "href": "/foods/miso/",
+          "id": "food.protein.soy-foods.miso",
+          "name": "Miso",
+          "slug": "miso"
+        },
+        {
+          "href": "/foods/natto/",
+          "id": "food.protein.soy-foods.natto",
+          "name": "Natto",
+          "slug": "natto"
+        },
+        {
+          "href": "/foods/silken-tofu/",
+          "id": "food.protein.soy-foods.silken-tofu",
+          "name": "Silken Tofu",
+          "slug": "silken-tofu"
+        },
+        {
+          "href": "/foods/soy-curls/",
+          "id": "food.protein.soy-foods.soy-curls",
+          "name": "Soy Curls",
+          "slug": "soy-curls"
+        },
+        {
+          "href": "/foods/soy-milk/",
+          "id": "food.protein.soy-foods.soy-milk",
+          "name": "Soy Milk",
+          "slug": "soy-milk"
+        },
+        {
+          "href": "/foods/soybeans/",
+          "id": "food.protein.soy-foods.soybeans",
+          "name": "Soybeans",
+          "slug": "soybeans"
+        },
+        {
+          "href": "/foods/tempeh/",
+          "id": "food.protein.soy-foods.tempeh",
+          "name": "Tempeh",
+          "slug": "tempeh"
+        },
+        {
+          "href": "/foods/textured-vegetable-protein/",
+          "id": "food.protein.soy-foods.textured-vegetable-protein",
+          "name": "Textured Vegetable Protein",
+          "slug": "textured-vegetable-protein"
+        },
+        {
+          "href": "/foods/tofu-firm/",
+          "id": "food.protein.soy-foods.tofu-firm",
+          "name": "Tofu (Firm)",
+          "slug": "tofu-firm"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/soy-foods/",
+        "description": "Soy Foods — 10 protein foods in the Food Ontology.",
+        "og_description": "Soy Foods — 10 protein foods in the Food Ontology.",
+        "og_title": "Soy Foods — Protein Food Group",
+        "title": "Soy Foods — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Soy Foods",
+        "food_count": 10,
+        "parent_category": {
+          "id": "food.protein.plant",
+          "name": "Plant Protein Foods",
+          "slug": "plant-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "dried",
+        "fermented",
+        "fresh",
+        "processed"
+      ],
+      "projection_id": "food.protein.soy-foods",
+      "slug": "soy-foods",
+      "species_represented": [
+        "soybean"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/animal-protein/",
+          "label": "Animal Protein Foods"
+        },
+        {
+          "href": "/groups/veal/",
+          "label": "Veal"
+        }
+      ],
+      "canonical_path": "/groups/veal/",
+      "identity": {
+        "id": "food.protein.veal",
+        "slug": "veal",
+        "title": "Veal"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/ground-veal/",
+          "id": "food.protein.veal.ground-veal",
+          "name": "Ground Veal",
+          "slug": "ground-veal"
+        },
+        {
+          "href": "/foods/veal-breast/",
+          "id": "food.protein.veal.veal-breast",
+          "name": "Veal Breast",
+          "slug": "veal-breast"
+        },
+        {
+          "href": "/foods/veal-chop/",
+          "id": "food.protein.veal.veal-chop",
+          "name": "Veal Chop",
+          "slug": "veal-chop"
+        },
+        {
+          "href": "/foods/veal-cutlet/",
+          "id": "food.protein.veal.veal-cutlet",
+          "name": "Veal Cutlet",
+          "slug": "veal-cutlet"
+        },
+        {
+          "href": "/foods/veal-loin/",
+          "id": "food.protein.veal.veal-loin",
+          "name": "Veal Loin",
+          "slug": "veal-loin"
+        },
+        {
+          "href": "/foods/veal-shank/",
+          "id": "food.protein.veal.veal-shank",
+          "name": "Veal Shank",
+          "slug": "veal-shank"
+        },
+        {
+          "href": "/foods/veal-shoulder/",
+          "id": "food.protein.veal.veal-shoulder",
+          "name": "Veal Shoulder",
+          "slug": "veal-shoulder"
+        },
+        {
+          "href": "/foods/veal-tenderloin/",
+          "id": "food.protein.veal.veal-tenderloin",
+          "name": "Veal Tenderloin",
+          "slug": "veal-tenderloin"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/veal/",
+        "description": "Veal — 8 protein foods in the Food Ontology.",
+        "og_description": "Veal — 8 protein foods in the Food Ontology.",
+        "og_title": "Veal — Protein Food Group",
+        "title": "Veal — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Veal",
+        "food_count": 8,
+        "parent_category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "fresh",
+        "ground"
+      ],
+      "projection_id": "food.protein.veal",
+      "slug": "veal",
+      "species_represented": []
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/animal-protein/",
+          "label": "Animal Protein Foods"
+        },
+        {
+          "href": "/groups/wild-game/",
+          "label": "Wild Game"
+        }
+      ],
+      "canonical_path": "/groups/wild-game/",
+      "identity": {
+        "id": "food.protein.wild-game",
+        "slug": "wild-game",
+        "title": "Wild Game"
+      },
+      "member_foods": [
+        {
+          "href": "/foods/bison-ribeye/",
+          "id": "food.protein.wild-game.bison-ribeye",
+          "name": "Bison Ribeye",
+          "slug": "bison-ribeye"
+        },
+        {
+          "href": "/foods/bison-striploin/",
+          "id": "food.protein.wild-game.bison-striploin",
+          "name": "Bison Striploin",
+          "slug": "bison-striploin"
+        },
+        {
+          "href": "/foods/elk/",
+          "id": "food.protein.wild-game.elk",
+          "name": "Elk",
+          "slug": "elk"
+        },
+        {
+          "href": "/foods/elk-loin/",
+          "id": "food.protein.wild-game.elk-loin",
+          "name": "Elk Loin",
+          "slug": "elk-loin"
+        },
+        {
+          "href": "/foods/elk-tenderloin/",
+          "id": "food.protein.wild-game.elk-tenderloin",
+          "name": "Elk Tenderloin",
+          "slug": "elk-tenderloin"
+        },
+        {
+          "href": "/foods/ground-bison/",
+          "id": "food.protein.wild-game.ground-bison",
+          "name": "Ground Bison",
+          "slug": "ground-bison"
+        },
+        {
+          "href": "/foods/ground-elk/",
+          "id": "food.protein.wild-game.ground-elk",
+          "name": "Ground Elk",
+          "slug": "ground-elk"
+        },
+        {
+          "href": "/foods/ground-venison/",
+          "id": "food.protein.wild-game.ground-venison",
+          "name": "Ground Venison",
+          "slug": "ground-venison"
+        },
+        {
+          "href": "/foods/ground-wild-boar/",
+          "id": "food.protein.wild-game.ground-wild-boar",
+          "name": "Ground Wild Boar",
+          "slug": "ground-wild-boar"
+        },
+        {
+          "href": "/foods/hare-saddle/",
+          "id": "food.protein.wild-game.hare-saddle",
+          "name": "Hare Saddle",
+          "slug": "hare-saddle"
+        },
+        {
+          "href": "/foods/rabbit-leg/",
+          "id": "food.protein.wild-game.rabbit-leg",
+          "name": "Rabbit Leg",
+          "slug": "rabbit-leg"
+        },
+        {
+          "href": "/foods/rabbit-saddle/",
+          "id": "food.protein.wild-game.rabbit-saddle",
+          "name": "Rabbit Saddle",
+          "slug": "rabbit-saddle"
+        },
+        {
+          "href": "/foods/venison/",
+          "id": "food.protein.wild-game.venison",
+          "name": "Venison",
+          "slug": "venison"
+        },
+        {
+          "href": "/foods/venison-leg/",
+          "id": "food.protein.wild-game.venison-leg",
+          "name": "Venison Leg",
+          "slug": "venison-leg"
+        },
+        {
+          "href": "/foods/venison-loin/",
+          "id": "food.protein.wild-game.venison-loin",
+          "name": "Venison Loin",
+          "slug": "venison-loin"
+        },
+        {
+          "href": "/foods/venison-tenderloin/",
+          "id": "food.protein.wild-game.venison-tenderloin",
+          "name": "Venison Tenderloin",
+          "slug": "venison-tenderloin"
+        },
+        {
+          "href": "/foods/whole-hare/",
+          "id": "food.protein.wild-game.whole-hare",
+          "name": "Whole Hare",
+          "slug": "whole-hare"
+        },
+        {
+          "href": "/foods/whole-rabbit/",
+          "id": "food.protein.wild-game.whole-rabbit",
+          "name": "Whole Rabbit",
+          "slug": "whole-rabbit"
+        },
+        {
+          "href": "/foods/wild-boar/",
+          "id": "food.protein.wild-game.wild-boar",
+          "name": "Wild Boar",
+          "slug": "wild-boar"
+        },
+        {
+          "href": "/foods/wild-boar-loin/",
+          "id": "food.protein.wild-game.wild-boar-loin",
+          "name": "Wild Boar Loin",
+          "slug": "wild-boar-loin"
+        },
+        {
+          "href": "/foods/wild-boar-shoulder/",
+          "id": "food.protein.wild-game.wild-boar-shoulder",
+          "name": "Wild Boar Shoulder",
+          "slug": "wild-boar-shoulder"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/groups/wild-game/",
+        "description": "Wild Game — 21 protein foods in the Food Ontology.",
+        "og_description": "Wild Game — 21 protein foods in the Food Ontology.",
+        "og_title": "Wild Game — Protein Food Group",
+        "title": "Wild Game — Protein Food Group"
+      },
+      "overview": {
+        "display_name": "Wild Game",
+        "food_count": 21,
+        "parent_category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        }
+      },
+      "page_type": "protein_group",
+      "processing_states_represented": [
+        "fresh",
+        "ground"
+      ],
+      "projection_id": "food.protein.wild-game",
+      "slug": "wild-game",
+      "species_represented": [
+        "bison",
+        "elk",
+        "hare",
+        "rabbit",
+        "venison",
+        "wild-boar"
+      ]
+    }
+  ]
+}
