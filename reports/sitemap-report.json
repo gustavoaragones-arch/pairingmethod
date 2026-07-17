@@ -1,0 +1,24 @@
+{
+  "metrics": {
+    "Category sitemap entries": 3,
+    "Deterministic regeneration": "PASS",
+    "Duplicate URLs": 0,
+    "Food sitemap entries": 207,
+    "Group sitemap entries": 16,
+    "Indexed URLs": 226,
+    "Missing pages": 0,
+    "Overall result": "PASS",
+    "Sitemap index": 1,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "dist/sitemap.xml",
+    "dist/sitemaps/protein-food-pages.xml",
+    "dist/sitemaps/protein-group-pages.xml",
+    "dist/sitemaps/protein-category-pages.xml",
+    "dist/crawl-manifest.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "ONTOLOGY-03H",
+  "validation_errors": []
+}
