@@ -1,0 +1,19 @@
+{
+  "domain": "cheese",
+  "metrics": {
+    "Category projections": 1,
+    "Group projections": 9,
+    "Leaf projections": 204,
+    "Overall result": "PASS",
+    "Referenced relationships": 195,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/generated/cheese-pages.json",
+    "data/generated/cheese-group-pages.json",
+    "data/generated/cheese-category-pages.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-04FA",
+  "validation_errors": []
+}

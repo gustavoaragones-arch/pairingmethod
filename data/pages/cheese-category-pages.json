@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "cheese",
+    "food_ontology_version": "1.1.0",
+    "page_count": 1,
+    "page_type": "cheese_category",
+    "phase": "FOOD-04FB"
+  },
+  "pages": [
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/cheeses/",
+          "label": "Cheeses"
+        },
+        {
+          "href": "/cheese-categories/cheese/",
+          "label": "Cheeses"
+        }
+      ],
+      "canonical_path": "/cheese-categories/cheese/",
+      "groups": [
+        {
+          "food_count": 25,
+          "href": "/cheese-groups/bloomy-rind/",
+          "id": "food.cheese.bloomy-rind",
+          "name": "Bloomy Rind",
+          "slug": "bloomy-rind"
+        },
+        {
+          "food_count": 25,
+          "href": "/cheese-groups/blue/",
+          "id": "food.cheese.blue",
+          "name": "Blue",
+          "slug": "blue"
+        },
+        {
+          "food_count": 12,
+          "href": "/cheese-groups/brined/",
+          "id": "food.cheese.brined",
+          "name": "Brined",
+          "slug": "brined"
+        },
+        {
+          "food_count": 20,
+          "href": "/cheese-groups/fresh/",
+          "id": "food.cheese.fresh",
+          "name": "Fresh",
+          "slug": "fresh"
+        },
+        {
+          "food_count": 35,
+          "href": "/cheese-groups/hard/",
+          "id": "food.cheese.hard",
+          "name": "Hard",
+          "slug": "hard"
+        },
+        {
+          "food_count": 25,
+          "href": "/cheese-groups/natural-rind/",
+          "id": "food.cheese.natural-rind",
+          "name": "Natural Rind",
+          "slug": "natural-rind"
+        },
+        {
+          "food_count": 12,
+          "href": "/cheese-groups/pasta-filata/",
+          "id": "food.cheese.pasta-filata",
+          "name": "Pasta Filata",
+          "slug": "pasta-filata"
+        },
+        {
+          "food_count": 30,
+          "href": "/cheese-groups/semi-hard/",
+          "id": "food.cheese.semi-hard",
+          "name": "Semi-Hard",
+          "slug": "semi-hard"
+        },
+        {
+          "food_count": 20,
+          "href": "/cheese-groups/washed-rind/",
+          "id": "food.cheese.washed-rind",
+          "name": "Washed Rind",
+          "slug": "washed-rind"
+        }
+      ],
+      "identity": {
+        "id": "food.cheese",
+        "slug": "cheese",
+        "title": "Cheeses"
+      },
+      "metadata": {
+        "canonical": "https://pairingmethod.com/cheese-categories/cheese/",
+        "description": "Cheeses — 9 groups and 204 cheeses.",
+        "og_description": "Cheeses — 9 groups and 204 cheeses.",
+        "og_title": "Cheeses — Cheese Category",
+        "title": "Cheeses — Cheese Category"
+      },
+      "overview": {
+        "display_name": "Cheeses",
+        "food_count": 204,
+        "group_count": 9
+      },
+      "page_type": "cheese_category",
+      "projection_id": "food.cheese",
+      "slug": "cheese"
+    }
+  ]
+}

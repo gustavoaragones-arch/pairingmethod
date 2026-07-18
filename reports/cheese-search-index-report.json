@@ -1,0 +1,24 @@
+{
+  "domain": "cheese",
+  "metrics": {
+    "Broken references": 0,
+    "Category search documents": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate documents": 0,
+    "Group search documents": 9,
+    "Indexed tokens": 425,
+    "Leaf search documents": 204,
+    "Overall result": "PASS",
+    "Suggestions": 214,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/search/cheese-search-index.json",
+    "data/search/cheese-group-search-index.json",
+    "data/search/cheese-category-search-index.json",
+    "data/search/cheese-search-suggestions.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-04FE",
+  "validation_errors": []
+}

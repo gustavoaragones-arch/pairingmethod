@@ -1,0 +1,89 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/cheese-categories/cheese/",
+      "projection_id": "food.cheese",
+      "sections": {
+        "groups": [
+          {
+            "href": "/cheese-groups/bloomy-rind/",
+            "id": "food.cheese.bloomy-rind",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Bloomy Rind"
+          },
+          {
+            "href": "/cheese-groups/blue/",
+            "id": "food.cheese.blue",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Blue"
+          },
+          {
+            "href": "/cheese-groups/brined/",
+            "id": "food.cheese.brined",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Brined"
+          },
+          {
+            "href": "/cheese-groups/fresh/",
+            "id": "food.cheese.fresh",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Fresh"
+          },
+          {
+            "href": "/cheese-groups/hard/",
+            "id": "food.cheese.hard",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Hard"
+          },
+          {
+            "href": "/cheese-groups/natural-rind/",
+            "id": "food.cheese.natural-rind",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Natural Rind"
+          },
+          {
+            "href": "/cheese-groups/pasta-filata/",
+            "id": "food.cheese.pasta-filata",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Pasta Filata"
+          },
+          {
+            "href": "/cheese-groups/semi-hard/",
+            "id": "food.cheese.semi-hard",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Semi-Hard"
+          },
+          {
+            "href": "/cheese-groups/washed-rind/",
+            "id": "food.cheese.washed-rind",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Washed Rind"
+          }
+        ],
+        "member_food_summary": {
+          "food_count": 204,
+          "group_count": 9
+        },
+        "related_categories": []
+      },
+      "slug": "cheese"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "cheese",
+    "food_ontology_version": "1.1.0",
+    "link_set_count": 1,
+    "link_set_type": "cheese_category",
+    "phase": "FOOD-04FD"
+  }
+}

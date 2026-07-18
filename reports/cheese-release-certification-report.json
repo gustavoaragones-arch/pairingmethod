@@ -1,0 +1,21 @@
+{
+  "deployment_gate": true,
+  "domain": "cheese",
+  "metrics": {
+    "Broken navigation links": 0,
+    "HTML pages": 214,
+    "Overall result": "PASS",
+    "Publication entities": 214,
+    "Search suggestions": 214,
+    "Sitemap URLs": 214,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "dist/release-manifest.json",
+    "reports/cheese-release-certification-report.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-04FI",
+  "validation_errors": [],
+  "warnings": []
+}

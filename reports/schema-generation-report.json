@@ -5,27 +5,28 @@
       "BreadcrumbList",
       "DefinedTermSet"
     ],
-    "food": [
-      "WebPage",
-      "BreadcrumbList",
-      "DefinedTerm",
-      "Taxon"
-    ],
     "group": [
       "CollectionPage",
       "BreadcrumbList",
       "DefinedTermSet"
+    ],
+    "leaf": [
+      "WebPage",
+      "BreadcrumbList",
+      "DefinedTerm",
+      "Taxon"
     ]
   },
+  "domain": "protein",
   "metrics": {
     "Average objects per page": 3.92,
     "Category schemas": 3,
     "Deterministic regeneration": "PASS",
     "Duplicate @id": 0,
-    "Food schemas": 207,
     "Group schemas": 16,
     "Invalid references": 0,
     "JSON-LD objects emitted": 885,
+    "Leaf schemas": 207,
     "Overall certification": "PASS",
     "Overall result": "PASS",
     "Schema types generated": 6,

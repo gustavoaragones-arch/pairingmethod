@@ -1,0 +1,105 @@
+{
+  "documents": [
+    {
+      "canonical_path": "/cheese-categories/cheese/",
+      "canonical_url": "https://pairingmethod.com/cheese-categories/cheese/",
+      "display_name": "Cheeses",
+      "document_type": "cheese_category",
+      "food_count": 204,
+      "group_count": 9,
+      "group_ids": [
+        "food.cheese.bloomy-rind",
+        "food.cheese.blue",
+        "food.cheese.brined",
+        "food.cheese.fresh",
+        "food.cheese.hard",
+        "food.cheese.natural-rind",
+        "food.cheese.pasta-filata",
+        "food.cheese.semi-hard",
+        "food.cheese.washed-rind"
+      ],
+      "groups": [
+        {
+          "food_count": 25,
+          "id": "food.cheese.bloomy-rind",
+          "name": "Bloomy Rind",
+          "slug": "bloomy-rind"
+        },
+        {
+          "food_count": 25,
+          "id": "food.cheese.blue",
+          "name": "Blue",
+          "slug": "blue"
+        },
+        {
+          "food_count": 12,
+          "id": "food.cheese.brined",
+          "name": "Brined",
+          "slug": "brined"
+        },
+        {
+          "food_count": 20,
+          "id": "food.cheese.fresh",
+          "name": "Fresh",
+          "slug": "fresh"
+        },
+        {
+          "food_count": 35,
+          "id": "food.cheese.hard",
+          "name": "Hard",
+          "slug": "hard"
+        },
+        {
+          "food_count": 25,
+          "id": "food.cheese.natural-rind",
+          "name": "Natural Rind",
+          "slug": "natural-rind"
+        },
+        {
+          "food_count": 12,
+          "id": "food.cheese.pasta-filata",
+          "name": "Pasta Filata",
+          "slug": "pasta-filata"
+        },
+        {
+          "food_count": 30,
+          "id": "food.cheese.semi-hard",
+          "name": "Semi-Hard",
+          "slug": "semi-hard"
+        },
+        {
+          "food_count": 20,
+          "id": "food.cheese.washed-rind",
+          "name": "Washed Rind",
+          "slug": "washed-rind"
+        }
+      ],
+      "id": "food.cheese",
+      "projection_id": "food.cheese",
+      "slug": "cheese",
+      "tokens": [
+        "204",
+        "9",
+        "bloomy rind",
+        "blue",
+        "brined",
+        "cheese",
+        "cheeses",
+        "fresh",
+        "hard",
+        "natural rind",
+        "pasta filata",
+        "semi-hard",
+        "washed rind"
+      ]
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "document_count": 1,
+    "document_type": "cheese_category",
+    "domain": "cheese",
+    "food_ontology_version": "1.1.0",
+    "phase": "FOOD-04FE"
+  }
+}

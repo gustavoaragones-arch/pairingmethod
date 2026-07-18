@@ -1,19 +1,20 @@
 {
+  "domain": "protein",
   "metrics": {
     "Broken links": 0,
     "Category pages rendered": 3,
     "Deterministic regeneration": "PASS",
     "Embedded JSON-LD blocks": 885,
-    "Food pages rendered": 207,
     "Group pages rendered": 16,
     "HTML files generated": 226,
+    "Leaf pages rendered": 207,
     "Overall result": "PASS",
     "Rendering errors": 0
   },
   "outputs": [
-    "dist/foods/",
-    "dist/groups/",
-    "dist/categories/"
+    "dist/foods",
+    "dist/groups",
+    "dist/categories"
   ],
   "overall_result": "PASS",
   "phase": "ONTOLOGY-03G",

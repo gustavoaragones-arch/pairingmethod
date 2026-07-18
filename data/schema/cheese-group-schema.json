@@ -1,0 +1,2142 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "cheese",
+    "food_ontology_version": "1.1.0",
+    "phase": "FOOD-04FC",
+    "schema_count": 9,
+    "schema_type": "cheese_group"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/cheese-groups/bloomy-rind/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/bloomy-rind/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/cheeses/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.cheese",
+            "name": "Cheeses"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/cheese-groups/bloomy-rind/#breadcrumb"
+          },
+          "description": "Bloomy Rind — 25 cheeses in the Cheese Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Bloomy Rind — Cheese Group",
+          "url": "https://pairingmethod.com/cheese-groups/bloomy-rind/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/bloomy-rind/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheeses/",
+              "name": "Cheeses",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-categories/cheese/",
+              "name": "Cheeses",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-groups/bloomy-rind/",
+              "name": "Bloomy Rind",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/bloomy-rind/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "bloomy-rind",
+          "description": "Bloomy Rind — 25 cheeses in the Cheese Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/cheeses/baron-bigod/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.baron-bigod",
+              "name": "Baron Bigod",
+              "url": "https://pairingmethod.com/cheeses/baron-bigod/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/boursault/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.boursault",
+              "name": "Boursault",
+              "url": "https://pairingmethod.com/cheeses/boursault/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/brie-de-meaux/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.brie-de-meaux",
+              "name": "Brie de Meaux",
+              "url": "https://pairingmethod.com/cheeses/brie-de-meaux/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/brie-de-melun/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.brie-de-melun",
+              "name": "Brie de Melun",
+              "url": "https://pairingmethod.com/cheeses/brie-de-melun/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/brie-de-nangis/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.brie-de-nangis",
+              "name": "Brie de Nangis",
+              "url": "https://pairingmethod.com/cheeses/brie-de-nangis/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/brillat-savarin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.brillat-savarin",
+              "name": "Brillat-Savarin",
+              "url": "https://pairingmethod.com/cheeses/brillat-savarin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/cambozola/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.cambozola",
+              "name": "Cambozola",
+              "url": "https://pairingmethod.com/cheeses/cambozola/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/camembert-de-normandie/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.camembert-de-normandie",
+              "name": "Camembert de Normandie",
+              "url": "https://pairingmethod.com/cheeses/camembert-de-normandie/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/caprice-des-dieux/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.caprice-des-dieux",
+              "name": "Caprice des Dieux",
+              "url": "https://pairingmethod.com/cheeses/caprice-des-dieux/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/chabichou-du-poitou/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.chabichou-du-poitou",
+              "name": "Chabichou du Poitou",
+              "url": "https://pairingmethod.com/cheeses/chabichou-du-poitou/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/chaource/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.chaource",
+              "name": "Chaource",
+              "url": "https://pairingmethod.com/cheeses/chaource/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/coulommiers/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.coulommiers",
+              "name": "Coulommiers",
+              "url": "https://pairingmethod.com/cheeses/coulommiers/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/cremeux-de-bourgogne/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.cremeux-de-bourgogne",
+              "name": "Crémeux de Bourgogne",
+              "url": "https://pairingmethod.com/cheeses/cremeux-de-bourgogne/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/cremont/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.cremont",
+              "name": "Crémont",
+              "url": "https://pairingmethod.com/cheeses/cremont/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/cyseela/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.cyseela",
+              "name": "Cyseela",
+              "url": "https://pairingmethod.com/cheeses/cyseela/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/delice-de-bourgogne/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.delice-de-bourgogne",
+              "name": "Délice de Bourgogne",
+              "url": "https://pairingmethod.com/cheeses/delice-de-bourgogne/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/goat-brie/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.goat-brie",
+              "name": "Goat Brie",
+              "url": "https://pairingmethod.com/cheeses/goat-brie/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/humboldt-fog/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.humboldt-fog",
+              "name": "Humboldt Fog",
+              "url": "https://pairingmethod.com/cheeses/humboldt-fog/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/le-roule/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.le-roule",
+              "name": "Le Roule",
+              "url": "https://pairingmethod.com/cheeses/le-roule/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/neufchatel/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.neufchatel",
+              "name": "Neufchâtel",
+              "url": "https://pairingmethod.com/cheeses/neufchatel/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/saint-andre/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.saint-andre",
+              "name": "Saint-André",
+              "url": "https://pairingmethod.com/cheeses/saint-andre/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/saint-felicien/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.saint-felicien",
+              "name": "Saint-Félicien",
+              "url": "https://pairingmethod.com/cheeses/saint-felicien/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/selles-sur-cher/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.selles-sur-cher",
+              "name": "Selles-sur-Cher",
+              "url": "https://pairingmethod.com/cheeses/selles-sur-cher/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/tunworth/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.tunworth",
+              "name": "Tunworth",
+              "url": "https://pairingmethod.com/cheeses/tunworth/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/valencay/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.bloomy-rind.valencay",
+              "name": "Valençay",
+              "url": "https://pairingmethod.com/cheeses/valencay/"
+            }
+          ],
+          "identifier": "food.cheese.bloomy-rind",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Cheese Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Bloomy Rind",
+          "numberOfTerms": 25,
+          "url": "https://pairingmethod.com/cheese-groups/bloomy-rind/"
+        }
+      ],
+      "projection_id": "food.cheese.bloomy-rind",
+      "slug": "bloomy-rind"
+    },
+    {
+      "canonical_path": "/cheese-groups/blue/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/blue/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/cheeses/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.cheese",
+            "name": "Cheeses"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/cheese-groups/blue/#breadcrumb"
+          },
+          "description": "Blue — 25 cheeses in the Cheese Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Blue — Cheese Group",
+          "url": "https://pairingmethod.com/cheese-groups/blue/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/blue/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheeses/",
+              "name": "Cheeses",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-categories/cheese/",
+              "name": "Cheeses",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-groups/blue/",
+              "name": "Blue",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/blue/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "blue",
+          "description": "Blue — 25 cheeses in the Cheese Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/cheeses/bavarian-blue/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.bavarian-blue",
+              "name": "Bavarian Blue",
+              "url": "https://pairingmethod.com/cheeses/bavarian-blue/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/beenleigh-blue/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.beenleigh-blue",
+              "name": "Beenleigh Blue",
+              "url": "https://pairingmethod.com/cheeses/beenleigh-blue/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/bleu-dauvergne/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.bleu-dauvergne",
+              "name": "Bleu d'Auvergne",
+              "url": "https://pairingmethod.com/cheeses/bleu-dauvergne/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/bleu-de-bresse/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.bleu-de-bresse",
+              "name": "Bleu de Bresse",
+              "url": "https://pairingmethod.com/cheeses/bleu-de-bresse/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/bleu-de-chevre/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.bleu-de-chevre",
+              "name": "Bleu de Chèvre",
+              "url": "https://pairingmethod.com/cheeses/bleu-de-chevre/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/bleu-de-gex/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.bleu-de-gex",
+              "name": "Bleu de Gex",
+              "url": "https://pairingmethod.com/cheeses/bleu-de-gex/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/bleu-de-termignon/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.bleu-de-termignon",
+              "name": "Bleu de Termignon",
+              "url": "https://pairingmethod.com/cheeses/bleu-de-termignon/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/bleu-du-vercors/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.bleu-du-vercors",
+              "name": "Bleu du Vercors-Sassenage",
+              "url": "https://pairingmethod.com/cheeses/bleu-du-vercors/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/cabrales/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.cabrales",
+              "name": "Cabrales",
+              "url": "https://pairingmethod.com/cheeses/cabrales/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/cashel-blue/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.cashel-blue",
+              "name": "Cashel Blue",
+              "url": "https://pairingmethod.com/cheeses/cashel-blue/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/castello-blue/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.castello-blue",
+              "name": "Castello Blue",
+              "url": "https://pairingmethod.com/cheeses/castello-blue/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/danish-blue/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.danish-blue",
+              "name": "Danish Blue",
+              "url": "https://pairingmethod.com/cheeses/danish-blue/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/dorblu/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.dorblu",
+              "name": "Dorblu",
+              "url": "https://pairingmethod.com/cheeses/dorblu/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/fourme-dambert/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.fourme-dambert",
+              "name": "Fourme d'Ambert",
+              "url": "https://pairingmethod.com/cheeses/fourme-dambert/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/gorgonzola/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.gorgonzola",
+              "name": "Gorgonzola",
+              "url": "https://pairingmethod.com/cheeses/gorgonzola/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/gorgonzola-dolce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.gorgonzola-dolce",
+              "name": "Gorgonzola Dolce",
+              "url": "https://pairingmethod.com/cheeses/gorgonzola-dolce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/gorgonzola-picante/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.gorgonzola-picante",
+              "name": "Gorgonzola Piccante",
+              "url": "https://pairingmethod.com/cheeses/gorgonzola-picante/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/persille-du-beaujolais/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.persille-du-beaujolais",
+              "name": "Persillé du Beaujolais",
+              "url": "https://pairingmethod.com/cheeses/persille-du-beaujolais/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/point-reyes-blue/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.point-reyes-blue",
+              "name": "Point Reyes Blue",
+              "url": "https://pairingmethod.com/cheeses/point-reyes-blue/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/roquefort/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.roquefort",
+              "name": "Roquefort",
+              "url": "https://pairingmethod.com/cheeses/roquefort/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/saint-agur/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.saint-agur",
+              "name": "Saint Agur",
+              "url": "https://pairingmethod.com/cheeses/saint-agur/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/shropshire-blue/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.shropshire-blue",
+              "name": "Shropshire Blue",
+              "url": "https://pairingmethod.com/cheeses/shropshire-blue/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/stichelton/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.stichelton",
+              "name": "Stichelton",
+              "url": "https://pairingmethod.com/cheeses/stichelton/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/stilton/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.stilton",
+              "name": "Stilton",
+              "url": "https://pairingmethod.com/cheeses/stilton/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/valdeon/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.blue.valdeon",
+              "name": "Valdeón",
+              "url": "https://pairingmethod.com/cheeses/valdeon/"
+            }
+          ],
+          "identifier": "food.cheese.blue",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Cheese Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Blue",
+          "numberOfTerms": 25,
+          "url": "https://pairingmethod.com/cheese-groups/blue/"
+        }
+      ],
+      "projection_id": "food.cheese.blue",
+      "slug": "blue"
+    },
+    {
+      "canonical_path": "/cheese-groups/brined/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/brined/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/cheeses/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.cheese",
+            "name": "Cheeses"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/cheese-groups/brined/#breadcrumb"
+          },
+          "description": "Brined — 12 cheeses in the Cheese Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Brined — Cheese Group",
+          "url": "https://pairingmethod.com/cheese-groups/brined/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/brined/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheeses/",
+              "name": "Cheeses",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-categories/cheese/",
+              "name": "Cheeses",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-groups/brined/",
+              "name": "Brined",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/brined/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "brined",
+          "description": "Brined — 12 cheeses in the Cheese Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/cheeses/akawi/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.brined.akawi",
+              "name": "Akawi",
+              "url": "https://pairingmethod.com/cheeses/akawi/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/baladi/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.brined.baladi",
+              "name": "Baladi Cheese",
+              "url": "https://pairingmethod.com/cheeses/baladi/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/bryndza/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.brined.bryndza",
+              "name": "Bryndza",
+              "url": "https://pairingmethod.com/cheeses/bryndza/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/cotija/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.brined.cotija",
+              "name": "Cotija",
+              "url": "https://pairingmethod.com/cheeses/cotija/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/feta/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.brined.feta",
+              "name": "Feta",
+              "url": "https://pairingmethod.com/cheeses/feta/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/graviera-cyprus/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.brined.graviera-cyprus",
+              "name": "Graviera (Brined Style)",
+              "url": "https://pairingmethod.com/cheeses/graviera-cyprus/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/mizithra-salted/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.brined.mizithra-salted",
+              "name": "Mizithra (Salted)",
+              "url": "https://pairingmethod.com/cheeses/mizithra-salted/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/nabulsi/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.brined.nabulsi",
+              "name": "Nabulsi",
+              "url": "https://pairingmethod.com/cheeses/nabulsi/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/queso-de-mano/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.brined.queso-de-mano",
+              "name": "Queso de Mano",
+              "url": "https://pairingmethod.com/cheeses/queso-de-mano/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/ricotta-salata/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.brined.ricotta-salata",
+              "name": "Ricotta Salata",
+              "url": "https://pairingmethod.com/cheeses/ricotta-salata/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/sirene/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.brined.sirene",
+              "name": "Sirene",
+              "url": "https://pairingmethod.com/cheeses/sirene/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/telemea/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.brined.telemea",
+              "name": "Telemea",
+              "url": "https://pairingmethod.com/cheeses/telemea/"
+            }
+          ],
+          "identifier": "food.cheese.brined",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Cheese Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Brined",
+          "numberOfTerms": 12,
+          "url": "https://pairingmethod.com/cheese-groups/brined/"
+        }
+      ],
+      "projection_id": "food.cheese.brined",
+      "slug": "brined"
+    },
+    {
+      "canonical_path": "/cheese-groups/fresh/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/fresh/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/cheeses/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.cheese",
+            "name": "Cheeses"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/cheese-groups/fresh/#breadcrumb"
+          },
+          "description": "Fresh — 20 cheeses in the Cheese Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Fresh — Cheese Group",
+          "url": "https://pairingmethod.com/cheese-groups/fresh/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/fresh/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheeses/",
+              "name": "Cheeses",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-categories/cheese/",
+              "name": "Cheeses",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-groups/fresh/",
+              "name": "Fresh",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/fresh/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "fresh",
+          "description": "Fresh — 20 cheeses in the Cheese Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/cheeses/anthotyro/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.anthotyro",
+              "name": "Anthotyro",
+              "url": "https://pairingmethod.com/cheeses/anthotyro/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/basket-cheese/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.basket-cheese",
+              "name": "Basket Cheese",
+              "url": "https://pairingmethod.com/cheeses/basket-cheese/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/burrata/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.burrata",
+              "name": "Burrata",
+              "url": "https://pairingmethod.com/cheeses/burrata/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/cottage-cheese/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.cottage-cheese",
+              "name": "Cottage Cheese",
+              "url": "https://pairingmethod.com/cheeses/cottage-cheese/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/cream-cheese/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.cream-cheese",
+              "name": "Cream Cheese",
+              "url": "https://pairingmethod.com/cheeses/cream-cheese/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/crescenza/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.crescenza",
+              "name": "Crescenza",
+              "url": "https://pairingmethod.com/cheeses/crescenza/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/fresh-goat-cheese/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.fresh-goat-cheese",
+              "name": "Fresh Goat Cheese",
+              "url": "https://pairingmethod.com/cheeses/fresh-goat-cheese/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/fromage-blanc/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.fromage-blanc",
+              "name": "Fromage Blanc",
+              "url": "https://pairingmethod.com/cheeses/fromage-blanc/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/goat-chevre-log/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.goat-chevre-log",
+              "name": "Chèvre (Fresh Log)",
+              "url": "https://pairingmethod.com/cheeses/goat-chevre-log/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/labneh/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.labneh",
+              "name": "Labneh",
+              "url": "https://pairingmethod.com/cheeses/labneh/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/mascarpone/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.mascarpone",
+              "name": "Mascarpone",
+              "url": "https://pairingmethod.com/cheeses/mascarpone/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/mozzarella-fior-di-latte/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.mozzarella-fior-di-latte",
+              "name": "Mozzarella (Fior di Latte)",
+              "url": "https://pairingmethod.com/cheeses/mozzarella-fior-di-latte/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/paneer/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.paneer",
+              "name": "Paneer",
+              "url": "https://pairingmethod.com/cheeses/paneer/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/petit-suisse/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.petit-suisse",
+              "name": "Petit-Suisse",
+              "url": "https://pairingmethod.com/cheeses/petit-suisse/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/quark/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.quark",
+              "name": "Quark",
+              "url": "https://pairingmethod.com/cheeses/quark/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/queso-blanco/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.queso-blanco",
+              "name": "Queso Blanco",
+              "url": "https://pairingmethod.com/cheeses/queso-blanco/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/queso-fresco/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.queso-fresco",
+              "name": "Queso Fresco",
+              "url": "https://pairingmethod.com/cheeses/queso-fresco/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/ricotta/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.ricotta",
+              "name": "Ricotta",
+              "url": "https://pairingmethod.com/cheeses/ricotta/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/scamorza-fresh/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.scamorza-fresh",
+              "name": "Scamorza (Fresh)",
+              "url": "https://pairingmethod.com/cheeses/scamorza-fresh/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/stracciatella/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.fresh.stracciatella",
+              "name": "Stracciatella",
+              "url": "https://pairingmethod.com/cheeses/stracciatella/"
+            }
+          ],
+          "identifier": "food.cheese.fresh",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Cheese Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Fresh",
+          "numberOfTerms": 20,
+          "url": "https://pairingmethod.com/cheese-groups/fresh/"
+        }
+      ],
+      "projection_id": "food.cheese.fresh",
+      "slug": "fresh"
+    },
+    {
+      "canonical_path": "/cheese-groups/hard/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/hard/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/cheeses/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.cheese",
+            "name": "Cheeses"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/cheese-groups/hard/#breadcrumb"
+          },
+          "description": "Hard — 35 cheeses in the Cheese Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Hard — Cheese Group",
+          "url": "https://pairingmethod.com/cheese-groups/hard/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/hard/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheeses/",
+              "name": "Cheeses",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-categories/cheese/",
+              "name": "Cheeses",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-groups/hard/",
+              "name": "Hard",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/hard/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "hard",
+          "description": "Hard — 35 cheeses in the Cheese Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/cheeses/aged-cheddar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.aged-cheddar",
+              "name": "Aged Cheddar",
+              "url": "https://pairingmethod.com/cheeses/aged-cheddar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/aged-gouda/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.aged-gouda",
+              "name": "Gouda (Extra Aged)",
+              "url": "https://pairingmethod.com/cheeses/aged-gouda/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/asiago-stravecchio/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.asiago-stravecchio",
+              "name": "Asiago Stravecchio",
+              "url": "https://pairingmethod.com/cheeses/asiago-stravecchio/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/beaufort/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.beaufort",
+              "name": "Beaufort",
+              "url": "https://pairingmethod.com/cheeses/beaufort/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/beemster-classic/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.beemster-classic",
+              "name": "Beemster Classic",
+              "url": "https://pairingmethod.com/cheeses/beemster-classic/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/bitto/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.bitto",
+              "name": "Bitto",
+              "url": "https://pairingmethod.com/cheeses/bitto/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/bra/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.bra",
+              "name": "Bra",
+              "url": "https://pairingmethod.com/cheeses/bra/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/cantal-vieux/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.cantal-vieux",
+              "name": "Cantal (Entre-Deux)",
+              "url": "https://pairingmethod.com/cheeses/cantal-vieux/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/castelmagno/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.castelmagno",
+              "name": "Castelmagno",
+              "url": "https://pairingmethod.com/cheeses/castelmagno/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/cheddar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.cheddar",
+              "name": "Cheddar",
+              "url": "https://pairingmethod.com/cheeses/cheddar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/clothbound-cheddar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.clothbound-cheddar",
+              "name": "Clothbound Cheddar",
+              "url": "https://pairingmethod.com/cheeses/clothbound-cheddar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/comte-extra/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.comte-extra",
+              "name": "Comté (Extra Aged)",
+              "url": "https://pairingmethod.com/cheeses/comte-extra/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/dubliner/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.dubliner",
+              "name": "Dubliner",
+              "url": "https://pairingmethod.com/cheeses/dubliner/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/grana-padano/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.grana-padano",
+              "name": "Grana Padano",
+              "url": "https://pairingmethod.com/cheeses/grana-padano/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/gruyere-reserve/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.gruyere-reserve",
+              "name": "Gruyère Réserve",
+              "url": "https://pairingmethod.com/cheeses/gruyere-reserve/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/idiazabal/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.idiazabal",
+              "name": "Idiazábal",
+              "url": "https://pairingmethod.com/cheeses/idiazabal/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/kefalotyri/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.kefalotyri",
+              "name": "Kefalotyri",
+              "url": "https://pairingmethod.com/cheeses/kefalotyri/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/leerdammer/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.leerdammer",
+              "name": "Leerdammer",
+              "url": "https://pairingmethod.com/cheeses/leerdammer/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/manchego-viejo/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.manchego-viejo",
+              "name": "Manchego (Viejo)",
+              "url": "https://pairingmethod.com/cheeses/manchego-viejo/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/mimolette/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.mimolette",
+              "name": "Mimolette",
+              "url": "https://pairingmethod.com/cheeses/mimolette/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/montasio/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.montasio",
+              "name": "Montasio",
+              "url": "https://pairingmethod.com/cheeses/montasio/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/parmesan/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.parmesan",
+              "name": "Parmesan",
+              "url": "https://pairingmethod.com/cheeses/parmesan/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/parmigiano-reggiano/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.parmigiano-reggiano",
+              "name": "Parmigiano-Reggiano",
+              "url": "https://pairingmethod.com/cheeses/parmigiano-reggiano/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/pecorino-di-filiano/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.pecorino-di-filiano",
+              "name": "Pecorino di Filiano",
+              "url": "https://pairingmethod.com/cheeses/pecorino-di-filiano/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/pecorino-pepato/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.pecorino-pepato",
+              "name": "Pecorino Pepato",
+              "url": "https://pairingmethod.com/cheeses/pecorino-pepato/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/pecorino-romano/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.pecorino-romano",
+              "name": "Pecorino Romano",
+              "url": "https://pairingmethod.com/cheeses/pecorino-romano/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/pecorino-sardo/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.pecorino-sardo",
+              "name": "Pecorino Sardo",
+              "url": "https://pairingmethod.com/cheeses/pecorino-sardo/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/piave-vecchio/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.piave-vecchio",
+              "name": "Piave Vecchio Selezione",
+              "url": "https://pairingmethod.com/cheeses/piave-vecchio/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/provolone-picante/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.provolone-picante",
+              "name": "Provolone Piccante",
+              "url": "https://pairingmethod.com/cheeses/provolone-picante/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/ragusano/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.ragusano",
+              "name": "Ragusano",
+              "url": "https://pairingmethod.com/cheeses/ragusano/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/raschera/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.raschera",
+              "name": "Raschera",
+              "url": "https://pairingmethod.com/cheeses/raschera/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/reggianito/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.reggianito",
+              "name": "Reggianito",
+              "url": "https://pairingmethod.com/cheeses/reggianito/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/sbrinz/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.sbrinz",
+              "name": "Sbrinz",
+              "url": "https://pairingmethod.com/cheeses/sbrinz/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/vieux-paris/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.vieux-paris",
+              "name": "Vieux Paris",
+              "url": "https://pairingmethod.com/cheeses/vieux-paris/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/zamorano/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.hard.zamorano",
+              "name": "Zamorano",
+              "url": "https://pairingmethod.com/cheeses/zamorano/"
+            }
+          ],
+          "identifier": "food.cheese.hard",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Cheese Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Hard",
+          "numberOfTerms": 35,
+          "url": "https://pairingmethod.com/cheese-groups/hard/"
+        }
+      ],
+      "projection_id": "food.cheese.hard",
+      "slug": "hard"
+    },
+    {
+      "canonical_path": "/cheese-groups/natural-rind/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/natural-rind/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/cheeses/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.cheese",
+            "name": "Cheeses"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/cheese-groups/natural-rind/#breadcrumb"
+          },
+          "description": "Natural Rind — 25 cheeses in the Cheese Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Natural Rind — Cheese Group",
+          "url": "https://pairingmethod.com/cheese-groups/natural-rind/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/natural-rind/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheeses/",
+              "name": "Cheeses",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-categories/cheese/",
+              "name": "Cheeses",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-groups/natural-rind/",
+              "name": "Natural Rind",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/natural-rind/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "natural-rind",
+          "description": "Natural Rind — 25 cheeses in the Cheese Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/cheeses/abondance/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.abondance",
+              "name": "Abondance",
+              "url": "https://pairingmethod.com/cheeses/abondance/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/banon/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.banon",
+              "name": "Banon",
+              "url": "https://pairingmethod.com/cheeses/banon/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/berkswell/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.berkswell",
+              "name": "Berkswell",
+              "url": "https://pairingmethod.com/cheeses/berkswell/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/cantal-jeune/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.cantal-jeune",
+              "name": "Cantal (Jeune)",
+              "url": "https://pairingmethod.com/cheeses/cantal-jeune/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/castelleno/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.castelleno",
+              "name": "Castelleno",
+              "url": "https://pairingmethod.com/cheeses/castelleno/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/chevrotin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.chevrotin",
+              "name": "Chevrotin",
+              "url": "https://pairingmethod.com/cheeses/chevrotin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/crottin-de-chavignol/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.crottin-de-chavignol",
+              "name": "Crottin de Chavignol",
+              "url": "https://pairingmethod.com/cheeses/crottin-de-chavignol/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/fiore-sardo/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.fiore-sardo",
+              "name": "Fiore Sardo",
+              "url": "https://pairingmethod.com/cheeses/fiore-sardo/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/fourme-de-montbrison/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.fourme-de-montbrison",
+              "name": "Fourme de Montbrison",
+              "url": "https://pairingmethod.com/cheeses/fourme-de-montbrison/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/garrotxa/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.garrotxa",
+              "name": "Garrotxa",
+              "url": "https://pairingmethod.com/cheeses/garrotxa/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/laguiole/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.laguiole",
+              "name": "Laguiole",
+              "url": "https://pairingmethod.com/cheeses/laguiole/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/lancashire/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.lancashire",
+              "name": "Lancashire",
+              "url": "https://pairingmethod.com/cheeses/lancashire/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/morbier/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.morbier",
+              "name": "Morbier",
+              "url": "https://pairingmethod.com/cheeses/morbier/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/ossau-iraty/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.ossau-iraty",
+              "name": "Ossau-Iraty",
+              "url": "https://pairingmethod.com/cheeses/ossau-iraty/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/pecorino-siciliano/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.pecorino-siciliano",
+              "name": "Pecorino Siciliano",
+              "url": "https://pairingmethod.com/cheeses/pecorino-siciliano/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/pecorino-toscano/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.pecorino-toscano",
+              "name": "Pecorino Toscano",
+              "url": "https://pairingmethod.com/cheeses/pecorino-toscano/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/pyrenees-tomme/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.pyrenees-tomme",
+              "name": "Tomme des Pyrénées",
+              "url": "https://pairingmethod.com/cheeses/pyrenees-tomme/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/raclette-de-savoie/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.raclette-de-savoie",
+              "name": "Raclette de Savoie",
+              "url": "https://pairingmethod.com/cheeses/raclette-de-savoie/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/saint-nectaire/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.saint-nectaire",
+              "name": "Saint-Nectaire",
+              "url": "https://pairingmethod.com/cheeses/saint-nectaire/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/salers/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.salers",
+              "name": "Salers",
+              "url": "https://pairingmethod.com/cheeses/salers/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/tome-des-bauges/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.tome-des-bauges",
+              "name": "Tome des Bauges",
+              "url": "https://pairingmethod.com/cheeses/tome-des-bauges/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/tomme-au-raisin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.tomme-au-raisin",
+              "name": "Tomme au Raisin",
+              "url": "https://pairingmethod.com/cheeses/tomme-au-raisin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/tomme-corse/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.tomme-corse",
+              "name": "Tomme de Corse",
+              "url": "https://pairingmethod.com/cheeses/tomme-corse/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/tomme-de-brebis/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.tomme-de-brebis",
+              "name": "Tomme de Brebis",
+              "url": "https://pairingmethod.com/cheeses/tomme-de-brebis/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/tomme-de-savoie/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.natural-rind.tomme-de-savoie",
+              "name": "Tomme de Savoie",
+              "url": "https://pairingmethod.com/cheeses/tomme-de-savoie/"
+            }
+          ],
+          "identifier": "food.cheese.natural-rind",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Cheese Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Natural Rind",
+          "numberOfTerms": 25,
+          "url": "https://pairingmethod.com/cheese-groups/natural-rind/"
+        }
+      ],
+      "projection_id": "food.cheese.natural-rind",
+      "slug": "natural-rind"
+    },
+    {
+      "canonical_path": "/cheese-groups/pasta-filata/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/pasta-filata/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/cheeses/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.cheese",
+            "name": "Cheeses"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/cheese-groups/pasta-filata/#breadcrumb"
+          },
+          "description": "Pasta Filata — 12 cheeses in the Cheese Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Pasta Filata — Cheese Group",
+          "url": "https://pairingmethod.com/cheese-groups/pasta-filata/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/pasta-filata/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheeses/",
+              "name": "Cheeses",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-categories/cheese/",
+              "name": "Cheeses",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-groups/pasta-filata/",
+              "name": "Pasta Filata",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/pasta-filata/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "pasta-filata",
+          "description": "Pasta Filata — 12 cheeses in the Cheese Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/cheeses/bocconcini/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.pasta-filata.bocconcini",
+              "name": "Bocconcini",
+              "url": "https://pairingmethod.com/cheeses/bocconcini/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/caciocavallo/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.pasta-filata.caciocavallo",
+              "name": "Caciocavallo",
+              "url": "https://pairingmethod.com/cheeses/caciocavallo/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/caciocavallo-silano/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.pasta-filata.caciocavallo-silano",
+              "name": "Caciocavallo Silano",
+              "url": "https://pairingmethod.com/cheeses/caciocavallo-silano/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/halloumi/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.pasta-filata.halloumi",
+              "name": "Halloumi",
+              "url": "https://pairingmethod.com/cheeses/halloumi/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/kashar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.pasta-filata.kashar",
+              "name": "Kashar",
+              "url": "https://pairingmethod.com/cheeses/kashar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/kashkaval-pasta/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.pasta-filata.kashkaval-pasta",
+              "name": "Kashkaval (Pasta Filata)",
+              "url": "https://pairingmethod.com/cheeses/kashkaval-pasta/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/mozzarella-di-bufala/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.pasta-filata.mozzarella-di-bufala",
+              "name": "Mozzarella di Bufala Campana",
+              "url": "https://pairingmethod.com/cheeses/mozzarella-di-bufala/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/nodini/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.pasta-filata.nodini",
+              "name": "Nodini",
+              "url": "https://pairingmethod.com/cheeses/nodini/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/oaxaca/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.pasta-filata.oaxaca",
+              "name": "Oaxaca Cheese",
+              "url": "https://pairingmethod.com/cheeses/oaxaca/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/provolone/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.pasta-filata.provolone",
+              "name": "Provolone",
+              "url": "https://pairingmethod.com/cheeses/provolone/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/scamorza-affumicata/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.pasta-filata.scamorza-affumicata",
+              "name": "Scamorza Affumicata",
+              "url": "https://pairingmethod.com/cheeses/scamorza-affumicata/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/string-cheese/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.pasta-filata.string-cheese",
+              "name": "String Cheese",
+              "url": "https://pairingmethod.com/cheeses/string-cheese/"
+            }
+          ],
+          "identifier": "food.cheese.pasta-filata",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Cheese Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Pasta Filata",
+          "numberOfTerms": 12,
+          "url": "https://pairingmethod.com/cheese-groups/pasta-filata/"
+        }
+      ],
+      "projection_id": "food.cheese.pasta-filata",
+      "slug": "pasta-filata"
+    },
+    {
+      "canonical_path": "/cheese-groups/semi-hard/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/semi-hard/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/cheeses/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.cheese",
+            "name": "Cheeses"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/cheese-groups/semi-hard/#breadcrumb"
+          },
+          "description": "Semi-Hard — 30 cheeses in the Cheese Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Semi-Hard — Cheese Group",
+          "url": "https://pairingmethod.com/cheese-groups/semi-hard/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/semi-hard/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheeses/",
+              "name": "Cheeses",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-categories/cheese/",
+              "name": "Cheeses",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-groups/semi-hard/",
+              "name": "Semi-Hard",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/semi-hard/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "semi-hard",
+          "description": "Semi-Hard — 30 cheeses in the Cheese Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/cheeses/asiago-pressato/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.asiago-pressato",
+              "name": "Asiago Pressato",
+              "url": "https://pairingmethod.com/cheeses/asiago-pressato/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/colby/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.colby",
+              "name": "Colby",
+              "url": "https://pairingmethod.com/cheeses/colby/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/comte/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.comte",
+              "name": "Comté",
+              "url": "https://pairingmethod.com/cheeses/comte/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/double-gloucester/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.double-gloucester",
+              "name": "Double Gloucester",
+              "url": "https://pairingmethod.com/cheeses/double-gloucester/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/edam/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.edam",
+              "name": "Edam",
+              "url": "https://pairingmethod.com/cheeses/edam/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/emmental/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.emmental",
+              "name": "Emmental",
+              "url": "https://pairingmethod.com/cheeses/emmental/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/fontal/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.fontal",
+              "name": "Fontal",
+              "url": "https://pairingmethod.com/cheeses/fontal/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/fontina/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.fontina",
+              "name": "Fontina",
+              "url": "https://pairingmethod.com/cheeses/fontina/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/gouda-young/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.gouda-young",
+              "name": "Gouda (Young)",
+              "url": "https://pairingmethod.com/cheeses/gouda-young/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/gruyere/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.gruyere",
+              "name": "Gruyère",
+              "url": "https://pairingmethod.com/cheeses/gruyere/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/havarti/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.havarti",
+              "name": "Havarti",
+              "url": "https://pairingmethod.com/cheeses/havarti/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/ibores/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.ibores",
+              "name": "Ibores",
+              "url": "https://pairingmethod.com/cheeses/ibores/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/jarlsberg/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.jarlsberg",
+              "name": "Jarlsberg",
+              "url": "https://pairingmethod.com/cheeses/jarlsberg/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/kashkaval/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.kashkaval",
+              "name": "Kashkaval",
+              "url": "https://pairingmethod.com/cheeses/kashkaval/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/kasseri/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.kasseri",
+              "name": "Kasseri",
+              "url": "https://pairingmethod.com/cheeses/kasseri/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/leyden/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.leyden",
+              "name": "Leyden",
+              "url": "https://pairingmethod.com/cheeses/leyden/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/maasdam/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.maasdam",
+              "name": "Maasdam",
+              "url": "https://pairingmethod.com/cheeses/maasdam/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/mahon/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.mahon",
+              "name": "Mahón",
+              "url": "https://pairingmethod.com/cheeses/mahon/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/manchego-curado/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.manchego-curado",
+              "name": "Manchego (Curado)",
+              "url": "https://pairingmethod.com/cheeses/manchego-curado/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/monterey-jack/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.monterey-jack",
+              "name": "Monterey Jack",
+              "url": "https://pairingmethod.com/cheeses/monterey-jack/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/piave/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.piave",
+              "name": "Piave",
+              "url": "https://pairingmethod.com/cheeses/piave/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/port-salut/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.port-salut",
+              "name": "Port Salut",
+              "url": "https://pairingmethod.com/cheeses/port-salut/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/provolone-dolce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.provolone-dolce",
+              "name": "Provolone Dolce",
+              "url": "https://pairingmethod.com/cheeses/provolone-dolce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/provolone-valpadana/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.provolone-valpadana",
+              "name": "Provolone Valpadana",
+              "url": "https://pairingmethod.com/cheeses/provolone-valpadana/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/raclette/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.raclette",
+              "name": "Raclette",
+              "url": "https://pairingmethod.com/cheeses/raclette/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/red-leicester/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.red-leicester",
+              "name": "Red Leicester",
+              "url": "https://pairingmethod.com/cheeses/red-leicester/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/saint-paulin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.saint-paulin",
+              "name": "Saint-Paulin",
+              "url": "https://pairingmethod.com/cheeses/saint-paulin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/swiss/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.swiss",
+              "name": "Swiss Cheese",
+              "url": "https://pairingmethod.com/cheeses/swiss/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/tilsit/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.tilsit",
+              "name": "Tilsit",
+              "url": "https://pairingmethod.com/cheeses/tilsit/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/wensleydale/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.semi-hard.wensleydale",
+              "name": "Wensleydale",
+              "url": "https://pairingmethod.com/cheeses/wensleydale/"
+            }
+          ],
+          "identifier": "food.cheese.semi-hard",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Cheese Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Semi-Hard",
+          "numberOfTerms": 30,
+          "url": "https://pairingmethod.com/cheese-groups/semi-hard/"
+        }
+      ],
+      "projection_id": "food.cheese.semi-hard",
+      "slug": "semi-hard"
+    },
+    {
+      "canonical_path": "/cheese-groups/washed-rind/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/washed-rind/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/cheeses/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.cheese",
+            "name": "Cheeses"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/cheese-groups/washed-rind/#breadcrumb"
+          },
+          "description": "Washed Rind — 20 cheeses in the Cheese Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Washed Rind — Cheese Group",
+          "url": "https://pairingmethod.com/cheese-groups/washed-rind/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/washed-rind/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheeses/",
+              "name": "Cheeses",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-categories/cheese/",
+              "name": "Cheeses",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-groups/washed-rind/",
+              "name": "Washed Rind",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-groups/washed-rind/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "washed-rind",
+          "description": "Washed Rind — 20 cheeses in the Cheese Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/cheeses/affine-trappe/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.affine-trappe",
+              "name": "Abbaye de Chimay",
+              "url": "https://pairingmethod.com/cheeses/affine-trappe/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/appenzeller/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.appenzeller",
+              "name": "Appenzeller",
+              "url": "https://pairingmethod.com/cheeses/appenzeller/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/boulette-davesnes/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.boulette-davesnes",
+              "name": "Boulette d'Avesnes",
+              "url": "https://pairingmethod.com/cheeses/boulette-davesnes/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/dauphinoise-washed/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.dauphinoise-washed",
+              "name": "Dauphiné Washed Rind",
+              "url": "https://pairingmethod.com/cheeses/dauphinoise-washed/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/epoisses/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.epoisses",
+              "name": "Époisses",
+              "url": "https://pairingmethod.com/cheeses/epoisses/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/herve/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.herve",
+              "name": "Herve",
+              "url": "https://pairingmethod.com/cheeses/herve/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/langres/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.langres",
+              "name": "Langres",
+              "url": "https://pairingmethod.com/cheeses/langres/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/limburger/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.limburger",
+              "name": "Limburger",
+              "url": "https://pairingmethod.com/cheeses/limburger/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/livarot/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.livarot",
+              "name": "Livarot",
+              "url": "https://pairingmethod.com/cheeses/livarot/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/maroilles/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.maroilles",
+              "name": "Maroilles",
+              "url": "https://pairingmethod.com/cheeses/maroilles/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/mont-dor/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.mont-dor",
+              "name": "Vacherin Mont d'Or",
+              "url": "https://pairingmethod.com/cheeses/mont-dor/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/munster/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.munster",
+              "name": "Munster",
+              "url": "https://pairingmethod.com/cheeses/munster/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/pont-leveque/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.pont-leveque",
+              "name": "Pont-l'Évêque",
+              "url": "https://pairingmethod.com/cheeses/pont-leveque/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/raclette-french/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.raclette-french",
+              "name": "Raclette (French Washed)",
+              "url": "https://pairingmethod.com/cheeses/raclette-french/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/reblochon/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.reblochon",
+              "name": "Reblochon",
+              "url": "https://pairingmethod.com/cheeses/reblochon/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/saint-marcellin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.saint-marcellin",
+              "name": "Saint-Marcellin",
+              "url": "https://pairingmethod.com/cheeses/saint-marcellin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/schlossberger/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.schlossberger",
+              "name": "Schlossberger",
+              "url": "https://pairingmethod.com/cheeses/schlossberger/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/taleggio/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.taleggio",
+              "name": "Taleggio",
+              "url": "https://pairingmethod.com/cheeses/taleggio/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/tete-de-moine/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.tete-de-moine",
+              "name": "Tête de Moine",
+              "url": "https://pairingmethod.com/cheeses/tete-de-moine/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheeses/vacherin-fribourgeois/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.cheese.washed-rind.vacherin-fribourgeois",
+              "name": "Vacherin Fribourgeois",
+              "url": "https://pairingmethod.com/cheeses/vacherin-fribourgeois/"
+            }
+          ],
+          "identifier": "food.cheese.washed-rind",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Cheese Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Washed Rind",
+          "numberOfTerms": 20,
+          "url": "https://pairingmethod.com/cheese-groups/washed-rind/"
+        }
+      ],
+      "projection_id": "food.cheese.washed-rind",
+      "slug": "washed-rind"
+    }
+  ]
+}

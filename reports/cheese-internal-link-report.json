@@ -1,0 +1,22 @@
+{
+  "domain": "cheese",
+  "metrics": {
+    "Broken links": 0,
+    "Category link sets": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate links": 0,
+    "Group link sets": 9,
+    "Leaf link sets": 204,
+    "Overall result": "PASS",
+    "Total internal links": 888,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/navigation/cheese-links.json",
+    "data/navigation/cheese-group-links.json",
+    "data/navigation/cheese-category-links.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-04FD",
+  "validation_errors": []
+}

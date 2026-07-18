@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "cheese",
+    "food_ontology_version": "1.1.0",
+    "phase": "FOOD-04FC",
+    "schema_count": 1,
+    "schema_type": "cheese_category"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/cheese-categories/cheese/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-categories/cheese/#collectionpage",
+          "@type": "CollectionPage",
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/cheese-categories/cheese/#breadcrumb"
+          },
+          "description": "Cheeses — 9 groups and 204 cheeses.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Cheeses — Cheese Category",
+          "url": "https://pairingmethod.com/cheese-categories/cheese/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-categories/cheese/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheeses/",
+              "name": "Cheeses",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/cheese-categories/cheese/",
+              "name": "Cheeses",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/cheese-categories/cheese/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "cheese",
+          "description": "Cheeses — 9 groups and 204 cheeses.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/cheese-groups/bloomy-rind/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.cheese.bloomy-rind",
+              "name": "Bloomy Rind",
+              "numberOfTerms": 25,
+              "url": "https://pairingmethod.com/cheese-groups/bloomy-rind/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheese-groups/blue/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.cheese.blue",
+              "name": "Blue",
+              "numberOfTerms": 25,
+              "url": "https://pairingmethod.com/cheese-groups/blue/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheese-groups/brined/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.cheese.brined",
+              "name": "Brined",
+              "numberOfTerms": 12,
+              "url": "https://pairingmethod.com/cheese-groups/brined/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheese-groups/fresh/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.cheese.fresh",
+              "name": "Fresh",
+              "numberOfTerms": 20,
+              "url": "https://pairingmethod.com/cheese-groups/fresh/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheese-groups/hard/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.cheese.hard",
+              "name": "Hard",
+              "numberOfTerms": 35,
+              "url": "https://pairingmethod.com/cheese-groups/hard/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheese-groups/natural-rind/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.cheese.natural-rind",
+              "name": "Natural Rind",
+              "numberOfTerms": 25,
+              "url": "https://pairingmethod.com/cheese-groups/natural-rind/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheese-groups/pasta-filata/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.cheese.pasta-filata",
+              "name": "Pasta Filata",
+              "numberOfTerms": 12,
+              "url": "https://pairingmethod.com/cheese-groups/pasta-filata/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheese-groups/semi-hard/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.cheese.semi-hard",
+              "name": "Semi-Hard",
+              "numberOfTerms": 30,
+              "url": "https://pairingmethod.com/cheese-groups/semi-hard/"
+            },
+            {
+              "@id": "https://pairingmethod.com/cheese-groups/washed-rind/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.cheese.washed-rind",
+              "name": "Washed Rind",
+              "numberOfTerms": 20,
+              "url": "https://pairingmethod.com/cheese-groups/washed-rind/"
+            }
+          ],
+          "identifier": "food.cheese",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Cheese Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Cheeses",
+          "numberOfTerms": 204,
+          "url": "https://pairingmethod.com/cheese-categories/cheese/"
+        }
+      ],
+      "projection_id": "food.cheese",
+      "slug": "cheese"
+    }
+  ]
+}
