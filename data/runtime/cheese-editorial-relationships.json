@@ -1,0 +1,803 @@
+{
+  "edges": [
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Fresh grapes are a classic Brie board accompaniment balancing creamy fat with juicy acidity.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.bloomy-rind.brie-de-meaux",
+      "target": "food.fruit.grape",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Plain crackers are a common neutral carrier for soft Brie on cheese boards.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.bloomy-rind.brie-de-meaux",
+      "target": "food.ingredient.crackers",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are protected Brie family cheeses from Île-de-France with distinct size and ripening.",
+      "relationship": "same_family",
+      "source": "food.cheese.bloomy-rind.brie-de-meaux",
+      "target": "food.cheese.bloomy-rind.brie-de-melun",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Brie de Nangis is a smaller member of the Brie family alongside Brie de Meaux.",
+      "relationship": "same_family",
+      "source": "food.cheese.bloomy-rind.brie-de-meaux",
+      "target": "food.cheese.bloomy-rind.brie-de-nangis",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are soft cow-milk bloomy-rind cheeses with comparable melting texture and table-cheese service.",
+      "relationship": "similar_to",
+      "source": "food.cheese.bloomy-rind.brie-de-meaux",
+      "target": "food.cheese.bloomy-rind.camembert-de-normandie",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Coulommiers is a larger-format bloomy-rind cheese with a similar creamy profile to Brie.",
+      "relationship": "similar_to",
+      "source": "food.cheese.bloomy-rind.brie-de-meaux",
+      "target": "food.cheese.bloomy-rind.coulommiers",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Brie de Nangis is a smaller-format substitute for Brie de Meaux on cheese boards.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.bloomy-rind.brie-de-nangis",
+      "target": "food.cheese.bloomy-rind.brie-de-meaux",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Warm baguette is the canonical carrier for ripe Camembert in French service.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.bloomy-rind.camembert-de-normandie",
+      "target": "food.bread.baguette",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are French cow-milk blue cheeses with creamy paste and moderate pungency.",
+      "relationship": "similar_to",
+      "source": "food.cheese.blue.bleu-dauvergne",
+      "target": "food.cheese.blue.fourme-dambert",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are benchmark European blue-cheese families with protected regional identity.",
+      "relationship": "same_family",
+      "source": "food.cheese.blue.cabrales",
+      "target": "food.cheese.blue.roquefort",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Castello Blue is a mild creamy substitute for Danish Blue in approachable blue-cheese service.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.blue.castello-blue",
+      "target": "food.cheese.blue.danish-blue",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Danish Blue is widely substituted for Stilton in salads and blue-cheese dressings.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.blue.danish-blue",
+      "target": "food.cheese.blue.stilton",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Blue cheese with salami is a stable Italian antipasto board pairing.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.blue.gorgonzola",
+      "target": "food.protein.charcuterie.salami",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Gorgonzola Dolce is a recognized sweet expression within the Gorgonzola family.",
+      "relationship": "same_family",
+      "source": "food.cheese.blue.gorgonzola",
+      "target": "food.cheese.blue.gorgonzola-dolce",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Gorgonzola Piccante is the aged sharp expression of the Gorgonzola family.",
+      "relationship": "same_family",
+      "source": "food.cheese.blue.gorgonzola",
+      "target": "food.cheese.blue.gorgonzola-picante",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are assertive blue cheeses used as pungent finishing elements in savory cooking.",
+      "relationship": "similar_to",
+      "source": "food.cheese.blue.gorgonzola-picante",
+      "target": "food.cheese.blue.roquefort",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are creamy-crumbly blue cheeses positioned as premium board and salad blues.",
+      "relationship": "similar_to",
+      "source": "food.cheese.blue.point-reyes-blue",
+      "target": "food.cheese.blue.stilton",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Fresh or dried figs are a stable Roquefort pairing on cheese boards.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.blue.roquefort",
+      "target": "food.fruit.fig",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are benchmark blue cheeses with bold salinity and crumbling service on cheese boards.",
+      "relationship": "similar_to",
+      "source": "food.cheese.blue.roquefort",
+      "target": "food.cheese.blue.stilton",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Ripe pear is a long-established Stilton board companion in British cheese service.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.blue.stilton",
+      "target": "food.fruit.pear",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Feta and Sirene share the Eastern Mediterranean brined sheep-cheese family.",
+      "relationship": "same_family",
+      "source": "food.cheese.brined.feta",
+      "target": "food.cheese.brined.sirene",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Feta and Telemea belong to the Balkan brined white-cheese family.",
+      "relationship": "same_family",
+      "source": "food.cheese.brined.feta",
+      "target": "food.cheese.brined.telemea",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are brined white cheeses with crumbly texture and salty finish in Mediterranean cooking.",
+      "relationship": "similar_to",
+      "source": "food.cheese.brined.feta",
+      "target": "food.cheese.brined.telemea",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Sirene is a standard Bulgarian substitute for feta in shopska salad and pastry fillings.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.brined.sirene",
+      "target": "food.cheese.brined.feta",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Telemea is substituted for feta in Balkan salads and baked dishes when Greek PDO feta is unavailable.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.brined.telemea",
+      "target": "food.cheese.brined.feta",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Burrata is substituted with mozzarella when a stracciatella center is not required.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.fresh.burrata",
+      "target": "food.cheese.fresh.mozzarella-fior-di-latte",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Honey drizzle over fresh goat cheese is a standard Mediterranean appetizer service.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.fresh.fresh-goat-cheese",
+      "target": "food.ingredient.honey",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both denote fresh chèvre with tart lactic flavor and spreadable service.",
+      "relationship": "similar_to",
+      "source": "food.cheese.fresh.fresh-goat-cheese",
+      "target": "food.cheese.fresh.goat-chevre-log",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Fromage blanc is substituted for quark in European-style spreads and baking.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.fresh.fromage-blanc",
+      "target": "food.cheese.fresh.quark",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Toasted almonds with chèvre are a standard bistro cheese accompaniment.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.fresh.goat-chevre-log",
+      "target": "food.ingredient.almonds",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Fresh chèvre with honey is a stable bistro and salad cheese accompaniment.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.fresh.goat-chevre-log",
+      "target": "food.ingredient.honey",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are fresh pasta-filata mozzarellas used interchangeably on pizza and in caprese salads.",
+      "relationship": "similar_to",
+      "source": "food.cheese.fresh.mozzarella-fior-di-latte",
+      "target": "food.cheese.pasta-filata.mozzarella-di-bufala",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Fresh mozzarella is substituted for burrata when a simpler caprese or pizza cheese is needed.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.fresh.mozzarella-fior-di-latte",
+      "target": "food.cheese.fresh.burrata",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Ricotta is substituted for mascarpone in some fillings when a lighter fresh cheese is needed.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.fresh.ricotta",
+      "target": "food.cheese.fresh.mascarpone",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Aged Cheddar is an expression of the same Cheddar family with extended maturation.",
+      "relationship": "same_family",
+      "source": "food.cheese.hard.aged-cheddar",
+      "target": "food.cheese.hard.cheddar",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Aged Gouda with walnuts is established Dutch cheese course service.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.hard.aged-gouda",
+      "target": "food.ingredient.walnuts",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Cheddar on sourdough is a stable pub and lunch pairing in English cheese service.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.hard.cheddar",
+      "target": "food.bread.sourdough",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both belong to the English Cheddar lineage differing in clothbinding and aging expression.",
+      "relationship": "same_family",
+      "source": "food.cheese.hard.cheddar",
+      "target": "food.cheese.hard.clothbound-cheddar",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Artisan Cheddar with sourdough is standard English farmhouse cheese service.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.hard.clothbound-cheddar",
+      "target": "food.bread.sourdough",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both belong to the Italian grana family of hard grating cheeses.",
+      "relationship": "same_family",
+      "source": "food.cheese.hard.grana-padano",
+      "target": "food.cheese.hard.parmigiano-reggiano",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are granular aged grana cheeses used for grating over pasta and risotto.",
+      "relationship": "similar_to",
+      "source": "food.cheese.hard.grana-padano",
+      "target": "food.cheese.hard.parmigiano-reggiano",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Grana Padano is the standard grating substitute when Parmigiano-Reggiano is unavailable.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.hard.grana-padano",
+      "target": "food.cheese.hard.parmigiano-reggiano",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Membrillo accompanies aged Manchego on Spanish cheese boards.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.hard.manchego-viejo",
+      "target": "food.ingredient.quince-paste",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are age-tier expressions within the Manchego family.",
+      "relationship": "same_family",
+      "source": "food.cheese.hard.manchego-viejo",
+      "target": "food.cheese.semi-hard.manchego-curado",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are Manchego expressions differing mainly in age rather than culinary role.",
+      "relationship": "similar_to",
+      "source": "food.cheese.hard.manchego-viejo",
+      "target": "food.cheese.semi-hard.manchego-curado",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Generic Parmesan is commonly used as a practical substitute for Parmigiano-Reggiano in cooking.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.hard.parmesan",
+      "target": "food.cheese.hard.parmigiano-reggiano",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Aged Parmigiano with honey is a recognized Italian antipasto and dessert cheese service.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.hard.parmigiano-reggiano",
+      "target": "food.ingredient.honey",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Parmigiano with prosciutto is canonical Italian antipasto service.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.hard.parmigiano-reggiano",
+      "target": "food.protein.charcuterie.prosciutto",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Pecorino with olives is a stable Roman aperitivo cheese accompaniment.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.hard.pecorino-romano",
+      "target": "food.ingredient.olives",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are Pecorino sheep-milk cheeses within the Italian pecorino family.",
+      "relationship": "same_family",
+      "source": "food.cheese.hard.pecorino-romano",
+      "target": "food.cheese.hard.pecorino-sardo",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Pecorino Romano and Pecorino Toscano share the pecorino sheep-cheese lineage.",
+      "relationship": "same_family",
+      "source": "food.cheese.hard.pecorino-romano",
+      "target": "food.cheese.natural-rind.pecorino-toscano",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are aged sheep pecorinos used as grating and finishing cheeses in Italian cuisine.",
+      "relationship": "similar_to",
+      "source": "food.cheese.hard.pecorino-romano",
+      "target": "food.cheese.hard.pecorino-sardo",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are Provolone pasta-filata cheeses used for slicing, melting, and antipasto.",
+      "relationship": "similar_to",
+      "source": "food.cheese.hard.provolone-picante",
+      "target": "food.cheese.semi-hard.provolone-dolce",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Reggianito is an Argentine hard grana used as a Parmigiano substitute in Latin American kitchens.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.hard.reggianito",
+      "target": "food.cheese.hard.parmigiano-reggiano",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are Southern Italian pasta-filata family cheeses traditionally hung to age.",
+      "relationship": "same_family",
+      "source": "food.cheese.pasta-filata.caciocavallo",
+      "target": "food.cheese.pasta-filata.provolone",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Scamorza is a smoked member of the Southern Italian pasta-filata family alongside Provolone.",
+      "relationship": "same_family",
+      "source": "food.cheese.pasta-filata.provolone",
+      "target": "food.cheese.pasta-filata.scamorza-affumicata",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Smoked scamorza is substituted for provolone in grilled and melted Southern Italian dishes.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.pasta-filata.scamorza-affumicata",
+      "target": "food.cheese.pasta-filata.provolone",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Colby is a milder direct substitute for Cheddar in melting and snacking applications.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.semi-hard.colby",
+      "target": "food.cheese.hard.cheddar",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Neutral crackers are a standard Comté board carrier in French cheese service.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.semi-hard.comte",
+      "target": "food.ingredient.crackers",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Comté and Gruyère belong to the Franco-Swiss Alpine cooked-press family.",
+      "relationship": "same_family",
+      "source": "food.cheese.semi-hard.comte",
+      "target": "food.cheese.semi-hard.gruyere",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Comté and Gruyère share Jura-Alpine aging character and cooking applications.",
+      "relationship": "similar_to",
+      "source": "food.cheese.semi-hard.comte",
+      "target": "food.cheese.semi-hard.gruyere",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are traditional English territorial hard cheeses with regional board identity.",
+      "relationship": "same_family",
+      "source": "food.cheese.semi-hard.double-gloucester",
+      "target": "food.cheese.semi-hard.red-leicester",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Double Gloucester fills the same English territorial hard-cheese role as Cheddar on boards.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.semi-hard.double-gloucester",
+      "target": "food.cheese.hard.cheddar",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are Dutch semi-hard cow cheeses with mild sweetness and melting behavior.",
+      "relationship": "similar_to",
+      "source": "food.cheese.semi-hard.edam",
+      "target": "food.cheese.semi-hard.gouda-young",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Jarlsberg is a Norwegian expression within the broader holey Alpine-Emmental family.",
+      "relationship": "same_family",
+      "source": "food.cheese.semi-hard.emmental",
+      "target": "food.cheese.semi-hard.jarlsberg",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Swiss cheese in North America derives from the Emmental family tradition.",
+      "relationship": "same_family",
+      "source": "food.cheese.semi-hard.emmental",
+      "target": "food.cheese.semi-hard.swiss",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are Alpine cow-milk semi-hard cheeses used for melting, fondue, and gratins.",
+      "relationship": "similar_to",
+      "source": "food.cheese.semi-hard.emmental",
+      "target": "food.cheese.semi-hard.gruyere",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Emmental is a common melting substitute for Gruyère in fondue and gratins.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.semi-hard.emmental",
+      "target": "food.cheese.semi-hard.gruyere",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Walnuts with Gouda are a classic Dutch cheese board accompaniment.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.semi-hard.gouda-young",
+      "target": "food.ingredient.walnuts",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Young Gouda is substituted for Edam in Dutch-style sandwiches and melting applications.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.semi-hard.gouda-young",
+      "target": "food.cheese.semi-hard.edam",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Crackers with Gruyère are common Swiss and Alpine cheese board service.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.semi-hard.gruyere",
+      "target": "food.ingredient.crackers",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are mild, supple semi-hard cheeses with broad sandwich and snacking appeal.",
+      "relationship": "similar_to",
+      "source": "food.cheese.semi-hard.havarti",
+      "target": "food.cheese.semi-hard.jarlsberg",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Jarlsberg is substituted for Emmental where a mild holey melting cheese is needed.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.semi-hard.jarlsberg",
+      "target": "food.cheese.semi-hard.emmental",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Kashkaval is substituted for Kasseri in Balkan and Eastern Mediterranean grilled cheese dishes.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.semi-hard.kashkaval",
+      "target": "food.cheese.semi-hard.kasseri",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Membrillo with Manchego is canonical Spanish tapas service.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.semi-hard.manchego-curado",
+      "target": "food.ingredient.quince-paste",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Curado Manchego is substituted for viejo when a less intense aged sheep cheese is preferred.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.semi-hard.manchego-curado",
+      "target": "food.cheese.hard.manchego-viejo",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Monterey Jack is commonly substituted for Colby in Tex-Mex and melting recipes.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.semi-hard.monterey-jack",
+      "target": "food.cheese.semi-hard.colby",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are recognized English regional cheeses with crumbly to firm board traditions.",
+      "relationship": "same_family",
+      "source": "food.cheese.semi-hard.red-leicester",
+      "target": "food.cheese.semi-hard.wensleydale",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Red Leicester is substituted for Cheddar in British pub and sandwich contexts.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.semi-hard.red-leicester",
+      "target": "food.cheese.hard.cheddar",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "North American Swiss cheese is routinely substituted for Emmental in sandwiches and melts.",
+      "relationship": "substitutes_for",
+      "source": "food.cheese.semi-hard.swiss",
+      "target": "food.cheese.semi-hard.emmental",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Baguette is the traditional carrier for spoonable Époisses in Burgundian service.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.washed-rind.epoisses",
+      "target": "food.bread.baguette",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are pungent washed-rind soft cheeses with strong aroma and spoonable texture when ripe.",
+      "relationship": "similar_to",
+      "source": "food.cheese.washed-rind.epoisses",
+      "target": "food.cheese.washed-rind.munster",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Vacherin Mont d'Or is traditionally served oven-melted with bread for dipping.",
+      "relationship": "commonly_served_with",
+      "source": "food.cheese.washed-rind.mont-dor",
+      "target": "food.bread.baguette",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are small-format soft cheeses with washed or washed-leaning rinds for ripe service.",
+      "relationship": "similar_to",
+      "source": "food.cheese.washed-rind.reblochon",
+      "target": "food.cheese.washed-rind.saint-marcellin",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are soft washed-rind Alpine cheeses suited to melting in tarts and potato dishes.",
+      "relationship": "similar_to",
+      "source": "food.cheese.washed-rind.reblochon",
+      "target": "food.cheese.washed-rind.taleggio",
+      "version": "1.0"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "cheese",
+    "edge_count": 85,
+    "forward_references": [
+      "food.bread.baguette",
+      "food.bread.sourdough",
+      "food.fruit.fig",
+      "food.fruit.grape",
+      "food.fruit.pear",
+      "food.ingredient.almonds",
+      "food.ingredient.crackers",
+      "food.ingredient.honey",
+      "food.ingredient.olives",
+      "food.ingredient.quince-paste",
+      "food.ingredient.walnuts",
+      "food.protein.charcuterie.prosciutto",
+      "food.protein.charcuterie.salami"
+    ],
+    "inputs": [
+      "data/cheese-catalog.json",
+      "data/runtime/cheese-indexes.json",
+      "data/runtime/cheese-relationships.json"
+    ],
+    "layer": "editorial",
+    "phase": "FOOD-04D",
+    "relationship_types": [
+      "similar_to",
+      "substitutes_for",
+      "same_family",
+      "commonly_served_with"
+    ],
+    "version": "1.0"
+  }
+}

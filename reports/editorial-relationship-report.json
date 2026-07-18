@@ -1,21 +1,40 @@
 {
-  "catalog_version": "2.0.0",
+  "catalog_version": "1.0.0",
+  "domain": "cheese",
   "errors": [],
+  "forward_references": [
+    "food.bread.baguette",
+    "food.bread.sourdough",
+    "food.fruit.fig",
+    "food.fruit.grape",
+    "food.fruit.pear",
+    "food.ingredient.almonds",
+    "food.ingredient.crackers",
+    "food.ingredient.honey",
+    "food.ingredient.olives",
+    "food.ingredient.quince-paste",
+    "food.ingredient.walnuts",
+    "food.protein.charcuterie.prosciutto",
+    "food.protein.charcuterie.salami"
+  ],
   "metrics": {
     "Conflicts": 0,
+    "Determinism": "PASS",
+    "Deterministic ordering": "PASS",
     "Duplicate edges": 0,
-    "Editorial edges": 40,
+    "Editorial edges": 85,
     "Editorial relationship types": 4,
+    "Forward reference orphans": 0,
     "Missing entities": 0,
     "Overall result": "PASS"
   },
-  "output": "data/runtime/protein-food-editorial-relationships.json",
+  "output": "data/runtime/cheese-editorial-relationships.json",
   "overall_result": "PASS",
-  "phase": "ONTOLOGY-02C.2",
+  "phase": "FOOD-04D",
   "relationship_type_counts": {
-    "commonly_prepared_as": 13,
-    "shares_culinary_role": 10,
-    "similar_to": 10,
-    "substitutes_for": 7
+    "commonly_served_with": 22,
+    "same_family": 20,
+    "similar_to": 20,
+    "substitutes_for": 23
   }
 }
