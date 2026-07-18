@@ -1,0 +1,656 @@
+{
+  "edges": [
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Lightly oaked Chardonnay complements bloomy-rind creaminess without overpowering delicate flavor.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.bloomy-rind.brie-de-meaux",
+      "target": "chardonnay",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Bloomy-rind Brie commonly pairs with wines showing buttery texture from lees or oak influence.",
+      "relationship": "pairs_with_descriptor",
+      "source": "food.cheese.bloomy-rind.brie-de-meaux",
+      "target": "buttery",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Creamy Brie fat and salt are classically balanced by Champagne acidity and fine bubbles.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.bloomy-rind.brie-de-meaux",
+      "target": "champagne",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Traditional-method sparkling wines provide the classic structural counterpoint to soft bloomy cheeses.",
+      "relationship": "pairs_with_technique",
+      "source": "food.cheese.bloomy-rind.brie-de-meaux",
+      "target": "traditional-method",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Silky Pinot Noir suits earthy, ripe Camembert when served at room temperature.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.bloomy-rind.camembert-de-normandie",
+      "target": "pinot-noir",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Ripe Camembert is a canonical Champagne pairing in French cheese service.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.bloomy-rind.camembert-de-normandie",
+      "target": "champagne",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Malolactic softness in Chardonnay and red wines suits bloomy-rind texture.",
+      "relationship": "pairs_with_technique",
+      "source": "food.cheese.bloomy-rind.camembert-de-normandie",
+      "target": "malolactic-fermentation",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Chabichou du Poitou is traditionally served with Loire Sauvignon Blanc.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.bloomy-rind.chabichou-du-poitou",
+      "target": "sauvignon-blanc",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Tangy American goat cheese follows the established chèvre–Sauvignon Blanc pairing model.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.bloomy-rind.humboldt-fog",
+      "target": "sauvignon-blanc",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Aromatic Gewürztraminer stands up to creamy Auvergne blue without harsh tannin clash.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.blue.bleu-dauvergne",
+      "target": "gewurztraminer",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Intense Cabrales blue pairs with sweet Port in Asturian cheese tradition.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.blue.cabrales",
+      "target": "port",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Sweet Moscato contrasts Gorgonzola salt and pungency in established Italian service.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.blue.gorgonzola",
+      "target": "moscato",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Gorgonzola Dolce pairs with light sparkling Prosecco for approachable blue-cheese service.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.blue.gorgonzola-dolce",
+      "target": "prosecco",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Off-dry Riesling acidity and sweetness balance Roquefort intensity on cheese boards.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.blue.roquefort",
+      "target": "riesling",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Roquefort salt and pungency are durably paired with sweet fortified Port wine.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.blue.roquefort",
+      "target": "port",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Oxidative Sherry nuttiness complements Stilton cream and blue spice.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.blue.stilton",
+      "target": "sherry",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Stilton and Port is a widely recognized British cheese-course pairing.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.blue.stilton",
+      "target": "port",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Fortified wines such as Port provide the sweetness structure classic for blue cheese pairing.",
+      "relationship": "pairs_with_technique",
+      "source": "food.cheese.blue.stilton",
+      "target": "fortification",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Dry rosé is a widely served Mediterranean partner for brined Feta.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.brined.feta",
+      "target": "dry-rose",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Brined Feta salinity aligns with saline mineral notes in crisp coastal whites.",
+      "relationship": "pairs_with_descriptor",
+      "source": "food.cheese.brined.feta",
+      "target": "saline",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Salty Feta balances crisp Sauvignon Blanc in Greek salad and meze service.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.brined.feta",
+      "target": "sauvignon-blanc",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Light Pinot Grigio suits fresh burrata without masking delicate dairy sweetness.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.fresh.burrata",
+      "target": "pinot-grigio",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Fresh chèvre and Sauvignon Blanc share long-established regional pairing tradition.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.fresh.fresh-goat-cheese",
+      "target": "sauvignon-blanc",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Loire Chenin Blanc offers the same high-acid white profile as classic goat cheese pairings.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.fresh.goat-chevre-log",
+      "target": "chenin-blanc",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Goat cheese lactic tang aligns with citrus aromatics common in Sauvignon Blanc.",
+      "relationship": "pairs_with_descriptor",
+      "source": "food.cheese.fresh.goat-chevre-log",
+      "target": "citrus-zest",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Goat cheese tang and Sauvignon Blanc herbaceous acidity are a classic Loire pairing.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.fresh.goat-chevre-log",
+      "target": "sauvignon-blanc",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Unoaked stainless-aged whites preserve goat cheese freshness without wood masking acidity.",
+      "relationship": "pairs_with_technique",
+      "source": "food.cheese.fresh.goat-chevre-log",
+      "target": "stainless-steel-aging",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Mascarpone sweetness pairs with Moscato in Italian dolce service traditions.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.fresh.mascarpone",
+      "target": "moscato",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Fresh mozzarella and Prosecco share common Italian antipasto and pizza-table service.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.fresh.mozzarella-fior-di-latte",
+      "target": "prosecco",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Fresh Ricotta with sparkling Prosecco is common Italian dessert and antipasto service.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.fresh.ricotta",
+      "target": "prosecco",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Long-aged Cheddar develops nutty character that mirrors oxidative wine notes.",
+      "relationship": "pairs_with_descriptor",
+      "source": "food.cheese.hard.aged-cheddar",
+      "target": "nutty",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Extra-aged Cheddar pairs with Port in established English cheese course tradition.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.hard.aged-cheddar",
+      "target": "port",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Extra-aged Gouda caramel notes pair with Port in established Dutch cheese courses.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.hard.aged-gouda",
+      "target": "port",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Alpine Beaufort nuttiness pairs with Jura and Savoie Chardonnay expressions.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.hard.beaufort",
+      "target": "chardonnay",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Merlot soft tannin suits medium Cheddar without harsh astringency.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.hard.cheddar",
+      "target": "merlot",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Sharp Cheddar fat and salt stand up to structured Cabernet in pub and board service.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.hard.cheddar",
+      "target": "cabernet-sauvignon",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Artisan Cheddar and Sherry is a recognized British cheese-course pairing.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.hard.clothbound-cheddar",
+      "target": "sherry",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Grana Padano follows the same Sangiovese-friendly grating cheese pairing tradition as Parmigiano.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.hard.grana-padano",
+      "target": "sangiovese",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Smoky Idiazábal pairs with Tempranillo in Basque pintxos culture.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.hard.idiazabal",
+      "target": "tempranillo",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Aged Manchego with Sherry is established Spanish cheese-course service.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.hard.manchego-viejo",
+      "target": "sherry",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Parmigiano with Prosecco is a widely served Italian aperitivo combination.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.hard.parmigiano-reggiano",
+      "target": "prosecco",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Aged Parmigiano nuttiness echoes nutty oxidative notes in mature red and sparkling wines.",
+      "relationship": "pairs_with_descriptor",
+      "source": "food.cheese.hard.parmigiano-reggiano",
+      "target": "nutty",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Aged Parmigiano umami and salt pair with Sangiovese acidity in classic Italian antipasto.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.hard.parmigiano-reggiano",
+      "target": "sangiovese",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Oak-aged reds provide structure and spice that complement aged hard cheese umami.",
+      "relationship": "pairs_with_technique",
+      "source": "food.cheese.hard.parmigiano-reggiano",
+      "target": "barrel-aging",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Crisp Italian white wine complements sheep pecorino salt in Mediterranean antipasto.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.hard.pecorino-romano",
+      "target": "pinot-grigio",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Salty Pecorino Romano balances Sangiovese fruit and acidity in Roman cuisine.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.hard.pecorino-romano",
+      "target": "sangiovese",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Morbier meltability suits Jura Pinot Noir in regional pairing practice.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.natural-rind.morbier",
+      "target": "pinot-noir",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Sheep Ossau-Iraty pairs with dry rosé in Basque and Béarn cheese service.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.natural-rind.ossau-iraty",
+      "target": "dry-rose",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Albariño acidity complements salty grilled Halloumi without heavy oak.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.pasta-filata.halloumi",
+      "target": "albarino",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Grilled Halloumi pairs with dry rosé in Cypriot and Eastern Mediterranean service.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.pasta-filata.halloumi",
+      "target": "dry-rose",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Bufala mozzarella with Prosecco is standard Campanian pairing culture.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.pasta-filata.mozzarella-di-bufala",
+      "target": "prosecco",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Aged Provolone salt pairs with Sangiovese in Southern Italian cheese and wine culture.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.pasta-filata.provolone",
+      "target": "sangiovese",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Comté nuttiness and Jura Chardonnay share established regional pairing affinity.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.semi-hard.comte",
+      "target": "chardonnay",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Mild Emmental pairs with aromatic Riesling in Swiss and German cheese service.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.semi-hard.emmental",
+      "target": "riesling",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Young Gouda sweetness pairs with off-dry Riesling in Dutch cheese culture.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.semi-hard.gouda-young",
+      "target": "riesling",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Pinot Noir complements Gruyère in classic fondue and raclette contexts.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.semi-hard.gruyere",
+      "target": "pinot-noir",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Alpine Gruyère nut character aligns with nutty notes in aged Chardonnay and Pinot Noir.",
+      "relationship": "pairs_with_descriptor",
+      "source": "food.cheese.semi-hard.gruyere",
+      "target": "nutty",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Nutty Gruyère pairs with medium-bodied Chardonnay in fondue and Alpine cheese service.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.semi-hard.gruyere",
+      "target": "chardonnay",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Mild Havarti pairs with neutral, crisp Pinot Grigio for everyday cheese service.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.semi-hard.havarti",
+      "target": "pinot-grigio",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Manchego and Tempranillo share canonical Castilian tapas pairing tradition.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.semi-hard.manchego-curado",
+      "target": "tempranillo",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Light Pinot Noir suits melted Raclette without overpowering mild Alpine flavor.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.semi-hard.raclette",
+      "target": "pinot-noir",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Riesling acidity cuts melted Raclette richness in Alpine dining tradition.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.semi-hard.raclette",
+      "target": "riesling",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Mild territorial cheeses such as Red Leicester suit approachable Merlot.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.semi-hard.red-leicester",
+      "target": "merlot",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Local Pinot Noir complements washed-rind intensity in Burgundian cheese service.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.cheese.washed-rind.epoisses",
+      "target": "pinot-noir",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Pungent Époisses is classically matched with aromatic Gewürztraminer in Burgundy.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.washed-rind.epoisses",
+      "target": "gewurztraminer",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Vacherin Mont d'Or is traditionally served with local Pinot Noir when oven-melted.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.washed-rind.mont-dor",
+      "target": "pinot-noir",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Washed-rind Munster pairs with floral aromatic whites that offset barnyard intensity.",
+      "relationship": "pairs_with_descriptor",
+      "source": "food.cheese.washed-rind.munster",
+      "target": "floral",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Alsace Gewürztraminer is the traditional match for washed-rind Munster.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.washed-rind.munster",
+      "target": "gewurztraminer",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Reblochon tartiflette tradition pairs melted cheese with Savoie Pinot Noir.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.washed-rind.reblochon",
+      "target": "pinot-noir",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Taleggio meltability pairs with Nebbiolo structure in Northern Italian cheese traditions.",
+      "relationship": "pairs_with_style",
+      "source": "food.cheese.washed-rind.taleggio",
+      "target": "nebbiolo",
+      "version": "1.0"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "cheese",
+    "edge_count": 70,
+    "inputs": [
+      "data/cheese-catalog.json",
+      "data/runtime/cheese-indexes.json",
+      "data/runtime/cheese-editorial-relationships.json",
+      "data/wine-style-catalog.json",
+      "data/wine-taxonomy.json",
+      "data/winemaking-technique-catalog.json"
+    ],
+    "layer": "wine_pairing",
+    "phase": "FOOD-04E",
+    "relationship_types": [
+      "pairs_with_style",
+      "also_pairs_with_style",
+      "pairs_with_descriptor",
+      "pairs_with_technique"
+    ],
+    "version": "1.0"
+  }
+}

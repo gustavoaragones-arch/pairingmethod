@@ -1,0 +1,28 @@
+{
+  "catalog_version": "1.0.0",
+  "domain": "cheese",
+  "metrics": {
+    "Cheeses linked": 45,
+    "Descriptor links": 7,
+    "Determinism": "PASS",
+    "Deterministic ordering": "PASS",
+    "Duplicate edges": 0,
+    "Invalid ontology references": 0,
+    "Missing cheese entities": 0,
+    "Missing wine references": 0,
+    "Overall result": "PASS",
+    "Pairing edges": 70,
+    "Technique links": 5,
+    "Wine styles linked": 19
+  },
+  "output": "data/runtime/cheese-wine-relationships.json",
+  "overall_result": "PASS",
+  "phase": "FOOD-04E",
+  "relationship_type_counts": {
+    "also_pairs_with_style": 17,
+    "pairs_with_descriptor": 7,
+    "pairs_with_style": 41,
+    "pairs_with_technique": 5
+  },
+  "validation_errors": []
+}
