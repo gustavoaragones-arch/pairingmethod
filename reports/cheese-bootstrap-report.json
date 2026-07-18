@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    "data/runtime/cheese-bootstrap.json",
+    "data/runtime/cheese-categories.json",
+    "data/runtime/cheese-groups.json",
+    "data/runtime/cheese-indexes.json"
+  ],
+  "bootstrap_errors": [],
+  "catalog_version": "1.0.0",
+  "domain": "cheese",
+  "metrics": {
+    "Bootstrap errors": 0,
+    "Categories indexed": 1,
+    "Cheeses indexed": 204,
+    "Groups indexed": 9,
+    "Milk sources indexed": 5,
+    "Runtime artifacts": 4
+  },
+  "overall_result": "PASS",
+  "phase": "FOOD-04C.1"
+}

@@ -1,29 +1,28 @@
 {
-  "catalog_version": "2.0.0",
+  "catalog_version": "1.0.0",
+  "domain": "cheese",
   "errors": [],
   "metrics": {
     "Determinism": "PASS",
     "Duplicate edges": 0,
     "Missing entities": 0,
     "Overall result": "PASS",
-    "Relationship types": 12,
-    "Total edges": 35734
+    "Relationship types": 10,
+    "Total edges": 44858
   },
-  "output": "data/runtime/protein-food-relationships.json",
+  "output": "data/runtime/cheese-relationships.json",
   "overall_result": "PASS",
-  "phase": "ONTOLOGY-02C.1",
+  "phase": "FOOD-04C.3",
   "relationship_type_counts": {
-    "belongs_to_category": 223,
-    "belongs_to_group": 207,
-    "category_contains": 16,
-    "group_contains": 207,
-    "shares_anatomical_cut": 583,
-    "shares_bone_state": 6188,
-    "shares_cut_type": 4131,
-    "shares_edible_structure": 667,
-    "shares_food_category": 11875,
-    "shares_processing_state": 10664,
-    "shares_scientific_name": 830,
-    "shares_species": 143
+    "belongs_to_category": 213,
+    "belongs_to_group": 204,
+    "category_contains": 9,
+    "group_contains": 204,
+    "shares_aging_class": 5627,
+    "shares_milk_source": 12176,
+    "shares_moisture_class": 7297,
+    "shares_protected_status": 10311,
+    "shares_rind_type": 4844,
+    "shares_texture": 3973
   }
 }

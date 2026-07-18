@@ -1,0 +1,178 @@
+{
+  "audited_at": "2026-07-18",
+  "phase": "FOOD-04C",
+  "domain": "cheese",
+  "catalog_version": "1.0.0",
+  "validation": {
+    "total_validation_rules": 16,
+    "required_checks": 16,
+    "passed": 16,
+    "failed": 0,
+    "required_failed": 0,
+    "overall_result": "PASS"
+  },
+  "summary": {
+    "categories": 1,
+    "groups": 9,
+    "cheeses": 204,
+    "scientific_names": 4,
+    "vocabulary_violations": 0,
+    "alias_conflicts": 0,
+    "metadata_completeness": "100%",
+    "overall_result": "PASS"
+  },
+  "metrics": {
+    "Total validation rules": 16,
+    "Passed": 16,
+    "Failed": 0,
+    "Required checks": 16,
+    "Categories": 1,
+    "Groups": 9,
+    "Cheeses": 204,
+    "Scientific names": 4,
+    "Vocabulary violations": 0,
+    "Alias conflicts": 0,
+    "Metadata completeness": "100%",
+    "Overall result": "PASS"
+  },
+  "rules": [
+    {
+      "id": "META-001",
+      "name": "meta.entity_count matches cheeses length",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-002",
+      "name": "meta.catalog_version present",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ID-001",
+      "name": "unique ontology IDs",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ID-002",
+      "name": "unique slugs",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ID-003",
+      "name": "stable cheese ID format",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-001",
+      "name": "category and group hierarchy integrity",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-002",
+      "name": "every cheese belongs to exactly one valid group",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-003",
+      "name": "group child_slugs bidirectionally complete",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "VOCAB-001",
+      "name": "controlled vocabulary compliance",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "SCI-001",
+      "name": "required scientific_name (milk source species)",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "EXT-001",
+      "name": "required external_ids object",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-003",
+      "name": "required field coverage on every cheese",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "REL-001",
+      "name": "reserved relationship arrays present and empty",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ALIAS-001",
+      "name": "no duplicate aliases across catalog",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "SCHEMA-001",
+      "name": "no unexpected keys on cheese entities",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "VER-001",
+      "name": "per-entity catalog_version and food_ontology_version",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    }
+  ],
+  "details": {
+    "identity_errors": [],
+    "hierarchy_errors": [],
+    "vocabulary_violations": [],
+    "alias_conflicts": [],
+    "metadata_gaps_total": 0,
+    "metadata_gaps_sample": [],
+    "unexpected_keys": [],
+    "scientific_name_issues": []
+  }
+}
