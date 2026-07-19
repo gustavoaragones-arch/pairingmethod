@@ -360,8 +360,8 @@ Rationale: preserve stable published Protein URLs and graph references while est
 | **FOOD-06B** | Catalog population — **complete** |
 | **FOOD-06C** | Runtime compilation & structural relationships — **complete** |
 | **FOOD-06D** | Editorial relationships — **complete** |
-| FOOD-06E | Wine pairing relationships — **next** |
-| FOOD-06F | Publication through shared platform |
+| **FOOD-06E** | Wine pairing relationships — **complete** |
+| FOOD-06F | Publication through shared platform — **next** |
 | Suite v1.3.0 | Food Ontology Suite with Protein, Cheese, Vegetables, and Fungi published |
 
 The six-stage lifecycle is **identical** to FOOD-04, FOOD-05, and Protein — no additions.
@@ -444,7 +444,7 @@ The ontology models ingredients, not recipes or finished dishes. Fungi are often
 
 ---
 
-## 11.2 Wine Pairing Layer (FOOD-06E preview)
+## 11.2 Wine Pairing Layer (FOOD-06E)
 
 Wine pairings are a **distinct curated knowledge layer** — not derived from `usage_intensity`, `flavor_profile`, or other intrinsic metadata.
 
@@ -454,6 +454,19 @@ Wine pairings are a **distinct curated knowledge layer** — not derived from `u
 | Secondary | `also_pairs_with_style` | Strong alternatives |
 | Descriptor | `pairs_with_descriptor` | Pairing driven by wine descriptor vocabulary |
 | Technique | `pairs_with_technique` | Preparation-sensitive cases — use sparingly |
+
+### Pairing philosophy (FOOD-06E)
+
+Pairings describe the **fungus itself**, not dishes made from it. Fungi often pair through earthiness, umami, and richness rather than sweetness or acidity alone.
+
+### Truffle Rule (FOOD-06E)
+
+Because truffles are aromatic ingredients rather than bulk ingredients:
+
+- Descriptor pairings emphasize **aroma compatibility**
+- Avoid recommending overpowering wines solely because they are prestigious
+- White truffle → elegant, aromatic, structured wines (e.g. Nebbiolo, Champagne)
+- Black truffle → fuller-bodied, earthy reds (e.g. Syrah) — culinary rationale, not reputation-driven
 
 Validation: no orphan wine IDs, no duplicate pairings, canonical wine references only, `confidence`, `evidence`, `editorial_review: "approved"`, `derived_from: "editorial"`.
 

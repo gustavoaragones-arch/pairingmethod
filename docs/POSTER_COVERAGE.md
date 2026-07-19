@@ -187,13 +187,13 @@ Poster groupings are **pairing categories**, not identical to cheese taxonomy gr
 | Root Vegetables & Squash | FOOD-05 | Complete |
 | Nightshades | FOOD-05 | Complete |
 
-#### Fungi (FOOD-06) — **Editorial complete (FOOD-06D)**
+#### Fungi (FOOD-06) — **Wine pairings complete (FOOD-06E)**
 
 **Domain framing:** Culinary fungi — not a mushroom list. Governance: [`FUNGI_GOVERNANCE.md`](FUNGI_GOVERNANCE.md).
 
 | Poster Concept | Phase | Status |
 |----------------|-------|--------|
-| Fungi / Mushrooms | FOOD-06 | FOOD-06D complete — 87 editorial edges; FOOD-06E wine pairings next |
+| Fungi / Mushrooms | FOOD-06 | FOOD-06E complete — 82 wine pairing edges; FOOD-06F publication next |
 
 #### Herbs & Spices (FOOD-07) — **Not Started**
 
@@ -451,4 +451,4 @@ No additional platform phases unless a genuine architectural limitation is disco
 | Sauces | 0 | 0 | 1 | 0 |
 | Wine columns | 0 | 9 | 0 | 0 |
 
-**Next planned work:** FOOD-06D — Fungi editorial relationships (from FOOD-06C runtime).
+**Next planned work:** FOOD-06F — Publish Fungi Ontology through shared platform.
