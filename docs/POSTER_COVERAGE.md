@@ -2,7 +2,7 @@
 
 **Phase:** PLAN-01 — Poster Coverage Matrix  
 **Status:** Canonical implementation checklist  
-**Production baseline:** Platform v1.0.0 · Food Ontology Suite v1.1.0 · Tag `food-ontology-suite-v1.1.0` (`316b525`)  
+**Production baseline:** Platform v1.0.0 · Food Ontology Suite v1.2.0 · Tag `food-ontology-suite-v1.2.0` (`8ac9af9`)  
 **Inspiration:** Wine Folly *Food & Wine Pairing Method* poster (original PairingMethod vision)
 
 This document maps every concept from the inspiration poster to its implementation within the Food Ontology Platform. It is **documentation only** — no runtime, ontology, or publication changes.
@@ -41,15 +41,35 @@ The platform consumes **domain configuration** (`lib/food-domain-config.js`) and
 
 ## Section 2 — Food Ontology Suite
 
-**Suite version:** v1.1.0  
-**Suite tag:** `food-ontology-suite-v1.1.0`
+**Suite version:** v1.2.0  
+**Suite tag:** `food-ontology-suite-v1.2.0`  
+**Release notes:** [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md)
 
 | Domain | Version | Status | Entities (leaf) | Publication |
 |--------|---------|--------|-----------------|-------------|
 | Protein Foods | 1.0.0 | Complete | 207 | `/foods/` |
 | Cheeses | 1.0.0 | Complete | 204 | `/cheeses/` |
+| Vegetables | 1.0.0 | Complete | 74 | `/vegetables/` |
 
-**Suite total:** 411 published food entity pages + group/category hub pages.
+**Suite total:** 485 published leaf entities + group/category hub pages.
+
+### Suite Metrics (v1.2.0)
+
+| Metric | v1.2.0 |
+|--------|--------|
+| Published ontology domains | 3 |
+| Canonical entities | 485 |
+| Runtime relationship edges (cumulative) | ~85,000 |
+| Editorial relationship edges (cumulative) | ~280 |
+| Wine pairing relationships (cumulative) | ~220 |
+| Publication lifecycle reuse | 100% |
+| Platform modifications required | 0 |
+
+See [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md) for full release history and mandatory metrics table format for future suite tags.
+
+### Platform status (post v1.2.0)
+
+Publication framework is **feature-complete**. Unless a future ontology exposes a genuine cross-domain requirement, the following are frozen: publication architecture, runtime architecture, certification pipeline, deployment pipeline, and the six-phase governance lifecycle. Architectural changes require exceptional justification.
 
 ### Related ontology (non-food)
 
@@ -158,20 +178,22 @@ Protein entities encode `primary_cooking_methods` and editorial `commonly_prepar
 
 Poster groupings are **pairing categories**, not identical to cheese taxonomy groups. Mapping is semantic, not one-to-one.
 
-#### Vegetables (FOOD-05) — **Not Started**
+#### Vegetables (FOOD-05) — **Complete**
+
+| Poster Concept | Phase | Status |
+|----------------|-------|--------|
+| Alliums | FOOD-05 | Complete — 74 canonical vegetables, 4 culinary groups |
+| Green Vegetables | FOOD-05 | Complete |
+| Root Vegetables & Squash | FOOD-05 | Complete |
+| Nightshades | FOOD-05 | Complete |
+
+#### Fungi (FOOD-06) — **Governance complete (FOOD-06A)**
+
+**Domain framing:** Culinary fungi — not a mushroom list. Governance: [`FUNGI_GOVERNANCE.md`](FUNGI_GOVERNANCE.md).
 
 | Poster Concept | Planned Phase | Status |
 |----------------|---------------|--------|
-| Alliums | FOOD-05 | Not Started |
-| Green Vegetables | FOOD-05 | Not Started |
-| Root Vegetables & Squash | FOOD-05 | Not Started |
-| Nightshades | FOOD-05 | Not Started |
-
-#### Fungi (FOOD-06) — **Partial**
-
-| Poster Concept | Planned Phase | Status |
-|----------------|---------------|--------|
-| Fungi / Mushrooms | FOOD-06 | Partial — `mushrooms` exists in Protein Foods pending dedicated domain |
+| Fungi / Mushrooms | FOOD-06 | FOOD-06A frozen — catalog population next (FOOD-06B) |
 
 #### Herbs & Spices (FOOD-07) — **Not Started**
 
@@ -351,7 +373,7 @@ Each domain remains the **authoritative source** for its intrinsic fields. Relat
 |--------|---------|--------------|
 | Platform | v1.0.0 | Compiler, publication, certification, or deployment architecture changes |
 | Individual food domain | v1.0.0 per domain | Domain catalog or governance revision |
-| Food Ontology Suite | v1.1.0 → v1.2.0 … | New published domain added (+1 minor) |
+| Food Ontology Suite | v1.2.0 → v1.3.0 … | New published domain added (+1 minor) |
 
 ---
 
@@ -385,24 +407,23 @@ Implementation
 
 ---
 
-## Master Roadmap (post PLAN-01)
+## Master Roadmap (frozen post v1.2.0)
 
 ```
 PLAN-01  Poster Coverage Matrix          ← this document
     ↓
-FOOD-05  Vegetables
-FOOD-06  Fungi
-FOOD-07  Herbs & Spices
-FOOD-08  Grains & Starches
-FOOD-09  Fruits & Berries
-FOOD-10  Nuts & Seeds
-FOOD-11  Beans & Peas
-FOOD-12  Sweet Flavors
-FOOD-13  Sauces & Condiments
-FOOD-14  Seafood Refinement
+FOOD-06  Fungi Ontology                  ← next (see FUNGI_ONTOLOGY_BRIEF.md)
+FOOD-07  Herb & Spice Ontology
+FOOD-08  Grain & Starch Ontology
+FOOD-09  Fruit Ontology
+FOOD-10  Nut & Seed Ontology
+FOOD-11  Legume Ontology
+FOOD-12  Sweet Flavor Ontology
+FOOD-13  Sauce & Condiment Ontology
+FOOD-14  Protein Refinement
     ↓
-ENGINE-01  Shared Pairing Engine
-ENGINE-02  Pairing Weighting
+ENGINE-01  Pairing Engine
+ENGINE-02  Weighting Engine
 ENGINE-03  Meal Composer
 ```
 
@@ -414,15 +435,15 @@ No additional platform phases unless a genuine architectural limitation is disco
 
 ---
 
-## Coverage snapshot (v1.1.0)
+## Coverage snapshot (v1.2.0)
 
 | Poster area | Complete | Partial | Not Started | Deferred |
 |-------------|----------|---------|-------------|----------|
 | Meat | 4 | 4 | 0 | 0 |
 | Preparation | 0 | 0 | 0 | 5 |
 | Dairy | 3 | 0 | 0 | 0 |
-| Vegetables | 0 | 0 | 4 | 0 |
-| Fungi | 0 | 1 | 0 | 0 |
+| Vegetables | 4 | 0 | 0 | 0 |
+| Fungi | 0 | 0 | 1 | 0 |
 | Herbs & Spices | 0 | 0 | 6 | 0 |
 | Starches | 0 | 0 | 4 | 0 |
 | Nuts / Beans (poster placement) | 0 | 2 | 0 | 0 |
@@ -430,4 +451,4 @@ No additional platform phases unless a genuine architectural limitation is disco
 | Sauces | 0 | 0 | 1 | 0 |
 | Wine columns | 0 | 9 | 0 | 0 |
 
-**Next planned work:** FOOD-05A — Vegetable governance (from tag `food-ontology-suite-v1.1.0`).
+**Next planned work:** FOOD-06B — Fungi catalog population (from frozen FOOD-06A governance). Governance: [`FUNGI_GOVERNANCE.md`](FUNGI_GOVERNANCE.md).

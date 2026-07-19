@@ -1,0 +1,327 @@
+{
+  "categories": [
+    {
+      "child_slugs": [
+        "cultivated-mushrooms",
+        "wild-mushrooms",
+        "truffles",
+        "specialty-fungi"
+      ],
+      "domain": "culinary",
+      "entity_type": "fungi_category",
+      "external_ids": {},
+      "id": "food.fungi",
+      "introduction": "The Fungi Ontology catalogs canonical culinary fungi — edible fungi used as culinary ingredients worldwide. This domain models ingredients, not biological taxonomy.",
+      "name": "Fungi",
+      "scientific_name": "",
+      "seo_description": "Explore canonical culinary fungi by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+      "seo_title": "Fungi — Food Ontology",
+      "slug": "fungi",
+      "summary": "Canonical culinary fungi across four immutable groups: Cultivated Mushrooms, Wild Mushrooms, Truffles, and Specialty Fungi."
+    }
+  ],
+  "groups": [
+    {
+      "child_slugs": [],
+      "culinary_group": "cultivated_mushrooms",
+      "domain": "culinary",
+      "entity_type": "fungi_group",
+      "external_ids": {},
+      "id": "food.fungi.cultivated-mushrooms",
+      "introduction": "Cultivated mushrooms in the Fungi Ontology — commercially farmed culinary fungi including button, cremini, portobello, shiitake, and oyster mushrooms.",
+      "name": "Cultivated Mushrooms",
+      "parent_category": "fungi",
+      "scientific_name": "",
+      "seo_description": "Canonical cultivated mushrooms — button, shiitake, oyster, and related culinary fungi in the PairingMethod Fungi Ontology.",
+      "seo_title": "Cultivated Mushrooms — Fungi Ontology",
+      "slug": "cultivated-mushrooms",
+      "summary": "Cultivated Mushrooms — canonical farmed culinary fungi."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "wild_mushrooms",
+      "domain": "culinary",
+      "entity_type": "fungi_group",
+      "external_ids": {},
+      "id": "food.fungi.wild-mushrooms",
+      "introduction": "Wild mushrooms in the Fungi Ontology — foraged and seasonal culinary fungi including chanterelle, morel, porcini, and matsutake.",
+      "name": "Wild Mushrooms",
+      "parent_category": "fungi",
+      "scientific_name": "",
+      "seo_description": "Canonical wild mushrooms — chanterelle, morel, porcini, and related foraged fungi in the PairingMethod Fungi Ontology.",
+      "seo_title": "Wild Mushrooms — Fungi Ontology",
+      "slug": "wild-mushrooms",
+      "summary": "Wild Mushrooms — canonical foraged culinary fungi."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "truffles",
+      "domain": "culinary",
+      "entity_type": "fungi_group",
+      "external_ids": {},
+      "id": "food.fungi.truffles",
+      "introduction": "Truffles in the Fungi Ontology — luxury culinary fungi including black and white truffle.",
+      "name": "Truffles",
+      "parent_category": "fungi",
+      "scientific_name": "",
+      "seo_description": "Canonical truffles — black truffle, white truffle, and related luxury fungi in the PairingMethod Fungi Ontology.",
+      "seo_title": "Truffles — Fungi Ontology",
+      "slug": "truffles",
+      "summary": "Truffles — canonical luxury culinary fungi."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "specialty_fungi",
+      "domain": "culinary",
+      "entity_type": "fungi_group",
+      "external_ids": {},
+      "id": "food.fungi.specialty-fungi",
+      "introduction": "Specialty fungi in the Fungi Ontology — distinctive culinary fungi including wood ear, lion's mane, beech mushroom, and nameko.",
+      "name": "Specialty Fungi",
+      "parent_category": "fungi",
+      "scientific_name": "",
+      "seo_description": "Canonical specialty fungi — wood ear, lion's mane, nameko, and related culinary fungi in the PairingMethod Fungi Ontology.",
+      "seo_title": "Specialty Fungi — Fungi Ontology",
+      "slug": "specialty-fungi",
+      "summary": "Specialty Fungi — canonical distinctive culinary fungi."
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "category_count": 1,
+    "description": "Fungi Ontology — governance shell (FOOD-06A). No leaf entities until FOOD-06B. Intrinsic metadata only; relationships deferred to FOOD-06D/E.",
+    "domain": "fungi",
+    "entity_count": 0,
+    "entity_type": "fungus",
+    "food_ontology_version": "1.3.0",
+    "freeze_label": "Fungi Governance Frozen v1.0.0",
+    "freeze_phase": "FOOD-06A",
+    "governance_status": "frozen",
+    "group_count": 4,
+    "ontology_foundation_version": "1.0.0",
+    "phase": "FOOD-06A",
+    "platform_version": "1.0.0",
+    "seeded": "2026-07-18",
+    "tier": 2,
+    "wine_ontology_version": "2.0"
+  },
+  "schema": {
+    "controlled_vocabularies": {
+      "aroma_profile": {
+        "cardinality": "array",
+        "description": "Reserved aroma characteristic tags — vocabulary frozen in FOOD-06A; do not populate until post-FOOD-06B curation standards.",
+        "populate_from_phase": "FOOD-06C",
+        "values": [
+          "earthy",
+          "woody",
+          "garlicky",
+          "fruity",
+          "floral",
+          "nutty",
+          "truffle",
+          "smoky",
+          "marine"
+        ]
+      },
+      "canonical_culinary_groups": {
+        "description": "Immutable group names and slugs — do not rename or add peer groups in v1.",
+        "immutable": true,
+        "values": [
+          {
+            "culinary_group": "cultivated_mushrooms",
+            "name": "Cultivated Mushrooms",
+            "slug": "cultivated-mushrooms"
+          },
+          {
+            "culinary_group": "wild_mushrooms",
+            "name": "Wild Mushrooms",
+            "slug": "wild-mushrooms"
+          },
+          {
+            "culinary_group": "truffles",
+            "name": "Truffles",
+            "slug": "truffles"
+          },
+          {
+            "culinary_group": "specialty_fungi",
+            "name": "Specialty Fungi",
+            "slug": "specialty-fungi"
+          }
+        ]
+      },
+      "culinary_group": {
+        "description": "Canonical Culinary Group value on leaf entities — aligns to immutable group slugs.",
+        "immutable": true,
+        "values": [
+          "cultivated_mushrooms",
+          "wild_mushrooms",
+          "truffles",
+          "specialty_fungi"
+        ]
+      },
+      "flavor_profile": {
+        "cardinality": "array",
+        "description": "Reserved flavor characteristic tags — vocabulary frozen in FOOD-06A; do not populate until post-FOOD-06B curation standards.",
+        "populate_from_phase": "FOOD-06C",
+        "values": [
+          "earthy",
+          "umami",
+          "nutty",
+          "meaty",
+          "delicate",
+          "peppery",
+          "bitter",
+          "sweet",
+          "garlicky"
+        ]
+      },
+      "texture_profile": {
+        "cardinality": "array",
+        "description": "Reserved texture characteristic tags — vocabulary frozen in FOOD-06A; do not populate until post-FOOD-06B curation standards.",
+        "populate_from_phase": "FOOD-06C",
+        "values": [
+          "firm",
+          "tender",
+          "chewy",
+          "crisp",
+          "gelatinous",
+          "spongy",
+          "silky",
+          "crumbly"
+        ]
+      },
+      "usage_intensity": {
+        "description": "Intrinsic culinary prominence in dish composition — not Pairing Engine reasoning.",
+        "immutable": true,
+        "values": [
+          "primary",
+          "accent",
+          "luxury"
+        ]
+      }
+    },
+    "domain_contract": "Food Ontology Platform v1.0.0",
+    "domain_exclusions": {
+      "herbs_spices": "FOOD-07",
+      "legumes": "FOOD-11",
+      "note": "Entities in these domains are cross-referenced by canonical ID only — never duplicated intrinsically.",
+      "potato_starch_class": "FOOD-08",
+      "protein_mushrooms_legacy": "Protein Foods mushrooms group — canonical ownership transfers to Fungi; ID migration deferred to FOOD-14",
+      "sauces": "FOOD-13",
+      "sweet_fruit": "FOOD-09",
+      "vegetables": "FOOD-05"
+    },
+    "entity_types": {
+      "fungi_category": {
+        "description": "Top-level fungi domain hub (single category in v1).",
+        "id_example": "food.fungi",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "fungi_group": {
+        "description": "Canonical Culinary Group (Cultivated Mushrooms, Wild Mushrooms, etc.).",
+        "id_example": "food.fungi.wild-mushrooms",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description",
+          "culinary_group"
+        ]
+      },
+      "fungus": {
+        "description": "Canonical culinary fungus entity with frozen intrinsic metadata.",
+        "id_example": "food.fungi.wild-mushrooms.porcini",
+        "optional_fields": [
+          "aliases",
+          "common_names",
+          "beginner_notes",
+          "faq",
+          "typical_descriptors",
+          "wine_pairings",
+          "avoid_wine_pairings",
+          "related_styles",
+          "related_descriptors",
+          "related_techniques",
+          "similar_fungi",
+          "substitutions",
+          "commonly_served_with",
+          "common_preparations"
+        ],
+        "required_fields": [
+          "id",
+          "slug",
+          "display_name",
+          "entity_type",
+          "domain",
+          "parent_group",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "catalog_version",
+          "food_ontology_version",
+          "culinary_group",
+          "usage_intensity",
+          "flavor_profile",
+          "texture_profile",
+          "aroma_profile",
+          "aliases",
+          "common_names",
+          "origin_context",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      }
+    },
+    "identity_contract": {
+      "canonical_entity_rule": "CANON-001",
+      "category_id_pattern": "^food\\.fungi$",
+      "display_name_mutable": true,
+      "entity_id_pattern": "^food\\.fungi\\.[a-z0-9-]+\\.[a-z0-9-]+$",
+      "external_ids_required": true,
+      "group_id_pattern": "^food\\.fungi\\.[a-z0-9-]+$",
+      "id_immutable": true,
+      "ids_never_recycled": true,
+      "namespace": "food.fungi",
+      "per_entity_version_fields": {
+        "catalog_version": "1.0.0",
+        "food_ontology_version": "1.3.0"
+      },
+      "required_identity_fields": [
+        "id",
+        "slug",
+        "display_name",
+        "scientific_name",
+        "external_ids"
+      ],
+      "scientific_name_mutable": false,
+      "scientific_name_semantics": "primary_species_for_culinary_identity",
+      "slug_mutable": true
+    },
+    "taxonomy_note": "Groups are culinary, not mycological. See docs/FUNGI_GOVERNANCE.md.",
+    "taxonomy_principle": "canonical_culinary_groups"
+  },
+  "fungi": []
+}
