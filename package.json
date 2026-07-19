@@ -70,6 +70,8 @@
     "ontology:validate-fungi-runtime": "node scripts/validate-runtime-fungi-06c.mjs",
     "ontology:map-fungi-relationships": "node scripts/map-fungi-relationships-06c.mjs",
     "compile:fungi-runtime": "npm run ontology:catalog-audit-fungi && npm run ontology:bootstrap-fungi-runtime && npm run ontology:validate-fungi-runtime && npm run ontology:map-fungi-relationships",
+    "ontology:map-fungi-editorial-relationships": "node scripts/map-fungi-editorial-relationships-06d.mjs",
+    "compile:fungi-editorial": "npm run compile:fungi-runtime && npm run ontology:map-fungi-editorial-relationships",
     "generate:vegetable-projections": "node scripts/generate-vegetable-projections-05f.mjs",
     "generate:vegetable-pages": "node scripts/generate-vegetable-pages-05f.mjs",
     "generate:vegetable-schema": "node scripts/generate-vegetable-schema-05f.mjs",

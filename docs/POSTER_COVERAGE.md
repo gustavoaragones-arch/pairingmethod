@@ -187,13 +187,13 @@ Poster groupings are **pairing categories**, not identical to cheese taxonomy gr
 | Root Vegetables & Squash | FOOD-05 | Complete |
 | Nightshades | FOOD-05 | Complete |
 
-#### Fungi (FOOD-06) — **Runtime complete (FOOD-06C)**
+#### Fungi (FOOD-06) — **Editorial complete (FOOD-06D)**
 
 **Domain framing:** Culinary fungi — not a mushroom list. Governance: [`FUNGI_GOVERNANCE.md`](FUNGI_GOVERNANCE.md).
 
 | Poster Concept | Phase | Status |
 |----------------|-------|--------|
-| Fungi / Mushrooms | FOOD-06 | FOOD-06C complete — 43 canonical fungi, 531 runtime edges; FOOD-06D editorial next |
+| Fungi / Mushrooms | FOOD-06 | FOOD-06D complete — 87 editorial edges; FOOD-06E wine pairings next |
 
 #### Herbs & Spices (FOOD-07) — **Not Started**
 

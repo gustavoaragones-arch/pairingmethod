@@ -359,8 +359,8 @@ Rationale: preserve stable published Protein URLs and graph references while est
 | **FOOD-06A** | Governance (this document) — **frozen** |
 | **FOOD-06B** | Catalog population — **complete** |
 | **FOOD-06C** | Runtime compilation & structural relationships — **complete** |
-| FOOD-06D | Editorial relationships — **next** |
-| FOOD-06E | Wine pairing relationships |
+| **FOOD-06D** | Editorial relationships — **complete** |
+| FOOD-06E | Wine pairing relationships — **next** |
 | FOOD-06F | Publication through shared platform |
 | Suite v1.3.0 | Food Ontology Suite with Protein, Cheese, Vegetables, and Fungi published |
 
@@ -429,6 +429,18 @@ Do not generate `shares_flavor_profile`, `shares_texture_profile`, or `shares_ar
 | `commonly_served_with` (cross-domain forward ref) | **C** | Editorial |
 
 Editorial edge contract matches FOOD-05D: `confidence`, `derived_from: "editorial"`, `evidence`, `editorial_review`, `editorial_tier`, `stability_level: "editorial"`.
+
+### Association Rule (FOOD-06D)
+
+Editorial edges describe **ingredient compatibility**, not dish composition.
+
+| Good | Avoid |
+|------|-------|
+| Porcini → Onion | Risotto |
+| Shiitake → Garlic | Pasta |
+| Truffle → Parmigiano Reggiano | Pizza |
+
+The ontology models ingredients, not recipes or finished dishes. Fungi are often ingredient amplifiers rather than primary ingredients — cross-domain edges should reference canonical ingredient IDs only.
 
 ---
 
