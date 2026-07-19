@@ -11,13 +11,15 @@
 
 ## Executive Summary
 
-PairingMethod declares **Cheese Governance v1.0.0** — the authoritative governance layer for the Cheese Ontology within Food Ontology Expansion v1.1.
+PairingMethod declares **Cheese Governance v1.0.0** — the authoritative governance layer for the Cheese Ontology within Food Ontology Suite v1.1.0.
 
-This milestone establishes the canonical catalog shell, immutable identity rules, controlled vocabularies, external identifier namespaces, and audit requirements. **No cheese entities exist yet.** No runtime artifacts, publication artifacts, or generators are created in this phase.
+**Suite invariants:** [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md) §Suite Architecture (Domain Independence, CANON-001, lifecycle standard).
 
-Cheese is the **first consumer** of the Protein Food Ontology Platform domain contract. If implementation requires copying and renaming large portions of platform code, the contract must be generalized first — without changing existing behavior.
+**Lifecycle:** FOOD-04A (governance) → FOOD-04B (catalog) → FOOD-04C (runtime) → FOOD-04D (editorial) → FOOD-04E (wine) → FOOD-04F (publication) — **complete** at suite v1.1.0.
 
-**Governance status:** Frozen. Entity population begins only after explicit approval to proceed with FOOD-04B.
+This milestone established the canonical catalog shell, immutable identity rules, controlled vocabularies, external identifier namespaces, and audit requirements. Cheese is the **first consumer** of the generalized multi-domain publication platform (FOOD-04F).
+
+**Governance status:** Frozen at FOOD-04A. Domain complete through FOOD-04F publication.
 
 ---
 

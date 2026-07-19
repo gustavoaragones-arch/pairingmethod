@@ -56,14 +56,12 @@ The platform consumes **domain configuration** (`lib/food-domain-config.js`) and
 
 ### Suite Metrics (v1.3.0)
 
+Authoritative cumulative statistics: [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md) §Suite Metrics.
+
 | Metric | v1.3.0 |
 |--------|--------|
 | Published ontology domains | 4 |
-| Canonical entities | 528 |
-| Runtime relationship edges (cumulative) | ~85,500+ |
-| Editorial relationship edges (cumulative) | ~360+ |
-| Wine pairing relationships (cumulative) | ~300+ |
-| Publication lifecycle reuse | 100% |
+| Canonical entities (leaf) | 528 |
 | Platform modifications required | 0 |
 
 See [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md) for full release history and mandatory metrics table format for future suite tags.
@@ -408,13 +406,12 @@ Implementation
 
 ---
 
-## Master Roadmap (frozen post v1.2.0)
+## Master Roadmap (frozen post v1.3.0)
 
 ```
 PLAN-01  Poster Coverage Matrix          ← this document
     ↓
-FOOD-06  Fungi Ontology                  ← next (see FUNGI_ONTOLOGY_BRIEF.md)
-FOOD-07  Herb & Spice Ontology
+FOOD-07  Herb & Spice Ontology          ← next (FOOD-07A governance)
 FOOD-08  Grain & Starch Ontology
 FOOD-09  Fruit Ontology
 FOOD-10  Nut & Seed Ontology
@@ -452,4 +449,4 @@ No additional platform phases unless a genuine architectural limitation is disco
 | Sauces | 0 | 0 | 1 | 0 |
 | Wine columns | 0 | 9 | 0 | 0 |
 
-**Next planned work:** Suite Stabilization checkpoint, then FOOD-07 — Herb & Spice Ontology.
+**Next planned work:** **FOOD-07A — Herb & Spice Ontology Governance** (SUITE-STAB-01 PASS — from tag `food-ontology-suite-v1.3.0`).

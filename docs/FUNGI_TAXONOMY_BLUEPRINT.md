@@ -103,7 +103,7 @@ A culinary fungus qualifies when it meets **all** of:
 3. **Taxonomic fit** — maps unambiguously to one Canonical Culinary Group.
 4. **Immutable ID assignability** — permanent `food.fungi.{group}.{slug}` without collision.
 5. **Intrinsic metadata completeness** — all required fields populated from authoritative sources.
-6. **Canonical Entity Rule (CANON-001)** — one entity per canonical culinary ingredient; color and size variants are `aliases`, not new entities.
+6. **Canonical Entity Rule (CANON-001)** — see [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md) §Suite Architecture; one entity per canonical culinary ingredient (§5 enforcement in [`FUNGI_GOVERNANCE.md`](FUNGI_GOVERNANCE.md)).
 
 ---
 

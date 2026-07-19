@@ -25,6 +25,8 @@ Vegetable is the **third consumer** of the multi-domain publication platform (af
 
 ## Domain Independence Principle
 
+**Authoritative definition:** [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md) §Suite Architecture — Domain Independence Principle.
+
 Every new ontology domain is evaluated against four questions **before implementation**. This principle is operational from FOOD-05 onward and complements PLAN-01 governance rules.
 
 | Question | If **yes** | If **no** |
@@ -208,7 +210,9 @@ Cross-references to these domains are permitted in editorial layers. Intrinsic d
 
 ---
 
-## 5.1 Canonical Entity Rule (FOOD-05B+)
+## 5.1 Canonical Entity Rule — CANON-001
+
+**Authoritative definition:** [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md) §Suite Architecture — CANON-001.
 
 Each leaf entity represents a **canonical culinary ingredient** — not every botanical cultivar, color variant, or commercial trade name.
 

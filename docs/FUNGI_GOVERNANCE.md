@@ -27,6 +27,8 @@ Fungi is the **fourth consumer** of the multi-domain publication platform (after
 
 ## Domain Independence Principle
 
+**Authoritative definition:** [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md) §Suite Architecture — Domain Independence Principle.
+
 Every new ontology domain is evaluated against four questions **before implementation**. This principle is operational from FOOD-05 onward and complements PLAN-01 governance rules. **No modifications in FOOD-06A.**
 
 | Question | If **yes** | If **no** |
@@ -206,6 +208,8 @@ Cross-references to these domains are permitted in editorial layers. Intrinsic d
 
 ## 5.1 Canonical Entity Rule — CANON-001
 
+**Authoritative definition:** [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md) §Suite Architecture — CANON-001.
+
 Each leaf entity represents a **canonical culinary ingredient** — not every commercial trade name, color variant, or size grade.
 
 | Include | Do not include (use `aliases` or `common_names`) |
@@ -221,6 +225,8 @@ Each leaf entity represents a **canonical culinary ingredient** — not every co
 FOOD-06B catalog audit enforces CANON-001 via slug and display-name heuristics.
 
 ### §5.2 CANON-002 — Global culinary recognition (FOOD-06B+)
+
+**Authoritative definition:** [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md) §Suite Architecture — CANON-002.
 
 Each canonical fungus must represent a **globally recognizable culinary ingredient**, not merely a regional commercial product.
 
@@ -370,18 +376,9 @@ The six-stage lifecycle is **identical** to FOOD-04, FOOD-05, and Protein — no
 
 ## 11.0 Runtime Projection Principle (Suite-wide)
 
-Formalized at FOOD-06C across all Food Ontology domains:
+**Authoritative definition:** [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md) §Runtime Projection Principle and §Knowledge layer separation.
 
-> **Runtime artifacts are projections, never sources of truth.**
-
-| Rule | Detail |
-|------|--------|
-| Catalogs are authoritative | `data/*-catalog.json` is the SSOT for intrinsic knowledge |
-| Runtime is regenerated | `data/runtime/*` is always recompiled from catalog — never hand-edited |
-| Editorial layers are separate | FOOD-XXD/E artifacts do not modify runtime bootstrap outputs |
-| Publication consumes runtime | FOOD-XXF reads runtime + editorial + pairing layers — not catalogs directly |
-
-This principle has been followed in practice since Protein FOOD-02C. FOOD-06C makes it explicit to prevent future contributors from treating generated runtime JSON as editable data.
+FOOD-06C formalized suite-wide rules already followed since Protein FOOD-02C. Domain-specific runtime stability levels are defined in §11.1 below.
 
 ---
 

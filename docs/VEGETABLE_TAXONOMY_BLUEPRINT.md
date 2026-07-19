@@ -97,7 +97,7 @@ A vegetable qualifies when it meets **all** of:
 3. **Taxonomic fit** — maps unambiguously to one Canonical Culinary Group.
 4. **Immutable ID assignability** — permanent `food.vegetable.{group}.{slug}` without collision.
 5. **Intrinsic metadata completeness** — all required fields populated from authoritative sources.
-6. **Canonical Entity Rule** — one entity per canonical culinary ingredient; cultivar and color variants are `aliases`, not new entities (see [`VEGETABLE_GOVERNANCE.md`](VEGETABLE_GOVERNANCE.md) §5.1).
+6. **Canonical Entity Rule (CANON-001)** — see [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md) §Suite Architecture; one entity per canonical culinary ingredient (§5 enforcement in this blueprint).
 
 ---
 
