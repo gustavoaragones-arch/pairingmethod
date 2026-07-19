@@ -1,0 +1,28 @@
+{
+  "artifacts": [
+    "data/runtime/vegetable-bootstrap.json",
+    "data/runtime/vegetable-categories.json",
+    "data/runtime/vegetable-groups.json",
+    "data/runtime/vegetable-indexes.json"
+  ],
+  "catalog_version": "1.0.0",
+  "domain": "vegetable",
+  "errors": [],
+  "metrics": {
+    "Cross-index checks": 3,
+    "Culinary role checks": 2,
+    "Determinism checks": 4,
+    "Errors": 0,
+    "Hierarchy checks": 4,
+    "Identity checks": 6,
+    "Namespace checks": 3,
+    "Overall result": "PASS",
+    "Runtime artifacts checked": 4,
+    "Scientific name checks": 2,
+    "Vocabulary checks": 2,
+    "Warnings": 0
+  },
+  "overall_result": "PASS",
+  "phase": "FOOD-05C.2",
+  "warnings": []
+}

@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    "data/runtime/vegetable-bootstrap.json",
+    "data/runtime/vegetable-categories.json",
+    "data/runtime/vegetable-groups.json",
+    "data/runtime/vegetable-indexes.json"
+  ],
+  "bootstrap_errors": [],
+  "catalog_version": "1.0.0",
+  "domain": "vegetable",
+  "metrics": {
+    "Bootstrap errors": 0,
+    "Categories indexed": 1,
+    "Culinary roles indexed": 9,
+    "Groups indexed": 4,
+    "Runtime artifacts": 4,
+    "Vegetables indexed": 74
+  },
+  "overall_result": "PASS",
+  "phase": "FOOD-05C.1"
+}

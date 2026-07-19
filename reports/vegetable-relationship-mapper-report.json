@@ -1,0 +1,54 @@
+{
+  "catalog_version": "1.0.0",
+  "domain": "vegetable",
+  "errors": [],
+  "metrics": {
+    "Determinism": "PASS",
+    "Duplicate edges": 0,
+    "Level 1 structural edges": 230,
+    "Level 2 intrinsic similarity edges": 4175,
+    "Level 3 editorial edges": 0,
+    "Missing entities": 0,
+    "Overall result": "PASS",
+    "Relationship types": 11,
+    "Total edges": 4405
+  },
+  "output": "data/runtime/vegetable-relationships.json",
+  "overall_result": "PASS",
+  "phase": "FOOD-05C.3",
+  "relationship_type_counts": {
+    "belongs_to_category": 78,
+    "belongs_to_group": 74,
+    "category_contains": 4,
+    "group_contains": 74,
+    "shares_culinary_role": 343,
+    "shares_flavor_intensity": 865,
+    "shares_moisture_class": 1352,
+    "shares_plant_part": 509,
+    "shares_scientific_name": 19,
+    "shares_seasonality": 566,
+    "shares_texture": 521
+  },
+  "runtime_stability_levels": {
+    "level_1_structural": [
+      "belongs_to_group",
+      "belongs_to_category",
+      "group_contains",
+      "category_contains"
+    ],
+    "level_2_intrinsic_similarity": [
+      "shares_culinary_role",
+      "shares_plant_part",
+      "shares_texture",
+      "shares_moisture_class",
+      "shares_flavor_intensity",
+      "shares_seasonality",
+      "shares_scientific_name"
+    ],
+    "level_3_editorial": [
+      "similar_to",
+      "substitutes_for",
+      "commonly_served_with"
+    ]
+  }
+}

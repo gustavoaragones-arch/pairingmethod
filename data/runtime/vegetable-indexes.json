@@ -1,0 +1,2564 @@
+{
+  "by_culinary_role": {
+    "aromatic": [
+      "food.vegetable.alliums.chive",
+      "food.vegetable.alliums.garlic",
+      "food.vegetable.alliums.garlic-chives",
+      "food.vegetable.alliums.leek",
+      "food.vegetable.alliums.onion",
+      "food.vegetable.alliums.ramp",
+      "food.vegetable.alliums.scallion",
+      "food.vegetable.alliums.shallot",
+      "food.vegetable.green-vegetables.celery",
+      "food.vegetable.green-vegetables.fennel"
+    ],
+    "cruciferous": [
+      "food.vegetable.green-vegetables.bok-choy",
+      "food.vegetable.green-vegetables.broccoli",
+      "food.vegetable.green-vegetables.brussels-sprouts",
+      "food.vegetable.green-vegetables.cabbage",
+      "food.vegetable.green-vegetables.cauliflower",
+      "food.vegetable.green-vegetables.collard-greens",
+      "food.vegetable.green-vegetables.kale",
+      "food.vegetable.green-vegetables.kohlrabi",
+      "food.vegetable.green-vegetables.mustard-greens",
+      "food.vegetable.green-vegetables.napa-cabbage",
+      "food.vegetable.green-vegetables.rapini"
+    ],
+    "flower": [
+      "food.vegetable.green-vegetables.artichoke"
+    ],
+    "fruit_vegetable": [
+      "food.vegetable.green-vegetables.bitter-melon",
+      "food.vegetable.nightshades.anaheim-pepper",
+      "food.vegetable.nightshades.bell-pepper",
+      "food.vegetable.nightshades.eggplant",
+      "food.vegetable.nightshades.habanero-pepper",
+      "food.vegetable.nightshades.jalapeno-pepper",
+      "food.vegetable.nightshades.poblano-pepper",
+      "food.vegetable.nightshades.serrano-pepper",
+      "food.vegetable.nightshades.tomatillo",
+      "food.vegetable.nightshades.tomato"
+    ],
+    "leafy": [
+      "food.vegetable.green-vegetables.arugula",
+      "food.vegetable.green-vegetables.dandelion-greens",
+      "food.vegetable.green-vegetables.endive",
+      "food.vegetable.green-vegetables.lettuce",
+      "food.vegetable.green-vegetables.mizuna",
+      "food.vegetable.green-vegetables.radicchio",
+      "food.vegetable.green-vegetables.sorrel",
+      "food.vegetable.green-vegetables.spinach",
+      "food.vegetable.green-vegetables.swiss-chard",
+      "food.vegetable.green-vegetables.tatsoi",
+      "food.vegetable.green-vegetables.water-spinach",
+      "food.vegetable.green-vegetables.watercress"
+    ],
+    "pod": [
+      "food.vegetable.green-vegetables.garden-pea",
+      "food.vegetable.green-vegetables.green-bean",
+      "food.vegetable.green-vegetables.okra",
+      "food.vegetable.green-vegetables.snow-pea"
+    ],
+    "primary": [
+      "food.vegetable.green-vegetables.cucumber",
+      "food.vegetable.root-vegetables.acorn-squash",
+      "food.vegetable.root-vegetables.butternut-squash",
+      "food.vegetable.root-vegetables.chayote",
+      "food.vegetable.root-vegetables.delicata-squash",
+      "food.vegetable.root-vegetables.hubbard-squash",
+      "food.vegetable.root-vegetables.kabocha-squash",
+      "food.vegetable.root-vegetables.pumpkin",
+      "food.vegetable.root-vegetables.spaghetti-squash",
+      "food.vegetable.root-vegetables.zucchini"
+    ],
+    "root": [
+      "food.vegetable.root-vegetables.beet",
+      "food.vegetable.root-vegetables.burdock-root",
+      "food.vegetable.root-vegetables.carrot",
+      "food.vegetable.root-vegetables.celeriac",
+      "food.vegetable.root-vegetables.jicama",
+      "food.vegetable.root-vegetables.lotus-root",
+      "food.vegetable.root-vegetables.parsnip",
+      "food.vegetable.root-vegetables.radish",
+      "food.vegetable.root-vegetables.rutabaga",
+      "food.vegetable.root-vegetables.salsify",
+      "food.vegetable.root-vegetables.scorzonera",
+      "food.vegetable.root-vegetables.sunchokes",
+      "food.vegetable.root-vegetables.turnip"
+    ],
+    "stem": [
+      "food.vegetable.green-vegetables.asparagus",
+      "food.vegetable.green-vegetables.bamboo-shoot",
+      "food.vegetable.green-vegetables.rhubarb"
+    ]
+  },
+  "by_display_name": {
+    "acorn squash": [
+      "food.vegetable.root-vegetables.acorn-squash"
+    ],
+    "anaheim pepper": [
+      "food.vegetable.nightshades.anaheim-pepper"
+    ],
+    "artichoke": [
+      "food.vegetable.green-vegetables.artichoke"
+    ],
+    "arugula": [
+      "food.vegetable.green-vegetables.arugula"
+    ],
+    "asparagus": [
+      "food.vegetable.green-vegetables.asparagus"
+    ],
+    "bamboo shoot": [
+      "food.vegetable.green-vegetables.bamboo-shoot"
+    ],
+    "beet": [
+      "food.vegetable.root-vegetables.beet"
+    ],
+    "bell pepper": [
+      "food.vegetable.nightshades.bell-pepper"
+    ],
+    "bitter melon": [
+      "food.vegetable.green-vegetables.bitter-melon"
+    ],
+    "bok choy": [
+      "food.vegetable.green-vegetables.bok-choy"
+    ],
+    "broccoli": [
+      "food.vegetable.green-vegetables.broccoli"
+    ],
+    "brussels sprouts": [
+      "food.vegetable.green-vegetables.brussels-sprouts"
+    ],
+    "burdock root": [
+      "food.vegetable.root-vegetables.burdock-root"
+    ],
+    "butternut squash": [
+      "food.vegetable.root-vegetables.butternut-squash"
+    ],
+    "cabbage": [
+      "food.vegetable.green-vegetables.cabbage"
+    ],
+    "carrot": [
+      "food.vegetable.root-vegetables.carrot"
+    ],
+    "cauliflower": [
+      "food.vegetable.green-vegetables.cauliflower"
+    ],
+    "celeriac": [
+      "food.vegetable.root-vegetables.celeriac"
+    ],
+    "celery": [
+      "food.vegetable.green-vegetables.celery"
+    ],
+    "chayote": [
+      "food.vegetable.root-vegetables.chayote"
+    ],
+    "chive": [
+      "food.vegetable.alliums.chive"
+    ],
+    "collard greens": [
+      "food.vegetable.green-vegetables.collard-greens"
+    ],
+    "cucumber": [
+      "food.vegetable.green-vegetables.cucumber"
+    ],
+    "dandelion greens": [
+      "food.vegetable.green-vegetables.dandelion-greens"
+    ],
+    "delicata squash": [
+      "food.vegetable.root-vegetables.delicata-squash"
+    ],
+    "eggplant": [
+      "food.vegetable.nightshades.eggplant"
+    ],
+    "endive": [
+      "food.vegetable.green-vegetables.endive"
+    ],
+    "fennel": [
+      "food.vegetable.green-vegetables.fennel"
+    ],
+    "garden pea": [
+      "food.vegetable.green-vegetables.garden-pea"
+    ],
+    "garlic": [
+      "food.vegetable.alliums.garlic"
+    ],
+    "garlic chives": [
+      "food.vegetable.alliums.garlic-chives"
+    ],
+    "green bean": [
+      "food.vegetable.green-vegetables.green-bean"
+    ],
+    "habanero pepper": [
+      "food.vegetable.nightshades.habanero-pepper"
+    ],
+    "hubbard squash": [
+      "food.vegetable.root-vegetables.hubbard-squash"
+    ],
+    "jalapeño pepper": [
+      "food.vegetable.nightshades.jalapeno-pepper"
+    ],
+    "jicama": [
+      "food.vegetable.root-vegetables.jicama"
+    ],
+    "kabocha squash": [
+      "food.vegetable.root-vegetables.kabocha-squash"
+    ],
+    "kale": [
+      "food.vegetable.green-vegetables.kale"
+    ],
+    "kohlrabi": [
+      "food.vegetable.green-vegetables.kohlrabi"
+    ],
+    "leek": [
+      "food.vegetable.alliums.leek"
+    ],
+    "lettuce": [
+      "food.vegetable.green-vegetables.lettuce"
+    ],
+    "lotus root": [
+      "food.vegetable.root-vegetables.lotus-root"
+    ],
+    "mizuna": [
+      "food.vegetable.green-vegetables.mizuna"
+    ],
+    "mustard greens": [
+      "food.vegetable.green-vegetables.mustard-greens"
+    ],
+    "napa cabbage": [
+      "food.vegetable.green-vegetables.napa-cabbage"
+    ],
+    "okra": [
+      "food.vegetable.green-vegetables.okra"
+    ],
+    "onion": [
+      "food.vegetable.alliums.onion"
+    ],
+    "parsnip": [
+      "food.vegetable.root-vegetables.parsnip"
+    ],
+    "poblano pepper": [
+      "food.vegetable.nightshades.poblano-pepper"
+    ],
+    "pumpkin": [
+      "food.vegetable.root-vegetables.pumpkin"
+    ],
+    "radicchio": [
+      "food.vegetable.green-vegetables.radicchio"
+    ],
+    "radish": [
+      "food.vegetable.root-vegetables.radish"
+    ],
+    "ramp": [
+      "food.vegetable.alliums.ramp"
+    ],
+    "rapini": [
+      "food.vegetable.green-vegetables.rapini"
+    ],
+    "rhubarb": [
+      "food.vegetable.green-vegetables.rhubarb"
+    ],
+    "rutabaga": [
+      "food.vegetable.root-vegetables.rutabaga"
+    ],
+    "salsify": [
+      "food.vegetable.root-vegetables.salsify"
+    ],
+    "scallion": [
+      "food.vegetable.alliums.scallion"
+    ],
+    "scorzonera": [
+      "food.vegetable.root-vegetables.scorzonera"
+    ],
+    "serrano pepper": [
+      "food.vegetable.nightshades.serrano-pepper"
+    ],
+    "shallot": [
+      "food.vegetable.alliums.shallot"
+    ],
+    "snow pea": [
+      "food.vegetable.green-vegetables.snow-pea"
+    ],
+    "sorrel": [
+      "food.vegetable.green-vegetables.sorrel"
+    ],
+    "spaghetti squash": [
+      "food.vegetable.root-vegetables.spaghetti-squash"
+    ],
+    "spinach": [
+      "food.vegetable.green-vegetables.spinach"
+    ],
+    "sunchokes": [
+      "food.vegetable.root-vegetables.sunchokes"
+    ],
+    "swiss chard": [
+      "food.vegetable.green-vegetables.swiss-chard"
+    ],
+    "tatsoi": [
+      "food.vegetable.green-vegetables.tatsoi"
+    ],
+    "tomatillo": [
+      "food.vegetable.nightshades.tomatillo"
+    ],
+    "tomato": [
+      "food.vegetable.nightshades.tomato"
+    ],
+    "turnip": [
+      "food.vegetable.root-vegetables.turnip"
+    ],
+    "water spinach": [
+      "food.vegetable.green-vegetables.water-spinach"
+    ],
+    "watercress": [
+      "food.vegetable.green-vegetables.watercress"
+    ],
+    "zucchini": [
+      "food.vegetable.root-vegetables.zucchini"
+    ]
+  },
+  "by_id": {
+    "food.vegetable.alliums.chive": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "alliums",
+      "culinary_role": "aromatic",
+      "display_name": "Chive",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.alliums.chive",
+      "moisture_class": "high",
+      "origin_context": "",
+      "parent_group": "alliums",
+      "plant_part": "leaf",
+      "scientific_name": "Allium schoenoprasum",
+      "seasonality": "spring",
+      "slug": "chive",
+      "texture": "tender"
+    },
+    "food.vegetable.alliums.garlic": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "alliums",
+      "culinary_role": "aromatic",
+      "display_name": "Garlic",
+      "flavor_intensity": "pungent",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.alliums.garlic",
+      "moisture_class": "low",
+      "origin_context": "",
+      "parent_group": "alliums",
+      "plant_part": "bulb",
+      "scientific_name": "Allium sativum",
+      "seasonality": "year_round",
+      "slug": "garlic",
+      "texture": "dense"
+    },
+    "food.vegetable.alliums.garlic-chives": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "alliums",
+      "culinary_role": "aromatic",
+      "display_name": "Garlic Chives",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.alliums.garlic-chives",
+      "moisture_class": "high",
+      "origin_context": "CN",
+      "parent_group": "alliums",
+      "plant_part": "leaf",
+      "scientific_name": "Allium tuberosum",
+      "seasonality": "summer",
+      "slug": "garlic-chives",
+      "texture": "tender"
+    },
+    "food.vegetable.alliums.leek": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "alliums",
+      "culinary_role": "aromatic",
+      "display_name": "Leek",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.alliums.leek",
+      "moisture_class": "high",
+      "origin_context": "",
+      "parent_group": "alliums",
+      "plant_part": "stem",
+      "scientific_name": "Allium ampeloprasum",
+      "seasonality": "winter",
+      "slug": "leek",
+      "texture": "fibrous"
+    },
+    "food.vegetable.alliums.onion": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "alliums",
+      "culinary_role": "aromatic",
+      "display_name": "Onion",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.alliums.onion",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "alliums",
+      "plant_part": "bulb",
+      "scientific_name": "Allium cepa",
+      "seasonality": "year_round",
+      "slug": "onion",
+      "texture": "dense"
+    },
+    "food.vegetable.alliums.ramp": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "alliums",
+      "culinary_role": "aromatic",
+      "display_name": "Ramp",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.alliums.ramp",
+      "moisture_class": "medium",
+      "origin_context": "US",
+      "parent_group": "alliums",
+      "plant_part": "bulb",
+      "scientific_name": "Allium tricoccum",
+      "seasonality": "spring",
+      "slug": "ramp",
+      "texture": "tender"
+    },
+    "food.vegetable.alliums.scallion": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "alliums",
+      "culinary_role": "aromatic",
+      "display_name": "Scallion",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.alliums.scallion",
+      "moisture_class": "high",
+      "origin_context": "",
+      "parent_group": "alliums",
+      "plant_part": "stem",
+      "scientific_name": "Allium fistulosum",
+      "seasonality": "year_round",
+      "slug": "scallion",
+      "texture": "crisp"
+    },
+    "food.vegetable.alliums.shallot": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "alliums",
+      "culinary_role": "aromatic",
+      "display_name": "Shallot",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.alliums.shallot",
+      "moisture_class": "medium",
+      "origin_context": "FR",
+      "parent_group": "alliums",
+      "plant_part": "bulb",
+      "scientific_name": "Allium cepa var. aggregatum",
+      "seasonality": "year_round",
+      "slug": "shallot",
+      "texture": "dense"
+    },
+    "food.vegetable.green-vegetables.artichoke": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "flower",
+      "display_name": "Artichoke",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.artichoke",
+      "moisture_class": "medium",
+      "origin_context": "IT",
+      "parent_group": "green-vegetables",
+      "plant_part": "flower",
+      "scientific_name": "Cynara cardunculus var. scolymus",
+      "seasonality": "spring",
+      "slug": "artichoke",
+      "texture": "fibrous"
+    },
+    "food.vegetable.green-vegetables.arugula": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "leafy",
+      "display_name": "Arugula",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.arugula",
+      "moisture_class": "medium",
+      "origin_context": "IT",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Eruca vesicaria",
+      "seasonality": "spring",
+      "slug": "arugula",
+      "texture": "leafy"
+    },
+    "food.vegetable.green-vegetables.asparagus": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "stem",
+      "display_name": "Asparagus",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.asparagus",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "stem",
+      "scientific_name": "Asparagus officinalis",
+      "seasonality": "spring",
+      "slug": "asparagus",
+      "texture": "fibrous"
+    },
+    "food.vegetable.green-vegetables.bamboo-shoot": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "stem",
+      "display_name": "Bamboo Shoot",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.bamboo-shoot",
+      "moisture_class": "medium",
+      "origin_context": "CN",
+      "parent_group": "green-vegetables",
+      "plant_part": "stem",
+      "scientific_name": "Phyllostachys edulis",
+      "seasonality": "spring",
+      "slug": "bamboo-shoot",
+      "texture": "fibrous"
+    },
+    "food.vegetable.green-vegetables.bitter-melon": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "fruit_vegetable",
+      "display_name": "Bitter Melon",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.bitter-melon",
+      "moisture_class": "medium",
+      "origin_context": "IN",
+      "parent_group": "green-vegetables",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Momordica charantia",
+      "seasonality": "summer",
+      "slug": "bitter-melon",
+      "texture": "fibrous"
+    },
+    "food.vegetable.green-vegetables.bok-choy": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "cruciferous",
+      "display_name": "Bok Choy",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.bok-choy",
+      "moisture_class": "high",
+      "origin_context": "CN",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Brassica rapa subsp. chinensis",
+      "seasonality": "year_round",
+      "slug": "bok-choy",
+      "texture": "crisp"
+    },
+    "food.vegetable.green-vegetables.broccoli": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "cruciferous",
+      "display_name": "Broccoli",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.broccoli",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "flower",
+      "scientific_name": "Brassica oleracea var. italica",
+      "seasonality": "fall",
+      "slug": "broccoli",
+      "texture": "fibrous"
+    },
+    "food.vegetable.green-vegetables.brussels-sprouts": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "cruciferous",
+      "display_name": "Brussels Sprouts",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.brussels-sprouts",
+      "moisture_class": "medium",
+      "origin_context": "BE",
+      "parent_group": "green-vegetables",
+      "plant_part": "flower",
+      "scientific_name": "Brassica oleracea var. gemmifera",
+      "seasonality": "fall",
+      "slug": "brussels-sprouts",
+      "texture": "dense"
+    },
+    "food.vegetable.green-vegetables.cabbage": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "cruciferous",
+      "display_name": "Cabbage",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.cabbage",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Brassica oleracea var. capitata",
+      "seasonality": "winter",
+      "slug": "cabbage",
+      "texture": "dense"
+    },
+    "food.vegetable.green-vegetables.cauliflower": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "cruciferous",
+      "display_name": "Cauliflower",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.cauliflower",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "flower",
+      "scientific_name": "Brassica oleracea var. botrytis",
+      "seasonality": "fall",
+      "slug": "cauliflower",
+      "texture": "dense"
+    },
+    "food.vegetable.green-vegetables.celery": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "aromatic",
+      "display_name": "Celery",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.celery",
+      "moisture_class": "high",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "stem",
+      "scientific_name": "Apium graveolens",
+      "seasonality": "year_round",
+      "slug": "celery",
+      "texture": "fibrous"
+    },
+    "food.vegetable.green-vegetables.collard-greens": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "cruciferous",
+      "display_name": "Collard Greens",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.collard-greens",
+      "moisture_class": "medium",
+      "origin_context": "US",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Brassica oleracea var. viridis",
+      "seasonality": "winter",
+      "slug": "collard-greens",
+      "texture": "fibrous"
+    },
+    "food.vegetable.green-vegetables.cucumber": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "primary",
+      "display_name": "Cucumber",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.cucumber",
+      "moisture_class": "high",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Cucumis sativus",
+      "seasonality": "summer",
+      "slug": "cucumber",
+      "texture": "crisp"
+    },
+    "food.vegetable.green-vegetables.dandelion-greens": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "leafy",
+      "display_name": "Dandelion Greens",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.dandelion-greens",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Taraxacum officinale",
+      "seasonality": "spring",
+      "slug": "dandelion-greens",
+      "texture": "fibrous"
+    },
+    "food.vegetable.green-vegetables.endive": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "leafy",
+      "display_name": "Endive",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.endive",
+      "moisture_class": "medium",
+      "origin_context": "BE",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Cichorium endivia",
+      "seasonality": "winter",
+      "slug": "endive",
+      "texture": "crisp"
+    },
+    "food.vegetable.green-vegetables.fennel": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "aromatic",
+      "display_name": "Fennel",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.fennel",
+      "moisture_class": "high",
+      "origin_context": "IT",
+      "parent_group": "green-vegetables",
+      "plant_part": "bulb",
+      "scientific_name": "Foeniculum vulgare",
+      "seasonality": "fall",
+      "slug": "fennel",
+      "texture": "crisp"
+    },
+    "food.vegetable.green-vegetables.garden-pea": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "pod",
+      "display_name": "Garden Pea",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.garden-pea",
+      "moisture_class": "high",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "pod",
+      "scientific_name": "Pisum sativum",
+      "seasonality": "spring",
+      "slug": "garden-pea",
+      "texture": "tender"
+    },
+    "food.vegetable.green-vegetables.green-bean": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "pod",
+      "display_name": "Green Bean",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.green-bean",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "pod",
+      "scientific_name": "Phaseolus vulgaris",
+      "seasonality": "summer",
+      "slug": "green-bean",
+      "texture": "crisp"
+    },
+    "food.vegetable.green-vegetables.kale": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "cruciferous",
+      "display_name": "Kale",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.kale",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Brassica oleracea var. sabellica",
+      "seasonality": "winter",
+      "slug": "kale",
+      "texture": "fibrous"
+    },
+    "food.vegetable.green-vegetables.kohlrabi": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "cruciferous",
+      "display_name": "Kohlrabi",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.kohlrabi",
+      "moisture_class": "high",
+      "origin_context": "DE",
+      "parent_group": "green-vegetables",
+      "plant_part": "stem",
+      "scientific_name": "Brassica oleracea var. gongylodes",
+      "seasonality": "fall",
+      "slug": "kohlrabi",
+      "texture": "crisp"
+    },
+    "food.vegetable.green-vegetables.lettuce": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "leafy",
+      "display_name": "Lettuce",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.lettuce",
+      "moisture_class": "high",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Lactuca sativa",
+      "seasonality": "spring",
+      "slug": "lettuce",
+      "texture": "crisp"
+    },
+    "food.vegetable.green-vegetables.mizuna": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "leafy",
+      "display_name": "Mizuna",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.mizuna",
+      "moisture_class": "high",
+      "origin_context": "JP",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Brassica rapa var. nipposinica",
+      "seasonality": "fall",
+      "slug": "mizuna",
+      "texture": "leafy"
+    },
+    "food.vegetable.green-vegetables.mustard-greens": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "cruciferous",
+      "display_name": "Mustard Greens",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.mustard-greens",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Brassica juncea",
+      "seasonality": "winter",
+      "slug": "mustard-greens",
+      "texture": "fibrous"
+    },
+    "food.vegetable.green-vegetables.napa-cabbage": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "cruciferous",
+      "display_name": "Napa Cabbage",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.napa-cabbage",
+      "moisture_class": "high",
+      "origin_context": "CN",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Brassica rapa subsp. pekinensis",
+      "seasonality": "fall",
+      "slug": "napa-cabbage",
+      "texture": "crisp"
+    },
+    "food.vegetable.green-vegetables.okra": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "pod",
+      "display_name": "Okra",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.okra",
+      "moisture_class": "medium",
+      "origin_context": "US",
+      "parent_group": "green-vegetables",
+      "plant_part": "pod",
+      "scientific_name": "Abelmoschus esculentus",
+      "seasonality": "summer",
+      "slug": "okra",
+      "texture": "succulent"
+    },
+    "food.vegetable.green-vegetables.radicchio": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "leafy",
+      "display_name": "Radicchio",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.radicchio",
+      "moisture_class": "medium",
+      "origin_context": "IT",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Cichorium intybus",
+      "seasonality": "winter",
+      "slug": "radicchio",
+      "texture": "crisp"
+    },
+    "food.vegetable.green-vegetables.rapini": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "cruciferous",
+      "display_name": "Rapini",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.rapini",
+      "moisture_class": "medium",
+      "origin_context": "IT",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Brassica rapa subsp. rapa",
+      "seasonality": "fall",
+      "slug": "rapini",
+      "texture": "fibrous"
+    },
+    "food.vegetable.green-vegetables.rhubarb": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "stem",
+      "display_name": "Rhubarb",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.rhubarb",
+      "moisture_class": "high",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "stem",
+      "scientific_name": "Rheum rhabarbarum",
+      "seasonality": "spring",
+      "slug": "rhubarb",
+      "texture": "fibrous"
+    },
+    "food.vegetable.green-vegetables.snow-pea": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "pod",
+      "display_name": "Snow Pea",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.snow-pea",
+      "moisture_class": "high",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "pod",
+      "scientific_name": "Pisum sativum var. saccharatum",
+      "seasonality": "spring",
+      "slug": "snow-pea",
+      "texture": "crisp"
+    },
+    "food.vegetable.green-vegetables.sorrel": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "leafy",
+      "display_name": "Sorrel",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.sorrel",
+      "moisture_class": "high",
+      "origin_context": "FR",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Rumex acetosa",
+      "seasonality": "spring",
+      "slug": "sorrel",
+      "texture": "leafy"
+    },
+    "food.vegetable.green-vegetables.spinach": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "leafy",
+      "display_name": "Spinach",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.spinach",
+      "moisture_class": "high",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Spinacia oleracea",
+      "seasonality": "spring",
+      "slug": "spinach",
+      "texture": "leafy"
+    },
+    "food.vegetable.green-vegetables.swiss-chard": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "leafy",
+      "display_name": "Swiss Chard",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.swiss-chard",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Beta vulgaris subsp. vulgaris",
+      "seasonality": "summer",
+      "slug": "swiss-chard",
+      "texture": "fibrous"
+    },
+    "food.vegetable.green-vegetables.tatsoi": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "leafy",
+      "display_name": "Tatsoi",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.tatsoi",
+      "moisture_class": "high",
+      "origin_context": "CN",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Brassica rapa subsp. narinosa",
+      "seasonality": "fall",
+      "slug": "tatsoi",
+      "texture": "leafy"
+    },
+    "food.vegetable.green-vegetables.water-spinach": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "leafy",
+      "display_name": "Water Spinach",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.water-spinach",
+      "moisture_class": "high",
+      "origin_context": "CN",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Ipomoea aquatica",
+      "seasonality": "summer",
+      "slug": "water-spinach",
+      "texture": "tender"
+    },
+    "food.vegetable.green-vegetables.watercress": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "green_vegetables",
+      "culinary_role": "leafy",
+      "display_name": "Watercress",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.green-vegetables.watercress",
+      "moisture_class": "high",
+      "origin_context": "GB",
+      "parent_group": "green-vegetables",
+      "plant_part": "leaf",
+      "scientific_name": "Nasturtium officinale",
+      "seasonality": "spring",
+      "slug": "watercress",
+      "texture": "tender"
+    },
+    "food.vegetable.nightshades.anaheim-pepper": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "nightshades",
+      "culinary_role": "fruit_vegetable",
+      "display_name": "Anaheim Pepper",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.nightshades.anaheim-pepper",
+      "moisture_class": "medium",
+      "origin_context": "US",
+      "parent_group": "nightshades",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Capsicum annuum",
+      "seasonality": "summer",
+      "slug": "anaheim-pepper",
+      "texture": "succulent"
+    },
+    "food.vegetable.nightshades.bell-pepper": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "nightshades",
+      "culinary_role": "fruit_vegetable",
+      "display_name": "Bell Pepper",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.nightshades.bell-pepper",
+      "moisture_class": "high",
+      "origin_context": "",
+      "parent_group": "nightshades",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Capsicum annuum",
+      "seasonality": "summer",
+      "slug": "bell-pepper",
+      "texture": "crisp"
+    },
+    "food.vegetable.nightshades.eggplant": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "nightshades",
+      "culinary_role": "fruit_vegetable",
+      "display_name": "Eggplant",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.nightshades.eggplant",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "nightshades",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Solanum melongena",
+      "seasonality": "summer",
+      "slug": "eggplant",
+      "texture": "succulent"
+    },
+    "food.vegetable.nightshades.habanero-pepper": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "nightshades",
+      "culinary_role": "fruit_vegetable",
+      "display_name": "Habanero Pepper",
+      "flavor_intensity": "pungent",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.nightshades.habanero-pepper",
+      "moisture_class": "medium",
+      "origin_context": "MX",
+      "parent_group": "nightshades",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Capsicum chinense",
+      "seasonality": "summer",
+      "slug": "habanero-pepper",
+      "texture": "succulent"
+    },
+    "food.vegetable.nightshades.jalapeno-pepper": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "nightshades",
+      "culinary_role": "fruit_vegetable",
+      "display_name": "Jalapeño Pepper",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.nightshades.jalapeno-pepper",
+      "moisture_class": "high",
+      "origin_context": "MX",
+      "parent_group": "nightshades",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Capsicum annuum",
+      "seasonality": "summer",
+      "slug": "jalapeno-pepper",
+      "texture": "crisp"
+    },
+    "food.vegetable.nightshades.poblano-pepper": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "nightshades",
+      "culinary_role": "fruit_vegetable",
+      "display_name": "Poblano Pepper",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.nightshades.poblano-pepper",
+      "moisture_class": "medium",
+      "origin_context": "MX",
+      "parent_group": "nightshades",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Capsicum annuum",
+      "seasonality": "summer",
+      "slug": "poblano-pepper",
+      "texture": "succulent"
+    },
+    "food.vegetable.nightshades.serrano-pepper": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "nightshades",
+      "culinary_role": "fruit_vegetable",
+      "display_name": "Serrano Pepper",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.nightshades.serrano-pepper",
+      "moisture_class": "high",
+      "origin_context": "MX",
+      "parent_group": "nightshades",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Capsicum annuum",
+      "seasonality": "summer",
+      "slug": "serrano-pepper",
+      "texture": "crisp"
+    },
+    "food.vegetable.nightshades.tomatillo": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "nightshades",
+      "culinary_role": "fruit_vegetable",
+      "display_name": "Tomatillo",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.nightshades.tomatillo",
+      "moisture_class": "high",
+      "origin_context": "MX",
+      "parent_group": "nightshades",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Physalis philadelphica",
+      "seasonality": "summer",
+      "slug": "tomatillo",
+      "texture": "succulent"
+    },
+    "food.vegetable.nightshades.tomato": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "nightshades",
+      "culinary_role": "fruit_vegetable",
+      "display_name": "Tomato",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.nightshades.tomato",
+      "moisture_class": "high",
+      "origin_context": "",
+      "parent_group": "nightshades",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Solanum lycopersicum",
+      "seasonality": "summer",
+      "slug": "tomato",
+      "texture": "succulent"
+    },
+    "food.vegetable.root-vegetables.acorn-squash": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "primary",
+      "display_name": "Acorn Squash",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.acorn-squash",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "root-vegetables",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Cucurbita pepo var. turbinata",
+      "seasonality": "fall",
+      "slug": "acorn-squash",
+      "texture": "dense"
+    },
+    "food.vegetable.root-vegetables.beet": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "root",
+      "display_name": "Beet",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.beet",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "root-vegetables",
+      "plant_part": "root",
+      "scientific_name": "Beta vulgaris subsp. vulgaris",
+      "seasonality": "fall",
+      "slug": "beet",
+      "texture": "dense"
+    },
+    "food.vegetable.root-vegetables.burdock-root": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "root",
+      "display_name": "Burdock Root",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.burdock-root",
+      "moisture_class": "medium",
+      "origin_context": "JP",
+      "parent_group": "root-vegetables",
+      "plant_part": "root",
+      "scientific_name": "Arctium lappa",
+      "seasonality": "fall",
+      "slug": "burdock-root",
+      "texture": "fibrous"
+    },
+    "food.vegetable.root-vegetables.butternut-squash": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "primary",
+      "display_name": "Butternut Squash",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.butternut-squash",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "root-vegetables",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Cucurbita moschata",
+      "seasonality": "fall",
+      "slug": "butternut-squash",
+      "texture": "dense"
+    },
+    "food.vegetable.root-vegetables.carrot": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "root",
+      "display_name": "Carrot",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.carrot",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "root-vegetables",
+      "plant_part": "root",
+      "scientific_name": "Daucus carota subsp. sativus",
+      "seasonality": "year_round",
+      "slug": "carrot",
+      "texture": "crisp"
+    },
+    "food.vegetable.root-vegetables.celeriac": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "root",
+      "display_name": "Celeriac",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.celeriac",
+      "moisture_class": "medium",
+      "origin_context": "FR",
+      "parent_group": "root-vegetables",
+      "plant_part": "root",
+      "scientific_name": "Apium graveolens var. rapaceum",
+      "seasonality": "winter",
+      "slug": "celeriac",
+      "texture": "dense"
+    },
+    "food.vegetable.root-vegetables.chayote": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "primary",
+      "display_name": "Chayote",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.chayote",
+      "moisture_class": "high",
+      "origin_context": "MX",
+      "parent_group": "root-vegetables",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Sechium edule",
+      "seasonality": "fall",
+      "slug": "chayote",
+      "texture": "crisp"
+    },
+    "food.vegetable.root-vegetables.delicata-squash": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "primary",
+      "display_name": "Delicata Squash",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.delicata-squash",
+      "moisture_class": "medium",
+      "origin_context": "US",
+      "parent_group": "root-vegetables",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Cucurbita pepo",
+      "seasonality": "fall",
+      "slug": "delicata-squash",
+      "texture": "tender"
+    },
+    "food.vegetable.root-vegetables.hubbard-squash": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "primary",
+      "display_name": "Hubbard Squash",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.hubbard-squash",
+      "moisture_class": "medium",
+      "origin_context": "US",
+      "parent_group": "root-vegetables",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Cucurbita maxima",
+      "seasonality": "fall",
+      "slug": "hubbard-squash",
+      "texture": "dense"
+    },
+    "food.vegetable.root-vegetables.jicama": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "root",
+      "display_name": "Jicama",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.jicama",
+      "moisture_class": "high",
+      "origin_context": "MX",
+      "parent_group": "root-vegetables",
+      "plant_part": "root",
+      "scientific_name": "Pachyrhizus erosus",
+      "seasonality": "winter",
+      "slug": "jicama",
+      "texture": "crisp"
+    },
+    "food.vegetable.root-vegetables.kabocha-squash": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "primary",
+      "display_name": "Kabocha Squash",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.kabocha-squash",
+      "moisture_class": "medium",
+      "origin_context": "JP",
+      "parent_group": "root-vegetables",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Cucurbita maxima",
+      "seasonality": "fall",
+      "slug": "kabocha-squash",
+      "texture": "dense"
+    },
+    "food.vegetable.root-vegetables.lotus-root": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "root",
+      "display_name": "Lotus Root",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.lotus-root",
+      "moisture_class": "medium",
+      "origin_context": "CN",
+      "parent_group": "root-vegetables",
+      "plant_part": "root",
+      "scientific_name": "Nelumbo nucifera",
+      "seasonality": "year_round",
+      "slug": "lotus-root",
+      "texture": "crisp"
+    },
+    "food.vegetable.root-vegetables.parsnip": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "root",
+      "display_name": "Parsnip",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.parsnip",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "root-vegetables",
+      "plant_part": "root",
+      "scientific_name": "Pastinaca sativa",
+      "seasonality": "winter",
+      "slug": "parsnip",
+      "texture": "fibrous"
+    },
+    "food.vegetable.root-vegetables.pumpkin": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "primary",
+      "display_name": "Pumpkin",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.pumpkin",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "root-vegetables",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Cucurbita pepo",
+      "seasonality": "fall",
+      "slug": "pumpkin",
+      "texture": "dense"
+    },
+    "food.vegetable.root-vegetables.radish": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "root",
+      "display_name": "Radish",
+      "flavor_intensity": "bold",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.radish",
+      "moisture_class": "high",
+      "origin_context": "",
+      "parent_group": "root-vegetables",
+      "plant_part": "root",
+      "scientific_name": "Raphanus sativus",
+      "seasonality": "spring",
+      "slug": "radish",
+      "texture": "crisp"
+    },
+    "food.vegetable.root-vegetables.rutabaga": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "root",
+      "display_name": "Rutabaga",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.rutabaga",
+      "moisture_class": "medium",
+      "origin_context": "SE",
+      "parent_group": "root-vegetables",
+      "plant_part": "root",
+      "scientific_name": "Brassica napus subsp. napobrassica",
+      "seasonality": "winter",
+      "slug": "rutabaga",
+      "texture": "dense"
+    },
+    "food.vegetable.root-vegetables.salsify": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "root",
+      "display_name": "Salsify",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.salsify",
+      "moisture_class": "medium",
+      "origin_context": "FR",
+      "parent_group": "root-vegetables",
+      "plant_part": "root",
+      "scientific_name": "Tragopogon porrifolius",
+      "seasonality": "fall",
+      "slug": "salsify",
+      "texture": "fibrous"
+    },
+    "food.vegetable.root-vegetables.scorzonera": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "root",
+      "display_name": "Scorzonera",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.scorzonera",
+      "moisture_class": "medium",
+      "origin_context": "ES",
+      "parent_group": "root-vegetables",
+      "plant_part": "root",
+      "scientific_name": "Scorzonera hispanica",
+      "seasonality": "fall",
+      "slug": "scorzonera",
+      "texture": "fibrous"
+    },
+    "food.vegetable.root-vegetables.spaghetti-squash": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "primary",
+      "display_name": "Spaghetti Squash",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.spaghetti-squash",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "root-vegetables",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Cucurbita pepo",
+      "seasonality": "fall",
+      "slug": "spaghetti-squash",
+      "texture": "fibrous"
+    },
+    "food.vegetable.root-vegetables.sunchokes": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "root",
+      "display_name": "Sunchokes",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.sunchokes",
+      "moisture_class": "medium",
+      "origin_context": "US",
+      "parent_group": "root-vegetables",
+      "plant_part": "tuber",
+      "scientific_name": "Helianthus tuberosus",
+      "seasonality": "fall",
+      "slug": "sunchokes",
+      "texture": "dense"
+    },
+    "food.vegetable.root-vegetables.turnip": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "root",
+      "display_name": "Turnip",
+      "flavor_intensity": "moderate",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.turnip",
+      "moisture_class": "medium",
+      "origin_context": "",
+      "parent_group": "root-vegetables",
+      "plant_part": "root",
+      "scientific_name": "Brassica rapa subsp. rapa",
+      "seasonality": "winter",
+      "slug": "turnip",
+      "texture": "dense"
+    },
+    "food.vegetable.root-vegetables.zucchini": {
+      "catalog_version": "1.0.0",
+      "culinary_group": "root_vegetables",
+      "culinary_role": "primary",
+      "display_name": "Zucchini",
+      "flavor_intensity": "mild",
+      "food_ontology_version": "1.2.0",
+      "id": "food.vegetable.root-vegetables.zucchini",
+      "moisture_class": "high",
+      "origin_context": "",
+      "parent_group": "root-vegetables",
+      "plant_part": "fruit_vegetable",
+      "scientific_name": "Cucurbita pepo",
+      "seasonality": "summer",
+      "slug": "zucchini",
+      "texture": "tender"
+    }
+  },
+  "by_namespace": {
+    "food.vegetable": [
+      "food.vegetable"
+    ],
+    "food.vegetable.alliums": [
+      "food.vegetable.alliums.chive",
+      "food.vegetable.alliums.garlic",
+      "food.vegetable.alliums.garlic-chives",
+      "food.vegetable.alliums.leek",
+      "food.vegetable.alliums.onion",
+      "food.vegetable.alliums.ramp",
+      "food.vegetable.alliums.scallion",
+      "food.vegetable.alliums.shallot"
+    ],
+    "food.vegetable.green-vegetables": [
+      "food.vegetable.green-vegetables.artichoke",
+      "food.vegetable.green-vegetables.arugula",
+      "food.vegetable.green-vegetables.asparagus",
+      "food.vegetable.green-vegetables.bamboo-shoot",
+      "food.vegetable.green-vegetables.bitter-melon",
+      "food.vegetable.green-vegetables.bok-choy",
+      "food.vegetable.green-vegetables.broccoli",
+      "food.vegetable.green-vegetables.brussels-sprouts",
+      "food.vegetable.green-vegetables.cabbage",
+      "food.vegetable.green-vegetables.cauliflower",
+      "food.vegetable.green-vegetables.celery",
+      "food.vegetable.green-vegetables.collard-greens",
+      "food.vegetable.green-vegetables.cucumber",
+      "food.vegetable.green-vegetables.dandelion-greens",
+      "food.vegetable.green-vegetables.endive",
+      "food.vegetable.green-vegetables.fennel",
+      "food.vegetable.green-vegetables.garden-pea",
+      "food.vegetable.green-vegetables.green-bean",
+      "food.vegetable.green-vegetables.kale",
+      "food.vegetable.green-vegetables.kohlrabi",
+      "food.vegetable.green-vegetables.lettuce",
+      "food.vegetable.green-vegetables.mizuna",
+      "food.vegetable.green-vegetables.mustard-greens",
+      "food.vegetable.green-vegetables.napa-cabbage",
+      "food.vegetable.green-vegetables.okra",
+      "food.vegetable.green-vegetables.radicchio",
+      "food.vegetable.green-vegetables.rapini",
+      "food.vegetable.green-vegetables.rhubarb",
+      "food.vegetable.green-vegetables.snow-pea",
+      "food.vegetable.green-vegetables.sorrel",
+      "food.vegetable.green-vegetables.spinach",
+      "food.vegetable.green-vegetables.swiss-chard",
+      "food.vegetable.green-vegetables.tatsoi",
+      "food.vegetable.green-vegetables.water-spinach",
+      "food.vegetable.green-vegetables.watercress"
+    ],
+    "food.vegetable.nightshades": [
+      "food.vegetable.nightshades.anaheim-pepper",
+      "food.vegetable.nightshades.bell-pepper",
+      "food.vegetable.nightshades.eggplant",
+      "food.vegetable.nightshades.habanero-pepper",
+      "food.vegetable.nightshades.jalapeno-pepper",
+      "food.vegetable.nightshades.poblano-pepper",
+      "food.vegetable.nightshades.serrano-pepper",
+      "food.vegetable.nightshades.tomatillo",
+      "food.vegetable.nightshades.tomato"
+    ],
+    "food.vegetable.root-vegetables": [
+      "food.vegetable.root-vegetables.acorn-squash",
+      "food.vegetable.root-vegetables.beet",
+      "food.vegetable.root-vegetables.burdock-root",
+      "food.vegetable.root-vegetables.butternut-squash",
+      "food.vegetable.root-vegetables.carrot",
+      "food.vegetable.root-vegetables.celeriac",
+      "food.vegetable.root-vegetables.chayote",
+      "food.vegetable.root-vegetables.delicata-squash",
+      "food.vegetable.root-vegetables.hubbard-squash",
+      "food.vegetable.root-vegetables.jicama",
+      "food.vegetable.root-vegetables.kabocha-squash",
+      "food.vegetable.root-vegetables.lotus-root",
+      "food.vegetable.root-vegetables.parsnip",
+      "food.vegetable.root-vegetables.pumpkin",
+      "food.vegetable.root-vegetables.radish",
+      "food.vegetable.root-vegetables.rutabaga",
+      "food.vegetable.root-vegetables.salsify",
+      "food.vegetable.root-vegetables.scorzonera",
+      "food.vegetable.root-vegetables.spaghetti-squash",
+      "food.vegetable.root-vegetables.sunchokes",
+      "food.vegetable.root-vegetables.turnip",
+      "food.vegetable.root-vegetables.zucchini"
+    ]
+  },
+  "by_scientific_name": {
+    "Abelmoschus esculentus": [
+      "food.vegetable.green-vegetables.okra"
+    ],
+    "Allium ampeloprasum": [
+      "food.vegetable.alliums.leek"
+    ],
+    "Allium cepa": [
+      "food.vegetable.alliums.onion"
+    ],
+    "Allium cepa var. aggregatum": [
+      "food.vegetable.alliums.shallot"
+    ],
+    "Allium fistulosum": [
+      "food.vegetable.alliums.scallion"
+    ],
+    "Allium sativum": [
+      "food.vegetable.alliums.garlic"
+    ],
+    "Allium schoenoprasum": [
+      "food.vegetable.alliums.chive"
+    ],
+    "Allium tricoccum": [
+      "food.vegetable.alliums.ramp"
+    ],
+    "Allium tuberosum": [
+      "food.vegetable.alliums.garlic-chives"
+    ],
+    "Apium graveolens": [
+      "food.vegetable.green-vegetables.celery"
+    ],
+    "Apium graveolens var. rapaceum": [
+      "food.vegetable.root-vegetables.celeriac"
+    ],
+    "Arctium lappa": [
+      "food.vegetable.root-vegetables.burdock-root"
+    ],
+    "Asparagus officinalis": [
+      "food.vegetable.green-vegetables.asparagus"
+    ],
+    "Beta vulgaris subsp. vulgaris": [
+      "food.vegetable.green-vegetables.swiss-chard",
+      "food.vegetable.root-vegetables.beet"
+    ],
+    "Brassica juncea": [
+      "food.vegetable.green-vegetables.mustard-greens"
+    ],
+    "Brassica napus subsp. napobrassica": [
+      "food.vegetable.root-vegetables.rutabaga"
+    ],
+    "Brassica oleracea var. botrytis": [
+      "food.vegetable.green-vegetables.cauliflower"
+    ],
+    "Brassica oleracea var. capitata": [
+      "food.vegetable.green-vegetables.cabbage"
+    ],
+    "Brassica oleracea var. gemmifera": [
+      "food.vegetable.green-vegetables.brussels-sprouts"
+    ],
+    "Brassica oleracea var. gongylodes": [
+      "food.vegetable.green-vegetables.kohlrabi"
+    ],
+    "Brassica oleracea var. italica": [
+      "food.vegetable.green-vegetables.broccoli"
+    ],
+    "Brassica oleracea var. sabellica": [
+      "food.vegetable.green-vegetables.kale"
+    ],
+    "Brassica oleracea var. viridis": [
+      "food.vegetable.green-vegetables.collard-greens"
+    ],
+    "Brassica rapa subsp. chinensis": [
+      "food.vegetable.green-vegetables.bok-choy"
+    ],
+    "Brassica rapa subsp. narinosa": [
+      "food.vegetable.green-vegetables.tatsoi"
+    ],
+    "Brassica rapa subsp. pekinensis": [
+      "food.vegetable.green-vegetables.napa-cabbage"
+    ],
+    "Brassica rapa subsp. rapa": [
+      "food.vegetable.green-vegetables.rapini",
+      "food.vegetable.root-vegetables.turnip"
+    ],
+    "Brassica rapa var. nipposinica": [
+      "food.vegetable.green-vegetables.mizuna"
+    ],
+    "Capsicum annuum": [
+      "food.vegetable.nightshades.anaheim-pepper",
+      "food.vegetable.nightshades.bell-pepper",
+      "food.vegetable.nightshades.jalapeno-pepper",
+      "food.vegetable.nightshades.poblano-pepper",
+      "food.vegetable.nightshades.serrano-pepper"
+    ],
+    "Capsicum chinense": [
+      "food.vegetable.nightshades.habanero-pepper"
+    ],
+    "Cichorium endivia": [
+      "food.vegetable.green-vegetables.endive"
+    ],
+    "Cichorium intybus": [
+      "food.vegetable.green-vegetables.radicchio"
+    ],
+    "Cucumis sativus": [
+      "food.vegetable.green-vegetables.cucumber"
+    ],
+    "Cucurbita maxima": [
+      "food.vegetable.root-vegetables.hubbard-squash",
+      "food.vegetable.root-vegetables.kabocha-squash"
+    ],
+    "Cucurbita moschata": [
+      "food.vegetable.root-vegetables.butternut-squash"
+    ],
+    "Cucurbita pepo": [
+      "food.vegetable.root-vegetables.delicata-squash",
+      "food.vegetable.root-vegetables.pumpkin",
+      "food.vegetable.root-vegetables.spaghetti-squash",
+      "food.vegetable.root-vegetables.zucchini"
+    ],
+    "Cucurbita pepo var. turbinata": [
+      "food.vegetable.root-vegetables.acorn-squash"
+    ],
+    "Cynara cardunculus var. scolymus": [
+      "food.vegetable.green-vegetables.artichoke"
+    ],
+    "Daucus carota subsp. sativus": [
+      "food.vegetable.root-vegetables.carrot"
+    ],
+    "Eruca vesicaria": [
+      "food.vegetable.green-vegetables.arugula"
+    ],
+    "Foeniculum vulgare": [
+      "food.vegetable.green-vegetables.fennel"
+    ],
+    "Helianthus tuberosus": [
+      "food.vegetable.root-vegetables.sunchokes"
+    ],
+    "Ipomoea aquatica": [
+      "food.vegetable.green-vegetables.water-spinach"
+    ],
+    "Lactuca sativa": [
+      "food.vegetable.green-vegetables.lettuce"
+    ],
+    "Momordica charantia": [
+      "food.vegetable.green-vegetables.bitter-melon"
+    ],
+    "Nasturtium officinale": [
+      "food.vegetable.green-vegetables.watercress"
+    ],
+    "Nelumbo nucifera": [
+      "food.vegetable.root-vegetables.lotus-root"
+    ],
+    "Pachyrhizus erosus": [
+      "food.vegetable.root-vegetables.jicama"
+    ],
+    "Pastinaca sativa": [
+      "food.vegetable.root-vegetables.parsnip"
+    ],
+    "Phaseolus vulgaris": [
+      "food.vegetable.green-vegetables.green-bean"
+    ],
+    "Phyllostachys edulis": [
+      "food.vegetable.green-vegetables.bamboo-shoot"
+    ],
+    "Physalis philadelphica": [
+      "food.vegetable.nightshades.tomatillo"
+    ],
+    "Pisum sativum": [
+      "food.vegetable.green-vegetables.garden-pea"
+    ],
+    "Pisum sativum var. saccharatum": [
+      "food.vegetable.green-vegetables.snow-pea"
+    ],
+    "Raphanus sativus": [
+      "food.vegetable.root-vegetables.radish"
+    ],
+    "Rheum rhabarbarum": [
+      "food.vegetable.green-vegetables.rhubarb"
+    ],
+    "Rumex acetosa": [
+      "food.vegetable.green-vegetables.sorrel"
+    ],
+    "Scorzonera hispanica": [
+      "food.vegetable.root-vegetables.scorzonera"
+    ],
+    "Sechium edule": [
+      "food.vegetable.root-vegetables.chayote"
+    ],
+    "Solanum lycopersicum": [
+      "food.vegetable.nightshades.tomato"
+    ],
+    "Solanum melongena": [
+      "food.vegetable.nightshades.eggplant"
+    ],
+    "Spinacia oleracea": [
+      "food.vegetable.green-vegetables.spinach"
+    ],
+    "Taraxacum officinale": [
+      "food.vegetable.green-vegetables.dandelion-greens"
+    ],
+    "Tragopogon porrifolius": [
+      "food.vegetable.root-vegetables.salsify"
+    ]
+  },
+  "by_slug": {
+    "acorn-squash": "food.vegetable.root-vegetables.acorn-squash",
+    "anaheim-pepper": "food.vegetable.nightshades.anaheim-pepper",
+    "artichoke": "food.vegetable.green-vegetables.artichoke",
+    "arugula": "food.vegetable.green-vegetables.arugula",
+    "asparagus": "food.vegetable.green-vegetables.asparagus",
+    "bamboo-shoot": "food.vegetable.green-vegetables.bamboo-shoot",
+    "beet": "food.vegetable.root-vegetables.beet",
+    "bell-pepper": "food.vegetable.nightshades.bell-pepper",
+    "bitter-melon": "food.vegetable.green-vegetables.bitter-melon",
+    "bok-choy": "food.vegetable.green-vegetables.bok-choy",
+    "broccoli": "food.vegetable.green-vegetables.broccoli",
+    "brussels-sprouts": "food.vegetable.green-vegetables.brussels-sprouts",
+    "burdock-root": "food.vegetable.root-vegetables.burdock-root",
+    "butternut-squash": "food.vegetable.root-vegetables.butternut-squash",
+    "cabbage": "food.vegetable.green-vegetables.cabbage",
+    "carrot": "food.vegetable.root-vegetables.carrot",
+    "cauliflower": "food.vegetable.green-vegetables.cauliflower",
+    "celeriac": "food.vegetable.root-vegetables.celeriac",
+    "celery": "food.vegetable.green-vegetables.celery",
+    "chayote": "food.vegetable.root-vegetables.chayote",
+    "chive": "food.vegetable.alliums.chive",
+    "collard-greens": "food.vegetable.green-vegetables.collard-greens",
+    "cucumber": "food.vegetable.green-vegetables.cucumber",
+    "dandelion-greens": "food.vegetable.green-vegetables.dandelion-greens",
+    "delicata-squash": "food.vegetable.root-vegetables.delicata-squash",
+    "eggplant": "food.vegetable.nightshades.eggplant",
+    "endive": "food.vegetable.green-vegetables.endive",
+    "fennel": "food.vegetable.green-vegetables.fennel",
+    "garden-pea": "food.vegetable.green-vegetables.garden-pea",
+    "garlic": "food.vegetable.alliums.garlic",
+    "garlic-chives": "food.vegetable.alliums.garlic-chives",
+    "green-bean": "food.vegetable.green-vegetables.green-bean",
+    "habanero-pepper": "food.vegetable.nightshades.habanero-pepper",
+    "hubbard-squash": "food.vegetable.root-vegetables.hubbard-squash",
+    "jalapeno-pepper": "food.vegetable.nightshades.jalapeno-pepper",
+    "jicama": "food.vegetable.root-vegetables.jicama",
+    "kabocha-squash": "food.vegetable.root-vegetables.kabocha-squash",
+    "kale": "food.vegetable.green-vegetables.kale",
+    "kohlrabi": "food.vegetable.green-vegetables.kohlrabi",
+    "leek": "food.vegetable.alliums.leek",
+    "lettuce": "food.vegetable.green-vegetables.lettuce",
+    "lotus-root": "food.vegetable.root-vegetables.lotus-root",
+    "mizuna": "food.vegetable.green-vegetables.mizuna",
+    "mustard-greens": "food.vegetable.green-vegetables.mustard-greens",
+    "napa-cabbage": "food.vegetable.green-vegetables.napa-cabbage",
+    "okra": "food.vegetable.green-vegetables.okra",
+    "onion": "food.vegetable.alliums.onion",
+    "parsnip": "food.vegetable.root-vegetables.parsnip",
+    "poblano-pepper": "food.vegetable.nightshades.poblano-pepper",
+    "pumpkin": "food.vegetable.root-vegetables.pumpkin",
+    "radicchio": "food.vegetable.green-vegetables.radicchio",
+    "radish": "food.vegetable.root-vegetables.radish",
+    "ramp": "food.vegetable.alliums.ramp",
+    "rapini": "food.vegetable.green-vegetables.rapini",
+    "rhubarb": "food.vegetable.green-vegetables.rhubarb",
+    "rutabaga": "food.vegetable.root-vegetables.rutabaga",
+    "salsify": "food.vegetable.root-vegetables.salsify",
+    "scallion": "food.vegetable.alliums.scallion",
+    "scorzonera": "food.vegetable.root-vegetables.scorzonera",
+    "serrano-pepper": "food.vegetable.nightshades.serrano-pepper",
+    "shallot": "food.vegetable.alliums.shallot",
+    "snow-pea": "food.vegetable.green-vegetables.snow-pea",
+    "sorrel": "food.vegetable.green-vegetables.sorrel",
+    "spaghetti-squash": "food.vegetable.root-vegetables.spaghetti-squash",
+    "spinach": "food.vegetable.green-vegetables.spinach",
+    "sunchokes": "food.vegetable.root-vegetables.sunchokes",
+    "swiss-chard": "food.vegetable.green-vegetables.swiss-chard",
+    "tatsoi": "food.vegetable.green-vegetables.tatsoi",
+    "tomatillo": "food.vegetable.nightshades.tomatillo",
+    "tomato": "food.vegetable.nightshades.tomato",
+    "turnip": "food.vegetable.root-vegetables.turnip",
+    "water-spinach": "food.vegetable.green-vegetables.water-spinach",
+    "watercress": "food.vegetable.green-vegetables.watercress",
+    "zucchini": "food.vegetable.root-vegetables.zucchini"
+  },
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "vegetable",
+    "phase": "FOOD-05C.1"
+  },
+  "vocabulary": {
+    "culinary_group": {
+      "alliums": [
+        "food.vegetable.alliums.chive",
+        "food.vegetable.alliums.garlic",
+        "food.vegetable.alliums.garlic-chives",
+        "food.vegetable.alliums.leek",
+        "food.vegetable.alliums.onion",
+        "food.vegetable.alliums.ramp",
+        "food.vegetable.alliums.scallion",
+        "food.vegetable.alliums.shallot"
+      ],
+      "green_vegetables": [
+        "food.vegetable.green-vegetables.artichoke",
+        "food.vegetable.green-vegetables.arugula",
+        "food.vegetable.green-vegetables.asparagus",
+        "food.vegetable.green-vegetables.bamboo-shoot",
+        "food.vegetable.green-vegetables.bitter-melon",
+        "food.vegetable.green-vegetables.bok-choy",
+        "food.vegetable.green-vegetables.broccoli",
+        "food.vegetable.green-vegetables.brussels-sprouts",
+        "food.vegetable.green-vegetables.cabbage",
+        "food.vegetable.green-vegetables.cauliflower",
+        "food.vegetable.green-vegetables.celery",
+        "food.vegetable.green-vegetables.collard-greens",
+        "food.vegetable.green-vegetables.cucumber",
+        "food.vegetable.green-vegetables.dandelion-greens",
+        "food.vegetable.green-vegetables.endive",
+        "food.vegetable.green-vegetables.fennel",
+        "food.vegetable.green-vegetables.garden-pea",
+        "food.vegetable.green-vegetables.green-bean",
+        "food.vegetable.green-vegetables.kale",
+        "food.vegetable.green-vegetables.kohlrabi",
+        "food.vegetable.green-vegetables.lettuce",
+        "food.vegetable.green-vegetables.mizuna",
+        "food.vegetable.green-vegetables.mustard-greens",
+        "food.vegetable.green-vegetables.napa-cabbage",
+        "food.vegetable.green-vegetables.okra",
+        "food.vegetable.green-vegetables.radicchio",
+        "food.vegetable.green-vegetables.rapini",
+        "food.vegetable.green-vegetables.rhubarb",
+        "food.vegetable.green-vegetables.snow-pea",
+        "food.vegetable.green-vegetables.sorrel",
+        "food.vegetable.green-vegetables.spinach",
+        "food.vegetable.green-vegetables.swiss-chard",
+        "food.vegetable.green-vegetables.tatsoi",
+        "food.vegetable.green-vegetables.water-spinach",
+        "food.vegetable.green-vegetables.watercress"
+      ],
+      "nightshades": [
+        "food.vegetable.nightshades.anaheim-pepper",
+        "food.vegetable.nightshades.bell-pepper",
+        "food.vegetable.nightshades.eggplant",
+        "food.vegetable.nightshades.habanero-pepper",
+        "food.vegetable.nightshades.jalapeno-pepper",
+        "food.vegetable.nightshades.poblano-pepper",
+        "food.vegetable.nightshades.serrano-pepper",
+        "food.vegetable.nightshades.tomatillo",
+        "food.vegetable.nightshades.tomato"
+      ],
+      "root_vegetables": [
+        "food.vegetable.root-vegetables.acorn-squash",
+        "food.vegetable.root-vegetables.beet",
+        "food.vegetable.root-vegetables.burdock-root",
+        "food.vegetable.root-vegetables.butternut-squash",
+        "food.vegetable.root-vegetables.carrot",
+        "food.vegetable.root-vegetables.celeriac",
+        "food.vegetable.root-vegetables.chayote",
+        "food.vegetable.root-vegetables.delicata-squash",
+        "food.vegetable.root-vegetables.hubbard-squash",
+        "food.vegetable.root-vegetables.jicama",
+        "food.vegetable.root-vegetables.kabocha-squash",
+        "food.vegetable.root-vegetables.lotus-root",
+        "food.vegetable.root-vegetables.parsnip",
+        "food.vegetable.root-vegetables.pumpkin",
+        "food.vegetable.root-vegetables.radish",
+        "food.vegetable.root-vegetables.rutabaga",
+        "food.vegetable.root-vegetables.salsify",
+        "food.vegetable.root-vegetables.scorzonera",
+        "food.vegetable.root-vegetables.spaghetti-squash",
+        "food.vegetable.root-vegetables.sunchokes",
+        "food.vegetable.root-vegetables.turnip",
+        "food.vegetable.root-vegetables.zucchini"
+      ]
+    },
+    "culinary_role": {
+      "aromatic": [
+        "food.vegetable.alliums.chive",
+        "food.vegetable.alliums.garlic",
+        "food.vegetable.alliums.garlic-chives",
+        "food.vegetable.alliums.leek",
+        "food.vegetable.alliums.onion",
+        "food.vegetable.alliums.ramp",
+        "food.vegetable.alliums.scallion",
+        "food.vegetable.alliums.shallot",
+        "food.vegetable.green-vegetables.celery",
+        "food.vegetable.green-vegetables.fennel"
+      ],
+      "cruciferous": [
+        "food.vegetable.green-vegetables.bok-choy",
+        "food.vegetable.green-vegetables.broccoli",
+        "food.vegetable.green-vegetables.brussels-sprouts",
+        "food.vegetable.green-vegetables.cabbage",
+        "food.vegetable.green-vegetables.cauliflower",
+        "food.vegetable.green-vegetables.collard-greens",
+        "food.vegetable.green-vegetables.kale",
+        "food.vegetable.green-vegetables.kohlrabi",
+        "food.vegetable.green-vegetables.mustard-greens",
+        "food.vegetable.green-vegetables.napa-cabbage",
+        "food.vegetable.green-vegetables.rapini"
+      ],
+      "flower": [
+        "food.vegetable.green-vegetables.artichoke"
+      ],
+      "fruit_vegetable": [
+        "food.vegetable.green-vegetables.bitter-melon",
+        "food.vegetable.nightshades.anaheim-pepper",
+        "food.vegetable.nightshades.bell-pepper",
+        "food.vegetable.nightshades.eggplant",
+        "food.vegetable.nightshades.habanero-pepper",
+        "food.vegetable.nightshades.jalapeno-pepper",
+        "food.vegetable.nightshades.poblano-pepper",
+        "food.vegetable.nightshades.serrano-pepper",
+        "food.vegetable.nightshades.tomatillo",
+        "food.vegetable.nightshades.tomato"
+      ],
+      "leafy": [
+        "food.vegetable.green-vegetables.arugula",
+        "food.vegetable.green-vegetables.dandelion-greens",
+        "food.vegetable.green-vegetables.endive",
+        "food.vegetable.green-vegetables.lettuce",
+        "food.vegetable.green-vegetables.mizuna",
+        "food.vegetable.green-vegetables.radicchio",
+        "food.vegetable.green-vegetables.sorrel",
+        "food.vegetable.green-vegetables.spinach",
+        "food.vegetable.green-vegetables.swiss-chard",
+        "food.vegetable.green-vegetables.tatsoi",
+        "food.vegetable.green-vegetables.water-spinach",
+        "food.vegetable.green-vegetables.watercress"
+      ],
+      "pod": [
+        "food.vegetable.green-vegetables.garden-pea",
+        "food.vegetable.green-vegetables.green-bean",
+        "food.vegetable.green-vegetables.okra",
+        "food.vegetable.green-vegetables.snow-pea"
+      ],
+      "primary": [
+        "food.vegetable.green-vegetables.cucumber",
+        "food.vegetable.root-vegetables.acorn-squash",
+        "food.vegetable.root-vegetables.butternut-squash",
+        "food.vegetable.root-vegetables.chayote",
+        "food.vegetable.root-vegetables.delicata-squash",
+        "food.vegetable.root-vegetables.hubbard-squash",
+        "food.vegetable.root-vegetables.kabocha-squash",
+        "food.vegetable.root-vegetables.pumpkin",
+        "food.vegetable.root-vegetables.spaghetti-squash",
+        "food.vegetable.root-vegetables.zucchini"
+      ],
+      "root": [
+        "food.vegetable.root-vegetables.beet",
+        "food.vegetable.root-vegetables.burdock-root",
+        "food.vegetable.root-vegetables.carrot",
+        "food.vegetable.root-vegetables.celeriac",
+        "food.vegetable.root-vegetables.jicama",
+        "food.vegetable.root-vegetables.lotus-root",
+        "food.vegetable.root-vegetables.parsnip",
+        "food.vegetable.root-vegetables.radish",
+        "food.vegetable.root-vegetables.rutabaga",
+        "food.vegetable.root-vegetables.salsify",
+        "food.vegetable.root-vegetables.scorzonera",
+        "food.vegetable.root-vegetables.sunchokes",
+        "food.vegetable.root-vegetables.turnip"
+      ],
+      "stem": [
+        "food.vegetable.green-vegetables.asparagus",
+        "food.vegetable.green-vegetables.bamboo-shoot",
+        "food.vegetable.green-vegetables.rhubarb"
+      ]
+    },
+    "flavor_intensity": {
+      "bold": [
+        "food.vegetable.alliums.ramp",
+        "food.vegetable.green-vegetables.arugula",
+        "food.vegetable.green-vegetables.asparagus",
+        "food.vegetable.green-vegetables.bitter-melon",
+        "food.vegetable.green-vegetables.brussels-sprouts",
+        "food.vegetable.green-vegetables.collard-greens",
+        "food.vegetable.green-vegetables.dandelion-greens",
+        "food.vegetable.green-vegetables.kale",
+        "food.vegetable.green-vegetables.mustard-greens",
+        "food.vegetable.green-vegetables.radicchio",
+        "food.vegetable.green-vegetables.rapini",
+        "food.vegetable.green-vegetables.rhubarb",
+        "food.vegetable.green-vegetables.sorrel",
+        "food.vegetable.green-vegetables.watercress",
+        "food.vegetable.nightshades.jalapeno-pepper",
+        "food.vegetable.nightshades.serrano-pepper",
+        "food.vegetable.root-vegetables.beet",
+        "food.vegetable.root-vegetables.radish"
+      ],
+      "mild": [
+        "food.vegetable.alliums.chive",
+        "food.vegetable.alliums.leek",
+        "food.vegetable.alliums.scallion",
+        "food.vegetable.green-vegetables.bamboo-shoot",
+        "food.vegetable.green-vegetables.bok-choy",
+        "food.vegetable.green-vegetables.cauliflower",
+        "food.vegetable.green-vegetables.cucumber",
+        "food.vegetable.green-vegetables.garden-pea",
+        "food.vegetable.green-vegetables.green-bean",
+        "food.vegetable.green-vegetables.kohlrabi",
+        "food.vegetable.green-vegetables.lettuce",
+        "food.vegetable.green-vegetables.mizuna",
+        "food.vegetable.green-vegetables.napa-cabbage",
+        "food.vegetable.green-vegetables.snow-pea",
+        "food.vegetable.green-vegetables.spinach",
+        "food.vegetable.green-vegetables.tatsoi",
+        "food.vegetable.green-vegetables.water-spinach",
+        "food.vegetable.nightshades.anaheim-pepper",
+        "food.vegetable.nightshades.bell-pepper",
+        "food.vegetable.root-vegetables.acorn-squash",
+        "food.vegetable.root-vegetables.butternut-squash",
+        "food.vegetable.root-vegetables.carrot",
+        "food.vegetable.root-vegetables.chayote",
+        "food.vegetable.root-vegetables.delicata-squash",
+        "food.vegetable.root-vegetables.jicama",
+        "food.vegetable.root-vegetables.kabocha-squash",
+        "food.vegetable.root-vegetables.lotus-root",
+        "food.vegetable.root-vegetables.pumpkin",
+        "food.vegetable.root-vegetables.spaghetti-squash",
+        "food.vegetable.root-vegetables.zucchini"
+      ],
+      "moderate": [
+        "food.vegetable.alliums.garlic-chives",
+        "food.vegetable.alliums.onion",
+        "food.vegetable.alliums.shallot",
+        "food.vegetable.green-vegetables.artichoke",
+        "food.vegetable.green-vegetables.broccoli",
+        "food.vegetable.green-vegetables.cabbage",
+        "food.vegetable.green-vegetables.celery",
+        "food.vegetable.green-vegetables.endive",
+        "food.vegetable.green-vegetables.fennel",
+        "food.vegetable.green-vegetables.okra",
+        "food.vegetable.green-vegetables.swiss-chard",
+        "food.vegetable.nightshades.eggplant",
+        "food.vegetable.nightshades.poblano-pepper",
+        "food.vegetable.nightshades.tomatillo",
+        "food.vegetable.nightshades.tomato",
+        "food.vegetable.root-vegetables.burdock-root",
+        "food.vegetable.root-vegetables.celeriac",
+        "food.vegetable.root-vegetables.hubbard-squash",
+        "food.vegetable.root-vegetables.parsnip",
+        "food.vegetable.root-vegetables.rutabaga",
+        "food.vegetable.root-vegetables.salsify",
+        "food.vegetable.root-vegetables.scorzonera",
+        "food.vegetable.root-vegetables.sunchokes",
+        "food.vegetable.root-vegetables.turnip"
+      ],
+      "pungent": [
+        "food.vegetable.alliums.garlic",
+        "food.vegetable.nightshades.habanero-pepper"
+      ]
+    },
+    "moisture_class": {
+      "high": [
+        "food.vegetable.alliums.chive",
+        "food.vegetable.alliums.garlic-chives",
+        "food.vegetable.alliums.leek",
+        "food.vegetable.alliums.scallion",
+        "food.vegetable.green-vegetables.bok-choy",
+        "food.vegetable.green-vegetables.celery",
+        "food.vegetable.green-vegetables.cucumber",
+        "food.vegetable.green-vegetables.fennel",
+        "food.vegetable.green-vegetables.garden-pea",
+        "food.vegetable.green-vegetables.kohlrabi",
+        "food.vegetable.green-vegetables.lettuce",
+        "food.vegetable.green-vegetables.mizuna",
+        "food.vegetable.green-vegetables.napa-cabbage",
+        "food.vegetable.green-vegetables.rhubarb",
+        "food.vegetable.green-vegetables.snow-pea",
+        "food.vegetable.green-vegetables.sorrel",
+        "food.vegetable.green-vegetables.spinach",
+        "food.vegetable.green-vegetables.tatsoi",
+        "food.vegetable.green-vegetables.water-spinach",
+        "food.vegetable.green-vegetables.watercress",
+        "food.vegetable.nightshades.bell-pepper",
+        "food.vegetable.nightshades.jalapeno-pepper",
+        "food.vegetable.nightshades.serrano-pepper",
+        "food.vegetable.nightshades.tomatillo",
+        "food.vegetable.nightshades.tomato",
+        "food.vegetable.root-vegetables.chayote",
+        "food.vegetable.root-vegetables.jicama",
+        "food.vegetable.root-vegetables.radish",
+        "food.vegetable.root-vegetables.zucchini"
+      ],
+      "low": [
+        "food.vegetable.alliums.garlic"
+      ],
+      "medium": [
+        "food.vegetable.alliums.onion",
+        "food.vegetable.alliums.ramp",
+        "food.vegetable.alliums.shallot",
+        "food.vegetable.green-vegetables.artichoke",
+        "food.vegetable.green-vegetables.arugula",
+        "food.vegetable.green-vegetables.asparagus",
+        "food.vegetable.green-vegetables.bamboo-shoot",
+        "food.vegetable.green-vegetables.bitter-melon",
+        "food.vegetable.green-vegetables.broccoli",
+        "food.vegetable.green-vegetables.brussels-sprouts",
+        "food.vegetable.green-vegetables.cabbage",
+        "food.vegetable.green-vegetables.cauliflower",
+        "food.vegetable.green-vegetables.collard-greens",
+        "food.vegetable.green-vegetables.dandelion-greens",
+        "food.vegetable.green-vegetables.endive",
+        "food.vegetable.green-vegetables.green-bean",
+        "food.vegetable.green-vegetables.kale",
+        "food.vegetable.green-vegetables.mustard-greens",
+        "food.vegetable.green-vegetables.okra",
+        "food.vegetable.green-vegetables.radicchio",
+        "food.vegetable.green-vegetables.rapini",
+        "food.vegetable.green-vegetables.swiss-chard",
+        "food.vegetable.nightshades.anaheim-pepper",
+        "food.vegetable.nightshades.eggplant",
+        "food.vegetable.nightshades.habanero-pepper",
+        "food.vegetable.nightshades.poblano-pepper",
+        "food.vegetable.root-vegetables.acorn-squash",
+        "food.vegetable.root-vegetables.beet",
+        "food.vegetable.root-vegetables.burdock-root",
+        "food.vegetable.root-vegetables.butternut-squash",
+        "food.vegetable.root-vegetables.carrot",
+        "food.vegetable.root-vegetables.celeriac",
+        "food.vegetable.root-vegetables.delicata-squash",
+        "food.vegetable.root-vegetables.hubbard-squash",
+        "food.vegetable.root-vegetables.kabocha-squash",
+        "food.vegetable.root-vegetables.lotus-root",
+        "food.vegetable.root-vegetables.parsnip",
+        "food.vegetable.root-vegetables.pumpkin",
+        "food.vegetable.root-vegetables.rutabaga",
+        "food.vegetable.root-vegetables.salsify",
+        "food.vegetable.root-vegetables.scorzonera",
+        "food.vegetable.root-vegetables.spaghetti-squash",
+        "food.vegetable.root-vegetables.sunchokes",
+        "food.vegetable.root-vegetables.turnip"
+      ]
+    },
+    "plant_part": {
+      "bulb": [
+        "food.vegetable.alliums.garlic",
+        "food.vegetable.alliums.onion",
+        "food.vegetable.alliums.ramp",
+        "food.vegetable.alliums.shallot",
+        "food.vegetable.green-vegetables.fennel"
+      ],
+      "flower": [
+        "food.vegetable.green-vegetables.artichoke",
+        "food.vegetable.green-vegetables.broccoli",
+        "food.vegetable.green-vegetables.brussels-sprouts",
+        "food.vegetable.green-vegetables.cauliflower"
+      ],
+      "fruit_vegetable": [
+        "food.vegetable.green-vegetables.bitter-melon",
+        "food.vegetable.green-vegetables.cucumber",
+        "food.vegetable.nightshades.anaheim-pepper",
+        "food.vegetable.nightshades.bell-pepper",
+        "food.vegetable.nightshades.eggplant",
+        "food.vegetable.nightshades.habanero-pepper",
+        "food.vegetable.nightshades.jalapeno-pepper",
+        "food.vegetable.nightshades.poblano-pepper",
+        "food.vegetable.nightshades.serrano-pepper",
+        "food.vegetable.nightshades.tomatillo",
+        "food.vegetable.nightshades.tomato",
+        "food.vegetable.root-vegetables.acorn-squash",
+        "food.vegetable.root-vegetables.butternut-squash",
+        "food.vegetable.root-vegetables.chayote",
+        "food.vegetable.root-vegetables.delicata-squash",
+        "food.vegetable.root-vegetables.hubbard-squash",
+        "food.vegetable.root-vegetables.kabocha-squash",
+        "food.vegetable.root-vegetables.pumpkin",
+        "food.vegetable.root-vegetables.spaghetti-squash",
+        "food.vegetable.root-vegetables.zucchini"
+      ],
+      "leaf": [
+        "food.vegetable.alliums.chive",
+        "food.vegetable.alliums.garlic-chives",
+        "food.vegetable.green-vegetables.arugula",
+        "food.vegetable.green-vegetables.bok-choy",
+        "food.vegetable.green-vegetables.cabbage",
+        "food.vegetable.green-vegetables.collard-greens",
+        "food.vegetable.green-vegetables.dandelion-greens",
+        "food.vegetable.green-vegetables.endive",
+        "food.vegetable.green-vegetables.kale",
+        "food.vegetable.green-vegetables.lettuce",
+        "food.vegetable.green-vegetables.mizuna",
+        "food.vegetable.green-vegetables.mustard-greens",
+        "food.vegetable.green-vegetables.napa-cabbage",
+        "food.vegetable.green-vegetables.radicchio",
+        "food.vegetable.green-vegetables.rapini",
+        "food.vegetable.green-vegetables.sorrel",
+        "food.vegetable.green-vegetables.spinach",
+        "food.vegetable.green-vegetables.swiss-chard",
+        "food.vegetable.green-vegetables.tatsoi",
+        "food.vegetable.green-vegetables.water-spinach",
+        "food.vegetable.green-vegetables.watercress"
+      ],
+      "pod": [
+        "food.vegetable.green-vegetables.garden-pea",
+        "food.vegetable.green-vegetables.green-bean",
+        "food.vegetable.green-vegetables.okra",
+        "food.vegetable.green-vegetables.snow-pea"
+      ],
+      "root": [
+        "food.vegetable.root-vegetables.beet",
+        "food.vegetable.root-vegetables.burdock-root",
+        "food.vegetable.root-vegetables.carrot",
+        "food.vegetable.root-vegetables.celeriac",
+        "food.vegetable.root-vegetables.jicama",
+        "food.vegetable.root-vegetables.lotus-root",
+        "food.vegetable.root-vegetables.parsnip",
+        "food.vegetable.root-vegetables.radish",
+        "food.vegetable.root-vegetables.rutabaga",
+        "food.vegetable.root-vegetables.salsify",
+        "food.vegetable.root-vegetables.scorzonera",
+        "food.vegetable.root-vegetables.turnip"
+      ],
+      "stem": [
+        "food.vegetable.alliums.leek",
+        "food.vegetable.alliums.scallion",
+        "food.vegetable.green-vegetables.asparagus",
+        "food.vegetable.green-vegetables.bamboo-shoot",
+        "food.vegetable.green-vegetables.celery",
+        "food.vegetable.green-vegetables.kohlrabi",
+        "food.vegetable.green-vegetables.rhubarb"
+      ],
+      "tuber": [
+        "food.vegetable.root-vegetables.sunchokes"
+      ]
+    },
+    "seasonality": {
+      "fall": [
+        "food.vegetable.green-vegetables.broccoli",
+        "food.vegetable.green-vegetables.brussels-sprouts",
+        "food.vegetable.green-vegetables.cauliflower",
+        "food.vegetable.green-vegetables.fennel",
+        "food.vegetable.green-vegetables.kohlrabi",
+        "food.vegetable.green-vegetables.mizuna",
+        "food.vegetable.green-vegetables.napa-cabbage",
+        "food.vegetable.green-vegetables.rapini",
+        "food.vegetable.green-vegetables.tatsoi",
+        "food.vegetable.root-vegetables.acorn-squash",
+        "food.vegetable.root-vegetables.beet",
+        "food.vegetable.root-vegetables.burdock-root",
+        "food.vegetable.root-vegetables.butternut-squash",
+        "food.vegetable.root-vegetables.chayote",
+        "food.vegetable.root-vegetables.delicata-squash",
+        "food.vegetable.root-vegetables.hubbard-squash",
+        "food.vegetable.root-vegetables.kabocha-squash",
+        "food.vegetable.root-vegetables.pumpkin",
+        "food.vegetable.root-vegetables.salsify",
+        "food.vegetable.root-vegetables.scorzonera",
+        "food.vegetable.root-vegetables.spaghetti-squash",
+        "food.vegetable.root-vegetables.sunchokes"
+      ],
+      "spring": [
+        "food.vegetable.alliums.chive",
+        "food.vegetable.alliums.ramp",
+        "food.vegetable.green-vegetables.artichoke",
+        "food.vegetable.green-vegetables.arugula",
+        "food.vegetable.green-vegetables.asparagus",
+        "food.vegetable.green-vegetables.bamboo-shoot",
+        "food.vegetable.green-vegetables.dandelion-greens",
+        "food.vegetable.green-vegetables.garden-pea",
+        "food.vegetable.green-vegetables.lettuce",
+        "food.vegetable.green-vegetables.rhubarb",
+        "food.vegetable.green-vegetables.snow-pea",
+        "food.vegetable.green-vegetables.sorrel",
+        "food.vegetable.green-vegetables.spinach",
+        "food.vegetable.green-vegetables.watercress",
+        "food.vegetable.root-vegetables.radish"
+      ],
+      "summer": [
+        "food.vegetable.alliums.garlic-chives",
+        "food.vegetable.green-vegetables.bitter-melon",
+        "food.vegetable.green-vegetables.cucumber",
+        "food.vegetable.green-vegetables.green-bean",
+        "food.vegetable.green-vegetables.okra",
+        "food.vegetable.green-vegetables.swiss-chard",
+        "food.vegetable.green-vegetables.water-spinach",
+        "food.vegetable.nightshades.anaheim-pepper",
+        "food.vegetable.nightshades.bell-pepper",
+        "food.vegetable.nightshades.eggplant",
+        "food.vegetable.nightshades.habanero-pepper",
+        "food.vegetable.nightshades.jalapeno-pepper",
+        "food.vegetable.nightshades.poblano-pepper",
+        "food.vegetable.nightshades.serrano-pepper",
+        "food.vegetable.nightshades.tomatillo",
+        "food.vegetable.nightshades.tomato",
+        "food.vegetable.root-vegetables.zucchini"
+      ],
+      "winter": [
+        "food.vegetable.alliums.leek",
+        "food.vegetable.green-vegetables.cabbage",
+        "food.vegetable.green-vegetables.collard-greens",
+        "food.vegetable.green-vegetables.endive",
+        "food.vegetable.green-vegetables.kale",
+        "food.vegetable.green-vegetables.mustard-greens",
+        "food.vegetable.green-vegetables.radicchio",
+        "food.vegetable.root-vegetables.celeriac",
+        "food.vegetable.root-vegetables.jicama",
+        "food.vegetable.root-vegetables.parsnip",
+        "food.vegetable.root-vegetables.rutabaga",
+        "food.vegetable.root-vegetables.turnip"
+      ],
+      "year_round": [
+        "food.vegetable.alliums.garlic",
+        "food.vegetable.alliums.onion",
+        "food.vegetable.alliums.scallion",
+        "food.vegetable.alliums.shallot",
+        "food.vegetable.green-vegetables.bok-choy",
+        "food.vegetable.green-vegetables.celery",
+        "food.vegetable.root-vegetables.carrot",
+        "food.vegetable.root-vegetables.lotus-root"
+      ]
+    },
+    "texture": {
+      "crisp": [
+        "food.vegetable.alliums.scallion",
+        "food.vegetable.green-vegetables.bok-choy",
+        "food.vegetable.green-vegetables.cucumber",
+        "food.vegetable.green-vegetables.endive",
+        "food.vegetable.green-vegetables.fennel",
+        "food.vegetable.green-vegetables.green-bean",
+        "food.vegetable.green-vegetables.kohlrabi",
+        "food.vegetable.green-vegetables.lettuce",
+        "food.vegetable.green-vegetables.napa-cabbage",
+        "food.vegetable.green-vegetables.radicchio",
+        "food.vegetable.green-vegetables.snow-pea",
+        "food.vegetable.nightshades.bell-pepper",
+        "food.vegetable.nightshades.jalapeno-pepper",
+        "food.vegetable.nightshades.serrano-pepper",
+        "food.vegetable.root-vegetables.carrot",
+        "food.vegetable.root-vegetables.chayote",
+        "food.vegetable.root-vegetables.jicama",
+        "food.vegetable.root-vegetables.lotus-root",
+        "food.vegetable.root-vegetables.radish"
+      ],
+      "dense": [
+        "food.vegetable.alliums.garlic",
+        "food.vegetable.alliums.onion",
+        "food.vegetable.alliums.shallot",
+        "food.vegetable.green-vegetables.brussels-sprouts",
+        "food.vegetable.green-vegetables.cabbage",
+        "food.vegetable.green-vegetables.cauliflower",
+        "food.vegetable.root-vegetables.acorn-squash",
+        "food.vegetable.root-vegetables.beet",
+        "food.vegetable.root-vegetables.butternut-squash",
+        "food.vegetable.root-vegetables.celeriac",
+        "food.vegetable.root-vegetables.hubbard-squash",
+        "food.vegetable.root-vegetables.kabocha-squash",
+        "food.vegetable.root-vegetables.pumpkin",
+        "food.vegetable.root-vegetables.rutabaga",
+        "food.vegetable.root-vegetables.sunchokes",
+        "food.vegetable.root-vegetables.turnip"
+      ],
+      "fibrous": [
+        "food.vegetable.alliums.leek",
+        "food.vegetable.green-vegetables.artichoke",
+        "food.vegetable.green-vegetables.asparagus",
+        "food.vegetable.green-vegetables.bamboo-shoot",
+        "food.vegetable.green-vegetables.bitter-melon",
+        "food.vegetable.green-vegetables.broccoli",
+        "food.vegetable.green-vegetables.celery",
+        "food.vegetable.green-vegetables.collard-greens",
+        "food.vegetable.green-vegetables.dandelion-greens",
+        "food.vegetable.green-vegetables.kale",
+        "food.vegetable.green-vegetables.mustard-greens",
+        "food.vegetable.green-vegetables.rapini",
+        "food.vegetable.green-vegetables.rhubarb",
+        "food.vegetable.green-vegetables.swiss-chard",
+        "food.vegetable.root-vegetables.burdock-root",
+        "food.vegetable.root-vegetables.parsnip",
+        "food.vegetable.root-vegetables.salsify",
+        "food.vegetable.root-vegetables.scorzonera",
+        "food.vegetable.root-vegetables.spaghetti-squash"
+      ],
+      "leafy": [
+        "food.vegetable.green-vegetables.arugula",
+        "food.vegetable.green-vegetables.mizuna",
+        "food.vegetable.green-vegetables.sorrel",
+        "food.vegetable.green-vegetables.spinach",
+        "food.vegetable.green-vegetables.tatsoi"
+      ],
+      "succulent": [
+        "food.vegetable.green-vegetables.okra",
+        "food.vegetable.nightshades.anaheim-pepper",
+        "food.vegetable.nightshades.eggplant",
+        "food.vegetable.nightshades.habanero-pepper",
+        "food.vegetable.nightshades.poblano-pepper",
+        "food.vegetable.nightshades.tomatillo",
+        "food.vegetable.nightshades.tomato"
+      ],
+      "tender": [
+        "food.vegetable.alliums.chive",
+        "food.vegetable.alliums.garlic-chives",
+        "food.vegetable.alliums.ramp",
+        "food.vegetable.green-vegetables.garden-pea",
+        "food.vegetable.green-vegetables.water-spinach",
+        "food.vegetable.green-vegetables.watercress",
+        "food.vegetable.root-vegetables.delicata-squash",
+        "food.vegetable.root-vegetables.zucchini"
+      ]
+    }
+  }
+}

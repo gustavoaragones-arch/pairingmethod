@@ -368,11 +368,59 @@ Ontology completeness precedes inference investment. ENGINE milestones consume c
 | Milestone | Scope |
 |-----------|-------|
 | **FOOD-05A** | Governance (this document) — **frozen** |
-| FOOD-05B | Catalog population |
-| FOOD-05C | Runtime compilation & structural relationships |
+| **FOOD-05B** | Catalog population — **complete** |
+| **FOOD-05C** | Runtime compilation & structural relationships — **current** |
 | FOOD-05D | Editorial relationships |
 | FOOD-05E | Wine pairing relationships |
 | FOOD-05F | Publication through shared platform |
+
+---
+
+## 11.1 Runtime Stability Levels (FOOD-05C)
+
+The vegetable runtime explicitly distinguishes three relationship classes. FOOD-05C generates **Level 1 and Level 2 only**.
+
+### Level 1 — Structural (deterministic)
+
+Generated solely from catalog hierarchy. Reproducible from intrinsic catalog data alone.
+
+| Relationship | Direction |
+|--------------|-----------|
+| `belongs_to_group` | vegetable → group |
+| `belongs_to_category` | vegetable / group → category |
+| `group_contains` | group → vegetable |
+| `category_contains` | category → group |
+
+### Level 2 — Intrinsic similarity (deterministic)
+
+Generated from shared intrinsic metadata. No editorial judgment.
+
+| Relationship | Source field |
+|--------------|--------------|
+| `shares_culinary_role` | `culinary_role` |
+| `shares_plant_part` | `plant_part` |
+| `shares_texture` | `texture` |
+| `shares_moisture_class` | `moisture_class` |
+| `shares_flavor_intensity` | `flavor_intensity` |
+| `shares_seasonality` | `seasonality` |
+| `shares_scientific_name` | `scientific_name` |
+| `shares_flavor_profile` | `flavor_profile` *(reserved — not generated until populated post-FOOD-05B)* |
+
+`shares_culinary_role` receives first-class treatment because `culinary_role` is a governed intrinsic attribute (e.g. garlic ↔ onion ↔ shallot as `aromatic`; broccoli ↔ cauliflower as `cruciferous`).
+
+### Level 3 — Editorial (FOOD-05D+)
+
+**Not generated in FOOD-05C.** Requires human curation.
+
+| Relationship | Layer |
+|--------------|-------|
+| `similar_to` | Editorial |
+| `substitutes_for` | Editorial |
+| `commonly_served_with` | Editorial cross-domain |
+
+### Runtime rule
+
+FOOD-05C consumes **intrinsic catalog data only**. It must never infer substitutions, recipes, preparation techniques, wine pairings, or nutritional equivalence.
 
 ---
 
