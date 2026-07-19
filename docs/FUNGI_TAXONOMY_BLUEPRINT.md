@@ -216,3 +216,5 @@ Exact paths finalized in FOOD-06F domain descriptor only.
 6. Run catalog audit before FOOD-06C.
 
 **FOOD-06A approved.** Catalog curation runs against the frozen FOOD-06A contract.
+
+**FOOD-06B complete.** 43 canonical culinary fungi populated; catalog audit PASS.

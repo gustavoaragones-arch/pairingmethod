@@ -220,6 +220,18 @@ Each leaf entity represents a **canonical culinary ingredient** — not every co
 
 FOOD-06B catalog audit enforces CANON-001 via slug and display-name heuristics.
 
+### §5.2 CANON-002 — Global culinary recognition (FOOD-06B+)
+
+Each canonical fungus must represent a **globally recognizable culinary ingredient**, not merely a regional commercial product.
+
+| Include | Do not include |
+|---------|----------------|
+| Porcini | Oregon-only truffle cultivar as separate entity |
+| Black Truffle | Perigord Black Truffle as separate entity (alias on Black Truffle) |
+| Button Mushroom | White Button Mushroom as separate entity (alias on Button Mushroom) |
+
+FOOD-06B catalog audit enforces CANON-002 via regional slug heuristics and minimum summary quality.
+
 ---
 
 ## 6. Scientific Naming
@@ -345,8 +357,8 @@ Rationale: preserve stable published Protein URLs and graph references while est
 | Milestone | Scope |
 |-----------|-------|
 | **FOOD-06A** | Governance (this document) — **frozen** |
-| FOOD-06B | Catalog population — **next** |
-| FOOD-06C | Runtime compilation & structural relationships |
+| **FOOD-06B** | Catalog population — **complete** |
+| FOOD-06C | Runtime compilation & structural relationships — **next** |
 | FOOD-06D | Editorial relationships |
 | FOOD-06E | Wine pairing relationships |
 | FOOD-06F | Publication through shared platform |

@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-07-19T03:48:15.126Z",
+  "phase": "FOOD-06B",
+  "domain": "fungi",
+  "entity_count": 43,
+  "counts_by_group": {
+    "cultivated-mushrooms": 15,
+    "wild-mushrooms": 14,
+    "truffles": 5,
+    "specialty-fungi": 9
+  },
+  "catalog_path": "data/fungi-catalog.json",
+  "audit_script": "scripts/catalog-audit-fungi-06b.mjs",
+  "canonical_entity_rule": "CANON-001 — cultivar and trade-name splits are aliases, not entities",
+  "global_recognition_rule": "CANON-002 — globally recognizable culinary ingredients only",
+  "profile_arrays_policy": "flavor_profile, texture_profile, aroma_profile reserved empty",
+  "relationship_policy": "all relationship arrays empty"
+}
