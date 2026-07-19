@@ -1,0 +1,55 @@
+{
+  "domain": "vegetable",
+  "layers": {
+    "cross_layer": {
+      "complete_chains": 79,
+      "entities": 79,
+      "overall": 100
+    },
+    "determinism": {
+      "artifacts_checked": 16,
+      "artifacts_passing": 16,
+      "overall": 100
+    },
+    "json_ld": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "navigation": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "projections": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "relationships": {
+      "consumed_by_publication": 310,
+      "editorial_edges": 158,
+      "overall": 100,
+      "pairing_edges": 117,
+      "structural_edges": 4405
+    },
+    "search": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "viewmodels": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    }
+  },
+  "overall_certification": "PASS",
+  "phase": "FOOD-05F",
+  "publication_completeness_percent": 100
+}

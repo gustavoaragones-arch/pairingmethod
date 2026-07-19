@@ -1,29 +1,35 @@
 {
+  "domains": [
+    "vegetable"
+  ],
   "metrics": {
-    "Category pages promoted": 3,
-    "Food pages promoted": 207,
-    "Group pages promoted": 16,
     "Overall result": "PASS",
     "Promotion targets": 6,
-    "Validation errors": 0
+    "Validation errors": 0,
+    "vegetable categories pages promoted": 1,
+    "vegetable groups pages promoted": 4,
+    "vegetable leaf pages promoted": 74
   },
   "overall_result": "PASS",
   "phase": "DEPLOY-01",
   "promoted": [
     {
-      "html_files": 207,
-      "source": "dist/foods",
-      "target": "foods"
+      "domain": "vegetable",
+      "html_files": 74,
+      "source": "dist/vegetables",
+      "target": "vegetables"
     },
     {
-      "html_files": 16,
-      "source": "dist/groups",
-      "target": "groups"
+      "domain": "vegetable",
+      "html_files": 4,
+      "source": "dist/vegetable-groups",
+      "target": "vegetable-groups"
     },
     {
-      "html_files": 3,
-      "source": "dist/categories",
-      "target": "categories"
+      "domain": "vegetable",
+      "html_files": 1,
+      "source": "dist/vegetable-categories",
+      "target": "vegetable-categories"
     },
     {
       "html_files": 0,

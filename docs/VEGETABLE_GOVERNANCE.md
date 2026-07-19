@@ -372,7 +372,8 @@ Ontology completeness precedes inference investment. ENGINE milestones consume c
 | **FOOD-05C** | Runtime compilation & structural relationships — **complete** |
 | **FOOD-05D** | Editorial relationships — **complete** |
 | **FOOD-05E** | Wine pairing relationships — **complete** |
-| FOOD-05F | Publication through shared platform — **next** |
+| **FOOD-05F** | Publication through shared platform — **complete** |
+| Suite v1.2.0 | Food Ontology Suite with Protein, Cheese, and Vegetables published |
 
 ---
 

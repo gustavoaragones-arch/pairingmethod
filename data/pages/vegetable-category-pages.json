@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "vegetable",
+    "food_ontology_version": "1.2.0",
+    "page_count": 1,
+    "page_type": "vegetable_category",
+    "phase": "FOOD-05FB"
+  },
+  "pages": [
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/vegetables/",
+          "label": "Vegetables"
+        },
+        {
+          "href": "/vegetable-categories/vegetable/",
+          "label": "Vegetables"
+        }
+      ],
+      "canonical_path": "/vegetable-categories/vegetable/",
+      "groups": [
+        {
+          "food_count": 8,
+          "href": "/vegetable-groups/alliums/",
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        },
+        {
+          "food_count": 35,
+          "href": "/vegetable-groups/green-vegetables/",
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        {
+          "food_count": 9,
+          "href": "/vegetable-groups/nightshades/",
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        },
+        {
+          "food_count": 22,
+          "href": "/vegetable-groups/root-vegetables/",
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      ],
+      "identity": {
+        "id": "food.vegetable",
+        "slug": "vegetable",
+        "title": "Vegetables"
+      },
+      "metadata": {
+        "canonical": "https://pairingmethod.com/vegetable-categories/vegetable/",
+        "description": "Vegetables — 4 groups and 74 vegetables.",
+        "og_description": "Vegetables — 4 groups and 74 vegetables.",
+        "og_title": "Vegetables — Vegetable Category",
+        "title": "Vegetables — Vegetable Category"
+      },
+      "overview": {
+        "display_name": "Vegetables",
+        "food_count": 74,
+        "group_count": 4
+      },
+      "page_type": "vegetable_category",
+      "projection_id": "food.vegetable",
+      "slug": "vegetable"
+    }
+  ]
+}

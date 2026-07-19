@@ -1,0 +1,19 @@
+{
+  "domain": "vegetable",
+  "metrics": {
+    "Category projections": 1,
+    "Group projections": 4,
+    "Leaf projections": 74,
+    "Overall result": "PASS",
+    "Referenced relationships": 310,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/generated/vegetable-pages.json",
+    "data/generated/vegetable-group-pages.json",
+    "data/generated/vegetable-category-pages.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-05FA",
+  "validation_errors": []
+}

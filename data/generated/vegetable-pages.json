@@ -1,0 +1,6261 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "vegetable",
+    "food_ontology_version": "1.2.0",
+    "phase": "FOOD-05FA",
+    "projection_count": 74,
+    "projection_type": "vegetable"
+  },
+  "projections": [
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "alliums",
+        "group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        },
+        "scientific_name": "Allium schoenoprasum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.alliums.garlic-chives"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.alliums.chive",
+        "name": "Chive",
+        "slug": "chive"
+      },
+      "intrinsic": {
+        "culinary_group": "alliums",
+        "culinary_role": "aromatic",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "leaf",
+        "scientific_name": "Allium schoenoprasum",
+        "seasonality": "spring",
+        "texture": "tender",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "champagne"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "alliums",
+        "group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        },
+        "scientific_name": "Allium sativum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.herb.ginger"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.herb.rosemary"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.protein.chicken"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.protein.pork.pork-loin"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.protein.poultry.chicken-breast"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.onion"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.shallot"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.alliums.ramp"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.alliums.garlic",
+        "name": "Garlic",
+        "slug": "garlic"
+      },
+      "intrinsic": {
+        "culinary_group": "alliums",
+        "culinary_role": "aromatic",
+        "flavor_intensity": "pungent",
+        "flavor_profile": [],
+        "moisture_class": "low",
+        "plant_part": "bulb",
+        "scientific_name": "Allium sativum",
+        "seasonality": "year_round",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "syrah-shiraz"
+          }
+        ],
+        "descriptors": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_descriptor",
+            "target": "earthy"
+          }
+        ],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "sangiovese"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "alliums",
+        "group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        },
+        "scientific_name": "Allium tuberosum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.alliums.chive"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.alliums.chive"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.alliums.garlic-chives",
+        "name": "Garlic Chives",
+        "slug": "garlic-chives"
+      },
+      "intrinsic": {
+        "culinary_group": "alliums",
+        "culinary_role": "aromatic",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "leaf",
+        "scientific_name": "Allium tuberosum",
+        "seasonality": "summer",
+        "texture": "tender",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "gewurztraminer"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "alliums",
+        "group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        },
+        "scientific_name": "Allium ampeloprasum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.onion"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.green-vegetables.celery"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.alliums.onion"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.alliums.scallion"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.alliums.onion"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.alliums.leek",
+        "name": "Leek",
+        "slug": "leek"
+      },
+      "intrinsic": {
+        "culinary_group": "alliums",
+        "culinary_role": "aromatic",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "stem",
+        "scientific_name": "Allium ampeloprasum",
+        "seasonality": "winter",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "sauvignon-blanc"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "chardonnay"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "alliums",
+        "group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        },
+        "scientific_name": "Allium cepa"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.herb.thyme"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.protein.beef.brisket"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.protein.chicken"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.green-vegetables.celery"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.root-vegetables.carrot"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.alliums.leek"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.alliums.shallot"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.alliums.shallot"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.alliums.onion",
+        "name": "Onion",
+        "slug": "onion"
+      },
+      "intrinsic": {
+        "culinary_group": "alliums",
+        "culinary_role": "aromatic",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "bulb",
+        "scientific_name": "Allium cepa",
+        "seasonality": "year_round",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "chardonnay"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "pinot-noir"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "alliums",
+        "group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        },
+        "scientific_name": "Allium tricoccum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.alliums.ramp",
+        "name": "Ramp",
+        "slug": "ramp"
+      },
+      "intrinsic": {
+        "culinary_group": "alliums",
+        "culinary_role": "aromatic",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "bulb",
+        "scientific_name": "Allium tricoccum",
+        "seasonality": "spring",
+        "texture": "tender",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "pinot-noir"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "alliums",
+        "group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        },
+        "scientific_name": "Allium fistulosum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.herb.ginger"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.alliums.leek"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.alliums.shallot"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.alliums.scallion",
+        "name": "Scallion",
+        "slug": "scallion"
+      },
+      "intrinsic": {
+        "culinary_group": "alliums",
+        "culinary_role": "aromatic",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "stem",
+        "scientific_name": "Allium fistulosum",
+        "seasonality": "year_round",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "gewurztraminer"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "riesling"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "alliums",
+        "group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        },
+        "scientific_name": "Allium cepa var. aggregatum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.alliums.onion"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.alliums.onion"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.alliums.shallot",
+        "name": "Shallot",
+        "slug": "shallot"
+      },
+      "intrinsic": {
+        "culinary_group": "alliums",
+        "culinary_role": "aromatic",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "bulb",
+        "scientific_name": "Allium cepa var. aggregatum",
+        "seasonality": "year_round",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "chardonnay"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "champagne"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Cynara cardunculus var. scolymus"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.cheese.brined.feta"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.artichoke",
+        "name": "Artichoke",
+        "slug": "artichoke"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "flower",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "flower",
+        "scientific_name": "Cynara cardunculus var. scolymus",
+        "seasonality": "spring",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "sauvignon-blanc"
+          }
+        ],
+        "techniques": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_technique",
+            "target": "stainless-steel-aging"
+          }
+        ]
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Eruca vesicaria"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.watercress"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.arugula",
+        "name": "Arugula",
+        "slug": "arugula"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "leafy",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "leaf",
+        "scientific_name": "Eruca vesicaria",
+        "seasonality": "spring",
+        "texture": "leafy",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_descriptor",
+            "target": "black-pepper"
+          }
+        ],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "sauvignon-blanc"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Asparagus officinalis"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.herb.tarragon"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.protein.poultry.chicken-breast"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.asparagus",
+        "name": "Asparagus",
+        "slug": "asparagus"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "stem",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "stem",
+        "scientific_name": "Asparagus officinalis",
+        "seasonality": "spring",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "dry-rose"
+          }
+        ],
+        "descriptors": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_descriptor",
+            "target": "grassy"
+          }
+        ],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "sauvignon-blanc"
+          }
+        ],
+        "techniques": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_technique",
+            "target": "stainless-steel-aging"
+          }
+        ]
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Phyllostachys edulis"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.bamboo-shoot",
+        "name": "Bamboo Shoot",
+        "slug": "bamboo-shoot"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "stem",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "stem",
+        "scientific_name": "Phyllostachys edulis",
+        "seasonality": "spring",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "gewurztraminer"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Momordica charantia"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.bitter-melon",
+        "name": "Bitter Melon",
+        "slug": "bitter-melon"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "fruit_vegetable",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Momordica charantia",
+        "seasonality": "summer",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "riesling"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Brassica rapa subsp. chinensis"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.tatsoi"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.green-vegetables.napa-cabbage"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.bok-choy",
+        "name": "Bok Choy",
+        "slug": "bok-choy"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "cruciferous",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "leaf",
+        "scientific_name": "Brassica rapa subsp. chinensis",
+        "seasonality": "year_round",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "gewurztraminer"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Brassica oleracea var. italica"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.cheese.hard.parmigiano-reggiano"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.cauliflower"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.rapini"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.green-vegetables.cauliflower"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.broccoli",
+        "name": "Broccoli",
+        "slug": "broccoli"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "cruciferous",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "flower",
+        "scientific_name": "Brassica oleracea var. italica",
+        "seasonality": "fall",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_descriptor",
+            "target": "grassy"
+          }
+        ],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "sauvignon-blanc"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Brassica oleracea var. gemmifera"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.brussels-sprouts",
+        "name": "Brussels Sprouts",
+        "slug": "brussels-sprouts"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "cruciferous",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "flower",
+        "scientific_name": "Brassica oleracea var. gemmifera",
+        "seasonality": "fall",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_descriptor",
+            "target": "earthy"
+          }
+        ],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "pinot-noir"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Brassica oleracea var. capitata"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.onion"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.root-vegetables.carrot"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.napa-cabbage"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.cabbage",
+        "name": "Cabbage",
+        "slug": "cabbage"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "cruciferous",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "leaf",
+        "scientific_name": "Brassica oleracea var. capitata",
+        "seasonality": "winter",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "gewurztraminer"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "riesling"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Brassica oleracea var. botrytis"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.broccoli"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.green-vegetables.broccoli"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.cauliflower",
+        "name": "Cauliflower",
+        "slug": "cauliflower"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "cruciferous",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "flower",
+        "scientific_name": "Brassica oleracea var. botrytis",
+        "seasonality": "fall",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_descriptor",
+            "target": "nutty"
+          }
+        ],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "chardonnay"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Apium graveolens"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.protein.mollusks.clam"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.fennel"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.celeriac"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.celery",
+        "name": "Celery",
+        "slug": "celery"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "aromatic",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "stem",
+        "scientific_name": "Apium graveolens",
+        "seasonality": "year_round",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "pinot-grigio"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Brassica oleracea var. viridis"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.kale"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.green-vegetables.kale"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.collard-greens",
+        "name": "Collard Greens",
+        "slug": "collard-greens"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "cruciferous",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "leaf",
+        "scientific_name": "Brassica oleracea var. viridis",
+        "seasonality": "winter",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "syrah-shiraz"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "zinfandel"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Cucumis sativus"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.herb.dill"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.nightshades.tomato"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.cucumber",
+        "name": "Cucumber",
+        "slug": "cucumber"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "primary",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Cucumis sativus",
+        "seasonality": "summer",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "albarino"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "sauvignon-blanc"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Taraxacum officinale"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.mustard-greens"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.dandelion-greens",
+        "name": "Dandelion Greens",
+        "slug": "dandelion-greens"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "leafy",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "leaf",
+        "scientific_name": "Taraxacum officinale",
+        "seasonality": "spring",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "nebbiolo"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Cichorium endivia"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.lettuce"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.radicchio"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.endive",
+        "name": "Endive",
+        "slug": "endive"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "leafy",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "leaf",
+        "scientific_name": "Cichorium endivia",
+        "seasonality": "winter",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "champagne"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Foeniculum vulgare"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.protein.fin-fish.salmon-fillet"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.protein.pork.pork-loin"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.onion"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.green-vegetables.celery"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.celery"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.fennel",
+        "name": "Fennel",
+        "slug": "fennel"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "aromatic",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "bulb",
+        "scientific_name": "Foeniculum vulgare",
+        "seasonality": "fall",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_descriptor",
+            "target": "herbal"
+          }
+        ],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "albarino"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Pisum sativum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.snow-pea"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.green-vegetables.snow-pea"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.garden-pea",
+        "name": "Garden Pea",
+        "slug": "garden-pea"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "pod",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "pod",
+        "scientific_name": "Pisum sativum",
+        "seasonality": "spring",
+        "texture": "tender",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "pinot-noir"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Phaseolus vulgaris"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.nightshades.tomato"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.snow-pea"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.green-vegetables.snow-pea"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.green-bean",
+        "name": "Green Bean",
+        "slug": "green-bean"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "pod",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "pod",
+        "scientific_name": "Phaseolus vulgaris",
+        "seasonality": "summer",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "dry-rose"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "sauvignon-blanc"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Brassica oleracea var. sabellica"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.protein.pork.pork-loin"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.collard-greens"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.mustard-greens"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.green-vegetables.collard-greens"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.kale",
+        "name": "Kale",
+        "slug": "kale"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "cruciferous",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "leaf",
+        "scientific_name": "Brassica oleracea var. sabellica",
+        "seasonality": "winter",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "sangiovese"
+          }
+        ],
+        "descriptors": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_descriptor",
+            "target": "bitter"
+          }
+        ],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "syrah-shiraz"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Brassica oleracea var. gongylodes"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.turnip"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.kohlrabi",
+        "name": "Kohlrabi",
+        "slug": "kohlrabi"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "cruciferous",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "stem",
+        "scientific_name": "Brassica oleracea var. gongylodes",
+        "seasonality": "fall",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "riesling"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Lactuca sativa"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.endive"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.lettuce",
+        "name": "Lettuce",
+        "slug": "lettuce"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "leafy",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "leaf",
+        "scientific_name": "Lactuca sativa",
+        "seasonality": "spring",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "dry-rose"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "sauvignon-blanc"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Brassica rapa var. nipposinica"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.tatsoi"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.mizuna",
+        "name": "Mizuna",
+        "slug": "mizuna"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "leafy",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "leaf",
+        "scientific_name": "Brassica rapa var. nipposinica",
+        "seasonality": "fall",
+        "texture": "leafy",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Brassica juncea"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.dandelion-greens"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.kale"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.green-vegetables.kale"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.mustard-greens",
+        "name": "Mustard Greens",
+        "slug": "mustard-greens"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "cruciferous",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "leaf",
+        "scientific_name": "Brassica juncea",
+        "seasonality": "winter",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "gewurztraminer"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Brassica rapa subsp. pekinensis"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.cabbage"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.green-vegetables.cabbage"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.napa-cabbage",
+        "name": "Napa Cabbage",
+        "slug": "napa-cabbage"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "cruciferous",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "leaf",
+        "scientific_name": "Brassica rapa subsp. pekinensis",
+        "seasonality": "fall",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "riesling"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Abelmoschus esculentus"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.spice.cumin"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.nightshades.bell-pepper"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.nightshades.tomato"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.okra",
+        "name": "Okra",
+        "slug": "okra"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "pod",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "pod",
+        "scientific_name": "Abelmoschus esculentus",
+        "seasonality": "summer",
+        "texture": "succulent",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "riesling"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Cichorium intybus"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.endive"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.radicchio",
+        "name": "Radicchio",
+        "slug": "radicchio"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "leafy",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "leaf",
+        "scientific_name": "Cichorium intybus",
+        "seasonality": "winter",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_descriptor",
+            "target": "bitter"
+          }
+        ],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "nebbiolo"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Brassica rapa subsp. rapa"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.broccoli"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.green-vegetables.broccoli"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.rapini",
+        "name": "Rapini",
+        "slug": "rapini"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "cruciferous",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "leaf",
+        "scientific_name": "Brassica rapa subsp. rapa",
+        "seasonality": "fall",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "sangiovese"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Rheum rhabarbarum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.rhubarb",
+        "name": "Rhubarb",
+        "slug": "rhubarb"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "stem",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "stem",
+        "scientific_name": "Rheum rhabarbarum",
+        "seasonality": "spring",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "moscato"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "riesling"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Pisum sativum var. saccharatum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.garden-pea"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.green-bean"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.green-vegetables.green-bean"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.snow-pea",
+        "name": "Snow Pea",
+        "slug": "snow-pea"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "pod",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "pod",
+        "scientific_name": "Pisum sativum var. saccharatum",
+        "seasonality": "spring",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "riesling"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Rumex acetosa"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.spinach"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.sorrel",
+        "name": "Sorrel",
+        "slug": "sorrel"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "leafy",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "leaf",
+        "scientific_name": "Rumex acetosa",
+        "seasonality": "spring",
+        "texture": "leafy",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "sauvignon-blanc"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Spinacia oleracea"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.cheese.brined.feta"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.protein.poultry.chicken-breast"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.sorrel"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.swiss-chard"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.green-vegetables.swiss-chard"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.spinach",
+        "name": "Spinach",
+        "slug": "spinach"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "leafy",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "leaf",
+        "scientific_name": "Spinacia oleracea",
+        "seasonality": "spring",
+        "texture": "leafy",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "sauvignon-blanc"
+          }
+        ],
+        "descriptors": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_descriptor",
+            "target": "vegetal"
+          }
+        ],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "pinot-grigio"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Beta vulgaris subsp. vulgaris"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.spinach"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.green-vegetables.spinach"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.swiss-chard",
+        "name": "Swiss Chard",
+        "slug": "swiss-chard"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "leafy",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "leaf",
+        "scientific_name": "Beta vulgaris subsp. vulgaris",
+        "seasonality": "summer",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "pinot-noir"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Brassica rapa subsp. narinosa"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.bok-choy"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.mizuna"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.green-vegetables.bok-choy"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.tatsoi",
+        "name": "Tatsoi",
+        "slug": "tatsoi"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "leafy",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "leaf",
+        "scientific_name": "Brassica rapa subsp. narinosa",
+        "seasonality": "fall",
+        "texture": "leafy",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Ipomoea aquatica"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.water-spinach",
+        "name": "Water Spinach",
+        "slug": "water-spinach"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "leafy",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "leaf",
+        "scientific_name": "Ipomoea aquatica",
+        "seasonality": "summer",
+        "texture": "tender",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "gewurztraminer"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "green_vegetables",
+        "group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        "scientific_name": "Nasturtium officinale"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.arugula"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.green-vegetables.watercress",
+        "name": "Watercress",
+        "slug": "watercress"
+      },
+      "intrinsic": {
+        "culinary_group": "green_vegetables",
+        "culinary_role": "leafy",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "leaf",
+        "scientific_name": "Nasturtium officinale",
+        "seasonality": "spring",
+        "texture": "tender",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "sauvignon-blanc"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "nightshades",
+        "group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        },
+        "scientific_name": "Capsicum annuum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.nightshades.poblano-pepper"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.nightshades.anaheim-pepper",
+        "name": "Anaheim Pepper",
+        "slug": "anaheim-pepper"
+      },
+      "intrinsic": {
+        "culinary_group": "nightshades",
+        "culinary_role": "fruit_vegetable",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Capsicum annuum",
+        "seasonality": "summer",
+        "texture": "succulent",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "zinfandel"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "nightshades",
+        "group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        },
+        "scientific_name": "Capsicum annuum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.cheese.parmigiano_reggiano"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.onion"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.nightshades.tomato"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.nightshades.poblano-pepper"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.nightshades.poblano-pepper"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.nightshades.bell-pepper",
+        "name": "Bell Pepper",
+        "slug": "bell-pepper"
+      },
+      "intrinsic": {
+        "culinary_group": "nightshades",
+        "culinary_role": "fruit_vegetable",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Capsicum annuum",
+        "seasonality": "summer",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "grenache"
+          }
+        ],
+        "descriptors": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_descriptor",
+            "target": "bell-pepper"
+          }
+        ],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "syrah-shiraz"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "nightshades",
+        "group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        },
+        "scientific_name": "Solanum melongena"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.cheese.hard.parmigiano-reggiano"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.herb.basil"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.protein.fin-fish.salmon-fillet"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.nightshades.bell-pepper"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.nightshades.tomato"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.nightshades.eggplant",
+        "name": "Eggplant",
+        "slug": "eggplant"
+      },
+      "intrinsic": {
+        "culinary_group": "nightshades",
+        "culinary_role": "fruit_vegetable",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Solanum melongena",
+        "seasonality": "summer",
+        "texture": "succulent",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "nebbiolo"
+          }
+        ],
+        "descriptors": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_descriptor",
+            "target": "smoky"
+          }
+        ],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "syrah-shiraz"
+          }
+        ],
+        "techniques": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_technique",
+            "target": "barrel-aging"
+          }
+        ]
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "nightshades",
+        "group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        },
+        "scientific_name": "Capsicum chinense"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.nightshades.habanero-pepper",
+        "name": "Habanero Pepper",
+        "slug": "habanero-pepper"
+      },
+      "intrinsic": {
+        "culinary_group": "nightshades",
+        "culinary_role": "fruit_vegetable",
+        "flavor_intensity": "pungent",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Capsicum chinense",
+        "seasonality": "summer",
+        "texture": "succulent",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "riesling"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "nightshades",
+        "group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        },
+        "scientific_name": "Capsicum annuum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.spice.cumin"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.nightshades.tomato"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.nightshades.serrano-pepper"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.nightshades.serrano-pepper"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.nightshades.jalapeno-pepper",
+        "name": "Jalapeño Pepper",
+        "slug": "jalapeno-pepper"
+      },
+      "intrinsic": {
+        "culinary_group": "nightshades",
+        "culinary_role": "fruit_vegetable",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Capsicum annuum",
+        "seasonality": "summer",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "riesling"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "gewurztraminer"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "nightshades",
+        "group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        },
+        "scientific_name": "Capsicum annuum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.onion"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.nightshades.anaheim-pepper"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.nightshades.bell-pepper"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.nightshades.bell-pepper"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.nightshades.poblano-pepper",
+        "name": "Poblano Pepper",
+        "slug": "poblano-pepper"
+      },
+      "intrinsic": {
+        "culinary_group": "nightshades",
+        "culinary_role": "fruit_vegetable",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Capsicum annuum",
+        "seasonality": "summer",
+        "texture": "succulent",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "zinfandel"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "tempranillo"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "nightshades",
+        "group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        },
+        "scientific_name": "Capsicum annuum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.nightshades.jalapeno-pepper"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.nightshades.jalapeno-pepper"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.nightshades.serrano-pepper",
+        "name": "Serrano Pepper",
+        "slug": "serrano-pepper"
+      },
+      "intrinsic": {
+        "culinary_group": "nightshades",
+        "culinary_role": "fruit_vegetable",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Capsicum annuum",
+        "seasonality": "summer",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "albarino"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "nightshades",
+        "group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        },
+        "scientific_name": "Physalis philadelphica"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.herb.cilantro"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.onion"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.nightshades.jalapeno-pepper"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.nightshades.tomato"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.nightshades.tomatillo",
+        "name": "Tomatillo",
+        "slug": "tomatillo"
+      },
+      "intrinsic": {
+        "culinary_group": "nightshades",
+        "culinary_role": "fruit_vegetable",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Physalis philadelphica",
+        "seasonality": "summer",
+        "texture": "succulent",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "albarino"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "sauvignon-blanc"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "nightshades",
+        "group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        },
+        "scientific_name": "Solanum lycopersicum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.cheese.fresh.mozzarella-fior-di-latte"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.cheese.hard.parmigiano-reggiano"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.herb.basil"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.herb.oregano"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.protein.fin-fish.salmon-fillet"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.spice.black_pepper"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.onion"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.wine.sauvignon_blanc"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.nightshades.tomatillo"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.nightshades.tomato",
+        "name": "Tomato",
+        "slug": "tomato"
+      },
+      "intrinsic": {
+        "culinary_group": "nightshades",
+        "culinary_role": "fruit_vegetable",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Solanum lycopersicum",
+        "seasonality": "summer",
+        "texture": "succulent",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "nebbiolo"
+          }
+        ],
+        "descriptors": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_descriptor",
+            "target": "earthy"
+          }
+        ],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "sangiovese"
+          }
+        ],
+        "techniques": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_technique",
+            "target": "carbonic-maceration"
+          }
+        ]
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Cucurbita pepo var. turbinata"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.delicata-squash"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.root-vegetables.butternut-squash"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.acorn-squash",
+        "name": "Acorn Squash",
+        "slug": "acorn-squash"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "primary",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Cucurbita pepo var. turbinata",
+        "seasonality": "fall",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "pinot-noir"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Beta vulgaris subsp. vulgaris"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.cheese.brined.feta"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.onion"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.root-vegetables.carrot"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.beet",
+        "name": "Beet",
+        "slug": "beet"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "root",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "root",
+        "scientific_name": "Beta vulgaris subsp. vulgaris",
+        "seasonality": "fall",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_descriptor",
+            "target": "earthy"
+          }
+        ],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "pinot-noir"
+          }
+        ],
+        "techniques": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_technique",
+            "target": "malolactic-fermentation"
+          }
+        ]
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Arctium lappa"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.salsify"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.burdock-root",
+        "name": "Burdock Root",
+        "slug": "burdock-root"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "root",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "root",
+        "scientific_name": "Arctium lappa",
+        "seasonality": "fall",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "riesling"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Cucurbita moschata"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.herb.rosemary"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.onion"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.kabocha-squash"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.butternut-squash",
+        "name": "Butternut Squash",
+        "slug": "butternut-squash"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "primary",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Cucurbita moschata",
+        "seasonality": "fall",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "chardonnay"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "viognier"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Daucus carota subsp. sativus"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.herb.parsley"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.protein.beef.brisket"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.protein.lamb.lamb-leg"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.green-vegetables.celery"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.parsnip"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.root-vegetables.parsnip"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.carrot",
+        "name": "Carrot",
+        "slug": "carrot"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "root",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "root",
+        "scientific_name": "Daucus carota subsp. sativus",
+        "seasonality": "year_round",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "chardonnay"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "pinot-noir"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Apium graveolens var. rapaceum"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.celery"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.green-vegetables.celery"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.celeriac",
+        "name": "Celeriac",
+        "slug": "celeriac"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "root",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "root",
+        "scientific_name": "Apium graveolens var. rapaceum",
+        "seasonality": "winter",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "chardonnay"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Sechium edule"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.chayote",
+        "name": "Chayote",
+        "slug": "chayote"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "primary",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Sechium edule",
+        "seasonality": "fall",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "albarino"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Cucurbita pepo"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.acorn-squash"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.root-vegetables.acorn-squash"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.delicata-squash",
+        "name": "Delicata Squash",
+        "slug": "delicata-squash"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "primary",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Cucurbita pepo",
+        "seasonality": "fall",
+        "texture": "tender",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "pinot-grigio"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Cucurbita maxima"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.onion"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.pumpkin"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.hubbard-squash",
+        "name": "Hubbard Squash",
+        "slug": "hubbard-squash"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "primary",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Cucurbita maxima",
+        "seasonality": "fall",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "viognier"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Pachyrhizus erosus"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.lotus-root"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.jicama",
+        "name": "Jicama",
+        "slug": "jicama"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "root",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "root",
+        "scientific_name": "Pachyrhizus erosus",
+        "seasonality": "winter",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "albarino"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Cucurbita maxima"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.butternut-squash"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.root-vegetables.butternut-squash"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.kabocha-squash",
+        "name": "Kabocha Squash",
+        "slug": "kabocha-squash"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "primary",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Cucurbita maxima",
+        "seasonality": "fall",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "riesling"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Nelumbo nucifera"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.jicama"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.lotus-root",
+        "name": "Lotus Root",
+        "slug": "lotus-root"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "root",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "root",
+        "scientific_name": "Nelumbo nucifera",
+        "seasonality": "year_round",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "riesling"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Pastinaca sativa"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.onion"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.carrot"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.root-vegetables.carrot"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.parsnip",
+        "name": "Parsnip",
+        "slug": "parsnip"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "root",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "root",
+        "scientific_name": "Pastinaca sativa",
+        "seasonality": "winter",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "chardonnay"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "viognier"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Cucurbita pepo"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.onion"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.hubbard-squash"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.pumpkin",
+        "name": "Pumpkin",
+        "slug": "pumpkin"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "primary",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Cucurbita pepo",
+        "seasonality": "fall",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "riesling"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "chardonnay"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Raphanus sativus"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.green-vegetables.cucumber"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.radish",
+        "name": "Radish",
+        "slug": "radish"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "root",
+        "flavor_intensity": "bold",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "root",
+        "scientific_name": "Raphanus sativus",
+        "seasonality": "spring",
+        "texture": "crisp",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_descriptor",
+            "target": "black-pepper"
+          }
+        ],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "albarino"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Brassica napus subsp. napobrassica"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.turnip"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.root-vegetables.turnip"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.rutabaga",
+        "name": "Rutabaga",
+        "slug": "rutabaga"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "root",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "root",
+        "scientific_name": "Brassica napus subsp. napobrassica",
+        "seasonality": "winter",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "syrah-shiraz"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Tragopogon porrifolius"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.burdock-root"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.scorzonera"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.salsify",
+        "name": "Salsify",
+        "slug": "salsify"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "root",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "root",
+        "scientific_name": "Tragopogon porrifolius",
+        "seasonality": "fall",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "chardonnay"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Scorzonera hispanica"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.salsify"
+          }
+        ],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.scorzonera",
+        "name": "Scorzonera",
+        "slug": "scorzonera"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "root",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "root",
+        "scientific_name": "Scorzonera hispanica",
+        "seasonality": "fall",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "sherry"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Cucurbita pepo"
+      },
+      "editorial_context": {
+        "commonly_served_with": [],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.spaghetti-squash",
+        "name": "Spaghetti Squash",
+        "slug": "spaghetti-squash"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "primary",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Cucurbita pepo",
+        "seasonality": "fall",
+        "texture": "fibrous",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "sangiovese"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Helianthus tuberosus"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.alliums.garlic"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.sunchokes",
+        "name": "Sunchokes",
+        "slug": "sunchokes"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "root",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "tuber",
+        "scientific_name": "Helianthus tuberosus",
+        "seasonality": "fall",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "chardonnay"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Brassica rapa subsp. rapa"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.root-vegetables.carrot"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.green-vegetables.kohlrabi"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "similar_to",
+            "target": "food.vegetable.root-vegetables.rutabaga"
+          }
+        ],
+        "substitutions": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "substitutes_for",
+            "target": "food.vegetable.root-vegetables.rutabaga"
+          }
+        ]
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.turnip",
+        "name": "Turnip",
+        "slug": "turnip"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "root",
+        "flavor_intensity": "moderate",
+        "flavor_profile": [],
+        "moisture_class": "medium",
+        "plant_part": "root",
+        "scientific_name": "Brassica rapa subsp. rapa",
+        "seasonality": "winter",
+        "texture": "dense",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "pinot-noir"
+          }
+        ],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "culinary_group": "root_vegetables",
+        "group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        },
+        "scientific_name": "Cucurbita pepo"
+      },
+      "editorial_context": {
+        "commonly_served_with": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.herb.thyme"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.nightshades.eggplant"
+          },
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_served_with",
+            "target": "food.vegetable.nightshades.tomato"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.vegetable.root-vegetables.zucchini",
+        "name": "Zucchini",
+        "slug": "zucchini"
+      },
+      "intrinsic": {
+        "culinary_group": "root_vegetables",
+        "culinary_role": "primary",
+        "flavor_intensity": "mild",
+        "flavor_profile": [],
+        "moisture_class": "high",
+        "plant_part": "fruit_vegetable",
+        "scientific_name": "Cucurbita pepo",
+        "seasonality": "summer",
+        "texture": "tender",
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        },
+        "parent_group": {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "also_pairs_with_style",
+            "target": "sauvignon-blanc"
+          }
+        ],
+        "descriptors": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "pairs_with_style",
+            "target": "dry-rose"
+          }
+        ],
+        "techniques": []
+      }
+    }
+  ]
+}

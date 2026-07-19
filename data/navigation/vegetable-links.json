@@ -1,0 +1,4647 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/vegetables/acorn-squash/",
+      "projection_id": "food.vegetable.root-vegetables.acorn-squash",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/delicata-squash/",
+            "id": "food.vegetable.root-vegetables.delicata-squash",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Delicata Squash"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/butternut-squash/",
+            "id": "food.vegetable.root-vegetables.butternut-squash",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Butternut Squash"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "acorn-squash"
+    },
+    {
+      "canonical_path": "/vegetables/anaheim-pepper/",
+      "projection_id": "food.vegetable.nightshades.anaheim-pepper",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/nightshades/",
+            "id": "food.vegetable.nightshades",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Nightshades"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/zinfandel/",
+            "id": "zinfandel",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "zinfandel"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/poblano-pepper/",
+            "id": "food.vegetable.nightshades.poblano-pepper",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Poblano Pepper"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "anaheim-pepper"
+    },
+    {
+      "canonical_path": "/vegetables/artichoke/",
+      "projection_id": "food.vegetable.green-vegetables.artichoke",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.cheese.brined.feta",
+            "id": "food.cheese.brined.feta",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "feta"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": [
+          {
+            "href": "/techniques/stainless-steel-aging/",
+            "id": "stainless-steel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "stainless steel aging"
+          }
+        ]
+      },
+      "slug": "artichoke"
+    },
+    {
+      "canonical_path": "/vegetables/arugula/",
+      "projection_id": "food.vegetable.green-vegetables.arugula",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/watercress/",
+            "id": "food.vegetable.green-vegetables.watercress",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Watercress"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/black-pepper",
+            "id": "black-pepper",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "black pepper"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "arugula"
+    },
+    {
+      "canonical_path": "/vegetables/asparagus/",
+      "projection_id": "food.vegetable.green-vegetables.asparagus",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/dry-rose/",
+            "id": "dry-rose",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "dry rose"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.herb.tarragon",
+            "id": "food.herb.tarragon",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tarragon"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/grassy",
+            "id": "grassy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "grassy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/stainless-steel-aging/",
+            "id": "stainless-steel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "stainless steel aging"
+          }
+        ]
+      },
+      "slug": "asparagus"
+    },
+    {
+      "canonical_path": "/vegetables/bamboo-shoot/",
+      "projection_id": "food.vegetable.green-vegetables.bamboo-shoot",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "bamboo-shoot"
+    },
+    {
+      "canonical_path": "/vegetables/beet/",
+      "projection_id": "food.vegetable.root-vegetables.beet",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.root-vegetables.carrot",
+            "id": "food.vegetable.root-vegetables.carrot",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "carrot"
+          },
+          {
+            "href": "food.cheese.brined.feta",
+            "id": "food.cheese.brined.feta",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "feta"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/malolactic-fermentation/",
+            "id": "malolactic-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "malolactic fermentation"
+          }
+        ]
+      },
+      "slug": "beet"
+    },
+    {
+      "canonical_path": "/vegetables/bell-pepper/",
+      "projection_id": "food.vegetable.nightshades.bell-pepper",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.cheese.parmigiano_reggiano",
+            "id": "food.cheese.parmigiano_reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano_reggiano"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/nightshades/",
+            "id": "food.vegetable.nightshades",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Nightshades"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/poblano-pepper/",
+            "id": "food.vegetable.nightshades.poblano-pepper",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Poblano Pepper"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/poblano-pepper/",
+            "id": "food.vegetable.nightshades.poblano-pepper",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Poblano Pepper"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/bell-pepper",
+            "id": "bell-pepper",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "bell pepper"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "bell-pepper"
+    },
+    {
+      "canonical_path": "/vegetables/bitter-melon/",
+      "projection_id": "food.vegetable.green-vegetables.bitter-melon",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "bitter-melon"
+    },
+    {
+      "canonical_path": "/vegetables/bok-choy/",
+      "projection_id": "food.vegetable.green-vegetables.bok-choy",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/tatsoi/",
+            "id": "food.vegetable.green-vegetables.tatsoi",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Tatsoi"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/napa-cabbage/",
+            "id": "food.vegetable.green-vegetables.napa-cabbage",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Napa Cabbage"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "bok-choy"
+    },
+    {
+      "canonical_path": "/vegetables/broccoli/",
+      "projection_id": "food.vegetable.green-vegetables.broccoli",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.cheese.hard.parmigiano-reggiano",
+            "id": "food.cheese.hard.parmigiano-reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano reggiano"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/cauliflower/",
+            "id": "food.vegetable.green-vegetables.cauliflower",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Cauliflower"
+          },
+          {
+            "href": "/vegetables/rapini/",
+            "id": "food.vegetable.green-vegetables.rapini",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Rapini"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/cauliflower/",
+            "id": "food.vegetable.green-vegetables.cauliflower",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Cauliflower"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/grassy",
+            "id": "grassy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "grassy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "broccoli"
+    },
+    {
+      "canonical_path": "/vegetables/brussels-sprouts/",
+      "projection_id": "food.vegetable.green-vegetables.brussels-sprouts",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "brussels-sprouts"
+    },
+    {
+      "canonical_path": "/vegetables/burdock-root/",
+      "projection_id": "food.vegetable.root-vegetables.burdock-root",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/salsify/",
+            "id": "food.vegetable.root-vegetables.salsify",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Salsify"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "burdock-root"
+    },
+    {
+      "canonical_path": "/vegetables/butternut-squash/",
+      "projection_id": "food.vegetable.root-vegetables.butternut-squash",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.herb.rosemary",
+            "id": "food.herb.rosemary",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rosemary"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/viognier/",
+            "id": "viognier",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "viognier"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/kabocha-squash/",
+            "id": "food.vegetable.root-vegetables.kabocha-squash",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Kabocha Squash"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "butternut-squash"
+    },
+    {
+      "canonical_path": "/vegetables/cabbage/",
+      "projection_id": "food.vegetable.green-vegetables.cabbage",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.root-vegetables.carrot",
+            "id": "food.vegetable.root-vegetables.carrot",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "carrot"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/napa-cabbage/",
+            "id": "food.vegetable.green-vegetables.napa-cabbage",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Napa Cabbage"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "cabbage"
+    },
+    {
+      "canonical_path": "/vegetables/carrot/",
+      "projection_id": "food.vegetable.root-vegetables.carrot",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.beef.brisket",
+            "id": "food.protein.beef.brisket",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "brisket"
+          },
+          {
+            "href": "food.vegetable.green-vegetables.celery",
+            "id": "food.vegetable.green-vegetables.celery",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "celery"
+          },
+          {
+            "href": "food.protein.lamb.lamb-leg",
+            "id": "food.protein.lamb.lamb-leg",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "lamb leg"
+          },
+          {
+            "href": "food.herb.parsley",
+            "id": "food.herb.parsley",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parsley"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/parsnip/",
+            "id": "food.vegetable.root-vegetables.parsnip",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Parsnip"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/parsnip/",
+            "id": "food.vegetable.root-vegetables.parsnip",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Parsnip"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "carrot"
+    },
+    {
+      "canonical_path": "/vegetables/cauliflower/",
+      "projection_id": "food.vegetable.green-vegetables.cauliflower",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/broccoli/",
+            "id": "food.vegetable.green-vegetables.broccoli",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Broccoli"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/broccoli/",
+            "id": "food.vegetable.green-vegetables.broccoli",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Broccoli"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/nutty",
+            "id": "nutty",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "nutty"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "cauliflower"
+    },
+    {
+      "canonical_path": "/vegetables/celeriac/",
+      "projection_id": "food.vegetable.root-vegetables.celeriac",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/celery/",
+            "id": "food.vegetable.green-vegetables.celery",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Celery"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/celery/",
+            "id": "food.vegetable.green-vegetables.celery",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Celery"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "celeriac"
+    },
+    {
+      "canonical_path": "/vegetables/celery/",
+      "projection_id": "food.vegetable.green-vegetables.celery",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.mollusks.clam",
+            "id": "food.protein.mollusks.clam",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "clam"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/celeriac/",
+            "id": "food.vegetable.root-vegetables.celeriac",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Celeriac"
+          },
+          {
+            "href": "/vegetables/fennel/",
+            "id": "food.vegetable.green-vegetables.fennel",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Fennel"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "celery"
+    },
+    {
+      "canonical_path": "/vegetables/chayote/",
+      "projection_id": "food.vegetable.root-vegetables.chayote",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "chayote"
+    },
+    {
+      "canonical_path": "/vegetables/chive/",
+      "projection_id": "food.vegetable.alliums.chive",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/alliums/",
+            "id": "food.vegetable.alliums",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Alliums"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/champagne/",
+            "id": "champagne",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "champagne"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/garlic-chives/",
+            "id": "food.vegetable.alliums.garlic-chives",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Garlic Chives"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "chive"
+    },
+    {
+      "canonical_path": "/vegetables/collard-greens/",
+      "projection_id": "food.vegetable.green-vegetables.collard-greens",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/zinfandel/",
+            "id": "zinfandel",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "zinfandel"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/kale/",
+            "id": "food.vegetable.green-vegetables.kale",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Kale"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/kale/",
+            "id": "food.vegetable.green-vegetables.kale",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Kale"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "collard-greens"
+    },
+    {
+      "canonical_path": "/vegetables/cucumber/",
+      "projection_id": "food.vegetable.green-vegetables.cucumber",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.herb.dill",
+            "id": "food.herb.dill",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "dill"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "cucumber"
+    },
+    {
+      "canonical_path": "/vegetables/dandelion-greens/",
+      "projection_id": "food.vegetable.green-vegetables.dandelion-greens",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/nebbiolo/",
+            "id": "nebbiolo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "nebbiolo"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/mustard-greens/",
+            "id": "food.vegetable.green-vegetables.mustard-greens",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Mustard Greens"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "dandelion-greens"
+    },
+    {
+      "canonical_path": "/vegetables/delicata-squash/",
+      "projection_id": "food.vegetable.root-vegetables.delicata-squash",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/acorn-squash/",
+            "id": "food.vegetable.root-vegetables.acorn-squash",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Acorn Squash"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/acorn-squash/",
+            "id": "food.vegetable.root-vegetables.acorn-squash",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Acorn Squash"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "delicata-squash"
+    },
+    {
+      "canonical_path": "/vegetables/eggplant/",
+      "projection_id": "food.vegetable.nightshades.eggplant",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/nebbiolo/",
+            "id": "nebbiolo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "nebbiolo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.herb.basil",
+            "id": "food.herb.basil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "basil"
+          },
+          {
+            "href": "food.vegetable.nightshades.bell-pepper",
+            "id": "food.vegetable.nightshades.bell-pepper",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "bell pepper"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.cheese.hard.parmigiano-reggiano",
+            "id": "food.cheese.hard.parmigiano-reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano reggiano"
+          },
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/nightshades/",
+            "id": "food.vegetable.nightshades",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Nightshades"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/smoky",
+            "id": "smoky",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "smoky"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/barrel-aging/",
+            "id": "barrel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "barrel aging"
+          }
+        ]
+      },
+      "slug": "eggplant"
+    },
+    {
+      "canonical_path": "/vegetables/endive/",
+      "projection_id": "food.vegetable.green-vegetables.endive",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/champagne/",
+            "id": "champagne",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "champagne"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/lettuce/",
+            "id": "food.vegetable.green-vegetables.lettuce",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Lettuce"
+          },
+          {
+            "href": "/vegetables/radicchio/",
+            "id": "food.vegetable.green-vegetables.radicchio",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Radicchio"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "endive"
+    },
+    {
+      "canonical_path": "/vegetables/fennel/",
+      "projection_id": "food.vegetable.green-vegetables.fennel",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.green-vegetables.celery",
+            "id": "food.vegetable.green-vegetables.celery",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "celery"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.protein.pork.pork-loin",
+            "id": "food.protein.pork.pork-loin",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pork loin"
+          },
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/celery/",
+            "id": "food.vegetable.green-vegetables.celery",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Celery"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/herbal",
+            "id": "herbal",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "herbal"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "fennel"
+    },
+    {
+      "canonical_path": "/vegetables/garden-pea/",
+      "projection_id": "food.vegetable.green-vegetables.garden-pea",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/snow-pea/",
+            "id": "food.vegetable.green-vegetables.snow-pea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Snow Pea"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/snow-pea/",
+            "id": "food.vegetable.green-vegetables.snow-pea",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Snow Pea"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "garden-pea"
+    },
+    {
+      "canonical_path": "/vegetables/garlic/",
+      "projection_id": "food.vegetable.alliums.garlic",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.chicken",
+            "id": "food.protein.chicken",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken"
+          },
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.herb.ginger",
+            "id": "food.herb.ginger",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "ginger"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.protein.pork.pork-loin",
+            "id": "food.protein.pork.pork-loin",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pork loin"
+          },
+          {
+            "href": "food.herb.rosemary",
+            "id": "food.herb.rosemary",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rosemary"
+          },
+          {
+            "href": "food.vegetable.alliums.shallot",
+            "id": "food.vegetable.alliums.shallot",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shallot"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/alliums/",
+            "id": "food.vegetable.alliums",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Alliums"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/ramp/",
+            "id": "food.vegetable.alliums.ramp",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Ramp"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "garlic"
+    },
+    {
+      "canonical_path": "/vegetables/garlic-chives/",
+      "projection_id": "food.vegetable.alliums.garlic-chives",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/alliums/",
+            "id": "food.vegetable.alliums",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Alliums"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/chive/",
+            "id": "food.vegetable.alliums.chive",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Chive"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/chive/",
+            "id": "food.vegetable.alliums.chive",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Chive"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "garlic-chives"
+    },
+    {
+      "canonical_path": "/vegetables/green-bean/",
+      "projection_id": "food.vegetable.green-vegetables.green-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/dry-rose/",
+            "id": "dry-rose",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "dry rose"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/snow-pea/",
+            "id": "food.vegetable.green-vegetables.snow-pea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Snow Pea"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/snow-pea/",
+            "id": "food.vegetable.green-vegetables.snow-pea",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Snow Pea"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "green-bean"
+    },
+    {
+      "canonical_path": "/vegetables/habanero-pepper/",
+      "projection_id": "food.vegetable.nightshades.habanero-pepper",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/nightshades/",
+            "id": "food.vegetable.nightshades",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Nightshades"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "habanero-pepper"
+    },
+    {
+      "canonical_path": "/vegetables/hubbard-squash/",
+      "projection_id": "food.vegetable.root-vegetables.hubbard-squash",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/viognier/",
+            "id": "viognier",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "viognier"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/pumpkin/",
+            "id": "food.vegetable.root-vegetables.pumpkin",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Pumpkin"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "hubbard-squash"
+    },
+    {
+      "canonical_path": "/vegetables/jalapeno-pepper/",
+      "projection_id": "food.vegetable.nightshades.jalapeno-pepper",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.spice.cumin",
+            "id": "food.spice.cumin",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cumin"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/nightshades/",
+            "id": "food.vegetable.nightshades",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Nightshades"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/serrano-pepper/",
+            "id": "food.vegetable.nightshades.serrano-pepper",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Serrano Pepper"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/serrano-pepper/",
+            "id": "food.vegetable.nightshades.serrano-pepper",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Serrano Pepper"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "jalapeno-pepper"
+    },
+    {
+      "canonical_path": "/vegetables/jicama/",
+      "projection_id": "food.vegetable.root-vegetables.jicama",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/lotus-root/",
+            "id": "food.vegetable.root-vegetables.lotus-root",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Lotus Root"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "jicama"
+    },
+    {
+      "canonical_path": "/vegetables/kabocha-squash/",
+      "projection_id": "food.vegetable.root-vegetables.kabocha-squash",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/butternut-squash/",
+            "id": "food.vegetable.root-vegetables.butternut-squash",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Butternut Squash"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/butternut-squash/",
+            "id": "food.vegetable.root-vegetables.butternut-squash",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Butternut Squash"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "kabocha-squash"
+    },
+    {
+      "canonical_path": "/vegetables/kale/",
+      "projection_id": "food.vegetable.green-vegetables.kale",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.protein.pork.pork-loin",
+            "id": "food.protein.pork.pork-loin",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pork loin"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/collard-greens/",
+            "id": "food.vegetable.green-vegetables.collard-greens",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Collard Greens"
+          },
+          {
+            "href": "/vegetables/mustard-greens/",
+            "id": "food.vegetable.green-vegetables.mustard-greens",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Mustard Greens"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/collard-greens/",
+            "id": "food.vegetable.green-vegetables.collard-greens",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Collard Greens"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/bitter",
+            "id": "bitter",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "bitter"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "kale"
+    },
+    {
+      "canonical_path": "/vegetables/kohlrabi/",
+      "projection_id": "food.vegetable.green-vegetables.kohlrabi",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/turnip/",
+            "id": "food.vegetable.root-vegetables.turnip",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Turnip"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "kohlrabi"
+    },
+    {
+      "canonical_path": "/vegetables/leek/",
+      "projection_id": "food.vegetable.alliums.leek",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.green-vegetables.celery",
+            "id": "food.vegetable.green-vegetables.celery",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "celery"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/alliums/",
+            "id": "food.vegetable.alliums",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Alliums"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/onion/",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Onion"
+          },
+          {
+            "href": "/vegetables/scallion/",
+            "id": "food.vegetable.alliums.scallion",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Scallion"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/onion/",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Onion"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "leek"
+    },
+    {
+      "canonical_path": "/vegetables/lettuce/",
+      "projection_id": "food.vegetable.green-vegetables.lettuce",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/dry-rose/",
+            "id": "dry-rose",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "dry rose"
+          }
+        ],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/endive/",
+            "id": "food.vegetable.green-vegetables.endive",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Endive"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "lettuce"
+    },
+    {
+      "canonical_path": "/vegetables/lotus-root/",
+      "projection_id": "food.vegetable.root-vegetables.lotus-root",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/jicama/",
+            "id": "food.vegetable.root-vegetables.jicama",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Jicama"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "lotus-root"
+    },
+    {
+      "canonical_path": "/vegetables/mizuna/",
+      "projection_id": "food.vegetable.green-vegetables.mizuna",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/tatsoi/",
+            "id": "food.vegetable.green-vegetables.tatsoi",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Tatsoi"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "mizuna"
+    },
+    {
+      "canonical_path": "/vegetables/mustard-greens/",
+      "projection_id": "food.vegetable.green-vegetables.mustard-greens",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/dandelion-greens/",
+            "id": "food.vegetable.green-vegetables.dandelion-greens",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Dandelion Greens"
+          },
+          {
+            "href": "/vegetables/kale/",
+            "id": "food.vegetable.green-vegetables.kale",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Kale"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/kale/",
+            "id": "food.vegetable.green-vegetables.kale",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Kale"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "mustard-greens"
+    },
+    {
+      "canonical_path": "/vegetables/napa-cabbage/",
+      "projection_id": "food.vegetable.green-vegetables.napa-cabbage",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/cabbage/",
+            "id": "food.vegetable.green-vegetables.cabbage",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Cabbage"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/cabbage/",
+            "id": "food.vegetable.green-vegetables.cabbage",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Cabbage"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "napa-cabbage"
+    },
+    {
+      "canonical_path": "/vegetables/okra/",
+      "projection_id": "food.vegetable.green-vegetables.okra",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.nightshades.bell-pepper",
+            "id": "food.vegetable.nightshades.bell-pepper",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "bell pepper"
+          },
+          {
+            "href": "food.spice.cumin",
+            "id": "food.spice.cumin",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cumin"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "okra"
+    },
+    {
+      "canonical_path": "/vegetables/onion/",
+      "projection_id": "food.vegetable.alliums.onion",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.beef.brisket",
+            "id": "food.protein.beef.brisket",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "brisket"
+          },
+          {
+            "href": "food.vegetable.root-vegetables.carrot",
+            "id": "food.vegetable.root-vegetables.carrot",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "carrot"
+          },
+          {
+            "href": "food.vegetable.green-vegetables.celery",
+            "id": "food.vegetable.green-vegetables.celery",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "celery"
+          },
+          {
+            "href": "food.protein.chicken",
+            "id": "food.protein.chicken",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken"
+          },
+          {
+            "href": "food.herb.thyme",
+            "id": "food.herb.thyme",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "thyme"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/alliums/",
+            "id": "food.vegetable.alliums",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Alliums"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/leek/",
+            "id": "food.vegetable.alliums.leek",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Leek"
+          },
+          {
+            "href": "/vegetables/shallot/",
+            "id": "food.vegetable.alliums.shallot",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Shallot"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/shallot/",
+            "id": "food.vegetable.alliums.shallot",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Shallot"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "onion"
+    },
+    {
+      "canonical_path": "/vegetables/parsnip/",
+      "projection_id": "food.vegetable.root-vegetables.parsnip",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/viognier/",
+            "id": "viognier",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "viognier"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/carrot/",
+            "id": "food.vegetable.root-vegetables.carrot",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Carrot"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/carrot/",
+            "id": "food.vegetable.root-vegetables.carrot",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Carrot"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "parsnip"
+    },
+    {
+      "canonical_path": "/vegetables/poblano-pepper/",
+      "projection_id": "food.vegetable.nightshades.poblano-pepper",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/zinfandel/",
+            "id": "zinfandel",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "zinfandel"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/nightshades/",
+            "id": "food.vegetable.nightshades",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Nightshades"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/anaheim-pepper/",
+            "id": "food.vegetable.nightshades.anaheim-pepper",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Anaheim Pepper"
+          },
+          {
+            "href": "/vegetables/bell-pepper/",
+            "id": "food.vegetable.nightshades.bell-pepper",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Bell Pepper"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/bell-pepper/",
+            "id": "food.vegetable.nightshades.bell-pepper",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Bell Pepper"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "poblano-pepper"
+    },
+    {
+      "canonical_path": "/vegetables/pumpkin/",
+      "projection_id": "food.vegetable.root-vegetables.pumpkin",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/hubbard-squash/",
+            "id": "food.vegetable.root-vegetables.hubbard-squash",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Hubbard Squash"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "pumpkin"
+    },
+    {
+      "canonical_path": "/vegetables/radicchio/",
+      "projection_id": "food.vegetable.green-vegetables.radicchio",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/nebbiolo/",
+            "id": "nebbiolo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "nebbiolo"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/endive/",
+            "id": "food.vegetable.green-vegetables.endive",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Endive"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/bitter",
+            "id": "bitter",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "bitter"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "radicchio"
+    },
+    {
+      "canonical_path": "/vegetables/radish/",
+      "projection_id": "food.vegetable.root-vegetables.radish",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.green-vegetables.cucumber",
+            "id": "food.vegetable.green-vegetables.cucumber",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cucumber"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/black-pepper",
+            "id": "black-pepper",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "black pepper"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "radish"
+    },
+    {
+      "canonical_path": "/vegetables/ramp/",
+      "projection_id": "food.vegetable.alliums.ramp",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/alliums/",
+            "id": "food.vegetable.alliums",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Alliums"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/garlic/",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Garlic"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/garlic/",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Garlic"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "ramp"
+    },
+    {
+      "canonical_path": "/vegetables/rapini/",
+      "projection_id": "food.vegetable.green-vegetables.rapini",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/broccoli/",
+            "id": "food.vegetable.green-vegetables.broccoli",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Broccoli"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/broccoli/",
+            "id": "food.vegetable.green-vegetables.broccoli",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Broccoli"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "rapini"
+    },
+    {
+      "canonical_path": "/vegetables/rhubarb/",
+      "projection_id": "food.vegetable.green-vegetables.rhubarb",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/moscato/",
+            "id": "moscato",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "moscato"
+          }
+        ],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "rhubarb"
+    },
+    {
+      "canonical_path": "/vegetables/rutabaga/",
+      "projection_id": "food.vegetable.root-vegetables.rutabaga",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/turnip/",
+            "id": "food.vegetable.root-vegetables.turnip",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Turnip"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/turnip/",
+            "id": "food.vegetable.root-vegetables.turnip",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Turnip"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "rutabaga"
+    },
+    {
+      "canonical_path": "/vegetables/salsify/",
+      "projection_id": "food.vegetable.root-vegetables.salsify",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/burdock-root/",
+            "id": "food.vegetable.root-vegetables.burdock-root",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Burdock Root"
+          },
+          {
+            "href": "/vegetables/scorzonera/",
+            "id": "food.vegetable.root-vegetables.scorzonera",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Scorzonera"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "salsify"
+    },
+    {
+      "canonical_path": "/vegetables/scallion/",
+      "projection_id": "food.vegetable.alliums.scallion",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.herb.ginger",
+            "id": "food.herb.ginger",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "ginger"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/alliums/",
+            "id": "food.vegetable.alliums",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Alliums"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/leek/",
+            "id": "food.vegetable.alliums.leek",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Leek"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/shallot/",
+            "id": "food.vegetable.alliums.shallot",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Shallot"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "scallion"
+    },
+    {
+      "canonical_path": "/vegetables/scorzonera/",
+      "projection_id": "food.vegetable.root-vegetables.scorzonera",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sherry/",
+            "id": "sherry",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sherry"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/salsify/",
+            "id": "food.vegetable.root-vegetables.salsify",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Salsify"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "scorzonera"
+    },
+    {
+      "canonical_path": "/vegetables/serrano-pepper/",
+      "projection_id": "food.vegetable.nightshades.serrano-pepper",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/nightshades/",
+            "id": "food.vegetable.nightshades",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Nightshades"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/jalapeno-pepper/",
+            "id": "food.vegetable.nightshades.jalapeno-pepper",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Jalapeño Pepper"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/jalapeno-pepper/",
+            "id": "food.vegetable.nightshades.jalapeno-pepper",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Jalapeño Pepper"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "serrano-pepper"
+    },
+    {
+      "canonical_path": "/vegetables/shallot/",
+      "projection_id": "food.vegetable.alliums.shallot",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/alliums/",
+            "id": "food.vegetable.alliums",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Alliums"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/champagne/",
+            "id": "champagne",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "champagne"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/onion/",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Onion"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/onion/",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Onion"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "shallot"
+    },
+    {
+      "canonical_path": "/vegetables/snow-pea/",
+      "projection_id": "food.vegetable.green-vegetables.snow-pea",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/garden-pea/",
+            "id": "food.vegetable.green-vegetables.garden-pea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Garden Pea"
+          },
+          {
+            "href": "/vegetables/green-bean/",
+            "id": "food.vegetable.green-vegetables.green-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Green Bean"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/green-bean/",
+            "id": "food.vegetable.green-vegetables.green-bean",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Green Bean"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "snow-pea"
+    },
+    {
+      "canonical_path": "/vegetables/sorrel/",
+      "projection_id": "food.vegetable.green-vegetables.sorrel",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/spinach/",
+            "id": "food.vegetable.green-vegetables.spinach",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Spinach"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "sorrel"
+    },
+    {
+      "canonical_path": "/vegetables/spaghetti-squash/",
+      "projection_id": "food.vegetable.root-vegetables.spaghetti-squash",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "spaghetti-squash"
+    },
+    {
+      "canonical_path": "/vegetables/spinach/",
+      "projection_id": "food.vegetable.green-vegetables.spinach",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.cheese.brined.feta",
+            "id": "food.cheese.brined.feta",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "feta"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/sorrel/",
+            "id": "food.vegetable.green-vegetables.sorrel",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Sorrel"
+          },
+          {
+            "href": "/vegetables/swiss-chard/",
+            "id": "food.vegetable.green-vegetables.swiss-chard",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Swiss Chard"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/swiss-chard/",
+            "id": "food.vegetable.green-vegetables.swiss-chard",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Swiss Chard"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/vegetal",
+            "id": "vegetal",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "vegetal"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "spinach"
+    },
+    {
+      "canonical_path": "/vegetables/sunchokes/",
+      "projection_id": "food.vegetable.root-vegetables.sunchokes",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "sunchokes"
+    },
+    {
+      "canonical_path": "/vegetables/swiss-chard/",
+      "projection_id": "food.vegetable.green-vegetables.swiss-chard",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/spinach/",
+            "id": "food.vegetable.green-vegetables.spinach",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Spinach"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/spinach/",
+            "id": "food.vegetable.green-vegetables.spinach",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Spinach"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "swiss-chard"
+    },
+    {
+      "canonical_path": "/vegetables/tatsoi/",
+      "projection_id": "food.vegetable.green-vegetables.tatsoi",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/bok-choy/",
+            "id": "food.vegetable.green-vegetables.bok-choy",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Bok Choy"
+          },
+          {
+            "href": "/vegetables/mizuna/",
+            "id": "food.vegetable.green-vegetables.mizuna",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Mizuna"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/bok-choy/",
+            "id": "food.vegetable.green-vegetables.bok-choy",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Bok Choy"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "tatsoi"
+    },
+    {
+      "canonical_path": "/vegetables/tomatillo/",
+      "projection_id": "food.vegetable.nightshades.tomatillo",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.herb.cilantro",
+            "id": "food.herb.cilantro",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cilantro"
+          },
+          {
+            "href": "food.vegetable.nightshades.jalapeno-pepper",
+            "id": "food.vegetable.nightshades.jalapeno-pepper",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "jalapeno pepper"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/nightshades/",
+            "id": "food.vegetable.nightshades",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Nightshades"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/tomato/",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Tomato"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "tomatillo"
+    },
+    {
+      "canonical_path": "/vegetables/tomato/",
+      "projection_id": "food.vegetable.nightshades.tomato",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/nebbiolo/",
+            "id": "nebbiolo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "nebbiolo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.herb.basil",
+            "id": "food.herb.basil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "basil"
+          },
+          {
+            "href": "food.spice.black_pepper",
+            "id": "food.spice.black_pepper",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black_pepper"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.cheese.fresh.mozzarella-fior-di-latte",
+            "id": "food.cheese.fresh.mozzarella-fior-di-latte",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "mozzarella fior di latte"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.herb.oregano",
+            "id": "food.herb.oregano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "oregano"
+          },
+          {
+            "href": "food.cheese.hard.parmigiano-reggiano",
+            "id": "food.cheese.hard.parmigiano-reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano reggiano"
+          },
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          },
+          {
+            "href": "food.wine.sauvignon_blanc",
+            "id": "food.wine.sauvignon_blanc",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "sauvignon_blanc"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/nightshades/",
+            "id": "food.vegetable.nightshades",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Nightshades"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/tomatillo/",
+            "id": "food.vegetable.nightshades.tomatillo",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Tomatillo"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/carbonic-maceration/",
+            "id": "carbonic-maceration",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "carbonic maceration"
+          }
+        ]
+      },
+      "slug": "tomato"
+    },
+    {
+      "canonical_path": "/vegetables/turnip/",
+      "projection_id": "food.vegetable.root-vegetables.turnip",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.root-vegetables.carrot",
+            "id": "food.vegetable.root-vegetables.carrot",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "carrot"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/kohlrabi/",
+            "id": "food.vegetable.green-vegetables.kohlrabi",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Kohlrabi"
+          },
+          {
+            "href": "/vegetables/rutabaga/",
+            "id": "food.vegetable.root-vegetables.rutabaga",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Rutabaga"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/vegetables/rutabaga/",
+            "id": "food.vegetable.root-vegetables.rutabaga",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Rutabaga"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "turnip"
+    },
+    {
+      "canonical_path": "/vegetables/water-spinach/",
+      "projection_id": "food.vegetable.green-vegetables.water-spinach",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "water-spinach"
+    },
+    {
+      "canonical_path": "/vegetables/watercress/",
+      "projection_id": "food.vegetable.green-vegetables.watercress",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_vegetables": [
+          {
+            "href": "/vegetables/arugula/",
+            "id": "food.vegetable.green-vegetables.arugula",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Arugula"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "watercress"
+    },
+    {
+      "canonical_path": "/vegetables/zucchini/",
+      "projection_id": "food.vegetable.root-vegetables.zucchini",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.nightshades.eggplant",
+            "id": "food.vegetable.nightshades.eggplant",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "eggplant"
+          },
+          {
+            "href": "food.herb.thyme",
+            "id": "food.herb.thyme",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "thyme"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/vegetable-categories/vegetable/",
+            "id": "food.vegetable",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Vegetables"
+          },
+          "group": {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/dry-rose/",
+            "id": "dry-rose",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "dry rose"
+          }
+        ],
+        "similar_vegetables": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "zucchini"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "vegetable",
+    "food_ontology_version": "1.2.0",
+    "link_set_count": 74,
+    "link_set_type": "vegetable",
+    "phase": "FOOD-05FD"
+  }
+}

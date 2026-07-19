@@ -3,4 +3,4 @@
 import { runPromoteStage } from "../lib/food-publication/deploy.js";
 
 const domains = process.argv.slice(2);
-runPromoteStage(domains.length ? domains : ["protein", "cheese"]);
+runPromoteStage(domains.length ? domains : ["protein", "cheese", "vegetable"]);

@@ -1,17 +1,48 @@
 {
-  "artifacts": {
-    "html": 226,
-    "navigation": 226,
-    "schema": 226,
-    "search": 226
+  "generated_at": "2026-07-19T02:46:47.544Z",
+  "publications": {
+    "cheese-ontology": {
+      "artifacts": {
+        "html": 214,
+        "navigation": 214,
+        "schema": 214,
+        "search": 214
+      },
+      "pages": {
+        "categories": 1,
+        "groups": 9,
+        "leaf": 204,
+        "total": 214
+      }
+    },
+    "protein-food-ontology": {
+      "artifacts": {
+        "html": 226,
+        "navigation": 226,
+        "schema": 226,
+        "search": 226
+      },
+      "pages": {
+        "categories": 3,
+        "groups": 16,
+        "leaf": 207,
+        "total": 226
+      }
+    },
+    "vegetable-ontology": {
+      "artifacts": {
+        "html": 79,
+        "navigation": 79,
+        "schema": 79,
+        "search": 79
+      },
+      "pages": {
+        "categories": 1,
+        "groups": 4,
+        "leaf": 74,
+        "total": 79
+      }
+    }
   },
-  "generated_at": "2026-07-17T14:09:46.020Z",
-  "pages": {
-    "categories": 3,
-    "foods": 207,
-    "groups": 16,
-    "total": 226
-  },
-  "publication": "protein-food-ontology",
   "version": "1.0"
 }

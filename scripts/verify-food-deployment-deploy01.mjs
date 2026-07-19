@@ -3,4 +3,4 @@
 import { runVerifyDeployment } from "../lib/food-publication/deploy.js";
 
 const domains = process.argv.slice(2);
-runVerifyDeployment(domains.length ? domains : ["protein", "cheese"]);
+runVerifyDeployment(domains.length ? domains : ["protein", "cheese", "vegetable"]);

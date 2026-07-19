@@ -1,0 +1,24 @@
+{
+  "domain": "vegetable",
+  "metrics": {
+    "Broken references": 0,
+    "Category search documents": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate documents": 0,
+    "Group search documents": 4,
+    "Indexed tokens": 207,
+    "Leaf search documents": 74,
+    "Overall result": "PASS",
+    "Suggestions": 79,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/search/vegetable-search-index.json",
+    "data/search/vegetable-group-search-index.json",
+    "data/search/vegetable-category-search-index.json",
+    "data/search/vegetable-search-suggestions.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-05FE",
+  "validation_errors": []
+}

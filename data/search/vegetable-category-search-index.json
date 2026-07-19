@@ -1,0 +1,65 @@
+{
+  "documents": [
+    {
+      "canonical_path": "/vegetable-categories/vegetable/",
+      "canonical_url": "https://pairingmethod.com/vegetable-categories/vegetable/",
+      "display_name": "Vegetables",
+      "document_type": "vegetable_category",
+      "food_count": 74,
+      "group_count": 4,
+      "group_ids": [
+        "food.vegetable.alliums",
+        "food.vegetable.green-vegetables",
+        "food.vegetable.nightshades",
+        "food.vegetable.root-vegetables"
+      ],
+      "groups": [
+        {
+          "food_count": 8,
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        },
+        {
+          "food_count": 35,
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        {
+          "food_count": 9,
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        },
+        {
+          "food_count": 22,
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      ],
+      "id": "food.vegetable",
+      "projection_id": "food.vegetable",
+      "slug": "vegetable",
+      "tokens": [
+        "4",
+        "74",
+        "alliums",
+        "green vegetables",
+        "nightshades",
+        "root vegetables",
+        "vegetable",
+        "vegetables"
+      ]
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "document_count": 1,
+    "document_type": "vegetable_category",
+    "domain": "vegetable",
+    "food_ontology_version": "1.2.0",
+    "phase": "FOOD-05FE"
+  }
+}

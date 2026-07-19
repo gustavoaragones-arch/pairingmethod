@@ -1,112 +1,114 @@
 {
   "artifacts": {
-    "catalog": "data/protein-food-catalog.json",
+    "catalog": "data/vegetable-catalog.json",
     "html": [
-      "dist/foods",
-      "dist/groups",
-      "dist/categories"
+      "dist/vegetables",
+      "dist/vegetable-groups",
+      "dist/vegetable-categories"
     ],
     "navigation": [
-      "data/navigation/protein-food-links.json",
-      "data/navigation/protein-group-links.json",
-      "data/navigation/protein-category-links.json"
+      "data/navigation/vegetable-links.json",
+      "data/navigation/vegetable-group-links.json",
+      "data/navigation/vegetable-category-links.json"
     ],
     "pages": [
-      "data/pages/protein-food-pages.json",
-      "data/pages/protein-group-pages.json",
-      "data/pages/protein-category-pages.json"
+      "data/pages/vegetable-pages.json",
+      "data/pages/vegetable-group-pages.json",
+      "data/pages/vegetable-category-pages.json"
     ],
     "projections": [
-      "data/generated/protein-food-pages.json",
-      "data/generated/protein-group-pages.json",
-      "data/generated/protein-category-pages.json"
+      "data/generated/vegetable-pages.json",
+      "data/generated/vegetable-group-pages.json",
+      "data/generated/vegetable-category-pages.json"
     ],
     "relationships": [
-      "data/runtime/protein-food-relationships.json",
-      "data/runtime/protein-food-editorial-relationships.json",
-      "data/runtime/protein-food-wine-relationships.json"
+      "data/runtime/vegetable-relationships.json",
+      "data/runtime/vegetable-editorial-relationships.json",
+      "data/runtime/vegetable-wine-relationships.json"
     ],
     "runtime": [
-      "data/runtime/protein-food-index.json",
-      "data/runtime/protein-food-groups.json",
-      "data/runtime/protein-food-categories.json"
+      "data/runtime/vegetable-bootstrap.json",
+      "data/runtime/vegetable-groups.json",
+      "data/runtime/vegetable-categories.json",
+      "data/runtime/vegetable-indexes.json"
     ],
     "schema": [
-      "data/schema/protein-food-schema.json",
-      "data/schema/protein-group-schema.json",
-      "data/schema/protein-category-schema.json"
+      "data/schema/vegetable-schema.json",
+      "data/schema/vegetable-group-schema.json",
+      "data/schema/vegetable-category-schema.json"
     ],
     "search": [
-      "data/search/protein-food-search-index.json",
-      "data/search/protein-group-search-index.json",
-      "data/search/protein-category-search-index.json",
-      "data/search/protein-search-suggestions.json"
+      "data/search/vegetable-search-index.json",
+      "data/search/vegetable-group-search-index.json",
+      "data/search/vegetable-category-search-index.json",
+      "data/search/vegetable-search-suggestions.json"
     ],
     "sitemaps": [
       "dist/sitemap.xml",
-      "dist/sitemaps/protein-food-pages.xml",
-      "dist/sitemaps/protein-group-pages.xml",
-      "dist/sitemaps/protein-category-pages.xml",
+      "dist/sitemaps/vegetable-pages.xml",
+      "dist/sitemaps/vegetable-group-pages.xml",
+      "dist/sitemaps/vegetable-category-pages.xml",
       "dist/crawl-manifest.json"
     ]
   },
-  "catalog_version": "2.0.0",
+  "catalog_version": "1.0.0",
   "certification": "PASS",
   "checksums": {
-    "catalog": "831e063c148bf035793d1ef45066c16020e6c2977d9f73e5479bc162d9950c9c",
+    "catalog": "381e212974c7c6ab04a6334811aa68c5a7262d075d3946eaa5fe636ddffccfe9",
     "html": {},
     "navigation": {
-      "data/navigation/protein-category-links.json": "ffde443cf7fefcf11e84816b23a4b3dc3fd512dae1feb2d73489881e8dc6a887",
-      "data/navigation/protein-food-links.json": "54e80682060f9d1e5b2e9e35a8e9a83963353b019f13dfcd19e093586f2e64b7",
-      "data/navigation/protein-group-links.json": "ffd354c2c45e5584c65b16caa2c539c3d5ca5ac82e2d536c3f52c0fb44e10097"
+      "data/navigation/vegetable-category-links.json": "96557675be6a633e566bc34889dc8199923cfb36bbf04508eda1ee7fa0fbb42c",
+      "data/navigation/vegetable-group-links.json": "d75a155a602fb2ae6bcd4311ef7b4263fc8b0bc6761ddf0ebdf1ed31a39a8a1d",
+      "data/navigation/vegetable-links.json": "edd0eee10ac6d8dff9e2492f6213843204f11aa1739c6040a25e16b9a0421c14"
     },
     "pages": {
-      "data/pages/protein-category-pages.json": "91cfc85a4910a4feaad6835de66298ad540d0a5eac342ec0956c408fbc970141",
-      "data/pages/protein-food-pages.json": "678d01753d342c64118837e5efaef4a40666fd1f118376203a965c78a0004c94",
-      "data/pages/protein-group-pages.json": "1edf11a70b5100024804bbdef01423ee7c018fdb25a50d3694c4f1b0477937e3"
+      "data/pages/vegetable-category-pages.json": "e9d2c3076d2458fb7538d1d5c7f50818d663e171d1d59b6402488ec3b24659bb",
+      "data/pages/vegetable-group-pages.json": "1ade15811e1e3d67fe97e9084cb720c2adac4fee9fa4ccf53c7960c331210c7e",
+      "data/pages/vegetable-pages.json": "014cc5fc56f5534b7d37ad40f3c3ffb8497a63a403d555f53e0c8145628bb20c"
     },
     "projections": {
-      "data/generated/protein-category-pages.json": "e0847491c4541cd30d95719485dff80bf868da930d80827dab41704559812a53",
-      "data/generated/protein-food-pages.json": "47a0cba168ef4fd9a590876ea53cab767bf5b3df42f849edf297f6c270481b22",
-      "data/generated/protein-group-pages.json": "dac9b5fb146dd5779d6d27a417def6664243fcb37fb4d2dd8ba15a6c5a8e354c"
+      "data/generated/vegetable-category-pages.json": "4928e413deceb39919867a4a6cc024f4d0430fa0a3892b50cb04d41a58e9bdee",
+      "data/generated/vegetable-group-pages.json": "307bbd07dd62d3ddcabf80c29f907d3457a8b3f3dbea2e0a3eb7682e86ac082c",
+      "data/generated/vegetable-pages.json": "487ef00efe4489705d51be9ec33cebbe68e0bfd2f79db90042515f8cfbd46dac"
     },
     "relationships": {
-      "data/runtime/protein-food-editorial-relationships.json": "55325c90ac185e6e5ea88fb2d93ba63d54fe6d4ec0db840f1225a7d4ae942864",
-      "data/runtime/protein-food-relationships.json": "5221bba266ef3374b6bb421d18dabd3c1a65df1a54aae4ea15269dcf0d7c89f5",
-      "data/runtime/protein-food-wine-relationships.json": "1a5fe8e3cab2bd90706ce5301468b671e4f1a8c2a4aa3e06f6d430ba42a26e34"
+      "data/runtime/vegetable-editorial-relationships.json": "68d2ddeefa5395e2860b2b749d587d52ded2e6d4829c50beeb02a30809d39356",
+      "data/runtime/vegetable-relationships.json": "1aa644defa99d6b50c04dcc69f7fd0036b07c5d949396ec91283cbbfd99889b1",
+      "data/runtime/vegetable-wine-relationships.json": "5327014aecce1a05dd1a15b5c400f69af39f57ed1eab8d11da753fbb461d1bcb"
     },
     "runtime": {
-      "data/runtime/protein-food-categories.json": "8de813c9c1d7fc7bfd6bdf27b73b11d83df7faba11efa7934419ec1c9e3f068d",
-      "data/runtime/protein-food-groups.json": "24eaadbfefb2df0c078f171d4a43c6185859796b16ac492a336a07de071381cd",
-      "data/runtime/protein-food-index.json": "d0021c32779f163f5d70b12b96fe0933ec26c915dcbb7fb9e87466a81bd1e5f2"
+      "data/runtime/vegetable-bootstrap.json": "26e0e2c316ba926ecdce7fe9b34328b23b3a291784b12f169a7f7ec992aa4092",
+      "data/runtime/vegetable-categories.json": "0fc8fe3127f8e4eae34bbb7cc3468654a73a6e6a37f63c1e62e2a07032071bfd",
+      "data/runtime/vegetable-groups.json": "f98d40d6eba5d6112dbd4bc136f02fd1eb2c106f3af6692c2cc60513bedbf158",
+      "data/runtime/vegetable-indexes.json": "dec29a13ba9ae02959e6f3091eccafaf0021ba24bcb0f07b4f24f4622e47290e"
     },
     "schema": {
-      "data/schema/protein-category-schema.json": "84a842dd9e6003df10ac5249e5b9de505dcbded749a834991f11239f68ae1193",
-      "data/schema/protein-food-schema.json": "206cf6f514d67b5303e049904837d1974b06984e08edf4902244b70a3e142761",
-      "data/schema/protein-group-schema.json": "f61355db5c2ebe25ee8f4be982f2aad8e6eb2db1a4e9b64845b6b7b65fcebd00"
+      "data/schema/vegetable-category-schema.json": "e3a9e19bf23eab8c956dcad53b8330bf8d0fe573f876efed21bb64b4fd9d2b1f",
+      "data/schema/vegetable-group-schema.json": "ab297f36cf55dadc3e108c7bd09ccc7bba9c74f51f27287c681a9632eb517da0",
+      "data/schema/vegetable-schema.json": "4d90283df15f2acb1111af6e5794805f970fbbbaad1c6c00e70ba0e8572455f6"
     },
     "search": {
-      "data/search/protein-category-search-index.json": "2cf30f3b78344ed34771f2a7e2e854a570e4a139570c8a2dd66d77d7a3599155",
-      "data/search/protein-food-search-index.json": "de4e0054e26fdb2bc542b95d416e2374a989adbff1068e52aa3c9e4ae1a73b38",
-      "data/search/protein-group-search-index.json": "dd15ec807da606680bb7b8c5a8688f416c8162ace12945ff65967e96abb5041f",
-      "data/search/protein-search-suggestions.json": "68b2358d5f921f654988ca0914474e79f37bd67d4dcd295bdedef58028cc7e18"
+      "data/search/vegetable-category-search-index.json": "f8ab945c43982fc0786f4357d0fbbe17b7f0ab950cb38ff9b7a314950f7f8a3c",
+      "data/search/vegetable-group-search-index.json": "d1bd43764f010dff36e75ab66fc29dfdbb038f02e98140ac4fe2a8196f316daf",
+      "data/search/vegetable-search-index.json": "a600f016d9cc7d772f4522b0d43cde63079c429e80128b6d92ca90371140c464",
+      "data/search/vegetable-search-suggestions.json": "118cc5d2358d8074857d53f78baf3d839780122f204e62068ad46b50451aaa5f"
     },
     "sitemaps": {
-      "dist/crawl-manifest.json": "698976c88c79c35c5b09bd539ef973eb5102ff0ae61112d148a7c601cfd7710a",
-      "dist/sitemap.xml": "5e51c4382981c0f9a96aeaabe995e78ff3468007f9f174531f5582becd1cfde5",
-      "dist/sitemaps/protein-category-pages.xml": "cd2f4724f77ae2223627a37ef9985ba09ed7bb1e82207e70590d3a9c6f80786f",
-      "dist/sitemaps/protein-food-pages.xml": "e6b5c3c5b8222b180313f999e29e15eec2c11c3bfe18cd5e983e169131038490",
-      "dist/sitemaps/protein-group-pages.xml": "4e2b2c1a3333076ba2b6d4f1190ad624b851a91cd08be1bfe07f47eefe781815"
+      "dist/crawl-manifest.json": "5c0184d0440e3605a29232a63e9297b2e4850cd388bdda6a733601e2c7115aa7",
+      "dist/sitemap.xml": "40f9b17a737f43622da07c668d9d93bcb7ddec5a7cdbcc9f859fe5739725be2c",
+      "dist/sitemaps/vegetable-category-pages.xml": "458072d3919921fe0ce01e499b4a4f81758e87c1003864bab91d3e839c9c39e0",
+      "dist/sitemaps/vegetable-group-pages.xml": "5aa00c3a9ab326d9e4c35df82a835e17cf9a00f4170b5b3107177e15cd469034",
+      "dist/sitemaps/vegetable-pages.xml": "92c4265840ed6da8a1b66752bfae9eb744cf628b4eaf0e47bf23b2dfd08c5c30"
     }
   },
-  "domain": "protein",
-  "generated_at": "2026-07-18T13:55:22.261Z",
+  "domain": "vegetable",
+  "generated_at": "2026-07-19T02:46:48.738Z",
   "pages": {
-    "categories": 3,
-    "groups": 16,
-    "leaf": 207,
-    "total": 226
+    "categories": 1,
+    "groups": 4,
+    "leaf": 74,
+    "total": 79
   },
-  "publication": "protein-food-ontology",
-  "release_version": "1.0"
+  "publication": "vegetable-ontology",
+  "release_version": "1.2.0"
 }

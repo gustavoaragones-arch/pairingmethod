@@ -1,0 +1,25 @@
+{
+  "domain": "vegetable",
+  "metrics": {
+    "Category sitemap entries": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate URLs": 0,
+    "Group sitemap entries": 4,
+    "Indexed URLs": 79,
+    "Leaf sitemap entries": 74,
+    "Missing pages": 0,
+    "Overall result": "PASS",
+    "Sitemap index": 1,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "dist/sitemap.xml",
+    "dist/sitemaps/vegetable-pages.xml",
+    "dist/sitemaps/vegetable-group-pages.xml",
+    "dist/sitemaps/vegetable-category-pages.xml",
+    "dist/crawl-manifest.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-05FH",
+  "validation_errors": []
+}

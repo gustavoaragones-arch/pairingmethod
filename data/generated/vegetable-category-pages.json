@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "vegetable",
+    "food_ontology_version": "1.2.0",
+    "phase": "FOOD-05FA",
+    "projection_count": 1,
+    "projection_type": "vegetable_category"
+  },
+  "projections": [
+    {
+      "food_count": 74,
+      "group_count": 4,
+      "groups": [
+        {
+          "id": "food.vegetable.alliums",
+          "name": "Alliums",
+          "slug": "alliums"
+        },
+        {
+          "id": "food.vegetable.green-vegetables",
+          "name": "Green Vegetables",
+          "slug": "green-vegetables"
+        },
+        {
+          "id": "food.vegetable.nightshades",
+          "name": "Nightshades",
+          "slug": "nightshades"
+        },
+        {
+          "id": "food.vegetable.root-vegetables",
+          "name": "Root Vegetables",
+          "slug": "root-vegetables"
+        }
+      ],
+      "identity": {
+        "id": "food.vegetable",
+        "name": "Vegetables",
+        "slug": "vegetable"
+      }
+    }
+  ]
+}

@@ -1,0 +1,842 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "vegetable",
+    "food_ontology_version": "1.2.0",
+    "phase": "FOOD-05FC",
+    "schema_count": 4,
+    "schema_type": "vegetable_group"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/vegetable-groups/alliums/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/vegetable-groups/alliums/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/vegetables/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.vegetable",
+            "name": "Vegetables"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/vegetable-groups/alliums/#breadcrumb"
+          },
+          "description": "Alliums — 8 vegetables in the Vegetable Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Alliums — Vegetable Group",
+          "url": "https://pairingmethod.com/vegetable-groups/alliums/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/vegetable-groups/alliums/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/vegetables/",
+              "name": "Vegetables",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/vegetable-categories/vegetable/",
+              "name": "Vegetables",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/vegetable-groups/alliums/",
+              "name": "Alliums",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/vegetable-groups/alliums/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "alliums",
+          "description": "Alliums — 8 vegetables in the Vegetable Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/vegetables/chive/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.alliums.chive",
+              "name": "Chive",
+              "url": "https://pairingmethod.com/vegetables/chive/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/garlic/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.alliums.garlic",
+              "name": "Garlic",
+              "url": "https://pairingmethod.com/vegetables/garlic/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/garlic-chives/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.alliums.garlic-chives",
+              "name": "Garlic Chives",
+              "url": "https://pairingmethod.com/vegetables/garlic-chives/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/leek/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.alliums.leek",
+              "name": "Leek",
+              "url": "https://pairingmethod.com/vegetables/leek/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/onion/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.alliums.onion",
+              "name": "Onion",
+              "url": "https://pairingmethod.com/vegetables/onion/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/ramp/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.alliums.ramp",
+              "name": "Ramp",
+              "url": "https://pairingmethod.com/vegetables/ramp/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/scallion/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.alliums.scallion",
+              "name": "Scallion",
+              "url": "https://pairingmethod.com/vegetables/scallion/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/shallot/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.alliums.shallot",
+              "name": "Shallot",
+              "url": "https://pairingmethod.com/vegetables/shallot/"
+            }
+          ],
+          "identifier": "food.vegetable.alliums",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Vegetable Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Alliums",
+          "numberOfTerms": 8,
+          "url": "https://pairingmethod.com/vegetable-groups/alliums/"
+        }
+      ],
+      "projection_id": "food.vegetable.alliums",
+      "slug": "alliums"
+    },
+    {
+      "canonical_path": "/vegetable-groups/green-vegetables/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/vegetable-groups/green-vegetables/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/vegetables/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.vegetable",
+            "name": "Vegetables"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/vegetable-groups/green-vegetables/#breadcrumb"
+          },
+          "description": "Green Vegetables — 35 vegetables in the Vegetable Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Green Vegetables — Vegetable Group",
+          "url": "https://pairingmethod.com/vegetable-groups/green-vegetables/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/vegetable-groups/green-vegetables/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/vegetables/",
+              "name": "Vegetables",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/vegetable-categories/vegetable/",
+              "name": "Vegetables",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/vegetable-groups/green-vegetables/",
+              "name": "Green Vegetables",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/vegetable-groups/green-vegetables/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "green-vegetables",
+          "description": "Green Vegetables — 35 vegetables in the Vegetable Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/vegetables/artichoke/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.artichoke",
+              "name": "Artichoke",
+              "url": "https://pairingmethod.com/vegetables/artichoke/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/arugula/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.arugula",
+              "name": "Arugula",
+              "url": "https://pairingmethod.com/vegetables/arugula/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/asparagus/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.asparagus",
+              "name": "Asparagus",
+              "url": "https://pairingmethod.com/vegetables/asparagus/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/bamboo-shoot/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.bamboo-shoot",
+              "name": "Bamboo Shoot",
+              "url": "https://pairingmethod.com/vegetables/bamboo-shoot/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/bitter-melon/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.bitter-melon",
+              "name": "Bitter Melon",
+              "url": "https://pairingmethod.com/vegetables/bitter-melon/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/bok-choy/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.bok-choy",
+              "name": "Bok Choy",
+              "url": "https://pairingmethod.com/vegetables/bok-choy/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/broccoli/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.broccoli",
+              "name": "Broccoli",
+              "url": "https://pairingmethod.com/vegetables/broccoli/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/brussels-sprouts/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.brussels-sprouts",
+              "name": "Brussels Sprouts",
+              "url": "https://pairingmethod.com/vegetables/brussels-sprouts/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/cabbage/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.cabbage",
+              "name": "Cabbage",
+              "url": "https://pairingmethod.com/vegetables/cabbage/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/cauliflower/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.cauliflower",
+              "name": "Cauliflower",
+              "url": "https://pairingmethod.com/vegetables/cauliflower/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/celery/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.celery",
+              "name": "Celery",
+              "url": "https://pairingmethod.com/vegetables/celery/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/collard-greens/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.collard-greens",
+              "name": "Collard Greens",
+              "url": "https://pairingmethod.com/vegetables/collard-greens/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/cucumber/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.cucumber",
+              "name": "Cucumber",
+              "url": "https://pairingmethod.com/vegetables/cucumber/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/dandelion-greens/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.dandelion-greens",
+              "name": "Dandelion Greens",
+              "url": "https://pairingmethod.com/vegetables/dandelion-greens/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/endive/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.endive",
+              "name": "Endive",
+              "url": "https://pairingmethod.com/vegetables/endive/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/fennel/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.fennel",
+              "name": "Fennel",
+              "url": "https://pairingmethod.com/vegetables/fennel/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/garden-pea/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.garden-pea",
+              "name": "Garden Pea",
+              "url": "https://pairingmethod.com/vegetables/garden-pea/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/green-bean/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.green-bean",
+              "name": "Green Bean",
+              "url": "https://pairingmethod.com/vegetables/green-bean/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/kale/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.kale",
+              "name": "Kale",
+              "url": "https://pairingmethod.com/vegetables/kale/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/kohlrabi/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.kohlrabi",
+              "name": "Kohlrabi",
+              "url": "https://pairingmethod.com/vegetables/kohlrabi/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/lettuce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.lettuce",
+              "name": "Lettuce",
+              "url": "https://pairingmethod.com/vegetables/lettuce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/mizuna/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.mizuna",
+              "name": "Mizuna",
+              "url": "https://pairingmethod.com/vegetables/mizuna/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/mustard-greens/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.mustard-greens",
+              "name": "Mustard Greens",
+              "url": "https://pairingmethod.com/vegetables/mustard-greens/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/napa-cabbage/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.napa-cabbage",
+              "name": "Napa Cabbage",
+              "url": "https://pairingmethod.com/vegetables/napa-cabbage/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/okra/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.okra",
+              "name": "Okra",
+              "url": "https://pairingmethod.com/vegetables/okra/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/radicchio/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.radicchio",
+              "name": "Radicchio",
+              "url": "https://pairingmethod.com/vegetables/radicchio/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/rapini/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.rapini",
+              "name": "Rapini",
+              "url": "https://pairingmethod.com/vegetables/rapini/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/rhubarb/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.rhubarb",
+              "name": "Rhubarb",
+              "url": "https://pairingmethod.com/vegetables/rhubarb/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/snow-pea/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.snow-pea",
+              "name": "Snow Pea",
+              "url": "https://pairingmethod.com/vegetables/snow-pea/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/sorrel/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.sorrel",
+              "name": "Sorrel",
+              "url": "https://pairingmethod.com/vegetables/sorrel/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/spinach/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.spinach",
+              "name": "Spinach",
+              "url": "https://pairingmethod.com/vegetables/spinach/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/swiss-chard/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.swiss-chard",
+              "name": "Swiss Chard",
+              "url": "https://pairingmethod.com/vegetables/swiss-chard/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/tatsoi/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.tatsoi",
+              "name": "Tatsoi",
+              "url": "https://pairingmethod.com/vegetables/tatsoi/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/water-spinach/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.water-spinach",
+              "name": "Water Spinach",
+              "url": "https://pairingmethod.com/vegetables/water-spinach/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/watercress/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.green-vegetables.watercress",
+              "name": "Watercress",
+              "url": "https://pairingmethod.com/vegetables/watercress/"
+            }
+          ],
+          "identifier": "food.vegetable.green-vegetables",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Vegetable Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Green Vegetables",
+          "numberOfTerms": 35,
+          "url": "https://pairingmethod.com/vegetable-groups/green-vegetables/"
+        }
+      ],
+      "projection_id": "food.vegetable.green-vegetables",
+      "slug": "green-vegetables"
+    },
+    {
+      "canonical_path": "/vegetable-groups/nightshades/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/vegetable-groups/nightshades/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/vegetables/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.vegetable",
+            "name": "Vegetables"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/vegetable-groups/nightshades/#breadcrumb"
+          },
+          "description": "Nightshades — 9 vegetables in the Vegetable Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Nightshades — Vegetable Group",
+          "url": "https://pairingmethod.com/vegetable-groups/nightshades/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/vegetable-groups/nightshades/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/vegetables/",
+              "name": "Vegetables",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/vegetable-categories/vegetable/",
+              "name": "Vegetables",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/vegetable-groups/nightshades/",
+              "name": "Nightshades",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/vegetable-groups/nightshades/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "nightshades",
+          "description": "Nightshades — 9 vegetables in the Vegetable Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/vegetables/anaheim-pepper/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.nightshades.anaheim-pepper",
+              "name": "Anaheim Pepper",
+              "url": "https://pairingmethod.com/vegetables/anaheim-pepper/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/bell-pepper/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.nightshades.bell-pepper",
+              "name": "Bell Pepper",
+              "url": "https://pairingmethod.com/vegetables/bell-pepper/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/eggplant/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.nightshades.eggplant",
+              "name": "Eggplant",
+              "url": "https://pairingmethod.com/vegetables/eggplant/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/habanero-pepper/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.nightshades.habanero-pepper",
+              "name": "Habanero Pepper",
+              "url": "https://pairingmethod.com/vegetables/habanero-pepper/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/jalapeno-pepper/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.nightshades.jalapeno-pepper",
+              "name": "Jalapeño Pepper",
+              "url": "https://pairingmethod.com/vegetables/jalapeno-pepper/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/poblano-pepper/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.nightshades.poblano-pepper",
+              "name": "Poblano Pepper",
+              "url": "https://pairingmethod.com/vegetables/poblano-pepper/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/serrano-pepper/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.nightshades.serrano-pepper",
+              "name": "Serrano Pepper",
+              "url": "https://pairingmethod.com/vegetables/serrano-pepper/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/tomatillo/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.nightshades.tomatillo",
+              "name": "Tomatillo",
+              "url": "https://pairingmethod.com/vegetables/tomatillo/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/tomato/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.nightshades.tomato",
+              "name": "Tomato",
+              "url": "https://pairingmethod.com/vegetables/tomato/"
+            }
+          ],
+          "identifier": "food.vegetable.nightshades",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Vegetable Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Nightshades",
+          "numberOfTerms": 9,
+          "url": "https://pairingmethod.com/vegetable-groups/nightshades/"
+        }
+      ],
+      "projection_id": "food.vegetable.nightshades",
+      "slug": "nightshades"
+    },
+    {
+      "canonical_path": "/vegetable-groups/root-vegetables/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/vegetable-groups/root-vegetables/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/vegetables/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.vegetable",
+            "name": "Vegetables"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/vegetable-groups/root-vegetables/#breadcrumb"
+          },
+          "description": "Root Vegetables — 22 vegetables in the Vegetable Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Root Vegetables — Vegetable Group",
+          "url": "https://pairingmethod.com/vegetable-groups/root-vegetables/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/vegetable-groups/root-vegetables/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/vegetables/",
+              "name": "Vegetables",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/vegetable-categories/vegetable/",
+              "name": "Vegetables",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/vegetable-groups/root-vegetables/",
+              "name": "Root Vegetables",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/vegetable-groups/root-vegetables/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "root-vegetables",
+          "description": "Root Vegetables — 22 vegetables in the Vegetable Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/vegetables/acorn-squash/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.acorn-squash",
+              "name": "Acorn Squash",
+              "url": "https://pairingmethod.com/vegetables/acorn-squash/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/beet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.beet",
+              "name": "Beet",
+              "url": "https://pairingmethod.com/vegetables/beet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/burdock-root/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.burdock-root",
+              "name": "Burdock Root",
+              "url": "https://pairingmethod.com/vegetables/burdock-root/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/butternut-squash/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.butternut-squash",
+              "name": "Butternut Squash",
+              "url": "https://pairingmethod.com/vegetables/butternut-squash/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/carrot/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.carrot",
+              "name": "Carrot",
+              "url": "https://pairingmethod.com/vegetables/carrot/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/celeriac/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.celeriac",
+              "name": "Celeriac",
+              "url": "https://pairingmethod.com/vegetables/celeriac/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/chayote/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.chayote",
+              "name": "Chayote",
+              "url": "https://pairingmethod.com/vegetables/chayote/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/delicata-squash/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.delicata-squash",
+              "name": "Delicata Squash",
+              "url": "https://pairingmethod.com/vegetables/delicata-squash/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/hubbard-squash/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.hubbard-squash",
+              "name": "Hubbard Squash",
+              "url": "https://pairingmethod.com/vegetables/hubbard-squash/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/jicama/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.jicama",
+              "name": "Jicama",
+              "url": "https://pairingmethod.com/vegetables/jicama/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/kabocha-squash/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.kabocha-squash",
+              "name": "Kabocha Squash",
+              "url": "https://pairingmethod.com/vegetables/kabocha-squash/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/lotus-root/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.lotus-root",
+              "name": "Lotus Root",
+              "url": "https://pairingmethod.com/vegetables/lotus-root/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/parsnip/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.parsnip",
+              "name": "Parsnip",
+              "url": "https://pairingmethod.com/vegetables/parsnip/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/pumpkin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.pumpkin",
+              "name": "Pumpkin",
+              "url": "https://pairingmethod.com/vegetables/pumpkin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/radish/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.radish",
+              "name": "Radish",
+              "url": "https://pairingmethod.com/vegetables/radish/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/rutabaga/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.rutabaga",
+              "name": "Rutabaga",
+              "url": "https://pairingmethod.com/vegetables/rutabaga/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/salsify/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.salsify",
+              "name": "Salsify",
+              "url": "https://pairingmethod.com/vegetables/salsify/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/scorzonera/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.scorzonera",
+              "name": "Scorzonera",
+              "url": "https://pairingmethod.com/vegetables/scorzonera/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/spaghetti-squash/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.spaghetti-squash",
+              "name": "Spaghetti Squash",
+              "url": "https://pairingmethod.com/vegetables/spaghetti-squash/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/sunchokes/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.sunchokes",
+              "name": "Sunchokes",
+              "url": "https://pairingmethod.com/vegetables/sunchokes/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/turnip/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.turnip",
+              "name": "Turnip",
+              "url": "https://pairingmethod.com/vegetables/turnip/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetables/zucchini/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.vegetable.root-vegetables.zucchini",
+              "name": "Zucchini",
+              "url": "https://pairingmethod.com/vegetables/zucchini/"
+            }
+          ],
+          "identifier": "food.vegetable.root-vegetables",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Vegetable Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Root Vegetables",
+          "numberOfTerms": 22,
+          "url": "https://pairingmethod.com/vegetable-groups/root-vegetables/"
+        }
+      ],
+      "projection_id": "food.vegetable.root-vegetables",
+      "slug": "root-vegetables"
+    }
+  ]
+}

@@ -1,0 +1,686 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/vegetable-groups/alliums/",
+      "projection_id": "food.vegetable.alliums",
+      "sections": {
+        "member_vegetables": [
+          {
+            "href": "/vegetables/chive/",
+            "id": "food.vegetable.alliums.chive",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Chive"
+          },
+          {
+            "href": "/vegetables/garlic/",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Garlic"
+          },
+          {
+            "href": "/vegetables/garlic-chives/",
+            "id": "food.vegetable.alliums.garlic-chives",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Garlic Chives"
+          },
+          {
+            "href": "/vegetables/leek/",
+            "id": "food.vegetable.alliums.leek",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Leek"
+          },
+          {
+            "href": "/vegetables/onion/",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Onion"
+          },
+          {
+            "href": "/vegetables/ramp/",
+            "id": "food.vegetable.alliums.ramp",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Ramp"
+          },
+          {
+            "href": "/vegetables/scallion/",
+            "id": "food.vegetable.alliums.scallion",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Scallion"
+          },
+          {
+            "href": "/vegetables/shallot/",
+            "id": "food.vegetable.alliums.shallot",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Shallot"
+          }
+        ],
+        "parent_category": {
+          "href": "/vegetable-categories/vegetable/",
+          "id": "food.vegetable",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Vegetables"
+        },
+        "related_groups": [
+          {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          },
+          {
+            "href": "/vegetable-groups/nightshades/",
+            "id": "food.vegetable.nightshades",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Nightshades"
+          },
+          {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        ]
+      },
+      "slug": "alliums"
+    },
+    {
+      "canonical_path": "/vegetable-groups/green-vegetables/",
+      "projection_id": "food.vegetable.green-vegetables",
+      "sections": {
+        "member_vegetables": [
+          {
+            "href": "/vegetables/artichoke/",
+            "id": "food.vegetable.green-vegetables.artichoke",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Artichoke"
+          },
+          {
+            "href": "/vegetables/arugula/",
+            "id": "food.vegetable.green-vegetables.arugula",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Arugula"
+          },
+          {
+            "href": "/vegetables/asparagus/",
+            "id": "food.vegetable.green-vegetables.asparagus",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Asparagus"
+          },
+          {
+            "href": "/vegetables/bamboo-shoot/",
+            "id": "food.vegetable.green-vegetables.bamboo-shoot",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Bamboo Shoot"
+          },
+          {
+            "href": "/vegetables/bitter-melon/",
+            "id": "food.vegetable.green-vegetables.bitter-melon",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Bitter Melon"
+          },
+          {
+            "href": "/vegetables/bok-choy/",
+            "id": "food.vegetable.green-vegetables.bok-choy",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Bok Choy"
+          },
+          {
+            "href": "/vegetables/broccoli/",
+            "id": "food.vegetable.green-vegetables.broccoli",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Broccoli"
+          },
+          {
+            "href": "/vegetables/brussels-sprouts/",
+            "id": "food.vegetable.green-vegetables.brussels-sprouts",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Brussels Sprouts"
+          },
+          {
+            "href": "/vegetables/cabbage/",
+            "id": "food.vegetable.green-vegetables.cabbage",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cabbage"
+          },
+          {
+            "href": "/vegetables/cauliflower/",
+            "id": "food.vegetable.green-vegetables.cauliflower",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cauliflower"
+          },
+          {
+            "href": "/vegetables/celery/",
+            "id": "food.vegetable.green-vegetables.celery",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Celery"
+          },
+          {
+            "href": "/vegetables/collard-greens/",
+            "id": "food.vegetable.green-vegetables.collard-greens",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Collard Greens"
+          },
+          {
+            "href": "/vegetables/cucumber/",
+            "id": "food.vegetable.green-vegetables.cucumber",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cucumber"
+          },
+          {
+            "href": "/vegetables/dandelion-greens/",
+            "id": "food.vegetable.green-vegetables.dandelion-greens",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Dandelion Greens"
+          },
+          {
+            "href": "/vegetables/endive/",
+            "id": "food.vegetable.green-vegetables.endive",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Endive"
+          },
+          {
+            "href": "/vegetables/fennel/",
+            "id": "food.vegetable.green-vegetables.fennel",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Fennel"
+          },
+          {
+            "href": "/vegetables/garden-pea/",
+            "id": "food.vegetable.green-vegetables.garden-pea",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Garden Pea"
+          },
+          {
+            "href": "/vegetables/green-bean/",
+            "id": "food.vegetable.green-vegetables.green-bean",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Green Bean"
+          },
+          {
+            "href": "/vegetables/kale/",
+            "id": "food.vegetable.green-vegetables.kale",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Kale"
+          },
+          {
+            "href": "/vegetables/kohlrabi/",
+            "id": "food.vegetable.green-vegetables.kohlrabi",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Kohlrabi"
+          },
+          {
+            "href": "/vegetables/lettuce/",
+            "id": "food.vegetable.green-vegetables.lettuce",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Lettuce"
+          },
+          {
+            "href": "/vegetables/mizuna/",
+            "id": "food.vegetable.green-vegetables.mizuna",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Mizuna"
+          },
+          {
+            "href": "/vegetables/mustard-greens/",
+            "id": "food.vegetable.green-vegetables.mustard-greens",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Mustard Greens"
+          },
+          {
+            "href": "/vegetables/napa-cabbage/",
+            "id": "food.vegetable.green-vegetables.napa-cabbage",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Napa Cabbage"
+          },
+          {
+            "href": "/vegetables/okra/",
+            "id": "food.vegetable.green-vegetables.okra",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Okra"
+          },
+          {
+            "href": "/vegetables/radicchio/",
+            "id": "food.vegetable.green-vegetables.radicchio",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Radicchio"
+          },
+          {
+            "href": "/vegetables/rapini/",
+            "id": "food.vegetable.green-vegetables.rapini",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Rapini"
+          },
+          {
+            "href": "/vegetables/rhubarb/",
+            "id": "food.vegetable.green-vegetables.rhubarb",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Rhubarb"
+          },
+          {
+            "href": "/vegetables/snow-pea/",
+            "id": "food.vegetable.green-vegetables.snow-pea",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Snow Pea"
+          },
+          {
+            "href": "/vegetables/sorrel/",
+            "id": "food.vegetable.green-vegetables.sorrel",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sorrel"
+          },
+          {
+            "href": "/vegetables/spinach/",
+            "id": "food.vegetable.green-vegetables.spinach",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Spinach"
+          },
+          {
+            "href": "/vegetables/swiss-chard/",
+            "id": "food.vegetable.green-vegetables.swiss-chard",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Swiss Chard"
+          },
+          {
+            "href": "/vegetables/tatsoi/",
+            "id": "food.vegetable.green-vegetables.tatsoi",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Tatsoi"
+          },
+          {
+            "href": "/vegetables/water-spinach/",
+            "id": "food.vegetable.green-vegetables.water-spinach",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Water Spinach"
+          },
+          {
+            "href": "/vegetables/watercress/",
+            "id": "food.vegetable.green-vegetables.watercress",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Watercress"
+          }
+        ],
+        "parent_category": {
+          "href": "/vegetable-categories/vegetable/",
+          "id": "food.vegetable",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Vegetables"
+        },
+        "related_groups": [
+          {
+            "href": "/vegetable-groups/alliums/",
+            "id": "food.vegetable.alliums",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Alliums"
+          },
+          {
+            "href": "/vegetable-groups/nightshades/",
+            "id": "food.vegetable.nightshades",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Nightshades"
+          },
+          {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        ]
+      },
+      "slug": "green-vegetables"
+    },
+    {
+      "canonical_path": "/vegetable-groups/nightshades/",
+      "projection_id": "food.vegetable.nightshades",
+      "sections": {
+        "member_vegetables": [
+          {
+            "href": "/vegetables/anaheim-pepper/",
+            "id": "food.vegetable.nightshades.anaheim-pepper",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Anaheim Pepper"
+          },
+          {
+            "href": "/vegetables/bell-pepper/",
+            "id": "food.vegetable.nightshades.bell-pepper",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Bell Pepper"
+          },
+          {
+            "href": "/vegetables/eggplant/",
+            "id": "food.vegetable.nightshades.eggplant",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Eggplant"
+          },
+          {
+            "href": "/vegetables/habanero-pepper/",
+            "id": "food.vegetable.nightshades.habanero-pepper",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Habanero Pepper"
+          },
+          {
+            "href": "/vegetables/jalapeno-pepper/",
+            "id": "food.vegetable.nightshades.jalapeno-pepper",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Jalapeño Pepper"
+          },
+          {
+            "href": "/vegetables/poblano-pepper/",
+            "id": "food.vegetable.nightshades.poblano-pepper",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Poblano Pepper"
+          },
+          {
+            "href": "/vegetables/serrano-pepper/",
+            "id": "food.vegetable.nightshades.serrano-pepper",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Serrano Pepper"
+          },
+          {
+            "href": "/vegetables/tomatillo/",
+            "id": "food.vegetable.nightshades.tomatillo",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Tomatillo"
+          },
+          {
+            "href": "/vegetables/tomato/",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Tomato"
+          }
+        ],
+        "parent_category": {
+          "href": "/vegetable-categories/vegetable/",
+          "id": "food.vegetable",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Vegetables"
+        },
+        "related_groups": [
+          {
+            "href": "/vegetable-groups/alliums/",
+            "id": "food.vegetable.alliums",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Alliums"
+          },
+          {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          },
+          {
+            "href": "/vegetable-groups/root-vegetables/",
+            "id": "food.vegetable.root-vegetables",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Root Vegetables"
+          }
+        ]
+      },
+      "slug": "nightshades"
+    },
+    {
+      "canonical_path": "/vegetable-groups/root-vegetables/",
+      "projection_id": "food.vegetable.root-vegetables",
+      "sections": {
+        "member_vegetables": [
+          {
+            "href": "/vegetables/acorn-squash/",
+            "id": "food.vegetable.root-vegetables.acorn-squash",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Acorn Squash"
+          },
+          {
+            "href": "/vegetables/beet/",
+            "id": "food.vegetable.root-vegetables.beet",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Beet"
+          },
+          {
+            "href": "/vegetables/burdock-root/",
+            "id": "food.vegetable.root-vegetables.burdock-root",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Burdock Root"
+          },
+          {
+            "href": "/vegetables/butternut-squash/",
+            "id": "food.vegetable.root-vegetables.butternut-squash",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Butternut Squash"
+          },
+          {
+            "href": "/vegetables/carrot/",
+            "id": "food.vegetable.root-vegetables.carrot",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Carrot"
+          },
+          {
+            "href": "/vegetables/celeriac/",
+            "id": "food.vegetable.root-vegetables.celeriac",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Celeriac"
+          },
+          {
+            "href": "/vegetables/chayote/",
+            "id": "food.vegetable.root-vegetables.chayote",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Chayote"
+          },
+          {
+            "href": "/vegetables/delicata-squash/",
+            "id": "food.vegetable.root-vegetables.delicata-squash",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Delicata Squash"
+          },
+          {
+            "href": "/vegetables/hubbard-squash/",
+            "id": "food.vegetable.root-vegetables.hubbard-squash",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Hubbard Squash"
+          },
+          {
+            "href": "/vegetables/jicama/",
+            "id": "food.vegetable.root-vegetables.jicama",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Jicama"
+          },
+          {
+            "href": "/vegetables/kabocha-squash/",
+            "id": "food.vegetable.root-vegetables.kabocha-squash",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Kabocha Squash"
+          },
+          {
+            "href": "/vegetables/lotus-root/",
+            "id": "food.vegetable.root-vegetables.lotus-root",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Lotus Root"
+          },
+          {
+            "href": "/vegetables/parsnip/",
+            "id": "food.vegetable.root-vegetables.parsnip",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Parsnip"
+          },
+          {
+            "href": "/vegetables/pumpkin/",
+            "id": "food.vegetable.root-vegetables.pumpkin",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Pumpkin"
+          },
+          {
+            "href": "/vegetables/radish/",
+            "id": "food.vegetable.root-vegetables.radish",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Radish"
+          },
+          {
+            "href": "/vegetables/rutabaga/",
+            "id": "food.vegetable.root-vegetables.rutabaga",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Rutabaga"
+          },
+          {
+            "href": "/vegetables/salsify/",
+            "id": "food.vegetable.root-vegetables.salsify",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Salsify"
+          },
+          {
+            "href": "/vegetables/scorzonera/",
+            "id": "food.vegetable.root-vegetables.scorzonera",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Scorzonera"
+          },
+          {
+            "href": "/vegetables/spaghetti-squash/",
+            "id": "food.vegetable.root-vegetables.spaghetti-squash",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Spaghetti Squash"
+          },
+          {
+            "href": "/vegetables/sunchokes/",
+            "id": "food.vegetable.root-vegetables.sunchokes",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sunchokes"
+          },
+          {
+            "href": "/vegetables/turnip/",
+            "id": "food.vegetable.root-vegetables.turnip",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Turnip"
+          },
+          {
+            "href": "/vegetables/zucchini/",
+            "id": "food.vegetable.root-vegetables.zucchini",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Zucchini"
+          }
+        ],
+        "parent_category": {
+          "href": "/vegetable-categories/vegetable/",
+          "id": "food.vegetable",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Vegetables"
+        },
+        "related_groups": [
+          {
+            "href": "/vegetable-groups/alliums/",
+            "id": "food.vegetable.alliums",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Alliums"
+          },
+          {
+            "href": "/vegetable-groups/green-vegetables/",
+            "id": "food.vegetable.green-vegetables",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Green Vegetables"
+          },
+          {
+            "href": "/vegetable-groups/nightshades/",
+            "id": "food.vegetable.nightshades",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Nightshades"
+          }
+        ]
+      },
+      "slug": "root-vegetables"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "vegetable",
+    "food_ontology_version": "1.2.0",
+    "link_set_count": 4,
+    "link_set_type": "vegetable_group",
+    "phase": "FOOD-05FD"
+  }
+}

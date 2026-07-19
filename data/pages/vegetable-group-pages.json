@@ -1,0 +1,685 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "vegetable",
+    "food_ontology_version": "1.2.0",
+    "page_count": 4,
+    "page_type": "vegetable_group",
+    "phase": "FOOD-05FB"
+  },
+  "pages": [
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/vegetables/",
+          "label": "Vegetables"
+        },
+        {
+          "href": "/vegetable-categories/vegetable/",
+          "label": "Vegetables"
+        },
+        {
+          "href": "/vegetable-groups/alliums/",
+          "label": "Alliums"
+        }
+      ],
+      "canonical_path": "/vegetable-groups/alliums/",
+      "culinary_roles_represented": [
+        "aromatic"
+      ],
+      "identity": {
+        "id": "food.vegetable.alliums",
+        "slug": "alliums",
+        "title": "Alliums"
+      },
+      "member_vegetables": [
+        {
+          "href": "/vegetables/chive/",
+          "id": "food.vegetable.alliums.chive",
+          "name": "Chive",
+          "slug": "chive"
+        },
+        {
+          "href": "/vegetables/garlic/",
+          "id": "food.vegetable.alliums.garlic",
+          "name": "Garlic",
+          "slug": "garlic"
+        },
+        {
+          "href": "/vegetables/garlic-chives/",
+          "id": "food.vegetable.alliums.garlic-chives",
+          "name": "Garlic Chives",
+          "slug": "garlic-chives"
+        },
+        {
+          "href": "/vegetables/leek/",
+          "id": "food.vegetable.alliums.leek",
+          "name": "Leek",
+          "slug": "leek"
+        },
+        {
+          "href": "/vegetables/onion/",
+          "id": "food.vegetable.alliums.onion",
+          "name": "Onion",
+          "slug": "onion"
+        },
+        {
+          "href": "/vegetables/ramp/",
+          "id": "food.vegetable.alliums.ramp",
+          "name": "Ramp",
+          "slug": "ramp"
+        },
+        {
+          "href": "/vegetables/scallion/",
+          "id": "food.vegetable.alliums.scallion",
+          "name": "Scallion",
+          "slug": "scallion"
+        },
+        {
+          "href": "/vegetables/shallot/",
+          "id": "food.vegetable.alliums.shallot",
+          "name": "Shallot",
+          "slug": "shallot"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/vegetable-groups/alliums/",
+        "description": "Alliums — 8 vegetables in the Vegetable Ontology.",
+        "og_description": "Alliums — 8 vegetables in the Vegetable Ontology.",
+        "og_title": "Alliums — Vegetable Group",
+        "title": "Alliums — Vegetable Group"
+      },
+      "overview": {
+        "display_name": "Alliums",
+        "food_count": 8,
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        }
+      },
+      "page_type": "vegetable_group",
+      "plant_parts_represented": [
+        "bulb",
+        "leaf",
+        "stem"
+      ],
+      "projection_id": "food.vegetable.alliums",
+      "slug": "alliums"
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/vegetables/",
+          "label": "Vegetables"
+        },
+        {
+          "href": "/vegetable-categories/vegetable/",
+          "label": "Vegetables"
+        },
+        {
+          "href": "/vegetable-groups/green-vegetables/",
+          "label": "Green Vegetables"
+        }
+      ],
+      "canonical_path": "/vegetable-groups/green-vegetables/",
+      "culinary_roles_represented": [
+        "aromatic",
+        "cruciferous",
+        "flower",
+        "fruit_vegetable",
+        "leafy",
+        "pod",
+        "primary",
+        "stem"
+      ],
+      "identity": {
+        "id": "food.vegetable.green-vegetables",
+        "slug": "green-vegetables",
+        "title": "Green Vegetables"
+      },
+      "member_vegetables": [
+        {
+          "href": "/vegetables/artichoke/",
+          "id": "food.vegetable.green-vegetables.artichoke",
+          "name": "Artichoke",
+          "slug": "artichoke"
+        },
+        {
+          "href": "/vegetables/arugula/",
+          "id": "food.vegetable.green-vegetables.arugula",
+          "name": "Arugula",
+          "slug": "arugula"
+        },
+        {
+          "href": "/vegetables/asparagus/",
+          "id": "food.vegetable.green-vegetables.asparagus",
+          "name": "Asparagus",
+          "slug": "asparagus"
+        },
+        {
+          "href": "/vegetables/bamboo-shoot/",
+          "id": "food.vegetable.green-vegetables.bamboo-shoot",
+          "name": "Bamboo Shoot",
+          "slug": "bamboo-shoot"
+        },
+        {
+          "href": "/vegetables/bitter-melon/",
+          "id": "food.vegetable.green-vegetables.bitter-melon",
+          "name": "Bitter Melon",
+          "slug": "bitter-melon"
+        },
+        {
+          "href": "/vegetables/bok-choy/",
+          "id": "food.vegetable.green-vegetables.bok-choy",
+          "name": "Bok Choy",
+          "slug": "bok-choy"
+        },
+        {
+          "href": "/vegetables/broccoli/",
+          "id": "food.vegetable.green-vegetables.broccoli",
+          "name": "Broccoli",
+          "slug": "broccoli"
+        },
+        {
+          "href": "/vegetables/brussels-sprouts/",
+          "id": "food.vegetable.green-vegetables.brussels-sprouts",
+          "name": "Brussels Sprouts",
+          "slug": "brussels-sprouts"
+        },
+        {
+          "href": "/vegetables/cabbage/",
+          "id": "food.vegetable.green-vegetables.cabbage",
+          "name": "Cabbage",
+          "slug": "cabbage"
+        },
+        {
+          "href": "/vegetables/cauliflower/",
+          "id": "food.vegetable.green-vegetables.cauliflower",
+          "name": "Cauliflower",
+          "slug": "cauliflower"
+        },
+        {
+          "href": "/vegetables/celery/",
+          "id": "food.vegetable.green-vegetables.celery",
+          "name": "Celery",
+          "slug": "celery"
+        },
+        {
+          "href": "/vegetables/collard-greens/",
+          "id": "food.vegetable.green-vegetables.collard-greens",
+          "name": "Collard Greens",
+          "slug": "collard-greens"
+        },
+        {
+          "href": "/vegetables/cucumber/",
+          "id": "food.vegetable.green-vegetables.cucumber",
+          "name": "Cucumber",
+          "slug": "cucumber"
+        },
+        {
+          "href": "/vegetables/dandelion-greens/",
+          "id": "food.vegetable.green-vegetables.dandelion-greens",
+          "name": "Dandelion Greens",
+          "slug": "dandelion-greens"
+        },
+        {
+          "href": "/vegetables/endive/",
+          "id": "food.vegetable.green-vegetables.endive",
+          "name": "Endive",
+          "slug": "endive"
+        },
+        {
+          "href": "/vegetables/fennel/",
+          "id": "food.vegetable.green-vegetables.fennel",
+          "name": "Fennel",
+          "slug": "fennel"
+        },
+        {
+          "href": "/vegetables/garden-pea/",
+          "id": "food.vegetable.green-vegetables.garden-pea",
+          "name": "Garden Pea",
+          "slug": "garden-pea"
+        },
+        {
+          "href": "/vegetables/green-bean/",
+          "id": "food.vegetable.green-vegetables.green-bean",
+          "name": "Green Bean",
+          "slug": "green-bean"
+        },
+        {
+          "href": "/vegetables/kale/",
+          "id": "food.vegetable.green-vegetables.kale",
+          "name": "Kale",
+          "slug": "kale"
+        },
+        {
+          "href": "/vegetables/kohlrabi/",
+          "id": "food.vegetable.green-vegetables.kohlrabi",
+          "name": "Kohlrabi",
+          "slug": "kohlrabi"
+        },
+        {
+          "href": "/vegetables/lettuce/",
+          "id": "food.vegetable.green-vegetables.lettuce",
+          "name": "Lettuce",
+          "slug": "lettuce"
+        },
+        {
+          "href": "/vegetables/mizuna/",
+          "id": "food.vegetable.green-vegetables.mizuna",
+          "name": "Mizuna",
+          "slug": "mizuna"
+        },
+        {
+          "href": "/vegetables/mustard-greens/",
+          "id": "food.vegetable.green-vegetables.mustard-greens",
+          "name": "Mustard Greens",
+          "slug": "mustard-greens"
+        },
+        {
+          "href": "/vegetables/napa-cabbage/",
+          "id": "food.vegetable.green-vegetables.napa-cabbage",
+          "name": "Napa Cabbage",
+          "slug": "napa-cabbage"
+        },
+        {
+          "href": "/vegetables/okra/",
+          "id": "food.vegetable.green-vegetables.okra",
+          "name": "Okra",
+          "slug": "okra"
+        },
+        {
+          "href": "/vegetables/radicchio/",
+          "id": "food.vegetable.green-vegetables.radicchio",
+          "name": "Radicchio",
+          "slug": "radicchio"
+        },
+        {
+          "href": "/vegetables/rapini/",
+          "id": "food.vegetable.green-vegetables.rapini",
+          "name": "Rapini",
+          "slug": "rapini"
+        },
+        {
+          "href": "/vegetables/rhubarb/",
+          "id": "food.vegetable.green-vegetables.rhubarb",
+          "name": "Rhubarb",
+          "slug": "rhubarb"
+        },
+        {
+          "href": "/vegetables/snow-pea/",
+          "id": "food.vegetable.green-vegetables.snow-pea",
+          "name": "Snow Pea",
+          "slug": "snow-pea"
+        },
+        {
+          "href": "/vegetables/sorrel/",
+          "id": "food.vegetable.green-vegetables.sorrel",
+          "name": "Sorrel",
+          "slug": "sorrel"
+        },
+        {
+          "href": "/vegetables/spinach/",
+          "id": "food.vegetable.green-vegetables.spinach",
+          "name": "Spinach",
+          "slug": "spinach"
+        },
+        {
+          "href": "/vegetables/swiss-chard/",
+          "id": "food.vegetable.green-vegetables.swiss-chard",
+          "name": "Swiss Chard",
+          "slug": "swiss-chard"
+        },
+        {
+          "href": "/vegetables/tatsoi/",
+          "id": "food.vegetable.green-vegetables.tatsoi",
+          "name": "Tatsoi",
+          "slug": "tatsoi"
+        },
+        {
+          "href": "/vegetables/water-spinach/",
+          "id": "food.vegetable.green-vegetables.water-spinach",
+          "name": "Water Spinach",
+          "slug": "water-spinach"
+        },
+        {
+          "href": "/vegetables/watercress/",
+          "id": "food.vegetable.green-vegetables.watercress",
+          "name": "Watercress",
+          "slug": "watercress"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/vegetable-groups/green-vegetables/",
+        "description": "Green Vegetables — 35 vegetables in the Vegetable Ontology.",
+        "og_description": "Green Vegetables — 35 vegetables in the Vegetable Ontology.",
+        "og_title": "Green Vegetables — Vegetable Group",
+        "title": "Green Vegetables — Vegetable Group"
+      },
+      "overview": {
+        "display_name": "Green Vegetables",
+        "food_count": 35,
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        }
+      },
+      "page_type": "vegetable_group",
+      "plant_parts_represented": [
+        "bulb",
+        "flower",
+        "fruit_vegetable",
+        "leaf",
+        "pod",
+        "stem"
+      ],
+      "projection_id": "food.vegetable.green-vegetables",
+      "slug": "green-vegetables"
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/vegetables/",
+          "label": "Vegetables"
+        },
+        {
+          "href": "/vegetable-categories/vegetable/",
+          "label": "Vegetables"
+        },
+        {
+          "href": "/vegetable-groups/nightshades/",
+          "label": "Nightshades"
+        }
+      ],
+      "canonical_path": "/vegetable-groups/nightshades/",
+      "culinary_roles_represented": [
+        "fruit_vegetable"
+      ],
+      "identity": {
+        "id": "food.vegetable.nightshades",
+        "slug": "nightshades",
+        "title": "Nightshades"
+      },
+      "member_vegetables": [
+        {
+          "href": "/vegetables/anaheim-pepper/",
+          "id": "food.vegetable.nightshades.anaheim-pepper",
+          "name": "Anaheim Pepper",
+          "slug": "anaheim-pepper"
+        },
+        {
+          "href": "/vegetables/bell-pepper/",
+          "id": "food.vegetable.nightshades.bell-pepper",
+          "name": "Bell Pepper",
+          "slug": "bell-pepper"
+        },
+        {
+          "href": "/vegetables/eggplant/",
+          "id": "food.vegetable.nightshades.eggplant",
+          "name": "Eggplant",
+          "slug": "eggplant"
+        },
+        {
+          "href": "/vegetables/habanero-pepper/",
+          "id": "food.vegetable.nightshades.habanero-pepper",
+          "name": "Habanero Pepper",
+          "slug": "habanero-pepper"
+        },
+        {
+          "href": "/vegetables/jalapeno-pepper/",
+          "id": "food.vegetable.nightshades.jalapeno-pepper",
+          "name": "Jalapeño Pepper",
+          "slug": "jalapeno-pepper"
+        },
+        {
+          "href": "/vegetables/poblano-pepper/",
+          "id": "food.vegetable.nightshades.poblano-pepper",
+          "name": "Poblano Pepper",
+          "slug": "poblano-pepper"
+        },
+        {
+          "href": "/vegetables/serrano-pepper/",
+          "id": "food.vegetable.nightshades.serrano-pepper",
+          "name": "Serrano Pepper",
+          "slug": "serrano-pepper"
+        },
+        {
+          "href": "/vegetables/tomatillo/",
+          "id": "food.vegetable.nightshades.tomatillo",
+          "name": "Tomatillo",
+          "slug": "tomatillo"
+        },
+        {
+          "href": "/vegetables/tomato/",
+          "id": "food.vegetable.nightshades.tomato",
+          "name": "Tomato",
+          "slug": "tomato"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/vegetable-groups/nightshades/",
+        "description": "Nightshades — 9 vegetables in the Vegetable Ontology.",
+        "og_description": "Nightshades — 9 vegetables in the Vegetable Ontology.",
+        "og_title": "Nightshades — Vegetable Group",
+        "title": "Nightshades — Vegetable Group"
+      },
+      "overview": {
+        "display_name": "Nightshades",
+        "food_count": 9,
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        }
+      },
+      "page_type": "vegetable_group",
+      "plant_parts_represented": [
+        "fruit_vegetable"
+      ],
+      "projection_id": "food.vegetable.nightshades",
+      "slug": "nightshades"
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/vegetables/",
+          "label": "Vegetables"
+        },
+        {
+          "href": "/vegetable-categories/vegetable/",
+          "label": "Vegetables"
+        },
+        {
+          "href": "/vegetable-groups/root-vegetables/",
+          "label": "Root Vegetables"
+        }
+      ],
+      "canonical_path": "/vegetable-groups/root-vegetables/",
+      "culinary_roles_represented": [
+        "primary",
+        "root"
+      ],
+      "identity": {
+        "id": "food.vegetable.root-vegetables",
+        "slug": "root-vegetables",
+        "title": "Root Vegetables"
+      },
+      "member_vegetables": [
+        {
+          "href": "/vegetables/acorn-squash/",
+          "id": "food.vegetable.root-vegetables.acorn-squash",
+          "name": "Acorn Squash",
+          "slug": "acorn-squash"
+        },
+        {
+          "href": "/vegetables/beet/",
+          "id": "food.vegetable.root-vegetables.beet",
+          "name": "Beet",
+          "slug": "beet"
+        },
+        {
+          "href": "/vegetables/burdock-root/",
+          "id": "food.vegetable.root-vegetables.burdock-root",
+          "name": "Burdock Root",
+          "slug": "burdock-root"
+        },
+        {
+          "href": "/vegetables/butternut-squash/",
+          "id": "food.vegetable.root-vegetables.butternut-squash",
+          "name": "Butternut Squash",
+          "slug": "butternut-squash"
+        },
+        {
+          "href": "/vegetables/carrot/",
+          "id": "food.vegetable.root-vegetables.carrot",
+          "name": "Carrot",
+          "slug": "carrot"
+        },
+        {
+          "href": "/vegetables/celeriac/",
+          "id": "food.vegetable.root-vegetables.celeriac",
+          "name": "Celeriac",
+          "slug": "celeriac"
+        },
+        {
+          "href": "/vegetables/chayote/",
+          "id": "food.vegetable.root-vegetables.chayote",
+          "name": "Chayote",
+          "slug": "chayote"
+        },
+        {
+          "href": "/vegetables/delicata-squash/",
+          "id": "food.vegetable.root-vegetables.delicata-squash",
+          "name": "Delicata Squash",
+          "slug": "delicata-squash"
+        },
+        {
+          "href": "/vegetables/hubbard-squash/",
+          "id": "food.vegetable.root-vegetables.hubbard-squash",
+          "name": "Hubbard Squash",
+          "slug": "hubbard-squash"
+        },
+        {
+          "href": "/vegetables/jicama/",
+          "id": "food.vegetable.root-vegetables.jicama",
+          "name": "Jicama",
+          "slug": "jicama"
+        },
+        {
+          "href": "/vegetables/kabocha-squash/",
+          "id": "food.vegetable.root-vegetables.kabocha-squash",
+          "name": "Kabocha Squash",
+          "slug": "kabocha-squash"
+        },
+        {
+          "href": "/vegetables/lotus-root/",
+          "id": "food.vegetable.root-vegetables.lotus-root",
+          "name": "Lotus Root",
+          "slug": "lotus-root"
+        },
+        {
+          "href": "/vegetables/parsnip/",
+          "id": "food.vegetable.root-vegetables.parsnip",
+          "name": "Parsnip",
+          "slug": "parsnip"
+        },
+        {
+          "href": "/vegetables/pumpkin/",
+          "id": "food.vegetable.root-vegetables.pumpkin",
+          "name": "Pumpkin",
+          "slug": "pumpkin"
+        },
+        {
+          "href": "/vegetables/radish/",
+          "id": "food.vegetable.root-vegetables.radish",
+          "name": "Radish",
+          "slug": "radish"
+        },
+        {
+          "href": "/vegetables/rutabaga/",
+          "id": "food.vegetable.root-vegetables.rutabaga",
+          "name": "Rutabaga",
+          "slug": "rutabaga"
+        },
+        {
+          "href": "/vegetables/salsify/",
+          "id": "food.vegetable.root-vegetables.salsify",
+          "name": "Salsify",
+          "slug": "salsify"
+        },
+        {
+          "href": "/vegetables/scorzonera/",
+          "id": "food.vegetable.root-vegetables.scorzonera",
+          "name": "Scorzonera",
+          "slug": "scorzonera"
+        },
+        {
+          "href": "/vegetables/spaghetti-squash/",
+          "id": "food.vegetable.root-vegetables.spaghetti-squash",
+          "name": "Spaghetti Squash",
+          "slug": "spaghetti-squash"
+        },
+        {
+          "href": "/vegetables/sunchokes/",
+          "id": "food.vegetable.root-vegetables.sunchokes",
+          "name": "Sunchokes",
+          "slug": "sunchokes"
+        },
+        {
+          "href": "/vegetables/turnip/",
+          "id": "food.vegetable.root-vegetables.turnip",
+          "name": "Turnip",
+          "slug": "turnip"
+        },
+        {
+          "href": "/vegetables/zucchini/",
+          "id": "food.vegetable.root-vegetables.zucchini",
+          "name": "Zucchini",
+          "slug": "zucchini"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/vegetable-groups/root-vegetables/",
+        "description": "Root Vegetables — 22 vegetables in the Vegetable Ontology.",
+        "og_description": "Root Vegetables — 22 vegetables in the Vegetable Ontology.",
+        "og_title": "Root Vegetables — Vegetable Group",
+        "title": "Root Vegetables — Vegetable Group"
+      },
+      "overview": {
+        "display_name": "Root Vegetables",
+        "food_count": 22,
+        "parent_category": {
+          "id": "food.vegetable",
+          "name": "Vegetables",
+          "slug": "vegetable"
+        }
+      },
+      "page_type": "vegetable_group",
+      "plant_parts_represented": [
+        "fruit_vegetable",
+        "root",
+        "tuber"
+      ],
+      "projection_id": "food.vegetable.root-vegetables",
+      "slug": "root-vegetables"
+    }
+  ]
+}

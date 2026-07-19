@@ -1,0 +1,21 @@
+{
+  "deployment_gate": true,
+  "domain": "vegetable",
+  "metrics": {
+    "Broken navigation links": 0,
+    "HTML pages": 79,
+    "Overall result": "PASS",
+    "Publication entities": 79,
+    "Search suggestions": 79,
+    "Sitemap URLs": 79,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "dist/release-manifest.json",
+    "reports/vegetable-release-certification-report.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-05FI",
+  "validation_errors": [],
+  "warnings": []
+}

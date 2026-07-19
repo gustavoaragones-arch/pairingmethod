@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "vegetable",
+    "food_ontology_version": "1.2.0",
+    "phase": "FOOD-05FC",
+    "schema_count": 1,
+    "schema_type": "vegetable_category"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/vegetable-categories/vegetable/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/vegetable-categories/vegetable/#collectionpage",
+          "@type": "CollectionPage",
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/vegetable-categories/vegetable/#breadcrumb"
+          },
+          "description": "Vegetables — 4 groups and 74 vegetables.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Vegetables — Vegetable Category",
+          "url": "https://pairingmethod.com/vegetable-categories/vegetable/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/vegetable-categories/vegetable/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/vegetables/",
+              "name": "Vegetables",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/vegetable-categories/vegetable/",
+              "name": "Vegetables",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/vegetable-categories/vegetable/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "vegetable",
+          "description": "Vegetables — 4 groups and 74 vegetables.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/vegetable-groups/alliums/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.vegetable.alliums",
+              "name": "Alliums",
+              "numberOfTerms": 8,
+              "url": "https://pairingmethod.com/vegetable-groups/alliums/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetable-groups/green-vegetables/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.vegetable.green-vegetables",
+              "name": "Green Vegetables",
+              "numberOfTerms": 35,
+              "url": "https://pairingmethod.com/vegetable-groups/green-vegetables/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetable-groups/nightshades/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.vegetable.nightshades",
+              "name": "Nightshades",
+              "numberOfTerms": 9,
+              "url": "https://pairingmethod.com/vegetable-groups/nightshades/"
+            },
+            {
+              "@id": "https://pairingmethod.com/vegetable-groups/root-vegetables/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.vegetable.root-vegetables",
+              "name": "Root Vegetables",
+              "numberOfTerms": 22,
+              "url": "https://pairingmethod.com/vegetable-groups/root-vegetables/"
+            }
+          ],
+          "identifier": "food.vegetable",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Vegetable Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Vegetables",
+          "numberOfTerms": 74,
+          "url": "https://pairingmethod.com/vegetable-categories/vegetable/"
+        }
+      ],
+      "projection_id": "food.vegetable",
+      "slug": "vegetable"
+    }
+  ]
+}
