@@ -97,6 +97,7 @@ A vegetable qualifies when it meets **all** of:
 3. **Taxonomic fit** — maps unambiguously to one Canonical Culinary Group.
 4. **Immutable ID assignability** — permanent `food.vegetable.{group}.{slug}` without collision.
 5. **Intrinsic metadata completeness** — all required fields populated from authoritative sources.
+6. **Canonical Entity Rule** — one entity per canonical culinary ingredient; cultivar and color variants are `aliases`, not new entities (see [`VEGETABLE_GOVERNANCE.md`](VEGETABLE_GOVERNANCE.md) §5.1).
 
 ---
 
@@ -163,8 +164,9 @@ No platform code changes — domain descriptor only.
 
 1. Populate category + group hub entities (already in catalog shell).
 2. Acquire authoritative vegetable list per Canonical Culinary Group.
-3. Assign immutable IDs and intrinsic metadata.
-4. Leave relationship arrays empty.
-5. Run catalog audit before FOOD-05C.
+3. Assign immutable IDs and intrinsic metadata — **Canonical Entity Rule** applies (§5).
+4. Populate `culinary_role` on every entity; leave `flavor_profile: []`.
+5. Leave relationship arrays empty — no editorial, wine, or preparation logic.
+6. Run catalog audit before FOOD-05C.
 
-**Approval required before FOOD-05B begins.**
+**FOOD-05B approved.** Catalog curation runs against the frozen FOOD-05A contract.

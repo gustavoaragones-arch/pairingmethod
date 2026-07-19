@@ -1,0 +1,205 @@
+{
+  "audited_at": "2026-07-19",
+  "phase": "FOOD-05B",
+  "domain": "vegetable",
+  "catalog_version": "1.0.0",
+  "validation": {
+    "total_validation_rules": 19,
+    "required_checks": 19,
+    "passed": 19,
+    "failed": 0,
+    "required_failed": 0,
+    "overall_result": "PASS"
+  },
+  "summary": {
+    "categories": 1,
+    "groups": 4,
+    "vegetables": 74,
+    "scientific_names": 64,
+    "vocabulary_violations": 0,
+    "canonical_entity_violations": 0,
+    "alias_conflicts": 0,
+    "metadata_completeness": "100%",
+    "overall_result": "PASS"
+  },
+  "metrics": {
+    "Total validation rules": 19,
+    "Passed": 19,
+    "Failed": 0,
+    "Required checks": 19,
+    "Categories": 1,
+    "Groups": 4,
+    "Vegetables": 74,
+    "Scientific names": 64,
+    "Vocabulary violations": 0,
+    "Canonical entity violations": 0,
+    "Alias conflicts": 0,
+    "Metadata completeness": "100%",
+    "Overall result": "PASS"
+  },
+  "rules": [
+    {
+      "id": "META-001",
+      "name": "meta.entity_count matches vegetables length",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-002",
+      "name": "meta.catalog_version and phase present",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "CANON-001",
+      "name": "Canonical Entity Rule — no cultivar/variety splits",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ID-001",
+      "name": "unique ontology IDs",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ID-002",
+      "name": "unique slugs",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ID-003",
+      "name": "stable vegetable ID format",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-001",
+      "name": "category and group hierarchy integrity",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-002",
+      "name": "every vegetable belongs to exactly one valid group",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-003",
+      "name": "group child_slugs bidirectionally complete",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "VOCAB-001",
+      "name": "controlled vocabulary compliance",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ROLE-001",
+      "name": "culinary_role populated on every entity",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "FLAV-001",
+      "name": "flavor_profile reserved and empty",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "SCI-001",
+      "name": "required botanical scientific_name",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "EXT-001",
+      "name": "required external_ids object",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-003",
+      "name": "required intrinsic field coverage on every vegetable",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "REL-001",
+      "name": "reserved relationship arrays present and empty",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ALIAS-001",
+      "name": "no duplicate aliases across catalog",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "SCHEMA-001",
+      "name": "no unexpected keys on vegetable entities",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "VER-001",
+      "name": "per-entity catalog_version and food_ontology_version",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    }
+  ],
+  "details": {
+    "identity_errors": [],
+    "hierarchy_errors": [],
+    "vocabulary_violations": [],
+    "canonical_entity_violations": [],
+    "alias_conflicts": [],
+    "metadata_gaps_total": 0,
+    "metadata_gaps_sample": [],
+    "unexpected_keys": [],
+    "scientific_name_issues": []
+  }
+}

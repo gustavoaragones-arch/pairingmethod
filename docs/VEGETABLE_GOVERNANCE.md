@@ -208,13 +208,32 @@ Cross-references to these domains are permitted in editorial layers. Intrinsic d
 
 ---
 
+## 5.1 Canonical Entity Rule (FOOD-05B+)
+
+Each leaf entity represents a **canonical culinary ingredient** — not every botanical cultivar, color variant, or commercial trade name.
+
+| Include | Do not include (use `aliases` instead) |
+|---------|----------------------------------------|
+| Garlic | Elephant garlic as separate entity when same culinary role |
+| Onion | Red onion, white onion, yellow onion, sweet onion, Vidalia onion |
+| Bell pepper | Red bell pepper, orange bell pepper, yellow bell pepper |
+| Tomato | Cherry tomato, grape tomato, Roma tomato |
+
+**Variety and color splits** become `aliases`, common names, or editorial references — never new ontology entities. This keeps the catalog compact, stable, and extensible.
+
+**Entity quality over count:** The blueprint target of ~70–120 entities is a planning range, not a quota. A disciplined canonical catalog of 83 entities is preferable to 120 inflated with duplicate varieties.
+
+FOOD-05B catalog audit enforces this rule via slug and display-name heuristics.
+
+---
+
 ## 6. Scientific Naming
 
 `scientific_name` stores the **primary botanical species** of the edible plant (e.g. `Solanum lycopersicum` for tomato, `Allium sativum` for garlic).
 
 | Rule | Detail |
 |------|--------|
-| One species per entity | v1 — cultivar variants are separate leaf entities when culinarily distinct |
+| One canonical entity per culinary ingredient | Cultivar, color, and commercial variety names are **aliases**, not separate entities — see §5.1 |
 | Not taxonomy driver | Botanical family informs metadata; **Canonical Culinary Group** drives hierarchy |
 | Nullable on hubs | Category and group hubs use `""` |
 

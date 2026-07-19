@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-07-19T00:55:19.254Z",
+  "phase": "FOOD-05B",
+  "domain": "vegetable",
+  "entity_count": 74,
+  "counts_by_group": {
+    "alliums": 8,
+    "green-vegetables": 35,
+    "root-vegetables": 22,
+    "nightshades": 9
+  },
+  "catalog_path": "data/vegetable-catalog.json",
+  "audit_script": "scripts/catalog-audit-vegetable-05b.mjs",
+  "canonical_entity_rule": "cultivar and color variants are aliases, not entities",
+  "flavor_profile_policy": "reserved empty array",
+  "relationship_policy": "all relationship arrays empty"
+}
