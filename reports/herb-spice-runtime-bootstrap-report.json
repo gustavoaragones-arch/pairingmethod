@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    "data/runtime/herb-spice-bootstrap.json",
+    "data/runtime/herb-spice-categories.json",
+    "data/runtime/herb-spice-groups.json",
+    "data/runtime/herb-spice-indexes.json"
+  ],
+  "bootstrap_errors": [],
+  "catalog_version": "1.0.0",
+  "domain": "herb-spice",
+  "metrics": {
+    "Bootstrap errors": 0,
+    "Categories indexed": 1,
+    "Groups indexed": 4,
+    "Herb & spice entities indexed": 113,
+    "Runtime artifacts": 4,
+    "Usage intensities indexed": 3
+  },
+  "overall_result": "PASS",
+  "phase": "FOOD-07C.1"
+}
