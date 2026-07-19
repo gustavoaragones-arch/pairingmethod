@@ -1,0 +1,33 @@
+{
+  "deployment_gate": true,
+  "domain": "fungi",
+  "metrics": {
+    "Broken navigation links": 0,
+    "HTML pages": 48,
+    "Overall result": "PASS",
+    "Publication entities": 48,
+    "Search suggestions": 48,
+    "Sitemap URLs": 48,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "dist/release-manifest.json",
+    "reports/fungi-release-certification-report.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-06FI",
+  "platform_audit": {
+    "overall": "PASS",
+    "platform_modifications_required": 0,
+    "shared_publication_pipeline_reused_percent": 100
+  },
+  "release_summary": {
+    "canonicalFungi": 43,
+    "editorialRelationships": 87,
+    "publicationPages": 48,
+    "runtimeRelationships": 531,
+    "wineRelationships": 82
+  },
+  "validation_errors": [],
+  "warnings": []
+}

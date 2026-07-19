@@ -1,0 +1,469 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/fungi-groups/cultivated-mushrooms/",
+      "projection_id": "food.fungi.cultivated-mushrooms",
+      "sections": {
+        "member_fungi": [
+          {
+            "href": "/fungi/almond-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.almond-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Almond Mushroom"
+          },
+          {
+            "href": "/fungi/button-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.button-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Button Mushroom"
+          },
+          {
+            "href": "/fungi/chestnut-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Chestnut Mushroom"
+          },
+          {
+            "href": "/fungi/cinnamon-cap-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cinnamon Cap Mushroom"
+          },
+          {
+            "href": "/fungi/cremini/",
+            "id": "food.fungi.cultivated-mushrooms.cremini",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cremini"
+          },
+          {
+            "href": "/fungi/elm-oyster-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Elm Oyster Mushroom"
+          },
+          {
+            "href": "/fungi/enoki/",
+            "id": "food.fungi.cultivated-mushrooms.enoki",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Enoki"
+          },
+          {
+            "href": "/fungi/king-oyster/",
+            "id": "food.fungi.cultivated-mushrooms.king-oyster",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "King Oyster"
+          },
+          {
+            "href": "/fungi/maitake/",
+            "id": "food.fungi.cultivated-mushrooms.maitake",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Maitake"
+          },
+          {
+            "href": "/fungi/oyster-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Oyster Mushroom"
+          },
+          {
+            "href": "/fungi/pioppino/",
+            "id": "food.fungi.cultivated-mushrooms.pioppino",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Pioppino"
+          },
+          {
+            "href": "/fungi/portobello/",
+            "id": "food.fungi.cultivated-mushrooms.portobello",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Portobello"
+          },
+          {
+            "href": "/fungi/shiitake/",
+            "id": "food.fungi.cultivated-mushrooms.shiitake",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Shiitake"
+          },
+          {
+            "href": "/fungi/straw-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.straw-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Straw Mushroom"
+          },
+          {
+            "href": "/fungi/wine-cap-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Wine Cap Mushroom"
+          }
+        ],
+        "parent_category": {
+          "href": "/fungi-categories/fungi/",
+          "id": "food.fungi",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Fungi"
+        },
+        "related_groups": [
+          {
+            "href": "/fungi-groups/specialty-fungi/",
+            "id": "food.fungi.specialty-fungi",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Specialty Fungi"
+          },
+          {
+            "href": "/fungi-groups/truffles/",
+            "id": "food.fungi.truffles",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Truffles"
+          },
+          {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        ]
+      },
+      "slug": "cultivated-mushrooms"
+    },
+    {
+      "canonical_path": "/fungi-groups/specialty-fungi/",
+      "projection_id": "food.fungi.specialty-fungi",
+      "sections": {
+        "member_fungi": [
+          {
+            "href": "/fungi/abalone-mushroom/",
+            "id": "food.fungi.specialty-fungi.abalone-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Abalone Mushroom"
+          },
+          {
+            "href": "/fungi/bamboo-pith/",
+            "id": "food.fungi.specialty-fungi.bamboo-pith",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Bamboo Pith"
+          },
+          {
+            "href": "/fungi/beech-mushroom/",
+            "id": "food.fungi.specialty-fungi.beech-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Beech Mushroom"
+          },
+          {
+            "href": "/fungi/coral-tooth-mushroom/",
+            "id": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Coral Tooth Mushroom"
+          },
+          {
+            "href": "/fungi/fried-chicken-mushroom/",
+            "id": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Fried Chicken Mushroom"
+          },
+          {
+            "href": "/fungi/lions-mane/",
+            "id": "food.fungi.specialty-fungi.lions-mane",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Lion's Mane"
+          },
+          {
+            "href": "/fungi/nameko/",
+            "id": "food.fungi.specialty-fungi.nameko",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Nameko"
+          },
+          {
+            "href": "/fungi/snow-fungus/",
+            "id": "food.fungi.specialty-fungi.snow-fungus",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Snow Fungus"
+          },
+          {
+            "href": "/fungi/wood-ear/",
+            "id": "food.fungi.specialty-fungi.wood-ear",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Wood Ear"
+          }
+        ],
+        "parent_category": {
+          "href": "/fungi-categories/fungi/",
+          "id": "food.fungi",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Fungi"
+        },
+        "related_groups": [
+          {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          },
+          {
+            "href": "/fungi-groups/truffles/",
+            "id": "food.fungi.truffles",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Truffles"
+          },
+          {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        ]
+      },
+      "slug": "specialty-fungi"
+    },
+    {
+      "canonical_path": "/fungi-groups/truffles/",
+      "projection_id": "food.fungi.truffles",
+      "sections": {
+        "member_fungi": [
+          {
+            "href": "/fungi/bianchetto-truffle/",
+            "id": "food.fungi.truffles.bianchetto-truffle",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Bianchetto Truffle"
+          },
+          {
+            "href": "/fungi/black-truffle/",
+            "id": "food.fungi.truffles.black-truffle",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Black Truffle"
+          },
+          {
+            "href": "/fungi/burgundy-truffle/",
+            "id": "food.fungi.truffles.burgundy-truffle",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Burgundy Truffle"
+          },
+          {
+            "href": "/fungi/summer-truffle/",
+            "id": "food.fungi.truffles.summer-truffle",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Summer Truffle"
+          },
+          {
+            "href": "/fungi/white-truffle/",
+            "id": "food.fungi.truffles.white-truffle",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "White Truffle"
+          }
+        ],
+        "parent_category": {
+          "href": "/fungi-categories/fungi/",
+          "id": "food.fungi",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Fungi"
+        },
+        "related_groups": [
+          {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          },
+          {
+            "href": "/fungi-groups/specialty-fungi/",
+            "id": "food.fungi.specialty-fungi",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Specialty Fungi"
+          },
+          {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        ]
+      },
+      "slug": "truffles"
+    },
+    {
+      "canonical_path": "/fungi-groups/wild-mushrooms/",
+      "projection_id": "food.fungi.wild-mushrooms",
+      "sections": {
+        "member_fungi": [
+          {
+            "href": "/fungi/black-trumpet/",
+            "id": "food.fungi.wild-mushrooms.black-trumpet",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Black Trumpet"
+          },
+          {
+            "href": "/fungi/blewit/",
+            "id": "food.fungi.wild-mushrooms.blewit",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Blewit"
+          },
+          {
+            "href": "/fungi/cauliflower-mushroom/",
+            "id": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cauliflower Mushroom"
+          },
+          {
+            "href": "/fungi/chanterelle/",
+            "id": "food.fungi.wild-mushrooms.chanterelle",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Chanterelle"
+          },
+          {
+            "href": "/fungi/chicken-of-the-woods/",
+            "id": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Chicken of the Woods"
+          },
+          {
+            "href": "/fungi/hedgehog-mushroom/",
+            "id": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Hedgehog Mushroom"
+          },
+          {
+            "href": "/fungi/lobster-mushroom/",
+            "id": "food.fungi.wild-mushrooms.lobster-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Lobster Mushroom"
+          },
+          {
+            "href": "/fungi/matsutake/",
+            "id": "food.fungi.wild-mushrooms.matsutake",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Matsutake"
+          },
+          {
+            "href": "/fungi/morel/",
+            "id": "food.fungi.wild-mushrooms.morel",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Morel"
+          },
+          {
+            "href": "/fungi/parasol-mushroom/",
+            "id": "food.fungi.wild-mushrooms.parasol-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Parasol Mushroom"
+          },
+          {
+            "href": "/fungi/porcini/",
+            "id": "food.fungi.wild-mushrooms.porcini",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Porcini"
+          },
+          {
+            "href": "/fungi/saffron-milk-cap/",
+            "id": "food.fungi.wild-mushrooms.saffron-milk-cap",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Saffron Milk Cap"
+          },
+          {
+            "href": "/fungi/shaggy-mane/",
+            "id": "food.fungi.wild-mushrooms.shaggy-mane",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Shaggy Mane"
+          },
+          {
+            "href": "/fungi/termite-mushroom/",
+            "id": "food.fungi.wild-mushrooms.termite-mushroom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Termite Mushroom"
+          }
+        ],
+        "parent_category": {
+          "href": "/fungi-categories/fungi/",
+          "id": "food.fungi",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Fungi"
+        },
+        "related_groups": [
+          {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          },
+          {
+            "href": "/fungi-groups/specialty-fungi/",
+            "id": "food.fungi.specialty-fungi",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Specialty Fungi"
+          },
+          {
+            "href": "/fungi-groups/truffles/",
+            "id": "food.fungi.truffles",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Truffles"
+          }
+        ]
+      },
+      "slug": "wild-mushrooms"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "fungi",
+    "food_ontology_version": "1.3.0",
+    "link_set_count": 4,
+    "link_set_type": "fungi_group",
+    "phase": "FOOD-06FD"
+  }
+}

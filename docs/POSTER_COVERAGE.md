@@ -2,7 +2,7 @@
 
 **Phase:** PLAN-01 — Poster Coverage Matrix  
 **Status:** Canonical implementation checklist  
-**Production baseline:** Platform v1.0.0 · Food Ontology Suite v1.2.0 · Tag `food-ontology-suite-v1.2.0` (`8ac9af9`)  
+**Production baseline:** Platform v1.0.0 · Food Ontology Suite v1.3.0 · Tag `food-ontology-suite-v1.3.0`  
 **Inspiration:** Wine Folly *Food & Wine Pairing Method* poster (original PairingMethod vision)
 
 This document maps every concept from the inspiration poster to its implementation within the Food Ontology Platform. It is **documentation only** — no runtime, ontology, or publication changes.
@@ -41,8 +41,8 @@ The platform consumes **domain configuration** (`lib/food-domain-config.js`) and
 
 ## Section 2 — Food Ontology Suite
 
-**Suite version:** v1.2.0  
-**Suite tag:** `food-ontology-suite-v1.2.0`  
+**Suite version:** v1.3.0  
+**Suite tag:** `food-ontology-suite-v1.3.0`  
 **Release notes:** [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md)
 
 | Domain | Version | Status | Entities (leaf) | Publication |
@@ -50,18 +50,19 @@ The platform consumes **domain configuration** (`lib/food-domain-config.js`) and
 | Protein Foods | 1.0.0 | Complete | 207 | `/foods/` |
 | Cheeses | 1.0.0 | Complete | 204 | `/cheeses/` |
 | Vegetables | 1.0.0 | Complete | 74 | `/vegetables/` |
+| Fungi | 1.0.0 | Complete | 43 | `/fungi/` |
 
-**Suite total:** 485 published leaf entities + group/category hub pages.
+**Suite total:** 528 published leaf entities + group/category hub pages.
 
-### Suite Metrics (v1.2.0)
+### Suite Metrics (v1.3.0)
 
-| Metric | v1.2.0 |
+| Metric | v1.3.0 |
 |--------|--------|
-| Published ontology domains | 3 |
-| Canonical entities | 485 |
-| Runtime relationship edges (cumulative) | ~85,000 |
-| Editorial relationship edges (cumulative) | ~280 |
-| Wine pairing relationships (cumulative) | ~220 |
+| Published ontology domains | 4 |
+| Canonical entities | 528 |
+| Runtime relationship edges (cumulative) | ~85,500+ |
+| Editorial relationship edges (cumulative) | ~360+ |
+| Wine pairing relationships (cumulative) | ~300+ |
 | Publication lifecycle reuse | 100% |
 | Platform modifications required | 0 |
 
@@ -187,13 +188,13 @@ Poster groupings are **pairing categories**, not identical to cheese taxonomy gr
 | Root Vegetables & Squash | FOOD-05 | Complete |
 | Nightshades | FOOD-05 | Complete |
 
-#### Fungi (FOOD-06) — **Wine pairings complete (FOOD-06E)**
+#### Fungi (FOOD-06) — **Complete**
 
 **Domain framing:** Culinary fungi — not a mushroom list. Governance: [`FUNGI_GOVERNANCE.md`](FUNGI_GOVERNANCE.md).
 
 | Poster Concept | Phase | Status |
 |----------------|-------|--------|
-| Fungi / Mushrooms | FOOD-06 | FOOD-06E complete — 82 wine pairing edges; FOOD-06F publication next |
+| Fungi / Mushrooms | FOOD-06 | Complete — 43 canonical fungi, 48 publication pages; Suite v1.3.0 |
 
 #### Herbs & Spices (FOOD-07) — **Not Started**
 
@@ -443,7 +444,7 @@ No additional platform phases unless a genuine architectural limitation is disco
 | Preparation | 0 | 0 | 0 | 5 |
 | Dairy | 3 | 0 | 0 | 0 |
 | Vegetables | 4 | 0 | 0 | 0 |
-| Fungi | 0 | 0 | 1 | 0 |
+| Fungi | 1 | 0 | 0 | 0 |
 | Herbs & Spices | 0 | 0 | 6 | 0 |
 | Starches | 0 | 0 | 4 | 0 |
 | Nuts / Beans (poster placement) | 0 | 2 | 0 | 0 |
@@ -451,4 +452,4 @@ No additional platform phases unless a genuine architectural limitation is disco
 | Sauces | 0 | 0 | 1 | 0 |
 | Wine columns | 0 | 9 | 0 | 0 |
 
-**Next planned work:** FOOD-06F — Publish Fungi Ontology through shared platform.
+**Next planned work:** Suite Stabilization checkpoint, then FOOD-07 — Herb & Spice Ontology.

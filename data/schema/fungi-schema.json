@@ -1,0 +1,4613 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "fungi",
+    "food_ontology_version": "1.3.0",
+    "phase": "FOOD-06FC",
+    "schema_count": 43,
+    "schema_type": "fungus"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/fungi/abalone-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/abalone-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.specialty-fungi",
+              "name": "Specialty Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/abalone-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Pleurotus cystidiosus"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/abalone-mushroom/#breadcrumb"
+          },
+          "description": "Abalone Mushroom (Specialty Fungi) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Abalone Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/abalone-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/abalone-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/specialty-fungi/",
+              "name": "Specialty Fungi",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/abalone-mushroom/",
+              "name": "Abalone Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/abalone-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "abalone-mushroom",
+          "description": "Abalone Mushroom (Specialty Fungi) — Fungi fungus",
+          "identifier": "food.fungi.specialty-fungi.abalone-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.specialty-fungi",
+            "name": "Specialty Fungi"
+          },
+          "name": "Abalone Mushroom",
+          "url": "https://pairingmethod.com/fungi/abalone-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/abalone-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Pleurotus cystidiosus",
+          "url": "https://pairingmethod.com/fungi/abalone-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.specialty-fungi.abalone-mushroom",
+      "slug": "abalone-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/almond-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/almond-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.cultivated-mushrooms",
+              "name": "Cultivated Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/almond-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Agaricus subrufescens"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/almond-mushroom/#breadcrumb"
+          },
+          "description": "Almond Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Almond Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/almond-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/almond-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/almond-mushroom/",
+              "name": "Almond Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/almond-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "almond-mushroom",
+          "description": "Almond Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.cultivated-mushrooms.almond-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.cultivated-mushrooms",
+            "name": "Cultivated Mushrooms"
+          },
+          "name": "Almond Mushroom",
+          "url": "https://pairingmethod.com/fungi/almond-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/almond-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Agaricus subrufescens",
+          "url": "https://pairingmethod.com/fungi/almond-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms.almond-mushroom",
+      "slug": "almond-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/bamboo-pith/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/bamboo-pith/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.specialty-fungi",
+              "name": "Specialty Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/bamboo-pith/#taxon",
+              "@type": "Taxon",
+              "name": "Phallus indusiatus"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/bamboo-pith/#breadcrumb"
+          },
+          "description": "Bamboo Pith (Specialty Fungi) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Bamboo Pith — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/bamboo-pith/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/bamboo-pith/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/specialty-fungi/",
+              "name": "Specialty Fungi",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/bamboo-pith/",
+              "name": "Bamboo Pith",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/bamboo-pith/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "bamboo-pith",
+          "description": "Bamboo Pith (Specialty Fungi) — Fungi fungus",
+          "identifier": "food.fungi.specialty-fungi.bamboo-pith",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.specialty-fungi",
+            "name": "Specialty Fungi"
+          },
+          "name": "Bamboo Pith",
+          "url": "https://pairingmethod.com/fungi/bamboo-pith/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/bamboo-pith/#taxon",
+          "@type": "Taxon",
+          "name": "Phallus indusiatus",
+          "url": "https://pairingmethod.com/fungi/bamboo-pith/"
+        }
+      ],
+      "projection_id": "food.fungi.specialty-fungi.bamboo-pith",
+      "slug": "bamboo-pith"
+    },
+    {
+      "canonical_path": "/fungi/beech-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/beech-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.specialty-fungi",
+              "name": "Specialty Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/beech-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Hypsizygus tessellatus"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/beech-mushroom/#breadcrumb"
+          },
+          "description": "Beech Mushroom (Specialty Fungi) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Beech Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/beech-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/beech-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/specialty-fungi/",
+              "name": "Specialty Fungi",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/beech-mushroom/",
+              "name": "Beech Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/beech-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "beech-mushroom",
+          "description": "Beech Mushroom (Specialty Fungi) — Fungi fungus",
+          "identifier": "food.fungi.specialty-fungi.beech-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.specialty-fungi",
+            "name": "Specialty Fungi"
+          },
+          "name": "Beech Mushroom",
+          "url": "https://pairingmethod.com/fungi/beech-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/beech-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Hypsizygus tessellatus",
+          "url": "https://pairingmethod.com/fungi/beech-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.specialty-fungi.beech-mushroom",
+      "slug": "beech-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/bianchetto-truffle/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/bianchetto-truffle/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/truffles/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.truffles",
+              "name": "Truffles"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/bianchetto-truffle/#taxon",
+              "@type": "Taxon",
+              "name": "Tuber borchii"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/bianchetto-truffle/#breadcrumb"
+          },
+          "description": "Bianchetto Truffle (Truffles) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Bianchetto Truffle — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/bianchetto-truffle/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/bianchetto-truffle/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/truffles/",
+              "name": "Truffles",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/bianchetto-truffle/",
+              "name": "Bianchetto Truffle",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/bianchetto-truffle/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "bianchetto-truffle",
+          "description": "Bianchetto Truffle (Truffles) — Fungi fungus",
+          "identifier": "food.fungi.truffles.bianchetto-truffle",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/truffles/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.truffles",
+            "name": "Truffles"
+          },
+          "name": "Bianchetto Truffle",
+          "url": "https://pairingmethod.com/fungi/bianchetto-truffle/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/bianchetto-truffle/#taxon",
+          "@type": "Taxon",
+          "name": "Tuber borchii",
+          "url": "https://pairingmethod.com/fungi/bianchetto-truffle/"
+        }
+      ],
+      "projection_id": "food.fungi.truffles.bianchetto-truffle",
+      "slug": "bianchetto-truffle"
+    },
+    {
+      "canonical_path": "/fungi/black-truffle/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/black-truffle/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/truffles/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.truffles",
+              "name": "Truffles"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/black-truffle/#taxon",
+              "@type": "Taxon",
+              "name": "Tuber melanosporum"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/black-truffle/#breadcrumb"
+          },
+          "description": "Black Truffle (Truffles) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Black Truffle — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/black-truffle/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/black-truffle/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/truffles/",
+              "name": "Truffles",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/black-truffle/",
+              "name": "Black Truffle",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/black-truffle/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "black-truffle",
+          "description": "Black Truffle (Truffles) — Fungi fungus",
+          "identifier": "food.fungi.truffles.black-truffle",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/truffles/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.truffles",
+            "name": "Truffles"
+          },
+          "name": "Black Truffle",
+          "url": "https://pairingmethod.com/fungi/black-truffle/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/black-truffle/#taxon",
+          "@type": "Taxon",
+          "name": "Tuber melanosporum",
+          "url": "https://pairingmethod.com/fungi/black-truffle/"
+        }
+      ],
+      "projection_id": "food.fungi.truffles.black-truffle",
+      "slug": "black-truffle"
+    },
+    {
+      "canonical_path": "/fungi/black-trumpet/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/black-trumpet/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.wild-mushrooms",
+              "name": "Wild Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/black-trumpet/#taxon",
+              "@type": "Taxon",
+              "name": "Craterellus cornucopioides"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/black-trumpet/#breadcrumb"
+          },
+          "description": "Black Trumpet (Wild Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Black Trumpet — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/black-trumpet/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/black-trumpet/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/wild-mushrooms/",
+              "name": "Wild Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/black-trumpet/",
+              "name": "Black Trumpet",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/black-trumpet/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "black-trumpet",
+          "description": "Black Trumpet (Wild Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.wild-mushrooms.black-trumpet",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.wild-mushrooms",
+            "name": "Wild Mushrooms"
+          },
+          "name": "Black Trumpet",
+          "url": "https://pairingmethod.com/fungi/black-trumpet/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/black-trumpet/#taxon",
+          "@type": "Taxon",
+          "name": "Craterellus cornucopioides",
+          "url": "https://pairingmethod.com/fungi/black-trumpet/"
+        }
+      ],
+      "projection_id": "food.fungi.wild-mushrooms.black-trumpet",
+      "slug": "black-trumpet"
+    },
+    {
+      "canonical_path": "/fungi/blewit/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/blewit/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.wild-mushrooms",
+              "name": "Wild Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/blewit/#taxon",
+              "@type": "Taxon",
+              "name": "Lepista nuda"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/blewit/#breadcrumb"
+          },
+          "description": "Blewit (Wild Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Blewit — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/blewit/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/blewit/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/wild-mushrooms/",
+              "name": "Wild Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/blewit/",
+              "name": "Blewit",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/blewit/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "blewit",
+          "description": "Blewit (Wild Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.wild-mushrooms.blewit",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.wild-mushrooms",
+            "name": "Wild Mushrooms"
+          },
+          "name": "Blewit",
+          "url": "https://pairingmethod.com/fungi/blewit/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/blewit/#taxon",
+          "@type": "Taxon",
+          "name": "Lepista nuda",
+          "url": "https://pairingmethod.com/fungi/blewit/"
+        }
+      ],
+      "projection_id": "food.fungi.wild-mushrooms.blewit",
+      "slug": "blewit"
+    },
+    {
+      "canonical_path": "/fungi/burgundy-truffle/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/burgundy-truffle/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/truffles/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.truffles",
+              "name": "Truffles"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/burgundy-truffle/#taxon",
+              "@type": "Taxon",
+              "name": "Tuber uncinatum"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/burgundy-truffle/#breadcrumb"
+          },
+          "description": "Burgundy Truffle (Truffles) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Burgundy Truffle — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/burgundy-truffle/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/burgundy-truffle/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/truffles/",
+              "name": "Truffles",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/burgundy-truffle/",
+              "name": "Burgundy Truffle",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/burgundy-truffle/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "burgundy-truffle",
+          "description": "Burgundy Truffle (Truffles) — Fungi fungus",
+          "identifier": "food.fungi.truffles.burgundy-truffle",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/truffles/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.truffles",
+            "name": "Truffles"
+          },
+          "name": "Burgundy Truffle",
+          "url": "https://pairingmethod.com/fungi/burgundy-truffle/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/burgundy-truffle/#taxon",
+          "@type": "Taxon",
+          "name": "Tuber uncinatum",
+          "url": "https://pairingmethod.com/fungi/burgundy-truffle/"
+        }
+      ],
+      "projection_id": "food.fungi.truffles.burgundy-truffle",
+      "slug": "burgundy-truffle"
+    },
+    {
+      "canonical_path": "/fungi/button-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/button-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.cultivated-mushrooms",
+              "name": "Cultivated Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/button-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Agaricus bisporus"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/button-mushroom/#breadcrumb"
+          },
+          "description": "Button Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Button Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/button-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/button-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/button-mushroom/",
+              "name": "Button Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/button-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "button-mushroom",
+          "description": "Button Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.cultivated-mushrooms.button-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.cultivated-mushrooms",
+            "name": "Cultivated Mushrooms"
+          },
+          "name": "Button Mushroom",
+          "url": "https://pairingmethod.com/fungi/button-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/button-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Agaricus bisporus",
+          "url": "https://pairingmethod.com/fungi/button-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "slug": "button-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/cauliflower-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/cauliflower-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.wild-mushrooms",
+              "name": "Wild Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/cauliflower-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Sparassis crispa"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/cauliflower-mushroom/#breadcrumb"
+          },
+          "description": "Cauliflower Mushroom (Wild Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Cauliflower Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/cauliflower-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/cauliflower-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/wild-mushrooms/",
+              "name": "Wild Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/cauliflower-mushroom/",
+              "name": "Cauliflower Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/cauliflower-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "cauliflower-mushroom",
+          "description": "Cauliflower Mushroom (Wild Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.wild-mushrooms",
+            "name": "Wild Mushrooms"
+          },
+          "name": "Cauliflower Mushroom",
+          "url": "https://pairingmethod.com/fungi/cauliflower-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/cauliflower-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Sparassis crispa",
+          "url": "https://pairingmethod.com/fungi/cauliflower-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "slug": "cauliflower-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/chanterelle/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/chanterelle/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.wild-mushrooms",
+              "name": "Wild Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/chanterelle/#taxon",
+              "@type": "Taxon",
+              "name": "Cantharellus cibarius"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/chanterelle/#breadcrumb"
+          },
+          "description": "Chanterelle (Wild Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Chanterelle — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/chanterelle/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/chanterelle/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/wild-mushrooms/",
+              "name": "Wild Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/chanterelle/",
+              "name": "Chanterelle",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/chanterelle/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "chanterelle",
+          "description": "Chanterelle (Wild Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.wild-mushrooms.chanterelle",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.wild-mushrooms",
+            "name": "Wild Mushrooms"
+          },
+          "name": "Chanterelle",
+          "url": "https://pairingmethod.com/fungi/chanterelle/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/chanterelle/#taxon",
+          "@type": "Taxon",
+          "name": "Cantharellus cibarius",
+          "url": "https://pairingmethod.com/fungi/chanterelle/"
+        }
+      ],
+      "projection_id": "food.fungi.wild-mushrooms.chanterelle",
+      "slug": "chanterelle"
+    },
+    {
+      "canonical_path": "/fungi/chestnut-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/chestnut-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.cultivated-mushrooms",
+              "name": "Cultivated Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/chestnut-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Pholiota adiposa"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/chestnut-mushroom/#breadcrumb"
+          },
+          "description": "Chestnut Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Chestnut Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/chestnut-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/chestnut-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/chestnut-mushroom/",
+              "name": "Chestnut Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/chestnut-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "chestnut-mushroom",
+          "description": "Chestnut Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.cultivated-mushrooms",
+            "name": "Cultivated Mushrooms"
+          },
+          "name": "Chestnut Mushroom",
+          "url": "https://pairingmethod.com/fungi/chestnut-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/chestnut-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Pholiota adiposa",
+          "url": "https://pairingmethod.com/fungi/chestnut-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "slug": "chestnut-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/chicken-of-the-woods/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/chicken-of-the-woods/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.wild-mushrooms",
+              "name": "Wild Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/chicken-of-the-woods/#taxon",
+              "@type": "Taxon",
+              "name": "Laetiporus sulphureus"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/chicken-of-the-woods/#breadcrumb"
+          },
+          "description": "Chicken of the Woods (Wild Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Chicken of the Woods — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/chicken-of-the-woods/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/chicken-of-the-woods/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/wild-mushrooms/",
+              "name": "Wild Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/chicken-of-the-woods/",
+              "name": "Chicken of the Woods",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/chicken-of-the-woods/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "chicken-of-the-woods",
+          "description": "Chicken of the Woods (Wild Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.wild-mushrooms",
+            "name": "Wild Mushrooms"
+          },
+          "name": "Chicken of the Woods",
+          "url": "https://pairingmethod.com/fungi/chicken-of-the-woods/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/chicken-of-the-woods/#taxon",
+          "@type": "Taxon",
+          "name": "Laetiporus sulphureus",
+          "url": "https://pairingmethod.com/fungi/chicken-of-the-woods/"
+        }
+      ],
+      "projection_id": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "slug": "chicken-of-the-woods"
+    },
+    {
+      "canonical_path": "/fungi/cinnamon-cap-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/cinnamon-cap-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.cultivated-mushrooms",
+              "name": "Cultivated Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/cinnamon-cap-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Hypholoma sublateritium"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/cinnamon-cap-mushroom/#breadcrumb"
+          },
+          "description": "Cinnamon Cap Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Cinnamon Cap Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/cinnamon-cap-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/cinnamon-cap-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/cinnamon-cap-mushroom/",
+              "name": "Cinnamon Cap Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/cinnamon-cap-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "cinnamon-cap-mushroom",
+          "description": "Cinnamon Cap Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.cultivated-mushrooms",
+            "name": "Cultivated Mushrooms"
+          },
+          "name": "Cinnamon Cap Mushroom",
+          "url": "https://pairingmethod.com/fungi/cinnamon-cap-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/cinnamon-cap-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Hypholoma sublateritium",
+          "url": "https://pairingmethod.com/fungi/cinnamon-cap-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "slug": "cinnamon-cap-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/coral-tooth-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/coral-tooth-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.specialty-fungi",
+              "name": "Specialty Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/coral-tooth-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Hericium coralloides"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/coral-tooth-mushroom/#breadcrumb"
+          },
+          "description": "Coral Tooth Mushroom (Specialty Fungi) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Coral Tooth Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/coral-tooth-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/coral-tooth-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/specialty-fungi/",
+              "name": "Specialty Fungi",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/coral-tooth-mushroom/",
+              "name": "Coral Tooth Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/coral-tooth-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "coral-tooth-mushroom",
+          "description": "Coral Tooth Mushroom (Specialty Fungi) — Fungi fungus",
+          "identifier": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.specialty-fungi",
+            "name": "Specialty Fungi"
+          },
+          "name": "Coral Tooth Mushroom",
+          "url": "https://pairingmethod.com/fungi/coral-tooth-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/coral-tooth-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Hericium coralloides",
+          "url": "https://pairingmethod.com/fungi/coral-tooth-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "slug": "coral-tooth-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/cremini/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/cremini/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.cultivated-mushrooms",
+              "name": "Cultivated Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/cremini/#taxon",
+              "@type": "Taxon",
+              "name": "Agaricus bisporus"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/cremini/#breadcrumb"
+          },
+          "description": "Cremini (Cultivated Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Cremini — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/cremini/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/cremini/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/cremini/",
+              "name": "Cremini",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/cremini/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "cremini",
+          "description": "Cremini (Cultivated Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.cultivated-mushrooms.cremini",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.cultivated-mushrooms",
+            "name": "Cultivated Mushrooms"
+          },
+          "name": "Cremini",
+          "url": "https://pairingmethod.com/fungi/cremini/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/cremini/#taxon",
+          "@type": "Taxon",
+          "name": "Agaricus bisporus",
+          "url": "https://pairingmethod.com/fungi/cremini/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms.cremini",
+      "slug": "cremini"
+    },
+    {
+      "canonical_path": "/fungi/elm-oyster-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/elm-oyster-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.cultivated-mushrooms",
+              "name": "Cultivated Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/elm-oyster-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Hypsizygus ulmarius"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/elm-oyster-mushroom/#breadcrumb"
+          },
+          "description": "Elm Oyster Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Elm Oyster Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/elm-oyster-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/elm-oyster-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/elm-oyster-mushroom/",
+              "name": "Elm Oyster Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/elm-oyster-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "elm-oyster-mushroom",
+          "description": "Elm Oyster Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.cultivated-mushrooms",
+            "name": "Cultivated Mushrooms"
+          },
+          "name": "Elm Oyster Mushroom",
+          "url": "https://pairingmethod.com/fungi/elm-oyster-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/elm-oyster-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Hypsizygus ulmarius",
+          "url": "https://pairingmethod.com/fungi/elm-oyster-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "slug": "elm-oyster-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/enoki/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/enoki/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.cultivated-mushrooms",
+              "name": "Cultivated Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/enoki/#taxon",
+              "@type": "Taxon",
+              "name": "Flammulina velutipes"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/enoki/#breadcrumb"
+          },
+          "description": "Enoki (Cultivated Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Enoki — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/enoki/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/enoki/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/enoki/",
+              "name": "Enoki",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/enoki/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "enoki",
+          "description": "Enoki (Cultivated Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.cultivated-mushrooms.enoki",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.cultivated-mushrooms",
+            "name": "Cultivated Mushrooms"
+          },
+          "name": "Enoki",
+          "url": "https://pairingmethod.com/fungi/enoki/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/enoki/#taxon",
+          "@type": "Taxon",
+          "name": "Flammulina velutipes",
+          "url": "https://pairingmethod.com/fungi/enoki/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms.enoki",
+      "slug": "enoki"
+    },
+    {
+      "canonical_path": "/fungi/fried-chicken-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/fried-chicken-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.specialty-fungi",
+              "name": "Specialty Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/fried-chicken-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Lyophyllum decastes"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/fried-chicken-mushroom/#breadcrumb"
+          },
+          "description": "Fried Chicken Mushroom (Specialty Fungi) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Fried Chicken Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/fried-chicken-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/fried-chicken-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/specialty-fungi/",
+              "name": "Specialty Fungi",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/fried-chicken-mushroom/",
+              "name": "Fried Chicken Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/fried-chicken-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "fried-chicken-mushroom",
+          "description": "Fried Chicken Mushroom (Specialty Fungi) — Fungi fungus",
+          "identifier": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.specialty-fungi",
+            "name": "Specialty Fungi"
+          },
+          "name": "Fried Chicken Mushroom",
+          "url": "https://pairingmethod.com/fungi/fried-chicken-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/fried-chicken-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Lyophyllum decastes",
+          "url": "https://pairingmethod.com/fungi/fried-chicken-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "slug": "fried-chicken-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/hedgehog-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/hedgehog-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.wild-mushrooms",
+              "name": "Wild Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/hedgehog-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Hydnum repandum"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/hedgehog-mushroom/#breadcrumb"
+          },
+          "description": "Hedgehog Mushroom (Wild Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Hedgehog Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/hedgehog-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/hedgehog-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/wild-mushrooms/",
+              "name": "Wild Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/hedgehog-mushroom/",
+              "name": "Hedgehog Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/hedgehog-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "hedgehog-mushroom",
+          "description": "Hedgehog Mushroom (Wild Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.wild-mushrooms",
+            "name": "Wild Mushrooms"
+          },
+          "name": "Hedgehog Mushroom",
+          "url": "https://pairingmethod.com/fungi/hedgehog-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/hedgehog-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Hydnum repandum",
+          "url": "https://pairingmethod.com/fungi/hedgehog-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "slug": "hedgehog-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/king-oyster/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/king-oyster/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.cultivated-mushrooms",
+              "name": "Cultivated Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/king-oyster/#taxon",
+              "@type": "Taxon",
+              "name": "Pleurotus eryngii"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/king-oyster/#breadcrumb"
+          },
+          "description": "King Oyster (Cultivated Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "King Oyster — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/king-oyster/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/king-oyster/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/king-oyster/",
+              "name": "King Oyster",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/king-oyster/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "king-oyster",
+          "description": "King Oyster (Cultivated Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.cultivated-mushrooms.king-oyster",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.cultivated-mushrooms",
+            "name": "Cultivated Mushrooms"
+          },
+          "name": "King Oyster",
+          "url": "https://pairingmethod.com/fungi/king-oyster/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/king-oyster/#taxon",
+          "@type": "Taxon",
+          "name": "Pleurotus eryngii",
+          "url": "https://pairingmethod.com/fungi/king-oyster/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms.king-oyster",
+      "slug": "king-oyster"
+    },
+    {
+      "canonical_path": "/fungi/lions-mane/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/lions-mane/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.specialty-fungi",
+              "name": "Specialty Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/lions-mane/#taxon",
+              "@type": "Taxon",
+              "name": "Hericium erinaceus"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/lions-mane/#breadcrumb"
+          },
+          "description": "Lion's Mane (Specialty Fungi) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Lion's Mane — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/lions-mane/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/lions-mane/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/specialty-fungi/",
+              "name": "Specialty Fungi",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/lions-mane/",
+              "name": "Lion's Mane",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/lions-mane/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "lions-mane",
+          "description": "Lion's Mane (Specialty Fungi) — Fungi fungus",
+          "identifier": "food.fungi.specialty-fungi.lions-mane",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.specialty-fungi",
+            "name": "Specialty Fungi"
+          },
+          "name": "Lion's Mane",
+          "url": "https://pairingmethod.com/fungi/lions-mane/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/lions-mane/#taxon",
+          "@type": "Taxon",
+          "name": "Hericium erinaceus",
+          "url": "https://pairingmethod.com/fungi/lions-mane/"
+        }
+      ],
+      "projection_id": "food.fungi.specialty-fungi.lions-mane",
+      "slug": "lions-mane"
+    },
+    {
+      "canonical_path": "/fungi/lobster-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/lobster-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.wild-mushrooms",
+              "name": "Wild Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/lobster-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Hypomyces lactifluorum"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/lobster-mushroom/#breadcrumb"
+          },
+          "description": "Lobster Mushroom (Wild Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Lobster Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/lobster-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/lobster-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/wild-mushrooms/",
+              "name": "Wild Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/lobster-mushroom/",
+              "name": "Lobster Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/lobster-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "lobster-mushroom",
+          "description": "Lobster Mushroom (Wild Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.wild-mushrooms.lobster-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.wild-mushrooms",
+            "name": "Wild Mushrooms"
+          },
+          "name": "Lobster Mushroom",
+          "url": "https://pairingmethod.com/fungi/lobster-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/lobster-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Hypomyces lactifluorum",
+          "url": "https://pairingmethod.com/fungi/lobster-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "slug": "lobster-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/maitake/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/maitake/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.cultivated-mushrooms",
+              "name": "Cultivated Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/maitake/#taxon",
+              "@type": "Taxon",
+              "name": "Grifola frondosa"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/maitake/#breadcrumb"
+          },
+          "description": "Maitake (Cultivated Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Maitake — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/maitake/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/maitake/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/maitake/",
+              "name": "Maitake",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/maitake/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "maitake",
+          "description": "Maitake (Cultivated Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.cultivated-mushrooms.maitake",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.cultivated-mushrooms",
+            "name": "Cultivated Mushrooms"
+          },
+          "name": "Maitake",
+          "url": "https://pairingmethod.com/fungi/maitake/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/maitake/#taxon",
+          "@type": "Taxon",
+          "name": "Grifola frondosa",
+          "url": "https://pairingmethod.com/fungi/maitake/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms.maitake",
+      "slug": "maitake"
+    },
+    {
+      "canonical_path": "/fungi/matsutake/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/matsutake/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.wild-mushrooms",
+              "name": "Wild Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/matsutake/#taxon",
+              "@type": "Taxon",
+              "name": "Tricholoma matsutake"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/matsutake/#breadcrumb"
+          },
+          "description": "Matsutake (Wild Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Matsutake — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/matsutake/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/matsutake/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/wild-mushrooms/",
+              "name": "Wild Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/matsutake/",
+              "name": "Matsutake",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/matsutake/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "matsutake",
+          "description": "Matsutake (Wild Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.wild-mushrooms.matsutake",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.wild-mushrooms",
+            "name": "Wild Mushrooms"
+          },
+          "name": "Matsutake",
+          "url": "https://pairingmethod.com/fungi/matsutake/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/matsutake/#taxon",
+          "@type": "Taxon",
+          "name": "Tricholoma matsutake",
+          "url": "https://pairingmethod.com/fungi/matsutake/"
+        }
+      ],
+      "projection_id": "food.fungi.wild-mushrooms.matsutake",
+      "slug": "matsutake"
+    },
+    {
+      "canonical_path": "/fungi/morel/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/morel/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.wild-mushrooms",
+              "name": "Wild Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/morel/#taxon",
+              "@type": "Taxon",
+              "name": "Morchella esculenta"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/morel/#breadcrumb"
+          },
+          "description": "Morel (Wild Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Morel — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/morel/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/morel/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/wild-mushrooms/",
+              "name": "Wild Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/morel/",
+              "name": "Morel",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/morel/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "morel",
+          "description": "Morel (Wild Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.wild-mushrooms.morel",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.wild-mushrooms",
+            "name": "Wild Mushrooms"
+          },
+          "name": "Morel",
+          "url": "https://pairingmethod.com/fungi/morel/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/morel/#taxon",
+          "@type": "Taxon",
+          "name": "Morchella esculenta",
+          "url": "https://pairingmethod.com/fungi/morel/"
+        }
+      ],
+      "projection_id": "food.fungi.wild-mushrooms.morel",
+      "slug": "morel"
+    },
+    {
+      "canonical_path": "/fungi/nameko/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/nameko/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.specialty-fungi",
+              "name": "Specialty Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/nameko/#taxon",
+              "@type": "Taxon",
+              "name": "Pholiota nameko"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/nameko/#breadcrumb"
+          },
+          "description": "Nameko (Specialty Fungi) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Nameko — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/nameko/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/nameko/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/specialty-fungi/",
+              "name": "Specialty Fungi",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/nameko/",
+              "name": "Nameko",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/nameko/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "nameko",
+          "description": "Nameko (Specialty Fungi) — Fungi fungus",
+          "identifier": "food.fungi.specialty-fungi.nameko",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.specialty-fungi",
+            "name": "Specialty Fungi"
+          },
+          "name": "Nameko",
+          "url": "https://pairingmethod.com/fungi/nameko/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/nameko/#taxon",
+          "@type": "Taxon",
+          "name": "Pholiota nameko",
+          "url": "https://pairingmethod.com/fungi/nameko/"
+        }
+      ],
+      "projection_id": "food.fungi.specialty-fungi.nameko",
+      "slug": "nameko"
+    },
+    {
+      "canonical_path": "/fungi/oyster-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/oyster-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.cultivated-mushrooms",
+              "name": "Cultivated Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/oyster-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Pleurotus ostreatus"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/oyster-mushroom/#breadcrumb"
+          },
+          "description": "Oyster Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Oyster Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/oyster-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/oyster-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/oyster-mushroom/",
+              "name": "Oyster Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/oyster-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "oyster-mushroom",
+          "description": "Oyster Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.cultivated-mushrooms",
+            "name": "Cultivated Mushrooms"
+          },
+          "name": "Oyster Mushroom",
+          "url": "https://pairingmethod.com/fungi/oyster-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/oyster-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Pleurotus ostreatus",
+          "url": "https://pairingmethod.com/fungi/oyster-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+      "slug": "oyster-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/parasol-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/parasol-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.wild-mushrooms",
+              "name": "Wild Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/parasol-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Macrolepiota procera"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/parasol-mushroom/#breadcrumb"
+          },
+          "description": "Parasol Mushroom (Wild Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Parasol Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/parasol-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/parasol-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/wild-mushrooms/",
+              "name": "Wild Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/parasol-mushroom/",
+              "name": "Parasol Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/parasol-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "parasol-mushroom",
+          "description": "Parasol Mushroom (Wild Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.wild-mushrooms.parasol-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.wild-mushrooms",
+            "name": "Wild Mushrooms"
+          },
+          "name": "Parasol Mushroom",
+          "url": "https://pairingmethod.com/fungi/parasol-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/parasol-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Macrolepiota procera",
+          "url": "https://pairingmethod.com/fungi/parasol-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "slug": "parasol-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/pioppino/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/pioppino/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.cultivated-mushrooms",
+              "name": "Cultivated Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/pioppino/#taxon",
+              "@type": "Taxon",
+              "name": "Cyclocybe aegerita"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/pioppino/#breadcrumb"
+          },
+          "description": "Pioppino (Cultivated Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Pioppino — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/pioppino/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/pioppino/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/pioppino/",
+              "name": "Pioppino",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/pioppino/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "pioppino",
+          "description": "Pioppino (Cultivated Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.cultivated-mushrooms.pioppino",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.cultivated-mushrooms",
+            "name": "Cultivated Mushrooms"
+          },
+          "name": "Pioppino",
+          "url": "https://pairingmethod.com/fungi/pioppino/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/pioppino/#taxon",
+          "@type": "Taxon",
+          "name": "Cyclocybe aegerita",
+          "url": "https://pairingmethod.com/fungi/pioppino/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms.pioppino",
+      "slug": "pioppino"
+    },
+    {
+      "canonical_path": "/fungi/porcini/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/porcini/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.wild-mushrooms",
+              "name": "Wild Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/porcini/#taxon",
+              "@type": "Taxon",
+              "name": "Boletus edulis"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/porcini/#breadcrumb"
+          },
+          "description": "Porcini (Wild Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Porcini — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/porcini/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/porcini/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/wild-mushrooms/",
+              "name": "Wild Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/porcini/",
+              "name": "Porcini",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/porcini/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "porcini",
+          "description": "Porcini (Wild Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.wild-mushrooms.porcini",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.wild-mushrooms",
+            "name": "Wild Mushrooms"
+          },
+          "name": "Porcini",
+          "url": "https://pairingmethod.com/fungi/porcini/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/porcini/#taxon",
+          "@type": "Taxon",
+          "name": "Boletus edulis",
+          "url": "https://pairingmethod.com/fungi/porcini/"
+        }
+      ],
+      "projection_id": "food.fungi.wild-mushrooms.porcini",
+      "slug": "porcini"
+    },
+    {
+      "canonical_path": "/fungi/portobello/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/portobello/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.cultivated-mushrooms",
+              "name": "Cultivated Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/portobello/#taxon",
+              "@type": "Taxon",
+              "name": "Agaricus bisporus"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/portobello/#breadcrumb"
+          },
+          "description": "Portobello (Cultivated Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Portobello — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/portobello/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/portobello/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/portobello/",
+              "name": "Portobello",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/portobello/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "portobello",
+          "description": "Portobello (Cultivated Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.cultivated-mushrooms.portobello",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.cultivated-mushrooms",
+            "name": "Cultivated Mushrooms"
+          },
+          "name": "Portobello",
+          "url": "https://pairingmethod.com/fungi/portobello/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/portobello/#taxon",
+          "@type": "Taxon",
+          "name": "Agaricus bisporus",
+          "url": "https://pairingmethod.com/fungi/portobello/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms.portobello",
+      "slug": "portobello"
+    },
+    {
+      "canonical_path": "/fungi/saffron-milk-cap/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/saffron-milk-cap/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.wild-mushrooms",
+              "name": "Wild Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/saffron-milk-cap/#taxon",
+              "@type": "Taxon",
+              "name": "Lactarius deliciosus"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/saffron-milk-cap/#breadcrumb"
+          },
+          "description": "Saffron Milk Cap (Wild Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Saffron Milk Cap — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/saffron-milk-cap/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/saffron-milk-cap/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/wild-mushrooms/",
+              "name": "Wild Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/saffron-milk-cap/",
+              "name": "Saffron Milk Cap",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/saffron-milk-cap/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "saffron-milk-cap",
+          "description": "Saffron Milk Cap (Wild Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.wild-mushrooms.saffron-milk-cap",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.wild-mushrooms",
+            "name": "Wild Mushrooms"
+          },
+          "name": "Saffron Milk Cap",
+          "url": "https://pairingmethod.com/fungi/saffron-milk-cap/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/saffron-milk-cap/#taxon",
+          "@type": "Taxon",
+          "name": "Lactarius deliciosus",
+          "url": "https://pairingmethod.com/fungi/saffron-milk-cap/"
+        }
+      ],
+      "projection_id": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "slug": "saffron-milk-cap"
+    },
+    {
+      "canonical_path": "/fungi/shaggy-mane/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/shaggy-mane/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.wild-mushrooms",
+              "name": "Wild Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/shaggy-mane/#taxon",
+              "@type": "Taxon",
+              "name": "Coprinus comatus"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/shaggy-mane/#breadcrumb"
+          },
+          "description": "Shaggy Mane (Wild Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Shaggy Mane — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/shaggy-mane/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/shaggy-mane/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/wild-mushrooms/",
+              "name": "Wild Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/shaggy-mane/",
+              "name": "Shaggy Mane",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/shaggy-mane/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "shaggy-mane",
+          "description": "Shaggy Mane (Wild Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.wild-mushrooms.shaggy-mane",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.wild-mushrooms",
+            "name": "Wild Mushrooms"
+          },
+          "name": "Shaggy Mane",
+          "url": "https://pairingmethod.com/fungi/shaggy-mane/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/shaggy-mane/#taxon",
+          "@type": "Taxon",
+          "name": "Coprinus comatus",
+          "url": "https://pairingmethod.com/fungi/shaggy-mane/"
+        }
+      ],
+      "projection_id": "food.fungi.wild-mushrooms.shaggy-mane",
+      "slug": "shaggy-mane"
+    },
+    {
+      "canonical_path": "/fungi/shiitake/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/shiitake/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.cultivated-mushrooms",
+              "name": "Cultivated Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/shiitake/#taxon",
+              "@type": "Taxon",
+              "name": "Lentinula edodes"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/shiitake/#breadcrumb"
+          },
+          "description": "Shiitake (Cultivated Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Shiitake — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/shiitake/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/shiitake/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/shiitake/",
+              "name": "Shiitake",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/shiitake/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "shiitake",
+          "description": "Shiitake (Cultivated Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.cultivated-mushrooms.shiitake",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.cultivated-mushrooms",
+            "name": "Cultivated Mushrooms"
+          },
+          "name": "Shiitake",
+          "url": "https://pairingmethod.com/fungi/shiitake/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/shiitake/#taxon",
+          "@type": "Taxon",
+          "name": "Lentinula edodes",
+          "url": "https://pairingmethod.com/fungi/shiitake/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms.shiitake",
+      "slug": "shiitake"
+    },
+    {
+      "canonical_path": "/fungi/snow-fungus/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/snow-fungus/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.specialty-fungi",
+              "name": "Specialty Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/snow-fungus/#taxon",
+              "@type": "Taxon",
+              "name": "Tremella fuciformis"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/snow-fungus/#breadcrumb"
+          },
+          "description": "Snow Fungus (Specialty Fungi) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Snow Fungus — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/snow-fungus/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/snow-fungus/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/specialty-fungi/",
+              "name": "Specialty Fungi",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/snow-fungus/",
+              "name": "Snow Fungus",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/snow-fungus/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "snow-fungus",
+          "description": "Snow Fungus (Specialty Fungi) — Fungi fungus",
+          "identifier": "food.fungi.specialty-fungi.snow-fungus",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.specialty-fungi",
+            "name": "Specialty Fungi"
+          },
+          "name": "Snow Fungus",
+          "url": "https://pairingmethod.com/fungi/snow-fungus/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/snow-fungus/#taxon",
+          "@type": "Taxon",
+          "name": "Tremella fuciformis",
+          "url": "https://pairingmethod.com/fungi/snow-fungus/"
+        }
+      ],
+      "projection_id": "food.fungi.specialty-fungi.snow-fungus",
+      "slug": "snow-fungus"
+    },
+    {
+      "canonical_path": "/fungi/straw-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/straw-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.cultivated-mushrooms",
+              "name": "Cultivated Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/straw-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Volvariella volvacea"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/straw-mushroom/#breadcrumb"
+          },
+          "description": "Straw Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Straw Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/straw-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/straw-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/straw-mushroom/",
+              "name": "Straw Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/straw-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "straw-mushroom",
+          "description": "Straw Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.cultivated-mushrooms.straw-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.cultivated-mushrooms",
+            "name": "Cultivated Mushrooms"
+          },
+          "name": "Straw Mushroom",
+          "url": "https://pairingmethod.com/fungi/straw-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/straw-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Volvariella volvacea",
+          "url": "https://pairingmethod.com/fungi/straw-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms.straw-mushroom",
+      "slug": "straw-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/summer-truffle/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/summer-truffle/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/truffles/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.truffles",
+              "name": "Truffles"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/summer-truffle/#taxon",
+              "@type": "Taxon",
+              "name": "Tuber aestivum"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/summer-truffle/#breadcrumb"
+          },
+          "description": "Summer Truffle (Truffles) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Summer Truffle — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/summer-truffle/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/summer-truffle/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/truffles/",
+              "name": "Truffles",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/summer-truffle/",
+              "name": "Summer Truffle",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/summer-truffle/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "summer-truffle",
+          "description": "Summer Truffle (Truffles) — Fungi fungus",
+          "identifier": "food.fungi.truffles.summer-truffle",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/truffles/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.truffles",
+            "name": "Truffles"
+          },
+          "name": "Summer Truffle",
+          "url": "https://pairingmethod.com/fungi/summer-truffle/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/summer-truffle/#taxon",
+          "@type": "Taxon",
+          "name": "Tuber aestivum",
+          "url": "https://pairingmethod.com/fungi/summer-truffle/"
+        }
+      ],
+      "projection_id": "food.fungi.truffles.summer-truffle",
+      "slug": "summer-truffle"
+    },
+    {
+      "canonical_path": "/fungi/termite-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/termite-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.wild-mushrooms",
+              "name": "Wild Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/termite-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Termitomyces mammiformis"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/termite-mushroom/#breadcrumb"
+          },
+          "description": "Termite Mushroom (Wild Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Termite Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/termite-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/termite-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/wild-mushrooms/",
+              "name": "Wild Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/termite-mushroom/",
+              "name": "Termite Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/termite-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "termite-mushroom",
+          "description": "Termite Mushroom (Wild Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.wild-mushrooms.termite-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.wild-mushrooms",
+            "name": "Wild Mushrooms"
+          },
+          "name": "Termite Mushroom",
+          "url": "https://pairingmethod.com/fungi/termite-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/termite-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Termitomyces mammiformis",
+          "url": "https://pairingmethod.com/fungi/termite-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.wild-mushrooms.termite-mushroom",
+      "slug": "termite-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/white-truffle/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/white-truffle/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/truffles/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.truffles",
+              "name": "Truffles"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/white-truffle/#taxon",
+              "@type": "Taxon",
+              "name": "Tuber magnatum"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/white-truffle/#breadcrumb"
+          },
+          "description": "White Truffle (Truffles) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "White Truffle — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/white-truffle/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/white-truffle/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/truffles/",
+              "name": "Truffles",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/white-truffle/",
+              "name": "White Truffle",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/white-truffle/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "white-truffle",
+          "description": "White Truffle (Truffles) — Fungi fungus",
+          "identifier": "food.fungi.truffles.white-truffle",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/truffles/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.truffles",
+            "name": "Truffles"
+          },
+          "name": "White Truffle",
+          "url": "https://pairingmethod.com/fungi/white-truffle/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/white-truffle/#taxon",
+          "@type": "Taxon",
+          "name": "Tuber magnatum",
+          "url": "https://pairingmethod.com/fungi/white-truffle/"
+        }
+      ],
+      "projection_id": "food.fungi.truffles.white-truffle",
+      "slug": "white-truffle"
+    },
+    {
+      "canonical_path": "/fungi/wine-cap-mushroom/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/wine-cap-mushroom/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.cultivated-mushrooms",
+              "name": "Cultivated Mushrooms"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/wine-cap-mushroom/#taxon",
+              "@type": "Taxon",
+              "name": "Stropharia rugosoannulata"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/wine-cap-mushroom/#breadcrumb"
+          },
+          "description": "Wine Cap Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Wine Cap Mushroom — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/wine-cap-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/wine-cap-mushroom/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/wine-cap-mushroom/",
+              "name": "Wine Cap Mushroom",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/wine-cap-mushroom/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "wine-cap-mushroom",
+          "description": "Wine Cap Mushroom (Cultivated Mushrooms) — Fungi fungus",
+          "identifier": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.cultivated-mushrooms",
+            "name": "Cultivated Mushrooms"
+          },
+          "name": "Wine Cap Mushroom",
+          "url": "https://pairingmethod.com/fungi/wine-cap-mushroom/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/wine-cap-mushroom/#taxon",
+          "@type": "Taxon",
+          "name": "Stropharia rugosoannulata",
+          "url": "https://pairingmethod.com/fungi/wine-cap-mushroom/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "slug": "wine-cap-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/wood-ear/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/wood-ear/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi",
+              "name": "Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fungi.specialty-fungi",
+              "name": "Specialty Fungi"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/wood-ear/#taxon",
+              "@type": "Taxon",
+              "name": "Auricularia auricula-judae"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi/wood-ear/#breadcrumb"
+          },
+          "description": "Wood Ear (Specialty Fungi) — Fungi fungus",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Wood Ear — Fungi Guide",
+          "url": "https://pairingmethod.com/fungi/wood-ear/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/wood-ear/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/specialty-fungi/",
+              "name": "Specialty Fungi",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/wood-ear/",
+              "name": "Wood Ear",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/wood-ear/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "wood-ear",
+          "description": "Wood Ear (Specialty Fungi) — Fungi fungus",
+          "identifier": "food.fungi.specialty-fungi.wood-ear",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi.specialty-fungi",
+            "name": "Specialty Fungi"
+          },
+          "name": "Wood Ear",
+          "url": "https://pairingmethod.com/fungi/wood-ear/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi/wood-ear/#taxon",
+          "@type": "Taxon",
+          "name": "Auricularia auricula-judae",
+          "url": "https://pairingmethod.com/fungi/wood-ear/"
+        }
+      ],
+      "projection_id": "food.fungi.specialty-fungi.wood-ear",
+      "slug": "wood-ear"
+    }
+  ]
+}

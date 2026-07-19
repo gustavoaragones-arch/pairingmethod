@@ -1,35 +1,35 @@
 {
   "domains": [
-    "vegetable"
+    "fungi"
   ],
   "metrics": {
     "Overall result": "PASS",
     "Promotion targets": 6,
     "Validation errors": 0,
-    "vegetable categories pages promoted": 1,
-    "vegetable groups pages promoted": 4,
-    "vegetable leaf pages promoted": 74
+    "fungi categories pages promoted": 1,
+    "fungi groups pages promoted": 4,
+    "fungi leaf pages promoted": 43
   },
   "overall_result": "PASS",
   "phase": "DEPLOY-01",
   "promoted": [
     {
-      "domain": "vegetable",
-      "html_files": 74,
-      "source": "dist/vegetables",
-      "target": "vegetables"
+      "domain": "fungi",
+      "html_files": 43,
+      "source": "dist/fungi",
+      "target": "fungi"
     },
     {
-      "domain": "vegetable",
+      "domain": "fungi",
       "html_files": 4,
-      "source": "dist/vegetable-groups",
-      "target": "vegetable-groups"
+      "source": "dist/fungi-groups",
+      "target": "fungi-groups"
     },
     {
-      "domain": "vegetable",
+      "domain": "fungi",
       "html_files": 1,
-      "source": "dist/vegetable-categories",
-      "target": "vegetable-categories"
+      "source": "dist/fungi-categories",
+      "target": "fungi-categories"
     },
     {
       "html_files": 0,

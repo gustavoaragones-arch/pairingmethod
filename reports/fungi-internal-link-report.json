@@ -1,0 +1,22 @@
+{
+  "domain": "fungi",
+  "metrics": {
+    "Broken links": 0,
+    "Category link sets": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate links": 0,
+    "Group link sets": 4,
+    "Leaf link sets": 43,
+    "Overall result": "PASS",
+    "Total internal links": 326,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/navigation/fungi-links.json",
+    "data/navigation/fungi-group-links.json",
+    "data/navigation/fungi-category-links.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-06FD",
+  "validation_errors": []
+}

@@ -361,7 +361,7 @@ Rationale: preserve stable published Protein URLs and graph references while est
 | **FOOD-06C** | Runtime compilation & structural relationships — **complete** |
 | **FOOD-06D** | Editorial relationships — **complete** |
 | **FOOD-06E** | Wine pairing relationships — **complete** |
-| FOOD-06F | Publication through shared platform — **next** |
+| **FOOD-06F** | Publication through shared platform — **complete** |
 | Suite v1.3.0 | Food Ontology Suite with Protein, Cheese, Vegetables, and Fungi published |
 
 The six-stage lifecycle is **identical** to FOOD-04, FOOD-05, and Protein — no additions.

@@ -1,0 +1,625 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "fungi",
+    "food_ontology_version": "1.3.0",
+    "phase": "FOOD-06FC",
+    "schema_count": 4,
+    "schema_type": "fungi_group"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/fungi-groups/cultivated-mushrooms/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/fungi/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi",
+            "name": "Fungi"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#breadcrumb"
+          },
+          "description": "Cultivated Mushrooms — 15 fungi in the Fungi Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Cultivated Mushrooms — Fungi Group",
+          "url": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/",
+              "name": "Cultivated Mushrooms",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "cultivated-mushrooms",
+          "description": "Cultivated Mushrooms — 15 fungi in the Fungi Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/fungi/almond-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.cultivated-mushrooms.almond-mushroom",
+              "name": "Almond Mushroom",
+              "url": "https://pairingmethod.com/fungi/almond-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/button-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.cultivated-mushrooms.button-mushroom",
+              "name": "Button Mushroom",
+              "url": "https://pairingmethod.com/fungi/button-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/chestnut-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+              "name": "Chestnut Mushroom",
+              "url": "https://pairingmethod.com/fungi/chestnut-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/cinnamon-cap-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+              "name": "Cinnamon Cap Mushroom",
+              "url": "https://pairingmethod.com/fungi/cinnamon-cap-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/cremini/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.cultivated-mushrooms.cremini",
+              "name": "Cremini",
+              "url": "https://pairingmethod.com/fungi/cremini/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/elm-oyster-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+              "name": "Elm Oyster Mushroom",
+              "url": "https://pairingmethod.com/fungi/elm-oyster-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/enoki/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.cultivated-mushrooms.enoki",
+              "name": "Enoki",
+              "url": "https://pairingmethod.com/fungi/enoki/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/king-oyster/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.cultivated-mushrooms.king-oyster",
+              "name": "King Oyster",
+              "url": "https://pairingmethod.com/fungi/king-oyster/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/maitake/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.cultivated-mushrooms.maitake",
+              "name": "Maitake",
+              "url": "https://pairingmethod.com/fungi/maitake/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/oyster-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+              "name": "Oyster Mushroom",
+              "url": "https://pairingmethod.com/fungi/oyster-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/pioppino/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.cultivated-mushrooms.pioppino",
+              "name": "Pioppino",
+              "url": "https://pairingmethod.com/fungi/pioppino/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/portobello/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.cultivated-mushrooms.portobello",
+              "name": "Portobello",
+              "url": "https://pairingmethod.com/fungi/portobello/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/shiitake/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.cultivated-mushrooms.shiitake",
+              "name": "Shiitake",
+              "url": "https://pairingmethod.com/fungi/shiitake/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/straw-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.cultivated-mushrooms.straw-mushroom",
+              "name": "Straw Mushroom",
+              "url": "https://pairingmethod.com/fungi/straw-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/wine-cap-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+              "name": "Wine Cap Mushroom",
+              "url": "https://pairingmethod.com/fungi/wine-cap-mushroom/"
+            }
+          ],
+          "identifier": "food.fungi.cultivated-mushrooms",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Cultivated Mushrooms",
+          "numberOfTerms": 15,
+          "url": "https://pairingmethod.com/fungi-groups/cultivated-mushrooms/"
+        }
+      ],
+      "projection_id": "food.fungi.cultivated-mushrooms",
+      "slug": "cultivated-mushrooms"
+    },
+    {
+      "canonical_path": "/fungi-groups/specialty-fungi/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/fungi/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi",
+            "name": "Fungi"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#breadcrumb"
+          },
+          "description": "Specialty Fungi — 9 fungi in the Fungi Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Specialty Fungi — Fungi Group",
+          "url": "https://pairingmethod.com/fungi-groups/specialty-fungi/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/specialty-fungi/",
+              "name": "Specialty Fungi",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi-groups/specialty-fungi/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "specialty-fungi",
+          "description": "Specialty Fungi — 9 fungi in the Fungi Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/fungi/abalone-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.specialty-fungi.abalone-mushroom",
+              "name": "Abalone Mushroom",
+              "url": "https://pairingmethod.com/fungi/abalone-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/bamboo-pith/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.specialty-fungi.bamboo-pith",
+              "name": "Bamboo Pith",
+              "url": "https://pairingmethod.com/fungi/bamboo-pith/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/beech-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.specialty-fungi.beech-mushroom",
+              "name": "Beech Mushroom",
+              "url": "https://pairingmethod.com/fungi/beech-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/coral-tooth-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+              "name": "Coral Tooth Mushroom",
+              "url": "https://pairingmethod.com/fungi/coral-tooth-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/fried-chicken-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+              "name": "Fried Chicken Mushroom",
+              "url": "https://pairingmethod.com/fungi/fried-chicken-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/lions-mane/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.specialty-fungi.lions-mane",
+              "name": "Lion's Mane",
+              "url": "https://pairingmethod.com/fungi/lions-mane/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/nameko/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.specialty-fungi.nameko",
+              "name": "Nameko",
+              "url": "https://pairingmethod.com/fungi/nameko/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/snow-fungus/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.specialty-fungi.snow-fungus",
+              "name": "Snow Fungus",
+              "url": "https://pairingmethod.com/fungi/snow-fungus/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/wood-ear/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.specialty-fungi.wood-ear",
+              "name": "Wood Ear",
+              "url": "https://pairingmethod.com/fungi/wood-ear/"
+            }
+          ],
+          "identifier": "food.fungi.specialty-fungi",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Specialty Fungi",
+          "numberOfTerms": 9,
+          "url": "https://pairingmethod.com/fungi-groups/specialty-fungi/"
+        }
+      ],
+      "projection_id": "food.fungi.specialty-fungi",
+      "slug": "specialty-fungi"
+    },
+    {
+      "canonical_path": "/fungi-groups/truffles/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi-groups/truffles/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/fungi/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi",
+            "name": "Fungi"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi-groups/truffles/#breadcrumb"
+          },
+          "description": "Truffles — 5 fungi in the Fungi Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Truffles — Fungi Group",
+          "url": "https://pairingmethod.com/fungi-groups/truffles/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi-groups/truffles/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/truffles/",
+              "name": "Truffles",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi-groups/truffles/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "truffles",
+          "description": "Truffles — 5 fungi in the Fungi Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/fungi/bianchetto-truffle/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.truffles.bianchetto-truffle",
+              "name": "Bianchetto Truffle",
+              "url": "https://pairingmethod.com/fungi/bianchetto-truffle/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/black-truffle/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.truffles.black-truffle",
+              "name": "Black Truffle",
+              "url": "https://pairingmethod.com/fungi/black-truffle/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/burgundy-truffle/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.truffles.burgundy-truffle",
+              "name": "Burgundy Truffle",
+              "url": "https://pairingmethod.com/fungi/burgundy-truffle/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/summer-truffle/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.truffles.summer-truffle",
+              "name": "Summer Truffle",
+              "url": "https://pairingmethod.com/fungi/summer-truffle/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/white-truffle/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.truffles.white-truffle",
+              "name": "White Truffle",
+              "url": "https://pairingmethod.com/fungi/white-truffle/"
+            }
+          ],
+          "identifier": "food.fungi.truffles",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Truffles",
+          "numberOfTerms": 5,
+          "url": "https://pairingmethod.com/fungi-groups/truffles/"
+        }
+      ],
+      "projection_id": "food.fungi.truffles",
+      "slug": "truffles"
+    },
+    {
+      "canonical_path": "/fungi-groups/wild-mushrooms/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/fungi/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.fungi",
+            "name": "Fungi"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#breadcrumb"
+          },
+          "description": "Wild Mushrooms — 14 fungi in the Fungi Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Wild Mushrooms — Fungi Group",
+          "url": "https://pairingmethod.com/fungi-groups/wild-mushrooms/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi/",
+              "name": "Fungi",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-categories/fungi/",
+              "name": "Fungi",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fungi-groups/wild-mushrooms/",
+              "name": "Wild Mushrooms",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fungi-groups/wild-mushrooms/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "wild-mushrooms",
+          "description": "Wild Mushrooms — 14 fungi in the Fungi Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/fungi/black-trumpet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.wild-mushrooms.black-trumpet",
+              "name": "Black Trumpet",
+              "url": "https://pairingmethod.com/fungi/black-trumpet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/blewit/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.wild-mushrooms.blewit",
+              "name": "Blewit",
+              "url": "https://pairingmethod.com/fungi/blewit/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/cauliflower-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+              "name": "Cauliflower Mushroom",
+              "url": "https://pairingmethod.com/fungi/cauliflower-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/chanterelle/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.wild-mushrooms.chanterelle",
+              "name": "Chanterelle",
+              "url": "https://pairingmethod.com/fungi/chanterelle/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/chicken-of-the-woods/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+              "name": "Chicken of the Woods",
+              "url": "https://pairingmethod.com/fungi/chicken-of-the-woods/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/hedgehog-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+              "name": "Hedgehog Mushroom",
+              "url": "https://pairingmethod.com/fungi/hedgehog-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/lobster-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.wild-mushrooms.lobster-mushroom",
+              "name": "Lobster Mushroom",
+              "url": "https://pairingmethod.com/fungi/lobster-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/matsutake/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.wild-mushrooms.matsutake",
+              "name": "Matsutake",
+              "url": "https://pairingmethod.com/fungi/matsutake/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/morel/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.wild-mushrooms.morel",
+              "name": "Morel",
+              "url": "https://pairingmethod.com/fungi/morel/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/parasol-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.wild-mushrooms.parasol-mushroom",
+              "name": "Parasol Mushroom",
+              "url": "https://pairingmethod.com/fungi/parasol-mushroom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/porcini/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.wild-mushrooms.porcini",
+              "name": "Porcini",
+              "url": "https://pairingmethod.com/fungi/porcini/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/saffron-milk-cap/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.wild-mushrooms.saffron-milk-cap",
+              "name": "Saffron Milk Cap",
+              "url": "https://pairingmethod.com/fungi/saffron-milk-cap/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/shaggy-mane/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.wild-mushrooms.shaggy-mane",
+              "name": "Shaggy Mane",
+              "url": "https://pairingmethod.com/fungi/shaggy-mane/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fungi/termite-mushroom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.fungi.wild-mushrooms.termite-mushroom",
+              "name": "Termite Mushroom",
+              "url": "https://pairingmethod.com/fungi/termite-mushroom/"
+            }
+          ],
+          "identifier": "food.fungi.wild-mushrooms",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fungi Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Wild Mushrooms",
+          "numberOfTerms": 14,
+          "url": "https://pairingmethod.com/fungi-groups/wild-mushrooms/"
+        }
+      ],
+      "projection_id": "food.fungi.wild-mushrooms",
+      "slug": "wild-mushrooms"
+    }
+  ]
+}

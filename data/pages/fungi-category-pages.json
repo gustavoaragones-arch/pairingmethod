@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "fungi",
+    "food_ontology_version": "1.3.0",
+    "page_count": 1,
+    "page_type": "fungi_category",
+    "phase": "FOOD-06FB"
+  },
+  "pages": [
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/fungi/",
+          "label": "Fungi"
+        },
+        {
+          "href": "/fungi-categories/fungi/",
+          "label": "Fungi"
+        }
+      ],
+      "canonical_path": "/fungi-categories/fungi/",
+      "groups": [
+        {
+          "food_count": 15,
+          "href": "/fungi-groups/cultivated-mushrooms/",
+          "id": "food.fungi.cultivated-mushrooms",
+          "name": "Cultivated Mushrooms",
+          "slug": "cultivated-mushrooms"
+        },
+        {
+          "food_count": 9,
+          "href": "/fungi-groups/specialty-fungi/",
+          "id": "food.fungi.specialty-fungi",
+          "name": "Specialty Fungi",
+          "slug": "specialty-fungi"
+        },
+        {
+          "food_count": 5,
+          "href": "/fungi-groups/truffles/",
+          "id": "food.fungi.truffles",
+          "name": "Truffles",
+          "slug": "truffles"
+        },
+        {
+          "food_count": 14,
+          "href": "/fungi-groups/wild-mushrooms/",
+          "id": "food.fungi.wild-mushrooms",
+          "name": "Wild Mushrooms",
+          "slug": "wild-mushrooms"
+        }
+      ],
+      "identity": {
+        "id": "food.fungi",
+        "slug": "fungi",
+        "title": "Fungi"
+      },
+      "metadata": {
+        "canonical": "https://pairingmethod.com/fungi-categories/fungi/",
+        "description": "Fungi — 4 groups and 43 fungi.",
+        "og_description": "Fungi — 4 groups and 43 fungi.",
+        "og_title": "Fungi — Fungi Category",
+        "title": "Fungi — Fungi Category"
+      },
+      "overview": {
+        "display_name": "Fungi",
+        "food_count": 43,
+        "group_count": 4
+      },
+      "page_type": "fungi_category",
+      "projection_id": "food.fungi",
+      "slug": "fungi"
+    }
+  ]
+}

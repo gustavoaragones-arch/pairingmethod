@@ -1,0 +1,24 @@
+{
+  "domain": "fungi",
+  "metrics": {
+    "Broken references": 0,
+    "Category search documents": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate documents": 0,
+    "Group search documents": 4,
+    "Indexed tokens": 132,
+    "Leaf search documents": 43,
+    "Overall result": "PASS",
+    "Suggestions": 48,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/search/fungi-search-index.json",
+    "data/search/fungi-group-search-index.json",
+    "data/search/fungi-category-search-index.json",
+    "data/search/fungi-search-suggestions.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-06FE",
+  "validation_errors": []
+}

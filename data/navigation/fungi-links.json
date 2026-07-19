@@ -1,0 +1,2700 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/fungi/abalone-mushroom/",
+      "projection_id": "food.fungi.specialty-fungi.abalone-mushroom",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/specialty-fungi/",
+            "id": "food.fungi.specialty-fungi",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Specialty Fungi"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "abalone-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/almond-mushroom/",
+      "projection_id": "food.fungi.cultivated-mushrooms.almond-mushroom",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.fungi.cultivated-mushrooms.button-mushroom",
+            "id": "food.fungi.cultivated-mushrooms.button-mushroom",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "button mushroom"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "almond-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/bamboo-pith/",
+      "projection_id": "food.fungi.specialty-fungi.bamboo-pith",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/specialty-fungi/",
+            "id": "food.fungi.specialty-fungi",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Specialty Fungi"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "bamboo-pith"
+    },
+    {
+      "canonical_path": "/fungi/beech-mushroom/",
+      "projection_id": "food.fungi.specialty-fungi.beech-mushroom",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/specialty-fungi/",
+            "id": "food.fungi.specialty-fungi",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Specialty Fungi"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/enoki/",
+            "id": "food.fungi.cultivated-mushrooms.enoki",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Enoki"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "beech-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/bianchetto-truffle/",
+      "projection_id": "food.fungi.truffles.bianchetto-truffle",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.fungi.truffles.black-truffle",
+            "id": "food.fungi.truffles.black-truffle",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black truffle"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/truffles/",
+            "id": "food.fungi.truffles",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Truffles"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/nebbiolo/",
+            "id": "nebbiolo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "nebbiolo"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/white-truffle/",
+            "id": "food.fungi.truffles.white-truffle",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "White Truffle"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/herbal",
+            "id": "herbal",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "herbal"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "bianchetto-truffle"
+    },
+    {
+      "canonical_path": "/fungi/black-truffle/",
+      "projection_id": "food.fungi.truffles.black-truffle",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/nebbiolo/",
+            "id": "nebbiolo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "nebbiolo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.cheese.hard.parmigiano-reggiano",
+            "id": "food.cheese.hard.parmigiano-reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano reggiano"
+          },
+          {
+            "href": "food.herb.parsley",
+            "id": "food.herb.parsley",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parsley"
+          },
+          {
+            "href": "food.fungi.wild-mushrooms.porcini",
+            "id": "food.fungi.wild-mushrooms.porcini",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "porcini"
+          },
+          {
+            "href": "food.fungi.truffles.white-truffle",
+            "id": "food.fungi.truffles.white-truffle",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "white truffle"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/truffles/",
+            "id": "food.fungi.truffles",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Truffles"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/summer-truffle/",
+            "id": "food.fungi.truffles.summer-truffle",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Summer Truffle"
+          },
+          {
+            "href": "/fungi/white-truffle/",
+            "id": "food.fungi.truffles.white-truffle",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "White Truffle"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/barrel-aging/",
+            "id": "barrel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "barrel aging"
+          }
+        ]
+      },
+      "slug": "black-truffle"
+    },
+    {
+      "canonical_path": "/fungi/black-trumpet/",
+      "projection_id": "food.fungi.wild-mushrooms.black-trumpet",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.fungi.wild-mushrooms.chanterelle",
+            "id": "food.fungi.wild-mushrooms.chanterelle",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chanterelle"
+          },
+          {
+            "href": "food.fungi.wild-mushrooms.morel",
+            "id": "food.fungi.wild-mushrooms.morel",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "morel"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.fungi.wild-mushrooms.porcini",
+            "id": "food.fungi.wild-mushrooms.porcini",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "porcini"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/chanterelle/",
+            "id": "food.fungi.wild-mushrooms.chanterelle",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Chanterelle"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "black-trumpet"
+    },
+    {
+      "canonical_path": "/fungi/blewit/",
+      "projection_id": "food.fungi.wild-mushrooms.blewit",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "blewit"
+    },
+    {
+      "canonical_path": "/fungi/burgundy-truffle/",
+      "projection_id": "food.fungi.truffles.burgundy-truffle",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/truffles/",
+            "id": "food.fungi.truffles",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Truffles"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "burgundy-truffle"
+    },
+    {
+      "canonical_path": "/fungi/button-mushroom/",
+      "projection_id": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.fungi.cultivated-mushrooms.cremini",
+            "id": "food.fungi.cultivated-mushrooms.cremini",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cremini"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/cremini/",
+            "id": "food.fungi.cultivated-mushrooms.cremini",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Cremini"
+          },
+          {
+            "href": "/fungi/portobello/",
+            "id": "food.fungi.cultivated-mushrooms.portobello",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Portobello"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/fungi/cremini/",
+            "id": "food.fungi.cultivated-mushrooms.cremini",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Cremini"
+          },
+          {
+            "href": "/fungi/portobello/",
+            "id": "food.fungi.cultivated-mushrooms.portobello",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Portobello"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "button-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/cauliflower-mushroom/",
+      "projection_id": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "cauliflower-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/chanterelle/",
+      "projection_id": "food.fungi.wild-mushrooms.chanterelle",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.fungi.wild-mushrooms.morel",
+            "id": "food.fungi.wild-mushrooms.morel",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "morel"
+          },
+          {
+            "href": "food.cheese.hard.parmigiano-reggiano",
+            "id": "food.cheese.hard.parmigiano-reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano reggiano"
+          },
+          {
+            "href": "food.herb.tarragon",
+            "id": "food.herb.tarragon",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tarragon"
+          },
+          {
+            "href": "food.herb.thyme",
+            "id": "food.herb.thyme",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "thyme"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/black-trumpet/",
+            "id": "food.fungi.wild-mushrooms.black-trumpet",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Black Trumpet"
+          },
+          {
+            "href": "/fungi/hedgehog-mushroom/",
+            "id": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Hedgehog Mushroom"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/nutty",
+            "id": "nutty",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "nutty"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/barrel-aging/",
+            "id": "barrel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "barrel aging"
+          }
+        ]
+      },
+      "slug": "chanterelle"
+    },
+    {
+      "canonical_path": "/fungi/chestnut-mushroom/",
+      "projection_id": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "chestnut-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/chicken-of-the-woods/",
+      "projection_id": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/viognier/",
+            "id": "viognier",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "viognier"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.chicken",
+            "id": "food.protein.chicken",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "chicken-of-the-woods"
+    },
+    {
+      "canonical_path": "/fungi/cinnamon-cap-mushroom/",
+      "projection_id": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "cinnamon-cap-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/coral-tooth-mushroom/",
+      "projection_id": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.fungi.specialty-fungi.lions-mane",
+            "id": "food.fungi.specialty-fungi.lions-mane",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "lions mane"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/specialty-fungi/",
+            "id": "food.fungi.specialty-fungi",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Specialty Fungi"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "coral-tooth-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/cremini/",
+      "projection_id": "food.fungi.cultivated-mushrooms.cremini",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/button-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.button-mushroom",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Button Mushroom"
+          },
+          {
+            "href": "/fungi/portobello/",
+            "id": "food.fungi.cultivated-mushrooms.portobello",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Portobello"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/fungi/button-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.button-mushroom",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Button Mushroom"
+          },
+          {
+            "href": "/fungi/portobello/",
+            "id": "food.fungi.cultivated-mushrooms.portobello",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Portobello"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "cremini"
+    },
+    {
+      "canonical_path": "/fungi/elm-oyster-mushroom/",
+      "projection_id": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/oyster-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Oyster Mushroom"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/fungi/oyster-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Oyster Mushroom"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "elm-oyster-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/enoki/",
+      "projection_id": "food.fungi.cultivated-mushrooms.enoki",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.fungi.cultivated-mushrooms.shiitake",
+            "id": "food.fungi.cultivated-mushrooms.shiitake",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shiitake"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/beech-mushroom/",
+            "id": "food.fungi.specialty-fungi.beech-mushroom",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Beech Mushroom"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "enoki"
+    },
+    {
+      "canonical_path": "/fungi/fried-chicken-mushroom/",
+      "projection_id": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/specialty-fungi/",
+            "id": "food.fungi.specialty-fungi",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Specialty Fungi"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "fried-chicken-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/hedgehog-mushroom/",
+      "projection_id": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.fungi.wild-mushrooms.black-trumpet",
+            "id": "food.fungi.wild-mushrooms.black-trumpet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black trumpet"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/chanterelle/",
+            "id": "food.fungi.wild-mushrooms.chanterelle",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Chanterelle"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/nutty",
+            "id": "nutty",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "nutty"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "hedgehog-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/king-oyster/",
+      "projection_id": "food.fungi.cultivated-mushrooms.king-oyster",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.fungi.cultivated-mushrooms.portobello",
+            "id": "food.fungi.cultivated-mushrooms.portobello",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "portobello"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/oyster-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Oyster Mushroom"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/fungi/oyster-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Oyster Mushroom"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "king-oyster"
+    },
+    {
+      "canonical_path": "/fungi/lions-mane/",
+      "projection_id": "food.fungi.specialty-fungi.lions-mane",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/specialty-fungi/",
+            "id": "food.fungi.specialty-fungi",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Specialty Fungi"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "lions-mane"
+    },
+    {
+      "canonical_path": "/fungi/lobster-mushroom/",
+      "projection_id": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.fungi.wild-mushrooms.chanterelle",
+            "id": "food.fungi.wild-mushrooms.chanterelle",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chanterelle"
+          },
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "lobster-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/maitake/",
+      "projection_id": "food.fungi.cultivated-mushrooms.maitake",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.chicken",
+            "id": "food.protein.chicken",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken"
+          },
+          {
+            "href": "food.fungi.cultivated-mushrooms.enoki",
+            "id": "food.fungi.cultivated-mushrooms.enoki",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "enoki"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/shiitake/",
+            "id": "food.fungi.cultivated-mushrooms.shiitake",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Shiitake"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "maitake"
+    },
+    {
+      "canonical_path": "/fungi/matsutake/",
+      "projection_id": "food.fungi.wild-mushrooms.matsutake",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/champagne/",
+            "id": "champagne",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "champagne"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.herb.ginger",
+            "id": "food.herb.ginger",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "ginger"
+          },
+          {
+            "href": "food.fungi.cultivated-mushrooms.shiitake",
+            "id": "food.fungi.cultivated-mushrooms.shiitake",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shiitake"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/herbal",
+            "id": "herbal",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "herbal"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/stainless-steel-aging/",
+            "id": "stainless-steel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "stainless steel aging"
+          }
+        ]
+      },
+      "slug": "matsutake"
+    },
+    {
+      "canonical_path": "/fungi/morel/",
+      "projection_id": "food.fungi.wild-mushrooms.morel",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.green-vegetables.asparagus",
+            "id": "food.vegetable.green-vegetables.asparagus",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "asparagus"
+          },
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.herb.thyme",
+            "id": "food.herb.thyme",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "thyme"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/malolactic-fermentation/",
+            "id": "malolactic-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "malolactic fermentation"
+          }
+        ]
+      },
+      "slug": "morel"
+    },
+    {
+      "canonical_path": "/fungi/nameko/",
+      "projection_id": "food.fungi.specialty-fungi.nameko",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.fungi.cultivated-mushrooms.shiitake",
+            "id": "food.fungi.cultivated-mushrooms.shiitake",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shiitake"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/specialty-fungi/",
+            "id": "food.fungi.specialty-fungi",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Specialty Fungi"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "nameko"
+    },
+    {
+      "canonical_path": "/fungi/oyster-mushroom/",
+      "projection_id": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/dry-rose/",
+            "id": "dry-rose",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "dry rose"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.fungi.cultivated-mushrooms.shiitake",
+            "id": "food.fungi.cultivated-mushrooms.shiitake",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shiitake"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/elm-oyster-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Elm Oyster Mushroom"
+          },
+          {
+            "href": "/fungi/king-oyster/",
+            "id": "food.fungi.cultivated-mushrooms.king-oyster",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "King Oyster"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/fungi/king-oyster/",
+            "id": "food.fungi.cultivated-mushrooms.king-oyster",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "King Oyster"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "oyster-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/parasol-mushroom/",
+      "projection_id": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "parasol-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/pioppino/",
+      "projection_id": "food.fungi.cultivated-mushrooms.pioppino",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.fungi.cultivated-mushrooms.shiitake",
+            "id": "food.fungi.cultivated-mushrooms.shiitake",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shiitake"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "pioppino"
+    },
+    {
+      "canonical_path": "/fungi/porcini/",
+      "projection_id": "food.fungi.wild-mushrooms.porcini",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.beef.brisket",
+            "id": "food.protein.beef.brisket",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "brisket"
+          },
+          {
+            "href": "food.fungi.wild-mushrooms.chanterelle",
+            "id": "food.fungi.wild-mushrooms.chanterelle",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chanterelle"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.fungi.wild-mushrooms.matsutake",
+            "id": "food.fungi.wild-mushrooms.matsutake",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "matsutake"
+          },
+          {
+            "href": "food.fungi.wild-mushrooms.morel",
+            "id": "food.fungi.wild-mushrooms.morel",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "morel"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.cheese.hard.parmigiano-reggiano",
+            "id": "food.cheese.hard.parmigiano-reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano reggiano"
+          },
+          {
+            "href": "food.herb.parsley",
+            "id": "food.herb.parsley",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parsley"
+          },
+          {
+            "href": "food.protein.pork.pork-loin",
+            "id": "food.protein.pork.pork-loin",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pork loin"
+          },
+          {
+            "href": "food.protein.beef.ribeye",
+            "id": "food.protein.beef.ribeye",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "ribeye"
+          },
+          {
+            "href": "food.herb.thyme",
+            "id": "food.herb.thyme",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "thyme"
+          },
+          {
+            "href": "food.fungi.truffles.white-truffle",
+            "id": "food.fungi.truffles.white-truffle",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "white truffle"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/nebbiolo/",
+            "id": "nebbiolo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "nebbiolo"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/malolactic-fermentation/",
+            "id": "malolactic-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "malolactic fermentation"
+          }
+        ]
+      },
+      "slug": "porcini"
+    },
+    {
+      "canonical_path": "/fungi/portobello/",
+      "projection_id": "food.fungi.cultivated-mushrooms.portobello",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/zinfandel/",
+            "id": "zinfandel",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "zinfandel"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.beef.brisket",
+            "id": "food.protein.beef.brisket",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "brisket"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.herb.rosemary",
+            "id": "food.herb.rosemary",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rosemary"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/button-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.button-mushroom",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Button Mushroom"
+          },
+          {
+            "href": "/fungi/cremini/",
+            "id": "food.fungi.cultivated-mushrooms.cremini",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Cremini"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/fungi/cremini/",
+            "id": "food.fungi.cultivated-mushrooms.cremini",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Cremini"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/smoky",
+            "id": "smoky",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "smoky"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/carbonic-maceration/",
+            "id": "carbonic-maceration",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "carbonic maceration"
+          }
+        ]
+      },
+      "slug": "portobello"
+    },
+    {
+      "canonical_path": "/fungi/saffron-milk-cap/",
+      "projection_id": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.fungi.wild-mushrooms.chanterelle",
+            "id": "food.fungi.wild-mushrooms.chanterelle",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chanterelle"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "saffron-milk-cap"
+    },
+    {
+      "canonical_path": "/fungi/shaggy-mane/",
+      "projection_id": "food.fungi.wild-mushrooms.shaggy-mane",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "shaggy-mane"
+    },
+    {
+      "canonical_path": "/fungi/shiitake/",
+      "projection_id": "food.fungi.cultivated-mushrooms.shiitake",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.spice.black_pepper",
+            "id": "food.spice.black_pepper",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black_pepper"
+          },
+          {
+            "href": "food.protein.chicken",
+            "id": "food.protein.chicken",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken"
+          },
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.herb.ginger",
+            "id": "food.herb.ginger",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "ginger"
+          },
+          {
+            "href": "food.fungi.cultivated-mushrooms.maitake",
+            "id": "food.fungi.cultivated-mushrooms.maitake",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "maitake"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.fungi.specialty-fungi.wood-ear",
+            "id": "food.fungi.specialty-fungi.wood-ear",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "wood ear"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/maitake/",
+            "id": "food.fungi.cultivated-mushrooms.maitake",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Maitake"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/stainless-steel-aging/",
+            "id": "stainless-steel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "stainless steel aging"
+          }
+        ]
+      },
+      "slug": "shiitake"
+    },
+    {
+      "canonical_path": "/fungi/snow-fungus/",
+      "projection_id": "food.fungi.specialty-fungi.snow-fungus",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/specialty-fungi/",
+            "id": "food.fungi.specialty-fungi",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Specialty Fungi"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/moscato/",
+            "id": "moscato",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "moscato"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "snow-fungus"
+    },
+    {
+      "canonical_path": "/fungi/straw-mushroom/",
+      "projection_id": "food.fungi.cultivated-mushrooms.straw-mushroom",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [
+          {
+            "href": "/fungi/button-mushroom/",
+            "id": "food.fungi.cultivated-mushrooms.button-mushroom",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Button Mushroom"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "straw-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/summer-truffle/",
+      "projection_id": "food.fungi.truffles.summer-truffle",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/dry-rose/",
+            "id": "dry-rose",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "dry rose"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.fungi.truffles.black-truffle",
+            "id": "food.fungi.truffles.black-truffle",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black truffle"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/truffles/",
+            "id": "food.fungi.truffles",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Truffles"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/black-truffle/",
+            "id": "food.fungi.truffles.black-truffle",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Black Truffle"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "summer-truffle"
+    },
+    {
+      "canonical_path": "/fungi/termite-mushroom/",
+      "projection_id": "food.fungi.wild-mushrooms.termite-mushroom",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/wild-mushrooms/",
+            "id": "food.fungi.wild-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Wild Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "termite-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/white-truffle/",
+      "projection_id": "food.fungi.truffles.white-truffle",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/champagne/",
+            "id": "champagne",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "champagne"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.cheese.hard.parmigiano-reggiano",
+            "id": "food.cheese.hard.parmigiano-reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano reggiano"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/truffles/",
+            "id": "food.fungi.truffles",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Truffles"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/nebbiolo/",
+            "id": "nebbiolo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "nebbiolo"
+          }
+        ],
+        "similar_fungi": [
+          {
+            "href": "/fungi/bianchetto-truffle/",
+            "id": "food.fungi.truffles.bianchetto-truffle",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Bianchetto Truffle"
+          },
+          {
+            "href": "/fungi/black-truffle/",
+            "id": "food.fungi.truffles.black-truffle",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Black Truffle"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/herbal",
+            "id": "herbal",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "herbal"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/stainless-steel-aging/",
+            "id": "stainless-steel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "stainless steel aging"
+          }
+        ]
+      },
+      "slug": "white-truffle"
+    },
+    {
+      "canonical_path": "/fungi/wine-cap-mushroom/",
+      "projection_id": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/cultivated-mushrooms/",
+            "id": "food.fungi.cultivated-mushrooms",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Cultivated Mushrooms"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [
+          {
+            "href": "/fungi/portobello/",
+            "id": "food.fungi.cultivated-mushrooms.portobello",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Portobello"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "wine-cap-mushroom"
+    },
+    {
+      "canonical_path": "/fungi/wood-ear/",
+      "projection_id": "food.fungi.specialty-fungi.wood-ear",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/fungi-categories/fungi/",
+            "id": "food.fungi",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Fungi"
+          },
+          "group": {
+            "href": "/fungi-groups/specialty-fungi/",
+            "id": "food.fungi.specialty-fungi",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Specialty Fungi"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_fungi": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "wood-ear"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "fungi",
+    "food_ontology_version": "1.3.0",
+    "link_set_count": 43,
+    "link_set_type": "fungus",
+    "phase": "FOOD-06FD"
+  }
+}
