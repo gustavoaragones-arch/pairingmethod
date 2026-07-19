@@ -1,0 +1,4838 @@
+{
+  "edges": [
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "category_contains",
+      "source": "food.fungi",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "category_contains",
+      "source": "food.fungi",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "category_contains",
+      "source": "food.fungi",
+      "stability_level": "structural",
+      "target": "food.fungi.truffles",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "category_contains",
+      "source": "food.fungi",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms.almond-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms.cremini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms.enoki",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms.king-oyster",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms.maitake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms.pioppino",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms.portobello",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms.shiitake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms.straw-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.cultivated-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms.almond-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.cultivated-mushrooms.almond-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.almond-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.almond-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.cremini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.almond-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.enoki",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.almond-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.king-oyster",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.almond-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.maitake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.almond-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.almond-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.portobello",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.almond-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.shiitake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.almond-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.straw-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_scientific_name",
+      "source": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.cremini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_scientific_name",
+      "source": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.portobello",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.cremini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.enoki",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.king-oyster",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.maitake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.portobello",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.shiitake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.straw-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.pioppino",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.abalone-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.beech-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.lions-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.nameko",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.snow-fungus",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.wood-ear",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.black-trumpet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.blewit",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.pioppino",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.abalone-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.beech-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.lions-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.nameko",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.snow-fungus",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.wood-ear",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.black-trumpet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.blewit",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms.cremini",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.cultivated-mushrooms.cremini",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_scientific_name",
+      "source": "food.fungi.cultivated-mushrooms.cremini",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.portobello",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cremini",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.enoki",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cremini",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.king-oyster",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cremini",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.maitake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cremini",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cremini",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.portobello",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cremini",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.shiitake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.cremini",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.straw-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.pioppino",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.abalone-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.beech-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.lions-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.nameko",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.snow-fungus",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.wood-ear",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.black-trumpet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.blewit",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms.enoki",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.cultivated-mushrooms.enoki",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.enoki",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.king-oyster",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.enoki",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.maitake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.enoki",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.enoki",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.portobello",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.enoki",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.shiitake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.enoki",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.straw-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms.king-oyster",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.cultivated-mushrooms.king-oyster",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.king-oyster",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.maitake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.king-oyster",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.king-oyster",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.portobello",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.king-oyster",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.shiitake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.king-oyster",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.straw-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms.maitake",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.cultivated-mushrooms.maitake",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.maitake",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.maitake",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.portobello",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.maitake",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.shiitake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.maitake",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.straw-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.portobello",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.shiitake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.straw-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.abalone-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.beech-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.lions-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.nameko",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.snow-fungus",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.wood-ear",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.black-trumpet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.blewit",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.pioppino",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms.portobello",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.cultivated-mushrooms.portobello",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.portobello",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.shiitake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.portobello",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.straw-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms.shiitake",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.cultivated-mushrooms.shiitake",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.shiitake",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.cultivated-mushrooms.straw-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms.straw-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.cultivated-mushrooms.straw-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.cultivated-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.abalone-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.beech-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.lions-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.nameko",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.snow-fungus",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.wood-ear",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.black-trumpet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.blewit",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.cultivated-mushrooms.wine-cap-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.specialty-fungi",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.specialty-fungi",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi.abalone-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.specialty-fungi",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi.bamboo-pith",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.specialty-fungi",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi.beech-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.specialty-fungi",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.specialty-fungi",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.specialty-fungi",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi.lions-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.specialty-fungi",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi.nameko",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.specialty-fungi",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi.snow-fungus",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.specialty-fungi",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi.wood-ear",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.beech-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.lions-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.nameko",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.snow-fungus",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.wood-ear",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.black-trumpet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.blewit",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.abalone-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.specialty-fungi.bamboo-pith",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.specialty-fungi.bamboo-pith",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.bamboo-pith",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.truffles.bianchetto-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.bamboo-pith",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.truffles.black-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.bamboo-pith",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.truffles.burgundy-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.bamboo-pith",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.truffles.summer-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.bamboo-pith",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.truffles.white-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.bamboo-pith",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.matsutake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.lions-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.nameko",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.snow-fungus",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.wood-ear",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.black-trumpet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.blewit",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.beech-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.lions-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.nameko",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.snow-fungus",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.wood-ear",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.black-trumpet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.blewit",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.coral-tooth-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.lions-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.nameko",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.snow-fungus",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.wood-ear",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.black-trumpet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.blewit",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.fried-chicken-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.nameko",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.snow-fungus",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.wood-ear",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.black-trumpet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.blewit",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.lions-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.snow-fungus",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.wood-ear",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.black-trumpet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.blewit",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.nameko",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.specialty-fungi.wood-ear",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.black-trumpet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.blewit",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.snow-fungus",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.specialty-fungi.wood-ear",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.specialty-fungi.wood-ear",
+      "stability_level": "structural",
+      "target": "food.fungi.specialty-fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.wood-ear",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.black-trumpet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.wood-ear",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.blewit",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.wood-ear",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.wood-ear",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.wood-ear",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.wood-ear",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.wood-ear",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.wood-ear",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.wood-ear",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.wood-ear",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.wood-ear",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.wood-ear",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.specialty-fungi.wood-ear",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.truffles",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.truffles",
+      "stability_level": "structural",
+      "target": "food.fungi.truffles.bianchetto-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.truffles",
+      "stability_level": "structural",
+      "target": "food.fungi.truffles.black-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.truffles",
+      "stability_level": "structural",
+      "target": "food.fungi.truffles.burgundy-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.truffles",
+      "stability_level": "structural",
+      "target": "food.fungi.truffles.summer-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.truffles",
+      "stability_level": "structural",
+      "target": "food.fungi.truffles.white-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.truffles.bianchetto-truffle",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.truffles.bianchetto-truffle",
+      "stability_level": "structural",
+      "target": "food.fungi.truffles",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.truffles.bianchetto-truffle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.truffles.black-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.truffles.bianchetto-truffle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.truffles.burgundy-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.truffles.bianchetto-truffle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.truffles.summer-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.truffles.bianchetto-truffle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.truffles.white-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.truffles.bianchetto-truffle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.matsutake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.truffles.black-truffle",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.truffles.black-truffle",
+      "stability_level": "structural",
+      "target": "food.fungi.truffles",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.truffles.black-truffle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.truffles.burgundy-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.truffles.black-truffle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.truffles.summer-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.truffles.black-truffle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.truffles.white-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.truffles.black-truffle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.matsutake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.truffles.burgundy-truffle",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.truffles.burgundy-truffle",
+      "stability_level": "structural",
+      "target": "food.fungi.truffles",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.truffles.burgundy-truffle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.truffles.summer-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.truffles.burgundy-truffle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.truffles.white-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.truffles.burgundy-truffle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.matsutake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.truffles.summer-truffle",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.truffles.summer-truffle",
+      "stability_level": "structural",
+      "target": "food.fungi.truffles",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.truffles.summer-truffle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.truffles.white-truffle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.truffles.summer-truffle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.matsutake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.truffles.white-truffle",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.truffles.white-truffle",
+      "stability_level": "structural",
+      "target": "food.fungi.truffles",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.truffles.white-truffle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.matsutake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.wild-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.wild-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms.black-trumpet",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.wild-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms.blewit",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.wild-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.wild-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.wild-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.wild-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.wild-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.wild-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms.matsutake",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.wild-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.wild-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.wild-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.wild-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.wild-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "group_contains",
+      "source": "food.fungi.wild-mushrooms",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.wild-mushrooms.black-trumpet",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.wild-mushrooms.black-trumpet",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.black-trumpet",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.blewit",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.black-trumpet",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.black-trumpet",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.black-trumpet",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.black-trumpet",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.black-trumpet",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.black-trumpet",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.black-trumpet",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.black-trumpet",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.black-trumpet",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.black-trumpet",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.black-trumpet",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.wild-mushrooms.blewit",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.wild-mushrooms.blewit",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.blewit",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.blewit",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.blewit",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.blewit",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.blewit",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.blewit",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.blewit",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.blewit",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.blewit",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.blewit",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.blewit",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chanterelle",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.cauliflower-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.wild-mushrooms.chanterelle",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.wild-mushrooms.chanterelle",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chanterelle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chanterelle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chanterelle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chanterelle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chanterelle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chanterelle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chanterelle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chanterelle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chanterelle",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.chicken-of-the-woods",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.hedgehog-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.morel",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.lobster-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.wild-mushrooms.matsutake",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.wild-mushrooms.matsutake",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.wild-mushrooms.morel",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.wild-mushrooms.morel",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.morel",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.morel",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.morel",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.morel",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.morel",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.porcini",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.parasol-mushroom",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.wild-mushrooms.porcini",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.wild-mushrooms.porcini",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.porcini",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.porcini",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.porcini",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.shaggy-mane",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.saffron-milk-cap",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.wild-mushrooms.shaggy-mane",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.wild-mushrooms.shaggy-mane",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "shares_usage_intensity",
+      "source": "food.fungi.wild-mushrooms.shaggy-mane",
+      "stability_level": "intrinsic_similarity",
+      "target": "food.fungi.wild-mushrooms.termite-mushroom",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_category",
+      "source": "food.fungi.wild-mushrooms.termite-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "catalog",
+      "relationship": "belongs_to_group",
+      "source": "food.fungi.wild-mushrooms.termite-mushroom",
+      "stability_level": "structural",
+      "target": "food.fungi.wild-mushrooms",
+      "version": "1.0"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "fungi",
+    "edge_count": 531,
+    "level_1_structural_edges": 137,
+    "level_2_intrinsic_similarity_edges": 394,
+    "level_3_editorial_edges": 0,
+    "phase": "FOOD-06C.3",
+    "relationship_types": [
+      "belongs_to_group",
+      "belongs_to_category",
+      "group_contains",
+      "category_contains",
+      "shares_usage_intensity",
+      "shares_scientific_name"
+    ],
+    "runtime_stability_levels": {
+      "level_1_structural": [
+        "belongs_to_group",
+        "belongs_to_category",
+        "group_contains",
+        "category_contains"
+      ],
+      "level_2_intrinsic_similarity": [
+        "shares_usage_intensity",
+        "shares_scientific_name"
+      ],
+      "level_3_editorial": [
+        "similar_to",
+        "substitutes_for",
+        "commonly_served_with"
+      ]
+    },
+    "source_artifacts": [
+      "data/runtime/fungi-bootstrap.json",
+      "data/runtime/fungi-categories.json",
+      "data/runtime/fungi-groups.json",
+      "data/runtime/fungi-indexes.json"
+    ],
+    "version": "1.0"
+  },
+  "stats": {
+    "level_1_structural_edges": 137,
+    "level_2_intrinsic_similarity_edges": 394,
+    "relationship_type_counts": {
+      "belongs_to_category": 47,
+      "belongs_to_group": 43,
+      "category_contains": 4,
+      "group_contains": 43,
+      "shares_scientific_name": 3,
+      "shares_usage_intensity": 391
+    },
+    "relationship_types": 6,
+    "total_edges": 531
+  }
+}

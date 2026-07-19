@@ -1,0 +1,133 @@
+{
+  "hierarchy": {
+    "category_to_groups": {
+      "fungi": [
+        "cultivated-mushrooms",
+        "specialty-fungi",
+        "truffles",
+        "wild-mushrooms"
+      ]
+    },
+    "fungus_to_group": {
+      "abalone-mushroom": "specialty-fungi",
+      "almond-mushroom": "cultivated-mushrooms",
+      "bamboo-pith": "specialty-fungi",
+      "beech-mushroom": "specialty-fungi",
+      "bianchetto-truffle": "truffles",
+      "black-truffle": "truffles",
+      "black-trumpet": "wild-mushrooms",
+      "blewit": "wild-mushrooms",
+      "burgundy-truffle": "truffles",
+      "button-mushroom": "cultivated-mushrooms",
+      "cauliflower-mushroom": "wild-mushrooms",
+      "chanterelle": "wild-mushrooms",
+      "chestnut-mushroom": "cultivated-mushrooms",
+      "chicken-of-the-woods": "wild-mushrooms",
+      "cinnamon-cap-mushroom": "cultivated-mushrooms",
+      "coral-tooth-mushroom": "specialty-fungi",
+      "cremini": "cultivated-mushrooms",
+      "elm-oyster-mushroom": "cultivated-mushrooms",
+      "enoki": "cultivated-mushrooms",
+      "fried-chicken-mushroom": "specialty-fungi",
+      "hedgehog-mushroom": "wild-mushrooms",
+      "king-oyster": "cultivated-mushrooms",
+      "lions-mane": "specialty-fungi",
+      "lobster-mushroom": "wild-mushrooms",
+      "maitake": "cultivated-mushrooms",
+      "matsutake": "wild-mushrooms",
+      "morel": "wild-mushrooms",
+      "nameko": "specialty-fungi",
+      "oyster-mushroom": "cultivated-mushrooms",
+      "parasol-mushroom": "wild-mushrooms",
+      "pioppino": "cultivated-mushrooms",
+      "porcini": "wild-mushrooms",
+      "portobello": "cultivated-mushrooms",
+      "saffron-milk-cap": "wild-mushrooms",
+      "shaggy-mane": "wild-mushrooms",
+      "shiitake": "cultivated-mushrooms",
+      "snow-fungus": "specialty-fungi",
+      "straw-mushroom": "cultivated-mushrooms",
+      "summer-truffle": "truffles",
+      "termite-mushroom": "wild-mushrooms",
+      "white-truffle": "truffles",
+      "wine-cap-mushroom": "cultivated-mushrooms",
+      "wood-ear": "specialty-fungi"
+    },
+    "group_to_category": {
+      "cultivated-mushrooms": "fungi",
+      "specialty-fungi": "fungi",
+      "truffles": "fungi",
+      "wild-mushrooms": "fungi"
+    },
+    "group_to_fungi": {
+      "cultivated-mushrooms": [
+        "food.fungi.cultivated-mushrooms.almond-mushroom",
+        "food.fungi.cultivated-mushrooms.button-mushroom",
+        "food.fungi.cultivated-mushrooms.chestnut-mushroom",
+        "food.fungi.cultivated-mushrooms.cinnamon-cap-mushroom",
+        "food.fungi.cultivated-mushrooms.cremini",
+        "food.fungi.cultivated-mushrooms.elm-oyster-mushroom",
+        "food.fungi.cultivated-mushrooms.enoki",
+        "food.fungi.cultivated-mushrooms.king-oyster",
+        "food.fungi.cultivated-mushrooms.maitake",
+        "food.fungi.cultivated-mushrooms.oyster-mushroom",
+        "food.fungi.cultivated-mushrooms.pioppino",
+        "food.fungi.cultivated-mushrooms.portobello",
+        "food.fungi.cultivated-mushrooms.shiitake",
+        "food.fungi.cultivated-mushrooms.straw-mushroom",
+        "food.fungi.cultivated-mushrooms.wine-cap-mushroom"
+      ],
+      "specialty-fungi": [
+        "food.fungi.specialty-fungi.abalone-mushroom",
+        "food.fungi.specialty-fungi.bamboo-pith",
+        "food.fungi.specialty-fungi.beech-mushroom",
+        "food.fungi.specialty-fungi.coral-tooth-mushroom",
+        "food.fungi.specialty-fungi.fried-chicken-mushroom",
+        "food.fungi.specialty-fungi.lions-mane",
+        "food.fungi.specialty-fungi.nameko",
+        "food.fungi.specialty-fungi.snow-fungus",
+        "food.fungi.specialty-fungi.wood-ear"
+      ],
+      "truffles": [
+        "food.fungi.truffles.bianchetto-truffle",
+        "food.fungi.truffles.black-truffle",
+        "food.fungi.truffles.burgundy-truffle",
+        "food.fungi.truffles.summer-truffle",
+        "food.fungi.truffles.white-truffle"
+      ],
+      "wild-mushrooms": [
+        "food.fungi.wild-mushrooms.black-trumpet",
+        "food.fungi.wild-mushrooms.blewit",
+        "food.fungi.wild-mushrooms.cauliflower-mushroom",
+        "food.fungi.wild-mushrooms.chanterelle",
+        "food.fungi.wild-mushrooms.chicken-of-the-woods",
+        "food.fungi.wild-mushrooms.hedgehog-mushroom",
+        "food.fungi.wild-mushrooms.lobster-mushroom",
+        "food.fungi.wild-mushrooms.matsutake",
+        "food.fungi.wild-mushrooms.morel",
+        "food.fungi.wild-mushrooms.parasol-mushroom",
+        "food.fungi.wild-mushrooms.porcini",
+        "food.fungi.wild-mushrooms.saffron-milk-cap",
+        "food.fungi.wild-mushrooms.shaggy-mane",
+        "food.fungi.wild-mushrooms.termite-mushroom"
+      ]
+    }
+  },
+  "meta": {
+    "bootstrapped_at": "1.0.0",
+    "catalog_version": "1.0.0",
+    "category_count": 1,
+    "domain": "fungi",
+    "entity_count": 43,
+    "food_ontology_version": "1.3.0",
+    "group_count": 4,
+    "phase": "FOOD-06C.1",
+    "runtime_projection_principle": "Runtime artifacts are projections, never sources of truth — catalog is authoritative",
+    "runtime_stability_levels": {
+      "level_1_structural": "hierarchy only — belongs_to_*, group_contains, category_contains",
+      "level_2_intrinsic_similarity": "shares_usage_intensity, shares_scientific_name — FOOD-06C.3",
+      "level_3_editorial": "reserved FOOD-06D — not generated in runtime bootstrap"
+    },
+    "source": "data/fungi-catalog.json"
+  }
+}

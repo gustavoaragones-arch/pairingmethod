@@ -358,8 +358,8 @@ Rationale: preserve stable published Protein URLs and graph references while est
 |-----------|-------|
 | **FOOD-06A** | Governance (this document) — **frozen** |
 | **FOOD-06B** | Catalog population — **complete** |
-| FOOD-06C | Runtime compilation & structural relationships — **next** |
-| FOOD-06D | Editorial relationships |
+| **FOOD-06C** | Runtime compilation & structural relationships — **complete** |
+| FOOD-06D | Editorial relationships — **next** |
 | FOOD-06E | Wine pairing relationships |
 | FOOD-06F | Publication through shared platform |
 | Suite v1.3.0 | Food Ontology Suite with Protein, Cheese, Vegetables, and Fungi published |
@@ -368,9 +368,30 @@ The six-stage lifecycle is **identical** to FOOD-04, FOOD-05, and Protein — no
 
 ---
 
+## 11.0 Runtime Projection Principle (Suite-wide)
+
+Formalized at FOOD-06C across all Food Ontology domains:
+
+> **Runtime artifacts are projections, never sources of truth.**
+
+| Rule | Detail |
+|------|--------|
+| Catalogs are authoritative | `data/*-catalog.json` is the SSOT for intrinsic knowledge |
+| Runtime is regenerated | `data/runtime/*` is always recompiled from catalog — never hand-edited |
+| Editorial layers are separate | FOOD-XXD/E artifacts do not modify runtime bootstrap outputs |
+| Publication consumes runtime | FOOD-XXF reads runtime + editorial + pairing layers — not catalogs directly |
+
+This principle has been followed in practice since Protein FOOD-02C. FOOD-06C makes it explicit to prevent future contributors from treating generated runtime JSON as editable data.
+
+---
+
 ## 11.1 Runtime Stability Levels (FOOD-06C)
 
 The fungi runtime explicitly distinguishes three relationship classes. FOOD-06C generates **Level 1 and Level 2 only**.
+
+### Runtime rule (FOOD-06C)
+
+The runtime must **not** infer substitutions, culinary similarity beyond governed intrinsic attributes, preparation methods, recipes, wine pairings, or regional cuisine. Those belong to FOOD-06D/E or the Pairing Engine.
 
 ### Level 1 — Structural (deterministic)
 
@@ -391,9 +412,10 @@ Generated from shared intrinsic metadata. No editorial judgment.
 |--------------|--------------|
 | `shares_usage_intensity` | `usage_intensity` |
 | `shares_scientific_name` | `scientific_name` |
-| `shares_flavor_profile` | `flavor_profile` *(reserved — not generated until populated post-FOOD-06B)* |
-| `shares_texture_profile` | `texture_profile` *(reserved)* |
-| `shares_aroma_profile` | `aroma_profile` *(reserved)* |
+
+**Not generated from reserved arrays:** `flavor_profile`, `texture_profile`, `aroma_profile` remain empty by design until a future governed enrichment phase.
+
+Do not generate `shares_flavor_profile`, `shares_texture_profile`, or `shares_aroma_profile` while those fields are empty.
 
 ### Level 3 — Editorial (FOOD-06D+)
 

@@ -218,3 +218,5 @@ Exact paths finalized in FOOD-06F domain descriptor only.
 **FOOD-06A approved.** Catalog curation runs against the frozen FOOD-06A contract.
 
 **FOOD-06B complete.** 43 canonical culinary fungi populated; catalog audit PASS.
+
+**FOOD-06C complete.** Runtime compiled from catalog — 531 edges (137 structural, 394 intrinsic similarity); validator PASS.

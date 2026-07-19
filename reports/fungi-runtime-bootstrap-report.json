@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    "data/runtime/fungi-bootstrap.json",
+    "data/runtime/fungi-categories.json",
+    "data/runtime/fungi-groups.json",
+    "data/runtime/fungi-indexes.json"
+  ],
+  "bootstrap_errors": [],
+  "catalog_version": "1.0.0",
+  "domain": "fungi",
+  "metrics": {
+    "Bootstrap errors": 0,
+    "Categories indexed": 1,
+    "Fungi indexed": 43,
+    "Groups indexed": 4,
+    "Runtime artifacts": 4,
+    "Usage intensities indexed": 3
+  },
+  "overall_result": "PASS",
+  "phase": "FOOD-06C.1"
+}
