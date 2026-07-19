@@ -1,0 +1,349 @@
+{
+  "meta": {
+    "phase": "FOOD-05A",
+    "tier": 2,
+    "domain": "vegetable",
+    "catalog_version": "1.0.0",
+    "entity_type": "vegetable",
+    "description": "Vegetable Ontology — governance shell (FOOD-05A). Canonical Culinary Groups defined; entities deferred to FOOD-05B.",
+    "entity_count": 0,
+    "group_count": 4,
+    "category_count": 1,
+    "food_ontology_version": "1.2.0",
+    "wine_ontology_version": "2.0",
+    "ontology_foundation_version": "1.0.0",
+    "platform_version": "1.0.0",
+    "governance_status": "frozen",
+    "freeze_phase": "FOOD-05A",
+    "freeze_label": "Vegetable Governance Frozen v1.0.0",
+    "seeded": "2026-07-18",
+    "last_entity": null
+  },
+  "schema": {
+    "domain_contract": "Food Ontology Platform v1.0.0",
+    "taxonomy_principle": "canonical_culinary_groups",
+    "taxonomy_note": "Groups are culinary, not botanical. See docs/VEGETABLE_GOVERNANCE.md.",
+    "identity_contract": {
+      "namespace": "food.vegetable",
+      "id_immutable": true,
+      "slug_mutable": true,
+      "display_name_mutable": true,
+      "scientific_name_semantics": "botanical_species",
+      "scientific_name_mutable": false,
+      "external_ids_required": true,
+      "ids_never_recycled": true,
+      "entity_id_pattern": "^food\\.vegetable\\.[a-z0-9-]+\\.[a-z0-9-]+$",
+      "group_id_pattern": "^food\\.vegetable\\.[a-z0-9-]+$",
+      "category_id_pattern": "^food\\.vegetable$",
+      "required_identity_fields": [
+        "id",
+        "slug",
+        "display_name",
+        "scientific_name",
+        "external_ids"
+      ],
+      "per_entity_version_fields": {
+        "catalog_version": "1.0.0",
+        "food_ontology_version": "1.2.0"
+      }
+    },
+    "entity_types": {
+      "vegetable_category": {
+        "description": "Top-level vegetable domain hub (single category in v1).",
+        "id_example": "food.vegetable",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "vegetable_group": {
+        "description": "Canonical Culinary Group (Alliums, Green Vegetables, etc.).",
+        "id_example": "food.vegetable.nightshades",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description",
+          "culinary_group"
+        ]
+      },
+      "vegetable": {
+        "description": "Canonical vegetable entity with frozen intrinsic metadata.",
+        "id_example": "food.vegetable.nightshades.tomato",
+        "required_fields": [
+          "id",
+          "slug",
+          "display_name",
+          "entity_type",
+          "domain",
+          "parent_group",
+          "scientific_name",
+          "external_ids",
+          "catalog_version",
+          "food_ontology_version",
+          "culinary_group",
+          "culinary_role",
+          "plant_part",
+          "flavor_intensity",
+          "flavor_profile",
+          "texture",
+          "moisture_class",
+          "seasonality",
+          "origin_context",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ],
+        "optional_fields": [
+          "aliases",
+          "beginner_notes",
+          "faq",
+          "typical_descriptors",
+          "wine_pairings",
+          "avoid_wine_pairings",
+          "related_styles",
+          "related_descriptors",
+          "related_techniques",
+          "similar_vegetables",
+          "substitutions",
+          "commonly_served_with",
+          "common_preparations"
+        ]
+      }
+    },
+    "controlled_vocabularies": {
+      "canonical_culinary_groups": {
+        "description": "Immutable group names and slugs — do not rename or add peer groups in v1.",
+        "immutable": true,
+        "values": [
+          {
+            "slug": "alliums",
+            "name": "Alliums",
+            "culinary_group": "alliums"
+          },
+          {
+            "slug": "green-vegetables",
+            "name": "Green Vegetables",
+            "culinary_group": "green_vegetables"
+          },
+          {
+            "slug": "root-vegetables",
+            "name": "Root Vegetables",
+            "culinary_group": "root_vegetables"
+          },
+          {
+            "slug": "nightshades",
+            "name": "Nightshades",
+            "culinary_group": "nightshades"
+          }
+        ]
+      },
+      "culinary_group": {
+        "description": "Canonical Culinary Group value on leaf entities — aligns to immutable group slugs.",
+        "immutable": true,
+        "values": [
+          "alliums",
+          "green_vegetables",
+          "root_vegetables",
+          "nightshades"
+        ]
+      },
+      "culinary_role": {
+        "description": "Intrinsic culinary function for pairing, search, and publication.",
+        "values": [
+          "primary",
+          "aromatic",
+          "leafy",
+          "cruciferous",
+          "root",
+          "fruit_vegetable",
+          "bulb",
+          "stem",
+          "flower",
+          "pod"
+        ]
+      },
+      "flavor_profile": {
+        "description": "Reserved flavor characteristic tags — vocabulary frozen in FOOD-05A; do not populate until post-FOOD-05B curation standards.",
+        "populate_from_phase": "FOOD-05C",
+        "cardinality": "array",
+        "values": [
+          "sweet",
+          "earthy",
+          "bitter",
+          "peppery",
+          "sulfurous",
+          "grassy",
+          "vegetal",
+          "nutty",
+          "umami",
+          "pungent"
+        ]
+      },
+      "plant_part": {
+        "values": [
+          "leaf",
+          "stem",
+          "bulb",
+          "root",
+          "tuber",
+          "flower",
+          "pod",
+          "fruit_vegetable",
+          "mixed"
+        ]
+      },
+      "flavor_intensity": {
+        "values": [
+          "mild",
+          "moderate",
+          "bold",
+          "pungent"
+        ]
+      },
+      "texture": {
+        "values": [
+          "crisp",
+          "tender",
+          "fibrous",
+          "succulent",
+          "dense",
+          "leafy"
+        ]
+      },
+      "moisture_class": {
+        "values": [
+          "high",
+          "medium",
+          "low"
+        ]
+      },
+      "seasonality": {
+        "values": [
+          "spring",
+          "summer",
+          "fall",
+          "winter",
+          "year_round",
+          "mixed"
+        ]
+      }
+    },
+    "domain_exclusions": {
+      "note": "Entities in these poster rows belong to other ontology domains — cross-reference by ID only.",
+      "fungi": "FOOD-06",
+      "herbs_spices": "FOOD-07",
+      "potato_starch_class": "FOOD-08",
+      "sweet_fruit": "FOOD-09",
+      "legumes": "FOOD-11",
+      "sauces": "FOOD-13"
+    }
+  },
+  "categories": [
+    {
+      "id": "food.vegetable",
+      "slug": "vegetable",
+      "name": "Vegetables",
+      "entity_type": "vegetable_category",
+      "domain": "culinary",
+      "scientific_name": "",
+      "external_ids": {},
+      "child_slugs": [
+        "alliums",
+        "green-vegetables",
+        "root-vegetables",
+        "nightshades"
+      ],
+      "introduction": "The Vegetable Ontology catalogs canonical vegetables organized by Canonical Culinary Groups — culinary taxonomy aligned with the Pairing Method poster, not botanical classification.",
+      "summary": "Canonical vegetable entities across four culinary groups: Alliums, Green Vegetables, Root Vegetables, and Nightshades.",
+      "seo_title": "Vegetables — Food Ontology",
+      "seo_description": "Explore canonical vegetables by culinary group — plant part, flavor, texture, and seasonality metadata for wine pairing ontology."
+    }
+  ],
+  "groups": [
+    {
+      "id": "food.vegetable.alliums",
+      "slug": "alliums",
+      "name": "Alliums",
+      "entity_type": "vegetable_group",
+      "domain": "culinary",
+      "parent_category": "vegetable",
+      "scientific_name": "",
+      "external_ids": {},
+      "child_slugs": [],
+      "introduction": "Alliums in the Vegetable Ontology — onion, garlic, shallot, and related sulfur-rich culinary vegetables.",
+      "summary": "Alliums group — canonical entities deferred to FOOD-05B.",
+      "seo_title": "Alliums — Vegetable Ontology",
+      "seo_description": "Canonical alliums — garlic, onion, shallot, and related vegetables in the PairingMethod Vegetable Ontology.",
+      "culinary_group": "alliums"
+    },
+    {
+      "id": "food.vegetable.green-vegetables",
+      "slug": "green-vegetables",
+      "name": "Green Vegetables",
+      "entity_type": "vegetable_group",
+      "domain": "culinary",
+      "parent_category": "vegetable",
+      "scientific_name": "",
+      "external_ids": {},
+      "child_slugs": [],
+      "introduction": "Green vegetables in the Vegetable Ontology — leafy greens, stems, and green pods used in savory cooking.",
+      "summary": "Green Vegetables group — canonical entities deferred to FOOD-05B.",
+      "seo_title": "Green Vegetables — Vegetable Ontology",
+      "seo_description": "Canonical green vegetables — kale, spinach, lettuce, and related entities in the PairingMethod Vegetable Ontology.",
+      "culinary_group": "green_vegetables"
+    },
+    {
+      "id": "food.vegetable.root-vegetables",
+      "slug": "root-vegetables",
+      "name": "Root Vegetables",
+      "entity_type": "vegetable_group",
+      "domain": "culinary",
+      "parent_category": "vegetable",
+      "scientific_name": "",
+      "external_ids": {},
+      "child_slugs": [],
+      "introduction": "Root vegetables and squash in the Vegetable Ontology — carrots, beets, turnips, and winter squash (excluding potato-class starches).",
+      "summary": "Root Vegetables group — canonical entities deferred to FOOD-05B.",
+      "seo_title": "Root Vegetables — Vegetable Ontology",
+      "seo_description": "Canonical root vegetables and squash — carrot, beet, butternut, and related entities in the PairingMethod Vegetable Ontology.",
+      "culinary_group": "root_vegetables"
+    },
+    {
+      "id": "food.vegetable.nightshades",
+      "slug": "nightshades",
+      "name": "Nightshades",
+      "entity_type": "vegetable_group",
+      "domain": "culinary",
+      "parent_category": "vegetable",
+      "scientific_name": "",
+      "external_ids": {},
+      "child_slugs": [],
+      "introduction": "Nightshades in the Vegetable Ontology — tomato, eggplant, and pepper-class vegetables in savory culinary context.",
+      "summary": "Nightshades group — canonical entities deferred to FOOD-05B.",
+      "seo_title": "Nightshades — Vegetable Ontology",
+      "seo_description": "Canonical nightshades — tomato, eggplant, bell pepper, and related entities in the PairingMethod Vegetable Ontology.",
+      "culinary_group": "nightshades"
+    }
+  ],
+  "vegetables": []
+}
