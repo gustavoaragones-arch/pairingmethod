@@ -1,0 +1,334 @@
+{
+  "categories": [
+    {
+      "child_slugs": [
+        "fresh-herbs",
+        "dried-herbs",
+        "whole-spices",
+        "ground-blended-spices"
+      ],
+      "domain": "culinary",
+      "entity_type": "herb_spice_category",
+      "external_ids": {},
+      "id": "food.herb",
+      "introduction": "The Herb & Spice Ontology catalogs canonical culinary herbs and spices used worldwide as ingredients. This domain models culinary ingredients, not botanical taxonomy.",
+      "name": "Herbs & Spices",
+      "scientific_name": "",
+      "seo_description": "Explore canonical culinary herbs and spices by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+      "seo_title": "Herbs & Spices — Food Ontology",
+      "slug": "herb",
+      "summary": "Canonical culinary herbs and spices across four immutable groups: Fresh Herbs, Dried Herbs, Whole Spices, and Ground & Blended Spices."
+    }
+  ],
+  "groups": [
+    {
+      "child_slugs": [],
+      "culinary_group": "fresh_herbs",
+      "domain": "culinary",
+      "entity_type": "herb_spice_group",
+      "external_ids": {},
+      "id": "food.herb.fresh-herbs",
+      "introduction": "Fresh herbs in the Herb & Spice Ontology — leafy and tender culinary herbs used fresh in cooking, including basil, cilantro, parsley, and dill.",
+      "name": "Fresh Herbs",
+      "parent_category": "herb",
+      "scientific_name": "",
+      "seo_description": "Canonical fresh culinary herbs — basil, cilantro, parsley, and related ingredients in the PairingMethod Herb & Spice Ontology.",
+      "seo_title": "Fresh Herbs — Herb & Spice Ontology",
+      "slug": "fresh-herbs",
+      "summary": "Fresh Herbs — canonical leafy culinary herbs used fresh."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "dried_herbs",
+      "domain": "culinary",
+      "entity_type": "herb_spice_group",
+      "external_ids": {},
+      "id": "food.herb.dried-herbs",
+      "introduction": "Dried herbs in the Herb & Spice Ontology — shelf-stable dried culinary herbs including oregano, thyme, rosemary, and bay leaf.",
+      "name": "Dried Herbs",
+      "parent_category": "herb",
+      "scientific_name": "",
+      "seo_description": "Canonical dried culinary herbs — oregano, thyme, rosemary, and related ingredients in the PairingMethod Herb & Spice Ontology.",
+      "seo_title": "Dried Herbs — Herb & Spice Ontology",
+      "slug": "dried-herbs",
+      "summary": "Dried Herbs — canonical shelf-stable culinary herbs."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "whole_spices",
+      "domain": "culinary",
+      "entity_type": "herb_spice_group",
+      "external_ids": {},
+      "id": "food.herb.whole-spices",
+      "introduction": "Whole spices in the Herb & Spice Ontology — intact seeds, pods, bark, and whole spice forms including black pepper, cinnamon sticks, and coriander seed.",
+      "name": "Whole Spices",
+      "parent_category": "herb",
+      "scientific_name": "",
+      "seo_description": "Canonical whole spices — black pepper, cinnamon, coriander seed, and related ingredients in the PairingMethod Herb & Spice Ontology.",
+      "seo_title": "Whole Spices — Herb & Spice Ontology",
+      "slug": "whole-spices",
+      "summary": "Whole Spices — canonical intact spice forms."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "ground_blended_spices",
+      "domain": "culinary",
+      "entity_type": "herb_spice_group",
+      "external_ids": {},
+      "id": "food.herb.ground-blended-spices",
+      "introduction": "Ground and blended spices in the Herb & Spice Ontology — ground spice powders and widely recognized spice blends including paprika, turmeric, and garam masala.",
+      "name": "Ground & Blended Spices",
+      "parent_category": "herb",
+      "scientific_name": "",
+      "seo_description": "Canonical ground and blended spices — paprika, turmeric, garam masala, and related ingredients in the PairingMethod Herb & Spice Ontology.",
+      "seo_title": "Ground & Blended Spices — Herb & Spice Ontology",
+      "slug": "ground-blended-spices",
+      "summary": "Ground & Blended Spices — canonical ground powders and spice blends."
+    }
+  ],
+  "herb_spices": [],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "category_count": 1,
+    "description": "Herb & Spice Ontology — governance shell (FOOD-07A). No leaf entities until FOOD-07B. Intrinsic metadata only; relationships deferred to FOOD-07D/E.",
+    "domain": "herb-spice",
+    "entity_count": 0,
+    "entity_type": "herb_spice",
+    "food_ontology_version": "1.4.0",
+    "freeze_label": "Herb & Spice Governance Frozen v1.0.0",
+    "freeze_phase": "FOOD-07A",
+    "governance_status": "frozen",
+    "group_count": 4,
+    "ontology_foundation_version": "1.0.0",
+    "phase": "FOOD-07A",
+    "platform_version": "1.0.0",
+    "seeded": "2026-07-19",
+    "tier": 2,
+    "wine_ontology_version": "2.0"
+  },
+  "schema": {
+    "controlled_vocabularies": {
+      "aroma_profile": {
+        "cardinality": "array",
+        "description": "Reserved aroma characteristic tags — vocabulary frozen in FOOD-07A; do not populate until post-FOOD-07B curation standards.",
+        "populate_from_phase": "FOOD-07C",
+        "values": [
+          "herbal",
+          "floral",
+          "citrus",
+          "woody",
+          "earthy",
+          "warm",
+          "pungent",
+          "smoky",
+          "sweet",
+          "peppery"
+        ]
+      },
+      "canonical_culinary_groups": {
+        "description": "Immutable group names and slugs — do not rename or add peer groups in v1.",
+        "immutable": true,
+        "values": [
+          {
+            "culinary_group": "fresh_herbs",
+            "name": "Fresh Herbs",
+            "slug": "fresh-herbs"
+          },
+          {
+            "culinary_group": "dried_herbs",
+            "name": "Dried Herbs",
+            "slug": "dried-herbs"
+          },
+          {
+            "culinary_group": "whole_spices",
+            "name": "Whole Spices",
+            "slug": "whole-spices"
+          },
+          {
+            "culinary_group": "ground_blended_spices",
+            "name": "Ground & Blended Spices",
+            "slug": "ground-blended-spices"
+          }
+        ]
+      },
+      "culinary_group": {
+        "description": "Canonical Culinary Group value on leaf entities — aligns to immutable group slugs.",
+        "immutable": true,
+        "values": [
+          "fresh_herbs",
+          "dried_herbs",
+          "whole_spices",
+          "ground_blended_spices"
+        ]
+      },
+      "flavor_profile": {
+        "cardinality": "array",
+        "description": "Reserved flavor characteristic tags — vocabulary frozen in FOOD-07A; do not populate until post-FOOD-07B curation standards.",
+        "populate_from_phase": "FOOD-07C",
+        "values": [
+          "herbal",
+          "spicy",
+          "earthy",
+          "citrus",
+          "floral",
+          "warm",
+          "pungent",
+          "sweet",
+          "bitter",
+          "smoky",
+          "nutty"
+        ]
+      },
+      "texture_profile": {
+        "cardinality": "array",
+        "description": "Reserved texture characteristic tags — vocabulary frozen in FOOD-07A; do not populate until post-FOOD-07B curation standards.",
+        "populate_from_phase": "FOOD-07C",
+        "values": [
+          "leafy",
+          "woody",
+          "fibrous",
+          "powdered",
+          "oily",
+          "crunchy",
+          "resinous"
+        ]
+      },
+      "usage_intensity": {
+        "description": "Intrinsic culinary prominence in dish composition — not Pairing Engine reasoning.",
+        "immutable": true,
+        "values": [
+          "primary",
+          "accent",
+          "luxury"
+        ]
+      }
+    },
+    "domain_contract": "Food Ontology Platform v1.0.0",
+    "domain_exclusions": {
+      "essential_oils": "Out of domain — not culinary ingredient ontology",
+      "fungi": "FOOD-06",
+      "legumes": "FOOD-11",
+      "medicinal_botanicals": "Out of domain — not culinary ingredient ontology",
+      "note": "Entities in these domains are cross-referenced by canonical ID only — never duplicated intrinsically.",
+      "nuts_seeds": "FOOD-10",
+      "potato_starch_class": "FOOD-08",
+      "protein_foods": "FOOD-01 / FOOD-14",
+      "sauces": "FOOD-13",
+      "supplements": "Out of domain — not culinary ingredient ontology",
+      "sweet_fruit": "FOOD-09",
+      "teas": "Out of domain — not culinary ingredient ontology",
+      "vegetables": "FOOD-05"
+    },
+    "entity_types": {
+      "herb_spice": {
+        "description": "Canonical culinary herb or spice entity with frozen intrinsic metadata.",
+        "id_example": "food.herb.fresh-herbs.basil",
+        "optional_fields": [
+          "aliases",
+          "common_names",
+          "beginner_notes",
+          "faq",
+          "typical_descriptors",
+          "wine_pairings",
+          "avoid_wine_pairings",
+          "related_styles",
+          "related_descriptors",
+          "related_techniques",
+          "similar_herb_spices",
+          "substitutions",
+          "commonly_served_with",
+          "common_preparations"
+        ],
+        "required_fields": [
+          "id",
+          "slug",
+          "display_name",
+          "entity_type",
+          "domain",
+          "parent_group",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "catalog_version",
+          "food_ontology_version",
+          "culinary_group",
+          "usage_intensity",
+          "flavor_profile",
+          "texture_profile",
+          "aroma_profile",
+          "aliases",
+          "common_names",
+          "origin_context",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "herb_spice_category": {
+        "description": "Top-level herb & spice domain hub (single category in v1).",
+        "id_example": "food.herb",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "herb_spice_group": {
+        "description": "Canonical Culinary Group (Fresh Herbs, Whole Spices, etc.).",
+        "id_example": "food.herb.whole-spices",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description",
+          "culinary_group"
+        ]
+      }
+    },
+    "identity_contract": {
+      "canonical_entity_rule": "CANON-001",
+      "category_id_pattern": "^food\\.herb$",
+      "display_name_mutable": true,
+      "entity_id_pattern": "^food\\.herb\\.[a-z0-9-]+\\.[a-z0-9-]+$",
+      "external_ids_required": true,
+      "group_id_pattern": "^food\\.herb\\.[a-z0-9-]+$",
+      "id_immutable": true,
+      "ids_never_recycled": true,
+      "namespace": "food.herb",
+      "per_entity_version_fields": {
+        "catalog_version": "1.0.0",
+        "food_ontology_version": "1.4.0"
+      },
+      "required_identity_fields": [
+        "id",
+        "slug",
+        "display_name",
+        "scientific_name",
+        "external_ids"
+      ],
+      "scientific_name_mutable": false,
+      "scientific_name_semantics": "primary_botanical_species_for_culinary_identity",
+      "slug_mutable": true
+    },
+    "taxonomy_note": "Groups represent culinary usage forms, not plant families. See docs/HERB_SPICE_GOVERNANCE.md.",
+    "taxonomy_principle": "canonical_culinary_groups"
+  }
+}
