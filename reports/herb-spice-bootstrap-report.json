@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-19T14:32:26.259Z",
+  "phase": "FOOD-07B",
+  "domain": "herb-spice",
+  "entity_count": 113,
+  "counts_by_group": {
+    "fresh-herbs": 25,
+    "dried-herbs": 20,
+    "whole-spices": 36,
+    "ground-blended-spices": 32
+  },
+  "catalog_path": "data/herb-spice-catalog.json",
+  "audit_script": "scripts/catalog-audit-herb-spice-07b.mjs",
+  "canonical_entity_rule": "CANON-001 — preparation and trade-name splits are aliases, not entities",
+  "global_recognition_rule": "CANON-002 — globally recognizable culinary ingredients only",
+  "botanical_ownership_rule": "Cilantro/coriander seed and dill/dill seed are separate canonical entities",
+  "profile_arrays_policy": "flavor_profile, texture_profile, aroma_profile reserved empty",
+  "relationship_policy": "all relationship arrays empty"
+}
