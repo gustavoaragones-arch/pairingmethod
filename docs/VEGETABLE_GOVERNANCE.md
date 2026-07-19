@@ -369,9 +369,9 @@ Ontology completeness precedes inference investment. ENGINE milestones consume c
 |-----------|-------|
 | **FOOD-05A** | Governance (this document) — **frozen** |
 | **FOOD-05B** | Catalog population — **complete** |
-| **FOOD-05C** | Runtime compilation & structural relationships — **current** |
-| FOOD-05D | Editorial relationships |
-| FOOD-05E | Wine pairing relationships |
+| **FOOD-05C** | Runtime compilation & structural relationships — **complete** |
+| **FOOD-05D** | Editorial relationships — **complete** |
+| FOOD-05E | Wine pairing relationships — **next** |
 | FOOD-05F | Publication through shared platform |
 
 ---
@@ -410,13 +410,56 @@ Generated from shared intrinsic metadata. No editorial judgment.
 
 ### Level 3 — Editorial (FOOD-05D+)
 
-**Not generated in FOOD-05C.** Requires human curation.
+**Not generated in FOOD-05C.** Requires human curation and documented evidence.
 
-| Relationship | Layer |
-|--------------|-------|
-| `similar_to` | Editorial |
-| `substitutes_for` | Editorial |
-| `commonly_served_with` | Editorial cross-domain |
+| Relationship | Editorial tier | Layer |
+|--------------|----------------|-------|
+| `similar_to` | **A** — high-confidence culinary equivalence | Editorial |
+| `substitutes_for` | **A** — high-confidence culinary equivalence | Editorial |
+| `commonly_served_with` (intra-domain) | **B** — common culinary association | Editorial |
+| `commonly_served_with` (cross-domain forward ref) | **C** — forward canonical ID reference | Editorial |
+
+#### Editorial edge contract (every Level 3 edge)
+
+| Field | Requirement |
+|-------|-------------|
+| `confidence` | Required — FOOD-05D commits use `high` only |
+| `derived_from` | `"editorial"` |
+| `evidence` | Required — concise culinary rationale |
+| `editorial_review` | Required — `approved` or `pending` (all FOOD-05D edges: `approved`) |
+| `editorial_tier` | Required — `A`, `B`, or `C` |
+| `stability_level` | `"editorial"` |
+
+#### Tier A — High-confidence culinary equivalence
+
+Widely accepted, rarely disputed. Requires high confidence and documented evidence.
+
+Examples: shallot ↔ onion; spinach ↔ Swiss chard; kale ↔ collard greens.
+
+#### Tier B — Common culinary association
+
+Ingredients frequently composed together within the Vegetable Ontology or general savory cookery.
+
+Examples: garlic → onion; carrot → celery (mirepoix); tomato → garlic.
+
+#### Tier C — Cross-domain forward references
+
+Canonical ID references to domains not yet published (`food.herb.*`, `food.protein.*`, `food.cheese.*`, `food.wine.*`). ID-only — no foreign intrinsic data embedded.
+
+Examples: tomato → `food.herb.basil`; garlic → `food.protein.chicken`; tomato → `food.cheese.hard.parmigiano-reggiano`.
+
+#### FOOD-05D scope exclusions
+
+The editorial layer answers **"How is this ingredient related to other ingredients?"** — not cooking instruction.
+
+| Exclude | Phase |
+|---------|-------|
+| Wine recommendations | FOOD-05E |
+| Preparation advice | PREP / later |
+| Recipes | Out of scope |
+| Nutrition / health claims | Out of scope |
+
+Target: **100–150** high-quality editorial edges (precision over density).
 
 ### Runtime rule
 
@@ -440,6 +483,8 @@ Guiding question (from PLAN-01):
 |------|-------------|
 | FOOD-05A → FOOD-05B | Governance frozen; catalog shell validated; no platform diff |
 | FOOD-05B → FOOD-05C | Catalog audit PASS |
+| FOOD-05C → FOOD-05D | Runtime validation PASS; structural relationships compiled |
+| FOOD-05D → FOOD-05E | Editorial relationship mapper PASS |
 | FOOD-05F → Suite v1.2.0 | Publication + release certification PASS for Vegetable domain |
 
 **Next step:** FOOD-05B — Vegetable catalog population (upon approval).
