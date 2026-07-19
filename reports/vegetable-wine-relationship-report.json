@@ -1,0 +1,35 @@
+{
+  "catalog_version": "1.0.0",
+  "domain": "vegetable",
+  "metrics": {
+    "Descriptor links": 15,
+    "Determinism": "PASS",
+    "Deterministic ordering": "PASS",
+    "Duplicate edges": 0,
+    "Invalid ontology references": 0,
+    "Missing vegetable entities": 0,
+    "Missing wine references": 0,
+    "Overall result": "PASS",
+    "Pairing edges": 117,
+    "Pending review edges": 0,
+    "Technique links": 5,
+    "Vegetables linked": 72,
+    "Wine styles linked": 18
+  },
+  "output": "data/runtime/vegetable-wine-relationships.json",
+  "overall_result": "PASS",
+  "pairing_tiers": {
+    "descriptor": "pairs_with_descriptor",
+    "primary": "pairs_with_style",
+    "secondary": "also_pairs_with_style",
+    "technique": "pairs_with_technique"
+  },
+  "phase": "FOOD-05E",
+  "relationship_type_counts": {
+    "also_pairs_with_style": 25,
+    "pairs_with_descriptor": 15,
+    "pairs_with_style": 72,
+    "pairs_with_technique": 5
+  },
+  "validation_errors": []
+}

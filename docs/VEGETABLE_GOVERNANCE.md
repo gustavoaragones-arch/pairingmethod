@@ -371,8 +371,8 @@ Ontology completeness precedes inference investment. ENGINE milestones consume c
 | **FOOD-05B** | Catalog population — **complete** |
 | **FOOD-05C** | Runtime compilation & structural relationships — **complete** |
 | **FOOD-05D** | Editorial relationships — **complete** |
-| FOOD-05E | Wine pairing relationships — **next** |
-| FOOD-05F | Publication through shared platform |
+| **FOOD-05E** | Wine pairing relationships — **complete** |
+| FOOD-05F | Publication through shared platform — **next** |
 
 ---
 
@@ -460,6 +460,58 @@ The editorial layer answers **"How is this ingredient related to other ingredien
 | Nutrition / health claims | Out of scope |
 
 Target: **100–150** high-quality editorial edges (precision over density).
+
+---
+
+## 11.2 Wine Pairing Layer (FOOD-05E)
+
+Wine pairing is a **distinct curated knowledge layer** — not algorithmically derived from `flavor_profile` or `culinary_role`. Those intrinsic fields are reserved for the future Pairing Engine.
+
+### Pairing philosophy
+
+| Consumes | Does not derive from |
+|----------|----------------------|
+| Canonical `food.vegetable.*` IDs | `flavor_profile` arrays |
+| Wine Ontology style, descriptor, and technique slugs | `culinary_role` similarity |
+| Human-curated evidence | Algorithmic inference |
+
+### Pairing relationship types (recommendation strength)
+
+| Type | Tier | Role |
+|------|------|------|
+| `pairs_with_style` | Primary | Preferred wine style |
+| `also_pairs_with_style` | Secondary | Strong alternative |
+| `pairs_with_descriptor` | Descriptor | Pairing driven by wine descriptor (herbaceous, earthy, bitter, etc.) |
+| `pairs_with_technique` | Technique | Preparation-sensitive cases — use sparingly; winemaking technique slugs only |
+
+### Wine pairing edge contract
+
+| Field | Requirement |
+|-------|-------------|
+| `confidence` | Required — FOOD-05E commits use `high` only |
+| `derived_from` | `"editorial"` |
+| `evidence` | Required |
+| `editorial_review` | Required — `approved` or `pending` (all FOOD-05E edges: `approved`) |
+| `stability_level` | `"wine_pairing"` |
+
+### Validation
+
+- No orphan wine ontology references
+- No duplicate pairings
+- Canonical Wine Ontology slugs only (styles, descriptors, techniques)
+- No conflicts with structural or editorial layers
+
+### FOOD-05E scope exclusions
+
+| Exclude | Owner |
+|---------|-------|
+| Recipes | Out of scope |
+| Meal composition | Pairing Engine |
+| Ingredient weighting | Pairing Engine |
+| Multi-ingredient reasoning | Pairing Engine |
+| Preparation algorithms | Pairing Engine |
+
+Target: **90–130** curated wine pairing edges (quality over completeness).
 
 ### Runtime rule
 
