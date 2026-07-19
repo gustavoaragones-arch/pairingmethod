@@ -1,0 +1,37 @@
+{
+  "botanical_consistency_rule": "BOTAN-001: cilantro/coriander-seed and dill/dill-seed retain distinct pairing profiles despite shared species origin.",
+  "catalog_version": "1.0.0",
+  "domain": "herb-spice",
+  "dominant_flavor_rule": "Evaluate the ingredient's dominant culinary contribution rather than botanical classification when assigning wine pairings.",
+  "metrics": {
+    "Descriptor links": 35,
+    "Determinism": "PASS",
+    "Deterministic ordering": "PASS",
+    "Duplicate edges": 0,
+    "Herb & spice entities linked": 113,
+    "Invalid ontology references": 0,
+    "Missing herb or spice entities": 0,
+    "Missing wine references": 0,
+    "Overall result": "PASS",
+    "Pairing edges": 224,
+    "Pending review edges": 0,
+    "Technique links": 22,
+    "Wine styles linked": 21
+  },
+  "output": "data/runtime/herb-spice-wine-relationships.json",
+  "overall_result": "PASS",
+  "pairing_tiers": {
+    "descriptor": "pairs_with_descriptor",
+    "primary": "pairs_with_style",
+    "secondary": "also_pairs_with_style",
+    "technique": "pairs_with_technique"
+  },
+  "phase": "FOOD-07E",
+  "relationship_type_counts": {
+    "also_pairs_with_style": 54,
+    "pairs_with_descriptor": 35,
+    "pairs_with_style": 113,
+    "pairs_with_technique": 22
+  },
+  "validation_errors": []
+}

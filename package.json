@@ -94,6 +94,8 @@
     "compile:herb-spice-runtime": "npm run ontology:catalog-audit-herb-spice && npm run ontology:bootstrap-herb-spice-runtime && npm run ontology:validate-herb-spice-runtime && npm run ontology:map-herb-spice-relationships",
     "ontology:map-herb-spice-editorial-relationships": "node scripts/map-herb-spice-editorial-relationships-07d.mjs",
     "compile:herb-spice-editorial": "npm run compile:herb-spice-runtime && npm run ontology:map-herb-spice-editorial-relationships",
+    "ontology:map-herb-spice-wine-relationships": "node scripts/map-herb-spice-wine-relationships-07e.mjs",
+    "compile:herb-spice-pairing": "npm run compile:herb-spice-editorial && npm run ontology:map-herb-spice-wine-relationships",
     "generate:vegetable-projections": "node scripts/generate-vegetable-projections-05f.mjs",
     "generate:vegetable-pages": "node scripts/generate-vegetable-pages-05f.mjs",
     "generate:vegetable-schema": "node scripts/generate-vegetable-schema-05f.mjs",
