@@ -1,0 +1,30 @@
+{
+  "artifacts": [
+    "data/runtime/fruit-bootstrap.json",
+    "data/runtime/fruit-categories.json",
+    "data/runtime/fruit-groups.json",
+    "data/runtime/fruit-indexes.json"
+  ],
+  "catalog_version": "1.0.0",
+  "domain": "fruit",
+  "errors": [],
+  "metrics": {
+    "By group checks": 2,
+    "Cross-index checks": 4,
+    "Determinism checks": 4,
+    "Errors": 0,
+    "FRUIT-001 ownership checks": 1,
+    "Hierarchy checks": 4,
+    "Identity checks": 6,
+    "Namespace checks": 3,
+    "Overall result": "PASS",
+    "Runtime artifacts checked": 4,
+    "Scientific name checks": 2,
+    "Usage intensity checks": 2,
+    "Vocabulary checks": 2,
+    "Warnings": 0
+  },
+  "overall_result": "PASS",
+  "phase": "FOOD-09C.2",
+  "warnings": []
+}

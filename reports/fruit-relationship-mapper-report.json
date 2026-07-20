@@ -1,0 +1,45 @@
+{
+  "catalog_version": "1.0.0",
+  "domain": "fruit",
+  "errors": [],
+  "metrics": {
+    "Determinism": "PASS",
+    "Duplicate edges": 0,
+    "FRUIT-001 violations": 0,
+    "Level 1 structural edges": 371,
+    "Level 2 intrinsic similarity edges": 3656,
+    "Level 3 editorial edges": 0,
+    "Missing entities": 0,
+    "Overall result": "PASS",
+    "Relationship types": 6,
+    "Total edges": 4027
+  },
+  "output": "data/runtime/fruit-relationships.json",
+  "overall_result": "PASS",
+  "phase": "FOOD-09C.3",
+  "relationship_type_counts": {
+    "belongs_to_category": 126,
+    "belongs_to_group": 119,
+    "category_contains": 7,
+    "group_contains": 119,
+    "shares_scientific_name": 51,
+    "shares_usage_intensity": 3605
+  },
+  "runtime_stability_levels": {
+    "level_1_structural": [
+      "belongs_to_group",
+      "belongs_to_category",
+      "group_contains",
+      "category_contains"
+    ],
+    "level_2_intrinsic_similarity": [
+      "shares_usage_intensity",
+      "shares_scientific_name"
+    ],
+    "level_3_editorial": [
+      "similar_to",
+      "substitutes_for",
+      "commonly_served_with"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    "data/runtime/fruit-bootstrap.json",
+    "data/runtime/fruit-categories.json",
+    "data/runtime/fruit-groups.json",
+    "data/runtime/fruit-indexes.json"
+  ],
+  "bootstrap_errors": [],
+  "catalog_version": "1.0.0",
+  "domain": "fruit",
+  "metrics": {
+    "Bootstrap errors": 0,
+    "Categories indexed": 1,
+    "Fruit entities indexed": 119,
+    "Groups indexed": 7,
+    "Runtime artifacts": 4,
+    "Usage intensities indexed": 3
+  },
+  "overall_result": "PASS",
+  "phase": "FOOD-09C.1"
+}
