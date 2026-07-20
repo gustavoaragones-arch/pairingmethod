@@ -1,0 +1,33 @@
+{
+  "deployment_gate": true,
+  "domain": "herb-spice",
+  "metrics": {
+    "Broken navigation links": 0,
+    "HTML pages": 118,
+    "Overall result": "PASS",
+    "Publication entities": 118,
+    "Search suggestions": 118,
+    "Sitemap URLs": 118,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "dist/release-manifest.json",
+    "reports/herb-spice-release-certification-report.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-07FI",
+  "platform_audit": {
+    "overall": "PASS",
+    "platform_modifications_required": 0,
+    "shared_publication_pipeline_reused_percent": 100
+  },
+  "release_summary": {
+    "canonicalHerbSpices": 113,
+    "editorialRelationships": 280,
+    "publicationPages": 118,
+    "runtimeRelationships": 6384,
+    "wineRelationships": 224
+  },
+  "validation_errors": [],
+  "warnings": []
+}

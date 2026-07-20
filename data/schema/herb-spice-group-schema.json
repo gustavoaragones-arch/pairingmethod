@@ -1,0 +1,1115 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "herb-spice",
+    "food_ontology_version": "1.4.0",
+    "phase": "FOOD-07FC",
+    "schema_count": 4,
+    "schema_type": "herb_spice_group"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/herb-spice-groups/dried-herbs/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/herb-spice-groups/dried-herbs/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/herbs-spices/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.herb",
+            "name": "Herbs & Spices"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/herb-spice-groups/dried-herbs/#breadcrumb"
+          },
+          "description": "Dried Herbs — 20 herbs and spices in the Herb & Spice Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Dried Herbs — Herb & Spice Group",
+          "url": "https://pairingmethod.com/herb-spice-groups/dried-herbs/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/herb-spice-groups/dried-herbs/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/herbs-spices/",
+              "name": "Herbs & Spices",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/herb-spice-categories/herb/",
+              "name": "Herbs & Spices",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/herb-spice-groups/dried-herbs/",
+              "name": "Dried Herbs",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/herb-spice-groups/dried-herbs/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "dried-herbs",
+          "description": "Dried Herbs — 20 herbs and spices in the Herb & Spice Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/bay-leaf/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.bay-leaf",
+              "name": "Bay Leaf",
+              "url": "https://pairingmethod.com/herbs-spices/bay-leaf/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/boldo/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.boldo",
+              "name": "Boldo",
+              "url": "https://pairingmethod.com/herbs-spices/boldo/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/celery-leaf/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.celery-leaf",
+              "name": "Celery Leaf",
+              "url": "https://pairingmethod.com/herbs-spices/celery-leaf/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/fenugreek-leaves/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.fenugreek-leaves",
+              "name": "Fenugreek Leaves",
+              "url": "https://pairingmethod.com/herbs-spices/fenugreek-leaves/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/hoja-santa/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.hoja-santa",
+              "name": "Hoja Santa",
+              "url": "https://pairingmethod.com/herbs-spices/hoja-santa/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/hyssop/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.hyssop",
+              "name": "Hyssop",
+              "url": "https://pairingmethod.com/herbs-spices/hyssop/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/indian-bay-leaf/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.indian-bay-leaf",
+              "name": "Indian Bay Leaf",
+              "url": "https://pairingmethod.com/herbs-spices/indian-bay-leaf/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/kaffir-lime-leaves/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.kaffir-lime-leaves",
+              "name": "Kaffir Lime Leaves",
+              "url": "https://pairingmethod.com/herbs-spices/kaffir-lime-leaves/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/lavender/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.lavender",
+              "name": "Lavender",
+              "url": "https://pairingmethod.com/herbs-spices/lavender/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/lemon-myrtle/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.lemon-myrtle",
+              "name": "Lemon Myrtle",
+              "url": "https://pairingmethod.com/herbs-spices/lemon-myrtle/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/marjoram/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.marjoram",
+              "name": "Marjoram",
+              "url": "https://pairingmethod.com/herbs-spices/marjoram/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/mexican-oregano/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.mexican-oregano",
+              "name": "Mexican Oregano",
+              "url": "https://pairingmethod.com/herbs-spices/mexican-oregano/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/oregano/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.oregano",
+              "name": "Oregano",
+              "url": "https://pairingmethod.com/herbs-spices/oregano/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/rosemary/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.rosemary",
+              "name": "Rosemary",
+              "url": "https://pairingmethod.com/herbs-spices/rosemary/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/rue/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.rue",
+              "name": "Rue",
+              "url": "https://pairingmethod.com/herbs-spices/rue/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/sage/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.sage",
+              "name": "Sage",
+              "url": "https://pairingmethod.com/herbs-spices/sage/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/savory/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.savory",
+              "name": "Savory",
+              "url": "https://pairingmethod.com/herbs-spices/savory/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/summer-savory/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.summer-savory",
+              "name": "Summer Savory",
+              "url": "https://pairingmethod.com/herbs-spices/summer-savory/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/thyme/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.thyme",
+              "name": "Thyme",
+              "url": "https://pairingmethod.com/herbs-spices/thyme/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/winter-savory/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.dried-herbs.winter-savory",
+              "name": "Winter Savory",
+              "url": "https://pairingmethod.com/herbs-spices/winter-savory/"
+            }
+          ],
+          "identifier": "food.herb.dried-herbs",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Herb & Spice Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Dried Herbs",
+          "numberOfTerms": 20,
+          "url": "https://pairingmethod.com/herb-spice-groups/dried-herbs/"
+        }
+      ],
+      "projection_id": "food.herb.dried-herbs",
+      "slug": "dried-herbs"
+    },
+    {
+      "canonical_path": "/herb-spice-groups/fresh-herbs/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/herb-spice-groups/fresh-herbs/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/herbs-spices/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.herb",
+            "name": "Herbs & Spices"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/herb-spice-groups/fresh-herbs/#breadcrumb"
+          },
+          "description": "Fresh Herbs — 25 herbs and spices in the Herb & Spice Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Fresh Herbs — Herb & Spice Group",
+          "url": "https://pairingmethod.com/herb-spice-groups/fresh-herbs/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/herb-spice-groups/fresh-herbs/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/herbs-spices/",
+              "name": "Herbs & Spices",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/herb-spice-categories/herb/",
+              "name": "Herbs & Spices",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/herb-spice-groups/fresh-herbs/",
+              "name": "Fresh Herbs",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/herb-spice-groups/fresh-herbs/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "fresh-herbs",
+          "description": "Fresh Herbs — 25 herbs and spices in the Herb & Spice Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/anise-hyssop/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.anise-hyssop",
+              "name": "Anise Hyssop",
+              "url": "https://pairingmethod.com/herbs-spices/anise-hyssop/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/basil/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.basil",
+              "name": "Basil",
+              "url": "https://pairingmethod.com/herbs-spices/basil/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/borage/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.borage",
+              "name": "Borage",
+              "url": "https://pairingmethod.com/herbs-spices/borage/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/chervil/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.chervil",
+              "name": "Chervil",
+              "url": "https://pairingmethod.com/herbs-spices/chervil/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/chives/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.chives",
+              "name": "Chives",
+              "url": "https://pairingmethod.com/herbs-spices/chives/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/cilantro/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.cilantro",
+              "name": "Cilantro",
+              "url": "https://pairingmethod.com/herbs-spices/cilantro/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/culantro/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.culantro",
+              "name": "Culantro",
+              "url": "https://pairingmethod.com/herbs-spices/culantro/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/curry-leaves/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.curry-leaves",
+              "name": "Curry Leaves",
+              "url": "https://pairingmethod.com/herbs-spices/curry-leaves/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/dill/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.dill",
+              "name": "Dill",
+              "url": "https://pairingmethod.com/herbs-spices/dill/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/epazote/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.epazote",
+              "name": "Epazote",
+              "url": "https://pairingmethod.com/herbs-spices/epazote/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/fennel-frond/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.fennel-frond",
+              "name": "Fennel Frond",
+              "url": "https://pairingmethod.com/herbs-spices/fennel-frond/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/garlic-chives/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.garlic-chives",
+              "name": "Garlic Chives",
+              "url": "https://pairingmethod.com/herbs-spices/garlic-chives/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/lemon-balm/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.lemon-balm",
+              "name": "Lemon Balm",
+              "url": "https://pairingmethod.com/herbs-spices/lemon-balm/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/lemongrass/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.lemongrass",
+              "name": "Lemongrass",
+              "url": "https://pairingmethod.com/herbs-spices/lemongrass/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/lovage/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.lovage",
+              "name": "Lovage",
+              "url": "https://pairingmethod.com/herbs-spices/lovage/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/mint/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.mint",
+              "name": "Mint",
+              "url": "https://pairingmethod.com/herbs-spices/mint/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/mitsuba/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.mitsuba",
+              "name": "Mitsuba",
+              "url": "https://pairingmethod.com/herbs-spices/mitsuba/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/pandan-leaf/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.pandan-leaf",
+              "name": "Pandan Leaf",
+              "url": "https://pairingmethod.com/herbs-spices/pandan-leaf/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/papalo/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.papalo",
+              "name": "Papalo",
+              "url": "https://pairingmethod.com/herbs-spices/papalo/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/parsley/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.parsley",
+              "name": "Parsley",
+              "url": "https://pairingmethod.com/herbs-spices/parsley/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/salad-burnet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.salad-burnet",
+              "name": "Salad Burnet",
+              "url": "https://pairingmethod.com/herbs-spices/salad-burnet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/shiso/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.shiso",
+              "name": "Shiso",
+              "url": "https://pairingmethod.com/herbs-spices/shiso/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/sorrel/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.sorrel",
+              "name": "Sorrel",
+              "url": "https://pairingmethod.com/herbs-spices/sorrel/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/tarragon/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.tarragon",
+              "name": "Tarragon",
+              "url": "https://pairingmethod.com/herbs-spices/tarragon/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/vietnamese-coriander/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.fresh-herbs.vietnamese-coriander",
+              "name": "Vietnamese Coriander",
+              "url": "https://pairingmethod.com/herbs-spices/vietnamese-coriander/"
+            }
+          ],
+          "identifier": "food.herb.fresh-herbs",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Herb & Spice Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Fresh Herbs",
+          "numberOfTerms": 25,
+          "url": "https://pairingmethod.com/herb-spice-groups/fresh-herbs/"
+        }
+      ],
+      "projection_id": "food.herb.fresh-herbs",
+      "slug": "fresh-herbs"
+    },
+    {
+      "canonical_path": "/herb-spice-groups/ground-blended-spices/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/herb-spice-groups/ground-blended-spices/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/herbs-spices/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.herb",
+            "name": "Herbs & Spices"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/herb-spice-groups/ground-blended-spices/#breadcrumb"
+          },
+          "description": "Ground & Blended Spices — 32 herbs and spices in the Herb & Spice Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Ground & Blended Spices — Herb & Spice Group",
+          "url": "https://pairingmethod.com/herb-spice-groups/ground-blended-spices/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/herb-spice-groups/ground-blended-spices/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/herbs-spices/",
+              "name": "Herbs & Spices",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/herb-spice-categories/herb/",
+              "name": "Herbs & Spices",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/herb-spice-groups/ground-blended-spices/",
+              "name": "Ground & Blended Spices",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/herb-spice-groups/ground-blended-spices/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "ground-blended-spices",
+          "description": "Ground & Blended Spices — 32 herbs and spices in the Herb & Spice Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/aleppo-pepper/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.aleppo-pepper",
+              "name": "Aleppo Pepper",
+              "url": "https://pairingmethod.com/herbs-spices/aleppo-pepper/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/ancho-chile-powder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.ancho-chile-powder",
+              "name": "Ancho Chile Powder",
+              "url": "https://pairingmethod.com/herbs-spices/ancho-chile-powder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/baharat/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.baharat",
+              "name": "Baharat",
+              "url": "https://pairingmethod.com/herbs-spices/baharat/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/berbere/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.berbere",
+              "name": "Berbere",
+              "url": "https://pairingmethod.com/herbs-spices/berbere/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/cajun-seasoning/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.cajun-seasoning",
+              "name": "Cajun Seasoning",
+              "url": "https://pairingmethod.com/herbs-spices/cajun-seasoning/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/cayenne-pepper/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.cayenne-pepper",
+              "name": "Cayenne Pepper",
+              "url": "https://pairingmethod.com/herbs-spices/cayenne-pepper/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/chaat-masala/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.chaat-masala",
+              "name": "Chaat Masala",
+              "url": "https://pairingmethod.com/herbs-spices/chaat-masala/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/chili-powder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.chili-powder",
+              "name": "Chili Powder",
+              "url": "https://pairingmethod.com/herbs-spices/chili-powder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/chinese-five-spice/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.chinese-five-spice",
+              "name": "Chinese Five-Spice",
+              "url": "https://pairingmethod.com/herbs-spices/chinese-five-spice/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/chipotle-powder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.chipotle-powder",
+              "name": "Chipotle Powder",
+              "url": "https://pairingmethod.com/herbs-spices/chipotle-powder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/curry-powder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.curry-powder",
+              "name": "Curry Powder",
+              "url": "https://pairingmethod.com/herbs-spices/curry-powder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/dukkah/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.dukkah",
+              "name": "Dukkah",
+              "url": "https://pairingmethod.com/herbs-spices/dukkah/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/garam-masala/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.garam-masala",
+              "name": "Garam Masala",
+              "url": "https://pairingmethod.com/herbs-spices/garam-masala/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/harissa-spice/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.harissa-spice",
+              "name": "Harissa Spice",
+              "url": "https://pairingmethod.com/herbs-spices/harissa-spice/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/herbes-de-provence/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.herbes-de-provence",
+              "name": "Herbes de Provence",
+              "url": "https://pairingmethod.com/herbs-spices/herbes-de-provence/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/jerk-seasoning/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.jerk-seasoning",
+              "name": "Jerk Seasoning",
+              "url": "https://pairingmethod.com/herbs-spices/jerk-seasoning/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/kashmiri-chili/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.kashmiri-chili",
+              "name": "Kashmiri Chili",
+              "url": "https://pairingmethod.com/herbs-spices/kashmiri-chili/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/lemon-pepper/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.lemon-pepper",
+              "name": "Lemon Pepper",
+              "url": "https://pairingmethod.com/herbs-spices/lemon-pepper/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/old-bay-seasoning/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.old-bay-seasoning",
+              "name": "Old Bay Seasoning",
+              "url": "https://pairingmethod.com/herbs-spices/old-bay-seasoning/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/panch-phoron/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.panch-phoron",
+              "name": "Panch Phoron",
+              "url": "https://pairingmethod.com/herbs-spices/panch-phoron/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/paprika/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.paprika",
+              "name": "Paprika",
+              "url": "https://pairingmethod.com/herbs-spices/paprika/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/poultry-seasoning/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.poultry-seasoning",
+              "name": "Poultry Seasoning",
+              "url": "https://pairingmethod.com/herbs-spices/poultry-seasoning/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/quatre-epices/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.quatre-epices",
+              "name": "Quatre Épices",
+              "url": "https://pairingmethod.com/herbs-spices/quatre-epices/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/ras-el-hanout/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.ras-el-hanout",
+              "name": "Ras el Hanout",
+              "url": "https://pairingmethod.com/herbs-spices/ras-el-hanout/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/red-pepper-flakes/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.red-pepper-flakes",
+              "name": "Red Pepper Flakes",
+              "url": "https://pairingmethod.com/herbs-spices/red-pepper-flakes/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/shichimi-togarashi/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.shichimi-togarashi",
+              "name": "Shichimi Togarashi",
+              "url": "https://pairingmethod.com/herbs-spices/shichimi-togarashi/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/sumac/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.sumac",
+              "name": "Sumac",
+              "url": "https://pairingmethod.com/herbs-spices/sumac/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/tandoori-masala/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.tandoori-masala",
+              "name": "Tandoori Masala",
+              "url": "https://pairingmethod.com/herbs-spices/tandoori-masala/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/turmeric/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.turmeric",
+              "name": "Turmeric",
+              "url": "https://pairingmethod.com/herbs-spices/turmeric/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/urfa-biber/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.urfa-biber",
+              "name": "Urfa Biber",
+              "url": "https://pairingmethod.com/herbs-spices/urfa-biber/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/vadouvan/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.vadouvan",
+              "name": "Vadouvan",
+              "url": "https://pairingmethod.com/herbs-spices/vadouvan/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/zaatar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.ground-blended-spices.zaatar",
+              "name": "Za'atar",
+              "url": "https://pairingmethod.com/herbs-spices/zaatar/"
+            }
+          ],
+          "identifier": "food.herb.ground-blended-spices",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Herb & Spice Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Ground & Blended Spices",
+          "numberOfTerms": 32,
+          "url": "https://pairingmethod.com/herb-spice-groups/ground-blended-spices/"
+        }
+      ],
+      "projection_id": "food.herb.ground-blended-spices",
+      "slug": "ground-blended-spices"
+    },
+    {
+      "canonical_path": "/herb-spice-groups/whole-spices/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/herb-spice-groups/whole-spices/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/herbs-spices/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.herb",
+            "name": "Herbs & Spices"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/herb-spice-groups/whole-spices/#breadcrumb"
+          },
+          "description": "Whole Spices — 36 herbs and spices in the Herb & Spice Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Whole Spices — Herb & Spice Group",
+          "url": "https://pairingmethod.com/herb-spice-groups/whole-spices/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/herb-spice-groups/whole-spices/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/herbs-spices/",
+              "name": "Herbs & Spices",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/herb-spice-categories/herb/",
+              "name": "Herbs & Spices",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/herb-spice-groups/whole-spices/",
+              "name": "Whole Spices",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/herb-spice-groups/whole-spices/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "whole-spices",
+          "description": "Whole Spices — 36 herbs and spices in the Herb & Spice Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/ajwain/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.ajwain",
+              "name": "Ajwain",
+              "url": "https://pairingmethod.com/herbs-spices/ajwain/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/allspice/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.allspice",
+              "name": "Allspice",
+              "url": "https://pairingmethod.com/herbs-spices/allspice/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/annatto-seed/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.annatto-seed",
+              "name": "Annatto Seed",
+              "url": "https://pairingmethod.com/herbs-spices/annatto-seed/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/asafoetida/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.asafoetida",
+              "name": "Asafoetida",
+              "url": "https://pairingmethod.com/herbs-spices/asafoetida/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/black-cardamom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.black-cardamom",
+              "name": "Black Cardamom",
+              "url": "https://pairingmethod.com/herbs-spices/black-cardamom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/black-pepper/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.black-pepper",
+              "name": "Black Pepper",
+              "url": "https://pairingmethod.com/herbs-spices/black-pepper/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/caraway-seed/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.caraway-seed",
+              "name": "Caraway Seed",
+              "url": "https://pairingmethod.com/herbs-spices/caraway-seed/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/celery-seed/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.celery-seed",
+              "name": "Celery Seed",
+              "url": "https://pairingmethod.com/herbs-spices/celery-seed/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/cinnamon/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.cinnamon",
+              "name": "Cinnamon",
+              "url": "https://pairingmethod.com/herbs-spices/cinnamon/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/clove/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.clove",
+              "name": "Clove",
+              "url": "https://pairingmethod.com/herbs-spices/clove/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/coriander-seed/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.coriander-seed",
+              "name": "Coriander Seed",
+              "url": "https://pairingmethod.com/herbs-spices/coriander-seed/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/cubeb-pepper/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.cubeb-pepper",
+              "name": "Cubeb Pepper",
+              "url": "https://pairingmethod.com/herbs-spices/cubeb-pepper/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/cumin-seed/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.cumin-seed",
+              "name": "Cumin Seed",
+              "url": "https://pairingmethod.com/herbs-spices/cumin-seed/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/dill-seed/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.dill-seed",
+              "name": "Dill Seed",
+              "url": "https://pairingmethod.com/herbs-spices/dill-seed/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/fennel-seed/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.fennel-seed",
+              "name": "Fennel Seed",
+              "url": "https://pairingmethod.com/herbs-spices/fennel-seed/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/fenugreek-seed/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.fenugreek-seed",
+              "name": "Fenugreek Seed",
+              "url": "https://pairingmethod.com/herbs-spices/fenugreek-seed/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/galangal/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.galangal",
+              "name": "Galangal",
+              "url": "https://pairingmethod.com/herbs-spices/galangal/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/ginger/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.ginger",
+              "name": "Ginger",
+              "url": "https://pairingmethod.com/herbs-spices/ginger/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/grains-of-paradise/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.grains-of-paradise",
+              "name": "Grains of Paradise",
+              "url": "https://pairingmethod.com/herbs-spices/grains-of-paradise/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/green-cardamom/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.green-cardamom",
+              "name": "Green Cardamom",
+              "url": "https://pairingmethod.com/herbs-spices/green-cardamom/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/green-peppercorn/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.green-peppercorn",
+              "name": "Green Peppercorn",
+              "url": "https://pairingmethod.com/herbs-spices/green-peppercorn/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/horseradish/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.horseradish",
+              "name": "Horseradish",
+              "url": "https://pairingmethod.com/herbs-spices/horseradish/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/juniper-berry/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.juniper-berry",
+              "name": "Juniper Berry",
+              "url": "https://pairingmethod.com/herbs-spices/juniper-berry/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/long-pepper/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.long-pepper",
+              "name": "Long Pepper",
+              "url": "https://pairingmethod.com/herbs-spices/long-pepper/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/mace/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.mace",
+              "name": "Mace",
+              "url": "https://pairingmethod.com/herbs-spices/mace/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/mahleb/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.mahleb",
+              "name": "Mahleb",
+              "url": "https://pairingmethod.com/herbs-spices/mahleb/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/mustard-seed/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.mustard-seed",
+              "name": "Mustard Seed",
+              "url": "https://pairingmethod.com/herbs-spices/mustard-seed/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/nigella-seed/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.nigella-seed",
+              "name": "Nigella Seed",
+              "url": "https://pairingmethod.com/herbs-spices/nigella-seed/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/nutmeg/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.nutmeg",
+              "name": "Nutmeg",
+              "url": "https://pairingmethod.com/herbs-spices/nutmeg/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/pink-peppercorn/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.pink-peppercorn",
+              "name": "Pink Peppercorn",
+              "url": "https://pairingmethod.com/herbs-spices/pink-peppercorn/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/saffron/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.saffron",
+              "name": "Saffron",
+              "url": "https://pairingmethod.com/herbs-spices/saffron/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/star-anise/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.star-anise",
+              "name": "Star Anise",
+              "url": "https://pairingmethod.com/herbs-spices/star-anise/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/tamarind/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.tamarind",
+              "name": "Tamarind",
+              "url": "https://pairingmethod.com/herbs-spices/tamarind/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/vanilla-bean/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.vanilla-bean",
+              "name": "Vanilla Bean",
+              "url": "https://pairingmethod.com/herbs-spices/vanilla-bean/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/wasabi/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.wasabi",
+              "name": "Wasabi",
+              "url": "https://pairingmethod.com/herbs-spices/wasabi/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herbs-spices/white-pepper/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.herb.whole-spices.white-pepper",
+              "name": "White Pepper",
+              "url": "https://pairingmethod.com/herbs-spices/white-pepper/"
+            }
+          ],
+          "identifier": "food.herb.whole-spices",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Herb & Spice Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Whole Spices",
+          "numberOfTerms": 36,
+          "url": "https://pairingmethod.com/herb-spice-groups/whole-spices/"
+        }
+      ],
+      "projection_id": "food.herb.whole-spices",
+      "slug": "whole-spices"
+    }
+  ]
+}

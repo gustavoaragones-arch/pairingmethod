@@ -1,0 +1,65 @@
+{
+  "documents": [
+    {
+      "canonical_path": "/herb-spice-categories/herb/",
+      "canonical_url": "https://pairingmethod.com/herb-spice-categories/herb/",
+      "display_name": "Herbs & Spices",
+      "document_type": "herb_spice_category",
+      "food_count": 113,
+      "group_count": 4,
+      "group_ids": [
+        "food.herb.dried-herbs",
+        "food.herb.fresh-herbs",
+        "food.herb.ground-blended-spices",
+        "food.herb.whole-spices"
+      ],
+      "groups": [
+        {
+          "food_count": 20,
+          "id": "food.herb.dried-herbs",
+          "name": "Dried Herbs",
+          "slug": "dried-herbs"
+        },
+        {
+          "food_count": 25,
+          "id": "food.herb.fresh-herbs",
+          "name": "Fresh Herbs",
+          "slug": "fresh-herbs"
+        },
+        {
+          "food_count": 32,
+          "id": "food.herb.ground-blended-spices",
+          "name": "Ground & Blended Spices",
+          "slug": "ground-blended-spices"
+        },
+        {
+          "food_count": 36,
+          "id": "food.herb.whole-spices",
+          "name": "Whole Spices",
+          "slug": "whole-spices"
+        }
+      ],
+      "id": "food.herb",
+      "projection_id": "food.herb",
+      "slug": "herb",
+      "tokens": [
+        "113",
+        "4",
+        "dried herbs",
+        "fresh herbs",
+        "ground & blended spices",
+        "herb",
+        "herbs & spices",
+        "whole spices"
+      ]
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "document_count": 1,
+    "document_type": "herb_spice_category",
+    "domain": "herb-spice",
+    "food_ontology_version": "1.4.0",
+    "phase": "FOOD-07FE"
+  }
+}

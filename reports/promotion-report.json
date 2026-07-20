@@ -1,35 +1,35 @@
 {
   "domains": [
-    "fungi"
+    "herb-spice"
   ],
   "metrics": {
     "Overall result": "PASS",
     "Promotion targets": 6,
     "Validation errors": 0,
-    "fungi categories pages promoted": 1,
-    "fungi groups pages promoted": 4,
-    "fungi leaf pages promoted": 43
+    "herb-spice categories pages promoted": 1,
+    "herb-spice groups pages promoted": 4,
+    "herb-spice leaf pages promoted": 113
   },
   "overall_result": "PASS",
   "phase": "DEPLOY-01",
   "promoted": [
     {
-      "domain": "fungi",
-      "html_files": 43,
-      "source": "dist/fungi",
-      "target": "fungi"
+      "domain": "herb-spice",
+      "html_files": 113,
+      "source": "dist/herbs-spices",
+      "target": "herbs-spices"
     },
     {
-      "domain": "fungi",
+      "domain": "herb-spice",
       "html_files": 4,
-      "source": "dist/fungi-groups",
-      "target": "fungi-groups"
+      "source": "dist/herb-spice-groups",
+      "target": "herb-spice-groups"
     },
     {
-      "domain": "fungi",
+      "domain": "herb-spice",
       "html_files": 1,
-      "source": "dist/fungi-categories",
-      "target": "fungi-categories"
+      "source": "dist/herb-spice-categories",
+      "target": "herb-spice-categories"
     },
     {
       "html_files": 0,

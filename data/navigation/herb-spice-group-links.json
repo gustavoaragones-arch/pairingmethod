@@ -1,0 +1,959 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/herb-spice-groups/dried-herbs/",
+      "projection_id": "food.herb.dried-herbs",
+      "sections": {
+        "member_herb_spices": [
+          {
+            "href": "/herbs-spices/bay-leaf/",
+            "id": "food.herb.dried-herbs.bay-leaf",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Bay Leaf"
+          },
+          {
+            "href": "/herbs-spices/boldo/",
+            "id": "food.herb.dried-herbs.boldo",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Boldo"
+          },
+          {
+            "href": "/herbs-spices/celery-leaf/",
+            "id": "food.herb.dried-herbs.celery-leaf",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Celery Leaf"
+          },
+          {
+            "href": "/herbs-spices/fenugreek-leaves/",
+            "id": "food.herb.dried-herbs.fenugreek-leaves",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Fenugreek Leaves"
+          },
+          {
+            "href": "/herbs-spices/hoja-santa/",
+            "id": "food.herb.dried-herbs.hoja-santa",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Hoja Santa"
+          },
+          {
+            "href": "/herbs-spices/hyssop/",
+            "id": "food.herb.dried-herbs.hyssop",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Hyssop"
+          },
+          {
+            "href": "/herbs-spices/indian-bay-leaf/",
+            "id": "food.herb.dried-herbs.indian-bay-leaf",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Indian Bay Leaf"
+          },
+          {
+            "href": "/herbs-spices/kaffir-lime-leaves/",
+            "id": "food.herb.dried-herbs.kaffir-lime-leaves",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Kaffir Lime Leaves"
+          },
+          {
+            "href": "/herbs-spices/lavender/",
+            "id": "food.herb.dried-herbs.lavender",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Lavender"
+          },
+          {
+            "href": "/herbs-spices/lemon-myrtle/",
+            "id": "food.herb.dried-herbs.lemon-myrtle",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Lemon Myrtle"
+          },
+          {
+            "href": "/herbs-spices/marjoram/",
+            "id": "food.herb.dried-herbs.marjoram",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Marjoram"
+          },
+          {
+            "href": "/herbs-spices/mexican-oregano/",
+            "id": "food.herb.dried-herbs.mexican-oregano",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Mexican Oregano"
+          },
+          {
+            "href": "/herbs-spices/oregano/",
+            "id": "food.herb.dried-herbs.oregano",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Oregano"
+          },
+          {
+            "href": "/herbs-spices/rosemary/",
+            "id": "food.herb.dried-herbs.rosemary",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Rosemary"
+          },
+          {
+            "href": "/herbs-spices/rue/",
+            "id": "food.herb.dried-herbs.rue",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Rue"
+          },
+          {
+            "href": "/herbs-spices/sage/",
+            "id": "food.herb.dried-herbs.sage",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sage"
+          },
+          {
+            "href": "/herbs-spices/savory/",
+            "id": "food.herb.dried-herbs.savory",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Savory"
+          },
+          {
+            "href": "/herbs-spices/summer-savory/",
+            "id": "food.herb.dried-herbs.summer-savory",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Summer Savory"
+          },
+          {
+            "href": "/herbs-spices/thyme/",
+            "id": "food.herb.dried-herbs.thyme",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Thyme"
+          },
+          {
+            "href": "/herbs-spices/winter-savory/",
+            "id": "food.herb.dried-herbs.winter-savory",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Winter Savory"
+          }
+        ],
+        "parent_category": {
+          "href": "/herb-spice-categories/herb/",
+          "id": "food.herb",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Herbs & Spices"
+        },
+        "related_groups": [
+          {
+            "href": "/herb-spice-groups/fresh-herbs/",
+            "id": "food.herb.fresh-herbs",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Fresh Herbs"
+          },
+          {
+            "href": "/herb-spice-groups/ground-blended-spices/",
+            "id": "food.herb.ground-blended-spices",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Ground & Blended Spices"
+          },
+          {
+            "href": "/herb-spice-groups/whole-spices/",
+            "id": "food.herb.whole-spices",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Whole Spices"
+          }
+        ]
+      },
+      "slug": "dried-herbs"
+    },
+    {
+      "canonical_path": "/herb-spice-groups/fresh-herbs/",
+      "projection_id": "food.herb.fresh-herbs",
+      "sections": {
+        "member_herb_spices": [
+          {
+            "href": "/herbs-spices/anise-hyssop/",
+            "id": "food.herb.fresh-herbs.anise-hyssop",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Anise Hyssop"
+          },
+          {
+            "href": "/herbs-spices/basil/",
+            "id": "food.herb.fresh-herbs.basil",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Basil"
+          },
+          {
+            "href": "/herbs-spices/borage/",
+            "id": "food.herb.fresh-herbs.borage",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Borage"
+          },
+          {
+            "href": "/herbs-spices/chervil/",
+            "id": "food.herb.fresh-herbs.chervil",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Chervil"
+          },
+          {
+            "href": "/herbs-spices/chives/",
+            "id": "food.herb.fresh-herbs.chives",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Chives"
+          },
+          {
+            "href": "/herbs-spices/cilantro/",
+            "id": "food.herb.fresh-herbs.cilantro",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cilantro"
+          },
+          {
+            "href": "/herbs-spices/culantro/",
+            "id": "food.herb.fresh-herbs.culantro",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Culantro"
+          },
+          {
+            "href": "/herbs-spices/curry-leaves/",
+            "id": "food.herb.fresh-herbs.curry-leaves",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Curry Leaves"
+          },
+          {
+            "href": "/herbs-spices/dill/",
+            "id": "food.herb.fresh-herbs.dill",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Dill"
+          },
+          {
+            "href": "/herbs-spices/epazote/",
+            "id": "food.herb.fresh-herbs.epazote",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Epazote"
+          },
+          {
+            "href": "/herbs-spices/fennel-frond/",
+            "id": "food.herb.fresh-herbs.fennel-frond",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Fennel Frond"
+          },
+          {
+            "href": "/herbs-spices/garlic-chives/",
+            "id": "food.herb.fresh-herbs.garlic-chives",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Garlic Chives"
+          },
+          {
+            "href": "/herbs-spices/lemon-balm/",
+            "id": "food.herb.fresh-herbs.lemon-balm",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Lemon Balm"
+          },
+          {
+            "href": "/herbs-spices/lemongrass/",
+            "id": "food.herb.fresh-herbs.lemongrass",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Lemongrass"
+          },
+          {
+            "href": "/herbs-spices/lovage/",
+            "id": "food.herb.fresh-herbs.lovage",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Lovage"
+          },
+          {
+            "href": "/herbs-spices/mint/",
+            "id": "food.herb.fresh-herbs.mint",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Mint"
+          },
+          {
+            "href": "/herbs-spices/mitsuba/",
+            "id": "food.herb.fresh-herbs.mitsuba",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Mitsuba"
+          },
+          {
+            "href": "/herbs-spices/pandan-leaf/",
+            "id": "food.herb.fresh-herbs.pandan-leaf",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Pandan Leaf"
+          },
+          {
+            "href": "/herbs-spices/papalo/",
+            "id": "food.herb.fresh-herbs.papalo",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Papalo"
+          },
+          {
+            "href": "/herbs-spices/parsley/",
+            "id": "food.herb.fresh-herbs.parsley",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Parsley"
+          },
+          {
+            "href": "/herbs-spices/salad-burnet/",
+            "id": "food.herb.fresh-herbs.salad-burnet",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Salad Burnet"
+          },
+          {
+            "href": "/herbs-spices/shiso/",
+            "id": "food.herb.fresh-herbs.shiso",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Shiso"
+          },
+          {
+            "href": "/herbs-spices/sorrel/",
+            "id": "food.herb.fresh-herbs.sorrel",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sorrel"
+          },
+          {
+            "href": "/herbs-spices/tarragon/",
+            "id": "food.herb.fresh-herbs.tarragon",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Tarragon"
+          },
+          {
+            "href": "/herbs-spices/vietnamese-coriander/",
+            "id": "food.herb.fresh-herbs.vietnamese-coriander",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Vietnamese Coriander"
+          }
+        ],
+        "parent_category": {
+          "href": "/herb-spice-categories/herb/",
+          "id": "food.herb",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Herbs & Spices"
+        },
+        "related_groups": [
+          {
+            "href": "/herb-spice-groups/dried-herbs/",
+            "id": "food.herb.dried-herbs",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Dried Herbs"
+          },
+          {
+            "href": "/herb-spice-groups/ground-blended-spices/",
+            "id": "food.herb.ground-blended-spices",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Ground & Blended Spices"
+          },
+          {
+            "href": "/herb-spice-groups/whole-spices/",
+            "id": "food.herb.whole-spices",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Whole Spices"
+          }
+        ]
+      },
+      "slug": "fresh-herbs"
+    },
+    {
+      "canonical_path": "/herb-spice-groups/ground-blended-spices/",
+      "projection_id": "food.herb.ground-blended-spices",
+      "sections": {
+        "member_herb_spices": [
+          {
+            "href": "/herbs-spices/aleppo-pepper/",
+            "id": "food.herb.ground-blended-spices.aleppo-pepper",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Aleppo Pepper"
+          },
+          {
+            "href": "/herbs-spices/ancho-chile-powder/",
+            "id": "food.herb.ground-blended-spices.ancho-chile-powder",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Ancho Chile Powder"
+          },
+          {
+            "href": "/herbs-spices/baharat/",
+            "id": "food.herb.ground-blended-spices.baharat",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Baharat"
+          },
+          {
+            "href": "/herbs-spices/berbere/",
+            "id": "food.herb.ground-blended-spices.berbere",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Berbere"
+          },
+          {
+            "href": "/herbs-spices/cajun-seasoning/",
+            "id": "food.herb.ground-blended-spices.cajun-seasoning",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cajun Seasoning"
+          },
+          {
+            "href": "/herbs-spices/cayenne-pepper/",
+            "id": "food.herb.ground-blended-spices.cayenne-pepper",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cayenne Pepper"
+          },
+          {
+            "href": "/herbs-spices/chaat-masala/",
+            "id": "food.herb.ground-blended-spices.chaat-masala",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Chaat Masala"
+          },
+          {
+            "href": "/herbs-spices/chili-powder/",
+            "id": "food.herb.ground-blended-spices.chili-powder",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Chili Powder"
+          },
+          {
+            "href": "/herbs-spices/chinese-five-spice/",
+            "id": "food.herb.ground-blended-spices.chinese-five-spice",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Chinese Five-Spice"
+          },
+          {
+            "href": "/herbs-spices/chipotle-powder/",
+            "id": "food.herb.ground-blended-spices.chipotle-powder",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Chipotle Powder"
+          },
+          {
+            "href": "/herbs-spices/curry-powder/",
+            "id": "food.herb.ground-blended-spices.curry-powder",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Curry Powder"
+          },
+          {
+            "href": "/herbs-spices/dukkah/",
+            "id": "food.herb.ground-blended-spices.dukkah",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Dukkah"
+          },
+          {
+            "href": "/herbs-spices/garam-masala/",
+            "id": "food.herb.ground-blended-spices.garam-masala",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Garam Masala"
+          },
+          {
+            "href": "/herbs-spices/harissa-spice/",
+            "id": "food.herb.ground-blended-spices.harissa-spice",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Harissa Spice"
+          },
+          {
+            "href": "/herbs-spices/herbes-de-provence/",
+            "id": "food.herb.ground-blended-spices.herbes-de-provence",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Herbes de Provence"
+          },
+          {
+            "href": "/herbs-spices/jerk-seasoning/",
+            "id": "food.herb.ground-blended-spices.jerk-seasoning",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Jerk Seasoning"
+          },
+          {
+            "href": "/herbs-spices/kashmiri-chili/",
+            "id": "food.herb.ground-blended-spices.kashmiri-chili",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Kashmiri Chili"
+          },
+          {
+            "href": "/herbs-spices/lemon-pepper/",
+            "id": "food.herb.ground-blended-spices.lemon-pepper",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Lemon Pepper"
+          },
+          {
+            "href": "/herbs-spices/old-bay-seasoning/",
+            "id": "food.herb.ground-blended-spices.old-bay-seasoning",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Old Bay Seasoning"
+          },
+          {
+            "href": "/herbs-spices/panch-phoron/",
+            "id": "food.herb.ground-blended-spices.panch-phoron",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Panch Phoron"
+          },
+          {
+            "href": "/herbs-spices/paprika/",
+            "id": "food.herb.ground-blended-spices.paprika",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Paprika"
+          },
+          {
+            "href": "/herbs-spices/poultry-seasoning/",
+            "id": "food.herb.ground-blended-spices.poultry-seasoning",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Poultry Seasoning"
+          },
+          {
+            "href": "/herbs-spices/quatre-epices/",
+            "id": "food.herb.ground-blended-spices.quatre-epices",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Quatre Épices"
+          },
+          {
+            "href": "/herbs-spices/ras-el-hanout/",
+            "id": "food.herb.ground-blended-spices.ras-el-hanout",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Ras el Hanout"
+          },
+          {
+            "href": "/herbs-spices/red-pepper-flakes/",
+            "id": "food.herb.ground-blended-spices.red-pepper-flakes",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Red Pepper Flakes"
+          },
+          {
+            "href": "/herbs-spices/shichimi-togarashi/",
+            "id": "food.herb.ground-blended-spices.shichimi-togarashi",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Shichimi Togarashi"
+          },
+          {
+            "href": "/herbs-spices/sumac/",
+            "id": "food.herb.ground-blended-spices.sumac",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sumac"
+          },
+          {
+            "href": "/herbs-spices/tandoori-masala/",
+            "id": "food.herb.ground-blended-spices.tandoori-masala",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Tandoori Masala"
+          },
+          {
+            "href": "/herbs-spices/turmeric/",
+            "id": "food.herb.ground-blended-spices.turmeric",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Turmeric"
+          },
+          {
+            "href": "/herbs-spices/urfa-biber/",
+            "id": "food.herb.ground-blended-spices.urfa-biber",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Urfa Biber"
+          },
+          {
+            "href": "/herbs-spices/vadouvan/",
+            "id": "food.herb.ground-blended-spices.vadouvan",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Vadouvan"
+          },
+          {
+            "href": "/herbs-spices/zaatar/",
+            "id": "food.herb.ground-blended-spices.zaatar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Za'atar"
+          }
+        ],
+        "parent_category": {
+          "href": "/herb-spice-categories/herb/",
+          "id": "food.herb",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Herbs & Spices"
+        },
+        "related_groups": [
+          {
+            "href": "/herb-spice-groups/dried-herbs/",
+            "id": "food.herb.dried-herbs",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Dried Herbs"
+          },
+          {
+            "href": "/herb-spice-groups/fresh-herbs/",
+            "id": "food.herb.fresh-herbs",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Fresh Herbs"
+          },
+          {
+            "href": "/herb-spice-groups/whole-spices/",
+            "id": "food.herb.whole-spices",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Whole Spices"
+          }
+        ]
+      },
+      "slug": "ground-blended-spices"
+    },
+    {
+      "canonical_path": "/herb-spice-groups/whole-spices/",
+      "projection_id": "food.herb.whole-spices",
+      "sections": {
+        "member_herb_spices": [
+          {
+            "href": "/herbs-spices/ajwain/",
+            "id": "food.herb.whole-spices.ajwain",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Ajwain"
+          },
+          {
+            "href": "/herbs-spices/allspice/",
+            "id": "food.herb.whole-spices.allspice",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Allspice"
+          },
+          {
+            "href": "/herbs-spices/annatto-seed/",
+            "id": "food.herb.whole-spices.annatto-seed",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Annatto Seed"
+          },
+          {
+            "href": "/herbs-spices/asafoetida/",
+            "id": "food.herb.whole-spices.asafoetida",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Asafoetida"
+          },
+          {
+            "href": "/herbs-spices/black-cardamom/",
+            "id": "food.herb.whole-spices.black-cardamom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Black Cardamom"
+          },
+          {
+            "href": "/herbs-spices/black-pepper/",
+            "id": "food.herb.whole-spices.black-pepper",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Black Pepper"
+          },
+          {
+            "href": "/herbs-spices/caraway-seed/",
+            "id": "food.herb.whole-spices.caraway-seed",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Caraway Seed"
+          },
+          {
+            "href": "/herbs-spices/celery-seed/",
+            "id": "food.herb.whole-spices.celery-seed",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Celery Seed"
+          },
+          {
+            "href": "/herbs-spices/cinnamon/",
+            "id": "food.herb.whole-spices.cinnamon",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cinnamon"
+          },
+          {
+            "href": "/herbs-spices/clove/",
+            "id": "food.herb.whole-spices.clove",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Clove"
+          },
+          {
+            "href": "/herbs-spices/coriander-seed/",
+            "id": "food.herb.whole-spices.coriander-seed",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Coriander Seed"
+          },
+          {
+            "href": "/herbs-spices/cubeb-pepper/",
+            "id": "food.herb.whole-spices.cubeb-pepper",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cubeb Pepper"
+          },
+          {
+            "href": "/herbs-spices/cumin-seed/",
+            "id": "food.herb.whole-spices.cumin-seed",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cumin Seed"
+          },
+          {
+            "href": "/herbs-spices/dill-seed/",
+            "id": "food.herb.whole-spices.dill-seed",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Dill Seed"
+          },
+          {
+            "href": "/herbs-spices/fennel-seed/",
+            "id": "food.herb.whole-spices.fennel-seed",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Fennel Seed"
+          },
+          {
+            "href": "/herbs-spices/fenugreek-seed/",
+            "id": "food.herb.whole-spices.fenugreek-seed",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Fenugreek Seed"
+          },
+          {
+            "href": "/herbs-spices/galangal/",
+            "id": "food.herb.whole-spices.galangal",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Galangal"
+          },
+          {
+            "href": "/herbs-spices/ginger/",
+            "id": "food.herb.whole-spices.ginger",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Ginger"
+          },
+          {
+            "href": "/herbs-spices/grains-of-paradise/",
+            "id": "food.herb.whole-spices.grains-of-paradise",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Grains of Paradise"
+          },
+          {
+            "href": "/herbs-spices/green-cardamom/",
+            "id": "food.herb.whole-spices.green-cardamom",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Green Cardamom"
+          },
+          {
+            "href": "/herbs-spices/green-peppercorn/",
+            "id": "food.herb.whole-spices.green-peppercorn",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Green Peppercorn"
+          },
+          {
+            "href": "/herbs-spices/horseradish/",
+            "id": "food.herb.whole-spices.horseradish",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Horseradish"
+          },
+          {
+            "href": "/herbs-spices/juniper-berry/",
+            "id": "food.herb.whole-spices.juniper-berry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Juniper Berry"
+          },
+          {
+            "href": "/herbs-spices/long-pepper/",
+            "id": "food.herb.whole-spices.long-pepper",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Long Pepper"
+          },
+          {
+            "href": "/herbs-spices/mace/",
+            "id": "food.herb.whole-spices.mace",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Mace"
+          },
+          {
+            "href": "/herbs-spices/mahleb/",
+            "id": "food.herb.whole-spices.mahleb",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Mahleb"
+          },
+          {
+            "href": "/herbs-spices/mustard-seed/",
+            "id": "food.herb.whole-spices.mustard-seed",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Mustard Seed"
+          },
+          {
+            "href": "/herbs-spices/nigella-seed/",
+            "id": "food.herb.whole-spices.nigella-seed",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Nigella Seed"
+          },
+          {
+            "href": "/herbs-spices/nutmeg/",
+            "id": "food.herb.whole-spices.nutmeg",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Nutmeg"
+          },
+          {
+            "href": "/herbs-spices/pink-peppercorn/",
+            "id": "food.herb.whole-spices.pink-peppercorn",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Pink Peppercorn"
+          },
+          {
+            "href": "/herbs-spices/saffron/",
+            "id": "food.herb.whole-spices.saffron",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Saffron"
+          },
+          {
+            "href": "/herbs-spices/star-anise/",
+            "id": "food.herb.whole-spices.star-anise",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Star Anise"
+          },
+          {
+            "href": "/herbs-spices/tamarind/",
+            "id": "food.herb.whole-spices.tamarind",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Tamarind"
+          },
+          {
+            "href": "/herbs-spices/vanilla-bean/",
+            "id": "food.herb.whole-spices.vanilla-bean",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Vanilla Bean"
+          },
+          {
+            "href": "/herbs-spices/wasabi/",
+            "id": "food.herb.whole-spices.wasabi",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Wasabi"
+          },
+          {
+            "href": "/herbs-spices/white-pepper/",
+            "id": "food.herb.whole-spices.white-pepper",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "White Pepper"
+          }
+        ],
+        "parent_category": {
+          "href": "/herb-spice-categories/herb/",
+          "id": "food.herb",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Herbs & Spices"
+        },
+        "related_groups": [
+          {
+            "href": "/herb-spice-groups/dried-herbs/",
+            "id": "food.herb.dried-herbs",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Dried Herbs"
+          },
+          {
+            "href": "/herb-spice-groups/fresh-herbs/",
+            "id": "food.herb.fresh-herbs",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Fresh Herbs"
+          },
+          {
+            "href": "/herb-spice-groups/ground-blended-spices/",
+            "id": "food.herb.ground-blended-spices",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Ground & Blended Spices"
+          }
+        ]
+      },
+      "slug": "whole-spices"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "herb-spice",
+    "food_ontology_version": "1.4.0",
+    "link_set_count": 4,
+    "link_set_type": "herb_spice_group",
+    "phase": "FOOD-07FD"
+  }
+}

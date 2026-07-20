@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "herb-spice",
+    "food_ontology_version": "1.4.0",
+    "page_count": 1,
+    "page_type": "herb_spice_category",
+    "phase": "FOOD-07FB"
+  },
+  "pages": [
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/herbs-spices/",
+          "label": "Herbs & Spices"
+        },
+        {
+          "href": "/herb-spice-categories/herb/",
+          "label": "Herbs & Spices"
+        }
+      ],
+      "canonical_path": "/herb-spice-categories/herb/",
+      "groups": [
+        {
+          "food_count": 20,
+          "href": "/herb-spice-groups/dried-herbs/",
+          "id": "food.herb.dried-herbs",
+          "name": "Dried Herbs",
+          "slug": "dried-herbs"
+        },
+        {
+          "food_count": 25,
+          "href": "/herb-spice-groups/fresh-herbs/",
+          "id": "food.herb.fresh-herbs",
+          "name": "Fresh Herbs",
+          "slug": "fresh-herbs"
+        },
+        {
+          "food_count": 32,
+          "href": "/herb-spice-groups/ground-blended-spices/",
+          "id": "food.herb.ground-blended-spices",
+          "name": "Ground & Blended Spices",
+          "slug": "ground-blended-spices"
+        },
+        {
+          "food_count": 36,
+          "href": "/herb-spice-groups/whole-spices/",
+          "id": "food.herb.whole-spices",
+          "name": "Whole Spices",
+          "slug": "whole-spices"
+        }
+      ],
+      "identity": {
+        "id": "food.herb",
+        "slug": "herb",
+        "title": "Herbs & Spices"
+      },
+      "metadata": {
+        "canonical": "https://pairingmethod.com/herb-spice-categories/herb/",
+        "description": "Herbs & Spices — 4 groups and 113 herbs and spices.",
+        "og_description": "Herbs & Spices — 4 groups and 113 herbs and spices.",
+        "og_title": "Herbs & Spices — Herb & Spice Category",
+        "title": "Herbs & Spices — Herb & Spice Category"
+      },
+      "overview": {
+        "display_name": "Herbs & Spices",
+        "food_count": 113,
+        "group_count": 4
+      },
+      "page_type": "herb_spice_category",
+      "projection_id": "food.herb",
+      "slug": "herb"
+    }
+  ]
+}

@@ -1,114 +1,114 @@
 {
   "artifacts": {
-    "catalog": "data/fungi-catalog.json",
+    "catalog": "data/herb-spice-catalog.json",
     "html": [
-      "dist/fungi",
-      "dist/fungi-groups",
-      "dist/fungi-categories"
+      "dist/herbs-spices",
+      "dist/herb-spice-groups",
+      "dist/herb-spice-categories"
     ],
     "navigation": [
-      "data/navigation/fungi-links.json",
-      "data/navigation/fungi-group-links.json",
-      "data/navigation/fungi-category-links.json"
+      "data/navigation/herb-spice-links.json",
+      "data/navigation/herb-spice-group-links.json",
+      "data/navigation/herb-spice-category-links.json"
     ],
     "pages": [
-      "data/pages/fungi-pages.json",
-      "data/pages/fungi-group-pages.json",
-      "data/pages/fungi-category-pages.json"
+      "data/pages/herb-spice-pages.json",
+      "data/pages/herb-spice-group-pages.json",
+      "data/pages/herb-spice-category-pages.json"
     ],
     "projections": [
-      "data/generated/fungi-pages.json",
-      "data/generated/fungi-group-pages.json",
-      "data/generated/fungi-category-pages.json"
+      "data/generated/herb-spice-pages.json",
+      "data/generated/herb-spice-group-pages.json",
+      "data/generated/herb-spice-category-pages.json"
     ],
     "relationships": [
-      "data/runtime/fungi-relationships.json",
-      "data/runtime/fungi-editorial-relationships.json",
-      "data/runtime/fungi-wine-relationships.json"
+      "data/runtime/herb-spice-relationships.json",
+      "data/runtime/herb-spice-editorial-relationships.json",
+      "data/runtime/herb-spice-wine-relationships.json"
     ],
     "runtime": [
-      "data/runtime/fungi-bootstrap.json",
-      "data/runtime/fungi-groups.json",
-      "data/runtime/fungi-categories.json",
-      "data/runtime/fungi-indexes.json"
+      "data/runtime/herb-spice-bootstrap.json",
+      "data/runtime/herb-spice-groups.json",
+      "data/runtime/herb-spice-categories.json",
+      "data/runtime/herb-spice-indexes.json"
     ],
     "schema": [
-      "data/schema/fungi-schema.json",
-      "data/schema/fungi-group-schema.json",
-      "data/schema/fungi-category-schema.json"
+      "data/schema/herb-spice-schema.json",
+      "data/schema/herb-spice-group-schema.json",
+      "data/schema/herb-spice-category-schema.json"
     ],
     "search": [
-      "data/search/fungi-search-index.json",
-      "data/search/fungi-group-search-index.json",
-      "data/search/fungi-category-search-index.json",
-      "data/search/fungi-search-suggestions.json"
+      "data/search/herb-spice-search-index.json",
+      "data/search/herb-spice-group-search-index.json",
+      "data/search/herb-spice-category-search-index.json",
+      "data/search/herb-spice-search-suggestions.json"
     ],
     "sitemaps": [
       "dist/sitemap.xml",
-      "dist/sitemaps/fungi-pages.xml",
-      "dist/sitemaps/fungi-group-pages.xml",
-      "dist/sitemaps/fungi-category-pages.xml",
+      "dist/sitemaps/herb-spice-pages.xml",
+      "dist/sitemaps/herb-spice-group-pages.xml",
+      "dist/sitemaps/herb-spice-category-pages.xml",
       "dist/crawl-manifest.json"
     ]
   },
   "catalog_version": "1.0.0",
   "certification": "PASS",
   "checksums": {
-    "catalog": "7bac2abc67dd3df710ac21d8a60d69916e9632c6af824b4132886581d35fd8e9",
+    "catalog": "822ee83ae561dbf020b4a4a4e42eaeec8df4ed93ae5d08a908efa02bdf48fc12",
     "html": {},
     "navigation": {
-      "data/navigation/fungi-category-links.json": "1746e30767d9b95667db8175fb699094d8d9be37c5d295d6d222ed47d91b9ca1",
-      "data/navigation/fungi-group-links.json": "5931f0e7159e67ab9d3c9a04ee9f85f0e26acf5a2d958b3abc8dfa4ed72ca28c",
-      "data/navigation/fungi-links.json": "6676d4a194e483406d46b5d9fa0cb895e99dd203b2fa55b67668d266693cc13a"
+      "data/navigation/herb-spice-category-links.json": "d1252e4815c39525706bc529820efbbe80a85b03d42d75080a4958bdf8995e8a",
+      "data/navigation/herb-spice-group-links.json": "944ba8518f57c0858e4b9d99b9ef9297ff90833778ae8544af3ee5b8c123e90e",
+      "data/navigation/herb-spice-links.json": "20e0a1faacf71c2d1390e8064d5169e3713d2956a3cf474ff6e47e6037428d87"
     },
     "pages": {
-      "data/pages/fungi-category-pages.json": "ae897477831388420421ffdb8f5b58f1ec286ca4f7d0849f7fe6bfb617ba51fa",
-      "data/pages/fungi-group-pages.json": "653c5a11c29efe8266a17d742e4eeaf9a0b9f23ae5a39cad68477209394f6104",
-      "data/pages/fungi-pages.json": "44a300e486bb487a51e40d3c4fe970aed2c3de2f1c085d874cf9936828d36e51"
+      "data/pages/herb-spice-category-pages.json": "6bb8f3e1255ea2d769b7b863955f0dea3b477976346e45d635adaff1283ac4bf",
+      "data/pages/herb-spice-group-pages.json": "a705daf6cbbadd9da13c7fd111b2aea05f31a96adf2914597a51629fd730dd93",
+      "data/pages/herb-spice-pages.json": "d673c76a1b676fbfa3ed92dd25a8cbffa67f11092a8e7ed4b4621ac75fbc9e35"
     },
     "projections": {
-      "data/generated/fungi-category-pages.json": "288bccb8207a328e6bac75283e8a98c4378e73241901a03ff3d754d594c10e52",
-      "data/generated/fungi-group-pages.json": "1cc7010c8940d50f385ef201ebb9e20e1e6914fea8b7472c2b3eb861941b99d6",
-      "data/generated/fungi-pages.json": "c34ea9d3f9384903bcf5a0004cf8edcbdc8bede6f0bdb019c2b035ce016ecf1b"
+      "data/generated/herb-spice-category-pages.json": "21e8ffb2e5f622f98775fe12b10eb3e7325f701f80532967732e6e44e4769fe2",
+      "data/generated/herb-spice-group-pages.json": "021f5fd765d9eb4dd448eb7a7501dcc3c70d3d5b133f5cac1aaf0d645f8bcadb",
+      "data/generated/herb-spice-pages.json": "d0ac95605e3984c709f54febe4d01d72a770040ca47464c3b0bb863bd24a1355"
     },
     "relationships": {
-      "data/runtime/fungi-editorial-relationships.json": "a9db2c3e75c01d69cfe0d1c9e7adafee7d49e74800c81e087d01c5702585c5d9",
-      "data/runtime/fungi-relationships.json": "e7f7a9a45a72438f6ae41ffa6b9bbdbdcc95dca57331846d644193d2c3764e81",
-      "data/runtime/fungi-wine-relationships.json": "4271ee2d140878b8ebf72cf7034453774b8db3f62536344d6c9a0fc7eb7e4a84"
+      "data/runtime/herb-spice-editorial-relationships.json": "30c7766958941e915faa7de7a8c3d3f41d608038b1cb7a9f80a0981eabd5293a",
+      "data/runtime/herb-spice-relationships.json": "d8a0215f134581887ab3ecf407079853555c6fca57020f84b53c549229564785",
+      "data/runtime/herb-spice-wine-relationships.json": "73ee83868571691929b7d47189f2103eb42337664dac76ff3d606156aa082a95"
     },
     "runtime": {
-      "data/runtime/fungi-bootstrap.json": "a2f107105944d790df233b82df3bf77cd53f8b473fd5b2ac31b6df5efc71552a",
-      "data/runtime/fungi-categories.json": "915e14135908d9ab51e60e029909f0fd68b6eae35e648cc1e15239e3c3b5e453",
-      "data/runtime/fungi-groups.json": "5a258c3ffa03f893297c9f37813f58c1477de328acc98a7e61feebd10589a3e3",
-      "data/runtime/fungi-indexes.json": "803e80e7318db31aac89f5f0ec857330e7476b2d6b06169bd24a70361aed34b6"
+      "data/runtime/herb-spice-bootstrap.json": "48a561883fc015c28c6e1117db0726bcdf762d9eedc68241f8f56ba1831ef1e0",
+      "data/runtime/herb-spice-categories.json": "06cfbf6ec67ac66a2ce77a9458fb610c3bb7490a4703ffb1d298fb5d6ad09cd2",
+      "data/runtime/herb-spice-groups.json": "79ee03412f7dafcf94b8d3009b10cd7a7618d500b666a2bebf6a9bf330e4e5cf",
+      "data/runtime/herb-spice-indexes.json": "8c8c90d9c3481c99ce1245e1944716d1bd9a70f64c342da831b9fe142e0e0d54"
     },
     "schema": {
-      "data/schema/fungi-category-schema.json": "9a3300af298952b069b5d993a7b8def069c5be028e4e1d744c8a4fc271f88026",
-      "data/schema/fungi-group-schema.json": "ec88b8be8698c8015c15e7bf63077d71a7c265ff8e80bee6cb0db52765119283",
-      "data/schema/fungi-schema.json": "2e10b05ce25a6920f73003a07a6bbb6be86066d7775c1a5b623d29a6d30ef51e"
+      "data/schema/herb-spice-category-schema.json": "a9f7440b9ab15baafd02bb1f2b75e4594c702d8d880d100a3016dc912a5b2621",
+      "data/schema/herb-spice-group-schema.json": "95433eafb75311b529f3dbfde5fbdfbbd8b5fe9766f04ee0e5ad1fa982deb084",
+      "data/schema/herb-spice-schema.json": "ea7165c52aa1952e7bc5bf1e4014537703664488a6ef593441b22ba373f20e6e"
     },
     "search": {
-      "data/search/fungi-category-search-index.json": "1d00efe1efd5a2c057b4a7092fb76a3a7ec690ad0569157d6687dfa9293240c5",
-      "data/search/fungi-group-search-index.json": "1261af9bd389b4a8442c219e725d3c194aea448bbc03a8837307bc745a6720b2",
-      "data/search/fungi-search-index.json": "a86067034723c1246efe7f15d6b818bfc3f557904de02efe874ae5883e7a6737",
-      "data/search/fungi-search-suggestions.json": "7f6ab07b84f60d0c20c09f35372cc3ad2f33338f58d36dca75b55e38260e3c76"
+      "data/search/herb-spice-category-search-index.json": "89c603d4dac74a5c1cfbcdb4c8f1894ece989edc450ccc0c0289d25b5224a91f",
+      "data/search/herb-spice-group-search-index.json": "6a9be80cb3666d1c757b172edf15395ccecc5af669281533166acada37290bd8",
+      "data/search/herb-spice-search-index.json": "6cae53632aae9288334488a56b823945d7c0be5d981cf31ee8b59263ee3e95b7",
+      "data/search/herb-spice-search-suggestions.json": "297e6648ca721cb3a5396b5fe2fb77c92ed875a57842cc1e9b529857d246b742"
     },
     "sitemaps": {
-      "dist/crawl-manifest.json": "978f271a72b1d62b086ccf24baf6a0fa1845da8e00c352e3e26ec1830ccad893",
-      "dist/sitemap.xml": "328767bfbd98f86448a17b0f1527b4bc7d1da39e8558ecf98e81759500bfb93f",
-      "dist/sitemaps/fungi-category-pages.xml": "f731459fe100dff164325812fdfb046e223fce51455ccb7601b530910eedbc8b",
-      "dist/sitemaps/fungi-group-pages.xml": "f7e9b8d1e6f1943a3843e31c588a9704cd731d044d532822fd18e7343a362c90",
-      "dist/sitemaps/fungi-pages.xml": "43052598f164f6ddead1abd57385cdabee5fb43bc527e99c5b135bc36d04e913"
+      "dist/crawl-manifest.json": "12d48be7857bc39c8d447a0d3b0dd465926205fca8f75386587b33a7238ead18",
+      "dist/sitemap.xml": "007c6ef854548b4cdcd1ba56e6ed30e930765e4138219ef7de7d1cfed708905f",
+      "dist/sitemaps/herb-spice-category-pages.xml": "42c9a094fd2b614e89878e277d400b63e00403ff11b305879b09cbd1469f324a",
+      "dist/sitemaps/herb-spice-group-pages.xml": "f1d73462dbdcea71b7fa18b5599208f3caf7955acaa0ee0696152434706027f1",
+      "dist/sitemaps/herb-spice-pages.xml": "64b1e1994edffa060559674dae7662733fe5ea325ff6f0bfcb523eb988dfc348"
     }
   },
-  "domain": "fungi",
-  "generated_at": "2026-07-19T04:53:13.050Z",
+  "domain": "herb-spice",
+  "generated_at": "2026-07-20T00:11:42.437Z",
   "pages": {
     "categories": 1,
     "groups": 4,
-    "leaf": 43,
-    "total": 48
+    "leaf": 113,
+    "total": 118
   },
-  "publication": "fungi-ontology",
-  "release_version": "1.3.0"
+  "publication": "herb-spice-ontology",
+  "release_version": "1.4.0"
 }

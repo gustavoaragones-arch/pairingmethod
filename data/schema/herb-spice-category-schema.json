@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "herb-spice",
+    "food_ontology_version": "1.4.0",
+    "phase": "FOOD-07FC",
+    "schema_count": 1,
+    "schema_type": "herb_spice_category"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/herb-spice-categories/herb/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/herb-spice-categories/herb/#collectionpage",
+          "@type": "CollectionPage",
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/herb-spice-categories/herb/#breadcrumb"
+          },
+          "description": "Herbs & Spices — 4 groups and 113 herbs and spices.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Herbs & Spices — Herb & Spice Category",
+          "url": "https://pairingmethod.com/herb-spice-categories/herb/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/herb-spice-categories/herb/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/herbs-spices/",
+              "name": "Herbs & Spices",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/herb-spice-categories/herb/",
+              "name": "Herbs & Spices",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/herb-spice-categories/herb/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "herb",
+          "description": "Herbs & Spices — 4 groups and 113 herbs and spices.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/herb-spice-groups/dried-herbs/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.herb.dried-herbs",
+              "name": "Dried Herbs",
+              "numberOfTerms": 20,
+              "url": "https://pairingmethod.com/herb-spice-groups/dried-herbs/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herb-spice-groups/fresh-herbs/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.herb.fresh-herbs",
+              "name": "Fresh Herbs",
+              "numberOfTerms": 25,
+              "url": "https://pairingmethod.com/herb-spice-groups/fresh-herbs/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herb-spice-groups/ground-blended-spices/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.herb.ground-blended-spices",
+              "name": "Ground & Blended Spices",
+              "numberOfTerms": 32,
+              "url": "https://pairingmethod.com/herb-spice-groups/ground-blended-spices/"
+            },
+            {
+              "@id": "https://pairingmethod.com/herb-spice-groups/whole-spices/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.herb.whole-spices",
+              "name": "Whole Spices",
+              "numberOfTerms": 36,
+              "url": "https://pairingmethod.com/herb-spice-groups/whole-spices/"
+            }
+          ],
+          "identifier": "food.herb",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Herb & Spice Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Herbs & Spices",
+          "numberOfTerms": 113,
+          "url": "https://pairingmethod.com/herb-spice-categories/herb/"
+        }
+      ],
+      "projection_id": "food.herb",
+      "slug": "herb"
+    }
+  ]
+}

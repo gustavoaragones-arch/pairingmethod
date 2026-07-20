@@ -22,7 +22,7 @@ This principle has been followed in practice since Protein FOOD-02C. FOOD-06C ma
 
 ### Knowledge layer separation (suite-wide)
 
-Proven across four domains (Protein, Cheese, Vegetables, Fungi):
+Proven across five domains (Protein, Cheese, Vegetables, Fungi, Herb & Spice):
 
 | Layer | Source | Modified at publication? |
 |-------|--------|--------------------------|
@@ -76,7 +76,7 @@ Catalog entities must represent **globally recognizable culinary ingredients**, 
 
 ## Ontology Lifecycle (Suite Standard)
 
-Every published domain follows the **identical six-phase lifecycle**. Phase prefixes differ by domain (`FOOD-02`/`ONTOLOGY-02` for Protein, `FOOD-04` for Cheese, `FOOD-05` for Vegetable, `FOOD-06` for Fungi) but the stages are the same:
+Every published domain follows the **identical six-phase lifecycle**. Phase prefixes differ by domain (`FOOD-02`/`ONTOLOGY-02` for Protein, `FOOD-04` for Cheese, `FOOD-05` for Vegetable, `FOOD-06` for Fungi, `FOOD-07` for Herb & Spice) but the stages are the same:
 
 | Stage | Letter | Scope |
 |-------|--------|-------|
@@ -87,7 +87,7 @@ Every published domain follows the **identical six-phase lifecycle**. Phase pref
 | Wine Pairings | E | Curated pairings (separate artifact) |
 | Publication | F | Platform consumption only — no artifact editing |
 
-**No domain-specific lifecycle exceptions** exist among the four published domains.
+**No domain-specific lifecycle exceptions** exist among the five published domains.
 
 ---
 
@@ -109,43 +109,63 @@ Domain governance documents define **domain-specific** rules only. Suite-wide in
 
 Every suite release note includes this table. It reinforces the primary architectural achievement since Platform v1.0.0: **each new domain increases knowledge, not platform complexity.**
 
-| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 |
-|--------|--------|--------|--------|--------|
-| Published ontology domains | 1 | 2 | 3 | **4** |
-| Canonical entities (leaf) | 207 | 411 | 485 | **528** |
-| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | **~85,500+** |
-| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | **~370** |
-| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | **~300** |
-| Publication lifecycle reuse | 100% | 100% | 100% | **100%** |
-| Platform modifications required | 0 | 0 | 0 | **0** |
+| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 | v1.4.0 |
+|--------|--------|--------|--------|--------|--------|
+| Published ontology domains | 1 | 2 | 3 | 4 | **5** |
+| Canonical entities (leaf) | 207 | 411 | 485 | 528 | **641** |
+| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | ~85,500+ | **~91,900** |
+| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | ~370 | **~650** |
+| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | ~300 | **~520** |
+| Publication lifecycle reuse | 100% | 100% | 100% | 100% | **100%** |
+| Platform modifications required | 0 | 0 | 0 | 0 | **0** |
 
 *Edge counts are measured from certified runtime artifacts at release time (structural + intrinsic similarity layers for runtime; editorial and wine layers reported separately).*
 
-**Certified totals at v1.3.0 (exact):** runtime structural 85,528 · editorial 370 · wine pairings 298 · leaf entities 528.
+**Certified totals at v1.4.0 (exact):** runtime structural 91,912 · editorial 650 · wine pairings 522 · leaf entities 641.
 
 ---
 
-## SUITE-STAB-01 — Food Ontology Suite Stabilization (Post-v1.3.0)
+## v1.4.0 — Herb & Spice
 
-**Date:** July 19, 2026  
-**Baseline tag:** `food-ontology-suite-v1.3.0`  
-**Type:** Governance audit — not a versioned release  
-**Overall result:** **PASS**
+**Tag:** `food-ontology-suite-v1.4.0`  
+**Commit:** FOOD-07F — Publish Herb & Spice Ontology through shared platform  
+**Date:** July 19, 2026
 
-Post-v1.3.0 checkpoint certifying that the Food Ontology Suite methodology remains internally consistent after four published domains. No runtime, catalog, relationship, publication, or code changes were made except documentation corrections noted below.
+### Published domains
 
-| Audit | Scope | Result |
-|-------|-------|--------|
-| 1 — Architectural Invariants | Runtime Projection, Knowledge Layer Separation, Domain Independence, CANON-001, CANON-002 | **PASS** — consolidated in §Suite Architecture (this document) |
-| 2 — Lifecycle Consistency | Six-phase lifecycle across Protein, Cheese, Vegetable, Fungi | **PASS** — no domain exceptions |
-| 3 — Documentation Hierarchy | Vision → POSTER_COVERAGE → Suite Releases → Governance → Blueprints | **PASS** — overlapping invariant text deduplicated |
-| 4 — Cross-Domain Ownership | Canonical IDs, forward references, deferred migrations | **PASS** — Protein `mushrooms` → Fungi ownership deferred to FOOD-14 |
-| 5 — Release Metrics | Cumulative metrics vs certified release summaries | **PASS** — reconciled (editorial ~370, wine ~300, runtime ~85,500) |
-| 6 — Frozen Roadmap | FOOD-07 through ENGINE-03 sequence | **PASS** — unchanged |
+| Domain | Catalog version | Leaf entities | Publication paths |
+|--------|-----------------|---------------|-------------------|
+| Protein Foods | 1.0.0 | 207 | `/foods/` |
+| Cheeses | 1.0.0 | 204 | `/cheeses/` |
+| Vegetables | 1.0.0 | 74 | `/vegetables/` |
+| Fungi | 1.0.0 | 43 | `/fungi/` |
+| Herb & Spice | 1.0.0 | 113 | `/herbs-spices/` |
 
-**Platform modifications identified:** 0
+**Suite total:** 641 canonical leaf entities · 118 new herb & spice pages (113 leaf + 4 groups + 1 category hub)
 
-**Next work:** **FOOD-07A — Herb & Spice Ontology Governance** (from tag `food-ontology-suite-v1.3.0`).
+### FOOD-07 release certification
+
+| Metric | FOOD-07 |
+|--------|--------:|
+| Canonical herb & spice entities | 113 |
+| Runtime relationships | 6,384 |
+| Editorial relationships | 280 |
+| Wine relationships | 224 |
+| Publication pages | 118 |
+| Platform modifications required | 0 |
+| Shared publication pipeline reused | 100% |
+
+### Milestone significance
+
+FOOD-07F validates the generalized publication platform across a **fifth independent domain** with zero architectural modification — the largest single-domain leaf catalog added to date (113 entities). The Dominant Flavor Rule and BOTAN-001 botanical consistency constraints were absorbed entirely within the knowledge layer, without platform changes.
+
+### Platform status at v1.4.0
+
+Publication architecture, runtime architecture, certification pipeline, deployment pipeline, and the six-phase governance lifecycle remain **feature-complete and frozen**. Architectural changes require exceptional justification.
+
+### Next planned work
+
+**FOOD-08 — Potato & Starch Class Ontology** (from tag `food-ontology-suite-v1.4.0`).
 
 ---
 
@@ -188,7 +208,31 @@ Publication architecture, runtime architecture, certification pipeline, deployme
 
 ### Next planned work
 
-**FOOD-07A — Herb & Spice Ontology Governance** (SUITE-STAB-01 PASS — July 19, 2026).
+**FOOD-07A — Herb & Spice Ontology Governance** (completed — see v1.4.0).
+
+---
+
+## SUITE-STAB-01 — Food Ontology Suite Stabilization (Post-v1.3.0)
+
+**Date:** July 19, 2026  
+**Baseline tag:** `food-ontology-suite-v1.3.0`  
+**Type:** Governance audit — not a versioned release  
+**Overall result:** **PASS**
+
+Post-v1.3.0 checkpoint certifying that the Food Ontology Suite methodology remains internally consistent after four published domains. No runtime, catalog, relationship, publication, or code changes were made except documentation corrections noted below.
+
+| Audit | Scope | Result |
+|-------|-------|--------|
+| 1 — Architectural Invariants | Runtime Projection, Knowledge Layer Separation, Domain Independence, CANON-001, CANON-002 | **PASS** — consolidated in §Suite Architecture (this document) |
+| 2 — Lifecycle Consistency | Six-phase lifecycle across Protein, Cheese, Vegetable, Fungi | **PASS** — no domain exceptions |
+| 3 — Documentation Hierarchy | Vision → POSTER_COVERAGE → Suite Releases → Governance → Blueprints | **PASS** — overlapping invariant text deduplicated |
+| 4 — Cross-Domain Ownership | Canonical IDs, forward references, deferred migrations | **PASS** — Protein `mushrooms` → Fungi ownership deferred to FOOD-14 |
+| 5 — Release Metrics | Cumulative metrics vs certified release summaries | **PASS** — reconciled (editorial ~370, wine ~300, runtime ~85,500) |
+| 6 — Frozen Roadmap | FOOD-07 through ENGINE-03 sequence | **PASS** — unchanged |
+
+**Platform modifications identified:** 0
+
+**Next work:** **FOOD-07A — Herb & Spice Ontology Governance** (completed — see v1.4.0).
 
 ---
 
@@ -266,7 +310,8 @@ Food Ontology Suite
 ├── v1.0.0  Protein Foods
 ├── v1.1.0  + Cheeses
 ├── v1.2.0  + Vegetables
-└── v1.3.0  + Fungi   ← current production milestone
+├── v1.3.0  + Fungi
+└── v1.4.0  + Herb & Spice   ← current production milestone
 
 Master Roadmap
 └── PLAN-01  (POSTER_COVERAGE.md)

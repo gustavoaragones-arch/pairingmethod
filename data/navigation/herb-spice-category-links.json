@@ -1,0 +1,54 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/herb-spice-categories/herb/",
+      "projection_id": "food.herb",
+      "sections": {
+        "groups": [
+          {
+            "href": "/herb-spice-groups/dried-herbs/",
+            "id": "food.herb.dried-herbs",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Dried Herbs"
+          },
+          {
+            "href": "/herb-spice-groups/fresh-herbs/",
+            "id": "food.herb.fresh-herbs",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Fresh Herbs"
+          },
+          {
+            "href": "/herb-spice-groups/ground-blended-spices/",
+            "id": "food.herb.ground-blended-spices",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Ground & Blended Spices"
+          },
+          {
+            "href": "/herb-spice-groups/whole-spices/",
+            "id": "food.herb.whole-spices",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Whole Spices"
+          }
+        ],
+        "member_food_summary": {
+          "food_count": 113,
+          "group_count": 4
+        },
+        "related_categories": []
+      },
+      "slug": "herb"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "herb-spice",
+    "food_ontology_version": "1.4.0",
+    "link_set_count": 1,
+    "link_set_type": "herb_spice_category",
+    "phase": "FOOD-07FD"
+  }
+}

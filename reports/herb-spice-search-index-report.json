@@ -1,0 +1,24 @@
+{
+  "domain": "herb-spice",
+  "metrics": {
+    "Broken references": 0,
+    "Category search documents": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate documents": 0,
+    "Group search documents": 4,
+    "Indexed tokens": 276,
+    "Leaf search documents": 113,
+    "Overall result": "PASS",
+    "Suggestions": 118,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/search/herb-spice-search-index.json",
+    "data/search/herb-spice-group-search-index.json",
+    "data/search/herb-spice-category-search-index.json",
+    "data/search/herb-spice-search-suggestions.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-07FE",
+  "validation_errors": []
+}
