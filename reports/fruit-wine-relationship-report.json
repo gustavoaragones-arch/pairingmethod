@@ -1,0 +1,37 @@
+{
+  "catalog_version": "1.0.0",
+  "culinary_role_pairing_rule": "FRUIT-PAIR-001: wine pairing follows the fruit's culinary role — lemon for acidity, raisin for dried-fruit profile, coconut milk for creamy applications, prune for slow-cooked braises.",
+  "domain": "fruit",
+  "fruit001_ownership_rule": "FRUIT-001: processing-derived canonical entities retain distinct pairing profiles and must not inherit wine relationships from source crops.",
+  "metrics": {
+    "Descriptor links": 44,
+    "Determinism": "PASS",
+    "Deterministic ordering": "PASS",
+    "Duplicate edges": 0,
+    "Fruit entities linked": 119,
+    "Invalid ontology references": 0,
+    "Missing fruit entities": 0,
+    "Missing wine references": 0,
+    "Overall result": "PASS",
+    "Pairing edges": 265,
+    "Pending review edges": 0,
+    "Technique links": 34,
+    "Wine styles linked": 15
+  },
+  "output": "data/runtime/fruit-wine-relationships.json",
+  "overall_result": "PASS",
+  "pairing_tiers": {
+    "descriptor": "pairs_with_descriptor",
+    "primary": "pairs_with_style",
+    "secondary": "also_pairs_with_style",
+    "technique": "pairs_with_technique"
+  },
+  "phase": "FOOD-09E",
+  "relationship_type_counts": {
+    "also_pairs_with_style": 68,
+    "pairs_with_descriptor": 44,
+    "pairs_with_style": 119,
+    "pairs_with_technique": 34
+  },
+  "validation_errors": []
+}
