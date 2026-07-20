@@ -1,0 +1,22 @@
+{
+  "domain": "fruit",
+  "metrics": {
+    "Broken links": 0,
+    "Category pages rendered": 1,
+    "Deterministic regeneration": "PASS",
+    "Embedded JSON-LD blocks": 500,
+    "Group pages rendered": 7,
+    "HTML files generated": 127,
+    "Leaf pages rendered": 119,
+    "Overall result": "PASS",
+    "Rendering errors": 0
+  },
+  "outputs": [
+    "dist/fruits",
+    "dist/fruit-groups",
+    "dist/fruit-categories"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-09FG",
+  "validation_errors": []
+}

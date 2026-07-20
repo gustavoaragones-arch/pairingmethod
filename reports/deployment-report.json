@@ -2,19 +2,19 @@
   "deploy_base_url": null,
   "deployment_gate": true,
   "domains": [
-    "grain-starch"
+    "fruit"
   ],
   "metrics": {
     "Broken links": 0,
     "Cache policy verified": true,
     "Canonical URLs verified": 0,
     "Deployment status": "PASS",
-    "HTML pages deployed": 81,
+    "HTML pages deployed": 127,
     "Live verification": "skipped",
     "Redirect issues": 0,
     "Robots.txt verified": true,
-    "Sitemap URLs verified": 524,
-    "Smoke tests passed": "15/15"
+    "Sitemap URLs verified": 570,
+    "Smoke tests passed": "18/18"
   },
   "outputs": [
     "reports/deployment-report.json",

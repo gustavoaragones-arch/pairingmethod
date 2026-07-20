@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "fruit",
+    "food_ontology_version": "1.6.0",
+    "phase": "FOOD-09FA",
+    "projection_count": 1,
+    "projection_type": "fruit_category"
+  },
+  "projections": [
+    {
+      "food_count": 119,
+      "group_count": 7,
+      "groups": [
+        {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        {
+          "id": "food.fruit.melons",
+          "name": "Melons",
+          "slug": "melons"
+        },
+        {
+          "id": "food.fruit.pomes",
+          "name": "Pomes",
+          "slug": "pomes"
+        },
+        {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        }
+      ],
+      "identity": {
+        "id": "food.fruit",
+        "name": "Fruits",
+        "slug": "fruit"
+      }
+    }
+  ]
+}

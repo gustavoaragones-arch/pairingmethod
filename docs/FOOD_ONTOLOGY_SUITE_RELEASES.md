@@ -22,7 +22,7 @@ This principle has been followed in practice since Protein FOOD-02C. FOOD-06C ma
 
 ### Knowledge layer separation (suite-wide)
 
-Proven across six domains (Protein, Cheese, Vegetables, Fungi, Herb & Spice, Grain & Starch):
+Proven across seven domains (Protein, Cheese, Vegetables, Fungi, Herb & Spice, Grain & Starch, Fruit):
 
 | Layer | Source | Modified at publication? |
 |-------|--------|--------------------------|
@@ -105,11 +105,35 @@ Wine pairing decisions must follow the ingredient's **culinary function** in the
 
 **Introduced:** Grain & Starch FOOD-08E · **Applies** to wine pairing layers (FOOD-XXE) across all domains where an ingredient's kitchen role diverges from its botanical or manufacturing source.
 
+### FRUIT-001 — Processing Ownership Rule (Fruit)
+
+When a fruit exists in multiple culinary processing states, governance decides whether a processed form is a **new canonical culinary ingredient** or merely a **preparation state / alias**, following **culinary identity** — not manufacturing process alone.
+
+| Separate canonical entities | Alias / preparation state only |
+|----------------------------|--------------------------------|
+| Grape → Raisin → Golden Raisin → Sultanas | Color or cultivar splits on aliases |
+| Plum → Prune | Fresh vs dried when kitchen behavior diverges |
+| Coconut → Desiccated Coconut → Coconut Milk | Distinct culinary roles per form |
+
+**Introduced:** Fruit FOOD-09A · **Applies** to catalog, runtime, editorial, and wine pairing layers for the Fruit domain and informs cross-domain discipline suite-wide.
+
+### FRUIT-PAIR-001 — Culinary Role Pairing Rule
+
+Wine recommendations for fruit ingredients must follow the fruit's **culinary role as an ingredient**, not simply its botanical origin or sweetness.
+
+| Pairing basis | Examples |
+|---------------|----------|
+| Culinary role in context | Lemon → acidity and freshness; raisin → dried-fruit profile |
+| Processed-form identity | Coconut milk → rich creamy applications; coconut → fresh tropical use |
+| No processing inheritance | Raisin does not inherit fresh grape pairings; prune pairs to braise context, not fresh plum |
+
+**Introduced:** Fruit FOOD-09E · **Applies** to wine pairing layers where processed fruit forms retain distinct kitchen identities per FRUIT-001.
+
 ---
 
 ## Ontology Lifecycle (Suite Standard)
 
-Every published domain follows the **identical six-phase lifecycle**. Phase prefixes differ by domain (`FOOD-02`/`ONTOLOGY-02` for Protein, `FOOD-04` for Cheese, `FOOD-05` for Vegetable, `FOOD-06` for Fungi, `FOOD-07` for Herb & Spice, `FOOD-08` for Grain & Starch) but the stages are the same:
+Every published domain follows the **identical six-phase lifecycle**. Phase prefixes differ by domain (`FOOD-02`/`ONTOLOGY-02` for Protein, `FOOD-04` for Cheese, `FOOD-05` for Vegetable, `FOOD-06` for Fungi, `FOOD-07` for Herb & Spice, `FOOD-08` for Grain & Starch, `FOOD-09` for Fruit) but the stages are the same:
 
 | Stage | Letter | Scope |
 |-------|--------|-------|
@@ -120,7 +144,7 @@ Every published domain follows the **identical six-phase lifecycle**. Phase pref
 | Wine Pairings | E | Curated pairings (separate artifact) |
 | Publication | F | Platform consumption only — no artifact editing |
 
-**No domain-specific lifecycle exceptions** exist among the six published domains.
+**No domain-specific lifecycle exceptions** exist among the seven published domains.
 
 ---
 
@@ -142,21 +166,65 @@ Domain governance documents define **domain-specific** rules only. Suite-wide in
 
 Every suite release note includes this table. It reinforces the primary architectural achievement since Platform v1.0.0: **each new domain increases knowledge, not platform complexity.**
 
-| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 | v1.4.0 | v1.5.0 |
-|--------|--------|--------|--------|--------|--------|--------|
-| Published ontology domains | 1 | 2 | 3 | 4 | 5 | **6** |
-| Canonical entities (leaf) | 207 | 411 | 485 | 528 | 641 | **717** |
-| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | ~85,500+ | ~91,900 | **~93,800** |
-| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | ~370 | ~650 | **~840** |
-| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | ~300 | ~520 | **~700** |
-| Publication lifecycle reuse | 100% | 100% | 100% | 100% | 100% | **100%** |
-| Platform modifications required | 0 | 0 | 0 | 0 | 0 | **0** |
+| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 | v1.4.0 | v1.5.0 | v1.6.0 |
+|--------|--------|--------|--------|--------|--------|--------|--------|
+| Published ontology domains | 1 | 2 | 3 | 4 | 5 | 6 | **7** |
+| Canonical entities (leaf) | 207 | 411 | 485 | 528 | 641 | 717 | **836** |
+| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | ~85,500+ | ~91,900 | ~93,800 | **~97,900** |
+| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | ~370 | ~650 | ~840 | **~1,175** |
+| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | ~300 | ~520 | ~700 | **~960** |
+| Publication lifecycle reuse | 100% | 100% | 100% | 100% | 100% | 100% | **100%** |
+| Platform modifications required | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
 
 *Edge counts are measured from certified runtime artifacts at release time (structural + intrinsic similarity layers for runtime; editorial and wine layers reported separately).*
 
 **Certified totals at v1.4.0 (exact):** runtime structural 91,912 · editorial 650 · wine pairings 522 · leaf entities 641.
 
 **Certified totals at v1.5.0 (exact):** runtime structural 93,829 · editorial 842 · wine pairings 696 · leaf entities 717.
+
+**Certified totals at v1.6.0 (exact):** runtime structural 97,856 · editorial 1,175 · wine pairings 961 · leaf entities 836.
+
+---
+
+## v1.6.0 — Fruit
+
+**Tag:** `food-ontology-suite-v1.6.0`  
+**Commit:** FOOD-09F — Publish Fruit Ontology  
+**Date:** July 19, 2026
+
+### Published domains
+
+| Domain | Catalog version | Leaf entities | Publication paths |
+|--------|-----------------|---------------|-------------------|
+| Protein Foods | 1.0.0 | 207 | `/foods/` |
+| Cheeses | 1.0.0 | 204 | `/cheeses/` |
+| Vegetables | 1.0.0 | 74 | `/vegetables/` |
+| Fungi | 1.0.0 | 43 | `/fungi/` |
+| Herb & Spice | 1.0.0 | 113 | `/herbs-spices/` |
+| Grain & Starch | 1.0.0 | 76 | `/grains-starches/` |
+| Fruit | 1.0.0 | 119 | `/fruits/` |
+
+**Suite total:** 836 canonical leaf entities · 127 new fruit pages (119 leaf + 7 groups + 1 category hub)
+
+### FOOD-09 release certification
+
+| Metric | FOOD-09 |
+|--------|--------:|
+| Canonical fruit entities | 119 |
+| Runtime relationships | 4,027 |
+| Editorial relationships | 333 |
+| Wine relationships | 265 |
+| Publication pages | 127 |
+| Platform modifications required | 0 |
+| Shared publication pipeline reused | 100% |
+
+### Milestone significance
+
+FOOD-09F validates the generalized publication platform across a **seventh independent domain** with zero architectural modification. FRUIT-001 processing ownership and FRUIT-PAIR-001 culinary-role pairing governance were absorbed entirely within the knowledge layer — including distinct pairing profiles for grape/raisin, plum/prune, and coconut form families.
+
+### Platform status at v1.6.0
+
+Publication architecture, runtime architecture, certification pipeline, deployment pipeline, and the six-phase governance lifecycle remain **feature-complete and frozen**. Architectural changes require exceptional justification.
 
 ---
 

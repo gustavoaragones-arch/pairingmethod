@@ -1,0 +1,6925 @@
+{
+  "documents": [
+    {
+      "canonical_path": "/fruits/acai/",
+      "canonical_url": "https://pairingmethod.com/fruits/acai/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Euterpe oleracea"
+      },
+      "display_name": "Açaí",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.acai",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Euterpe oleracea",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "luxury"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.blueberry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.acai",
+      "slug": "acai",
+      "tokens": [
+        "acai",
+        "berries",
+        "euterpe oleracea",
+        "fruits",
+        "luxury"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "pinot-noir",
+          "prosecco"
+        ],
+        "technique_ids": [
+          "carbonic-maceration"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/barberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/barberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Berberis vulgaris"
+      },
+      "display_name": "Barberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.barberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Berberis vulgaris",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.cranberry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.barberry",
+      "slug": "barberry",
+      "tokens": [
+        "accent",
+        "barberry",
+        "berberis vulgaris",
+        "berries",
+        "fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "pinot-noir",
+          "prosecco"
+        ],
+        "technique_ids": [
+          "carbonic-maceration"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/black-currant/",
+      "canonical_url": "https://pairingmethod.com/fruits/black-currant/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Ribes nigrum"
+      },
+      "display_name": "Black Currant",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.black-currant",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Ribes nigrum",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.black-currant",
+      "slug": "black-currant",
+      "tokens": [
+        "accent",
+        "berries",
+        "black currant",
+        "black-currant",
+        "fruits",
+        "ribes nigrum"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "pinot-noir"
+        ],
+        "technique_ids": [
+          "carbonic-maceration"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/blackberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/blackberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Rubus fruticosus"
+      },
+      "display_name": "Blackberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.blackberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Rubus fruticosus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.hard.cheddar",
+          "food.grain.whole-grains.oats"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.berries.blueberry",
+          "food.fruit.berries.marionberry",
+          "food.fruit.berries.mulberry"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.blackberry",
+      "slug": "blackberry",
+      "tokens": [
+        "berries",
+        "blackberry",
+        "fruits",
+        "primary",
+        "rubus fruticosus"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "pinot-noir",
+          "prosecco"
+        ],
+        "technique_ids": [
+          "carbonic-maceration"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/blueberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/blueberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Vaccinium corymbosum"
+      },
+      "display_name": "Blueberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.blueberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Vaccinium corymbosum",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.hard.cheddar",
+          "food.fruit.berries.blackberry",
+          "food.grain.processed-grains.cornmeal",
+          "food.grain.processed-grains.wheat-flour",
+          "food.grain.whole-grains.oats",
+          "food.herb.whole-spices.cinnamon",
+          "food.protein.poultry.chicken-breast"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.berries.blackberry"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.blueberry",
+      "slug": "blueberry",
+      "tokens": [
+        "berries",
+        "blueberry",
+        "fruits",
+        "primary",
+        "vaccinium corymbosum"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "pinot-noir",
+          "prosecco"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/boysenberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/boysenberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Rubus ursinus × idaeus"
+      },
+      "display_name": "Boysenberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.boysenberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Rubus ursinus × idaeus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.marionberry"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.berries.loganberry"
+        ],
+        "substitutions_ids": [
+          "food.fruit.berries.blackberry"
+        ]
+      },
+      "projection_id": "food.fruit.berries.boysenberry",
+      "slug": "boysenberry",
+      "tokens": [
+        "accent",
+        "berries",
+        "boysenberry",
+        "fruits",
+        "rubus ursinus × idaeus"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "pinot-noir"
+        ],
+        "technique_ids": [
+          "carbonic-maceration"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/cloudberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/cloudberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Rubus chamaemorus"
+      },
+      "display_name": "Cloudberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.cloudberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Rubus chamaemorus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "luxury"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.lingonberry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.cloudberry",
+      "slug": "cloudberry",
+      "tokens": [
+        "berries",
+        "cloudberry",
+        "fruits",
+        "luxury",
+        "rubus chamaemorus"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "pinot-noir"
+        ],
+        "technique_ids": [
+          "carbonic-maceration"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/cranberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/cranberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Vaccinium macrocarpon"
+      },
+      "display_name": "Cranberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.cranberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Vaccinium macrocarpon",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.brined.feta",
+          "food.fruit.berries.blueberry",
+          "food.grain.processed-grains.cornmeal",
+          "food.grain.whole-grains.oats",
+          "food.protein.pork.pork-loin",
+          "food.protein.poultry.chicken-thigh"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.berries.lingonberry"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.cranberry",
+      "slug": "cranberry",
+      "tokens": [
+        "accent",
+        "berries",
+        "cranberry",
+        "fruits",
+        "vaccinium macrocarpon"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "pinot-noir"
+        ],
+        "technique_ids": [
+          "carbonic-maceration"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/elderberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/elderberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Sambucus nigra"
+      },
+      "display_name": "Elderberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.elderberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Sambucus nigra",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.blackberry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.elderberry",
+      "slug": "elderberry",
+      "tokens": [
+        "accent",
+        "berries",
+        "elderberry",
+        "fruits",
+        "sambucus nigra"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "pinot-noir",
+          "prosecco"
+        ],
+        "technique_ids": [
+          "carbonic-maceration"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/goji-berry/",
+      "canonical_url": "https://pairingmethod.com/fruits/goji-berry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Lycium barbarum"
+      },
+      "display_name": "Goji Berry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.goji-berry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Lycium barbarum",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.cranberry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.goji-berry",
+      "slug": "goji-berry",
+      "tokens": [
+        "accent",
+        "berries",
+        "fruits",
+        "goji berry",
+        "goji-berry",
+        "lycium barbarum"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "pinot-noir",
+          "prosecco"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/gooseberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/gooseberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Ribes uva-crispa"
+      },
+      "display_name": "Gooseberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.gooseberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Ribes uva-crispa",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.red-currant",
+          "food.protein.pork.pork-loin"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.berries.red-currant"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.gooseberry",
+      "slug": "gooseberry",
+      "tokens": [
+        "accent",
+        "berries",
+        "fruits",
+        "gooseberry",
+        "ribes uva-crispa"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "pinot-noir",
+          "prosecco"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/grape/",
+      "canonical_url": "https://pairingmethod.com/fruits/grape/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Vitis vinifera"
+      },
+      "display_name": "Grape",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.grape",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Vitis vinifera",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.bloomy-rind.brie-de-meaux",
+          "food.cheese.hard.cheddar",
+          "food.fruit.tropical-fruits.fig",
+          "food.fungi.cultivated-mushrooms.shiitake",
+          "food.grain.whole-grains.rice",
+          "food.herb.whole-spices.black-pepper",
+          "food.protein.pork.pork-loin",
+          "food.protein.poultry.chicken-breast"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.grape",
+      "slug": "grape",
+      "tokens": [
+        "berries",
+        "fruits",
+        "grape",
+        "primary",
+        "vitis vinifera"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "primary-fruit"
+        ],
+        "style_ids": [
+          "pinot-noir",
+          "prosecco"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/huckleberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/huckleberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Vaccinium membranaceum"
+      },
+      "display_name": "Huckleberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.huckleberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Vaccinium membranaceum",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.blueberry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.huckleberry",
+      "slug": "huckleberry",
+      "tokens": [
+        "accent",
+        "berries",
+        "fruits",
+        "huckleberry",
+        "vaccinium membranaceum"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "pinot-noir",
+          "prosecco"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/juniper-berry/",
+      "canonical_url": "https://pairingmethod.com/fruits/juniper-berry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Juniperus communis"
+      },
+      "display_name": "Juniper Berry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.juniper-berry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Juniperus communis",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.barberry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.juniper-berry",
+      "slug": "juniper-berry",
+      "tokens": [
+        "accent",
+        "berries",
+        "fruits",
+        "juniper berry",
+        "juniper-berry",
+        "juniperus communis"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "pinot-noir",
+          "prosecco"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/lingonberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/lingonberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Vaccinium vitis-idaea"
+      },
+      "display_name": "Lingonberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.lingonberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Vaccinium vitis-idaea",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [
+          "food.fruit.berries.cranberry"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.lingonberry",
+      "slug": "lingonberry",
+      "tokens": [
+        "accent",
+        "berries",
+        "fruits",
+        "lingonberry",
+        "vaccinium vitis-idaea"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "pinot-noir",
+          "prosecco"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/loganberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/loganberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Rubus × loganobaccus"
+      },
+      "display_name": "Loganberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.loganberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Rubus × loganobaccus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [
+          "food.fruit.berries.boysenberry"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.loganberry",
+      "slug": "loganberry",
+      "tokens": [
+        "accent",
+        "berries",
+        "fruits",
+        "loganberry",
+        "rubus × loganobaccus"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "pinot-noir"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/marionberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/marionberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Rubus L. subgenus"
+      },
+      "display_name": "Marionberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.marionberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Rubus L. subgenus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [
+          "food.fruit.berries.blackberry"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.marionberry",
+      "slug": "marionberry",
+      "tokens": [
+        "accent",
+        "berries",
+        "fruits",
+        "marionberry",
+        "rubus l. subgenus"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "pinot-noir"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/mulberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/mulberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Morus alba"
+      },
+      "display_name": "Mulberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.mulberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Morus alba",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [
+          "food.fruit.berries.blackberry"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.mulberry",
+      "slug": "mulberry",
+      "tokens": [
+        "accent",
+        "berries",
+        "fruits",
+        "morus alba",
+        "mulberry"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "pinot-noir"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/raspberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/raspberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Rubus idaeus"
+      },
+      "display_name": "Raspberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.raspberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Rubus idaeus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.fresh.goat-chevre-log",
+          "food.fruit.berries.blackberry",
+          "food.grain.processed-grains.wheat-flour",
+          "food.herb.whole-spices.vanilla-bean"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.raspberry",
+      "slug": "raspberry",
+      "tokens": [
+        "berries",
+        "fruits",
+        "primary",
+        "raspberry",
+        "rubus idaeus"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "pinot-noir"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/red-currant/",
+      "canonical_url": "https://pairingmethod.com/fruits/red-currant/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Ribes rubrum"
+      },
+      "display_name": "Red Currant",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.red-currant",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Ribes rubrum",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.black-currant"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.berries.gooseberry"
+        ],
+        "substitutions_ids": [
+          "food.fruit.berries.black-currant"
+        ]
+      },
+      "projection_id": "food.fruit.berries.red-currant",
+      "slug": "red-currant",
+      "tokens": [
+        "accent",
+        "berries",
+        "fruits",
+        "red currant",
+        "red-currant",
+        "ribes rubrum"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "pinot-noir",
+          "prosecco"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/sea-buckthorn/",
+      "canonical_url": "https://pairingmethod.com/fruits/sea-buckthorn/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Hippophae rhamnoides"
+      },
+      "display_name": "Sea Buckthorn",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.sea-buckthorn",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Hippophae rhamnoides",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.sea-buckthorn",
+      "slug": "sea-buckthorn",
+      "tokens": [
+        "accent",
+        "berries",
+        "fruits",
+        "hippophae rhamnoides",
+        "sea buckthorn",
+        "sea-buckthorn"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "pinot-noir",
+          "prosecco"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/strawberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/strawberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Fragaria × ananassa"
+      },
+      "display_name": "Strawberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.strawberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Fragaria × ananassa",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.bloomy-rind.brie-de-meaux",
+          "food.cheese.fresh.goat-chevre-log",
+          "food.fruit.berries.blueberry",
+          "food.fruit.berries.raspberry",
+          "food.grain.whole-grains.oats",
+          "food.herb.whole-spices.black-pepper",
+          "food.herb.whole-spices.vanilla-bean",
+          "food.protein.crustaceans.shrimp",
+          "food.protein.fin-fish.salmon-fillet"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.strawberry",
+      "slug": "strawberry",
+      "tokens": [
+        "berries",
+        "fragaria × ananassa",
+        "fruits",
+        "primary",
+        "strawberry"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "pinot-noir",
+          "prosecco"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/tayberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/tayberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Rubus fruticosus × idaeus"
+      },
+      "display_name": "Tayberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.tayberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Rubus fruticosus × idaeus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.loganberry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.tayberry",
+      "slug": "tayberry",
+      "tokens": [
+        "accent",
+        "berries",
+        "fruits",
+        "rubus fruticosus × idaeus",
+        "tayberry"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "pinot-noir"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/wineberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/wineberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "berries",
+        "group": {
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        "scientific_name": "Rubus phoenicolasius"
+      },
+      "display_name": "Wineberry",
+      "document_type": "fruit",
+      "id": "food.fruit.berries.wineberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "berries",
+        "flavor_profile": [],
+        "scientific_name": "Rubus phoenicolasius",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.raspberry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.berries.wineberry",
+      "slug": "wineberry",
+      "tokens": [
+        "accent",
+        "berries",
+        "fruits",
+        "rubus phoenicolasius",
+        "wineberry"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "pinot-noir"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/bergamot/",
+      "canonical_url": "https://pairingmethod.com/fruits/bergamot/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus bergamia"
+      },
+      "display_name": "Bergamot",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.bergamot",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus bergamia",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "luxury"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.citrus.lemon"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.citrus.lemon"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.citrus.bergamot",
+      "slug": "bergamot",
+      "tokens": [
+        "bergamot",
+        "citrus",
+        "citrus bergamia",
+        "fruits",
+        "luxury"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "citrus-zest"
+        ],
+        "style_ids": [
+          "albarino"
+        ],
+        "technique_ids": [
+          "cold-fermentation"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/blood-orange/",
+      "canonical_url": "https://pairingmethod.com/fruits/blood-orange/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus sinensis"
+      },
+      "display_name": "Blood Orange",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.blood-orange",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus sinensis",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.citrus.orange",
+          "food.protein.fin-fish.salmon-fillet",
+          "food.vegetable.nightshades.tomato"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.citrus.orange"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.citrus.blood-orange",
+      "slug": "blood-orange",
+      "tokens": [
+        "accent",
+        "blood orange",
+        "blood-orange",
+        "citrus",
+        "citrus sinensis",
+        "fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "albarino"
+        ],
+        "technique_ids": [
+          "cold-fermentation"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/calamansi/",
+      "canonical_url": "https://pairingmethod.com/fruits/calamansi/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus microcarpa"
+      },
+      "display_name": "Calamansi",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.calamansi",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus microcarpa",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.citrus.lime"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.citrus.key-lime"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.citrus.calamansi",
+      "slug": "calamansi",
+      "tokens": [
+        "accent",
+        "calamansi",
+        "citrus",
+        "citrus microcarpa",
+        "fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "albarino",
+          "sauvignon-blanc"
+        ],
+        "technique_ids": [
+          "cold-fermentation"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/citron/",
+      "canonical_url": "https://pairingmethod.com/fruits/citron/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus medica"
+      },
+      "display_name": "Citron",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.citron",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus medica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.citrus.lemon"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.citrus.citron",
+      "slug": "citron",
+      "tokens": [
+        "accent",
+        "citron",
+        "citrus",
+        "citrus medica",
+        "fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "citrus-zest"
+        ],
+        "style_ids": [
+          "albarino"
+        ],
+        "technique_ids": [
+          "cold-fermentation"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/clementine/",
+      "canonical_url": "https://pairingmethod.com/fruits/clementine/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus clementina"
+      },
+      "display_name": "Clementine",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.clementine",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus clementina",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [
+          "food.fruit.citrus.tangerine"
+        ],
+        "substitutions_ids": [
+          "food.fruit.citrus.tangerine"
+        ]
+      },
+      "projection_id": "food.fruit.citrus.clementine",
+      "slug": "clementine",
+      "tokens": [
+        "accent",
+        "citrus",
+        "citrus clementina",
+        "clementine",
+        "fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "albarino",
+          "sauvignon-blanc"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/grapefruit/",
+      "canonical_url": "https://pairingmethod.com/fruits/grapefruit/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus paradisi"
+      },
+      "display_name": "Grapefruit",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.grapefruit",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus paradisi",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.brined.feta",
+          "food.fruit.citrus.pomelo",
+          "food.protein.crustaceans.shrimp",
+          "food.protein.fin-fish.salmon-fillet",
+          "food.vegetable.green-vegetables.spinach"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.citrus.pomelo"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.citrus.grapefruit",
+      "slug": "grapefruit",
+      "tokens": [
+        "citrus",
+        "citrus paradisi",
+        "fruits",
+        "grapefruit",
+        "primary"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "albarino",
+          "sauvignon-blanc"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/key-lime/",
+      "canonical_url": "https://pairingmethod.com/fruits/key-lime/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus aurantiifolia"
+      },
+      "display_name": "Key Lime",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.key-lime",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus aurantiifolia",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [
+          "food.fruit.citrus.calamansi",
+          "food.fruit.citrus.lime"
+        ],
+        "substitutions_ids": [
+          "food.fruit.citrus.lime"
+        ]
+      },
+      "projection_id": "food.fruit.citrus.key-lime",
+      "slug": "key-lime",
+      "tokens": [
+        "accent",
+        "citrus",
+        "citrus aurantiifolia",
+        "fruits",
+        "key lime",
+        "key-lime"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "albarino"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/kumquat/",
+      "canonical_url": "https://pairingmethod.com/fruits/kumquat/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Fortunella margarita"
+      },
+      "display_name": "Kumquat",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.kumquat",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Fortunella margarita",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.brined.feta",
+          "food.fruit.citrus.mandarin",
+          "food.protein.poultry.chicken-breast"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.citrus.kumquat",
+      "slug": "kumquat",
+      "tokens": [
+        "accent",
+        "citrus",
+        "fortunella margarita",
+        "fruits",
+        "kumquat"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "citrus-zest"
+        ],
+        "style_ids": [
+          "albarino"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/lemon/",
+      "canonical_url": "https://pairingmethod.com/fruits/lemon/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus limon"
+      },
+      "display_name": "Lemon",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.lemon",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus limon",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.citrus.lime",
+          "food.fungi.cultivated-mushrooms.shiitake",
+          "food.herb.dried-herbs.rosemary",
+          "food.herb.fresh-herbs.basil",
+          "food.protein.beef.ribeye",
+          "food.protein.crustaceans.shrimp",
+          "food.protein.fin-fish.salmon-fillet",
+          "food.protein.pork.pork-loin",
+          "food.protein.poultry.chicken-breast",
+          "food.vegetable.alliums.garlic",
+          "food.vegetable.green-vegetables.asparagus"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.citrus.bergamot",
+          "food.fruit.citrus.lime"
+        ],
+        "substitutions_ids": [
+          "food.fruit.citrus.lime"
+        ]
+      },
+      "projection_id": "food.fruit.citrus.lemon",
+      "slug": "lemon",
+      "tokens": [
+        "accent",
+        "citrus",
+        "citrus limon",
+        "fruits",
+        "lemon"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "albarino",
+          "sauvignon-blanc"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/lime/",
+      "canonical_url": "https://pairingmethod.com/fruits/lime/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus aurantiifolia"
+      },
+      "display_name": "Lime",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.lime",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus aurantiifolia",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fungi.cultivated-mushrooms.shiitake",
+          "food.protein.beef.ribeye",
+          "food.protein.crustaceans.shrimp",
+          "food.protein.fin-fish.salmon-fillet",
+          "food.protein.pork.pork-loin",
+          "food.vegetable.alliums.onion",
+          "food.vegetable.nightshades.tomato"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.citrus.key-lime",
+          "food.fruit.citrus.lemon"
+        ],
+        "substitutions_ids": [
+          "food.fruit.citrus.lemon"
+        ]
+      },
+      "projection_id": "food.fruit.citrus.lime",
+      "slug": "lime",
+      "tokens": [
+        "accent",
+        "citrus",
+        "citrus aurantiifolia",
+        "fruits",
+        "lime"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "high-acidity"
+        ],
+        "style_ids": [
+          "albarino",
+          "sauvignon-blanc"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/mandarin/",
+      "canonical_url": "https://pairingmethod.com/fruits/mandarin/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus reticulata"
+      },
+      "display_name": "Mandarin",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.mandarin",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus reticulata",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.citrus.tangerine"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.citrus.satsuma",
+          "food.fruit.citrus.tangerine"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.citrus.mandarin",
+      "slug": "mandarin",
+      "tokens": [
+        "citrus",
+        "citrus reticulata",
+        "fruits",
+        "mandarin",
+        "primary"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "albarino",
+          "sauvignon-blanc"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/orange/",
+      "canonical_url": "https://pairingmethod.com/fruits/orange/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus sinensis"
+      },
+      "display_name": "Orange",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.orange",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus sinensis",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.citrus.grapefruit",
+          "food.fruit.citrus.lemon",
+          "food.fungi.wild-mushrooms.chanterelle",
+          "food.grain.whole-grains.rice",
+          "food.herb.dried-herbs.rosemary",
+          "food.herb.whole-spices.cinnamon",
+          "food.protein.fin-fish.salmon-fillet",
+          "food.protein.pork.pork-loin",
+          "food.protein.poultry.chicken-breast",
+          "food.vegetable.nightshades.tomato"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.citrus.blood-orange"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.citrus.orange",
+      "slug": "orange",
+      "tokens": [
+        "citrus",
+        "citrus sinensis",
+        "fruits",
+        "orange",
+        "primary"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "albarino",
+          "sauvignon-blanc"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/pomelo/",
+      "canonical_url": "https://pairingmethod.com/fruits/pomelo/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus maxima"
+      },
+      "display_name": "Pomelo",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.pomelo",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus maxima",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [
+          "food.fruit.citrus.grapefruit"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.citrus.pomelo",
+      "slug": "pomelo",
+      "tokens": [
+        "accent",
+        "citrus",
+        "citrus maxima",
+        "fruits",
+        "pomelo"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "albarino",
+          "sauvignon-blanc"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/satsuma/",
+      "canonical_url": "https://pairingmethod.com/fruits/satsuma/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus unshiu"
+      },
+      "display_name": "Satsuma",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.satsuma",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus unshiu",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [
+          "food.fruit.citrus.mandarin"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.citrus.satsuma",
+      "slug": "satsuma",
+      "tokens": [
+        "accent",
+        "citrus",
+        "citrus unshiu",
+        "fruits",
+        "satsuma"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "albarino"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/sudachi/",
+      "canonical_url": "https://pairingmethod.com/fruits/sudachi/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus sudachi"
+      },
+      "display_name": "Sudachi",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.sudachi",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus sudachi",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "luxury"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [
+          "food.fruit.citrus.yuzu"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.citrus.sudachi",
+      "slug": "sudachi",
+      "tokens": [
+        "citrus",
+        "citrus sudachi",
+        "fruits",
+        "luxury",
+        "sudachi"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "albarino"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/tangerine/",
+      "canonical_url": "https://pairingmethod.com/fruits/tangerine/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus tangerina"
+      },
+      "display_name": "Tangerine",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.tangerine",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus tangerina",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [
+          "food.fruit.citrus.clementine",
+          "food.fruit.citrus.mandarin"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.citrus.tangerine",
+      "slug": "tangerine",
+      "tokens": [
+        "accent",
+        "citrus",
+        "citrus tangerina",
+        "fruits",
+        "tangerine"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "albarino"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/yuzu/",
+      "canonical_url": "https://pairingmethod.com/fruits/yuzu/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "citrus",
+        "group": {
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        "scientific_name": "Citrus junos"
+      },
+      "display_name": "Yuzu",
+      "document_type": "fruit",
+      "id": "food.fruit.citrus.yuzu",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "citrus",
+        "flavor_profile": [],
+        "scientific_name": "Citrus junos",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "luxury"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.citrus.lemon",
+          "food.protein.crustaceans.shrimp",
+          "food.protein.fin-fish.salmon-fillet"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.citrus.sudachi"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.citrus.yuzu",
+      "slug": "yuzu",
+      "tokens": [
+        "citrus",
+        "citrus junos",
+        "fruits",
+        "luxury",
+        "yuzu"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "albarino"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/canary-melon/",
+      "canonical_url": "https://pairingmethod.com/fruits/canary-melon/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "melons",
+        "group": {
+          "id": "food.fruit.melons",
+          "name": "Melons",
+          "slug": "melons"
+        },
+        "scientific_name": "Cucumis melo"
+      },
+      "display_name": "Canary Melon",
+      "document_type": "fruit",
+      "id": "food.fruit.melons.canary-melon",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "melons",
+        "flavor_profile": [],
+        "scientific_name": "Cucumis melo",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.melons.honeydew"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.melons.canary-melon",
+      "slug": "canary-melon",
+      "tokens": [
+        "accent",
+        "canary melon",
+        "canary-melon",
+        "cucumis melo",
+        "fruits",
+        "melons"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "dry-rose"
+        ],
+        "technique_ids": [
+          "cold-fermentation"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/cantaloupe/",
+      "canonical_url": "https://pairingmethod.com/fruits/cantaloupe/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "melons",
+        "group": {
+          "id": "food.fruit.melons",
+          "name": "Melons",
+          "slug": "melons"
+        },
+        "scientific_name": "Cucumis melo"
+      },
+      "display_name": "Cantaloupe",
+      "document_type": "fruit",
+      "id": "food.fruit.melons.cantaloupe",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "melons",
+        "flavor_profile": [],
+        "scientific_name": "Cucumis melo",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.melons.honeydew"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.melons.galia-melon",
+          "food.fruit.melons.honeydew"
+        ],
+        "substitutions_ids": [
+          "food.fruit.melons.honeydew"
+        ]
+      },
+      "projection_id": "food.fruit.melons.cantaloupe",
+      "slug": "cantaloupe",
+      "tokens": [
+        "cantaloupe",
+        "cucumis melo",
+        "fruits",
+        "melons",
+        "primary"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "dry-rose"
+        ],
+        "technique_ids": [
+          "cold-fermentation"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/casaba-melon/",
+      "canonical_url": "https://pairingmethod.com/fruits/casaba-melon/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "melons",
+        "group": {
+          "id": "food.fruit.melons",
+          "name": "Melons",
+          "slug": "melons"
+        },
+        "scientific_name": "Cucumis melo"
+      },
+      "display_name": "Casaba Melon",
+      "document_type": "fruit",
+      "id": "food.fruit.melons.casaba-melon",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "melons",
+        "flavor_profile": [],
+        "scientific_name": "Cucumis melo",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.melons.casaba-melon",
+      "slug": "casaba-melon",
+      "tokens": [
+        "accent",
+        "casaba melon",
+        "casaba-melon",
+        "cucumis melo",
+        "fruits",
+        "melons"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "albarino",
+          "dry-rose"
+        ],
+        "technique_ids": [
+          "cold-fermentation"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/crenshaw-melon/",
+      "canonical_url": "https://pairingmethod.com/fruits/crenshaw-melon/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "melons",
+        "group": {
+          "id": "food.fruit.melons",
+          "name": "Melons",
+          "slug": "melons"
+        },
+        "scientific_name": "Cucumis melo"
+      },
+      "display_name": "Crenshaw Melon",
+      "document_type": "fruit",
+      "id": "food.fruit.melons.crenshaw-melon",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "melons",
+        "flavor_profile": [],
+        "scientific_name": "Cucumis melo",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.melons.cantaloupe"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.melons.crenshaw-melon",
+      "slug": "crenshaw-melon",
+      "tokens": [
+        "accent",
+        "crenshaw melon",
+        "crenshaw-melon",
+        "cucumis melo",
+        "fruits",
+        "melons"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "albarino",
+          "dry-rose"
+        ],
+        "technique_ids": [
+          "cold-fermentation"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/galia-melon/",
+      "canonical_url": "https://pairingmethod.com/fruits/galia-melon/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "melons",
+        "group": {
+          "id": "food.fruit.melons",
+          "name": "Melons",
+          "slug": "melons"
+        },
+        "scientific_name": "Cucumis melo"
+      },
+      "display_name": "Galia Melon",
+      "document_type": "fruit",
+      "id": "food.fruit.melons.galia-melon",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "melons",
+        "flavor_profile": [],
+        "scientific_name": "Cucumis melo",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.melons.honeydew"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.melons.cantaloupe"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.melons.galia-melon",
+      "slug": "galia-melon",
+      "tokens": [
+        "accent",
+        "cucumis melo",
+        "fruits",
+        "galia melon",
+        "galia-melon",
+        "melons"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "dry-rose"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/honeydew/",
+      "canonical_url": "https://pairingmethod.com/fruits/honeydew/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "melons",
+        "group": {
+          "id": "food.fruit.melons",
+          "name": "Melons",
+          "slug": "melons"
+        },
+        "scientific_name": "Cucumis melo"
+      },
+      "display_name": "Honeydew",
+      "document_type": "fruit",
+      "id": "food.fruit.melons.honeydew",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "melons",
+        "flavor_profile": [],
+        "scientific_name": "Cucumis melo",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [
+          "food.fruit.melons.cantaloupe"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.melons.honeydew",
+      "slug": "honeydew",
+      "tokens": [
+        "cucumis melo",
+        "fruits",
+        "honeydew",
+        "melons",
+        "primary"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "albarino",
+          "dry-rose"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/horned-melon/",
+      "canonical_url": "https://pairingmethod.com/fruits/horned-melon/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "melons",
+        "group": {
+          "id": "food.fruit.melons",
+          "name": "Melons",
+          "slug": "melons"
+        },
+        "scientific_name": "Cucumis metuliferus"
+      },
+      "display_name": "Horned Melon",
+      "document_type": "fruit",
+      "id": "food.fruit.melons.horned-melon",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "melons",
+        "flavor_profile": [],
+        "scientific_name": "Cucumis metuliferus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.passion-fruit"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.melons.horned-melon",
+      "slug": "horned-melon",
+      "tokens": [
+        "accent",
+        "cucumis metuliferus",
+        "fruits",
+        "horned melon",
+        "horned-melon",
+        "melons"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "dry-rose"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/piel-de-sapo/",
+      "canonical_url": "https://pairingmethod.com/fruits/piel-de-sapo/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "melons",
+        "group": {
+          "id": "food.fruit.melons",
+          "name": "Melons",
+          "slug": "melons"
+        },
+        "scientific_name": "Cucumis melo"
+      },
+      "display_name": "Piel de Sapo",
+      "document_type": "fruit",
+      "id": "food.fruit.melons.piel-de-sapo",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "melons",
+        "flavor_profile": [],
+        "scientific_name": "Cucumis melo",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.melons.cantaloupe"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.melons.piel-de-sapo",
+      "slug": "piel-de-sapo",
+      "tokens": [
+        "accent",
+        "cucumis melo",
+        "fruits",
+        "melons",
+        "piel de sapo",
+        "piel-de-sapo"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "albarino",
+          "dry-rose"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/watermelon/",
+      "canonical_url": "https://pairingmethod.com/fruits/watermelon/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "melons",
+        "group": {
+          "id": "food.fruit.melons",
+          "name": "Melons",
+          "slug": "melons"
+        },
+        "scientific_name": "Citrullus lanatus"
+      },
+      "display_name": "Watermelon",
+      "document_type": "fruit",
+      "id": "food.fruit.melons.watermelon",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "melons",
+        "flavor_profile": [],
+        "scientific_name": "Citrullus lanatus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.brined.feta",
+          "food.fruit.melons.cantaloupe",
+          "food.fruit.melons.honeydew",
+          "food.herb.fresh-herbs.mint",
+          "food.herb.whole-spices.black-pepper",
+          "food.protein.charcuterie.prosciutto",
+          "food.vegetable.alliums.onion"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.melons.watermelon",
+      "slug": "watermelon",
+      "tokens": [
+        "citrullus lanatus",
+        "fruits",
+        "melons",
+        "primary",
+        "watermelon"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "dry-rose"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/apple/",
+      "canonical_url": "https://pairingmethod.com/fruits/apple/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "pomes",
+        "group": {
+          "id": "food.fruit.pomes",
+          "name": "Pomes",
+          "slug": "pomes"
+        },
+        "scientific_name": "Malus domestica"
+      },
+      "display_name": "Apple",
+      "document_type": "fruit",
+      "id": "food.fruit.pomes.apple",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "pomes",
+        "flavor_profile": [],
+        "scientific_name": "Malus domestica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.bloomy-rind.brie-de-meaux",
+          "food.cheese.hard.cheddar",
+          "food.fruit.pomes.crabapple",
+          "food.fruit.pomes.pear",
+          "food.fruit.pomes.quince",
+          "food.fungi.wild-mushrooms.porcini",
+          "food.grain.processed-grains.cornmeal",
+          "food.grain.processed-grains.wheat-flour",
+          "food.grain.whole-grains.oats",
+          "food.herb.dried-herbs.rosemary",
+          "food.herb.whole-spices.cinnamon",
+          "food.protein.beef.ribeye",
+          "food.protein.pork.pork-loin",
+          "food.protein.poultry.chicken-breast",
+          "food.vegetable.alliums.onion",
+          "food.vegetable.nightshades.tomato",
+          "food.vegetable.root-vegetables.carrot"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.pomes.apple",
+      "slug": "apple",
+      "tokens": [
+        "apple",
+        "fruits",
+        "malus domestica",
+        "pomes",
+        "primary"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "chenin-blanc",
+          "riesling"
+        ],
+        "technique_ids": [
+          "malolactic-fermentation"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/asian-pear/",
+      "canonical_url": "https://pairingmethod.com/fruits/asian-pear/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "pomes",
+        "group": {
+          "id": "food.fruit.pomes",
+          "name": "Pomes",
+          "slug": "pomes"
+        },
+        "scientific_name": "Pyrus pyrifolia"
+      },
+      "display_name": "Asian Pear",
+      "document_type": "fruit",
+      "id": "food.fruit.pomes.asian-pear",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "pomes",
+        "flavor_profile": [],
+        "scientific_name": "Pyrus pyrifolia",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.pomes.pear"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.pomes.pear"
+        ],
+        "substitutions_ids": [
+          "food.fruit.pomes.pear"
+        ]
+      },
+      "projection_id": "food.fruit.pomes.asian-pear",
+      "slug": "asian-pear",
+      "tokens": [
+        "asian pear",
+        "asian-pear",
+        "fruits",
+        "pomes",
+        "primary",
+        "pyrus pyrifolia"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "chenin-blanc",
+          "riesling"
+        ],
+        "technique_ids": [
+          "malolactic-fermentation"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/crabapple/",
+      "canonical_url": "https://pairingmethod.com/fruits/crabapple/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "pomes",
+        "group": {
+          "id": "food.fruit.pomes",
+          "name": "Pomes",
+          "slug": "pomes"
+        },
+        "scientific_name": "Malus sylvestris"
+      },
+      "display_name": "Crabapple",
+      "document_type": "fruit",
+      "id": "food.fruit.pomes.crabapple",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "pomes",
+        "flavor_profile": [],
+        "scientific_name": "Malus sylvestris",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.pomes.crabapple",
+      "slug": "crabapple",
+      "tokens": [
+        "accent",
+        "crabapple",
+        "fruits",
+        "malus sylvestris",
+        "pomes"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "tart"
+        ],
+        "style_ids": [
+          "chenin-blanc",
+          "riesling"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/hawthorn/",
+      "canonical_url": "https://pairingmethod.com/fruits/hawthorn/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "pomes",
+        "group": {
+          "id": "food.fruit.pomes",
+          "name": "Pomes",
+          "slug": "pomes"
+        },
+        "scientific_name": "Crataegus monogyna"
+      },
+      "display_name": "Hawthorn",
+      "document_type": "fruit",
+      "id": "food.fruit.pomes.hawthorn",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "pomes",
+        "flavor_profile": [],
+        "scientific_name": "Crataegus monogyna",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.pomes.crabapple"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.pomes.hawthorn",
+      "slug": "hawthorn",
+      "tokens": [
+        "accent",
+        "crataegus monogyna",
+        "fruits",
+        "hawthorn",
+        "pomes"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "chenin-blanc"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/loquat/",
+      "canonical_url": "https://pairingmethod.com/fruits/loquat/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "pomes",
+        "group": {
+          "id": "food.fruit.pomes",
+          "name": "Pomes",
+          "slug": "pomes"
+        },
+        "scientific_name": "Eriobotrya japonica"
+      },
+      "display_name": "Loquat",
+      "document_type": "fruit",
+      "id": "food.fruit.pomes.loquat",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "pomes",
+        "flavor_profile": [],
+        "scientific_name": "Eriobotrya japonica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.stone-fruits.apricot"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.pomes.loquat",
+      "slug": "loquat",
+      "tokens": [
+        "accent",
+        "eriobotrya japonica",
+        "fruits",
+        "loquat",
+        "pomes"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "chenin-blanc",
+          "riesling"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/medlar/",
+      "canonical_url": "https://pairingmethod.com/fruits/medlar/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "pomes",
+        "group": {
+          "id": "food.fruit.pomes",
+          "name": "Pomes",
+          "slug": "pomes"
+        },
+        "scientific_name": "Mespilus germanica"
+      },
+      "display_name": "Medlar",
+      "document_type": "fruit",
+      "id": "food.fruit.pomes.medlar",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "pomes",
+        "flavor_profile": [],
+        "scientific_name": "Mespilus germanica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "luxury"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.pomes.quince"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.pomes.medlar",
+      "slug": "medlar",
+      "tokens": [
+        "fruits",
+        "luxury",
+        "medlar",
+        "mespilus germanica",
+        "pomes"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "chenin-blanc",
+          "riesling"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/pear/",
+      "canonical_url": "https://pairingmethod.com/fruits/pear/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "pomes",
+        "group": {
+          "id": "food.fruit.pomes",
+          "name": "Pomes",
+          "slug": "pomes"
+        },
+        "scientific_name": "Pyrus communis"
+      },
+      "display_name": "Pear",
+      "document_type": "fruit",
+      "id": "food.fruit.pomes.pear",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "pomes",
+        "flavor_profile": [],
+        "scientific_name": "Pyrus communis",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.blue.gorgonzola",
+          "food.cheese.hard.parmigiano-reggiano",
+          "food.fruit.pomes.quince",
+          "food.fungi.cultivated-mushrooms.shiitake",
+          "food.fungi.wild-mushrooms.porcini",
+          "food.herb.dried-herbs.rosemary",
+          "food.herb.whole-spices.cinnamon",
+          "food.protein.beef.ribeye",
+          "food.protein.charcuterie.prosciutto",
+          "food.protein.poultry.chicken-breast",
+          "food.vegetable.green-vegetables.spinach"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.pomes.asian-pear",
+          "food.fruit.pomes.quince"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.pomes.pear",
+      "slug": "pear",
+      "tokens": [
+        "fruits",
+        "pear",
+        "pomes",
+        "primary",
+        "pyrus communis"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "chenin-blanc",
+          "riesling"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/quince/",
+      "canonical_url": "https://pairingmethod.com/fruits/quince/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "pomes",
+        "group": {
+          "id": "food.fruit.pomes",
+          "name": "Pomes",
+          "slug": "pomes"
+        },
+        "scientific_name": "Cydonia oblonga"
+      },
+      "display_name": "Quince",
+      "document_type": "fruit",
+      "id": "food.fruit.pomes.quince",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "pomes",
+        "flavor_profile": [],
+        "scientific_name": "Cydonia oblonga",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.hard.parmigiano-reggiano",
+          "food.fruit.pomes.apple"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.pomes.pear"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.pomes.quince",
+      "slug": "quince",
+      "tokens": [
+        "accent",
+        "cydonia oblonga",
+        "fruits",
+        "pomes",
+        "quince"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "chenin-blanc",
+          "riesling"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/rowan/",
+      "canonical_url": "https://pairingmethod.com/fruits/rowan/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "pomes",
+        "group": {
+          "id": "food.fruit.pomes",
+          "name": "Pomes",
+          "slug": "pomes"
+        },
+        "scientific_name": "Sorbus aucuparia"
+      },
+      "display_name": "Rowan",
+      "document_type": "fruit",
+      "id": "food.fruit.pomes.rowan",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "pomes",
+        "flavor_profile": [],
+        "scientific_name": "Sorbus aucuparia",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.cranberry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.pomes.rowan",
+      "slug": "rowan",
+      "tokens": [
+        "accent",
+        "fruits",
+        "pomes",
+        "rowan",
+        "sorbus aucuparia"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "chenin-blanc"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/serviceberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/serviceberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "pomes",
+        "group": {
+          "id": "food.fruit.pomes",
+          "name": "Pomes",
+          "slug": "pomes"
+        },
+        "scientific_name": "Amelanchier alnifolia"
+      },
+      "display_name": "Serviceberry",
+      "document_type": "fruit",
+      "id": "food.fruit.pomes.serviceberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "pomes",
+        "flavor_profile": [],
+        "scientific_name": "Amelanchier alnifolia",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.blueberry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.pomes.serviceberry",
+      "slug": "serviceberry",
+      "tokens": [
+        "accent",
+        "amelanchier alnifolia",
+        "fruits",
+        "pomes",
+        "serviceberry"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "chenin-blanc"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/sorb-apple/",
+      "canonical_url": "https://pairingmethod.com/fruits/sorb-apple/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "pomes",
+        "group": {
+          "id": "food.fruit.pomes",
+          "name": "Pomes",
+          "slug": "pomes"
+        },
+        "scientific_name": "Sorbus domestica"
+      },
+      "display_name": "Sorb Apple",
+      "document_type": "fruit",
+      "id": "food.fruit.pomes.sorb-apple",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "pomes",
+        "flavor_profile": [],
+        "scientific_name": "Sorbus domestica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.pomes.quince"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.pomes.sorb-apple",
+      "slug": "sorb-apple",
+      "tokens": [
+        "accent",
+        "fruits",
+        "pomes",
+        "sorb apple",
+        "sorb-apple",
+        "sorbus domestica"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "chenin-blanc"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/tejocote/",
+      "canonical_url": "https://pairingmethod.com/fruits/tejocote/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "pomes",
+        "group": {
+          "id": "food.fruit.pomes",
+          "name": "Pomes",
+          "slug": "pomes"
+        },
+        "scientific_name": "Crataegus mexicana"
+      },
+      "display_name": "Tejocote",
+      "document_type": "fruit",
+      "id": "food.fruit.pomes.tejocote",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "pomes",
+        "flavor_profile": [],
+        "scientific_name": "Crataegus mexicana",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.pomes.apple"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.pomes.tejocote",
+      "slug": "tejocote",
+      "tokens": [
+        "accent",
+        "crataegus mexicana",
+        "fruits",
+        "pomes",
+        "tejocote"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "chenin-blanc"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/banana-chips/",
+      "canonical_url": "https://pairingmethod.com/fruits/banana-chips/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Musa acuminata"
+      },
+      "display_name": "Banana Chips",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.banana-chips",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Musa acuminata",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.processed-fruits.dried-pineapple"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.processed-fruits.banana-chips",
+      "slug": "banana-chips",
+      "tokens": [
+        "accent",
+        "banana chips",
+        "banana-chips",
+        "fruits",
+        "musa acuminata",
+        "processed fruits",
+        "processed_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "port"
+        ],
+        "technique_ids": [
+          "lees-aging"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/candied-orange-peel/",
+      "canonical_url": "https://pairingmethod.com/fruits/candied-orange-peel/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Citrus sinensis"
+      },
+      "display_name": "Candied Orange Peel",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.candied-orange-peel",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Citrus sinensis",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.citrus.orange"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.processed-fruits.candied-orange-peel",
+      "slug": "candied-orange-peel",
+      "tokens": [
+        "accent",
+        "candied orange peel",
+        "candied-orange-peel",
+        "citrus sinensis",
+        "fruits",
+        "processed fruits",
+        "processed_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "jammy"
+        ],
+        "style_ids": [
+          "port",
+          "zinfandel"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/coconut-milk/",
+      "canonical_url": "https://pairingmethod.com/fruits/coconut-milk/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Cocos nucifera"
+      },
+      "display_name": "Coconut Milk",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.coconut-milk",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Cocos nucifera",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.mango",
+          "food.fruit.tropical-fruits.pineapple",
+          "food.grain.whole-grains.rice",
+          "food.herb.fresh-herbs.basil",
+          "food.protein.crustaceans.shrimp",
+          "food.protein.fin-fish.salmon-fillet",
+          "food.protein.poultry.chicken-breast",
+          "food.protein.poultry.chicken-thigh",
+          "food.vegetable.nightshades.eggplant",
+          "food.vegetable.nightshades.tomato"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.processed-fruits.coconut-milk",
+      "slug": "coconut-milk",
+      "tokens": [
+        "accent",
+        "coconut milk",
+        "coconut-milk",
+        "cocos nucifera",
+        "fruits",
+        "processed fruits",
+        "processed_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "chardonnay",
+          "gewurztraminer"
+        ],
+        "technique_ids": [
+          "malolactic-fermentation"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/currants/",
+      "canonical_url": "https://pairingmethod.com/fruits/currants/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Vitis vinifera"
+      },
+      "display_name": "Currants",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.currants",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Vitis vinifera",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [],
+        "substitutions_ids": [
+          "food.fruit.processed-fruits.raisin"
+        ]
+      },
+      "projection_id": "food.fruit.processed-fruits.currants",
+      "slug": "currants",
+      "tokens": [
+        "accent",
+        "currants",
+        "fruits",
+        "processed fruits",
+        "processed_fruits",
+        "vitis vinifera"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "jammy"
+        ],
+        "style_ids": [
+          "port"
+        ],
+        "technique_ids": [
+          "lees-aging"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/desiccated-coconut/",
+      "canonical_url": "https://pairingmethod.com/fruits/desiccated-coconut/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Cocos nucifera"
+      },
+      "display_name": "Desiccated Coconut",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.desiccated-coconut",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Cocos nucifera",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.processed-fruits.dried-pineapple",
+          "food.grain.processed-grains.wheat-flour",
+          "food.grain.whole-grains.oats"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.processed-fruits.desiccated-coconut",
+      "slug": "desiccated-coconut",
+      "tokens": [
+        "accent",
+        "cocos nucifera",
+        "desiccated coconut",
+        "desiccated-coconut",
+        "fruits",
+        "processed fruits",
+        "processed_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "nutty"
+        ],
+        "style_ids": [
+          "chenin-blanc",
+          "moscato"
+        ],
+        "technique_ids": [
+          "barrel-aging"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/dried-apple/",
+      "canonical_url": "https://pairingmethod.com/fruits/dried-apple/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Malus domestica"
+      },
+      "display_name": "Dried Apple",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.dried-apple",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Malus domestica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.processed-fruits.dried-apricot"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.processed-fruits.dried-apple",
+      "slug": "dried-apple",
+      "tokens": [
+        "accent",
+        "dried apple",
+        "dried-apple",
+        "fruits",
+        "malus domestica",
+        "processed fruits",
+        "processed_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "port",
+          "zinfandel"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/dried-apricot/",
+      "canonical_url": "https://pairingmethod.com/fruits/dried-apricot/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Prunus armeniaca"
+      },
+      "display_name": "Dried Apricot",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.dried-apricot",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus armeniaca",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.processed-fruits.dried-date"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": [
+          "food.fruit.processed-fruits.dried-date"
+        ]
+      },
+      "projection_id": "food.fruit.processed-fruits.dried-apricot",
+      "slug": "dried-apricot",
+      "tokens": [
+        "accent",
+        "dried apricot",
+        "dried-apricot",
+        "fruits",
+        "processed fruits",
+        "processed_fruits",
+        "prunus armeniaca"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "jammy"
+        ],
+        "style_ids": [
+          "port"
+        ],
+        "technique_ids": [
+          "lees-aging"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/dried-blueberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/dried-blueberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Vaccinium corymbosum"
+      },
+      "display_name": "Dried Blueberry",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.dried-blueberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Vaccinium corymbosum",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.processed-fruits.dried-cranberry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.processed-fruits.dried-blueberry",
+      "slug": "dried-blueberry",
+      "tokens": [
+        "accent",
+        "dried blueberry",
+        "dried-blueberry",
+        "fruits",
+        "processed fruits",
+        "processed_fruits",
+        "vaccinium corymbosum"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "jammy"
+        ],
+        "style_ids": [
+          "port",
+          "zinfandel"
+        ],
+        "technique_ids": [
+          "lees-aging"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/dried-cherry/",
+      "canonical_url": "https://pairingmethod.com/fruits/dried-cherry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Prunus avium"
+      },
+      "display_name": "Dried Cherry",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.dried-cherry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus avium",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.processed-fruits.dried-cranberry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.processed-fruits.dried-cherry",
+      "slug": "dried-cherry",
+      "tokens": [
+        "accent",
+        "dried cherry",
+        "dried-cherry",
+        "fruits",
+        "processed fruits",
+        "processed_fruits",
+        "prunus avium"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "port"
+        ],
+        "technique_ids": [
+          "lees-aging"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/dried-cranberry/",
+      "canonical_url": "https://pairingmethod.com/fruits/dried-cranberry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Vaccinium macrocarpon"
+      },
+      "display_name": "Dried Cranberry",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.dried-cranberry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Vaccinium macrocarpon",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.cranberry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.processed-fruits.dried-cranberry",
+      "slug": "dried-cranberry",
+      "tokens": [
+        "accent",
+        "dried cranberry",
+        "dried-cranberry",
+        "fruits",
+        "processed fruits",
+        "processed_fruits",
+        "vaccinium macrocarpon"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "jammy"
+        ],
+        "style_ids": [
+          "port",
+          "zinfandel"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/dried-date/",
+      "canonical_url": "https://pairingmethod.com/fruits/dried-date/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Phoenix dactylifera"
+      },
+      "display_name": "Dried Date",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.dried-date",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Phoenix dactylifera",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.processed-fruits.dried-date",
+      "slug": "dried-date",
+      "tokens": [
+        "dried date",
+        "dried-date",
+        "fruits",
+        "phoenix dactylifera",
+        "primary",
+        "processed fruits",
+        "processed_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "jammy"
+        ],
+        "style_ids": [
+          "port"
+        ],
+        "technique_ids": [
+          "lees-aging"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/dried-fig/",
+      "canonical_url": "https://pairingmethod.com/fruits/dried-fig/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Ficus carica"
+      },
+      "display_name": "Dried Fig",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.dried-fig",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Ficus carica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.processed-fruits.prune",
+          "food.fruit.tropical-fruits.date"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.processed-fruits.dried-fig",
+      "slug": "dried-fig",
+      "tokens": [
+        "accent",
+        "dried fig",
+        "dried-fig",
+        "ficus carica",
+        "fruits",
+        "processed fruits",
+        "processed_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "port",
+          "zinfandel"
+        ],
+        "technique_ids": [
+          "lees-aging"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/dried-mango/",
+      "canonical_url": "https://pairingmethod.com/fruits/dried-mango/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Mangifera indica"
+      },
+      "display_name": "Dried Mango",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.dried-mango",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Mangifera indica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.processed-fruits.dried-pineapple"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.processed-fruits.dried-mango",
+      "slug": "dried-mango",
+      "tokens": [
+        "accent",
+        "dried mango",
+        "dried-mango",
+        "fruits",
+        "mangifera indica",
+        "processed fruits",
+        "processed_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "jammy"
+        ],
+        "style_ids": [
+          "port"
+        ],
+        "technique_ids": [
+          "lees-aging"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/dried-pineapple/",
+      "canonical_url": "https://pairingmethod.com/fruits/dried-pineapple/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Ananas comosus"
+      },
+      "display_name": "Dried Pineapple",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.dried-pineapple",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Ananas comosus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.processed-fruits.dried-pineapple",
+      "slug": "dried-pineapple",
+      "tokens": [
+        "accent",
+        "ananas comosus",
+        "dried pineapple",
+        "dried-pineapple",
+        "fruits",
+        "processed fruits",
+        "processed_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "jammy"
+        ],
+        "style_ids": [
+          "port",
+          "zinfandel"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/golden-raisin/",
+      "canonical_url": "https://pairingmethod.com/fruits/golden-raisin/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Vitis vinifera"
+      },
+      "display_name": "Golden Raisin",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.golden-raisin",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Vitis vinifera",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.processed-fruits.sultanas"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.processed-fruits.raisin"
+        ],
+        "substitutions_ids": [
+          "food.fruit.processed-fruits.raisin"
+        ]
+      },
+      "projection_id": "food.fruit.processed-fruits.golden-raisin",
+      "slug": "golden-raisin",
+      "tokens": [
+        "accent",
+        "fruits",
+        "golden raisin",
+        "golden-raisin",
+        "processed fruits",
+        "processed_fruits",
+        "vitis vinifera"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "madeira",
+          "moscato"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/prune/",
+      "canonical_url": "https://pairingmethod.com/fruits/prune/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Prunus domestica"
+      },
+      "display_name": "Prune",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.prune",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus domestica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.date",
+          "food.grain.whole-grains.rice",
+          "food.protein.beef.brisket",
+          "food.protein.lamb.lamb-leg",
+          "food.protein.pork.pork-loin"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.processed-fruits.prune",
+      "slug": "prune",
+      "tokens": [
+        "accent",
+        "fruits",
+        "processed fruits",
+        "processed_fruits",
+        "prune",
+        "prunus domestica"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "port",
+          "syrah-shiraz"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/raisin/",
+      "canonical_url": "https://pairingmethod.com/fruits/raisin/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Vitis vinifera"
+      },
+      "display_name": "Raisin",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.raisin",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Vitis vinifera",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.hard.cheddar",
+          "food.fruit.tropical-fruits.date",
+          "food.grain.processed-grains.wheat-flour",
+          "food.grain.whole-grains.oats",
+          "food.protein.lamb.lamb-leg"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.processed-fruits.golden-raisin",
+          "food.fruit.processed-fruits.sultanas"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.processed-fruits.raisin",
+      "slug": "raisin",
+      "tokens": [
+        "accent",
+        "fruits",
+        "processed fruits",
+        "processed_fruits",
+        "raisin",
+        "vitis vinifera"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "madeira",
+          "port"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/sultanas/",
+      "canonical_url": "https://pairingmethod.com/fruits/sultanas/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "processed_fruits",
+        "group": {
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        "scientific_name": "Vitis vinifera"
+      },
+      "display_name": "Sultanas",
+      "document_type": "fruit",
+      "id": "food.fruit.processed-fruits.sultanas",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "processed_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Vitis vinifera",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [
+          "food.fruit.processed-fruits.raisin"
+        ],
+        "substitutions_ids": [
+          "food.fruit.processed-fruits.raisin"
+        ]
+      },
+      "projection_id": "food.fruit.processed-fruits.sultanas",
+      "slug": "sultanas",
+      "tokens": [
+        "accent",
+        "fruits",
+        "processed fruits",
+        "processed_fruits",
+        "sultanas",
+        "vitis vinifera"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "chenin-blanc",
+          "port"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/apricot/",
+      "canonical_url": "https://pairingmethod.com/fruits/apricot/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus armeniaca"
+      },
+      "display_name": "Apricot",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.apricot",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus armeniaca",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.stone-fruits.sweet-cherry",
+          "food.protein.lamb.lamb-leg",
+          "food.protein.poultry.chicken-breast"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.stone-fruits.peach"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.stone-fruits.apricot",
+      "slug": "apricot",
+      "tokens": [
+        "apricot",
+        "fruits",
+        "primary",
+        "prunus armeniaca",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "floral"
+        ],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/aprium/",
+      "canonical_url": "https://pairingmethod.com/fruits/aprium/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus hybrid"
+      },
+      "display_name": "Aprium",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.aprium",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus hybrid",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.stone-fruits.apricot"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.stone-fruits.aprium",
+      "slug": "aprium",
+      "tokens": [
+        "accent",
+        "aprium",
+        "fruits",
+        "prunus hybrid",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "floral"
+        ],
+        "style_ids": [
+          "gewurztraminer"
+        ],
+        "technique_ids": [
+          "skin-contact"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/black-cherry/",
+      "canonical_url": "https://pairingmethod.com/fruits/black-cherry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus serotina"
+      },
+      "display_name": "Black Cherry",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.black-cherry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus serotina",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.stone-fruits.sweet-cherry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.stone-fruits.black-cherry",
+      "slug": "black-cherry",
+      "tokens": [
+        "accent",
+        "black cherry",
+        "black-cherry",
+        "fruits",
+        "prunus serotina",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/damson/",
+      "canonical_url": "https://pairingmethod.com/fruits/damson/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus domestica subsp. insititia"
+      },
+      "display_name": "Damson",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.damson",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus domestica subsp. insititia",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [
+          "food.fruit.stone-fruits.plum"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.stone-fruits.damson",
+      "slug": "damson",
+      "tokens": [
+        "accent",
+        "damson",
+        "fruits",
+        "prunus domestica subsp. insititia",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "floral"
+        ],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/flat-peach/",
+      "canonical_url": "https://pairingmethod.com/fruits/flat-peach/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus persica var. platycarpa"
+      },
+      "display_name": "Flat Peach",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.flat-peach",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus persica var. platycarpa",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.stone-fruits.nectarine"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.stone-fruits.peach"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.stone-fruits.flat-peach",
+      "slug": "flat-peach",
+      "tokens": [
+        "accent",
+        "flat peach",
+        "flat-peach",
+        "fruits",
+        "prunus persica var. platycarpa",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/greengage/",
+      "canonical_url": "https://pairingmethod.com/fruits/greengage/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus domestica var. italica"
+      },
+      "display_name": "Greengage",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.greengage",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus domestica var. italica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.stone-fruits.mirabelle"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.stone-fruits.plum"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.stone-fruits.greengage",
+      "slug": "greengage",
+      "tokens": [
+        "accent",
+        "fruits",
+        "greengage",
+        "prunus domestica var. italica",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "floral"
+        ],
+        "style_ids": [
+          "gewurztraminer"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/mirabelle/",
+      "canonical_url": "https://pairingmethod.com/fruits/mirabelle/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus domestica subsp. syriaca"
+      },
+      "display_name": "Mirabelle",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.mirabelle",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus domestica subsp. syriaca",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [
+          "food.fruit.stone-fruits.plum"
+        ],
+        "substitutions_ids": [
+          "food.fruit.stone-fruits.plum"
+        ]
+      },
+      "projection_id": "food.fruit.stone-fruits.mirabelle",
+      "slug": "mirabelle",
+      "tokens": [
+        "accent",
+        "fruits",
+        "mirabelle",
+        "prunus domestica subsp. syriaca",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/montmorency-cherry/",
+      "canonical_url": "https://pairingmethod.com/fruits/montmorency-cherry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus cerasus"
+      },
+      "display_name": "Montmorency Cherry",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.montmorency-cherry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus cerasus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.stone-fruits.sour-cherry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.stone-fruits.montmorency-cherry",
+      "slug": "montmorency-cherry",
+      "tokens": [
+        "accent",
+        "fruits",
+        "montmorency cherry",
+        "montmorency-cherry",
+        "prunus cerasus",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/mume/",
+      "canonical_url": "https://pairingmethod.com/fruits/mume/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus mume"
+      },
+      "display_name": "Mume",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.mume",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus mume",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.stone-fruits.apricot"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.stone-fruits.mume",
+      "slug": "mume",
+      "tokens": [
+        "accent",
+        "fruits",
+        "mume",
+        "prunus mume",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/nectarine/",
+      "canonical_url": "https://pairingmethod.com/fruits/nectarine/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus persica var. nucipersica"
+      },
+      "display_name": "Nectarine",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.nectarine",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus persica var. nucipersica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.protein.pork.pork-loin"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.stone-fruits.peach"
+        ],
+        "substitutions_ids": [
+          "food.fruit.stone-fruits.peach"
+        ]
+      },
+      "projection_id": "food.fruit.stone-fruits.nectarine",
+      "slug": "nectarine",
+      "tokens": [
+        "fruits",
+        "nectarine",
+        "primary",
+        "prunus persica var. nucipersica",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/peach/",
+      "canonical_url": "https://pairingmethod.com/fruits/peach/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus persica"
+      },
+      "display_name": "Peach",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.peach",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus persica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.fresh.goat-chevre-log",
+          "food.fruit.stone-fruits.apricot",
+          "food.fruit.stone-fruits.nectarine",
+          "food.fruit.stone-fruits.plum",
+          "food.grain.processed-grains.cornmeal",
+          "food.grain.processed-grains.wheat-flour",
+          "food.herb.whole-spices.cinnamon",
+          "food.protein.pork.pork-loin",
+          "food.protein.poultry.chicken-breast"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.stone-fruits.apricot",
+          "food.fruit.stone-fruits.flat-peach",
+          "food.fruit.stone-fruits.nectarine"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.stone-fruits.peach",
+      "slug": "peach",
+      "tokens": [
+        "fruits",
+        "peach",
+        "primary",
+        "prunus persica",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/plum/",
+      "canonical_url": "https://pairingmethod.com/fruits/plum/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus domestica"
+      },
+      "display_name": "Plum",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.plum",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus domestica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.stone-fruits.sweet-cherry",
+          "food.protein.pork.pork-loin"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.stone-fruits.damson",
+          "food.fruit.stone-fruits.greengage",
+          "food.fruit.stone-fruits.mirabelle"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.stone-fruits.plum",
+      "slug": "plum",
+      "tokens": [
+        "fruits",
+        "plum",
+        "primary",
+        "prunus domestica",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer",
+          "pinot-noir"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/pluot/",
+      "canonical_url": "https://pairingmethod.com/fruits/pluot/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus hybrid"
+      },
+      "display_name": "Pluot",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.pluot",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus hybrid",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.stone-fruits.plum"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.stone-fruits.pluot",
+      "slug": "pluot",
+      "tokens": [
+        "accent",
+        "fruits",
+        "pluot",
+        "prunus hybrid",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/sand-cherry/",
+      "canonical_url": "https://pairingmethod.com/fruits/sand-cherry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus pumila"
+      },
+      "display_name": "Sand Cherry",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.sand-cherry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus pumila",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.stone-fruits.sour-cherry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.stone-fruits.sand-cherry",
+      "slug": "sand-cherry",
+      "tokens": [
+        "accent",
+        "fruits",
+        "prunus pumila",
+        "sand cherry",
+        "sand-cherry",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/sloe/",
+      "canonical_url": "https://pairingmethod.com/fruits/sloe/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus spinosa"
+      },
+      "display_name": "Sloe",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.sloe",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus spinosa",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.berries.blackberry"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.stone-fruits.sloe",
+      "slug": "sloe",
+      "tokens": [
+        "accent",
+        "fruits",
+        "prunus spinosa",
+        "sloe",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/sour-cherry/",
+      "canonical_url": "https://pairingmethod.com/fruits/sour-cherry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus cerasus"
+      },
+      "display_name": "Sour Cherry",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.sour-cherry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus cerasus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.stone-fruits.sour-cherry",
+      "slug": "sour-cherry",
+      "tokens": [
+        "accent",
+        "fruits",
+        "prunus cerasus",
+        "sour cherry",
+        "sour-cherry",
+        "stone fruits",
+        "stone_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/sweet-cherry/",
+      "canonical_url": "https://pairingmethod.com/fruits/sweet-cherry/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "stone_fruits",
+        "group": {
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        "scientific_name": "Prunus avium"
+      },
+      "display_name": "Sweet Cherry",
+      "document_type": "fruit",
+      "id": "food.fruit.stone-fruits.sweet-cherry",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "stone_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Prunus avium",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.hard.cheddar",
+          "food.fruit.stone-fruits.sour-cherry",
+          "food.fungi.wild-mushrooms.porcini",
+          "food.grain.processed-grains.wheat-flour",
+          "food.protein.beef.ribeye",
+          "food.protein.lamb.lamb-leg",
+          "food.protein.pork.pork-loin"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.stone-fruits.sweet-cherry",
+      "slug": "sweet-cherry",
+      "tokens": [
+        "fruits",
+        "primary",
+        "prunus avium",
+        "stone fruits",
+        "stone_fruits",
+        "sweet cherry",
+        "sweet-cherry"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/avocado/",
+      "canonical_url": "https://pairingmethod.com/fruits/avocado/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Persea americana"
+      },
+      "display_name": "Avocado",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.avocado",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Persea americana",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.citrus.lime",
+          "food.protein.crustaceans.shrimp",
+          "food.protein.fin-fish.salmon-fillet",
+          "food.protein.pork.pork-loin",
+          "food.protein.poultry.chicken-breast",
+          "food.vegetable.alliums.onion",
+          "food.vegetable.nightshades.tomato"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.avocado",
+      "slug": "avocado",
+      "tokens": [
+        "avocado",
+        "fruits",
+        "persea americana",
+        "primary",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "creamy"
+        ],
+        "style_ids": [
+          "chardonnay",
+          "sauvignon-blanc"
+        ],
+        "technique_ids": [
+          "malolactic-fermentation"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/banana/",
+      "canonical_url": "https://pairingmethod.com/fruits/banana/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Musa acuminata"
+      },
+      "display_name": "Banana",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.banana",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Musa acuminata",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.pineapple",
+          "food.fruit.tropical-fruits.plantain",
+          "food.grain.processed-grains.cornmeal",
+          "food.grain.processed-grains.wheat-flour",
+          "food.grain.whole-grains.oats",
+          "food.herb.whole-spices.cinnamon",
+          "food.protein.poultry.chicken-breast"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.banana",
+      "slug": "banana",
+      "tokens": [
+        "banana",
+        "fruits",
+        "musa acuminata",
+        "primary",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "floral"
+        ],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/coconut/",
+      "canonical_url": "https://pairingmethod.com/fruits/coconut/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Cocos nucifera"
+      },
+      "display_name": "Coconut",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.coconut",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Cocos nucifera",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.pineapple",
+          "food.grain.whole-grains.rice",
+          "food.protein.crustaceans.shrimp"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.coconut",
+      "slug": "coconut",
+      "tokens": [
+        "coconut",
+        "cocos nucifera",
+        "fruits",
+        "primary",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "bright"
+        ],
+        "style_ids": [
+          "albarino",
+          "prosecco"
+        ],
+        "technique_ids": [
+          "cold-fermentation"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/date/",
+      "canonical_url": "https://pairingmethod.com/fruits/date/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Phoenix dactylifera"
+      },
+      "display_name": "Date",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.date",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Phoenix dactylifera",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.brined.feta",
+          "food.grain.whole-grains.oats",
+          "food.grain.whole-grains.rice",
+          "food.protein.beef.brisket",
+          "food.protein.lamb.lamb-leg"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.tropical-fruits.fig"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.date",
+      "slug": "date",
+      "tokens": [
+        "date",
+        "fruits",
+        "phoenix dactylifera",
+        "primary",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "port",
+          "syrah-shiraz"
+        ],
+        "technique_ids": [
+          "lees-aging"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/dragon-fruit/",
+      "canonical_url": "https://pairingmethod.com/fruits/dragon-fruit/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Hylocereus undatus"
+      },
+      "display_name": "Dragon Fruit",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.dragon-fruit",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Hylocereus undatus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.passion-fruit"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.dragon-fruit",
+      "slug": "dragon-fruit",
+      "tokens": [
+        "accent",
+        "dragon fruit",
+        "dragon-fruit",
+        "fruits",
+        "hylocereus undatus",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "floral"
+        ],
+        "style_ids": [
+          "viognier"
+        ],
+        "technique_ids": [
+          "native-fermentation"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/durian/",
+      "canonical_url": "https://pairingmethod.com/fruits/durian/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Durio zibethinus"
+      },
+      "display_name": "Durian",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.durian",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Durio zibethinus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "luxury"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.mango"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.durian",
+      "slug": "durian",
+      "tokens": [
+        "durian",
+        "durio zibethinus",
+        "fruits",
+        "luxury",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "viognier"
+        ],
+        "technique_ids": [
+          "native-fermentation"
+        ]
+      }
+    },
+    {
+      "canonical_path": "/fruits/fig/",
+      "canonical_url": "https://pairingmethod.com/fruits/fig/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Ficus carica"
+      },
+      "display_name": "Fig",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.fig",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Ficus carica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.fresh.goat-chevre-log",
+          "food.cheese.hard.parmigiano-reggiano",
+          "food.grain.whole-grains.oats",
+          "food.herb.whole-spices.black-pepper",
+          "food.protein.charcuterie.prosciutto"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.tropical-fruits.date"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.fig",
+      "slug": "fig",
+      "tokens": [
+        "ficus carica",
+        "fig",
+        "fruits",
+        "primary",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "jammy"
+        ],
+        "style_ids": [
+          "port",
+          "syrah-shiraz"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/guava/",
+      "canonical_url": "https://pairingmethod.com/fruits/guava/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Psidium guajava"
+      },
+      "display_name": "Guava",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.guava",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Psidium guajava",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.papaya"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.tropical-fruits.passion-fruit"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.guava",
+      "slug": "guava",
+      "tokens": [
+        "accent",
+        "fruits",
+        "guava",
+        "psidium guajava",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "floral"
+        ],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/jackfruit/",
+      "canonical_url": "https://pairingmethod.com/fruits/jackfruit/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Artocarpus heterophyllus"
+      },
+      "display_name": "Jackfruit",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.jackfruit",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Artocarpus heterophyllus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.mango"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.jackfruit",
+      "slug": "jackfruit",
+      "tokens": [
+        "artocarpus heterophyllus",
+        "fruits",
+        "jackfruit",
+        "primary",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "floral"
+        ],
+        "style_ids": [
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/kiwi/",
+      "canonical_url": "https://pairingmethod.com/fruits/kiwi/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Actinidia deliciosa"
+      },
+      "display_name": "Kiwi",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.kiwi",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Actinidia deliciosa",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.fresh.goat-chevre-log",
+          "food.fruit.berries.strawberry",
+          "food.grain.processed-grains.wheat-flour",
+          "food.protein.fin-fish.salmon-fillet"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.kiwi",
+      "slug": "kiwi",
+      "tokens": [
+        "actinidia deliciosa",
+        "fruits",
+        "kiwi",
+        "primary",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [
+          "floral"
+        ],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/lychee/",
+      "canonical_url": "https://pairingmethod.com/fruits/lychee/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Litchi chinensis"
+      },
+      "display_name": "Lychee",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.lychee",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Litchi chinensis",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.rambutan"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.tropical-fruits.rambutan"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.lychee",
+      "slug": "lychee",
+      "tokens": [
+        "accent",
+        "fruits",
+        "litchi chinensis",
+        "lychee",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/mango/",
+      "canonical_url": "https://pairingmethod.com/fruits/mango/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Mangifera indica"
+      },
+      "display_name": "Mango",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.mango",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Mangifera indica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.papaya",
+          "food.fruit.tropical-fruits.passion-fruit",
+          "food.fruit.tropical-fruits.pineapple",
+          "food.herb.fresh-herbs.basil",
+          "food.herb.whole-spices.black-pepper",
+          "food.protein.crustaceans.shrimp",
+          "food.protein.fin-fish.salmon-fillet",
+          "food.protein.pork.pork-loin",
+          "food.protein.poultry.chicken-breast",
+          "food.vegetable.alliums.onion",
+          "food.vegetable.nightshades.tomato"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.tropical-fruits.papaya"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.mango",
+      "slug": "mango",
+      "tokens": [
+        "fruits",
+        "mangifera indica",
+        "mango",
+        "primary",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/mangosteen/",
+      "canonical_url": "https://pairingmethod.com/fruits/mangosteen/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Garcinia mangostana"
+      },
+      "display_name": "Mangosteen",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.mangosteen",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Garcinia mangostana",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "luxury"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.lychee"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.mangosteen",
+      "slug": "mangosteen",
+      "tokens": [
+        "fruits",
+        "garcinia mangostana",
+        "luxury",
+        "mangosteen",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/papaya/",
+      "canonical_url": "https://pairingmethod.com/fruits/papaya/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Carica papaya"
+      },
+      "display_name": "Papaya",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.papaya",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Carica papaya",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [],
+        "similar_fruits_ids": [
+          "food.fruit.tropical-fruits.mango"
+        ],
+        "substitutions_ids": [
+          "food.fruit.tropical-fruits.mango"
+        ]
+      },
+      "projection_id": "food.fruit.tropical-fruits.papaya",
+      "slug": "papaya",
+      "tokens": [
+        "carica papaya",
+        "fruits",
+        "papaya",
+        "primary",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/passion-fruit/",
+      "canonical_url": "https://pairingmethod.com/fruits/passion-fruit/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Passiflora edulis"
+      },
+      "display_name": "Passion Fruit",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.passion-fruit",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Passiflora edulis",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.fresh.goat-chevre-log",
+          "food.fruit.tropical-fruits.mango",
+          "food.grain.processed-grains.wheat-flour",
+          "food.protein.fin-fish.salmon-fillet"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.tropical-fruits.guava"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.passion-fruit",
+      "slug": "passion-fruit",
+      "tokens": [
+        "accent",
+        "fruits",
+        "passiflora edulis",
+        "passion fruit",
+        "passion-fruit",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/persimmon/",
+      "canonical_url": "https://pairingmethod.com/fruits/persimmon/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Diospyros kaki"
+      },
+      "display_name": "Persimmon",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.persimmon",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Diospyros kaki",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.brined.feta",
+          "food.fruit.pomes.apple",
+          "food.protein.pork.pork-loin"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.persimmon",
+      "slug": "persimmon",
+      "tokens": [
+        "accent",
+        "diospyros kaki",
+        "fruits",
+        "persimmon",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/pineapple/",
+      "canonical_url": "https://pairingmethod.com/fruits/pineapple/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Ananas comosus"
+      },
+      "display_name": "Pineapple",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.pineapple",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Ananas comosus",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.passion-fruit",
+          "food.grain.whole-grains.rice",
+          "food.herb.whole-spices.black-pepper",
+          "food.protein.crustaceans.shrimp",
+          "food.protein.pork.pork-loin",
+          "food.protein.poultry.chicken-breast",
+          "food.vegetable.nightshades.tomato"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.pineapple",
+      "slug": "pineapple",
+      "tokens": [
+        "ananas comosus",
+        "fruits",
+        "pineapple",
+        "primary",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/plantain/",
+      "canonical_url": "https://pairingmethod.com/fruits/plantain/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Musa × paradisiaca"
+      },
+      "display_name": "Plantain",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.plantain",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Musa × paradisiaca",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.mango"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.plantain",
+      "slug": "plantain",
+      "tokens": [
+        "fruits",
+        "musa × paradisiaca",
+        "plantain",
+        "primary",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/pomegranate/",
+      "canonical_url": "https://pairingmethod.com/fruits/pomegranate/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Punica granatum"
+      },
+      "display_name": "Pomegranate",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.pomegranate",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Punica granatum",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "primary"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.cheese.brined.feta",
+          "food.fruit.tropical-fruits.persimmon",
+          "food.grain.whole-grains.rice",
+          "food.protein.beef.ribeye",
+          "food.protein.lamb.lamb-leg",
+          "food.vegetable.green-vegetables.spinach"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.pomegranate",
+      "slug": "pomegranate",
+      "tokens": [
+        "fruits",
+        "pomegranate",
+        "primary",
+        "punica granatum",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/rambutan/",
+      "canonical_url": "https://pairingmethod.com/fruits/rambutan/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Nephelium lappaceum"
+      },
+      "display_name": "Rambutan",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.rambutan",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Nephelium lappaceum",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.mangosteen"
+        ],
+        "similar_fruits_ids": [
+          "food.fruit.tropical-fruits.lychee"
+        ],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.rambutan",
+      "slug": "rambutan",
+      "tokens": [
+        "accent",
+        "fruits",
+        "nephelium lappaceum",
+        "rambutan",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "gewurztraminer",
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/starfruit/",
+      "canonical_url": "https://pairingmethod.com/fruits/starfruit/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Averrhoa carambola"
+      },
+      "display_name": "Starfruit",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.starfruit",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Averrhoa carambola",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.tropical-fruits.mango"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.starfruit",
+      "slug": "starfruit",
+      "tokens": [
+        "accent",
+        "averrhoa carambola",
+        "fruits",
+        "starfruit",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/fruits/tamarind/",
+      "canonical_url": "https://pairingmethod.com/fruits/tamarind/",
+      "classification": {
+        "category": {
+          "id": "food.fruit",
+          "name": "Fruits",
+          "slug": "fruit"
+        },
+        "culinary_group": "tropical_fruits",
+        "group": {
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        },
+        "scientific_name": "Tamarindus indica"
+      },
+      "display_name": "Tamarind",
+      "document_type": "fruit",
+      "id": "food.fruit.tropical-fruits.tamarind",
+      "intrinsic": {
+        "aroma_profile": [],
+        "culinary_group": "tropical_fruits",
+        "flavor_profile": [],
+        "scientific_name": "Tamarindus indica",
+        "texture_profile": [],
+        "typical_descriptors": [],
+        "usage_intensity": "accent"
+      },
+      "navigation": {
+        "commonly_served_with_ids": [
+          "food.fruit.citrus.lime",
+          "food.protein.crustaceans.shrimp",
+          "food.protein.fin-fish.salmon-fillet",
+          "food.vegetable.nightshades.tomato"
+        ],
+        "similar_fruits_ids": [],
+        "substitutions_ids": []
+      },
+      "projection_id": "food.fruit.tropical-fruits.tamarind",
+      "slug": "tamarind",
+      "tokens": [
+        "accent",
+        "fruits",
+        "tamarind",
+        "tamarindus indica",
+        "tropical fruits",
+        "tropical_fruits"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [
+          "viognier"
+        ],
+        "technique_ids": []
+      }
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "document_count": 119,
+    "document_type": "fruit",
+    "domain": "fruit",
+    "food_ontology_version": "1.6.0",
+    "phase": "FOOD-09FE"
+  }
+}

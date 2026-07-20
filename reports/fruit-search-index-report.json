@@ -1,0 +1,24 @@
+{
+  "domain": "fruit",
+  "metrics": {
+    "Broken references": 0,
+    "Category search documents": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate documents": 0,
+    "Group search documents": 7,
+    "Indexed tokens": 267,
+    "Leaf search documents": 119,
+    "Overall result": "PASS",
+    "Suggestions": 127,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/search/fruit-search-index.json",
+    "data/search/fruit-group-search-index.json",
+    "data/search/fruit-category-search-index.json",
+    "data/search/fruit-search-suggestions.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-09FE",
+  "validation_errors": []
+}

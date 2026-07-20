@@ -1,0 +1,25 @@
+{
+  "domain": "fruit",
+  "metrics": {
+    "Category sitemap entries": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate URLs": 0,
+    "Group sitemap entries": 7,
+    "Indexed URLs": 127,
+    "Leaf sitemap entries": 119,
+    "Missing pages": 0,
+    "Overall result": "PASS",
+    "Sitemap index": 1,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "dist/sitemap.xml",
+    "dist/sitemaps/fruit-pages.xml",
+    "dist/sitemaps/fruit-group-pages.xml",
+    "dist/sitemaps/fruit-category-pages.xml",
+    "dist/crawl-manifest.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-09FH",
+  "validation_errors": []
+}

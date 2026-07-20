@@ -1,114 +1,114 @@
 {
   "artifacts": {
-    "catalog": "data/grain-starch-catalog.json",
+    "catalog": "data/fruit-catalog.json",
     "html": [
-      "dist/grains-starches",
-      "dist/grain-starch-groups",
-      "dist/grain-starch-categories"
+      "dist/fruits",
+      "dist/fruit-groups",
+      "dist/fruit-categories"
     ],
     "navigation": [
-      "data/navigation/grain-starch-links.json",
-      "data/navigation/grain-starch-group-links.json",
-      "data/navigation/grain-starch-category-links.json"
+      "data/navigation/fruit-links.json",
+      "data/navigation/fruit-group-links.json",
+      "data/navigation/fruit-category-links.json"
     ],
     "pages": [
-      "data/pages/grain-starch-pages.json",
-      "data/pages/grain-starch-group-pages.json",
-      "data/pages/grain-starch-category-pages.json"
+      "data/pages/fruit-pages.json",
+      "data/pages/fruit-group-pages.json",
+      "data/pages/fruit-category-pages.json"
     ],
     "projections": [
-      "data/generated/grain-starch-pages.json",
-      "data/generated/grain-starch-group-pages.json",
-      "data/generated/grain-starch-category-pages.json"
+      "data/generated/fruit-pages.json",
+      "data/generated/fruit-group-pages.json",
+      "data/generated/fruit-category-pages.json"
     ],
     "relationships": [
-      "data/runtime/grain-starch-relationships.json",
-      "data/runtime/grain-starch-editorial-relationships.json",
-      "data/runtime/grain-starch-wine-relationships.json"
+      "data/runtime/fruit-relationships.json",
+      "data/runtime/fruit-editorial-relationships.json",
+      "data/runtime/fruit-wine-relationships.json"
     ],
     "runtime": [
-      "data/runtime/grain-starch-bootstrap.json",
-      "data/runtime/grain-starch-groups.json",
-      "data/runtime/grain-starch-categories.json",
-      "data/runtime/grain-starch-indexes.json"
+      "data/runtime/fruit-bootstrap.json",
+      "data/runtime/fruit-groups.json",
+      "data/runtime/fruit-categories.json",
+      "data/runtime/fruit-indexes.json"
     ],
     "schema": [
-      "data/schema/grain-starch-schema.json",
-      "data/schema/grain-starch-group-schema.json",
-      "data/schema/grain-starch-category-schema.json"
+      "data/schema/fruit-schema.json",
+      "data/schema/fruit-group-schema.json",
+      "data/schema/fruit-category-schema.json"
     ],
     "search": [
-      "data/search/grain-starch-search-index.json",
-      "data/search/grain-starch-group-search-index.json",
-      "data/search/grain-starch-category-search-index.json",
-      "data/search/grain-starch-search-suggestions.json"
+      "data/search/fruit-search-index.json",
+      "data/search/fruit-group-search-index.json",
+      "data/search/fruit-category-search-index.json",
+      "data/search/fruit-search-suggestions.json"
     ],
     "sitemaps": [
       "dist/sitemap.xml",
-      "dist/sitemaps/grain-starch-pages.xml",
-      "dist/sitemaps/grain-starch-group-pages.xml",
-      "dist/sitemaps/grain-starch-category-pages.xml",
+      "dist/sitemaps/fruit-pages.xml",
+      "dist/sitemaps/fruit-group-pages.xml",
+      "dist/sitemaps/fruit-category-pages.xml",
       "dist/crawl-manifest.json"
     ]
   },
   "catalog_version": "1.0.0",
   "certification": "PASS",
   "checksums": {
-    "catalog": "e034882b90c85332cee8c98ae43b238745b33a01ff0a3a8daafaf290b54a6f11",
+    "catalog": "73a5ad2dc8eaadfd8f9e6c7c3c9295401f903d0287a23e672f6add5bf92fd37a",
     "html": {},
     "navigation": {
-      "data/navigation/grain-starch-category-links.json": "5f4043a7e48241de920ad061e5dc781a9142cca0a7108048369d70acef27b9d0",
-      "data/navigation/grain-starch-group-links.json": "ba011c44f26e1b13b5b61ae71f52dfbbe4d2e50264c42f0c15d07cc975879327",
-      "data/navigation/grain-starch-links.json": "1fb5287d7059b6e119cc368f9d067ecbbd12797b09e4e1055cf1186fff1f06a0"
+      "data/navigation/fruit-category-links.json": "84fe238b77c58e89a8abe39d4ea18ad717156ba461ab171d772ec6e12846fb25",
+      "data/navigation/fruit-group-links.json": "c08c157249516dee12aa8c216ed1e6b7be603105296c47b0202cd693c6e612f2",
+      "data/navigation/fruit-links.json": "a4885069433c79f8f5754260e82614f65ce62313aff1c353b7fdb108fcb7f6b2"
     },
     "pages": {
-      "data/pages/grain-starch-category-pages.json": "b43946d3bc391ac93319cd05f31ec2adf26953c0401a4d7435f9a61a56fbd63a",
-      "data/pages/grain-starch-group-pages.json": "30127ddac7105a51b502e3143ee7000a544f7c203bda7fe64e0dd605c4a15adc",
-      "data/pages/grain-starch-pages.json": "917907ccb39959a0a24548063c33710c5aea64e15070e0424d94bcb199931f36"
+      "data/pages/fruit-category-pages.json": "7bd25ad82511373d1443b05aeb62cf0131c37e8f81de750c9b50abc6240b8427",
+      "data/pages/fruit-group-pages.json": "b2203c0eece6aa8e7e292a0d4cac0491cef70821e7a04349abb4598ba3c43718",
+      "data/pages/fruit-pages.json": "fe629d37e16c5f0239b736e0f2a06a043f60ed7c7ccd3db2ae7584fea72c5e5e"
     },
     "projections": {
-      "data/generated/grain-starch-category-pages.json": "c49240508e391378adbdf7af53a4e78cb5790b019500abe5fcda930e182ef745",
-      "data/generated/grain-starch-group-pages.json": "bfb587cf5e86ced3feddd76198f057a53d34e41c596b2c57bfbf1e34d8b624e8",
-      "data/generated/grain-starch-pages.json": "c5a34feb45ce5f392b84b146637e50ae85a7e67517d964b212e752b6f70efb5e"
+      "data/generated/fruit-category-pages.json": "7e7bd1ab90382177bb2ab4db84a5f73747eccad60ae15f8fc8546ce876ce0a38",
+      "data/generated/fruit-group-pages.json": "c50752a84584d49806cb210efd721af0aad6e0c1b31e5b9d9ecc8023af2026e1",
+      "data/generated/fruit-pages.json": "1b16ca09872415393c22fc341a3dc24bd12c2f5c70b9d689806b6c98ee06dc7c"
     },
     "relationships": {
-      "data/runtime/grain-starch-editorial-relationships.json": "dbd7beb38a865cc04f6f1dd25c6df9b4156faf4976da028974e803f21867a507",
-      "data/runtime/grain-starch-relationships.json": "4eb575439a97cb3bade2e28a84fef946f33d6e54676a1d2facc5182433054305",
-      "data/runtime/grain-starch-wine-relationships.json": "70562171d86f9d8ce2282039d0e5646f79278c1e67afa26a8c2f29735d7ad060"
+      "data/runtime/fruit-editorial-relationships.json": "fe4dbd1a1ac93c5e18a83b7c652cda5b54439ad99ecaa35140b42138429d60b3",
+      "data/runtime/fruit-relationships.json": "808bb468ec0e352113e913c227cd12c600d17675592397f416f51ff180d3ac25",
+      "data/runtime/fruit-wine-relationships.json": "dc900e6bda894cf633199f5345de7473f942e8f57e638e10256ac7e3731dbb5d"
     },
     "runtime": {
-      "data/runtime/grain-starch-bootstrap.json": "285643cc999a51545688e38abeb768ab3b9ad252a6954aeda8852f02444e1e3f",
-      "data/runtime/grain-starch-categories.json": "119dbfa83fe601d901bb11d18455586c5e7711a9d1105bbcd438289055cd65cb",
-      "data/runtime/grain-starch-groups.json": "88ec91e72d4c7b166b660635a0a4c932844c1c0a26ffd1842c7e84150d8a82e8",
-      "data/runtime/grain-starch-indexes.json": "9b3f7846243796a2a3c83d59cebfbce25b8ef72536e7796034bbdc85e5bde4fe"
+      "data/runtime/fruit-bootstrap.json": "db6dbcc83676d056f0ff742edb9b7a407efa72223b04be39a93daaeb40b1453d",
+      "data/runtime/fruit-categories.json": "4cc6bbc8eaa641180c98f68446c05247de6c7b1c572ae426c793ec46dafbb7f4",
+      "data/runtime/fruit-groups.json": "f3168ff716f70ffd299b4273ce9dc192c63fa5722b7f18c3eda3a270c4bf5230",
+      "data/runtime/fruit-indexes.json": "c7a3a7801061660d54aef8599b73d290b279fdfe1bd1a7ff4373391482ef972a"
     },
     "schema": {
-      "data/schema/grain-starch-category-schema.json": "e7ee9ec8adc1a2f44a1d0ddda0c17d32323a97f23e6245749c02e9a1c12fa268",
-      "data/schema/grain-starch-group-schema.json": "3a0a5459b45c0ec9ad2b6bd6060ac241ba5d21a4c47600e0af2f113902b04435",
-      "data/schema/grain-starch-schema.json": "ccbb01e1980ed614c9889855dd5a037fe5836bb55ffbe22cb1a7083ac7a33988"
+      "data/schema/fruit-category-schema.json": "2c46c4a271d43713288ad311972aa06ead4bae0554b6c0602b221924f7224429",
+      "data/schema/fruit-group-schema.json": "5b9005cc84cc689b5ba7943db6e27f0a444c02c5ce183b29426a7119dc2393cd",
+      "data/schema/fruit-schema.json": "00bb7525bf21ab1181326e81e293bd08ee39ae040133a7f32e910316dc176c06"
     },
     "search": {
-      "data/search/grain-starch-category-search-index.json": "182b563faf1423e4ced1f3fa972d39145bb99ece0ffaee06e089e0837ad62899",
-      "data/search/grain-starch-group-search-index.json": "c99ff0a14618bbf3a056d18c1346e819ddbd04aaa78b785942fadd5892741345",
-      "data/search/grain-starch-search-index.json": "49abc28e343ceccf587c8938c5a9f8faa6d92fd69987c85cb45e7f4dea24f686",
-      "data/search/grain-starch-search-suggestions.json": "5e1c5a0c1bd638a2602c060d0eef2c919ca021f8ddb635b55e8e37880cfb28ce"
+      "data/search/fruit-category-search-index.json": "a14af2c4c876984a4fa72f0a155d32f8b6f95949115a45bf7b4f40babc1b38e5",
+      "data/search/fruit-group-search-index.json": "f97a47cf2d089b42617b9f0b43b4a3e012c0348e6315d6b13c6032371abeb522",
+      "data/search/fruit-search-index.json": "6ca568c085d0c3cb61b4377bda3a36e1b924760c7c09798486e5116b664c95e6",
+      "data/search/fruit-search-suggestions.json": "52f1c6f41d948270ee90e2df0cff1dc539a2482e9918bac12539e750b08d2233"
     },
     "sitemaps": {
-      "dist/crawl-manifest.json": "f839cedd001e74e962511a6601f93fe6c94c2f5a3ff0596a237340e11a6e55db",
-      "dist/sitemap.xml": "48849dbd67e929c22ab3c8a2e2e0ec1d731642ff5fc6f31dd15828cb17ba0726",
-      "dist/sitemaps/grain-starch-category-pages.xml": "b040c2da517f3f57ebe1967744c3f3ad2dae91eb2398e1032085a2dd44319550",
-      "dist/sitemaps/grain-starch-group-pages.xml": "e3c3a84bafc1f39d67423f1cbe0cb89099d9c010c4dc6fcd899a70a97bf8be7e",
-      "dist/sitemaps/grain-starch-pages.xml": "5702cdbc1b543f2256c8a7e9292fac6eee547d988f9218b027ddf94df0e5c6c3"
+      "dist/crawl-manifest.json": "2ffb2d5da91d2af1c5eb1fa3f45dbb91b554ad378d0a1b62507f44380567fc2e",
+      "dist/sitemap.xml": "a47acc90653020289b54b8eb05151c311d898ea403be5b9fa0ea0cfb3b068cb5",
+      "dist/sitemaps/fruit-category-pages.xml": "f383d9db2618c08e8fcc69431d1424a8c980e2e055204e4fa6c3f7562e16d5bf",
+      "dist/sitemaps/fruit-group-pages.xml": "082cf15a432c128dffc7d1455616f369dc8c57df7f903a0b015309b9cfc3384f",
+      "dist/sitemaps/fruit-pages.xml": "50f7f816706e5bf2192616aa5448d3aef5cda66c6cd184143cbd6b164e8db8df"
     }
   },
-  "domain": "grain-starch",
-  "generated_at": "2026-07-20T01:16:23.893Z",
+  "domain": "fruit",
+  "generated_at": "2026-07-20T05:09:05.139Z",
   "pages": {
     "categories": 1,
-    "groups": 4,
-    "leaf": 76,
-    "total": 81
+    "groups": 7,
+    "leaf": 119,
+    "total": 127
   },
-  "publication": "grain-starch-ontology",
-  "release_version": "1.5.0"
+  "publication": "fruit-ontology",
+  "release_version": "1.6.0"
 }

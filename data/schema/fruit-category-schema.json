@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "fruit",
+    "food_ontology_version": "1.6.0",
+    "phase": "FOOD-09FC",
+    "schema_count": 1,
+    "schema_type": "fruit_category"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/fruit-categories/fruit/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fruit-categories/fruit/#collectionpage",
+          "@type": "CollectionPage",
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/fruit-categories/fruit/#breadcrumb"
+          },
+          "description": "Fruits — 7 groups and 119 fruits.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Fruits — Fruit Category",
+          "url": "https://pairingmethod.com/fruit-categories/fruit/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fruit-categories/fruit/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fruits/",
+              "name": "Fruits",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/fruit-categories/fruit/",
+              "name": "Fruits",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/fruit-categories/fruit/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "fruit",
+          "description": "Fruits — 7 groups and 119 fruits.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/fruit-groups/berries/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fruit.berries",
+              "name": "Berries",
+              "numberOfTerms": 24,
+              "url": "https://pairingmethod.com/fruit-groups/berries/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fruit-groups/citrus/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fruit.citrus",
+              "name": "Citrus",
+              "numberOfTerms": 17,
+              "url": "https://pairingmethod.com/fruit-groups/citrus/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fruit-groups/melons/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fruit.melons",
+              "name": "Melons",
+              "numberOfTerms": 9,
+              "url": "https://pairingmethod.com/fruit-groups/melons/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fruit-groups/pomes/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fruit.pomes",
+              "name": "Pomes",
+              "numberOfTerms": 12,
+              "url": "https://pairingmethod.com/fruit-groups/pomes/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fruit-groups/processed-fruits/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fruit.processed-fruits",
+              "name": "Processed Fruits",
+              "numberOfTerms": 18,
+              "url": "https://pairingmethod.com/fruit-groups/processed-fruits/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fruit-groups/stone-fruits/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fruit.stone-fruits",
+              "name": "Stone Fruits",
+              "numberOfTerms": 17,
+              "url": "https://pairingmethod.com/fruit-groups/stone-fruits/"
+            },
+            {
+              "@id": "https://pairingmethod.com/fruit-groups/tropical-fruits/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.fruit.tropical-fruits",
+              "name": "Tropical Fruits",
+              "numberOfTerms": 22,
+              "url": "https://pairingmethod.com/fruit-groups/tropical-fruits/"
+            }
+          ],
+          "identifier": "food.fruit",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Fruit Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Fruits",
+          "numberOfTerms": 119,
+          "url": "https://pairingmethod.com/fruit-categories/fruit/"
+        }
+      ],
+      "projection_id": "food.fruit",
+      "slug": "fruit"
+    }
+  ]
+}

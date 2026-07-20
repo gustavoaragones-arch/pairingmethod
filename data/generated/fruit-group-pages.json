@@ -1,0 +1,401 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "fruit",
+    "food_ontology_version": "1.6.0",
+    "phase": "FOOD-09FA",
+    "projection_count": 7,
+    "projection_type": "fruit_group"
+  },
+  "projections": [
+    {
+      "food_count": 24,
+      "identity": {
+        "id": "food.fruit.berries",
+        "name": "Berries",
+        "slug": "berries"
+      },
+      "member_food_ids": [
+        "food.fruit.berries.acai",
+        "food.fruit.berries.barberry",
+        "food.fruit.berries.black-currant",
+        "food.fruit.berries.blackberry",
+        "food.fruit.berries.blueberry",
+        "food.fruit.berries.boysenberry",
+        "food.fruit.berries.cloudberry",
+        "food.fruit.berries.cranberry",
+        "food.fruit.berries.elderberry",
+        "food.fruit.berries.goji-berry",
+        "food.fruit.berries.gooseberry",
+        "food.fruit.berries.grape",
+        "food.fruit.berries.huckleberry",
+        "food.fruit.berries.juniper-berry",
+        "food.fruit.berries.lingonberry",
+        "food.fruit.berries.loganberry",
+        "food.fruit.berries.marionberry",
+        "food.fruit.berries.mulberry",
+        "food.fruit.berries.raspberry",
+        "food.fruit.berries.red-currant",
+        "food.fruit.berries.sea-buckthorn",
+        "food.fruit.berries.strawberry",
+        "food.fruit.berries.tayberry",
+        "food.fruit.berries.wineberry"
+      ],
+      "member_leaf_ids": [
+        "food.fruit.berries.acai",
+        "food.fruit.berries.barberry",
+        "food.fruit.berries.black-currant",
+        "food.fruit.berries.blackberry",
+        "food.fruit.berries.blueberry",
+        "food.fruit.berries.boysenberry",
+        "food.fruit.berries.cloudberry",
+        "food.fruit.berries.cranberry",
+        "food.fruit.berries.elderberry",
+        "food.fruit.berries.goji-berry",
+        "food.fruit.berries.gooseberry",
+        "food.fruit.berries.grape",
+        "food.fruit.berries.huckleberry",
+        "food.fruit.berries.juniper-berry",
+        "food.fruit.berries.lingonberry",
+        "food.fruit.berries.loganberry",
+        "food.fruit.berries.marionberry",
+        "food.fruit.berries.mulberry",
+        "food.fruit.berries.raspberry",
+        "food.fruit.berries.red-currant",
+        "food.fruit.berries.sea-buckthorn",
+        "food.fruit.berries.strawberry",
+        "food.fruit.berries.tayberry",
+        "food.fruit.berries.wineberry"
+      ],
+      "parent_category": {
+        "id": "food.fruit",
+        "name": "Fruits",
+        "slug": "fruit"
+      },
+      "usage_intensities_represented": [
+        "accent",
+        "luxury",
+        "primary"
+      ]
+    },
+    {
+      "food_count": 17,
+      "identity": {
+        "id": "food.fruit.citrus",
+        "name": "Citrus",
+        "slug": "citrus"
+      },
+      "member_food_ids": [
+        "food.fruit.citrus.bergamot",
+        "food.fruit.citrus.blood-orange",
+        "food.fruit.citrus.calamansi",
+        "food.fruit.citrus.citron",
+        "food.fruit.citrus.clementine",
+        "food.fruit.citrus.grapefruit",
+        "food.fruit.citrus.key-lime",
+        "food.fruit.citrus.kumquat",
+        "food.fruit.citrus.lemon",
+        "food.fruit.citrus.lime",
+        "food.fruit.citrus.mandarin",
+        "food.fruit.citrus.orange",
+        "food.fruit.citrus.pomelo",
+        "food.fruit.citrus.satsuma",
+        "food.fruit.citrus.sudachi",
+        "food.fruit.citrus.tangerine",
+        "food.fruit.citrus.yuzu"
+      ],
+      "member_leaf_ids": [
+        "food.fruit.citrus.bergamot",
+        "food.fruit.citrus.blood-orange",
+        "food.fruit.citrus.calamansi",
+        "food.fruit.citrus.citron",
+        "food.fruit.citrus.clementine",
+        "food.fruit.citrus.grapefruit",
+        "food.fruit.citrus.key-lime",
+        "food.fruit.citrus.kumquat",
+        "food.fruit.citrus.lemon",
+        "food.fruit.citrus.lime",
+        "food.fruit.citrus.mandarin",
+        "food.fruit.citrus.orange",
+        "food.fruit.citrus.pomelo",
+        "food.fruit.citrus.satsuma",
+        "food.fruit.citrus.sudachi",
+        "food.fruit.citrus.tangerine",
+        "food.fruit.citrus.yuzu"
+      ],
+      "parent_category": {
+        "id": "food.fruit",
+        "name": "Fruits",
+        "slug": "fruit"
+      },
+      "usage_intensities_represented": [
+        "accent",
+        "luxury",
+        "primary"
+      ]
+    },
+    {
+      "food_count": 9,
+      "identity": {
+        "id": "food.fruit.melons",
+        "name": "Melons",
+        "slug": "melons"
+      },
+      "member_food_ids": [
+        "food.fruit.melons.canary-melon",
+        "food.fruit.melons.cantaloupe",
+        "food.fruit.melons.casaba-melon",
+        "food.fruit.melons.crenshaw-melon",
+        "food.fruit.melons.galia-melon",
+        "food.fruit.melons.honeydew",
+        "food.fruit.melons.horned-melon",
+        "food.fruit.melons.piel-de-sapo",
+        "food.fruit.melons.watermelon"
+      ],
+      "member_leaf_ids": [
+        "food.fruit.melons.canary-melon",
+        "food.fruit.melons.cantaloupe",
+        "food.fruit.melons.casaba-melon",
+        "food.fruit.melons.crenshaw-melon",
+        "food.fruit.melons.galia-melon",
+        "food.fruit.melons.honeydew",
+        "food.fruit.melons.horned-melon",
+        "food.fruit.melons.piel-de-sapo",
+        "food.fruit.melons.watermelon"
+      ],
+      "parent_category": {
+        "id": "food.fruit",
+        "name": "Fruits",
+        "slug": "fruit"
+      },
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    },
+    {
+      "food_count": 12,
+      "identity": {
+        "id": "food.fruit.pomes",
+        "name": "Pomes",
+        "slug": "pomes"
+      },
+      "member_food_ids": [
+        "food.fruit.pomes.apple",
+        "food.fruit.pomes.asian-pear",
+        "food.fruit.pomes.crabapple",
+        "food.fruit.pomes.hawthorn",
+        "food.fruit.pomes.loquat",
+        "food.fruit.pomes.medlar",
+        "food.fruit.pomes.pear",
+        "food.fruit.pomes.quince",
+        "food.fruit.pomes.rowan",
+        "food.fruit.pomes.serviceberry",
+        "food.fruit.pomes.sorb-apple",
+        "food.fruit.pomes.tejocote"
+      ],
+      "member_leaf_ids": [
+        "food.fruit.pomes.apple",
+        "food.fruit.pomes.asian-pear",
+        "food.fruit.pomes.crabapple",
+        "food.fruit.pomes.hawthorn",
+        "food.fruit.pomes.loquat",
+        "food.fruit.pomes.medlar",
+        "food.fruit.pomes.pear",
+        "food.fruit.pomes.quince",
+        "food.fruit.pomes.rowan",
+        "food.fruit.pomes.serviceberry",
+        "food.fruit.pomes.sorb-apple",
+        "food.fruit.pomes.tejocote"
+      ],
+      "parent_category": {
+        "id": "food.fruit",
+        "name": "Fruits",
+        "slug": "fruit"
+      },
+      "usage_intensities_represented": [
+        "accent",
+        "luxury",
+        "primary"
+      ]
+    },
+    {
+      "food_count": 18,
+      "identity": {
+        "id": "food.fruit.processed-fruits",
+        "name": "Processed Fruits",
+        "slug": "processed-fruits"
+      },
+      "member_food_ids": [
+        "food.fruit.processed-fruits.banana-chips",
+        "food.fruit.processed-fruits.candied-orange-peel",
+        "food.fruit.processed-fruits.coconut-milk",
+        "food.fruit.processed-fruits.currants",
+        "food.fruit.processed-fruits.desiccated-coconut",
+        "food.fruit.processed-fruits.dried-apple",
+        "food.fruit.processed-fruits.dried-apricot",
+        "food.fruit.processed-fruits.dried-blueberry",
+        "food.fruit.processed-fruits.dried-cherry",
+        "food.fruit.processed-fruits.dried-cranberry",
+        "food.fruit.processed-fruits.dried-date",
+        "food.fruit.processed-fruits.dried-fig",
+        "food.fruit.processed-fruits.dried-mango",
+        "food.fruit.processed-fruits.dried-pineapple",
+        "food.fruit.processed-fruits.golden-raisin",
+        "food.fruit.processed-fruits.prune",
+        "food.fruit.processed-fruits.raisin",
+        "food.fruit.processed-fruits.sultanas"
+      ],
+      "member_leaf_ids": [
+        "food.fruit.processed-fruits.banana-chips",
+        "food.fruit.processed-fruits.candied-orange-peel",
+        "food.fruit.processed-fruits.coconut-milk",
+        "food.fruit.processed-fruits.currants",
+        "food.fruit.processed-fruits.desiccated-coconut",
+        "food.fruit.processed-fruits.dried-apple",
+        "food.fruit.processed-fruits.dried-apricot",
+        "food.fruit.processed-fruits.dried-blueberry",
+        "food.fruit.processed-fruits.dried-cherry",
+        "food.fruit.processed-fruits.dried-cranberry",
+        "food.fruit.processed-fruits.dried-date",
+        "food.fruit.processed-fruits.dried-fig",
+        "food.fruit.processed-fruits.dried-mango",
+        "food.fruit.processed-fruits.dried-pineapple",
+        "food.fruit.processed-fruits.golden-raisin",
+        "food.fruit.processed-fruits.prune",
+        "food.fruit.processed-fruits.raisin",
+        "food.fruit.processed-fruits.sultanas"
+      ],
+      "parent_category": {
+        "id": "food.fruit",
+        "name": "Fruits",
+        "slug": "fruit"
+      },
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    },
+    {
+      "food_count": 17,
+      "identity": {
+        "id": "food.fruit.stone-fruits",
+        "name": "Stone Fruits",
+        "slug": "stone-fruits"
+      },
+      "member_food_ids": [
+        "food.fruit.stone-fruits.apricot",
+        "food.fruit.stone-fruits.aprium",
+        "food.fruit.stone-fruits.black-cherry",
+        "food.fruit.stone-fruits.damson",
+        "food.fruit.stone-fruits.flat-peach",
+        "food.fruit.stone-fruits.greengage",
+        "food.fruit.stone-fruits.mirabelle",
+        "food.fruit.stone-fruits.montmorency-cherry",
+        "food.fruit.stone-fruits.mume",
+        "food.fruit.stone-fruits.nectarine",
+        "food.fruit.stone-fruits.peach",
+        "food.fruit.stone-fruits.plum",
+        "food.fruit.stone-fruits.pluot",
+        "food.fruit.stone-fruits.sand-cherry",
+        "food.fruit.stone-fruits.sloe",
+        "food.fruit.stone-fruits.sour-cherry",
+        "food.fruit.stone-fruits.sweet-cherry"
+      ],
+      "member_leaf_ids": [
+        "food.fruit.stone-fruits.apricot",
+        "food.fruit.stone-fruits.aprium",
+        "food.fruit.stone-fruits.black-cherry",
+        "food.fruit.stone-fruits.damson",
+        "food.fruit.stone-fruits.flat-peach",
+        "food.fruit.stone-fruits.greengage",
+        "food.fruit.stone-fruits.mirabelle",
+        "food.fruit.stone-fruits.montmorency-cherry",
+        "food.fruit.stone-fruits.mume",
+        "food.fruit.stone-fruits.nectarine",
+        "food.fruit.stone-fruits.peach",
+        "food.fruit.stone-fruits.plum",
+        "food.fruit.stone-fruits.pluot",
+        "food.fruit.stone-fruits.sand-cherry",
+        "food.fruit.stone-fruits.sloe",
+        "food.fruit.stone-fruits.sour-cherry",
+        "food.fruit.stone-fruits.sweet-cherry"
+      ],
+      "parent_category": {
+        "id": "food.fruit",
+        "name": "Fruits",
+        "slug": "fruit"
+      },
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    },
+    {
+      "food_count": 22,
+      "identity": {
+        "id": "food.fruit.tropical-fruits",
+        "name": "Tropical Fruits",
+        "slug": "tropical-fruits"
+      },
+      "member_food_ids": [
+        "food.fruit.tropical-fruits.avocado",
+        "food.fruit.tropical-fruits.banana",
+        "food.fruit.tropical-fruits.coconut",
+        "food.fruit.tropical-fruits.date",
+        "food.fruit.tropical-fruits.dragon-fruit",
+        "food.fruit.tropical-fruits.durian",
+        "food.fruit.tropical-fruits.fig",
+        "food.fruit.tropical-fruits.guava",
+        "food.fruit.tropical-fruits.jackfruit",
+        "food.fruit.tropical-fruits.kiwi",
+        "food.fruit.tropical-fruits.lychee",
+        "food.fruit.tropical-fruits.mango",
+        "food.fruit.tropical-fruits.mangosteen",
+        "food.fruit.tropical-fruits.papaya",
+        "food.fruit.tropical-fruits.passion-fruit",
+        "food.fruit.tropical-fruits.persimmon",
+        "food.fruit.tropical-fruits.pineapple",
+        "food.fruit.tropical-fruits.plantain",
+        "food.fruit.tropical-fruits.pomegranate",
+        "food.fruit.tropical-fruits.rambutan",
+        "food.fruit.tropical-fruits.starfruit",
+        "food.fruit.tropical-fruits.tamarind"
+      ],
+      "member_leaf_ids": [
+        "food.fruit.tropical-fruits.avocado",
+        "food.fruit.tropical-fruits.banana",
+        "food.fruit.tropical-fruits.coconut",
+        "food.fruit.tropical-fruits.date",
+        "food.fruit.tropical-fruits.dragon-fruit",
+        "food.fruit.tropical-fruits.durian",
+        "food.fruit.tropical-fruits.fig",
+        "food.fruit.tropical-fruits.guava",
+        "food.fruit.tropical-fruits.jackfruit",
+        "food.fruit.tropical-fruits.kiwi",
+        "food.fruit.tropical-fruits.lychee",
+        "food.fruit.tropical-fruits.mango",
+        "food.fruit.tropical-fruits.mangosteen",
+        "food.fruit.tropical-fruits.papaya",
+        "food.fruit.tropical-fruits.passion-fruit",
+        "food.fruit.tropical-fruits.persimmon",
+        "food.fruit.tropical-fruits.pineapple",
+        "food.fruit.tropical-fruits.plantain",
+        "food.fruit.tropical-fruits.pomegranate",
+        "food.fruit.tropical-fruits.rambutan",
+        "food.fruit.tropical-fruits.starfruit",
+        "food.fruit.tropical-fruits.tamarind"
+      ],
+      "parent_category": {
+        "id": "food.fruit",
+        "name": "Fruits",
+        "slug": "fruit"
+      },
+      "usage_intensities_represented": [
+        "accent",
+        "luxury",
+        "primary"
+      ]
+    }
+  ]
+}

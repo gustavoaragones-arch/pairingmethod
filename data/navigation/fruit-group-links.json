@@ -1,0 +1,1265 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/fruit-groups/berries/",
+      "projection_id": "food.fruit.berries",
+      "sections": {
+        "member_fruits": [
+          {
+            "href": "/fruits/acai/",
+            "id": "food.fruit.berries.acai",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Açaí"
+          },
+          {
+            "href": "/fruits/barberry/",
+            "id": "food.fruit.berries.barberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Barberry"
+          },
+          {
+            "href": "/fruits/black-currant/",
+            "id": "food.fruit.berries.black-currant",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Black Currant"
+          },
+          {
+            "href": "/fruits/blackberry/",
+            "id": "food.fruit.berries.blackberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Blackberry"
+          },
+          {
+            "href": "/fruits/blueberry/",
+            "id": "food.fruit.berries.blueberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Blueberry"
+          },
+          {
+            "href": "/fruits/boysenberry/",
+            "id": "food.fruit.berries.boysenberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Boysenberry"
+          },
+          {
+            "href": "/fruits/cloudberry/",
+            "id": "food.fruit.berries.cloudberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cloudberry"
+          },
+          {
+            "href": "/fruits/cranberry/",
+            "id": "food.fruit.berries.cranberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cranberry"
+          },
+          {
+            "href": "/fruits/elderberry/",
+            "id": "food.fruit.berries.elderberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Elderberry"
+          },
+          {
+            "href": "/fruits/goji-berry/",
+            "id": "food.fruit.berries.goji-berry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Goji Berry"
+          },
+          {
+            "href": "/fruits/gooseberry/",
+            "id": "food.fruit.berries.gooseberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Gooseberry"
+          },
+          {
+            "href": "/fruits/grape/",
+            "id": "food.fruit.berries.grape",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Grape"
+          },
+          {
+            "href": "/fruits/huckleberry/",
+            "id": "food.fruit.berries.huckleberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Huckleberry"
+          },
+          {
+            "href": "/fruits/juniper-berry/",
+            "id": "food.fruit.berries.juniper-berry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Juniper Berry"
+          },
+          {
+            "href": "/fruits/lingonberry/",
+            "id": "food.fruit.berries.lingonberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Lingonberry"
+          },
+          {
+            "href": "/fruits/loganberry/",
+            "id": "food.fruit.berries.loganberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Loganberry"
+          },
+          {
+            "href": "/fruits/marionberry/",
+            "id": "food.fruit.berries.marionberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Marionberry"
+          },
+          {
+            "href": "/fruits/mulberry/",
+            "id": "food.fruit.berries.mulberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Mulberry"
+          },
+          {
+            "href": "/fruits/raspberry/",
+            "id": "food.fruit.berries.raspberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Raspberry"
+          },
+          {
+            "href": "/fruits/red-currant/",
+            "id": "food.fruit.berries.red-currant",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Red Currant"
+          },
+          {
+            "href": "/fruits/sea-buckthorn/",
+            "id": "food.fruit.berries.sea-buckthorn",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sea Buckthorn"
+          },
+          {
+            "href": "/fruits/strawberry/",
+            "id": "food.fruit.berries.strawberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Strawberry"
+          },
+          {
+            "href": "/fruits/tayberry/",
+            "id": "food.fruit.berries.tayberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Tayberry"
+          },
+          {
+            "href": "/fruits/wineberry/",
+            "id": "food.fruit.berries.wineberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Wineberry"
+          }
+        ],
+        "parent_category": {
+          "href": "/fruit-categories/fruit/",
+          "id": "food.fruit",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Fruits"
+        },
+        "related_groups": [
+          {
+            "href": "/fruit-groups/citrus/",
+            "id": "food.fruit.citrus",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Citrus"
+          },
+          {
+            "href": "/fruit-groups/melons/",
+            "id": "food.fruit.melons",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Melons"
+          },
+          {
+            "href": "/fruit-groups/pomes/",
+            "id": "food.fruit.pomes",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Pomes"
+          },
+          {
+            "href": "/fruit-groups/processed-fruits/",
+            "id": "food.fruit.processed-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Processed Fruits"
+          },
+          {
+            "href": "/fruit-groups/stone-fruits/",
+            "id": "food.fruit.stone-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Stone Fruits"
+          },
+          {
+            "href": "/fruit-groups/tropical-fruits/",
+            "id": "food.fruit.tropical-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Tropical Fruits"
+          }
+        ]
+      },
+      "slug": "berries"
+    },
+    {
+      "canonical_path": "/fruit-groups/citrus/",
+      "projection_id": "food.fruit.citrus",
+      "sections": {
+        "member_fruits": [
+          {
+            "href": "/fruits/bergamot/",
+            "id": "food.fruit.citrus.bergamot",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Bergamot"
+          },
+          {
+            "href": "/fruits/blood-orange/",
+            "id": "food.fruit.citrus.blood-orange",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Blood Orange"
+          },
+          {
+            "href": "/fruits/calamansi/",
+            "id": "food.fruit.citrus.calamansi",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Calamansi"
+          },
+          {
+            "href": "/fruits/citron/",
+            "id": "food.fruit.citrus.citron",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Citron"
+          },
+          {
+            "href": "/fruits/clementine/",
+            "id": "food.fruit.citrus.clementine",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Clementine"
+          },
+          {
+            "href": "/fruits/grapefruit/",
+            "id": "food.fruit.citrus.grapefruit",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Grapefruit"
+          },
+          {
+            "href": "/fruits/key-lime/",
+            "id": "food.fruit.citrus.key-lime",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Key Lime"
+          },
+          {
+            "href": "/fruits/kumquat/",
+            "id": "food.fruit.citrus.kumquat",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Kumquat"
+          },
+          {
+            "href": "/fruits/lemon/",
+            "id": "food.fruit.citrus.lemon",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Lemon"
+          },
+          {
+            "href": "/fruits/lime/",
+            "id": "food.fruit.citrus.lime",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Lime"
+          },
+          {
+            "href": "/fruits/mandarin/",
+            "id": "food.fruit.citrus.mandarin",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Mandarin"
+          },
+          {
+            "href": "/fruits/orange/",
+            "id": "food.fruit.citrus.orange",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Orange"
+          },
+          {
+            "href": "/fruits/pomelo/",
+            "id": "food.fruit.citrus.pomelo",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Pomelo"
+          },
+          {
+            "href": "/fruits/satsuma/",
+            "id": "food.fruit.citrus.satsuma",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Satsuma"
+          },
+          {
+            "href": "/fruits/sudachi/",
+            "id": "food.fruit.citrus.sudachi",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sudachi"
+          },
+          {
+            "href": "/fruits/tangerine/",
+            "id": "food.fruit.citrus.tangerine",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Tangerine"
+          },
+          {
+            "href": "/fruits/yuzu/",
+            "id": "food.fruit.citrus.yuzu",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Yuzu"
+          }
+        ],
+        "parent_category": {
+          "href": "/fruit-categories/fruit/",
+          "id": "food.fruit",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Fruits"
+        },
+        "related_groups": [
+          {
+            "href": "/fruit-groups/berries/",
+            "id": "food.fruit.berries",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Berries"
+          },
+          {
+            "href": "/fruit-groups/melons/",
+            "id": "food.fruit.melons",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Melons"
+          },
+          {
+            "href": "/fruit-groups/pomes/",
+            "id": "food.fruit.pomes",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Pomes"
+          },
+          {
+            "href": "/fruit-groups/processed-fruits/",
+            "id": "food.fruit.processed-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Processed Fruits"
+          },
+          {
+            "href": "/fruit-groups/stone-fruits/",
+            "id": "food.fruit.stone-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Stone Fruits"
+          },
+          {
+            "href": "/fruit-groups/tropical-fruits/",
+            "id": "food.fruit.tropical-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Tropical Fruits"
+          }
+        ]
+      },
+      "slug": "citrus"
+    },
+    {
+      "canonical_path": "/fruit-groups/melons/",
+      "projection_id": "food.fruit.melons",
+      "sections": {
+        "member_fruits": [
+          {
+            "href": "/fruits/canary-melon/",
+            "id": "food.fruit.melons.canary-melon",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Canary Melon"
+          },
+          {
+            "href": "/fruits/cantaloupe/",
+            "id": "food.fruit.melons.cantaloupe",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cantaloupe"
+          },
+          {
+            "href": "/fruits/casaba-melon/",
+            "id": "food.fruit.melons.casaba-melon",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Casaba Melon"
+          },
+          {
+            "href": "/fruits/crenshaw-melon/",
+            "id": "food.fruit.melons.crenshaw-melon",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Crenshaw Melon"
+          },
+          {
+            "href": "/fruits/galia-melon/",
+            "id": "food.fruit.melons.galia-melon",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Galia Melon"
+          },
+          {
+            "href": "/fruits/honeydew/",
+            "id": "food.fruit.melons.honeydew",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Honeydew"
+          },
+          {
+            "href": "/fruits/horned-melon/",
+            "id": "food.fruit.melons.horned-melon",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Horned Melon"
+          },
+          {
+            "href": "/fruits/piel-de-sapo/",
+            "id": "food.fruit.melons.piel-de-sapo",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Piel de Sapo"
+          },
+          {
+            "href": "/fruits/watermelon/",
+            "id": "food.fruit.melons.watermelon",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Watermelon"
+          }
+        ],
+        "parent_category": {
+          "href": "/fruit-categories/fruit/",
+          "id": "food.fruit",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Fruits"
+        },
+        "related_groups": [
+          {
+            "href": "/fruit-groups/berries/",
+            "id": "food.fruit.berries",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Berries"
+          },
+          {
+            "href": "/fruit-groups/citrus/",
+            "id": "food.fruit.citrus",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Citrus"
+          },
+          {
+            "href": "/fruit-groups/pomes/",
+            "id": "food.fruit.pomes",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Pomes"
+          },
+          {
+            "href": "/fruit-groups/processed-fruits/",
+            "id": "food.fruit.processed-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Processed Fruits"
+          },
+          {
+            "href": "/fruit-groups/stone-fruits/",
+            "id": "food.fruit.stone-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Stone Fruits"
+          },
+          {
+            "href": "/fruit-groups/tropical-fruits/",
+            "id": "food.fruit.tropical-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Tropical Fruits"
+          }
+        ]
+      },
+      "slug": "melons"
+    },
+    {
+      "canonical_path": "/fruit-groups/pomes/",
+      "projection_id": "food.fruit.pomes",
+      "sections": {
+        "member_fruits": [
+          {
+            "href": "/fruits/apple/",
+            "id": "food.fruit.pomes.apple",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Apple"
+          },
+          {
+            "href": "/fruits/asian-pear/",
+            "id": "food.fruit.pomes.asian-pear",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Asian Pear"
+          },
+          {
+            "href": "/fruits/crabapple/",
+            "id": "food.fruit.pomes.crabapple",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Crabapple"
+          },
+          {
+            "href": "/fruits/hawthorn/",
+            "id": "food.fruit.pomes.hawthorn",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Hawthorn"
+          },
+          {
+            "href": "/fruits/loquat/",
+            "id": "food.fruit.pomes.loquat",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Loquat"
+          },
+          {
+            "href": "/fruits/medlar/",
+            "id": "food.fruit.pomes.medlar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Medlar"
+          },
+          {
+            "href": "/fruits/pear/",
+            "id": "food.fruit.pomes.pear",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Pear"
+          },
+          {
+            "href": "/fruits/quince/",
+            "id": "food.fruit.pomes.quince",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Quince"
+          },
+          {
+            "href": "/fruits/rowan/",
+            "id": "food.fruit.pomes.rowan",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Rowan"
+          },
+          {
+            "href": "/fruits/serviceberry/",
+            "id": "food.fruit.pomes.serviceberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Serviceberry"
+          },
+          {
+            "href": "/fruits/sorb-apple/",
+            "id": "food.fruit.pomes.sorb-apple",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sorb Apple"
+          },
+          {
+            "href": "/fruits/tejocote/",
+            "id": "food.fruit.pomes.tejocote",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Tejocote"
+          }
+        ],
+        "parent_category": {
+          "href": "/fruit-categories/fruit/",
+          "id": "food.fruit",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Fruits"
+        },
+        "related_groups": [
+          {
+            "href": "/fruit-groups/berries/",
+            "id": "food.fruit.berries",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Berries"
+          },
+          {
+            "href": "/fruit-groups/citrus/",
+            "id": "food.fruit.citrus",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Citrus"
+          },
+          {
+            "href": "/fruit-groups/melons/",
+            "id": "food.fruit.melons",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Melons"
+          },
+          {
+            "href": "/fruit-groups/processed-fruits/",
+            "id": "food.fruit.processed-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Processed Fruits"
+          },
+          {
+            "href": "/fruit-groups/stone-fruits/",
+            "id": "food.fruit.stone-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Stone Fruits"
+          },
+          {
+            "href": "/fruit-groups/tropical-fruits/",
+            "id": "food.fruit.tropical-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Tropical Fruits"
+          }
+        ]
+      },
+      "slug": "pomes"
+    },
+    {
+      "canonical_path": "/fruit-groups/processed-fruits/",
+      "projection_id": "food.fruit.processed-fruits",
+      "sections": {
+        "member_fruits": [
+          {
+            "href": "/fruits/banana-chips/",
+            "id": "food.fruit.processed-fruits.banana-chips",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Banana Chips"
+          },
+          {
+            "href": "/fruits/candied-orange-peel/",
+            "id": "food.fruit.processed-fruits.candied-orange-peel",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Candied Orange Peel"
+          },
+          {
+            "href": "/fruits/coconut-milk/",
+            "id": "food.fruit.processed-fruits.coconut-milk",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Coconut Milk"
+          },
+          {
+            "href": "/fruits/currants/",
+            "id": "food.fruit.processed-fruits.currants",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Currants"
+          },
+          {
+            "href": "/fruits/desiccated-coconut/",
+            "id": "food.fruit.processed-fruits.desiccated-coconut",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Desiccated Coconut"
+          },
+          {
+            "href": "/fruits/dried-apple/",
+            "id": "food.fruit.processed-fruits.dried-apple",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Dried Apple"
+          },
+          {
+            "href": "/fruits/dried-apricot/",
+            "id": "food.fruit.processed-fruits.dried-apricot",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Dried Apricot"
+          },
+          {
+            "href": "/fruits/dried-blueberry/",
+            "id": "food.fruit.processed-fruits.dried-blueberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Dried Blueberry"
+          },
+          {
+            "href": "/fruits/dried-cherry/",
+            "id": "food.fruit.processed-fruits.dried-cherry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Dried Cherry"
+          },
+          {
+            "href": "/fruits/dried-cranberry/",
+            "id": "food.fruit.processed-fruits.dried-cranberry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Dried Cranberry"
+          },
+          {
+            "href": "/fruits/dried-date/",
+            "id": "food.fruit.processed-fruits.dried-date",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Dried Date"
+          },
+          {
+            "href": "/fruits/dried-fig/",
+            "id": "food.fruit.processed-fruits.dried-fig",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Dried Fig"
+          },
+          {
+            "href": "/fruits/dried-mango/",
+            "id": "food.fruit.processed-fruits.dried-mango",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Dried Mango"
+          },
+          {
+            "href": "/fruits/dried-pineapple/",
+            "id": "food.fruit.processed-fruits.dried-pineapple",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Dried Pineapple"
+          },
+          {
+            "href": "/fruits/golden-raisin/",
+            "id": "food.fruit.processed-fruits.golden-raisin",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Golden Raisin"
+          },
+          {
+            "href": "/fruits/prune/",
+            "id": "food.fruit.processed-fruits.prune",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Prune"
+          },
+          {
+            "href": "/fruits/raisin/",
+            "id": "food.fruit.processed-fruits.raisin",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Raisin"
+          },
+          {
+            "href": "/fruits/sultanas/",
+            "id": "food.fruit.processed-fruits.sultanas",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sultanas"
+          }
+        ],
+        "parent_category": {
+          "href": "/fruit-categories/fruit/",
+          "id": "food.fruit",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Fruits"
+        },
+        "related_groups": [
+          {
+            "href": "/fruit-groups/berries/",
+            "id": "food.fruit.berries",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Berries"
+          },
+          {
+            "href": "/fruit-groups/citrus/",
+            "id": "food.fruit.citrus",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Citrus"
+          },
+          {
+            "href": "/fruit-groups/melons/",
+            "id": "food.fruit.melons",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Melons"
+          },
+          {
+            "href": "/fruit-groups/pomes/",
+            "id": "food.fruit.pomes",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Pomes"
+          },
+          {
+            "href": "/fruit-groups/stone-fruits/",
+            "id": "food.fruit.stone-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Stone Fruits"
+          },
+          {
+            "href": "/fruit-groups/tropical-fruits/",
+            "id": "food.fruit.tropical-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Tropical Fruits"
+          }
+        ]
+      },
+      "slug": "processed-fruits"
+    },
+    {
+      "canonical_path": "/fruit-groups/stone-fruits/",
+      "projection_id": "food.fruit.stone-fruits",
+      "sections": {
+        "member_fruits": [
+          {
+            "href": "/fruits/apricot/",
+            "id": "food.fruit.stone-fruits.apricot",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Apricot"
+          },
+          {
+            "href": "/fruits/aprium/",
+            "id": "food.fruit.stone-fruits.aprium",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Aprium"
+          },
+          {
+            "href": "/fruits/black-cherry/",
+            "id": "food.fruit.stone-fruits.black-cherry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Black Cherry"
+          },
+          {
+            "href": "/fruits/damson/",
+            "id": "food.fruit.stone-fruits.damson",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Damson"
+          },
+          {
+            "href": "/fruits/flat-peach/",
+            "id": "food.fruit.stone-fruits.flat-peach",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Flat Peach"
+          },
+          {
+            "href": "/fruits/greengage/",
+            "id": "food.fruit.stone-fruits.greengage",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Greengage"
+          },
+          {
+            "href": "/fruits/mirabelle/",
+            "id": "food.fruit.stone-fruits.mirabelle",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Mirabelle"
+          },
+          {
+            "href": "/fruits/montmorency-cherry/",
+            "id": "food.fruit.stone-fruits.montmorency-cherry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Montmorency Cherry"
+          },
+          {
+            "href": "/fruits/mume/",
+            "id": "food.fruit.stone-fruits.mume",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Mume"
+          },
+          {
+            "href": "/fruits/nectarine/",
+            "id": "food.fruit.stone-fruits.nectarine",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Nectarine"
+          },
+          {
+            "href": "/fruits/peach/",
+            "id": "food.fruit.stone-fruits.peach",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Peach"
+          },
+          {
+            "href": "/fruits/plum/",
+            "id": "food.fruit.stone-fruits.plum",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Plum"
+          },
+          {
+            "href": "/fruits/pluot/",
+            "id": "food.fruit.stone-fruits.pluot",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Pluot"
+          },
+          {
+            "href": "/fruits/sand-cherry/",
+            "id": "food.fruit.stone-fruits.sand-cherry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sand Cherry"
+          },
+          {
+            "href": "/fruits/sloe/",
+            "id": "food.fruit.stone-fruits.sloe",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sloe"
+          },
+          {
+            "href": "/fruits/sour-cherry/",
+            "id": "food.fruit.stone-fruits.sour-cherry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sour Cherry"
+          },
+          {
+            "href": "/fruits/sweet-cherry/",
+            "id": "food.fruit.stone-fruits.sweet-cherry",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sweet Cherry"
+          }
+        ],
+        "parent_category": {
+          "href": "/fruit-categories/fruit/",
+          "id": "food.fruit",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Fruits"
+        },
+        "related_groups": [
+          {
+            "href": "/fruit-groups/berries/",
+            "id": "food.fruit.berries",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Berries"
+          },
+          {
+            "href": "/fruit-groups/citrus/",
+            "id": "food.fruit.citrus",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Citrus"
+          },
+          {
+            "href": "/fruit-groups/melons/",
+            "id": "food.fruit.melons",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Melons"
+          },
+          {
+            "href": "/fruit-groups/pomes/",
+            "id": "food.fruit.pomes",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Pomes"
+          },
+          {
+            "href": "/fruit-groups/processed-fruits/",
+            "id": "food.fruit.processed-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Processed Fruits"
+          },
+          {
+            "href": "/fruit-groups/tropical-fruits/",
+            "id": "food.fruit.tropical-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Tropical Fruits"
+          }
+        ]
+      },
+      "slug": "stone-fruits"
+    },
+    {
+      "canonical_path": "/fruit-groups/tropical-fruits/",
+      "projection_id": "food.fruit.tropical-fruits",
+      "sections": {
+        "member_fruits": [
+          {
+            "href": "/fruits/avocado/",
+            "id": "food.fruit.tropical-fruits.avocado",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Avocado"
+          },
+          {
+            "href": "/fruits/banana/",
+            "id": "food.fruit.tropical-fruits.banana",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Banana"
+          },
+          {
+            "href": "/fruits/coconut/",
+            "id": "food.fruit.tropical-fruits.coconut",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Coconut"
+          },
+          {
+            "href": "/fruits/date/",
+            "id": "food.fruit.tropical-fruits.date",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Date"
+          },
+          {
+            "href": "/fruits/dragon-fruit/",
+            "id": "food.fruit.tropical-fruits.dragon-fruit",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Dragon Fruit"
+          },
+          {
+            "href": "/fruits/durian/",
+            "id": "food.fruit.tropical-fruits.durian",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Durian"
+          },
+          {
+            "href": "/fruits/fig/",
+            "id": "food.fruit.tropical-fruits.fig",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Fig"
+          },
+          {
+            "href": "/fruits/guava/",
+            "id": "food.fruit.tropical-fruits.guava",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Guava"
+          },
+          {
+            "href": "/fruits/jackfruit/",
+            "id": "food.fruit.tropical-fruits.jackfruit",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Jackfruit"
+          },
+          {
+            "href": "/fruits/kiwi/",
+            "id": "food.fruit.tropical-fruits.kiwi",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Kiwi"
+          },
+          {
+            "href": "/fruits/lychee/",
+            "id": "food.fruit.tropical-fruits.lychee",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Lychee"
+          },
+          {
+            "href": "/fruits/mango/",
+            "id": "food.fruit.tropical-fruits.mango",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Mango"
+          },
+          {
+            "href": "/fruits/mangosteen/",
+            "id": "food.fruit.tropical-fruits.mangosteen",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Mangosteen"
+          },
+          {
+            "href": "/fruits/papaya/",
+            "id": "food.fruit.tropical-fruits.papaya",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Papaya"
+          },
+          {
+            "href": "/fruits/passion-fruit/",
+            "id": "food.fruit.tropical-fruits.passion-fruit",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Passion Fruit"
+          },
+          {
+            "href": "/fruits/persimmon/",
+            "id": "food.fruit.tropical-fruits.persimmon",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Persimmon"
+          },
+          {
+            "href": "/fruits/pineapple/",
+            "id": "food.fruit.tropical-fruits.pineapple",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Pineapple"
+          },
+          {
+            "href": "/fruits/plantain/",
+            "id": "food.fruit.tropical-fruits.plantain",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Plantain"
+          },
+          {
+            "href": "/fruits/pomegranate/",
+            "id": "food.fruit.tropical-fruits.pomegranate",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Pomegranate"
+          },
+          {
+            "href": "/fruits/rambutan/",
+            "id": "food.fruit.tropical-fruits.rambutan",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Rambutan"
+          },
+          {
+            "href": "/fruits/starfruit/",
+            "id": "food.fruit.tropical-fruits.starfruit",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Starfruit"
+          },
+          {
+            "href": "/fruits/tamarind/",
+            "id": "food.fruit.tropical-fruits.tamarind",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Tamarind"
+          }
+        ],
+        "parent_category": {
+          "href": "/fruit-categories/fruit/",
+          "id": "food.fruit",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Fruits"
+        },
+        "related_groups": [
+          {
+            "href": "/fruit-groups/berries/",
+            "id": "food.fruit.berries",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Berries"
+          },
+          {
+            "href": "/fruit-groups/citrus/",
+            "id": "food.fruit.citrus",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Citrus"
+          },
+          {
+            "href": "/fruit-groups/melons/",
+            "id": "food.fruit.melons",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Melons"
+          },
+          {
+            "href": "/fruit-groups/pomes/",
+            "id": "food.fruit.pomes",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Pomes"
+          },
+          {
+            "href": "/fruit-groups/processed-fruits/",
+            "id": "food.fruit.processed-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Processed Fruits"
+          },
+          {
+            "href": "/fruit-groups/stone-fruits/",
+            "id": "food.fruit.stone-fruits",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Stone Fruits"
+          }
+        ]
+      },
+      "slug": "tropical-fruits"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "fruit",
+    "food_ontology_version": "1.6.0",
+    "link_set_count": 7,
+    "link_set_type": "fruit_group",
+    "phase": "FOOD-09FD"
+  }
+}

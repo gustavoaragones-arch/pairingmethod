@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "fruit",
+    "food_ontology_version": "1.6.0",
+    "page_count": 1,
+    "page_type": "fruit_category",
+    "phase": "FOOD-09FB"
+  },
+  "pages": [
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/fruits/",
+          "label": "Fruits"
+        },
+        {
+          "href": "/fruit-categories/fruit/",
+          "label": "Fruits"
+        }
+      ],
+      "canonical_path": "/fruit-categories/fruit/",
+      "groups": [
+        {
+          "food_count": 24,
+          "href": "/fruit-groups/berries/",
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        {
+          "food_count": 17,
+          "href": "/fruit-groups/citrus/",
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        {
+          "food_count": 9,
+          "href": "/fruit-groups/melons/",
+          "id": "food.fruit.melons",
+          "name": "Melons",
+          "slug": "melons"
+        },
+        {
+          "food_count": 12,
+          "href": "/fruit-groups/pomes/",
+          "id": "food.fruit.pomes",
+          "name": "Pomes",
+          "slug": "pomes"
+        },
+        {
+          "food_count": 18,
+          "href": "/fruit-groups/processed-fruits/",
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        {
+          "food_count": 17,
+          "href": "/fruit-groups/stone-fruits/",
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        {
+          "food_count": 22,
+          "href": "/fruit-groups/tropical-fruits/",
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        }
+      ],
+      "identity": {
+        "id": "food.fruit",
+        "slug": "fruit",
+        "title": "Fruits"
+      },
+      "metadata": {
+        "canonical": "https://pairingmethod.com/fruit-categories/fruit/",
+        "description": "Fruits — 7 groups and 119 fruits.",
+        "og_description": "Fruits — 7 groups and 119 fruits.",
+        "og_title": "Fruits — Fruit Category",
+        "title": "Fruits — Fruit Category"
+      },
+      "overview": {
+        "display_name": "Fruits",
+        "food_count": 119,
+        "group_count": 7
+      },
+      "page_type": "fruit_category",
+      "projection_id": "food.fruit",
+      "slug": "fruit"
+    }
+  ]
+}

@@ -1,35 +1,35 @@
 {
   "domains": [
-    "grain-starch"
+    "fruit"
   ],
   "metrics": {
     "Overall result": "PASS",
     "Promotion targets": 6,
     "Validation errors": 0,
-    "grain-starch categories pages promoted": 1,
-    "grain-starch groups pages promoted": 4,
-    "grain-starch leaf pages promoted": 76
+    "fruit categories pages promoted": 1,
+    "fruit groups pages promoted": 7,
+    "fruit leaf pages promoted": 119
   },
   "overall_result": "PASS",
   "phase": "DEPLOY-01",
   "promoted": [
     {
-      "domain": "grain-starch",
-      "html_files": 76,
-      "source": "dist/grains-starches",
-      "target": "grains-starches"
+      "domain": "fruit",
+      "html_files": 119,
+      "source": "dist/fruits",
+      "target": "fruits"
     },
     {
-      "domain": "grain-starch",
-      "html_files": 4,
-      "source": "dist/grain-starch-groups",
-      "target": "grain-starch-groups"
+      "domain": "fruit",
+      "html_files": 7,
+      "source": "dist/fruit-groups",
+      "target": "fruit-groups"
     },
     {
-      "domain": "grain-starch",
+      "domain": "fruit",
       "html_files": 1,
-      "source": "dist/grain-starch-categories",
-      "target": "grain-starch-categories"
+      "source": "dist/fruit-categories",
+      "target": "fruit-categories"
     },
     {
       "html_files": 0,

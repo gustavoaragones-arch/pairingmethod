@@ -1,0 +1,19 @@
+{
+  "domain": "fruit",
+  "metrics": {
+    "Category projections": 1,
+    "Group projections": 7,
+    "Leaf projections": 119,
+    "Overall result": "PASS",
+    "Referenced relationships": 630,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/generated/fruit-pages.json",
+    "data/generated/fruit-group-pages.json",
+    "data/generated/fruit-category-pages.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-09FA",
+  "validation_errors": []
+}

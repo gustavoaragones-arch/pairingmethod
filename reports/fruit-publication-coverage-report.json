@@ -1,0 +1,55 @@
+{
+  "domain": "fruit",
+  "layers": {
+    "cross_layer": {
+      "complete_chains": 127,
+      "entities": 127,
+      "overall": 100
+    },
+    "determinism": {
+      "artifacts_checked": 16,
+      "artifacts_passing": 16,
+      "overall": 100
+    },
+    "json_ld": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "navigation": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "projections": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "relationships": {
+      "consumed_by_publication": 630,
+      "editorial_edges": 333,
+      "overall": 100,
+      "pairing_edges": 265,
+      "structural_edges": 4027
+    },
+    "search": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "viewmodels": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    }
+  },
+  "overall_certification": "PASS",
+  "phase": "FOOD-09F",
+  "publication_completeness_percent": 100
+}

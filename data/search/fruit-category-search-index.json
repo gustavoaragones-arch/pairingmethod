@@ -1,0 +1,89 @@
+{
+  "documents": [
+    {
+      "canonical_path": "/fruit-categories/fruit/",
+      "canonical_url": "https://pairingmethod.com/fruit-categories/fruit/",
+      "display_name": "Fruits",
+      "document_type": "fruit_category",
+      "food_count": 119,
+      "group_count": 7,
+      "group_ids": [
+        "food.fruit.berries",
+        "food.fruit.citrus",
+        "food.fruit.melons",
+        "food.fruit.pomes",
+        "food.fruit.processed-fruits",
+        "food.fruit.stone-fruits",
+        "food.fruit.tropical-fruits"
+      ],
+      "groups": [
+        {
+          "food_count": 24,
+          "id": "food.fruit.berries",
+          "name": "Berries",
+          "slug": "berries"
+        },
+        {
+          "food_count": 17,
+          "id": "food.fruit.citrus",
+          "name": "Citrus",
+          "slug": "citrus"
+        },
+        {
+          "food_count": 9,
+          "id": "food.fruit.melons",
+          "name": "Melons",
+          "slug": "melons"
+        },
+        {
+          "food_count": 12,
+          "id": "food.fruit.pomes",
+          "name": "Pomes",
+          "slug": "pomes"
+        },
+        {
+          "food_count": 18,
+          "id": "food.fruit.processed-fruits",
+          "name": "Processed Fruits",
+          "slug": "processed-fruits"
+        },
+        {
+          "food_count": 17,
+          "id": "food.fruit.stone-fruits",
+          "name": "Stone Fruits",
+          "slug": "stone-fruits"
+        },
+        {
+          "food_count": 22,
+          "id": "food.fruit.tropical-fruits",
+          "name": "Tropical Fruits",
+          "slug": "tropical-fruits"
+        }
+      ],
+      "id": "food.fruit",
+      "projection_id": "food.fruit",
+      "slug": "fruit",
+      "tokens": [
+        "119",
+        "7",
+        "berries",
+        "citrus",
+        "fruit",
+        "fruits",
+        "melons",
+        "pomes",
+        "processed fruits",
+        "stone fruits",
+        "tropical fruits"
+      ]
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "document_count": 1,
+    "document_type": "fruit_category",
+    "domain": "fruit",
+    "food_ontology_version": "1.6.0",
+    "phase": "FOOD-09FE"
+  }
+}

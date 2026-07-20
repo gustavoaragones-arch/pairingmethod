@@ -1,0 +1,33 @@
+{
+  "deployment_gate": true,
+  "domain": "fruit",
+  "metrics": {
+    "Broken navigation links": 0,
+    "HTML pages": 127,
+    "Overall result": "PASS",
+    "Publication entities": 127,
+    "Search suggestions": 127,
+    "Sitemap URLs": 127,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "dist/release-manifest.json",
+    "reports/fruit-release-certification-report.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-09FI",
+  "platform_audit": {
+    "overall": "PASS",
+    "platform_modifications_required": 0,
+    "shared_publication_pipeline_reused_percent": 100
+  },
+  "release_summary": {
+    "canonicalFruits": 119,
+    "editorialRelationships": 333,
+    "publicationPages": 127,
+    "runtimeRelationships": 4027,
+    "wineRelationships": 265
+  },
+  "validation_errors": [],
+  "warnings": []
+}

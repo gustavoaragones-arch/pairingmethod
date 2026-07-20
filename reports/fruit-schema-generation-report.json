@@ -1,0 +1,52 @@
+{
+  "builders": {
+    "category": [
+      "CollectionPage",
+      "BreadcrumbList",
+      "DefinedTermSet"
+    ],
+    "group": [
+      "CollectionPage",
+      "BreadcrumbList",
+      "DefinedTermSet"
+    ],
+    "leaf": [
+      "WebPage",
+      "BreadcrumbList",
+      "DefinedTerm",
+      "Taxon"
+    ]
+  },
+  "domain": "fruit",
+  "metrics": {
+    "Average objects per page": 3.94,
+    "Category schemas": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate @id": 0,
+    "Group schemas": 7,
+    "Invalid references": 0,
+    "JSON-LD objects emitted": 500,
+    "Leaf schemas": 119,
+    "Overall certification": "PASS",
+    "Overall result": "PASS",
+    "Schema types generated": 6,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/schema/fruit-schema.json",
+    "data/schema/fruit-group-schema.json",
+    "data/schema/fruit-category-schema.json"
+  ],
+  "overall_certification": "PASS",
+  "overall_result": "PASS",
+  "phase": "FOOD-09FC",
+  "schema_types": [
+    "BreadcrumbList",
+    "CollectionPage",
+    "DefinedTerm",
+    "DefinedTermSet",
+    "Taxon",
+    "WebPage"
+  ],
+  "validation_errors": []
+}
