@@ -1,0 +1,70 @@
+{
+  "association_rule": "Editorial edges describe ingredient compatibility, not dish composition or finished dishes.",
+  "catalog_version": "1.0.0",
+  "domain": "grain-starch",
+  "editorial_tiers": {
+    "A": {
+      "label": "high_confidence_culinary_equivalence",
+      "relationships": [
+        "similar_to",
+        "substitutes_for"
+      ]
+    },
+    "B": {
+      "label": "common_culinary_association",
+      "relationships": [
+        "commonly_served_with"
+      ],
+      "scope": "intra_domain"
+    },
+    "C": {
+      "label": "cross_domain_forward_reference",
+      "relationships": [
+        "commonly_served_with"
+      ],
+      "scope": "forward_reference"
+    }
+  },
+  "errors": [],
+  "forward_references": [
+    "food.cheese.brined.feta",
+    "food.cheese.hard.cheddar",
+    "food.cheese.hard.parmigiano-reggiano",
+    "food.fungi.cultivated-mushrooms.shiitake",
+    "food.fungi.wild-mushrooms.porcini",
+    "food.herb.dried-herbs.rosemary",
+    "food.herb.fresh-herbs.basil",
+    "food.herb.whole-spices.black-pepper",
+    "food.herb.whole-spices.cinnamon",
+    "food.protein.beef.ribeye",
+    "food.protein.fin-fish.salmon-fillet",
+    "food.protein.poultry.chicken-breast",
+    "food.vegetable.alliums.garlic",
+    "food.vegetable.alliums.onion",
+    "food.vegetable.nightshades.tomato"
+  ],
+  "metrics": {
+    "Conflicts": 0,
+    "Determinism": "PASS",
+    "Deterministic ordering": "PASS",
+    "Duplicate edges": 0,
+    "Editorial edges": 192,
+    "Editorial relationship types": 3,
+    "Forward reference orphans": 0,
+    "Missing entities": 0,
+    "Overall result": "PASS",
+    "Pending review edges": 0,
+    "Tier A edges": 29,
+    "Tier B edges": 63,
+    "Tier C edges": 100
+  },
+  "output": "data/runtime/grain-starch-editorial-relationships.json",
+  "overall_result": "PASS",
+  "phase": "FOOD-08D",
+  "processing_editorial_rule": "PROC-001: processing-derived canonical identities must not be treated as editorially interchangeable in Tier A relationships.",
+  "relationship_type_counts": {
+    "commonly_served_with": 163,
+    "similar_to": 19,
+    "substitutes_for": 10
+  }
+}
