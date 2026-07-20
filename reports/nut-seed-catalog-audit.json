@@ -1,0 +1,293 @@
+{
+  "audited_at": "2026-07-20",
+  "phase": "FOOD-10B",
+  "domain": "nut-seed",
+  "catalog_version": "1.0.0",
+  "validation": {
+    "total_validation_rules": 28,
+    "required_checks": 28,
+    "passed": 28,
+    "failed": 0,
+    "required_failed": 0,
+    "overall_result": "PASS"
+  },
+  "summary": {
+    "categories": 1,
+    "groups": 6,
+    "nut_seeds": 89,
+    "scientific_names": 53,
+    "vocabulary_violations": 0,
+    "canonical_entity_violations": 0,
+    "global_recognition_violations": 0,
+    "nut001_violations": 0,
+    "nut002_violations": 0,
+    "botanical_violations": 0,
+    "cross_domain_violations": 0,
+    "alias_conflicts": 0,
+    "metadata_completeness": "100%",
+    "overall_result": "PASS"
+  },
+  "metrics": {
+    "Total validation rules": 28,
+    "Passed": 28,
+    "Failed": 0,
+    "Required checks": 28,
+    "Categories": 1,
+    "Groups": 6,
+    "Nut & seed entities": 89,
+    "Scientific names": 53,
+    "Vocabulary violations": 0,
+    "Canonical entity violations": 0,
+    "Global recognition violations": 0,
+    "NUT-001 violations": 0,
+    "NUT-002 violations": 0,
+    "Botanical violations": 0,
+    "Cross-domain violations": 0,
+    "Alias conflicts": 0,
+    "Metadata completeness": "100%",
+    "Overall result": "PASS"
+  },
+  "rules": [
+    {
+      "id": "META-001",
+      "name": "meta.entity_count matches nut_seeds length",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-002",
+      "name": "meta.catalog_version and phase present",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-004",
+      "name": "entity count within FOOD-10B target (80-110)",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-005",
+      "name": "group counts within FOOD-10B planning targets",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "CANON-001",
+      "name": "Canonical Entity Rule — no preparation or trade-name splits",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "CANON-002",
+      "name": "Global culinary recognition — not regional commercial products",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "BOTAN-001",
+      "name": "Botanical Ownership Rule — culinary identity over botanical taxonomy",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "PROC-001",
+      "name": "Processing Ownership Rule — distinct entities only when culinary identity changes",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "FRUIT-001",
+      "name": "Culinary Form Ownership Rule — fruit-owned ingredients excluded",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "NUT-001",
+      "name": "Culinary Classification Rule — frozen group assignments",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "NUT-002",
+      "name": "Processed Product Rule — separate entities and alias freeze",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "XDOM-001",
+      "name": "Cross-domain ownership — no duplicate canonical ownership",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ID-001",
+      "name": "unique ontology IDs",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ID-002",
+      "name": "unique slugs",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ID-003",
+      "name": "stable nut-seed ID format",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-001",
+      "name": "category and group hierarchy integrity",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-002",
+      "name": "every entity belongs to exactly one valid group",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-003",
+      "name": "group child_slugs bidirectionally complete",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "VOCAB-001",
+      "name": "controlled vocabulary compliance",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "USAGE-001",
+      "name": "usage_intensity populated on every entity",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "PROF-001",
+      "name": "reserved profile arrays empty",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "SCI-001",
+      "name": "required scientific_name",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "EXT-001",
+      "name": "required external_ids object",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-003",
+      "name": "required intrinsic field coverage on every entity",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "REL-001",
+      "name": "reserved relationship arrays present and empty",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ALIAS-001",
+      "name": "no duplicate aliases across catalog",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "SCHEMA-001",
+      "name": "no unexpected keys on nut_seed entities",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "VER-001",
+      "name": "per-entity catalog_version and food_ontology_version",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    }
+  ],
+  "details": {
+    "identity_errors": [],
+    "hierarchy_errors": [],
+    "vocabulary_violations": [],
+    "canonical_entity_violations": [],
+    "global_recognition_violations": [],
+    "nut001_violations": [],
+    "nut002_violations": [],
+    "botanical_violations": [],
+    "cross_domain_violations": [],
+    "group_count_violations": [],
+    "alias_conflicts": [],
+    "metadata_gaps_total": 0,
+    "metadata_gaps_sample": [],
+    "unexpected_keys": [],
+    "scientific_name_issues": []
+  }
+}

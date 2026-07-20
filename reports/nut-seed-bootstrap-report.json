@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-07-20T23:13:37.370Z",
+  "phase": "FOOD-10B",
+  "domain": "nut-seed",
+  "entity_count": 89,
+  "counts_by_group": {
+    "tree-nuts": 21,
+    "peanuts": 1,
+    "edible-seeds": 24,
+    "seed-spices": 9,
+    "nut-products": 18,
+    "seed-products": 16
+  },
+  "catalog_path": "data/nut-seed-catalog.json",
+  "audit_script": "scripts/catalog-audit-nut-seed-10b.mjs",
+  "canonical_entity_rule": "CANON-001 — preparation and trade-name splits are aliases, not entities",
+  "global_recognition_rule": "CANON-002 — globally recognizable culinary ingredients only",
+  "botanical_ownership_rule": "BOTAN-001 — culinary identity over botanical taxonomy",
+  "processing_ownership_rule": "PROC-001 — separate entities when processing changes culinary identity",
+  "culinary_classification_rule": "NUT-001 — group assignment follows culinary identity",
+  "processed_product_rule": "NUT-002 — separate entities only for independent culinary identity",
+  "culinary_form_ownership_rule": "FRUIT-001 — cross-domain fruit ownership referenced for coconut exclusion",
+  "profile_arrays_policy": "flavor_profile, texture_profile, aroma_profile reserved empty",
+  "relationship_policy": "all relationship arrays empty"
+}
