@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-20T00:40:13.735Z",
+  "phase": "FOOD-08B",
+  "domain": "grain-starch",
+  "entity_count": 76,
+  "counts_by_group": {
+    "whole-grains": 22,
+    "pseudocereals": 9,
+    "processed-grains": 25,
+    "starches": 20
+  },
+  "catalog_path": "data/grain-starch-catalog.json",
+  "audit_script": "scripts/catalog-audit-grain-starch-08b.mjs",
+  "canonical_entity_rule": "CANON-001 — preparation and trade-name splits are aliases, not entities",
+  "global_recognition_rule": "CANON-002 — globally recognizable culinary ingredients only",
+  "processing_ownership_rule": "PROC-001 — separate entities when processing changes culinary identity",
+  "profile_arrays_policy": "flavor_profile, texture_profile, aroma_profile reserved empty",
+  "relationship_policy": "all relationship arrays empty"
+}
