@@ -1,0 +1,343 @@
+{
+  "categories": [
+    {
+      "child_slugs": [
+        "whole-grains",
+        "pseudocereals",
+        "processed-grains",
+        "starches"
+      ],
+      "domain": "culinary",
+      "entity_type": "grain_starch_category",
+      "external_ids": {},
+      "id": "food.grain",
+      "introduction": "The Grain & Starch Ontology catalogs canonical culinary grains, pseudocereals, processed grain forms, and starches used worldwide as staple ingredients. This domain models culinary ingredients, not prepared foods or crop science.",
+      "name": "Grains & Starches",
+      "scientific_name": "",
+      "seo_description": "Explore canonical culinary grains, pseudocereals, and starches by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+      "seo_title": "Grains & Starches — Food Ontology",
+      "slug": "grain-starch",
+      "summary": "Canonical culinary grains and starches across four immutable groups: Whole Grains, Pseudocereals, Processed Grains, and Starches."
+    }
+  ],
+  "grain_starches": [],
+  "groups": [
+    {
+      "child_slugs": [],
+      "culinary_group": "whole_grains",
+      "domain": "culinary",
+      "entity_type": "grain_starch_group",
+      "external_ids": {},
+      "id": "food.grain.whole-grains",
+      "introduction": "Whole grains in the Grain & Starch Ontology — intact or minimally processed cereal grains used as staple bases, including rice, wheat, barley, rye, oats, corn, millet, and sorghum.",
+      "name": "Whole Grains",
+      "parent_category": "grain-starch",
+      "scientific_name": "",
+      "seo_description": "Canonical whole culinary grains — rice, wheat, barley, and related staple ingredients in the PairingMethod Grain & Starch Ontology.",
+      "seo_title": "Whole Grains — Grain & Starch Ontology",
+      "slug": "whole-grains",
+      "summary": "Whole Grains — canonical staple grains in the Grain & Starch Ontology (population deferred to FOOD-08B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "pseudocereals",
+      "domain": "culinary",
+      "entity_type": "grain_starch_group",
+      "external_ids": {},
+      "id": "food.grain.pseudocereals",
+      "introduction": "Pseudocereals in the Grain & Starch Ontology — non-cereal seeds used as staple grains in cooking, including quinoa, buckwheat, and amaranth.",
+      "name": "Pseudocereals",
+      "parent_category": "grain-starch",
+      "scientific_name": "",
+      "seo_description": "Canonical pseudocereals — quinoa, buckwheat, amaranth, and related staple ingredients in the PairingMethod Grain & Starch Ontology.",
+      "seo_title": "Pseudocereals — Grain & Starch Ontology",
+      "slug": "pseudocereals",
+      "summary": "Pseudocereals — canonical staple pseudocereals in the Grain & Starch Ontology (population deferred to FOOD-08B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "processed_grains",
+      "domain": "culinary",
+      "entity_type": "grain_starch_group",
+      "external_ids": {},
+      "id": "food.grain.processed-grains",
+      "introduction": "Processed grains in the Grain & Starch Ontology — milled and processed grain forms that function as canonical culinary ingredients, including wheat flour, rice flour, cornmeal, semolina, and bulgur.",
+      "name": "Processed Grains",
+      "parent_category": "grain-starch",
+      "scientific_name": "",
+      "seo_description": "Canonical processed grain ingredients — wheat flour, rice flour, cornmeal, and related staples in the PairingMethod Grain & Starch Ontology.",
+      "seo_title": "Processed Grains — Grain & Starch Ontology",
+      "slug": "processed-grains",
+      "summary": "Processed Grains — canonical processed grain ingredients in the Grain & Starch Ontology (population deferred to FOOD-08B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "starches",
+      "domain": "culinary",
+      "entity_type": "grain_starch_group",
+      "external_ids": {},
+      "id": "food.grain.starches",
+      "introduction": "Starches in the Grain & Starch Ontology — isolated culinary starches used as thickeners, coatings, and structural ingredients, including cornstarch, potato starch, and tapioca starch.",
+      "name": "Starches",
+      "parent_category": "grain-starch",
+      "scientific_name": "",
+      "seo_description": "Canonical culinary starches — cornstarch, potato starch, tapioca starch, and related ingredients in the PairingMethod Grain & Starch Ontology.",
+      "seo_title": "Starches — Grain & Starch Ontology",
+      "slug": "starches",
+      "summary": "Starches — canonical culinary starches in the Grain & Starch Ontology (population deferred to FOOD-08B)."
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "category_count": 1,
+    "description": "Grain & Starch Ontology — governance shell only (FOOD-08A). Entity population deferred to FOOD-08B.",
+    "domain": "grain-starch",
+    "entity_count": 0,
+    "entity_type": "grain_starch",
+    "food_ontology_version": "1.5.0",
+    "freeze_label": "Grain & Starch Governance Frozen v1.0.0",
+    "freeze_phase": "FOOD-08A",
+    "governance_status": "frozen",
+    "group_count": 4,
+    "ontology_foundation_version": "1.0.0",
+    "phase": "FOOD-08A",
+    "platform_version": "1.0.0",
+    "seeded": "2026-07-19",
+    "tier": 2,
+    "wine_ontology_version": "2.0"
+  },
+  "schema": {
+    "controlled_vocabularies": {
+      "aroma_profile": {
+        "cardinality": "array",
+        "description": "Reserved aroma characteristic tags — vocabulary frozen in FOOD-08A; do not populate until post-FOOD-08B curation standards.",
+        "populate_from_phase": "FOOD-08C",
+        "values": [
+          "neutral",
+          "nutty",
+          "earthy",
+          "toasty",
+          "corn-like",
+          "grassy",
+          "sweet",
+          "fermented"
+        ]
+      },
+      "canonical_culinary_groups": {
+        "description": "Immutable group names and slugs — do not rename or add peer groups in v1.",
+        "immutable": true,
+        "values": [
+          {
+            "culinary_group": "whole_grains",
+            "name": "Whole Grains",
+            "slug": "whole-grains"
+          },
+          {
+            "culinary_group": "pseudocereals",
+            "name": "Pseudocereals",
+            "slug": "pseudocereals"
+          },
+          {
+            "culinary_group": "processed_grains",
+            "name": "Processed Grains",
+            "slug": "processed-grains"
+          },
+          {
+            "culinary_group": "starches",
+            "name": "Starches",
+            "slug": "starches"
+          }
+        ]
+      },
+      "culinary_group": {
+        "description": "Canonical Culinary Group value on leaf entities — aligns to immutable group slugs.",
+        "immutable": true,
+        "values": [
+          "whole_grains",
+          "pseudocereals",
+          "processed_grains",
+          "starches"
+        ]
+      },
+      "flavor_profile": {
+        "cardinality": "array",
+        "description": "Reserved flavor characteristic tags — vocabulary frozen in FOOD-08A; do not populate until post-FOOD-08B curation standards.",
+        "populate_from_phase": "FOOD-08C",
+        "values": [
+          "nutty",
+          "earthy",
+          "sweet",
+          "mild",
+          "bitter",
+          "toasty",
+          "corn-like",
+          "neutral"
+        ]
+      },
+      "texture_profile": {
+        "cardinality": "array",
+        "description": "Reserved texture characteristic tags — vocabulary frozen in FOOD-08A; do not populate until post-FOOD-08B curation standards.",
+        "populate_from_phase": "FOOD-08C",
+        "values": [
+          "chewy",
+          "fluffy",
+          "firm",
+          "powdered",
+          "granular",
+          "sticky",
+          "crumbly",
+          "gelatinous"
+        ]
+      },
+      "usage_intensity": {
+        "description": "Intrinsic culinary prominence in dish composition — not Pairing Engine reasoning.",
+        "immutable": true,
+        "values": [
+          "primary",
+          "accent",
+          "luxury"
+        ]
+      }
+    },
+    "domain_contract": "Food Ontology Platform v1.0.0",
+    "domain_exclusions": {
+      "beverages": "Beer, spirits, and fermented grain beverages — out of domain",
+      "fungi": "FOOD-06",
+      "herbs_spices": "FOOD-07",
+      "legumes": "FOOD-11",
+      "note": "Entities in these domains are cross-referenced by canonical ID only — never duplicated intrinsically.",
+      "nuts_seeds": "FOOD-10",
+      "prepared_foods": "Breads, noodles, pasta, pastries, breakfast cereals — not ingredient ontology",
+      "protein_foods": "FOOD-01 / FOOD-14",
+      "sauces": "FOOD-13",
+      "sweet_fruit": "FOOD-09",
+      "vegetables": "FOOD-05"
+    },
+    "entity_types": {
+      "grain_starch": {
+        "description": "Canonical culinary grain, pseudocereal, processed grain, or starch entity with frozen intrinsic metadata.",
+        "id_example": "food.grain.whole-grains.rice",
+        "optional_fields": [
+          "aliases",
+          "common_names",
+          "beginner_notes",
+          "faq",
+          "typical_descriptors",
+          "wine_pairings",
+          "avoid_wine_pairings",
+          "related_styles",
+          "related_descriptors",
+          "related_techniques",
+          "similar_grain_starches",
+          "substitutions",
+          "commonly_served_with",
+          "common_preparations"
+        ],
+        "required_fields": [
+          "id",
+          "slug",
+          "display_name",
+          "entity_type",
+          "domain",
+          "parent_group",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "catalog_version",
+          "food_ontology_version",
+          "culinary_group",
+          "usage_intensity",
+          "flavor_profile",
+          "texture_profile",
+          "aroma_profile",
+          "aliases",
+          "common_names",
+          "origin_context",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "grain_starch_category": {
+        "description": "Top-level grain & starch domain hub (single category in v1).",
+        "id_example": "food.grain",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "grain_starch_group": {
+        "description": "Canonical Culinary Group (Whole Grains, Starches, etc.).",
+        "id_example": "food.grain.whole-grains",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description",
+          "culinary_group"
+        ]
+      }
+    },
+    "governance_rules": {
+      "botanical_ownership_rule": {
+        "id": "BOTAN-001",
+        "note": "Suite rule codified in Herb & Spice FOOD-07A — applies when botanical lineage diverges from culinary identity.",
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      },
+      "processing_ownership_rule": {
+        "description": "When processing creates a distinct canonical culinary ingredient versus a preparation state or alias.",
+        "frozen_phase": "FOOD-08A",
+        "id": "PROC-001",
+        "immutable": true,
+        "reference": "docs/GRAIN_STARCH_GOVERNANCE.md §9"
+      }
+    },
+    "identity_contract": {
+      "canonical_entity_rule": "CANON-001",
+      "category_id_pattern": "^food\\.grain$",
+      "display_name_mutable": true,
+      "entity_id_pattern": "^food\\.grain\\.[a-z0-9-]+\\.[a-z0-9-]+$",
+      "external_ids_required": true,
+      "global_recognition_rule": "CANON-002",
+      "group_id_pattern": "^food\\.grain\\.[a-z0-9-]+$",
+      "id_immutable": true,
+      "ids_never_recycled": true,
+      "namespace": "food.grain",
+      "per_entity_version_fields": {
+        "catalog_version": "1.0.0",
+        "food_ontology_version": "1.5.0"
+      },
+      "required_identity_fields": [
+        "id",
+        "slug",
+        "display_name",
+        "scientific_name",
+        "external_ids"
+      ],
+      "scientific_name_mutable": false,
+      "scientific_name_semantics": "primary_botanical_species_for_culinary_identity",
+      "slug_mutable": true
+    },
+    "taxonomy_note": "Groups represent culinary identity and processing level, not botanical families. See docs/GRAIN_STARCH_GOVERNANCE.md.",
+    "taxonomy_principle": "canonical_culinary_groups"
+  }
+}

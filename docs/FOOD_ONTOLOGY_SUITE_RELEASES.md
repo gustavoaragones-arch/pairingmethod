@@ -72,11 +72,32 @@ Catalog entities must represent **globally recognizable culinary ingredients**, 
 
 **Introduced:** Fungi FOOD-06B · **Applies** to all future FOOD-0N catalog population phases unless a governance amendment documents an exception.
 
+### BOTAN-001 — Botanical Ownership Rule
+
+When the same botanical species produces multiple culinary ingredients, governance decides whether they are **one canonical entity with aliases** or **separate canonical culinary ingredients** based on **culinary identity**, not botanical identity alone.
+
+**First codified:** Herb & Spice FOOD-07A · **Applies** when botanical lineage and culinary identity diverge (for example, cilantro leaf vs coriander seed; dill leaf vs dill seed). Domain governance documents frozen decisions; the rule is suite-wide.
+
+### PROC-001 — Processing Ownership Rule
+
+When an ingredient exists in multiple culinary processing states, governance decides whether a processed form is a **new canonical culinary ingredient** or merely a **preparation state / alias**.
+
+The decision follows **culinary identity**, not manufacturing process alone.
+
+| Separate canonical entities | Alias / preparation state only |
+|----------------------------|--------------------------------|
+| Wheat → Wheat Flour | Ground Black Pepper → alias on Black Pepper |
+| Rice → Rice Flour | Ground Cinnamon → alias on Cinnamon |
+| Corn → Cornmeal → Cornstarch (by processing level) | Rolled Oats / Quick Oats → aliases on Oats (default) |
+| Potato (Vegetable) → Potato Starch (Grain & Starch) | Instant Rice → alias on Rice (default) |
+
+**Introduced:** Grain & Starch FOOD-08A · **Applies** suite-wide to all domains where processing affects culinary identity (including future Sweet Flavor, Sauces & Condiments, and Protein Refinement phases).
+
 ---
 
 ## Ontology Lifecycle (Suite Standard)
 
-Every published domain follows the **identical six-phase lifecycle**. Phase prefixes differ by domain (`FOOD-02`/`ONTOLOGY-02` for Protein, `FOOD-04` for Cheese, `FOOD-05` for Vegetable, `FOOD-06` for Fungi, `FOOD-07` for Herb & Spice) but the stages are the same:
+Every published domain follows the **identical six-phase lifecycle**. Phase prefixes differ by domain (`FOOD-02`/`ONTOLOGY-02` for Protein, `FOOD-04` for Cheese, `FOOD-05` for Vegetable, `FOOD-06` for Fungi, `FOOD-07` for Herb & Spice, `FOOD-08` for Grain & Starch) but the stages are the same:
 
 | Stage | Letter | Scope |
 |-------|--------|-------|
@@ -165,7 +186,82 @@ Publication architecture, runtime architecture, certification pipeline, deployme
 
 ### Next planned work
 
-**FOOD-08 — Potato & Starch Class Ontology** (from tag `food-ontology-suite-v1.4.0`).
+**FOOD-08 — Grain & Starch Ontology** (from tag `food-ontology-suite-v1.4.0`; see SUITE-STAB-02).
+
+---
+
+## SUITE-STAB-02 — Food Ontology Suite Stabilization (Post-v1.4.0)
+
+**Date:** July 19, 2026  
+**Baseline tag:** `food-ontology-suite-v1.4.0`  
+**Type:** Governance audit — not a versioned release  
+**Overall result:** **PASS**
+
+Post-v1.4.0 checkpoint certifying that the publication platform successfully absorbed a significantly larger ontology (113 leaf entities · 6,384 runtime edges) without architectural drift. No runtime, catalog, relationship, publication, or platform code changes were made in this audit.
+
+| Audit | Scope | Result |
+|-------|-------|--------|
+| 1 — Release Metrics Reconciliation | v1.4.0 cumulative totals vs certified runtime artifacts | **PASS** |
+| 2 — Domain Configuration Review | Declarative integration via `food-domain-config.js`, per-domain render modules, shared template | **PASS** |
+| 3 — Publication Pipeline Review | Identical 9-stage publication · certification · release flow across all five domains | **PASS** |
+| 4 — Cross-Domain Reference Audit | Canonical-ID forward references; BOTAN-001 / fungi ownership policies unchanged | **PASS** |
+
+**Platform modifications identified:** 0
+
+### Audit 1 — Release metrics reconciliation
+
+Certified edge counts measured from `data/runtime/*-relationships.json` at tag `food-ontology-suite-v1.4.0`:
+
+| Domain | Leaf entities | Runtime | Editorial | Wine |
+|--------|-------------:|--------:|----------:|-----:|
+| Protein Foods | 207 | 35,734 | 40 | 29 |
+| Cheeses | 204 | 44,858 | 85 | 70 |
+| Vegetables | 74 | 4,405 | 158 | 117 |
+| Fungi | 43 | 531 | 87 | 82 |
+| Herb & Spice | 113 | 6,384 | 280 | 224 |
+| **Suite total** | **641** | **91,912** | **650** | **522** |
+
+All v1.4.0 suite metrics reconcile exactly against certified artifacts. Herb & Spice per-domain release summary (`reports/herb-spice-release-certification-report.json`) matches independently.
+
+### Audit 2 — Domain configuration review
+
+| Domain | Config registry | Render module | Shared template | Platform audit |
+|--------|-----------------|---------------|-----------------|----------------|
+| Protein Foods | `PROTEIN_DOMAIN` | `taxonomy-protein-food-render.js` | `protein-entity-template.html` | Published pre-audit era |
+| Cheeses | `CHEESE_DOMAIN` | `taxonomy-cheese-render.js` | same | Published pre-audit era |
+| Vegetables | `VEGETABLE_DOMAIN` | `taxonomy-vegetable-render.js` | same | Published pre-audit era |
+| Fungi | `FUNGI_DOMAIN` | `taxonomy-fungi-render.js` | same | 0 modifications · 100% reuse |
+| Herb & Spice | `HERB_SPICE_DOMAIN` | `taxonomy-herb-spice-render.js` | same | 0 modifications · 100% reuse |
+
+FOOD-07F integrated Herb & Spice through declarative domain configuration and a domain-specific render module only. No changes to shared publication engines in `lib/food-publication/*`.
+
+### Audit 3 — Publication pipeline review
+
+Each published domain exposes the same nine thin wrapper scripts delegating to shared stage runners:
+
+`projections → pages → schema → links → search-index → certify-publication → html → sitemap → certify-release`
+
+| Domain | `publish:*` | `release:*` | Stage runner imports verified |
+|--------|-------------|-------------|-------------------------------|
+| Protein Foods | ✓ | ✓ | ✓ |
+| Cheeses | ✓ | ✓ | ✓ |
+| Vegetables | ✓ | ✓ | ✓ |
+| Fungi | ✓ | ✓ | ✓ |
+| Herb & Spice | ✓ | ✓ | ✓ |
+
+`lib/deployment-config.js` registers all five domains. `release:food-ontology` includes Herb & Spice.
+
+### Audit 4 — Cross-domain reference audit
+
+| Check | Result |
+|-------|--------|
+| Cross-domain editorial edges use canonical IDs only | **PASS** — 252 cross-namespace editorial edges; no slug-based or duplicate-entity references |
+| BOTAN-001 botanical ownership (Herb & Spice) | **PASS** — cilantro/coriander-seed and dill/dill-seed remain distinct entities with distinct pairing profiles |
+| Cross-domain ingredient ownership (mustard, fennel) | **PASS** — mustard greens and fennel bulb in Vegetable; mustard seed and fennel seed in Herb & Spice |
+| Protein `mushrooms` legacy group | **Deferred** — compatibility retained; canonical ownership transferred to Fungi; ID migration deferred to FOOD-14 per frozen policy |
+| Forward references to unpublished domains (`food.fruit.*`, etc.) | **PASS** — canonical-ID forward references only; no entity duplication |
+
+**Next work:** **FOOD-08A — Grain & Starch Ontology Governance** (completed — see FOOD-08B gate).
 
 ---
 
