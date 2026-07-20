@@ -1,0 +1,54 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/grain-starch-categories/grain-starch/",
+      "projection_id": "food.grain",
+      "sections": {
+        "groups": [
+          {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Processed Grains"
+          },
+          {
+            "href": "/grain-starch-groups/pseudocereals/",
+            "id": "food.grain.pseudocereals",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Pseudocereals"
+          },
+          {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Starches"
+          },
+          {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        ],
+        "member_food_summary": {
+          "food_count": 76,
+          "group_count": 4
+        },
+        "related_categories": []
+      },
+      "slug": "grain-starch"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "grain-starch",
+    "food_ontology_version": "1.5.0",
+    "link_set_count": 1,
+    "link_set_type": "grain_starch_category",
+    "phase": "FOOD-08FD"
+  }
+}

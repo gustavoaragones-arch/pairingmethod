@@ -1,35 +1,35 @@
 {
   "domains": [
-    "herb-spice"
+    "grain-starch"
   ],
   "metrics": {
     "Overall result": "PASS",
     "Promotion targets": 6,
     "Validation errors": 0,
-    "herb-spice categories pages promoted": 1,
-    "herb-spice groups pages promoted": 4,
-    "herb-spice leaf pages promoted": 113
+    "grain-starch categories pages promoted": 1,
+    "grain-starch groups pages promoted": 4,
+    "grain-starch leaf pages promoted": 76
   },
   "overall_result": "PASS",
   "phase": "DEPLOY-01",
   "promoted": [
     {
-      "domain": "herb-spice",
-      "html_files": 113,
-      "source": "dist/herbs-spices",
-      "target": "herbs-spices"
+      "domain": "grain-starch",
+      "html_files": 76,
+      "source": "dist/grains-starches",
+      "target": "grains-starches"
     },
     {
-      "domain": "herb-spice",
+      "domain": "grain-starch",
       "html_files": 4,
-      "source": "dist/herb-spice-groups",
-      "target": "herb-spice-groups"
+      "source": "dist/grain-starch-groups",
+      "target": "grain-starch-groups"
     },
     {
-      "domain": "herb-spice",
+      "domain": "grain-starch",
       "html_files": 1,
-      "source": "dist/herb-spice-categories",
-      "target": "herb-spice-categories"
+      "source": "dist/grain-starch-categories",
+      "target": "grain-starch-categories"
     },
     {
       "html_files": 0,

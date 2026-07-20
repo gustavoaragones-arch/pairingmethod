@@ -1,0 +1,24 @@
+{
+  "domain": "grain-starch",
+  "metrics": {
+    "Broken references": 0,
+    "Category search documents": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate documents": 0,
+    "Group search documents": 4,
+    "Indexed tokens": 183,
+    "Leaf search documents": 76,
+    "Overall result": "PASS",
+    "Suggestions": 81,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/search/grain-starch-search-index.json",
+    "data/search/grain-starch-group-search-index.json",
+    "data/search/grain-starch-category-search-index.json",
+    "data/search/grain-starch-search-suggestions.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-08FE",
+  "validation_errors": []
+}

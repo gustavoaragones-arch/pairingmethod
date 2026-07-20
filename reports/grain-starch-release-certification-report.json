@@ -1,0 +1,33 @@
+{
+  "deployment_gate": true,
+  "domain": "grain-starch",
+  "metrics": {
+    "Broken navigation links": 0,
+    "HTML pages": 81,
+    "Overall result": "PASS",
+    "Publication entities": 81,
+    "Search suggestions": 81,
+    "Sitemap URLs": 81,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "dist/release-manifest.json",
+    "reports/grain-starch-release-certification-report.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-08FI",
+  "platform_audit": {
+    "overall": "PASS",
+    "platform_modifications_required": 0,
+    "shared_publication_pipeline_reused_percent": 100
+  },
+  "release_summary": {
+    "canonicalGrainStarches": 76,
+    "editorialRelationships": 192,
+    "publicationPages": 81,
+    "runtimeRelationships": 1917,
+    "wineRelationships": 174
+  },
+  "validation_errors": [],
+  "warnings": []
+}

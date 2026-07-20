@@ -22,7 +22,7 @@ This principle has been followed in practice since Protein FOOD-02C. FOOD-06C ma
 
 ### Knowledge layer separation (suite-wide)
 
-Proven across five domains (Protein, Cheese, Vegetables, Fungi, Herb & Spice):
+Proven across six domains (Protein, Cheese, Vegetables, Fungi, Herb & Spice, Grain & Starch):
 
 | Layer | Source | Modified at publication? |
 |-------|--------|--------------------------|
@@ -108,7 +108,7 @@ Every published domain follows the **identical six-phase lifecycle**. Phase pref
 | Wine Pairings | E | Curated pairings (separate artifact) |
 | Publication | F | Platform consumption only — no artifact editing |
 
-**No domain-specific lifecycle exceptions** exist among the five published domains.
+**No domain-specific lifecycle exceptions** exist among the six published domains.
 
 ---
 
@@ -130,19 +130,66 @@ Domain governance documents define **domain-specific** rules only. Suite-wide in
 
 Every suite release note includes this table. It reinforces the primary architectural achievement since Platform v1.0.0: **each new domain increases knowledge, not platform complexity.**
 
-| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 | v1.4.0 |
-|--------|--------|--------|--------|--------|--------|
-| Published ontology domains | 1 | 2 | 3 | 4 | **5** |
-| Canonical entities (leaf) | 207 | 411 | 485 | 528 | **641** |
-| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | ~85,500+ | **~91,900** |
-| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | ~370 | **~650** |
-| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | ~300 | **~520** |
-| Publication lifecycle reuse | 100% | 100% | 100% | 100% | **100%** |
-| Platform modifications required | 0 | 0 | 0 | 0 | **0** |
+| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 | v1.4.0 | v1.5.0 |
+|--------|--------|--------|--------|--------|--------|--------|
+| Published ontology domains | 1 | 2 | 3 | 4 | 5 | **6** |
+| Canonical entities (leaf) | 207 | 411 | 485 | 528 | 641 | **717** |
+| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | ~85,500+ | ~91,900 | **~93,800** |
+| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | ~370 | ~650 | **~840** |
+| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | ~300 | ~520 | **~700** |
+| Publication lifecycle reuse | 100% | 100% | 100% | 100% | 100% | **100%** |
+| Platform modifications required | 0 | 0 | 0 | 0 | 0 | **0** |
 
 *Edge counts are measured from certified runtime artifacts at release time (structural + intrinsic similarity layers for runtime; editorial and wine layers reported separately).*
 
 **Certified totals at v1.4.0 (exact):** runtime structural 91,912 · editorial 650 · wine pairings 522 · leaf entities 641.
+
+**Certified totals at v1.5.0 (exact):** runtime structural 93,829 · editorial 842 · wine pairings 696 · leaf entities 717.
+
+---
+
+## v1.5.0 — Grain & Starch
+
+**Tag:** `food-ontology-suite-v1.5.0`  
+**Commit:** FOOD-08F — Publish Grain & Starch Ontology through shared platform  
+**Date:** July 19, 2026
+
+### Published domains
+
+| Domain | Catalog version | Leaf entities | Publication paths |
+|--------|-----------------|---------------|-------------------|
+| Protein Foods | 1.0.0 | 207 | `/foods/` |
+| Cheeses | 1.0.0 | 204 | `/cheeses/` |
+| Vegetables | 1.0.0 | 74 | `/vegetables/` |
+| Fungi | 1.0.0 | 43 | `/fungi/` |
+| Herb & Spice | 1.0.0 | 113 | `/herbs-spices/` |
+| Grain & Starch | 1.0.0 | 76 | `/grains-starches/` |
+
+**Suite total:** 717 canonical leaf entities · 81 new grain & starch pages (76 leaf + 4 groups + 1 category hub)
+
+### FOOD-08 release certification
+
+| Metric | FOOD-08 |
+|--------|--------:|
+| Canonical grain & starch entities | 76 |
+| Runtime relationships | 1,917 |
+| Editorial relationships | 192 |
+| Wine relationships | 174 |
+| Publication pages | 81 |
+| Platform modifications required | 0 |
+| Shared publication pipeline reused | 100% |
+
+### Milestone significance
+
+FOOD-08F validates the generalized publication platform across a **sixth independent domain** with zero architectural modification. PROC-001 processing ownership and STARCH-001 functional pairing governance were absorbed entirely within the knowledge layer — including cross-domain discipline such as omitting Potato from Tier C editorial forward references until the Vegetable catalog canonically includes it.
+
+### Platform status at v1.5.0
+
+Publication architecture, runtime architecture, certification pipeline, deployment pipeline, and the six-phase governance lifecycle remain **feature-complete and frozen**. Architectural changes require exceptional justification.
+
+### Next planned work
+
+**FOOD-09 — Sweet Flavor Ontology** (from tag `food-ontology-suite-v1.5.0`; see POSTER_COVERAGE.md).
 
 ---
 
@@ -186,7 +233,7 @@ Publication architecture, runtime architecture, certification pipeline, deployme
 
 ### Next planned work
 
-**FOOD-08 — Grain & Starch Ontology** (from tag `food-ontology-suite-v1.4.0`; see SUITE-STAB-02).
+**FOOD-08 — Grain & Starch Ontology** (completed — see v1.5.0).
 
 ---
 
@@ -407,7 +454,8 @@ Food Ontology Suite
 ├── v1.1.0  + Cheeses
 ├── v1.2.0  + Vegetables
 ├── v1.3.0  + Fungi
-└── v1.4.0  + Herb & Spice   ← current production milestone
+├── v1.4.0  + Herb & Spice
+└── v1.5.0  + Grain & Starch   ← current production milestone
 
 Master Roadmap
 └── PLAN-01  (POSTER_COVERAGE.md)

@@ -1,0 +1,856 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "grain-starch",
+    "food_ontology_version": "1.5.0",
+    "phase": "FOOD-08FC",
+    "schema_count": 4,
+    "schema_type": "grain_starch_group"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/grain-starch-groups/processed-grains/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/grain-starch-groups/processed-grains/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/grains-starches/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.grain",
+            "name": "Grains & Starches"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/grain-starch-groups/processed-grains/#breadcrumb"
+          },
+          "description": "Processed Grains — 25 grains and starches in the Grain & Starch Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Processed Grains — Grain & Starch Group",
+          "url": "https://pairingmethod.com/grain-starch-groups/processed-grains/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/grain-starch-groups/processed-grains/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/grains-starches/",
+              "name": "Grains & Starches",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/grain-starch-categories/grain-starch/",
+              "name": "Grains & Starches",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/grain-starch-groups/processed-grains/",
+              "name": "Processed Grains",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/grain-starch-groups/processed-grains/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "processed-grains",
+          "description": "Processed Grains — 25 grains and starches in the Grain & Starch Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/grains-starches/amaranth-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.amaranth-flour",
+              "name": "Amaranth Flour",
+              "url": "https://pairingmethod.com/grains-starches/amaranth-flour/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/barley-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.barley-flour",
+              "name": "Barley Flour",
+              "url": "https://pairingmethod.com/grains-starches/barley-flour/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/buckwheat-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.buckwheat-flour",
+              "name": "Buckwheat Flour",
+              "url": "https://pairingmethod.com/grains-starches/buckwheat-flour/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/bulgur/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.bulgur",
+              "name": "Bulgur",
+              "url": "https://pairingmethod.com/grains-starches/bulgur/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/cornmeal/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.cornmeal",
+              "name": "Cornmeal",
+              "url": "https://pairingmethod.com/grains-starches/cornmeal/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/couscous/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.couscous",
+              "name": "Couscous",
+              "url": "https://pairingmethod.com/grains-starches/couscous/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/farina/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.farina",
+              "name": "Farina",
+              "url": "https://pairingmethod.com/grains-starches/farina/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/freekeh/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.freekeh",
+              "name": "Freekeh",
+              "url": "https://pairingmethod.com/grains-starches/freekeh/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/grits/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.grits",
+              "name": "Grits",
+              "url": "https://pairingmethod.com/grains-starches/grits/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/hominy/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.hominy",
+              "name": "Hominy",
+              "url": "https://pairingmethod.com/grains-starches/hominy/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/masa-harina/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.masa-harina",
+              "name": "Masa Harina",
+              "url": "https://pairingmethod.com/grains-starches/masa-harina/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/matzo-meal/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.matzo-meal",
+              "name": "Matzo Meal",
+              "url": "https://pairingmethod.com/grains-starches/matzo-meal/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/millet-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.millet-flour",
+              "name": "Millet Flour",
+              "url": "https://pairingmethod.com/grains-starches/millet-flour/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/oat-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.oat-flour",
+              "name": "Oat Flour",
+              "url": "https://pairingmethod.com/grains-starches/oat-flour/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/pearl-barley/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.pearl-barley",
+              "name": "Pearl Barley",
+              "url": "https://pairingmethod.com/grains-starches/pearl-barley/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/polenta-meal/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.polenta-meal",
+              "name": "Polenta Meal",
+              "url": "https://pairingmethod.com/grains-starches/polenta-meal/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/quinoa-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.quinoa-flour",
+              "name": "Quinoa Flour",
+              "url": "https://pairingmethod.com/grains-starches/quinoa-flour/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/rice-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.rice-flour",
+              "name": "Rice Flour",
+              "url": "https://pairingmethod.com/grains-starches/rice-flour/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/rye-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.rye-flour",
+              "name": "Rye Flour",
+              "url": "https://pairingmethod.com/grains-starches/rye-flour/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/semolina/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.semolina",
+              "name": "Semolina",
+              "url": "https://pairingmethod.com/grains-starches/semolina/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/sorghum-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.sorghum-flour",
+              "name": "Sorghum Flour",
+              "url": "https://pairingmethod.com/grains-starches/sorghum-flour/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/spelt-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.spelt-flour",
+              "name": "Spelt Flour",
+              "url": "https://pairingmethod.com/grains-starches/spelt-flour/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/teff-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.teff-flour",
+              "name": "Teff Flour",
+              "url": "https://pairingmethod.com/grains-starches/teff-flour/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/wheat-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.wheat-flour",
+              "name": "Wheat Flour",
+              "url": "https://pairingmethod.com/grains-starches/wheat-flour/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/whole-wheat-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.processed-grains.whole-wheat-flour",
+              "name": "Whole Wheat Flour",
+              "url": "https://pairingmethod.com/grains-starches/whole-wheat-flour/"
+            }
+          ],
+          "identifier": "food.grain.processed-grains",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Grain & Starch Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Processed Grains",
+          "numberOfTerms": 25,
+          "url": "https://pairingmethod.com/grain-starch-groups/processed-grains/"
+        }
+      ],
+      "projection_id": "food.grain.processed-grains",
+      "slug": "processed-grains"
+    },
+    {
+      "canonical_path": "/grain-starch-groups/pseudocereals/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/grain-starch-groups/pseudocereals/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/grains-starches/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.grain",
+            "name": "Grains & Starches"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/grain-starch-groups/pseudocereals/#breadcrumb"
+          },
+          "description": "Pseudocereals — 9 grains and starches in the Grain & Starch Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Pseudocereals — Grain & Starch Group",
+          "url": "https://pairingmethod.com/grain-starch-groups/pseudocereals/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/grain-starch-groups/pseudocereals/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/grains-starches/",
+              "name": "Grains & Starches",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/grain-starch-categories/grain-starch/",
+              "name": "Grains & Starches",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/grain-starch-groups/pseudocereals/",
+              "name": "Pseudocereals",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/grain-starch-groups/pseudocereals/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "pseudocereals",
+          "description": "Pseudocereals — 9 grains and starches in the Grain & Starch Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/grains-starches/amaranth/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.pseudocereals.amaranth",
+              "name": "Amaranth",
+              "url": "https://pairingmethod.com/grains-starches/amaranth/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/buckwheat/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.pseudocereals.buckwheat",
+              "name": "Buckwheat",
+              "url": "https://pairingmethod.com/grains-starches/buckwheat/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/chia/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.pseudocereals.chia",
+              "name": "Chia",
+              "url": "https://pairingmethod.com/grains-starches/chia/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/kaniwa/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.pseudocereals.kaniwa",
+              "name": "Kaniwa",
+              "url": "https://pairingmethod.com/grains-starches/kaniwa/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/mesquite-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.pseudocereals.mesquite-flour",
+              "name": "Mesquite Flour",
+              "url": "https://pairingmethod.com/grains-starches/mesquite-flour/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/perilla-seed/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.pseudocereals.perilla-seed",
+              "name": "Perilla Seed",
+              "url": "https://pairingmethod.com/grains-starches/perilla-seed/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/plantain-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.pseudocereals.plantain-flour",
+              "name": "Plantain Flour",
+              "url": "https://pairingmethod.com/grains-starches/plantain-flour/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/quinoa/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.pseudocereals.quinoa",
+              "name": "Quinoa",
+              "url": "https://pairingmethod.com/grains-starches/quinoa/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/wattleseed/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.pseudocereals.wattleseed",
+              "name": "Wattleseed",
+              "url": "https://pairingmethod.com/grains-starches/wattleseed/"
+            }
+          ],
+          "identifier": "food.grain.pseudocereals",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Grain & Starch Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Pseudocereals",
+          "numberOfTerms": 9,
+          "url": "https://pairingmethod.com/grain-starch-groups/pseudocereals/"
+        }
+      ],
+      "projection_id": "food.grain.pseudocereals",
+      "slug": "pseudocereals"
+    },
+    {
+      "canonical_path": "/grain-starch-groups/starches/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/grain-starch-groups/starches/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/grains-starches/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.grain",
+            "name": "Grains & Starches"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/grain-starch-groups/starches/#breadcrumb"
+          },
+          "description": "Starches — 20 grains and starches in the Grain & Starch Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Starches — Grain & Starch Group",
+          "url": "https://pairingmethod.com/grain-starch-groups/starches/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/grain-starch-groups/starches/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/grains-starches/",
+              "name": "Grains & Starches",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/grain-starch-categories/grain-starch/",
+              "name": "Grains & Starches",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/grain-starch-groups/starches/",
+              "name": "Starches",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/grain-starch-groups/starches/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "starches",
+          "description": "Starches — 20 grains and starches in the Grain & Starch Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/grains-starches/arrowroot-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.arrowroot-starch",
+              "name": "Arrowroot Starch",
+              "url": "https://pairingmethod.com/grains-starches/arrowroot-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/chestnut-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.chestnut-starch",
+              "name": "Chestnut Starch",
+              "url": "https://pairingmethod.com/grains-starches/chestnut-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/cornstarch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.cornstarch",
+              "name": "Cornstarch",
+              "url": "https://pairingmethod.com/grains-starches/cornstarch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/glutinous-rice-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.glutinous-rice-starch",
+              "name": "Glutinous Rice Starch",
+              "url": "https://pairingmethod.com/grains-starches/glutinous-rice-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/kudzu-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.kudzu-starch",
+              "name": "Kudzu Starch",
+              "url": "https://pairingmethod.com/grains-starches/kudzu-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/lotus-root-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.lotus-root-starch",
+              "name": "Lotus Root Starch",
+              "url": "https://pairingmethod.com/grains-starches/lotus-root-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/mung-bean-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.mung-bean-starch",
+              "name": "Mung Bean Starch",
+              "url": "https://pairingmethod.com/grains-starches/mung-bean-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/pea-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.pea-starch",
+              "name": "Pea Starch",
+              "url": "https://pairingmethod.com/grains-starches/pea-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/potato-flour/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.potato-flour",
+              "name": "Potato Flour",
+              "url": "https://pairingmethod.com/grains-starches/potato-flour/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/potato-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.potato-starch",
+              "name": "Potato Starch",
+              "url": "https://pairingmethod.com/grains-starches/potato-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/rice-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.rice-starch",
+              "name": "Rice Starch",
+              "url": "https://pairingmethod.com/grains-starches/rice-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/sago-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.sago-starch",
+              "name": "Sago Starch",
+              "url": "https://pairingmethod.com/grains-starches/sago-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/sorghum-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.sorghum-starch",
+              "name": "Sorghum Starch",
+              "url": "https://pairingmethod.com/grains-starches/sorghum-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/sweet-potato-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.sweet-potato-starch",
+              "name": "Sweet Potato Starch",
+              "url": "https://pairingmethod.com/grains-starches/sweet-potato-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/tapioca-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.tapioca-starch",
+              "name": "Tapioca Starch",
+              "url": "https://pairingmethod.com/grains-starches/tapioca-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/taro-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.taro-starch",
+              "name": "Taro Starch",
+              "url": "https://pairingmethod.com/grains-starches/taro-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/water-chestnut-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.water-chestnut-starch",
+              "name": "Water Chestnut Starch",
+              "url": "https://pairingmethod.com/grains-starches/water-chestnut-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/waxy-corn-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.waxy-corn-starch",
+              "name": "Waxy Corn Starch",
+              "url": "https://pairingmethod.com/grains-starches/waxy-corn-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/waxy-rice-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.waxy-rice-starch",
+              "name": "Waxy Rice Starch",
+              "url": "https://pairingmethod.com/grains-starches/waxy-rice-starch/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/wheat-starch/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.starches.wheat-starch",
+              "name": "Wheat Starch",
+              "url": "https://pairingmethod.com/grains-starches/wheat-starch/"
+            }
+          ],
+          "identifier": "food.grain.starches",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Grain & Starch Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Starches",
+          "numberOfTerms": 20,
+          "url": "https://pairingmethod.com/grain-starch-groups/starches/"
+        }
+      ],
+      "projection_id": "food.grain.starches",
+      "slug": "starches"
+    },
+    {
+      "canonical_path": "/grain-starch-groups/whole-grains/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/grain-starch-groups/whole-grains/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/grains-starches/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.grain",
+            "name": "Grains & Starches"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/grain-starch-groups/whole-grains/#breadcrumb"
+          },
+          "description": "Whole Grains — 22 grains and starches in the Grain & Starch Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Whole Grains — Grain & Starch Group",
+          "url": "https://pairingmethod.com/grain-starch-groups/whole-grains/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/grain-starch-groups/whole-grains/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/grains-starches/",
+              "name": "Grains & Starches",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/grain-starch-categories/grain-starch/",
+              "name": "Grains & Starches",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/grain-starch-groups/whole-grains/",
+              "name": "Whole Grains",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/grain-starch-groups/whole-grains/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "whole-grains",
+          "description": "Whole Grains — 22 grains and starches in the Grain & Starch Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/grains-starches/barley/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.barley",
+              "name": "Barley",
+              "url": "https://pairingmethod.com/grains-starches/barley/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/barnyard-millet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.barnyard-millet",
+              "name": "Barnyard Millet",
+              "url": "https://pairingmethod.com/grains-starches/barnyard-millet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/corn/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.corn",
+              "name": "Corn",
+              "url": "https://pairingmethod.com/grains-starches/corn/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/einkorn/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.einkorn",
+              "name": "Einkorn",
+              "url": "https://pairingmethod.com/grains-starches/einkorn/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/farro/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.farro",
+              "name": "Farro",
+              "url": "https://pairingmethod.com/grains-starches/farro/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/finger-millet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.finger-millet",
+              "name": "Finger Millet",
+              "url": "https://pairingmethod.com/grains-starches/finger-millet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/fonio/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.fonio",
+              "name": "Fonio",
+              "url": "https://pairingmethod.com/grains-starches/fonio/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/foxtail-millet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.foxtail-millet",
+              "name": "Foxtail Millet",
+              "url": "https://pairingmethod.com/grains-starches/foxtail-millet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/jobs-tears/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.jobs-tears",
+              "name": "Job's Tears",
+              "url": "https://pairingmethod.com/grains-starches/jobs-tears/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/khorasan-wheat/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.khorasan-wheat",
+              "name": "Khorasan Wheat",
+              "url": "https://pairingmethod.com/grains-starches/khorasan-wheat/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/millet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.millet",
+              "name": "Millet",
+              "url": "https://pairingmethod.com/grains-starches/millet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/oats/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.oats",
+              "name": "Oats",
+              "url": "https://pairingmethod.com/grains-starches/oats/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/pearl-millet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.pearl-millet",
+              "name": "Pearl Millet",
+              "url": "https://pairingmethod.com/grains-starches/pearl-millet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/proso-millet/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.proso-millet",
+              "name": "Proso Millet",
+              "url": "https://pairingmethod.com/grains-starches/proso-millet/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/rice/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.rice",
+              "name": "Rice",
+              "url": "https://pairingmethod.com/grains-starches/rice/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/rye/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.rye",
+              "name": "Rye",
+              "url": "https://pairingmethod.com/grains-starches/rye/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/sorghum/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.sorghum",
+              "name": "Sorghum",
+              "url": "https://pairingmethod.com/grains-starches/sorghum/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/spelt/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.spelt",
+              "name": "Spelt",
+              "url": "https://pairingmethod.com/grains-starches/spelt/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/teff/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.teff",
+              "name": "Teff",
+              "url": "https://pairingmethod.com/grains-starches/teff/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/triticale/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.triticale",
+              "name": "Triticale",
+              "url": "https://pairingmethod.com/grains-starches/triticale/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/wheat/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.wheat",
+              "name": "Wheat",
+              "url": "https://pairingmethod.com/grains-starches/wheat/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grains-starches/wild-rice/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.grain.whole-grains.wild-rice",
+              "name": "Wild Rice",
+              "url": "https://pairingmethod.com/grains-starches/wild-rice/"
+            }
+          ],
+          "identifier": "food.grain.whole-grains",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Grain & Starch Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Whole Grains",
+          "numberOfTerms": 22,
+          "url": "https://pairingmethod.com/grain-starch-groups/whole-grains/"
+        }
+      ],
+      "projection_id": "food.grain.whole-grains",
+      "slug": "whole-grains"
+    }
+  ]
+}

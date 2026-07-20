@@ -1,0 +1,5246 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/grains-starches/amaranth/",
+      "projection_id": "food.grain.pseudocereals.amaranth",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/pseudocereals/",
+            "id": "food.grain.pseudocereals",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Pseudocereals"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/zinfandel/",
+            "id": "zinfandel",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "zinfandel"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/quinoa/",
+            "id": "food.grain.pseudocereals.quinoa",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Quinoa"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/spicy",
+            "id": "spicy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "spicy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/carbonic-maceration/",
+            "id": "carbonic-maceration",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "carbonic maceration"
+          }
+        ]
+      },
+      "slug": "amaranth"
+    },
+    {
+      "canonical_path": "/grains-starches/amaranth-flour/",
+      "projection_id": "food.grain.processed-grains.amaranth-flour",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.processed-grains.quinoa-flour",
+            "id": "food.grain.processed-grains.quinoa-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "quinoa flour"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/moscato/",
+            "id": "moscato",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "moscato"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "amaranth-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/arrowroot-starch/",
+      "projection_id": "food.grain.starches.arrowroot-starch",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/champagne/",
+            "id": "champagne",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "champagne"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/kudzu-starch/",
+            "id": "food.grain.starches.kudzu-starch",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Kudzu Starch"
+          },
+          {
+            "href": "/grains-starches/tapioca-starch/",
+            "id": "food.grain.starches.tapioca-starch",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Tapioca Starch"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/grains-starches/tapioca-starch/",
+            "id": "food.grain.starches.tapioca-starch",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Tapioca Starch"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "arrowroot-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/barley/",
+      "projection_id": "food.grain.whole-grains.barley",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.processed-grains.bulgur",
+            "id": "food.grain.processed-grains.bulgur",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "bulgur"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.processed-grains.pearl-barley",
+            "id": "food.grain.processed-grains.pearl-barley",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pearl barley"
+          },
+          {
+            "href": "food.fungi.wild-mushrooms.porcini",
+            "id": "food.fungi.wild-mushrooms.porcini",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "porcini"
+          },
+          {
+            "href": "food.protein.beef.ribeye",
+            "id": "food.protein.beef.ribeye",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "ribeye"
+          },
+          {
+            "href": "food.herb.dried-herbs.rosemary",
+            "id": "food.herb.dried-herbs.rosemary",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rosemary"
+          },
+          {
+            "href": "food.grain.whole-grains.rye",
+            "id": "food.grain.whole-grains.rye",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rye"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/barrel-aging/",
+            "id": "barrel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "barrel aging"
+          }
+        ]
+      },
+      "slug": "barley"
+    },
+    {
+      "canonical_path": "/grains-starches/barley-flour/",
+      "projection_id": "food.grain.processed-grains.barley-flour",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/port/",
+            "id": "port",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "port"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "barley-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/barnyard-millet/",
+      "projection_id": "food.grain.whole-grains.barnyard-millet",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.whole-grains.foxtail-millet",
+            "id": "food.grain.whole-grains.foxtail-millet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "foxtail millet"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "barnyard-millet"
+    },
+    {
+      "canonical_path": "/grains-starches/buckwheat/",
+      "projection_id": "food.grain.pseudocereals.buckwheat",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.cheese.hard.cheddar",
+            "id": "food.cheese.hard.cheddar",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cheddar"
+          },
+          {
+            "href": "food.grain.pseudocereals.kaniwa",
+            "id": "food.grain.pseudocereals.kaniwa",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "kaniwa"
+          },
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/pseudocereals/",
+            "id": "food.grain.pseudocereals",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Pseudocereals"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/quinoa/",
+            "id": "food.grain.pseudocereals.quinoa",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Quinoa"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "buckwheat"
+    },
+    {
+      "canonical_path": "/grains-starches/buckwheat-flour/",
+      "projection_id": "food.grain.processed-grains.buckwheat-flour",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": [
+          {
+            "href": "/techniques/stainless-steel-aging/",
+            "id": "stainless-steel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "stainless steel aging"
+          }
+        ]
+      },
+      "slug": "buckwheat-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/bulgur/",
+      "projection_id": "food.grain.processed-grains.bulgur",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/dry-rose/",
+            "id": "dry-rose",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "dry rose"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.cheese.brined.feta",
+            "id": "food.cheese.brined.feta",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "feta"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/freekeh/",
+            "id": "food.grain.processed-grains.freekeh",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Freekeh"
+          },
+          {
+            "href": "/grains-starches/pearl-barley/",
+            "id": "food.grain.processed-grains.pearl-barley",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Pearl Barley"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/grains-starches/couscous/",
+            "id": "food.grain.processed-grains.couscous",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Couscous"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/nutty",
+            "id": "nutty",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "nutty"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "bulgur"
+    },
+    {
+      "canonical_path": "/grains-starches/chestnut-starch/",
+      "projection_id": "food.grain.starches.chestnut-starch",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/port/",
+            "id": "port",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "port"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.starches.water-chestnut-starch",
+            "id": "food.grain.starches.water-chestnut-starch",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "water chestnut starch"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "chestnut-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/chia/",
+      "projection_id": "food.grain.pseudocereals.chia",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/prosecco/",
+            "id": "prosecco",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "prosecco"
+          }
+        ],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/pseudocereals/",
+            "id": "food.grain.pseudocereals",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Pseudocereals"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "chia"
+    },
+    {
+      "canonical_path": "/grains-starches/corn/",
+      "projection_id": "food.grain.whole-grains.corn",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/zinfandel/",
+            "id": "zinfandel",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "zinfandel"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          },
+          {
+            "href": "/styles/viognier/",
+            "id": "viognier",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "viognier"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "corn"
+    },
+    {
+      "canonical_path": "/grains-starches/cornmeal/",
+      "projection_id": "food.grain.processed-grains.cornmeal",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.herb.whole-spices.black-pepper",
+            "id": "food.herb.whole-spices.black-pepper",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black pepper"
+          },
+          {
+            "href": "food.cheese.hard.cheddar",
+            "id": "food.cheese.hard.cheddar",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cheddar"
+          },
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.grain.processed-grains.grits",
+            "id": "food.grain.processed-grains.grits",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "grits"
+          },
+          {
+            "href": "food.grain.processed-grains.masa-harina",
+            "id": "food.grain.processed-grains.masa-harina",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "masa harina"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.processed-grains.polenta-meal",
+            "id": "food.grain.processed-grains.polenta-meal",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "polenta meal"
+          },
+          {
+            "href": "food.protein.beef.ribeye",
+            "id": "food.protein.beef.ribeye",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "ribeye"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          },
+          {
+            "href": "food.grain.processed-grains.wheat-flour",
+            "id": "food.grain.processed-grains.wheat-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "wheat flour"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/zinfandel/",
+            "id": "zinfandel",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "zinfandel"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/masa-harina/",
+            "id": "food.grain.processed-grains.masa-harina",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Masa Harina"
+          },
+          {
+            "href": "/grains-starches/polenta-meal/",
+            "id": "food.grain.processed-grains.polenta-meal",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Polenta Meal"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/grains-starches/polenta-meal/",
+            "id": "food.grain.processed-grains.polenta-meal",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Polenta Meal"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/toasty",
+            "id": "toasty",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "toasty"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/barrel-aging/",
+            "id": "barrel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "barrel aging"
+          }
+        ]
+      },
+      "slug": "cornmeal"
+    },
+    {
+      "canonical_path": "/grains-starches/cornstarch/",
+      "projection_id": "food.grain.starches.cornstarch",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.starches.arrowroot-starch",
+            "id": "food.grain.starches.arrowroot-starch",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "arrowroot starch"
+          },
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.grain.starches.potato-starch",
+            "id": "food.grain.starches.potato-starch",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "potato starch"
+          },
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          },
+          {
+            "href": "food.grain.starches.tapioca-starch",
+            "id": "food.grain.starches.tapioca-starch",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tapioca starch"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/neutral",
+            "id": "neutral",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "neutral"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/stainless-steel-aging/",
+            "id": "stainless-steel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "stainless steel aging"
+          }
+        ]
+      },
+      "slug": "cornstarch"
+    },
+    {
+      "canonical_path": "/grains-starches/couscous/",
+      "projection_id": "food.grain.processed-grains.couscous",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.cheese.brined.feta",
+            "id": "food.cheese.brined.feta",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "feta"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/dry-rose/",
+            "id": "dry-rose",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "dry rose"
+          },
+          {
+            "href": "/styles/provence-rose/",
+            "id": "provence-rose",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "provence rose"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/semolina/",
+            "id": "food.grain.processed-grains.semolina",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Semolina"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "couscous"
+    },
+    {
+      "canonical_path": "/grains-starches/einkorn/",
+      "projection_id": "food.grain.whole-grains.einkorn",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.cheese.hard.parmigiano-reggiano",
+            "id": "food.cheese.hard.parmigiano-reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano reggiano"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/farro/",
+            "id": "food.grain.whole-grains.farro",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Farro"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "einkorn"
+    },
+    {
+      "canonical_path": "/grains-starches/farina/",
+      "projection_id": "food.grain.processed-grains.farina",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.herb.whole-spices.cinnamon",
+            "id": "food.herb.whole-spices.cinnamon",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cinnamon"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/moscato/",
+            "id": "moscato",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "moscato"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [
+          {
+            "href": "/grains-starches/semolina/",
+            "id": "food.grain.processed-grains.semolina",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Semolina"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "farina"
+    },
+    {
+      "canonical_path": "/grains-starches/farro/",
+      "projection_id": "food.grain.whole-grains.farro",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.whole-grains.einkorn",
+            "id": "food.grain.whole-grains.einkorn",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "einkorn"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.grain.whole-grains.khorasan-wheat",
+            "id": "food.grain.whole-grains.khorasan-wheat",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "khorasan wheat"
+          },
+          {
+            "href": "food.cheese.hard.parmigiano-reggiano",
+            "id": "food.cheese.hard.parmigiano-reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano reggiano"
+          },
+          {
+            "href": "food.fungi.wild-mushrooms.porcini",
+            "id": "food.fungi.wild-mushrooms.porcini",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "porcini"
+          },
+          {
+            "href": "food.grain.whole-grains.spelt",
+            "id": "food.grain.whole-grains.spelt",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "spelt"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/einkorn/",
+            "id": "food.grain.whole-grains.einkorn",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Einkorn"
+          },
+          {
+            "href": "/grains-starches/spelt/",
+            "id": "food.grain.whole-grains.spelt",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Spelt"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "farro"
+    },
+    {
+      "canonical_path": "/grains-starches/finger-millet/",
+      "projection_id": "food.grain.whole-grains.finger-millet",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.whole-grains.pearl-millet",
+            "id": "food.grain.whole-grains.pearl-millet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pearl millet"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/pearl-millet/",
+            "id": "food.grain.whole-grains.pearl-millet",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Pearl Millet"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "finger-millet"
+    },
+    {
+      "canonical_path": "/grains-starches/fonio/",
+      "projection_id": "food.grain.whole-grains.fonio",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/millet/",
+            "id": "food.grain.whole-grains.millet",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Millet"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "fonio"
+    },
+    {
+      "canonical_path": "/grains-starches/foxtail-millet/",
+      "projection_id": "food.grain.whole-grains.foxtail-millet",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "foxtail-millet"
+    },
+    {
+      "canonical_path": "/grains-starches/freekeh/",
+      "projection_id": "food.grain.processed-grains.freekeh",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.grain.processed-grains.couscous",
+            "id": "food.grain.processed-grains.couscous",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "couscous"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.fungi.wild-mushrooms.porcini",
+            "id": "food.fungi.wild-mushrooms.porcini",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "porcini"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/bulgur/",
+            "id": "food.grain.processed-grains.bulgur",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Bulgur"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/smoky",
+            "id": "smoky",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "smoky"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/barrel-aging/",
+            "id": "barrel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "barrel aging"
+          }
+        ]
+      },
+      "slug": "freekeh"
+    },
+    {
+      "canonical_path": "/grains-starches/glutinous-rice-starch/",
+      "projection_id": "food.grain.starches.glutinous-rice-starch",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "glutinous-rice-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/grits/",
+      "projection_id": "food.grain.processed-grains.grits",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/champagne/",
+            "id": "champagne",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "champagne"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.herb.whole-spices.black-pepper",
+            "id": "food.herb.whole-spices.black-pepper",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black pepper"
+          },
+          {
+            "href": "food.cheese.hard.cheddar",
+            "id": "food.cheese.hard.cheddar",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cheddar"
+          },
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.grain.processed-grains.hominy",
+            "id": "food.grain.processed-grains.hominy",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "hominy"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/polenta-meal/",
+            "id": "food.grain.processed-grains.polenta-meal",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Polenta Meal"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/buttery",
+            "id": "buttery",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "buttery"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/malolactic-fermentation/",
+            "id": "malolactic-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "malolactic fermentation"
+          }
+        ]
+      },
+      "slug": "grits"
+    },
+    {
+      "canonical_path": "/grains-starches/hominy/",
+      "projection_id": "food.grain.processed-grains.hominy",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/zinfandel/",
+            "id": "zinfandel",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "zinfandel"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "hominy"
+    },
+    {
+      "canonical_path": "/grains-starches/jobs-tears/",
+      "projection_id": "food.grain.whole-grains.jobs-tears",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "jobs-tears"
+    },
+    {
+      "canonical_path": "/grains-starches/kaniwa/",
+      "projection_id": "food.grain.pseudocereals.kaniwa",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/pseudocereals/",
+            "id": "food.grain.pseudocereals",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Pseudocereals"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "kaniwa"
+    },
+    {
+      "canonical_path": "/grains-starches/khorasan-wheat/",
+      "projection_id": "food.grain.whole-grains.khorasan-wheat",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.cheese.hard.cheddar",
+            "id": "food.cheese.hard.cheddar",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cheddar"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "khorasan-wheat"
+    },
+    {
+      "canonical_path": "/grains-starches/kudzu-starch/",
+      "projection_id": "food.grain.starches.kudzu-starch",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.starches.lotus-root-starch",
+            "id": "food.grain.starches.lotus-root-starch",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "lotus root starch"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/arrowroot-starch/",
+            "id": "food.grain.starches.arrowroot-starch",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Arrowroot Starch"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "kudzu-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/lotus-root-starch/",
+      "projection_id": "food.grain.starches.lotus-root-starch",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "lotus-root-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/masa-harina/",
+      "projection_id": "food.grain.processed-grains.masa-harina",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/zinfandel/",
+            "id": "zinfandel",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "zinfandel"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.cheese.brined.feta",
+            "id": "food.cheese.brined.feta",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "feta"
+          },
+          {
+            "href": "food.protein.beef.ribeye",
+            "id": "food.protein.beef.ribeye",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "ribeye"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/cornmeal/",
+            "id": "food.grain.processed-grains.cornmeal",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Cornmeal"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "masa-harina"
+    },
+    {
+      "canonical_path": "/grains-starches/matzo-meal/",
+      "projection_id": "food.grain.processed-grains.matzo-meal",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/champagne/",
+            "id": "champagne",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "champagne"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "matzo-meal"
+    },
+    {
+      "canonical_path": "/grains-starches/mesquite-flour/",
+      "projection_id": "food.grain.pseudocereals.mesquite-flour",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.pseudocereals.plantain-flour",
+            "id": "food.grain.pseudocereals.plantain-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "plantain flour"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/pseudocereals/",
+            "id": "food.grain.pseudocereals",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Pseudocereals"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/smoky",
+            "id": "smoky",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "smoky"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "mesquite-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/millet/",
+      "projection_id": "food.grain.whole-grains.millet",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.grain.whole-grains.fonio",
+            "id": "food.grain.whole-grains.fonio",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "fonio"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.sorghum",
+            "id": "food.grain.whole-grains.sorghum",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "sorghum"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/fonio/",
+            "id": "food.grain.whole-grains.fonio",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Fonio"
+          },
+          {
+            "href": "/grains-starches/sorghum/",
+            "id": "food.grain.whole-grains.sorghum",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Sorghum"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/nutty",
+            "id": "nutty",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "nutty"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "millet"
+    },
+    {
+      "canonical_path": "/grains-starches/millet-flour/",
+      "projection_id": "food.grain.processed-grains.millet-flour",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.processed-grains.sorghum-flour",
+            "id": "food.grain.processed-grains.sorghum-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "sorghum flour"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "millet-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/mung-bean-starch/",
+      "projection_id": "food.grain.starches.mung-bean-starch",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.starches.sweet-potato-starch",
+            "id": "food.grain.starches.sweet-potato-starch",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "sweet potato starch"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/pea-starch/",
+            "id": "food.grain.starches.pea-starch",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Pea Starch"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "mung-bean-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/oat-flour/",
+      "projection_id": "food.grain.processed-grains.oat-flour",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/merlot/",
+            "id": "merlot",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "merlot"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "oat-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/oats/",
+      "projection_id": "food.grain.whole-grains.oats",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.whole-grains.barley",
+            "id": "food.grain.whole-grains.barley",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "barley"
+          },
+          {
+            "href": "food.herb.whole-spices.black-pepper",
+            "id": "food.herb.whole-spices.black-pepper",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black pepper"
+          },
+          {
+            "href": "food.cheese.hard.cheddar",
+            "id": "food.cheese.hard.cheddar",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cheddar"
+          },
+          {
+            "href": "food.grain.pseudocereals.chia",
+            "id": "food.grain.pseudocereals.chia",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chia"
+          },
+          {
+            "href": "food.herb.whole-spices.cinnamon",
+            "id": "food.herb.whole-spices.cinnamon",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cinnamon"
+          },
+          {
+            "href": "food.grain.whole-grains.millet",
+            "id": "food.grain.whole-grains.millet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "millet"
+          },
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          },
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/creamy",
+            "id": "creamy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "creamy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/malolactic-fermentation/",
+            "id": "malolactic-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "malolactic fermentation"
+          }
+        ]
+      },
+      "slug": "oats"
+    },
+    {
+      "canonical_path": "/grains-starches/pea-starch/",
+      "projection_id": "food.grain.starches.pea-starch",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.starches.potato-starch",
+            "id": "food.grain.starches.potato-starch",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "potato starch"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/mung-bean-starch/",
+            "id": "food.grain.starches.mung-bean-starch",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Mung Bean Starch"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "pea-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/pearl-barley/",
+      "projection_id": "food.grain.processed-grains.pearl-barley",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.protein.beef.ribeye",
+            "id": "food.protein.beef.ribeye",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "ribeye"
+          },
+          {
+            "href": "food.fungi.cultivated-mushrooms.shiitake",
+            "id": "food.fungi.cultivated-mushrooms.shiitake",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shiitake"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/bulgur/",
+            "id": "food.grain.processed-grains.bulgur",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Bulgur"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/creamy",
+            "id": "creamy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "creamy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "pearl-barley"
+    },
+    {
+      "canonical_path": "/grains-starches/pearl-millet/",
+      "projection_id": "food.grain.whole-grains.pearl-millet",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/finger-millet/",
+            "id": "food.grain.whole-grains.finger-millet",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Finger Millet"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "pearl-millet"
+    },
+    {
+      "canonical_path": "/grains-starches/perilla-seed/",
+      "projection_id": "food.grain.pseudocereals.perilla-seed",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.pseudocereals.wattleseed",
+            "id": "food.grain.pseudocereals.wattleseed",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "wattleseed"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/pseudocereals/",
+            "id": "food.grain.pseudocereals",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Pseudocereals"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "perilla-seed"
+    },
+    {
+      "canonical_path": "/grains-starches/plantain-flour/",
+      "projection_id": "food.grain.pseudocereals.plantain-flour",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/pseudocereals/",
+            "id": "food.grain.pseudocereals",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Pseudocereals"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/viognier/",
+            "id": "viognier",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "viognier"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "plantain-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/polenta-meal/",
+      "projection_id": "food.grain.processed-grains.polenta-meal",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.cheese.hard.parmigiano-reggiano",
+            "id": "food.cheese.hard.parmigiano-reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano reggiano"
+          },
+          {
+            "href": "food.fungi.wild-mushrooms.porcini",
+            "id": "food.fungi.wild-mushrooms.porcini",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "porcini"
+          },
+          {
+            "href": "food.herb.dried-herbs.rosemary",
+            "id": "food.herb.dried-herbs.rosemary",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rosemary"
+          },
+          {
+            "href": "food.fungi.cultivated-mushrooms.shiitake",
+            "id": "food.fungi.cultivated-mushrooms.shiitake",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shiitake"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/cornmeal/",
+            "id": "food.grain.processed-grains.cornmeal",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Cornmeal"
+          },
+          {
+            "href": "/grains-starches/grits/",
+            "id": "food.grain.processed-grains.grits",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Grits"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/grains-starches/cornmeal/",
+            "id": "food.grain.processed-grains.cornmeal",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Cornmeal"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/creamy",
+            "id": "creamy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "creamy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/barrel-aging/",
+            "id": "barrel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "barrel aging"
+          }
+        ]
+      },
+      "slug": "polenta-meal"
+    },
+    {
+      "canonical_path": "/grains-starches/potato-flour/",
+      "projection_id": "food.grain.starches.potato-flour",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "potato-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/potato-starch/",
+      "projection_id": "food.grain.starches.potato-starch",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.grain.processed-grains.rice-flour",
+            "id": "food.grain.processed-grains.rice-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice flour"
+          },
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          },
+          {
+            "href": "food.grain.starches.tapioca-starch",
+            "id": "food.grain.starches.tapioca-starch",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tapioca starch"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/tapioca-starch/",
+            "id": "food.grain.starches.tapioca-starch",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Tapioca Starch"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/grains-starches/cornstarch/",
+            "id": "food.grain.starches.cornstarch",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Cornstarch"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/neutral",
+            "id": "neutral",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "neutral"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "potato-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/proso-millet/",
+      "projection_id": "food.grain.whole-grains.proso-millet",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.whole-grains.millet",
+            "id": "food.grain.whole-grains.millet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "millet"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "proso-millet"
+    },
+    {
+      "canonical_path": "/grains-starches/quinoa/",
+      "projection_id": "food.grain.pseudocereals.quinoa",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.pseudocereals.amaranth",
+            "id": "food.grain.pseudocereals.amaranth",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "amaranth"
+          },
+          {
+            "href": "food.grain.pseudocereals.buckwheat",
+            "id": "food.grain.pseudocereals.buckwheat",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "buckwheat"
+          },
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.cheese.brined.feta",
+            "id": "food.cheese.brined.feta",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "feta"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.grain.whole-grains.millet",
+            "id": "food.grain.whole-grains.millet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "millet"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/pseudocereals/",
+            "id": "food.grain.pseudocereals",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Pseudocereals"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          },
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/amaranth/",
+            "id": "food.grain.pseudocereals.amaranth",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Amaranth"
+          },
+          {
+            "href": "/grains-starches/buckwheat/",
+            "id": "food.grain.pseudocereals.buckwheat",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Buckwheat"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/grains-starches/rice/",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Rice"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/herbal",
+            "id": "herbal",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "herbal"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/stainless-steel-aging/",
+            "id": "stainless-steel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "stainless steel aging"
+          }
+        ]
+      },
+      "slug": "quinoa"
+    },
+    {
+      "canonical_path": "/grains-starches/quinoa-flour/",
+      "projection_id": "food.grain.processed-grains.quinoa-flour",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/viognier/",
+            "id": "viognier",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "viognier"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "quinoa-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/rice/",
+      "projection_id": "food.grain.whole-grains.rice",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          },
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.whole-grains.barley",
+            "id": "food.grain.whole-grains.barley",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "barley"
+          },
+          {
+            "href": "food.herb.whole-spices.black-pepper",
+            "id": "food.herb.whole-spices.black-pepper",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black pepper"
+          },
+          {
+            "href": "food.grain.processed-grains.bulgur",
+            "id": "food.grain.processed-grains.bulgur",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "bulgur"
+          },
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.herb.whole-spices.cinnamon",
+            "id": "food.herb.whole-spices.cinnamon",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cinnamon"
+          },
+          {
+            "href": "food.cheese.brined.feta",
+            "id": "food.cheese.brined.feta",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "feta"
+          },
+          {
+            "href": "food.grain.processed-grains.freekeh",
+            "id": "food.grain.processed-grains.freekeh",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "freekeh"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.grain.whole-grains.jobs-tears",
+            "id": "food.grain.whole-grains.jobs-tears",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "jobs tears"
+          },
+          {
+            "href": "food.grain.whole-grains.millet",
+            "id": "food.grain.whole-grains.millet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "millet"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.pseudocereals.quinoa",
+            "id": "food.grain.pseudocereals.quinoa",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "quinoa"
+          },
+          {
+            "href": "food.protein.beef.ribeye",
+            "id": "food.protein.beef.ribeye",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "ribeye"
+          },
+          {
+            "href": "food.herb.dried-herbs.rosemary",
+            "id": "food.herb.dried-herbs.rosemary",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rosemary"
+          },
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          },
+          {
+            "href": "food.grain.whole-grains.wild-rice",
+            "id": "food.grain.whole-grains.wild-rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "wild rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          },
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/wild-rice/",
+            "id": "food.grain.whole-grains.wild-rice",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Wild Rice"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/neutral",
+            "id": "neutral",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "neutral"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/stainless-steel-aging/",
+            "id": "stainless-steel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "stainless steel aging"
+          }
+        ]
+      },
+      "slug": "rice"
+    },
+    {
+      "canonical_path": "/grains-starches/rice-flour/",
+      "projection_id": "food.grain.processed-grains.rice-flour",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.grain.starches.glutinous-rice-starch",
+            "id": "food.grain.starches.glutinous-rice-starch",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "glutinous rice starch"
+          },
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          },
+          {
+            "href": "food.fungi.cultivated-mushrooms.shiitake",
+            "id": "food.fungi.cultivated-mushrooms.shiitake",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shiitake"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/floral",
+            "id": "floral",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "floral"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/stainless-steel-aging/",
+            "id": "stainless-steel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "stainless steel aging"
+          }
+        ]
+      },
+      "slug": "rice-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/rice-starch/",
+      "projection_id": "food.grain.starches.rice-starch",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.starches.waxy-rice-starch",
+            "id": "food.grain.starches.waxy-rice-starch",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "waxy rice starch"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "rice-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/rye/",
+      "projection_id": "food.grain.whole-grains.rye",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.beef.ribeye",
+            "id": "food.protein.beef.ribeye",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "ribeye"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "rye"
+    },
+    {
+      "canonical_path": "/grains-starches/rye-flour/",
+      "projection_id": "food.grain.processed-grains.rye-flour",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.beef.ribeye",
+            "id": "food.protein.beef.ribeye",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "ribeye"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/spicy",
+            "id": "spicy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "spicy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/native-fermentation/",
+            "id": "native-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "native fermentation"
+          }
+        ]
+      },
+      "slug": "rye-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/sago-starch/",
+      "projection_id": "food.grain.starches.sago-starch",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.starches.tapioca-starch",
+            "id": "food.grain.starches.tapioca-starch",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tapioca starch"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/moscato/",
+            "id": "moscato",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "moscato"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/tapioca-starch/",
+            "id": "food.grain.starches.tapioca-starch",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Tapioca Starch"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/floral",
+            "id": "floral",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "floral"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "sago-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/semolina/",
+      "projection_id": "food.grain.processed-grains.semolina",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/nebbiolo/",
+            "id": "nebbiolo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "nebbiolo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.herb.fresh-herbs.basil",
+            "id": "food.herb.fresh-herbs.basil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "basil"
+          },
+          {
+            "href": "food.herb.whole-spices.black-pepper",
+            "id": "food.herb.whole-spices.black-pepper",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black pepper"
+          },
+          {
+            "href": "food.grain.processed-grains.couscous",
+            "id": "food.grain.processed-grains.couscous",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "couscous"
+          },
+          {
+            "href": "food.grain.processed-grains.farina",
+            "id": "food.grain.processed-grains.farina",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "farina"
+          },
+          {
+            "href": "food.cheese.hard.parmigiano-reggiano",
+            "id": "food.cheese.hard.parmigiano-reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano reggiano"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          },
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/couscous/",
+            "id": "food.grain.processed-grains.couscous",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Couscous"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/grains-starches/farina/",
+            "id": "food.grain.processed-grains.farina",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Farina"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/nutty",
+            "id": "nutty",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "nutty"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/carbonic-maceration/",
+            "id": "carbonic-maceration",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "carbonic maceration"
+          },
+          {
+            "href": "/techniques/stainless-steel-aging/",
+            "id": "stainless-steel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "stainless steel aging"
+          }
+        ]
+      },
+      "slug": "semolina"
+    },
+    {
+      "canonical_path": "/grains-starches/sorghum/",
+      "projection_id": "food.grain.whole-grains.sorghum",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/millet/",
+            "id": "food.grain.whole-grains.millet",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Millet"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "sorghum"
+    },
+    {
+      "canonical_path": "/grains-starches/sorghum-flour/",
+      "projection_id": "food.grain.processed-grains.sorghum-flour",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "sorghum-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/sorghum-starch/",
+      "projection_id": "food.grain.starches.sorghum-starch",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.starches.rice-starch",
+            "id": "food.grain.starches.rice-starch",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice starch"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "sorghum-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/spelt/",
+      "projection_id": "food.grain.whole-grains.spelt",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.whole-grains.khorasan-wheat",
+            "id": "food.grain.whole-grains.khorasan-wheat",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "khorasan wheat"
+          },
+          {
+            "href": "food.protein.beef.ribeye",
+            "id": "food.protein.beef.ribeye",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "ribeye"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/farro/",
+            "id": "food.grain.whole-grains.farro",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Farro"
+          }
+        ],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "spelt"
+    },
+    {
+      "canonical_path": "/grains-starches/spelt-flour/",
+      "projection_id": "food.grain.processed-grains.spelt-flour",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "spelt-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/sweet-potato-starch/",
+      "projection_id": "food.grain.starches.sweet-potato-starch",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/viognier/",
+            "id": "viognier",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "viognier"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "sweet-potato-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/tapioca-starch/",
+      "projection_id": "food.grain.starches.tapioca-starch",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/moscato/",
+            "id": "moscato",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "moscato"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.grain.processed-grains.rice-flour",
+            "id": "food.grain.processed-grains.rice-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice flour"
+          },
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/prosecco/",
+            "id": "prosecco",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "prosecco"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/arrowroot-starch/",
+            "id": "food.grain.starches.arrowroot-starch",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Arrowroot Starch"
+          },
+          {
+            "href": "/grains-starches/potato-starch/",
+            "id": "food.grain.starches.potato-starch",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Potato Starch"
+          },
+          {
+            "href": "/grains-starches/sago-starch/",
+            "id": "food.grain.starches.sago-starch",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Sago Starch"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/grains-starches/arrowroot-starch/",
+            "id": "food.grain.starches.arrowroot-starch",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Arrowroot Starch"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/creamy",
+            "id": "creamy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "creamy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/charmant-method/",
+            "id": "charmant-method",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "charmant method"
+          }
+        ]
+      },
+      "slug": "tapioca-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/taro-starch/",
+      "projection_id": "food.grain.starches.taro-starch",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "taro-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/teff/",
+      "projection_id": "food.grain.whole-grains.teff",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.pseudocereals.quinoa",
+            "id": "food.grain.pseudocereals.quinoa",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "quinoa"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/native-fermentation/",
+            "id": "native-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "native fermentation"
+          }
+        ]
+      },
+      "slug": "teff"
+    },
+    {
+      "canonical_path": "/grains-starches/teff-flour/",
+      "projection_id": "food.grain.processed-grains.teff-flour",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.processed-grains.buckwheat-flour",
+            "id": "food.grain.processed-grains.buckwheat-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "buckwheat flour"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "teff-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/triticale/",
+      "projection_id": "food.grain.whole-grains.triticale",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.whole-grains.rye",
+            "id": "food.grain.whole-grains.rye",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rye"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/merlot/",
+            "id": "merlot",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "merlot"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "triticale"
+    },
+    {
+      "canonical_path": "/grains-starches/water-chestnut-starch/",
+      "projection_id": "food.grain.starches.water-chestnut-starch",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "water-chestnut-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/wattleseed/",
+      "projection_id": "food.grain.pseudocereals.wattleseed",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/pseudocereals/",
+            "id": "food.grain.pseudocereals",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Pseudocereals"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/toasty",
+            "id": "toasty",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "toasty"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "wattleseed"
+    },
+    {
+      "canonical_path": "/grains-starches/waxy-corn-starch/",
+      "projection_id": "food.grain.starches.waxy-corn-starch",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.starches.cornstarch",
+            "id": "food.grain.starches.cornstarch",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cornstarch"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "waxy-corn-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/waxy-rice-starch/",
+      "projection_id": "food.grain.starches.waxy-rice-starch",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "waxy-rice-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/wheat/",
+      "projection_id": "food.grain.whole-grains.wheat",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          },
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "wheat"
+    },
+    {
+      "canonical_path": "/grains-starches/wheat-flour/",
+      "projection_id": "food.grain.processed-grains.wheat-flour",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/champagne/",
+            "id": "champagne",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "champagne"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.processed-grains.barley-flour",
+            "id": "food.grain.processed-grains.barley-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "barley flour"
+          },
+          {
+            "href": "food.herb.fresh-herbs.basil",
+            "id": "food.herb.fresh-herbs.basil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "basil"
+          },
+          {
+            "href": "food.herb.whole-spices.black-pepper",
+            "id": "food.herb.whole-spices.black-pepper",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black pepper"
+          },
+          {
+            "href": "food.cheese.hard.cheddar",
+            "id": "food.cheese.hard.cheddar",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cheddar"
+          },
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.grain.processed-grains.matzo-meal",
+            "id": "food.grain.processed-grains.matzo-meal",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "matzo meal"
+          },
+          {
+            "href": "food.cheese.hard.parmigiano-reggiano",
+            "id": "food.cheese.hard.parmigiano-reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano reggiano"
+          },
+          {
+            "href": "food.herb.dried-herbs.rosemary",
+            "id": "food.herb.dried-herbs.rosemary",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rosemary"
+          },
+          {
+            "href": "food.grain.processed-grains.rye-flour",
+            "id": "food.grain.processed-grains.rye-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rye flour"
+          },
+          {
+            "href": "food.grain.processed-grains.semolina",
+            "id": "food.grain.processed-grains.semolina",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "semolina"
+          },
+          {
+            "href": "food.grain.processed-grains.spelt-flour",
+            "id": "food.grain.processed-grains.spelt-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "spelt flour"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          },
+          {
+            "href": "food.grain.processed-grains.whole-wheat-flour",
+            "id": "food.grain.processed-grains.whole-wheat-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "whole wheat flour"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/toasty",
+            "id": "toasty",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "toasty"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/malolactic-fermentation/",
+            "id": "malolactic-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "malolactic fermentation"
+          }
+        ]
+      },
+      "slug": "wheat-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/wheat-starch/",
+      "projection_id": "food.grain.starches.wheat-starch",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.poultry.chicken-breast",
+            "id": "food.protein.poultry.chicken-breast",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken breast"
+          },
+          {
+            "href": "food.grain.starches.cornstarch",
+            "id": "food.grain.starches.cornstarch",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cornstarch"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/starches/",
+            "id": "food.grain.starches",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Starches"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/champagne/",
+            "id": "champagne",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "champagne"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "wheat-starch"
+    },
+    {
+      "canonical_path": "/grains-starches/whole-wheat-flour/",
+      "projection_id": "food.grain.processed-grains.whole-wheat-flour",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.beef.ribeye",
+            "id": "food.protein.beef.ribeye",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "ribeye"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/processed-grains/",
+            "id": "food.grain.processed-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Processed Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/champagne/",
+            "id": "champagne",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "champagne"
+          }
+        ],
+        "similar_grain_starches": [],
+        "substitutions": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/toasty",
+            "id": "toasty",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "toasty"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/lees-aging/",
+            "id": "lees-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "lees aging"
+          }
+        ]
+      },
+      "slug": "whole-wheat-flour"
+    },
+    {
+      "canonical_path": "/grains-starches/wild-rice/",
+      "projection_id": "food.grain.whole-grains.wild-rice",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.fungi.wild-mushrooms.porcini",
+            "id": "food.fungi.wild-mushrooms.porcini",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "porcini"
+          },
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/grain-starch-categories/grain-starch/",
+            "id": "food.grain",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Grains & Starches"
+          },
+          "group": {
+            "href": "/grain-starch-groups/whole-grains/",
+            "id": "food.grain.whole-grains",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Whole Grains"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_grain_starches": [
+          {
+            "href": "/grains-starches/rice/",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Rice"
+          }
+        ],
+        "substitutions": [
+          {
+            "href": "/grains-starches/rice/",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "substitutes_for",
+            "source": "ontology",
+            "title": "Rice"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/nutty",
+            "id": "nutty",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "nutty"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/carbonic-maceration/",
+            "id": "carbonic-maceration",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "carbonic maceration"
+          }
+        ]
+      },
+      "slug": "wild-rice"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "grain-starch",
+    "food_ontology_version": "1.5.0",
+    "link_set_count": 76,
+    "link_set_type": "grain_starch",
+    "phase": "FOOD-08FD"
+  }
+}

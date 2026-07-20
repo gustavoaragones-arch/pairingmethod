@@ -1,114 +1,114 @@
 {
   "artifacts": {
-    "catalog": "data/herb-spice-catalog.json",
+    "catalog": "data/grain-starch-catalog.json",
     "html": [
-      "dist/herbs-spices",
-      "dist/herb-spice-groups",
-      "dist/herb-spice-categories"
+      "dist/grains-starches",
+      "dist/grain-starch-groups",
+      "dist/grain-starch-categories"
     ],
     "navigation": [
-      "data/navigation/herb-spice-links.json",
-      "data/navigation/herb-spice-group-links.json",
-      "data/navigation/herb-spice-category-links.json"
+      "data/navigation/grain-starch-links.json",
+      "data/navigation/grain-starch-group-links.json",
+      "data/navigation/grain-starch-category-links.json"
     ],
     "pages": [
-      "data/pages/herb-spice-pages.json",
-      "data/pages/herb-spice-group-pages.json",
-      "data/pages/herb-spice-category-pages.json"
+      "data/pages/grain-starch-pages.json",
+      "data/pages/grain-starch-group-pages.json",
+      "data/pages/grain-starch-category-pages.json"
     ],
     "projections": [
-      "data/generated/herb-spice-pages.json",
-      "data/generated/herb-spice-group-pages.json",
-      "data/generated/herb-spice-category-pages.json"
+      "data/generated/grain-starch-pages.json",
+      "data/generated/grain-starch-group-pages.json",
+      "data/generated/grain-starch-category-pages.json"
     ],
     "relationships": [
-      "data/runtime/herb-spice-relationships.json",
-      "data/runtime/herb-spice-editorial-relationships.json",
-      "data/runtime/herb-spice-wine-relationships.json"
+      "data/runtime/grain-starch-relationships.json",
+      "data/runtime/grain-starch-editorial-relationships.json",
+      "data/runtime/grain-starch-wine-relationships.json"
     ],
     "runtime": [
-      "data/runtime/herb-spice-bootstrap.json",
-      "data/runtime/herb-spice-groups.json",
-      "data/runtime/herb-spice-categories.json",
-      "data/runtime/herb-spice-indexes.json"
+      "data/runtime/grain-starch-bootstrap.json",
+      "data/runtime/grain-starch-groups.json",
+      "data/runtime/grain-starch-categories.json",
+      "data/runtime/grain-starch-indexes.json"
     ],
     "schema": [
-      "data/schema/herb-spice-schema.json",
-      "data/schema/herb-spice-group-schema.json",
-      "data/schema/herb-spice-category-schema.json"
+      "data/schema/grain-starch-schema.json",
+      "data/schema/grain-starch-group-schema.json",
+      "data/schema/grain-starch-category-schema.json"
     ],
     "search": [
-      "data/search/herb-spice-search-index.json",
-      "data/search/herb-spice-group-search-index.json",
-      "data/search/herb-spice-category-search-index.json",
-      "data/search/herb-spice-search-suggestions.json"
+      "data/search/grain-starch-search-index.json",
+      "data/search/grain-starch-group-search-index.json",
+      "data/search/grain-starch-category-search-index.json",
+      "data/search/grain-starch-search-suggestions.json"
     ],
     "sitemaps": [
       "dist/sitemap.xml",
-      "dist/sitemaps/herb-spice-pages.xml",
-      "dist/sitemaps/herb-spice-group-pages.xml",
-      "dist/sitemaps/herb-spice-category-pages.xml",
+      "dist/sitemaps/grain-starch-pages.xml",
+      "dist/sitemaps/grain-starch-group-pages.xml",
+      "dist/sitemaps/grain-starch-category-pages.xml",
       "dist/crawl-manifest.json"
     ]
   },
   "catalog_version": "1.0.0",
   "certification": "PASS",
   "checksums": {
-    "catalog": "822ee83ae561dbf020b4a4a4e42eaeec8df4ed93ae5d08a908efa02bdf48fc12",
+    "catalog": "e034882b90c85332cee8c98ae43b238745b33a01ff0a3a8daafaf290b54a6f11",
     "html": {},
     "navigation": {
-      "data/navigation/herb-spice-category-links.json": "d1252e4815c39525706bc529820efbbe80a85b03d42d75080a4958bdf8995e8a",
-      "data/navigation/herb-spice-group-links.json": "944ba8518f57c0858e4b9d99b9ef9297ff90833778ae8544af3ee5b8c123e90e",
-      "data/navigation/herb-spice-links.json": "20e0a1faacf71c2d1390e8064d5169e3713d2956a3cf474ff6e47e6037428d87"
+      "data/navigation/grain-starch-category-links.json": "5f4043a7e48241de920ad061e5dc781a9142cca0a7108048369d70acef27b9d0",
+      "data/navigation/grain-starch-group-links.json": "ba011c44f26e1b13b5b61ae71f52dfbbe4d2e50264c42f0c15d07cc975879327",
+      "data/navigation/grain-starch-links.json": "1fb5287d7059b6e119cc368f9d067ecbbd12797b09e4e1055cf1186fff1f06a0"
     },
     "pages": {
-      "data/pages/herb-spice-category-pages.json": "6bb8f3e1255ea2d769b7b863955f0dea3b477976346e45d635adaff1283ac4bf",
-      "data/pages/herb-spice-group-pages.json": "a705daf6cbbadd9da13c7fd111b2aea05f31a96adf2914597a51629fd730dd93",
-      "data/pages/herb-spice-pages.json": "d673c76a1b676fbfa3ed92dd25a8cbffa67f11092a8e7ed4b4621ac75fbc9e35"
+      "data/pages/grain-starch-category-pages.json": "b43946d3bc391ac93319cd05f31ec2adf26953c0401a4d7435f9a61a56fbd63a",
+      "data/pages/grain-starch-group-pages.json": "30127ddac7105a51b502e3143ee7000a544f7c203bda7fe64e0dd605c4a15adc",
+      "data/pages/grain-starch-pages.json": "917907ccb39959a0a24548063c33710c5aea64e15070e0424d94bcb199931f36"
     },
     "projections": {
-      "data/generated/herb-spice-category-pages.json": "21e8ffb2e5f622f98775fe12b10eb3e7325f701f80532967732e6e44e4769fe2",
-      "data/generated/herb-spice-group-pages.json": "021f5fd765d9eb4dd448eb7a7501dcc3c70d3d5b133f5cac1aaf0d645f8bcadb",
-      "data/generated/herb-spice-pages.json": "d0ac95605e3984c709f54febe4d01d72a770040ca47464c3b0bb863bd24a1355"
+      "data/generated/grain-starch-category-pages.json": "c49240508e391378adbdf7af53a4e78cb5790b019500abe5fcda930e182ef745",
+      "data/generated/grain-starch-group-pages.json": "bfb587cf5e86ced3feddd76198f057a53d34e41c596b2c57bfbf1e34d8b624e8",
+      "data/generated/grain-starch-pages.json": "c5a34feb45ce5f392b84b146637e50ae85a7e67517d964b212e752b6f70efb5e"
     },
     "relationships": {
-      "data/runtime/herb-spice-editorial-relationships.json": "30c7766958941e915faa7de7a8c3d3f41d608038b1cb7a9f80a0981eabd5293a",
-      "data/runtime/herb-spice-relationships.json": "d8a0215f134581887ab3ecf407079853555c6fca57020f84b53c549229564785",
-      "data/runtime/herb-spice-wine-relationships.json": "73ee83868571691929b7d47189f2103eb42337664dac76ff3d606156aa082a95"
+      "data/runtime/grain-starch-editorial-relationships.json": "dbd7beb38a865cc04f6f1dd25c6df9b4156faf4976da028974e803f21867a507",
+      "data/runtime/grain-starch-relationships.json": "4eb575439a97cb3bade2e28a84fef946f33d6e54676a1d2facc5182433054305",
+      "data/runtime/grain-starch-wine-relationships.json": "70562171d86f9d8ce2282039d0e5646f79278c1e67afa26a8c2f29735d7ad060"
     },
     "runtime": {
-      "data/runtime/herb-spice-bootstrap.json": "48a561883fc015c28c6e1117db0726bcdf762d9eedc68241f8f56ba1831ef1e0",
-      "data/runtime/herb-spice-categories.json": "06cfbf6ec67ac66a2ce77a9458fb610c3bb7490a4703ffb1d298fb5d6ad09cd2",
-      "data/runtime/herb-spice-groups.json": "79ee03412f7dafcf94b8d3009b10cd7a7618d500b666a2bebf6a9bf330e4e5cf",
-      "data/runtime/herb-spice-indexes.json": "8c8c90d9c3481c99ce1245e1944716d1bd9a70f64c342da831b9fe142e0e0d54"
+      "data/runtime/grain-starch-bootstrap.json": "285643cc999a51545688e38abeb768ab3b9ad252a6954aeda8852f02444e1e3f",
+      "data/runtime/grain-starch-categories.json": "119dbfa83fe601d901bb11d18455586c5e7711a9d1105bbcd438289055cd65cb",
+      "data/runtime/grain-starch-groups.json": "88ec91e72d4c7b166b660635a0a4c932844c1c0a26ffd1842c7e84150d8a82e8",
+      "data/runtime/grain-starch-indexes.json": "9b3f7846243796a2a3c83d59cebfbce25b8ef72536e7796034bbdc85e5bde4fe"
     },
     "schema": {
-      "data/schema/herb-spice-category-schema.json": "a9f7440b9ab15baafd02bb1f2b75e4594c702d8d880d100a3016dc912a5b2621",
-      "data/schema/herb-spice-group-schema.json": "95433eafb75311b529f3dbfde5fbdfbbd8b5fe9766f04ee0e5ad1fa982deb084",
-      "data/schema/herb-spice-schema.json": "ea7165c52aa1952e7bc5bf1e4014537703664488a6ef593441b22ba373f20e6e"
+      "data/schema/grain-starch-category-schema.json": "e7ee9ec8adc1a2f44a1d0ddda0c17d32323a97f23e6245749c02e9a1c12fa268",
+      "data/schema/grain-starch-group-schema.json": "3a0a5459b45c0ec9ad2b6bd6060ac241ba5d21a4c47600e0af2f113902b04435",
+      "data/schema/grain-starch-schema.json": "ccbb01e1980ed614c9889855dd5a037fe5836bb55ffbe22cb1a7083ac7a33988"
     },
     "search": {
-      "data/search/herb-spice-category-search-index.json": "89c603d4dac74a5c1cfbcdb4c8f1894ece989edc450ccc0c0289d25b5224a91f",
-      "data/search/herb-spice-group-search-index.json": "6a9be80cb3666d1c757b172edf15395ccecc5af669281533166acada37290bd8",
-      "data/search/herb-spice-search-index.json": "6cae53632aae9288334488a56b823945d7c0be5d981cf31ee8b59263ee3e95b7",
-      "data/search/herb-spice-search-suggestions.json": "297e6648ca721cb3a5396b5fe2fb77c92ed875a57842cc1e9b529857d246b742"
+      "data/search/grain-starch-category-search-index.json": "182b563faf1423e4ced1f3fa972d39145bb99ece0ffaee06e089e0837ad62899",
+      "data/search/grain-starch-group-search-index.json": "c99ff0a14618bbf3a056d18c1346e819ddbd04aaa78b785942fadd5892741345",
+      "data/search/grain-starch-search-index.json": "49abc28e343ceccf587c8938c5a9f8faa6d92fd69987c85cb45e7f4dea24f686",
+      "data/search/grain-starch-search-suggestions.json": "5e1c5a0c1bd638a2602c060d0eef2c919ca021f8ddb635b55e8e37880cfb28ce"
     },
     "sitemaps": {
-      "dist/crawl-manifest.json": "12d48be7857bc39c8d447a0d3b0dd465926205fca8f75386587b33a7238ead18",
-      "dist/sitemap.xml": "007c6ef854548b4cdcd1ba56e6ed30e930765e4138219ef7de7d1cfed708905f",
-      "dist/sitemaps/herb-spice-category-pages.xml": "42c9a094fd2b614e89878e277d400b63e00403ff11b305879b09cbd1469f324a",
-      "dist/sitemaps/herb-spice-group-pages.xml": "f1d73462dbdcea71b7fa18b5599208f3caf7955acaa0ee0696152434706027f1",
-      "dist/sitemaps/herb-spice-pages.xml": "64b1e1994edffa060559674dae7662733fe5ea325ff6f0bfcb523eb988dfc348"
+      "dist/crawl-manifest.json": "f839cedd001e74e962511a6601f93fe6c94c2f5a3ff0596a237340e11a6e55db",
+      "dist/sitemap.xml": "48849dbd67e929c22ab3c8a2e2e0ec1d731642ff5fc6f31dd15828cb17ba0726",
+      "dist/sitemaps/grain-starch-category-pages.xml": "b040c2da517f3f57ebe1967744c3f3ad2dae91eb2398e1032085a2dd44319550",
+      "dist/sitemaps/grain-starch-group-pages.xml": "e3c3a84bafc1f39d67423f1cbe0cb89099d9c010c4dc6fcd899a70a97bf8be7e",
+      "dist/sitemaps/grain-starch-pages.xml": "5702cdbc1b543f2256c8a7e9292fac6eee547d988f9218b027ddf94df0e5c6c3"
     }
   },
-  "domain": "herb-spice",
-  "generated_at": "2026-07-20T00:11:42.437Z",
+  "domain": "grain-starch",
+  "generated_at": "2026-07-20T01:16:23.893Z",
   "pages": {
     "categories": 1,
     "groups": 4,
-    "leaf": 113,
-    "total": 118
+    "leaf": 76,
+    "total": 81
   },
-  "publication": "herb-spice-ontology",
-  "release_version": "1.4.0"
+  "publication": "grain-starch-ontology",
+  "release_version": "1.5.0"
 }

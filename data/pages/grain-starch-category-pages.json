@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "grain-starch",
+    "food_ontology_version": "1.5.0",
+    "page_count": 1,
+    "page_type": "grain_starch_category",
+    "phase": "FOOD-08FB"
+  },
+  "pages": [
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/grains-starches/",
+          "label": "Grains & Starches"
+        },
+        {
+          "href": "/grain-starch-categories/grain-starch/",
+          "label": "Grains & Starches"
+        }
+      ],
+      "canonical_path": "/grain-starch-categories/grain-starch/",
+      "groups": [
+        {
+          "food_count": 25,
+          "href": "/grain-starch-groups/processed-grains/",
+          "id": "food.grain.processed-grains",
+          "name": "Processed Grains",
+          "slug": "processed-grains"
+        },
+        {
+          "food_count": 9,
+          "href": "/grain-starch-groups/pseudocereals/",
+          "id": "food.grain.pseudocereals",
+          "name": "Pseudocereals",
+          "slug": "pseudocereals"
+        },
+        {
+          "food_count": 20,
+          "href": "/grain-starch-groups/starches/",
+          "id": "food.grain.starches",
+          "name": "Starches",
+          "slug": "starches"
+        },
+        {
+          "food_count": 22,
+          "href": "/grain-starch-groups/whole-grains/",
+          "id": "food.grain.whole-grains",
+          "name": "Whole Grains",
+          "slug": "whole-grains"
+        }
+      ],
+      "identity": {
+        "id": "food.grain",
+        "slug": "grain-starch",
+        "title": "Grains & Starches"
+      },
+      "metadata": {
+        "canonical": "https://pairingmethod.com/grain-starch-categories/grain-starch/",
+        "description": "Grains & Starches — 4 groups and 76 grains and starches.",
+        "og_description": "Grains & Starches — 4 groups and 76 grains and starches.",
+        "og_title": "Grains & Starches — Grain & Starch Category",
+        "title": "Grains & Starches — Grain & Starch Category"
+      },
+      "overview": {
+        "display_name": "Grains & Starches",
+        "food_count": 76,
+        "group_count": 4
+      },
+      "page_type": "grain_starch_category",
+      "projection_id": "food.grain",
+      "slug": "grain-starch"
+    }
+  ]
+}

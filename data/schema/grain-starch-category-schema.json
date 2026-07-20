@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "grain-starch",
+    "food_ontology_version": "1.5.0",
+    "phase": "FOOD-08FC",
+    "schema_count": 1,
+    "schema_type": "grain_starch_category"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/grain-starch-categories/grain-starch/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/grain-starch-categories/grain-starch/#collectionpage",
+          "@type": "CollectionPage",
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/grain-starch-categories/grain-starch/#breadcrumb"
+          },
+          "description": "Grains & Starches — 4 groups and 76 grains and starches.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Grains & Starches — Grain & Starch Category",
+          "url": "https://pairingmethod.com/grain-starch-categories/grain-starch/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/grain-starch-categories/grain-starch/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/grains-starches/",
+              "name": "Grains & Starches",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/grain-starch-categories/grain-starch/",
+              "name": "Grains & Starches",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/grain-starch-categories/grain-starch/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "grain-starch",
+          "description": "Grains & Starches — 4 groups and 76 grains and starches.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/grain-starch-groups/processed-grains/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.grain.processed-grains",
+              "name": "Processed Grains",
+              "numberOfTerms": 25,
+              "url": "https://pairingmethod.com/grain-starch-groups/processed-grains/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grain-starch-groups/pseudocereals/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.grain.pseudocereals",
+              "name": "Pseudocereals",
+              "numberOfTerms": 9,
+              "url": "https://pairingmethod.com/grain-starch-groups/pseudocereals/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grain-starch-groups/starches/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.grain.starches",
+              "name": "Starches",
+              "numberOfTerms": 20,
+              "url": "https://pairingmethod.com/grain-starch-groups/starches/"
+            },
+            {
+              "@id": "https://pairingmethod.com/grain-starch-groups/whole-grains/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.grain.whole-grains",
+              "name": "Whole Grains",
+              "numberOfTerms": 22,
+              "url": "https://pairingmethod.com/grain-starch-groups/whole-grains/"
+            }
+          ],
+          "identifier": "food.grain",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Grain & Starch Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Grains & Starches",
+          "numberOfTerms": 76,
+          "url": "https://pairingmethod.com/grain-starch-categories/grain-starch/"
+        }
+      ],
+      "projection_id": "food.grain",
+      "slug": "grain-starch"
+    }
+  ]
+}
