@@ -1,0 +1,410 @@
+{
+  "categories": [
+    {
+      "child_slugs": [
+        "tree-nuts",
+        "peanuts",
+        "edible-seeds",
+        "seed-spices",
+        "nut-products",
+        "seed-products"
+      ],
+      "domain": "culinary",
+      "entity_type": "nut_seed_category",
+      "external_ids": {},
+      "id": "food.nut-seed",
+      "introduction": "The Nut & Seed Ontology catalogs canonical culinary nuts, edible seeds, and nut- and seed-derived ingredients used worldwide in cooking. This domain models culinary ingredients, not botanical taxonomy, snack products, confectionery, or prepared foods.",
+      "name": "Nuts & Seeds",
+      "scientific_name": "",
+      "seo_description": "Explore canonical culinary nuts and edible seeds by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+      "seo_title": "Nuts & Seeds — Food Ontology",
+      "slug": "nut-seed",
+      "summary": "Canonical culinary nuts and seeds across six immutable groups: Tree Nuts, Peanuts, Edible Seeds, Seed Spices, Nut Products, and Seed Products."
+    }
+  ],
+  "groups": [
+    {
+      "child_slugs": [],
+      "culinary_group": "tree_nuts",
+      "domain": "culinary",
+      "entity_type": "nut_seed_group",
+      "external_ids": {},
+      "id": "food.nut-seed.tree-nuts",
+      "introduction": "Tree nuts in the Nut & Seed Ontology — culinary tree nuts used whole, chopped, and roasted in cooking and baking, including almond, walnut, pecan, hazelnut, pistachio, cashew, and macadamia.",
+      "name": "Tree Nuts",
+      "parent_category": "nut-seed",
+      "scientific_name": "",
+      "seo_description": "Canonical tree nuts — almond, walnut, pecan, and related culinary ingredients in the PairingMethod Nut & Seed Ontology.",
+      "seo_title": "Tree Nuts — Nut & Seed Ontology",
+      "slug": "tree-nuts",
+      "summary": "Tree Nuts — canonical culinary tree nuts in the Nut & Seed Ontology (population deferred to FOOD-10B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "peanuts",
+      "domain": "culinary",
+      "entity_type": "nut_seed_group",
+      "external_ids": {},
+      "id": "food.nut-seed.peanuts",
+      "introduction": "Peanuts in the Nut & Seed Ontology — the culinary peanut group. Despite botanical legume status, peanut is classified here by established culinary identity per NUT-001.",
+      "name": "Peanuts",
+      "parent_category": "nut-seed",
+      "scientific_name": "",
+      "seo_description": "Canonical peanuts — culinary peanut ingredients in the PairingMethod Nut & Seed Ontology.",
+      "seo_title": "Peanuts — Nut & Seed Ontology",
+      "slug": "peanuts",
+      "summary": "Peanuts — canonical culinary peanut ingredients in the Nut & Seed Ontology (population deferred to FOOD-10B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "edible_seeds",
+      "domain": "culinary",
+      "entity_type": "nut_seed_group",
+      "external_ids": {},
+      "id": "food.nut-seed.edible-seeds",
+      "introduction": "Edible seeds in the Nut & Seed Ontology — whole seeds used in cooking, baking, and garnish, including sesame, sunflower seed, pumpkin seed, flaxseed, and chia seed.",
+      "name": "Edible Seeds",
+      "parent_category": "nut-seed",
+      "scientific_name": "",
+      "seo_description": "Canonical edible seeds — sesame, sunflower seed, pumpkin seed, and related culinary ingredients in the PairingMethod Nut & Seed Ontology.",
+      "seo_title": "Edible Seeds — Nut & Seed Ontology",
+      "slug": "edible-seeds",
+      "summary": "Edible Seeds — canonical edible seeds in the Nut & Seed Ontology (population deferred to FOOD-10B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "seed_spices",
+      "domain": "culinary",
+      "entity_type": "nut_seed_group",
+      "external_ids": {},
+      "id": "food.nut-seed.seed-spices",
+      "introduction": "Seed spices in the Nut & Seed Ontology — edible seeds with primary spice-like culinary function not governed by the Herb & Spice Ontology. Mustard seed and other Herb & Spice entities are excluded.",
+      "name": "Seed Spices",
+      "parent_category": "nut-seed",
+      "scientific_name": "",
+      "seo_description": "Canonical seed spices — nigella, caraway seed, and related culinary seed ingredients in the PairingMethod Nut & Seed Ontology.",
+      "seo_title": "Seed Spices — Nut & Seed Ontology",
+      "slug": "seed-spices",
+      "summary": "Seed Spices — canonical seed-spice ingredients in the Nut & Seed Ontology (population deferred to FOOD-10B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "nut_products",
+      "domain": "culinary",
+      "entity_type": "nut_seed_group",
+      "external_ids": {},
+      "id": "food.nut-seed.nut-products",
+      "introduction": "Nut products in the Nut & Seed Ontology — processed nut forms with independent culinary identity per NUT-002, including nut flours, nut butters, and nut meals.",
+      "name": "Nut Products",
+      "parent_category": "nut-seed",
+      "scientific_name": "",
+      "seo_description": "Canonical nut products — almond flour, peanut butter, and related processed nut ingredients in the PairingMethod Nut & Seed Ontology.",
+      "seo_title": "Nut Products — Nut & Seed Ontology",
+      "slug": "nut-products",
+      "summary": "Nut Products — canonical processed nut ingredients in the Nut & Seed Ontology (population deferred to FOOD-10B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "seed_products",
+      "domain": "culinary",
+      "entity_type": "nut_seed_group",
+      "external_ids": {},
+      "id": "food.nut-seed.seed-products",
+      "introduction": "Seed products in the Nut & Seed Ontology — processed seed forms with independent culinary identity per NUT-002, including tahini and other governed seed pastes and flours.",
+      "name": "Seed Products",
+      "parent_category": "nut-seed",
+      "scientific_name": "",
+      "seo_description": "Canonical seed products — tahini, seed flours, and related processed seed ingredients in the PairingMethod Nut & Seed Ontology.",
+      "seo_title": "Seed Products — Nut & Seed Ontology",
+      "slug": "seed-products",
+      "summary": "Seed Products — canonical processed seed ingredients in the Nut & Seed Ontology (population deferred to FOOD-10B)."
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "category_count": 1,
+    "description": "Nut & Seed Ontology — governance shell only (FOOD-10A). Entity population deferred to FOOD-10B.",
+    "domain": "nut-seed",
+    "entity_count": 0,
+    "entity_type": "nut_seed",
+    "food_ontology_version": "1.7.0",
+    "freeze_label": "Nut & Seed Governance Frozen v1.0.0",
+    "freeze_phase": "FOOD-10A",
+    "governance_status": "frozen",
+    "group_count": 6,
+    "ontology_foundation_version": "1.0.0",
+    "phase": "FOOD-10A",
+    "platform_version": "1.0.0",
+    "seeded": "2026-07-20",
+    "tier": 2,
+    "wine_ontology_version": "2.0"
+  },
+  "nut_seeds": [],
+  "schema": {
+    "controlled_vocabularies": {
+      "aroma_profile": {
+        "cardinality": "array",
+        "description": "Reserved aroma characteristic tags — vocabulary frozen in FOOD-10A; do not populate until post-FOOD-10B curation standards.",
+        "populate_from_phase": "FOOD-10C",
+        "values": [
+          "roasted",
+          "toasted",
+          "nutty",
+          "earthy",
+          "spiced",
+          "neutral",
+          "floral"
+        ]
+      },
+      "canonical_culinary_groups": {
+        "description": "Immutable group names and slugs — do not rename or add peer groups in v1.",
+        "immutable": true,
+        "values": [
+          {
+            "culinary_group": "tree_nuts",
+            "name": "Tree Nuts",
+            "slug": "tree-nuts"
+          },
+          {
+            "culinary_group": "peanuts",
+            "name": "Peanuts",
+            "slug": "peanuts"
+          },
+          {
+            "culinary_group": "edible_seeds",
+            "name": "Edible Seeds",
+            "slug": "edible-seeds"
+          },
+          {
+            "culinary_group": "seed_spices",
+            "name": "Seed Spices",
+            "slug": "seed-spices"
+          },
+          {
+            "culinary_group": "nut_products",
+            "name": "Nut Products",
+            "slug": "nut-products"
+          },
+          {
+            "culinary_group": "seed_products",
+            "name": "Seed Products",
+            "slug": "seed-products"
+          }
+        ]
+      },
+      "culinary_group": {
+        "description": "Canonical Culinary Group value on leaf entities — aligns to immutable group slugs.",
+        "immutable": true,
+        "values": [
+          "tree_nuts",
+          "peanuts",
+          "edible_seeds",
+          "seed_spices",
+          "nut_products",
+          "seed_products"
+        ]
+      },
+      "flavor_profile": {
+        "cardinality": "array",
+        "description": "Reserved flavor characteristic tags — vocabulary frozen in FOOD-10A; do not populate until post-FOOD-10B curation standards.",
+        "populate_from_phase": "FOOD-10C",
+        "values": [
+          "nutty",
+          "sweet",
+          "bitter",
+          "earthy",
+          "mild",
+          "spiced",
+          "neutral"
+        ]
+      },
+      "texture_profile": {
+        "cardinality": "array",
+        "description": "Reserved texture characteristic tags — vocabulary frozen in FOOD-10A; do not populate until post-FOOD-10B curation standards.",
+        "populate_from_phase": "FOOD-10C",
+        "values": [
+          "crunchy",
+          "creamy",
+          "granular",
+          "oily",
+          "firm",
+          "powdery",
+          "chewy"
+        ]
+      },
+      "usage_intensity": {
+        "description": "Intrinsic culinary prominence in dish composition — not Pairing Engine reasoning.",
+        "immutable": true,
+        "values": [
+          "primary",
+          "accent",
+          "luxury"
+        ]
+      }
+    },
+    "domain_contract": "Food Ontology Platform v1.0.0",
+    "domain_exclusions": {
+      "beverages": "Plant milks and nut/seed beverages — reserved; out of domain v1",
+      "cheese": "FOOD-04",
+      "fruit": "FOOD-09 — coconut and fruit-derived ingredients",
+      "fungi": "FOOD-06",
+      "grain_starch": "FOOD-08 — cereal and pseudocereal flours",
+      "herbs_spices": "FOOD-07 — mustard seed and whole spice entities",
+      "legumes": "FOOD-11 — soybean and pulse ingredients",
+      "note": "Entities in these domains are cross-referenced by canonical ID only — never duplicated intrinsically.",
+      "prepared_foods": "Candy, trail mix, breakfast products, and snack products — not ingredient ontology",
+      "protein_foods": "FOOD-01 / FOOD-14",
+      "sauces": "FOOD-13",
+      "sweet_flavor": "FOOD-12"
+    },
+    "entity_types": {
+      "nut_seed": {
+        "description": "Canonical culinary nut, edible seed, or nut/seed-derived ingredient with frozen intrinsic metadata.",
+        "id_example": "food.nut-seed.tree-nuts.almond",
+        "optional_fields": [
+          "aliases",
+          "common_names",
+          "beginner_notes",
+          "faq",
+          "typical_descriptors",
+          "wine_pairings",
+          "avoid_wine_pairings",
+          "related_styles",
+          "related_descriptors",
+          "related_techniques",
+          "similar_nuts_seeds",
+          "substitutions",
+          "commonly_served_with",
+          "common_preparations"
+        ],
+        "required_fields": [
+          "id",
+          "slug",
+          "display_name",
+          "entity_type",
+          "domain",
+          "parent_group",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "catalog_version",
+          "food_ontology_version",
+          "culinary_group",
+          "usage_intensity",
+          "flavor_profile",
+          "texture_profile",
+          "aroma_profile",
+          "aliases",
+          "common_names",
+          "origin_context",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "nut_seed_category": {
+        "description": "Top-level nut & seed domain hub (single category in v1).",
+        "id_example": "food.nut-seed",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "nut_seed_group": {
+        "description": "Canonical Culinary Group (Tree Nuts, Edible Seeds, Nut Products, etc.).",
+        "id_example": "food.nut-seed.tree-nuts",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description",
+          "culinary_group"
+        ]
+      }
+    },
+    "governance_rules": {
+      "botanical_ownership_rule": {
+        "id": "BOTAN-001",
+        "note": "Suite rule — applies when botanical lineage diverges from culinary identity; complements NUT-001.",
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      },
+      "culinary_classification_rule": {
+        "description": "Group assignment follows established culinary identity, not botanical taxonomy alone.",
+        "frozen_phase": "FOOD-10A",
+        "id": "NUT-001",
+        "immutable": true,
+        "reference": "docs/NUT_SEED_GOVERNANCE.md §7"
+      },
+      "culinary_form_ownership_rule": {
+        "description": "Cross-domain fruit processed forms — referenced for coconut ownership; does not govern Nut & Seed entities.",
+        "id": "FRUIT-001",
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      },
+      "functional_pairing_rule": {
+        "id": "STARCH-001",
+        "note": "Suite wine-pairing rule — referenced for completeness; FOOD-10E may introduce domain pairing rule.",
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      },
+      "processed_product_rule": {
+        "description": "A processed nut or seed becomes a separate canonical ingredient only when it has an independent culinary identity.",
+        "frozen_phase": "FOOD-10A",
+        "id": "NUT-002",
+        "immutable": true,
+        "reference": "docs/NUT_SEED_GOVERNANCE.md §8"
+      },
+      "processing_ownership_rule": {
+        "description": "When processing creates a distinct canonical culinary ingredient versus a preparation state or alias.",
+        "id": "PROC-001",
+        "immutable": true,
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      }
+    },
+    "identity_contract": {
+      "canonical_entity_rule": "CANON-001",
+      "category_id_pattern": "^food\\.nut-seed$",
+      "display_name_mutable": true,
+      "entity_id_pattern": "^food\\.nut-seed\\.[a-z0-9-]+\\.[a-z0-9-]+$",
+      "external_ids_required": true,
+      "global_recognition_rule": "CANON-002",
+      "group_id_pattern": "^food\\.nut-seed\\.[a-z0-9-]+$",
+      "id_immutable": true,
+      "ids_never_recycled": true,
+      "namespace": "food.nut-seed",
+      "per_entity_version_fields": {
+        "catalog_version": "1.0.0",
+        "food_ontology_version": "1.7.0"
+      },
+      "required_identity_fields": [
+        "id",
+        "slug",
+        "display_name",
+        "scientific_name",
+        "external_ids"
+      ],
+      "scientific_name_mutable": false,
+      "scientific_name_semantics": "primary_botanical_species_for_culinary_identity",
+      "slug_mutable": true
+    },
+    "taxonomy_note": "Groups represent culinary identity and culinary form, not botanical families. See docs/NUT_SEED_GOVERNANCE.md.",
+    "taxonomy_principle": "canonical_culinary_groups"
+  }
+}
