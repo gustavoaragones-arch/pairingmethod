@@ -226,6 +226,126 @@ FOOD-09F validates the generalized publication platform across a **seventh indep
 
 Publication architecture, runtime architecture, certification pipeline, deployment pipeline, and the six-phase governance lifecycle remain **feature-complete and frozen**. Architectural changes require exceptional justification.
 
+### Next planned work
+
+**SUITE-STAB-04** stabilization checkpoint (completed — see below), then **FOOD-10 — Nut & Seed Ontology** (from tag `food-ontology-suite-v1.6.0`; see POSTER_COVERAGE.md).
+
+---
+
+## SUITE-STAB-04 — Food Ontology Suite Stabilization (Post-v1.6.0)
+
+**Date:** July 20, 2026  
+**Baseline tag:** `food-ontology-suite-v1.6.0`  
+**Type:** Governance audit — not a versioned release  
+**Overall result:** **PASS**
+
+Post-v1.6.0 checkpoint certifying that the publication platform successfully absorbed a seventh domain (119 leaf entities · 4,027 runtime edges) without architectural drift. No runtime, catalog, relationship, publication, or platform code changes were made in this audit.
+
+| Audit | Scope | Result |
+|-------|-------|--------|
+| 1 — Release Metrics Reconciliation | v1.6.0 cumulative totals vs certified runtime artifacts | **PASS** |
+| 2 — Seven-Domain Architecture Audit | Declarative integration via `food-domain-config.js`, per-domain render modules, shared template | **PASS** |
+| 3 — Knowledge Layer Consistency | Complete four-layer model (runtime, editorial, wine, publication) across all seven domains | **PASS** |
+| 4 — Cross-Domain Ownership Audit | CANON-001, CANON-002, BOTAN-001, PROC-001, STARCH-001, FRUIT-001, FRUIT-PAIR-001 | **PASS** |
+| 5 — Forward Reference Audit | Canonical-ID forward references; unresolved targets limited to future planned domains | **PASS** |
+
+**Platform modifications identified:** 0
+
+### Audit 1 — Release metrics reconciliation
+
+Certified edge counts measured from `data/runtime/*-relationships.json` at tag `food-ontology-suite-v1.6.0`:
+
+| Domain | Leaf entities | Runtime | Editorial | Wine |
+|--------|-------------:|--------:|----------:|-----:|
+| Protein Foods | 207 | 35,734 | 40 | 29 |
+| Cheeses | 204 | 44,858 | 85 | 70 |
+| Vegetables | 74 | 4,405 | 158 | 117 |
+| Fungi | 43 | 531 | 87 | 82 |
+| Herb & Spice | 113 | 6,384 | 280 | 224 |
+| Grain & Starch | 76 | 1,917 | 192 | 174 |
+| Fruit | 119 | 4,027 | 333 | 265 |
+| **Suite total** | **836** | **97,856** | **1,175** | **961** |
+
+All v1.6.0 suite metrics reconcile exactly against certified artifacts. Fruit per-domain release summary (`reports/fruit-release-certification-report.json`) matches independently (119 leaf · 4,027 runtime · 333 editorial · 265 wine · 127 publication pages).
+
+### Audit 2 — Seven-domain architecture audit
+
+| Domain | Config registry | Render module | Shared template | Platform audit |
+|--------|-----------------|---------------|-----------------|----------------|
+| Protein Foods | `PROTEIN_DOMAIN` | `taxonomy-protein-food-render.js` | `protein-entity-template.html` | Published pre-audit era |
+| Cheeses | `CHEESE_DOMAIN` | `taxonomy-cheese-render.js` | same | Published pre-audit era |
+| Vegetables | `VEGETABLE_DOMAIN` | `taxonomy-vegetable-render.js` | same | Published pre-audit era |
+| Fungi | `FUNGI_DOMAIN` | `taxonomy-fungi-render.js` | same | 0 modifications · 100% reuse |
+| Herb & Spice | `HERB_SPICE_DOMAIN` | `taxonomy-herb-spice-render.js` | same | 0 modifications · 100% reuse |
+| Grain & Starch | `GRAIN_STARCH_DOMAIN` | `taxonomy-grain-starch-render.js` | same | 0 modifications · 100% reuse |
+| Fruit | `FRUIT_DOMAIN` | `taxonomy-fruit-render.js` | same | 0 modifications · 100% reuse |
+
+FOOD-09F integrated Fruit through declarative domain configuration and a domain-specific render module only. `lib/food-publication/html.js` registers all seven domains in `DEFAULT_RENDER_EXPORTS`. No changes to shared publication stage runners in `lib/food-publication/*` were required beyond the Fruit render export mapping added at FOOD-09F.
+
+Each published domain exposes the same nine thin wrapper scripts delegating to shared stage runners:
+
+`projections → pages → schema → links → search-index → certify-publication → html → sitemap → certify-release`
+
+| Domain | `publish:*` | `release:*` | Release certification |
+|--------|-------------|-------------|---------------------|
+| Protein Foods | ✓ | ✓ | PASS |
+| Cheeses | ✓ | ✓ | PASS |
+| Vegetables | ✓ | ✓ | PASS |
+| Fungi | ✓ | ✓ | PASS |
+| Herb & Spice | ✓ | ✓ | PASS |
+| Grain & Starch | ✓ | ✓ | PASS |
+| Fruit | ✓ | ✓ | PASS |
+
+`lib/deployment-config.js` registers all seven domains. `release:food-ontology` includes Fruit.
+
+### Audit 3 — Knowledge layer consistency
+
+Every published domain implements the complete four-layer knowledge model with separate runtime artifacts and certified publication consumption:
+
+| Layer | Artifact pattern | Modified at publication? |
+|-------|------------------|--------------------------|
+| Runtime (Level 1–2) | `data/runtime/{domain}-relationships.json` | Never |
+| Editorial (Level 3) | `data/runtime/{domain}-editorial-relationships.json` | Never |
+| Wine pairings (Level 4) | `data/runtime/{domain}-wine-relationships.json` | Never |
+| Publication | Projections · pages · schema · links · search · HTML · sitemap | Read-only assembly |
+
+All seven domains: runtime + editorial + wine artifacts present · release certification **PASS** · no architectural divergence from the suite lifecycle standard.
+
+Fruit is the largest domain published to date (119 leaf entities) and confirms the four-layer model scales without platform changes.
+
+### Audit 4 — Cross-domain ownership audit
+
+| Rule | Documented in §Suite Architecture | Exercised in published domains |
+|------|-------------------------------------|--------------------------------|
+| CANON-001 | ✓ | Catalog audit — all domains with FOOD-XXB audit scripts |
+| CANON-002 | ✓ | Catalog audit — Fungi · Herb & Spice · Grain & Starch · Fruit |
+| BOTAN-001 | ✓ | Herb & Spice catalog · editorial · wine (cilantro/coriander · dill leaf/seed) |
+| PROC-001 | ✓ | Grain & Starch · Fruit catalog · runtime · editorial · wine · publication |
+| STARCH-001 | ✓ | Grain & Starch wine pairing seed · mapper validation |
+| FRUIT-001 | ✓ (added at STAB-04) | Fruit catalog · runtime · editorial · wine · publication |
+| FRUIT-PAIR-001 | ✓ (added at STAB-04) | Fruit wine pairing seed · mapper validation |
+
+| Ownership check | Result |
+|-----------------|--------|
+| FRUIT-001 processing families (grape/raisin, plum/prune, coconut forms) | **PASS** — distinct entities and distinct pairing profiles across all four knowledge layers |
+| PROC-001 processing families (Grain & Starch) | **PASS** — unchanged from SUITE-STAB-03 |
+| BOTAN-001 botanical ownership (Herb & Spice) | **PASS** — unchanged from SUITE-STAB-03 |
+| Cross-domain ingredient ownership (mustard, fennel) | **PASS** — unchanged from SUITE-STAB-03 |
+| Tomato · pumpkin · rhubarb · olive absent from Fruit catalog (cross-domain discipline) | **PASS** — per FRUIT governance |
+
+### Audit 5 — Forward reference audit
+
+| Check | Result |
+|-------|--------|
+| Cross-domain editorial edges use structured canonical IDs (no slug-only targets) | **PASS** — 0 slug-based forward references |
+| Resolved references to published domain entities | **PASS** — 1,104 edges |
+| Forward references to future planned domains | **PASS** — 17 edges (`food.ingredient.*`, `food.nut.*`, `food.seed.*`, etc.) |
+| Legacy fruit namespace shortcuts (`food.fruit.{slug}`) | **PASS** — 3 edges; semantically map to published Fruit canonical IDs post-FOOD-09 (e.g. `food.fruit.grape` → `food.fruit.berries.grape`) |
+| Cross-domain namespace aliases to published domains (`food.herb.*`, `food.spice.*`, `food.protein.*`, `food.cheese.*`) | **PASS** — intentional Tier C forward-reference pattern unchanged since SUITE-STAB-02; all seven domains certify publication with **PASS** |
+| Entity duplication via forward reference | **PASS** — none detected |
+
+**Next work:** **FOOD-10A — Nut & Seed Ontology Governance**
+
 ---
 
 ## v1.5.0 — Grain & Starch
