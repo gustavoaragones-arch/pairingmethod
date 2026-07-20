@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    "data/runtime/grain-starch-bootstrap.json",
+    "data/runtime/grain-starch-categories.json",
+    "data/runtime/grain-starch-groups.json",
+    "data/runtime/grain-starch-indexes.json"
+  ],
+  "bootstrap_errors": [],
+  "catalog_version": "1.0.0",
+  "domain": "grain-starch",
+  "metrics": {
+    "Bootstrap errors": 0,
+    "Categories indexed": 1,
+    "Grain & starch entities indexed": 76,
+    "Groups indexed": 4,
+    "Runtime artifacts": 4,
+    "Usage intensities indexed": 3
+  },
+  "overall_result": "PASS",
+  "phase": "FOOD-08C.1"
+}

@@ -1,0 +1,45 @@
+{
+  "catalog_version": "1.0.0",
+  "domain": "grain-starch",
+  "errors": [],
+  "metrics": {
+    "Determinism": "PASS",
+    "Duplicate edges": 0,
+    "Level 1 structural edges": 236,
+    "Level 2 intrinsic similarity edges": 1681,
+    "Level 3 editorial edges": 0,
+    "Missing entities": 0,
+    "Overall result": "PASS",
+    "Processing ownership violations": 0,
+    "Relationship types": 6,
+    "Total edges": 1917
+  },
+  "output": "data/runtime/grain-starch-relationships.json",
+  "overall_result": "PASS",
+  "phase": "FOOD-08C.3",
+  "relationship_type_counts": {
+    "belongs_to_category": 80,
+    "belongs_to_group": 76,
+    "category_contains": 4,
+    "group_contains": 76,
+    "shares_scientific_name": 76,
+    "shares_usage_intensity": 1605
+  },
+  "runtime_stability_levels": {
+    "level_1_structural": [
+      "belongs_to_group",
+      "belongs_to_category",
+      "group_contains",
+      "category_contains"
+    ],
+    "level_2_intrinsic_similarity": [
+      "shares_usage_intensity",
+      "shares_scientific_name"
+    ],
+    "level_3_editorial": [
+      "similar_to",
+      "substitutes_for",
+      "commonly_served_with"
+    ]
+  }
+}
