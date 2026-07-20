@@ -1,0 +1,426 @@
+{
+  "categories": [
+    {
+      "child_slugs": [
+        "pomes",
+        "stone-fruits",
+        "citrus",
+        "berries",
+        "tropical-fruits",
+        "melons",
+        "processed-fruits"
+      ],
+      "domain": "culinary",
+      "entity_type": "fruit_category",
+      "external_ids": {},
+      "id": "food.fruit",
+      "introduction": "The Fruit Ontology catalogs canonical culinary fruits, berries, citrus, melons, and fruit-derived ingredients used worldwide in cooking. This domain models culinary ingredients, not horticulture, beverages, or prepared foods.",
+      "name": "Fruits",
+      "scientific_name": "",
+      "seo_description": "Explore canonical culinary fruits and berries by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+      "seo_title": "Fruits — Food Ontology",
+      "slug": "fruit",
+      "summary": "Canonical culinary fruits across seven immutable groups: Pomes, Stone Fruits, Citrus, Berries, Tropical Fruits, Melons, and Processed Fruits."
+    }
+  ],
+  "fruits": [],
+  "groups": [
+    {
+      "child_slugs": [],
+      "culinary_group": "pomes",
+      "domain": "culinary",
+      "entity_type": "fruit_group",
+      "external_ids": {},
+      "id": "food.fruit.pomes",
+      "introduction": "Pomes in the Fruit Ontology — core-bearing fruits used fresh and in cooking, including apple and pear.",
+      "name": "Pomes",
+      "parent_category": "fruit",
+      "scientific_name": "",
+      "seo_description": "Canonical pome fruits — apple, pear, and related culinary ingredients in the PairingMethod Fruit Ontology.",
+      "seo_title": "Pomes — Fruit Ontology",
+      "slug": "pomes",
+      "summary": "Pomes — canonical pome fruits in the Fruit Ontology (population deferred to FOOD-09B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "stone_fruits",
+      "domain": "culinary",
+      "entity_type": "fruit_group",
+      "external_ids": {},
+      "id": "food.fruit.stone-fruits",
+      "introduction": "Stone fruits in the Fruit Ontology — drupes with fleshy mesocarp and hard endocarp, including peach, plum, cherry, and apricot.",
+      "name": "Stone Fruits",
+      "parent_category": "fruit",
+      "scientific_name": "",
+      "seo_description": "Canonical stone fruits — peach, plum, cherry, and related culinary ingredients in the PairingMethod Fruit Ontology.",
+      "seo_title": "Stone Fruits — Fruit Ontology",
+      "slug": "stone-fruits",
+      "summary": "Stone Fruits — canonical stone fruits in the Fruit Ontology (population deferred to FOOD-09B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "citrus",
+      "domain": "culinary",
+      "entity_type": "fruit_group",
+      "external_ids": {},
+      "id": "food.fruit.citrus",
+      "introduction": "Citrus in the Fruit Ontology — acidic, aromatic fruits used for juice, zest, segments, and cooking, including lemon, lime, orange, and grapefruit.",
+      "name": "Citrus",
+      "parent_category": "fruit",
+      "scientific_name": "",
+      "seo_description": "Canonical citrus fruits — lemon, lime, orange, and related culinary ingredients in the PairingMethod Fruit Ontology.",
+      "seo_title": "Citrus — Fruit Ontology",
+      "slug": "citrus",
+      "summary": "Citrus — canonical citrus fruits in the Fruit Ontology (population deferred to FOOD-09B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "berries",
+      "domain": "culinary",
+      "entity_type": "fruit_group",
+      "external_ids": {},
+      "id": "food.fruit.berries",
+      "introduction": "Berries in the Fruit Ontology — small, aggregate, and culinary berry-class fruits used fresh and in desserts and sauces, including strawberry, raspberry, blueberry, and blackberry.",
+      "name": "Berries",
+      "parent_category": "fruit",
+      "scientific_name": "",
+      "seo_description": "Canonical berries — strawberry, raspberry, blueberry, and related culinary ingredients in the PairingMethod Fruit Ontology.",
+      "seo_title": "Berries — Fruit Ontology",
+      "slug": "berries",
+      "summary": "Berries — canonical berries in the Fruit Ontology (population deferred to FOOD-09B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "tropical_fruits",
+      "domain": "culinary",
+      "entity_type": "fruit_group",
+      "external_ids": {},
+      "id": "food.fruit.tropical-fruits",
+      "introduction": "Tropical fruits in the Fruit Ontology — warm-climate fruits with distinct culinary identities, including mango, pineapple, papaya, banana, and coconut.",
+      "name": "Tropical Fruits",
+      "parent_category": "fruit",
+      "scientific_name": "",
+      "seo_description": "Canonical tropical fruits — mango, pineapple, coconut, and related culinary ingredients in the PairingMethod Fruit Ontology.",
+      "seo_title": "Tropical Fruits — Fruit Ontology",
+      "slug": "tropical-fruits",
+      "summary": "Tropical Fruits — canonical tropical fruits in the Fruit Ontology (population deferred to FOOD-09B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "melons",
+      "domain": "culinary",
+      "entity_type": "fruit_group",
+      "external_ids": {},
+      "id": "food.fruit.melons",
+      "introduction": "Melons in the Fruit Ontology — high-water fruits used fresh and in cold preparations, including watermelon, cantaloupe, and honeydew.",
+      "name": "Melons",
+      "parent_category": "fruit",
+      "scientific_name": "",
+      "seo_description": "Canonical melons — watermelon, cantaloupe, honeydew, and related culinary ingredients in the PairingMethod Fruit Ontology.",
+      "seo_title": "Melons — Fruit Ontology",
+      "slug": "melons",
+      "summary": "Melons — canonical melons in the Fruit Ontology (population deferred to FOOD-09B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "processed_fruits",
+      "domain": "culinary",
+      "entity_type": "fruit_group",
+      "external_ids": {},
+      "id": "food.fruit.processed-fruits",
+      "introduction": "Processed fruits in the Fruit Ontology — dried fruits, fruit purées, and fruit pastes with established independent culinary identities governed by FRUIT-001 and PROC-001, including raisin, prune, and date.",
+      "name": "Processed Fruits",
+      "parent_category": "fruit",
+      "scientific_name": "",
+      "seo_description": "Canonical processed fruit ingredients — raisins, prunes, dates, and related culinary forms in the PairingMethod Fruit Ontology.",
+      "seo_title": "Processed Fruits — Fruit Ontology",
+      "slug": "processed-fruits",
+      "summary": "Processed Fruits — canonical processed fruit ingredients in the Fruit Ontology (population deferred to FOOD-09B)."
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "category_count": 1,
+    "description": "Fruit Ontology — governance shell only (FOOD-09A). Entity population deferred to FOOD-09B.",
+    "domain": "fruit",
+    "entity_count": 0,
+    "entity_type": "fruit",
+    "food_ontology_version": "1.6.0",
+    "freeze_label": "Fruit Governance Frozen v1.0.0",
+    "freeze_phase": "FOOD-09A",
+    "governance_status": "frozen",
+    "group_count": 7,
+    "ontology_foundation_version": "1.0.0",
+    "phase": "FOOD-09A",
+    "platform_version": "1.0.0",
+    "seeded": "2026-07-19",
+    "tier": 2,
+    "wine_ontology_version": "2.0"
+  },
+  "schema": {
+    "controlled_vocabularies": {
+      "aroma_profile": {
+        "cardinality": "array",
+        "description": "Reserved aroma characteristic tags — vocabulary frozen in FOOD-09A; do not populate until post-FOOD-09B curation standards.",
+        "populate_from_phase": "FOOD-09C",
+        "values": [
+          "floral",
+          "citrus",
+          "tropical",
+          "stone-fruit",
+          "berry",
+          "melon",
+          "spiced",
+          "fermented",
+          "neutral"
+        ]
+      },
+      "canonical_culinary_groups": {
+        "description": "Immutable group names and slugs — do not rename or add peer groups in v1.",
+        "immutable": true,
+        "values": [
+          {
+            "culinary_group": "pomes",
+            "name": "Pomes",
+            "slug": "pomes"
+          },
+          {
+            "culinary_group": "stone_fruits",
+            "name": "Stone Fruits",
+            "slug": "stone-fruits"
+          },
+          {
+            "culinary_group": "citrus",
+            "name": "Citrus",
+            "slug": "citrus"
+          },
+          {
+            "culinary_group": "berries",
+            "name": "Berries",
+            "slug": "berries"
+          },
+          {
+            "culinary_group": "tropical_fruits",
+            "name": "Tropical Fruits",
+            "slug": "tropical-fruits"
+          },
+          {
+            "culinary_group": "melons",
+            "name": "Melons",
+            "slug": "melons"
+          },
+          {
+            "culinary_group": "processed_fruits",
+            "name": "Processed Fruits",
+            "slug": "processed-fruits"
+          }
+        ]
+      },
+      "culinary_group": {
+        "description": "Canonical Culinary Group value on leaf entities — aligns to immutable group slugs.",
+        "immutable": true,
+        "values": [
+          "pomes",
+          "stone_fruits",
+          "citrus",
+          "berries",
+          "tropical_fruits",
+          "melons",
+          "processed_fruits"
+        ]
+      },
+      "flavor_profile": {
+        "cardinality": "array",
+        "description": "Reserved flavor characteristic tags — vocabulary frozen in FOOD-09A; do not populate until post-FOOD-09B curation standards.",
+        "populate_from_phase": "FOOD-09C",
+        "values": [
+          "sweet",
+          "tart",
+          "acidic",
+          "bitter",
+          "mild",
+          "tropical",
+          "stone-fruit",
+          "neutral"
+        ]
+      },
+      "texture_profile": {
+        "cardinality": "array",
+        "description": "Reserved texture characteristic tags — vocabulary frozen in FOOD-09A; do not populate until post-FOOD-09B curation standards.",
+        "populate_from_phase": "FOOD-09C",
+        "values": [
+          "juicy",
+          "firm",
+          "soft",
+          "crisp",
+          "fibrous",
+          "creamy",
+          "chewy",
+          "granular"
+        ]
+      },
+      "usage_intensity": {
+        "description": "Intrinsic culinary prominence in dish composition — not Pairing Engine reasoning.",
+        "immutable": true,
+        "values": [
+          "primary",
+          "accent",
+          "luxury"
+        ]
+      }
+    },
+    "domain_contract": "Food Ontology Platform v1.0.0",
+    "domain_exclusions": {
+      "beverages": "Juices, cider, wine, and fruit beverages — out of domain",
+      "cheese": "FOOD-04",
+      "fungi": "FOOD-06",
+      "grain_starch": "FOOD-08",
+      "herbs_spices": "FOOD-07",
+      "legumes": "FOOD-11",
+      "note": "Entities in these domains are cross-referenced by canonical ID only — never duplicated intrinsically.",
+      "nuts_seeds": "FOOD-10",
+      "prepared_foods": "Desserts, candies, jams, preserves, and flavored products — not ingredient ontology",
+      "protein_foods": "FOOD-01 / FOOD-14",
+      "sauces": "FOOD-13",
+      "sweet_flavor": "FOOD-12",
+      "vegetables": "FOOD-05"
+    },
+    "entity_types": {
+      "fruit": {
+        "description": "Canonical culinary fruit, berry, or fruit-derived ingredient with frozen intrinsic metadata.",
+        "id_example": "food.fruit.pomes.apple",
+        "optional_fields": [
+          "aliases",
+          "common_names",
+          "beginner_notes",
+          "faq",
+          "typical_descriptors",
+          "wine_pairings",
+          "avoid_wine_pairings",
+          "related_styles",
+          "related_descriptors",
+          "related_techniques",
+          "similar_fruits",
+          "substitutions",
+          "commonly_served_with",
+          "common_preparations"
+        ],
+        "required_fields": [
+          "id",
+          "slug",
+          "display_name",
+          "entity_type",
+          "domain",
+          "parent_group",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "catalog_version",
+          "food_ontology_version",
+          "culinary_group",
+          "usage_intensity",
+          "flavor_profile",
+          "texture_profile",
+          "aroma_profile",
+          "aliases",
+          "common_names",
+          "origin_context",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "fruit_category": {
+        "description": "Top-level fruit domain hub (single category in v1).",
+        "id_example": "food.fruit",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "fruit_group": {
+        "description": "Canonical Culinary Group (Pomes, Citrus, Processed Fruits, etc.).",
+        "id_example": "food.fruit.citrus",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description",
+          "culinary_group"
+        ]
+      }
+    },
+    "governance_rules": {
+      "botanical_ownership_rule": {
+        "id": "BOTAN-001",
+        "note": "Suite rule — applies when botanical lineage diverges from culinary identity.",
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      },
+      "culinary_form_ownership_rule": {
+        "description": "A processed fruit becomes a separate canonical ingredient only when it has an established, independent culinary identity.",
+        "frozen_phase": "FOOD-09A",
+        "id": "FRUIT-001",
+        "immutable": true,
+        "reference": "docs/FRUIT_GOVERNANCE.md §9"
+      },
+      "functional_pairing_rule": {
+        "id": "STARCH-001",
+        "note": "Suite wine-pairing rule — not expected to affect Fruit canonical ownership; remains part of suite governance.",
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      },
+      "processing_ownership_rule": {
+        "description": "When processing creates a distinct canonical culinary ingredient versus a preparation state or alias.",
+        "id": "PROC-001",
+        "immutable": true,
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      }
+    },
+    "identity_contract": {
+      "canonical_entity_rule": "CANON-001",
+      "category_id_pattern": "^food\\.fruit$",
+      "display_name_mutable": true,
+      "entity_id_pattern": "^food\\.fruit\\.[a-z0-9-]+\\.[a-z0-9-]+$",
+      "external_ids_required": true,
+      "global_recognition_rule": "CANON-002",
+      "group_id_pattern": "^food\\.fruit\\.[a-z0-9-]+$",
+      "id_immutable": true,
+      "ids_never_recycled": true,
+      "namespace": "food.fruit",
+      "per_entity_version_fields": {
+        "catalog_version": "1.0.0",
+        "food_ontology_version": "1.6.0"
+      },
+      "required_identity_fields": [
+        "id",
+        "slug",
+        "display_name",
+        "scientific_name",
+        "external_ids"
+      ],
+      "scientific_name_mutable": false,
+      "scientific_name_semantics": "primary_botanical_species_for_culinary_identity",
+      "slug_mutable": true
+    },
+    "taxonomy_note": "Groups represent culinary identity and culinary form, not botanical families. See docs/FRUIT_GOVERNANCE.md.",
+    "taxonomy_principle": "canonical_culinary_groups"
+  }
+}
