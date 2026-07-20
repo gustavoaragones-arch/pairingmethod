@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-07-20T03:47:21.087Z",
+  "phase": "FOOD-09B",
+  "domain": "fruit",
+  "entity_count": 119,
+  "counts_by_group": {
+    "pomes": 12,
+    "stone-fruits": 17,
+    "citrus": 17,
+    "berries": 24,
+    "tropical-fruits": 22,
+    "melons": 9,
+    "processed-fruits": 18
+  },
+  "catalog_path": "data/fruit-catalog.json",
+  "audit_script": "scripts/catalog-audit-fruit-09b.mjs",
+  "canonical_entity_rule": "CANON-001 — preparation and trade-name splits are aliases, not entities",
+  "global_recognition_rule": "CANON-002 — globally recognizable culinary ingredients only",
+  "processing_ownership_rule": "PROC-001 — separate entities when processing changes culinary identity",
+  "culinary_form_ownership_rule": "FRUIT-001 — separate entities when processed form has independent culinary identity",
+  "profile_arrays_policy": "flavor_profile, texture_profile, aroma_profile reserved empty",
+  "relationship_policy": "all relationship arrays empty"
+}
