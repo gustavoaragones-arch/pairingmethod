@@ -1,0 +1,45 @@
+{
+  "catalog_version": "1.0.0",
+  "domain": "nut-seed",
+  "errors": [],
+  "metrics": {
+    "Determinism": "PASS",
+    "Duplicate edges": 0,
+    "Governance violations": 0,
+    "Level 1 structural edges": 279,
+    "Level 2 intrinsic similarity edges": 2448,
+    "Level 3 editorial edges": 0,
+    "Missing entities": 0,
+    "Overall result": "PASS",
+    "Relationship types": 6,
+    "Total edges": 2727
+  },
+  "output": "data/runtime/nut-seed-relationships.json",
+  "overall_result": "PASS",
+  "phase": "FOOD-10C.3",
+  "relationship_type_counts": {
+    "belongs_to_category": 95,
+    "belongs_to_group": 89,
+    "category_contains": 6,
+    "group_contains": 89,
+    "shares_scientific_name": 58,
+    "shares_usage_intensity": 2390
+  },
+  "runtime_stability_levels": {
+    "level_1_structural": [
+      "belongs_to_group",
+      "belongs_to_category",
+      "group_contains",
+      "category_contains"
+    ],
+    "level_2_intrinsic_similarity": [
+      "shares_usage_intensity",
+      "shares_scientific_name"
+    ],
+    "level_3_editorial": [
+      "similar_to",
+      "substitutes_for",
+      "commonly_served_with"
+    ]
+  }
+}

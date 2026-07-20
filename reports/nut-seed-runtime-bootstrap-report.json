@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    "data/runtime/nut-seed-bootstrap.json",
+    "data/runtime/nut-seed-categories.json",
+    "data/runtime/nut-seed-groups.json",
+    "data/runtime/nut-seed-indexes.json"
+  ],
+  "bootstrap_errors": [],
+  "catalog_version": "1.0.0",
+  "domain": "nut-seed",
+  "metrics": {
+    "Bootstrap errors": 0,
+    "Categories indexed": 1,
+    "Groups indexed": 6,
+    "Nut & seed entities indexed": 89,
+    "Runtime artifacts": 4,
+    "Usage intensities indexed": 3
+  },
+  "overall_result": "PASS",
+  "phase": "FOOD-10C.1"
+}
