@@ -93,6 +93,18 @@ The decision follows **culinary identity**, not manufacturing process alone.
 
 **Introduced:** Grain & Starch FOOD-08A · **Applies** suite-wide to all domains where processing affects culinary identity (including future Sweet Flavor, Sauces & Condiments, and Protein Refinement phases).
 
+### STARCH-001 — Functional Pairing Rule
+
+Wine pairing decisions must follow the ingredient's **culinary function** in the finished dish, not the ingredient's botanical origin or processing history.
+
+| Pairing basis | Examples |
+|---------------|----------|
+| Culinary function in context | Plain rice → neutral pairing profile; semolina → durum/pasta identity |
+| No thickening-only affinity | Cornstarch, potato starch → no wine affinity from slurry function alone |
+| No processing inheritance | Potato Starch does not inherit from Potato (Vegetable); wheat flour pairs by dough context, not whole wheat berry |
+
+**Introduced:** Grain & Starch FOOD-08E · **Applies** to wine pairing layers (FOOD-XXE) across all domains where an ingredient's kitchen role diverges from its botanical or manufacturing source.
+
 ---
 
 ## Ontology Lifecycle (Suite Standard)
@@ -189,7 +201,97 @@ Publication architecture, runtime architecture, certification pipeline, deployme
 
 ### Next planned work
 
-**FOOD-09 — Sweet Flavor Ontology** (from tag `food-ontology-suite-v1.5.0`; see POSTER_COVERAGE.md).
+**SUITE-STAB-03** stabilization checkpoint (completed — see below), then **FOOD-09 — Fruit Ontology** (from tag `food-ontology-suite-v1.5.0`; see POSTER_COVERAGE.md).
+
+---
+
+## SUITE-STAB-03 — Food Ontology Suite Stabilization (Post-v1.5.0)
+
+**Date:** July 19, 2026  
+**Baseline tag:** `food-ontology-suite-v1.5.0`  
+**Type:** Governance audit — not a versioned release  
+**Overall result:** **PASS**
+
+Post-v1.5.0 checkpoint certifying that the publication platform successfully absorbed a sixth domain (76 leaf entities · 1,917 runtime edges) without architectural drift. No runtime, catalog, relationship, publication, or platform code changes were made in this audit.
+
+| Audit | Scope | Result |
+|-------|-------|--------|
+| 1 — Release Metrics Reconciliation | v1.5.0 cumulative totals vs certified runtime artifacts | **PASS** |
+| 2 — Domain Configuration Review | Declarative integration via `food-domain-config.js`, per-domain render modules, shared template | **PASS** |
+| 3 — Publication Pipeline Review | Identical 9-stage publication · certification · release flow across all six domains | **PASS** |
+| 4 — Cross-Domain Reference Audit | Canonical-ID forward references; PROC-001 / STARCH-001 ownership boundaries | **PASS** |
+| 5 — Suite Governance Documentation | CANON-001, CANON-002, BOTAN-001, PROC-001, STARCH-001 in §Suite Architecture | **PASS** |
+
+**Platform modifications identified:** 0
+
+### Audit 1 — Release metrics reconciliation
+
+Certified edge counts measured from `data/runtime/*-relationships.json` at tag `food-ontology-suite-v1.5.0`:
+
+| Domain | Leaf entities | Runtime | Editorial | Wine |
+|--------|-------------:|--------:|----------:|-----:|
+| Protein Foods | 207 | 35,734 | 40 | 29 |
+| Cheeses | 204 | 44,858 | 85 | 70 |
+| Vegetables | 74 | 4,405 | 158 | 117 |
+| Fungi | 43 | 531 | 87 | 82 |
+| Herb & Spice | 113 | 6,384 | 280 | 224 |
+| Grain & Starch | 76 | 1,917 | 192 | 174 |
+| **Suite total** | **717** | **93,829** | **842** | **696** |
+
+All v1.5.0 suite metrics reconcile exactly against certified artifacts. Grain & Starch per-domain release summary (`reports/grain-starch-release-certification-report.json`) matches independently.
+
+### Audit 2 — Domain configuration review
+
+| Domain | Config registry | Render module | Shared template | Platform audit |
+|--------|-----------------|---------------|-----------------|----------------|
+| Protein Foods | `PROTEIN_DOMAIN` | `taxonomy-protein-food-render.js` | `protein-entity-template.html` | Published pre-audit era |
+| Cheeses | `CHEESE_DOMAIN` | `taxonomy-cheese-render.js` | same | Published pre-audit era |
+| Vegetables | `VEGETABLE_DOMAIN` | `taxonomy-vegetable-render.js` | same | Published pre-audit era |
+| Fungi | `FUNGI_DOMAIN` | `taxonomy-fungi-render.js` | same | 0 modifications · 100% reuse |
+| Herb & Spice | `HERB_SPICE_DOMAIN` | `taxonomy-herb-spice-render.js` | same | 0 modifications · 100% reuse |
+| Grain & Starch | `GRAIN_STARCH_DOMAIN` | `taxonomy-grain-starch-render.js` | same | 0 modifications · 100% reuse |
+
+FOOD-08F integrated Grain & Starch through declarative domain configuration and a domain-specific render module only. No changes to shared publication engines in `lib/food-publication/*`.
+
+### Audit 3 — Publication pipeline review
+
+Each published domain exposes the same nine thin wrapper scripts delegating to shared stage runners:
+
+`projections → pages → schema → links → search-index → certify-publication → html → sitemap → certify-release`
+
+| Domain | `publish:*` | `release:*` | Stage runner imports verified |
+|--------|-------------|-------------|-------------------------------|
+| Protein Foods | ✓ | ✓ | ✓ |
+| Cheeses | ✓ | ✓ | ✓ |
+| Vegetables | ✓ | ✓ | ✓ |
+| Fungi | ✓ | ✓ | ✓ |
+| Herb & Spice | ✓ | ✓ | ✓ |
+| Grain & Starch | ✓ | ✓ | ✓ |
+
+`lib/deployment-config.js` registers all six domains. `release:food-ontology` includes Grain & Starch.
+
+### Audit 4 — Cross-domain reference audit
+
+| Check | Result |
+|-------|--------|
+| Cross-domain editorial edges use canonical IDs only | **PASS** — Tier C grain-starch forward references verified; no slug-based targets |
+| PROC-001 processing ownership (Grain & Starch) | **PASS** — wheat/wheat-flour/corn/cornmeal/cornstarch and potato-starch remain distinct entities with distinct pairing profiles |
+| Potato vegetable omission (Grain & Starch Tier C) | **PASS** — no forward reference to unpublished Potato vegetable entity; Potato Starch retained in-domain |
+| BOTAN-001 botanical ownership (Herb & Spice) | **PASS** — unchanged from SUITE-STAB-02 |
+| Cross-domain ingredient ownership (mustard, fennel) | **PASS** — unchanged from SUITE-STAB-02 |
+| Forward references to unpublished domains (`food.fruit.*`, etc.) | **PASS** — canonical-ID forward references only; no entity duplication |
+
+### Audit 5 — Suite governance documentation
+
+| Rule | Documented in §Suite Architecture | Exercised in FOOD-08 |
+|------|-------------------------------------|----------------------|
+| CANON-001 | ✓ | Catalog audit |
+| CANON-002 | ✓ | Catalog audit |
+| BOTAN-001 | ✓ | Referenced suite-wide |
+| PROC-001 | ✓ | Catalog · runtime · editorial · wine · publication |
+| STARCH-001 | ✓ (added at STAB-03) | Wine pairing seed · mapper validation |
+
+**Next work:** **FOOD-09A — Fruit Ontology Governance**
 
 ---
 
