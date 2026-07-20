@@ -1,0 +1,37 @@
+{
+  "catalog_version": "1.0.0",
+  "domain": "grain-starch",
+  "functional_pairing_rule": "STARCH-001: wine pairing follows the ingredient's culinary function — neutral rice base, dough-context flour, durum semolina identity, and no thickening-only starch affinity.",
+  "metrics": {
+    "Descriptor links": 28,
+    "Determinism": "PASS",
+    "Deterministic ordering": "PASS",
+    "Duplicate edges": 0,
+    "Grain & starch entities linked": 76,
+    "Invalid ontology references": 0,
+    "Missing grain or starch entities": 0,
+    "Missing wine references": 0,
+    "Overall result": "PASS",
+    "Pairing edges": 174,
+    "Pending review edges": 0,
+    "Technique links": 20,
+    "Wine styles linked": 22
+  },
+  "output": "data/runtime/grain-starch-wine-relationships.json",
+  "overall_result": "PASS",
+  "pairing_tiers": {
+    "descriptor": "pairs_with_descriptor",
+    "primary": "pairs_with_style",
+    "secondary": "also_pairs_with_style",
+    "technique": "pairs_with_technique"
+  },
+  "phase": "FOOD-08E",
+  "processing_ownership_rule": "PROC-001: processing-derived canonical entities retain distinct pairing profiles and must not inherit wine relationships from source crops.",
+  "relationship_type_counts": {
+    "also_pairs_with_style": 43,
+    "pairs_with_descriptor": 28,
+    "pairs_with_style": 83,
+    "pairs_with_technique": 20
+  },
+  "validation_errors": []
+}

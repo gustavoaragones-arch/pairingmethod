@@ -116,6 +116,8 @@
     "compile:grain-starch-runtime": "npm run ontology:catalog-audit-grain-starch && npm run ontology:bootstrap-grain-starch-runtime && npm run ontology:validate-grain-starch-runtime && npm run ontology:map-grain-starch-relationships",
     "ontology:map-grain-starch-editorial-relationships": "node scripts/map-grain-starch-editorial-relationships-08d.mjs",
     "compile:grain-starch-editorial": "npm run compile:grain-starch-runtime && npm run ontology:map-grain-starch-editorial-relationships",
+    "ontology:map-grain-starch-wine-relationships": "node scripts/map-grain-starch-wine-relationships-08e.mjs",
+    "compile:grain-starch-pairing": "npm run compile:grain-starch-editorial && npm run ontology:map-grain-starch-wine-relationships",
     "generate:vegetable-projections": "node scripts/generate-vegetable-projections-05f.mjs",
     "generate:vegetable-pages": "node scripts/generate-vegetable-pages-05f.mjs",
     "generate:vegetable-schema": "node scripts/generate-vegetable-schema-05f.mjs",
