@@ -1,0 +1,38 @@
+{
+  "catalog_version": "1.0.0",
+  "culinary_role_pairing_rule": "NUT-PAIR-001: wine pairing follows the ingredient's culinary role — almond flour for baking, peanut butter for rich spreads, tahini for savory sesame paste, pumpkin seed for roasted garnish, chia seed for lightly prepared applications.",
+  "domain": "nut-seed",
+  "metrics": {
+    "Descriptor links": 36,
+    "Determinism": "PASS",
+    "Deterministic ordering": "PASS",
+    "Duplicate edges": 0,
+    "Invalid ontology references": 0,
+    "Missing nut or seed entities": 0,
+    "Missing wine references": 0,
+    "Nut & seed entities linked": 89,
+    "Overall result": "PASS",
+    "Pairing edges": 215,
+    "Pending review edges": 0,
+    "Technique links": 30,
+    "Wine styles linked": 24
+  },
+  "nut001_classification_rule": "NUT-001: culinary group assignment remains authoritative in pairing semantics — peanut in Peanuts, almond in Tree Nuts, sesame in Edible Seeds.",
+  "nut002_ownership_rule": "NUT-002: processed canonical entities retain distinct pairing profiles and must not inherit wine relationships from whole nut or seed forms.",
+  "output": "data/runtime/nut-seed-wine-relationships.json",
+  "overall_result": "PASS",
+  "pairing_tiers": {
+    "descriptor": "pairs_with_descriptor",
+    "primary": "pairs_with_style",
+    "secondary": "also_pairs_with_style",
+    "technique": "pairs_with_technique"
+  },
+  "phase": "FOOD-10E",
+  "relationship_type_counts": {
+    "also_pairs_with_style": 60,
+    "pairs_with_descriptor": 36,
+    "pairs_with_style": 89,
+    "pairs_with_technique": 30
+  },
+  "validation_errors": []
+}

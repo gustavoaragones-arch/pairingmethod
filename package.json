@@ -135,6 +135,8 @@
     "compile:nut-seed-runtime": "npm run ontology:catalog-audit-nut-seed && npm run ontology:bootstrap-nut-seed-runtime && npm run ontology:validate-nut-seed-runtime && npm run ontology:map-nut-seed-relationships",
     "ontology:map-nut-seed-editorial-relationships": "node scripts/map-nut-seed-editorial-relationships-10d.mjs",
     "compile:nut-seed-editorial": "npm run compile:nut-seed-runtime && npm run ontology:map-nut-seed-editorial-relationships",
+    "ontology:map-nut-seed-wine-relationships": "node scripts/map-nut-seed-wine-relationships-10e.mjs",
+    "compile:nut-seed-wine": "npm run compile:nut-seed-editorial && npm run ontology:map-nut-seed-wine-relationships",
     "compile:fruit-runtime": "npm run ontology:catalog-audit-fruit && npm run ontology:bootstrap-fruit-runtime && npm run ontology:validate-fruit-runtime && npm run ontology:map-fruit-relationships",
     "compile:fruit-editorial": "npm run compile:fruit-runtime && npm run ontology:map-fruit-editorial-relationships",
     "compile:fruit-pairing": "npm run compile:fruit-editorial && npm run ontology:map-fruit-wine-relationships",
