@@ -2,7 +2,7 @@
 
 **Phase:** PLAN-01 — Poster Coverage Matrix  
 **Status:** Canonical implementation checklist  
-**Production baseline:** Platform v1.0.0 · Food Ontology Suite v1.3.0 · Tag `food-ontology-suite-v1.3.0`  
+**Production baseline:** Platform v1.0.0 · Food Ontology Suite v1.7.0 · Tag `food-ontology-suite-v1.7.0`  
 **Inspiration:** Wine Folly *Food & Wine Pairing Method* poster (original PairingMethod vision)
 
 This document maps every concept from the inspiration poster to its implementation within the Food Ontology Platform. It is **documentation only** — no runtime, ontology, or publication changes.
@@ -41,8 +41,8 @@ The platform consumes **domain configuration** (`lib/food-domain-config.js`) and
 
 ## Section 2 — Food Ontology Suite
 
-**Suite version:** v1.3.0  
-**Suite tag:** `food-ontology-suite-v1.3.0`  
+**Suite version:** v1.7.0  
+**Suite tag:** `food-ontology-suite-v1.7.0`  
 **Release notes:** [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md)
 
 | Domain | Version | Status | Entities (leaf) | Publication |
@@ -51,17 +51,24 @@ The platform consumes **domain configuration** (`lib/food-domain-config.js`) and
 | Cheeses | 1.0.0 | Complete | 204 | `/cheeses/` |
 | Vegetables | 1.0.0 | Complete | 74 | `/vegetables/` |
 | Fungi | 1.0.0 | Complete | 43 | `/fungi/` |
+| Herb & Spice | 1.0.0 | Complete | 113 | `/herbs-spices/` |
+| Grain & Starch | 1.0.0 | Complete | 76 | `/grains-starches/` |
+| Fruit | 1.0.0 | Complete | 119 | `/fruits/` |
+| Nut & Seed | 1.0.0 | Complete | 89 | `/nut-seeds/` |
 
-**Suite total:** 528 published leaf entities + group/category hub pages.
+**Suite total:** 925 published leaf entities + group/category hub pages.
 
-### Suite Metrics (v1.3.0)
+### Suite Metrics (v1.7.0)
 
 Authoritative cumulative statistics: [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md) §Suite Metrics.
 
-| Metric | v1.3.0 |
+| Metric | v1.7.0 |
 |--------|--------|
-| Published ontology domains | 4 |
-| Canonical entities (leaf) | 528 |
+| Published ontology domains | 8 |
+| Canonical entities (leaf) | 925 |
+| Runtime relationship edges (cumulative) | 100,583 |
+| Editorial relationship edges (cumulative) | 1,459 |
+| Wine pairing relationships (cumulative) | 1,176 |
 | Platform modifications required | 0 |
 
 See [`FOOD_ONTOLOGY_SUITE_RELEASES.md`](FOOD_ONTOLOGY_SUITE_RELEASES.md) for full release history and mandatory metrics table format for future suite tags.
@@ -125,7 +132,7 @@ Legend for **Status**:
 | **Starch** | Whole Wheat Grains (quinoa, farro, brown rice) | Grains & Starches | FOOD-08 | Not Started | |
 | **Starch** | Sweet Starchy Vegetables (sweet potato, yucca, taro) | Grains & Starches | FOOD-08 | Not Started | May cross-reference FOOD-05 nightshades/root where applicable |
 | **Starch** | Potato | Grains & Starches | FOOD-08 | Not Started | |
-| **Herb & Spice** | Nuts & Seeds (peanut, almond, pecan, sesame) | Nuts & Seeds | FOOD-10 | Partial | Protein catalog includes `nuts-seeds` group; dedicated domain planned |
+| **Herb & Spice** | Nuts & Seeds (peanut, almond, pecan, sesame) | Nuts & Seeds | FOOD-10 | Complete | 89 canonical entities; Suite v1.7.0 |
 | **Herb & Spice** | Beans & Peas (lentil, navy, pinto, chickpea) | Beans & Peas | FOOD-11 | Partial | Protein catalog includes `legumes` group; dedicated domain planned |
 | **Sweet** | Fruit & Berries (strawberry, orange, apple, peach) | Fruits & Berries | FOOD-09 | Not Started | Cross-domain refs already used (e.g. cheese → `food.fruit.*`) |
 | **Sweet** | Vanilla & Caramel (crème brûlée, ice cream) | Sweet Flavors | FOOD-12 | Not Started | Flavor/dessert domain, not whole dishes |
@@ -221,11 +228,11 @@ Poster groupings are **pairing categories**, not identical to cheese taxonomy gr
 | Fruit | FOOD-09 | Not Started |
 | Berries | FOOD-09 | Not Started |
 
-#### Nuts & Seeds (FOOD-10) — **Partial**
+#### Nuts & Seeds (FOOD-10) — **Complete**
 
 | Poster Concept | Planned Phase | Status |
 |----------------|---------------|--------|
-| Nuts & Seeds | FOOD-10 | Partial — `nuts-seeds` in Protein Foods pending dedicated domain |
+| Nuts & Seeds | FOOD-10 | Complete — 89 canonical nuts & seeds, 96 publication pages; Suite v1.7.0 |
 
 #### Beans & Peas (FOOD-11) — **Partial**
 
@@ -449,4 +456,4 @@ No additional platform phases unless a genuine architectural limitation is disco
 | Sauces | 0 | 0 | 1 | 0 |
 | Wine columns | 0 | 9 | 0 | 0 |
 
-**Next planned work:** **FOOD-07A — Herb & Spice Ontology Governance** (SUITE-STAB-01 PASS — from tag `food-ontology-suite-v1.3.0`).
+**Next planned work:** **FOOD-11A — Legume Ontology Governance** (SUITE-STAB-05 PASS — from tag `food-ontology-suite-v1.7.0`).

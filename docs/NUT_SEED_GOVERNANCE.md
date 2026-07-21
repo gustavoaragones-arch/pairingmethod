@@ -7,7 +7,7 @@
 **Taxonomy:** [`NUT_SEED_TAXONOMY_BLUEPRINT.md`](NUT_SEED_TAXONOMY_BLUEPRINT.md)  
 **Roadmap:** [`POSTER_COVERAGE.md`](POSTER_COVERAGE.md) (PLAN-01)  
 **Platform:** Food Ontology Platform v1.0.0 (frozen — domain contract only)  
-**Suite baseline:** Food Ontology Suite v1.6.0 · tag `food-ontology-suite-v1.6.0`
+**Suite baseline:** Food Ontology Suite v1.7.0 · tag `food-ontology-suite-v1.7.0`
 
 ---
 

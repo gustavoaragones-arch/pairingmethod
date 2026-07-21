@@ -22,7 +22,7 @@ This principle has been followed in practice since Protein FOOD-02C. FOOD-06C ma
 
 ### Knowledge layer separation (suite-wide)
 
-Proven across seven domains (Protein, Cheese, Vegetables, Fungi, Herb & Spice, Grain & Starch, Fruit):
+Proven across eight domains (Protein, Cheese, Vegetables, Fungi, Herb & Spice, Grain & Starch, Fruit, Nut & Seed):
 
 | Layer | Source | Modified at publication? |
 |-------|--------|--------------------------|
@@ -129,11 +129,49 @@ Wine recommendations for fruit ingredients must follow the fruit's **culinary ro
 
 **Introduced:** Fruit FOOD-09E · **Applies** to wine pairing layers where processed fruit forms retain distinct kitchen identities per FRUIT-001.
 
+### NUT-001 — Culinary Classification Rule
+
+When botanical classification and established culinary classification diverge, the Nut & Seed Ontology follows **culinary grouping** for immutable group assignment — not botanical taxonomy alone.
+
+| Culinary grouping | Example |
+|-------------------|---------|
+| Peanuts group | Peanut — legume botanically, nut culinarily (NUT-001) |
+| Edible Seeds group | Sesame — seed used as garnish, paste, and oil source |
+| Tree Nuts group | Almond, walnut, pecan — conventional tree nut kitchen identity |
+
+NUT-001 governs **which immutable group** receives an entity. It does **not** permit duplicating entities owned by another domain.
+
+**Introduced:** Nut & Seed FOOD-10A · **Compatible with** CANON-001 and CANON-002 suite-wide.
+
+### NUT-002 — Processed Product Rule
+
+When a nut or seed exists in multiple culinary processing states, governance decides whether a processed form is a **new canonical culinary ingredient** or merely a **preparation state / alias**, following **independent culinary function** — not preparation method alone.
+
+| Separate canonical entities | Alias / preparation state only |
+|----------------------------|--------------------------------|
+| Almond → Almond Flour → Almond Butter | Chopped almond variants → aliases on Almond |
+| Peanut → Peanut Butter | Roasted peanut → alias on Peanut (default) |
+| Sesame → Tahini → Sesame Paste | Toasted sesame → alias on Sesame (default) |
+
+**Introduced:** Nut & Seed FOOD-10A · **Extends** PROC-001 for nut- and seed-derived products.
+
+### NUT-PAIR-001 — Culinary Function Pairing Rule
+
+Wine recommendations for nut and seed ingredients must follow the ingredient's **culinary function in the finished dish**, not botanical classification or whole-form pairing inheritance alone.
+
+| Pairing basis | Examples |
+|---------------|----------|
+| Culinary function in context | Almond → marzipan and crust baking; tahini → sauce richness |
+| Processed-form identity | Peanut Butter → spread and sauce bases; almond flour → gluten-free pastry |
+| No whole-form inheritance | Peanut Butter does not inherit whole peanut pairings; almond flour pairs by baking context, not whole almond |
+
+**Introduced:** Nut & Seed FOOD-10E · **Applies** to wine pairing layers where processed nut and seed forms retain distinct kitchen identities per NUT-002.
+
 ---
 
 ## Ontology Lifecycle (Suite Standard)
 
-Every published domain follows the **identical six-phase lifecycle**. Phase prefixes differ by domain (`FOOD-02`/`ONTOLOGY-02` for Protein, `FOOD-04` for Cheese, `FOOD-05` for Vegetable, `FOOD-06` for Fungi, `FOOD-07` for Herb & Spice, `FOOD-08` for Grain & Starch, `FOOD-09` for Fruit) but the stages are the same:
+Every published domain follows the **identical six-phase lifecycle**. Phase prefixes differ by domain (`FOOD-02`/`ONTOLOGY-02` for Protein, `FOOD-04` for Cheese, `FOOD-05` for Vegetable, `FOOD-06` for Fungi, `FOOD-07` for Herb & Spice, `FOOD-08` for Grain & Starch, `FOOD-09` for Fruit, `FOOD-10` for Nut & Seed) but the stages are the same:
 
 | Stage | Letter | Scope |
 |-------|--------|-------|
@@ -144,7 +182,7 @@ Every published domain follows the **identical six-phase lifecycle**. Phase pref
 | Wine Pairings | E | Curated pairings (separate artifact) |
 | Publication | F | Platform consumption only — no artifact editing |
 
-**No domain-specific lifecycle exceptions** exist among the seven published domains.
+**No domain-specific lifecycle exceptions** exist among the eight published domains.
 
 ---
 
@@ -166,15 +204,15 @@ Domain governance documents define **domain-specific** rules only. Suite-wide in
 
 Every suite release note includes this table. It reinforces the primary architectural achievement since Platform v1.0.0: **each new domain increases knowledge, not platform complexity.**
 
-| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 | v1.4.0 | v1.5.0 | v1.6.0 |
-|--------|--------|--------|--------|--------|--------|--------|--------|
-| Published ontology domains | 1 | 2 | 3 | 4 | 5 | 6 | **7** |
-| Canonical entities (leaf) | 207 | 411 | 485 | 528 | 641 | 717 | **836** |
-| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | ~85,500+ | ~91,900 | ~93,800 | **~97,900** |
-| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | ~370 | ~650 | ~840 | **~1,175** |
-| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | ~300 | ~520 | ~700 | **~960** |
-| Publication lifecycle reuse | 100% | 100% | 100% | 100% | 100% | 100% | **100%** |
-| Platform modifications required | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 | v1.4.0 | v1.5.0 | v1.6.0 | v1.7.0 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Published ontology domains | 1 | 2 | 3 | 4 | 5 | 6 | 7 | **8** |
+| Canonical entities (leaf) | 207 | 411 | 485 | 528 | 641 | 717 | 836 | **925** |
+| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | ~85,500+ | ~91,900 | ~93,800 | ~97,900 | **~100,600** |
+| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | ~370 | ~650 | ~840 | ~1,175 | **~1,460** |
+| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | ~300 | ~520 | ~700 | ~960 | **~1,180** |
+| Publication lifecycle reuse | 100% | 100% | 100% | 100% | 100% | 100% | 100% | **100%** |
+| Platform modifications required | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
 
 *Edge counts are measured from certified runtime artifacts at release time (structural + intrinsic similarity layers for runtime; editorial and wine layers reported separately).*
 
@@ -183,6 +221,178 @@ Every suite release note includes this table. It reinforces the primary architec
 **Certified totals at v1.5.0 (exact):** runtime structural 93,829 · editorial 842 · wine pairings 696 · leaf entities 717.
 
 **Certified totals at v1.6.0 (exact):** runtime structural 97,856 · editorial 1,175 · wine pairings 961 · leaf entities 836.
+
+**Certified totals at v1.7.0 (exact):** runtime structural 100,583 · editorial 1,459 · wine pairings 1,176 · leaf entities 925.
+
+---
+
+## v1.7.0 — Nut & Seed
+
+**Tag:** `food-ontology-suite-v1.7.0`  
+**Commit:** FOOD-10F — Publish Nut & Seed Ontology  
+**Date:** July 20, 2026
+
+### Published domains
+
+| Domain | Catalog version | Leaf entities | Publication paths |
+|--------|-----------------|---------------|-------------------|
+| Protein Foods | 1.0.0 | 207 | `/foods/` |
+| Cheeses | 1.0.0 | 204 | `/cheeses/` |
+| Vegetables | 1.0.0 | 74 | `/vegetables/` |
+| Fungi | 1.0.0 | 43 | `/fungi/` |
+| Herb & Spice | 1.0.0 | 113 | `/herbs-spices/` |
+| Grain & Starch | 1.0.0 | 76 | `/grains-starches/` |
+| Fruit | 1.0.0 | 119 | `/fruits/` |
+| Nut & Seed | 1.0.0 | 89 | `/nut-seeds/` |
+
+**Suite total:** 925 canonical leaf entities · 96 new nut & seed pages (89 leaf + 6 groups + 1 category hub)
+
+### FOOD-10 release certification
+
+| Metric | FOOD-10 |
+|--------|--------:|
+| Canonical nut & seed entities | 89 |
+| Runtime relationships | 2,727 |
+| Editorial relationships | 284 |
+| Wine relationships | 215 |
+| Publication pages | 96 |
+| Platform modifications required | 0 |
+| Shared publication pipeline reused | 100% |
+
+### Milestone significance
+
+FOOD-10F validates the generalized publication platform across an **eighth independent domain** with zero architectural modification. NUT-001 culinary classification (peanut in Peanuts group), NUT-002 processed-product identity (distinct entities for almond flour, tahini, peanut butter), and NUT-PAIR-001 culinary-function wine pairing were absorbed entirely within the knowledge layer. FOOD-10F integrated through declarative domain configuration and a domain-specific render module only — render exports declared in `NUT_SEED_DOMAIN` without modifying `lib/food-publication/html.js`.
+
+### Platform status at v1.7.0
+
+Publication architecture, runtime architecture, certification pipeline, deployment pipeline, and the six-phase governance lifecycle remain **feature-complete and frozen**. Architectural changes require exceptional justification.
+
+### Next planned work
+
+**SUITE-STAB-05** stabilization checkpoint (completed — see below), then **FOOD-11 — Legume Ontology** (from tag `food-ontology-suite-v1.7.0`; see POSTER_COVERAGE.md).
+
+---
+
+## SUITE-STAB-05 — Food Ontology Suite Stabilization (Post-v1.7.0)
+
+**Date:** July 20, 2026  
+**Baseline tag:** `food-ontology-suite-v1.7.0`  
+**Type:** Governance audit — not a versioned release  
+**Overall result:** **PASS**
+
+Post-v1.7.0 checkpoint certifying that the publication platform successfully absorbed an eighth domain (89 leaf entities · 2,727 runtime edges) without architectural drift. No runtime, catalog, relationship, publication, or platform code changes were made in this audit.
+
+| Audit | Scope | Result |
+|-------|-------|--------|
+| 1 — Release Metrics Reconciliation | v1.7.0 cumulative totals vs certified runtime artifacts | **PASS** |
+| 2 — Eight-Domain Architecture Audit | Declarative integration via `food-domain-config.js`, per-domain render modules, shared template | **PASS** |
+| 3 — Knowledge Layer Consistency | Complete four-layer model (runtime, editorial, wine, publication) across all eight domains | **PASS** |
+| 4 — Governance Audit | CANON-001, CANON-002, BOTAN-001, PROC-001, STARCH-001, FRUIT-001, FRUIT-PAIR-001, NUT-001, NUT-002, NUT-PAIR-001 | **PASS** |
+| 5 — Forward Reference Audit | Canonical-ID forward references; unresolved targets limited to future planned domains | **PASS** |
+
+**Platform modifications identified:** 0
+
+### Audit 1 — Release metrics reconciliation
+
+Certified edge counts measured from `data/runtime/*-relationships.json` at tag `food-ontology-suite-v1.7.0`:
+
+| Domain | Leaf entities | Runtime | Editorial | Wine |
+|--------|-------------:|--------:|----------:|-----:|
+| Protein Foods | 207 | 35,734 | 40 | 29 |
+| Cheeses | 204 | 44,858 | 85 | 70 |
+| Vegetables | 74 | 4,405 | 158 | 117 |
+| Fungi | 43 | 531 | 87 | 82 |
+| Herb & Spice | 113 | 6,384 | 280 | 224 |
+| Grain & Starch | 76 | 1,917 | 192 | 174 |
+| Fruit | 119 | 4,027 | 333 | 265 |
+| Nut & Seed | 89 | 2,727 | 284 | 215 |
+| **Suite total** | **925** | **100,583** | **1,459** | **1,176** |
+
+All v1.7.0 suite metrics reconcile exactly against certified artifacts. Nut & Seed per-domain release summary (`reports/nut-seed-release-certification-report.json`) matches independently (89 leaf · 2,727 runtime · 284 editorial · 215 wine · 96 publication pages).
+
+### Audit 2 — Eight-domain architecture audit
+
+| Domain | Config registry | Render module | Shared template | Platform audit |
+|--------|-----------------|---------------|-----------------|----------------|
+| Protein Foods | `PROTEIN_DOMAIN` | `taxonomy-protein-food-render.js` | `protein-entity-template.html` | Published pre-audit era |
+| Cheeses | `CHEESE_DOMAIN` | `taxonomy-cheese-render.js` | same | Published pre-audit era |
+| Vegetables | `VEGETABLE_DOMAIN` | `taxonomy-vegetable-render.js` | same | Published pre-audit era |
+| Fungi | `FUNGI_DOMAIN` | `taxonomy-fungi-render.js` | same | 0 modifications · 100% reuse |
+| Herb & Spice | `HERB_SPICE_DOMAIN` | `taxonomy-herb-spice-render.js` | same | 0 modifications · 100% reuse |
+| Grain & Starch | `GRAIN_STARCH_DOMAIN` | `taxonomy-grain-starch-render.js` | same | 0 modifications · 100% reuse |
+| Fruit | `FRUIT_DOMAIN` | `taxonomy-fruit-render.js` | same | 0 modifications · 100% reuse |
+| Nut & Seed | `NUT_SEED_DOMAIN` | `taxonomy-nut-seed-render.js` | same | 0 modifications · 100% reuse |
+
+FOOD-10F integrated Nut & Seed through declarative domain configuration, `domain.render.exports` in `NUT_SEED_DOMAIN`, and `taxonomy-nut-seed-render.js` only. No changes to shared publication stage runners in `lib/food-publication/*` were required.
+
+Each published domain exposes the same nine thin wrapper scripts delegating to shared stage runners:
+
+`projections → pages → schema → links → search-index → certify-publication → html → sitemap → certify-release`
+
+| Domain | `publish:*` | `release:*` | Release certification |
+|--------|-------------|-------------|---------------------|
+| Protein Foods | ✓ | ✓ | PASS |
+| Cheeses | ✓ | ✓ | PASS |
+| Vegetables | ✓ | ✓ | PASS |
+| Fungi | ✓ | ✓ | PASS |
+| Herb & Spice | ✓ | ✓ | PASS |
+| Grain & Starch | ✓ | ✓ | PASS |
+| Fruit | ✓ | ✓ | PASS |
+| Nut & Seed | ✓ | ✓ | PASS |
+
+`lib/deployment-config.js` registers all eight domains. `release:food-ontology` includes Nut & Seed.
+
+### Audit 3 — Knowledge layer consistency
+
+Every published domain implements the complete four-layer knowledge model with separate runtime artifacts and certified publication consumption:
+
+| Layer | Artifact pattern | Modified at publication? |
+|-------|------------------|--------------------------|
+| Runtime (Level 1–2) | `data/runtime/{domain}-relationships.json` | Never |
+| Editorial (Level 3) | `data/runtime/{domain}-editorial-relationships.json` | Never |
+| Wine pairings (Level 4) | `data/runtime/{domain}-wine-relationships.json` | Never |
+| Publication | Projections · pages · schema · links · search · HTML · sitemap | Read-only assembly |
+
+All eight domains: runtime + editorial + wine artifacts present · release certification **PASS** · no architectural divergence from the suite lifecycle standard.
+
+### Audit 4 — Governance audit
+
+| Rule | Documented in §Suite Architecture | Exercised in published domains |
+|------|-------------------------------------|--------------------------------|
+| CANON-001 | ✓ | Catalog audit — all domains with FOOD-XXB audit scripts |
+| CANON-002 | ✓ | Catalog audit — Fungi · Herb & Spice · Grain & Starch · Fruit · Nut & Seed |
+| BOTAN-001 | ✓ | Herb & Spice catalog · editorial · wine (cilantro/coriander · dill leaf/seed) |
+| PROC-001 | ✓ | Grain & Starch · Fruit · Nut & Seed catalog · runtime · editorial · wine · publication |
+| STARCH-001 | ✓ | Grain & Starch wine pairing seed · mapper validation |
+| FRUIT-001 | ✓ | Fruit catalog · runtime · editorial · wine · publication |
+| FRUIT-PAIR-001 | ✓ | Fruit wine pairing seed · mapper validation |
+| NUT-001 | ✓ (added at STAB-05) | Nut & Seed catalog · runtime — peanut in Peanuts group per culinary identity |
+| NUT-002 | ✓ (added at STAB-05) | Nut & Seed catalog · editorial · wine — distinct processed entities (almond flour, tahini, peanut butter) |
+| NUT-PAIR-001 | ✓ (added at STAB-05) | Nut & Seed wine pairing seed · mapper validation — culinary function, not whole-form inheritance |
+
+| Ownership check | Result |
+|-----------------|--------|
+| NUT-001 peanut culinary grouping | **PASS** — single canonical `peanut` entity in Peanuts group; no botanical legume duplication |
+| NUT-002 processed nut/seed families | **PASS** — almond flour, tahini, peanut butter retain distinct canonical IDs and pairing profiles |
+| NUT-PAIR-001 processed pairing divergence | **PASS** — wine edges pair by culinary function; processed forms do not inherit whole-form pairings |
+| FRUIT-001 / FRUIT-PAIR-001 processing families | **PASS** — unchanged from SUITE-STAB-04 |
+| PROC-001 processing families (Grain & Starch) | **PASS** — unchanged from SUITE-STAB-03 |
+| BOTAN-001 botanical ownership (Herb & Spice) | **PASS** — unchanged from SUITE-STAB-03 |
+| Cross-domain ingredient ownership (mustard, fennel) | **PASS** — unchanged from SUITE-STAB-03 |
+
+### Audit 5 — Forward reference audit
+
+| Check | Result |
+|-------|--------|
+| Cross-domain editorial edges use structured canonical IDs (no slug-only targets) | **PASS** — 0 slug-based forward references |
+| Resolved references to published domain entities | **PASS** — 1,388 edges |
+| Forward references to future planned domains | **PASS** — 58 edges (`food.ingredient.*`, `food.bread.*`, legacy `food.herb.*` / `food.spice.*` shorthands, `food.protein.chicken`, etc.) |
+| Legacy fruit namespace shortcuts (`food.fruit.grape`, `food.fruit.fig`, `food.fruit.pear`) | **PASS** — 3 edges; semantically map to published Fruit canonical IDs |
+| Nut & Seed Tier C cross-domain references to published domains | **PASS** — resolve to Fruit, Vegetable, Grain & Starch, Herb & Spice, Protein, and Cheese canonical IDs |
+| Cross-domain namespace aliases to published domains (`food.herb.*`, `food.spice.*`, `food.protein.*`, `food.cheese.*`) | **PASS** — intentional Tier C forward-reference pattern unchanged since SUITE-STAB-02; all eight domains certify publication with **PASS** |
+| Entity duplication via forward reference | **PASS** — none detected |
+
+**Next work:** **FOOD-11A — Legume Ontology Governance**
 
 ---
 
