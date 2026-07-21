@@ -1,0 +1,68 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/nut-seed-categories/nut-seed/",
+      "projection_id": "food.nut-seed",
+      "sections": {
+        "groups": [
+          {
+            "href": "/nut-seed-groups/edible-seeds/",
+            "id": "food.nut-seed.edible-seeds",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Edible Seeds"
+          },
+          {
+            "href": "/nut-seed-groups/nut-products/",
+            "id": "food.nut-seed.nut-products",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Nut Products"
+          },
+          {
+            "href": "/nut-seed-groups/peanuts/",
+            "id": "food.nut-seed.peanuts",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Peanuts"
+          },
+          {
+            "href": "/nut-seed-groups/seed-products/",
+            "id": "food.nut-seed.seed-products",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Seed Products"
+          },
+          {
+            "href": "/nut-seed-groups/seed-spices/",
+            "id": "food.nut-seed.seed-spices",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Seed Spices"
+          },
+          {
+            "href": "/nut-seed-groups/tree-nuts/",
+            "id": "food.nut-seed.tree-nuts",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Tree Nuts"
+          }
+        ],
+        "member_food_summary": {
+          "food_count": 89,
+          "group_count": 6
+        },
+        "related_categories": []
+      },
+      "slug": "nut-seed"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "nut-seed",
+    "food_ontology_version": "1.7.0",
+    "link_set_count": 1,
+    "link_set_type": "nut_seed_category",
+    "phase": "FOOD-10FD"
+  }
+}

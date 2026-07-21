@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "nut-seed",
+    "food_ontology_version": "1.7.0",
+    "page_count": 1,
+    "page_type": "nut_seed_category",
+    "phase": "FOOD-10FB"
+  },
+  "pages": [
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/nut-seeds/",
+          "label": "Nuts & Seeds"
+        },
+        {
+          "href": "/nut-seed-categories/nut-seed/",
+          "label": "Nuts & Seeds"
+        }
+      ],
+      "canonical_path": "/nut-seed-categories/nut-seed/",
+      "groups": [
+        {
+          "food_count": 24,
+          "href": "/nut-seed-groups/edible-seeds/",
+          "id": "food.nut-seed.edible-seeds",
+          "name": "Edible Seeds",
+          "slug": "edible-seeds"
+        },
+        {
+          "food_count": 18,
+          "href": "/nut-seed-groups/nut-products/",
+          "id": "food.nut-seed.nut-products",
+          "name": "Nut Products",
+          "slug": "nut-products"
+        },
+        {
+          "food_count": 1,
+          "href": "/nut-seed-groups/peanuts/",
+          "id": "food.nut-seed.peanuts",
+          "name": "Peanuts",
+          "slug": "peanuts"
+        },
+        {
+          "food_count": 16,
+          "href": "/nut-seed-groups/seed-products/",
+          "id": "food.nut-seed.seed-products",
+          "name": "Seed Products",
+          "slug": "seed-products"
+        },
+        {
+          "food_count": 9,
+          "href": "/nut-seed-groups/seed-spices/",
+          "id": "food.nut-seed.seed-spices",
+          "name": "Seed Spices",
+          "slug": "seed-spices"
+        },
+        {
+          "food_count": 21,
+          "href": "/nut-seed-groups/tree-nuts/",
+          "id": "food.nut-seed.tree-nuts",
+          "name": "Tree Nuts",
+          "slug": "tree-nuts"
+        }
+      ],
+      "identity": {
+        "id": "food.nut-seed",
+        "slug": "nut-seed",
+        "title": "Nuts & Seeds"
+      },
+      "metadata": {
+        "canonical": "https://pairingmethod.com/nut-seed-categories/nut-seed/",
+        "description": "Nuts & Seeds — 6 groups and 89 nuts & seeds.",
+        "og_description": "Nuts & Seeds — 6 groups and 89 nuts & seeds.",
+        "og_title": "Nuts & Seeds — Nut & Seed Category",
+        "title": "Nuts & Seeds — Nut & Seed Category"
+      },
+      "overview": {
+        "display_name": "Nuts & Seeds",
+        "food_count": 89,
+        "group_count": 6
+      },
+      "page_type": "nut_seed_category",
+      "projection_id": "food.nut-seed",
+      "slug": "nut-seed"
+    }
+  ]
+}

@@ -1,114 +1,114 @@
 {
   "artifacts": {
-    "catalog": "data/fruit-catalog.json",
+    "catalog": "data/nut-seed-catalog.json",
     "html": [
-      "dist/fruits",
-      "dist/fruit-groups",
-      "dist/fruit-categories"
+      "dist/nut-seeds",
+      "dist/nut-seed-groups",
+      "dist/nut-seed-categories"
     ],
     "navigation": [
-      "data/navigation/fruit-links.json",
-      "data/navigation/fruit-group-links.json",
-      "data/navigation/fruit-category-links.json"
+      "data/navigation/nut-seed-links.json",
+      "data/navigation/nut-seed-group-links.json",
+      "data/navigation/nut-seed-category-links.json"
     ],
     "pages": [
-      "data/pages/fruit-pages.json",
-      "data/pages/fruit-group-pages.json",
-      "data/pages/fruit-category-pages.json"
+      "data/pages/nut-seed-pages.json",
+      "data/pages/nut-seed-group-pages.json",
+      "data/pages/nut-seed-category-pages.json"
     ],
     "projections": [
-      "data/generated/fruit-pages.json",
-      "data/generated/fruit-group-pages.json",
-      "data/generated/fruit-category-pages.json"
+      "data/generated/nut-seed-pages.json",
+      "data/generated/nut-seed-group-pages.json",
+      "data/generated/nut-seed-category-pages.json"
     ],
     "relationships": [
-      "data/runtime/fruit-relationships.json",
-      "data/runtime/fruit-editorial-relationships.json",
-      "data/runtime/fruit-wine-relationships.json"
+      "data/runtime/nut-seed-relationships.json",
+      "data/runtime/nut-seed-editorial-relationships.json",
+      "data/runtime/nut-seed-wine-relationships.json"
     ],
     "runtime": [
-      "data/runtime/fruit-bootstrap.json",
-      "data/runtime/fruit-groups.json",
-      "data/runtime/fruit-categories.json",
-      "data/runtime/fruit-indexes.json"
+      "data/runtime/nut-seed-bootstrap.json",
+      "data/runtime/nut-seed-groups.json",
+      "data/runtime/nut-seed-categories.json",
+      "data/runtime/nut-seed-indexes.json"
     ],
     "schema": [
-      "data/schema/fruit-schema.json",
-      "data/schema/fruit-group-schema.json",
-      "data/schema/fruit-category-schema.json"
+      "data/schema/nut-seed-schema.json",
+      "data/schema/nut-seed-group-schema.json",
+      "data/schema/nut-seed-category-schema.json"
     ],
     "search": [
-      "data/search/fruit-search-index.json",
-      "data/search/fruit-group-search-index.json",
-      "data/search/fruit-category-search-index.json",
-      "data/search/fruit-search-suggestions.json"
+      "data/search/nut-seed-search-index.json",
+      "data/search/nut-seed-group-search-index.json",
+      "data/search/nut-seed-category-search-index.json",
+      "data/search/nut-seed-search-suggestions.json"
     ],
     "sitemaps": [
       "dist/sitemap.xml",
-      "dist/sitemaps/fruit-pages.xml",
-      "dist/sitemaps/fruit-group-pages.xml",
-      "dist/sitemaps/fruit-category-pages.xml",
+      "dist/sitemaps/nut-seed-pages.xml",
+      "dist/sitemaps/nut-seed-group-pages.xml",
+      "dist/sitemaps/nut-seed-category-pages.xml",
       "dist/crawl-manifest.json"
     ]
   },
   "catalog_version": "1.0.0",
   "certification": "PASS",
   "checksums": {
-    "catalog": "73a5ad2dc8eaadfd8f9e6c7c3c9295401f903d0287a23e672f6add5bf92fd37a",
+    "catalog": "063fdd73dfa4e3f354aee00074fa65ed5444e84a8807007cda11131c096ffa71",
     "html": {},
     "navigation": {
-      "data/navigation/fruit-category-links.json": "84fe238b77c58e89a8abe39d4ea18ad717156ba461ab171d772ec6e12846fb25",
-      "data/navigation/fruit-group-links.json": "c08c157249516dee12aa8c216ed1e6b7be603105296c47b0202cd693c6e612f2",
-      "data/navigation/fruit-links.json": "a4885069433c79f8f5754260e82614f65ce62313aff1c353b7fdb108fcb7f6b2"
+      "data/navigation/nut-seed-category-links.json": "381b9d9a3285384648cf957620bfa882315f382b60a2ef7b79c9397bb140c490",
+      "data/navigation/nut-seed-group-links.json": "4bdd0414c9a6ca0456de20e30a1df7d70a53ce1e6d0a41c2447dfe44612f4142",
+      "data/navigation/nut-seed-links.json": "5e5da4516038311439da21232187454ef2d60563bbf0123daed508f35b39b2c3"
     },
     "pages": {
-      "data/pages/fruit-category-pages.json": "7bd25ad82511373d1443b05aeb62cf0131c37e8f81de750c9b50abc6240b8427",
-      "data/pages/fruit-group-pages.json": "b2203c0eece6aa8e7e292a0d4cac0491cef70821e7a04349abb4598ba3c43718",
-      "data/pages/fruit-pages.json": "fe629d37e16c5f0239b736e0f2a06a043f60ed7c7ccd3db2ae7584fea72c5e5e"
+      "data/pages/nut-seed-category-pages.json": "86ee91592be96c58eea8ca2f59df0d81b365589408046e21e9c9c0efd0b8f4b1",
+      "data/pages/nut-seed-group-pages.json": "43a4d84a489ad393a1156136e95795ed461866c24f504731062a30c80c95cb6f",
+      "data/pages/nut-seed-pages.json": "ec3838b54f1320988bf8718859d08a029ef1eb12bd1b1147940f13c7cab959c6"
     },
     "projections": {
-      "data/generated/fruit-category-pages.json": "7e7bd1ab90382177bb2ab4db84a5f73747eccad60ae15f8fc8546ce876ce0a38",
-      "data/generated/fruit-group-pages.json": "c50752a84584d49806cb210efd721af0aad6e0c1b31e5b9d9ecc8023af2026e1",
-      "data/generated/fruit-pages.json": "1b16ca09872415393c22fc341a3dc24bd12c2f5c70b9d689806b6c98ee06dc7c"
+      "data/generated/nut-seed-category-pages.json": "8ae3a00f671027fae8547cf1c1f5beeaeca5ee79efba1e259f7d92ee246f23a8",
+      "data/generated/nut-seed-group-pages.json": "fb1d46e25170a7921b11433c7ca9975b6946b4c4d5db222ea1b4b7d05209eaf4",
+      "data/generated/nut-seed-pages.json": "8b35b2cd47cdd88215793038d2e3c1a78447101bab772169474b8eb0ff6a025d"
     },
     "relationships": {
-      "data/runtime/fruit-editorial-relationships.json": "fe4dbd1a1ac93c5e18a83b7c652cda5b54439ad99ecaa35140b42138429d60b3",
-      "data/runtime/fruit-relationships.json": "808bb468ec0e352113e913c227cd12c600d17675592397f416f51ff180d3ac25",
-      "data/runtime/fruit-wine-relationships.json": "dc900e6bda894cf633199f5345de7473f942e8f57e638e10256ac7e3731dbb5d"
+      "data/runtime/nut-seed-editorial-relationships.json": "181f4e3a5674c13d77f8cc85823442cd630c6ba6115c283dd06530a3f33bcdfa",
+      "data/runtime/nut-seed-relationships.json": "77767157cb0e63ef08a52bbb48c2f8d39265e63d51f414b6975ffb220f9f803e",
+      "data/runtime/nut-seed-wine-relationships.json": "2b74b5a707e71e80176b33e00a45d12356e951417db8bc4d247b96e4989d8794"
     },
     "runtime": {
-      "data/runtime/fruit-bootstrap.json": "db6dbcc83676d056f0ff742edb9b7a407efa72223b04be39a93daaeb40b1453d",
-      "data/runtime/fruit-categories.json": "4cc6bbc8eaa641180c98f68446c05247de6c7b1c572ae426c793ec46dafbb7f4",
-      "data/runtime/fruit-groups.json": "f3168ff716f70ffd299b4273ce9dc192c63fa5722b7f18c3eda3a270c4bf5230",
-      "data/runtime/fruit-indexes.json": "c7a3a7801061660d54aef8599b73d290b279fdfe1bd1a7ff4373391482ef972a"
+      "data/runtime/nut-seed-bootstrap.json": "90b94faac1521f2183646622c1184e068812c0d07f67b338aa91ad9dd90a16b7",
+      "data/runtime/nut-seed-categories.json": "fa3f8defd87c8f434faf2a3327e6893092fd0b48745d0063c508489af501fa39",
+      "data/runtime/nut-seed-groups.json": "aedc1550de7fe7f6f01a039d1b3f70e88df0b97b0a68f0ac95daa5b32b666297",
+      "data/runtime/nut-seed-indexes.json": "9cac498fc4058947dadd5647013ff451eef492e6e96bfa74a2edc0b51f2e36f0"
     },
     "schema": {
-      "data/schema/fruit-category-schema.json": "2c46c4a271d43713288ad311972aa06ead4bae0554b6c0602b221924f7224429",
-      "data/schema/fruit-group-schema.json": "5b9005cc84cc689b5ba7943db6e27f0a444c02c5ce183b29426a7119dc2393cd",
-      "data/schema/fruit-schema.json": "00bb7525bf21ab1181326e81e293bd08ee39ae040133a7f32e910316dc176c06"
+      "data/schema/nut-seed-category-schema.json": "7ce1adfa0c5f73f73c6b62d179524d6115b15e44c3829da33c7a7a17553b0e25",
+      "data/schema/nut-seed-group-schema.json": "ec0875198e489f630e4c1f3ac5468472c374b4b6f4c6560981134a1ce556140d",
+      "data/schema/nut-seed-schema.json": "efaa23bf9c90b3fae757d6fdf87bb02e48714076264f9f54a2243abc6d31da34"
     },
     "search": {
-      "data/search/fruit-category-search-index.json": "a14af2c4c876984a4fa72f0a155d32f8b6f95949115a45bf7b4f40babc1b38e5",
-      "data/search/fruit-group-search-index.json": "f97a47cf2d089b42617b9f0b43b4a3e012c0348e6315d6b13c6032371abeb522",
-      "data/search/fruit-search-index.json": "6ca568c085d0c3cb61b4377bda3a36e1b924760c7c09798486e5116b664c95e6",
-      "data/search/fruit-search-suggestions.json": "52f1c6f41d948270ee90e2df0cff1dc539a2482e9918bac12539e750b08d2233"
+      "data/search/nut-seed-category-search-index.json": "66a8d5059a2b3c9640d0fb577896710db71c11e6953fb964b20b42fa8c631bdc",
+      "data/search/nut-seed-group-search-index.json": "36f6cf38cd8215ae345ea9cc0070ec47cb2ef0ea3bedbc28c4b463ea99e76988",
+      "data/search/nut-seed-search-index.json": "8731b98efcb0aa071b5f157c44274552010d84b6d399cffbdb22904a1354232c",
+      "data/search/nut-seed-search-suggestions.json": "4f9825943b9cc8967bf54b1045e8d8a15a3278e26a2904dfd5aee96708e94fdd"
     },
     "sitemaps": {
-      "dist/crawl-manifest.json": "2ffb2d5da91d2af1c5eb1fa3f45dbb91b554ad378d0a1b62507f44380567fc2e",
-      "dist/sitemap.xml": "a47acc90653020289b54b8eb05151c311d898ea403be5b9fa0ea0cfb3b068cb5",
-      "dist/sitemaps/fruit-category-pages.xml": "f383d9db2618c08e8fcc69431d1424a8c980e2e055204e4fa6c3f7562e16d5bf",
-      "dist/sitemaps/fruit-group-pages.xml": "082cf15a432c128dffc7d1455616f369dc8c57df7f903a0b015309b9cfc3384f",
-      "dist/sitemaps/fruit-pages.xml": "50f7f816706e5bf2192616aa5448d3aef5cda66c6cd184143cbd6b164e8db8df"
+      "dist/crawl-manifest.json": "9f91ac86c1c0bbc9beaf68c09f8bb7e622a8619c7023b3e3582805af0c9fa543",
+      "dist/sitemap.xml": "22b73c177c5f329c2de98c8b4dbbaec7ff9284ce6603d66abec3df9359fcdef8",
+      "dist/sitemaps/nut-seed-category-pages.xml": "7567d9c09005050d432237dbe3e82692a86678ac237cb412f9c29e56a7a4aef6",
+      "dist/sitemaps/nut-seed-group-pages.xml": "046ddc92f72ebaea4f5498716c3f162651b5f02eec9f9558f4fe571009654cd2",
+      "dist/sitemaps/nut-seed-pages.xml": "1308956f549ae9413a9375928cc1f4350d74dcc63cbee327e1fc23febcfbd97a"
     }
   },
-  "domain": "fruit",
-  "generated_at": "2026-07-20T05:09:05.139Z",
+  "domain": "nut-seed",
+  "generated_at": "2026-07-21T00:24:53.024Z",
   "pages": {
     "categories": 1,
-    "groups": 7,
-    "leaf": 119,
-    "total": 127
+    "groups": 6,
+    "leaf": 89,
+    "total": 96
   },
-  "publication": "fruit-ontology",
-  "release_version": "1.6.0"
+  "publication": "nut-seed-ontology",
+  "release_version": "1.7.0"
 }

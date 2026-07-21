@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "nut-seed",
+    "food_ontology_version": "1.7.0",
+    "phase": "FOOD-10FA",
+    "projection_count": 6,
+    "projection_type": "nut_seed_group"
+  },
+  "projections": [
+    {
+      "food_count": 24,
+      "identity": {
+        "id": "food.nut-seed.edible-seeds",
+        "name": "Edible Seeds",
+        "slug": "edible-seeds"
+      },
+      "member_food_ids": [
+        "food.nut-seed.edible-seeds.breadfruit-seed",
+        "food.nut-seed.edible-seeds.breadnut-seed",
+        "food.nut-seed.edible-seeds.chia-seed",
+        "food.nut-seed.edible-seeds.cucumber-seed",
+        "food.nut-seed.edible-seeds.desert-date-seed",
+        "food.nut-seed.edible-seeds.flaxseed",
+        "food.nut-seed.edible-seeds.hemp-seed",
+        "food.nut-seed.edible-seeds.hemp-seed-meal",
+        "food.nut-seed.edible-seeds.jackfruit-seed",
+        "food.nut-seed.edible-seeds.lotus-seed",
+        "food.nut-seed.edible-seeds.melon-seed",
+        "food.nut-seed.edible-seeds.niger-seed",
+        "food.nut-seed.edible-seeds.okra-seed",
+        "food.nut-seed.edible-seeds.palmyra-seed",
+        "food.nut-seed.edible-seeds.pomegranate-seed",
+        "food.nut-seed.edible-seeds.psyllium-seed",
+        "food.nut-seed.edible-seeds.pumpkin-seed",
+        "food.nut-seed.edible-seeds.sacha-inchi-seed",
+        "food.nut-seed.edible-seeds.safflower-meal",
+        "food.nut-seed.edible-seeds.safflower-seed",
+        "food.nut-seed.edible-seeds.sesame",
+        "food.nut-seed.edible-seeds.squash-seed",
+        "food.nut-seed.edible-seeds.sunflower-seed",
+        "food.nut-seed.edible-seeds.watermelon-seed"
+      ],
+      "member_leaf_ids": [
+        "food.nut-seed.edible-seeds.breadfruit-seed",
+        "food.nut-seed.edible-seeds.breadnut-seed",
+        "food.nut-seed.edible-seeds.chia-seed",
+        "food.nut-seed.edible-seeds.cucumber-seed",
+        "food.nut-seed.edible-seeds.desert-date-seed",
+        "food.nut-seed.edible-seeds.flaxseed",
+        "food.nut-seed.edible-seeds.hemp-seed",
+        "food.nut-seed.edible-seeds.hemp-seed-meal",
+        "food.nut-seed.edible-seeds.jackfruit-seed",
+        "food.nut-seed.edible-seeds.lotus-seed",
+        "food.nut-seed.edible-seeds.melon-seed",
+        "food.nut-seed.edible-seeds.niger-seed",
+        "food.nut-seed.edible-seeds.okra-seed",
+        "food.nut-seed.edible-seeds.palmyra-seed",
+        "food.nut-seed.edible-seeds.pomegranate-seed",
+        "food.nut-seed.edible-seeds.psyllium-seed",
+        "food.nut-seed.edible-seeds.pumpkin-seed",
+        "food.nut-seed.edible-seeds.sacha-inchi-seed",
+        "food.nut-seed.edible-seeds.safflower-meal",
+        "food.nut-seed.edible-seeds.safflower-seed",
+        "food.nut-seed.edible-seeds.sesame",
+        "food.nut-seed.edible-seeds.squash-seed",
+        "food.nut-seed.edible-seeds.sunflower-seed",
+        "food.nut-seed.edible-seeds.watermelon-seed"
+      ],
+      "parent_category": {
+        "id": "food.nut-seed",
+        "name": "Nuts & Seeds",
+        "slug": "nut-seed"
+      },
+      "usage_intensities_represented": [
+        "accent"
+      ]
+    },
+    {
+      "food_count": 18,
+      "identity": {
+        "id": "food.nut-seed.nut-products",
+        "name": "Nut Products",
+        "slug": "nut-products"
+      },
+      "member_food_ids": [
+        "food.nut-seed.nut-products.almond-butter",
+        "food.nut-seed.nut-products.almond-flour",
+        "food.nut-seed.nut-products.almond-meal",
+        "food.nut-seed.nut-products.brazil-nut-meal",
+        "food.nut-seed.nut-products.cashew-butter",
+        "food.nut-seed.nut-products.cashew-flour",
+        "food.nut-seed.nut-products.chestnut-flour",
+        "food.nut-seed.nut-products.hazelnut-butter",
+        "food.nut-seed.nut-products.hazelnut-flour",
+        "food.nut-seed.nut-products.hazelnut-meal",
+        "food.nut-seed.nut-products.macadamia-butter",
+        "food.nut-seed.nut-products.peanut-butter",
+        "food.nut-seed.nut-products.pecan-butter",
+        "food.nut-seed.nut-products.pecan-meal",
+        "food.nut-seed.nut-products.pine-nut-paste",
+        "food.nut-seed.nut-products.pistachio-paste",
+        "food.nut-seed.nut-products.walnut-butter",
+        "food.nut-seed.nut-products.walnut-meal"
+      ],
+      "member_leaf_ids": [
+        "food.nut-seed.nut-products.almond-butter",
+        "food.nut-seed.nut-products.almond-flour",
+        "food.nut-seed.nut-products.almond-meal",
+        "food.nut-seed.nut-products.brazil-nut-meal",
+        "food.nut-seed.nut-products.cashew-butter",
+        "food.nut-seed.nut-products.cashew-flour",
+        "food.nut-seed.nut-products.chestnut-flour",
+        "food.nut-seed.nut-products.hazelnut-butter",
+        "food.nut-seed.nut-products.hazelnut-flour",
+        "food.nut-seed.nut-products.hazelnut-meal",
+        "food.nut-seed.nut-products.macadamia-butter",
+        "food.nut-seed.nut-products.peanut-butter",
+        "food.nut-seed.nut-products.pecan-butter",
+        "food.nut-seed.nut-products.pecan-meal",
+        "food.nut-seed.nut-products.pine-nut-paste",
+        "food.nut-seed.nut-products.pistachio-paste",
+        "food.nut-seed.nut-products.walnut-butter",
+        "food.nut-seed.nut-products.walnut-meal"
+      ],
+      "parent_category": {
+        "id": "food.nut-seed",
+        "name": "Nuts & Seeds",
+        "slug": "nut-seed"
+      },
+      "usage_intensities_represented": [
+        "accent",
+        "luxury",
+        "primary"
+      ]
+    },
+    {
+      "food_count": 1,
+      "identity": {
+        "id": "food.nut-seed.peanuts",
+        "name": "Peanuts",
+        "slug": "peanuts"
+      },
+      "member_food_ids": [
+        "food.nut-seed.peanuts.peanut"
+      ],
+      "member_leaf_ids": [
+        "food.nut-seed.peanuts.peanut"
+      ],
+      "parent_category": {
+        "id": "food.nut-seed",
+        "name": "Nuts & Seeds",
+        "slug": "nut-seed"
+      },
+      "usage_intensities_represented": [
+        "primary"
+      ]
+    },
+    {
+      "food_count": 16,
+      "identity": {
+        "id": "food.nut-seed.seed-products",
+        "name": "Seed Products",
+        "slug": "seed-products"
+      },
+      "member_food_ids": [
+        "food.nut-seed.seed-products.chia-seed-meal",
+        "food.nut-seed.seed-products.flaxseed-butter",
+        "food.nut-seed.seed-products.flaxseed-meal",
+        "food.nut-seed.seed-products.hemp-seed-butter",
+        "food.nut-seed.seed-products.hemp-seed-flour",
+        "food.nut-seed.seed-products.niger-seed-paste",
+        "food.nut-seed.seed-products.pumpkin-seed-butter",
+        "food.nut-seed.seed-products.pumpkin-seed-flour",
+        "food.nut-seed.seed-products.pumpkin-seed-meal",
+        "food.nut-seed.seed-products.sacha-inchi-butter",
+        "food.nut-seed.seed-products.sesame-flour",
+        "food.nut-seed.seed-products.sesame-paste",
+        "food.nut-seed.seed-products.sunflower-seed-butter",
+        "food.nut-seed.seed-products.sunflower-seed-flour",
+        "food.nut-seed.seed-products.sunflower-seed-paste",
+        "food.nut-seed.seed-products.tahini"
+      ],
+      "member_leaf_ids": [
+        "food.nut-seed.seed-products.chia-seed-meal",
+        "food.nut-seed.seed-products.flaxseed-butter",
+        "food.nut-seed.seed-products.flaxseed-meal",
+        "food.nut-seed.seed-products.hemp-seed-butter",
+        "food.nut-seed.seed-products.hemp-seed-flour",
+        "food.nut-seed.seed-products.niger-seed-paste",
+        "food.nut-seed.seed-products.pumpkin-seed-butter",
+        "food.nut-seed.seed-products.pumpkin-seed-flour",
+        "food.nut-seed.seed-products.pumpkin-seed-meal",
+        "food.nut-seed.seed-products.sacha-inchi-butter",
+        "food.nut-seed.seed-products.sesame-flour",
+        "food.nut-seed.seed-products.sesame-paste",
+        "food.nut-seed.seed-products.sunflower-seed-butter",
+        "food.nut-seed.seed-products.sunflower-seed-flour",
+        "food.nut-seed.seed-products.sunflower-seed-paste",
+        "food.nut-seed.seed-products.tahini"
+      ],
+      "parent_category": {
+        "id": "food.nut-seed",
+        "name": "Nuts & Seeds",
+        "slug": "nut-seed"
+      },
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    },
+    {
+      "food_count": 9,
+      "identity": {
+        "id": "food.nut-seed.seed-spices",
+        "name": "Seed Spices",
+        "slug": "seed-spices"
+      },
+      "member_food_ids": [
+        "food.nut-seed.seed-spices.egusi-seed",
+        "food.nut-seed.seed-spices.leek-seed",
+        "food.nut-seed.seed-spices.mahlab",
+        "food.nut-seed.seed-spices.onion-seed",
+        "food.nut-seed.seed-spices.palm-kernel-seed",
+        "food.nut-seed.seed-spices.perilla-seed",
+        "food.nut-seed.seed-spices.poppy-seed",
+        "food.nut-seed.seed-spices.radish-seed",
+        "food.nut-seed.seed-spices.wattleseed"
+      ],
+      "member_leaf_ids": [
+        "food.nut-seed.seed-spices.egusi-seed",
+        "food.nut-seed.seed-spices.leek-seed",
+        "food.nut-seed.seed-spices.mahlab",
+        "food.nut-seed.seed-spices.onion-seed",
+        "food.nut-seed.seed-spices.palm-kernel-seed",
+        "food.nut-seed.seed-spices.perilla-seed",
+        "food.nut-seed.seed-spices.poppy-seed",
+        "food.nut-seed.seed-spices.radish-seed",
+        "food.nut-seed.seed-spices.wattleseed"
+      ],
+      "parent_category": {
+        "id": "food.nut-seed",
+        "name": "Nuts & Seeds",
+        "slug": "nut-seed"
+      },
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    },
+    {
+      "food_count": 21,
+      "identity": {
+        "id": "food.nut-seed.tree-nuts",
+        "name": "Tree Nuts",
+        "slug": "tree-nuts"
+      },
+      "member_food_ids": [
+        "food.nut-seed.tree-nuts.almond",
+        "food.nut-seed.tree-nuts.baru-nut",
+        "food.nut-seed.tree-nuts.beechnut",
+        "food.nut-seed.tree-nuts.bitter-almond",
+        "food.nut-seed.tree-nuts.brazil-nut",
+        "food.nut-seed.tree-nuts.candlenut",
+        "food.nut-seed.tree-nuts.cashew",
+        "food.nut-seed.tree-nuts.chestnut",
+        "food.nut-seed.tree-nuts.ginkgo-nut",
+        "food.nut-seed.tree-nuts.hazelnut",
+        "food.nut-seed.tree-nuts.hickory-nut",
+        "food.nut-seed.tree-nuts.kola-nut",
+        "food.nut-seed.tree-nuts.macadamia",
+        "food.nut-seed.tree-nuts.mongongo-nut",
+        "food.nut-seed.tree-nuts.paradise-nut",
+        "food.nut-seed.tree-nuts.pecan",
+        "food.nut-seed.tree-nuts.pili-nut",
+        "food.nut-seed.tree-nuts.pine-nut",
+        "food.nut-seed.tree-nuts.pistachio",
+        "food.nut-seed.tree-nuts.saba-nut",
+        "food.nut-seed.tree-nuts.walnut"
+      ],
+      "member_leaf_ids": [
+        "food.nut-seed.tree-nuts.almond",
+        "food.nut-seed.tree-nuts.baru-nut",
+        "food.nut-seed.tree-nuts.beechnut",
+        "food.nut-seed.tree-nuts.bitter-almond",
+        "food.nut-seed.tree-nuts.brazil-nut",
+        "food.nut-seed.tree-nuts.candlenut",
+        "food.nut-seed.tree-nuts.cashew",
+        "food.nut-seed.tree-nuts.chestnut",
+        "food.nut-seed.tree-nuts.ginkgo-nut",
+        "food.nut-seed.tree-nuts.hazelnut",
+        "food.nut-seed.tree-nuts.hickory-nut",
+        "food.nut-seed.tree-nuts.kola-nut",
+        "food.nut-seed.tree-nuts.macadamia",
+        "food.nut-seed.tree-nuts.mongongo-nut",
+        "food.nut-seed.tree-nuts.paradise-nut",
+        "food.nut-seed.tree-nuts.pecan",
+        "food.nut-seed.tree-nuts.pili-nut",
+        "food.nut-seed.tree-nuts.pine-nut",
+        "food.nut-seed.tree-nuts.pistachio",
+        "food.nut-seed.tree-nuts.saba-nut",
+        "food.nut-seed.tree-nuts.walnut"
+      ],
+      "parent_category": {
+        "id": "food.nut-seed",
+        "name": "Nuts & Seeds",
+        "slug": "nut-seed"
+      },
+      "usage_intensities_represented": [
+        "accent",
+        "luxury",
+        "primary"
+      ]
+    }
+  ]
+}

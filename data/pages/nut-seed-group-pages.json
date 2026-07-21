@@ -1,0 +1,852 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "nut-seed",
+    "food_ontology_version": "1.7.0",
+    "page_count": 6,
+    "page_type": "nut_seed_group",
+    "phase": "FOOD-10FB"
+  },
+  "pages": [
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/nut-seeds/",
+          "label": "Nuts & Seeds"
+        },
+        {
+          "href": "/nut-seed-categories/nut-seed/",
+          "label": "Nuts & Seeds"
+        },
+        {
+          "href": "/nut-seed-groups/edible-seeds/",
+          "label": "Edible Seeds"
+        }
+      ],
+      "canonical_path": "/nut-seed-groups/edible-seeds/",
+      "identity": {
+        "id": "food.nut-seed.edible-seeds",
+        "slug": "edible-seeds",
+        "title": "Edible Seeds"
+      },
+      "member_nuts_seeds": [
+        {
+          "href": "/nut-seeds/breadfruit-seed/",
+          "id": "food.nut-seed.edible-seeds.breadfruit-seed",
+          "name": "Breadfruit Seed",
+          "slug": "breadfruit-seed"
+        },
+        {
+          "href": "/nut-seeds/breadnut-seed/",
+          "id": "food.nut-seed.edible-seeds.breadnut-seed",
+          "name": "Breadnut Seed",
+          "slug": "breadnut-seed"
+        },
+        {
+          "href": "/nut-seeds/chia-seed/",
+          "id": "food.nut-seed.edible-seeds.chia-seed",
+          "name": "Chia Seed",
+          "slug": "chia-seed"
+        },
+        {
+          "href": "/nut-seeds/cucumber-seed/",
+          "id": "food.nut-seed.edible-seeds.cucumber-seed",
+          "name": "Cucumber Seed",
+          "slug": "cucumber-seed"
+        },
+        {
+          "href": "/nut-seeds/desert-date-seed/",
+          "id": "food.nut-seed.edible-seeds.desert-date-seed",
+          "name": "Desert Date Seed",
+          "slug": "desert-date-seed"
+        },
+        {
+          "href": "/nut-seeds/flaxseed/",
+          "id": "food.nut-seed.edible-seeds.flaxseed",
+          "name": "Flaxseed",
+          "slug": "flaxseed"
+        },
+        {
+          "href": "/nut-seeds/hemp-seed/",
+          "id": "food.nut-seed.edible-seeds.hemp-seed",
+          "name": "Hemp Seed",
+          "slug": "hemp-seed"
+        },
+        {
+          "href": "/nut-seeds/hemp-seed-meal/",
+          "id": "food.nut-seed.edible-seeds.hemp-seed-meal",
+          "name": "Hemp Seed Meal",
+          "slug": "hemp-seed-meal"
+        },
+        {
+          "href": "/nut-seeds/jackfruit-seed/",
+          "id": "food.nut-seed.edible-seeds.jackfruit-seed",
+          "name": "Jackfruit Seed",
+          "slug": "jackfruit-seed"
+        },
+        {
+          "href": "/nut-seeds/lotus-seed/",
+          "id": "food.nut-seed.edible-seeds.lotus-seed",
+          "name": "Lotus Seed",
+          "slug": "lotus-seed"
+        },
+        {
+          "href": "/nut-seeds/melon-seed/",
+          "id": "food.nut-seed.edible-seeds.melon-seed",
+          "name": "Melon Seed",
+          "slug": "melon-seed"
+        },
+        {
+          "href": "/nut-seeds/niger-seed/",
+          "id": "food.nut-seed.edible-seeds.niger-seed",
+          "name": "Niger Seed",
+          "slug": "niger-seed"
+        },
+        {
+          "href": "/nut-seeds/okra-seed/",
+          "id": "food.nut-seed.edible-seeds.okra-seed",
+          "name": "Okra Seed",
+          "slug": "okra-seed"
+        },
+        {
+          "href": "/nut-seeds/palmyra-seed/",
+          "id": "food.nut-seed.edible-seeds.palmyra-seed",
+          "name": "Palmyra Seed",
+          "slug": "palmyra-seed"
+        },
+        {
+          "href": "/nut-seeds/pomegranate-seed/",
+          "id": "food.nut-seed.edible-seeds.pomegranate-seed",
+          "name": "Pomegranate Seed",
+          "slug": "pomegranate-seed"
+        },
+        {
+          "href": "/nut-seeds/psyllium-seed/",
+          "id": "food.nut-seed.edible-seeds.psyllium-seed",
+          "name": "Psyllium Seed",
+          "slug": "psyllium-seed"
+        },
+        {
+          "href": "/nut-seeds/pumpkin-seed/",
+          "id": "food.nut-seed.edible-seeds.pumpkin-seed",
+          "name": "Pumpkin Seed",
+          "slug": "pumpkin-seed"
+        },
+        {
+          "href": "/nut-seeds/sacha-inchi-seed/",
+          "id": "food.nut-seed.edible-seeds.sacha-inchi-seed",
+          "name": "Sacha Inchi Seed",
+          "slug": "sacha-inchi-seed"
+        },
+        {
+          "href": "/nut-seeds/safflower-meal/",
+          "id": "food.nut-seed.edible-seeds.safflower-meal",
+          "name": "Safflower Meal",
+          "slug": "safflower-meal"
+        },
+        {
+          "href": "/nut-seeds/safflower-seed/",
+          "id": "food.nut-seed.edible-seeds.safflower-seed",
+          "name": "Safflower Seed",
+          "slug": "safflower-seed"
+        },
+        {
+          "href": "/nut-seeds/sesame/",
+          "id": "food.nut-seed.edible-seeds.sesame",
+          "name": "Sesame",
+          "slug": "sesame"
+        },
+        {
+          "href": "/nut-seeds/squash-seed/",
+          "id": "food.nut-seed.edible-seeds.squash-seed",
+          "name": "Squash Seed",
+          "slug": "squash-seed"
+        },
+        {
+          "href": "/nut-seeds/sunflower-seed/",
+          "id": "food.nut-seed.edible-seeds.sunflower-seed",
+          "name": "Sunflower Seed",
+          "slug": "sunflower-seed"
+        },
+        {
+          "href": "/nut-seeds/watermelon-seed/",
+          "id": "food.nut-seed.edible-seeds.watermelon-seed",
+          "name": "Watermelon Seed",
+          "slug": "watermelon-seed"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/nut-seed-groups/edible-seeds/",
+        "description": "Edible Seeds — 24 nuts & seeds in the Nut & Seed Ontology.",
+        "og_description": "Edible Seeds — 24 nuts & seeds in the Nut & Seed Ontology.",
+        "og_title": "Edible Seeds — Nut & Seed Group",
+        "title": "Edible Seeds — Nut & Seed Group"
+      },
+      "overview": {
+        "display_name": "Edible Seeds",
+        "food_count": 24,
+        "parent_category": {
+          "id": "food.nut-seed",
+          "name": "Nuts & Seeds",
+          "slug": "nut-seed"
+        }
+      },
+      "page_type": "nut_seed_group",
+      "projection_id": "food.nut-seed.edible-seeds",
+      "slug": "edible-seeds",
+      "usage_intensities_represented": [
+        "accent"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/nut-seeds/",
+          "label": "Nuts & Seeds"
+        },
+        {
+          "href": "/nut-seed-categories/nut-seed/",
+          "label": "Nuts & Seeds"
+        },
+        {
+          "href": "/nut-seed-groups/nut-products/",
+          "label": "Nut Products"
+        }
+      ],
+      "canonical_path": "/nut-seed-groups/nut-products/",
+      "identity": {
+        "id": "food.nut-seed.nut-products",
+        "slug": "nut-products",
+        "title": "Nut Products"
+      },
+      "member_nuts_seeds": [
+        {
+          "href": "/nut-seeds/almond-butter/",
+          "id": "food.nut-seed.nut-products.almond-butter",
+          "name": "Almond Butter",
+          "slug": "almond-butter"
+        },
+        {
+          "href": "/nut-seeds/almond-flour/",
+          "id": "food.nut-seed.nut-products.almond-flour",
+          "name": "Almond Flour",
+          "slug": "almond-flour"
+        },
+        {
+          "href": "/nut-seeds/almond-meal/",
+          "id": "food.nut-seed.nut-products.almond-meal",
+          "name": "Almond Meal",
+          "slug": "almond-meal"
+        },
+        {
+          "href": "/nut-seeds/brazil-nut-meal/",
+          "id": "food.nut-seed.nut-products.brazil-nut-meal",
+          "name": "Brazil Nut Meal",
+          "slug": "brazil-nut-meal"
+        },
+        {
+          "href": "/nut-seeds/cashew-butter/",
+          "id": "food.nut-seed.nut-products.cashew-butter",
+          "name": "Cashew Butter",
+          "slug": "cashew-butter"
+        },
+        {
+          "href": "/nut-seeds/cashew-flour/",
+          "id": "food.nut-seed.nut-products.cashew-flour",
+          "name": "Cashew Flour",
+          "slug": "cashew-flour"
+        },
+        {
+          "href": "/nut-seeds/chestnut-flour/",
+          "id": "food.nut-seed.nut-products.chestnut-flour",
+          "name": "Chestnut Flour",
+          "slug": "chestnut-flour"
+        },
+        {
+          "href": "/nut-seeds/hazelnut-butter/",
+          "id": "food.nut-seed.nut-products.hazelnut-butter",
+          "name": "Hazelnut Butter",
+          "slug": "hazelnut-butter"
+        },
+        {
+          "href": "/nut-seeds/hazelnut-flour/",
+          "id": "food.nut-seed.nut-products.hazelnut-flour",
+          "name": "Hazelnut Flour",
+          "slug": "hazelnut-flour"
+        },
+        {
+          "href": "/nut-seeds/hazelnut-meal/",
+          "id": "food.nut-seed.nut-products.hazelnut-meal",
+          "name": "Hazelnut Meal",
+          "slug": "hazelnut-meal"
+        },
+        {
+          "href": "/nut-seeds/macadamia-butter/",
+          "id": "food.nut-seed.nut-products.macadamia-butter",
+          "name": "Macadamia Butter",
+          "slug": "macadamia-butter"
+        },
+        {
+          "href": "/nut-seeds/peanut-butter/",
+          "id": "food.nut-seed.nut-products.peanut-butter",
+          "name": "Peanut Butter",
+          "slug": "peanut-butter"
+        },
+        {
+          "href": "/nut-seeds/pecan-butter/",
+          "id": "food.nut-seed.nut-products.pecan-butter",
+          "name": "Pecan Butter",
+          "slug": "pecan-butter"
+        },
+        {
+          "href": "/nut-seeds/pecan-meal/",
+          "id": "food.nut-seed.nut-products.pecan-meal",
+          "name": "Pecan Meal",
+          "slug": "pecan-meal"
+        },
+        {
+          "href": "/nut-seeds/pine-nut-paste/",
+          "id": "food.nut-seed.nut-products.pine-nut-paste",
+          "name": "Pine Nut Paste",
+          "slug": "pine-nut-paste"
+        },
+        {
+          "href": "/nut-seeds/pistachio-paste/",
+          "id": "food.nut-seed.nut-products.pistachio-paste",
+          "name": "Pistachio Paste",
+          "slug": "pistachio-paste"
+        },
+        {
+          "href": "/nut-seeds/walnut-butter/",
+          "id": "food.nut-seed.nut-products.walnut-butter",
+          "name": "Walnut Butter",
+          "slug": "walnut-butter"
+        },
+        {
+          "href": "/nut-seeds/walnut-meal/",
+          "id": "food.nut-seed.nut-products.walnut-meal",
+          "name": "Walnut Meal",
+          "slug": "walnut-meal"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/nut-seed-groups/nut-products/",
+        "description": "Nut Products — 18 nuts & seeds in the Nut & Seed Ontology.",
+        "og_description": "Nut Products — 18 nuts & seeds in the Nut & Seed Ontology.",
+        "og_title": "Nut Products — Nut & Seed Group",
+        "title": "Nut Products — Nut & Seed Group"
+      },
+      "overview": {
+        "display_name": "Nut Products",
+        "food_count": 18,
+        "parent_category": {
+          "id": "food.nut-seed",
+          "name": "Nuts & Seeds",
+          "slug": "nut-seed"
+        }
+      },
+      "page_type": "nut_seed_group",
+      "projection_id": "food.nut-seed.nut-products",
+      "slug": "nut-products",
+      "usage_intensities_represented": [
+        "accent",
+        "luxury",
+        "primary"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/nut-seeds/",
+          "label": "Nuts & Seeds"
+        },
+        {
+          "href": "/nut-seed-categories/nut-seed/",
+          "label": "Nuts & Seeds"
+        },
+        {
+          "href": "/nut-seed-groups/peanuts/",
+          "label": "Peanuts"
+        }
+      ],
+      "canonical_path": "/nut-seed-groups/peanuts/",
+      "identity": {
+        "id": "food.nut-seed.peanuts",
+        "slug": "peanuts",
+        "title": "Peanuts"
+      },
+      "member_nuts_seeds": [
+        {
+          "href": "/nut-seeds/peanut/",
+          "id": "food.nut-seed.peanuts.peanut",
+          "name": "Peanut",
+          "slug": "peanut"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/nut-seed-groups/peanuts/",
+        "description": "Peanuts — 1 nuts & seeds in the Nut & Seed Ontology.",
+        "og_description": "Peanuts — 1 nuts & seeds in the Nut & Seed Ontology.",
+        "og_title": "Peanuts — Nut & Seed Group",
+        "title": "Peanuts — Nut & Seed Group"
+      },
+      "overview": {
+        "display_name": "Peanuts",
+        "food_count": 1,
+        "parent_category": {
+          "id": "food.nut-seed",
+          "name": "Nuts & Seeds",
+          "slug": "nut-seed"
+        }
+      },
+      "page_type": "nut_seed_group",
+      "projection_id": "food.nut-seed.peanuts",
+      "slug": "peanuts",
+      "usage_intensities_represented": [
+        "primary"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/nut-seeds/",
+          "label": "Nuts & Seeds"
+        },
+        {
+          "href": "/nut-seed-categories/nut-seed/",
+          "label": "Nuts & Seeds"
+        },
+        {
+          "href": "/nut-seed-groups/seed-products/",
+          "label": "Seed Products"
+        }
+      ],
+      "canonical_path": "/nut-seed-groups/seed-products/",
+      "identity": {
+        "id": "food.nut-seed.seed-products",
+        "slug": "seed-products",
+        "title": "Seed Products"
+      },
+      "member_nuts_seeds": [
+        {
+          "href": "/nut-seeds/chia-seed-meal/",
+          "id": "food.nut-seed.seed-products.chia-seed-meal",
+          "name": "Chia Seed Meal",
+          "slug": "chia-seed-meal"
+        },
+        {
+          "href": "/nut-seeds/flaxseed-butter/",
+          "id": "food.nut-seed.seed-products.flaxseed-butter",
+          "name": "Flaxseed Butter",
+          "slug": "flaxseed-butter"
+        },
+        {
+          "href": "/nut-seeds/flaxseed-meal/",
+          "id": "food.nut-seed.seed-products.flaxseed-meal",
+          "name": "Flaxseed Meal",
+          "slug": "flaxseed-meal"
+        },
+        {
+          "href": "/nut-seeds/hemp-seed-butter/",
+          "id": "food.nut-seed.seed-products.hemp-seed-butter",
+          "name": "Hemp Seed Butter",
+          "slug": "hemp-seed-butter"
+        },
+        {
+          "href": "/nut-seeds/hemp-seed-flour/",
+          "id": "food.nut-seed.seed-products.hemp-seed-flour",
+          "name": "Hemp Seed Flour",
+          "slug": "hemp-seed-flour"
+        },
+        {
+          "href": "/nut-seeds/niger-seed-paste/",
+          "id": "food.nut-seed.seed-products.niger-seed-paste",
+          "name": "Niger Seed Paste",
+          "slug": "niger-seed-paste"
+        },
+        {
+          "href": "/nut-seeds/pumpkin-seed-butter/",
+          "id": "food.nut-seed.seed-products.pumpkin-seed-butter",
+          "name": "Pumpkin Seed Butter",
+          "slug": "pumpkin-seed-butter"
+        },
+        {
+          "href": "/nut-seeds/pumpkin-seed-flour/",
+          "id": "food.nut-seed.seed-products.pumpkin-seed-flour",
+          "name": "Pumpkin Seed Flour",
+          "slug": "pumpkin-seed-flour"
+        },
+        {
+          "href": "/nut-seeds/pumpkin-seed-meal/",
+          "id": "food.nut-seed.seed-products.pumpkin-seed-meal",
+          "name": "Pumpkin Seed Meal",
+          "slug": "pumpkin-seed-meal"
+        },
+        {
+          "href": "/nut-seeds/sacha-inchi-butter/",
+          "id": "food.nut-seed.seed-products.sacha-inchi-butter",
+          "name": "Sacha Inchi Butter",
+          "slug": "sacha-inchi-butter"
+        },
+        {
+          "href": "/nut-seeds/sesame-flour/",
+          "id": "food.nut-seed.seed-products.sesame-flour",
+          "name": "Sesame Flour",
+          "slug": "sesame-flour"
+        },
+        {
+          "href": "/nut-seeds/sesame-paste/",
+          "id": "food.nut-seed.seed-products.sesame-paste",
+          "name": "Sesame Paste",
+          "slug": "sesame-paste"
+        },
+        {
+          "href": "/nut-seeds/sunflower-seed-butter/",
+          "id": "food.nut-seed.seed-products.sunflower-seed-butter",
+          "name": "Sunflower Seed Butter",
+          "slug": "sunflower-seed-butter"
+        },
+        {
+          "href": "/nut-seeds/sunflower-seed-flour/",
+          "id": "food.nut-seed.seed-products.sunflower-seed-flour",
+          "name": "Sunflower Seed Flour",
+          "slug": "sunflower-seed-flour"
+        },
+        {
+          "href": "/nut-seeds/sunflower-seed-paste/",
+          "id": "food.nut-seed.seed-products.sunflower-seed-paste",
+          "name": "Sunflower Seed Paste",
+          "slug": "sunflower-seed-paste"
+        },
+        {
+          "href": "/nut-seeds/tahini/",
+          "id": "food.nut-seed.seed-products.tahini",
+          "name": "Tahini",
+          "slug": "tahini"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/nut-seed-groups/seed-products/",
+        "description": "Seed Products — 16 nuts & seeds in the Nut & Seed Ontology.",
+        "og_description": "Seed Products — 16 nuts & seeds in the Nut & Seed Ontology.",
+        "og_title": "Seed Products — Nut & Seed Group",
+        "title": "Seed Products — Nut & Seed Group"
+      },
+      "overview": {
+        "display_name": "Seed Products",
+        "food_count": 16,
+        "parent_category": {
+          "id": "food.nut-seed",
+          "name": "Nuts & Seeds",
+          "slug": "nut-seed"
+        }
+      },
+      "page_type": "nut_seed_group",
+      "projection_id": "food.nut-seed.seed-products",
+      "slug": "seed-products",
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/nut-seeds/",
+          "label": "Nuts & Seeds"
+        },
+        {
+          "href": "/nut-seed-categories/nut-seed/",
+          "label": "Nuts & Seeds"
+        },
+        {
+          "href": "/nut-seed-groups/seed-spices/",
+          "label": "Seed Spices"
+        }
+      ],
+      "canonical_path": "/nut-seed-groups/seed-spices/",
+      "identity": {
+        "id": "food.nut-seed.seed-spices",
+        "slug": "seed-spices",
+        "title": "Seed Spices"
+      },
+      "member_nuts_seeds": [
+        {
+          "href": "/nut-seeds/egusi-seed/",
+          "id": "food.nut-seed.seed-spices.egusi-seed",
+          "name": "Egusi Seed",
+          "slug": "egusi-seed"
+        },
+        {
+          "href": "/nut-seeds/leek-seed/",
+          "id": "food.nut-seed.seed-spices.leek-seed",
+          "name": "Leek Seed",
+          "slug": "leek-seed"
+        },
+        {
+          "href": "/nut-seeds/mahlab/",
+          "id": "food.nut-seed.seed-spices.mahlab",
+          "name": "Mahlab",
+          "slug": "mahlab"
+        },
+        {
+          "href": "/nut-seeds/onion-seed/",
+          "id": "food.nut-seed.seed-spices.onion-seed",
+          "name": "Onion Seed",
+          "slug": "onion-seed"
+        },
+        {
+          "href": "/nut-seeds/palm-kernel-seed/",
+          "id": "food.nut-seed.seed-spices.palm-kernel-seed",
+          "name": "Palm Kernel Seed",
+          "slug": "palm-kernel-seed"
+        },
+        {
+          "href": "/nut-seeds/perilla-seed/",
+          "id": "food.nut-seed.seed-spices.perilla-seed",
+          "name": "Perilla Seed",
+          "slug": "perilla-seed"
+        },
+        {
+          "href": "/nut-seeds/poppy-seed/",
+          "id": "food.nut-seed.seed-spices.poppy-seed",
+          "name": "Poppy Seed",
+          "slug": "poppy-seed"
+        },
+        {
+          "href": "/nut-seeds/radish-seed/",
+          "id": "food.nut-seed.seed-spices.radish-seed",
+          "name": "Radish Seed",
+          "slug": "radish-seed"
+        },
+        {
+          "href": "/nut-seeds/wattleseed/",
+          "id": "food.nut-seed.seed-spices.wattleseed",
+          "name": "Wattleseed",
+          "slug": "wattleseed"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/nut-seed-groups/seed-spices/",
+        "description": "Seed Spices — 9 nuts & seeds in the Nut & Seed Ontology.",
+        "og_description": "Seed Spices — 9 nuts & seeds in the Nut & Seed Ontology.",
+        "og_title": "Seed Spices — Nut & Seed Group",
+        "title": "Seed Spices — Nut & Seed Group"
+      },
+      "overview": {
+        "display_name": "Seed Spices",
+        "food_count": 9,
+        "parent_category": {
+          "id": "food.nut-seed",
+          "name": "Nuts & Seeds",
+          "slug": "nut-seed"
+        }
+      },
+      "page_type": "nut_seed_group",
+      "projection_id": "food.nut-seed.seed-spices",
+      "slug": "seed-spices",
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/nut-seeds/",
+          "label": "Nuts & Seeds"
+        },
+        {
+          "href": "/nut-seed-categories/nut-seed/",
+          "label": "Nuts & Seeds"
+        },
+        {
+          "href": "/nut-seed-groups/tree-nuts/",
+          "label": "Tree Nuts"
+        }
+      ],
+      "canonical_path": "/nut-seed-groups/tree-nuts/",
+      "identity": {
+        "id": "food.nut-seed.tree-nuts",
+        "slug": "tree-nuts",
+        "title": "Tree Nuts"
+      },
+      "member_nuts_seeds": [
+        {
+          "href": "/nut-seeds/almond/",
+          "id": "food.nut-seed.tree-nuts.almond",
+          "name": "Almond",
+          "slug": "almond"
+        },
+        {
+          "href": "/nut-seeds/baru-nut/",
+          "id": "food.nut-seed.tree-nuts.baru-nut",
+          "name": "Baru Nut",
+          "slug": "baru-nut"
+        },
+        {
+          "href": "/nut-seeds/beechnut/",
+          "id": "food.nut-seed.tree-nuts.beechnut",
+          "name": "Beechnut",
+          "slug": "beechnut"
+        },
+        {
+          "href": "/nut-seeds/bitter-almond/",
+          "id": "food.nut-seed.tree-nuts.bitter-almond",
+          "name": "Bitter Almond",
+          "slug": "bitter-almond"
+        },
+        {
+          "href": "/nut-seeds/brazil-nut/",
+          "id": "food.nut-seed.tree-nuts.brazil-nut",
+          "name": "Brazil Nut",
+          "slug": "brazil-nut"
+        },
+        {
+          "href": "/nut-seeds/candlenut/",
+          "id": "food.nut-seed.tree-nuts.candlenut",
+          "name": "Candlenut",
+          "slug": "candlenut"
+        },
+        {
+          "href": "/nut-seeds/cashew/",
+          "id": "food.nut-seed.tree-nuts.cashew",
+          "name": "Cashew",
+          "slug": "cashew"
+        },
+        {
+          "href": "/nut-seeds/chestnut/",
+          "id": "food.nut-seed.tree-nuts.chestnut",
+          "name": "Chestnut",
+          "slug": "chestnut"
+        },
+        {
+          "href": "/nut-seeds/ginkgo-nut/",
+          "id": "food.nut-seed.tree-nuts.ginkgo-nut",
+          "name": "Ginkgo Nut",
+          "slug": "ginkgo-nut"
+        },
+        {
+          "href": "/nut-seeds/hazelnut/",
+          "id": "food.nut-seed.tree-nuts.hazelnut",
+          "name": "Hazelnut",
+          "slug": "hazelnut"
+        },
+        {
+          "href": "/nut-seeds/hickory-nut/",
+          "id": "food.nut-seed.tree-nuts.hickory-nut",
+          "name": "Hickory Nut",
+          "slug": "hickory-nut"
+        },
+        {
+          "href": "/nut-seeds/kola-nut/",
+          "id": "food.nut-seed.tree-nuts.kola-nut",
+          "name": "Kola Nut",
+          "slug": "kola-nut"
+        },
+        {
+          "href": "/nut-seeds/macadamia/",
+          "id": "food.nut-seed.tree-nuts.macadamia",
+          "name": "Macadamia",
+          "slug": "macadamia"
+        },
+        {
+          "href": "/nut-seeds/mongongo-nut/",
+          "id": "food.nut-seed.tree-nuts.mongongo-nut",
+          "name": "Mongongo Nut",
+          "slug": "mongongo-nut"
+        },
+        {
+          "href": "/nut-seeds/paradise-nut/",
+          "id": "food.nut-seed.tree-nuts.paradise-nut",
+          "name": "Paradise Nut",
+          "slug": "paradise-nut"
+        },
+        {
+          "href": "/nut-seeds/pecan/",
+          "id": "food.nut-seed.tree-nuts.pecan",
+          "name": "Pecan",
+          "slug": "pecan"
+        },
+        {
+          "href": "/nut-seeds/pili-nut/",
+          "id": "food.nut-seed.tree-nuts.pili-nut",
+          "name": "Pili Nut",
+          "slug": "pili-nut"
+        },
+        {
+          "href": "/nut-seeds/pine-nut/",
+          "id": "food.nut-seed.tree-nuts.pine-nut",
+          "name": "Pine Nut",
+          "slug": "pine-nut"
+        },
+        {
+          "href": "/nut-seeds/pistachio/",
+          "id": "food.nut-seed.tree-nuts.pistachio",
+          "name": "Pistachio",
+          "slug": "pistachio"
+        },
+        {
+          "href": "/nut-seeds/saba-nut/",
+          "id": "food.nut-seed.tree-nuts.saba-nut",
+          "name": "Saba Nut",
+          "slug": "saba-nut"
+        },
+        {
+          "href": "/nut-seeds/walnut/",
+          "id": "food.nut-seed.tree-nuts.walnut",
+          "name": "Walnut",
+          "slug": "walnut"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/nut-seed-groups/tree-nuts/",
+        "description": "Tree Nuts — 21 nuts & seeds in the Nut & Seed Ontology.",
+        "og_description": "Tree Nuts — 21 nuts & seeds in the Nut & Seed Ontology.",
+        "og_title": "Tree Nuts — Nut & Seed Group",
+        "title": "Tree Nuts — Nut & Seed Group"
+      },
+      "overview": {
+        "display_name": "Tree Nuts",
+        "food_count": 21,
+        "parent_category": {
+          "id": "food.nut-seed",
+          "name": "Nuts & Seeds",
+          "slug": "nut-seed"
+        }
+      },
+      "page_type": "nut_seed_group",
+      "projection_id": "food.nut-seed.tree-nuts",
+      "slug": "tree-nuts",
+      "usage_intensities_represented": [
+        "accent",
+        "luxury",
+        "primary"
+      ]
+    }
+  ]
+}

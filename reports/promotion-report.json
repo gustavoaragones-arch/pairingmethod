@@ -1,35 +1,35 @@
 {
   "domains": [
-    "fruit"
+    "nut-seed"
   ],
   "metrics": {
     "Overall result": "PASS",
     "Promotion targets": 6,
     "Validation errors": 0,
-    "fruit categories pages promoted": 1,
-    "fruit groups pages promoted": 7,
-    "fruit leaf pages promoted": 119
+    "nut-seed categories pages promoted": 1,
+    "nut-seed groups pages promoted": 6,
+    "nut-seed leaf pages promoted": 89
   },
   "overall_result": "PASS",
   "phase": "DEPLOY-01",
   "promoted": [
     {
-      "domain": "fruit",
-      "html_files": 119,
-      "source": "dist/fruits",
-      "target": "fruits"
+      "domain": "nut-seed",
+      "html_files": 89,
+      "source": "dist/nut-seeds",
+      "target": "nut-seeds"
     },
     {
-      "domain": "fruit",
-      "html_files": 7,
-      "source": "dist/fruit-groups",
-      "target": "fruit-groups"
+      "domain": "nut-seed",
+      "html_files": 6,
+      "source": "dist/nut-seed-groups",
+      "target": "nut-seed-groups"
     },
     {
-      "domain": "fruit",
+      "domain": "nut-seed",
       "html_files": 1,
-      "source": "dist/fruit-categories",
-      "target": "fruit-categories"
+      "source": "dist/nut-seed-categories",
+      "target": "nut-seed-categories"
     },
     {
       "html_files": 0,

@@ -1,0 +1,52 @@
+{
+  "builders": {
+    "category": [
+      "CollectionPage",
+      "BreadcrumbList",
+      "DefinedTermSet"
+    ],
+    "group": [
+      "CollectionPage",
+      "BreadcrumbList",
+      "DefinedTermSet"
+    ],
+    "leaf": [
+      "WebPage",
+      "BreadcrumbList",
+      "DefinedTerm",
+      "Taxon"
+    ]
+  },
+  "domain": "nut-seed",
+  "metrics": {
+    "Average objects per page": 3.93,
+    "Category schemas": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate @id": 0,
+    "Group schemas": 6,
+    "Invalid references": 0,
+    "JSON-LD objects emitted": 377,
+    "Leaf schemas": 89,
+    "Overall certification": "PASS",
+    "Overall result": "PASS",
+    "Schema types generated": 6,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/schema/nut-seed-schema.json",
+    "data/schema/nut-seed-group-schema.json",
+    "data/schema/nut-seed-category-schema.json"
+  ],
+  "overall_certification": "PASS",
+  "overall_result": "PASS",
+  "phase": "FOOD-10FC",
+  "schema_types": [
+    "BreadcrumbList",
+    "CollectionPage",
+    "DefinedTerm",
+    "DefinedTermSet",
+    "Taxon",
+    "WebPage"
+  ],
+  "validation_errors": []
+}

@@ -1,0 +1,24 @@
+{
+  "domain": "nut-seed",
+  "metrics": {
+    "Broken references": 0,
+    "Category search documents": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate documents": 0,
+    "Group search documents": 6,
+    "Indexed tokens": 239,
+    "Leaf search documents": 89,
+    "Overall result": "PASS",
+    "Suggestions": 96,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/search/nut-seed-search-index.json",
+    "data/search/nut-seed-group-search-index.json",
+    "data/search/nut-seed-category-search-index.json",
+    "data/search/nut-seed-search-suggestions.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-10FE",
+  "validation_errors": []
+}

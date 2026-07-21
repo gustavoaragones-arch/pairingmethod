@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "nut-seed",
+    "food_ontology_version": "1.7.0",
+    "phase": "FOOD-10FC",
+    "schema_count": 1,
+    "schema_type": "nut_seed_category"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/nut-seed-categories/nut-seed/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/nut-seed-categories/nut-seed/#collectionpage",
+          "@type": "CollectionPage",
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/nut-seed-categories/nut-seed/#breadcrumb"
+          },
+          "description": "Nuts & Seeds — 6 groups and 89 nuts & seeds.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Nuts & Seeds — Nut & Seed Category",
+          "url": "https://pairingmethod.com/nut-seed-categories/nut-seed/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/nut-seed-categories/nut-seed/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/nut-seeds/",
+              "name": "Nuts & Seeds",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/nut-seed-categories/nut-seed/",
+              "name": "Nuts & Seeds",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/nut-seed-categories/nut-seed/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "nut-seed",
+          "description": "Nuts & Seeds — 6 groups and 89 nuts & seeds.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/nut-seed-groups/edible-seeds/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.nut-seed.edible-seeds",
+              "name": "Edible Seeds",
+              "numberOfTerms": 24,
+              "url": "https://pairingmethod.com/nut-seed-groups/edible-seeds/"
+            },
+            {
+              "@id": "https://pairingmethod.com/nut-seed-groups/nut-products/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.nut-seed.nut-products",
+              "name": "Nut Products",
+              "numberOfTerms": 18,
+              "url": "https://pairingmethod.com/nut-seed-groups/nut-products/"
+            },
+            {
+              "@id": "https://pairingmethod.com/nut-seed-groups/peanuts/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.nut-seed.peanuts",
+              "name": "Peanuts",
+              "numberOfTerms": 1,
+              "url": "https://pairingmethod.com/nut-seed-groups/peanuts/"
+            },
+            {
+              "@id": "https://pairingmethod.com/nut-seed-groups/seed-products/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.nut-seed.seed-products",
+              "name": "Seed Products",
+              "numberOfTerms": 16,
+              "url": "https://pairingmethod.com/nut-seed-groups/seed-products/"
+            },
+            {
+              "@id": "https://pairingmethod.com/nut-seed-groups/seed-spices/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.nut-seed.seed-spices",
+              "name": "Seed Spices",
+              "numberOfTerms": 9,
+              "url": "https://pairingmethod.com/nut-seed-groups/seed-spices/"
+            },
+            {
+              "@id": "https://pairingmethod.com/nut-seed-groups/tree-nuts/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.nut-seed.tree-nuts",
+              "name": "Tree Nuts",
+              "numberOfTerms": 21,
+              "url": "https://pairingmethod.com/nut-seed-groups/tree-nuts/"
+            }
+          ],
+          "identifier": "food.nut-seed",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Nut & Seed Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Nuts & Seeds",
+          "numberOfTerms": 89,
+          "url": "https://pairingmethod.com/nut-seed-categories/nut-seed/"
+        }
+      ],
+      "projection_id": "food.nut-seed",
+      "slug": "nut-seed"
+    }
+  ]
+}

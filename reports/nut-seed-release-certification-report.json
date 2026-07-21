@@ -1,0 +1,33 @@
+{
+  "deployment_gate": true,
+  "domain": "nut-seed",
+  "metrics": {
+    "Broken navigation links": 0,
+    "HTML pages": 96,
+    "Overall result": "PASS",
+    "Publication entities": 96,
+    "Search suggestions": 96,
+    "Sitemap URLs": 96,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "dist/release-manifest.json",
+    "reports/nut-seed-release-certification-report.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-10FI",
+  "platform_audit": {
+    "overall": "PASS",
+    "platform_modifications_required": 0,
+    "shared_publication_pipeline_reused_percent": 100
+  },
+  "release_summary": {
+    "canonicalNutSeeds": 89,
+    "editorialRelationships": 284,
+    "publicationPages": 96,
+    "runtimeRelationships": 2727,
+    "wineRelationships": 215
+  },
+  "validation_errors": [],
+  "warnings": []
+}

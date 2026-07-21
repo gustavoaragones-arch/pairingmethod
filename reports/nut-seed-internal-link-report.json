@@ -1,0 +1,22 @@
+{
+  "domain": "nut-seed",
+  "metrics": {
+    "Broken links": 0,
+    "Category link sets": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate links": 0,
+    "Group link sets": 6,
+    "Leaf link sets": 89,
+    "Overall result": "PASS",
+    "Total internal links": 817,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/navigation/nut-seed-links.json",
+    "data/navigation/nut-seed-group-links.json",
+    "data/navigation/nut-seed-category-links.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-10FD",
+  "validation_errors": []
+}

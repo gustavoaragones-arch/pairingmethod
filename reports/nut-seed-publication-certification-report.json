@@ -1,0 +1,81 @@
+{
+  "domain": "nut-seed",
+  "layer_results": {
+    "cross_layer": {
+      "complete_chains": 96,
+      "entities": 96,
+      "overall": 100
+    },
+    "determinism": {
+      "artifacts_checked": 16,
+      "artifacts_passing": 16,
+      "overall": 100
+    },
+    "json_ld": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "navigation": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "projections": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "relationships": {
+      "consumed_by_publication": 514,
+      "editorial_edges": 284,
+      "overall": 100,
+      "pairing_edges": 215,
+      "structural_edges": 2727
+    },
+    "search": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "viewmodels": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    }
+  },
+  "metrics": {
+    "Categories certified": 1,
+    "Errors": 0,
+    "Groups certified": 6,
+    "Nuts & Seeds certified": 89,
+    "Overall certification": "PASS",
+    "Publication layers": 8,
+    "Validation rules executed": 52,
+    "Warnings": 0
+  },
+  "outputs": [
+    "reports/nut-seed-publication-certification-report.json",
+    "reports/nut-seed-publication-coverage-report.json"
+  ],
+  "overall_certification": "PASS",
+  "phase": "FOOD-10F",
+  "publication_layers": [
+    "projections",
+    "viewmodels",
+    "json_ld",
+    "navigation",
+    "search",
+    "relationships",
+    "cross_layer",
+    "determinism"
+  ],
+  "release_gate": true,
+  "validation_errors": [],
+  "warnings": []
+}

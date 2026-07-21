@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "nut-seed",
+    "food_ontology_version": "1.7.0",
+    "phase": "FOOD-10FA",
+    "projection_count": 1,
+    "projection_type": "nut_seed_category"
+  },
+  "projections": [
+    {
+      "food_count": 89,
+      "group_count": 6,
+      "groups": [
+        {
+          "id": "food.nut-seed.edible-seeds",
+          "name": "Edible Seeds",
+          "slug": "edible-seeds"
+        },
+        {
+          "id": "food.nut-seed.nut-products",
+          "name": "Nut Products",
+          "slug": "nut-products"
+        },
+        {
+          "id": "food.nut-seed.peanuts",
+          "name": "Peanuts",
+          "slug": "peanuts"
+        },
+        {
+          "id": "food.nut-seed.seed-products",
+          "name": "Seed Products",
+          "slug": "seed-products"
+        },
+        {
+          "id": "food.nut-seed.seed-spices",
+          "name": "Seed Spices",
+          "slug": "seed-spices"
+        },
+        {
+          "id": "food.nut-seed.tree-nuts",
+          "name": "Tree Nuts",
+          "slug": "tree-nuts"
+        }
+      ],
+      "identity": {
+        "id": "food.nut-seed",
+        "name": "Nuts & Seeds",
+        "slug": "nut-seed"
+      }
+    }
+  ]
+}
