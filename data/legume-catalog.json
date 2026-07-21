@@ -1,0 +1,420 @@
+{
+  "categories": [
+    {
+      "child_slugs": [
+        "beans",
+        "peas",
+        "lentils",
+        "chickpeas",
+        "other-legumes",
+        "legume-products"
+      ],
+      "domain": "culinary",
+      "entity_type": "legume_category",
+      "external_ids": {},
+      "id": "food.legume",
+      "introduction": "The Legume Ontology catalogs canonical culinary legumes, pulses, beans, peas, lentils, chickpeas, and legume-derived ingredients used worldwide in cooking. This domain models culinary ingredients, not botanical taxonomy, prepared meals, snack products, or beverages.",
+      "name": "Legumes",
+      "scientific_name": "",
+      "seo_description": "Explore canonical culinary legumes and pulses by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+      "seo_title": "Legumes — Food Ontology",
+      "slug": "legume",
+      "summary": "Canonical culinary legumes across six immutable groups: Beans, Peas, Lentils, Chickpeas, Other Legumes, and Legume Products."
+    }
+  ],
+  "groups": [
+    {
+      "child_slugs": [],
+      "culinary_group": "beans",
+      "domain": "culinary",
+      "entity_type": "legume_group",
+      "external_ids": {},
+      "id": "food.legume.beans",
+      "introduction": "Beans in the Legume Ontology — dried and fresh culinary beans used in stews, soups, and global pulse cookery, including kidney bean, black bean, pinto bean, navy bean, and cannellini bean.",
+      "name": "Beans",
+      "parent_category": "legume",
+      "scientific_name": "",
+      "seo_description": "Canonical beans — kidney bean, black bean, pinto bean, and related culinary legume ingredients in the PairingMethod Legume Ontology.",
+      "seo_title": "Beans — Legume Ontology",
+      "slug": "beans",
+      "summary": "Beans — canonical culinary bean ingredients in the Legume Ontology (population deferred to FOOD-11B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "peas",
+      "domain": "culinary",
+      "entity_type": "legume_group",
+      "external_ids": {},
+      "id": "food.legume.peas",
+      "introduction": "Peas in the Legume Ontology — fresh and dried peas used in soups, sides, and global pulse cookery, including green pea and split pea.",
+      "name": "Peas",
+      "parent_category": "legume",
+      "scientific_name": "",
+      "seo_description": "Canonical peas — green pea, split pea, and related culinary legume ingredients in the PairingMethod Legume Ontology.",
+      "seo_title": "Peas — Legume Ontology",
+      "slug": "peas",
+      "summary": "Peas — canonical culinary pea ingredients in the Legume Ontology (population deferred to FOOD-11B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "lentils",
+      "domain": "culinary",
+      "entity_type": "legume_group",
+      "external_ids": {},
+      "id": "food.legume.lentils",
+      "introduction": "Lentils in the Legume Ontology — dried lentils used in dal, soups, and global pulse cookery, including green lentil, red lentil, and brown lentil.",
+      "name": "Lentils",
+      "parent_category": "legume",
+      "scientific_name": "",
+      "seo_description": "Canonical lentils — green lentil, red lentil, and related culinary legume ingredients in the PairingMethod Legume Ontology.",
+      "seo_title": "Lentils — Legume Ontology",
+      "slug": "lentils",
+      "summary": "Lentils — canonical culinary lentil ingredients in the Legume Ontology (population deferred to FOOD-11B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "chickpeas",
+      "domain": "culinary",
+      "entity_type": "legume_group",
+      "external_ids": {},
+      "id": "food.legume.chickpeas",
+      "introduction": "Chickpeas in the Legume Ontology — chickpeas used in hummus, stews, and global pulse cookery.",
+      "name": "Chickpeas",
+      "parent_category": "legume",
+      "scientific_name": "",
+      "seo_description": "Canonical chickpeas — garbanzo beans and related culinary legume ingredients in the PairingMethod Legume Ontology.",
+      "seo_title": "Chickpeas — Legume Ontology",
+      "slug": "chickpeas",
+      "summary": "Chickpeas — canonical culinary chickpea ingredients in the Legume Ontology (population deferred to FOOD-11B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "other_legumes",
+      "domain": "culinary",
+      "entity_type": "legume_group",
+      "external_ids": {},
+      "id": "food.legume.other-legumes",
+      "introduction": "Other legumes in the Legume Ontology — whole culinary legumes not governed by the Beans, Peas, Lentils, or Chickpeas groups, including soybean (provisional ownership), mung bean, adzuki bean, and lupin bean.",
+      "name": "Other Legumes",
+      "parent_category": "legume",
+      "scientific_name": "",
+      "seo_description": "Canonical other legumes — soybean, mung bean, and related culinary legume ingredients in the PairingMethod Legume Ontology.",
+      "seo_title": "Other Legumes — Legume Ontology",
+      "slug": "other-legumes",
+      "summary": "Other Legumes — canonical whole legume ingredients in the Legume Ontology (population deferred to FOOD-11B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "legume_products",
+      "domain": "culinary",
+      "entity_type": "legume_group",
+      "external_ids": {},
+      "id": "food.legume.legume-products",
+      "introduction": "Legume products in the Legume Ontology — processed legume forms with independent culinary identity per LEGUME-002, including chickpea flour, bean flours, tofu, tempeh, and miso.",
+      "name": "Legume Products",
+      "parent_category": "legume",
+      "scientific_name": "",
+      "seo_description": "Canonical legume products — chickpea flour, tofu, tempeh, and related processed legume ingredients in the PairingMethod Legume Ontology.",
+      "seo_title": "Legume Products — Legume Ontology",
+      "slug": "legume-products",
+      "summary": "Legume Products — canonical processed legume ingredients in the Legume Ontology (population deferred to FOOD-11B)."
+    }
+  ],
+  "legumes": [],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "category_count": 1,
+    "description": "Legume Ontology — governance shell only (FOOD-11A). Entity population deferred to FOOD-11B.",
+    "domain": "legume",
+    "entity_count": 0,
+    "entity_type": "legume",
+    "food_ontology_version": "1.8.0",
+    "freeze_label": "Legume Governance Frozen v1.0.0",
+    "freeze_phase": "FOOD-11A",
+    "governance_status": "frozen",
+    "group_count": 6,
+    "ontology_foundation_version": "1.0.0",
+    "phase": "FOOD-11A",
+    "platform_version": "1.0.0",
+    "seeded": "2026-07-20",
+    "tier": 2,
+    "wine_ontology_version": "2.0"
+  },
+  "schema": {
+    "controlled_vocabularies": {
+      "aroma_profile": {
+        "cardinality": "array",
+        "description": "Reserved aroma characteristic tags — vocabulary frozen in FOOD-11A; do not populate until post-FOOD-11B curation standards.",
+        "populate_from_phase": "FOOD-11C",
+        "values": [
+          "earthy",
+          "fermented",
+          "beany",
+          "neutral",
+          "herbal",
+          "smoky"
+        ]
+      },
+      "canonical_culinary_groups": {
+        "description": "Immutable group names and slugs — do not rename or add peer groups in v1.",
+        "immutable": true,
+        "values": [
+          {
+            "culinary_group": "beans",
+            "name": "Beans",
+            "slug": "beans"
+          },
+          {
+            "culinary_group": "peas",
+            "name": "Peas",
+            "slug": "peas"
+          },
+          {
+            "culinary_group": "lentils",
+            "name": "Lentils",
+            "slug": "lentils"
+          },
+          {
+            "culinary_group": "chickpeas",
+            "name": "Chickpeas",
+            "slug": "chickpeas"
+          },
+          {
+            "culinary_group": "other_legumes",
+            "name": "Other Legumes",
+            "slug": "other-legumes"
+          },
+          {
+            "culinary_group": "legume_products",
+            "name": "Legume Products",
+            "slug": "legume-products"
+          }
+        ]
+      },
+      "culinary_group": {
+        "description": "Canonical Culinary Group value on leaf entities — aligns to immutable group slugs.",
+        "immutable": true,
+        "values": [
+          "beans",
+          "peas",
+          "lentils",
+          "chickpeas",
+          "other_legumes",
+          "legume_products"
+        ]
+      },
+      "flavor_profile": {
+        "cardinality": "array",
+        "description": "Reserved flavor characteristic tags — vocabulary frozen in FOOD-11A; do not populate until post-FOOD-11B curation standards.",
+        "populate_from_phase": "FOOD-11C",
+        "values": [
+          "earthy",
+          "nutty",
+          "sweet",
+          "mild",
+          "umami",
+          "beany",
+          "neutral"
+        ]
+      },
+      "texture_profile": {
+        "cardinality": "array",
+        "description": "Reserved texture characteristic tags — vocabulary frozen in FOOD-11A; do not populate until post-FOOD-11B curation standards.",
+        "populate_from_phase": "FOOD-11C",
+        "values": [
+          "creamy",
+          "firm",
+          "mealy",
+          "powdery",
+          "split",
+          "whole",
+          "chewy"
+        ]
+      },
+      "usage_intensity": {
+        "description": "Intrinsic culinary prominence in dish composition — not Pairing Engine reasoning.",
+        "immutable": true,
+        "values": [
+          "primary",
+          "accent",
+          "luxury"
+        ]
+      }
+    },
+    "domain_contract": "Food Ontology Platform v1.0.0",
+    "domain_exclusions": {
+      "beverages": "Legume beverages and plant milks — reserved; out of domain v1",
+      "cheese": "FOOD-04",
+      "fruit": "FOOD-09",
+      "fungi": "FOOD-06",
+      "grain_starch": "FOOD-08 — cereal and pseudocereal flours",
+      "herbs_spices": "FOOD-07 — mustard seed and whole spice entities",
+      "note": "Entities in these domains are cross-referenced by canonical ID only — never duplicated intrinsically.",
+      "nut_seed": "FOOD-10 — peanut and sesame; not legume culinary identity",
+      "prepared_foods": "Prepared meals, snack products, and composed dishes — not ingredient ontology",
+      "protein_foods": "FOOD-01 / FOOD-14 — legacy legumes and soy groups superseded at publication",
+      "sauces": "FOOD-13",
+      "sprouts": "Reserved — distinct culinary identity; not v1 unless governance amendment",
+      "sweet_flavor": "FOOD-12"
+    },
+    "entity_types": {
+      "legume": {
+        "description": "Canonical culinary legume, pulse, or legume-derived ingredient with frozen intrinsic metadata.",
+        "id_example": "food.legume.beans.kidney-bean",
+        "optional_fields": [
+          "aliases",
+          "common_names",
+          "beginner_notes",
+          "faq",
+          "typical_descriptors",
+          "wine_pairings",
+          "avoid_wine_pairings",
+          "related_styles",
+          "related_descriptors",
+          "related_techniques",
+          "similar_legumes",
+          "substitutions",
+          "commonly_served_with",
+          "common_preparations"
+        ],
+        "required_fields": [
+          "id",
+          "slug",
+          "display_name",
+          "entity_type",
+          "domain",
+          "parent_group",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "catalog_version",
+          "food_ontology_version",
+          "culinary_group",
+          "usage_intensity",
+          "flavor_profile",
+          "texture_profile",
+          "aroma_profile",
+          "aliases",
+          "common_names",
+          "origin_context",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "legume_category": {
+        "description": "Top-level legume domain hub (single category in v1).",
+        "id_example": "food.legume",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "legume_group": {
+        "description": "Canonical Culinary Group (Beans, Lentils, Legume Products, etc.).",
+        "id_example": "food.legume.beans",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description",
+          "culinary_group"
+        ]
+      }
+    },
+    "governance_rules": {
+      "botanical_ownership_rule": {
+        "id": "BOTAN-001",
+        "note": "Suite rule — applies when botanical lineage diverges from culinary identity.",
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      },
+      "culinary_classification_rule": {
+        "description": "Cross-domain reference — peanut remains Nut & Seed per NUT-001; legumes do not reclassify peanut.",
+        "id": "NUT-001",
+        "reference": "docs/NUT_SEED_GOVERNANCE.md"
+      },
+      "culinary_form_ownership_rule": {
+        "description": "Cross-domain fruit processed forms — referenced for suite discipline; does not govern Legume entities.",
+        "id": "FRUIT-001",
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      },
+      "culinary_ownership_rule": {
+        "description": "Canonical ownership follows established culinary ingredient identity.",
+        "frozen_phase": "FOOD-11A",
+        "id": "LEGUME-001",
+        "immutable": true,
+        "reference": "docs/LEGUME_GOVERNANCE.md §7"
+      },
+      "functional_pairing_rule": {
+        "id": "STARCH-001",
+        "note": "Suite wine-pairing rule — referenced for completeness; FOOD-11E may introduce domain pairing rule.",
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      },
+      "processed_product_rule": {
+        "description": "A processed legume becomes a separate canonical ingredient only when it possesses an independent culinary identity.",
+        "frozen_phase": "FOOD-11A",
+        "id": "LEGUME-002",
+        "immutable": true,
+        "reference": "docs/LEGUME_GOVERNANCE.md §8"
+      },
+      "processed_product_rule_nut_seed": {
+        "description": "Suite processed-product baseline — LEGUME-002 extends for legume domain.",
+        "id": "NUT-002",
+        "reference": "docs/NUT_SEED_GOVERNANCE.md"
+      },
+      "processing_ownership_rule": {
+        "description": "When processing creates a distinct canonical culinary ingredient versus a preparation state or alias.",
+        "id": "PROC-001",
+        "immutable": true,
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      }
+    },
+    "identity_contract": {
+      "canonical_entity_rule": "CANON-001",
+      "category_id_pattern": "^food\\.legume$",
+      "display_name_mutable": true,
+      "entity_id_pattern": "^food\\.legume\\.[a-z0-9-]+\\.[a-z0-9-]+$",
+      "external_ids_required": true,
+      "global_recognition_rule": "CANON-002",
+      "group_id_pattern": "^food\\.legume\\.[a-z0-9-]+$",
+      "id_immutable": true,
+      "ids_never_recycled": true,
+      "namespace": "food.legume",
+      "per_entity_version_fields": {
+        "catalog_version": "1.0.0",
+        "food_ontology_version": "1.8.0"
+      },
+      "required_identity_fields": [
+        "id",
+        "slug",
+        "display_name",
+        "scientific_name",
+        "external_ids"
+      ],
+      "scientific_name_mutable": false,
+      "scientific_name_semantics": "primary_botanical_species_for_culinary_identity",
+      "slug_mutable": true
+    },
+    "taxonomy_note": "Groups represent culinary identity and culinary form, not botanical families. See docs/LEGUME_GOVERNANCE.md.",
+    "taxonomy_principle": "canonical_culinary_groups"
+  }
+}
