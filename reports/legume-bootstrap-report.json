@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-07-21T01:32:31.630Z",
+  "phase": "FOOD-11B",
+  "domain": "legume",
+  "entity_count": 75,
+  "counts_by_group": {
+    "beans": 26,
+    "peas": 8,
+    "lentils": 9,
+    "chickpeas": 3,
+    "other-legumes": 12,
+    "legume-products": 17
+  },
+  "catalog_path": "data/legume-catalog.json",
+  "audit_script": "scripts/catalog-audit-legume-11b.mjs",
+  "canonical_entity_rule": "CANON-001 — preparation and trade-name splits are aliases, not entities",
+  "global_recognition_rule": "CANON-002 — globally recognizable culinary ingredients only",
+  "botanical_ownership_rule": "BOTAN-001 — culinary identity over botanical taxonomy",
+  "processing_ownership_rule": "PROC-001 — separate entities when processing changes culinary identity",
+  "culinary_ownership_rule": "LEGUME-001 — canonical ownership by established culinary identity",
+  "processed_product_rule": "LEGUME-002 — separate entities only for independent culinary identity",
+  "nut_classification_rule": "NUT-001 — peanut remains Nut & Seed; not duplicated here",
+  "soy_product_policy": "Tofu, tempeh, miso, soy flour in Legume Products; soy milk and soy sauce excluded",
+  "profile_arrays_policy": "flavor_profile, texture_profile, aroma_profile reserved empty",
+  "relationship_policy": "all relationship arrays empty"
+}
