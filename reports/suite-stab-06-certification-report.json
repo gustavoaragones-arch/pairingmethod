@@ -1,0 +1,105 @@
+{
+  "phase": "SUITE-STAB-06",
+  "type": "governance_audit",
+  "baseline_tag": "food-ontology-suite-v1.7.0",
+  "certification_tag": "food-ontology-suite-v1.8.0",
+  "date": "2026-07-29",
+  "overall_result": "PASS",
+  "published_domains": 9,
+  "suite_metrics": {
+    "canonical_entities": 1000,
+    "runtime_relationships": 102697,
+    "editorial_relationships": 1739,
+    "wine_relationships": 1375,
+    "publication_pages": 1071,
+    "publication_pages_v170": 989,
+    "legume_publication_pages_added": 82
+  },
+  "architecture": {
+    "declarative": true,
+    "deterministic": true,
+    "shared_publication_pipeline": true,
+    "four_layer_knowledge_model": true,
+    "platform_modifications": 0,
+    "shared_infrastructure_extensions": 1,
+    "shared_infrastructure_extension_detail": "runtime-loader.js legume layout branch; links.js and certify-publication.js route relationship loading through loadDomainInputs",
+    "renderer_regressions": 0,
+    "publication_regressions": 0,
+    "ready_for_release": true
+  },
+  "audits": {
+    "STAB-06.1_release_metrics_reconciliation": {
+      "result": "PASS",
+      "checks": 5,
+      "errors": 0
+    },
+    "STAB-06.2_domain_registration_audit": {
+      "result": "PASS",
+      "checks": 6,
+      "errors": 0
+    },
+    "STAB-06.3_knowledge_layer_architecture": {
+      "result": "PASS",
+      "split_artifact_domains": 8,
+      "consolidated_runtime_domains": 1,
+      "errors": 0
+    },
+    "STAB-06.4_governance_audit": {
+      "result": "PASS",
+      "rules_verified": [
+        "CANON-001",
+        "CANON-002",
+        "BOTAN-001",
+        "PROC-001",
+        "FRUIT-001",
+        "NUT-001",
+        "NUT-002",
+        "LEGUME-001",
+        "LEGUME-002",
+        "LEGUME-PAIR-001"
+      ],
+      "ownership_conflicts": 0,
+      "errors": 0
+    },
+    "STAB-06.5_cross_domain_reference_audit": {
+      "result": "PASS",
+      "slug_based_forward_refs": 0,
+      "wine_orphan_refs": 0,
+      "forward_refs_to_future_domains": 18,
+      "errors": 0
+    },
+    "STAB-06.6_publication_audit": {
+      "result": "PASS",
+      "domains_publication_pass": 9,
+      "domains_release_pass": 9,
+      "legume_internal_links": 781,
+      "legume_broken_links": 0,
+      "legume_json_ld_blocks": 321,
+      "legume_sitemap_urls": 82,
+      "legume_deployment_smoke_tests": "17/17",
+      "errors": 0
+    },
+    "STAB-06.7_shared_infrastructure_audit": {
+      "result": "PASS",
+      "loader_enhancement_isolated": true,
+      "renderer_branching": false,
+      "publication_branching": false,
+      "stage_runner_modifications": false,
+      "domain_specific_publication_logic": false,
+      "files_changed_since_v170_shared_infra": [
+        "lib/food-publication/runtime-loader.js",
+        "lib/food-publication/links.js",
+        "lib/food-publication/certify-publication.js"
+      ],
+      "errors": 0
+    },
+    "STAB-06.8_regression_audit": {
+      "result": "PASS",
+      "first_eight_domains_release_certification": "PASS",
+      "unintended_pipeline_drift": false,
+      "deterministic_builds": true,
+      "errors": 0
+    }
+  },
+  "recommendation": "Tag food-ontology-suite-v1.8.0"
+}

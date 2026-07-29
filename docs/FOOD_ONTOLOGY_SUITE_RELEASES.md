@@ -22,7 +22,7 @@ This principle has been followed in practice since Protein FOOD-02C. FOOD-06C ma
 
 ### Knowledge layer separation (suite-wide)
 
-Proven across eight domains (Protein, Cheese, Vegetables, Fungi, Herb & Spice, Grain & Starch, Fruit, Nut & Seed):
+Proven across nine domains (Protein, Cheese, Vegetables, Fungi, Herb & Spice, Grain & Starch, Fruit, Nut & Seed, Legume):
 
 | Layer | Source | Modified at publication? |
 |-------|--------|--------------------------|
@@ -167,11 +167,49 @@ Wine recommendations for nut and seed ingredients must follow the ingredient's *
 
 **Introduced:** Nut & Seed FOOD-10E · **Applies** to wine pairing layers where processed nut and seed forms retain distinct kitchen identities per NUT-002.
 
+### LEGUME-001 — Culinary Ownership Rule
+
+When botanical classification and established culinary classification diverge, the Legume Ontology follows **culinary identity and immutable group assignment** — not botanical taxonomy alone.
+
+| Culinary ownership | Example |
+|--------------------|---------|
+| Beans group | Kidney bean, black bean, navy bean — stew and braise kitchen identity |
+| Legume Products group | Tofu, tempeh, miso, chickpea flour — independent processed identities |
+| Excluded from Legume | Peanut — owned exclusively by Nut & Seed (NUT-001) |
+
+LEGUME-001 governs **which immutable group** receives an entity and **which domain owns** the canonical ingredient. It does **not** permit duplicating entities owned by another domain.
+
+**Introduced:** Legume FOOD-11A · **Compatible with** CANON-001, NUT-001, and suite cross-domain ownership policy.
+
+### LEGUME-002 — Processed Product Rule
+
+When a legume exists in multiple culinary processing states, governance decides whether a processed form is a **new canonical culinary ingredient** or merely a **preparation state / alias**, following **independent culinary function** — not preparation method alone.
+
+| Separate canonical entities | Alias / preparation state only |
+|----------------------------|--------------------------------|
+| Chickpea → Chickpea Flour | Canned beans → alias on governing dried bean |
+| Soybean → Tofu · Tempeh · Miso | Mashed beans → alias on governing bean entity |
+| Fava Bean → Fava Bean Flour | Cooked chickpeas → alias on Chickpea |
+
+**Introduced:** Legume FOOD-11A · **Extends** PROC-001 for legume-derived products.
+
+### LEGUME-PAIR-001 — Culinary Function Pairing Rule
+
+Wine recommendations for legume ingredients must follow the ingredient's **culinary function in the finished dish**, not botanical classification or whole-form pairing inheritance alone.
+
+| Pairing basis | Examples |
+|---------------|----------|
+| Culinary function in context | Lentil → dal and braise context; chickpea → hummus and stew |
+| Processed-form identity | Tofu → neutral protein canvas; miso → fermented umami; chickpea flour → besan baking |
+| No whole-form inheritance | Chickpea flour does not inherit whole chickpea pairings; tofu pairs by neutral-protein role, not soybean |
+
+**Introduced:** Legume FOOD-11E · **Applies** to wine pairing layers where processed legume forms retain distinct kitchen identities per LEGUME-002.
+
 ---
 
 ## Ontology Lifecycle (Suite Standard)
 
-Every published domain follows the **identical six-phase lifecycle**. Phase prefixes differ by domain (`FOOD-02`/`ONTOLOGY-02` for Protein, `FOOD-04` for Cheese, `FOOD-05` for Vegetable, `FOOD-06` for Fungi, `FOOD-07` for Herb & Spice, `FOOD-08` for Grain & Starch, `FOOD-09` for Fruit, `FOOD-10` for Nut & Seed) but the stages are the same:
+Every published domain follows the **identical six-phase lifecycle**. Phase prefixes differ by domain (`FOOD-02`/`ONTOLOGY-02` for Protein, `FOOD-04` for Cheese, `FOOD-05` for Vegetable, `FOOD-06` for Fungi, `FOOD-07` for Herb & Spice, `FOOD-08` for Grain & Starch, `FOOD-09` for Fruit, `FOOD-10` for Nut & Seed, `FOOD-11` for Legume) but the stages are the same:
 
 | Stage | Letter | Scope |
 |-------|--------|-------|
@@ -182,7 +220,7 @@ Every published domain follows the **identical six-phase lifecycle**. Phase pref
 | Wine Pairings | E | Curated pairings (separate artifact) |
 | Publication | F | Platform consumption only — no artifact editing |
 
-**No domain-specific lifecycle exceptions** exist among the eight published domains.
+**No domain-specific lifecycle exceptions** exist among the nine published domains.
 
 ---
 
@@ -204,15 +242,16 @@ Domain governance documents define **domain-specific** rules only. Suite-wide in
 
 Every suite release note includes this table. It reinforces the primary architectural achievement since Platform v1.0.0: **each new domain increases knowledge, not platform complexity.**
 
-| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 | v1.4.0 | v1.5.0 | v1.6.0 | v1.7.0 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| Published ontology domains | 1 | 2 | 3 | 4 | 5 | 6 | 7 | **8** |
-| Canonical entities (leaf) | 207 | 411 | 485 | 528 | 641 | 717 | 836 | **925** |
-| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | ~85,500+ | ~91,900 | ~93,800 | ~97,900 | **~100,600** |
-| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | ~370 | ~650 | ~840 | ~1,175 | **~1,460** |
-| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | ~300 | ~520 | ~700 | ~960 | **~1,180** |
-| Publication lifecycle reuse | 100% | 100% | 100% | 100% | 100% | 100% | 100% | **100%** |
-| Platform modifications required | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 | v1.4.0 | v1.5.0 | v1.6.0 | v1.7.0 | v1.8.0 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Published ontology domains | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | **9** |
+| Canonical entities (leaf) | 207 | 411 | 485 | 528 | 641 | 717 | 836 | 925 | **1,000** |
+| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | ~85,500+ | ~91,900 | ~93,800 | ~97,900 | ~100,600 | **~102,700** |
+| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | ~370 | ~650 | ~840 | ~1,175 | ~1,460 | **~1,740** |
+| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | ~300 | ~520 | ~700 | ~960 | ~1,180 | **~1,375** |
+| Publication lifecycle reuse | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | **100%** |
+| Platform modifications required | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| Shared infrastructure extensions | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **1** |
 
 *Edge counts are measured from certified runtime artifacts at release time (structural + intrinsic similarity layers for runtime; editorial and wine layers reported separately).*
 
@@ -223,6 +262,248 @@ Every suite release note includes this table. It reinforces the primary architec
 **Certified totals at v1.6.0 (exact):** runtime structural 97,856 · editorial 1,175 · wine pairings 961 · leaf entities 836.
 
 **Certified totals at v1.7.0 (exact):** runtime structural 100,583 · editorial 1,459 · wine pairings 1,176 · leaf entities 925.
+
+**Certified totals at v1.8.0 (exact):** runtime structural 102,697 · editorial 1,739 · wine pairings 1,375 · leaf entities 1,000 · publication pages 1,071.
+
+*Shared infrastructure extension at v1.8.0: one documented, minimal enhancement to `runtime-loader.js` plus routing through `loadDomainInputs` in `links.js` and `certify-publication.js` — supports consolidated runtime inputs without affecting renderer or publication semantics.*
+
+---
+
+## v1.8.0 — Legume
+
+**Tag:** `food-ontology-suite-v1.8.0`  
+**Commit:** FOOD-11F — Publish Legume Ontology  
+**Date:** July 29, 2026
+
+### Published domains
+
+| Domain | Catalog version | Leaf entities | Publication paths |
+|--------|-----------------|---------------|-------------------|
+| Protein Foods | 1.0.0 | 207 | `/foods/` |
+| Cheeses | 1.0.0 | 204 | `/cheeses/` |
+| Vegetables | 1.0.0 | 74 | `/vegetables/` |
+| Fungi | 1.0.0 | 43 | `/fungi/` |
+| Herb & Spice | 1.0.0 | 113 | `/herbs-spices/` |
+| Grain & Starch | 1.0.0 | 76 | `/grains-starches/` |
+| Fruit | 1.0.0 | 119 | `/fruits/` |
+| Nut & Seed | 1.0.0 | 89 | `/nut-seeds/` |
+| Legume | 1.0.0 | 75 | `/legumes/` |
+
+**Suite total:** 1,000 canonical leaf entities · 82 new legume pages (75 leaf + 6 groups + 1 category hub)
+
+### FOOD-11 release certification
+
+| Metric | FOOD-11 |
+|--------|--------:|
+| Canonical legume entities | 75 |
+| Runtime relationships | 2,114 |
+| Editorial relationships | 280 |
+| Wine relationships | 199 |
+| Publication pages | 82 |
+| Platform modifications required | 0 |
+| Shared infrastructure extensions | 1 |
+| Shared publication pipeline reused | 100% |
+
+### Milestone significance
+
+FOOD-11F validates the generalized publication platform across a **ninth independent domain** with no renderer or stage-runner redesign. LEGUME-001 culinary ownership (peanut excluded; culinary group assignment authoritative), LEGUME-002 processed-product identity (tofu, miso, natto, chickpea flour as distinct entities), and LEGUME-PAIR-001 culinary-function wine pairing were absorbed entirely within the knowledge layer. FOOD-11F integrated through declarative domain configuration and `taxonomy-legume-render.js` only.
+
+Legume introduces a **consolidated runtime artifact** (`legume-runtime.json`) rather than split relationship files. Both layouts satisfy the same publication interface through `loadDomainInputs` — one documented shared infrastructure extension, not a pipeline rewrite.
+
+### Platform status at v1.8.0
+
+Publication architecture, runtime architecture, certification pipeline, deployment pipeline, and the six-phase governance lifecycle remain **feature-complete and frozen**. Architectural changes require exceptional justification.
+
+### Next planned work
+
+**SUITE-STAB-06** stabilization checkpoint (completed — see below), then **FOOD-12** (from tag `food-ontology-suite-v1.8.0`; see POSTER_COVERAGE.md).
+
+---
+
+## SUITE-STAB-06 — Food Ontology Suite Stabilization (Post-v1.8.0)
+
+**Date:** July 29, 2026  
+**Baseline tag:** `food-ontology-suite-v1.7.0`  
+**Certification tag:** `food-ontology-suite-v1.8.0`  
+**Type:** Governance audit — not a versioned release  
+**Overall result:** **PASS**
+
+Post-v1.8.0 checkpoint certifying that the publication platform successfully absorbed a ninth domain (75 leaf entities · 2,114 runtime edges) while preserving suite architectural guarantees. No runtime, catalog, relationship, or publication artifact changes were made in this audit.
+
+| Audit | Scope | Result |
+|-------|-------|--------|
+| STAB-06.1 — Release Metrics Reconciliation | v1.8.0 cumulative totals vs certified runtime artifacts | **PASS** |
+| STAB-06.2 — Domain Registration Audit | `LEGUME_DOMAIN`, deployment, renderer, wrappers, package targets | **PASS** |
+| STAB-06.3 — Knowledge Layer Architecture | Four-layer model across nine domains; consolidated vs split runtime layouts | **PASS** |
+| STAB-06.4 — Governance Audit | CANON-001/002, BOTAN-001, PROC-001, FRUIT-001, NUT-001/002, LEGUME-001/002/PAIR-001 | **PASS** |
+| STAB-06.5 — Cross-Domain Reference Audit | Editorial forward references, wine taxonomy references, canonical ID integrity | **PASS** |
+| STAB-06.6 — Publication Audit | Publication + release certification, sitemap, links, JSON-LD, deployment smoke tests | **PASS** |
+| STAB-06.7 — Shared Infrastructure Audit | Loader extension isolated; no renderer or stage-runner branching | **PASS** |
+| STAB-06.8 — Regression Audit | No unintended pipeline drift vs v1.7.0 for first eight domains | **PASS** |
+
+**Platform modifications identified:** 0  
+**Shared infrastructure extensions identified:** 1 (documented, minimal — see Audit 7)
+
+Report: `reports/suite-stab-06-certification-report.json`
+
+### Audit 1 — Release metrics reconciliation
+
+Certified edge counts measured from `data/runtime/*` at commit `322c75c` (FOOD-11F):
+
+| Domain | Leaf entities | Runtime | Editorial | Wine |
+|--------|-------------:|--------:|----------:|-----:|
+| Protein Foods | 207 | 35,734 | 40 | 29 |
+| Cheeses | 204 | 44,858 | 85 | 70 |
+| Vegetables | 74 | 4,405 | 158 | 117 |
+| Fungi | 43 | 531 | 87 | 82 |
+| Herb & Spice | 113 | 6,384 | 280 | 224 |
+| Grain & Starch | 76 | 1,917 | 192 | 174 |
+| Fruit | 119 | 4,027 | 333 | 265 |
+| Nut & Seed | 89 | 2,727 | 284 | 215 |
+| Legume | 75 | 2,114 | 280 | 199 |
+| **Suite total** | **1,000** | **102,697** | **1,739** | **1,375** |
+
+Publication pages: **1,071** cumulative (989 at v1.7.0 + 82 legume). Legume per-domain release summary matches independently (75 leaf · 2,114 runtime · 280 editorial · 199 wine · 82 publication pages).
+
+### Audit 2 — Nine-domain registration audit
+
+| Domain | Config registry | Render module | Shared template | Platform audit |
+|--------|-----------------|---------------|-----------------|----------------|
+| Protein Foods | `PROTEIN_DOMAIN` | `taxonomy-protein-food-render.js` | `protein-entity-template.html` | Published pre-audit era |
+| Cheeses | `CHEESE_DOMAIN` | `taxonomy-cheese-render.js` | same | Published pre-audit era |
+| Vegetables | `VEGETABLE_DOMAIN` | `taxonomy-vegetable-render.js` | same | Published pre-audit era |
+| Fungi | `FUNGI_DOMAIN` | `taxonomy-fungi-render.js` | same | 0 modifications · 100% reuse |
+| Herb & Spice | `HERB_SPICE_DOMAIN` | `taxonomy-herb-spice-render.js` | same | 0 modifications · 100% reuse |
+| Grain & Starch | `GRAIN_STARCH_DOMAIN` | `taxonomy-grain-starch-render.js` | same | 0 modifications · 100% reuse |
+| Fruit | `FRUIT_DOMAIN` | `taxonomy-fruit-render.js` | same | 0 modifications · 100% reuse |
+| Nut & Seed | `NUT_SEED_DOMAIN` | `taxonomy-nut-seed-render.js` | same | 0 modifications · 100% reuse |
+| Legume | `LEGUME_DOMAIN` | `taxonomy-legume-render.js` | same | 0 modifications · 100% reuse |
+
+FOOD-11F integrated Legume through declarative domain configuration, `domain.render.exports` in `LEGUME_DOMAIN`, and `taxonomy-legume-render.js` only. No changes to shared publication stage runners in `lib/food-publication/html.js`, `pages.js`, `projections.js`, `schema.js`, `search.js`, `sitemap.js`, or `certify-release.js`.
+
+Each published domain exposes the same nine thin wrapper scripts delegating to shared stage runners:
+
+`projections → pages → schema → links → search-index → certify-publication → html → sitemap → certify-release`
+
+| Domain | `publish:*` | `release:*` | Release certification |
+|--------|-------------|-------------|---------------------|
+| Protein Foods | ✓ | ✓ | PASS |
+| Cheeses | ✓ | ✓ | PASS |
+| Vegetables | ✓ | ✓ | PASS |
+| Fungi | ✓ | ✓ | PASS |
+| Herb & Spice | ✓ | ✓ | PASS |
+| Grain & Starch | ✓ | ✓ | PASS |
+| Fruit | ✓ | ✓ | PASS |
+| Nut & Seed | ✓ | ✓ | PASS |
+| Legume | ✓ | ✓ | PASS |
+
+`lib/deployment-config.js` registers all nine domains. `release:food-ontology` includes Legume.
+
+### Audit 3 — Knowledge layer architecture
+
+Every published domain implements the complete four-layer knowledge model with separate runtime artifacts and certified publication consumption:
+
+| Layer | Artifact pattern | Modified at publication? |
+|-------|------------------|--------------------------|
+| Runtime (Level 1–2) | Split `{domain}-relationships.json` **or** consolidated `{domain}-runtime.json` | Never |
+| Editorial (Level 3) | `data/runtime/{domain}-editorial-relationships.json` | Never |
+| Wine pairings (Level 4) | `data/runtime/{domain}-wine-relationships.json` | Never |
+| Publication | Projections · pages · schema · links · search · HTML · sitemap | Read-only assembly |
+
+| Layout | Domains |
+|--------|---------|
+| Split relationship artifacts | Protein, Cheese, Vegetable, Fungi, Herb & Spice, Grain & Starch, Fruit, Nut & Seed (8) |
+| Consolidated runtime artifact | Legume (1) — structural edges in `legume-runtime.json`; editorial and wine remain split |
+
+Both layouts expose the same publication interface through `loadDomainInputs(domain)` in `lib/food-publication/runtime-loader.js`.
+
+All nine domains: runtime + editorial + wine artifacts present · release certification **PASS** · no architectural divergence from the suite lifecycle standard.
+
+### Audit 4 — Governance audit
+
+| Rule | Documented in §Suite Architecture | Exercised in published domains |
+|------|-------------------------------------|--------------------------------|
+| CANON-001 | ✓ | Catalog audit — all domains with FOOD-XXB audit scripts |
+| CANON-002 | ✓ | Catalog audit — Fungi · Herb & Spice · Grain & Starch · Fruit · Nut & Seed · Legume |
+| BOTAN-001 | ✓ | Herb & Spice catalog · editorial · wine (cilantro/coriander · dill leaf/seed) |
+| PROC-001 | ✓ | Grain & Starch · Fruit · Nut & Seed · Legume catalog · runtime · editorial · wine · publication |
+| FRUIT-001 | ✓ | Fruit catalog · runtime · editorial · wine · publication |
+| NUT-001 | ✓ | Nut & Seed catalog · runtime — peanut in Peanuts group per culinary identity |
+| NUT-002 | ✓ | Nut & Seed catalog · editorial · wine — distinct processed entities |
+| LEGUME-001 | ✓ (added at STAB-06) | Legume catalog · runtime — culinary group assignment; peanut excluded |
+| LEGUME-002 | ✓ (added at STAB-06) | Legume catalog · editorial · wine — distinct processed entities (tofu, miso, natto, chickpea flour) |
+| LEGUME-PAIR-001 | ✓ (added at STAB-06) | Legume wine pairing seed · mapper validation — culinary function, not whole-form inheritance |
+
+| Ownership check | Result |
+|-----------------|--------|
+| LEGUME-001 peanut exclusion | **PASS** — peanut owned exclusively by Nut & Seed; no legume duplication |
+| LEGUME-002 processed legume families | **PASS** — tofu, tempeh, miso, chickpea flour retain distinct canonical IDs and pairing profiles |
+| LEGUME-PAIR-001 processed pairing divergence | **PASS** — wine edges pair by culinary function; processed forms do not inherit whole-form pairings |
+| NUT-001 peanut culinary grouping | **PASS** — unchanged from SUITE-STAB-05 |
+| FRUIT-001 / FRUIT-PAIR-001 processing families | **PASS** — unchanged from SUITE-STAB-04 |
+| Cross-domain ingredient ownership (mustard, fennel, peanut) | **PASS** — unchanged from SUITE-STAB-05 |
+
+### Audit 5 — Cross-domain reference audit
+
+| Check | Result |
+|-------|--------|
+| Cross-domain editorial edges use structured canonical IDs (no slug-only targets) | **PASS** — 0 slug-based forward references |
+| Wine taxonomy references resolve | **PASS** — 0 orphan wine references |
+| Forward references to future planned domains | **PASS** — 18 edges (`food.ingredient.*`, `food.bread.*`, legacy namespace shorthands) |
+| Legume Tier C cross-domain references to published domains | **PASS** — resolve to Cheese, Vegetable, Grain & Starch, Herb & Spice, Protein, and Fruit canonical IDs |
+| Entity duplication via forward reference | **PASS** — none detected |
+
+### Audit 6 — Publication audit
+
+| Domain | Publication certification | Release certification | Pages |
+|--------|--------------------------|----------------------|------:|
+| Protein Foods | PASS | PASS | 226 |
+| Cheeses | PASS | PASS | 214 |
+| Vegetables | PASS | PASS | 79 |
+| Fungi | PASS | PASS | 48 |
+| Herb & Spice | PASS | PASS | 118 |
+| Grain & Starch | PASS | PASS | 81 |
+| Fruit | PASS | PASS | 127 |
+| Nut & Seed | PASS | PASS | 96 |
+| Legume | PASS (52 rules) | PASS | 82 |
+
+Legume publication integrity: 781 internal links (0 broken) · 321 JSON-LD blocks · 82 sitemap URLs · deployment smoke tests **17/17 PASS**.
+
+### Audit 7 — Shared infrastructure audit
+
+| Check | Result |
+|-------|--------|
+| Loader enhancement isolated to `runtime-loader.js` | **PASS** — `domain.runtimeLayout === "legume"` branch only |
+| Relationship loading routed through `loadDomainInputs` | **PASS** — `links.js` and `certify-publication.js` (generic refactor; no Legume conditionals) |
+| No renderer branching | **PASS** — no Legume references in `lib/food-publication/html.js` |
+| No publication stage-runner modifications | **PASS** — no diff vs v1.7.0 in `html.js`, `pages.js`, `projections.js`, `schema.js`, `search.js`, `sitemap.js`, `certify-release.js` |
+| No domain-specific publication logic | **PASS** — Legume logic confined to `LEGUME_DOMAIN` config and `taxonomy-legume-render.js` |
+
+**Shared infrastructure extension (documented):** `runtime-loader.js` legume layout branch plus routing relationship loading through `loadDomainInputs` — supports consolidated runtime inputs without affecting renderer or publication semantics.
+
+### Audit 8 — Regression audit
+
+| Check | Result |
+|-------|--------|
+| First eight domains release certification unchanged | **PASS** — all PASS at current HEAD |
+| No unintended pipeline drift vs `food-ontology-suite-v1.7.0` | **PASS** — shared infra changes limited to loader extension and generic `loadDomainInputs` routing |
+| Deterministic builds | **PASS** — legume publication certification reports determinism PASS across 16 artifacts |
+| Publication semantics for first eight domains | **PASS** — no changes to render modules or stage runners for existing domains |
+
+**Certification outcome:**
+
+- **SUITE-STAB-06: PASS**
+- Published domains: **9**
+- Canonical entities: **1,000**
+- Runtime relationships: **102,697**
+- Editorial relationships: **1,739**
+- Wine relationships: **1,375**
+
+Architecture: declarative · deterministic · shared publication pipeline · four-layer knowledge model preserved · one documented shared loader extension · no renderer regressions · no publication regressions · **ready for release**.
+
+**Recommendation:** Tag `food-ontology-suite-v1.8.0`
+
+**Next work:** **FOOD-12** (from tag `food-ontology-suite-v1.8.0`)
 
 ---
 

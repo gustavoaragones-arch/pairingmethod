@@ -456,4 +456,4 @@ No additional platform phases unless a genuine architectural limitation is disco
 | Sauces | 0 | 0 | 1 | 0 |
 | Wine columns | 0 | 9 | 0 | 0 |
 
-**Next planned work:** **FOOD-11A — Legume Ontology Governance** (SUITE-STAB-05 PASS — from tag `food-ontology-suite-v1.7.0`).
+**Next planned work:** **FOOD-12** (from tag `food-ontology-suite-v1.8.0`; see POSTER_COVERAGE.md).
