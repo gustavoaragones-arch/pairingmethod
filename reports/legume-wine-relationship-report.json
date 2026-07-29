@@ -1,0 +1,39 @@
+{
+  "catalog_version": "1.0.0",
+  "culinary_role_pairing_rule": "LEGUME-PAIR-001: wine pairing follows the ingredient's independent culinary role — chickpea flour for baking, tofu for neutral protein, tempeh for fermented savory, miso for fermented umami, natto for fermented specialty applications.",
+  "domain": "legume",
+  "legume001_classification_rule": "LEGUME-001: culinary group assignment remains authoritative in pairing semantics — soybean in Other Legumes, chickpea in Chickpeas, peanut excluded from Legume domain.",
+  "legume002_ownership_rule": "LEGUME-002: processed canonical entities retain distinct pairing profiles and must not inherit wine relationships from whole legume forms.",
+  "metrics": {
+    "Descriptor links": 36,
+    "Determinism": "PASS",
+    "Deterministic ordering": "PASS",
+    "Duplicate edges": 0,
+    "Invalid ontology references": 0,
+    "Legume entities linked": 75,
+    "Missing legume entities": 0,
+    "Missing primary pairings": 0,
+    "Missing wine references": 0,
+    "Overall result": "PASS",
+    "Pairing edges": 199,
+    "Pending review edges": 0,
+    "Technique links": 30,
+    "Wine styles linked": 21
+  },
+  "output": "data/runtime/legume-wine-relationships.json",
+  "overall_result": "PASS",
+  "pairing_tiers": {
+    "descriptor": "pairs_with_descriptor",
+    "primary": "pairs_with_style",
+    "secondary": "also_pairs_with_style",
+    "technique": "pairs_with_technique"
+  },
+  "phase": "FOOD-11E",
+  "relationship_type_counts": {
+    "also_pairs_with_style": 58,
+    "pairs_with_descriptor": 36,
+    "pairs_with_style": 75,
+    "pairs_with_technique": 30
+  },
+  "validation_errors": []
+}

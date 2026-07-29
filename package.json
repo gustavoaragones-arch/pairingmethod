@@ -145,6 +145,8 @@
     "compile:legume-runtime": "npm run ontology:catalog-audit-legume && npm run ontology:build-legume-runtime && npm run ontology:validate-legume-runtime",
     "ontology:map-legume-editorial-relationships": "node scripts/map-legume-editorial-relationships-11d.mjs",
     "compile:legume-editorial": "npm run compile:legume-runtime && npm run ontology:map-legume-editorial-relationships",
+    "ontology:map-legume-wine-relationships": "node scripts/map-legume-wine-relationships-11e.mjs",
+    "compile:legume-wine": "npm run compile:legume-editorial && npm run ontology:map-legume-wine-relationships",
     "generate:nut-seed-projections": "node scripts/generate-nut-seed-projections-10f.mjs",
     "generate:nut-seed-pages": "node scripts/generate-nut-seed-pages-10f.mjs",
     "generate:nut-seed-schema": "node scripts/generate-nut-seed-schema-10f.mjs",
