@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "legume",
+    "food_ontology_version": "1.8.0",
+    "phase": "FOOD-11FC",
+    "schema_count": 1,
+    "schema_type": "legume_category"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/legume-categories/legume/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/legume-categories/legume/#collectionpage",
+          "@type": "CollectionPage",
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/legume-categories/legume/#breadcrumb"
+          },
+          "description": "Legumes — 6 groups and 75 legumes.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Legumes — Legume Category",
+          "url": "https://pairingmethod.com/legume-categories/legume/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/legume-categories/legume/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/legumes/",
+              "name": "Legumes",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/legume-categories/legume/",
+              "name": "Legumes",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/legume-categories/legume/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "legume",
+          "description": "Legumes — 6 groups and 75 legumes.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/legume-groups/beans/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.legume.beans",
+              "name": "Beans",
+              "numberOfTerms": 26,
+              "url": "https://pairingmethod.com/legume-groups/beans/"
+            },
+            {
+              "@id": "https://pairingmethod.com/legume-groups/chickpeas/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.legume.chickpeas",
+              "name": "Chickpeas",
+              "numberOfTerms": 3,
+              "url": "https://pairingmethod.com/legume-groups/chickpeas/"
+            },
+            {
+              "@id": "https://pairingmethod.com/legume-groups/legume-products/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.legume.legume-products",
+              "name": "Legume Products",
+              "numberOfTerms": 17,
+              "url": "https://pairingmethod.com/legume-groups/legume-products/"
+            },
+            {
+              "@id": "https://pairingmethod.com/legume-groups/lentils/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.legume.lentils",
+              "name": "Lentils",
+              "numberOfTerms": 9,
+              "url": "https://pairingmethod.com/legume-groups/lentils/"
+            },
+            {
+              "@id": "https://pairingmethod.com/legume-groups/other-legumes/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.legume.other-legumes",
+              "name": "Other Legumes",
+              "numberOfTerms": 12,
+              "url": "https://pairingmethod.com/legume-groups/other-legumes/"
+            },
+            {
+              "@id": "https://pairingmethod.com/legume-groups/peas/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.legume.peas",
+              "name": "Peas",
+              "numberOfTerms": 8,
+              "url": "https://pairingmethod.com/legume-groups/peas/"
+            }
+          ],
+          "identifier": "food.legume",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Legume Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Legumes",
+          "numberOfTerms": 75,
+          "url": "https://pairingmethod.com/legume-categories/legume/"
+        }
+      ],
+      "projection_id": "food.legume",
+      "slug": "legume"
+    }
+  ]
+}

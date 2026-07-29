@@ -1,0 +1,6157 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/legumes/adzuki-bean/",
+      "projection_id": "food.legume.other-legumes.adzuki-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.other-legumes.mung-bean",
+            "id": "food.legume.other-legumes.mung-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "mung bean"
+          },
+          {
+            "href": "food.fruit.processed-fruits.raisin",
+            "id": "food.fruit.processed-fruits.raisin",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "raisin"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          },
+          {
+            "href": "food.herb.whole-spices.vanilla-bean",
+            "id": "food.herb.whole-spices.vanilla-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "vanilla bean"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/other-legumes/",
+            "id": "food.legume.other-legumes",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Other Legumes"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/mung-bean/",
+            "id": "food.legume.other-legumes.mung-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Mung Bean"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": [
+          {
+            "href": "/techniques/barrel-aging/",
+            "id": "barrel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "barrel aging"
+          }
+        ]
+      },
+      "slug": "adzuki-bean"
+    },
+    {
+      "canonical_path": "/legumes/anasazi-bean/",
+      "projection_id": "food.legume.beans.anasazi-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/malbec/",
+            "id": "malbec",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "malbec"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.legume.beans.pinto-bean",
+            "id": "food.legume.beans.pinto-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pinto bean"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [],
+        "wine_techniques": [
+          {
+            "href": "/techniques/lees-aging/",
+            "id": "lees-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "lees aging"
+          }
+        ]
+      },
+      "slug": "anasazi-bean"
+    },
+    {
+      "canonical_path": "/legumes/black-bean/",
+      "projection_id": "food.legume.beans.black-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/zinfandel/",
+            "id": "zinfandel",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "zinfandel"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.black-turtle-bean",
+            "id": "food.legume.beans.black-turtle-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black turtle bean"
+          },
+          {
+            "href": "food.herb.whole-spices.cumin-seed",
+            "id": "food.herb.whole-spices.cumin-seed",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cumin seed"
+          },
+          {
+            "href": "food.legume.beans.kidney-bean",
+            "id": "food.legume.beans.kidney-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "kidney bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.legume.beans.pinto-bean",
+            "id": "food.legume.beans.pinto-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pinto bean"
+          },
+          {
+            "href": "food.protein.pork.pork-loin",
+            "id": "food.protein.pork.pork-loin",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pork loin"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/malbec/",
+            "id": "malbec",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "malbec"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/black-turtle-bean/",
+            "id": "food.legume.beans.black-turtle-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Black Turtle Bean"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/carbonic-maceration/",
+            "id": "carbonic-maceration",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "carbonic maceration"
+          }
+        ]
+      },
+      "slug": "black-bean"
+    },
+    {
+      "canonical_path": "/legumes/black-bean-flour/",
+      "projection_id": "food.legume.legume-products.black-bean-flour",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/malbec/",
+            "id": "malbec",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "malbec"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/white-bean-flour/",
+            "id": "food.legume.legume-products.white-bean-flour",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "White Bean Flour"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": [
+          {
+            "href": "/techniques/malolactic-fermentation/",
+            "id": "malolactic-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "malolactic fermentation"
+          }
+        ]
+      },
+      "slug": "black-bean-flour"
+    },
+    {
+      "canonical_path": "/legumes/black-chickpea/",
+      "projection_id": "food.legume.chickpeas.black-chickpea",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.chickpeas.chickpea",
+            "id": "food.legume.chickpeas.chickpea",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chickpea"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/chickpeas/",
+            "id": "food.legume.chickpeas",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Chickpeas"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/chickpea/",
+            "id": "food.legume.chickpeas.chickpea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Chickpea"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/skin-contact/",
+            "id": "skin-contact",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "skin contact"
+          }
+        ]
+      },
+      "slug": "black-chickpea"
+    },
+    {
+      "canonical_path": "/legumes/black-eyed-pea/",
+      "projection_id": "food.legume.peas.black-eyed-pea",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.herb.whole-spices.black-pepper",
+            "id": "food.herb.whole-spices.black-pepper",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black pepper"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.legume.other-legumes.pigeon-pea",
+            "id": "food.legume.other-legumes.pigeon-pea",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pigeon pea"
+          },
+          {
+            "href": "food.protein.pork.pork-loin",
+            "id": "food.protein.pork.pork-loin",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pork loin"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/peas/",
+            "id": "food.legume.peas",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Peas"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/zinfandel/",
+            "id": "zinfandel",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "zinfandel"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/pigeon-pea/",
+            "id": "food.legume.other-legumes.pigeon-pea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Pigeon Pea"
+          },
+          {
+            "href": "/legumes/purple-hull-pea/",
+            "id": "food.legume.peas.purple-hull-pea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Purple Hull Pea"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/carbonic-maceration/",
+            "id": "carbonic-maceration",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "carbonic maceration"
+          }
+        ]
+      },
+      "slug": "black-eyed-pea"
+    },
+    {
+      "canonical_path": "/legumes/black-gram/",
+      "projection_id": "food.legume.other-legumes.black-gram",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.other-legumes.mung-bean",
+            "id": "food.legume.other-legumes.mung-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "mung bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/other-legumes/",
+            "id": "food.legume.other-legumes",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Other Legumes"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [],
+        "wine_techniques": [
+          {
+            "href": "/techniques/whole-cluster-fermentation/",
+            "id": "whole-cluster-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "whole cluster fermentation"
+          }
+        ]
+      },
+      "slug": "black-gram"
+    },
+    {
+      "canonical_path": "/legumes/black-lentil/",
+      "projection_id": "food.legume.lentils.black-lentil",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/nebbiolo/",
+            "id": "nebbiolo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "nebbiolo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.lentils.green-lentil",
+            "id": "food.legume.lentils.green-lentil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "green lentil"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/lentils/",
+            "id": "food.legume.lentils",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Lentils"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/puy-lentil/",
+            "id": "food.legume.lentils.puy-lentil",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Puy Lentil"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/batonnage/",
+            "id": "batonnage",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "batonnage"
+          }
+        ]
+      },
+      "slug": "black-lentil"
+    },
+    {
+      "canonical_path": "/legumes/black-turtle-bean/",
+      "projection_id": "food.legume.beans.black-turtle-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/malbec/",
+            "id": "malbec",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "malbec"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/black-bean/",
+            "id": "food.legume.beans.black-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Black Bean"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": [
+          {
+            "href": "/techniques/concrete-egg-aging/",
+            "id": "concrete-egg-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "concrete egg aging"
+          }
+        ]
+      },
+      "slug": "black-turtle-bean"
+    },
+    {
+      "canonical_path": "/legumes/borlotti-bean/",
+      "projection_id": "food.legume.beans.borlotti-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/nebbiolo/",
+            "id": "nebbiolo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "nebbiolo"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/cranberry-bean/",
+            "id": "food.legume.beans.cranberry-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Cranberry Bean"
+          },
+          {
+            "href": "/legumes/roman-bean/",
+            "id": "food.legume.beans.roman-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Roman Bean"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/micro-oxygenation/",
+            "id": "micro-oxygenation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "micro oxygenation"
+          }
+        ]
+      },
+      "slug": "borlotti-bean"
+    },
+    {
+      "canonical_path": "/legumes/brown-lentil/",
+      "projection_id": "food.legume.lentils.brown-lentil",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/merlot/",
+            "id": "merlot",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "merlot"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.root-vegetables.carrot",
+            "id": "food.vegetable.root-vegetables.carrot",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "carrot"
+          },
+          {
+            "href": "food.protein.lamb.lamb-leg",
+            "id": "food.protein.lamb.lamb-leg",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "lamb leg"
+          },
+          {
+            "href": "food.legume.lentils.puy-lentil",
+            "id": "food.legume.lentils.puy-lentil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "puy lentil"
+          },
+          {
+            "href": "food.herb.dried-herbs.rosemary",
+            "id": "food.herb.dried-herbs.rosemary",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rosemary"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/lentils/",
+            "id": "food.legume.lentils",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Lentils"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/green-lentil/",
+            "id": "food.legume.lentils.green-lentil",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Green Lentil"
+          },
+          {
+            "href": "/legumes/macachiados-lentil/",
+            "id": "food.legume.lentils.macachiados-lentil",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Macachiados Lentil"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "brown-lentil"
+    },
+    {
+      "canonical_path": "/legumes/butter-bean/",
+      "projection_id": "food.legume.beans.butter-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.lima-bean",
+            "id": "food.legume.beans.lima-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "lima bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/viognier/",
+            "id": "viognier",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "viognier"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/lima-bean/",
+            "id": "food.legume.beans.lima-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Lima Bean"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/creamy",
+            "id": "creamy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "creamy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "butter-bean"
+    },
+    {
+      "canonical_path": "/legumes/cannellini-bean/",
+      "projection_id": "food.legume.beans.cannellini-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.borlotti-bean",
+            "id": "food.legume.beans.borlotti-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "borlotti bean"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.legume.beans.great-northern-bean",
+            "id": "food.legume.beans.great-northern-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "great northern bean"
+          },
+          {
+            "href": "food.cheese.hard.parmigiano-reggiano",
+            "id": "food.cheese.hard.parmigiano-reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano reggiano"
+          },
+          {
+            "href": "food.protein.charcuterie.prosciutto",
+            "id": "food.protein.charcuterie.prosciutto",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "prosciutto"
+          },
+          {
+            "href": "food.vegetable.green-vegetables.spinach",
+            "id": "food.vegetable.green-vegetables.spinach",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "spinach"
+          },
+          {
+            "href": "food.grain.processed-grains.wheat-flour",
+            "id": "food.grain.processed-grains.wheat-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "wheat flour"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/great-northern-bean/",
+            "id": "food.legume.beans.great-northern-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Great Northern Bean"
+          },
+          {
+            "href": "/legumes/white-bean/",
+            "id": "food.legume.beans.white-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "White Bean"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/herbal",
+            "id": "herbal",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "herbal"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/concrete-tank-aging/",
+            "id": "concrete-tank-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "concrete tank aging"
+          }
+        ]
+      },
+      "slug": "cannellini-bean"
+    },
+    {
+      "canonical_path": "/legumes/chickpea/",
+      "projection_id": "food.legume.chickpeas.chickpea",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.lentils.black-lentil",
+            "id": "food.legume.lentils.black-lentil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black lentil"
+          },
+          {
+            "href": "food.cheese.brined.feta",
+            "id": "food.cheese.brined.feta",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "feta"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.legume.lentils.green-lentil",
+            "id": "food.legume.lentils.green-lentil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "green lentil"
+          },
+          {
+            "href": "food.herb.fresh-herbs.mint",
+            "id": "food.herb.fresh-herbs.mint",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "mint"
+          },
+          {
+            "href": "food.legume.lentils.red-lentil",
+            "id": "food.legume.lentils.red-lentil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "red lentil"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/chickpeas/",
+            "id": "food.legume.chickpeas",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Chickpeas"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/dry-rose/",
+            "id": "dry-rose",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "dry rose"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/black-chickpea/",
+            "id": "food.legume.chickpeas.black-chickpea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Black Chickpea"
+          },
+          {
+            "href": "/legumes/green-chickpea/",
+            "id": "food.legume.chickpeas.green-chickpea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Green Chickpea"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/nutty",
+            "id": "nutty",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "nutty"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/amphora-aging/",
+            "id": "amphora-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "amphora aging"
+          }
+        ]
+      },
+      "slug": "chickpea"
+    },
+    {
+      "canonical_path": "/legumes/chickpea-flour/",
+      "projection_id": "food.legume.legume-products.chickpea-flour",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.herb.whole-spices.cumin-seed",
+            "id": "food.herb.whole-spices.cumin-seed",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cumin seed"
+          },
+          {
+            "href": "food.vegetable.nightshades.eggplant",
+            "id": "food.vegetable.nightshades.eggplant",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "eggplant"
+          },
+          {
+            "href": "food.legume.legume-products.lentil-flour",
+            "id": "food.legume.legume-products.lentil-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "lentil flour"
+          },
+          {
+            "href": "food.legume.legume-products.mung-bean-flour",
+            "id": "food.legume.legume-products.mung-bean-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "mung bean flour"
+          },
+          {
+            "href": "food.grain.processed-grains.wheat-flour",
+            "id": "food.grain.processed-grains.wheat-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "wheat flour"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/champagne/",
+            "id": "champagne",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "champagne"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/lentil-flour/",
+            "id": "food.legume.legume-products.lentil-flour",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Lentil Flour"
+          },
+          {
+            "href": "/legumes/mung-bean-flour/",
+            "id": "food.legume.legume-products.mung-bean-flour",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Mung Bean Flour"
+          },
+          {
+            "href": "/legumes/pea-flour/",
+            "id": "food.legume.legume-products.pea-flour",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Pea Flour"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/nutty",
+            "id": "nutty",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "nutty"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/autolytic-aging/",
+            "id": "autolytic-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "autolytic aging"
+          }
+        ]
+      },
+      "slug": "chickpea-flour"
+    },
+    {
+      "canonical_path": "/legumes/coral-lentil/",
+      "projection_id": "food.legume.lentils.coral-lentil",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.legume.lentils.red-lentil",
+            "id": "food.legume.lentils.red-lentil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "red lentil"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/lentils/",
+            "id": "food.legume.lentils",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Lentils"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/red-lentil/",
+            "id": "food.legume.lentils.red-lentil",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Red Lentil"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "coral-lentil"
+    },
+    {
+      "canonical_path": "/legumes/cranberry-bean/",
+      "projection_id": "food.legume.beans.cranberry-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.borlotti-bean",
+            "id": "food.legume.beans.borlotti-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "borlotti bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/borlotti-bean/",
+            "id": "food.legume.beans.borlotti-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Borlotti Bean"
+          },
+          {
+            "href": "/legumes/scarlet-runner-bean/",
+            "id": "food.legume.beans.scarlet-runner-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Scarlet Runner Bean"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "cranberry-bean"
+    },
+    {
+      "canonical_path": "/legumes/fava-bean/",
+      "projection_id": "food.legume.beans.fava-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/nebbiolo/",
+            "id": "nebbiolo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "nebbiolo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.cranberry-bean",
+            "id": "food.legume.beans.cranberry-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cranberry bean"
+          },
+          {
+            "href": "food.cheese.brined.feta",
+            "id": "food.cheese.brined.feta",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "feta"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.protein.lamb.lamb-leg",
+            "id": "food.protein.lamb.lamb-leg",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "lamb leg"
+          },
+          {
+            "href": "food.herb.fresh-herbs.mint",
+            "id": "food.herb.fresh-herbs.mint",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "mint"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/lupin-bean/",
+            "id": "food.legume.other-legumes.lupin-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Lupin Bean"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/herbal",
+            "id": "herbal",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "herbal"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "fava-bean"
+    },
+    {
+      "canonical_path": "/legumes/fava-bean-flour/",
+      "projection_id": "food.legume.legume-products.fava-bean-flour",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.legume-products.lupin-flour",
+            "id": "food.legume.legume-products.lupin-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "lupin flour"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/lupin-flour/",
+            "id": "food.legume.legume-products.lupin-flour",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Lupin Flour"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "fava-bean-flour"
+    },
+    {
+      "canonical_path": "/legumes/fermented-black-bean/",
+      "projection_id": "food.legume.legume-products.fermented-black-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/zinfandel/",
+            "id": "zinfandel",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "zinfandel"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.legume.legume-products.miso",
+            "id": "food.legume.legume-products.miso",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "miso"
+          },
+          {
+            "href": "food.fungi.cultivated-mushrooms.shiitake",
+            "id": "food.fungi.cultivated-mushrooms.shiitake",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shiitake"
+          },
+          {
+            "href": "food.protein.crustaceans.shrimp",
+            "id": "food.protein.crustaceans.shrimp",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shrimp"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/miso/",
+            "id": "food.legume.legume-products.miso",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Miso"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/rich",
+            "id": "rich",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "rich"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/extended-maceration/",
+            "id": "extended-maceration",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "extended maceration"
+          }
+        ]
+      },
+      "slug": "fermented-black-bean"
+    },
+    {
+      "canonical_path": "/legumes/field-pea/",
+      "projection_id": "food.legume.peas.field-pea",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.peas.green-pea",
+            "id": "food.legume.peas.green-pea",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "green pea"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/peas/",
+            "id": "food.legume.peas",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Peas"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/green-pea/",
+            "id": "food.legume.peas.green-pea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Green Pea"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "field-pea"
+    },
+    {
+      "canonical_path": "/legumes/flageolet-bean/",
+      "projection_id": "food.legume.beans.flageolet-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/haricot-bean/",
+            "id": "food.legume.beans.haricot-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Haricot Bean"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "flageolet-bean"
+    },
+    {
+      "canonical_path": "/legumes/golden-lentil/",
+      "projection_id": "food.legume.lentils.golden-lentil",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          },
+          {
+            "href": "food.legume.lentils.yellow-lentil",
+            "id": "food.legume.lentils.yellow-lentil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "yellow lentil"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/lentils/",
+            "id": "food.legume.lentils",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Lentils"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [
+          {
+            "href": "/terms/smoky",
+            "id": "smoky",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "smoky"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "golden-lentil"
+    },
+    {
+      "canonical_path": "/legumes/great-northern-bean/",
+      "projection_id": "food.legume.beans.great-northern-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          },
+          {
+            "href": "food.legume.beans.white-bean",
+            "id": "food.legume.beans.white-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "white bean"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/cannellini-bean/",
+            "id": "food.legume.beans.cannellini-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Cannellini Bean"
+          },
+          {
+            "href": "/legumes/navy-bean/",
+            "id": "food.legume.beans.navy-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Navy Bean"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "great-northern-bean"
+    },
+    {
+      "canonical_path": "/legumes/green-chickpea/",
+      "projection_id": "food.legume.chickpeas.green-chickpea",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.chickpeas.chickpea",
+            "id": "food.legume.chickpeas.chickpea",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chickpea"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/chickpeas/",
+            "id": "food.legume.chickpeas",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Chickpeas"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/chickpea/",
+            "id": "food.legume.chickpeas.chickpea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Chickpea"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/bright",
+            "id": "bright",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "bright"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "green-chickpea"
+    },
+    {
+      "canonical_path": "/legumes/green-lentil/",
+      "projection_id": "food.legume.lentils.green-lentil",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.lentils.brown-lentil",
+            "id": "food.legume.lentils.brown-lentil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "brown lentil"
+          },
+          {
+            "href": "food.vegetable.root-vegetables.carrot",
+            "id": "food.vegetable.root-vegetables.carrot",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "carrot"
+          },
+          {
+            "href": "food.legume.chickpeas.chickpea",
+            "id": "food.legume.chickpeas.chickpea",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chickpea"
+          },
+          {
+            "href": "food.protein.lamb.lamb-leg",
+            "id": "food.protein.lamb.lamb-leg",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "lamb leg"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.legume.lentils.red-lentil",
+            "id": "food.legume.lentils.red-lentil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "red lentil"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          },
+          {
+            "href": "food.herb.dried-herbs.rosemary",
+            "id": "food.herb.dried-herbs.rosemary",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rosemary"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/lentils/",
+            "id": "food.legume.lentils",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Lentils"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/brown-lentil/",
+            "id": "food.legume.lentils.brown-lentil",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Brown Lentil"
+          },
+          {
+            "href": "/legumes/puy-lentil/",
+            "id": "food.legume.lentils.puy-lentil",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Puy Lentil"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/native-fermentation/",
+            "id": "native-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "native fermentation"
+          }
+        ]
+      },
+      "slug": "green-lentil"
+    },
+    {
+      "canonical_path": "/legumes/green-pea/",
+      "projection_id": "food.legume.peas.green-pea",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.protein.poultry.chicken-thigh",
+            "id": "food.protein.poultry.chicken-thigh",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chicken thigh"
+          },
+          {
+            "href": "food.herb.fresh-herbs.mint",
+            "id": "food.herb.fresh-herbs.mint",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "mint"
+          },
+          {
+            "href": "food.cheese.hard.parmigiano-reggiano",
+            "id": "food.cheese.hard.parmigiano-reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano reggiano"
+          },
+          {
+            "href": "food.vegetable.alliums.shallot",
+            "id": "food.vegetable.alliums.shallot",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shallot"
+          },
+          {
+            "href": "food.legume.peas.snap-pea",
+            "id": "food.legume.peas.snap-pea",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "snap pea"
+          },
+          {
+            "href": "food.legume.peas.yellow-pea",
+            "id": "food.legume.peas.yellow-pea",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "yellow pea"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/peas/",
+            "id": "food.legume.peas",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Peas"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/field-pea/",
+            "id": "food.legume.peas.field-pea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Field Pea"
+          },
+          {
+            "href": "/legumes/yellow-pea/",
+            "id": "food.legume.peas.yellow-pea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Yellow Pea"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/bright",
+            "id": "bright",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "bright"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/cold-fermentation/",
+            "id": "cold-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "cold fermentation"
+          }
+        ]
+      },
+      "slug": "green-pea"
+    },
+    {
+      "canonical_path": "/legumes/guar-bean/",
+      "projection_id": "food.legume.other-legumes.guar-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.other-legumes.mung-bean",
+            "id": "food.legume.other-legumes.mung-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "mung bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/other-legumes/",
+            "id": "food.legume.other-legumes",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Other Legumes"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "guar-bean"
+    },
+    {
+      "canonical_path": "/legumes/haricot-bean/",
+      "projection_id": "food.legume.beans.haricot-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.flageolet-bean",
+            "id": "food.legume.beans.flageolet-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "flageolet bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/flageolet-bean/",
+            "id": "food.legume.beans.flageolet-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Flageolet Bean"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "haricot-bean"
+    },
+    {
+      "canonical_path": "/legumes/horse-gram/",
+      "projection_id": "food.legume.other-legumes.horse-gram",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.other-legumes.moth-bean",
+            "id": "food.legume.other-legumes.moth-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "moth bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/other-legumes/",
+            "id": "food.legume.other-legumes",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Other Legumes"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "horse-gram"
+    },
+    {
+      "canonical_path": "/legumes/hyacinth-bean/",
+      "projection_id": "food.legume.other-legumes.hyacinth-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.fava-bean",
+            "id": "food.legume.beans.fava-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "fava bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/other-legumes/",
+            "id": "food.legume.other-legumes",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Other Legumes"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/viognier/",
+            "id": "viognier",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "viognier"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "hyacinth-bean"
+    },
+    {
+      "canonical_path": "/legumes/jack-bean/",
+      "projection_id": "food.legume.other-legumes.jack-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.legume.other-legumes.pigeon-pea",
+            "id": "food.legume.other-legumes.pigeon-pea",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pigeon pea"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/other-legumes/",
+            "id": "food.legume.other-legumes",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Other Legumes"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "jack-bean"
+    },
+    {
+      "canonical_path": "/legumes/jacob-cattle-bean/",
+      "projection_id": "food.legume.beans.jacob-cattle-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/merlot/",
+            "id": "merlot",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "merlot"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.cranberry-bean",
+            "id": "food.legume.beans.cranberry-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cranberry bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "jacob-cattle-bean"
+    },
+    {
+      "canonical_path": "/legumes/kidney-bean/",
+      "projection_id": "food.legume.beans.kidney-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.black-bean",
+            "id": "food.legume.beans.black-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black bean"
+          },
+          {
+            "href": "food.protein.beef.brisket",
+            "id": "food.protein.beef.brisket",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "brisket"
+          },
+          {
+            "href": "food.herb.whole-spices.cumin-seed",
+            "id": "food.herb.whole-spices.cumin-seed",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cumin seed"
+          },
+          {
+            "href": "food.legume.beans.navy-bean",
+            "id": "food.legume.beans.navy-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "navy bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.legume.beans.pinto-bean",
+            "id": "food.legume.beans.pinto-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pinto bean"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/pink-bean/",
+            "id": "food.legume.beans.pink-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Pink Bean"
+          },
+          {
+            "href": "/legumes/pinto-bean/",
+            "id": "food.legume.beans.pinto-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Pinto Bean"
+          },
+          {
+            "href": "/legumes/small-red-bean/",
+            "id": "food.legume.beans.small-red-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Small Red Bean"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/barrel-aging/",
+            "id": "barrel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "barrel aging"
+          }
+        ]
+      },
+      "slug": "kidney-bean"
+    },
+    {
+      "canonical_path": "/legumes/lentil-flour/",
+      "projection_id": "food.legume.legume-products.lentil-flour",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.legume.legume-products.red-lentil-flour",
+            "id": "food.legume.legume-products.red-lentil-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "red lentil flour"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/chickpea-flour/",
+            "id": "food.legume.legume-products.chickpea-flour",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Chickpea Flour"
+          },
+          {
+            "href": "/legumes/red-lentil-flour/",
+            "id": "food.legume.legume-products.red-lentil-flour",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Red Lentil Flour"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/concrete-tank-aging/",
+            "id": "concrete-tank-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "concrete tank aging"
+          }
+        ]
+      },
+      "slug": "lentil-flour"
+    },
+    {
+      "canonical_path": "/legumes/lima-bean/",
+      "projection_id": "food.legume.beans.lima-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/viognier/",
+            "id": "viognier",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "viognier"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.grain.processed-grains.cornmeal",
+            "id": "food.grain.processed-grains.cornmeal",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cornmeal"
+          },
+          {
+            "href": "food.legume.beans.navy-bean",
+            "id": "food.legume.beans.navy-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "navy bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.protein.pork.pork-loin",
+            "id": "food.protein.pork.pork-loin",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pork loin"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/butter-bean/",
+            "id": "food.legume.beans.butter-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Butter Bean"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/creamy",
+            "id": "creamy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "creamy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "lima-bean"
+    },
+    {
+      "canonical_path": "/legumes/lupin-bean/",
+      "projection_id": "food.legume.other-legumes.lupin-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.fava-bean",
+            "id": "food.legume.beans.fava-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "fava bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/other-legumes/",
+            "id": "food.legume.other-legumes",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Other Legumes"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/fava-bean/",
+            "id": "food.legume.beans.fava-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Fava Bean"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "lupin-bean"
+    },
+    {
+      "canonical_path": "/legumes/lupin-flour/",
+      "projection_id": "food.legume.legume-products.lupin-flour",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/dry-rose/",
+            "id": "dry-rose",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "dry rose"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/fava-bean-flour/",
+            "id": "food.legume.legume-products.fava-bean-flour",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Fava Bean Flour"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "lupin-flour"
+    },
+    {
+      "canonical_path": "/legumes/macachiados-lentil/",
+      "projection_id": "food.legume.lentils.macachiados-lentil",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.lentils.brown-lentil",
+            "id": "food.legume.lentils.brown-lentil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "brown lentil"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/lentils/",
+            "id": "food.legume.lentils",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Lentils"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/brown-lentil/",
+            "id": "food.legume.lentils.brown-lentil",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Brown Lentil"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/herbal",
+            "id": "herbal",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "herbal"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "macachiados-lentil"
+    },
+    {
+      "canonical_path": "/legumes/marrow-bean/",
+      "projection_id": "food.legume.beans.marrow-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.navy-bean",
+            "id": "food.legume.beans.navy-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "navy bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "marrow-bean"
+    },
+    {
+      "canonical_path": "/legumes/marrowfat-pea/",
+      "projection_id": "food.legume.peas.marrowfat-pea",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chenin-blanc/",
+            "id": "chenin-blanc",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chenin blanc"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.peas.green-pea",
+            "id": "food.legume.peas.green-pea",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "green pea"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/peas/",
+            "id": "food.legume.peas",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Peas"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "marrowfat-pea"
+    },
+    {
+      "canonical_path": "/legumes/mayocoba-bean/",
+      "projection_id": "food.legume.beans.mayocoba-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/viognier/",
+            "id": "viognier",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "viognier"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/pinto-bean/",
+            "id": "food.legume.beans.pinto-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Pinto Bean"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "mayocoba-bean"
+    },
+    {
+      "canonical_path": "/legumes/miso/",
+      "projection_id": "food.legume.legume-products.miso",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.legume-products.fermented-black-bean",
+            "id": "food.legume.legume-products.fermented-black-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "fermented black bean"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          },
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          },
+          {
+            "href": "food.fungi.cultivated-mushrooms.shiitake",
+            "id": "food.fungi.cultivated-mushrooms.shiitake",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shiitake"
+          },
+          {
+            "href": "food.vegetable.green-vegetables.spinach",
+            "id": "food.vegetable.green-vegetables.spinach",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "spinach"
+          },
+          {
+            "href": "food.legume.legume-products.tofu",
+            "id": "food.legume.legume-products.tofu",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tofu"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sherry/",
+            "id": "sherry",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sherry"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/fermented-black-bean/",
+            "id": "food.legume.legume-products.fermented-black-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Fermented Black Bean"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/rich",
+            "id": "rich",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "rich"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/extended-maceration/",
+            "id": "extended-maceration",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "extended maceration"
+          }
+        ]
+      },
+      "slug": "miso"
+    },
+    {
+      "canonical_path": "/legumes/moth-bean/",
+      "projection_id": "food.legume.other-legumes.moth-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.other-legumes.mung-bean",
+            "id": "food.legume.other-legumes.mung-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "mung bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/other-legumes/",
+            "id": "food.legume.other-legumes",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Other Legumes"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "moth-bean"
+    },
+    {
+      "canonical_path": "/legumes/mung-bean/",
+      "projection_id": "food.legume.other-legumes.mung-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.other-legumes.adzuki-bean",
+            "id": "food.legume.other-legumes.adzuki-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "adzuki bean"
+          },
+          {
+            "href": "food.herb.whole-spices.cumin-seed",
+            "id": "food.herb.whole-spices.cumin-seed",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cumin seed"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/other-legumes/",
+            "id": "food.legume.other-legumes",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Other Legumes"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/adzuki-bean/",
+            "id": "food.legume.other-legumes.adzuki-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Adzuki Bean"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/herbal",
+            "id": "herbal",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "herbal"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "mung-bean"
+    },
+    {
+      "canonical_path": "/legumes/mung-bean-flour/",
+      "projection_id": "food.legume.legume-products.mung-bean-flour",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.legume-products.chickpea-flour",
+            "id": "food.legume.legume-products.chickpea-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chickpea flour"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/chickpea-flour/",
+            "id": "food.legume.legume-products.chickpea-flour",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Chickpea Flour"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "mung-bean-flour"
+    },
+    {
+      "canonical_path": "/legumes/natto/",
+      "projection_id": "food.legume.legume-products.natto",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/sherry/",
+            "id": "sherry",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "sherry"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.legume-products.miso",
+            "id": "food.legume.legume-products.miso",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "miso"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          },
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          },
+          {
+            "href": "food.vegetable.alliums.shallot",
+            "id": "food.vegetable.alliums.shallot",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shallot"
+          },
+          {
+            "href": "food.legume.legume-products.tempeh",
+            "id": "food.legume.legume-products.tempeh",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tempeh"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/madeira/",
+            "id": "madeira",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "madeira"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/tempeh/",
+            "id": "food.legume.legume-products.tempeh",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Tempeh"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/rich",
+            "id": "rich",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "rich"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/native-fermentation/",
+            "id": "native-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "native fermentation"
+          }
+        ]
+      },
+      "slug": "natto"
+    },
+    {
+      "canonical_path": "/legumes/navy-bean/",
+      "projection_id": "food.legume.beans.navy-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/chardonnay/",
+            "id": "chardonnay",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "chardonnay"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.herb.whole-spices.black-pepper",
+            "id": "food.herb.whole-spices.black-pepper",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black pepper"
+          },
+          {
+            "href": "food.legume.beans.great-northern-bean",
+            "id": "food.legume.beans.great-northern-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "great northern bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.legume.beans.pinto-bean",
+            "id": "food.legume.beans.pinto-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pinto bean"
+          },
+          {
+            "href": "food.protein.pork.pork-loin",
+            "id": "food.protein.pork.pork-loin",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pork loin"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/great-northern-bean/",
+            "id": "food.legume.beans.great-northern-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Great Northern Bean"
+          },
+          {
+            "href": "/legumes/white-bean/",
+            "id": "food.legume.beans.white-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "White Bean"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/lees-aging/",
+            "id": "lees-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "lees aging"
+          }
+        ]
+      },
+      "slug": "navy-bean"
+    },
+    {
+      "canonical_path": "/legumes/pea-flour/",
+      "projection_id": "food.legume.legume-products.pea-flour",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.legume-products.chickpea-flour",
+            "id": "food.legume.legume-products.chickpea-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chickpea flour"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/chickpea-flour/",
+            "id": "food.legume.legume-products.chickpea-flour",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Chickpea Flour"
+          },
+          {
+            "href": "/legumes/soy-flour/",
+            "id": "food.legume.legume-products.soy-flour",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Soy Flour"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/bright",
+            "id": "bright",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "bright"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "pea-flour"
+    },
+    {
+      "canonical_path": "/legumes/pigeon-pea/",
+      "projection_id": "food.legume.other-legumes.pigeon-pea",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.peas.black-eyed-pea",
+            "id": "food.legume.peas.black-eyed-pea",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black eyed pea"
+          },
+          {
+            "href": "food.herb.whole-spices.cumin-seed",
+            "id": "food.herb.whole-spices.cumin-seed",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cumin seed"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/other-legumes/",
+            "id": "food.legume.other-legumes",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Other Legumes"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/black-eyed-pea/",
+            "id": "food.legume.peas.black-eyed-pea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Black-Eyed Pea"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "pigeon-pea"
+    },
+    {
+      "canonical_path": "/legumes/pink-bean/",
+      "projection_id": "food.legume.beans.pink-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.pinto-bean",
+            "id": "food.legume.beans.pinto-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pinto bean"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/kidney-bean/",
+            "id": "food.legume.beans.kidney-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Kidney Bean"
+          },
+          {
+            "href": "/legumes/small-red-bean/",
+            "id": "food.legume.beans.small-red-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Small Red Bean"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "pink-bean"
+    },
+    {
+      "canonical_path": "/legumes/pinto-bean/",
+      "projection_id": "food.legume.beans.pinto-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.black-turtle-bean",
+            "id": "food.legume.beans.black-turtle-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black turtle bean"
+          },
+          {
+            "href": "food.grain.processed-grains.cornmeal",
+            "id": "food.grain.processed-grains.cornmeal",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cornmeal"
+          },
+          {
+            "href": "food.herb.whole-spices.cumin-seed",
+            "id": "food.herb.whole-spices.cumin-seed",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cumin seed"
+          },
+          {
+            "href": "food.legume.beans.mayocoba-bean",
+            "id": "food.legume.beans.mayocoba-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "mayocoba bean"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.legume.beans.pink-bean",
+            "id": "food.legume.beans.pink-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pink bean"
+          },
+          {
+            "href": "food.protein.pork.pork-loin",
+            "id": "food.protein.pork.pork-loin",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pork loin"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/kidney-bean/",
+            "id": "food.legume.beans.kidney-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Kidney Bean"
+          },
+          {
+            "href": "/legumes/mayocoba-bean/",
+            "id": "food.legume.beans.mayocoba-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Mayocoba Bean"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/malolactic-fermentation/",
+            "id": "malolactic-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "malolactic fermentation"
+          }
+        ]
+      },
+      "slug": "pinto-bean"
+    },
+    {
+      "canonical_path": "/legumes/purple-hull-pea/",
+      "projection_id": "food.legume.peas.purple-hull-pea",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/zinfandel/",
+            "id": "zinfandel",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "zinfandel"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.peas.black-eyed-pea",
+            "id": "food.legume.peas.black-eyed-pea",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black eyed pea"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/peas/",
+            "id": "food.legume.peas",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Peas"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/grenache/",
+            "id": "grenache",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "grenache"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/black-eyed-pea/",
+            "id": "food.legume.peas.black-eyed-pea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Black-Eyed Pea"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "purple-hull-pea"
+    },
+    {
+      "canonical_path": "/legumes/puy-lentil/",
+      "projection_id": "food.legume.lentils.puy-lentil",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.lentils.green-lentil",
+            "id": "food.legume.lentils.green-lentil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "green lentil"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/lentils/",
+            "id": "food.legume.lentils",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Lentils"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/black-lentil/",
+            "id": "food.legume.lentils.black-lentil",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Black Lentil"
+          },
+          {
+            "href": "/legumes/green-lentil/",
+            "id": "food.legume.lentils.green-lentil",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Green Lentil"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/minerality",
+            "id": "minerality",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "minerality"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/concrete-tank-aging/",
+            "id": "concrete-tank-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "concrete tank aging"
+          }
+        ]
+      },
+      "slug": "puy-lentil"
+    },
+    {
+      "canonical_path": "/legumes/rattlesnake-bean/",
+      "projection_id": "food.legume.beans.rattlesnake-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.pinto-bean",
+            "id": "food.legume.beans.pinto-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pinto bean"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/zinfandel/",
+            "id": "zinfandel",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "zinfandel"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "rattlesnake-bean"
+    },
+    {
+      "canonical_path": "/legumes/red-lentil/",
+      "projection_id": "food.legume.lentils.red-lentil",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.lentils.brown-lentil",
+            "id": "food.legume.lentils.brown-lentil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "brown lentil"
+          },
+          {
+            "href": "food.herb.whole-spices.cumin-seed",
+            "id": "food.herb.whole-spices.cumin-seed",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cumin seed"
+          },
+          {
+            "href": "food.herb.fresh-herbs.mint",
+            "id": "food.herb.fresh-herbs.mint",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "mint"
+          },
+          {
+            "href": "food.vegetable.alliums.onion",
+            "id": "food.vegetable.alliums.onion",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "onion"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          },
+          {
+            "href": "food.legume.lentils.yellow-lentil",
+            "id": "food.legume.lentils.yellow-lentil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "yellow lentil"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/lentils/",
+            "id": "food.legume.lentils",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Lentils"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/coral-lentil/",
+            "id": "food.legume.lentils.coral-lentil",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Coral Lentil"
+          },
+          {
+            "href": "/legumes/yellow-lentil/",
+            "id": "food.legume.lentils.yellow-lentil",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Yellow Lentil"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/spicy",
+            "id": "spicy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "spicy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/extended-maceration/",
+            "id": "extended-maceration",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "extended maceration"
+          }
+        ]
+      },
+      "slug": "red-lentil"
+    },
+    {
+      "canonical_path": "/legumes/red-lentil-flour/",
+      "projection_id": "food.legume.legume-products.red-lentil-flour",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.legume-products.lentil-flour",
+            "id": "food.legume.legume-products.lentil-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "lentil flour"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/gewurztraminer/",
+            "id": "gewurztraminer",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "gewurztraminer"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/lentil-flour/",
+            "id": "food.legume.legume-products.lentil-flour",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Lentil Flour"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/spicy",
+            "id": "spicy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "spicy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "red-lentil-flour"
+    },
+    {
+      "canonical_path": "/legumes/roman-bean/",
+      "projection_id": "food.legume.beans.roman-bean",
+      "sections": {
+        "alternative_wine_styles": [
+          {
+            "href": "/styles/nebbiolo/",
+            "id": "nebbiolo",
+            "relationship": "also_pairs_with_style",
+            "source": "ontology",
+            "title": "nebbiolo"
+          }
+        ],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.borlotti-bean",
+            "id": "food.legume.beans.borlotti-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "borlotti bean"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sangiovese/",
+            "id": "sangiovese",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sangiovese"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/borlotti-bean/",
+            "id": "food.legume.beans.borlotti-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Borlotti Bean"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "roman-bean"
+    },
+    {
+      "canonical_path": "/legumes/scarlet-runner-bean/",
+      "projection_id": "food.legume.beans.scarlet-runner-bean",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/cranberry-bean/",
+            "id": "food.legume.beans.cranberry-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Cranberry Bean"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "scarlet-runner-bean"
+    },
+    {
+      "canonical_path": "/legumes/small-red-bean/",
+      "projection_id": "food.legume.beans.small-red-bean",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/kidney-bean/",
+            "id": "food.legume.beans.kidney-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Kidney Bean"
+          },
+          {
+            "href": "/legumes/pink-bean/",
+            "id": "food.legume.beans.pink-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Pink Bean"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/spicy",
+            "id": "spicy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "spicy"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "small-red-bean"
+    },
+    {
+      "canonical_path": "/legumes/snap-pea/",
+      "projection_id": "food.legume.peas.snap-pea",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.peas.snow-pea",
+            "id": "food.legume.peas.snow-pea",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "snow pea"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/peas/",
+            "id": "food.legume.peas",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Peas"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/snow-pea/",
+            "id": "food.legume.peas.snow-pea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Snow Pea"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/herbal",
+            "id": "herbal",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "herbal"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "snap-pea"
+    },
+    {
+      "canonical_path": "/legumes/snow-pea/",
+      "projection_id": "food.legume.peas.snow-pea",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/peas/",
+            "id": "food.legume.peas",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Peas"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/dry-rose/",
+            "id": "dry-rose",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "dry rose"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/snap-pea/",
+            "id": "food.legume.peas.snap-pea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Snap Pea"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/bright",
+            "id": "bright",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "bright"
+          }
+        ],
+        "wine_techniques": []
+      },
+      "slug": "snow-pea"
+    },
+    {
+      "canonical_path": "/legumes/soldier-bean/",
+      "projection_id": "food.legume.beans.soldier-bean",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.navy-bean",
+            "id": "food.legume.beans.navy-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "navy bean"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "soldier-bean"
+    },
+    {
+      "canonical_path": "/legumes/soy-curls/",
+      "projection_id": "food.legume.legume-products.soy-curls",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.legume-products.textured-vegetable-protein",
+            "id": "food.legume.legume-products.textured-vegetable-protein",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "textured vegetable protein"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-noir/",
+            "id": "pinot-noir",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot noir"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/textured-vegetable-protein/",
+            "id": "food.legume.legume-products.textured-vegetable-protein",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Textured Vegetable Protein"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/earthy",
+            "id": "earthy",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "earthy"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/carbonic-maceration/",
+            "id": "carbonic-maceration",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "carbonic maceration"
+          }
+        ]
+      },
+      "slug": "soy-curls"
+    },
+    {
+      "canonical_path": "/legumes/soy-flour/",
+      "projection_id": "food.legume.legume-products.soy-flour",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.legume-products.chickpea-flour",
+            "id": "food.legume.legume-products.chickpea-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "chickpea flour"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/viognier/",
+            "id": "viognier",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "viognier"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/pea-flour/",
+            "id": "food.legume.legume-products.pea-flour",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Pea Flour"
+          }
+        ],
+        "wine_descriptors": [
+          {
+            "href": "/terms/nutty",
+            "id": "nutty",
+            "relationship": "pairs_with_descriptor",
+            "source": "ontology",
+            "title": "nutty"
+          }
+        ],
+        "wine_techniques": [
+          {
+            "href": "/techniques/barrel-aging/",
+            "id": "barrel-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "barrel aging"
+          }
+        ]
+      },
+      "slug": "soy-flour"
+    },
+    {
+      "canonical_path": "/legumes/soybean/",
+      "projection_id": "food.legume.other-legumes.soybean",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.other-legumes.black-gram",
+            "id": "food.legume.other-legumes.black-gram",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black gram"
+          },
+          {
+            "href": "food.legume.other-legumes.mung-bean",
+            "id": "food.legume.other-legumes.mung-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "mung bean"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          },
+          {
+            "href": "food.fungi.cultivated-mushrooms.shiitake",
+            "id": "food.fungi.cultivated-mushrooms.shiitake",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shiitake"
+          },
+          {
+            "href": "food.vegetable.green-vegetables.spinach",
+            "id": "food.vegetable.green-vegetables.spinach",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "spinach"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/other-legumes/",
+            "id": "food.legume.other-legumes",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Other Legumes"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/albarino/",
+            "id": "albarino",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "albarino"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [],
+        "wine_techniques": [
+          {
+            "href": "/techniques/native-fermentation/",
+            "id": "native-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "native fermentation"
+          }
+        ]
+      },
+      "slug": "soybean"
+    },
+    {
+      "canonical_path": "/legumes/tempeh/",
+      "projection_id": "food.legume.legume-products.tempeh",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.herb.fresh-herbs.basil",
+            "id": "food.herb.fresh-herbs.basil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "basil"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          },
+          {
+            "href": "food.legume.legume-products.tofu",
+            "id": "food.legume.legume-products.tofu",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tofu"
+          },
+          {
+            "href": "food.vegetable.nightshades.tomato",
+            "id": "food.vegetable.nightshades.tomato",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tomato"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/syrah-shiraz/",
+            "id": "syrah-shiraz",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "syrah shiraz"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/natto/",
+            "id": "food.legume.legume-products.natto",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Natto"
+          },
+          {
+            "href": "/legumes/tofu/",
+            "id": "food.legume.legume-products.tofu",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Tofu"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": [
+          {
+            "href": "/techniques/native-fermentation/",
+            "id": "native-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "native fermentation"
+          }
+        ]
+      },
+      "slug": "tempeh"
+    },
+    {
+      "canonical_path": "/legumes/tepary-bean/",
+      "projection_id": "food.legume.beans.tepary-bean",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.pinto-bean",
+            "id": "food.legume.beans.pinto-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "pinto bean"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/tempranillo/",
+            "id": "tempranillo",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "tempranillo"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "tepary-bean"
+    },
+    {
+      "canonical_path": "/legumes/textured-vegetable-protein/",
+      "projection_id": "food.legume.legume-products.textured-vegetable-protein",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.legume-products.soy-curls",
+            "id": "food.legume.legume-products.soy-curls",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "soy curls"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/merlot/",
+            "id": "merlot",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "merlot"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/soy-curls/",
+            "id": "food.legume.legume-products.soy-curls",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Soy Curls"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "textured-vegetable-protein"
+    },
+    {
+      "canonical_path": "/legumes/tofu/",
+      "projection_id": "food.legume.legume-products.tofu",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.legume.legume-products.miso",
+            "id": "food.legume.legume-products.miso",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "miso"
+          },
+          {
+            "href": "food.grain.whole-grains.rice",
+            "id": "food.grain.whole-grains.rice",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "rice"
+          },
+          {
+            "href": "food.protein.fin-fish.salmon-fillet",
+            "id": "food.protein.fin-fish.salmon-fillet",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "salmon fillet"
+          },
+          {
+            "href": "food.fungi.cultivated-mushrooms.shiitake",
+            "id": "food.fungi.cultivated-mushrooms.shiitake",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "shiitake"
+          },
+          {
+            "href": "food.vegetable.green-vegetables.spinach",
+            "id": "food.vegetable.green-vegetables.spinach",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "spinach"
+          },
+          {
+            "href": "food.legume.legume-products.tempeh",
+            "id": "food.legume.legume-products.tempeh",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "tempeh"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/tempeh/",
+            "id": "food.legume.legume-products.tempeh",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Tempeh"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": [
+          {
+            "href": "/techniques/cold-fermentation/",
+            "id": "cold-fermentation",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "cold fermentation"
+          }
+        ]
+      },
+      "slug": "tofu"
+    },
+    {
+      "canonical_path": "/legumes/white-bean/",
+      "projection_id": "food.legume.beans.white-bean",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.beans.cannellini-bean",
+            "id": "food.legume.beans.cannellini-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "cannellini bean"
+          },
+          {
+            "href": "food.vegetable.alliums.garlic",
+            "id": "food.vegetable.alliums.garlic",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "garlic"
+          },
+          {
+            "href": "food.cheese.hard.parmigiano-reggiano",
+            "id": "food.cheese.hard.parmigiano-reggiano",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "parmigiano reggiano"
+          },
+          {
+            "href": "food.protein.charcuterie.prosciutto",
+            "id": "food.protein.charcuterie.prosciutto",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "prosciutto"
+          },
+          {
+            "href": "food.vegetable.green-vegetables.spinach",
+            "id": "food.vegetable.green-vegetables.spinach",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "spinach"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Beans"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/cannellini-bean/",
+            "id": "food.legume.beans.cannellini-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Cannellini Bean"
+          },
+          {
+            "href": "/legumes/navy-bean/",
+            "id": "food.legume.beans.navy-bean",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Navy Bean"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": [
+          {
+            "href": "/techniques/concrete-tank-aging/",
+            "id": "concrete-tank-aging",
+            "relationship": "pairs_with_technique",
+            "source": "ontology",
+            "title": "concrete tank aging"
+          }
+        ]
+      },
+      "slug": "white-bean"
+    },
+    {
+      "canonical_path": "/legumes/white-bean-flour/",
+      "projection_id": "food.legume.legume-products.white-bean-flour",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.legume-products.black-bean-flour",
+            "id": "food.legume.legume-products.black-bean-flour",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "black bean flour"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Legume Products"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/pinot-grigio/",
+            "id": "pinot-grigio",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "pinot grigio"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/black-bean-flour/",
+            "id": "food.legume.legume-products.black-bean-flour",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Black Bean Flour"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "white-bean-flour"
+    },
+    {
+      "canonical_path": "/legumes/winged-bean/",
+      "projection_id": "food.legume.other-legumes.winged-bean",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.other-legumes.mung-bean",
+            "id": "food.legume.other-legumes.mung-bean",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "mung bean"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/other-legumes/",
+            "id": "food.legume.other-legumes",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Other Legumes"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/sauvignon-blanc/",
+            "id": "sauvignon-blanc",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "sauvignon blanc"
+          }
+        ],
+        "similar_legumes": [],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "winged-bean"
+    },
+    {
+      "canonical_path": "/legumes/yellow-lentil/",
+      "projection_id": "food.legume.lentils.yellow-lentil",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.lentils.red-lentil",
+            "id": "food.legume.lentils.red-lentil",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "red lentil"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/lentils/",
+            "id": "food.legume.lentils",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Lentils"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/red-lentil/",
+            "id": "food.legume.lentils.red-lentil",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Red Lentil"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "yellow-lentil"
+    },
+    {
+      "canonical_path": "/legumes/yellow-pea/",
+      "projection_id": "food.legume.peas.yellow-pea",
+      "sections": {
+        "alternative_wine_styles": [],
+        "commonly_served_with": [
+          {
+            "href": "food.legume.peas.green-pea",
+            "id": "food.legume.peas.green-pea",
+            "relationship": "commonly_served_with",
+            "source": "ontology",
+            "title": "green pea"
+          }
+        ],
+        "parent_navigation": {
+          "category": {
+            "href": "/legume-categories/legume/",
+            "id": "food.legume",
+            "relationship": "belongs_to_category",
+            "source": "ontology",
+            "title": "Legumes"
+          },
+          "group": {
+            "href": "/legume-groups/peas/",
+            "id": "food.legume.peas",
+            "relationship": "belongs_to_group",
+            "source": "ontology",
+            "title": "Peas"
+          }
+        },
+        "primary_wine_styles": [
+          {
+            "href": "/styles/riesling/",
+            "id": "riesling",
+            "relationship": "pairs_with_style",
+            "source": "ontology",
+            "title": "riesling"
+          }
+        ],
+        "similar_legumes": [
+          {
+            "href": "/legumes/green-pea/",
+            "id": "food.legume.peas.green-pea",
+            "relationship": "similar_to",
+            "source": "ontology",
+            "title": "Green Pea"
+          }
+        ],
+        "wine_descriptors": [],
+        "wine_techniques": []
+      },
+      "slug": "yellow-pea"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "legume",
+    "food_ontology_version": "1.8.0",
+    "link_set_count": 75,
+    "link_set_type": "legume",
+    "phase": "FOOD-11FD"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "documents": [
+    {
+      "canonical_path": "/legume-categories/legume/",
+      "canonical_url": "https://pairingmethod.com/legume-categories/legume/",
+      "display_name": "Legumes",
+      "document_type": "legume_category",
+      "food_count": 75,
+      "group_count": 6,
+      "group_ids": [
+        "food.legume.beans",
+        "food.legume.chickpeas",
+        "food.legume.legume-products",
+        "food.legume.lentils",
+        "food.legume.other-legumes",
+        "food.legume.peas"
+      ],
+      "groups": [
+        {
+          "food_count": 26,
+          "id": "food.legume.beans",
+          "name": "Beans",
+          "slug": "beans"
+        },
+        {
+          "food_count": 3,
+          "id": "food.legume.chickpeas",
+          "name": "Chickpeas",
+          "slug": "chickpeas"
+        },
+        {
+          "food_count": 17,
+          "id": "food.legume.legume-products",
+          "name": "Legume Products",
+          "slug": "legume-products"
+        },
+        {
+          "food_count": 9,
+          "id": "food.legume.lentils",
+          "name": "Lentils",
+          "slug": "lentils"
+        },
+        {
+          "food_count": 12,
+          "id": "food.legume.other-legumes",
+          "name": "Other Legumes",
+          "slug": "other-legumes"
+        },
+        {
+          "food_count": 8,
+          "id": "food.legume.peas",
+          "name": "Peas",
+          "slug": "peas"
+        }
+      ],
+      "id": "food.legume",
+      "projection_id": "food.legume",
+      "slug": "legume",
+      "tokens": [
+        "6",
+        "75",
+        "beans",
+        "chickpeas",
+        "legume",
+        "legume products",
+        "legumes",
+        "lentils",
+        "other legumes",
+        "peas"
+      ]
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "document_count": 1,
+    "document_type": "legume_category",
+    "domain": "legume",
+    "food_ontology_version": "1.8.0",
+    "phase": "FOOD-11FE"
+  }
+}

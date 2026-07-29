@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "legume",
+    "food_ontology_version": "1.8.0",
+    "phase": "FOOD-11FA",
+    "projection_count": 1,
+    "projection_type": "legume_category"
+  },
+  "projections": [
+    {
+      "food_count": 75,
+      "group_count": 6,
+      "groups": [
+        {
+          "id": "food.legume.beans",
+          "name": "Beans",
+          "slug": "beans"
+        },
+        {
+          "id": "food.legume.chickpeas",
+          "name": "Chickpeas",
+          "slug": "chickpeas"
+        },
+        {
+          "id": "food.legume.legume-products",
+          "name": "Legume Products",
+          "slug": "legume-products"
+        },
+        {
+          "id": "food.legume.lentils",
+          "name": "Lentils",
+          "slug": "lentils"
+        },
+        {
+          "id": "food.legume.other-legumes",
+          "name": "Other Legumes",
+          "slug": "other-legumes"
+        },
+        {
+          "id": "food.legume.peas",
+          "name": "Peas",
+          "slug": "peas"
+        }
+      ],
+      "identity": {
+        "id": "food.legume",
+        "name": "Legumes",
+        "slug": "legume"
+      }
+    }
+  ]
+}

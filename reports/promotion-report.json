@@ -1,35 +1,35 @@
 {
   "domains": [
-    "nut-seed"
+    "legume"
   ],
   "metrics": {
     "Overall result": "PASS",
     "Promotion targets": 6,
     "Validation errors": 0,
-    "nut-seed categories pages promoted": 1,
-    "nut-seed groups pages promoted": 6,
-    "nut-seed leaf pages promoted": 89
+    "legume categories pages promoted": 1,
+    "legume groups pages promoted": 6,
+    "legume leaf pages promoted": 75
   },
   "overall_result": "PASS",
   "phase": "DEPLOY-01",
   "promoted": [
     {
-      "domain": "nut-seed",
-      "html_files": 89,
-      "source": "dist/nut-seeds",
-      "target": "nut-seeds"
+      "domain": "legume",
+      "html_files": 75,
+      "source": "dist/legumes",
+      "target": "legumes"
     },
     {
-      "domain": "nut-seed",
+      "domain": "legume",
       "html_files": 6,
-      "source": "dist/nut-seed-groups",
-      "target": "nut-seed-groups"
+      "source": "dist/legume-groups",
+      "target": "legume-groups"
     },
     {
-      "domain": "nut-seed",
+      "domain": "legume",
       "html_files": 1,
-      "source": "dist/nut-seed-categories",
-      "target": "nut-seed-categories"
+      "source": "dist/legume-categories",
+      "target": "legume-categories"
     },
     {
       "html_files": 0,

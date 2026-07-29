@@ -1,0 +1,68 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/legume-categories/legume/",
+      "projection_id": "food.legume",
+      "sections": {
+        "groups": [
+          {
+            "href": "/legume-groups/beans/",
+            "id": "food.legume.beans",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Beans"
+          },
+          {
+            "href": "/legume-groups/chickpeas/",
+            "id": "food.legume.chickpeas",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Chickpeas"
+          },
+          {
+            "href": "/legume-groups/legume-products/",
+            "id": "food.legume.legume-products",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Legume Products"
+          },
+          {
+            "href": "/legume-groups/lentils/",
+            "id": "food.legume.lentils",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Lentils"
+          },
+          {
+            "href": "/legume-groups/other-legumes/",
+            "id": "food.legume.other-legumes",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Other Legumes"
+          },
+          {
+            "href": "/legume-groups/peas/",
+            "id": "food.legume.peas",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Peas"
+          }
+        ],
+        "member_food_summary": {
+          "food_count": 75,
+          "group_count": 6
+        },
+        "related_categories": []
+      },
+      "slug": "legume"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "legume",
+    "food_ontology_version": "1.8.0",
+    "link_set_count": 1,
+    "link_set_type": "legume_category",
+    "phase": "FOOD-11FD"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "legume",
+    "food_ontology_version": "1.8.0",
+    "page_count": 1,
+    "page_type": "legume_category",
+    "phase": "FOOD-11FB"
+  },
+  "pages": [
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/legumes/",
+          "label": "Legumes"
+        },
+        {
+          "href": "/legume-categories/legume/",
+          "label": "Legumes"
+        }
+      ],
+      "canonical_path": "/legume-categories/legume/",
+      "groups": [
+        {
+          "food_count": 26,
+          "href": "/legume-groups/beans/",
+          "id": "food.legume.beans",
+          "name": "Beans",
+          "slug": "beans"
+        },
+        {
+          "food_count": 3,
+          "href": "/legume-groups/chickpeas/",
+          "id": "food.legume.chickpeas",
+          "name": "Chickpeas",
+          "slug": "chickpeas"
+        },
+        {
+          "food_count": 17,
+          "href": "/legume-groups/legume-products/",
+          "id": "food.legume.legume-products",
+          "name": "Legume Products",
+          "slug": "legume-products"
+        },
+        {
+          "food_count": 9,
+          "href": "/legume-groups/lentils/",
+          "id": "food.legume.lentils",
+          "name": "Lentils",
+          "slug": "lentils"
+        },
+        {
+          "food_count": 12,
+          "href": "/legume-groups/other-legumes/",
+          "id": "food.legume.other-legumes",
+          "name": "Other Legumes",
+          "slug": "other-legumes"
+        },
+        {
+          "food_count": 8,
+          "href": "/legume-groups/peas/",
+          "id": "food.legume.peas",
+          "name": "Peas",
+          "slug": "peas"
+        }
+      ],
+      "identity": {
+        "id": "food.legume",
+        "slug": "legume",
+        "title": "Legumes"
+      },
+      "metadata": {
+        "canonical": "https://pairingmethod.com/legume-categories/legume/",
+        "description": "Legumes — 6 groups and 75 legumes.",
+        "og_description": "Legumes — 6 groups and 75 legumes.",
+        "og_title": "Legumes — Legume Category",
+        "title": "Legumes — Legume Category"
+      },
+      "overview": {
+        "display_name": "Legumes",
+        "food_count": 75,
+        "group_count": 6
+      },
+      "page_type": "legume_category",
+      "projection_id": "food.legume",
+      "slug": "legume"
+    }
+  ]
+}

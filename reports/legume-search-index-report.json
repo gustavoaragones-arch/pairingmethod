@@ -1,0 +1,24 @@
+{
+  "domain": "legume",
+  "metrics": {
+    "Broken references": 0,
+    "Category search documents": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate documents": 0,
+    "Group search documents": 6,
+    "Indexed tokens": 184,
+    "Leaf search documents": 75,
+    "Overall result": "PASS",
+    "Suggestions": 82,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/search/legume-search-index.json",
+    "data/search/legume-group-search-index.json",
+    "data/search/legume-category-search-index.json",
+    "data/search/legume-search-suggestions.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-11FE",
+  "validation_errors": []
+}

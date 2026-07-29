@@ -1,0 +1,769 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "legume",
+    "food_ontology_version": "1.8.0",
+    "page_count": 6,
+    "page_type": "legume_group",
+    "phase": "FOOD-11FB"
+  },
+  "pages": [
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/legumes/",
+          "label": "Legumes"
+        },
+        {
+          "href": "/legume-categories/legume/",
+          "label": "Legumes"
+        },
+        {
+          "href": "/legume-groups/beans/",
+          "label": "Beans"
+        }
+      ],
+      "canonical_path": "/legume-groups/beans/",
+      "identity": {
+        "id": "food.legume.beans",
+        "slug": "beans",
+        "title": "Beans"
+      },
+      "member_legumes": [
+        {
+          "href": "/legumes/anasazi-bean/",
+          "id": "food.legume.beans.anasazi-bean",
+          "name": "Anasazi Bean",
+          "slug": "anasazi-bean"
+        },
+        {
+          "href": "/legumes/black-bean/",
+          "id": "food.legume.beans.black-bean",
+          "name": "Black Bean",
+          "slug": "black-bean"
+        },
+        {
+          "href": "/legumes/black-turtle-bean/",
+          "id": "food.legume.beans.black-turtle-bean",
+          "name": "Black Turtle Bean",
+          "slug": "black-turtle-bean"
+        },
+        {
+          "href": "/legumes/borlotti-bean/",
+          "id": "food.legume.beans.borlotti-bean",
+          "name": "Borlotti Bean",
+          "slug": "borlotti-bean"
+        },
+        {
+          "href": "/legumes/butter-bean/",
+          "id": "food.legume.beans.butter-bean",
+          "name": "Butter Bean",
+          "slug": "butter-bean"
+        },
+        {
+          "href": "/legumes/cannellini-bean/",
+          "id": "food.legume.beans.cannellini-bean",
+          "name": "Cannellini Bean",
+          "slug": "cannellini-bean"
+        },
+        {
+          "href": "/legumes/cranberry-bean/",
+          "id": "food.legume.beans.cranberry-bean",
+          "name": "Cranberry Bean",
+          "slug": "cranberry-bean"
+        },
+        {
+          "href": "/legumes/fava-bean/",
+          "id": "food.legume.beans.fava-bean",
+          "name": "Fava Bean",
+          "slug": "fava-bean"
+        },
+        {
+          "href": "/legumes/flageolet-bean/",
+          "id": "food.legume.beans.flageolet-bean",
+          "name": "Flageolet Bean",
+          "slug": "flageolet-bean"
+        },
+        {
+          "href": "/legumes/great-northern-bean/",
+          "id": "food.legume.beans.great-northern-bean",
+          "name": "Great Northern Bean",
+          "slug": "great-northern-bean"
+        },
+        {
+          "href": "/legumes/haricot-bean/",
+          "id": "food.legume.beans.haricot-bean",
+          "name": "Haricot Bean",
+          "slug": "haricot-bean"
+        },
+        {
+          "href": "/legumes/jacob-cattle-bean/",
+          "id": "food.legume.beans.jacob-cattle-bean",
+          "name": "Jacob's Cattle Bean",
+          "slug": "jacob-cattle-bean"
+        },
+        {
+          "href": "/legumes/kidney-bean/",
+          "id": "food.legume.beans.kidney-bean",
+          "name": "Kidney Bean",
+          "slug": "kidney-bean"
+        },
+        {
+          "href": "/legumes/lima-bean/",
+          "id": "food.legume.beans.lima-bean",
+          "name": "Lima Bean",
+          "slug": "lima-bean"
+        },
+        {
+          "href": "/legumes/marrow-bean/",
+          "id": "food.legume.beans.marrow-bean",
+          "name": "Marrow Bean",
+          "slug": "marrow-bean"
+        },
+        {
+          "href": "/legumes/mayocoba-bean/",
+          "id": "food.legume.beans.mayocoba-bean",
+          "name": "Mayocoba Bean",
+          "slug": "mayocoba-bean"
+        },
+        {
+          "href": "/legumes/navy-bean/",
+          "id": "food.legume.beans.navy-bean",
+          "name": "Navy Bean",
+          "slug": "navy-bean"
+        },
+        {
+          "href": "/legumes/pink-bean/",
+          "id": "food.legume.beans.pink-bean",
+          "name": "Pink Bean",
+          "slug": "pink-bean"
+        },
+        {
+          "href": "/legumes/pinto-bean/",
+          "id": "food.legume.beans.pinto-bean",
+          "name": "Pinto Bean",
+          "slug": "pinto-bean"
+        },
+        {
+          "href": "/legumes/rattlesnake-bean/",
+          "id": "food.legume.beans.rattlesnake-bean",
+          "name": "Rattlesnake Bean",
+          "slug": "rattlesnake-bean"
+        },
+        {
+          "href": "/legumes/roman-bean/",
+          "id": "food.legume.beans.roman-bean",
+          "name": "Roman Bean",
+          "slug": "roman-bean"
+        },
+        {
+          "href": "/legumes/scarlet-runner-bean/",
+          "id": "food.legume.beans.scarlet-runner-bean",
+          "name": "Scarlet Runner Bean",
+          "slug": "scarlet-runner-bean"
+        },
+        {
+          "href": "/legumes/small-red-bean/",
+          "id": "food.legume.beans.small-red-bean",
+          "name": "Small Red Bean",
+          "slug": "small-red-bean"
+        },
+        {
+          "href": "/legumes/soldier-bean/",
+          "id": "food.legume.beans.soldier-bean",
+          "name": "Soldier Bean",
+          "slug": "soldier-bean"
+        },
+        {
+          "href": "/legumes/tepary-bean/",
+          "id": "food.legume.beans.tepary-bean",
+          "name": "Tepary Bean",
+          "slug": "tepary-bean"
+        },
+        {
+          "href": "/legumes/white-bean/",
+          "id": "food.legume.beans.white-bean",
+          "name": "White Bean",
+          "slug": "white-bean"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/legume-groups/beans/",
+        "description": "Beans — 26 legumes in the Legume Ontology.",
+        "og_description": "Beans — 26 legumes in the Legume Ontology.",
+        "og_title": "Beans — Legume Group",
+        "title": "Beans — Legume Group"
+      },
+      "overview": {
+        "display_name": "Beans",
+        "food_count": 26,
+        "parent_category": {
+          "id": "food.legume",
+          "name": "Legumes",
+          "slug": "legume"
+        }
+      },
+      "page_type": "legume_group",
+      "projection_id": "food.legume.beans",
+      "slug": "beans",
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/legumes/",
+          "label": "Legumes"
+        },
+        {
+          "href": "/legume-categories/legume/",
+          "label": "Legumes"
+        },
+        {
+          "href": "/legume-groups/chickpeas/",
+          "label": "Chickpeas"
+        }
+      ],
+      "canonical_path": "/legume-groups/chickpeas/",
+      "identity": {
+        "id": "food.legume.chickpeas",
+        "slug": "chickpeas",
+        "title": "Chickpeas"
+      },
+      "member_legumes": [
+        {
+          "href": "/legumes/black-chickpea/",
+          "id": "food.legume.chickpeas.black-chickpea",
+          "name": "Black Chickpea",
+          "slug": "black-chickpea"
+        },
+        {
+          "href": "/legumes/chickpea/",
+          "id": "food.legume.chickpeas.chickpea",
+          "name": "Chickpea",
+          "slug": "chickpea"
+        },
+        {
+          "href": "/legumes/green-chickpea/",
+          "id": "food.legume.chickpeas.green-chickpea",
+          "name": "Green Chickpea",
+          "slug": "green-chickpea"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/legume-groups/chickpeas/",
+        "description": "Chickpeas — 3 legumes in the Legume Ontology.",
+        "og_description": "Chickpeas — 3 legumes in the Legume Ontology.",
+        "og_title": "Chickpeas — Legume Group",
+        "title": "Chickpeas — Legume Group"
+      },
+      "overview": {
+        "display_name": "Chickpeas",
+        "food_count": 3,
+        "parent_category": {
+          "id": "food.legume",
+          "name": "Legumes",
+          "slug": "legume"
+        }
+      },
+      "page_type": "legume_group",
+      "projection_id": "food.legume.chickpeas",
+      "slug": "chickpeas",
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/legumes/",
+          "label": "Legumes"
+        },
+        {
+          "href": "/legume-categories/legume/",
+          "label": "Legumes"
+        },
+        {
+          "href": "/legume-groups/legume-products/",
+          "label": "Legume Products"
+        }
+      ],
+      "canonical_path": "/legume-groups/legume-products/",
+      "identity": {
+        "id": "food.legume.legume-products",
+        "slug": "legume-products",
+        "title": "Legume Products"
+      },
+      "member_legumes": [
+        {
+          "href": "/legumes/black-bean-flour/",
+          "id": "food.legume.legume-products.black-bean-flour",
+          "name": "Black Bean Flour",
+          "slug": "black-bean-flour"
+        },
+        {
+          "href": "/legumes/chickpea-flour/",
+          "id": "food.legume.legume-products.chickpea-flour",
+          "name": "Chickpea Flour",
+          "slug": "chickpea-flour"
+        },
+        {
+          "href": "/legumes/fava-bean-flour/",
+          "id": "food.legume.legume-products.fava-bean-flour",
+          "name": "Fava Bean Flour",
+          "slug": "fava-bean-flour"
+        },
+        {
+          "href": "/legumes/fermented-black-bean/",
+          "id": "food.legume.legume-products.fermented-black-bean",
+          "name": "Fermented Black Bean",
+          "slug": "fermented-black-bean"
+        },
+        {
+          "href": "/legumes/lentil-flour/",
+          "id": "food.legume.legume-products.lentil-flour",
+          "name": "Lentil Flour",
+          "slug": "lentil-flour"
+        },
+        {
+          "href": "/legumes/lupin-flour/",
+          "id": "food.legume.legume-products.lupin-flour",
+          "name": "Lupin Flour",
+          "slug": "lupin-flour"
+        },
+        {
+          "href": "/legumes/miso/",
+          "id": "food.legume.legume-products.miso",
+          "name": "Miso",
+          "slug": "miso"
+        },
+        {
+          "href": "/legumes/mung-bean-flour/",
+          "id": "food.legume.legume-products.mung-bean-flour",
+          "name": "Mung Bean Flour",
+          "slug": "mung-bean-flour"
+        },
+        {
+          "href": "/legumes/natto/",
+          "id": "food.legume.legume-products.natto",
+          "name": "Natto",
+          "slug": "natto"
+        },
+        {
+          "href": "/legumes/pea-flour/",
+          "id": "food.legume.legume-products.pea-flour",
+          "name": "Pea Flour",
+          "slug": "pea-flour"
+        },
+        {
+          "href": "/legumes/red-lentil-flour/",
+          "id": "food.legume.legume-products.red-lentil-flour",
+          "name": "Red Lentil Flour",
+          "slug": "red-lentil-flour"
+        },
+        {
+          "href": "/legumes/soy-curls/",
+          "id": "food.legume.legume-products.soy-curls",
+          "name": "Soy Curls",
+          "slug": "soy-curls"
+        },
+        {
+          "href": "/legumes/soy-flour/",
+          "id": "food.legume.legume-products.soy-flour",
+          "name": "Soy Flour",
+          "slug": "soy-flour"
+        },
+        {
+          "href": "/legumes/tempeh/",
+          "id": "food.legume.legume-products.tempeh",
+          "name": "Tempeh",
+          "slug": "tempeh"
+        },
+        {
+          "href": "/legumes/textured-vegetable-protein/",
+          "id": "food.legume.legume-products.textured-vegetable-protein",
+          "name": "Textured Vegetable Protein",
+          "slug": "textured-vegetable-protein"
+        },
+        {
+          "href": "/legumes/tofu/",
+          "id": "food.legume.legume-products.tofu",
+          "name": "Tofu",
+          "slug": "tofu"
+        },
+        {
+          "href": "/legumes/white-bean-flour/",
+          "id": "food.legume.legume-products.white-bean-flour",
+          "name": "White Bean Flour",
+          "slug": "white-bean-flour"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/legume-groups/legume-products/",
+        "description": "Legume Products — 17 legumes in the Legume Ontology.",
+        "og_description": "Legume Products — 17 legumes in the Legume Ontology.",
+        "og_title": "Legume Products — Legume Group",
+        "title": "Legume Products — Legume Group"
+      },
+      "overview": {
+        "display_name": "Legume Products",
+        "food_count": 17,
+        "parent_category": {
+          "id": "food.legume",
+          "name": "Legumes",
+          "slug": "legume"
+        }
+      },
+      "page_type": "legume_group",
+      "projection_id": "food.legume.legume-products",
+      "slug": "legume-products",
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/legumes/",
+          "label": "Legumes"
+        },
+        {
+          "href": "/legume-categories/legume/",
+          "label": "Legumes"
+        },
+        {
+          "href": "/legume-groups/lentils/",
+          "label": "Lentils"
+        }
+      ],
+      "canonical_path": "/legume-groups/lentils/",
+      "identity": {
+        "id": "food.legume.lentils",
+        "slug": "lentils",
+        "title": "Lentils"
+      },
+      "member_legumes": [
+        {
+          "href": "/legumes/black-lentil/",
+          "id": "food.legume.lentils.black-lentil",
+          "name": "Black Lentil",
+          "slug": "black-lentil"
+        },
+        {
+          "href": "/legumes/brown-lentil/",
+          "id": "food.legume.lentils.brown-lentil",
+          "name": "Brown Lentil",
+          "slug": "brown-lentil"
+        },
+        {
+          "href": "/legumes/coral-lentil/",
+          "id": "food.legume.lentils.coral-lentil",
+          "name": "Coral Lentil",
+          "slug": "coral-lentil"
+        },
+        {
+          "href": "/legumes/golden-lentil/",
+          "id": "food.legume.lentils.golden-lentil",
+          "name": "Golden Lentil",
+          "slug": "golden-lentil"
+        },
+        {
+          "href": "/legumes/green-lentil/",
+          "id": "food.legume.lentils.green-lentil",
+          "name": "Green Lentil",
+          "slug": "green-lentil"
+        },
+        {
+          "href": "/legumes/macachiados-lentil/",
+          "id": "food.legume.lentils.macachiados-lentil",
+          "name": "Macachiados Lentil",
+          "slug": "macachiados-lentil"
+        },
+        {
+          "href": "/legumes/puy-lentil/",
+          "id": "food.legume.lentils.puy-lentil",
+          "name": "Puy Lentil",
+          "slug": "puy-lentil"
+        },
+        {
+          "href": "/legumes/red-lentil/",
+          "id": "food.legume.lentils.red-lentil",
+          "name": "Red Lentil",
+          "slug": "red-lentil"
+        },
+        {
+          "href": "/legumes/yellow-lentil/",
+          "id": "food.legume.lentils.yellow-lentil",
+          "name": "Yellow Lentil",
+          "slug": "yellow-lentil"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/legume-groups/lentils/",
+        "description": "Lentils — 9 legumes in the Legume Ontology.",
+        "og_description": "Lentils — 9 legumes in the Legume Ontology.",
+        "og_title": "Lentils — Legume Group",
+        "title": "Lentils — Legume Group"
+      },
+      "overview": {
+        "display_name": "Lentils",
+        "food_count": 9,
+        "parent_category": {
+          "id": "food.legume",
+          "name": "Legumes",
+          "slug": "legume"
+        }
+      },
+      "page_type": "legume_group",
+      "projection_id": "food.legume.lentils",
+      "slug": "lentils",
+      "usage_intensities_represented": [
+        "accent",
+        "luxury",
+        "primary"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/legumes/",
+          "label": "Legumes"
+        },
+        {
+          "href": "/legume-categories/legume/",
+          "label": "Legumes"
+        },
+        {
+          "href": "/legume-groups/other-legumes/",
+          "label": "Other Legumes"
+        }
+      ],
+      "canonical_path": "/legume-groups/other-legumes/",
+      "identity": {
+        "id": "food.legume.other-legumes",
+        "slug": "other-legumes",
+        "title": "Other Legumes"
+      },
+      "member_legumes": [
+        {
+          "href": "/legumes/adzuki-bean/",
+          "id": "food.legume.other-legumes.adzuki-bean",
+          "name": "Adzuki Bean",
+          "slug": "adzuki-bean"
+        },
+        {
+          "href": "/legumes/black-gram/",
+          "id": "food.legume.other-legumes.black-gram",
+          "name": "Black Gram",
+          "slug": "black-gram"
+        },
+        {
+          "href": "/legumes/guar-bean/",
+          "id": "food.legume.other-legumes.guar-bean",
+          "name": "Guar Bean",
+          "slug": "guar-bean"
+        },
+        {
+          "href": "/legumes/horse-gram/",
+          "id": "food.legume.other-legumes.horse-gram",
+          "name": "Horse Gram",
+          "slug": "horse-gram"
+        },
+        {
+          "href": "/legumes/hyacinth-bean/",
+          "id": "food.legume.other-legumes.hyacinth-bean",
+          "name": "Hyacinth Bean",
+          "slug": "hyacinth-bean"
+        },
+        {
+          "href": "/legumes/jack-bean/",
+          "id": "food.legume.other-legumes.jack-bean",
+          "name": "Jack Bean",
+          "slug": "jack-bean"
+        },
+        {
+          "href": "/legumes/lupin-bean/",
+          "id": "food.legume.other-legumes.lupin-bean",
+          "name": "Lupin Bean",
+          "slug": "lupin-bean"
+        },
+        {
+          "href": "/legumes/moth-bean/",
+          "id": "food.legume.other-legumes.moth-bean",
+          "name": "Moth Bean",
+          "slug": "moth-bean"
+        },
+        {
+          "href": "/legumes/mung-bean/",
+          "id": "food.legume.other-legumes.mung-bean",
+          "name": "Mung Bean",
+          "slug": "mung-bean"
+        },
+        {
+          "href": "/legumes/pigeon-pea/",
+          "id": "food.legume.other-legumes.pigeon-pea",
+          "name": "Pigeon Pea",
+          "slug": "pigeon-pea"
+        },
+        {
+          "href": "/legumes/soybean/",
+          "id": "food.legume.other-legumes.soybean",
+          "name": "Soybean",
+          "slug": "soybean"
+        },
+        {
+          "href": "/legumes/winged-bean/",
+          "id": "food.legume.other-legumes.winged-bean",
+          "name": "Winged Bean",
+          "slug": "winged-bean"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/legume-groups/other-legumes/",
+        "description": "Other Legumes — 12 legumes in the Legume Ontology.",
+        "og_description": "Other Legumes — 12 legumes in the Legume Ontology.",
+        "og_title": "Other Legumes — Legume Group",
+        "title": "Other Legumes — Legume Group"
+      },
+      "overview": {
+        "display_name": "Other Legumes",
+        "food_count": 12,
+        "parent_category": {
+          "id": "food.legume",
+          "name": "Legumes",
+          "slug": "legume"
+        }
+      },
+      "page_type": "legume_group",
+      "projection_id": "food.legume.other-legumes",
+      "slug": "other-legumes",
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/legumes/",
+          "label": "Legumes"
+        },
+        {
+          "href": "/legume-categories/legume/",
+          "label": "Legumes"
+        },
+        {
+          "href": "/legume-groups/peas/",
+          "label": "Peas"
+        }
+      ],
+      "canonical_path": "/legume-groups/peas/",
+      "identity": {
+        "id": "food.legume.peas",
+        "slug": "peas",
+        "title": "Peas"
+      },
+      "member_legumes": [
+        {
+          "href": "/legumes/black-eyed-pea/",
+          "id": "food.legume.peas.black-eyed-pea",
+          "name": "Black-Eyed Pea",
+          "slug": "black-eyed-pea"
+        },
+        {
+          "href": "/legumes/field-pea/",
+          "id": "food.legume.peas.field-pea",
+          "name": "Field Pea",
+          "slug": "field-pea"
+        },
+        {
+          "href": "/legumes/green-pea/",
+          "id": "food.legume.peas.green-pea",
+          "name": "Green Pea",
+          "slug": "green-pea"
+        },
+        {
+          "href": "/legumes/marrowfat-pea/",
+          "id": "food.legume.peas.marrowfat-pea",
+          "name": "Marrowfat Pea",
+          "slug": "marrowfat-pea"
+        },
+        {
+          "href": "/legumes/purple-hull-pea/",
+          "id": "food.legume.peas.purple-hull-pea",
+          "name": "Purple Hull Pea",
+          "slug": "purple-hull-pea"
+        },
+        {
+          "href": "/legumes/snap-pea/",
+          "id": "food.legume.peas.snap-pea",
+          "name": "Snap Pea",
+          "slug": "snap-pea"
+        },
+        {
+          "href": "/legumes/snow-pea/",
+          "id": "food.legume.peas.snow-pea",
+          "name": "Snow Pea",
+          "slug": "snow-pea"
+        },
+        {
+          "href": "/legumes/yellow-pea/",
+          "id": "food.legume.peas.yellow-pea",
+          "name": "Yellow Pea",
+          "slug": "yellow-pea"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/legume-groups/peas/",
+        "description": "Peas — 8 legumes in the Legume Ontology.",
+        "og_description": "Peas — 8 legumes in the Legume Ontology.",
+        "og_title": "Peas — Legume Group",
+        "title": "Peas — Legume Group"
+      },
+      "overview": {
+        "display_name": "Peas",
+        "food_count": 8,
+        "parent_category": {
+          "id": "food.legume",
+          "name": "Legumes",
+          "slug": "legume"
+        }
+      },
+      "page_type": "legume_group",
+      "projection_id": "food.legume.peas",
+      "slug": "peas",
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    }
+  ]
+}

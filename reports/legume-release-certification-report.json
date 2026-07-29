@@ -1,0 +1,33 @@
+{
+  "deployment_gate": true,
+  "domain": "legume",
+  "metrics": {
+    "Broken navigation links": 0,
+    "HTML pages": 82,
+    "Overall result": "PASS",
+    "Publication entities": 82,
+    "Search suggestions": 82,
+    "Sitemap URLs": 82,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "dist/release-manifest.json",
+    "reports/legume-release-certification-report.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-11FI",
+  "platform_audit": {
+    "overall": "PASS",
+    "platform_modifications_required": 0,
+    "shared_publication_pipeline_reused_percent": 100
+  },
+  "release_summary": {
+    "canonicalLegumes": 75,
+    "editorialRelationships": 280,
+    "publicationPages": 82,
+    "runtimeRelationships": 2114,
+    "wineRelationships": 199
+  },
+  "validation_errors": [],
+  "warnings": []
+}
