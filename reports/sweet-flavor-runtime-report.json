@@ -1,0 +1,58 @@
+{
+  "catalog_version": "1.0.0",
+  "domain": "sweet-flavor",
+  "errors": [],
+  "metrics": {
+    "By group checks": 2,
+    "Catalog coverage checks": 1,
+    "Catalog entity count": 73,
+    "Determinism checks": 1,
+    "Editorial edges": 0,
+    "Errors": 0,
+    "Hierarchy checks": 4,
+    "Identity checks": 3,
+    "Index completeness checks": 1,
+    "Intrinsic edges": 1981,
+    "Namespace checks": 2,
+    "Orphan checks": 1,
+    "Overall result": "PASS",
+    "Relationship checks": 4,
+    "Runtime entity count": 73,
+    "Scientific name checks": 2,
+    "Structural edges": 231,
+    "Sweet flavor governance checks": 1,
+    "Usage intensity checks": 2,
+    "Vocabulary checks": 2,
+    "Warnings": 0
+  },
+  "output": "data/runtime/sweet-flavor-runtime.json",
+  "overall_result": "PASS",
+  "phase": "FOOD-12C",
+  "relationship_type_counts": {
+    "belongs_to_category": 79,
+    "belongs_to_group": 73,
+    "category_contains": 6,
+    "group_contains": 73,
+    "shares_scientific_name": 388,
+    "shares_usage_intensity": 1593
+  },
+  "runtime_stability_levels": {
+    "level_1_structural": [
+      "belongs_to_group",
+      "belongs_to_category",
+      "group_contains",
+      "category_contains"
+    ],
+    "level_2_intrinsic_similarity": [
+      "shares_usage_intensity",
+      "shares_scientific_name"
+    ],
+    "level_3_editorial": [
+      "similar_to",
+      "substitutes_for",
+      "commonly_served_with",
+      "similar_sweet_flavors"
+    ]
+  },
+  "warnings": []
+}
