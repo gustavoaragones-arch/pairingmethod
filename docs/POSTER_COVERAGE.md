@@ -240,13 +240,13 @@ Poster groupings are **pairing categories**, not identical to cheese taxonomy gr
 |----------------|---------------|--------|
 | Beans & Peas | FOOD-11 | Partial — `legumes` in Protein Foods pending dedicated domain |
 
-#### Sweet Flavors (FOOD-12) — **Not Started**
+#### Sweet Flavors (FOOD-12) — **Governance Frozen (FOOD-12A)**
 
 | Poster Concept | Planned Phase | Status |
 |----------------|---------------|--------|
-| Vanilla & Caramel | FOOD-12 | Not Started |
-| Chocolate & Coffee | FOOD-12 | Not Started |
-| Fruit & Berries (sweet context) | FOOD-09 | Not Started |
+| Vanilla & Caramel | FOOD-12 | Governance frozen — vanilla extract deferred to FOOD-13 |
+| Chocolate & Coffee | FOOD-12 | Governance frozen — cocoa ingredients in Sweet Flavor; coffee beverages deferred |
+| Fruit & Berries (sweet context) | FOOD-09 | Published — cross-domain refs to Sweet Flavor at FOOD-12F |
 
 #### Sauces & Condiments (FOOD-13) — **Not Started**
 
@@ -456,4 +456,4 @@ No additional platform phases unless a genuine architectural limitation is disco
 | Sauces | 0 | 0 | 1 | 0 |
 | Wine columns | 0 | 9 | 0 | 0 |
 
-**Next planned work:** **FOOD-12** (from tag `food-ontology-suite-v1.8.0`; see POSTER_COVERAGE.md).
+**Next planned work:** **FOOD-12B — Populate Sweet Flavor Ontology catalog** (from tag `food-ontology-suite-v1.8.0`; governance frozen at FOOD-12A).

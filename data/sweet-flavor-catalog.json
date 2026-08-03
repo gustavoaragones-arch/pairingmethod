@@ -1,0 +1,409 @@
+{
+  "categories": [
+    {
+      "child_slugs": [
+        "sugars",
+        "syrups",
+        "honey-bee-products",
+        "natural-sweeteners",
+        "alternative-sweeteners",
+        "cocoa-chocolate-ingredients"
+      ],
+      "domain": "culinary",
+      "entity_type": "sweet_flavor_category",
+      "external_ids": {},
+      "id": "food.sweet-flavor",
+      "introduction": "The Sweet Flavor Ontology catalogs canonical culinary sweeteners, syrups, honey products, natural and alternative sweeteners, and cocoa or chocolate ingredients used worldwide in cooking. This domain models culinary ingredients, not desserts, confectionery, beverages, recipes, or commercial brands.",
+      "name": "Sweet Flavors",
+      "scientific_name": "",
+      "seo_description": "Explore canonical culinary sweeteners and sweet flavor ingredients by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+      "seo_title": "Sweet Flavors — Food Ontology",
+      "slug": "sweet-flavor",
+      "summary": "Canonical culinary sweet flavor ingredients across six immutable groups: Sugars, Syrups, Honey & Bee Products, Natural Sweeteners, Alternative Sweeteners, and Cocoa & Chocolate Ingredients."
+    }
+  ],
+  "groups": [
+    {
+      "child_slugs": [],
+      "culinary_group": "sugars",
+      "domain": "culinary",
+      "entity_type": "sweet_flavor_group",
+      "external_ids": {},
+      "id": "food.sweet-flavor.sugars",
+      "introduction": "Sugars in the Sweet Flavor Ontology — crystalline and granulated culinary sweeteners used in baking, cookery, and confection applications, including cane sugar, beet sugar, and palm sugar.",
+      "name": "Sugars",
+      "parent_category": "sweet-flavor",
+      "scientific_name": "",
+      "seo_description": "Canonical sugars — cane sugar, beet sugar, palm sugar, and related culinary sweetener ingredients in the PairingMethod Sweet Flavor Ontology.",
+      "seo_title": "Sugars — Sweet Flavor Ontology",
+      "slug": "sugars",
+      "summary": "Sugars — canonical culinary sugar ingredients in the Sweet Flavor Ontology (population deferred to FOOD-12B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "syrups",
+      "domain": "culinary",
+      "entity_type": "sweet_flavor_group",
+      "external_ids": {},
+      "id": "food.sweet-flavor.syrups",
+      "introduction": "Syrups in the Sweet Flavor Ontology — pourable culinary sweeteners used in baking, glazing, and cookery, including maple syrup, molasses, and corn syrup.",
+      "name": "Syrups",
+      "parent_category": "sweet-flavor",
+      "scientific_name": "",
+      "seo_description": "Canonical syrups — maple syrup, molasses, corn syrup, and related culinary sweetener ingredients in the PairingMethod Sweet Flavor Ontology.",
+      "seo_title": "Syrups — Sweet Flavor Ontology",
+      "slug": "syrups",
+      "summary": "Syrups — canonical culinary syrup ingredients in the Sweet Flavor Ontology (population deferred to FOOD-12B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "honey_bee_products",
+      "domain": "culinary",
+      "entity_type": "sweet_flavor_group",
+      "external_ids": {},
+      "id": "food.sweet-flavor.honey-bee-products",
+      "introduction": "Honey and bee products in the Sweet Flavor Ontology — culinary sweeteners only: honey and comb honey. Bee pollen, royal jelly, and propolis are excluded (supplement scope, not mainstream culinary sweeteners).",
+      "name": "Honey & Bee Products",
+      "parent_category": "sweet-flavor",
+      "scientific_name": "",
+      "seo_description": "Canonical honey and bee products — honey, comb honey, and related culinary sweetener ingredients in the PairingMethod Sweet Flavor Ontology.",
+      "seo_title": "Honey & Bee Products — Sweet Flavor Ontology",
+      "slug": "honey-bee-products",
+      "summary": "Honey & Bee Products — honey and comb honey only; supplement bee products excluded (population deferred to FOOD-12B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "natural_sweeteners",
+      "domain": "culinary",
+      "entity_type": "sweet_flavor_group",
+      "external_ids": {},
+      "id": "food.sweet-flavor.natural-sweeteners",
+      "introduction": "Natural sweeteners in the Sweet Flavor Ontology — plant- and fruit-derived culinary sweeteners used in baking and cookery, including agave, date syrup, and monk fruit sweetener.",
+      "name": "Natural Sweeteners",
+      "parent_category": "sweet-flavor",
+      "scientific_name": "",
+      "seo_description": "Canonical natural sweeteners — agave, date syrup, monk fruit, and related culinary sweetener ingredients in the PairingMethod Sweet Flavor Ontology.",
+      "seo_title": "Natural Sweeteners — Sweet Flavor Ontology",
+      "slug": "natural-sweeteners",
+      "summary": "Natural Sweeteners — canonical culinary natural sweetener ingredients in the Sweet Flavor Ontology (population deferred to FOOD-12B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "alternative_sweeteners",
+      "domain": "culinary",
+      "entity_type": "sweet_flavor_group",
+      "external_ids": {},
+      "id": "food.sweet-flavor.alternative-sweeteners",
+      "introduction": "Alternative sweeteners in the Sweet Flavor Ontology — non-nutritive and reduced-calorie culinary sweeteners used in baking and cookery, including erythritol, xylitol, and allulose.",
+      "name": "Alternative Sweeteners",
+      "parent_category": "sweet-flavor",
+      "scientific_name": "",
+      "seo_description": "Canonical alternative sweeteners — erythritol, xylitol, allulose, and related culinary sweetener ingredients in the PairingMethod Sweet Flavor Ontology.",
+      "seo_title": "Alternative Sweeteners — Sweet Flavor Ontology",
+      "slug": "alternative-sweeteners",
+      "summary": "Alternative Sweeteners — canonical culinary alternative sweetener ingredients in the Sweet Flavor Ontology (population deferred to FOOD-12B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "cocoa_chocolate_ingredients",
+      "domain": "culinary",
+      "entity_type": "sweet_flavor_group",
+      "external_ids": {},
+      "id": "food.sweet-flavor.cocoa-chocolate-ingredients",
+      "introduction": "Cocoa and chocolate ingredients in the Sweet Flavor Ontology — cacao-derived culinary ingredients used in baking and cookery, including cocoa powder, cocoa butter, and cacao nibs.",
+      "name": "Cocoa & Chocolate Ingredients",
+      "parent_category": "sweet-flavor",
+      "scientific_name": "",
+      "seo_description": "Canonical cocoa and chocolate ingredients — cocoa powder, cocoa butter, cacao nibs, and related culinary sweet flavor ingredients in the PairingMethod Sweet Flavor Ontology.",
+      "seo_title": "Cocoa & Chocolate Ingredients — Sweet Flavor Ontology",
+      "slug": "cocoa-chocolate-ingredients",
+      "summary": "Cocoa & Chocolate Ingredients — canonical culinary cocoa and chocolate ingredients in the Sweet Flavor Ontology (population deferred to FOOD-12B)."
+    }
+  ],
+  "sweet_flavors": [],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "category_count": 1,
+    "description": "Sweet Flavor Ontology — governance shell only (FOOD-12A). Entity population deferred to FOOD-12B.",
+    "domain": "sweet-flavor",
+    "entity_count": 0,
+    "entity_type": "sweet_flavor",
+    "food_ontology_version": "1.9.0",
+    "freeze_label": "Sweet Flavor Governance Frozen v1.0.0",
+    "freeze_phase": "FOOD-12A",
+    "governance_status": "frozen",
+    "group_count": 6,
+    "ontology_foundation_version": "1.0.0",
+    "phase": "FOOD-12A",
+    "platform_version": "1.0.0",
+    "seeded": "2026-08-02",
+    "tier": 2,
+    "wine_ontology_version": "2.0"
+  },
+  "schema": {
+    "controlled_vocabularies": {
+      "aroma_profile": {
+        "cardinality": "array",
+        "description": "Reserved aroma characteristic tags — vocabulary frozen in FOOD-12A; do not populate until post-FOOD-12B curation standards.",
+        "populate_from_phase": "FOOD-12C",
+        "values": [
+          "floral",
+          "caramel",
+          "molasses",
+          "earthy",
+          "fruity",
+          "nutty",
+          "neutral",
+          "roasted"
+        ]
+      },
+      "canonical_culinary_groups": {
+        "description": "Immutable group names and slugs — do not rename or add peer groups in v1.",
+        "immutable": true,
+        "values": [
+          {
+            "culinary_group": "sugars",
+            "name": "Sugars",
+            "slug": "sugars"
+          },
+          {
+            "culinary_group": "syrups",
+            "name": "Syrups",
+            "slug": "syrups"
+          },
+          {
+            "culinary_group": "honey_bee_products",
+            "name": "Honey & Bee Products",
+            "slug": "honey-bee-products"
+          },
+          {
+            "culinary_group": "natural_sweeteners",
+            "name": "Natural Sweeteners",
+            "slug": "natural-sweeteners"
+          },
+          {
+            "culinary_group": "alternative_sweeteners",
+            "name": "Alternative Sweeteners",
+            "slug": "alternative-sweeteners"
+          },
+          {
+            "culinary_group": "cocoa_chocolate_ingredients",
+            "name": "Cocoa & Chocolate Ingredients",
+            "slug": "cocoa-chocolate-ingredients"
+          }
+        ]
+      },
+      "culinary_group": {
+        "description": "Canonical Culinary Group value on leaf entities — aligns to immutable group slugs.",
+        "immutable": true,
+        "values": [
+          "sugars",
+          "syrups",
+          "honey_bee_products",
+          "natural_sweeteners",
+          "alternative_sweeteners",
+          "cocoa_chocolate_ingredients"
+        ]
+      },
+      "flavor_profile": {
+        "cardinality": "array",
+        "description": "Reserved flavor characteristic tags — vocabulary frozen in FOOD-12A; do not populate until post-FOOD-12B curation standards.",
+        "populate_from_phase": "FOOD-12C",
+        "values": [
+          "sweet",
+          "caramel",
+          "molasses",
+          "bitter",
+          "floral",
+          "fruity",
+          "nutty",
+          "rich",
+          "neutral"
+        ]
+      },
+      "texture_profile": {
+        "cardinality": "array",
+        "description": "Reserved texture characteristic tags — vocabulary frozen in FOOD-12A; do not populate until post-FOOD-12B curation standards.",
+        "populate_from_phase": "FOOD-12C",
+        "values": [
+          "crystalline",
+          "granulated",
+          "powdered",
+          "liquid",
+          "viscous",
+          "sticky",
+          "solid",
+          "fatty"
+        ]
+      },
+      "usage_intensity": {
+        "description": "Intrinsic culinary prominence in dish composition — not Pairing Engine reasoning.",
+        "immutable": true,
+        "values": [
+          "primary",
+          "accent",
+          "luxury"
+        ]
+      }
+    },
+    "domain_contract": "Food Ontology Platform v1.0.0",
+    "domain_exclusions": {
+      "beverages": "Sweet beverages, coffee drinks, and cordials — out of domain v1",
+      "brands": "Commercial brands and product lines — not ingredient ontology",
+      "candy": "Finished confectionery products — not ingredient ontology",
+      "cheese": "FOOD-04",
+      "condiments": "FOOD-13 — vanilla extract, almond extract, orange blossom water, rose water, caramel sauce, chocolate syrup, and composed flavor carriers",
+      "desserts": "Finished desserts and composed dishes — not ingredient ontology",
+      "fruit": "FOOD-09 — whole and fresh fruit forms",
+      "fungi": "FOOD-06",
+      "grain_starch": "FOOD-08 — whole grains and starches",
+      "herb_spice": "FOOD-07 — vanilla bean and spice forms",
+      "legume": "FOOD-11",
+      "nut_seed": "FOOD-10",
+      "protein_food": "FOOD-02",
+      "recipes": "Recipes and composed meals — not ingredient ontology",
+      "vegetable": "FOOD-05"
+    },
+    "entity_types": {
+      "sweet_flavor": {
+        "description": "Canonical culinary sweet flavor ingredient leaf entity.",
+        "id_example": "food.sweet-flavor.sugars.cane-sugar",
+        "required_fields": [
+          "id",
+          "slug",
+          "display_name",
+          "entity_type",
+          "domain",
+          "parent_group",
+          "parent_category",
+          "culinary_group",
+          "usage_intensity",
+          "scientific_name",
+          "aliases",
+          "common_names",
+          "external_ids",
+          "flavor_profile",
+          "texture_profile",
+          "aroma_profile",
+          "typical_descriptors",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description",
+          "catalog_version",
+          "food_ontology_version"
+        ]
+      },
+      "sweet_flavor_category": {
+        "description": "Top-level sweet flavor domain hub (single category in v1).",
+        "id_example": "food.sweet-flavor",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "sweet_flavor_group": {
+        "description": "Canonical Culinary Group (Sugars, Syrups, Cocoa & Chocolate Ingredients, etc.).",
+        "id_example": "food.sweet-flavor.sugars",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description",
+          "culinary_group"
+        ]
+      }
+    },
+    "governance_rules": {
+      "botanical_ownership_rule": {
+        "id": "BOTAN-001",
+        "note": "Suite rule — applies when botanical lineage diverges from culinary identity.",
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      },
+      "culinary_form_ownership_rule": {
+        "description": "Cross-domain fruit processed forms — referenced for suite discipline.",
+        "id": "FRUIT-001",
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      },
+      "culinary_ownership_rule": {
+        "description": "Canonical ownership follows established culinary ingredient identity for sweet flavor ingredients.",
+        "frozen_phase": "FOOD-12A",
+        "id": "SWEET-001",
+        "immutable": true,
+        "reference": "docs/SWEET_FLAVOR_GOVERNANCE.md §7"
+      },
+      "cocoa_ownership_rule": {
+        "description": "Cocoa Bean is the canonical agricultural ingredient; cocoa powder, cocoa butter, chocolate liquor, and cacao nibs are independent canonical culinary ingredients; finished chocolate products excluded.",
+        "frozen_phase": "FOOD-12A",
+        "id": "COCOA-001",
+        "immutable": true,
+        "reference": "docs/SWEET_FLAVOR_GOVERNANCE.md §8"
+      },
+      "culinary_role_pairing_rule": {
+        "description": "Wine pairing follows the ingredient's culinary role rather than sweetness alone — planned FOOD-12E.",
+        "frozen_phase": "FOOD-12A",
+        "id": "SWEET-PAIR-001",
+        "immutable": true,
+        "reference": "docs/SWEET_FLAVOR_GOVERNANCE.md §9"
+      },
+      "functional_pairing_rule": {
+        "id": "STARCH-001",
+        "note": "Suite wine-pairing rule — referenced for completeness.",
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      },
+      "processing_ownership_rule": {
+        "description": "When processing creates a distinct canonical culinary ingredient versus a preparation state or alias.",
+        "id": "PROC-001",
+        "immutable": true,
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      }
+    },
+    "identity_contract": {
+      "canonical_entity_rule": "CANON-001",
+      "category_id_pattern": "^food\\.sweet-flavor$",
+      "display_name_mutable": true,
+      "entity_id_pattern": "^food\\.sweet-flavor\\.[a-z0-9-]+\\.[a-z0-9-]+$",
+      "external_ids_required": true,
+      "global_recognition_rule": "CANON-002",
+      "group_id_pattern": "^food\\.sweet-flavor\\.[a-z0-9-]+$",
+      "id_immutable": true,
+      "ids_never_recycled": true,
+      "namespace": "food.sweet-flavor",
+      "per_entity_version_fields": {
+        "catalog_version": "1.0.0",
+        "food_ontology_version": "1.9.0"
+      },
+      "required_identity_fields": [
+        "id",
+        "slug",
+        "display_name",
+        "scientific_name",
+        "external_ids"
+      ],
+      "scientific_name_mutable": false,
+      "scientific_name_semantics": "primary_botanical_or_source_species_for_culinary_identity",
+      "slug_mutable": true
+    },
+    "taxonomy_note": "Groups represent culinary sweetener identity and culinary form, not dessert categories. See docs/SWEET_FLAVOR_GOVERNANCE.md.",
+    "taxonomy_principle": "canonical_culinary_groups"
+  }
+}

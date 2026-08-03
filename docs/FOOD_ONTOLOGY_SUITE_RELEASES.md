@@ -503,7 +503,7 @@ Architecture: declarative · deterministic · shared publication pipeline · fou
 
 **Recommendation:** Tag `food-ontology-suite-v1.8.0`
 
-**Next work:** **FOOD-12** (from tag `food-ontology-suite-v1.8.0`)
+**Next work:** **FOOD-12B — Populate Sweet Flavor Ontology catalog** (governance frozen at FOOD-12A)
 
 ---
 
