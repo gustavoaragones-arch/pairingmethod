@@ -1,0 +1,331 @@
+{
+  "audited_at": "2026-08-03",
+  "phase": "FOOD-12B",
+  "domain": "sweet-flavor",
+  "catalog_version": "1.0.0",
+  "validation": {
+    "total_validation_rules": 32,
+    "required_checks": 32,
+    "passed": 32,
+    "failed": 0,
+    "required_failed": 0,
+    "overall_result": "PASS"
+  },
+  "summary": {
+    "categories": 1,
+    "groups": 6,
+    "sweet_flavors": 73,
+    "scientific_names": 22,
+    "vocabulary_violations": 0,
+    "canonical_entity_violations": 0,
+    "global_recognition_violations": 0,
+    "sweet001_violations": 0,
+    "cocoa001_violations": 0,
+    "honey_group_violations": 0,
+    "food13_violations": 0,
+    "botanical_violations": 0,
+    "cross_domain_violations": 0,
+    "alias_conflicts": 0,
+    "metadata_completeness": "100%",
+    "overall_result": "PASS"
+  },
+  "metrics": {
+    "Total validation rules": 32,
+    "Passed": 32,
+    "Failed": 0,
+    "Required checks": 32,
+    "Categories": 1,
+    "Groups": 6,
+    "Sweet flavor entities": 73,
+    "Scientific names": 22,
+    "Vocabulary violations": 0,
+    "Canonical entity violations": 0,
+    "Global recognition violations": 0,
+    "SWEET-001 violations": 0,
+    "COCOA-001 violations": 0,
+    "Honey group violations": 0,
+    "FOOD-13 violations": 0,
+    "Botanical violations": 0,
+    "Cross-domain violations": 0,
+    "Alias conflicts": 0,
+    "Metadata completeness": "100%",
+    "Overall result": "PASS"
+  },
+  "rules": [
+    {
+      "id": "META-001",
+      "name": "meta.entity_count matches sweet_flavors length",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-002",
+      "name": "meta.catalog_version and phase present",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-004",
+      "name": "entity count within FOOD-12B target (65-90)",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-005",
+      "name": "group counts within FOOD-12B planning targets",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "CANON-001",
+      "name": "Canonical Entity Rule — no preparation or trade-name splits",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "CANON-002",
+      "name": "Global culinary recognition — not regional commercial products",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "BOTAN-001",
+      "name": "Botanical Ownership Rule — culinary identity over botanical taxonomy",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "PROC-001",
+      "name": "Processing Ownership Rule — distinct entities only when culinary identity changes",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "FRUIT-001",
+      "name": "Culinary Form Ownership Rule — fruit-owned ingredients excluded",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "GRAIN-001",
+      "name": "Grain & Starch cross-domain ownership — corn excluded from Sweet Flavor",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HERB-001",
+      "name": "Herb & Spice cross-domain ownership — vanilla-bean excluded from Sweet Flavor",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "SWEET-001",
+      "name": "Processing Ownership Rule — separate entities and alias freeze",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "COCOA-001",
+      "name": "Cocoa Ownership Rule — required cacao-derived culinary ingredients",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HONEY-001",
+      "name": "Honey group scope — culinary honey products only",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "FOOD13-001",
+      "name": "FOOD-13 deferrals — composed condiments and sauces excluded",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "XDOM-001",
+      "name": "Cross-domain ownership — no duplicate canonical ownership",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ID-001",
+      "name": "unique ontology IDs",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ID-002",
+      "name": "unique slugs",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ID-003",
+      "name": "stable sweet flavor ID format",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-001",
+      "name": "category and group hierarchy integrity",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-002",
+      "name": "every entity belongs to exactly one valid group",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "HIER-003",
+      "name": "group child_slugs bidirectionally complete",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "VOCAB-001",
+      "name": "controlled vocabulary compliance",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "USAGE-001",
+      "name": "usage_intensity populated on every entity",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "PROF-001",
+      "name": "reserved profile arrays empty",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "SCI-001",
+      "name": "required scientific_name",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "EXT-001",
+      "name": "required external_ids object",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "META-003",
+      "name": "required intrinsic field coverage on every entity",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "REL-001",
+      "name": "reserved relationship arrays present and empty",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "ALIAS-001",
+      "name": "no duplicate aliases across catalog",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "SCHEMA-001",
+      "name": "no unexpected keys on sweet_flavor entities",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    },
+    {
+      "id": "VER-001",
+      "name": "per-entity catalog_version and food_ontology_version",
+      "severity": "required",
+      "status": "pass",
+      "messages": [],
+      "truncated": false
+    }
+  ],
+  "details": {
+    "identity_errors": [],
+    "hierarchy_errors": [],
+    "vocabulary_violations": [],
+    "canonical_entity_violations": [],
+    "global_recognition_violations": [],
+    "sweet001_violations": [],
+    "cocoa001_violations": [],
+    "honey_group_violations": [],
+    "food13_violations": [],
+    "botanical_violations": [],
+    "cross_domain_violations": [],
+    "group_count_violations": [],
+    "alias_conflicts": [],
+    "metadata_gaps_total": 0,
+    "metadata_gaps_sample": [],
+    "unexpected_keys": [],
+    "scientific_name_issues": []
+  }
+}

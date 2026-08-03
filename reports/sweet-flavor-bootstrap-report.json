@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-08-03T04:19:17.703Z",
+  "phase": "FOOD-12B",
+  "domain": "sweet-flavor",
+  "entity_count": 73,
+  "counts_by_group": {
+    "sugars": 13,
+    "syrups": 13,
+    "honey-bee-products": 5,
+    "natural-sweeteners": 11,
+    "alternative-sweeteners": 11,
+    "cocoa-chocolate-ingredients": 20
+  },
+  "catalog_path": "data/sweet-flavor-catalog.json",
+  "audit_script": "scripts/catalog-audit-sweet-flavor-12b.mjs",
+  "canonical_entity_rule": "CANON-001 — granulation and trade-name splits are aliases, not entities",
+  "global_recognition_rule": "CANON-002 — globally recognizable culinary ingredients only",
+  "processing_ownership_rule": "SWEET-001 — separate entities when culinary identity changes",
+  "cocoa_ownership_rule": "COCOA-001 — cacao bean agricultural form; independent cocoa-derived ingredients",
+  "food13_deferral_policy": "Extracts and composed sauces deferred to FOOD-13",
+  "honey_scope_policy": "Honey and comb honey only; supplement bee products excluded",
+  "profile_arrays_policy": "flavor_profile, texture_profile, aroma_profile reserved empty",
+  "relationship_policy": "all relationship arrays empty"
+}
