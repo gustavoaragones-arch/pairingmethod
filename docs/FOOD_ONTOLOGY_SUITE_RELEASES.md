@@ -22,7 +22,7 @@ This principle has been followed in practice since Protein FOOD-02C. FOOD-06C ma
 
 ### Knowledge layer separation (suite-wide)
 
-Proven across nine domains (Protein, Cheese, Vegetables, Fungi, Herb & Spice, Grain & Starch, Fruit, Nut & Seed, Legume):
+Proven across ten domains (Protein, Cheese, Vegetables, Fungi, Herb & Spice, Grain & Starch, Fruit, Nut & Seed, Legume, Sweet Flavor):
 
 | Layer | Source | Modified at publication? |
 |-------|--------|--------------------------|
@@ -205,11 +205,49 @@ Wine recommendations for legume ingredients must follow the ingredient's **culin
 
 **Introduced:** Legume FOOD-11E · **Applies** to wine pairing layers where processed legume forms retain distinct kitchen identities per LEGUME-002.
 
+### SWEET-001 — Processing Ownership Rule
+
+When a sweet ingredient exists in multiple culinary processing states, governance decides whether a processed form is a **new canonical culinary ingredient** or merely a **preparation state / alias**, following **culinary identity** — not manufacturing process or sweetness intensity alone.
+
+| Separate canonical entities | Alias / preparation state only |
+|----------------------------|--------------------------------|
+| Cane Sugar → Brown Sugar (when identity test passes) | Granulation variants → aliases on governing sugar |
+| Cacao Bean → Cocoa Powder → Cocoa Butter → Chocolate Liquor | Trade names for same crystalline sugar |
+| Maple Syrup → Maple Sugar | Light/dark brown sugar splits → aliases unless audit documents distinct identity |
+
+**Introduced:** Sweet Flavor FOOD-12A · **Extends** PROC-001 for sweet ingredients.
+
+### COCOA-001 — Cocoa Ownership Rule
+
+Cacao agricultural form and independent cocoa-derived culinary ingredients are **distinct canonical identities** — not editorially or pairing-interchangeable sibling forms.
+
+| Form | Treatment |
+|------|-----------|
+| Cacao Bean | Canonical agricultural whole form |
+| Cocoa Powder, Cocoa Butter, Chocolate Liquor, Cacao Nibs | Independent canonical culinary ingredients per SWEET-001 |
+| Finished chocolate products | Outside FOOD-12 — deferred |
+
+COCOA-001 governs **ownership and group assignment** for cacao-derived ingredients. It does **not** permit duplicating entities owned by another domain.
+
+**Introduced:** Sweet Flavor FOOD-12A · **Applies** to catalog, runtime, editorial, and wine pairing layers.
+
+### SWEET-PAIR-001 — Culinary Role Pairing Rule
+
+Wine recommendations for sweet flavor ingredients must follow the ingredient's **independent culinary role**, not sweetness intensity or sibling-form pairing inheritance alone.
+
+| Pairing basis | Examples |
+|---------------|----------|
+| Culinary role in context | Honey → floral glaze and finishing; molasses → braise and bake depth |
+| Processed-form identity | Cocoa powder → baking bitterness; cocoa butter → fat-rich confection base |
+| No sibling inheritance | Different cacao forms receive distinct pairings per COCOA-001 |
+
+**Introduced:** Sweet Flavor FOOD-12E · **Applies** to wine pairing layers where sweet ingredients retain distinct kitchen identities per SWEET-001 and COCOA-001.
+
 ---
 
 ## Ontology Lifecycle (Suite Standard)
 
-Every published domain follows the **identical six-phase lifecycle**. Phase prefixes differ by domain (`FOOD-02`/`ONTOLOGY-02` for Protein, `FOOD-04` for Cheese, `FOOD-05` for Vegetable, `FOOD-06` for Fungi, `FOOD-07` for Herb & Spice, `FOOD-08` for Grain & Starch, `FOOD-09` for Fruit, `FOOD-10` for Nut & Seed, `FOOD-11` for Legume) but the stages are the same:
+Every published domain follows the **identical six-phase lifecycle**. Phase prefixes differ by domain (`FOOD-02`/`ONTOLOGY-02` for Protein, `FOOD-04` for Cheese, `FOOD-05` for Vegetable, `FOOD-06` for Fungi, `FOOD-07` for Herb & Spice, `FOOD-08` for Grain & Starch, `FOOD-09` for Fruit, `FOOD-10` for Nut & Seed, `FOOD-11` for Legume, `FOOD-12` for Sweet Flavor) but the stages are the same:
 
 | Stage | Letter | Scope |
 |-------|--------|-------|
@@ -220,7 +258,7 @@ Every published domain follows the **identical six-phase lifecycle**. Phase pref
 | Wine Pairings | E | Curated pairings (separate artifact) |
 | Publication | F | Platform consumption only — no artifact editing |
 
-**No domain-specific lifecycle exceptions** exist among the nine published domains.
+**No domain-specific lifecycle exceptions** exist among the ten published domains.
 
 ---
 
@@ -242,16 +280,16 @@ Domain governance documents define **domain-specific** rules only. Suite-wide in
 
 Every suite release note includes this table. It reinforces the primary architectural achievement since Platform v1.0.0: **each new domain increases knowledge, not platform complexity.**
 
-| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 | v1.4.0 | v1.5.0 | v1.6.0 | v1.7.0 | v1.8.0 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| Published ontology domains | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | **9** |
-| Canonical entities (leaf) | 207 | 411 | 485 | 528 | 641 | 717 | 836 | 925 | **1,000** |
-| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | ~85,500+ | ~91,900 | ~93,800 | ~97,900 | ~100,600 | **~102,700** |
-| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | ~370 | ~650 | ~840 | ~1,175 | ~1,460 | **~1,740** |
-| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | ~300 | ~520 | ~700 | ~960 | ~1,180 | **~1,375** |
-| Publication lifecycle reuse | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | **100%** |
-| Platform modifications required | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| Shared infrastructure extensions | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **1** |
+| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 | v1.4.0 | v1.5.0 | v1.6.0 | v1.7.0 | v1.8.0 | v1.9.0 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Published ontology domains | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | **10** |
+| Canonical entities (leaf) | 207 | 411 | 485 | 528 | 641 | 717 | 836 | 925 | 1,000 | **1,073** |
+| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | ~85,500+ | ~91,900 | ~93,800 | ~97,900 | ~100,600 | ~102,700 | **~104,900** |
+| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | ~370 | ~650 | ~840 | ~1,175 | ~1,460 | ~1,740 | **~2,005** |
+| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | ~300 | ~520 | ~700 | ~960 | ~1,180 | ~1,375 | **~1,569** |
+| Publication lifecycle reuse | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | **100%** |
+| Platform modifications required | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| Shared infrastructure extensions | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | **2** |
 
 *Edge counts are measured from certified runtime artifacts at release time (structural + intrinsic similarity layers for runtime; editorial and wine layers reported separately).*
 
@@ -265,7 +303,76 @@ Every suite release note includes this table. It reinforces the primary architec
 
 **Certified totals at v1.8.0 (exact):** runtime structural 102,697 · editorial 1,739 · wine pairings 1,375 · leaf entities 1,000 · publication pages 1,071.
 
+**Certified totals at v1.9.0 (exact):** runtime structural 104,909 · editorial 2,005 · wine pairings 1,569 · leaf entities 1,073 · publication pages 1,151.
+
 *Shared infrastructure extension at v1.8.0: one documented, minimal enhancement to `runtime-loader.js` plus routing through `loadDomainInputs` in `links.js` and `certify-publication.js` — supports consolidated runtime inputs without affecting renderer or publication semantics.*
+
+*Shared infrastructure extension at v1.9.0: generalizes consolidated runtime loading in `runtime-loader.js` to support Sweet Flavor alongside Legume via `consolidatedRuntimeLayouts` — second documented extension; no renderer or stage-runner changes.*
+
+---
+
+## v1.9.0 — Sweet Flavor
+
+**Tag:** `food-ontology-suite-v1.9.0`  
+**Commit:** FOOD-12F — Publish Sweet Flavor Ontology  
+**Date:** August 3, 2026
+
+### Published domains
+
+| Domain | Catalog version | Leaf entities | Publication paths |
+|--------|-----------------|---------------|-------------------|
+| Protein Foods | 1.0.0 | 207 | `/foods/` |
+| Cheeses | 1.0.0 | 204 | `/cheeses/` |
+| Vegetables | 1.0.0 | 74 | `/vegetables/` |
+| Fungi | 1.0.0 | 43 | `/fungi/` |
+| Herb & Spice | 1.0.0 | 113 | `/herbs-spices/` |
+| Grain & Starch | 1.0.0 | 76 | `/grains-starches/` |
+| Fruit | 1.0.0 | 119 | `/fruits/` |
+| Nut & Seed | 1.0.0 | 89 | `/nut-seeds/` |
+| Legume | 1.0.0 | 75 | `/legumes/` |
+| Sweet Flavor | 1.0.0 | 73 | `/sweet-flavors/` |
+
+**Suite total:** 1,073 canonical leaf entities · 80 new sweet flavor pages (73 leaf + 6 groups + 1 category hub)
+
+### FOOD-12 release certification
+
+| Metric | FOOD-12 |
+|--------|--------:|
+| Canonical sweet flavor entities | 73 |
+| Runtime relationships | 2,212 |
+| Editorial relationships | 266 |
+| Wine relationships | 194 |
+| Publication pages | 80 |
+| Platform modifications required | 0 |
+| Shared infrastructure extensions | 1 |
+| Shared publication pipeline reused | 100% |
+
+### Group coverage
+
+| Group | Entities |
+|-------|--------:|
+| Sugars | 13 |
+| Syrups | 13 |
+| Honey & Bee Products | 5 |
+| Natural Sweeteners | 11 |
+| Alternative Sweeteners | 11 |
+| Cocoa & Chocolate Ingredients | 20 |
+
+### Milestone significance
+
+FOOD-12F validates the generalized publication platform across a **tenth independent domain** with no renderer or stage-runner redesign. SWEET-001 crystalline and processed sweetener identity, COCOA-001 distinct cacao-family pairing identities, and SWEET-PAIR-001 culinary-role wine pairing were absorbed entirely within the knowledge layer. FOOD-12F integrated through declarative domain configuration and `taxonomy-sweet-flavor-render.js` only.
+
+Sweet Flavor uses the **consolidated runtime artifact** pattern established by Legume (`sweet-flavor-runtime.json`). The loader generalization supports both domains through one `consolidatedRuntimeLayouts` branch — a second documented shared infrastructure extension, not a pipeline rewrite.
+
+Publication renders editorial, substitution, and wine-pairing sections from certified navigation artifacts — the four-layer knowledge model remains strictly separated at runtime.
+
+### Platform status at v1.9.0
+
+Publication architecture, runtime architecture, certification pipeline, deployment pipeline, and the six-phase governance lifecycle remain **feature-complete and frozen**. The Sweet Flavor domain is frozen at v1.0.0. Future work proceeds as additive domains or platform enhancements — not changes to certified ontology artifacts.
+
+### Next planned work
+
+**FOOD-13** — Sauces & Condiments Ontology (from tag `food-ontology-suite-v1.9.0`; see POSTER_COVERAGE.md).
 
 ---
 
@@ -503,7 +610,7 @@ Architecture: declarative · deterministic · shared publication pipeline · fou
 
 **Recommendation:** Tag `food-ontology-suite-v1.8.0`
 
-**Next work:** **FOOD-12B — Populate Sweet Flavor Ontology catalog** (governance frozen at FOOD-12A)
+**Next work:** **FOOD-13 — Sauces & Condiments Ontology** (from tag `food-ontology-suite-v1.9.0`; governance not yet frozen)
 
 ---
 

@@ -1,0 +1,841 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/sweet-flavor-groups/alternative-sweeteners/",
+      "projection_id": "food.sweet-flavor.alternative-sweeteners",
+      "sections": {
+        "member_sweet_flavors": [
+          {
+            "href": "/sweet-flavors/allulose/",
+            "id": "food.sweet-flavor.alternative-sweeteners.allulose",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Allulose"
+          },
+          {
+            "href": "/sweet-flavors/aspartame/",
+            "id": "food.sweet-flavor.alternative-sweeteners.aspartame",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Aspartame"
+          },
+          {
+            "href": "/sweet-flavors/cyclamate/",
+            "id": "food.sweet-flavor.alternative-sweeteners.cyclamate",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cyclamate"
+          },
+          {
+            "href": "/sweet-flavors/erythritol/",
+            "id": "food.sweet-flavor.alternative-sweeteners.erythritol",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Erythritol"
+          },
+          {
+            "href": "/sweet-flavors/maltitol/",
+            "id": "food.sweet-flavor.alternative-sweeteners.maltitol",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Maltitol"
+          },
+          {
+            "href": "/sweet-flavors/saccharin/",
+            "id": "food.sweet-flavor.alternative-sweeteners.saccharin",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Saccharin"
+          },
+          {
+            "href": "/sweet-flavors/sorbitol/",
+            "id": "food.sweet-flavor.alternative-sweeteners.sorbitol",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sorbitol"
+          },
+          {
+            "href": "/sweet-flavors/stevia/",
+            "id": "food.sweet-flavor.alternative-sweeteners.stevia",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Stevia"
+          },
+          {
+            "href": "/sweet-flavors/sucralose/",
+            "id": "food.sweet-flavor.alternative-sweeteners.sucralose",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sucralose"
+          },
+          {
+            "href": "/sweet-flavors/tagatose/",
+            "id": "food.sweet-flavor.alternative-sweeteners.tagatose",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Tagatose"
+          },
+          {
+            "href": "/sweet-flavors/xylitol/",
+            "id": "food.sweet-flavor.alternative-sweeteners.xylitol",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Xylitol"
+          }
+        ],
+        "parent_category": {
+          "href": "/sweet-flavor-categories/sweet-flavor/",
+          "id": "food.sweet-flavor",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Sweet Flavors"
+        },
+        "related_groups": [
+          {
+            "href": "/sweet-flavor-groups/cocoa-chocolate-ingredients/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cocoa & Chocolate Ingredients"
+          },
+          {
+            "href": "/sweet-flavor-groups/honey-bee-products/",
+            "id": "food.sweet-flavor.honey-bee-products",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Honey & Bee Products"
+          },
+          {
+            "href": "/sweet-flavor-groups/natural-sweeteners/",
+            "id": "food.sweet-flavor.natural-sweeteners",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Natural Sweeteners"
+          },
+          {
+            "href": "/sweet-flavor-groups/sugars/",
+            "id": "food.sweet-flavor.sugars",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Sugars"
+          },
+          {
+            "href": "/sweet-flavor-groups/syrups/",
+            "id": "food.sweet-flavor.syrups",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Syrups"
+          }
+        ]
+      },
+      "slug": "alternative-sweeteners"
+    },
+    {
+      "canonical_path": "/sweet-flavor-groups/cocoa-chocolate-ingredients/",
+      "projection_id": "food.sweet-flavor.cocoa-chocolate-ingredients",
+      "sections": {
+        "member_sweet_flavors": [
+          {
+            "href": "/sweet-flavors/black-cocoa-powder/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.black-cocoa-powder",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Black Cocoa Powder"
+          },
+          {
+            "href": "/sweet-flavors/cacao-bean/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-bean",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cacao Bean"
+          },
+          {
+            "href": "/sweet-flavors/cacao-nibs/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-nibs",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cacao Nibs"
+          },
+          {
+            "href": "/sweet-flavors/cacao-paste/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-paste",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cacao Paste"
+          },
+          {
+            "href": "/sweet-flavors/cacao-powder/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-powder",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cacao Powder"
+          },
+          {
+            "href": "/sweet-flavors/chocolate-liquor/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.chocolate-liquor",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Chocolate Liquor"
+          },
+          {
+            "href": "/sweet-flavors/cocoa-butter/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-butter",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cocoa Butter"
+          },
+          {
+            "href": "/sweet-flavors/cocoa-powder/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-powder",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cocoa Powder"
+          },
+          {
+            "href": "/sweet-flavors/cocoa-presscake/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-presscake",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cocoa Presscake"
+          },
+          {
+            "href": "/sweet-flavors/cocoa-solids/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-solids",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cocoa Solids"
+          },
+          {
+            "href": "/sweet-flavors/defatted-cocoa-powder/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.defatted-cocoa-powder",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Defatted Cocoa Powder"
+          },
+          {
+            "href": "/sweet-flavors/dutch-process-cocoa-powder/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.dutch-process-cocoa-powder",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Dutch-Process Cocoa Powder"
+          },
+          {
+            "href": "/sweet-flavors/ground-cacao/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.ground-cacao",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Ground Cacao"
+          },
+          {
+            "href": "/sweet-flavors/high-fat-cocoa-powder/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.high-fat-cocoa-powder",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "High-Fat Cocoa Powder"
+          },
+          {
+            "href": "/sweet-flavors/natural-cocoa-powder/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.natural-cocoa-powder",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Natural Cocoa Powder"
+          },
+          {
+            "href": "/sweet-flavors/raw-cacao/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.raw-cacao",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Raw Cacao"
+          },
+          {
+            "href": "/sweet-flavors/red-cocoa-powder/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.red-cocoa-powder",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Red Cocoa Powder"
+          },
+          {
+            "href": "/sweet-flavors/roasted-cacao-nibs/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.roasted-cacao-nibs",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Roasted Cacao Nibs"
+          },
+          {
+            "href": "/sweet-flavors/ruby-cacao/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.ruby-cacao",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Ruby Cacao"
+          },
+          {
+            "href": "/sweet-flavors/toasted-cacao/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients.toasted-cacao",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Toasted Cacao"
+          }
+        ],
+        "parent_category": {
+          "href": "/sweet-flavor-categories/sweet-flavor/",
+          "id": "food.sweet-flavor",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Sweet Flavors"
+        },
+        "related_groups": [
+          {
+            "href": "/sweet-flavor-groups/alternative-sweeteners/",
+            "id": "food.sweet-flavor.alternative-sweeteners",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Alternative Sweeteners"
+          },
+          {
+            "href": "/sweet-flavor-groups/honey-bee-products/",
+            "id": "food.sweet-flavor.honey-bee-products",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Honey & Bee Products"
+          },
+          {
+            "href": "/sweet-flavor-groups/natural-sweeteners/",
+            "id": "food.sweet-flavor.natural-sweeteners",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Natural Sweeteners"
+          },
+          {
+            "href": "/sweet-flavor-groups/sugars/",
+            "id": "food.sweet-flavor.sugars",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Sugars"
+          },
+          {
+            "href": "/sweet-flavor-groups/syrups/",
+            "id": "food.sweet-flavor.syrups",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Syrups"
+          }
+        ]
+      },
+      "slug": "cocoa-chocolate-ingredients"
+    },
+    {
+      "canonical_path": "/sweet-flavor-groups/honey-bee-products/",
+      "projection_id": "food.sweet-flavor.honey-bee-products",
+      "sections": {
+        "member_sweet_flavors": [
+          {
+            "href": "/sweet-flavors/buckwheat-honey/",
+            "id": "food.sweet-flavor.honey-bee-products.buckwheat-honey",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Buckwheat Honey"
+          },
+          {
+            "href": "/sweet-flavors/clover-honey/",
+            "id": "food.sweet-flavor.honey-bee-products.clover-honey",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Clover Honey"
+          },
+          {
+            "href": "/sweet-flavors/comb-honey/",
+            "id": "food.sweet-flavor.honey-bee-products.comb-honey",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Comb Honey"
+          },
+          {
+            "href": "/sweet-flavors/honey/",
+            "id": "food.sweet-flavor.honey-bee-products.honey",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Honey"
+          },
+          {
+            "href": "/sweet-flavors/manuka-honey/",
+            "id": "food.sweet-flavor.honey-bee-products.manuka-honey",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Manuka Honey"
+          }
+        ],
+        "parent_category": {
+          "href": "/sweet-flavor-categories/sweet-flavor/",
+          "id": "food.sweet-flavor",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Sweet Flavors"
+        },
+        "related_groups": [
+          {
+            "href": "/sweet-flavor-groups/alternative-sweeteners/",
+            "id": "food.sweet-flavor.alternative-sweeteners",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Alternative Sweeteners"
+          },
+          {
+            "href": "/sweet-flavor-groups/cocoa-chocolate-ingredients/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cocoa & Chocolate Ingredients"
+          },
+          {
+            "href": "/sweet-flavor-groups/natural-sweeteners/",
+            "id": "food.sweet-flavor.natural-sweeteners",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Natural Sweeteners"
+          },
+          {
+            "href": "/sweet-flavor-groups/sugars/",
+            "id": "food.sweet-flavor.sugars",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Sugars"
+          },
+          {
+            "href": "/sweet-flavor-groups/syrups/",
+            "id": "food.sweet-flavor.syrups",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Syrups"
+          }
+        ]
+      },
+      "slug": "honey-bee-products"
+    },
+    {
+      "canonical_path": "/sweet-flavor-groups/natural-sweeteners/",
+      "projection_id": "food.sweet-flavor.natural-sweeteners",
+      "sections": {
+        "member_sweet_flavors": [
+          {
+            "href": "/sweet-flavors/agave/",
+            "id": "food.sweet-flavor.natural-sweeteners.agave",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Agave"
+          },
+          {
+            "href": "/sweet-flavors/birch-sugar/",
+            "id": "food.sweet-flavor.natural-sweeteners.birch-sugar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Birch Sugar"
+          },
+          {
+            "href": "/sweet-flavors/carob-powder/",
+            "id": "food.sweet-flavor.natural-sweeteners.carob-powder",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Carob Powder"
+          },
+          {
+            "href": "/sweet-flavors/coconut-sugar/",
+            "id": "food.sweet-flavor.natural-sweeteners.coconut-sugar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Coconut Sugar"
+          },
+          {
+            "href": "/sweet-flavors/date-syrup/",
+            "id": "food.sweet-flavor.natural-sweeteners.date-syrup",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Date Syrup"
+          },
+          {
+            "href": "/sweet-flavors/fruit-sugar/",
+            "id": "food.sweet-flavor.natural-sweeteners.fruit-sugar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Fruit Sugar"
+          },
+          {
+            "href": "/sweet-flavors/grape-sugar/",
+            "id": "food.sweet-flavor.natural-sweeteners.grape-sugar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Grape Sugar"
+          },
+          {
+            "href": "/sweet-flavors/lucuma-powder/",
+            "id": "food.sweet-flavor.natural-sweeteners.lucuma-powder",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Lucuma Powder"
+          },
+          {
+            "href": "/sweet-flavors/mesquite-powder/",
+            "id": "food.sweet-flavor.natural-sweeteners.mesquite-powder",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Mesquite Powder"
+          },
+          {
+            "href": "/sweet-flavors/monk-fruit-sweetener/",
+            "id": "food.sweet-flavor.natural-sweeteners.monk-fruit-sweetener",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Monk Fruit Sweetener"
+          },
+          {
+            "href": "/sweet-flavors/yacon-syrup/",
+            "id": "food.sweet-flavor.natural-sweeteners.yacon-syrup",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Yacon Syrup"
+          }
+        ],
+        "parent_category": {
+          "href": "/sweet-flavor-categories/sweet-flavor/",
+          "id": "food.sweet-flavor",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Sweet Flavors"
+        },
+        "related_groups": [
+          {
+            "href": "/sweet-flavor-groups/alternative-sweeteners/",
+            "id": "food.sweet-flavor.alternative-sweeteners",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Alternative Sweeteners"
+          },
+          {
+            "href": "/sweet-flavor-groups/cocoa-chocolate-ingredients/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cocoa & Chocolate Ingredients"
+          },
+          {
+            "href": "/sweet-flavor-groups/honey-bee-products/",
+            "id": "food.sweet-flavor.honey-bee-products",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Honey & Bee Products"
+          },
+          {
+            "href": "/sweet-flavor-groups/sugars/",
+            "id": "food.sweet-flavor.sugars",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Sugars"
+          },
+          {
+            "href": "/sweet-flavor-groups/syrups/",
+            "id": "food.sweet-flavor.syrups",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Syrups"
+          }
+        ]
+      },
+      "slug": "natural-sweeteners"
+    },
+    {
+      "canonical_path": "/sweet-flavor-groups/sugars/",
+      "projection_id": "food.sweet-flavor.sugars",
+      "sections": {
+        "member_sweet_flavors": [
+          {
+            "href": "/sweet-flavors/beet-sugar/",
+            "id": "food.sweet-flavor.sugars.beet-sugar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Beet Sugar"
+          },
+          {
+            "href": "/sweet-flavors/brown-sugar/",
+            "id": "food.sweet-flavor.sugars.brown-sugar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Brown Sugar"
+          },
+          {
+            "href": "/sweet-flavors/cane-sugar/",
+            "id": "food.sweet-flavor.sugars.cane-sugar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cane Sugar"
+          },
+          {
+            "href": "/sweet-flavors/demerara-sugar/",
+            "id": "food.sweet-flavor.sugars.demerara-sugar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Demerara Sugar"
+          },
+          {
+            "href": "/sweet-flavors/jaggery/",
+            "id": "food.sweet-flavor.sugars.jaggery",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Jaggery"
+          },
+          {
+            "href": "/sweet-flavors/maple-sugar/",
+            "id": "food.sweet-flavor.sugars.maple-sugar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Maple Sugar"
+          },
+          {
+            "href": "/sweet-flavors/muscovado-sugar/",
+            "id": "food.sweet-flavor.sugars.muscovado-sugar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Muscovado Sugar"
+          },
+          {
+            "href": "/sweet-flavors/palm-sugar/",
+            "id": "food.sweet-flavor.sugars.palm-sugar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Palm Sugar"
+          },
+          {
+            "href": "/sweet-flavors/panela/",
+            "id": "food.sweet-flavor.sugars.panela",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Panela"
+          },
+          {
+            "href": "/sweet-flavors/piloncillo/",
+            "id": "food.sweet-flavor.sugars.piloncillo",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Piloncillo"
+          },
+          {
+            "href": "/sweet-flavors/raw-sugar/",
+            "id": "food.sweet-flavor.sugars.raw-sugar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Raw Sugar"
+          },
+          {
+            "href": "/sweet-flavors/rock-sugar/",
+            "id": "food.sweet-flavor.sugars.rock-sugar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Rock Sugar"
+          },
+          {
+            "href": "/sweet-flavors/turbinado-sugar/",
+            "id": "food.sweet-flavor.sugars.turbinado-sugar",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Turbinado Sugar"
+          }
+        ],
+        "parent_category": {
+          "href": "/sweet-flavor-categories/sweet-flavor/",
+          "id": "food.sweet-flavor",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Sweet Flavors"
+        },
+        "related_groups": [
+          {
+            "href": "/sweet-flavor-groups/alternative-sweeteners/",
+            "id": "food.sweet-flavor.alternative-sweeteners",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Alternative Sweeteners"
+          },
+          {
+            "href": "/sweet-flavor-groups/cocoa-chocolate-ingredients/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cocoa & Chocolate Ingredients"
+          },
+          {
+            "href": "/sweet-flavor-groups/honey-bee-products/",
+            "id": "food.sweet-flavor.honey-bee-products",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Honey & Bee Products"
+          },
+          {
+            "href": "/sweet-flavor-groups/natural-sweeteners/",
+            "id": "food.sweet-flavor.natural-sweeteners",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Natural Sweeteners"
+          },
+          {
+            "href": "/sweet-flavor-groups/syrups/",
+            "id": "food.sweet-flavor.syrups",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Syrups"
+          }
+        ]
+      },
+      "slug": "sugars"
+    },
+    {
+      "canonical_path": "/sweet-flavor-groups/syrups/",
+      "projection_id": "food.sweet-flavor.syrups",
+      "sections": {
+        "member_sweet_flavors": [
+          {
+            "href": "/sweet-flavors/barley-malt-syrup/",
+            "id": "food.sweet-flavor.syrups.barley-malt-syrup",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Barley Malt Syrup"
+          },
+          {
+            "href": "/sweet-flavors/blackstrap-molasses/",
+            "id": "food.sweet-flavor.syrups.blackstrap-molasses",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Blackstrap Molasses"
+          },
+          {
+            "href": "/sweet-flavors/cane-syrup/",
+            "id": "food.sweet-flavor.syrups.cane-syrup",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Cane Syrup"
+          },
+          {
+            "href": "/sweet-flavors/corn-syrup/",
+            "id": "food.sweet-flavor.syrups.corn-syrup",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Corn Syrup"
+          },
+          {
+            "href": "/sweet-flavors/glucose-syrup/",
+            "id": "food.sweet-flavor.syrups.glucose-syrup",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Glucose Syrup"
+          },
+          {
+            "href": "/sweet-flavors/golden-syrup/",
+            "id": "food.sweet-flavor.syrups.golden-syrup",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Golden Syrup"
+          },
+          {
+            "href": "/sweet-flavors/invert-sugar-syrup/",
+            "id": "food.sweet-flavor.syrups.invert-sugar-syrup",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Invert Sugar Syrup"
+          },
+          {
+            "href": "/sweet-flavors/maple-syrup/",
+            "id": "food.sweet-flavor.syrups.maple-syrup",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Maple Syrup"
+          },
+          {
+            "href": "/sweet-flavors/molasses/",
+            "id": "food.sweet-flavor.syrups.molasses",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Molasses"
+          },
+          {
+            "href": "/sweet-flavors/palm-syrup/",
+            "id": "food.sweet-flavor.syrups.palm-syrup",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Palm Syrup"
+          },
+          {
+            "href": "/sweet-flavors/rice-syrup/",
+            "id": "food.sweet-flavor.syrups.rice-syrup",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Rice Syrup"
+          },
+          {
+            "href": "/sweet-flavors/sorghum-syrup/",
+            "id": "food.sweet-flavor.syrups.sorghum-syrup",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Sorghum Syrup"
+          },
+          {
+            "href": "/sweet-flavors/treacle/",
+            "id": "food.sweet-flavor.syrups.treacle",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Treacle"
+          }
+        ],
+        "parent_category": {
+          "href": "/sweet-flavor-categories/sweet-flavor/",
+          "id": "food.sweet-flavor",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Sweet Flavors"
+        },
+        "related_groups": [
+          {
+            "href": "/sweet-flavor-groups/alternative-sweeteners/",
+            "id": "food.sweet-flavor.alternative-sweeteners",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Alternative Sweeteners"
+          },
+          {
+            "href": "/sweet-flavor-groups/cocoa-chocolate-ingredients/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cocoa & Chocolate Ingredients"
+          },
+          {
+            "href": "/sweet-flavor-groups/honey-bee-products/",
+            "id": "food.sweet-flavor.honey-bee-products",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Honey & Bee Products"
+          },
+          {
+            "href": "/sweet-flavor-groups/natural-sweeteners/",
+            "id": "food.sweet-flavor.natural-sweeteners",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Natural Sweeteners"
+          },
+          {
+            "href": "/sweet-flavor-groups/sugars/",
+            "id": "food.sweet-flavor.sugars",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Sugars"
+          }
+        ]
+      },
+      "slug": "syrups"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "sweet-flavor",
+    "food_ontology_version": "1.9.0",
+    "link_set_count": 6,
+    "link_set_type": "sweet_flavor_group",
+    "phase": "FOOD-12FD"
+  }
+}

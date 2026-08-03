@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "sweet-flavor",
+    "food_ontology_version": "1.9.0",
+    "phase": "FOOD-12FA",
+    "projection_count": 1,
+    "projection_type": "sweet_flavor_category"
+  },
+  "projections": [
+    {
+      "food_count": 73,
+      "group_count": 6,
+      "groups": [
+        {
+          "id": "food.sweet-flavor.alternative-sweeteners",
+          "name": "Alternative Sweeteners",
+          "slug": "alternative-sweeteners"
+        },
+        {
+          "id": "food.sweet-flavor.cocoa-chocolate-ingredients",
+          "name": "Cocoa & Chocolate Ingredients",
+          "slug": "cocoa-chocolate-ingredients"
+        },
+        {
+          "id": "food.sweet-flavor.honey-bee-products",
+          "name": "Honey & Bee Products",
+          "slug": "honey-bee-products"
+        },
+        {
+          "id": "food.sweet-flavor.natural-sweeteners",
+          "name": "Natural Sweeteners",
+          "slug": "natural-sweeteners"
+        },
+        {
+          "id": "food.sweet-flavor.sugars",
+          "name": "Sugars",
+          "slug": "sugars"
+        },
+        {
+          "id": "food.sweet-flavor.syrups",
+          "name": "Syrups",
+          "slug": "syrups"
+        }
+      ],
+      "identity": {
+        "id": "food.sweet-flavor",
+        "name": "Sweet Flavors",
+        "slug": "sweet-flavor"
+      }
+    }
+  ]
+}

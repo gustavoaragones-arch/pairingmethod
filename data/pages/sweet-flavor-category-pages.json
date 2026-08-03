@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "sweet-flavor",
+    "food_ontology_version": "1.9.0",
+    "page_count": 1,
+    "page_type": "sweet_flavor_category",
+    "phase": "FOOD-12FB"
+  },
+  "pages": [
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/sweet-flavors/",
+          "label": "Sweet Flavors"
+        },
+        {
+          "href": "/sweet-flavor-categories/sweet-flavor/",
+          "label": "Sweet Flavors"
+        }
+      ],
+      "canonical_path": "/sweet-flavor-categories/sweet-flavor/",
+      "groups": [
+        {
+          "food_count": 11,
+          "href": "/sweet-flavor-groups/alternative-sweeteners/",
+          "id": "food.sweet-flavor.alternative-sweeteners",
+          "name": "Alternative Sweeteners",
+          "slug": "alternative-sweeteners"
+        },
+        {
+          "food_count": 20,
+          "href": "/sweet-flavor-groups/cocoa-chocolate-ingredients/",
+          "id": "food.sweet-flavor.cocoa-chocolate-ingredients",
+          "name": "Cocoa & Chocolate Ingredients",
+          "slug": "cocoa-chocolate-ingredients"
+        },
+        {
+          "food_count": 5,
+          "href": "/sweet-flavor-groups/honey-bee-products/",
+          "id": "food.sweet-flavor.honey-bee-products",
+          "name": "Honey & Bee Products",
+          "slug": "honey-bee-products"
+        },
+        {
+          "food_count": 11,
+          "href": "/sweet-flavor-groups/natural-sweeteners/",
+          "id": "food.sweet-flavor.natural-sweeteners",
+          "name": "Natural Sweeteners",
+          "slug": "natural-sweeteners"
+        },
+        {
+          "food_count": 13,
+          "href": "/sweet-flavor-groups/sugars/",
+          "id": "food.sweet-flavor.sugars",
+          "name": "Sugars",
+          "slug": "sugars"
+        },
+        {
+          "food_count": 13,
+          "href": "/sweet-flavor-groups/syrups/",
+          "id": "food.sweet-flavor.syrups",
+          "name": "Syrups",
+          "slug": "syrups"
+        }
+      ],
+      "identity": {
+        "id": "food.sweet-flavor",
+        "slug": "sweet-flavor",
+        "title": "Sweet Flavors"
+      },
+      "metadata": {
+        "canonical": "https://pairingmethod.com/sweet-flavor-categories/sweet-flavor/",
+        "description": "Sweet Flavors — 6 groups and 73 sweet flavors.",
+        "og_description": "Sweet Flavors — 6 groups and 73 sweet flavors.",
+        "og_title": "Sweet Flavors — Sweet Flavor Category",
+        "title": "Sweet Flavors — Sweet Flavor Category"
+      },
+      "overview": {
+        "display_name": "Sweet Flavors",
+        "food_count": 73,
+        "group_count": 6
+      },
+      "page_type": "sweet_flavor_category",
+      "projection_id": "food.sweet-flavor",
+      "slug": "sweet-flavor"
+    }
+  ]
+}

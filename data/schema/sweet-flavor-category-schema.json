@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "sweet-flavor",
+    "food_ontology_version": "1.9.0",
+    "phase": "FOOD-12FC",
+    "schema_count": 1,
+    "schema_type": "sweet_flavor_category"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/sweet-flavor-categories/sweet-flavor/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-categories/sweet-flavor/#collectionpage",
+          "@type": "CollectionPage",
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/sweet-flavor-categories/sweet-flavor/#breadcrumb"
+          },
+          "description": "Sweet Flavors — 6 groups and 73 sweet flavors.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Sweet Flavors — Sweet Flavor Category",
+          "url": "https://pairingmethod.com/sweet-flavor-categories/sweet-flavor/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-categories/sweet-flavor/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavors/",
+              "name": "Sweet Flavors",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavor-categories/sweet-flavor/",
+              "name": "Sweet Flavors",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-categories/sweet-flavor/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "sweet-flavor",
+          "description": "Sweet Flavors — 6 groups and 73 sweet flavors.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/sweet-flavor-groups/alternative-sweeteners/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.sweet-flavor.alternative-sweeteners",
+              "name": "Alternative Sweeteners",
+              "numberOfTerms": 11,
+              "url": "https://pairingmethod.com/sweet-flavor-groups/alternative-sweeteners/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavor-groups/cocoa-chocolate-ingredients/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients",
+              "name": "Cocoa & Chocolate Ingredients",
+              "numberOfTerms": 20,
+              "url": "https://pairingmethod.com/sweet-flavor-groups/cocoa-chocolate-ingredients/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavor-groups/honey-bee-products/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.sweet-flavor.honey-bee-products",
+              "name": "Honey & Bee Products",
+              "numberOfTerms": 5,
+              "url": "https://pairingmethod.com/sweet-flavor-groups/honey-bee-products/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavor-groups/natural-sweeteners/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.sweet-flavor.natural-sweeteners",
+              "name": "Natural Sweeteners",
+              "numberOfTerms": 11,
+              "url": "https://pairingmethod.com/sweet-flavor-groups/natural-sweeteners/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavor-groups/sugars/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.sweet-flavor.sugars",
+              "name": "Sugars",
+              "numberOfTerms": 13,
+              "url": "https://pairingmethod.com/sweet-flavor-groups/sugars/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavor-groups/syrups/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.sweet-flavor.syrups",
+              "name": "Syrups",
+              "numberOfTerms": 13,
+              "url": "https://pairingmethod.com/sweet-flavor-groups/syrups/"
+            }
+          ],
+          "identifier": "food.sweet-flavor",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sweet Flavor Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Sweet Flavors",
+          "numberOfTerms": 73,
+          "url": "https://pairingmethod.com/sweet-flavor-categories/sweet-flavor/"
+        }
+      ],
+      "projection_id": "food.sweet-flavor",
+      "slug": "sweet-flavor"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "documents": [
+    {
+      "canonical_path": "/sweet-flavor-categories/sweet-flavor/",
+      "canonical_url": "https://pairingmethod.com/sweet-flavor-categories/sweet-flavor/",
+      "display_name": "Sweet Flavors",
+      "document_type": "sweet_flavor_category",
+      "food_count": 73,
+      "group_count": 6,
+      "group_ids": [
+        "food.sweet-flavor.alternative-sweeteners",
+        "food.sweet-flavor.cocoa-chocolate-ingredients",
+        "food.sweet-flavor.honey-bee-products",
+        "food.sweet-flavor.natural-sweeteners",
+        "food.sweet-flavor.sugars",
+        "food.sweet-flavor.syrups"
+      ],
+      "groups": [
+        {
+          "food_count": 11,
+          "id": "food.sweet-flavor.alternative-sweeteners",
+          "name": "Alternative Sweeteners",
+          "slug": "alternative-sweeteners"
+        },
+        {
+          "food_count": 20,
+          "id": "food.sweet-flavor.cocoa-chocolate-ingredients",
+          "name": "Cocoa & Chocolate Ingredients",
+          "slug": "cocoa-chocolate-ingredients"
+        },
+        {
+          "food_count": 5,
+          "id": "food.sweet-flavor.honey-bee-products",
+          "name": "Honey & Bee Products",
+          "slug": "honey-bee-products"
+        },
+        {
+          "food_count": 11,
+          "id": "food.sweet-flavor.natural-sweeteners",
+          "name": "Natural Sweeteners",
+          "slug": "natural-sweeteners"
+        },
+        {
+          "food_count": 13,
+          "id": "food.sweet-flavor.sugars",
+          "name": "Sugars",
+          "slug": "sugars"
+        },
+        {
+          "food_count": 13,
+          "id": "food.sweet-flavor.syrups",
+          "name": "Syrups",
+          "slug": "syrups"
+        }
+      ],
+      "id": "food.sweet-flavor",
+      "projection_id": "food.sweet-flavor",
+      "slug": "sweet-flavor",
+      "tokens": [
+        "6",
+        "73",
+        "alternative sweeteners",
+        "cocoa & chocolate ingredients",
+        "honey & bee products",
+        "natural sweeteners",
+        "sugars",
+        "sweet flavor",
+        "sweet flavors",
+        "sweet-flavor",
+        "syrups"
+      ]
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "document_count": 1,
+    "document_type": "sweet_flavor_category",
+    "domain": "sweet-flavor",
+    "food_ontology_version": "1.9.0",
+    "phase": "FOOD-12FE"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "deployment_gate": true,
+  "domain": "sweet-flavor",
+  "metrics": {
+    "Broken navigation links": 0,
+    "HTML pages": 80,
+    "Overall result": "PASS",
+    "Publication entities": 80,
+    "Search suggestions": 80,
+    "Sitemap URLs": 80,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "dist/release-manifest.json",
+    "reports/sweet-flavor-release-certification-report.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-12FI",
+  "platform_audit": {
+    "overall": "PASS",
+    "platform_modifications_required": 1,
+    "shared_publication_pipeline_reused_percent": 100
+  },
+  "release_summary": {
+    "canonicalSweetFlavors": 73,
+    "editorialRelationships": 266,
+    "publicationPages": 80,
+    "runtimeRelationships": 2212,
+    "wineRelationships": 194
+  },
+  "validation_errors": [],
+  "warnings": []
+}

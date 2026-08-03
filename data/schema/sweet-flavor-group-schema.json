@@ -1,0 +1,991 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "sweet-flavor",
+    "food_ontology_version": "1.9.0",
+    "phase": "FOOD-12FC",
+    "schema_count": 6,
+    "schema_type": "sweet_flavor_group"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/sweet-flavor-groups/alternative-sweeteners/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/alternative-sweeteners/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/sweet-flavors/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.sweet-flavor",
+            "name": "Sweet Flavors"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/sweet-flavor-groups/alternative-sweeteners/#breadcrumb"
+          },
+          "description": "Alternative Sweeteners — 11 sweet flavors in the Sweet Flavor Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Alternative Sweeteners — Sweet Flavor Group",
+          "url": "https://pairingmethod.com/sweet-flavor-groups/alternative-sweeteners/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/alternative-sweeteners/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavors/",
+              "name": "Sweet Flavors",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavor-categories/sweet-flavor/",
+              "name": "Sweet Flavors",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavor-groups/alternative-sweeteners/",
+              "name": "Alternative Sweeteners",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/alternative-sweeteners/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "alternative-sweeteners",
+          "description": "Alternative Sweeteners — 11 sweet flavors in the Sweet Flavor Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/allulose/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.alternative-sweeteners.allulose",
+              "name": "Allulose",
+              "url": "https://pairingmethod.com/sweet-flavors/allulose/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/aspartame/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.alternative-sweeteners.aspartame",
+              "name": "Aspartame",
+              "url": "https://pairingmethod.com/sweet-flavors/aspartame/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/cyclamate/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.alternative-sweeteners.cyclamate",
+              "name": "Cyclamate",
+              "url": "https://pairingmethod.com/sweet-flavors/cyclamate/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/erythritol/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.alternative-sweeteners.erythritol",
+              "name": "Erythritol",
+              "url": "https://pairingmethod.com/sweet-flavors/erythritol/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/maltitol/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.alternative-sweeteners.maltitol",
+              "name": "Maltitol",
+              "url": "https://pairingmethod.com/sweet-flavors/maltitol/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/saccharin/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.alternative-sweeteners.saccharin",
+              "name": "Saccharin",
+              "url": "https://pairingmethod.com/sweet-flavors/saccharin/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/sorbitol/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.alternative-sweeteners.sorbitol",
+              "name": "Sorbitol",
+              "url": "https://pairingmethod.com/sweet-flavors/sorbitol/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/stevia/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.alternative-sweeteners.stevia",
+              "name": "Stevia",
+              "url": "https://pairingmethod.com/sweet-flavors/stevia/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/sucralose/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.alternative-sweeteners.sucralose",
+              "name": "Sucralose",
+              "url": "https://pairingmethod.com/sweet-flavors/sucralose/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/tagatose/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.alternative-sweeteners.tagatose",
+              "name": "Tagatose",
+              "url": "https://pairingmethod.com/sweet-flavors/tagatose/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/xylitol/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.alternative-sweeteners.xylitol",
+              "name": "Xylitol",
+              "url": "https://pairingmethod.com/sweet-flavors/xylitol/"
+            }
+          ],
+          "identifier": "food.sweet-flavor.alternative-sweeteners",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sweet Flavor Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Alternative Sweeteners",
+          "numberOfTerms": 11,
+          "url": "https://pairingmethod.com/sweet-flavor-groups/alternative-sweeteners/"
+        }
+      ],
+      "projection_id": "food.sweet-flavor.alternative-sweeteners",
+      "slug": "alternative-sweeteners"
+    },
+    {
+      "canonical_path": "/sweet-flavor-groups/cocoa-chocolate-ingredients/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/cocoa-chocolate-ingredients/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/sweet-flavors/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.sweet-flavor",
+            "name": "Sweet Flavors"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/sweet-flavor-groups/cocoa-chocolate-ingredients/#breadcrumb"
+          },
+          "description": "Cocoa & Chocolate Ingredients — 20 sweet flavors in the Sweet Flavor Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Cocoa & Chocolate Ingredients — Sweet Flavor Group",
+          "url": "https://pairingmethod.com/sweet-flavor-groups/cocoa-chocolate-ingredients/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/cocoa-chocolate-ingredients/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavors/",
+              "name": "Sweet Flavors",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavor-categories/sweet-flavor/",
+              "name": "Sweet Flavors",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavor-groups/cocoa-chocolate-ingredients/",
+              "name": "Cocoa & Chocolate Ingredients",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/cocoa-chocolate-ingredients/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "cocoa-chocolate-ingredients",
+          "description": "Cocoa & Chocolate Ingredients — 20 sweet flavors in the Sweet Flavor Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/black-cocoa-powder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.black-cocoa-powder",
+              "name": "Black Cocoa Powder",
+              "url": "https://pairingmethod.com/sweet-flavors/black-cocoa-powder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/cacao-bean/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-bean",
+              "name": "Cacao Bean",
+              "url": "https://pairingmethod.com/sweet-flavors/cacao-bean/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/cacao-nibs/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-nibs",
+              "name": "Cacao Nibs",
+              "url": "https://pairingmethod.com/sweet-flavors/cacao-nibs/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/cacao-paste/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-paste",
+              "name": "Cacao Paste",
+              "url": "https://pairingmethod.com/sweet-flavors/cacao-paste/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/cacao-powder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-powder",
+              "name": "Cacao Powder",
+              "url": "https://pairingmethod.com/sweet-flavors/cacao-powder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/chocolate-liquor/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.chocolate-liquor",
+              "name": "Chocolate Liquor",
+              "url": "https://pairingmethod.com/sweet-flavors/chocolate-liquor/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/cocoa-butter/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-butter",
+              "name": "Cocoa Butter",
+              "url": "https://pairingmethod.com/sweet-flavors/cocoa-butter/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/cocoa-powder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-powder",
+              "name": "Cocoa Powder",
+              "url": "https://pairingmethod.com/sweet-flavors/cocoa-powder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/cocoa-presscake/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-presscake",
+              "name": "Cocoa Presscake",
+              "url": "https://pairingmethod.com/sweet-flavors/cocoa-presscake/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/cocoa-solids/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-solids",
+              "name": "Cocoa Solids",
+              "url": "https://pairingmethod.com/sweet-flavors/cocoa-solids/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/defatted-cocoa-powder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.defatted-cocoa-powder",
+              "name": "Defatted Cocoa Powder",
+              "url": "https://pairingmethod.com/sweet-flavors/defatted-cocoa-powder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/dutch-process-cocoa-powder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.dutch-process-cocoa-powder",
+              "name": "Dutch-Process Cocoa Powder",
+              "url": "https://pairingmethod.com/sweet-flavors/dutch-process-cocoa-powder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/ground-cacao/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.ground-cacao",
+              "name": "Ground Cacao",
+              "url": "https://pairingmethod.com/sweet-flavors/ground-cacao/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/high-fat-cocoa-powder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.high-fat-cocoa-powder",
+              "name": "High-Fat Cocoa Powder",
+              "url": "https://pairingmethod.com/sweet-flavors/high-fat-cocoa-powder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/natural-cocoa-powder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.natural-cocoa-powder",
+              "name": "Natural Cocoa Powder",
+              "url": "https://pairingmethod.com/sweet-flavors/natural-cocoa-powder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/raw-cacao/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.raw-cacao",
+              "name": "Raw Cacao",
+              "url": "https://pairingmethod.com/sweet-flavors/raw-cacao/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/red-cocoa-powder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.red-cocoa-powder",
+              "name": "Red Cocoa Powder",
+              "url": "https://pairingmethod.com/sweet-flavors/red-cocoa-powder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/roasted-cacao-nibs/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.roasted-cacao-nibs",
+              "name": "Roasted Cacao Nibs",
+              "url": "https://pairingmethod.com/sweet-flavors/roasted-cacao-nibs/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/ruby-cacao/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.ruby-cacao",
+              "name": "Ruby Cacao",
+              "url": "https://pairingmethod.com/sweet-flavors/ruby-cacao/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/toasted-cacao/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients.toasted-cacao",
+              "name": "Toasted Cacao",
+              "url": "https://pairingmethod.com/sweet-flavors/toasted-cacao/"
+            }
+          ],
+          "identifier": "food.sweet-flavor.cocoa-chocolate-ingredients",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sweet Flavor Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Cocoa & Chocolate Ingredients",
+          "numberOfTerms": 20,
+          "url": "https://pairingmethod.com/sweet-flavor-groups/cocoa-chocolate-ingredients/"
+        }
+      ],
+      "projection_id": "food.sweet-flavor.cocoa-chocolate-ingredients",
+      "slug": "cocoa-chocolate-ingredients"
+    },
+    {
+      "canonical_path": "/sweet-flavor-groups/honey-bee-products/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/honey-bee-products/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/sweet-flavors/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.sweet-flavor",
+            "name": "Sweet Flavors"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/sweet-flavor-groups/honey-bee-products/#breadcrumb"
+          },
+          "description": "Honey & Bee Products — 5 sweet flavors in the Sweet Flavor Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Honey & Bee Products — Sweet Flavor Group",
+          "url": "https://pairingmethod.com/sweet-flavor-groups/honey-bee-products/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/honey-bee-products/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavors/",
+              "name": "Sweet Flavors",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavor-categories/sweet-flavor/",
+              "name": "Sweet Flavors",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavor-groups/honey-bee-products/",
+              "name": "Honey & Bee Products",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/honey-bee-products/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "honey-bee-products",
+          "description": "Honey & Bee Products — 5 sweet flavors in the Sweet Flavor Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/buckwheat-honey/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.honey-bee-products.buckwheat-honey",
+              "name": "Buckwheat Honey",
+              "url": "https://pairingmethod.com/sweet-flavors/buckwheat-honey/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/clover-honey/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.honey-bee-products.clover-honey",
+              "name": "Clover Honey",
+              "url": "https://pairingmethod.com/sweet-flavors/clover-honey/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/comb-honey/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.honey-bee-products.comb-honey",
+              "name": "Comb Honey",
+              "url": "https://pairingmethod.com/sweet-flavors/comb-honey/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/honey/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.honey-bee-products.honey",
+              "name": "Honey",
+              "url": "https://pairingmethod.com/sweet-flavors/honey/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/manuka-honey/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.honey-bee-products.manuka-honey",
+              "name": "Manuka Honey",
+              "url": "https://pairingmethod.com/sweet-flavors/manuka-honey/"
+            }
+          ],
+          "identifier": "food.sweet-flavor.honey-bee-products",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sweet Flavor Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Honey & Bee Products",
+          "numberOfTerms": 5,
+          "url": "https://pairingmethod.com/sweet-flavor-groups/honey-bee-products/"
+        }
+      ],
+      "projection_id": "food.sweet-flavor.honey-bee-products",
+      "slug": "honey-bee-products"
+    },
+    {
+      "canonical_path": "/sweet-flavor-groups/natural-sweeteners/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/natural-sweeteners/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/sweet-flavors/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.sweet-flavor",
+            "name": "Sweet Flavors"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/sweet-flavor-groups/natural-sweeteners/#breadcrumb"
+          },
+          "description": "Natural Sweeteners — 11 sweet flavors in the Sweet Flavor Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Natural Sweeteners — Sweet Flavor Group",
+          "url": "https://pairingmethod.com/sweet-flavor-groups/natural-sweeteners/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/natural-sweeteners/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavors/",
+              "name": "Sweet Flavors",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavor-categories/sweet-flavor/",
+              "name": "Sweet Flavors",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavor-groups/natural-sweeteners/",
+              "name": "Natural Sweeteners",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/natural-sweeteners/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "natural-sweeteners",
+          "description": "Natural Sweeteners — 11 sweet flavors in the Sweet Flavor Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/agave/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.natural-sweeteners.agave",
+              "name": "Agave",
+              "url": "https://pairingmethod.com/sweet-flavors/agave/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/birch-sugar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.natural-sweeteners.birch-sugar",
+              "name": "Birch Sugar",
+              "url": "https://pairingmethod.com/sweet-flavors/birch-sugar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/carob-powder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.natural-sweeteners.carob-powder",
+              "name": "Carob Powder",
+              "url": "https://pairingmethod.com/sweet-flavors/carob-powder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/coconut-sugar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.natural-sweeteners.coconut-sugar",
+              "name": "Coconut Sugar",
+              "url": "https://pairingmethod.com/sweet-flavors/coconut-sugar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/date-syrup/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.natural-sweeteners.date-syrup",
+              "name": "Date Syrup",
+              "url": "https://pairingmethod.com/sweet-flavors/date-syrup/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/fruit-sugar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.natural-sweeteners.fruit-sugar",
+              "name": "Fruit Sugar",
+              "url": "https://pairingmethod.com/sweet-flavors/fruit-sugar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/grape-sugar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.natural-sweeteners.grape-sugar",
+              "name": "Grape Sugar",
+              "url": "https://pairingmethod.com/sweet-flavors/grape-sugar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/lucuma-powder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.natural-sweeteners.lucuma-powder",
+              "name": "Lucuma Powder",
+              "url": "https://pairingmethod.com/sweet-flavors/lucuma-powder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/mesquite-powder/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.natural-sweeteners.mesquite-powder",
+              "name": "Mesquite Powder",
+              "url": "https://pairingmethod.com/sweet-flavors/mesquite-powder/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/monk-fruit-sweetener/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.natural-sweeteners.monk-fruit-sweetener",
+              "name": "Monk Fruit Sweetener",
+              "url": "https://pairingmethod.com/sweet-flavors/monk-fruit-sweetener/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/yacon-syrup/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.natural-sweeteners.yacon-syrup",
+              "name": "Yacon Syrup",
+              "url": "https://pairingmethod.com/sweet-flavors/yacon-syrup/"
+            }
+          ],
+          "identifier": "food.sweet-flavor.natural-sweeteners",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sweet Flavor Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Natural Sweeteners",
+          "numberOfTerms": 11,
+          "url": "https://pairingmethod.com/sweet-flavor-groups/natural-sweeteners/"
+        }
+      ],
+      "projection_id": "food.sweet-flavor.natural-sweeteners",
+      "slug": "natural-sweeteners"
+    },
+    {
+      "canonical_path": "/sweet-flavor-groups/sugars/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/sugars/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/sweet-flavors/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.sweet-flavor",
+            "name": "Sweet Flavors"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/sweet-flavor-groups/sugars/#breadcrumb"
+          },
+          "description": "Sugars — 13 sweet flavors in the Sweet Flavor Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Sugars — Sweet Flavor Group",
+          "url": "https://pairingmethod.com/sweet-flavor-groups/sugars/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/sugars/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavors/",
+              "name": "Sweet Flavors",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavor-categories/sweet-flavor/",
+              "name": "Sweet Flavors",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavor-groups/sugars/",
+              "name": "Sugars",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/sugars/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "sugars",
+          "description": "Sugars — 13 sweet flavors in the Sweet Flavor Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/beet-sugar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.sugars.beet-sugar",
+              "name": "Beet Sugar",
+              "url": "https://pairingmethod.com/sweet-flavors/beet-sugar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/brown-sugar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.sugars.brown-sugar",
+              "name": "Brown Sugar",
+              "url": "https://pairingmethod.com/sweet-flavors/brown-sugar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/cane-sugar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.sugars.cane-sugar",
+              "name": "Cane Sugar",
+              "url": "https://pairingmethod.com/sweet-flavors/cane-sugar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/demerara-sugar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.sugars.demerara-sugar",
+              "name": "Demerara Sugar",
+              "url": "https://pairingmethod.com/sweet-flavors/demerara-sugar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/jaggery/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.sugars.jaggery",
+              "name": "Jaggery",
+              "url": "https://pairingmethod.com/sweet-flavors/jaggery/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/maple-sugar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.sugars.maple-sugar",
+              "name": "Maple Sugar",
+              "url": "https://pairingmethod.com/sweet-flavors/maple-sugar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/muscovado-sugar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.sugars.muscovado-sugar",
+              "name": "Muscovado Sugar",
+              "url": "https://pairingmethod.com/sweet-flavors/muscovado-sugar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/palm-sugar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.sugars.palm-sugar",
+              "name": "Palm Sugar",
+              "url": "https://pairingmethod.com/sweet-flavors/palm-sugar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/panela/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.sugars.panela",
+              "name": "Panela",
+              "url": "https://pairingmethod.com/sweet-flavors/panela/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/piloncillo/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.sugars.piloncillo",
+              "name": "Piloncillo",
+              "url": "https://pairingmethod.com/sweet-flavors/piloncillo/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/raw-sugar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.sugars.raw-sugar",
+              "name": "Raw Sugar",
+              "url": "https://pairingmethod.com/sweet-flavors/raw-sugar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/rock-sugar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.sugars.rock-sugar",
+              "name": "Rock Sugar",
+              "url": "https://pairingmethod.com/sweet-flavors/rock-sugar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/turbinado-sugar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.sugars.turbinado-sugar",
+              "name": "Turbinado Sugar",
+              "url": "https://pairingmethod.com/sweet-flavors/turbinado-sugar/"
+            }
+          ],
+          "identifier": "food.sweet-flavor.sugars",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sweet Flavor Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Sugars",
+          "numberOfTerms": 13,
+          "url": "https://pairingmethod.com/sweet-flavor-groups/sugars/"
+        }
+      ],
+      "projection_id": "food.sweet-flavor.sugars",
+      "slug": "sugars"
+    },
+    {
+      "canonical_path": "/sweet-flavor-groups/syrups/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/syrups/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/sweet-flavors/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.sweet-flavor",
+            "name": "Sweet Flavors"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/sweet-flavor-groups/syrups/#breadcrumb"
+          },
+          "description": "Syrups — 13 sweet flavors in the Sweet Flavor Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Syrups — Sweet Flavor Group",
+          "url": "https://pairingmethod.com/sweet-flavor-groups/syrups/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/syrups/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavors/",
+              "name": "Sweet Flavors",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavor-categories/sweet-flavor/",
+              "name": "Sweet Flavors",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sweet-flavor-groups/syrups/",
+              "name": "Syrups",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sweet-flavor-groups/syrups/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "syrups",
+          "description": "Syrups — 13 sweet flavors in the Sweet Flavor Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/barley-malt-syrup/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.syrups.barley-malt-syrup",
+              "name": "Barley Malt Syrup",
+              "url": "https://pairingmethod.com/sweet-flavors/barley-malt-syrup/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/blackstrap-molasses/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.syrups.blackstrap-molasses",
+              "name": "Blackstrap Molasses",
+              "url": "https://pairingmethod.com/sweet-flavors/blackstrap-molasses/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/cane-syrup/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.syrups.cane-syrup",
+              "name": "Cane Syrup",
+              "url": "https://pairingmethod.com/sweet-flavors/cane-syrup/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/corn-syrup/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.syrups.corn-syrup",
+              "name": "Corn Syrup",
+              "url": "https://pairingmethod.com/sweet-flavors/corn-syrup/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/glucose-syrup/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.syrups.glucose-syrup",
+              "name": "Glucose Syrup",
+              "url": "https://pairingmethod.com/sweet-flavors/glucose-syrup/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/golden-syrup/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.syrups.golden-syrup",
+              "name": "Golden Syrup",
+              "url": "https://pairingmethod.com/sweet-flavors/golden-syrup/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/invert-sugar-syrup/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.syrups.invert-sugar-syrup",
+              "name": "Invert Sugar Syrup",
+              "url": "https://pairingmethod.com/sweet-flavors/invert-sugar-syrup/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/maple-syrup/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.syrups.maple-syrup",
+              "name": "Maple Syrup",
+              "url": "https://pairingmethod.com/sweet-flavors/maple-syrup/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/molasses/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.syrups.molasses",
+              "name": "Molasses",
+              "url": "https://pairingmethod.com/sweet-flavors/molasses/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/palm-syrup/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.syrups.palm-syrup",
+              "name": "Palm Syrup",
+              "url": "https://pairingmethod.com/sweet-flavors/palm-syrup/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/rice-syrup/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.syrups.rice-syrup",
+              "name": "Rice Syrup",
+              "url": "https://pairingmethod.com/sweet-flavors/rice-syrup/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/sorghum-syrup/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.syrups.sorghum-syrup",
+              "name": "Sorghum Syrup",
+              "url": "https://pairingmethod.com/sweet-flavors/sorghum-syrup/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sweet-flavors/treacle/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sweet-flavor.syrups.treacle",
+              "name": "Treacle",
+              "url": "https://pairingmethod.com/sweet-flavors/treacle/"
+            }
+          ],
+          "identifier": "food.sweet-flavor.syrups",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sweet Flavor Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Syrups",
+          "numberOfTerms": 13,
+          "url": "https://pairingmethod.com/sweet-flavor-groups/syrups/"
+        }
+      ],
+      "projection_id": "food.sweet-flavor.syrups",
+      "slug": "syrups"
+    }
+  ]
+}

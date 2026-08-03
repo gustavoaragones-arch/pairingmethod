@@ -1,0 +1,22 @@
+{
+  "domain": "sweet-flavor",
+  "metrics": {
+    "Broken links": 0,
+    "Category link sets": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate links": 0,
+    "Group link sets": 6,
+    "Leaf link sets": 73,
+    "Overall result": "PASS",
+    "Total internal links": 745,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/navigation/sweet-flavor-links.json",
+    "data/navigation/sweet-flavor-group-links.json",
+    "data/navigation/sweet-flavor-category-links.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-12FD",
+  "validation_errors": []
+}

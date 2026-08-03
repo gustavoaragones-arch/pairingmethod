@@ -1,0 +1,81 @@
+{
+  "domain": "sweet-flavor",
+  "layer_results": {
+    "cross_layer": {
+      "complete_chains": 80,
+      "entities": 80,
+      "overall": 100
+    },
+    "determinism": {
+      "artifacts_checked": 16,
+      "artifacts_passing": 16,
+      "overall": 100
+    },
+    "json_ld": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "navigation": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "projections": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "relationships": {
+      "consumed_by_publication": 490,
+      "editorial_edges": 266,
+      "overall": 100,
+      "pairing_edges": 194,
+      "structural_edges": 2212
+    },
+    "search": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    },
+    "viewmodels": {
+      "categories": 100,
+      "groups": 100,
+      "leaf": 100,
+      "overall": 100
+    }
+  },
+  "metrics": {
+    "Categories certified": 1,
+    "Errors": 0,
+    "Groups certified": 6,
+    "Overall certification": "PASS",
+    "Publication layers": 8,
+    "Sweet Flavors certified": 73,
+    "Validation rules executed": 52,
+    "Warnings": 0
+  },
+  "outputs": [
+    "reports/sweet-flavor-publication-certification-report.json",
+    "reports/sweet-flavor-publication-coverage-report.json"
+  ],
+  "overall_certification": "PASS",
+  "phase": "FOOD-12F",
+  "publication_layers": [
+    "projections",
+    "viewmodels",
+    "json_ld",
+    "navigation",
+    "search",
+    "relationships",
+    "cross_layer",
+    "determinism"
+  ],
+  "release_gate": true,
+  "validation_errors": [],
+  "warnings": []
+}

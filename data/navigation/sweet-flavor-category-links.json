@@ -1,0 +1,68 @@
+{
+  "link_sets": [
+    {
+      "canonical_path": "/sweet-flavor-categories/sweet-flavor/",
+      "projection_id": "food.sweet-flavor",
+      "sections": {
+        "groups": [
+          {
+            "href": "/sweet-flavor-groups/alternative-sweeteners/",
+            "id": "food.sweet-flavor.alternative-sweeteners",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Alternative Sweeteners"
+          },
+          {
+            "href": "/sweet-flavor-groups/cocoa-chocolate-ingredients/",
+            "id": "food.sweet-flavor.cocoa-chocolate-ingredients",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Cocoa & Chocolate Ingredients"
+          },
+          {
+            "href": "/sweet-flavor-groups/honey-bee-products/",
+            "id": "food.sweet-flavor.honey-bee-products",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Honey & Bee Products"
+          },
+          {
+            "href": "/sweet-flavor-groups/natural-sweeteners/",
+            "id": "food.sweet-flavor.natural-sweeteners",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Natural Sweeteners"
+          },
+          {
+            "href": "/sweet-flavor-groups/sugars/",
+            "id": "food.sweet-flavor.sugars",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Sugars"
+          },
+          {
+            "href": "/sweet-flavor-groups/syrups/",
+            "id": "food.sweet-flavor.syrups",
+            "relationship": "category_contains",
+            "source": "ontology",
+            "title": "Syrups"
+          }
+        ],
+        "member_food_summary": {
+          "food_count": 73,
+          "group_count": 6
+        },
+        "related_categories": []
+      },
+      "slug": "sweet-flavor"
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "sweet-flavor",
+    "food_ontology_version": "1.9.0",
+    "link_set_count": 1,
+    "link_set_type": "sweet_flavor_category",
+    "phase": "FOOD-12FD"
+  }
+}

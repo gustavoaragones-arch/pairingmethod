@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "sweet-flavor",
+    "food_ontology_version": "1.9.0",
+    "phase": "FOOD-12FA",
+    "projection_count": 6,
+    "projection_type": "sweet_flavor_group"
+  },
+  "projections": [
+    {
+      "food_count": 11,
+      "identity": {
+        "id": "food.sweet-flavor.alternative-sweeteners",
+        "name": "Alternative Sweeteners",
+        "slug": "alternative-sweeteners"
+      },
+      "member_food_ids": [
+        "food.sweet-flavor.alternative-sweeteners.allulose",
+        "food.sweet-flavor.alternative-sweeteners.aspartame",
+        "food.sweet-flavor.alternative-sweeteners.cyclamate",
+        "food.sweet-flavor.alternative-sweeteners.erythritol",
+        "food.sweet-flavor.alternative-sweeteners.maltitol",
+        "food.sweet-flavor.alternative-sweeteners.saccharin",
+        "food.sweet-flavor.alternative-sweeteners.sorbitol",
+        "food.sweet-flavor.alternative-sweeteners.stevia",
+        "food.sweet-flavor.alternative-sweeteners.sucralose",
+        "food.sweet-flavor.alternative-sweeteners.tagatose",
+        "food.sweet-flavor.alternative-sweeteners.xylitol"
+      ],
+      "member_leaf_ids": [
+        "food.sweet-flavor.alternative-sweeteners.allulose",
+        "food.sweet-flavor.alternative-sweeteners.aspartame",
+        "food.sweet-flavor.alternative-sweeteners.cyclamate",
+        "food.sweet-flavor.alternative-sweeteners.erythritol",
+        "food.sweet-flavor.alternative-sweeteners.maltitol",
+        "food.sweet-flavor.alternative-sweeteners.saccharin",
+        "food.sweet-flavor.alternative-sweeteners.sorbitol",
+        "food.sweet-flavor.alternative-sweeteners.stevia",
+        "food.sweet-flavor.alternative-sweeteners.sucralose",
+        "food.sweet-flavor.alternative-sweeteners.tagatose",
+        "food.sweet-flavor.alternative-sweeteners.xylitol"
+      ],
+      "parent_category": {
+        "id": "food.sweet-flavor",
+        "name": "Sweet Flavors",
+        "slug": "sweet-flavor"
+      },
+      "usage_intensities_represented": [
+        "accent"
+      ]
+    },
+    {
+      "food_count": 20,
+      "identity": {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients",
+        "name": "Cocoa & Chocolate Ingredients",
+        "slug": "cocoa-chocolate-ingredients"
+      },
+      "member_food_ids": [
+        "food.sweet-flavor.cocoa-chocolate-ingredients.black-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-bean",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-nibs",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-paste",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.chocolate-liquor",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-butter",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-presscake",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-solids",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.defatted-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.dutch-process-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.ground-cacao",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.high-fat-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.natural-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.raw-cacao",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.red-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.roasted-cacao-nibs",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.ruby-cacao",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.toasted-cacao"
+      ],
+      "member_leaf_ids": [
+        "food.sweet-flavor.cocoa-chocolate-ingredients.black-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-bean",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-nibs",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-paste",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.chocolate-liquor",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-butter",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-presscake",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-solids",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.defatted-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.dutch-process-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.ground-cacao",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.high-fat-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.natural-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.raw-cacao",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.red-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.roasted-cacao-nibs",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.ruby-cacao",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.toasted-cacao"
+      ],
+      "parent_category": {
+        "id": "food.sweet-flavor",
+        "name": "Sweet Flavors",
+        "slug": "sweet-flavor"
+      },
+      "usage_intensities_represented": [
+        "accent",
+        "luxury",
+        "primary"
+      ]
+    },
+    {
+      "food_count": 5,
+      "identity": {
+        "id": "food.sweet-flavor.honey-bee-products",
+        "name": "Honey & Bee Products",
+        "slug": "honey-bee-products"
+      },
+      "member_food_ids": [
+        "food.sweet-flavor.honey-bee-products.buckwheat-honey",
+        "food.sweet-flavor.honey-bee-products.clover-honey",
+        "food.sweet-flavor.honey-bee-products.comb-honey",
+        "food.sweet-flavor.honey-bee-products.honey",
+        "food.sweet-flavor.honey-bee-products.manuka-honey"
+      ],
+      "member_leaf_ids": [
+        "food.sweet-flavor.honey-bee-products.buckwheat-honey",
+        "food.sweet-flavor.honey-bee-products.clover-honey",
+        "food.sweet-flavor.honey-bee-products.comb-honey",
+        "food.sweet-flavor.honey-bee-products.honey",
+        "food.sweet-flavor.honey-bee-products.manuka-honey"
+      ],
+      "parent_category": {
+        "id": "food.sweet-flavor",
+        "name": "Sweet Flavors",
+        "slug": "sweet-flavor"
+      },
+      "usage_intensities_represented": [
+        "accent",
+        "luxury",
+        "primary"
+      ]
+    },
+    {
+      "food_count": 11,
+      "identity": {
+        "id": "food.sweet-flavor.natural-sweeteners",
+        "name": "Natural Sweeteners",
+        "slug": "natural-sweeteners"
+      },
+      "member_food_ids": [
+        "food.sweet-flavor.natural-sweeteners.agave",
+        "food.sweet-flavor.natural-sweeteners.birch-sugar",
+        "food.sweet-flavor.natural-sweeteners.carob-powder",
+        "food.sweet-flavor.natural-sweeteners.coconut-sugar",
+        "food.sweet-flavor.natural-sweeteners.date-syrup",
+        "food.sweet-flavor.natural-sweeteners.fruit-sugar",
+        "food.sweet-flavor.natural-sweeteners.grape-sugar",
+        "food.sweet-flavor.natural-sweeteners.lucuma-powder",
+        "food.sweet-flavor.natural-sweeteners.mesquite-powder",
+        "food.sweet-flavor.natural-sweeteners.monk-fruit-sweetener",
+        "food.sweet-flavor.natural-sweeteners.yacon-syrup"
+      ],
+      "member_leaf_ids": [
+        "food.sweet-flavor.natural-sweeteners.agave",
+        "food.sweet-flavor.natural-sweeteners.birch-sugar",
+        "food.sweet-flavor.natural-sweeteners.carob-powder",
+        "food.sweet-flavor.natural-sweeteners.coconut-sugar",
+        "food.sweet-flavor.natural-sweeteners.date-syrup",
+        "food.sweet-flavor.natural-sweeteners.fruit-sugar",
+        "food.sweet-flavor.natural-sweeteners.grape-sugar",
+        "food.sweet-flavor.natural-sweeteners.lucuma-powder",
+        "food.sweet-flavor.natural-sweeteners.mesquite-powder",
+        "food.sweet-flavor.natural-sweeteners.monk-fruit-sweetener",
+        "food.sweet-flavor.natural-sweeteners.yacon-syrup"
+      ],
+      "parent_category": {
+        "id": "food.sweet-flavor",
+        "name": "Sweet Flavors",
+        "slug": "sweet-flavor"
+      },
+      "usage_intensities_represented": [
+        "accent"
+      ]
+    },
+    {
+      "food_count": 13,
+      "identity": {
+        "id": "food.sweet-flavor.sugars",
+        "name": "Sugars",
+        "slug": "sugars"
+      },
+      "member_food_ids": [
+        "food.sweet-flavor.sugars.beet-sugar",
+        "food.sweet-flavor.sugars.brown-sugar",
+        "food.sweet-flavor.sugars.cane-sugar",
+        "food.sweet-flavor.sugars.demerara-sugar",
+        "food.sweet-flavor.sugars.jaggery",
+        "food.sweet-flavor.sugars.maple-sugar",
+        "food.sweet-flavor.sugars.muscovado-sugar",
+        "food.sweet-flavor.sugars.palm-sugar",
+        "food.sweet-flavor.sugars.panela",
+        "food.sweet-flavor.sugars.piloncillo",
+        "food.sweet-flavor.sugars.raw-sugar",
+        "food.sweet-flavor.sugars.rock-sugar",
+        "food.sweet-flavor.sugars.turbinado-sugar"
+      ],
+      "member_leaf_ids": [
+        "food.sweet-flavor.sugars.beet-sugar",
+        "food.sweet-flavor.sugars.brown-sugar",
+        "food.sweet-flavor.sugars.cane-sugar",
+        "food.sweet-flavor.sugars.demerara-sugar",
+        "food.sweet-flavor.sugars.jaggery",
+        "food.sweet-flavor.sugars.maple-sugar",
+        "food.sweet-flavor.sugars.muscovado-sugar",
+        "food.sweet-flavor.sugars.palm-sugar",
+        "food.sweet-flavor.sugars.panela",
+        "food.sweet-flavor.sugars.piloncillo",
+        "food.sweet-flavor.sugars.raw-sugar",
+        "food.sweet-flavor.sugars.rock-sugar",
+        "food.sweet-flavor.sugars.turbinado-sugar"
+      ],
+      "parent_category": {
+        "id": "food.sweet-flavor",
+        "name": "Sweet Flavors",
+        "slug": "sweet-flavor"
+      },
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    },
+    {
+      "food_count": 13,
+      "identity": {
+        "id": "food.sweet-flavor.syrups",
+        "name": "Syrups",
+        "slug": "syrups"
+      },
+      "member_food_ids": [
+        "food.sweet-flavor.syrups.barley-malt-syrup",
+        "food.sweet-flavor.syrups.blackstrap-molasses",
+        "food.sweet-flavor.syrups.cane-syrup",
+        "food.sweet-flavor.syrups.corn-syrup",
+        "food.sweet-flavor.syrups.glucose-syrup",
+        "food.sweet-flavor.syrups.golden-syrup",
+        "food.sweet-flavor.syrups.invert-sugar-syrup",
+        "food.sweet-flavor.syrups.maple-syrup",
+        "food.sweet-flavor.syrups.molasses",
+        "food.sweet-flavor.syrups.palm-syrup",
+        "food.sweet-flavor.syrups.rice-syrup",
+        "food.sweet-flavor.syrups.sorghum-syrup",
+        "food.sweet-flavor.syrups.treacle"
+      ],
+      "member_leaf_ids": [
+        "food.sweet-flavor.syrups.barley-malt-syrup",
+        "food.sweet-flavor.syrups.blackstrap-molasses",
+        "food.sweet-flavor.syrups.cane-syrup",
+        "food.sweet-flavor.syrups.corn-syrup",
+        "food.sweet-flavor.syrups.glucose-syrup",
+        "food.sweet-flavor.syrups.golden-syrup",
+        "food.sweet-flavor.syrups.invert-sugar-syrup",
+        "food.sweet-flavor.syrups.maple-syrup",
+        "food.sweet-flavor.syrups.molasses",
+        "food.sweet-flavor.syrups.palm-syrup",
+        "food.sweet-flavor.syrups.rice-syrup",
+        "food.sweet-flavor.syrups.sorghum-syrup",
+        "food.sweet-flavor.syrups.treacle"
+      ],
+      "parent_category": {
+        "id": "food.sweet-flavor",
+        "name": "Sweet Flavors",
+        "slug": "sweet-flavor"
+      },
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    }
+  ]
+}

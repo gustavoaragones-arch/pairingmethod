@@ -1,0 +1,24 @@
+{
+  "domain": "sweet-flavor",
+  "metrics": {
+    "Broken references": 0,
+    "Category search documents": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate documents": 0,
+    "Group search documents": 6,
+    "Indexed tokens": 176,
+    "Leaf search documents": 73,
+    "Overall result": "PASS",
+    "Suggestions": 80,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/search/sweet-flavor-search-index.json",
+    "data/search/sweet-flavor-group-search-index.json",
+    "data/search/sweet-flavor-category-search-index.json",
+    "data/search/sweet-flavor-search-suggestions.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-12FE",
+  "validation_errors": []
+}
