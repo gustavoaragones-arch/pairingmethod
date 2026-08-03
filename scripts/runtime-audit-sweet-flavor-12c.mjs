@@ -601,6 +601,58 @@ function validateDeterminism(runtime, errors, checks) {
   return passed;
 }
 
+function validateEditorialLayerSeparation({ relationships, errors, checks }) {
+  let passed = 0;
+  const editorialPath = path.join(ROOT, "data/runtime/sweet-flavor-editorial-relationships.json");
+
+  if (relationships.meta.level_3_editorial_edges !== 0) {
+    errors.push("Editorial layer: consolidated runtime must not contain editorial edges");
+  } else {
+    passed += 1;
+  }
+
+  const structuralKeys = new Set(
+    relationships.edges.map((edge) => `${edge.source}\t${edge.relationship}\t${edge.target}`)
+  );
+  const editorialTypes = new Set([
+    "similar_to",
+    "substitutes_for",
+    "commonly_served_with",
+    "similar_sweet_flavors",
+  ]);
+  const forbiddenInRuntime = relationships.edges.filter((edge) =>
+    editorialTypes.has(edge.relationship)
+  );
+  if (forbiddenInRuntime.length > 0) {
+    errors.push(
+      `Editorial layer: ${forbiddenInRuntime.length} editorial relationship types found in runtime graph`
+    );
+  } else {
+    passed += 1;
+  }
+
+  if (fs.existsSync(editorialPath)) {
+    const editorial = JSON.parse(fs.readFileSync(editorialPath, "utf8"));
+    if (editorial.meta?.layer !== "editorial") {
+      errors.push("Editorial layer: editorial artifact missing layer metadata");
+    }
+    let conflicts = 0;
+    for (const edge of editorial.edges ?? []) {
+      const key = `${edge.source}\t${edge.relationship}\t${edge.target}`;
+      if (structuralKeys.has(key)) {
+        conflicts += 1;
+        errors.push(`Editorial layer: editorial edge conflicts with structural runtime edge ${key}`);
+      }
+    }
+    if (conflicts === 0) passed += 1;
+  } else {
+    passed += 1;
+  }
+
+  checks.editorial_layer = passed;
+  return passed;
+}
+
 function main() {
   const errors = [];
   const warnings = [];
@@ -618,6 +670,7 @@ function main() {
     orphans: 0,
     index_completeness: 0,
     determinism: 0,
+    editorial_layer: 0,
   };
 
   let runtime;
@@ -671,6 +724,7 @@ function main() {
   validateOrphans({ relationships, byId, categories, groups, errors, checks });
   validateIndexCompleteness({ indexes, errors, checks });
   validateDeterminism(runtime, errors, checks);
+  validateEditorialLayerSeparation({ relationships, errors, checks });
 
   const overall = errors.length === 0 ? "PASS" : "FAIL";
   const report = {
@@ -697,6 +751,7 @@ function main() {
       "Orphan checks": checks.orphans,
       "Index completeness checks": checks.index_completeness,
       "Determinism checks": checks.determinism,
+      "Editorial layer checks": checks.editorial_layer,
       "Structural edges": relationships.meta.level_1_structural_edges,
       "Intrinsic edges": relationships.meta.level_2_intrinsic_similarity_edges,
       "Editorial edges": relationships.meta.level_3_editorial_edges,
