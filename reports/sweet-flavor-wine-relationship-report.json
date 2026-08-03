@@ -1,0 +1,51 @@
+{
+  "catalog_version": "1.0.0",
+  "cocoa001_ownership_rule": "COCOA-001: cacao-derived canonical identities retain distinct pairing profiles and must not inherit wine relationships from sibling cocoa forms.",
+  "confidence_distribution": {
+    "high": 194
+  },
+  "culinary_role_pairing_rule": "SWEET-PAIR-001: wine pairing follows the ingredient's independent culinary role — honey for floral glaze and finishing, molasses for braise and bake depth, cocoa powder for baking bitterness, cocoa butter for fat-rich confection base.",
+  "domain": "sweet-flavor",
+  "group_coverage": {
+    "alternative-sweeteners": 11,
+    "cocoa-chocolate-ingredients": 20,
+    "honey-bee-products": 5,
+    "natural-sweeteners": 11,
+    "sugars": 13,
+    "syrups": 13
+  },
+  "metrics": {
+    "Descriptor links": 36,
+    "Determinism": "PASS",
+    "Deterministic ordering": "PASS",
+    "Duplicate edges": 0,
+    "Invalid ontology references": 0,
+    "Missing primary pairings": 0,
+    "Missing sweet-flavor entities": 0,
+    "Missing wine references": 0,
+    "Orphan entities": 0,
+    "Overall result": "PASS",
+    "Pairing edges": 194,
+    "Pending review edges": 0,
+    "Sweet flavor entities linked": 73,
+    "Technique links": 30,
+    "Wine styles linked": 19
+  },
+  "output": "data/runtime/sweet-flavor-wine-relationships.json",
+  "overall_result": "PASS",
+  "pairing_tiers": {
+    "descriptor": "pairs_with_descriptor",
+    "primary": "pairs_with_style",
+    "secondary": "also_pairs_with_style",
+    "technique": "pairs_with_technique"
+  },
+  "phase": "FOOD-12E",
+  "relationship_type_counts": {
+    "also_pairs_with_style": 55,
+    "pairs_with_descriptor": 36,
+    "pairs_with_style": 73,
+    "pairs_with_technique": 30
+  },
+  "sweet001_ownership_rule": "SWEET-001: crystalline trade names remain aliases — separate canonical entities retain distinct pairing profiles when culinary identity changes.",
+  "validation_errors": []
+}

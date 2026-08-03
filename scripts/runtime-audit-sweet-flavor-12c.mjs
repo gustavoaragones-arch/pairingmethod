@@ -653,6 +653,56 @@ function validateEditorialLayerSeparation({ relationships, errors, checks }) {
   return passed;
 }
 
+function validateWinePairingLayerSeparation({ relationships, errors, checks }) {
+  let passed = 0;
+  const winePath = path.join(ROOT, "data/runtime/sweet-flavor-wine-relationships.json");
+
+  if (relationships.meta.level_3_editorial_edges !== 0) {
+    errors.push("Wine pairing layer: consolidated runtime must not contain editorial edges");
+  } else {
+    passed += 1;
+  }
+
+  const pairingTypes = new Set([
+    "pairs_with_style",
+    "also_pairs_with_style",
+    "pairs_with_descriptor",
+    "pairs_with_technique",
+  ]);
+  const forbiddenInRuntime = relationships.edges.filter((edge) => pairingTypes.has(edge.relationship));
+  if (forbiddenInRuntime.length > 0) {
+    errors.push(
+      `Wine pairing layer: ${forbiddenInRuntime.length} wine pairing relationship types found in runtime graph`
+    );
+  } else {
+    passed += 1;
+  }
+
+  if (fs.existsSync(winePath)) {
+    const wine = JSON.parse(fs.readFileSync(winePath, "utf8"));
+    if (wine.meta?.layer !== "wine_pairing") {
+      errors.push("Wine pairing layer: wine artifact missing layer metadata");
+    }
+    const structuralKeys = new Set(
+      relationships.edges.map((edge) => `${edge.source}\t${edge.relationship}\t${edge.target}`)
+    );
+    let conflicts = 0;
+    for (const edge of wine.edges ?? []) {
+      const key = `${edge.source}\t${edge.relationship}\t${edge.target}`;
+      if (structuralKeys.has(key)) {
+        conflicts += 1;
+        errors.push(`Wine pairing layer: wine edge conflicts with structural runtime edge ${key}`);
+      }
+    }
+    if (conflicts === 0) passed += 1;
+  } else {
+    passed += 1;
+  }
+
+  checks.wine_pairing_layer = passed;
+  return passed;
+}
+
 function main() {
   const errors = [];
   const warnings = [];
@@ -671,6 +721,7 @@ function main() {
     index_completeness: 0,
     determinism: 0,
     editorial_layer: 0,
+    wine_pairing_layer: 0,
   };
 
   let runtime;
@@ -725,6 +776,7 @@ function main() {
   validateIndexCompleteness({ indexes, errors, checks });
   validateDeterminism(runtime, errors, checks);
   validateEditorialLayerSeparation({ relationships, errors, checks });
+  validateWinePairingLayerSeparation({ relationships, errors, checks });
 
   const overall = errors.length === 0 ? "PASS" : "FAIL";
   const report = {
@@ -752,6 +804,7 @@ function main() {
       "Index completeness checks": checks.index_completeness,
       "Determinism checks": checks.determinism,
       "Editorial layer checks": checks.editorial_layer,
+      "Wine pairing layer checks": checks.wine_pairing_layer,
       "Structural edges": relationships.meta.level_1_structural_edges,
       "Intrinsic edges": relationships.meta.level_2_intrinsic_similarity_edges,
       "Editorial edges": relationships.meta.level_3_editorial_edges,
