@@ -1,108 +1,108 @@
 {
   "artifacts": {
-    "catalog": "data/legume-catalog.json",
+    "catalog": "data/sweet-flavor-catalog.json",
     "html": [
-      "dist/legumes",
-      "dist/legume-groups",
-      "dist/legume-categories"
+      "dist/sweet-flavors",
+      "dist/sweet-flavor-groups",
+      "dist/sweet-flavor-categories"
     ],
     "navigation": [
-      "data/navigation/legume-links.json",
-      "data/navigation/legume-group-links.json",
-      "data/navigation/legume-category-links.json"
+      "data/navigation/sweet-flavor-links.json",
+      "data/navigation/sweet-flavor-group-links.json",
+      "data/navigation/sweet-flavor-category-links.json"
     ],
     "pages": [
-      "data/pages/legume-pages.json",
-      "data/pages/legume-group-pages.json",
-      "data/pages/legume-category-pages.json"
+      "data/pages/sweet-flavor-pages.json",
+      "data/pages/sweet-flavor-group-pages.json",
+      "data/pages/sweet-flavor-category-pages.json"
     ],
     "projections": [
-      "data/generated/legume-pages.json",
-      "data/generated/legume-group-pages.json",
-      "data/generated/legume-category-pages.json"
+      "data/generated/sweet-flavor-pages.json",
+      "data/generated/sweet-flavor-group-pages.json",
+      "data/generated/sweet-flavor-category-pages.json"
     ],
     "relationships": [
-      "data/runtime/legume-runtime.json",
-      "data/runtime/legume-editorial-relationships.json",
-      "data/runtime/legume-wine-relationships.json"
+      "data/runtime/sweet-flavor-runtime.json",
+      "data/runtime/sweet-flavor-editorial-relationships.json",
+      "data/runtime/sweet-flavor-wine-relationships.json"
     ],
     "runtime": [
-      "data/runtime/legume-runtime.json"
+      "data/runtime/sweet-flavor-runtime.json"
     ],
     "schema": [
-      "data/schema/legume-schema.json",
-      "data/schema/legume-group-schema.json",
-      "data/schema/legume-category-schema.json"
+      "data/schema/sweet-flavor-schema.json",
+      "data/schema/sweet-flavor-group-schema.json",
+      "data/schema/sweet-flavor-category-schema.json"
     ],
     "search": [
-      "data/search/legume-search-index.json",
-      "data/search/legume-group-search-index.json",
-      "data/search/legume-category-search-index.json",
-      "data/search/legume-search-suggestions.json"
+      "data/search/sweet-flavor-search-index.json",
+      "data/search/sweet-flavor-group-search-index.json",
+      "data/search/sweet-flavor-category-search-index.json",
+      "data/search/sweet-flavor-search-suggestions.json"
     ],
     "sitemaps": [
       "dist/sitemap.xml",
-      "dist/sitemaps/legume-pages.xml",
-      "dist/sitemaps/legume-group-pages.xml",
-      "dist/sitemaps/legume-category-pages.xml",
+      "dist/sitemaps/sweet-flavor-pages.xml",
+      "dist/sitemaps/sweet-flavor-group-pages.xml",
+      "dist/sitemaps/sweet-flavor-category-pages.xml",
       "dist/crawl-manifest.json"
     ]
   },
   "catalog_version": "1.0.0",
   "certification": "PASS",
   "checksums": {
-    "catalog": "15fbeac5b2768fd457ba6974dcec15c8ce50cdf966fdd0455fdfd4c3ad25c509",
+    "catalog": "ccc7554fa45ad1f035f62a1750003e87000004adeb31c72ccf984a873435a971",
     "html": {},
     "navigation": {
-      "data/navigation/legume-category-links.json": "b2bd6f83a347150c1c515623207a0825639caaf31c2988e0ee35a7142934d780",
-      "data/navigation/legume-group-links.json": "81444fb8c72d983d15c1ecb4473feaa368f0549754a0f30ef36288f07a0c6904",
-      "data/navigation/legume-links.json": "628a871395f299cd0ec07ce256e88e23f3e4e3fd8d22b690a6b1c9aada6a1917"
+      "data/navigation/sweet-flavor-category-links.json": "4ad28d5f2f9a6be98702150b69914db6e3f0f28db630bfe44f993e4fcc542004",
+      "data/navigation/sweet-flavor-group-links.json": "c62dfc1443179bc765c75fe3b493d820fcce47b95b457c863b76516f46621a54",
+      "data/navigation/sweet-flavor-links.json": "02e7f4de28b539ea44f2bc4c69043315b935b44f9f9e6b69f9ea126389687a4e"
     },
     "pages": {
-      "data/pages/legume-category-pages.json": "3db91ee1a336ef6cbc48f23395889759dec297db8e73b702230e9fb2eac44a66",
-      "data/pages/legume-group-pages.json": "254c9c3e78a1a1be66ad68619869cf731c25974e0875fe1f06b7e0e4cfc15680",
-      "data/pages/legume-pages.json": "0ffa414083f7c388d9b39fe58960620b9fc90bd86043f429381f86123b02a593"
+      "data/pages/sweet-flavor-category-pages.json": "6a9617fb5dff2b45f52d754a4cfac08ad07aab0a522ab6e7da07405c5f4d7530",
+      "data/pages/sweet-flavor-group-pages.json": "00e8b2ef3184728d370a4af6c545fce97f21a6a7faf8f913577ba1471ef5b054",
+      "data/pages/sweet-flavor-pages.json": "7cba900aec32ba112a51a61ff8dd0d5f2ba094b2bbb67ad96a178d69edc93808"
     },
     "projections": {
-      "data/generated/legume-category-pages.json": "26d924500b5bd2d67b2e7031b78922fa7bda60e5a14b1a73a52e093ac98e1e1d",
-      "data/generated/legume-group-pages.json": "a6dade35a2bad0043195ce356153e458e21099632a68a40cc8c5c96ce1e8013b",
-      "data/generated/legume-pages.json": "5d8e4ab75f9658b1168e94b41bdb6517ac31b199712dc11eb693c898037d5940"
+      "data/generated/sweet-flavor-category-pages.json": "c0af086e97185312dfc5dcff9dbec94e2c67f1d689e58f322125627b0570645e",
+      "data/generated/sweet-flavor-group-pages.json": "af235744bc4de838516096a3e996d515cfb6f71c25d2a97fc86e08bbc10925eb",
+      "data/generated/sweet-flavor-pages.json": "51a4a963cabcd5393b39ce350d55b28067026b2a68f65657d4cc4297bcf8278a"
     },
     "relationships": {
-      "data/runtime/legume-editorial-relationships.json": "9de142617c6832adf859a8f4729b81e8a2613b84c8c8ab61a5f94977c14503c2",
-      "data/runtime/legume-runtime.json": "f11800b2aed13ff279dd023d4ff1a98269a0a121a55fba9c6c54ba4b055a4671",
-      "data/runtime/legume-wine-relationships.json": "eeb35be11eb551579b5b76164348b67d5c15a159d12ee0226a6753751a5aad93"
+      "data/runtime/sweet-flavor-editorial-relationships.json": "1a843f7312e5b6cc05e7826cd6a870e92b2da5103b9d6ec1a934f7741ff7d072",
+      "data/runtime/sweet-flavor-runtime.json": "f242dd8dba16031f4f474c6020212fd755f6617fc1fd5a389168e58baf438309",
+      "data/runtime/sweet-flavor-wine-relationships.json": "1bc92a1d66f4d220270fca8a259fad5bea958deabc8bc93beabe4584f05c682e"
     },
     "runtime": {
-      "data/runtime/legume-runtime.json": "f11800b2aed13ff279dd023d4ff1a98269a0a121a55fba9c6c54ba4b055a4671"
+      "data/runtime/sweet-flavor-runtime.json": "f242dd8dba16031f4f474c6020212fd755f6617fc1fd5a389168e58baf438309"
     },
     "schema": {
-      "data/schema/legume-category-schema.json": "8dc9a27da179681f65c272e5d72a635df330c85998ce1765476c3d4882593d59",
-      "data/schema/legume-group-schema.json": "597e1d6e92c8beb5ce6dce9239cfc6f2044b2e79b232c22f6b9e18af27a3cc63",
-      "data/schema/legume-schema.json": "10a69bc117407c7620c5fcd86b8727ca27083c2da0d693c2906908118a24144d"
+      "data/schema/sweet-flavor-category-schema.json": "fbde811274245281f274fe1ed04cc254543ecde246bdc0161c28a9f327b2dc0e",
+      "data/schema/sweet-flavor-group-schema.json": "c4be308d018d5bee84d0a15f64ebe75036666a05f525cbb5d22f24d945e38e2b",
+      "data/schema/sweet-flavor-schema.json": "f0800e714f5873421d9e990450f88c3c26fd33e7f3adf1a9410ae41f40eab623"
     },
     "search": {
-      "data/search/legume-category-search-index.json": "8709532fd0e638016ee58b831ebddbd6faf97d41c5d13be7669453ef94549bea",
-      "data/search/legume-group-search-index.json": "dd9017f4adce39e4a55905170e9fc8c96d249e4cf2f5375966d7f2a9c8bb0db4",
-      "data/search/legume-search-index.json": "1478ce4cf8046884cc2605b6b76d61cf2362fe64ab683b63c5410c33f0caf023",
-      "data/search/legume-search-suggestions.json": "611573ffec8cc3836d85de984353f0a9043d2c379516e0253669fbcbf4fb8132"
+      "data/search/sweet-flavor-category-search-index.json": "24b43c7574278978a9a9c693da0516c90753923badd15f60bdc978bdb3f4d028",
+      "data/search/sweet-flavor-group-search-index.json": "c2f37bae4902b0dd8f590a5e717eb934dfa409404b2cbba775afbec61fba8c6e",
+      "data/search/sweet-flavor-search-index.json": "1bf654491f7a9db9033b11ba30ae73c889b7d636a666e35e34bc9dab4eab8c05",
+      "data/search/sweet-flavor-search-suggestions.json": "092ff71ae0ad9097867b8ed0d26c57258b7941ed049995e33c6d4db87a916eb8"
     },
     "sitemaps": {
-      "dist/crawl-manifest.json": "c93675dd4b715f4422d3bb5897045e62cc98b3405670d11e7a306b6a92e985e9",
-      "dist/sitemap.xml": "320b95a387736f82eee36cd6efe5ce78dd9cc5697975df4abaad38eaf367729e",
-      "dist/sitemaps/legume-category-pages.xml": "e028976ea16abe2b3b02576a9b50b4427941f12eb25cd021930ee355ab751a65",
-      "dist/sitemaps/legume-group-pages.xml": "caea58b49c91aa4b65612ff8e7a3e1e8d391ce69408f8772d7a91daf34f8fa0d",
-      "dist/sitemaps/legume-pages.xml": "67f0b7e7cbd4113ea2289ff50caa83af6e0d472c033b1157a5045fae179d4095"
+      "dist/crawl-manifest.json": "662009019bba20791b8234ea5d5e4a736ba92c5373abf8e43f0e4b26d9b82d31",
+      "dist/sitemap.xml": "b1503b5440d34c2078e0076d17dce292de9867705445f721a7fce8d84b7e96b0",
+      "dist/sitemaps/sweet-flavor-category-pages.xml": "3a1fcee6e00ca646b5cd6a0d247b2b44d1ff22712fa027e58c7e935061d05fb5",
+      "dist/sitemaps/sweet-flavor-group-pages.xml": "0066c8b210190562cc08e572f0407b879790edb229ca7e910ee0623e618f43ad",
+      "dist/sitemaps/sweet-flavor-pages.xml": "740b9ef3fbe27f800ec55c634126d496c72ddee6e75111d982ab11b474e34887"
     }
   },
-  "domain": "legume",
-  "generated_at": "2026-07-29T13:59:30.190Z",
+  "domain": "sweet-flavor",
+  "generated_at": "2026-08-04T02:06:18.505Z",
   "pages": {
     "categories": 1,
     "groups": 6,
-    "leaf": 75,
-    "total": 82
+    "leaf": 73,
+    "total": 80
   },
-  "publication": "legume-ontology",
-  "release_version": "1.8.0"
+  "publication": "sweet-flavor-ontology",
+  "release_version": "1.9.0"
 }

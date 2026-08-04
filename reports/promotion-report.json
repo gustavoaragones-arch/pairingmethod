@@ -1,35 +1,35 @@
 {
   "domains": [
-    "legume"
+    "sweet-flavor"
   ],
   "metrics": {
     "Overall result": "PASS",
     "Promotion targets": 6,
     "Validation errors": 0,
-    "legume categories pages promoted": 1,
-    "legume groups pages promoted": 6,
-    "legume leaf pages promoted": 75
+    "sweet-flavor categories pages promoted": 1,
+    "sweet-flavor groups pages promoted": 6,
+    "sweet-flavor leaf pages promoted": 73
   },
   "overall_result": "PASS",
   "phase": "DEPLOY-01",
   "promoted": [
     {
-      "domain": "legume",
-      "html_files": 75,
-      "source": "dist/legumes",
-      "target": "legumes"
+      "domain": "sweet-flavor",
+      "html_files": 73,
+      "source": "dist/sweet-flavors",
+      "target": "sweet-flavors"
     },
     {
-      "domain": "legume",
+      "domain": "sweet-flavor",
       "html_files": 6,
-      "source": "dist/legume-groups",
-      "target": "legume-groups"
+      "source": "dist/sweet-flavor-groups",
+      "target": "sweet-flavor-groups"
     },
     {
-      "domain": "legume",
+      "domain": "sweet-flavor",
       "html_files": 1,
-      "source": "dist/legume-categories",
-      "target": "legume-categories"
+      "source": "dist/sweet-flavor-categories",
+      "target": "sweet-flavor-categories"
     },
     {
       "html_files": 0,
