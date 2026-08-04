@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-08-04T13:45:08.253Z",
+  "phase": "FOOD-13B",
+  "domain": "sauce-condiment",
+  "entity_count": 90,
+  "counts_by_group": {
+    "mother-sauces": 9,
+    "table-sauces": 22,
+    "condiments": 20,
+    "fermented-sauces-pastes": 16,
+    "oil-based-sauces-dressings": 12,
+    "savory-spreads-pastes": 11
+  },
+  "catalog_path": "data/sauce-condiment-catalog.json",
+  "audit_script": "scripts/catalog-audit-sauce-condiment-13b.mjs",
+  "canonical_entity_rule": "CANON-001 — regional variants and trade names are aliases, not entities",
+  "global_recognition_rule": "CANON-002 — globally recognizable culinary sauces and condiments only",
+  "composite_identity_rule": "SAUCE-001 — established culinary identity required; ad-hoc composed sauces excluded",
+  "composition_ownership_rule": "SAUCE-002 — component ingredients owned by other domains; reference by ID only",
+  "food12_integration_policy": "Vanilla extract, floral waters, caramel sauce, chocolate syrup owned here",
+  "legume_nut_seed_policy": "miso, hummus, tahini, peanut butter excluded — reference only",
+  "profile_arrays_policy": "flavor_profile, texture_profile, aroma_profile reserved empty",
+  "relationship_policy": "all relationship arrays empty"
+}

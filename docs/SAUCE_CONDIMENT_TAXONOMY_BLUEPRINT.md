@@ -200,4 +200,4 @@ Completion targets **Food Ontology Suite v2.0.0** — nearly complete poster ing
 |-----------|--------|
 | Taxonomy blueprint approved | **Yes** — August 3, 2026 |
 | Governance frozen | **Yes** — FOOD-13A |
-| Catalog population authorized | **Pending** — awaits FOOD-13B approval |
+| Catalog population authorized | **Yes** — FOOD-13B complete (90 entities) |
