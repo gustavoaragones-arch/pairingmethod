@@ -135,9 +135,9 @@ Legend for **Status**:
 | **Herb & Spice** | Nuts & Seeds (peanut, almond, pecan, sesame) | Nuts & Seeds | FOOD-10 | Complete | 89 canonical entities; Suite v1.7.0 |
 | **Herb & Spice** | Beans & Peas (lentil, navy, pinto, chickpea) | Beans & Peas | FOOD-11 | Partial | Protein catalog includes `legumes` group; dedicated domain planned |
 | **Sweet** | Fruit & Berries (strawberry, orange, apple, peach) | Fruits & Berries | FOOD-09 | Not Started | Cross-domain refs already used (e.g. cheese → `food.fruit.*`) |
-| **Sweet** | Vanilla & Caramel (crème brûlée, ice cream) | Sweet Flavors | FOOD-12 | Not Started | Flavor/dessert domain, not whole dishes |
-| **Sweet** | Chocolate & Coffee | Sweet Flavors | FOOD-12 | Not Started | |
-| **Sauces** | *(not on poster)* | Sauces & Condiments | FOOD-13 | Not Started | Required for complete culinary ontology |
+| **Sweet** | Vanilla & Caramel (crème brûlée, ice cream) | Sweet Flavors | FOOD-12 | Complete | 73 canonical entities; Suite v1.9.0 |
+| **Sweet** | Chocolate & Coffee | Sweet Flavors | FOOD-12 | Complete | Cocoa in Sweet Flavor; coffee beverages deferred |
+| **Sauces** | *(not on poster)* | Sauces & Condiments | FOOD-13 | Governance Frozen | FOOD-13A — catalog population pending |
 | **Wine** | Bold Red | Wine Ontology + Pairing Engine | WINE-01 / ENGINE | Partial | 28 published wine styles; poster **family** mapped in `pairing-engine.js` (`bold_red`) |
 | **Wine** | Medium Red | Wine Ontology + Pairing Engine | WINE-01 / ENGINE | Partial | `medium_red` family |
 | **Wine** | Light Red | Wine Ontology + Pairing Engine | WINE-01 / ENGINE | Partial | `light_red` family |
@@ -248,13 +248,13 @@ Poster groupings are **pairing categories**, not identical to cheese taxonomy gr
 | Chocolate & Coffee | FOOD-12 | Governance frozen — cocoa ingredients in Sweet Flavor; coffee beverages deferred |
 | Fruit & Berries (sweet context) | FOOD-09 | Published — cross-domain refs to Sweet Flavor at FOOD-12F |
 
-#### Sauces & Condiments (FOOD-13) — **Not Started**
+#### Sauces & Condiments (FOOD-13) — **Governance Frozen (FOOD-13A)**
 
 Not shown on the poster. Documented because complete culinary ontology requires composed flavor carriers (sauces, condiments, dressings) that anchor cross-domain pairings.
 
 | Poster Concept | Planned Phase | Status |
 |----------------|---------------|--------|
-| Sauces & Condiments | FOOD-13 | Not Started |
+| Sauces & Condiments | FOOD-13 | Governance frozen — FOOD-13B catalog population pending |
 
 #### Seafood refinement (FOOD-14) — **Partial**
 
@@ -456,4 +456,4 @@ No additional platform phases unless a genuine architectural limitation is disco
 | Sauces | 0 | 0 | 1 | 0 |
 | Wine columns | 0 | 9 | 0 | 0 |
 
-**Next planned work:** **FOOD-12B — Populate Sweet Flavor Ontology catalog** (from tag `food-ontology-suite-v1.8.0`; governance frozen at FOOD-12A).
+**Next planned work:** **FOOD-13B — Populate Sauce & Condiment Ontology catalog** (from tag `food-ontology-suite-v1.9.0`; governance frozen at FOOD-13A).

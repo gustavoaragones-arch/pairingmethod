@@ -1,0 +1,428 @@
+{
+  "categories": [
+    {
+      "child_slugs": [
+        "mother-sauces",
+        "table-sauces",
+        "condiments",
+        "fermented-sauces-pastes",
+        "oil-based-sauces-dressings",
+        "savory-spreads-pastes"
+      ],
+      "domain": "culinary",
+      "entity_type": "sauce_condiment_category",
+      "external_ids": {},
+      "id": "food.sauce-condiment",
+      "introduction": "The Sauce & Condiment Ontology catalogs canonical culinary sauces, condiments, spreads, emulsions, seasoning pastes, and fermented flavor bases used worldwide in cooking. This domain models culinary ingredients, not recipes, prepared dishes, marinades as recipes, beverage concentrates, or commercial brands.",
+      "name": "Sauces & Condiments",
+      "scientific_name": "",
+      "seo_description": "Explore canonical culinary sauces and condiments by group — culinary function, identity, and pairing metadata in the PairingMethod Food Ontology.",
+      "seo_title": "Sauces & Condiments — Food Ontology",
+      "slug": "sauce-condiment",
+      "summary": "Canonical culinary sauces and condiments across six immutable groups: Mother Sauces, Table Sauces, Condiments, Fermented Sauces & Pastes, Oil-Based Sauces & Dressings, and Savory Spreads & Pastes."
+    }
+  ],
+  "groups": [
+    {
+      "child_slugs": [],
+      "culinary_group": "mother_sauces",
+      "domain": "culinary",
+      "entity_type": "sauce_condiment_group",
+      "external_ids": {},
+      "id": "food.sauce-condiment.mother-sauces",
+      "introduction": "Mother Sauces in the Sauce & Condiment Ontology — foundational classical and emulsion sauces that anchor derivative sauce families, including béchamel, velouté, espagnole, tomato mother sauce, hollandaise, and mayonnaise.",
+      "name": "Mother Sauces",
+      "parent_category": "sauce-condiment",
+      "scientific_name": "",
+      "seo_description": "Canonical mother sauces — béchamel, velouté, hollandaise, and related foundational culinary sauces in the PairingMethod Sauce & Condiment Ontology.",
+      "seo_title": "Mother Sauces — Sauce & Condiment Ontology",
+      "slug": "mother-sauces",
+      "summary": "Mother Sauces — canonical foundational culinary sauces in the Sauce & Condiment Ontology (population deferred to FOOD-13B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "table_sauces",
+      "domain": "culinary",
+      "entity_type": "sauce_condiment_group",
+      "external_ids": {},
+      "id": "food.sauce-condiment.table-sauces",
+      "introduction": "Table Sauces in the Sauce & Condiment Ontology — finished sauces served at the table or used as finishing components, including ketchup, barbecue sauce, Worcestershire sauce, and pan gravies.",
+      "name": "Table Sauces",
+      "parent_category": "sauce-condiment",
+      "scientific_name": "",
+      "seo_description": "Canonical table sauces — ketchup, barbecue sauce, Worcestershire, and related finishing culinary sauces in the PairingMethod Sauce & Condiment Ontology.",
+      "seo_title": "Table Sauces — Sauce & Condiment Ontology",
+      "slug": "table-sauces",
+      "summary": "Table Sauces — canonical table and finishing sauce ingredients in the Sauce & Condiment Ontology (population deferred to FOOD-13B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "condiments",
+      "domain": "culinary",
+      "entity_type": "sauce_condiment_group",
+      "external_ids": {},
+      "id": "food.sauce-condiment.condiments",
+      "introduction": "Condiments in the Sauce & Condiment Ontology — concentrated flavor carriers used in small quantities at the table or during finishing, including mustards, relishes, and prepared condiment pastes with established culinary identity.",
+      "name": "Condiments",
+      "parent_category": "sauce-condiment",
+      "scientific_name": "",
+      "seo_description": "Canonical condiments — Dijon mustard, relish, and related table condiments in the PairingMethod Sauce & Condiment Ontology.",
+      "seo_title": "Condiments — Sauce & Condiment Ontology",
+      "slug": "condiments",
+      "summary": "Condiments — canonical table condiment ingredients in the Sauce & Condiment Ontology (population deferred to FOOD-13B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "fermented_sauces_pastes",
+      "domain": "culinary",
+      "entity_type": "sauce_condiment_group",
+      "external_ids": {},
+      "id": "food.sauce-condiment.fermented-sauces-pastes",
+      "introduction": "Fermented Sauces & Pastes in the Sauce & Condiment Ontology — fermented and aged flavor bases used as sauces or seasoning pastes, including soy sauce, fish sauce, and gochujang. Legume- and grain-derived ferments owned by other domains are referenced, not duplicated.",
+      "name": "Fermented Sauces & Pastes",
+      "parent_category": "sauce-condiment",
+      "scientific_name": "",
+      "seo_description": "Canonical fermented sauces and pastes — soy sauce, fish sauce, gochujang, and related culinary flavor bases in the PairingMethod Sauce & Condiment Ontology.",
+      "seo_title": "Fermented Sauces & Pastes — Sauce & Condiment Ontology",
+      "slug": "fermented-sauces-pastes",
+      "summary": "Fermented Sauces & Pastes — canonical fermented culinary flavor bases in the Sauce & Condiment Ontology (population deferred to FOOD-13B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "oil_based_sauces_dressings",
+      "domain": "culinary",
+      "entity_type": "sauce_condiment_group",
+      "external_ids": {},
+      "id": "food.sauce-condiment.oil-based-sauces-dressings",
+      "introduction": "Oil-Based Sauces & Dressings in the Sauce & Condiment Ontology — emulsified and oil-forward sauces and dressings used in salads, finishing, and cold applications, including vinaigrette, pesto, aioli, and ranch dressing.",
+      "name": "Oil-Based Sauces & Dressings",
+      "parent_category": "sauce-condiment",
+      "scientific_name": "",
+      "seo_description": "Canonical oil-based sauces and dressings — vinaigrette, pesto, aioli, and related culinary sauces in the PairingMethod Sauce & Condiment Ontology.",
+      "seo_title": "Oil-Based Sauces & Dressings — Sauce & Condiment Ontology",
+      "slug": "oil-based-sauces-dressings",
+      "summary": "Oil-Based Sauces & Dressings — canonical oil-based culinary sauces and dressings in the Sauce & Condiment Ontology (population deferred to FOOD-13B)."
+    },
+    {
+      "child_slugs": [],
+      "culinary_group": "savory_spreads_pastes",
+      "domain": "culinary",
+      "entity_type": "sauce_condiment_group",
+      "external_ids": {},
+      "id": "food.sauce-condiment.savory-spreads-pastes",
+      "introduction": "Savory Spreads & Pastes in the Sauce & Condiment Ontology — spreadable savory flavor carriers used on bread, crackers, or as finishing components, including tapenade, anchovy paste, and compound savory spreads with established culinary identity.",
+      "name": "Savory Spreads & Pastes",
+      "parent_category": "sauce-condiment",
+      "scientific_name": "",
+      "seo_description": "Canonical savory spreads and pastes — tapenade, anchovy paste, and related culinary spreads in the PairingMethod Sauce & Condiment Ontology.",
+      "seo_title": "Savory Spreads & Pastes — Sauce & Condiment Ontology",
+      "slug": "savory-spreads-pastes",
+      "summary": "Savory Spreads & Pastes — canonical savory spread ingredients in the Sauce & Condiment Ontology (population deferred to FOOD-13B)."
+    }
+  ],
+  "sauce_condiments": [],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "category_count": 1,
+    "description": "Sauce & Condiment Ontology — governance shell only (FOOD-13A). Entity population deferred to FOOD-13B.",
+    "domain": "sauce-condiment",
+    "entity_count": 0,
+    "entity_type": "sauce_condiment",
+    "food_ontology_version": "2.0.0",
+    "freeze_label": "Sauce & Condiment Governance Frozen v1.0.0",
+    "freeze_phase": "FOOD-13A",
+    "governance_status": "frozen",
+    "group_count": 6,
+    "ontology_foundation_version": "1.0.0",
+    "phase": "FOOD-13A",
+    "platform_version": "1.0.0",
+    "seeded": "2026-08-03",
+    "tier": 2,
+    "wine_ontology_version": "2.0"
+  },
+  "schema": {
+    "controlled_vocabularies": {
+      "aroma_profile": {
+        "cardinality": "array",
+        "description": "Reserved aroma characteristic tags — vocabulary frozen in FOOD-13A; do not populate until post-FOOD-13B curation standards.",
+        "populate_from_phase": "FOOD-13C",
+        "values": [
+          "garlicky",
+          "herbal",
+          "fermented",
+          "smoky",
+          "citrus",
+          "nutty",
+          "pungent",
+          "neutral",
+          "roasted",
+          "allium"
+        ]
+      },
+      "canonical_culinary_groups": {
+        "description": "Immutable group names and slugs — do not rename or add peer groups in v1.",
+        "immutable": true,
+        "values": [
+          {
+            "culinary_group": "mother_sauces",
+            "name": "Mother Sauces",
+            "slug": "mother-sauces"
+          },
+          {
+            "culinary_group": "table_sauces",
+            "name": "Table Sauces",
+            "slug": "table-sauces"
+          },
+          {
+            "culinary_group": "condiments",
+            "name": "Condiments",
+            "slug": "condiments"
+          },
+          {
+            "culinary_group": "fermented_sauces_pastes",
+            "name": "Fermented Sauces & Pastes",
+            "slug": "fermented-sauces-pastes"
+          },
+          {
+            "culinary_group": "oil_based_sauces_dressings",
+            "name": "Oil-Based Sauces & Dressings",
+            "slug": "oil-based-sauces-dressings"
+          },
+          {
+            "culinary_group": "savory_spreads_pastes",
+            "name": "Savory Spreads & Pastes",
+            "slug": "savory-spreads-pastes"
+          }
+        ]
+      },
+      "culinary_function": {
+        "cardinality": "array",
+        "description": "Primary culinary functions exercised by the sauce or condiment in finished dishes — frozen vocabulary for pairing and audit context.",
+        "immutable": true,
+        "values": [
+          "acidity",
+          "fat",
+          "fermentation",
+          "emulsification",
+          "umami",
+          "richness",
+          "heat",
+          "sweetness",
+          "binding",
+          "finishing"
+        ]
+      },
+      "culinary_group": {
+        "description": "Canonical Culinary Group value on leaf entities — aligns to immutable group slugs.",
+        "immutable": true,
+        "values": [
+          "mother_sauces",
+          "table_sauces",
+          "condiments",
+          "fermented_sauces_pastes",
+          "oil_based_sauces_dressings",
+          "savory_spreads_pastes"
+        ]
+      },
+      "flavor_profile": {
+        "cardinality": "array",
+        "description": "Reserved flavor characteristic tags — vocabulary frozen in FOOD-13A; do not populate until post-FOOD-13B curation standards.",
+        "populate_from_phase": "FOOD-13C",
+        "values": [
+          "acidic",
+          "sweet",
+          "salty",
+          "umami",
+          "bitter",
+          "spicy",
+          "smoky",
+          "rich",
+          "tangy",
+          "fermented",
+          "neutral"
+        ]
+      },
+      "texture_profile": {
+        "cardinality": "array",
+        "description": "Reserved texture characteristic tags — vocabulary frozen in FOOD-13A; do not populate until post-FOOD-13B curation standards.",
+        "populate_from_phase": "FOOD-13C",
+        "values": [
+          "liquid",
+          "viscous",
+          "creamy",
+          "emulsified",
+          "chunky",
+          "smooth",
+          "paste",
+          "spreadable",
+          "thin",
+          "thick"
+        ]
+      },
+      "usage_intensity": {
+        "description": "Intrinsic culinary prominence in dish composition — not Pairing Engine reasoning.",
+        "immutable": true,
+        "values": [
+          "primary",
+          "accent",
+          "luxury"
+        ]
+      }
+    },
+    "domain_contract": "Food Ontology Platform v1.0.0",
+    "domain_exclusions": {
+      "beverage_concentrates": "Beverage concentrates and drink bases — out of domain v1",
+      "brands": "Commercial brands and product lines — not ingredient ontology",
+      "cheese": "FOOD-04",
+      "dishes": "Finished dishes and composed meals — not ingredient ontology",
+      "fruit": "FOOD-09 — whole and fresh fruit forms",
+      "fungi": "FOOD-06",
+      "grain_starch": "FOOD-08 — whole grains and starches",
+      "herb_spice": "FOOD-07 — whole spices, dried herbs, and spice blends owned by Herb & Spice",
+      "legume": "FOOD-11 — whole legumes and legume products owned by Legume (miso, hummus, etc.)",
+      "marinades_as_recipes": "Marinades defined as recipes — not ingredient ontology v1",
+      "nut_seed": "FOOD-10 — whole nuts, seeds, and nut-seed products (tahini, peanut butter)",
+      "protein_food": "FOOD-02",
+      "recipes": "Recipes and composed meals — not ingredient ontology",
+      "spice_blends": "Spice blends owned by Herb & Spice — garam masala, curry powder, five-spice, etc.",
+      "sweet_flavor": "FOOD-12 — crystalline sweeteners, syrups, and primary sweet ingredients",
+      "vegetable": "FOOD-05 — whole vegetable forms"
+    },
+    "entity_types": {
+      "sauce_condiment": {
+        "description": "Canonical culinary sauce or condiment leaf entity.",
+        "id_example": "food.sauce-condiment.table-sauces.tomato-ketchup",
+        "required_fields": [
+          "id",
+          "slug",
+          "display_name",
+          "entity_type",
+          "domain",
+          "parent_group",
+          "parent_category",
+          "culinary_group",
+          "usage_intensity",
+          "scientific_name",
+          "aliases",
+          "common_names",
+          "external_ids",
+          "flavor_profile",
+          "texture_profile",
+          "aroma_profile",
+          "typical_descriptors",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description",
+          "catalog_version",
+          "food_ontology_version"
+        ]
+      },
+      "sauce_condiment_category": {
+        "description": "Top-level sauce and condiment domain hub (single category in v1).",
+        "id_example": "food.sauce-condiment",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description"
+        ]
+      },
+      "sauce_condiment_group": {
+        "description": "Canonical Culinary Group (Mother Sauces, Table Sauces, Condiments, etc.).",
+        "id_example": "food.sauce-condiment.mother-sauces",
+        "required_fields": [
+          "id",
+          "slug",
+          "name",
+          "entity_type",
+          "domain",
+          "parent_category",
+          "scientific_name",
+          "external_ids",
+          "child_slugs",
+          "introduction",
+          "summary",
+          "seo_title",
+          "seo_description",
+          "culinary_group"
+        ]
+      }
+    },
+    "governance_rules": {
+      "botanical_ownership_rule": {
+        "id": "BOTAN-001",
+        "note": "Suite rule — applies when botanical lineage diverges from culinary identity.",
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      },
+      "composite_identity_rule": {
+        "description": "A sauce or condiment becomes canonical only when it has an established culinary identity independent of its ingredient list.",
+        "frozen_phase": "FOOD-13A",
+        "id": "SAUCE-001",
+        "immutable": true,
+        "reference": "docs/SAUCE_CONDIMENT_GOVERNANCE.md §7"
+      },
+      "composition_ownership_rule": {
+        "description": "Ingredient ownership never transfers — sauce entities reference canonical IDs from other domains without duplicating intrinsic metadata.",
+        "frozen_phase": "FOOD-13A",
+        "id": "SAUCE-002",
+        "immutable": true,
+        "reference": "docs/SAUCE_CONDIMENT_GOVERNANCE.md §8"
+      },
+      "culinary_function_pairing_rule": {
+        "description": "Wine pairing follows culinary function — acidity, fat, fermentation, emulsification, umami, richness — not dominant ingredient alone.",
+        "frozen_phase": "FOOD-13A",
+        "id": "SAUCE-PAIR-001",
+        "immutable": true,
+        "reference": "docs/SAUCE_CONDIMENT_GOVERNANCE.md §9"
+      },
+      "functional_pairing_rule": {
+        "id": "STARCH-001",
+        "note": "Suite wine-pairing rule — referenced for completeness.",
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      },
+      "processing_ownership_rule": {
+        "description": "When processing creates a distinct canonical culinary ingredient versus a preparation state or alias.",
+        "id": "PROC-001",
+        "immutable": true,
+        "reference": "docs/FOOD_ONTOLOGY_SUITE_RELEASES.md"
+      }
+    },
+    "identity_contract": {
+      "canonical_entity_rule": "CANON-001",
+      "category_id_pattern": "^food\\.sauce-condiment$",
+      "display_name_mutable": true,
+      "entity_id_pattern": "^food\\.sauce-condiment\\.[a-z0-9-]+\\.[a-z0-9-]+$",
+      "external_ids_required": true,
+      "global_recognition_rule": "CANON-002",
+      "group_id_pattern": "^food\\.sauce-condiment\\.[a-z0-9-]+$",
+      "id_immutable": true,
+      "ids_never_recycled": true,
+      "namespace": "food.sauce-condiment",
+      "per_entity_version_fields": {
+        "catalog_version": "1.0.0",
+        "food_ontology_version": "2.0.0"
+      },
+      "required_identity_fields": [
+        "id",
+        "slug",
+        "display_name",
+        "scientific_name",
+        "external_ids"
+      ],
+      "scientific_name_mutable": false,
+      "scientific_name_semantics": "primary_botanical_or_source_species_for_culinary_identity_or_multiple_sources_for_composite_sauces",
+      "slug_mutable": true
+    },
+    "taxonomy_note": "Groups represent culinary function, not geography or primary ingredient. See docs/SAUCE_CONDIMENT_GOVERNANCE.md.",
+    "taxonomy_principle": "canonical_culinary_groups"
+  }
+}

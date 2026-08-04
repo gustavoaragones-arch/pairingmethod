@@ -243,11 +243,37 @@ Wine recommendations for sweet flavor ingredients must follow the ingredient's *
 
 **Introduced:** Sweet Flavor FOOD-12E · **Applies** to wine pairing layers where sweet ingredients retain distinct kitchen identities per SWEET-001 and COCOA-001.
 
+### SAUCE-001 — Composite Identity Rule
+
+A sauce or condiment becomes a **canonical ontology entity** only when it has an **established culinary identity independent of its ingredient list** — not ad-hoc combinations, recipe-specific variants, or brand formulations without global culinary recognition.
+
+| Canonical | Not canonical |
+|-----------|---------------|
+| Mayonnaise, Hollandaise, Soy Sauce, Worcestershire, Dijon Mustard, Tomato Ketchup | Garlic butter sauce, homemade burger sauce, spicy mayo with sriracha |
+
+**Introduced:** Sauce & Condiment FOOD-13A · **Extends** PROC-001 and CANON-001 for composite culinary preparations.
+
+### SAUCE-002 — Composition Ownership Rule
+
+Sauce and condiment entities **reference** canonical IDs from other domains for component ingredients. They **never duplicate** intrinsic metadata owned elsewhere.
+
+| Example | Reference pattern |
+|---------|-------------------|
+| Tomato Ketchup | Tomato → Vegetable; Sugar → Sweet Flavor; vinegar → deferred |
+
+**Introduced:** Sauce & Condiment FOOD-13A · **Applies** to catalog, runtime, editorial, and wine pairing layers.
+
+### SAUCE-PAIR-001 — Culinary Function Pairing Rule
+
+Wine recommendations for sauce and condiment ingredients must follow **culinary function** — acidity, fat, fermentation, emulsification, umami, richness — not simply the dominant ingredient.
+
+**Introduced:** Sauce & Condiment FOOD-13E · **Applies** to wine pairing layers where composite preparations retain distinct kitchen identities per SAUCE-001.
+
 ---
 
 ## Ontology Lifecycle (Suite Standard)
 
-Every published domain follows the **identical six-phase lifecycle**. Phase prefixes differ by domain (`FOOD-02`/`ONTOLOGY-02` for Protein, `FOOD-04` for Cheese, `FOOD-05` for Vegetable, `FOOD-06` for Fungi, `FOOD-07` for Herb & Spice, `FOOD-08` for Grain & Starch, `FOOD-09` for Fruit, `FOOD-10` for Nut & Seed, `FOOD-11` for Legume, `FOOD-12` for Sweet Flavor) but the stages are the same:
+Every published domain follows the **identical six-phase lifecycle**. Phase prefixes differ by domain (`FOOD-02`/`ONTOLOGY-02` for Protein, `FOOD-04` for Cheese, `FOOD-05` for Vegetable, `FOOD-06` for Fungi, `FOOD-07` for Herb & Spice, `FOOD-08` for Grain & Starch, `FOOD-09` for Fruit, `FOOD-10` for Nut & Seed, `FOOD-11` for Legume, `FOOD-12` for Sweet Flavor, `FOOD-13` for Sauce & Condiment) but the stages are the same:
 
 | Stage | Letter | Scope |
 |-------|--------|-------|
@@ -610,7 +636,7 @@ Architecture: declarative · deterministic · shared publication pipeline · fou
 
 **Recommendation:** Tag `food-ontology-suite-v1.8.0`
 
-**Next work:** **FOOD-13 — Sauces & Condiments Ontology** (from tag `food-ontology-suite-v1.9.0`; governance not yet frozen)
+**Next work:** **FOOD-13B — Populate Sauce & Condiment Ontology catalog** (governance frozen at FOOD-13A)
 
 ---
 
