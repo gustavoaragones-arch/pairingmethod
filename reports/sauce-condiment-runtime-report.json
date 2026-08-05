@@ -1,0 +1,60 @@
+{
+  "catalog_version": "1.0.0",
+  "domain": "sauce-condiment",
+  "errors": [],
+  "metrics": {
+    "By group checks": 2,
+    "Catalog coverage checks": 1,
+    "Catalog entity count": 90,
+    "Determinism checks": 1,
+    "Editorial edges": 0,
+    "Editorial layer checks": 3,
+    "Errors": 0,
+    "Hierarchy checks": 4,
+    "Identity checks": 3,
+    "Index completeness checks": 1,
+    "Intrinsic edges": 3789,
+    "Namespace checks": 2,
+    "Orphan checks": 1,
+    "Overall result": "PASS",
+    "Relationship checks": 4,
+    "Runtime entity count": 90,
+    "Sauce & condiment governance checks": 1,
+    "Scientific name checks": 2,
+    "Structural edges": 282,
+    "Usage intensity checks": 2,
+    "Vocabulary checks": 2,
+    "Warnings": 0,
+    "Wine pairing layer checks": 3
+  },
+  "output": "data/runtime/sauce-condiment-runtime.json",
+  "overall_result": "PASS",
+  "phase": "FOOD-13C",
+  "relationship_type_counts": {
+    "belongs_to_category": 96,
+    "belongs_to_group": 90,
+    "category_contains": 6,
+    "group_contains": 90,
+    "shares_scientific_name": 1616,
+    "shares_usage_intensity": 2173
+  },
+  "runtime_stability_levels": {
+    "level_1_structural": [
+      "belongs_to_group",
+      "belongs_to_category",
+      "group_contains",
+      "category_contains"
+    ],
+    "level_2_intrinsic_similarity": [
+      "shares_usage_intensity",
+      "shares_scientific_name"
+    ],
+    "level_3_editorial": [
+      "similar_to",
+      "substitutes_for",
+      "commonly_served_with",
+      "similar_sauce_condiments"
+    ]
+  },
+  "warnings": []
+}
