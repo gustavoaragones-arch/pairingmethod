@@ -163,6 +163,8 @@
     "ontology:build-sauce-condiment-runtime": "node scripts/build-sauce-condiment-runtime-13c.js",
     "ontology:validate-sauce-condiment-runtime": "node scripts/runtime-audit-sauce-condiment-13c.mjs",
     "compile:sauce-condiment-runtime": "npm run ontology:catalog-audit-sauce-condiment && npm run ontology:build-sauce-condiment-runtime && npm run ontology:validate-sauce-condiment-runtime",
+    "ontology:map-sauce-condiment-editorial-relationships": "node scripts/map-sauce-condiment-editorial-relationships-13d.mjs",
+    "compile:sauce-condiment-editorial": "npm run compile:sauce-condiment-runtime && npm run ontology:map-sauce-condiment-editorial-relationships",
     "generate:legume-projections": "node scripts/generate-legume-projections-11f.mjs",
     "generate:legume-pages": "node scripts/generate-legume-pages-11f.mjs",
     "generate:legume-schema": "node scripts/generate-legume-schema-11f.mjs",
