@@ -1,0 +1,25 @@
+{
+  "domain": "sauce-condiment",
+  "metrics": {
+    "Category sitemap entries": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate URLs": 0,
+    "Group sitemap entries": 6,
+    "Indexed URLs": 97,
+    "Leaf sitemap entries": 90,
+    "Missing pages": 0,
+    "Overall result": "PASS",
+    "Sitemap index": 1,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "dist/sitemap.xml",
+    "dist/sitemaps/sauce-condiment-pages.xml",
+    "dist/sitemaps/sauce-condiment-group-pages.xml",
+    "dist/sitemaps/sauce-condiment-category-pages.xml",
+    "dist/crawl-manifest.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-13FH",
+  "validation_errors": []
+}

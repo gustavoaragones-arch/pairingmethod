@@ -1,0 +1,24 @@
+{
+  "domain": "sauce-condiment",
+  "metrics": {
+    "Broken references": 0,
+    "Category search documents": 1,
+    "Deterministic regeneration": "PASS",
+    "Duplicate documents": 0,
+    "Group search documents": 6,
+    "Indexed tokens": 214,
+    "Leaf search documents": 90,
+    "Overall result": "PASS",
+    "Suggestions": 97,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "data/search/sauce-condiment-search-index.json",
+    "data/search/sauce-condiment-group-search-index.json",
+    "data/search/sauce-condiment-category-search-index.json",
+    "data/search/sauce-condiment-search-suggestions.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-13FE",
+  "validation_errors": []
+}

@@ -22,7 +22,7 @@ This principle has been followed in practice since Protein FOOD-02C. FOOD-06C ma
 
 ### Knowledge layer separation (suite-wide)
 
-Proven across ten domains (Protein, Cheese, Vegetables, Fungi, Herb & Spice, Grain & Starch, Fruit, Nut & Seed, Legume, Sweet Flavor):
+Proven across eleven domains (Protein, Cheese, Vegetables, Fungi, Herb & Spice, Grain & Starch, Fruit, Nut & Seed, Legume, Sweet Flavor, Sauce & Condiment):
 
 | Layer | Source | Modified at publication? |
 |-------|--------|--------------------------|
@@ -306,16 +306,16 @@ Domain governance documents define **domain-specific** rules only. Suite-wide in
 
 Every suite release note includes this table. It reinforces the primary architectural achievement since Platform v1.0.0: **each new domain increases knowledge, not platform complexity.**
 
-| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 | v1.4.0 | v1.5.0 | v1.6.0 | v1.7.0 | v1.8.0 | v1.9.0 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| Published ontology domains | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | **10** |
-| Canonical entities (leaf) | 207 | 411 | 485 | 528 | 641 | 717 | 836 | 925 | 1,000 | **1,073** |
-| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | ~85,500+ | ~91,900 | ~93,800 | ~97,900 | ~100,600 | ~102,700 | **~104,900** |
-| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | ~370 | ~650 | ~840 | ~1,175 | ~1,460 | ~1,740 | **~2,005** |
-| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | ~300 | ~520 | ~700 | ~960 | ~1,180 | ~1,375 | **~1,569** |
-| Publication lifecycle reuse | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | **100%** |
-| Platform modifications required | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| Shared infrastructure extensions | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | **2** |
+| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 | v1.4.0 | v1.5.0 | v1.6.0 | v1.7.0 | v1.8.0 | v1.9.0 | v2.0.0 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Published ontology domains | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | **11** |
+| Canonical entities (leaf) | 207 | 411 | 485 | 528 | 641 | 717 | 836 | 925 | 1,000 | 1,073 | **1,163** |
+| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | ~85,500+ | ~91,900 | ~93,800 | ~97,900 | ~100,600 | ~102,700 | ~104,900 | **~109,000** |
+| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | ~370 | ~650 | ~840 | ~1,175 | ~1,460 | ~1,740 | ~2,005 | **~2,266** |
+| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | ~300 | ~520 | ~700 | ~960 | ~1,180 | ~1,375 | ~1,569 | **~1,760** |
+| Publication lifecycle reuse | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | **100%** |
+| Platform modifications required | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **1** |
+| Shared infrastructure extensions | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 2 | **3** |
 
 *Edge counts are measured from certified runtime artifacts at release time (structural + intrinsic similarity layers for runtime; editorial and wine layers reported separately).*
 
@@ -331,9 +331,79 @@ Every suite release note includes this table. It reinforces the primary architec
 
 **Certified totals at v1.9.0 (exact):** runtime structural 104,909 · editorial 2,005 · wine pairings 1,569 · leaf entities 1,073 · publication pages 1,151.
 
+**Certified totals at v2.0.0 (exact):** runtime structural 108,980 · editorial 2,266 · wine pairings 1,760 · leaf entities 1,163 · publication pages 1,248.
+
 *Shared infrastructure extension at v1.8.0: one documented, minimal enhancement to `runtime-loader.js` plus routing through `loadDomainInputs` in `links.js` and `certify-publication.js` — supports consolidated runtime inputs without affecting renderer or publication semantics.*
 
 *Shared infrastructure extension at v1.9.0: generalizes consolidated runtime loading in `runtime-loader.js` to support Sweet Flavor alongside Legume via `consolidatedRuntimeLayouts` — second documented extension; no renderer or stage-runner changes.*
+
+*Shared infrastructure extension at v2.0.0: declarative `wine.styleRelationships` support in `links.js` and domain-aware wine section indexing in `search.js` — enables FOOD-13E wine vocabulary (`pairs_with_wine`, `classic_pairing`, etc.) without sauce-specific stage runners.*
+
+---
+
+## v2.0.0 — Sauce & Condiment
+
+**Tag:** `food-ontology-suite-v2.0.0`  
+**Commit:** FOOD-13F — Publish Sauce & Condiment Ontology  
+**Date:** August 7, 2026
+
+### Published domains
+
+| Domain | Catalog version | Leaf entities | Publication paths |
+|--------|-----------------|---------------|-------------------|
+| Protein Foods | 1.0.0 | 207 | `/foods/` |
+| Cheeses | 1.0.0 | 204 | `/cheeses/` |
+| Vegetables | 1.0.0 | 74 | `/vegetables/` |
+| Fungi | 1.0.0 | 43 | `/fungi/` |
+| Herb & Spice | 1.0.0 | 113 | `/herbs-spices/` |
+| Grain & Starch | 1.0.0 | 76 | `/grains-starches/` |
+| Fruit | 1.0.0 | 119 | `/fruits/` |
+| Nut & Seed | 1.0.0 | 89 | `/nut-seeds/` |
+| Legume | 1.0.0 | 75 | `/legumes/` |
+| Sweet Flavor | 1.0.0 | 73 | `/sweet-flavors/` |
+| Sauce & Condiment | 1.0.0 | 90 | `/sauce-condiments/` |
+
+**Suite total:** 1,163 canonical leaf entities · 97 new sauce & condiment pages (90 leaf + 6 groups + 1 category hub)
+
+### FOOD-13 release certification
+
+| Metric | FOOD-13 |
+|--------|--------:|
+| Canonical sauce & condiment entities | 90 |
+| Runtime relationships | 4,071 |
+| Editorial relationships | 261 |
+| Wine relationships | 191 |
+| Publication pages | 97 |
+| Platform modifications required | 1 |
+| Shared infrastructure extensions | 1 |
+| Shared publication pipeline reused | 100% |
+
+### Group coverage
+
+| Group | Entities |
+|-------|--------:|
+| Mother Sauces | 9 |
+| Table Sauces | 22 |
+| Condiments | 20 |
+| Fermented Sauces & Pastes | 16 |
+| Oil-Based Sauces & Dressings | 12 |
+| Savory Spreads & Pastes | 11 |
+
+### Milestone significance
+
+FOOD-13F completes the **eleventh published ontology domain** and the final major ingredient-family layer from the original Wine Folly pairing poster. SAUCE-001 mother-sauce identity, SAUCE-002 cross-domain composition policy, and SAUCE-PAIR-001 culinary-function wine pairing were absorbed entirely within the knowledge layer (FOOD-13A–13E). Publication integrated through declarative `SAUCE_CONDIMENT_DOMAIN` configuration and `taxonomy-sauce-condiment-render.js` only — no ontology or relationship changes during FOOD-13F.
+
+The Sauce & Condiment domain uses the **consolidated four-layer knowledge model**: catalog (SSOT) → runtime (L1+L2) → editorial (L3) → wine pairing (L4) → publication. All knowledge layers were frozen at commits `c2a311b` through `24c6503` before publication began.
+
+Publication certification, release certification, HTML generation, JSON-LD validation, search index generation, sitemap generation, internal link validation, smoke tests, and deterministic rebuild all **PASS**.
+
+### Platform status at v2.0.0
+
+Publication architecture, runtime architecture, certification pipeline, deployment pipeline, and the six-phase governance lifecycle remain **feature-complete and frozen**. The Sauce & Condiment domain is frozen at v1.0.0. Future work proceeds as additive domains, platform enhancements, or ENGINE roadmap milestones — not changes to certified ontology artifacts.
+
+### Next planned work
+
+**FOOD-14** — Protein Refinement (from tag `food-ontology-suite-v2.0.0`; see POSTER_COVERAGE.md).
 
 ---
 

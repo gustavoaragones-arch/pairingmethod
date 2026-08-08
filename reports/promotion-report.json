@@ -1,35 +1,35 @@
 {
   "domains": [
-    "sweet-flavor"
+    "sauce-condiment"
   ],
   "metrics": {
     "Overall result": "PASS",
     "Promotion targets": 6,
     "Validation errors": 0,
-    "sweet-flavor categories pages promoted": 1,
-    "sweet-flavor groups pages promoted": 6,
-    "sweet-flavor leaf pages promoted": 73
+    "sauce-condiment categories pages promoted": 1,
+    "sauce-condiment groups pages promoted": 6,
+    "sauce-condiment leaf pages promoted": 90
   },
   "overall_result": "PASS",
   "phase": "DEPLOY-01",
   "promoted": [
     {
-      "domain": "sweet-flavor",
-      "html_files": 73,
-      "source": "dist/sweet-flavors",
-      "target": "sweet-flavors"
+      "domain": "sauce-condiment",
+      "html_files": 90,
+      "source": "dist/sauce-condiments",
+      "target": "sauce-condiments"
     },
     {
-      "domain": "sweet-flavor",
+      "domain": "sauce-condiment",
       "html_files": 6,
-      "source": "dist/sweet-flavor-groups",
-      "target": "sweet-flavor-groups"
+      "source": "dist/sauce-condiment-groups",
+      "target": "sauce-condiment-groups"
     },
     {
-      "domain": "sweet-flavor",
+      "domain": "sauce-condiment",
       "html_files": 1,
-      "source": "dist/sweet-flavor-categories",
-      "target": "sweet-flavor-categories"
+      "source": "dist/sauce-condiment-categories",
+      "target": "sauce-condiment-categories"
     },
     {
       "html_files": 0,

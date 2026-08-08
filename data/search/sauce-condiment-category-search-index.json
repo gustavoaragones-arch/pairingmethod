@@ -1,0 +1,82 @@
+{
+  "documents": [
+    {
+      "canonical_path": "/sauce-condiment-categories/sauce-condiment/",
+      "canonical_url": "https://pairingmethod.com/sauce-condiment-categories/sauce-condiment/",
+      "display_name": "Sauces & Condiments",
+      "document_type": "sauce_condiment_category",
+      "food_count": 90,
+      "group_count": 6,
+      "group_ids": [
+        "food.sauce-condiment.condiments",
+        "food.sauce-condiment.fermented-sauces-pastes",
+        "food.sauce-condiment.mother-sauces",
+        "food.sauce-condiment.oil-based-sauces-dressings",
+        "food.sauce-condiment.savory-spreads-pastes",
+        "food.sauce-condiment.table-sauces"
+      ],
+      "groups": [
+        {
+          "food_count": 20,
+          "id": "food.sauce-condiment.condiments",
+          "name": "Condiments",
+          "slug": "condiments"
+        },
+        {
+          "food_count": 16,
+          "id": "food.sauce-condiment.fermented-sauces-pastes",
+          "name": "Fermented Sauces & Pastes",
+          "slug": "fermented-sauces-pastes"
+        },
+        {
+          "food_count": 9,
+          "id": "food.sauce-condiment.mother-sauces",
+          "name": "Mother Sauces",
+          "slug": "mother-sauces"
+        },
+        {
+          "food_count": 12,
+          "id": "food.sauce-condiment.oil-based-sauces-dressings",
+          "name": "Oil-Based Sauces & Dressings",
+          "slug": "oil-based-sauces-dressings"
+        },
+        {
+          "food_count": 11,
+          "id": "food.sauce-condiment.savory-spreads-pastes",
+          "name": "Savory Spreads & Pastes",
+          "slug": "savory-spreads-pastes"
+        },
+        {
+          "food_count": 22,
+          "id": "food.sauce-condiment.table-sauces",
+          "name": "Table Sauces",
+          "slug": "table-sauces"
+        }
+      ],
+      "id": "food.sauce-condiment",
+      "projection_id": "food.sauce-condiment",
+      "slug": "sauce-condiment",
+      "tokens": [
+        "6",
+        "90",
+        "condiments",
+        "fermented sauces & pastes",
+        "mother sauces",
+        "oil-based sauces & dressings",
+        "sauce condiment",
+        "sauce-condiment",
+        "sauces & condiments",
+        "savory spreads & pastes",
+        "table sauces"
+      ]
+    }
+  ],
+  "meta": {
+    "catalog_version": "1.0.0",
+    "document_count": 1,
+    "document_type": "sauce_condiment_category",
+    "domain": "sauce-condiment",
+    "food_ontology_version": "2.0.0",
+    "phase": "FOOD-13FE"
+  }
+}

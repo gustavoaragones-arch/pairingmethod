@@ -1,108 +1,108 @@
 {
   "artifacts": {
-    "catalog": "data/sweet-flavor-catalog.json",
+    "catalog": "data/sauce-condiment-catalog.json",
     "html": [
-      "dist/sweet-flavors",
-      "dist/sweet-flavor-groups",
-      "dist/sweet-flavor-categories"
+      "dist/sauce-condiments",
+      "dist/sauce-condiment-groups",
+      "dist/sauce-condiment-categories"
     ],
     "navigation": [
-      "data/navigation/sweet-flavor-links.json",
-      "data/navigation/sweet-flavor-group-links.json",
-      "data/navigation/sweet-flavor-category-links.json"
+      "data/navigation/sauce-condiment-links.json",
+      "data/navigation/sauce-condiment-group-links.json",
+      "data/navigation/sauce-condiment-category-links.json"
     ],
     "pages": [
-      "data/pages/sweet-flavor-pages.json",
-      "data/pages/sweet-flavor-group-pages.json",
-      "data/pages/sweet-flavor-category-pages.json"
+      "data/pages/sauce-condiment-pages.json",
+      "data/pages/sauce-condiment-group-pages.json",
+      "data/pages/sauce-condiment-category-pages.json"
     ],
     "projections": [
-      "data/generated/sweet-flavor-pages.json",
-      "data/generated/sweet-flavor-group-pages.json",
-      "data/generated/sweet-flavor-category-pages.json"
+      "data/generated/sauce-condiment-pages.json",
+      "data/generated/sauce-condiment-group-pages.json",
+      "data/generated/sauce-condiment-category-pages.json"
     ],
     "relationships": [
-      "data/runtime/sweet-flavor-runtime.json",
-      "data/runtime/sweet-flavor-editorial-relationships.json",
-      "data/runtime/sweet-flavor-wine-relationships.json"
+      "data/runtime/sauce-condiment-runtime.json",
+      "data/runtime/sauce-condiment-editorial-relationships.json",
+      "data/runtime/sauce-condiment-wine-relationships.json"
     ],
     "runtime": [
-      "data/runtime/sweet-flavor-runtime.json"
+      "data/runtime/sauce-condiment-runtime.json"
     ],
     "schema": [
-      "data/schema/sweet-flavor-schema.json",
-      "data/schema/sweet-flavor-group-schema.json",
-      "data/schema/sweet-flavor-category-schema.json"
+      "data/schema/sauce-condiment-schema.json",
+      "data/schema/sauce-condiment-group-schema.json",
+      "data/schema/sauce-condiment-category-schema.json"
     ],
     "search": [
-      "data/search/sweet-flavor-search-index.json",
-      "data/search/sweet-flavor-group-search-index.json",
-      "data/search/sweet-flavor-category-search-index.json",
-      "data/search/sweet-flavor-search-suggestions.json"
+      "data/search/sauce-condiment-search-index.json",
+      "data/search/sauce-condiment-group-search-index.json",
+      "data/search/sauce-condiment-category-search-index.json",
+      "data/search/sauce-condiment-search-suggestions.json"
     ],
     "sitemaps": [
       "dist/sitemap.xml",
-      "dist/sitemaps/sweet-flavor-pages.xml",
-      "dist/sitemaps/sweet-flavor-group-pages.xml",
-      "dist/sitemaps/sweet-flavor-category-pages.xml",
+      "dist/sitemaps/sauce-condiment-pages.xml",
+      "dist/sitemaps/sauce-condiment-group-pages.xml",
+      "dist/sitemaps/sauce-condiment-category-pages.xml",
       "dist/crawl-manifest.json"
     ]
   },
   "catalog_version": "1.0.0",
   "certification": "PASS",
   "checksums": {
-    "catalog": "ccc7554fa45ad1f035f62a1750003e87000004adeb31c72ccf984a873435a971",
+    "catalog": "460f25191fada7e359e51f807634b719a16130826d98995704c751577fe144cf",
     "html": {},
     "navigation": {
-      "data/navigation/sweet-flavor-category-links.json": "4ad28d5f2f9a6be98702150b69914db6e3f0f28db630bfe44f993e4fcc542004",
-      "data/navigation/sweet-flavor-group-links.json": "c62dfc1443179bc765c75fe3b493d820fcce47b95b457c863b76516f46621a54",
-      "data/navigation/sweet-flavor-links.json": "02e7f4de28b539ea44f2bc4c69043315b935b44f9f9e6b69f9ea126389687a4e"
+      "data/navigation/sauce-condiment-category-links.json": "b12af14bc6f943c903dc3ca8c99d16cd27df057b748be73c21edde9f4fa2bf38",
+      "data/navigation/sauce-condiment-group-links.json": "7d1e8b3e7624d017eb4d541aa737cf7aeaccbe089f3500a309f20d7a81640a17",
+      "data/navigation/sauce-condiment-links.json": "f96cf80550e6e012c1583dcfdbceb2624bcdc2a1bf5843c0f3e3db6d8a61f84b"
     },
     "pages": {
-      "data/pages/sweet-flavor-category-pages.json": "6a9617fb5dff2b45f52d754a4cfac08ad07aab0a522ab6e7da07405c5f4d7530",
-      "data/pages/sweet-flavor-group-pages.json": "00e8b2ef3184728d370a4af6c545fce97f21a6a7faf8f913577ba1471ef5b054",
-      "data/pages/sweet-flavor-pages.json": "7cba900aec32ba112a51a61ff8dd0d5f2ba094b2bbb67ad96a178d69edc93808"
+      "data/pages/sauce-condiment-category-pages.json": "127151cd6cab27f6ea80264c4694ad3dbb8fd921169437a8449b056492b4d46c",
+      "data/pages/sauce-condiment-group-pages.json": "1d33df4591dfc3cd4a946a9b45396c15a6bb3d485d4f5cb281158466bf8ca47d",
+      "data/pages/sauce-condiment-pages.json": "d3b07b952ce75f72092aa0b54ccc26df1192206be9e38f35011958b5d1f3ecff"
     },
     "projections": {
-      "data/generated/sweet-flavor-category-pages.json": "c0af086e97185312dfc5dcff9dbec94e2c67f1d689e58f322125627b0570645e",
-      "data/generated/sweet-flavor-group-pages.json": "af235744bc4de838516096a3e996d515cfb6f71c25d2a97fc86e08bbc10925eb",
-      "data/generated/sweet-flavor-pages.json": "51a4a963cabcd5393b39ce350d55b28067026b2a68f65657d4cc4297bcf8278a"
+      "data/generated/sauce-condiment-category-pages.json": "27caa03a707f30f8f76b1f1c3b0f594640f7ba235d2098d4b5c3c5fb54f3f35f",
+      "data/generated/sauce-condiment-group-pages.json": "8065f2566005f90b21245c7c230ed16a0612eee67bd8a1a37ab7183ac9f3ab9e",
+      "data/generated/sauce-condiment-pages.json": "9beb537b7867d12b1fc7188236beafa10bcbb96c9e31e50fa6572811ce518051"
     },
     "relationships": {
-      "data/runtime/sweet-flavor-editorial-relationships.json": "1a843f7312e5b6cc05e7826cd6a870e92b2da5103b9d6ec1a934f7741ff7d072",
-      "data/runtime/sweet-flavor-runtime.json": "f242dd8dba16031f4f474c6020212fd755f6617fc1fd5a389168e58baf438309",
-      "data/runtime/sweet-flavor-wine-relationships.json": "1bc92a1d66f4d220270fca8a259fad5bea958deabc8bc93beabe4584f05c682e"
+      "data/runtime/sauce-condiment-editorial-relationships.json": "fd271bef9f1780d797b221f4895e212f7780488ea5350bbffc70b1106a8802ad",
+      "data/runtime/sauce-condiment-runtime.json": "5b6cf585528c2b6b8694c9c7e74638f799738e08ab04b5aface8a5c983ec2363",
+      "data/runtime/sauce-condiment-wine-relationships.json": "a64561f4cf6c8d160c0f4b491c53013dca8cc70b05f655db90353b296309fafc"
     },
     "runtime": {
-      "data/runtime/sweet-flavor-runtime.json": "f242dd8dba16031f4f474c6020212fd755f6617fc1fd5a389168e58baf438309"
+      "data/runtime/sauce-condiment-runtime.json": "5b6cf585528c2b6b8694c9c7e74638f799738e08ab04b5aface8a5c983ec2363"
     },
     "schema": {
-      "data/schema/sweet-flavor-category-schema.json": "fbde811274245281f274fe1ed04cc254543ecde246bdc0161c28a9f327b2dc0e",
-      "data/schema/sweet-flavor-group-schema.json": "c4be308d018d5bee84d0a15f64ebe75036666a05f525cbb5d22f24d945e38e2b",
-      "data/schema/sweet-flavor-schema.json": "f0800e714f5873421d9e990450f88c3c26fd33e7f3adf1a9410ae41f40eab623"
+      "data/schema/sauce-condiment-category-schema.json": "f18a3f4fee9bc308b586fbcf87317c1d240c4f54353e22e3d7f1643823679573",
+      "data/schema/sauce-condiment-group-schema.json": "68c1c14b7bb3b6b5cb5c0517bb2b50b173c3ad3c328ba7053c1c82a332f64beb",
+      "data/schema/sauce-condiment-schema.json": "e873ed779044f6c45217437a82e60b9a694a9db0dcf7a83355e3563c00ccc316"
     },
     "search": {
-      "data/search/sweet-flavor-category-search-index.json": "24b43c7574278978a9a9c693da0516c90753923badd15f60bdc978bdb3f4d028",
-      "data/search/sweet-flavor-group-search-index.json": "c2f37bae4902b0dd8f590a5e717eb934dfa409404b2cbba775afbec61fba8c6e",
-      "data/search/sweet-flavor-search-index.json": "1bf654491f7a9db9033b11ba30ae73c889b7d636a666e35e34bc9dab4eab8c05",
-      "data/search/sweet-flavor-search-suggestions.json": "092ff71ae0ad9097867b8ed0d26c57258b7941ed049995e33c6d4db87a916eb8"
+      "data/search/sauce-condiment-category-search-index.json": "84e63a0b6d9c825592c7eb44019b8c828734fd97c76f505f827192338f28a515",
+      "data/search/sauce-condiment-group-search-index.json": "86fcd0bf6952a7bf906373f50f230198aa0a5e7a5e01ca424251c38ffe12d76b",
+      "data/search/sauce-condiment-search-index.json": "964e2998187ec45f758c0b4200216e80a60dbca33a1994a4ee43c977d8866abf",
+      "data/search/sauce-condiment-search-suggestions.json": "747a9165ba750716e1e0aca54e3971cda2129713656e371a936b6edb5a2da835"
     },
     "sitemaps": {
-      "dist/crawl-manifest.json": "1aa1bdc8698d5572afb3415f602db5225416508709e0603ae9e98d668c23b68f",
-      "dist/sitemap.xml": "2d28663da076c4eda93764f437ef91b6988425dc0b489bb2be18b6b5aebe381d",
-      "dist/sitemaps/sweet-flavor-category-pages.xml": "515676bece4caedf050875c3a77d804f42cecf1a06e4a46541595c7c1ed11755",
-      "dist/sitemaps/sweet-flavor-group-pages.xml": "ec42c99e73e9eb0a0bfa954ce0d067c39301c856043577452b0e5a04d648e160",
-      "dist/sitemaps/sweet-flavor-pages.xml": "d1f231de44213b46a91aa384f02bebc603e2a1f30930d82b58c7946be82e24ca"
+      "dist/crawl-manifest.json": "8421178f0b6b43bf3581bc61fc9cdff9a53b39a8270056be0f53f8645974b22c",
+      "dist/sitemap.xml": "28392aa8d8b708462f276444f68c600f6be49b70478be82b4a3070abcff842ee",
+      "dist/sitemaps/sauce-condiment-category-pages.xml": "be9327dc9074b4f7827654db820ea96c07330a3135f548d221e5c93c35fd054a",
+      "dist/sitemaps/sauce-condiment-group-pages.xml": "ef9d29ecd9916e4a4a0ca0f53224120152265ec855e3066209c5e10025376b89",
+      "dist/sitemaps/sauce-condiment-pages.xml": "be804e14c32bf82293e10c7e32168116099e0c3a04df1d38e68a77b2ece113fb"
     }
   },
-  "domain": "sweet-flavor",
-  "generated_at": "2026-08-03T20:55:37.053Z",
+  "domain": "sauce-condiment",
+  "generated_at": "2026-08-08T01:29:51.118Z",
   "pages": {
     "categories": 1,
     "groups": 6,
-    "leaf": 73,
-    "total": 80
+    "leaf": 90,
+    "total": 97
   },
-  "publication": "sweet-flavor-ontology",
-  "release_version": "1.9.0"
+  "publication": "sauce-condiment-ontology",
+  "release_version": "2.0.0"
 }

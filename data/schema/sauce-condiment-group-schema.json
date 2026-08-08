@@ -1,0 +1,1110 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "sauce-condiment",
+    "food_ontology_version": "2.0.0",
+    "phase": "FOOD-13FC",
+    "schema_count": 6,
+    "schema_type": "sauce_condiment_group"
+  },
+  "schemas": [
+    {
+      "canonical_path": "/sauce-condiment-groups/condiments/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/condiments/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/sauce-condiments/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.sauce-condiment",
+            "name": "Sauces & Condiments"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/sauce-condiment-groups/condiments/#breadcrumb"
+          },
+          "description": "Condiments — 20 sauces & condiments in the Sauce & Condiment Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Condiments — Sauce & Condiment Group",
+          "url": "https://pairingmethod.com/sauce-condiment-groups/condiments/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/condiments/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiments/",
+              "name": "Sauces & Condiments",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiment-categories/sauce-condiment/",
+              "name": "Sauces & Condiments",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiment-groups/condiments/",
+              "name": "Condiments",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/condiments/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "condiments",
+          "description": "Condiments — 20 sauces & condiments in the Sauce & Condiment Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/almond-extract/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.almond-extract",
+              "name": "Almond Extract",
+              "url": "https://pairingmethod.com/sauce-condiments/almond-extract/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/capers/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.capers",
+              "name": "Capers",
+              "url": "https://pairingmethod.com/sauce-condiments/capers/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/cornichons/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.cornichons",
+              "name": "Cornichons",
+              "url": "https://pairingmethod.com/sauce-condiments/cornichons/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/cranberry-jelly/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.cranberry-jelly",
+              "name": "Cranberry Jelly",
+              "url": "https://pairingmethod.com/sauce-condiments/cranberry-jelly/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/dijon-mustard/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.dijon-mustard",
+              "name": "Dijon Mustard",
+              "url": "https://pairingmethod.com/sauce-condiments/dijon-mustard/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/english-mustard/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.english-mustard",
+              "name": "English Mustard",
+              "url": "https://pairingmethod.com/sauce-condiments/english-mustard/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/harissa/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.harissa",
+              "name": "Harissa",
+              "url": "https://pairingmethod.com/sauce-condiments/harissa/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/mango-chutney/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.mango-chutney",
+              "name": "Mango Chutney",
+              "url": "https://pairingmethod.com/sauce-condiments/mango-chutney/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/mint-jelly/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.mint-jelly",
+              "name": "Mint Jelly",
+              "url": "https://pairingmethod.com/sauce-condiments/mint-jelly/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/orange-blossom-water/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.orange-blossom-water",
+              "name": "Orange Blossom Water",
+              "url": "https://pairingmethod.com/sauce-condiments/orange-blossom-water/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/pickle-relish/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.pickle-relish",
+              "name": "Pickle Relish",
+              "url": "https://pairingmethod.com/sauce-condiments/pickle-relish/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/pickled-ginger/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.pickled-ginger",
+              "name": "Pickled Ginger",
+              "url": "https://pairingmethod.com/sauce-condiments/pickled-ginger/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/prepared-horseradish/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.prepared-horseradish",
+              "name": "Prepared Horseradish",
+              "url": "https://pairingmethod.com/sauce-condiments/prepared-horseradish/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/rose-water/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.rose-water",
+              "name": "Rose Water",
+              "url": "https://pairingmethod.com/sauce-condiments/rose-water/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/sweet-pickle-relish/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.sweet-pickle-relish",
+              "name": "Sweet Pickle Relish",
+              "url": "https://pairingmethod.com/sauce-condiments/sweet-pickle-relish/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/tartar-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.tartar-sauce",
+              "name": "Tartar Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/tartar-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/vanilla-extract/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.vanilla-extract",
+              "name": "Vanilla Extract",
+              "url": "https://pairingmethod.com/sauce-condiments/vanilla-extract/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/wasabi-paste/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.wasabi-paste",
+              "name": "Wasabi Paste",
+              "url": "https://pairingmethod.com/sauce-condiments/wasabi-paste/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/whole-grain-mustard/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.whole-grain-mustard",
+              "name": "Whole-Grain Mustard",
+              "url": "https://pairingmethod.com/sauce-condiments/whole-grain-mustard/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/yellow-mustard/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.condiments.yellow-mustard",
+              "name": "Yellow Mustard",
+              "url": "https://pairingmethod.com/sauce-condiments/yellow-mustard/"
+            }
+          ],
+          "identifier": "food.sauce-condiment.condiments",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sauce & Condiment Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Condiments",
+          "numberOfTerms": 20,
+          "url": "https://pairingmethod.com/sauce-condiment-groups/condiments/"
+        }
+      ],
+      "projection_id": "food.sauce-condiment.condiments",
+      "slug": "condiments"
+    },
+    {
+      "canonical_path": "/sauce-condiment-groups/fermented-sauces-pastes/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/fermented-sauces-pastes/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/sauce-condiments/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.sauce-condiment",
+            "name": "Sauces & Condiments"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/sauce-condiment-groups/fermented-sauces-pastes/#breadcrumb"
+          },
+          "description": "Fermented Sauces & Pastes — 16 sauces & condiments in the Sauce & Condiment Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Fermented Sauces & Pastes — Sauce & Condiment Group",
+          "url": "https://pairingmethod.com/sauce-condiment-groups/fermented-sauces-pastes/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/fermented-sauces-pastes/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiments/",
+              "name": "Sauces & Condiments",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiment-categories/sauce-condiment/",
+              "name": "Sauces & Condiments",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiment-groups/fermented-sauces-pastes/",
+              "name": "Fermented Sauces & Pastes",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/fermented-sauces-pastes/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "fermented-sauces-pastes",
+          "description": "Fermented Sauces & Pastes — 16 sauces & condiments in the Sauce & Condiment Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/banana-ketchup/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.banana-ketchup",
+              "name": "Banana Ketchup",
+              "url": "https://pairingmethod.com/sauce-condiments/banana-ketchup/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/black-vinegar/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.black-vinegar",
+              "name": "Black Vinegar",
+              "url": "https://pairingmethod.com/sauce-condiments/black-vinegar/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/chili-garlic-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.chili-garlic-sauce",
+              "name": "Chili Garlic Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/chili-garlic-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/doubanjiang/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.doubanjiang",
+              "name": "Doubanjiang",
+              "url": "https://pairingmethod.com/sauce-condiments/doubanjiang/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/fermented-black-bean-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.fermented-black-bean-sauce",
+              "name": "Fermented Black Bean Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/fermented-black-bean-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/fish-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.fish-sauce",
+              "name": "Fish Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/fish-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/gochujang/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.gochujang",
+              "name": "Gochujang",
+              "url": "https://pairingmethod.com/sauce-condiments/gochujang/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/hoisin-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.hoisin-sauce",
+              "name": "Hoisin Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/hoisin-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/maggi-seasoning-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.maggi-seasoning-sauce",
+              "name": "Maggi Seasoning Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/maggi-seasoning-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/sambal-oelek/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.sambal-oelek",
+              "name": "Sambal Oelek",
+              "url": "https://pairingmethod.com/sauce-condiments/sambal-oelek/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/shrimp-paste/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.shrimp-paste",
+              "name": "Shrimp Paste",
+              "url": "https://pairingmethod.com/sauce-condiments/shrimp-paste/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/soy-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.soy-sauce",
+              "name": "Soy Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/soy-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/tamarind-paste/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.tamarind-paste",
+              "name": "Tamarind Paste",
+              "url": "https://pairingmethod.com/sauce-condiments/tamarind-paste/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/xo-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.xo-sauce",
+              "name": "XO Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/xo-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/yellow-bean-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.yellow-bean-sauce",
+              "name": "Yellow Bean Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/yellow-bean-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/yuzu-kosho/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.fermented-sauces-pastes.yuzu-kosho",
+              "name": "Yuzu Kosho",
+              "url": "https://pairingmethod.com/sauce-condiments/yuzu-kosho/"
+            }
+          ],
+          "identifier": "food.sauce-condiment.fermented-sauces-pastes",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sauce & Condiment Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Fermented Sauces & Pastes",
+          "numberOfTerms": 16,
+          "url": "https://pairingmethod.com/sauce-condiment-groups/fermented-sauces-pastes/"
+        }
+      ],
+      "projection_id": "food.sauce-condiment.fermented-sauces-pastes",
+      "slug": "fermented-sauces-pastes"
+    },
+    {
+      "canonical_path": "/sauce-condiment-groups/mother-sauces/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/mother-sauces/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/sauce-condiments/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.sauce-condiment",
+            "name": "Sauces & Condiments"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/sauce-condiment-groups/mother-sauces/#breadcrumb"
+          },
+          "description": "Mother Sauces — 9 sauces & condiments in the Sauce & Condiment Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Mother Sauces — Sauce & Condiment Group",
+          "url": "https://pairingmethod.com/sauce-condiment-groups/mother-sauces/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/mother-sauces/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiments/",
+              "name": "Sauces & Condiments",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiment-categories/sauce-condiment/",
+              "name": "Sauces & Condiments",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiment-groups/mother-sauces/",
+              "name": "Mother Sauces",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/mother-sauces/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "mother-sauces",
+          "description": "Mother Sauces — 9 sauces & condiments in the Sauce & Condiment Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/bearnaise/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.mother-sauces.bearnaise",
+              "name": "Béarnaise",
+              "url": "https://pairingmethod.com/sauce-condiments/bearnaise/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/bechamel/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.mother-sauces.bechamel",
+              "name": "Béchamel",
+              "url": "https://pairingmethod.com/sauce-condiments/bechamel/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/demi-glace/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.mother-sauces.demi-glace",
+              "name": "Demi-Glace",
+              "url": "https://pairingmethod.com/sauce-condiments/demi-glace/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/espagnole/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.mother-sauces.espagnole",
+              "name": "Espagnole",
+              "url": "https://pairingmethod.com/sauce-condiments/espagnole/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/hollandaise/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.mother-sauces.hollandaise",
+              "name": "Hollandaise",
+              "url": "https://pairingmethod.com/sauce-condiments/hollandaise/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/mayonnaise/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.mother-sauces.mayonnaise",
+              "name": "Mayonnaise",
+              "url": "https://pairingmethod.com/sauce-condiments/mayonnaise/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/sauce-mornay/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.mother-sauces.sauce-mornay",
+              "name": "Sauce Mornay",
+              "url": "https://pairingmethod.com/sauce-condiments/sauce-mornay/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/tomato-mother-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.mother-sauces.tomato-mother-sauce",
+              "name": "Tomato Mother Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/tomato-mother-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/veloute/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.mother-sauces.veloute",
+              "name": "Velouté",
+              "url": "https://pairingmethod.com/sauce-condiments/veloute/"
+            }
+          ],
+          "identifier": "food.sauce-condiment.mother-sauces",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sauce & Condiment Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Mother Sauces",
+          "numberOfTerms": 9,
+          "url": "https://pairingmethod.com/sauce-condiment-groups/mother-sauces/"
+        }
+      ],
+      "projection_id": "food.sauce-condiment.mother-sauces",
+      "slug": "mother-sauces"
+    },
+    {
+      "canonical_path": "/sauce-condiment-groups/oil-based-sauces-dressings/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/oil-based-sauces-dressings/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/sauce-condiments/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.sauce-condiment",
+            "name": "Sauces & Condiments"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/sauce-condiment-groups/oil-based-sauces-dressings/#breadcrumb"
+          },
+          "description": "Oil-Based Sauces & Dressings — 12 sauces & condiments in the Sauce & Condiment Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Oil-Based Sauces & Dressings — Sauce & Condiment Group",
+          "url": "https://pairingmethod.com/sauce-condiment-groups/oil-based-sauces-dressings/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/oil-based-sauces-dressings/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiments/",
+              "name": "Sauces & Condiments",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiment-categories/sauce-condiment/",
+              "name": "Sauces & Condiments",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiment-groups/oil-based-sauces-dressings/",
+              "name": "Oil-Based Sauces & Dressings",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/oil-based-sauces-dressings/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "oil-based-sauces-dressings",
+          "description": "Oil-Based Sauces & Dressings — 12 sauces & condiments in the Sauce & Condiment Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/aioli/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.oil-based-sauces-dressings.aioli",
+              "name": "Aioli",
+              "url": "https://pairingmethod.com/sauce-condiments/aioli/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/balsamic-vinaigrette/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.oil-based-sauces-dressings.balsamic-vinaigrette",
+              "name": "Balsamic Vinaigrette",
+              "url": "https://pairingmethod.com/sauce-condiments/balsamic-vinaigrette/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/blue-cheese-dressing/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.oil-based-sauces-dressings.blue-cheese-dressing",
+              "name": "Blue Cheese Dressing",
+              "url": "https://pairingmethod.com/sauce-condiments/blue-cheese-dressing/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/caesar-dressing/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.oil-based-sauces-dressings.caesar-dressing",
+              "name": "Caesar Dressing",
+              "url": "https://pairingmethod.com/sauce-condiments/caesar-dressing/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/chimichurri/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.oil-based-sauces-dressings.chimichurri",
+              "name": "Chimichurri",
+              "url": "https://pairingmethod.com/sauce-condiments/chimichurri/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/green-goddess-dressing/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.oil-based-sauces-dressings.green-goddess-dressing",
+              "name": "Green Goddess Dressing",
+              "url": "https://pairingmethod.com/sauce-condiments/green-goddess-dressing/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/pesto/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.oil-based-sauces-dressings.pesto",
+              "name": "Pesto",
+              "url": "https://pairingmethod.com/sauce-condiments/pesto/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/ranch-dressing/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.oil-based-sauces-dressings.ranch-dressing",
+              "name": "Ranch Dressing",
+              "url": "https://pairingmethod.com/sauce-condiments/ranch-dressing/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/romesco-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.oil-based-sauces-dressings.romesco-sauce",
+              "name": "Romesco Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/romesco-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/sauce-vierge/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.oil-based-sauces-dressings.sauce-vierge",
+              "name": "Sauce Vierge",
+              "url": "https://pairingmethod.com/sauce-condiments/sauce-vierge/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/thousand-island-dressing/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.oil-based-sauces-dressings.thousand-island-dressing",
+              "name": "Thousand Island Dressing",
+              "url": "https://pairingmethod.com/sauce-condiments/thousand-island-dressing/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/vinaigrette/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.oil-based-sauces-dressings.vinaigrette",
+              "name": "Vinaigrette",
+              "url": "https://pairingmethod.com/sauce-condiments/vinaigrette/"
+            }
+          ],
+          "identifier": "food.sauce-condiment.oil-based-sauces-dressings",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sauce & Condiment Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Oil-Based Sauces & Dressings",
+          "numberOfTerms": 12,
+          "url": "https://pairingmethod.com/sauce-condiment-groups/oil-based-sauces-dressings/"
+        }
+      ],
+      "projection_id": "food.sauce-condiment.oil-based-sauces-dressings",
+      "slug": "oil-based-sauces-dressings"
+    },
+    {
+      "canonical_path": "/sauce-condiment-groups/savory-spreads-pastes/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/savory-spreads-pastes/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/sauce-condiments/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.sauce-condiment",
+            "name": "Sauces & Condiments"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/sauce-condiment-groups/savory-spreads-pastes/#breadcrumb"
+          },
+          "description": "Savory Spreads & Pastes — 11 sauces & condiments in the Sauce & Condiment Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Savory Spreads & Pastes — Sauce & Condiment Group",
+          "url": "https://pairingmethod.com/sauce-condiment-groups/savory-spreads-pastes/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/savory-spreads-pastes/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiments/",
+              "name": "Sauces & Condiments",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiment-categories/sauce-condiment/",
+              "name": "Sauces & Condiments",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiment-groups/savory-spreads-pastes/",
+              "name": "Savory Spreads & Pastes",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/savory-spreads-pastes/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "savory-spreads-pastes",
+          "description": "Savory Spreads & Pastes — 11 sauces & condiments in the Sauce & Condiment Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/anchovy-paste/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.savory-spreads-pastes.anchovy-paste",
+              "name": "Anchovy Paste",
+              "url": "https://pairingmethod.com/sauce-condiments/anchovy-paste/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/garlic-paste/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.savory-spreads-pastes.garlic-paste",
+              "name": "Garlic Paste",
+              "url": "https://pairingmethod.com/sauce-condiments/garlic-paste/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/gentlemans-relish/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.savory-spreads-pastes.gentlemans-relish",
+              "name": "Gentleman's Relish",
+              "url": "https://pairingmethod.com/sauce-condiments/gentlemans-relish/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/marmite/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.savory-spreads-pastes.marmite",
+              "name": "Marmite",
+              "url": "https://pairingmethod.com/sauce-condiments/marmite/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/muhammara/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.savory-spreads-pastes.muhammara",
+              "name": "Muhammara",
+              "url": "https://pairingmethod.com/sauce-condiments/muhammara/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/olive-paste/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.savory-spreads-pastes.olive-paste",
+              "name": "Olive Paste",
+              "url": "https://pairingmethod.com/sauce-condiments/olive-paste/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/red-pepper-paste/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.savory-spreads-pastes.red-pepper-paste",
+              "name": "Red Pepper Paste",
+              "url": "https://pairingmethod.com/sauce-condiments/red-pepper-paste/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/sun-dried-tomato-paste/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.savory-spreads-pastes.sun-dried-tomato-paste",
+              "name": "Sun-Dried Tomato Paste",
+              "url": "https://pairingmethod.com/sauce-condiments/sun-dried-tomato-paste/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/tapenade/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.savory-spreads-pastes.tapenade",
+              "name": "Tapenade",
+              "url": "https://pairingmethod.com/sauce-condiments/tapenade/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/truffle-paste/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.savory-spreads-pastes.truffle-paste",
+              "name": "Truffle Paste",
+              "url": "https://pairingmethod.com/sauce-condiments/truffle-paste/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/vegemite/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.savory-spreads-pastes.vegemite",
+              "name": "Vegemite",
+              "url": "https://pairingmethod.com/sauce-condiments/vegemite/"
+            }
+          ],
+          "identifier": "food.sauce-condiment.savory-spreads-pastes",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sauce & Condiment Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Savory Spreads & Pastes",
+          "numberOfTerms": 11,
+          "url": "https://pairingmethod.com/sauce-condiment-groups/savory-spreads-pastes/"
+        }
+      ],
+      "projection_id": "food.sauce-condiment.savory-spreads-pastes",
+      "slug": "savory-spreads-pastes"
+    },
+    {
+      "canonical_path": "/sauce-condiment-groups/table-sauces/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/table-sauces/#collectionpage",
+          "@type": "CollectionPage",
+          "about": {
+            "@id": "https://pairingmethod.com/sauce-condiments/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.sauce-condiment",
+            "name": "Sauces & Condiments"
+          },
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/sauce-condiment-groups/table-sauces/#breadcrumb"
+          },
+          "description": "Table Sauces — 22 sauces & condiments in the Sauce & Condiment Ontology.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Table Sauces — Sauce & Condiment Group",
+          "url": "https://pairingmethod.com/sauce-condiment-groups/table-sauces/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/table-sauces/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiments/",
+              "name": "Sauces & Condiments",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiment-categories/sauce-condiment/",
+              "name": "Sauces & Condiments",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/sauce-condiment-groups/table-sauces/",
+              "name": "Table Sauces",
+              "position": 4
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/sauce-condiment-groups/table-sauces/#definedtermset",
+          "@type": "DefinedTermSet",
+          "alternateName": "table-sauces",
+          "description": "Table Sauces — 22 sauces & condiments in the Sauce & Condiment Ontology.",
+          "hasPart": [
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/apple-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.apple-sauce",
+              "name": "Apple Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/apple-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/barbecue-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.barbecue-sauce",
+              "name": "Barbecue Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/barbecue-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/brown-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.brown-sauce",
+              "name": "Brown Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/brown-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/caramel-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.caramel-sauce",
+              "name": "Caramel Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/caramel-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/chili-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.chili-sauce",
+              "name": "Chili Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/chili-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/chocolate-syrup/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.chocolate-syrup",
+              "name": "Chocolate Syrup",
+              "url": "https://pairingmethod.com/sauce-condiments/chocolate-syrup/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/cranberry-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.cranberry-sauce",
+              "name": "Cranberry Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/cranberry-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/hot-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.hot-sauce",
+              "name": "Hot Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/hot-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/marinara-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.marinara-sauce",
+              "name": "Marinara Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/marinara-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/mole-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.mole-sauce",
+              "name": "Mole Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/mole-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/mushroom-gravy/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.mushroom-gravy",
+              "name": "Mushroom Gravy",
+              "url": "https://pairingmethod.com/sauce-condiments/mushroom-gravy/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/oyster-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.oyster-sauce",
+              "name": "Oyster Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/oyster-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/pan-gravy/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.pan-gravy",
+              "name": "Pan Gravy",
+              "url": "https://pairingmethod.com/sauce-condiments/pan-gravy/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/plum-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.plum-sauce",
+              "name": "Plum Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/plum-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/ponzu/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.ponzu",
+              "name": "Ponzu",
+              "url": "https://pairingmethod.com/sauce-condiments/ponzu/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/sriracha/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.sriracha",
+              "name": "Sriracha",
+              "url": "https://pairingmethod.com/sauce-condiments/sriracha/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/steak-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.steak-sauce",
+              "name": "Steak Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/steak-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/sweet-and-sour-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.sweet-and-sour-sauce",
+              "name": "Sweet and Sour Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/sweet-and-sour-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/teriyaki-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.teriyaki-sauce",
+              "name": "Teriyaki Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/teriyaki-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/tomato-ketchup/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.tomato-ketchup",
+              "name": "Tomato Ketchup",
+              "url": "https://pairingmethod.com/sauce-condiments/tomato-ketchup/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/tonkatsu-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.tonkatsu-sauce",
+              "name": "Tonkatsu Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/tonkatsu-sauce/"
+            },
+            {
+              "@id": "https://pairingmethod.com/sauce-condiments/worcestershire-sauce/#definedterm",
+              "@type": "DefinedTerm",
+              "identifier": "food.sauce-condiment.table-sauces.worcestershire-sauce",
+              "name": "Worcestershire Sauce",
+              "url": "https://pairingmethod.com/sauce-condiments/worcestershire-sauce/"
+            }
+          ],
+          "identifier": "food.sauce-condiment.table-sauces",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Sauce & Condiment Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Table Sauces",
+          "numberOfTerms": 22,
+          "url": "https://pairingmethod.com/sauce-condiment-groups/table-sauces/"
+        }
+      ],
+      "projection_id": "food.sauce-condiment.table-sauces",
+      "slug": "table-sauces"
+    }
+  ]
+}

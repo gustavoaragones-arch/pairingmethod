@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "sauce-condiment",
+    "food_ontology_version": "2.0.0",
+    "page_count": 1,
+    "page_type": "sauce_condiment_category",
+    "phase": "FOOD-13FB"
+  },
+  "pages": [
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/sauce-condiments/",
+          "label": "Sauces & Condiments"
+        },
+        {
+          "href": "/sauce-condiment-categories/sauce-condiment/",
+          "label": "Sauces & Condiments"
+        }
+      ],
+      "canonical_path": "/sauce-condiment-categories/sauce-condiment/",
+      "groups": [
+        {
+          "food_count": 20,
+          "href": "/sauce-condiment-groups/condiments/",
+          "id": "food.sauce-condiment.condiments",
+          "name": "Condiments",
+          "slug": "condiments"
+        },
+        {
+          "food_count": 16,
+          "href": "/sauce-condiment-groups/fermented-sauces-pastes/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes",
+          "name": "Fermented Sauces & Pastes",
+          "slug": "fermented-sauces-pastes"
+        },
+        {
+          "food_count": 9,
+          "href": "/sauce-condiment-groups/mother-sauces/",
+          "id": "food.sauce-condiment.mother-sauces",
+          "name": "Mother Sauces",
+          "slug": "mother-sauces"
+        },
+        {
+          "food_count": 12,
+          "href": "/sauce-condiment-groups/oil-based-sauces-dressings/",
+          "id": "food.sauce-condiment.oil-based-sauces-dressings",
+          "name": "Oil-Based Sauces & Dressings",
+          "slug": "oil-based-sauces-dressings"
+        },
+        {
+          "food_count": 11,
+          "href": "/sauce-condiment-groups/savory-spreads-pastes/",
+          "id": "food.sauce-condiment.savory-spreads-pastes",
+          "name": "Savory Spreads & Pastes",
+          "slug": "savory-spreads-pastes"
+        },
+        {
+          "food_count": 22,
+          "href": "/sauce-condiment-groups/table-sauces/",
+          "id": "food.sauce-condiment.table-sauces",
+          "name": "Table Sauces",
+          "slug": "table-sauces"
+        }
+      ],
+      "identity": {
+        "id": "food.sauce-condiment",
+        "slug": "sauce-condiment",
+        "title": "Sauces & Condiments"
+      },
+      "metadata": {
+        "canonical": "https://pairingmethod.com/sauce-condiment-categories/sauce-condiment/",
+        "description": "Sauces & Condiments — 6 groups and 90 sauces & condiments.",
+        "og_description": "Sauces & Condiments — 6 groups and 90 sauces & condiments.",
+        "og_title": "Sauces & Condiments — Sauce & Condiment Category",
+        "title": "Sauces & Condiments — Sauce & Condiment Category"
+      },
+      "overview": {
+        "display_name": "Sauces & Condiments",
+        "food_count": 90,
+        "group_count": 6
+      },
+      "page_type": "sauce_condiment_category",
+      "projection_id": "food.sauce-condiment",
+      "slug": "sauce-condiment"
+    }
+  ]
+}

@@ -415,13 +415,11 @@ See [`SAUCE_CONDIMENT_TAXONOMY_BLUEPRINT.md`](SAUCE_CONDIMENT_TAXONOMY_BLUEPRINT
 | Phase | Scope |
 |-------|-------|
 | **FOOD-13A** (this document) | Governance freeze — no entities |
-| FOOD-13B | Catalog population + audit |
-| FOOD-13C | Runtime compile |
-| FOOD-13D | Editorial relationships (~220–300 edges expected) |
-| FOOD-13E | Wine pairings (~180–220 edges expected) |
-| FOOD-13F | Publication via shared platform |
-
-**Next work:** FOOD-13B — Populate Sauce & Condiment Ontology catalog (pending explicit approval).
+| FOOD-13B | Catalog population + audit — **frozen** |
+| FOOD-13C | Runtime compile — **frozen** |
+| FOOD-13D | Editorial relationships — **frozen** |
+| FOOD-13E | Wine pairings — **frozen** |
+| FOOD-13F | Publication via shared platform — **complete** |
 
 ---
 

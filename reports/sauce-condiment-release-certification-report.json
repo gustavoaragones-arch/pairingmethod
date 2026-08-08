@@ -1,0 +1,33 @@
+{
+  "deployment_gate": true,
+  "domain": "sauce-condiment",
+  "metrics": {
+    "Broken navigation links": 0,
+    "HTML pages": 97,
+    "Overall result": "PASS",
+    "Publication entities": 97,
+    "Search suggestions": 97,
+    "Sitemap URLs": 97,
+    "Validation errors": 0
+  },
+  "outputs": [
+    "dist/release-manifest.json",
+    "reports/sauce-condiment-release-certification-report.json"
+  ],
+  "overall_result": "PASS",
+  "phase": "FOOD-13FI",
+  "platform_audit": {
+    "overall": "PASS",
+    "platform_modifications_required": 1,
+    "shared_publication_pipeline_reused_percent": 100
+  },
+  "release_summary": {
+    "canonicalSauceCondiments": 90,
+    "editorialRelationships": 261,
+    "publicationPages": 97,
+    "runtimeRelationships": 4071,
+    "wineRelationships": 191
+  },
+  "validation_errors": [],
+  "warnings": []
+}

@@ -1,0 +1,860 @@
+{
+  "meta": {
+    "catalog_version": "1.0.0",
+    "domain": "sauce-condiment",
+    "food_ontology_version": "2.0.0",
+    "page_count": 6,
+    "page_type": "sauce_condiment_group",
+    "phase": "FOOD-13FB"
+  },
+  "pages": [
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/sauce-condiments/",
+          "label": "Sauces & Condiments"
+        },
+        {
+          "href": "/sauce-condiment-categories/sauce-condiment/",
+          "label": "Sauces & Condiments"
+        },
+        {
+          "href": "/sauce-condiment-groups/condiments/",
+          "label": "Condiments"
+        }
+      ],
+      "canonical_path": "/sauce-condiment-groups/condiments/",
+      "identity": {
+        "id": "food.sauce-condiment.condiments",
+        "slug": "condiments",
+        "title": "Condiments"
+      },
+      "member_sauce_condiments": [
+        {
+          "href": "/sauce-condiments/almond-extract/",
+          "id": "food.sauce-condiment.condiments.almond-extract",
+          "name": "Almond Extract",
+          "slug": "almond-extract"
+        },
+        {
+          "href": "/sauce-condiments/capers/",
+          "id": "food.sauce-condiment.condiments.capers",
+          "name": "Capers",
+          "slug": "capers"
+        },
+        {
+          "href": "/sauce-condiments/cornichons/",
+          "id": "food.sauce-condiment.condiments.cornichons",
+          "name": "Cornichons",
+          "slug": "cornichons"
+        },
+        {
+          "href": "/sauce-condiments/cranberry-jelly/",
+          "id": "food.sauce-condiment.condiments.cranberry-jelly",
+          "name": "Cranberry Jelly",
+          "slug": "cranberry-jelly"
+        },
+        {
+          "href": "/sauce-condiments/dijon-mustard/",
+          "id": "food.sauce-condiment.condiments.dijon-mustard",
+          "name": "Dijon Mustard",
+          "slug": "dijon-mustard"
+        },
+        {
+          "href": "/sauce-condiments/english-mustard/",
+          "id": "food.sauce-condiment.condiments.english-mustard",
+          "name": "English Mustard",
+          "slug": "english-mustard"
+        },
+        {
+          "href": "/sauce-condiments/harissa/",
+          "id": "food.sauce-condiment.condiments.harissa",
+          "name": "Harissa",
+          "slug": "harissa"
+        },
+        {
+          "href": "/sauce-condiments/mango-chutney/",
+          "id": "food.sauce-condiment.condiments.mango-chutney",
+          "name": "Mango Chutney",
+          "slug": "mango-chutney"
+        },
+        {
+          "href": "/sauce-condiments/mint-jelly/",
+          "id": "food.sauce-condiment.condiments.mint-jelly",
+          "name": "Mint Jelly",
+          "slug": "mint-jelly"
+        },
+        {
+          "href": "/sauce-condiments/orange-blossom-water/",
+          "id": "food.sauce-condiment.condiments.orange-blossom-water",
+          "name": "Orange Blossom Water",
+          "slug": "orange-blossom-water"
+        },
+        {
+          "href": "/sauce-condiments/pickle-relish/",
+          "id": "food.sauce-condiment.condiments.pickle-relish",
+          "name": "Pickle Relish",
+          "slug": "pickle-relish"
+        },
+        {
+          "href": "/sauce-condiments/pickled-ginger/",
+          "id": "food.sauce-condiment.condiments.pickled-ginger",
+          "name": "Pickled Ginger",
+          "slug": "pickled-ginger"
+        },
+        {
+          "href": "/sauce-condiments/prepared-horseradish/",
+          "id": "food.sauce-condiment.condiments.prepared-horseradish",
+          "name": "Prepared Horseradish",
+          "slug": "prepared-horseradish"
+        },
+        {
+          "href": "/sauce-condiments/rose-water/",
+          "id": "food.sauce-condiment.condiments.rose-water",
+          "name": "Rose Water",
+          "slug": "rose-water"
+        },
+        {
+          "href": "/sauce-condiments/sweet-pickle-relish/",
+          "id": "food.sauce-condiment.condiments.sweet-pickle-relish",
+          "name": "Sweet Pickle Relish",
+          "slug": "sweet-pickle-relish"
+        },
+        {
+          "href": "/sauce-condiments/tartar-sauce/",
+          "id": "food.sauce-condiment.condiments.tartar-sauce",
+          "name": "Tartar Sauce",
+          "slug": "tartar-sauce"
+        },
+        {
+          "href": "/sauce-condiments/vanilla-extract/",
+          "id": "food.sauce-condiment.condiments.vanilla-extract",
+          "name": "Vanilla Extract",
+          "slug": "vanilla-extract"
+        },
+        {
+          "href": "/sauce-condiments/wasabi-paste/",
+          "id": "food.sauce-condiment.condiments.wasabi-paste",
+          "name": "Wasabi Paste",
+          "slug": "wasabi-paste"
+        },
+        {
+          "href": "/sauce-condiments/whole-grain-mustard/",
+          "id": "food.sauce-condiment.condiments.whole-grain-mustard",
+          "name": "Whole-Grain Mustard",
+          "slug": "whole-grain-mustard"
+        },
+        {
+          "href": "/sauce-condiments/yellow-mustard/",
+          "id": "food.sauce-condiment.condiments.yellow-mustard",
+          "name": "Yellow Mustard",
+          "slug": "yellow-mustard"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/sauce-condiment-groups/condiments/",
+        "description": "Condiments — 20 sauces & condiments in the Sauce & Condiment Ontology.",
+        "og_description": "Condiments — 20 sauces & condiments in the Sauce & Condiment Ontology.",
+        "og_title": "Condiments — Sauce & Condiment Group",
+        "title": "Condiments — Sauce & Condiment Group"
+      },
+      "overview": {
+        "display_name": "Condiments",
+        "food_count": 20,
+        "parent_category": {
+          "id": "food.sauce-condiment",
+          "name": "Sauces & Condiments",
+          "slug": "sauce-condiment"
+        }
+      },
+      "page_type": "sauce_condiment_group",
+      "projection_id": "food.sauce-condiment.condiments",
+      "slug": "condiments",
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/sauce-condiments/",
+          "label": "Sauces & Condiments"
+        },
+        {
+          "href": "/sauce-condiment-categories/sauce-condiment/",
+          "label": "Sauces & Condiments"
+        },
+        {
+          "href": "/sauce-condiment-groups/fermented-sauces-pastes/",
+          "label": "Fermented Sauces & Pastes"
+        }
+      ],
+      "canonical_path": "/sauce-condiment-groups/fermented-sauces-pastes/",
+      "identity": {
+        "id": "food.sauce-condiment.fermented-sauces-pastes",
+        "slug": "fermented-sauces-pastes",
+        "title": "Fermented Sauces & Pastes"
+      },
+      "member_sauce_condiments": [
+        {
+          "href": "/sauce-condiments/banana-ketchup/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.banana-ketchup",
+          "name": "Banana Ketchup",
+          "slug": "banana-ketchup"
+        },
+        {
+          "href": "/sauce-condiments/black-vinegar/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.black-vinegar",
+          "name": "Black Vinegar",
+          "slug": "black-vinegar"
+        },
+        {
+          "href": "/sauce-condiments/chili-garlic-sauce/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.chili-garlic-sauce",
+          "name": "Chili Garlic Sauce",
+          "slug": "chili-garlic-sauce"
+        },
+        {
+          "href": "/sauce-condiments/doubanjiang/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.doubanjiang",
+          "name": "Doubanjiang",
+          "slug": "doubanjiang"
+        },
+        {
+          "href": "/sauce-condiments/fermented-black-bean-sauce/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.fermented-black-bean-sauce",
+          "name": "Fermented Black Bean Sauce",
+          "slug": "fermented-black-bean-sauce"
+        },
+        {
+          "href": "/sauce-condiments/fish-sauce/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.fish-sauce",
+          "name": "Fish Sauce",
+          "slug": "fish-sauce"
+        },
+        {
+          "href": "/sauce-condiments/gochujang/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.gochujang",
+          "name": "Gochujang",
+          "slug": "gochujang"
+        },
+        {
+          "href": "/sauce-condiments/hoisin-sauce/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.hoisin-sauce",
+          "name": "Hoisin Sauce",
+          "slug": "hoisin-sauce"
+        },
+        {
+          "href": "/sauce-condiments/maggi-seasoning-sauce/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.maggi-seasoning-sauce",
+          "name": "Maggi Seasoning Sauce",
+          "slug": "maggi-seasoning-sauce"
+        },
+        {
+          "href": "/sauce-condiments/sambal-oelek/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.sambal-oelek",
+          "name": "Sambal Oelek",
+          "slug": "sambal-oelek"
+        },
+        {
+          "href": "/sauce-condiments/shrimp-paste/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.shrimp-paste",
+          "name": "Shrimp Paste",
+          "slug": "shrimp-paste"
+        },
+        {
+          "href": "/sauce-condiments/soy-sauce/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.soy-sauce",
+          "name": "Soy Sauce",
+          "slug": "soy-sauce"
+        },
+        {
+          "href": "/sauce-condiments/tamarind-paste/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.tamarind-paste",
+          "name": "Tamarind Paste",
+          "slug": "tamarind-paste"
+        },
+        {
+          "href": "/sauce-condiments/xo-sauce/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.xo-sauce",
+          "name": "XO Sauce",
+          "slug": "xo-sauce"
+        },
+        {
+          "href": "/sauce-condiments/yellow-bean-sauce/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.yellow-bean-sauce",
+          "name": "Yellow Bean Sauce",
+          "slug": "yellow-bean-sauce"
+        },
+        {
+          "href": "/sauce-condiments/yuzu-kosho/",
+          "id": "food.sauce-condiment.fermented-sauces-pastes.yuzu-kosho",
+          "name": "Yuzu Kosho",
+          "slug": "yuzu-kosho"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/sauce-condiment-groups/fermented-sauces-pastes/",
+        "description": "Fermented Sauces & Pastes — 16 sauces & condiments in the Sauce & Condiment Ontology.",
+        "og_description": "Fermented Sauces & Pastes — 16 sauces & condiments in the Sauce & Condiment Ontology.",
+        "og_title": "Fermented Sauces & Pastes — Sauce & Condiment Group",
+        "title": "Fermented Sauces & Pastes — Sauce & Condiment Group"
+      },
+      "overview": {
+        "display_name": "Fermented Sauces & Pastes",
+        "food_count": 16,
+        "parent_category": {
+          "id": "food.sauce-condiment",
+          "name": "Sauces & Condiments",
+          "slug": "sauce-condiment"
+        }
+      },
+      "page_type": "sauce_condiment_group",
+      "projection_id": "food.sauce-condiment.fermented-sauces-pastes",
+      "slug": "fermented-sauces-pastes",
+      "usage_intensities_represented": [
+        "accent",
+        "luxury",
+        "primary"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/sauce-condiments/",
+          "label": "Sauces & Condiments"
+        },
+        {
+          "href": "/sauce-condiment-categories/sauce-condiment/",
+          "label": "Sauces & Condiments"
+        },
+        {
+          "href": "/sauce-condiment-groups/mother-sauces/",
+          "label": "Mother Sauces"
+        }
+      ],
+      "canonical_path": "/sauce-condiment-groups/mother-sauces/",
+      "identity": {
+        "id": "food.sauce-condiment.mother-sauces",
+        "slug": "mother-sauces",
+        "title": "Mother Sauces"
+      },
+      "member_sauce_condiments": [
+        {
+          "href": "/sauce-condiments/bearnaise/",
+          "id": "food.sauce-condiment.mother-sauces.bearnaise",
+          "name": "Béarnaise",
+          "slug": "bearnaise"
+        },
+        {
+          "href": "/sauce-condiments/bechamel/",
+          "id": "food.sauce-condiment.mother-sauces.bechamel",
+          "name": "Béchamel",
+          "slug": "bechamel"
+        },
+        {
+          "href": "/sauce-condiments/demi-glace/",
+          "id": "food.sauce-condiment.mother-sauces.demi-glace",
+          "name": "Demi-Glace",
+          "slug": "demi-glace"
+        },
+        {
+          "href": "/sauce-condiments/espagnole/",
+          "id": "food.sauce-condiment.mother-sauces.espagnole",
+          "name": "Espagnole",
+          "slug": "espagnole"
+        },
+        {
+          "href": "/sauce-condiments/hollandaise/",
+          "id": "food.sauce-condiment.mother-sauces.hollandaise",
+          "name": "Hollandaise",
+          "slug": "hollandaise"
+        },
+        {
+          "href": "/sauce-condiments/mayonnaise/",
+          "id": "food.sauce-condiment.mother-sauces.mayonnaise",
+          "name": "Mayonnaise",
+          "slug": "mayonnaise"
+        },
+        {
+          "href": "/sauce-condiments/sauce-mornay/",
+          "id": "food.sauce-condiment.mother-sauces.sauce-mornay",
+          "name": "Sauce Mornay",
+          "slug": "sauce-mornay"
+        },
+        {
+          "href": "/sauce-condiments/tomato-mother-sauce/",
+          "id": "food.sauce-condiment.mother-sauces.tomato-mother-sauce",
+          "name": "Tomato Mother Sauce",
+          "slug": "tomato-mother-sauce"
+        },
+        {
+          "href": "/sauce-condiments/veloute/",
+          "id": "food.sauce-condiment.mother-sauces.veloute",
+          "name": "Velouté",
+          "slug": "veloute"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/sauce-condiment-groups/mother-sauces/",
+        "description": "Mother Sauces — 9 sauces & condiments in the Sauce & Condiment Ontology.",
+        "og_description": "Mother Sauces — 9 sauces & condiments in the Sauce & Condiment Ontology.",
+        "og_title": "Mother Sauces — Sauce & Condiment Group",
+        "title": "Mother Sauces — Sauce & Condiment Group"
+      },
+      "overview": {
+        "display_name": "Mother Sauces",
+        "food_count": 9,
+        "parent_category": {
+          "id": "food.sauce-condiment",
+          "name": "Sauces & Condiments",
+          "slug": "sauce-condiment"
+        }
+      },
+      "page_type": "sauce_condiment_group",
+      "projection_id": "food.sauce-condiment.mother-sauces",
+      "slug": "mother-sauces",
+      "usage_intensities_represented": [
+        "accent",
+        "luxury",
+        "primary"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/sauce-condiments/",
+          "label": "Sauces & Condiments"
+        },
+        {
+          "href": "/sauce-condiment-categories/sauce-condiment/",
+          "label": "Sauces & Condiments"
+        },
+        {
+          "href": "/sauce-condiment-groups/oil-based-sauces-dressings/",
+          "label": "Oil-Based Sauces & Dressings"
+        }
+      ],
+      "canonical_path": "/sauce-condiment-groups/oil-based-sauces-dressings/",
+      "identity": {
+        "id": "food.sauce-condiment.oil-based-sauces-dressings",
+        "slug": "oil-based-sauces-dressings",
+        "title": "Oil-Based Sauces & Dressings"
+      },
+      "member_sauce_condiments": [
+        {
+          "href": "/sauce-condiments/aioli/",
+          "id": "food.sauce-condiment.oil-based-sauces-dressings.aioli",
+          "name": "Aioli",
+          "slug": "aioli"
+        },
+        {
+          "href": "/sauce-condiments/balsamic-vinaigrette/",
+          "id": "food.sauce-condiment.oil-based-sauces-dressings.balsamic-vinaigrette",
+          "name": "Balsamic Vinaigrette",
+          "slug": "balsamic-vinaigrette"
+        },
+        {
+          "href": "/sauce-condiments/blue-cheese-dressing/",
+          "id": "food.sauce-condiment.oil-based-sauces-dressings.blue-cheese-dressing",
+          "name": "Blue Cheese Dressing",
+          "slug": "blue-cheese-dressing"
+        },
+        {
+          "href": "/sauce-condiments/caesar-dressing/",
+          "id": "food.sauce-condiment.oil-based-sauces-dressings.caesar-dressing",
+          "name": "Caesar Dressing",
+          "slug": "caesar-dressing"
+        },
+        {
+          "href": "/sauce-condiments/chimichurri/",
+          "id": "food.sauce-condiment.oil-based-sauces-dressings.chimichurri",
+          "name": "Chimichurri",
+          "slug": "chimichurri"
+        },
+        {
+          "href": "/sauce-condiments/green-goddess-dressing/",
+          "id": "food.sauce-condiment.oil-based-sauces-dressings.green-goddess-dressing",
+          "name": "Green Goddess Dressing",
+          "slug": "green-goddess-dressing"
+        },
+        {
+          "href": "/sauce-condiments/pesto/",
+          "id": "food.sauce-condiment.oil-based-sauces-dressings.pesto",
+          "name": "Pesto",
+          "slug": "pesto"
+        },
+        {
+          "href": "/sauce-condiments/ranch-dressing/",
+          "id": "food.sauce-condiment.oil-based-sauces-dressings.ranch-dressing",
+          "name": "Ranch Dressing",
+          "slug": "ranch-dressing"
+        },
+        {
+          "href": "/sauce-condiments/romesco-sauce/",
+          "id": "food.sauce-condiment.oil-based-sauces-dressings.romesco-sauce",
+          "name": "Romesco Sauce",
+          "slug": "romesco-sauce"
+        },
+        {
+          "href": "/sauce-condiments/sauce-vierge/",
+          "id": "food.sauce-condiment.oil-based-sauces-dressings.sauce-vierge",
+          "name": "Sauce Vierge",
+          "slug": "sauce-vierge"
+        },
+        {
+          "href": "/sauce-condiments/thousand-island-dressing/",
+          "id": "food.sauce-condiment.oil-based-sauces-dressings.thousand-island-dressing",
+          "name": "Thousand Island Dressing",
+          "slug": "thousand-island-dressing"
+        },
+        {
+          "href": "/sauce-condiments/vinaigrette/",
+          "id": "food.sauce-condiment.oil-based-sauces-dressings.vinaigrette",
+          "name": "Vinaigrette",
+          "slug": "vinaigrette"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/sauce-condiment-groups/oil-based-sauces-dressings/",
+        "description": "Oil-Based Sauces & Dressings — 12 sauces & condiments in the Sauce & Condiment Ontology.",
+        "og_description": "Oil-Based Sauces & Dressings — 12 sauces & condiments in the Sauce & Condiment Ontology.",
+        "og_title": "Oil-Based Sauces & Dressings — Sauce & Condiment Group",
+        "title": "Oil-Based Sauces & Dressings — Sauce & Condiment Group"
+      },
+      "overview": {
+        "display_name": "Oil-Based Sauces & Dressings",
+        "food_count": 12,
+        "parent_category": {
+          "id": "food.sauce-condiment",
+          "name": "Sauces & Condiments",
+          "slug": "sauce-condiment"
+        }
+      },
+      "page_type": "sauce_condiment_group",
+      "projection_id": "food.sauce-condiment.oil-based-sauces-dressings",
+      "slug": "oil-based-sauces-dressings",
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/sauce-condiments/",
+          "label": "Sauces & Condiments"
+        },
+        {
+          "href": "/sauce-condiment-categories/sauce-condiment/",
+          "label": "Sauces & Condiments"
+        },
+        {
+          "href": "/sauce-condiment-groups/savory-spreads-pastes/",
+          "label": "Savory Spreads & Pastes"
+        }
+      ],
+      "canonical_path": "/sauce-condiment-groups/savory-spreads-pastes/",
+      "identity": {
+        "id": "food.sauce-condiment.savory-spreads-pastes",
+        "slug": "savory-spreads-pastes",
+        "title": "Savory Spreads & Pastes"
+      },
+      "member_sauce_condiments": [
+        {
+          "href": "/sauce-condiments/anchovy-paste/",
+          "id": "food.sauce-condiment.savory-spreads-pastes.anchovy-paste",
+          "name": "Anchovy Paste",
+          "slug": "anchovy-paste"
+        },
+        {
+          "href": "/sauce-condiments/garlic-paste/",
+          "id": "food.sauce-condiment.savory-spreads-pastes.garlic-paste",
+          "name": "Garlic Paste",
+          "slug": "garlic-paste"
+        },
+        {
+          "href": "/sauce-condiments/gentlemans-relish/",
+          "id": "food.sauce-condiment.savory-spreads-pastes.gentlemans-relish",
+          "name": "Gentleman's Relish",
+          "slug": "gentlemans-relish"
+        },
+        {
+          "href": "/sauce-condiments/marmite/",
+          "id": "food.sauce-condiment.savory-spreads-pastes.marmite",
+          "name": "Marmite",
+          "slug": "marmite"
+        },
+        {
+          "href": "/sauce-condiments/muhammara/",
+          "id": "food.sauce-condiment.savory-spreads-pastes.muhammara",
+          "name": "Muhammara",
+          "slug": "muhammara"
+        },
+        {
+          "href": "/sauce-condiments/olive-paste/",
+          "id": "food.sauce-condiment.savory-spreads-pastes.olive-paste",
+          "name": "Olive Paste",
+          "slug": "olive-paste"
+        },
+        {
+          "href": "/sauce-condiments/red-pepper-paste/",
+          "id": "food.sauce-condiment.savory-spreads-pastes.red-pepper-paste",
+          "name": "Red Pepper Paste",
+          "slug": "red-pepper-paste"
+        },
+        {
+          "href": "/sauce-condiments/sun-dried-tomato-paste/",
+          "id": "food.sauce-condiment.savory-spreads-pastes.sun-dried-tomato-paste",
+          "name": "Sun-Dried Tomato Paste",
+          "slug": "sun-dried-tomato-paste"
+        },
+        {
+          "href": "/sauce-condiments/tapenade/",
+          "id": "food.sauce-condiment.savory-spreads-pastes.tapenade",
+          "name": "Tapenade",
+          "slug": "tapenade"
+        },
+        {
+          "href": "/sauce-condiments/truffle-paste/",
+          "id": "food.sauce-condiment.savory-spreads-pastes.truffle-paste",
+          "name": "Truffle Paste",
+          "slug": "truffle-paste"
+        },
+        {
+          "href": "/sauce-condiments/vegemite/",
+          "id": "food.sauce-condiment.savory-spreads-pastes.vegemite",
+          "name": "Vegemite",
+          "slug": "vegemite"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/sauce-condiment-groups/savory-spreads-pastes/",
+        "description": "Savory Spreads & Pastes — 11 sauces & condiments in the Sauce & Condiment Ontology.",
+        "og_description": "Savory Spreads & Pastes — 11 sauces & condiments in the Sauce & Condiment Ontology.",
+        "og_title": "Savory Spreads & Pastes — Sauce & Condiment Group",
+        "title": "Savory Spreads & Pastes — Sauce & Condiment Group"
+      },
+      "overview": {
+        "display_name": "Savory Spreads & Pastes",
+        "food_count": 11,
+        "parent_category": {
+          "id": "food.sauce-condiment",
+          "name": "Sauces & Condiments",
+          "slug": "sauce-condiment"
+        }
+      },
+      "page_type": "sauce_condiment_group",
+      "projection_id": "food.sauce-condiment.savory-spreads-pastes",
+      "slug": "savory-spreads-pastes",
+      "usage_intensities_represented": [
+        "accent",
+        "luxury"
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/sauce-condiments/",
+          "label": "Sauces & Condiments"
+        },
+        {
+          "href": "/sauce-condiment-categories/sauce-condiment/",
+          "label": "Sauces & Condiments"
+        },
+        {
+          "href": "/sauce-condiment-groups/table-sauces/",
+          "label": "Table Sauces"
+        }
+      ],
+      "canonical_path": "/sauce-condiment-groups/table-sauces/",
+      "identity": {
+        "id": "food.sauce-condiment.table-sauces",
+        "slug": "table-sauces",
+        "title": "Table Sauces"
+      },
+      "member_sauce_condiments": [
+        {
+          "href": "/sauce-condiments/apple-sauce/",
+          "id": "food.sauce-condiment.table-sauces.apple-sauce",
+          "name": "Apple Sauce",
+          "slug": "apple-sauce"
+        },
+        {
+          "href": "/sauce-condiments/barbecue-sauce/",
+          "id": "food.sauce-condiment.table-sauces.barbecue-sauce",
+          "name": "Barbecue Sauce",
+          "slug": "barbecue-sauce"
+        },
+        {
+          "href": "/sauce-condiments/brown-sauce/",
+          "id": "food.sauce-condiment.table-sauces.brown-sauce",
+          "name": "Brown Sauce",
+          "slug": "brown-sauce"
+        },
+        {
+          "href": "/sauce-condiments/caramel-sauce/",
+          "id": "food.sauce-condiment.table-sauces.caramel-sauce",
+          "name": "Caramel Sauce",
+          "slug": "caramel-sauce"
+        },
+        {
+          "href": "/sauce-condiments/chili-sauce/",
+          "id": "food.sauce-condiment.table-sauces.chili-sauce",
+          "name": "Chili Sauce",
+          "slug": "chili-sauce"
+        },
+        {
+          "href": "/sauce-condiments/chocolate-syrup/",
+          "id": "food.sauce-condiment.table-sauces.chocolate-syrup",
+          "name": "Chocolate Syrup",
+          "slug": "chocolate-syrup"
+        },
+        {
+          "href": "/sauce-condiments/cranberry-sauce/",
+          "id": "food.sauce-condiment.table-sauces.cranberry-sauce",
+          "name": "Cranberry Sauce",
+          "slug": "cranberry-sauce"
+        },
+        {
+          "href": "/sauce-condiments/hot-sauce/",
+          "id": "food.sauce-condiment.table-sauces.hot-sauce",
+          "name": "Hot Sauce",
+          "slug": "hot-sauce"
+        },
+        {
+          "href": "/sauce-condiments/marinara-sauce/",
+          "id": "food.sauce-condiment.table-sauces.marinara-sauce",
+          "name": "Marinara Sauce",
+          "slug": "marinara-sauce"
+        },
+        {
+          "href": "/sauce-condiments/mole-sauce/",
+          "id": "food.sauce-condiment.table-sauces.mole-sauce",
+          "name": "Mole Sauce",
+          "slug": "mole-sauce"
+        },
+        {
+          "href": "/sauce-condiments/mushroom-gravy/",
+          "id": "food.sauce-condiment.table-sauces.mushroom-gravy",
+          "name": "Mushroom Gravy",
+          "slug": "mushroom-gravy"
+        },
+        {
+          "href": "/sauce-condiments/oyster-sauce/",
+          "id": "food.sauce-condiment.table-sauces.oyster-sauce",
+          "name": "Oyster Sauce",
+          "slug": "oyster-sauce"
+        },
+        {
+          "href": "/sauce-condiments/pan-gravy/",
+          "id": "food.sauce-condiment.table-sauces.pan-gravy",
+          "name": "Pan Gravy",
+          "slug": "pan-gravy"
+        },
+        {
+          "href": "/sauce-condiments/plum-sauce/",
+          "id": "food.sauce-condiment.table-sauces.plum-sauce",
+          "name": "Plum Sauce",
+          "slug": "plum-sauce"
+        },
+        {
+          "href": "/sauce-condiments/ponzu/",
+          "id": "food.sauce-condiment.table-sauces.ponzu",
+          "name": "Ponzu",
+          "slug": "ponzu"
+        },
+        {
+          "href": "/sauce-condiments/sriracha/",
+          "id": "food.sauce-condiment.table-sauces.sriracha",
+          "name": "Sriracha",
+          "slug": "sriracha"
+        },
+        {
+          "href": "/sauce-condiments/steak-sauce/",
+          "id": "food.sauce-condiment.table-sauces.steak-sauce",
+          "name": "Steak Sauce",
+          "slug": "steak-sauce"
+        },
+        {
+          "href": "/sauce-condiments/sweet-and-sour-sauce/",
+          "id": "food.sauce-condiment.table-sauces.sweet-and-sour-sauce",
+          "name": "Sweet and Sour Sauce",
+          "slug": "sweet-and-sour-sauce"
+        },
+        {
+          "href": "/sauce-condiments/teriyaki-sauce/",
+          "id": "food.sauce-condiment.table-sauces.teriyaki-sauce",
+          "name": "Teriyaki Sauce",
+          "slug": "teriyaki-sauce"
+        },
+        {
+          "href": "/sauce-condiments/tomato-ketchup/",
+          "id": "food.sauce-condiment.table-sauces.tomato-ketchup",
+          "name": "Tomato Ketchup",
+          "slug": "tomato-ketchup"
+        },
+        {
+          "href": "/sauce-condiments/tonkatsu-sauce/",
+          "id": "food.sauce-condiment.table-sauces.tonkatsu-sauce",
+          "name": "Tonkatsu Sauce",
+          "slug": "tonkatsu-sauce"
+        },
+        {
+          "href": "/sauce-condiments/worcestershire-sauce/",
+          "id": "food.sauce-condiment.table-sauces.worcestershire-sauce",
+          "name": "Worcestershire Sauce",
+          "slug": "worcestershire-sauce"
+        }
+      ],
+      "metadata": {
+        "canonical": "https://pairingmethod.com/sauce-condiment-groups/table-sauces/",
+        "description": "Table Sauces — 22 sauces & condiments in the Sauce & Condiment Ontology.",
+        "og_description": "Table Sauces — 22 sauces & condiments in the Sauce & Condiment Ontology.",
+        "og_title": "Table Sauces — Sauce & Condiment Group",
+        "title": "Table Sauces — Sauce & Condiment Group"
+      },
+      "overview": {
+        "display_name": "Table Sauces",
+        "food_count": 22,
+        "parent_category": {
+          "id": "food.sauce-condiment",
+          "name": "Sauces & Condiments",
+          "slug": "sauce-condiment"
+        }
+      },
+      "page_type": "sauce_condiment_group",
+      "projection_id": "food.sauce-condiment.table-sauces",
+      "slug": "table-sauces",
+      "usage_intensities_represented": [
+        "accent",
+        "primary"
+      ]
+    }
+  ]
+}
