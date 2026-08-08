@@ -304,6 +304,22 @@ SAUCE-002 governs **metadata boundaries**, not whether a sauce entity exists. To
 
 SAUCE-PAIR-001 governs FOOD-13E only. It does **not** modify wine ontology structure or platform pairing logic.
 
+### Wine Pairing Layer Governance (WINE-001–005)
+
+**Introduced:** FOOD-13E · **Enforced** in `scripts/map-sauce-condiment-wine-relationships-13e.mjs`.
+
+| Rule | Requirement |
+|------|-------------|
+| **WINE-001** | Wine relationships may never modify or imply structural taxonomy — the pairing layer is independent of catalog and runtime graphs |
+| **WINE-002** | Pairings must reference canonical wine ontology IDs only (wine style catalog slugs) |
+| **WINE-003** | Pairings are directional from food entity → wine entity |
+| **WINE-004** | Multiple wines are permitted per food entity with independent confidence and pairing method |
+| **WINE-005** | No transitive inference — food→wine edges do not imply food↔food or wine↔wine relationships |
+
+Allowed relationship types: `pairs_with_wine`, `classic_pairing`, `avoid_with_wine`, `contrasting_pairing`, `regional_pairing`.
+
+Output artifact: `data/runtime/sauce-condiment-wine-relationships.json` — versioned independently from runtime and editorial layers.
+
 ---
 
 ## 10. Cross-Domain Ownership & FOOD-12 Integration

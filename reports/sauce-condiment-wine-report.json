@@ -1,0 +1,53 @@
+{
+  "catalog_version": "1.0.0",
+  "confidence_distribution": {
+    "high": 191,
+    "low": 0,
+    "medium": 0
+  },
+  "domain": "sauce-condiment",
+  "governance_rules": {
+    "SAUCE001": "Mother sauces and direct classical derivatives retain distinct pairing profiles.",
+    "SAUCE002": "Cross-domain composition references use canonical IDs — pairing does not duplicate ingredient metadata.",
+    "SAUCE_PAIR001": "Pair by culinary function — acidity, fat, fermentation, emulsification, umami, richness — not raw ingredient identity.",
+    "WINE001": "Wine relationships may never modify or imply structural taxonomy — pairing layer is independent.",
+    "WINE002": "Pairings reference canonical wine ontology IDs (wine style catalog) only.",
+    "WINE003": "Pairings are directional from food entity to wine entity.",
+    "WINE004": "Multiple wines permitted per food entity with independent confidence and pairing method.",
+    "WINE005": "No transitive inference — food-wine edges do not imply food-food relationships."
+  },
+  "group_coverage": {
+    "condiments": 20,
+    "fermented-sauces-pastes": 16,
+    "mother-sauces": 9,
+    "oil-based-sauces-dressings": 12,
+    "savory-spreads-pastes": 11,
+    "table-sauces": 22
+  },
+  "metrics": {
+    "Determinism": "PASS",
+    "Deterministic ordering": "PASS",
+    "Duplicate edges": 0,
+    "Missing entities": 0,
+    "Missing primary pairings": 0,
+    "Missing wine references": 0,
+    "Orphan entities": 0,
+    "Overall result": "PASS",
+    "Pairing edges": 191,
+    "Pending review edges": 0,
+    "Sauce & condiment entities linked": 90,
+    "Schema violations": 0,
+    "Wine styles linked": 25
+  },
+  "output": "data/runtime/sauce-condiment-wine-relationships.json",
+  "overall_result": "PASS",
+  "phase": "FOOD-13E",
+  "relationship_type_counts": {
+    "avoid_with_wine": 14,
+    "classic_pairing": 44,
+    "contrasting_pairing": 26,
+    "pairs_with_wine": 90,
+    "regional_pairing": 17
+  },
+  "validation_errors": []
+}
