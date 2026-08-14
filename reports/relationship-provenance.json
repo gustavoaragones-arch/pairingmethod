@@ -1,0 +1,30 @@
+{
+  "phase": "AQ-02B3",
+  "title": "Relationship Provenance — Certification",
+  "date": "2026-08-14",
+  "correction_to_prior_audits": {
+    "finding": "AQ-01 and AQ-01R both flagged /sauce-condiments/bearnaise/ displaying a \"Commonly served with: coconut, steak sauce\" relationship as unsourced, because bearnaise's commonly_served_with field in data/sauce-condiment-catalog.json is an empty array. That check was incomplete.",
+    "correction": "The catalog field is a denormalized snapshot, not the source of truth for rendered relationships. The actual source is data/runtime/sauce-condiment-editorial-relationships.json, which contains a fully documented, approved edge: bearnaise -> commonly_served_with -> coconut, confidence: high, derived_from: editorial, editorial_review: approved, editorial_tier: C, evidence: \"Coconut pairs with sweet-spicy table sauces in tropical and Filipino service.\" The relationship has genuine provenance. AQ-01/AQ-01R's repeated elevation of this as the site's clearest unsourced-content example was a methodology error (checking the wrong data layer), not a real defect. This is corrected here and should be treated as superseding the prior findings in eeat-analysis.md, entity-sampling.md, and recommended-improvements.md Priority 3.",
+    "residual_note": "The evidence field is a genuine, if debatable, culinary claim (coconut + table sauces in tropical/Filipino service) rather than a fabrication. Its cultural specificity is unusual for a mother-sauce entity and may be worth an editorial second look, but that is a content-quality judgment call, not a provenance violation — it is not in scope for this platform-integrity phase."
+  },
+  "relationship_provenance": {
+    "total_relationships_checked": 4140,
+    "violations_found": 0,
+    "all_provenanced": true,
+    "methodology": "For every published domain, every leaf-page relationship rendered (editorial_context + wine_context buckets) was independently checked against that domain's own runtime edge files (structural/editorial/wine), not against the derived_from label already stamped on the projection (which could theoretically be wrong even if the edge is real, or vice versa) and not against the catalog snapshot fields (which the bearnaise case shows can be stale/incomplete without the underlying relationship being unsupported). Protein's 51 deprecated entities were resolved through the same migration-aware resolver (lib/publication/proteinMigrationPublication.js) the certified pipeline itself uses, so cross-domain-migrated relationships are correctly traced to their canonical-id edges rather than false-flagged.",
+    "vocabulary_inconsistency_noted": "Protein domain wine-relationship edges use derived_from: \"pairing\"; every other domain uses derived_from: \"editorial\" for the equivalent relationship type. Both are legitimate, traceable canonical sources — this is a naming inconsistency, not a provenance gap. Recommended for a future documentation/vocabulary alignment pass."
+  },
+  "target_entity_existence": {
+    "total_wine_side_targets_checked": 1692,
+    "unknown_targets_found": 0,
+    "all_targets_resolve_to_real_entities": true,
+    "methodology": "Every wine-side relationship target (style/descriptor/technique) rendered on a food-ontology leaf page was checked against the actual wine-style, winemaking-technique, and wine-taxonomy (descriptor) catalogs to confirm the target is a real, existing entity and not a dangling or misspelled reference."
+  },
+  "narrative_completion_tc09": {
+    "finding": "AQ-01R found that the group/category catalog introduction field was extracted into the AQ-02A narrative pipeline but never rendered by any helper.",
+    "fix": "renderEducationalIntroduction() now renders introduction as a second paragraph alongside summary, when present and textually distinct (never both if identical, preserving the no-duplicated-narrative guarantee).",
+    "verified": "86/86 group and category pages with an authored introduction field now render it; 0 duplicate-narrative instances found across a full census."
+  },
+  "invented_relationships_found": 0,
+  "overall_result": "PASS"
+}
