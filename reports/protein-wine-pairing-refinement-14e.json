@@ -1,0 +1,28 @@
+{
+  "phase": "FOOD-14E",
+  "stage": 4,
+  "inventory_totals": {
+    "canonical": 22,
+    "remap_required": 7,
+    "deprecated": 7,
+    "duplicate_after_remap": 0,
+    "orphan": 0
+  },
+  "remapped_relationships": 7,
+  "duplicate_statistics": {
+    "duplicates_before_collapse": 0,
+    "duplicates_removed": 0,
+    "final_unique_edge_count": 29
+  },
+  "canonical_verification": {
+    "deprecated_endpoints_remaining": 0,
+    "orphan_references": 0,
+    "retained_entities_verified": true
+  },
+  "runtime_modified": false,
+  "editorial_modified": false,
+  "publication_modified": false,
+  "pairing_edge_count": 29,
+  "overall": "PASS",
+  "errors": []
+}

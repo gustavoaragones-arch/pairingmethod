@@ -3,6 +3,69 @@
     {
       "confidence": "high",
       "derived_from": "pairing",
+      "evidence": "Meaty portobello caps support peppery, medium-plus body Syrah profiles.",
+      "relationship": "pairs_with_style",
+      "source": "food.fungi.cultivated-mushrooms.portobello",
+      "target": "syrah-shiraz",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Mushroom savoriness aligns with earthy descriptors in Pinot Noir and aged Nebbiolo.",
+      "relationship": "pairs_with_descriptor",
+      "source": "food.fungi.cultivated-mushrooms.shiitake",
+      "target": "earthy",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Earthy mushroom umami pairs with forest-floor notes common in Pinot Noir.",
+      "relationship": "pairs_with_style",
+      "source": "food.fungi.cultivated-mushrooms.shiitake",
+      "target": "pinot-noir",
+      "version": "1.0"
+    },
+    {
+      "confidence": "medium",
+      "derived_from": "pairing",
+      "evidence": "Light, crisp Pinot Grigio suits grilled tempeh without competing with umami.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.legume.legume-products.tempeh",
+      "target": "pinot-grigio",
+      "version": "1.0"
+    },
+    {
+      "confidence": "medium",
+      "derived_from": "pairing",
+      "evidence": "Fermented, nutty tempeh aligns with aromatic whites and subtle spice notes.",
+      "relationship": "pairs_with_style",
+      "source": "food.legume.legume-products.tempeh",
+      "target": "gewurztraminer",
+      "version": "1.0"
+    },
+    {
+      "confidence": "medium",
+      "derived_from": "pairing",
+      "evidence": "Floral Gewürztraminer complements common ginger-garlic stir-fry aromatics with tofu.",
+      "relationship": "also_pairs_with_style",
+      "source": "food.legume.legume-products.tofu",
+      "target": "gewurztraminer",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
+      "evidence": "Neutral tofu protein absorbs sauce; aromatic Riesling acidity cuts soy and spice.",
+      "relationship": "pairs_with_style",
+      "source": "food.legume.legume-products.tofu",
+      "target": "riesling",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "pairing",
       "evidence": "Jammy fruit and moderate tannin support barbecue sweetness and rendered fat.",
       "relationship": "also_pairs_with_style",
       "source": "food.protein.beef.brisket",
@@ -147,33 +210,6 @@
     {
       "confidence": "high",
       "derived_from": "pairing",
-      "evidence": "Meaty portobello caps support peppery, medium-plus body Syrah profiles.",
-      "relationship": "pairs_with_style",
-      "source": "food.protein.mushrooms.portobello",
-      "target": "syrah-shiraz",
-      "version": "1.0"
-    },
-    {
-      "confidence": "high",
-      "derived_from": "pairing",
-      "evidence": "Mushroom savoriness aligns with earthy descriptors in Pinot Noir and aged Nebbiolo.",
-      "relationship": "pairs_with_descriptor",
-      "source": "food.protein.mushrooms.shiitake",
-      "target": "earthy",
-      "version": "1.0"
-    },
-    {
-      "confidence": "high",
-      "derived_from": "pairing",
-      "evidence": "Earthy mushroom umami pairs with forest-floor notes common in Pinot Noir.",
-      "relationship": "pairs_with_style",
-      "source": "food.protein.mushrooms.shiitake",
-      "target": "pinot-noir",
-      "version": "1.0"
-    },
-    {
-      "confidence": "high",
-      "derived_from": "pairing",
       "evidence": "High fat pork belly is balanced by aromatic acidity and slight sweetness in Riesling.",
       "relationship": "pairs_with_style",
       "source": "food.protein.pork.pork-belly",
@@ -224,66 +260,35 @@
       "source": "food.protein.poultry.chicken-thigh",
       "target": "pinot-noir",
       "version": "1.0"
-    },
-    {
-      "confidence": "medium",
-      "derived_from": "pairing",
-      "evidence": "Light, crisp Pinot Grigio suits grilled tempeh without competing with umami.",
-      "relationship": "also_pairs_with_style",
-      "source": "food.protein.soy-foods.tempeh",
-      "target": "pinot-grigio",
-      "version": "1.0"
-    },
-    {
-      "confidence": "medium",
-      "derived_from": "pairing",
-      "evidence": "Fermented, nutty tempeh aligns with aromatic whites and subtle spice notes.",
-      "relationship": "pairs_with_style",
-      "source": "food.protein.soy-foods.tempeh",
-      "target": "gewurztraminer",
-      "version": "1.0"
-    },
-    {
-      "confidence": "medium",
-      "derived_from": "pairing",
-      "evidence": "Floral Gewürztraminer complements common ginger-garlic stir-fry aromatics with tofu.",
-      "relationship": "also_pairs_with_style",
-      "source": "food.protein.soy-foods.tofu-firm",
-      "target": "gewurztraminer",
-      "version": "1.0"
-    },
-    {
-      "confidence": "high",
-      "derived_from": "pairing",
-      "evidence": "Neutral tofu protein absorbs sauce; aromatic Riesling acidity cuts soy and spice.",
-      "relationship": "pairs_with_style",
-      "source": "food.protein.soy-foods.tofu-firm",
-      "target": "riesling",
-      "version": "1.0"
     }
   ],
   "meta": {
-    "catalog_version": "2.0.0",
+    "catalog_version": "2.1.0",
     "edge_count": 29,
     "inputs": [
-      "data/protein-food-catalog.json",
-      "data/runtime/protein-food-index.json",
-      "data/runtime/protein-food-editorial-relationships.json",
-      "data/wine-style-catalog.json",
-      "data/wine-taxonomy.json",
-      "data/winemaking-technique-catalog.json",
-      "data/wine-region-catalog.json",
-      "data/wine-serving-catalog.json",
-      "data/wine-fault-catalog.json"
+      "data/protein-migration-map.json",
+      "data/runtime/protein-food-wine-relationships.json",
+      "data/runtime/protein-food-id-map.json",
+      "lib/runtime/proteinMigrationResolver.js"
     ],
     "layer": "pairing",
-    "phase": "ONTOLOGY-02D.1",
+    "migration_map": "data/protein-migration-map.json",
+    "phase": "FOOD-14E",
+    "refinement": {
+      "deprecated_endpoints_before": 7,
+      "duplicates_before_collapse": 0,
+      "duplicates_removed": 0,
+      "edges_after": 29,
+      "edges_before": 29,
+      "remapped_edges": 7
+    },
     "relationship_types": [
       "pairs_with_style",
       "also_pairs_with_style",
       "pairs_with_descriptor",
       "pairs_with_technique"
     ],
+    "resolver": "lib/runtime/proteinMigrationResolver.js",
     "version": "1.0"
   }
 }

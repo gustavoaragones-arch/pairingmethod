@@ -1,0 +1,321 @@
+{
+  "phase": "FOOD-14E",
+  "stage": 1,
+  "overall_result": "PASS",
+  "migration_map": "data/protein-migration-map.json",
+  "resolver": "lib/runtime/proteinMigrationResolver.js",
+  "source_artifact": "data/runtime/protein-food-wine-relationships.json",
+  "edge_count": 29,
+  "classifications": {
+    "canonical": 22,
+    "remap_required": 7,
+    "deprecated": 7,
+    "duplicate_after_remap": 0,
+    "orphan": 0
+  },
+  "entries": [
+    {
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.beef.brisket",
+      "target": "zinfandel",
+      "source_resolved": "food.protein.beef.brisket",
+      "target_resolved": "zinfandel",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_style",
+      "source": "food.protein.beef.brisket",
+      "target": "syrah-shiraz",
+      "source_resolved": "food.protein.beef.brisket",
+      "target_resolved": "syrah-shiraz",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_technique",
+      "source": "food.protein.beef.brisket",
+      "target": "barrel-aging",
+      "source_resolved": "food.protein.beef.brisket",
+      "target_resolved": "barrel-aging",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.beef.ribeye",
+      "target": "syrah-shiraz",
+      "source_resolved": "food.protein.beef.ribeye",
+      "target_resolved": "syrah-shiraz",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_style",
+      "source": "food.protein.beef.ribeye",
+      "target": "cabernet-sauvignon",
+      "source_resolved": "food.protein.beef.ribeye",
+      "target_resolved": "cabernet-sauvignon",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_style",
+      "source": "food.protein.beef.tenderloin",
+      "target": "pinot-noir",
+      "source_resolved": "food.protein.beef.tenderloin",
+      "target_resolved": "pinot-noir",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.fin-fish.salmon-fillet",
+      "target": "chardonnay",
+      "source_resolved": "food.protein.fin-fish.salmon-fillet",
+      "target_resolved": "chardonnay",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_descriptor",
+      "source": "food.protein.fin-fish.salmon-fillet",
+      "target": "lemon",
+      "source_resolved": "food.protein.fin-fish.salmon-fillet",
+      "target_resolved": "lemon",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_style",
+      "source": "food.protein.fin-fish.salmon-fillet",
+      "target": "pinot-noir",
+      "source_resolved": "food.protein.fin-fish.salmon-fillet",
+      "target_resolved": "pinot-noir",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_style",
+      "source": "food.protein.fin-fish.tuna-loin",
+      "target": "albarino",
+      "source_resolved": "food.protein.fin-fish.tuna-loin",
+      "target_resolved": "albarino",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_technique",
+      "source": "food.protein.fin-fish.tuna-loin",
+      "target": "stainless-steel-aging",
+      "source_resolved": "food.protein.fin-fish.tuna-loin",
+      "target_resolved": "stainless-steel-aging",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_style",
+      "source": "food.protein.fin-fish.tuna-steak",
+      "target": "pinot-noir",
+      "source_resolved": "food.protein.fin-fish.tuna-steak",
+      "target_resolved": "pinot-noir",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.lamb.lamb-leg",
+      "target": "grenache",
+      "source_resolved": "food.protein.lamb.lamb-leg",
+      "target_resolved": "grenache",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.lamb.lamb-rack",
+      "target": "syrah-shiraz",
+      "source_resolved": "food.protein.lamb.lamb-rack",
+      "target_resolved": "syrah-shiraz",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_descriptor",
+      "source": "food.protein.lamb.lamb-rack",
+      "target": "black-pepper",
+      "source_resolved": "food.protein.lamb.lamb-rack",
+      "target_resolved": "black-pepper",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_style",
+      "source": "food.protein.lamb.lamb-rack",
+      "target": "cabernet-sauvignon",
+      "source_resolved": "food.protein.lamb.lamb-rack",
+      "target_resolved": "cabernet-sauvignon",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_style",
+      "source": "food.protein.mushrooms.portobello",
+      "target": "syrah-shiraz",
+      "source_resolved": "food.fungi.cultivated-mushrooms.portobello",
+      "target_resolved": "syrah-shiraz",
+      "classification": "deprecated",
+      "source_deprecated": true,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_descriptor",
+      "source": "food.protein.mushrooms.shiitake",
+      "target": "earthy",
+      "source_resolved": "food.fungi.cultivated-mushrooms.shiitake",
+      "target_resolved": "earthy",
+      "classification": "deprecated",
+      "source_deprecated": true,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_style",
+      "source": "food.protein.mushrooms.shiitake",
+      "target": "pinot-noir",
+      "source_resolved": "food.fungi.cultivated-mushrooms.shiitake",
+      "target_resolved": "pinot-noir",
+      "classification": "deprecated",
+      "source_deprecated": true,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_style",
+      "source": "food.protein.pork.pork-belly",
+      "target": "riesling",
+      "source_resolved": "food.protein.pork.pork-belly",
+      "target_resolved": "riesling",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.pork.pork-chop",
+      "target": "chardonnay",
+      "source_resolved": "food.protein.pork.pork-chop",
+      "target_resolved": "chardonnay",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_style",
+      "source": "food.protein.pork.pork-chop",
+      "target": "pinot-noir",
+      "source_resolved": "food.protein.pork.pork-chop",
+      "target_resolved": "pinot-noir",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.poultry.chicken-breast",
+      "target": "pinot-noir",
+      "source_resolved": "food.protein.poultry.chicken-breast",
+      "target_resolved": "pinot-noir",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_style",
+      "source": "food.protein.poultry.chicken-breast",
+      "target": "chardonnay",
+      "source_resolved": "food.protein.poultry.chicken-breast",
+      "target_resolved": "chardonnay",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_style",
+      "source": "food.protein.poultry.chicken-thigh",
+      "target": "pinot-noir",
+      "source_resolved": "food.protein.poultry.chicken-thigh",
+      "target_resolved": "pinot-noir",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.soy-foods.tempeh",
+      "target": "pinot-grigio",
+      "source_resolved": "food.legume.legume-products.tempeh",
+      "target_resolved": "pinot-grigio",
+      "classification": "deprecated",
+      "source_deprecated": true,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_style",
+      "source": "food.protein.soy-foods.tempeh",
+      "target": "gewurztraminer",
+      "source_resolved": "food.legume.legume-products.tempeh",
+      "target_resolved": "gewurztraminer",
+      "classification": "deprecated",
+      "source_deprecated": true,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "also_pairs_with_style",
+      "source": "food.protein.soy-foods.tofu-firm",
+      "target": "gewurztraminer",
+      "source_resolved": "food.legume.legume-products.tofu",
+      "target_resolved": "gewurztraminer",
+      "classification": "deprecated",
+      "source_deprecated": true,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "pairs_with_style",
+      "source": "food.protein.soy-foods.tofu-firm",
+      "target": "riesling",
+      "source_resolved": "food.legume.legume-products.tofu",
+      "target_resolved": "riesling",
+      "classification": "deprecated",
+      "source_deprecated": true,
+      "target_deprecated": false
+    }
+  ],
+  "duplicate_collapse_preview": {
+    "duplicates_before_collapse": 0,
+    "duplicates_removed": 0,
+    "final_unique_edge_count": 29
+  },
+  "metrics": {
+    "Edges inventoried": 29,
+    "Canonical": 22,
+    "Remap required": 7,
+    "Deprecated": 7,
+    "Duplicate after remap": 0,
+    "Orphan": 0
+  }
+}
