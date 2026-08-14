@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "Deprecated endpoints remaining": 0,
+    "Determinism": "PASS",
+    "Duplicates before collapse": 0,
+    "Duplicates removed": 0,
+    "Edges after": 40,
+    "Edges before": 40,
+    "Orphan references": 0,
+    "Remapped edges": 5,
+    "Retained entities verified": true
+  },
+  "output": "data/runtime/protein-food-editorial-relationships.json",
+  "overall_result": "PASS",
+  "phase": "FOOD-14D",
+  "relationship_type_counts": {
+    "commonly_prepared_as": 13,
+    "shares_culinary_role": 10,
+    "similar_to": 10,
+    "substitutes_for": 7
+  }
+}

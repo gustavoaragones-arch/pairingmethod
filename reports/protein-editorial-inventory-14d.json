@@ -1,0 +1,432 @@
+{
+  "phase": "FOOD-14D",
+  "stage": 1,
+  "overall_result": "PASS",
+  "migration_map": "data/protein-migration-map.json",
+  "resolver": "lib/runtime/proteinMigrationResolver.js",
+  "source_artifact": "data/runtime/protein-food-editorial-relationships.json",
+  "edge_count": 40,
+  "classifications": {
+    "unchanged": 35,
+    "remap_required": 5,
+    "deprecated_endpoint": 5,
+    "duplicate_after_remap": 0,
+    "orphan": 0
+  },
+  "entries": [
+    {
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.beef.brisket",
+      "target": "preparation.barbecue",
+      "source_resolved": "food.protein.beef.brisket",
+      "target_resolved": "preparation.barbecue",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.beef.chuck-roast",
+      "target": "preparation.braise",
+      "source_resolved": "food.protein.beef.chuck-roast",
+      "target_resolved": "preparation.braise",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "similar_to",
+      "source": "food.protein.beef.chuck-roast",
+      "target": "food.protein.pork.pork-shoulder",
+      "source_resolved": "food.protein.beef.chuck-roast",
+      "target_resolved": "food.protein.pork.pork-shoulder",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "similar_to",
+      "source": "food.protein.beef.flank-steak",
+      "target": "food.protein.beef.skirt-steak",
+      "source_resolved": "food.protein.beef.flank-steak",
+      "target_resolved": "food.protein.beef.skirt-steak",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.beef.ground-beef",
+      "target": "food.protein.pork.ground-pork",
+      "source_resolved": "food.protein.beef.ground-beef",
+      "target_resolved": "food.protein.pork.ground-pork",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.beef.ribeye",
+      "target": "preparation.grill",
+      "source_resolved": "food.protein.beef.ribeye",
+      "target_resolved": "preparation.grill",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.beef.ribeye",
+      "target": "food.protein.beef.striploin",
+      "source_resolved": "food.protein.beef.ribeye",
+      "target_resolved": "food.protein.beef.striploin",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "similar_to",
+      "source": "food.protein.beef.ribeye",
+      "target": "food.protein.beef.striploin",
+      "source_resolved": "food.protein.beef.ribeye",
+      "target_resolved": "food.protein.beef.striploin",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.beef.tenderloin",
+      "target": "food.protein.veal.veal-tenderloin",
+      "source_resolved": "food.protein.beef.tenderloin",
+      "target_resolved": "food.protein.veal.veal-tenderloin",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "similar_to",
+      "source": "food.protein.beef.tenderloin",
+      "target": "food.protein.pork.pork-tenderloin",
+      "source_resolved": "food.protein.beef.tenderloin",
+      "target_resolved": "food.protein.pork.pork-tenderloin",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.crustaceans.prawn",
+      "target": "food.protein.crustaceans.shrimp",
+      "source_resolved": "food.protein.crustaceans.prawn",
+      "target_resolved": "food.protein.crustaceans.shrimp",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "similar_to",
+      "source": "food.protein.crustaceans.prawn",
+      "target": "food.protein.crustaceans.shrimp",
+      "source_resolved": "food.protein.crustaceans.prawn",
+      "target_resolved": "food.protein.crustaceans.shrimp",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.crustaceans.shrimp",
+      "target": "preparation.stir-fry",
+      "source_resolved": "food.protein.crustaceans.shrimp",
+      "target_resolved": "preparation.stir-fry",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.fin-fish.cod-fillet",
+      "target": "preparation.bake",
+      "source_resolved": "food.protein.fin-fish.cod-fillet",
+      "target_resolved": "preparation.bake",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "similar_to",
+      "source": "food.protein.fin-fish.cod-fillet",
+      "target": "food.protein.fin-fish.halibut-fillet",
+      "source_resolved": "food.protein.fin-fish.cod-fillet",
+      "target_resolved": "food.protein.fin-fish.halibut-fillet",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.fin-fish.halibut-fillet",
+      "target": "food.protein.fin-fish.sea-bass-fillet",
+      "source_resolved": "food.protein.fin-fish.halibut-fillet",
+      "target_resolved": "food.protein.fin-fish.sea-bass-fillet",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.fin-fish.salmon-fillet",
+      "target": "preparation.pan-seared",
+      "source_resolved": "food.protein.fin-fish.salmon-fillet",
+      "target_resolved": "preparation.pan-seared",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.fin-fish.salmon-fillet",
+      "target": "food.protein.fin-fish.trout-fillet",
+      "source_resolved": "food.protein.fin-fish.salmon-fillet",
+      "target_resolved": "food.protein.fin-fish.trout-fillet",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "similar_to",
+      "source": "food.protein.fin-fish.salmon-fillet",
+      "target": "food.protein.fin-fish.trout-fillet",
+      "source_resolved": "food.protein.fin-fish.salmon-fillet",
+      "target_resolved": "food.protein.fin-fish.trout-fillet",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "substitutes_for",
+      "source": "food.protein.grains-wheat-protein.seitan",
+      "target": "food.protein.poultry.chicken-breast",
+      "source_resolved": "food.protein.grains-wheat-protein.seitan",
+      "target_resolved": "food.protein.poultry.chicken-breast",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.lamb.lamb-leg",
+      "target": "preparation.roast",
+      "source_resolved": "food.protein.lamb.lamb-leg",
+      "target_resolved": "preparation.roast",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "similar_to",
+      "source": "food.protein.lamb.lamb-loin",
+      "target": "food.protein.pork.pork-loin",
+      "source_resolved": "food.protein.lamb.lamb-loin",
+      "target_resolved": "food.protein.pork.pork-loin",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.legumes.black-beans",
+      "target": "food.protein.legumes.kidney-beans",
+      "source_resolved": "food.legume.beans.black-bean",
+      "target_resolved": "food.legume.beans.kidney-bean",
+      "classification": "deprecated_endpoint",
+      "source_deprecated": true,
+      "target_deprecated": true
+    },
+    {
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.legumes.chickpeas",
+      "target": "food.protein.legumes.lentils",
+      "source_resolved": "food.legume.chickpeas.chickpea",
+      "target_resolved": "food.legume.lentils.green-lentil",
+      "classification": "deprecated_endpoint",
+      "source_deprecated": true,
+      "target_deprecated": true
+    },
+    {
+      "relationship": "substitutes_for",
+      "source": "food.protein.mycoprotein.mycoprotein-grounds",
+      "target": "food.protein.beef.ground-beef",
+      "source_resolved": "food.protein.mycoprotein.mycoprotein-grounds",
+      "target_resolved": "food.protein.beef.ground-beef",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.pork.bacon",
+      "target": "preparation.pan-seared",
+      "source_resolved": "food.protein.pork.bacon",
+      "target_resolved": "preparation.pan-seared",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.pork.bacon",
+      "target": "food.protein.pork.pancetta",
+      "source_resolved": "food.protein.pork.bacon",
+      "target_resolved": "food.protein.pork.pancetta",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "similar_to",
+      "source": "food.protein.pork.bacon",
+      "target": "food.protein.pork.pancetta",
+      "source_resolved": "food.protein.pork.bacon",
+      "target_resolved": "food.protein.pork.pancetta",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.pork.pork-belly",
+      "target": "preparation.braise",
+      "source_resolved": "food.protein.pork.pork-belly",
+      "target_resolved": "preparation.braise",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.poultry.chicken-breast",
+      "target": "preparation.roast",
+      "source_resolved": "food.protein.poultry.chicken-breast",
+      "target_resolved": "preparation.roast",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "similar_to",
+      "source": "food.protein.poultry.chicken-breast",
+      "target": "food.protein.poultry.turkey-breast",
+      "source_resolved": "food.protein.poultry.chicken-breast",
+      "target_resolved": "food.protein.poultry.turkey-breast",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "shares_culinary_role",
+      "source": "food.protein.poultry.chicken-thigh",
+      "target": "food.protein.poultry.turkey-thigh",
+      "source_resolved": "food.protein.poultry.chicken-thigh",
+      "target_resolved": "food.protein.poultry.turkey-thigh",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.poultry.duck-breast",
+      "target": "preparation.pan-seared",
+      "source_resolved": "food.protein.poultry.duck-breast",
+      "target_resolved": "preparation.pan-seared",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "substitutes_for",
+      "source": "food.protein.poultry.ground-chicken",
+      "target": "food.protein.beef.ground-beef",
+      "source_resolved": "food.protein.poultry.ground-chicken",
+      "target_resolved": "food.protein.beef.ground-beef",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "substitutes_for",
+      "source": "food.protein.poultry.ground-turkey",
+      "target": "food.protein.beef.ground-beef",
+      "source_resolved": "food.protein.poultry.ground-turkey",
+      "target_resolved": "food.protein.beef.ground-beef",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "substitutes_for",
+      "source": "food.protein.poultry.turkey-breast",
+      "target": "food.protein.poultry.chicken-breast",
+      "source_resolved": "food.protein.poultry.turkey-breast",
+      "target_resolved": "food.protein.poultry.chicken-breast",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.poultry.whole-chicken",
+      "target": "preparation.roast",
+      "source_resolved": "food.protein.poultry.whole-chicken",
+      "target_resolved": "preparation.roast",
+      "classification": "unchanged",
+      "source_deprecated": false,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "substitutes_for",
+      "source": "food.protein.soy-foods.tempeh",
+      "target": "food.protein.beef.ground-beef",
+      "source_resolved": "food.legume.legume-products.tempeh",
+      "target_resolved": "food.protein.beef.ground-beef",
+      "classification": "deprecated_endpoint",
+      "source_deprecated": true,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "substitutes_for",
+      "source": "food.protein.soy-foods.textured-vegetable-protein",
+      "target": "food.protein.beef.ground-beef",
+      "source_resolved": "food.legume.legume-products.textured-vegetable-protein",
+      "target_resolved": "food.protein.beef.ground-beef",
+      "classification": "deprecated_endpoint",
+      "source_deprecated": true,
+      "target_deprecated": false
+    },
+    {
+      "relationship": "commonly_prepared_as",
+      "source": "food.protein.soy-foods.tofu-firm",
+      "target": "preparation.stir-fry",
+      "source_resolved": "food.legume.legume-products.tofu",
+      "target_resolved": "preparation.stir-fry",
+      "classification": "deprecated_endpoint",
+      "source_deprecated": true,
+      "target_deprecated": false
+    }
+  ],
+  "duplicate_collapse_preview": {
+    "duplicates_before_collapse": 0,
+    "duplicates_removed": 0,
+    "final_unique_edge_count": 40,
+    "duplicate_after_remap_keys": []
+  },
+  "metrics": {
+    "Edges inventoried": 40,
+    "Unchanged": 35,
+    "Remap required": 5,
+    "Deprecated endpoint": 5,
+    "Duplicate after remap": 0,
+    "Orphan": 0
+  }
+}

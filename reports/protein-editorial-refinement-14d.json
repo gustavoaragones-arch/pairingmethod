@@ -1,0 +1,25 @@
+{
+  "phase": "FOOD-14D",
+  "stage": 5,
+  "inventory_counts": {
+    "unchanged": 35,
+    "remap_required": 5,
+    "deprecated_endpoint": 5,
+    "duplicate_after_remap": 0,
+    "orphan": 0
+  },
+  "remapped_edges": 5,
+  "duplicate_collapse": {
+    "duplicates_before_collapse": 0,
+    "duplicates_removed": 0,
+    "final_unique_edge_count": 40
+  },
+  "retained_entities_verified": true,
+  "deprecated_endpoints_remaining": 0,
+  "runtime_modified": false,
+  "wine_modified": false,
+  "publication_modified": false,
+  "editorial_edge_count": 40,
+  "overall": "PASS",
+  "errors": []
+}

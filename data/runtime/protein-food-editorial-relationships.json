@@ -3,6 +3,51 @@
     {
       "confidence": "high",
       "derived_from": "editorial",
+      "evidence": "Both are common stewing beans in chili, rice bowls, and Latin-inspired dishes.",
+      "relationship": "shares_culinary_role",
+      "source": "food.legume.beans.black-bean",
+      "target": "food.legume.beans.kidney-bean",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Both are staple legume proteins in soups, stews, salads, and plant-forward cooking.",
+      "relationship": "shares_culinary_role",
+      "source": "food.legume.chickpeas.chickpea",
+      "target": "food.legume.lentils.green-lentil",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Fermented soy protein crumbled as a plant-based ground meat alternative.",
+      "relationship": "substitutes_for",
+      "source": "food.legume.legume-products.tempeh",
+      "target": "food.protein.beef.ground-beef",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Rehydrated TVP is a standard plant-based substitute for crumbled ground beef.",
+      "relationship": "substitutes_for",
+      "source": "food.legume.legume-products.textured-vegetable-protein",
+      "target": "food.protein.beef.ground-beef",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
+      "evidence": "Firm tofu is a staple stir-fry protein that holds shape over high heat.",
+      "relationship": "commonly_prepared_as",
+      "source": "food.legume.legume-products.tofu",
+      "target": "preparation.stir-fry",
+      "version": "1.0"
+    },
+    {
+      "confidence": "high",
+      "derived_from": "editorial",
       "evidence": "Brisket is a canonical low-and-slow barbecue cut across many culinary traditions.",
       "relationship": "commonly_prepared_as",
       "source": "food.protein.beef.brisket",
@@ -201,24 +246,6 @@
     {
       "confidence": "high",
       "derived_from": "editorial",
-      "evidence": "Both are common stewing beans in chili, rice bowls, and Latin-inspired dishes.",
-      "relationship": "shares_culinary_role",
-      "source": "food.protein.legumes.black-beans",
-      "target": "food.protein.legumes.kidney-beans",
-      "version": "1.0"
-    },
-    {
-      "confidence": "high",
-      "derived_from": "editorial",
-      "evidence": "Both are staple legume proteins in soups, stews, salads, and plant-forward cooking.",
-      "relationship": "shares_culinary_role",
-      "source": "food.protein.legumes.chickpeas",
-      "target": "food.protein.legumes.lentils",
-      "version": "1.0"
-    },
-    {
-      "confidence": "high",
-      "derived_from": "editorial",
       "evidence": "Mycoprotein crumbles are formulated as a direct ground beef substitute.",
       "relationship": "substitutes_for",
       "source": "food.protein.mycoprotein.mycoprotein-grounds",
@@ -332,51 +359,35 @@
       "source": "food.protein.poultry.whole-chicken",
       "target": "preparation.roast",
       "version": "1.0"
-    },
-    {
-      "confidence": "high",
-      "derived_from": "editorial",
-      "evidence": "Fermented soy protein crumbled as a plant-based ground meat alternative.",
-      "relationship": "substitutes_for",
-      "source": "food.protein.soy-foods.tempeh",
-      "target": "food.protein.beef.ground-beef",
-      "version": "1.0"
-    },
-    {
-      "confidence": "high",
-      "derived_from": "editorial",
-      "evidence": "Rehydrated TVP is a standard plant-based substitute for crumbled ground beef.",
-      "relationship": "substitutes_for",
-      "source": "food.protein.soy-foods.textured-vegetable-protein",
-      "target": "food.protein.beef.ground-beef",
-      "version": "1.0"
-    },
-    {
-      "confidence": "high",
-      "derived_from": "editorial",
-      "evidence": "Firm tofu is a staple stir-fry protein that holds shape over high heat.",
-      "relationship": "commonly_prepared_as",
-      "source": "food.protein.soy-foods.tofu-firm",
-      "target": "preparation.stir-fry",
-      "version": "1.0"
     }
   ],
   "meta": {
-    "catalog_version": "2.0.0",
+    "catalog_version": "2.1.0",
     "edge_count": 40,
     "inputs": [
-      "data/protein-food-catalog.json",
-      "data/runtime/protein-food-index.json",
-      "data/runtime/protein-food-relationships.json"
+      "data/protein-migration-map.json",
+      "data/runtime/protein-food-editorial-relationships.json",
+      "data/runtime/protein-food-id-map.json",
+      "lib/runtime/proteinMigrationResolver.js"
     ],
     "layer": "editorial",
-    "phase": "ONTOLOGY-02C.2",
+    "migration_map": "data/protein-migration-map.json",
+    "phase": "FOOD-14D",
+    "refinement": {
+      "deprecated_endpoints_before": 10,
+      "duplicates_before_collapse": 0,
+      "duplicates_removed": 0,
+      "edges_after": 40,
+      "edges_before": 40,
+      "remapped_edges": 5
+    },
     "relationship_types": [
       "similar_to",
       "substitutes_for",
       "commonly_prepared_as",
       "shares_culinary_role"
     ],
+    "resolver": "lib/runtime/proteinMigrationResolver.js",
     "version": "1.0"
   }
 }
