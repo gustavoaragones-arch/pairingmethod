@@ -1,0 +1,51 @@
+{
+  "phase": "FOOD-14B",
+  "domain": "protein",
+  "overall_result": "PASS",
+  "validation_errors": [],
+  "metrics": {
+    "Legacy entities audited": 54,
+    "Total migrations": 51,
+    "Entities retained in Protein": 3,
+    "Poster additions planned": 3,
+    "Poster concepts satisfied": 12,
+    "One-to-one canonical mapping": "PASS",
+    "Duplicate canonical targets": 3,
+    "Unresolved ownership conflicts": 0,
+    "Redirect count": 51,
+    "Overall result": "PASS"
+  },
+  "duplicate_canonical_targets": [
+    {
+      "canonical_id": "food.legume.lentils.green-lentil",
+      "legacy_ids": [
+        "food.protein.legumes.green-lentils",
+        "food.protein.legumes.lentils"
+      ]
+    },
+    {
+      "canonical_id": "food.legume.other-legumes.soybean",
+      "legacy_ids": [
+        "food.protein.soy-foods.edamame",
+        "food.protein.soy-foods.soybeans"
+      ]
+    },
+    {
+      "canonical_id": "food.legume.legume-products.tofu",
+      "legacy_ids": [
+        "food.protein.soy-foods.silken-tofu",
+        "food.protein.soy-foods.tofu-firm"
+      ]
+    }
+  ],
+  "retained_entities": [
+    "food.protein.grains-wheat-protein.seitan",
+    "food.protein.grains-wheat-protein.vital-wheat-gluten",
+    "food.protein.soy-foods.soy-milk"
+  ],
+  "governance_rules": {
+    "PROTEIN001": "Ownership transfer — canonical owner wins",
+    "PROTEIN005": "Deprecated entities excluded from runtime, editorial, and wine generation"
+  },
+  "output": "data/protein-migration-map.json"
+}

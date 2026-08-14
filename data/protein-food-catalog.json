@@ -1,16 +1,18 @@
 {
   "meta": {
-    "phase": "ONTOLOGY-02A",
+    "phase": "FOOD-14B",
     "tier": 1,
-    "catalog_version": "2.0.0",
+    "catalog_version": "2.1.0",
     "entity_type": "protein_food",
     "description": "Tier 1 Food Ontology — protein food entities. Food Protein Catalog v1 complete (ONTOLOGY-02A).",
-    "entity_count": 207,
+    "entity_count": 210,
     "food_ontology_version": "1.0",
     "wine_ontology_version": "2.0",
     "ontology_foundation_version": "1.0.0",
     "seeded": "2026-07-16",
-    "last_group": "mycoprotein"
+    "last_group": "mycoprotein",
+    "refinement_phase": "FOOD-14B",
+    "migration_map": "data/protein-migration-map.json"
   },
   "categories": [
     {
@@ -32,7 +34,8 @@
         "fin-fish",
         "crustaceans",
         "mollusks",
-        "cephalopods"
+        "cephalopods",
+        "cured-meat"
       ],
       "summary": "Meat, poultry, game, and seafood protein foods for wine pairing — organized by biological group and cut.",
       "seo_title": "Animal Protein Foods — Food Ontology",
@@ -411,7 +414,8 @@
         "prawn",
         "crab",
         "king-crab-leg",
-        "crawfish"
+        "crawfish",
+        "langoustine"
       ],
       "summary": "Lobster, crab, shrimp, prawn, and crawfish — portion and whole cuts with seafood vocabulary.",
       "faq": [
@@ -717,6 +721,28 @@
       ],
       "seo_title": "Mycoprotein — Protein Food Guide",
       "seo_description": "Generic mycoprotein product classes with processed edible_structure — no trademarked brand entities."
+    },
+    {
+      "id": "food.protein.cured-meat",
+      "slug": "cured-meat",
+      "name": "Cured Meat",
+      "entity_type": "protein_group",
+      "domain": "culinary",
+      "parent_category": "animal-protein",
+      "scientific_name": "Sus scrofa domesticus",
+      "external_ids": {},
+      "introduction": "Cured meats are salt-cured, smoked, or dry-cured animal proteins with distinct pairing identities — charcuterie, antipasto, and flavoring roles.",
+      "child_slugs": [
+        "salami",
+        "prosciutto"
+      ],
+      "summary": "Salami, prosciutto, and other cured forms with poster-level culinary identity.",
+      "seo_title": "Cured Meat — Protein Group Guide",
+      "seo_description": "Salami, prosciutto, and cured charcuterie proteins for wine pairing.",
+      "refinement": {
+        "introduced_phase": "FOOD-14B",
+        "governance_rule": "PROTEIN-004"
+      }
     }
   ],
   "protein_foods": [
@@ -9048,7 +9074,20 @@
         }
       ],
       "seo_title": "Chickpeas — Protein Food Guide",
-      "seo_description": "Chickpeas are nutty legumes — hummus, curries, and Mediterranean stews. Earthy spice and olive oil pair with rosé, Vermentino, and light Grenache."
+      "seo_description": "Chickpeas are nutty legumes — hummus, curries, and Mediterranean stews. Earthy spice and olive oil pair with rosé, Vermentino, and light Grenache.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.chickpeas.chickpea",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/chickpea/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9105,7 +9144,20 @@
         }
       ],
       "seo_title": "Lentils — Protein Food Guide",
-      "seo_description": "Lentils are quick-cooking legumes — soups, dal, and French puy-style sides. Spice and acid suit Loire reds, Côtes du Rhône, and crisp whites."
+      "seo_description": "Lentils are quick-cooking legumes — soups, dal, and French puy-style sides. Spice and acid suit Loire reds, Côtes du Rhône, and crisp whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.lentils.green-lentil",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/green-lentil/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9163,7 +9215,20 @@
         }
       ],
       "seo_title": "Green Lentils — Protein Food Guide",
-      "seo_description": "Green lentils hold shape when cooked — salads and braised sides. Pepper and mustard vinaigrette pair with Pinot Noir and Sauvignon Blanc."
+      "seo_description": "Green lentils hold shape when cooked — salads and braised sides. Pepper and mustard vinaigrette pair with Pinot Noir and Sauvignon Blanc.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.lentils.green-lentil",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/green-lentil/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9220,7 +9285,20 @@
         }
       ],
       "seo_title": "Red Lentils — Protein Food Guide",
-      "seo_description": "Red lentils break down when cooked — Indian dal and Middle Eastern soups. Cumin, turmeric, and ginger pair with Gewürztraminer and off-dry Riesling."
+      "seo_description": "Red lentils break down when cooked — Indian dal and Middle Eastern soups. Cumin, turmeric, and ginger pair with Gewürztraminer and off-dry Riesling.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.lentils.red-lentil",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/red-lentil/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9277,7 +9355,20 @@
         }
       ],
       "seo_title": "Black Lentils — Protein Food Guide",
-      "seo_description": "Black lentils are caviar-like legumes — salads and elegant sides. Balsamic and herbs pair with Pinot Noir and sparkling rosé."
+      "seo_description": "Black lentils are caviar-like legumes — salads and elegant sides. Balsamic and herbs pair with Pinot Noir and sparkling rosé.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.lentils.black-lentil",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/black-lentil/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9334,7 +9425,20 @@
         }
       ],
       "seo_title": "Black Beans — Protein Food Guide",
-      "seo_description": "Black beans are Latin American staple — rice bowls, soups, and Cuban stews. Cilantro, lime, and smoke pair with Tempranillo, Zinfandel, and beer-friendl..."
+      "seo_description": "Black beans are Latin American staple — rice bowls, soups, and Cuban stews. Cilantro, lime, and smoke pair with Tempranillo, Zinfandel, and beer-friendl...",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.beans.black-bean",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/black-bean/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9391,7 +9495,20 @@
         }
       ],
       "seo_title": "Kidney Beans — Protein Food Guide",
-      "seo_description": "Kidney beans are chili and rajma classic — hearty and absorbent. Tomato, chili, and cumin pair with Malbec, Côtes du Rhône, and iced rosé."
+      "seo_description": "Kidney beans are chili and rajma classic — hearty and absorbent. Tomato, chili, and cumin pair with Malbec, Côtes du Rhône, and iced rosé.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.beans.kidney-bean",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/kidney-bean/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9448,7 +9565,20 @@
         }
       ],
       "seo_title": "Pinto Beans — Protein Food Guide",
-      "seo_description": "Pinto beans are refried bean base — Mexican and Southwest cooking. Lard, onion, and chile pair with Tempranillo, Garnacha, and zesty whites."
+      "seo_description": "Pinto beans are refried bean base — Mexican and Southwest cooking. Lard, onion, and chile pair with Tempranillo, Garnacha, and zesty whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.beans.pinto-bean",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/pinto-bean/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9506,7 +9636,20 @@
         }
       ],
       "seo_title": "Navy Beans — Protein Food Guide",
-      "seo_description": "Navy beans are small white beans — baked beans and cassoulet. Molasses, pork context, and tomato pair with Loire reds and rustic whites."
+      "seo_description": "Navy beans are small white beans — baked beans and cassoulet. Molasses, pork context, and tomato pair with Loire reds and rustic whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.beans.navy-bean",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/navy-bean/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9563,7 +9706,20 @@
         }
       ],
       "seo_title": "Cannellini Beans — Protein Food Guide",
-      "seo_description": "Cannellini beans are creamy Italian white beans — ribollita and pasta e fagioli. Rosemary, olive oil, and parmesan context pair with Chianti and Verdicc..."
+      "seo_description": "Cannellini beans are creamy Italian white beans — ribollita and pasta e fagioli. Rosemary, olive oil, and parmesan context pair with Chianti and Verdicc...",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.beans.cannellini-bean",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/cannellini-bean/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9620,7 +9776,20 @@
         }
       ],
       "seo_title": "Lima Beans — Protein Food Guide",
-      "seo_description": "Lima beans are large starchy legumes — succotash and Southern sides. Butter and corn sweetness pair with unoaked Chardonnay and light Pinot Grigio."
+      "seo_description": "Lima beans are large starchy legumes — succotash and Southern sides. Butter and corn sweetness pair with unoaked Chardonnay and light Pinot Grigio.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.beans.lima-bean",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/lima-bean/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9678,7 +9847,20 @@
         }
       ],
       "seo_title": "Peas — Protein Food Guide",
-      "seo_description": "Dried peas are split-pea soup and British mushy pea base — earthy and comforting. Ham context and mint pair with Beaujolais and dry cider-friendly whites."
+      "seo_description": "Dried peas are split-pea soup and British mushy pea base — earthy and comforting. Ham context and mint pair with Beaujolais and dry cider-friendly whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.peas.green-pea",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/green-pea/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9735,7 +9917,20 @@
         }
       ],
       "seo_title": "Soybeans — Protein Food Guide",
-      "seo_description": "Dried soybeans are the base of tofu, tempeh, and soy milk — East Asian protein foundation. Fermented and umami preparations pair with sake, Riesling, an..."
+      "seo_description": "Dried soybeans are the base of tofu, tempeh, and soy milk — East Asian protein foundation. Fermented and umami preparations pair with sake, Riesling, an...",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.other-legumes.soybean",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/soybean/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9792,7 +9987,20 @@
         }
       ],
       "seo_title": "Edamame — Protein Food Guide",
-      "seo_description": "Edamame are young soybeans in pod — salted appetizer and poke bowls. Salt, sesame, and citrus pair with sake, Sauvignon Blanc, and dry rosé."
+      "seo_description": "Edamame are young soybeans in pod — salted appetizer and poke bowls. Salt, sesame, and citrus pair with sake, Sauvignon Blanc, and dry rosé.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.other-legumes.soybean",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/soybean/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9850,7 +10058,20 @@
         }
       ],
       "seo_title": "Tofu (Firm) — Protein Food Guide",
-      "seo_description": "Firm tofu is pressed soybean curd — stir-fries, grilling, and mapo tofu. Chili, soy, and sesame oil pair with Gewürztraminer, Riesling, and off-dry whites."
+      "seo_description": "Firm tofu is pressed soybean curd — stir-fries, grilling, and mapo tofu. Chili, soy, and sesame oil pair with Gewürztraminer, Riesling, and off-dry whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.legume-products.tofu",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/tofu/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9907,7 +10128,20 @@
         }
       ],
       "seo_title": "Silken Tofu — Protein Food Guide",
-      "seo_description": "Silken tofu is delicate unpressed curd — soups, douhua, and dressings. Ginger, scallion, and light soy pair with sake, Chenin Blanc, and floral whites."
+      "seo_description": "Silken tofu is delicate unpressed curd — soups, douhua, and dressings. Ginger, scallion, and light soy pair with sake, Chenin Blanc, and floral whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.legume-products.tofu",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/tofu/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -9964,7 +10198,20 @@
         }
       ],
       "seo_title": "Tempeh — Protein Food Guide",
-      "seo_description": "Tempeh is fermented soybean cake — nutty, firm, and grill-friendly. Marinades and peanut sauce pair with Pinot Gris, Austrian Grüner, and amber wines."
+      "seo_description": "Tempeh is fermented soybean cake — nutty, firm, and grill-friendly. Marinades and peanut sauce pair with Pinot Gris, Austrian Grüner, and amber wines.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.legume-products.tempeh",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/tempeh/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10020,7 +10267,20 @@
         }
       ],
       "seo_title": "Natto — Protein Food Guide",
-      "seo_description": "Natto is sticky fermented soybeans — Japanese breakfast with rice. Umami and funk pair with sake, light lager-style whites, and crisp Japanese lagers."
+      "seo_description": "Natto is sticky fermented soybeans — Japanese breakfast with rice. Umami and funk pair with sake, light lager-style whites, and crisp Japanese lagers.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.legume-products.natto",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/natto/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10078,7 +10338,20 @@
         }
       ],
       "seo_title": "Textured Vegetable Protein — Protein Food Guide",
-      "seo_description": "TVP is defatted soy flour rehydrated — chili, tacos, and plant-based crumbles. Bold spice and tomato pair with Zinfandel, Syrah, and iced rosé."
+      "seo_description": "TVP is defatted soy flour rehydrated — chili, tacos, and plant-based crumbles. Bold spice and tomato pair with Zinfandel, Syrah, and iced rosé.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.legume-products.textured-vegetable-protein",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/textured-vegetable-protein/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10135,7 +10408,20 @@
         }
       ],
       "seo_title": "Soy Curls — Protein Food Guide",
-      "seo_description": "Soy curls are dehydrated whole soybean strips — chicken-like texture when rehydrated. BBQ and stir-fry sauces pair with medium reds and smoky whites."
+      "seo_description": "Soy curls are dehydrated whole soybean strips — chicken-like texture when rehydrated. BBQ and stir-fry sauces pair with medium reds and smoky whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.legume-products.soy-curls",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/soy-curls/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10192,7 +10478,17 @@
         }
       ],
       "seo_title": "Soy Milk — Protein Food Guide",
-      "seo_description": "Soy milk is pressed soybean beverage — breakfast, smoothies, and savory cooking. Light fruit and cereal contexts pair with morning whites and off-dry sp..."
+      "seo_description": "Soy milk is pressed soybean beverage — breakfast, smoothies, and savory cooking. Light fruit and cereal contexts pair with morning whites and off-dry sp...",
+      "refinement": {
+        "retained": true,
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "reason": "No canonical legume catalog entity for soy milk at v2.0.0 — retained in Protein pending legume catalog extension.",
+        "runtime_generate": true,
+        "editorial_generate": true,
+        "wine_generate": true,
+        "publication_mode": "active"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10249,7 +10545,20 @@
         }
       ],
       "seo_title": "Miso — Protein Food Guide",
-      "seo_description": "Miso is fermented soybean paste — soups, marinades, and glazes. Salty umami pairs with sake, Chenin Blanc, and light Pinot Noir in miso-glazed dishes."
+      "seo_description": "Miso is fermented soybean paste — soups, marinades, and glazes. Salty umami pairs with sake, Chenin Blanc, and light Pinot Noir in miso-glazed dishes.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.legume.legume-products.miso",
+        "canonical_domain": "legume",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/legumes/miso/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10307,7 +10616,17 @@
         }
       ],
       "seo_title": "Seitan — Protein Food Guide",
-      "seo_description": "Seitan is seasoned wheat gluten — chewy plant protein for stir-fries and roasts. Soy, ginger, and smoke pair with Riesling, Gamay, and medium reds."
+      "seo_description": "Seitan is seasoned wheat gluten — chewy plant protein for stir-fries and roasts. Soy, ginger, and smoke pair with Riesling, Gamay, and medium reds.",
+      "refinement": {
+        "retained": true,
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "reason": "Canonical wheat-protein preparation per GRAIN_STARCH governance — seitan remains in Protein; Grain & Starch cross-reference only.",
+        "runtime_generate": true,
+        "editorial_generate": true,
+        "wine_generate": true,
+        "publication_mode": "active"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10364,7 +10683,17 @@
         }
       ],
       "seo_title": "Vital Wheat Gluten — Protein Food Guide",
-      "seo_description": "Vital wheat gluten is pure wheat protein flour — seitan base and bread enhancement. Used as ingredient-protein; pairing follows prepared dish context."
+      "seo_description": "Vital wheat gluten is pure wheat protein flour — seitan base and bread enhancement. Used as ingredient-protein; pairing follows prepared dish context.",
+      "refinement": {
+        "retained": true,
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "reason": "Vital wheat gluten is the seitan base — retained in Protein per GRAIN_STARCH governance §10.",
+        "runtime_generate": true,
+        "editorial_generate": true,
+        "wine_generate": true,
+        "publication_mode": "active"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10421,7 +10750,20 @@
         }
       ],
       "seo_title": "Quinoa — Protein Food Guide",
-      "seo_description": "Quinoa is complete-protein pseudograin — bowls, salads, and South American sides. Lime, avocado, and cilantro pair with Torrontés, Sauvignon Blanc, and ..."
+      "seo_description": "Quinoa is complete-protein pseudograin — bowls, salads, and South American sides. Lime, avocado, and cilantro pair with Torrontés, Sauvignon Blanc, and ...",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.grain.pseudocereals.quinoa",
+        "canonical_domain": "grain-starch",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/grains-starches/quinoa/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10478,7 +10820,20 @@
         }
       ],
       "seo_title": "Amaranth — Protein Food Guide",
-      "seo_description": "Amaranth is tiny high-protein grain — porridge and popped garnish. Honey and nut contexts pair with aromatic whites and light dessert wines off-dry."
+      "seo_description": "Amaranth is tiny high-protein grain — porridge and popped garnish. Honey and nut contexts pair with aromatic whites and light dessert wines off-dry.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.grain.pseudocereals.amaranth",
+        "canonical_domain": "grain-starch",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/grains-starches/amaranth/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10535,7 +10890,20 @@
         }
       ],
       "seo_title": "Buckwheat — Protein Food Guide",
-      "seo_description": "Buckwheat groats are earthy pseudograin — kasha, soba context, and Eastern European sides. Mushroom and onion pair with earthy Pinot Noir and sparkling ..."
+      "seo_description": "Buckwheat groats are earthy pseudograin — kasha, soba context, and Eastern European sides. Mushroom and onion pair with earthy Pinot Noir and sparkling ...",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.grain.pseudocereals.buckwheat",
+        "canonical_domain": "grain-starch",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/grains-starches/buckwheat/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10592,7 +10960,20 @@
         }
       ],
       "seo_title": "Farro — Protein Food Guide",
-      "seo_description": "Farro is ancient wheat berry — nutty salads and risotto-style sides. Tomato, olive, and parmesan context pair with Chianti, Vermentino, and Sangiovese."
+      "seo_description": "Farro is ancient wheat berry — nutty salads and risotto-style sides. Tomato, olive, and parmesan context pair with Chianti, Vermentino, and Sangiovese.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.grain.whole-grains.farro",
+        "canonical_domain": "grain-starch",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/grains-starches/farro/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10650,7 +11031,20 @@
         }
       ],
       "seo_title": "Oats — Protein Food Guide",
-      "seo_description": "Oats are cereal grain — porridge, granola, and savory oat risotto. Brown butter, fruit, and spice pair with morning whites and off-dry cider styles."
+      "seo_description": "Oats are cereal grain — porridge, granola, and savory oat risotto. Brown butter, fruit, and spice pair with morning whites and off-dry cider styles.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.grain.whole-grains.oats",
+        "canonical_domain": "grain-starch",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/grains-starches/oats/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10708,7 +11102,20 @@
         }
       ],
       "seo_title": "Barley — Protein Food Guide",
-      "seo_description": "Barley is chewy cereal grain — soups, risotto, and beer-adjacent pairings. Mushroom broth and root vegetables pair with Pinot Noir, Chardonnay, and farm..."
+      "seo_description": "Barley is chewy cereal grain — soups, risotto, and beer-adjacent pairings. Mushroom broth and root vegetables pair with Pinot Noir, Chardonnay, and farm...",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.grain.whole-grains.barley",
+        "canonical_domain": "grain-starch",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/grains-starches/barley/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10765,7 +11172,20 @@
         }
       ],
       "seo_title": "Almonds — Protein Food Guide",
-      "seo_description": "Almonds are tree nut staple — snacking, romesco, and marzipan context. Nutty richness pairs with Sherry, oaky Chardonnay, and amontillado styles."
+      "seo_description": "Almonds are tree nut staple — snacking, romesco, and marzipan context. Nutty richness pairs with Sherry, oaky Chardonnay, and amontillado styles.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.nut-seed.tree-nuts.almond",
+        "canonical_domain": "nut-seed",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/nut-seeds/almond/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10822,7 +11242,20 @@
         }
       ],
       "seo_title": "Walnuts — Protein Food Guide",
-      "seo_description": "Walnuts are omega-rich tree nuts — salads, pesto, and baklava. Bitter skin and fat pair with Vin Santo off-dry, Cabernet Franc, and blue cheese contexts."
+      "seo_description": "Walnuts are omega-rich tree nuts — salads, pesto, and baklava. Bitter skin and fat pair with Vin Santo off-dry, Cabernet Franc, and blue cheese contexts.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.nut-seed.tree-nuts.walnut",
+        "canonical_domain": "nut-seed",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/nut-seeds/walnut/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10879,7 +11312,20 @@
         }
       ],
       "seo_title": "Pistachios — Protein Food Guide",
-      "seo_description": "Pistachios are green Middle Eastern nut — dukkah, ice cream, and lamb-side contexts. Salt and rose pair with Gewürztraminer, Viognier, and off-dry whites."
+      "seo_description": "Pistachios are green Middle Eastern nut — dukkah, ice cream, and lamb-side contexts. Salt and rose pair with Gewürztraminer, Viognier, and off-dry whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.nut-seed.tree-nuts.pistachio",
+        "canonical_domain": "nut-seed",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/nut-seeds/pistachio/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10936,7 +11382,20 @@
         }
       ],
       "seo_title": "Cashews — Protein Food Guide",
-      "seo_description": "Cashews are creamy tree nut — curries, vegan cream sauces, and stir-fries. Coconut milk and chili pair with Riesling, Gewürztraminer, and tropical whites."
+      "seo_description": "Cashews are creamy tree nut — curries, vegan cream sauces, and stir-fries. Coconut milk and chili pair with Riesling, Gewürztraminer, and tropical whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.nut-seed.tree-nuts.cashew",
+        "canonical_domain": "nut-seed",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/nut-seeds/cashew/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -10993,7 +11452,20 @@
         }
       ],
       "seo_title": "Peanuts — Protein Food Guide",
-      "seo_description": "Peanuts are legume-nut hybrid staple — satay, kung pao, and Southern boils. Chili, lime, and smoke pair with beer, Zinfandel, and off-dry Riesling."
+      "seo_description": "Peanuts are legume-nut hybrid staple — satay, kung pao, and Southern boils. Chili, lime, and smoke pair with beer, Zinfandel, and off-dry Riesling.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.nut-seed.peanuts.peanut",
+        "canonical_domain": "nut-seed",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/nut-seeds/peanut/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11050,7 +11522,20 @@
         }
       ],
       "seo_title": "Pumpkin Seeds — Protein Food Guide",
-      "seo_description": "Pumpkin seeds (pepitas) are green hulled seeds — moles, granola, and Mexican soups. Earthy chili and tomatillo pair with Sauvignon Blanc and Mexican whi..."
+      "seo_description": "Pumpkin seeds (pepitas) are green hulled seeds — moles, granola, and Mexican soups. Earthy chili and tomatillo pair with Sauvignon Blanc and Mexican whi...",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.nut-seed.edible-seeds.pumpkin-seed",
+        "canonical_domain": "nut-seed",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/nut-seeds/pumpkin-seed/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11107,7 +11592,20 @@
         }
       ],
       "seo_title": "Sunflower Seeds — Protein Food Guide",
-      "seo_description": "Sunflower seeds are hulled kernels — bread, pesto, and snack mixes. Herb and garlic pair with crisp whites and pale rosé."
+      "seo_description": "Sunflower seeds are hulled kernels — bread, pesto, and snack mixes. Herb and garlic pair with crisp whites and pale rosé.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.nut-seed.edible-seeds.sunflower-seed",
+        "canonical_domain": "nut-seed",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/nut-seeds/sunflower-seed/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11164,7 +11662,20 @@
         }
       ],
       "seo_title": "Hemp Seeds — Protein Food Guide",
-      "seo_description": "Hemp seeds are mild omega-rich seeds — smoothies, salads, and plant bowls. Citrus and avocado pair with New Zealand Sauvignon Blanc and dry rosé."
+      "seo_description": "Hemp seeds are mild omega-rich seeds — smoothies, salads, and plant bowls. Citrus and avocado pair with New Zealand Sauvignon Blanc and dry rosé.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.nut-seed.edible-seeds.hemp-seed",
+        "canonical_domain": "nut-seed",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/nut-seeds/hemp-seed/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11221,7 +11732,20 @@
         }
       ],
       "seo_title": "Chia Seeds — Protein Food Guide",
-      "seo_description": "Chia seeds gel when soaked — puddings, smoothies, and vegan egg substitute. Tropical fruit and coconut pair with off-dry whites and dessert wines lightl..."
+      "seo_description": "Chia seeds gel when soaked — puddings, smoothies, and vegan egg substitute. Tropical fruit and coconut pair with off-dry whites and dessert wines lightl...",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.nut-seed.edible-seeds.chia-seed",
+        "canonical_domain": "nut-seed",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/nut-seeds/chia-seed/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11279,7 +11803,20 @@
         }
       ],
       "seo_title": "Flaxseed — Protein Food Guide",
-      "seo_description": "Flaxseed is omega-3 seed — baking, vegan egg wash, and health bowls. Nutty earth pairs with morning whites; more ingredient accent than plate center."
+      "seo_description": "Flaxseed is omega-3 seed — baking, vegan egg wash, and health bowls. Nutty earth pairs with morning whites; more ingredient accent than plate center.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.nut-seed.edible-seeds.flaxseed",
+        "canonical_domain": "nut-seed",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/nut-seeds/flaxseed/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11336,7 +11873,20 @@
         }
       ],
       "seo_title": "Sesame Seeds — Protein Food Guide",
-      "seo_description": "Sesame seeds are tahini base — Middle Eastern, Japanese, and Chinese dishes. Tahini richness pairs with Israeli whites, sake, and aromatic Gewürztraminer."
+      "seo_description": "Sesame seeds are tahini base — Middle Eastern, Japanese, and Chinese dishes. Tahini richness pairs with Israeli whites, sake, and aromatic Gewürztraminer.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.nut-seed.edible-seeds.sesame",
+        "canonical_domain": "nut-seed",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/nut-seeds/sesame/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11393,7 +11943,20 @@
         }
       ],
       "seo_title": "Pine Nuts — Protein Food Guide",
-      "seo_description": "Pine nuts are delicate pesto staple — basil, butter, and Mediterranean dishes. High oil content pairs with Vermentino, Soave, and light Italian whites."
+      "seo_description": "Pine nuts are delicate pesto staple — basil, butter, and Mediterranean dishes. High oil content pairs with Vermentino, Soave, and light Italian whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.nut-seed.tree-nuts.pine-nut",
+        "canonical_domain": "nut-seed",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/nut-seeds/pine-nut/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11452,7 +12015,20 @@
         }
       ],
       "seo_title": "Button Mushroom — Protein Food Guide",
-      "seo_description": "Button mushroom is the young white Agaricus — salads, pizzas, and pan sauces. Mild umami pairs with Chardonnay, Pinot Noir, and sparkling."
+      "seo_description": "Button mushroom is the young white Agaricus — salads, pizzas, and pan sauces. Mild umami pairs with Chardonnay, Pinot Noir, and sparkling.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.fungi.cultivated-mushrooms.button-mushroom",
+        "canonical_domain": "fungi",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/fungi/button-mushroom/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11511,7 +12087,20 @@
         }
       ],
       "seo_title": "Cremini Mushroom — Protein Food Guide",
-      "seo_description": "Cremini is mature brown Agaricus — deeper flavor than button mushrooms. Earthy notes suit Pinot Noir, Barbera, and rustic Italian whites."
+      "seo_description": "Cremini is mature brown Agaricus — deeper flavor than button mushrooms. Earthy notes suit Pinot Noir, Barbera, and rustic Italian whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.fungi.cultivated-mushrooms.cremini",
+        "canonical_domain": "fungi",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/fungi/cremini/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11570,7 +12159,20 @@
         }
       ],
       "seo_title": "Portobello Mushroom — Protein Food Guide",
-      "seo_description": "Portobello is fully mature Agaricus cap — grill-steak substitute and burger bun. Meaty texture pairs with Cabernet Franc, Syrah, and full Chardonnay."
+      "seo_description": "Portobello is fully mature Agaricus cap — grill-steak substitute and burger bun. Meaty texture pairs with Cabernet Franc, Syrah, and full Chardonnay.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.fungi.cultivated-mushrooms.portobello",
+        "canonical_domain": "fungi",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/fungi/portobello/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11628,7 +12230,20 @@
         }
       ],
       "seo_title": "Shiitake Mushroom — Protein Food Guide",
-      "seo_description": "Shiitake is East Asian cultivated mushroom — stir-fries, dashi, and ramen. Savory umami pairs with sake, Riesling, and light Pinot Noir."
+      "seo_description": "Shiitake is East Asian cultivated mushroom — stir-fries, dashi, and ramen. Savory umami pairs with sake, Riesling, and light Pinot Noir.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.fungi.cultivated-mushrooms.shiitake",
+        "canonical_domain": "fungi",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/fungi/shiitake/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11686,7 +12301,20 @@
         }
       ],
       "seo_title": "Oyster Mushroom — Protein Food Guide",
-      "seo_description": "Oyster mushroom grows in fan-shaped clusters — delicate texture and mild flavor. Butter and herbs pair with Chardonnay, Soave, and dry rosé."
+      "seo_description": "Oyster mushroom grows in fan-shaped clusters — delicate texture and mild flavor. Butter and herbs pair with Chardonnay, Soave, and dry rosé.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+        "canonical_domain": "fungi",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/fungi/oyster-mushroom/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11745,7 +12373,20 @@
         }
       ],
       "seo_title": "King Oyster Mushroom — Protein Food Guide",
-      "seo_description": "King oyster has thick stem and small cap — scallop-like slices when seared. Umami and smoke pair with Vermentino, Grüner Veltliner, and medium reds."
+      "seo_description": "King oyster has thick stem and small cap — scallop-like slices when seared. Umami and smoke pair with Vermentino, Grüner Veltliner, and medium reds.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.fungi.cultivated-mushrooms.king-oyster",
+        "canonical_domain": "fungi",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/fungi/king-oyster/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11804,7 +12445,20 @@
         }
       ],
       "seo_title": "Enoki Mushroom — Protein Food Guide",
-      "seo_description": "Enoki are long thin white mushrooms — hot pot, soups, and Japanese salads. Light broth preparations pair with sake, Champagne, and crisp whites."
+      "seo_description": "Enoki are long thin white mushrooms — hot pot, soups, and Japanese salads. Light broth preparations pair with sake, Champagne, and crisp whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.fungi.cultivated-mushrooms.enoki",
+        "canonical_domain": "fungi",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/fungi/enoki/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11862,7 +12516,20 @@
         }
       ],
       "seo_title": "Maitake Mushroom — Protein Food Guide",
-      "seo_description": "Maitake forms frilly clusters — roasted or pan-fried with garlic. Forest-floor umami pairs with Pinot Noir, Nebbiolo, and earthy whites."
+      "seo_description": "Maitake forms frilly clusters — roasted or pan-fried with garlic. Forest-floor umami pairs with Pinot Noir, Nebbiolo, and earthy whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.fungi.cultivated-mushrooms.maitake",
+        "canonical_domain": "fungi",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/fungi/maitake/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11921,7 +12588,20 @@
         }
       ],
       "seo_title": "Lion's Mane Mushroom — Protein Food Guide",
-      "seo_description": "Lion's mane is shaggy white mushroom — crab-like texture when seared. Butter and thyme pair with Chardonnay, Chenin Blanc, and light reds."
+      "seo_description": "Lion's mane is shaggy white mushroom — crab-like texture when seared. Butter and thyme pair with Chardonnay, Chenin Blanc, and light reds.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.fungi.specialty-fungi.lions-mane",
+        "canonical_domain": "fungi",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/fungi/lions-mane/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -11980,7 +12660,20 @@
         }
       ],
       "seo_title": "Morel Mushroom — Protein Food Guide",
-      "seo_description": "Morel is honeycombed spring mushroom — cream sauces and poultry pairings. Earthy luxury suits Pinot Noir, aged Chardonnay, and Jura whites."
+      "seo_description": "Morel is honeycombed spring mushroom — cream sauces and poultry pairings. Earthy luxury suits Pinot Noir, aged Chardonnay, and Jura whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.fungi.wild-mushrooms.morel",
+        "canonical_domain": "fungi",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/fungi/morel/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -12040,7 +12733,20 @@
         }
       ],
       "seo_title": "Porcini Mushroom — Protein Food Guide",
-      "seo_description": "Porcini is prized bolete — risotto, pasta, and wild mushroom ragù. Intense umami pairs with Barolo, Barbaresco, and full Italian whites."
+      "seo_description": "Porcini is prized bolete — risotto, pasta, and wild mushroom ragù. Intense umami pairs with Barolo, Barbaresco, and full Italian whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.fungi.wild-mushrooms.porcini",
+        "canonical_domain": "fungi",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/fungi/porcini/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -12099,7 +12805,20 @@
         }
       ],
       "seo_title": "Chanterelle Mushroom — Protein Food Guide",
-      "seo_description": "Chanterelle is golden trumpet mushroom — French and Scandinavian foraging classic. Apricot aroma pairs with Chardonnay, Champagne, and Loire whites."
+      "seo_description": "Chanterelle is golden trumpet mushroom — French and Scandinavian foraging classic. Apricot aroma pairs with Chardonnay, Champagne, and Loire whites.",
+      "refinement": {
+        "deprecated": true,
+        "canonical_id": "food.fungi.wild-mushrooms.chanterelle",
+        "canonical_domain": "fungi",
+        "governance_rule": "PROTEIN-001",
+        "migration_phase": "FOOD-14B",
+        "runtime_generate": false,
+        "editorial_generate": false,
+        "wine_generate": false,
+        "publication_mode": "redirect",
+        "redirect_required": true,
+        "canonical_publication_path": "/fungi/chanterelle/"
+      }
     },
     {
       "entity_type": "protein_food",
@@ -12388,6 +13107,172 @@
       ],
       "seo_title": "Mycoprotein Steak — Protein Food Guide",
       "seo_description": "Mycoprotein steak is thick formed cut for grilling — vegetarian steak night. Peppercorn sauce and char pair with Malbec, Syrah, and full whites."
+    },
+    {
+      "id": "food.protein.cured-meat.salami",
+      "slug": "salami",
+      "name": "Salami",
+      "entity_type": "protein_food",
+      "domain": "culinary",
+      "parent_group": "cured-meat",
+      "food_category": "animal",
+      "scientific_name": "Sus scrofa domesticus",
+      "external_ids": {},
+      "aliases": [
+        "dry-cured sausage"
+      ],
+      "fat_content": "rich",
+      "cut_type": "trim",
+      "bone_state": "boneless",
+      "primary_cooking_methods": [
+        "slice",
+        "pan-sear"
+      ],
+      "recommended_doneness": [
+        "well-done"
+      ],
+      "anatomical_cut": "trim",
+      "processing_state": "cured",
+      "texture": [],
+      "typical_descriptors": [],
+      "wine_pairings": [],
+      "avoid_wine_pairings": [],
+      "related_styles": [],
+      "related_descriptors": [],
+      "related_regions": [],
+      "related_serving": [],
+      "related_techniques": [],
+      "similar_foods": [],
+      "substitutes": [],
+      "common_preparations": [],
+      "common_cuisines": [],
+      "summary": "Salami is dry-cured fermented sausage — savory, garlicky, and fat-rich. Structured reds, Lambrusco, and off-dry whites suit charcuterie boards.",
+      "beginner_notes": "Slice thin for boards; cooking optional in pasta and pizza.",
+      "faq": [
+        {
+          "q": "What is Salami?",
+          "a": "Dry-cured fermented sausage with regional styles worldwide."
+        }
+      ],
+      "seo_title": "Salami — Protein Food Guide",
+      "seo_description": "Salami is dry-cured fermented sausage for charcuterie and cooking — pairs with Lambrusco and structured reds.",
+      "refinement": {
+        "introduced_phase": "FOOD-14B",
+        "poster_concept": "Cured Meat — salami",
+        "governance_rule": "PROTEIN-004"
+      }
+    },
+    {
+      "id": "food.protein.cured-meat.prosciutto",
+      "slug": "prosciutto",
+      "name": "Prosciutto",
+      "entity_type": "protein_food",
+      "domain": "culinary",
+      "parent_group": "cured-meat",
+      "food_category": "animal",
+      "scientific_name": "Sus scrofa domesticus",
+      "external_ids": {},
+      "aliases": [
+        "prosciutto di parma",
+        "Parma ham"
+      ],
+      "fat_content": "rich",
+      "cut_type": "trim",
+      "bone_state": "boneless",
+      "primary_cooking_methods": [
+        "slice"
+      ],
+      "recommended_doneness": [
+        "well-done"
+      ],
+      "anatomical_cut": "leg",
+      "processing_state": "cured",
+      "texture": [],
+      "typical_descriptors": [],
+      "wine_pairings": [],
+      "avoid_wine_pairings": [],
+      "related_styles": [],
+      "related_descriptors": [],
+      "related_regions": [],
+      "related_serving": [],
+      "related_techniques": [],
+      "similar_foods": [],
+      "substitutes": [],
+      "common_preparations": [],
+      "common_cuisines": [],
+      "summary": "Prosciutto is dry-cured Italian ham — silky, salty, and delicate. Prosecco, dry rosé, and light Pinot Noir suit antipasto and melon pairings.",
+      "beginner_notes": "Serve paper-thin; avoid cooking — heat melts delicate texture.",
+      "faq": [
+        {
+          "q": "What is Prosciutto?",
+          "a": "Dry-cured ham traditionally from Italian hind leg."
+        }
+      ],
+      "seo_title": "Prosciutto — Protein Food Guide",
+      "seo_description": "Prosciutto is dry-cured Italian ham for antipasto — pairs with Prosecco and dry rosé.",
+      "refinement": {
+        "introduced_phase": "FOOD-14B",
+        "poster_concept": "Cured Meat — prosciutto",
+        "governance_rule": "PROTEIN-004"
+      }
+    },
+    {
+      "id": "food.protein.crustaceans.langoustine",
+      "slug": "langoustine",
+      "name": "Langoustine",
+      "entity_type": "protein_food",
+      "domain": "culinary",
+      "parent_group": "crustaceans",
+      "food_category": "animal",
+      "scientific_name": "Nephrops norvegicus",
+      "species": "langoustine",
+      "external_ids": {},
+      "aliases": [
+        "Dublin Bay prawn",
+        "scampi",
+        "Norway lobster"
+      ],
+      "fat_content": "lean",
+      "cut_type": "whole",
+      "anatomical_cut": "",
+      "bone_state": "boneless",
+      "processing_state": "fresh",
+      "primary_cooking_methods": [
+        "grill",
+        "sauté",
+        "roast"
+      ],
+      "recommended_doneness": [
+        "well-done"
+      ],
+      "texture": [],
+      "typical_descriptors": [],
+      "wine_pairings": [],
+      "avoid_wine_pairings": [],
+      "related_styles": [],
+      "related_descriptors": [],
+      "related_regions": [],
+      "related_serving": [],
+      "related_techniques": [],
+      "similar_foods": [],
+      "substitutes": [],
+      "common_preparations": [],
+      "common_cuisines": [],
+      "summary": "Langoustine is a slender clawed crustacean — sweeter and more delicate than large warm-water prawns. Mineral whites, Champagne, and dry rosé suit butter and garlic preparations.",
+      "beginner_notes": "Also sold as scampi or Dublin Bay prawn — distinct from large tiger prawn.",
+      "faq": [
+        {
+          "q": "What is Langoustine?",
+          "a": "A cold-water crustacean prized in European seafood cookery."
+        }
+      ],
+      "seo_title": "Langoustine — Protein Food Guide",
+      "seo_description": "Langoustine is a delicate crustacean for grilling and roasting — pairs with Champagne and mineral whites.",
+      "refinement": {
+        "introduced_phase": "FOOD-14B",
+        "poster_concept": "Lobster & Shellfish — langoustine",
+        "governance_rule": "PROTEIN-003"
+      }
     }
   ]
 }

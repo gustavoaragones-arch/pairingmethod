@@ -343,7 +343,7 @@ FOOD-14D does not modify runtime structural edges.
 | Phase | Scope | Entity changes |
 |-------|-------|----------------|
 | **FOOD-14A** (this document) | Governance freeze | **None** |
-| FOOD-14B | Ownership reconciliation + catalog amendments + `data/protein-migration-map.json` | Yes — governed by PROTEIN-001–005 |
+| **FOOD-14B** | Ownership reconciliation + migration map + catalog metadata | **Complete** |
 | FOOD-14C | Runtime normalization + certification | Recompile only |
 | FOOD-14D | Editorial refinement | Editorial layer only |
 | FOOD-14E | Wine pairing refinement | Wine layer only |

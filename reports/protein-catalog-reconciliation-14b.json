@@ -1,0 +1,18 @@
+{
+  "phase": "FOOD-14B",
+  "domain": "protein",
+  "overall_result": "PASS",
+  "output": "data/protein-food-catalog.json",
+  "metrics": {
+    "Entities before reconciliation": 207,
+    "Entities after reconciliation": 210,
+    "Deprecated entities marked": 51,
+    "Retained entities marked": 3,
+    "Poster additions applied": 3,
+    "Catalog version": "2.1.0",
+    "Runtime modified": false,
+    "Editorial modified": false,
+    "Wine modified": false,
+    "Publication modified": false
+  }
+}
