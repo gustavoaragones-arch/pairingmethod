@@ -55,6 +55,7 @@
     "generate:publication-assets-14f": "node scripts/generate-publication-assets-14f.mjs",
     "certify:food-ontology-suite-14f": "node scripts/certify-food-ontology-suite-14f.mjs",
     "compile:food-ontology-suite-14f": "npm run generate:publication-assets-14f && npm run certify:food-ontology-suite-14f",
+    "certify:suite-stab-07": "node scripts/certify-suite-stab-07.mjs",
     "ontology:catalog-audit-protein-food": "node scripts/catalog-audit-02aa.mjs",
     "ontology:validate-protein-food-runtime": "node scripts/validate-runtime-protein-food-02b2.mjs",
     "ontology:map-protein-food-relationships": "node scripts/map-protein-food-relationships-02c1.mjs",

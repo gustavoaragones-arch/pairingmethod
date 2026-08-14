@@ -306,16 +306,16 @@ Domain governance documents define **domain-specific** rules only. Suite-wide in
 
 Every suite release note includes this table. It reinforces the primary architectural achievement since Platform v1.0.0: **each new domain increases knowledge, not platform complexity.**
 
-| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 | v1.4.0 | v1.5.0 | v1.6.0 | v1.7.0 | v1.8.0 | v1.9.0 | v2.0.0 |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| Published ontology domains | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | **11** |
-| Canonical entities (leaf) | 207 | 411 | 485 | 528 | 641 | 717 | 836 | 925 | 1,000 | 1,073 | **1,163** |
-| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | ~85,500+ | ~91,900 | ~93,800 | ~97,900 | ~100,600 | ~102,700 | ~104,900 | **~109,000** |
-| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | ~370 | ~650 | ~840 | ~1,175 | ~1,460 | ~1,740 | ~2,005 | **~2,266** |
-| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | ~300 | ~520 | ~700 | ~960 | ~1,180 | ~1,375 | ~1,569 | **~1,760** |
-| Publication lifecycle reuse | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | **100%** |
-| Platform modifications required | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **1** |
-| Shared infrastructure extensions | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 2 | **3** |
+| Metric | v1.0.0 | v1.1.0 | v1.2.0 | v1.3.0 | v1.4.0 | v1.5.0 | v1.6.0 | v1.7.0 | v1.8.0 | v1.9.0 | v2.0.0 | v2.1.0 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Published ontology domains | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | **11** | **11** |
+| Canonical entities (leaf) | 207 | 411 | 485 | 528 | 641 | 717 | 836 | 925 | 1,000 | 1,073 | **1,163** | **1,166** |
+| Runtime relationship edges (cumulative) | ~36,000 | ~80,000 | ~85,000 | ~85,500+ | ~91,900 | ~93,800 | ~97,900 | ~100,600 | ~102,700 | ~104,900 | **~109,000** | **~102,300** |
+| Editorial relationship edges (cumulative) | ~40 | ~125 | ~280 | ~370 | ~650 | ~840 | ~1,175 | ~1,460 | ~1,740 | ~2,005 | **~2,266** | **~2,266** |
+| Wine pairing relationships (cumulative) | ~30 | ~100 | ~220 | ~300 | ~520 | ~700 | ~960 | ~1,180 | ~1,375 | ~1,569 | **~1,760** | **~1,760** |
+| Publication lifecycle reuse | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | 100% | **100%** | **100%** |
+| Platform modifications required | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **1** | **1** |
+| Shared infrastructure extensions | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 2 | **3** | **4** |
 
 *Edge counts are measured from certified runtime artifacts at release time (structural + intrinsic similarity layers for runtime; editorial and wine layers reported separately).*
 
@@ -333,11 +333,157 @@ Every suite release note includes this table. It reinforces the primary architec
 
 **Certified totals at v2.0.0 (exact):** runtime structural 108,980 · editorial 2,266 · wine pairings 1,760 · leaf entities 1,163 · publication pages 1,248.
 
+**Certified totals at v2.1.0 (exact):** runtime structural 102,259 · editorial 2,266 · wine pairings 1,760 · leaf entities 1,166 · publication pages 1,252. Runtime edge count decreases vs v2.0.0 because Protein FOOD-14C excludes 51 deprecated entities from runtime generation (PROTEIN-005); editorial and wine edge counts are unchanged at suite level (canonical ID remapping only).
+
 *Shared infrastructure extension at v1.8.0: one documented, minimal enhancement to `runtime-loader.js` plus routing through `loadDomainInputs` in `links.js` and `certify-publication.js` — supports consolidated runtime inputs without affecting renderer or publication semantics.*
 
 *Shared infrastructure extension at v1.9.0: generalizes consolidated runtime loading in `runtime-loader.js` to support Sweet Flavor alongside Legume via `consolidatedRuntimeLayouts` — second documented extension; no renderer or stage-runner changes.*
 
 *Shared infrastructure extension at v2.0.0: declarative `wine.styleRelationships` support in `links.js` and domain-aware wine section indexing in `search.js` — enables FOOD-13E wine vocabulary (`pairs_with_wine`, `classic_pairing`, etc.) without sauce-specific stage runners.*
+
+*Shared infrastructure extension at v2.1.0: `lib/publication/proteinMigrationPublication.js` — migration-aware publication consumption for Protein FOOD-14F; attaches remapped editorial and wine edges to deprecated catalog pages via `proteinMigrationResolver.js` without modifying frozen runtime, editorial, or wine artifacts.*
+
+---
+
+## v2.1.0 — Protein Refinement
+
+**Tag:** `food-ontology-suite-v2.1.0`  
+**Commit:** FOOD-14F — Publish Protein Refinement + Suite Certification  
+**Date:** August 14, 2026
+
+### Published domains
+
+All eleven domains remain published. Protein Foods is the only domain modified by FOOD-14:
+
+| Domain | Catalog version | Leaf entities | Publication paths | Changed in FOOD-14 |
+|--------|-----------------|---------------|-------------------|--------------------|
+| Protein Foods | 2.1.0 | 210 | `/foods/` | **Yes** |
+| Cheeses | 1.0.0 | 204 | `/cheeses/` | No |
+| Vegetables | 1.0.0 | 74 | `/vegetables/` | No |
+| Fungi | 1.0.0 | 43 | `/fungi/` | No |
+| Herb & Spice | 1.0.0 | 113 | `/herbs-spices/` | No |
+| Grain & Starch | 1.0.0 | 76 | `/grains-starches/` | No |
+| Fruit | 1.0.0 | 119 | `/fruits/` | No |
+| Nut & Seed | 1.0.0 | 89 | `/nut-seeds/` | No |
+| Legume | 1.0.0 | 75 | `/legumes/` | No |
+| Sweet Flavor | 1.0.0 | 73 | `/sweet-flavors/` | No |
+| Sauce & Condiment | 1.0.0 | 90 | `/sauce-condiments/` | No |
+
+**Suite total:** 1,166 canonical leaf entities · 230 Protein publication pages (210 leaf + 17 groups + 3 category hubs)
+
+### FOOD-14 program (complete)
+
+| Phase | Commit | Responsibility |
+|-------|--------|----------------|
+| FOOD-14A | `426d888` | Governance — `docs/PROTEIN_REFINEMENT_GOVERNANCE.md` |
+| FOOD-14B | `e11cc99` | Ownership reconciliation — `data/protein-migration-map.json` SSOT |
+| FOOD-14C | `87bcb69` | Runtime normalization — 159 active · 51 deprecated excluded |
+| FOOD-14D | `59f8da3` | Editorial refinement — 5 edges remapped |
+| FOOD-14E | `48e3cc6` | Wine pairing refinement — 7 edges remapped |
+| FOOD-14F | `92aa5c8` | Publication regen + suite certification |
+
+| Metric | FOOD-14 |
+|--------|--------:|
+| Catalog entities | 210 |
+| Runtime-active entities | 159 |
+| Deprecated excluded | 51 |
+| Migration map entries | 51 migrated · 3 retained |
+| Editorial edges | 40 (5 remapped) |
+| Wine pairing edges | 29 (7 remapped) |
+| Publication pages | 230 |
+| Platform modifications required | 1 |
+| Shared infrastructure extensions | 1 |
+| Shared publication pipeline reused | 100% |
+
+### Milestone significance
+
+FOOD-14 normalized Protein domain ownership without reopening domain governance established in FOOD-01 through FOOD-13. The migration map became the single source of truth for legacy Protein identifiers. Runtime, editorial, wine pairing, and publication each consume canonical IDs through `proteinMigrationResolver.js` rather than implementing their own migration logic. Release certification verified deterministic publication while confirming frozen ontology layers remained unchanged during FOOD-14F.
+
+Reports: `reports/food-ontology-suite-v2.1.0-certification.json` · `reports/food-ontology-suite-v2.1.0-release-manifest.json`
+
+### Platform status at v2.1.0
+
+Publication architecture, runtime architecture, certification pipeline, deployment pipeline, and the six-phase governance lifecycle remain **feature-complete and frozen** for all non-Protein domains. Protein domain is frozen at catalog version 2.1.0. Future work proceeds as additive domains, platform enhancements, or ENGINE roadmap milestones — not changes to certified ontology artifacts without a new governance phase.
+
+### Next planned work
+
+**SUITE-STAB-07** stabilization checkpoint (completed — see below), then ontology expansion per roadmap.
+
+---
+
+## SUITE-STAB-07 — Food Ontology Suite Stabilization (Post-v2.1.0)
+
+**Date:** August 14, 2026  
+**Baseline tag:** `food-ontology-suite-v2.0.0`  
+**Certification tag:** `food-ontology-suite-v2.1.0`  
+**Type:** Governance audit — not a versioned release  
+**Overall result:** **PASS**
+
+Post-v2.1.0 checkpoint certifying the entire suite at the Protein normalization baseline. Reconciles cumulative metrics across all eleven published domains, verifies the FOOD-14 migration architecture, and confirms no regression in non-Protein domains. No runtime, catalog, relationship, migration map, or publication artifact changes were made in this audit.
+
+| Audit | Scope | Result |
+|-------|-------|--------|
+| STAB-07.1 — Release Metrics Reconciliation | v2.1.0 cumulative totals vs certified runtime artifacts | **PASS** |
+| STAB-07.2 — Domain Registration Audit | All eleven domains — publication + release certification | **PASS** |
+| STAB-07.3 — Knowledge Layer Architecture | Four-layer model; Protein refinement layers frozen at FOOD-14 checkpoints | **PASS** |
+| STAB-07.4 — FOOD-14 Migration Audit | Migration map SSOT · resolver · FOOD-14F certification · frozen checkpoints | **PASS** |
+| STAB-07.5 — Cross-Domain Ownership Audit | PROTEIN-001–005 · migration map · deprecated runtime exclusion | **PASS** |
+| STAB-07.6 — Publication Audit | Publication + release certification across all eleven domains | **PASS** |
+| STAB-07.7 — Shared Infrastructure Audit | Migration publication extension isolated to FOOD-14F | **PASS** |
+| STAB-07.8 — Regression Audit | No unintended drift vs v2.0.0 for ten non-Protein domains | **PASS** |
+
+**Platform modifications identified:** 1 (FOOD-14F migration publication extension)  
+**Shared infrastructure extensions identified:** 4 (cumulative through v2.1.0)
+
+Report: `reports/suite-stab-07-certification-report.json`
+
+### Audit 1 — Release metrics reconciliation
+
+Certified edge counts measured from `data/runtime/*` at tag `food-ontology-suite-v2.1.0` (commit `92aa5c8`):
+
+| Domain | Leaf entities | Runtime | Editorial | Wine | Publication pages |
+|--------|-------------:|--------:|----------:|-----:|------------------:|
+| Protein Foods | 210 | 29,013 | 40 | 29 | 230 |
+| Cheeses | 204 | 44,858 | 85 | 70 | 214 |
+| Vegetables | 74 | 4,405 | 158 | 117 | 79 |
+| Fungi | 43 | 531 | 87 | 82 | 48 |
+| Herb & Spice | 113 | 6,384 | 280 | 224 | 118 |
+| Grain & Starch | 76 | 1,917 | 192 | 174 | 81 |
+| Fruit | 119 | 4,027 | 333 | 265 | 127 |
+| Nut & Seed | 89 | 2,727 | 284 | 215 | 96 |
+| Legume | 75 | 2,114 | 280 | 199 | 82 |
+| Sweet Flavor | 73 | 2,212 | 266 | 194 | 80 |
+| Sauce & Condiment | 90 | 4,071 | 261 | 191 | 97 |
+| **Suite total** | **1,166** | **102,259** | **2,266** | **1,760** | **1,252** |
+
+**Delta vs v2.0.0:** +3 leaf entities (Protein poster coverage) · −6,721 runtime edges (51 deprecated Protein entities excluded) · 0 editorial · 0 wine · +4 publication pages (deprecated catalog pages retained with migration-aware edge attachment).
+
+### Audit 4 — FOOD-14 migration architecture
+
+| Component | Role | Status |
+|-----------|------|--------|
+| `data/protein-migration-map.json` | SSOT for legacy → canonical ID mapping (51 migrated · 3 retained) | Frozen at `e11cc99` |
+| `lib/runtime/proteinMigrationResolver.js` | Shared resolver consumed by runtime, editorial, wine, publication | Frozen at `87bcb69` |
+| FOOD-14C runtime | 159 runtime-active entities · 51 deprecated excluded (PROTEIN-005) | Frozen at `87bcb69` |
+| FOOD-14D editorial | 40 edges · 5 remapped to canonical cross-domain IDs | Frozen at `59f8da3` |
+| FOOD-14E wine pairing | 29 edges · 7 remapped to canonical cross-domain IDs | Frozen at `48e3cc6` |
+| FOOD-14F publication | Migration-aware consumption · deterministic regen · suite certification | Certified at `92aa5c8` |
+
+FOOD-14F certification: runtime canonical **PASS** · editorial canonical **PASS** · wine pairing canonical **PASS** · ownership integrity **PASS** · deprecated runtime IDs 0 · orphan references 0 · deterministic build **PASS** · runtime/editorial/pairing modified during certification **false**.
+
+**Certification outcome:**
+
+- **SUITE-STAB-07: PASS**
+- Published domains: **11**
+- Canonical entities: **1,166**
+- Runtime relationships: **102,259**
+- Editorial relationships: **2,266**
+- Wine relationships: **1,760**
+- Publication pages: **1,252**
+
+Architecture: declarative · deterministic · shared publication pipeline · four-layer knowledge model preserved · migration map SSOT · one documented migration publication extension · no non-Protein regressions · **ready for expansion**.
+
+**Recommendation:** Suite baseline `food-ontology-suite-v2.1.0` established — proceed with ontology expansion per roadmap.
 
 ---
 
@@ -403,7 +549,7 @@ Publication architecture, runtime architecture, certification pipeline, deployme
 
 ### Next planned work
 
-**FOOD-14** — Protein Refinement (from tag `food-ontology-suite-v2.0.0`; see POSTER_COVERAGE.md).
+**FOOD-14** — Protein Refinement (completed at tag `food-ontology-suite-v2.1.0`; see above).
 
 ---
 

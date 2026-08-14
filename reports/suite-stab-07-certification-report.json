@@ -1,0 +1,252 @@
+{
+  "phase": "SUITE-STAB-07",
+  "type": "governance_audit",
+  "baseline_tag": "food-ontology-suite-v2.0.0",
+  "certification_tag": "food-ontology-suite-v2.1.0",
+  "date": "2026-08-14",
+  "overall_result": "PASS",
+  "published_domains": 11,
+  "suite_metrics": {
+    "canonical_entities": 1166,
+    "runtime_relationships": 102259,
+    "editorial_relationships": 2266,
+    "wine_relationships": 1760,
+    "publication_pages": 1252,
+    "protein_catalog_entities": 210,
+    "protein_runtime_active_entities": 159,
+    "protein_deprecated_excluded": 51
+  },
+  "v200_delta": {
+    "leaf_entities": 3,
+    "runtime_structural": -6721,
+    "editorial": 0,
+    "wine": 0,
+    "publication_pages": 4
+  },
+  "domains": [
+    {
+      "id": "protein",
+      "leaf_entities": 210,
+      "runtime_structural": 29013,
+      "editorial": 40,
+      "wine": 29,
+      "publication_pages": 230,
+      "publication_certification": "PASS",
+      "release_certification": "PASS"
+    },
+    {
+      "id": "cheese",
+      "leaf_entities": 204,
+      "runtime_structural": 44858,
+      "editorial": 85,
+      "wine": 70,
+      "publication_pages": 214,
+      "publication_certification": "PASS",
+      "release_certification": "PASS"
+    },
+    {
+      "id": "vegetable",
+      "leaf_entities": 74,
+      "runtime_structural": 4405,
+      "editorial": 158,
+      "wine": 117,
+      "publication_pages": 79,
+      "publication_certification": "PASS",
+      "release_certification": "PASS"
+    },
+    {
+      "id": "fungi",
+      "leaf_entities": 43,
+      "runtime_structural": 531,
+      "editorial": 87,
+      "wine": 82,
+      "publication_pages": 48,
+      "publication_certification": "PASS",
+      "release_certification": "PASS"
+    },
+    {
+      "id": "herb-spice",
+      "leaf_entities": 113,
+      "runtime_structural": 6384,
+      "editorial": 280,
+      "wine": 224,
+      "publication_pages": 118,
+      "publication_certification": "PASS",
+      "release_certification": "PASS"
+    },
+    {
+      "id": "grain-starch",
+      "leaf_entities": 76,
+      "runtime_structural": 1917,
+      "editorial": 192,
+      "wine": 174,
+      "publication_pages": 81,
+      "publication_certification": "PASS",
+      "release_certification": "PASS"
+    },
+    {
+      "id": "fruit",
+      "leaf_entities": 119,
+      "runtime_structural": 4027,
+      "editorial": 333,
+      "wine": 265,
+      "publication_pages": 127,
+      "publication_certification": "PASS",
+      "release_certification": "PASS"
+    },
+    {
+      "id": "nut-seed",
+      "leaf_entities": 89,
+      "runtime_structural": 2727,
+      "editorial": 284,
+      "wine": 215,
+      "publication_pages": 96,
+      "publication_certification": "PASS",
+      "release_certification": "PASS"
+    },
+    {
+      "id": "legume",
+      "leaf_entities": 75,
+      "runtime_structural": 2114,
+      "editorial": 280,
+      "wine": 199,
+      "publication_pages": 82,
+      "publication_certification": "PASS",
+      "release_certification": "PASS"
+    },
+    {
+      "id": "sweet-flavor",
+      "leaf_entities": 73,
+      "runtime_structural": 2212,
+      "editorial": 266,
+      "wine": 194,
+      "publication_pages": 80,
+      "publication_certification": "PASS",
+      "release_certification": "PASS"
+    },
+    {
+      "id": "sauce-condiment",
+      "leaf_entities": 90,
+      "runtime_structural": 4071,
+      "editorial": 261,
+      "wine": 191,
+      "publication_pages": 97,
+      "publication_certification": "PASS",
+      "release_certification": "PASS"
+    }
+  ],
+  "architecture": {
+    "declarative": true,
+    "deterministic": true,
+    "shared_publication_pipeline": true,
+    "four_layer_knowledge_model": true,
+    "migration_map_ssot": true,
+    "platform_modifications": 1,
+    "shared_infrastructure_extensions": 4,
+    "ready_for_expansion": true
+  },
+  "audits": {
+    "STAB-07.1_release_metrics_reconciliation": {
+      "result": "PASS",
+      "checks": 5,
+      "errors": 0,
+      "details": [
+        {
+          "name": "eleven_domains_published",
+          "pass": true,
+          "expected": 11,
+          "actual": 11
+        },
+        {
+          "name": "editorial_unchanged_from_v200",
+          "pass": true,
+          "expected": 2266,
+          "actual": 2266
+        },
+        {
+          "name": "wine_unchanged_from_v200",
+          "pass": true,
+          "expected": 1760,
+          "actual": 1760
+        },
+        {
+          "name": "leaf_entities_reconciled",
+          "pass": true,
+          "expected": 1166,
+          "actual": 1166
+        },
+        {
+          "name": "publication_pages_reconciled",
+          "pass": true,
+          "expected": 1252,
+          "actual": 1252
+        }
+      ]
+    },
+    "STAB-07.2_domain_registration_audit": {
+      "result": "PASS",
+      "domains_publication_pass": 11,
+      "domains_release_pass": 11,
+      "errors": 0
+    },
+    "STAB-07.3_knowledge_layer_architecture": {
+      "result": "PASS",
+      "published_domains": 11,
+      "four_layer_model": true,
+      "protein_refinement_layers_frozen": true,
+      "errors": 0
+    },
+    "STAB-07.4_food14_migration_audit": {
+      "result": "PASS",
+      "migration_entries": 51,
+      "retained_entries": 3,
+      "runtime_active_entities": 159,
+      "food_14f_certification": "PASS",
+      "frozen_checkpoints": {
+        "FOOD-14A": "426d888",
+        "FOOD-14B": "e11cc99",
+        "FOOD-14C": "87bcb69",
+        "FOOD-14D": "59f8da3",
+        "FOOD-14E": "48e3cc6"
+      },
+      "errors": 0
+    },
+    "STAB-07.5_cross_domain_ownership_audit": {
+      "result": "PASS",
+      "protein_migration_map_ssot": true,
+      "ownership_conflicts": 0,
+      "deprecated_runtime_ids": 0,
+      "errors": 0
+    },
+    "STAB-07.6_publication_audit": {
+      "result": "PASS",
+      "domains_publication_pass": 11,
+      "domains_release_pass": 11,
+      "errors": 0
+    },
+    "STAB-07.7_shared_infrastructure_audit": {
+      "result": "PASS",
+      "platform_modifications": 1,
+      "shared_infrastructure_extension_detail": "lib/publication/proteinMigrationPublication.js — migration-aware publication consumption for Protein FOOD-14F only",
+      "errors": 0
+    },
+    "STAB-07.8_regression_audit": {
+      "result": "PASS",
+      "non_protein_domains_verified": 10,
+      "errors": 0
+    }
+  },
+  "food_14_program": {
+    "status": "complete",
+    "frozen_checkpoints": {
+      "FOOD-14A": "426d888",
+      "FOOD-14B": "e11cc99",
+      "FOOD-14C": "87bcb69",
+      "FOOD-14D": "59f8da3",
+      "FOOD-14E": "48e3cc6"
+    },
+    "certification_commit": "92aa5c8"
+  },
+  "errors": [],
+  "recommendation": "Suite baseline food-ontology-suite-v2.1.0 established — proceed with ontology expansion"
+}
