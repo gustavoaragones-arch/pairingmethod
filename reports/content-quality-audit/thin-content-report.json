@@ -2,6 +2,7 @@
   "rerun_of": "AQ-01",
   "rerun_phase": "AQ-01R",
   "rerun_after": "AQ-02A — Publication Completion Architecture",
+  "checked_again_after": "AQ-02B — Trust & Navigation Completion (2026-08-14): no changes to this report. AQ-02B's scope was navigation, search, sitemap, relationship provenance, and the group/category `introduction` field (see TC-09, now RESOLVED — narrative-completion fix landed in AQ-02B3, confirmed 86/86 group/category pages with an authored introduction now render it). All other findings below are unchanged, re-confirmed by spot-check.",
   "methodology": "Unchanged from AQ-01: pages classified as thin if the visible body (excluding nav, footer, JSON-LD, breadcrumb, and boilerplate disclaimer text) contains no original explanatory prose. Each finding below re-verified directly against live pages; status reflects what AQ-02A actually changed, not what it targeted.",
   "findings": [
     {
@@ -75,7 +76,7 @@
     {
       "id": "TC-09",
       "severity_before": null,
-      "status": "NEW",
+      "status": "RESOLVED (fixed in AQ-02B3, 2026-08-14 — renderEducationalIntroduction() now renders introduction as a second paragraph alongside summary when present and distinct; verified 86/86 group and category pages with an authored introduction now render it, 0 duplicates)",
       "title": "Group/category `introduction` field is extracted into the narrative pipeline but never rendered",
       "severity": "Minor",
       "affected_pages": 73,

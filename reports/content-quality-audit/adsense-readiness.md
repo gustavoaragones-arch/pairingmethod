@@ -1,33 +1,33 @@
-# AdSense Readiness Assessment (Rerun — AQ-01R)
+# AdSense Readiness Assessment (Second Rerun — post AQ-02B)
 
 ## Verdict
 
-**Still not ready, but the reason has narrowed.** Before AQ-02A, the dominant risk was that a majority of live pages read as auto-assembled fact tables — a close match to AdSense's "scaled/low-value content" language. That risk is resolved. What's left is a smaller set of specific, previously-identified defects — most importantly, primary navigation that 404s on every one of ~1,166 pages — that would still surface in a manual review, just for a different and more narrowly scoped reason.
+**More plausible, still not confident.** The two structural defects that drove a "no" verdict across both prior measurements — thin content at scale (AQ-02A) and broken primary navigation (AQ-02B) — are both resolved and independently verified. What would likely still surface in a manual review is smaller, more specific, and largely confined to one content tier rather than being a site-wide pattern.
 
-## What changed
+## What changed since the first rerun
 
-**Resolved: the low-value-content signature.** Re-opening `/fruits/marionberry/`, `/nut-seeds/almond/`, `/herbs-spices/berbere/`, `/grains-starches/buckwheat/`, and `/sauce-condiments/chimichurri/` directly, each now shows a genuine, specific opening paragraph and a pairing rationale before any reference table. This was the AQ-01 finding most likely to trigger a policy flag on its own, given it affected roughly 70% of the site's published page count. It no longer does.
+**Resolved: broken primary navigation.** The first rerun's own verdict named this the narrowed, specific reason a reviewer would still flag the site: "a reviewer's very first orientation action (clicking the main-nav category link) 404s on every one of ~1,166 pages." That's fixed — confirmed directly, `fruits/index.html` and 9 other domain hubs resolve, link to siblings, and link to a new `/ingredients/` master directory.
 
-**Resolved: the "unfinished domain" signal from cheese's mislabeled scientific-name field.** Not something a reviewer would have seen yet (cheese isn't live), but worth noting since it removes a defect that would have shipped if cheese goes live as-is.
+**Resolved: incomplete crawl discoverability.** Sitemap coverage is now deterministic and complete for all 10 published domains (was dependent on undocumented merge history). Site search now covers the food ontology (was wine-side only) — a visitor or reviewer using the site's own tools to explore it now actually can.
 
-**Improved, not resolved: crawl discoverability.** `robots.txt` → `sitemap.xml` now references 10 of 11 food-domain sitemap sets instead of 1. Google's own indexing of the site's genuinely improved content is now far more complete than it was three hours ago.
+**Resolved: 51 orphaned pages.** Discovered by this phase's own reachability crawl (not found by either prior audit, since neither performed a real link-graph traversal) and fixed via redirects to canonical replacements in the same phase.
 
-## What's unchanged, and why it still matters
+**Corrected, not just improved: a false accuracy finding retracted.** Both prior audits cited the bearnaise/coconut relationship as the site's clearest example of unsourced content. It wasn't — the relationship has full documented provenance in the runtime editorial-relationship graph; the prior checks looked at the wrong data layer. This matters for AdSense readiness specifically because "unsupported/fabricated claims" is a real policy concern, and the site's actual track record on this is now measurably better than either prior audit reported: 0 unsupported relationships found across a full census of 4,140 checked.
 
-**1. Broken primary navigation (now the single largest remaining risk).** Every one of the ~1,166 leaf pages still carries a main-nav "Foods" link and breadcrumb root crumb pointing at a URL that 404s — re-verified directly against all 11 domain-hub paths. This is now proportionally more damaging than before AQ-02A, not less: a reviewer who previously might have bounced off thin content before ever testing the nav will now read a genuinely decent page, form a positive impression, then hit a dead link on the very next click. That sequence — good content, then a broken basic mechanism — reads as an unfinished or poorly maintained site, which is its own trust signal independent of content quality.
+## What's unchanged, and still relevant to a reviewer
 
-**2. Duplicate/near-duplicate content without disclosure (unchanged).** The 51 deprecated `/foods/*` pages marked internally as duplicates of canonical pages elsewhere are still live with no redirect — and now, because AQ-02A's fix applies to both the deprecated and canonical page, both versions show equally good narrative content. This is a subtle regression in one specific sense: before AQ-02A, both copies were equally thin, which is bad but at least not confusable; now both copies are equally good, which makes the duplication itself more visible to anyone who lands on both (e.g. via two different search results) and notices they're reading the same page twice under different URLs and different framing (one calls it a "Protein Food," the other a "Nut & Seed").
+**Non-functional monetization-adjacent elements (unchanged).** The four dead "View Bottle" (`href="#"`) links on Template A dish pages are exactly where both prior audits found them.
 
-**3. Non-functional monetization-adjacent elements (unchanged).** The four dead "View Bottle" (`href="#"`) links on Template A dish pages are exactly where AQ-01 found them — untouched, since AQ-02A's scope was the food-ontology renderers, not the dish-page templates.
+**Templated/boilerplate language in the wine-education tier (unchanged).** The "Why this category matters" noun-swap template and the literal "is the best if the dish is smoky for X" leftover-template phrase are both still live, re-confirmed verbatim. This remains the single most detector-visible AI-content signature on the site — but it's now the *only* one; the food-ontology tier's equivalent issue (near-identical structure, zero unique content) was resolved by AQ-02A.
 
-**4. Templated/boilerplate language in the wine-education tier (unchanged).** The "Why this category matters" noun-swap template and the literal leftover-template phrase "is the best if the dish is smoky for X" are both still live, re-confirmed verbatim. A reviewer trained to spot AI-assisted or scaled content would still find this signature — it just no longer sits alongside the food-ontology thin-content pattern, so it reads as an isolated quirk rather than a site-wide pattern.
+**Two catalog-layer accuracy findings, now fully documented rather than sampled.** 204 cheese entities carry a mislabeled `scientific_name` (not live — cheese remains unpublished) and 9 winter-squash-family vegetables are taxonomically misfiled. Neither is a publication-layer defect; both need an editorial pass on the underlying catalog, which was correctly out of scope for both AQ-02A and AQ-02B.
 
-**5. Search excludes most of the site (unchanged).** None of the ~1,250 food-ontology pages — now genuinely worth finding — are reachable through the site's own search box.
+**`seo_description` still isn't wired into `<meta>` description tags.** Unaddressed across all three measurements.
 
-## What would NOT need to change (unchanged from AQ-01, still true)
+## What would NOT need to change (unchanged across all three measurements)
 
-The wine-education core (terms, faults, techniques, serving, regions, styles, dish guides) remains specific, accurate, and appropriately scoped. If this were the entire site, it would plausibly pass manual review on originality and helpfulness grounds today — the same conclusion AQ-01 reached, since none of this tier changed.
+The wine-education core's actual definitional content (faults, techniques, regions, styles) remains specific, accurate, and appropriately scoped — never a concern, never touched, in any of the three measurements.
 
 ## Bottom line
 
-The highest-leverage single fix identified in AQ-01 has been made, verified, and measured: it moved this category from 34 to 52. The next highest-leverage fix is now unambiguous and was already scoped in AQ-01's `navigation-review.md` before AQ-02A even started — repair the 11 domain-hub pages so the site's primary navigation resolves. That fix is smaller in surface area than AQ-02A was (11 pages to build, not ~1,250 to re-render) and would plausibly move AdSense Readiness and Navigation Quality by a comparable margin, for a fraction of the engineering effort AQ-02A required.
+Two full remediation phases have now each targeted the site's largest measured risk factor in turn, verified the fix, and moved on rather than declaring victory prematurely — AQ-02A on content depth, AQ-02B on navigation and trust infrastructure. The site's overall score crossed from Bronze into Silver on this measurement (66/100). What's left is real but narrower: a content-quality pass on the wine-education tier's templated language, a small dead-link fix on the dish-page template, and an editorial correction to two catalog fields — none of which requires the scale of engineering either prior phase did.

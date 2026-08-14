@@ -1,6 +1,8 @@
-# Pairing Quality Review (Rerun — AQ-01R)
+# Pairing Quality Review (Rerun — AQ-01R, unchanged after AQ-02B)
 
-## Score: 65/100 (was 48/100, +17)
+## Score: 65/100 (was 48/100 → 65/100 after AQ-02A; 0 change after AQ-02B)
+
+**Checked again after AQ-02B (2026-08-14):** no changes to this report. AQ-02B's scope was navigation, search, sitemap, and relationship-provenance infrastructure, not pairing-explanation content — confirmed unaffected by spot-check (wine-with-steak.html and nut-seeds/almond/ read identically to the first rerun on this dimension). One relevant confirmation from AQ-02B worth noting here: the relationship-provenance verifier independently checked every wine-pairing relationship referenced below (all 4,140 site-wide) and found 0 without documented provenance — reinforcing, not just assuming, that the pairing content described in this document is trustworthy as well as present.
 
 This is the category where AQ-02A's actual mechanism — publish an explanation before a link list — maps most directly onto AQ-01's specific diagnostic question: "or merely 'X pairs well because...'?" Rerunning that exact test now gives a different answer for most of the site.
 

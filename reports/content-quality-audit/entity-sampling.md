@@ -1,33 +1,25 @@
-# Entity Sampling — Domain-by-Domain Notes (Rerun — AQ-01R)
+# Entity Sampling — Domain-by-Domain Notes (Second Rerun — post AQ-02B)
 
-Score: 60/100 (was 58/100, +2).
+Score: 66/100 (was 58 → 60 → 66).
 
-Re-sampling the same domains and entities AQ-01 covered. Data accuracy is a catalog-level property; AQ-02A changed rendering, not data, so this category moves the least of any in this rerun — exactly as expected, and confirmed rather than assumed.
+## The bearnaise correction (see eeat-analysis.md for full detail)
 
-## Food-ingredient domains
+**Retracted:** the claim that bearnaise's "coconut" relationship is unsourced. It has full documented provenance in `data/runtime/sauce-condiment-editorial-relationships.json` (confidence: high, derived_from: editorial, editorial_review: approved, with a specific evidence string). AQ-01 and the first AQ-01R rerun both checked the wrong data layer (the catalog's empty `commonly_served_with` snapshot field) and reported this as the site's clearest unsourced-content example across two audits. It wasn't. This entry should be read as correcting, not supplementing, the prior version of this document.
 
-### foods/ (protein — deprecated, 210 pages)
-**Status: thinness resolved, duplication unchanged.** `foods/almonds/` now renders genuine narrative ("Almonds are tree nut staple — snacking, romesco, and marzipan context. Nutty richness pairs with Sherry, oaky Chardonnay, and amontillado styles.") — this is the exact catalog summary AQ-01 quoted as existing-but-unpublished, now live. The canonical replacement `nut-seeds/almond/` also now renders its own (differently-worded) narrative. Both pages are equally polished and still describe the same entity under two taxonomies with no redirect and no disclosure — see thin-content-report.json TC-02.
+## What AQ-02B's full-census checks confirmed, that prior sampling could only suggest
 
-### vegetables/ (74 pages)
-**Status: thinness resolved, misclassification unchanged.** `vegetables/chayote/` now shows its catalog summary ("Chayote is a mild, pear-shaped squash for Latin American stews and slaw — lime, cilantro, and chili favor bright whites and beer.") — genuinely useful, accurate content. Re-checked: chayote's `parent_group` is still `root-vegetables` despite `plant_part: "fruit_vegetable"` — the taxonomy misclassification AQ-01 flagged is a catalog fact, untouched by a rendering fix, and is now arguably slightly more visible since the group's breadcrumb ("Home > Vegetables > Root Vegetables > Chayote") sits directly below a well-written paragraph that gives no indication anything is off.
+**Taxonomy drift generalized.** AQ-01 sampled one entity (chayote) and found it filed under `root-vegetables` despite being botanically a fruit-vegetable. This rerun's whole-domain scan confirms the same pattern on 9 entities: acorn squash, butternut squash, chayote, delicata squash, hubbard squash, kabocha squash, pumpkin, spaghetti squash, and zucchini — essentially the entire winter/summer squash family is filed under root-vegetables in this catalog. This is now understood to be a systemic categorization choice (or error) affecting a whole botanical family, not an isolated mistake. Detection only — no catalog file was modified, consistent with Rule 4 (publication consumes, never edits, knowledge).
 
-### herbs-spices/ (113 pages)
-**Status: thinness resolved, plausibility flag unchanged.** `herbs-spices/berbere/` now renders "Berbere is a fiery Ethiopian spice blend with chile, fenugreek, and ginger — its complex heat pairs with Ethiopian honey wine, Syrah, and bold spice-friendly reds" — specific and accurate. `herbs-spices/boldo/` (not re-verified line-by-line this pass, but its underlying catalog record is unchanged) still has the AQ-01-flagged mismatch between its richer unrendered — now rendered — summary and its sparse "pork loin" food-association link; the rendering fix means the more plausible connection (empanadas, Carmenère) is now visible where it wasn't, which is a genuine partial improvement worth noting even though the underlying link data wasn't touched.
+**Cheese mislabeling confirmed at full scale.** All 204 cheese entities (not a sample) carry their source milk animal's species binomial (Bos taurus, Capra hircus, Ovis aries) as their own `scientific_name` field. Still not live — cheese remains unpublished to root. This is the same finding AQ-01 made from a smaller sample; nothing has changed about its truth, only about how completely it's now measured.
 
-### sauce-condiments/ (90 pages)
-**Status: thinness resolved, unsourced-relationship finding unchanged and now more visible.** See `eeat-analysis.md` for the béarnaise/coconut detail — this is the one entity-level finding from AQ-01 that this rerun specifically flags as having gotten subtly worse in presentation terms, even though nothing about the underlying data changed.
+**Referential integrity verified, not assumed.** 0 duplicate slugs, 0 orphaned parent-group references, 0 orphaned parent-category references across all 11 domains' catalogs — a check neither prior audit performed.
 
-### grains-starches/, legumes/, nut-seeds/, sweet-flavors/, fungi/
-**Status: thinness resolved, no new accuracy issues found on re-sample.** `grains-starches/buckwheat/`, `nut-seeds/almond/`, `fungi/chanterelle/` all now show accurate, specific, well-written narrative content matching what AQ-01 found sitting unused in the catalog. `legumes/fava-bean/`'s narrative is now live including its grammar defect (see thin-content-report.json TC-08) — confirming AQ-01's prediction that publishing without a copy-edit pass would ship that defect as-is.
+**Relationship provenance verified at full scale.** 4,140 rendered relationships across all 10 published domains independently checked against real runtime edge files: 0 without provenance. 1,692 wine-side relationship targets (styles, descriptors, techniques) checked against the actual wine catalogs: 0 unknown/dangling targets.
 
-### cheeses/ (204 pages — still in dist/ only, not published to root)
-**Status: thinness resolved, one mislabel resolved, richest domain confirmed.** `dist/cheeses/akawi/` now renders its summary, its `beginner_notes` ("Akawi is classified as brined cheese with cow milk source."), and its authored FAQ (with the de-duplication fix applied — see template-analysis.json). The AQ-01-flagged "Scientific name: Bos taurus" mislabel no longer renders anywhere on this page, confirmed directly — see eeat-analysis.md.
+## What's unchanged from the first rerun
 
-## Wine-education domains
-
-**Status: entirely unchanged, re-confirmed on faults/acetobacter, faults/cork-taint, styles/riesling.** These domains were outside AQ-02A's scope. Definitions remain accurate and specific; no new issues found; no prior issues resolved, because none existed here.
+Everything else in the original entity-sampling findings holds: fruits, herbs-spices, grains-starches, legumes, nut-seeds, sweet-flavors, and fungi domains all show accurate, specific, well-written narrative content (rendered by AQ-02A, unaffected by AQ-02B). The wine-education domains (faults, techniques, styles) remain accurate and specific, untouched by either remediation phase — verified again this pass on `faults/acetobacter`, `faults/cork-taint`, `styles/riesling`.
 
 ## Net assessment
 
-Where AQ-01 found rendering gaps, they're gone. Where AQ-01 found data-accuracy gaps (chayote, boldo, béarnaise, the fava-bean grammar defect), they're all still there, because a publication-architecture fix — by design and correctly, per AQ-02A's own regression rules — does not touch the catalog. The béarnaise finding is the one to prioritize next: it's the single AQ-01 entity-level finding that this rerun found to be *more* consequential after AQ-02A than before, purely as a side effect of the surrounding content getting more trustworthy-looking.
+This pass's contribution to entity/data-accuracy understanding isn't new defects — it's a more honest and complete picture of the defects that already existed, plus the retraction of one that didn't. The catalog layer has exactly two outstanding, well-scoped findings (cheese mislabeling, squash misclassification) and a verified-clean referential-integrity and relationship-provenance record everywhere else.

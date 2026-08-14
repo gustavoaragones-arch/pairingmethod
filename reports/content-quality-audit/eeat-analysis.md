@@ -1,27 +1,33 @@
-# E-E-A-T Analysis (Rerun — AQ-01R)
+# E-E-A-T Analysis (Second Rerun — post AQ-02B)
 
-## Score: 55/100 (was 52/100, +3)
+## Score: 66/100 (was 52 → 55 → 66)
 
-## What changed
+## A correction, stated plainly
 
-**One accuracy defect resolved, as a side effect.** AQ-01 flagged that cheese catalog entries populate a "Scientific name" field with the source animal's species binomial (Camembert → "Bos taurus"), a genuine mislabeling that would have misled a reader had it ever shipped. Cheese hadn't gone live at the time. It's now been rebuilt with the new architecture, and that specific field was replaced by "Milk source" in the new template — confirmed directly against `dist/cheeses/akawi/index.html`, which shows no "Scientific name" row anywhere. The mislabel is moot: not fixed at the data layer, but no longer capable of shipping.
+Both AQ-01 and the first AQ-01R rerun cited `/sauce-condiments/bearnaise/`'s "Commonly served with: coconut, steak sauce" as this site's clearest example of an unsourced or fabricated relationship — the single most-repeated accuracy finding across two audits, and the basis for a "Priority 3" remediation recommendation. **That finding was wrong.** It was based on checking one field (the catalog's denormalized `commonly_served_with` snapshot, which is empty for bearnaise) rather than the actual source of truth. AQ-02B's relationship-provenance verifier traced the real rendered relationship to `data/runtime/sauce-condiment-editorial-relationships.json`, which contains:
 
-**Narrative content adds genuine expertise/experience signal.** Where AQ-01 found ingredient pages with nothing beyond a fact table — no signal of anyone having thought about the entity — pages like `nut-seeds/almond/` now open with "Almond is a canonical marzipan and crusts ingredient — tree nut use in marzipan and crusts cooking pairs with Almondine whites, dry Sherry, and light Pinot Noir." That's a small but real experience signal: specific culinary use-cases, specific wine names, not generic filler.
+```
+source: bearnaise, relationship: commonly_served_with, target: coconut
+confidence: high, derived_from: editorial, editorial_review: approved, editorial_tier: C
+evidence: "Coconut pairs with sweet-spicy table sauces in tropical and Filipino service."
+```
 
-## What's unchanged, re-verified directly
+This is a fully documented, approved editorial relationship with a specific evidentiary claim attached. It may be a debatable culinary judgment (bearnaise's classical French identity makes a Filipino-service pairing note a genuinely unusual choice to foreground), but "unusual editorial judgment" and "unsourced/fabricated content" are different findings with very different implications for trust, and this site's actual behavior is the former, not the latter. The same verifier checked every other rendered relationship on the site — 4,140 in total — against the real runtime edge files and found zero without provenance. This is a meaningfully better trust picture than either prior audit reported, and it was reached by building and running an actual verification tool, not by re-asserting the original claim more confidently.
 
-**The unsourced béarnaise/coconut relationship is still live — and arguably more visible now.** AQ-01's most significant single accuracy finding was that `/sauce-condiments/bearnaise/` displays "Commonly served with: coconut, steak sauce" despite that entity's own catalog record having an empty `commonly_served_with` array — meaning the relationship isn't traceable to curated data. Re-checked directly: still present, unchanged, and now rendered under a genuine "Common Culinary Uses" heading (upgraded from a bare unlabeled list) — which means a reader who trusts the new, better-presented sections more than they'd trust a bare list is *more* likely to take this specific unsourced claim at face value, not less. This is worth flagging explicitly: publishing narrative more prominently doesn't discriminate between sourced and unsourced content, so a data-integrity problem sitting underneath a better presentation layer becomes a slightly bigger trust risk, not a smaller one.
+## What else changed
 
-**Unsupported numeric claims are unchanged.** "Pairing Strength: 95%" and the pairing-matrix 0–100 scores still appear with no stated methodology anywhere on the site — these live in the dish-page templates, outside AQ-02A's scope.
+**Referential integrity is now verified, not assumed.** A knowledge-integrity scan found 0 duplicate slugs, 0 orphaned group-parent-category references, and 0 orphaned leaf-parent-group references across all 11 domains' catalogs. This wasn't checked in either prior audit.
 
-**Duplicate content is unchanged, and now harder to distinguish by quality alone.** The 51 `/foods/*` pages marked deprecated in favor of canonical pages elsewhere still have no redirect. Before AQ-02A, both the deprecated and canonical version of e.g. "almonds" were equally thin — an obvious, if unexplained, near-duplicate. Now both versions are equally well-written (each was independently given its own narrative via the same rendering fix), which if anything makes the duplication a more sophisticated-looking problem: two well-produced pages describing the same entity, filed under two different taxonomies, with nothing on either page disclosing the relationship.
+**Two catalog findings are now fully documented rather than sampled — not new, but more rigorous.** The cheese `scientific_name` mislabeling (source animal's binomial used as the cheese's own taxonomic designation) is confirmed across all 204 cheese entities, not just the one or two AQ-01 happened to sample — and remains not live, since cheese is still unpublished. The chayote taxonomy-drift finding from AQ-01/AQ-01R is confirmed as a 9-entity pattern across the whole winter-squash family (acorn, butternut, delicata, hubbard, kabocha, spaghetti squash, pumpkin, zucchini, chayote), not an isolated case. Neither finding is new; both are now measured completely instead of by sample, which is a trust-process improvement even though the underlying facts aren't better or worse than previously understood.
 
-**The jurisdiction inconsistency is unchanged.** Disclaimer.html's "operated from Canada and the United States" still doesn't match the Organization schema/About page's Wyoming-only description — untouched, outside AQ-02A's scope entirely.
+**A methodological note worth including for its own sake:** building the provenance verifier initially produced 40 false-positive violations (protein-domain wine-pairing edges using `derived_from: "pairing"` instead of "editorial" — same real source, different vocabulary) and the knowledge-integrity scan initially flagged 43 false positives (protein-domain beef cuts correctly using "Bos taurus" as their scientific name, which is accurate for raw animal tissue, unlike cheese). Both were caught and corrected by checking the actual data before reporting a finding — the same discipline that caught the original bearnaise error. This is recorded not to inflate the count of "things found" but because a review process that catches its own false positives before publishing them is itself an E-E-A-T-relevant signal.
 
-## What's still working, unchanged
+## What's unchanged
 
-Named authorship (Gustavo Aragones), the real operating entity (Albor Digital LLC, Wyoming, contact email), and the appropriately-scoped Disclaimer content are all exactly as AQ-01 found them — none of this was ever in question, and none of it changed.
+Named authorship, the real operating entity (Albor Digital LLC), appropriate disclaimers, and the site's core trust foundation are exactly as found in both prior audits — never in question, never touched.
+
+Unsupported numeric claims ("Pairing Strength: 95%," the pairing-matrix scores) are unchanged — these live in the dish-page template, outside both remediation phases' scope. The Disclaimer/Organization-schema jurisdiction inconsistency (Canada vs. Wyoming-only) is unchanged.
 
 ## Net assessment
 
-The trust foundation is unchanged and was never the problem. What moved is a single incidental fix (cheese mislabel) plus a genuine, if modest, uptick from having actual expertise-signaling content on pages that previously had none. What didn't move — and is now proportionally more important, since it's one of the few remaining E-E-A-T defects — is the unsourced béarnaise relationship, which this rerun specifically flags as a priority for the next remediation phase precisely because better presentation elsewhere has made it comparatively more conspicuous, not less.
+The trust foundation was never the problem, across any of the three measurements. What moved this time is a genuine correction — the site's most-cited accuracy defect turns out not to be one — plus newly-verified referential integrity across the whole catalog layer. What remains open (the cheese mislabel, the squash misclassification) is real, unglamorous, catalog-layer work for a future editorial pass, now scoped precisely enough that pass could be short.

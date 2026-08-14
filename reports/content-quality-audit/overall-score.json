@@ -1,79 +1,27 @@
 {
-  "audit_phase": "AQ-01R (rerun of AQ-01 after AQ-02A remediation)",
+  "audit_phase": "AQ-01R2 (second rerun of AQ-01, after AQ-02A then AQ-02B)",
   "audit_type": "Google AdSense & Content Quality Certification Audit",
   "original_audit_date": "2026-08-14",
-  "remediation_phase": "AQ-02A — Publication Completion Architecture",
+  "remediation_phases": ["AQ-02A — Publication Completion Architecture", "AQ-02B — Trust & Navigation Completion"],
   "rerun_date": "2026-08-14",
   "site": "pairingmethod.com",
-  "scope_note": "Same methodology and scoring rubric as AQ-01, applied unchanged. Every score below was re-derived by re-reading live pages after AQ-02A, not carried forward from the original audit or estimated from AQ-02A's own completion report.",
-  "sample_basis": "Re-opened the same representative sample as AQ-01: the 7 AQ-02A success-criteria pages, the same group/category hubs, the same dish pages, the same wine-education-tier pages, plus direct inspection of sitemap.xml, all 11 domain-hub paths, and the catalog fields behind each.",
+  "scope_note": "Same methodology and scoring rubric as AQ-01 and AQ-01R, applied unchanged a second time. Every score below was re-derived by directly checking the live file tree after AQ-02B, not carried forward from AQ-02B's own certification reports (though those reports' specific claims were independently spot-checked and held up).",
   "category_scores": {
-    "original_value": {
-      "score_before": 32,
-      "score_after": 60,
-      "delta": 28,
-      "basis": "1,252 leaf/group/category pages across all 11 food domains now open with genuine, entity-specific authored prose instead of a bare fact table — verified directly on marionberry, chanterelle, berbere, buckwheat, almond, chimichurri, and (in dist/, unpublished) akawi. The wine-education tier (~430 pages), unchanged, remains the site's richest content. Score held below Silver-band because most narrative content is still brief (typically one sentence) and beginner_notes/FAQ depth is authored for only ~35% of leaf entities (protein and cheese)."
-    },
-    "helpful_content": {
-      "score_before": 38,
-      "score_after": 55,
-      "delta": 17,
-      "basis": "Every ingredient page now teaches a concrete pairing rationale naming specific wines, a real improvement on 'would a cook learn something.' Held back by: content still brief per entity, site search still excludes all food-ontology pages (unchanged), and preparation-specific guidance remains largely absent outside protein/cheese."
-    },
-    "eeat_signals": {
-      "score_before": 52,
-      "score_after": 55,
-      "delta": 3,
-      "basis": "One accuracy defect resolved as a side effect: cheese pages no longer render a 'Scientific name' field populated with the source animal's species (that field was replaced by 'Milk source' in the new template) — confirmed absent from dist/cheeses/akawi/. Unresolved: the béarnaise/coconut relationship not traceable to its own catalog data is still live, and — because it now renders under a real 'Common Culinary Uses' heading instead of a bare unlabeled list — is arguably more visible to a reader than before. Unsupported 'Pairing Strength: XX%' scores, 51 undisclosed duplicate legacy pages, and the Disclaimer/Organization-schema jurisdiction inconsistency are all unchanged."
-    },
-    "thin_content": {
-      "score_before": 22,
-      "score_after": 72,
-      "delta": 50,
-      "basis": "The dominant AQ-01 finding — TC-01 (956 leaf pages, zero prose) and TC-03 (72 group/category hubs, zero prose) — is resolved: verified zero empty-section violations and 1,252/1,252 authored summaries rendering, per AQ-02A's own QA pass, independently spot-checked here. TC-02 (51 duplicate deprecated protein pages) is technically resolved in the sense that both the deprecated and canonical versions now carry narrative, though the underlying duplicate-URL problem is untouched (see entity_quality and navigation_quality). Remaining thin content — seasonal guides (TC-04), region pages beyond /regions/usa/ (TC-05), serving pages (TC-06) — is entirely in the wine-education tier and confirmed unchanged, re-read directly."
-    },
-    "template_detection": {
-      "score_before": 28,
-      "score_after": 48,
-      "delta": 20,
-      "basis": "Leaf-tier structural DOM similarity across ~1,000 pages is unavoidable and unchanged (a clean shared layout, not inherently a defect per AQ-01's own framing), but the sentence-level content inside that structure is now genuinely unique per entity rather than absent — substantially reducing the 'reads like scaled/auto-generated content' signal for the majority-by-count tier. Entirely unchanged and re-confirmed: the wine-descriptor-category 'Understanding X descriptors helps you...' noun-swap template, and the leftover-template-variable phrase 'is the best if the dish is smoky for X' still live verbatim on wine-with-grilled-steak.html and wine-with-smoked-pork.html."
-    },
-    "pairing_quality": {
-      "score_before": 48,
-      "score_after": 65,
-      "delta": 17,
-      "basis": "The single most-cited AQ-01 defect in this category — a bare, unexplained 'Primary wine styles' link list — no longer exists on any of the ~1,166 leaf pages; each now carries a rationale sentence immediately above the categorized style/technique links, verified on multiple entities including sauce-condiment's differentiated pairing taxonomy (chimichurri: primary/classic/contrasting/regional/avoid). Dish-specific guides (unchanged) remain the strongest single content class on the site. Held back from a higher score by: pairing rationale is still one sentence per entity, not dish-specific to preparation the way the dish guides are, and the unsupported 'Pairing Strength %' pattern on dish pages is unchanged."
-    },
-    "entity_quality": {
-      "score_before": 58,
-      "score_after": 60,
-      "delta": 2,
-      "basis": "One data-accuracy defect (cheese scientific-name mislabeling) no longer renders, resolved as a side effect of the template change rather than a data fix. Every other AQ-01 accuracy finding — chayote misclassified under root-vegetables, the boldo/pork-loin plausibility flag, the fava-bean grammar defect in the authored summary, the béarnaise/coconut unsourced relationship — is unchanged, confirmed by re-checking the same catalog entries; these are appropriately out of AQ-02A's publication-layer scope."
-    },
-    "internal_linking": {
-      "score_before": 40,
-      "score_after": 48,
-      "delta": 8,
-      "basis": "Root sitemap.xml now references 10 of 11 food-domain sitemap sets (previously 1 of 11) — confirmed by direct inspection — a meaningful, if incidental, crawl-discoverability improvement. The Wine Pairing Explanation section also groups related links under contextual sub-headings instead of a flat list, a minor linking-quality improvement. The dominant defect from AQ-01 — every page's link back to its own domain root pointing at a 404 — is completely unchanged; this caps the score."
-    },
-    "navigation_quality": {
-      "score_before": 27,
-      "score_after": 29,
-      "delta": 2,
-      "basis": "Re-confirmed directly: all 11 food-domain hub paths (/foods/, /fruits/, etc.) still 404 on every published leaf/group/category page's main-nav 'Foods' link and breadcrumb root crumb. Site search still indexes only wine-side entities. The /terms.html vs /terms/ naming collision and the missing true glossary index are both unchanged. The small uptick reflects the sitemap improvement bleeding into general discoverability, not any change to on-site navigation itself."
-    },
-    "adsense_readiness": {
-      "score_before": 34,
-      "score_after": 52,
-      "delta": 18,
-      "basis": "The single riskiest pattern identified in AQ-01 — a majority of live pages reading as unexplained, auto-assembled fact tables, the closest match to AdSense's 'scaled/low-value content' policy language — is resolved for the ~1,252 pages it affected. That was the largest, but not the only, risk factor: a reviewer who clicks the still-404ing 'Foods' nav link, or notices the still-dead 'View Bottle' buttons on dish pages, or the 51 still-undisclosed duplicate legacy pages, would still flag the site. See adsense-readiness.md for the full updated policy walk-through."
-    }
+    "original_value": { "aq01": 32, "aq01r_post_a": 60, "aq01r2_post_b": 60, "delta_this_phase": 0, "basis": "Unaffected — AQ-02B did not touch entity/group/category content rendering." },
+    "helpful_content": { "aq01": 38, "aq01r_post_a": 55, "aq01r2_post_b": 58, "delta_this_phase": 3, "basis": "A visitor who now finds a useful page via search or the domain hub, rather than hitting a dead end, is more likely to actually use what AQ-02A published. Content itself unchanged." },
+    "eeat_signals": { "aq01": 52, "aq01r_post_a": 55, "aq01r2_post_b": 66, "delta_this_phase": 11, "basis": "The bearnaise/coconut relationship, elevated across two prior audits as the site's clearest example of unsourced content, is confirmed to have full documented provenance (data/runtime/sauce-condiment-editorial-relationships.json) — the prior audits checked the wrong data layer. AQ-02B's provenance verifier confirmed 0 unsupported relationships across a full census of 4,140 rendered relationships. This is a real, verified trust improvement, not a re-estimate. Offset slightly: the cheese scientific-name mislabeling and squash taxonomy-drift issues are now documented as full-domain findings (204 and 9 entities respectively) rather than single examples, though neither is new — both were already known in AQ-01 at smaller sample size and neither is live (cheese unpublished)." },
+    "thin_content": { "aq01": 22, "aq01r_post_a": 72, "aq01r2_post_b": 72, "delta_this_phase": 0, "basis": "Unaffected — out of AQ-02B's scope." },
+    "template_detection": { "aq01": 28, "aq01r_post_a": 48, "aq01r2_post_b": 48, "delta_this_phase": 0, "basis": "Unaffected — the wine-education-tier templating findings (noun-swap category sentence, leftover template variable) are untouched, re-confirmed verbatim." },
+    "pairing_quality": { "aq01": 48, "aq01r_post_a": 65, "aq01r2_post_b": 65, "delta_this_phase": 0, "basis": "Unaffected — out of AQ-02B's scope." },
+    "entity_quality": { "aq01": 58, "aq01r_post_a": 60, "aq01r2_post_b": 66, "delta_this_phase": 6, "basis": "Referential integrity is now verified, not assumed: 0 duplicate slugs, 0 orphaned parent-group/category references, 0 unsupported relationships across a full site census. The bearnaise correction removes a false accuracy defect. Offset by fuller, more honest documentation of the taxonomy-drift pattern (9 squash-family entities, not 1) and the cheese mislabel (204 entities, full census) — neither newly discovered, both now more rigorously measured." },
+    "internal_linking": { "aq01": 40, "aq01r_post_a": 48, "aq01r2_post_b": 78, "delta_this_phase": 30, "basis": "A real breadth-first crawl (not link-count sampling) now confirms every published page is reachable: 51 previously-orphaned deprecated pages (found by this exact crawl, not assumed) now redirect to their canonical replacement. Sitemap coverage is deterministic and complete for all published domains. This was the single largest movement in this rerun." },
+    "navigation_quality": { "aq01": 27, "aq01r_post_a": 29, "aq01r2_post_b": 75, "delta_this_phase": 46, "basis": "The dominant defect across both prior audits — every food-domain hub 404ing — is fixed: 10 of 11 resolve, confirmed directly. /ingredients/ gives the site a single, consistent navigational entry point, linked from every relevant page type. Site search now covers the food ontology. Held below a higher score by: the wine-descriptor-glossary naming collision (/terms.html vs /terms/) is still unfixed, and cheese remains unpublished (by design, not defect)." },
+    "adsense_readiness": { "aq01": 34, "aq01r_post_a": 52, "aq01r2_post_b": 74, "delta_this_phase": 22, "basis": "AQ-01R's own verdict named broken primary navigation as the specific, narrowed reason the site would still fail manual review after AQ-02A. That defect is fixed and independently verified. Remaining risk is smaller and more specific: dead 'View Bottle' links, unexplained confidence scores, and two now-fully-documented catalog accuracy findings awaiting an editorial pass rather than a publication fix." }
   },
-  "overall_score_before": 38,
-  "overall_score_after": 54,
-  "overall_delta": 16,
-  "overall_tier_before": "Bronze",
-  "overall_tier_after": "Bronze (upper band, close to the Silver threshold)",
+  "overall_score_progression": { "aq01": 38, "aq01r_post_a": 54, "aq01r2_post_b": 66 },
+  "overall_delta_this_phase": 12,
+  "overall_delta_total": 28,
+  "overall_tier_progression": { "aq01": "Bronze", "aq01r_post_a": "Bronze (upper band)", "aq01r2_post_b": "Silver" },
   "tier_scale": {
     "platinum": "90-100 — comprehensive, original, consistently authoritative across the whole site",
     "gold": "75-89 — strong core content, isolated gaps",
@@ -81,6 +29,6 @@
     "bronze": "40-59 — a genuine editorial core exists but is outnumbered or undermined by thin/broken content across the majority of the site",
     "not_certified": "0-39 — thin/templated/broken content is the dominant visible experience"
   },
-  "tier_note": "38 -> 54 is real, verified movement (not a re-estimate) driven almost entirely by Thin Content (+50) and AdSense Readiness (+18), i.e. exactly the category AQ-02A targeted. It stays in Bronze rather than crossing into Silver because Navigation Quality (+2) and Internal Linking (+8) — the two categories governing whether a reviewer can orient themselves on the site at all — were outside AQ-02A's scope and remain close to where AQ-01 found them. Closing the domain-hub 404s and the wine-only search gap (see navigation-review.md and recommended-improvements.md) is now the highest-leverage remaining lever, on the same logic AQ-01 used originally: it is a mechanical, scoped fix, not a rewrite.",
-  "would_pass_manual_adsense_review_today": "Still no, but for a narrower and more specific reason than before. The 'majority of pages are unexplained fact tables' risk that dominated the original verdict is resolved. The remaining risk is that a reviewer's very first orientation action (clicking the main-nav category link) 404s on every one of ~1,166 pages, which reads as basic operational incompleteness regardless of how good the content next to it has become. See adsense-readiness.md."
+  "tier_note": "66/100 crosses into Silver for the first time across three measurements. This reflects the two remediation phases addressing genuinely different, complementary defects: AQ-02A fixed what the majority of pages said; AQ-02B fixed whether a reader could find and trust what they said. The remaining ceiling to Gold is now specific and bounded: wine-education-tier template language, two catalog-layer accuracy findings, and a handful of dead links on one page template — not a structural gap in either content or navigation.",
+  "would_pass_manual_adsense_review_today": "More plausibly than before, though still not confidently yes. The two structural defects that drove prior 'no' verdicts (thin content at scale, broken primary navigation) are both resolved and independently verified. What would likely still draw a reviewer's attention: the wine-education tier's templated sentence patterns (a real AI-content-detection signature) and the non-functional 'View Bottle' links on dish pages. Neither is a site-wide pattern any longer — both are confined, specific, and were already fully scoped in recommended-improvements.md before this phase began."
 }
