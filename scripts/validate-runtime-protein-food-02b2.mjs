@@ -19,6 +19,7 @@ import {
   serializeRuntime,
   compileProteinFoodRuntime,
 } from "./bootstrap-protein-food-catalog.js";
+import { createProteinMigrationResolver } from "../lib/runtime/proteinMigrationResolver.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -355,7 +356,7 @@ function validateCrossIndex({ index, groups, slugMap, idMap, speciesMap, vocabul
 function validateDeterminism(loaded, errors, checks) {
   let passed = 0;
   const catalog = JSON.parse(fs.readFileSync(CATALOG_PATH, "utf8"));
-  const rebuilt = compileProteinFoodRuntime(catalog);
+  const rebuilt = compileProteinFoodRuntime(catalog, createProteinMigrationResolver(ROOT));
 
   for (const name of ARTIFACTS) {
     const expected = serializeRuntime(loaded[name]);
@@ -373,6 +374,65 @@ function validateDeterminism(loaded, errors, checks) {
   return passed;
 }
 
+function validateMigrationCompliance({ idMap, slugMap, index, errors, checks }) {
+  const resolver = createProteinMigrationResolver(ROOT);
+  let passed = 0;
+  const idSet = new Set(Object.keys(idMap));
+  const slugSet = new Set(Object.keys(slugMap));
+
+  for (const entry of resolver.map.migrations) {
+    if (idSet.has(entry.legacy_id)) {
+      errors.push(`PROTEIN-005: deprecated entity ${entry.legacy_id} present in id map`);
+    }
+    if (slugSet.has(entry.legacy_slug)) {
+      errors.push(`PROTEIN-005: deprecated slug ${entry.legacy_slug} present in slug map`);
+    }
+    if (resolver.resolveProteinId(entry.legacy_id) !== entry.canonical_id) {
+      errors.push(`Migration: resolveProteinId(${entry.legacy_id}) != ${entry.canonical_id}`);
+    }
+    if (resolver.proteinRuntimeAllowed(entry.legacy_id)) {
+      errors.push(`PROTEIN-005: deprecated entity ${entry.legacy_id} allowed for runtime generation`);
+    }
+  }
+  if (!errors.some((e) => e.startsWith("PROTEIN-005:") || e.startsWith("Migration:"))) {
+    passed += 1;
+  }
+
+  for (const entry of resolver.map.retained) {
+    if (!idSet.has(entry.protein_id)) {
+      errors.push(`Migration: retained entity ${entry.protein_id} missing from id map`);
+    }
+    if (!resolver.proteinRuntimeAllowed(entry.protein_id)) {
+      errors.push(`Migration: retained entity ${entry.protein_id} blocked from runtime generation`);
+    }
+    if (resolver.resolveProteinId(entry.protein_id) !== entry.protein_id) {
+      errors.push(`Migration: retained entity ${entry.protein_id} was redirected`);
+    }
+  }
+  if (!errors.some((e) => e.startsWith("Migration: retained"))) {
+    passed += 1;
+  }
+
+  const embeddedLegacy = index.migration?.legacy_id_to_canonical ?? {};
+  const expectedLegacy = resolver.legacyIdToCanonicalIndex();
+  if (JSON.stringify(embeddedLegacy) !== JSON.stringify(expectedLegacy)) {
+    errors.push("Migration: index legacy_id_to_canonical mismatch with migration map");
+  } else {
+    passed += 1;
+  }
+
+  if (index.meta?.deprecated_excluded !== resolver.migrationCount) {
+    errors.push(
+      `Migration: deprecated_excluded ${index.meta?.deprecated_excluded} != migration count ${resolver.migrationCount}`
+    );
+  } else {
+    passed += 1;
+  }
+
+  checks.migration = passed;
+  return passed;
+}
+
 function main() {
   const errors = [];
   const warnings = [];
@@ -383,6 +443,7 @@ function main() {
     vocabulary: 0,
     cross_index: 0,
     determinism: 0,
+    migration: 0,
   };
 
   let loaded;
@@ -425,6 +486,7 @@ function main() {
   validateSpecies({ speciesMap, idMap, index, errors, checks });
   validateVocabulary({ vocabularyIndex, idMap, errors, warnings, checks });
   validateCrossIndex({ index, groups, slugMap, idMap, speciesMap, vocabularyIndex, errors, checks });
+  validateMigrationCompliance({ idMap, slugMap, index, errors, checks });
   validateDeterminism(loaded, errors, checks);
 
   const overall = errors.length === 0 ? "PASS" : "FAIL";
@@ -442,6 +504,7 @@ function main() {
       "Species checks": checks.species,
       "Vocabulary checks": checks.vocabulary,
       "Cross-index checks": checks.cross_index,
+      "Migration checks": checks.migration,
       "Determinism checks": checks.determinism,
       Errors: errors.length,
       Warnings: warnings.length,

@@ -10,6 +10,7 @@ import fs from "fs";
 import path from "path";
 import { spawnSync } from "child_process";
 import { fileURLToPath } from "url";
+import { createProteinMigrationResolver } from "../lib/runtime/proteinMigrationResolver.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -37,7 +38,7 @@ const VOCAB = {
   anatomical_cut: new Set([
     "rib", "loin", "sirloin", "chuck", "round", "brisket", "flank", "plate",
     "shank", "neck", "belly", "shoulder", "leg", "breast", "thigh", "wing",
-    "jowl", "tail", "claw", "tentacle", "fillet", "",
+    "jowl", "tail", "claw", "tentacle", "fillet", "trim", "",
   ]),
   bone_state: new Set(["bone_in", "boneless", "either", "not_applicable"]),
   fat_content: new Set(["lean", "moderate", "rich"]),
@@ -125,7 +126,8 @@ function fieldValue(food, field) {
   return food[field];
 }
 
-function validateForBootstrap(catalog) {
+function validateForBootstrap(catalog, migrationResolver) {
+  const resolver = migrationResolver ?? createProteinMigrationResolver(ROOT);
   const errors = [];
   const ids = new Set();
   const slugs = new Set();
@@ -133,6 +135,9 @@ function validateForBootstrap(catalog) {
   const categorySlugs = new Set(catalog.categories.map((c) => c.slug));
 
   for (const food of catalog.protein_foods) {
+    if (!resolver.proteinRuntimeAllowed(food.id)) {
+      continue;
+    }
     if (ids.has(food.id)) errors.push(`Duplicate id: ${food.id}`);
     ids.add(food.id);
     if (slugs.has(food.slug)) errors.push(`Duplicate slug: ${food.slug}`);
@@ -203,10 +208,13 @@ function buildVocabularyIndex(foods) {
   return index;
 }
 
-function bootstrap(catalog) {
-  const foods = [...catalog.protein_foods].sort((a, b) => a.id.localeCompare(b.id));
+function bootstrap(catalog, migrationResolver) {
+  const resolver = migrationResolver ?? createProteinMigrationResolver(ROOT);
+  const allFoods = [...catalog.protein_foods].sort((a, b) => a.id.localeCompare(b.id));
+  const foods = allFoods.filter((food) => resolver.proteinRuntimeAllowed(food.id));
   const groups = [...catalog.groups].sort((a, b) => a.slug.localeCompare(b.slug));
   const categories = [...catalog.categories].sort((a, b) => a.slug.localeCompare(b.slug));
+  const deprecatedExcluded = allFoods.length - foods.length;
 
   const idMap = {};
   const slugMap = {};
@@ -267,15 +275,18 @@ function bootstrap(catalog) {
     group_slugs: [...cat.child_slugs].sort(),
   }));
 
-  const groupsOut = groups.map((group) => ({
-    id: group.id,
-    slug: group.slug,
-    name: group.name,
-    parent_category: group.parent_category,
-    food_category: group.food_category,
-    food_slugs: [...group.child_slugs].sort(),
-    food_ids: group.child_slugs.map((s) => slugMap[s]).sort(),
-  }));
+  const groupsOut = groups.map((group) => {
+    const activeSlugs = group.child_slugs.filter((slug) => slugMap[slug]).sort();
+    return {
+      id: group.id,
+      slug: group.slug,
+      name: group.name,
+      parent_category: group.parent_category,
+      food_category: group.food_category,
+      food_slugs: activeSlugs,
+      food_ids: activeSlugs.map((slug) => slugMap[slug]).sort(),
+    };
+  });
 
   const vocabularyIndex = buildVocabularyIndex(foods);
 
@@ -285,8 +296,16 @@ function bootstrap(catalog) {
       catalog_version: catalog.meta.catalog_version,
       food_ontology_version: catalog.meta.food_ontology_version,
       entity_count: foods.length,
+      catalog_entity_count: allFoods.length,
+      deprecated_excluded: deprecatedExcluded,
       bootstrapped_at: catalog.meta.catalog_version,
-      phase: "ONTOLOGY-02B.1",
+      phase: "FOOD-14C",
+      migration_map: "data/protein-migration-map.json",
+      resolver: "lib/runtime/proteinMigrationResolver.js",
+    },
+    migration: {
+      legacy_id_to_canonical: resolver.legacyIdToCanonicalIndex(),
+      legacy_slug_to_canonical: resolver.legacySlugToCanonicalIndex(),
     },
     hierarchy: {
       category_to_groups: categoryToGroups,
@@ -312,6 +331,8 @@ function bootstrap(catalog) {
       categories: categoriesOut.length,
       groups: groupsOut.length,
       foods: foods.length,
+      catalog_foods: allFoods.length,
+      deprecated_excluded: deprecatedExcluded,
       species: Object.keys(speciesMap).length,
       scientific_names: Object.keys(byScientificName).length,
       runtime_artifacts: ARTIFACTS.length,
@@ -319,16 +340,19 @@ function bootstrap(catalog) {
   };
 }
 
-function main() {
-  requireAuditPass();
+function runProteinFoodBootstrap({ skipCatalogAudit = false } = {}) {
+  if (!skipCatalogAudit) {
+    requireAuditPass();
+  }
 
   const catalogMtimeBefore = fs.statSync(CATALOG_PATH).mtimeMs;
   const catalog = JSON.parse(fs.readFileSync(CATALOG_PATH, "utf8"));
+  const resolver = createProteinMigrationResolver(ROOT);
 
-  const bootstrapErrors = validateForBootstrap(catalog);
+  const bootstrapErrors = validateForBootstrap(catalog, resolver);
   if (bootstrapErrors.length > 0) {
     const report = {
-      phase: "ONTOLOGY-02B.1",
+      phase: skipCatalogAudit ? "FOOD-14C" : "ONTOLOGY-02B.1",
       overall_result: "FAIL",
       bootstrap_errors: bootstrapErrors,
       metrics: { "Bootstrap errors": bootstrapErrors.length },
@@ -339,20 +363,16 @@ function main() {
     process.exit(1);
   }
 
-  const built = bootstrap(catalog);
+  const built = bootstrap(catalog, resolver);
 
   fs.mkdirSync(RUNTIME_DIR, { recursive: true });
-  const written = {};
-  written[ARTIFACTS[0]] = writeJson(path.join(RUNTIME_DIR, ARTIFACTS[0]), built.index);
-  written[ARTIFACTS[1]] = writeJson(path.join(RUNTIME_DIR, ARTIFACTS[1]), built.categoriesOut);
-  written[ARTIFACTS[2]] = writeJson(path.join(RUNTIME_DIR, ARTIFACTS[2]), built.groupsOut);
-  written[ARTIFACTS[3]] = writeJson(path.join(RUNTIME_DIR, ARTIFACTS[3]), built.idMap);
-  written[ARTIFACTS[4]] = writeJson(path.join(RUNTIME_DIR, ARTIFACTS[4]), built.slugMap);
-  written[ARTIFACTS[5]] = writeJson(path.join(RUNTIME_DIR, ARTIFACTS[5]), built.speciesMap);
-  written[ARTIFACTS[6]] = writeJson(
-    path.join(RUNTIME_DIR, ARTIFACTS[6]),
-    built.vocabularyIndex
-  );
+  writeJson(path.join(RUNTIME_DIR, ARTIFACTS[0]), built.index);
+  writeJson(path.join(RUNTIME_DIR, ARTIFACTS[1]), built.categoriesOut);
+  writeJson(path.join(RUNTIME_DIR, ARTIFACTS[2]), built.groupsOut);
+  writeJson(path.join(RUNTIME_DIR, ARTIFACTS[3]), built.idMap);
+  writeJson(path.join(RUNTIME_DIR, ARTIFACTS[4]), built.slugMap);
+  writeJson(path.join(RUNTIME_DIR, ARTIFACTS[5]), built.speciesMap);
+  writeJson(path.join(RUNTIME_DIR, ARTIFACTS[6]), built.vocabularyIndex);
 
   const catalogMtimeAfter = fs.statSync(CATALOG_PATH).mtimeMs;
   if (catalogMtimeBefore !== catalogMtimeAfter) {
@@ -360,7 +380,7 @@ function main() {
   }
 
   const report = {
-    phase: "ONTOLOGY-02B.1",
+    phase: "FOOD-14C",
     catalog_version: catalog.meta.catalog_version,
     overall_result: "PASS",
     bootstrap_errors: [],
@@ -368,6 +388,8 @@ function main() {
       "Categories indexed": built.stats.categories,
       "Groups indexed": built.stats.groups,
       "Foods indexed": built.stats.foods,
+      "Catalog foods": built.stats.catalog_foods,
+      "Deprecated excluded": built.stats.deprecated_excluded,
       "Species indexed": built.stats.species,
       "Runtime artifacts": built.stats.runtime_artifacts,
       "Bootstrap errors": 0,
@@ -378,6 +400,11 @@ function main() {
   writeJson(REPORT_PATH, report);
   console.log(JSON.stringify(report.metrics, null, 2));
   console.log(`Report: ${REPORT_PATH}`);
+  return built;
+}
+
+function main() {
+  runProteinFoodBootstrap();
 }
 
 export {
@@ -389,6 +416,7 @@ export {
   sortKeysDeep,
   serializeRuntime,
   bootstrap as compileProteinFoodRuntime,
+  runProteinFoodBootstrap,
 };
 
 const isMain =

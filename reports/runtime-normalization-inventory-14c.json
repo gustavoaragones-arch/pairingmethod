@@ -1,0 +1,103 @@
+{
+  "phase": "FOOD-14C",
+  "stage": 1,
+  "overall_result": "PASS",
+  "migration_map": "data/protein-migration-map.json",
+  "resolver": "lib/runtime/proteinMigrationResolver.js",
+  "lookups": [
+    {
+      "file": "scripts/bootstrap-protein-food-catalog.js",
+      "function": "bootstrap / compileProteinFoodRuntime",
+      "lookup_type": "catalog_entity_id → idMap; slug → slugMap; inverted indexes",
+      "deprecated_handling": "FOOD-14C — filter via proteinRuntimeAllowed",
+      "migration_required": true,
+      "modification_scope": "MODIFIED_14C"
+    },
+    {
+      "file": "scripts/validate-runtime-protein-food-02b2.mjs",
+      "function": "validateIdentity / validateMigrationCompliance",
+      "lookup_type": "idMap ↔ slugMap cross-validation; PROTEIN-005 assertions",
+      "deprecated_handling": "FOOD-14C — assert deprecated absent from runtime artifacts",
+      "migration_required": true,
+      "modification_scope": "MODIFIED_14C"
+    },
+    {
+      "file": "scripts/map-protein-food-relationships-02c1.mjs",
+      "function": "mapProteinFoodRelationships",
+      "lookup_type": "idMap graph traversal → structural edges",
+      "deprecated_handling": "inherits filtered idMap from bootstrap",
+      "migration_required": false,
+      "modification_scope": "READ_ONLY_14C"
+    },
+    {
+      "file": "lib/runtime/proteinMigrationResolver.js",
+      "function": "resolveProteinId / proteinRuntimeAllowed",
+      "lookup_type": "legacy food.protein.* → canonical ID",
+      "deprecated_handling": "FULL — consumes migration map SSOT",
+      "migration_required": true,
+      "modification_scope": "CREATED_14C"
+    },
+    {
+      "file": "scripts/map-protein-food-editorial-relationships-02c2.mjs",
+      "function": "resolveFoodId",
+      "lookup_type": "slug → food.protein.* via slugMap",
+      "deprecated_handling": "unchanged in FOOD-14C",
+      "migration_required": false,
+      "modification_scope": "READ_ONLY_14C"
+    },
+    {
+      "file": "scripts/map-protein-food-wine-relationships-02d1.mjs",
+      "function": "resolveFoodId",
+      "lookup_type": "slug → food.protein.* via slugMap",
+      "deprecated_handling": "unchanged in FOOD-14C",
+      "migration_required": false,
+      "modification_scope": "READ_ONLY_14C"
+    },
+    {
+      "file": "lib/food-publication/runtime-loader.js",
+      "function": "loadDomainInputs",
+      "lookup_type": "loads protein-food-index.json, groups, categories",
+      "deprecated_handling": "read-only consumer",
+      "migration_required": false,
+      "modification_scope": "READ_ONLY_14C"
+    },
+    {
+      "file": "lib/food-publication/projections.js",
+      "function": "generateProjections",
+      "lookup_type": "leaf.id → editorial/pairing edge index",
+      "deprecated_handling": "unchanged in FOOD-14C",
+      "migration_required": false,
+      "modification_scope": "READ_ONLY_14C"
+    },
+    {
+      "file": "lib/food-publication/links.js",
+      "function": "leafLinkFromId",
+      "lookup_type": "entity ID → navigation link",
+      "deprecated_handling": "unchanged in FOOD-14C",
+      "migration_required": false,
+      "modification_scope": "READ_ONLY_14C"
+    },
+    {
+      "file": "lib/food-publication/search.js",
+      "function": "buildLeafDocument",
+      "lookup_type": "page.identity.id → search document",
+      "deprecated_handling": "unchanged in FOOD-14C",
+      "migration_required": false,
+      "modification_scope": "READ_ONLY_14C"
+    },
+    {
+      "file": "lib/protein-food-navigation.js",
+      "function": "isResolvableHref",
+      "lookup_type": "href/id resolution",
+      "deprecated_handling": "unchanged in FOOD-14C",
+      "migration_required": false,
+      "modification_scope": "READ_ONLY_14C"
+    }
+  ],
+  "metrics": {
+    "Files inventoried": 11,
+    "Migration required": 3,
+    "Modified in FOOD-14C": 3,
+    "Read-only in FOOD-14C": 8
+  }
+}
