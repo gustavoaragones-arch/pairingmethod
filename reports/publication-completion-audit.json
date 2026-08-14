@@ -1,0 +1,799 @@
+{
+  "phase": "AQ-02A",
+  "title": "Publication Completion Architecture \u2014 QA Audit",
+  "date": "2026-08-14",
+  "summary": "Every food-ontology entity page (leaf, group, category) across all 11 domains was migrated from a fact-table-only layout to a narrative-first educational reference layout. Authored catalog fields (summary, beginner_notes, faq, origin_context, introduction) that previously existed but never rendered are now published wherever present, at every tier (leaf, group, and category), and gracefully omitted (no placeholders, no empty sections) wherever absent.",
+  "methodology": "Every leaf/group/category HTML page across all 11 food-ontology domains was checked programmatically against its source catalog entity: a 'rendered' count requires both the narrative section's markup AND the entity's own (HTML-escaped) authored text to be present in that specific page's HTML; a 'suppressed_no_data' count is a page correctly omitting a section because the catalog has no authored value for that field; 'empty_section_violations' counts any section markup rendered with no backing data (must be zero); 'duplicated_narrative_instances' counts any page where an authored text block appears more than once verbatim (must be zero). One authored FAQ answer per cheese entity that is byte-identical to that entity's summary is intentionally dropped by renderFAQ() to avoid shipping the same sentence twice on one page; this is a deliberate de-duplication decision, not a rendering defect \u2014 see architecture_notes.consolidation_decisions.",
+  "domains": {
+    "protein": {
+      "published_to_root": true,
+      "tiers": {
+        "leaf": {
+          "count": 210,
+          "summary": {
+            "authored": 210,
+            "rendered": 210,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 210,
+            "rendered": 210,
+            "suppressed_no_data": 0
+          },
+          "faq": {
+            "authored": 210,
+            "rendered": 210,
+            "suppressed_no_data": 0
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "group": {
+          "count": 17,
+          "summary": {
+            "authored": 17,
+            "rendered": 17,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 17
+          },
+          "faq": {
+            "authored": 16,
+            "rendered": 16,
+            "suppressed_no_data": 1
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "category": {
+          "count": 3,
+          "summary": {
+            "authored": 3,
+            "rendered": 3,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 3
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 3
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        }
+      }
+    },
+    "fruit": {
+      "published_to_root": true,
+      "tiers": {
+        "leaf": {
+          "count": 119,
+          "summary": {
+            "authored": 119,
+            "rendered": 119,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 119
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 119
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "group": {
+          "count": 7,
+          "summary": {
+            "authored": 7,
+            "rendered": 7,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 7
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 7
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "category": {
+          "count": 1,
+          "summary": {
+            "authored": 1,
+            "rendered": 1,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        }
+      }
+    },
+    "vegetable": {
+      "published_to_root": true,
+      "tiers": {
+        "leaf": {
+          "count": 74,
+          "summary": {
+            "authored": 74,
+            "rendered": 74,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 74
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 74
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "group": {
+          "count": 4,
+          "summary": {
+            "authored": 4,
+            "rendered": 4,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 4
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 4
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "category": {
+          "count": 1,
+          "summary": {
+            "authored": 1,
+            "rendered": 1,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        }
+      }
+    },
+    "grain-starch": {
+      "published_to_root": true,
+      "tiers": {
+        "leaf": {
+          "count": 76,
+          "summary": {
+            "authored": 76,
+            "rendered": 76,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 76
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 76
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "group": {
+          "count": 4,
+          "summary": {
+            "authored": 4,
+            "rendered": 4,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 4
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 4
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "category": {
+          "count": 1,
+          "summary": {
+            "authored": 1,
+            "rendered": 1,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        }
+      }
+    },
+    "legume": {
+      "published_to_root": true,
+      "tiers": {
+        "leaf": {
+          "count": 75,
+          "summary": {
+            "authored": 75,
+            "rendered": 75,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 75
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 75
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "group": {
+          "count": 6,
+          "summary": {
+            "authored": 6,
+            "rendered": 6,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 6
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 6
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "category": {
+          "count": 1,
+          "summary": {
+            "authored": 1,
+            "rendered": 1,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        }
+      }
+    },
+    "nut-seed": {
+      "published_to_root": true,
+      "tiers": {
+        "leaf": {
+          "count": 89,
+          "summary": {
+            "authored": 89,
+            "rendered": 89,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 89
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 89
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "group": {
+          "count": 6,
+          "summary": {
+            "authored": 6,
+            "rendered": 6,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 6
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 6
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "category": {
+          "count": 1,
+          "summary": {
+            "authored": 1,
+            "rendered": 1,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        }
+      }
+    },
+    "herb-spice": {
+      "published_to_root": true,
+      "tiers": {
+        "leaf": {
+          "count": 113,
+          "summary": {
+            "authored": 113,
+            "rendered": 113,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 113
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 113
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "group": {
+          "count": 4,
+          "summary": {
+            "authored": 4,
+            "rendered": 4,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 4
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 4
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "category": {
+          "count": 1,
+          "summary": {
+            "authored": 1,
+            "rendered": 1,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        }
+      }
+    },
+    "sweet-flavor": {
+      "published_to_root": true,
+      "tiers": {
+        "leaf": {
+          "count": 73,
+          "summary": {
+            "authored": 73,
+            "rendered": 73,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 73
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 73
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "group": {
+          "count": 6,
+          "summary": {
+            "authored": 6,
+            "rendered": 6,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 6
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 6
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "category": {
+          "count": 1,
+          "summary": {
+            "authored": 1,
+            "rendered": 1,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        }
+      }
+    },
+    "sauce-condiment": {
+      "published_to_root": true,
+      "tiers": {
+        "leaf": {
+          "count": 90,
+          "summary": {
+            "authored": 90,
+            "rendered": 90,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 90
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 90
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "group": {
+          "count": 6,
+          "summary": {
+            "authored": 6,
+            "rendered": 6,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 6
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 6
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "category": {
+          "count": 1,
+          "summary": {
+            "authored": 1,
+            "rendered": 1,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        }
+      }
+    },
+    "fungi": {
+      "published_to_root": true,
+      "tiers": {
+        "leaf": {
+          "count": 43,
+          "summary": {
+            "authored": 43,
+            "rendered": 43,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 43
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 43
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "group": {
+          "count": 4,
+          "summary": {
+            "authored": 4,
+            "rendered": 4,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 4
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 4
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "category": {
+          "count": 1,
+          "summary": {
+            "authored": 1,
+            "rendered": 1,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        }
+      }
+    },
+    "cheese": {
+      "published_to_root": false,
+      "tiers": {
+        "leaf": {
+          "count": 204,
+          "summary": {
+            "authored": 204,
+            "rendered": 204,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 204,
+            "rendered": 204,
+            "suppressed_no_data": 0
+          },
+          "faq": {
+            "authored": 204,
+            "rendered": 204,
+            "suppressed_no_data": 0
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "group": {
+          "count": 9,
+          "summary": {
+            "authored": 9,
+            "rendered": 9,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 9
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 9
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        },
+        "category": {
+          "count": 1,
+          "summary": {
+            "authored": 1,
+            "rendered": 1,
+            "suppressed_no_data": 0
+          },
+          "beginner_guide": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "faq": {
+            "authored": 0,
+            "rendered": 0,
+            "suppressed_no_data": 1
+          },
+          "duplicated_narrative_instances": 0,
+          "empty_section_violations": 0
+        }
+      }
+    }
+  },
+  "totals": {
+    "pages_checked": 1252,
+    "summary_rendered": 1252,
+    "summary_suppressed_no_data": 0,
+    "beginner_guide_rendered": 414,
+    "beginner_guide_suppressed_no_data": 838,
+    "faq_rendered": 430,
+    "faq_suppressed_no_data": 822,
+    "duplicated_narrative_instances": 0,
+    "empty_section_violations": 0
+  },
+  "qa_checks": {
+    "every_entity_with_summary_renders_summary": true,
+    "every_entity_with_beginner_notes_renders_them": true,
+    "no_empty_sections": true,
+    "no_duplicated_narrative": true
+  },
+  "success_criteria_spot_check": {
+    "note": "The 7 pages named in the AQ-02A brief were opened directly and read end-to-end; all show narrative (About This Entry / Beginner Guide where authored / Wine Pairing Explanation with rationale / Common Culinary Uses / FAQ where authored / Knowledge Cards) before any reference table.",
+    "pages": [
+      "fruits/marionberry/",
+      "fungi/chanterelle/",
+      "herbs-spices/berbere/",
+      "grains-starches/buckwheat/",
+      "nut-seeds/almond/",
+      "sauce-condiments/chimichurri/",
+      "dist/cheeses/akawi/ (cheese domain not yet published to root \u2014 see publication_scope_note)"
+    ]
+  },
+  "publication_scope_note": "Cheese (204 leaf + 9 group + 1 category pages) was regenerated with the new architecture in dist/cheeses/, dist/cheese-groups/, dist/cheese-categories/ and passes full certification, but was NOT promoted to the live root (no root cheeses/ directory exists yet, consistent with its state before this phase). Publishing the cheese domain live is a separate go-live decision from a prior audit (AQ-01 navigation-review.md) outside AQ-02A's scope, which was to fix the renderer, not to newly launch a domain. All other 10 domains (protein/foods, fruit, vegetable, grain-starch, legume, nut-seed, herb-spice, sweet-flavor, sauce-condiment, fungi) were promoted to their live root paths.",
+  "regression_verification": {
+    "ontology_catalogs_changed": false,
+    "runtime_artifacts_changed": false,
+    "editorial_artifacts_changed": false,
+    "wine_artifacts_changed": false,
+    "governance_docs_changed": false,
+    "changed_scope": [
+      "lib/food-publication/narrative.js (new)",
+      "lib/food-publication/pages.js (added narrative passthrough)",
+      "lib/food-publication/projections.js (added narrative extraction)",
+      "lib/taxonomy-render.js (added shared narrative-rendering helpers)",
+      "lib/taxonomy-{protein-food,fruit,vegetable,grain-starch,legume,nut-seed,herb-spice,sweet-flavor,sauce-condiment,fungi,cheese}-render.js (new section architecture, all three tiers)",
+      "data/generated/*-pages.json and data/pages/*-pages.json for all 11 domains (regenerated projections/page models carrying the new narrative field)",
+      "dist/ and the 10 live root ingredient/group/category directories (regenerated HTML)",
+      "root sitemap.xml / crawl-manifest.json / release-manifest.json (regenerated by the standard per-domain publish pipeline; incidentally now covers 10 of 11 domains instead of 1, since all 10 were regenerated in the same session \u2014 the remaining sitemap-index gap for cheese is a pre-existing AQ-01 finding, not newly introduced)",
+      "reports/* publication pipeline reports (regenerated by the standard pipeline)"
+    ],
+    "verification_method": "git status diffed against data/*.json (catalog roots), data/runtime/, docs/, lib/editorial/, lib/runtime/, lib/publication/, and every lib/taxonomy-wine-*.js / taxonomy-descriptor*.js / taxonomy-grape*.js / taxonomy-pairing*.js file \u2014 all clean (zero changes) after the full 11-domain pipeline run."
+  },
+  "architecture_notes": {
+    "shared_helpers_added": [
+      "renderSummary()",
+      "renderEducationalIntroduction()",
+      "renderBeginnerGuide()",
+      "renderFAQ()",
+      "renderWinePairingExplanation()",
+      "renderCommonCulinaryUses()",
+      "renderRegionalContext()",
+      "renderKnowledgeCards()",
+      "renderNarrativeSection()",
+      "renderNarrativeText()",
+      "renderMetaLinkSection()",
+      "renderCharacteristicsBlock()",
+      "renderDefinitionList()",
+      "renderOverviewRows()"
+    ],
+    "narrative_field_registry": "lib/food-publication/narrative.js defines NARRATIVE_FIELDS per tier (leaf/group/category), domain-agnostic by design \u2014 a new food domain's catalog automatically gets narrative rendering the moment it names its fields summary/beginner_notes/faq/seo_description/origin_context/introduction, with zero per-domain configuration required beyond calling the shared helpers already wired into every renderer.",
+    "future_domain_guardrail": "Because narrative extraction lives in the shared projections/pages stage (not per-domain code) and every domain renderer is now a thin composition of the shared helpers in the order Hero -> narrative tier -> metadata tier, applied uniformly at leaf, group, AND category tiers, a new domain that copies an existing renderer file inherits the full educational-reference layout by construction. Shipping a fact-table-only page would now require a renderer to actively skip calling renderEducationalIntroduction()/renderWinePairingExplanation()/etc., not merely omit extra work.",
+    "consolidation_decisions": [
+      "Executive Summary and the brief's 'Educational introduction' component render as one section (About This Entry / About This Group / About This Category) rather than two, since both draw from the same single authored `summary` field today; rendering it twice would reproduce the near-duplicate-paragraph pattern flagged in the AQ-01 audit (grapes.html). renderSummary() remains available as a distinct helper for a future second narrative field.",
+      "Wine Pairing Explanation does not repeat the summary paragraph a second time on the page; the rationale is delivered once, at the top, and the pairing section presents the categorized style/technique links it points to. A future relationship-specific 'why' string (per-pairing, not per-entity) would render here via the `opts.explanation` parameter.",
+      "renderFAQ() drops any authored FAQ answer that is byte-identical to the entity's summary (found in all 204 cheese entities' 'What is X?' answer) rather than rendering the same sentence twice on one page; every other authored FAQ question still renders normally.",
+      "Beginner Guide and FAQ now render at all three tiers (leaf, group, category), not leaf only \u2014 protein's 16 group-level authored FAQs were being silently dropped before this was caught by this report's own verification pass and fixed."
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "phase": "AQ-02B1",
+  "title": "Navigation Registry + Hub Integrity \u2014 Certification",
+  "date": "2026-08-14",
+  "domain_hub_pages": {
+    "protein": {
+      "url": "/foods/",
+      "exists": true
+    },
+    "fruit": {
+      "url": "/fruits/",
+      "exists": true
+    },
+    "vegetable": {
+      "url": "/vegetables/",
+      "exists": true
+    },
+    "grain-starch": {
+      "url": "/grains-starches/",
+      "exists": true
+    },
+    "legume": {
+      "url": "/legumes/",
+      "exists": true
+    },
+    "nut-seed": {
+      "url": "/nut-seeds/",
+      "exists": true
+    },
+    "herb-spice": {
+      "url": "/herbs-spices/",
+      "exists": true
+    },
+    "sweet-flavor": {
+      "url": "/sweet-flavors/",
+      "exists": true
+    },
+    "sauce-condiment": {
+      "url": "/sauce-condiments/",
+      "exists": true
+    },
+    "fungi": {
+      "url": "/fungi/",
+      "exists": true
+    }
+  },
+  "all_published_hubs_exist": true,
+  "ingredients_directory_exists": true,
+  "cheese_correctly_excluded_from_root_nav": true,
+  "cheese_hub_built_in_dist": false,
+  "sibling_cross_link_check": {
+    "protein": {
+      "missing_sibling_links": [],
+      "links_to_ingredients_directory": true
+    },
+    "fruit": {
+      "missing_sibling_links": [],
+      "links_to_ingredients_directory": true
+    },
+    "vegetable": {
+      "missing_sibling_links": [],
+      "links_to_ingredients_directory": true
+    },
+    "grain-starch": {
+      "missing_sibling_links": [],
+      "links_to_ingredients_directory": true
+    },
+    "legume": {
+      "missing_sibling_links": [],
+      "links_to_ingredients_directory": true
+    },
+    "nut-seed": {
+      "missing_sibling_links": [],
+      "links_to_ingredients_directory": true
+    },
+    "herb-spice": {
+      "missing_sibling_links": [],
+      "links_to_ingredients_directory": true
+    },
+    "sweet-flavor": {
+      "missing_sibling_links": [],
+      "links_to_ingredients_directory": true
+    },
+    "sauce-condiment": {
+      "missing_sibling_links": [],
+      "links_to_ingredients_directory": true
+    },
+    "fungi": {
+      "missing_sibling_links": [],
+      "links_to_ingredients_directory": true
+    }
+  },
+  "no_orphan_hubs": true,
+  "sample_leaf_pages_checked": 50,
+  "sample_leaf_pages_with_broken_or_missing_nav": 0
+}

@@ -1,0 +1,95 @@
+{
+  "rerun_of": "AQ-01",
+  "rerun_phase": "AQ-01R",
+  "rerun_after": "AQ-02A — Publication Completion Architecture",
+  "methodology": "Unchanged from AQ-01: pages classified as thin if the visible body (excluding nav, footer, JSON-LD, breadcrumb, and boilerplate disclaimer text) contains no original explanatory prose. Each finding below re-verified directly against live pages; status reflects what AQ-02A actually changed, not what it targeted.",
+  "findings": [
+    {
+      "id": "TC-01",
+      "severity_before": "Critical",
+      "status": "RESOLVED",
+      "title": "Food-ingredient leaf/entity pages contain zero original prose",
+      "affected_pages_before": 956,
+      "affected_pages_after": 0,
+      "evidence": "Every previously-cited page (foods/almonds, fruits/marionberry, sweet-flavors/ruby-cacao, vegetables/chayote, grains-starches/farro, legumes/fava-bean, herbs-spices/berbere, sauce-condiments/bearnaise, fungi/chanterelle) now opens with a genuine 'About This Entry' section rendering the entity's authored `summary` field, verified directly. AQ-02A's own QA pass reports 1,252/1,252 authored summaries rendered with zero empty-section violations; this rerun independently spot-checked 7+ pages and confirms it."
+    },
+    {
+      "id": "TC-02",
+      "severity_before": "Critical",
+      "status": "PARTIALLY_RESOLVED",
+      "title": "Deprecated protein-food (foods/) leaf pages are equally thin duplicates of their canonical replacements, still live",
+      "affected_pages_before": 210,
+      "note": "The thinness half of this finding is resolved — both foods/almonds/ and nut-seeds/almond/ now carry genuine narrative content. The duplication half is unchanged: 51 pages remain marked redirect_required with zero matching entries in _redirects, and both URLs are still live. This is arguably a subtler problem now than before: two equally polished, differently-framed pages describing the same entity under two different taxonomies, with no disclosure of the relationship on either page, verified by re-reading both foods/almonds/ and nut-seeds/almond/ directly.",
+      "root_cause": "Unchanged — incomplete migration, out of AQ-02A's publication-layer scope."
+    },
+    {
+      "id": "TC-03",
+      "severity_before": "Critical",
+      "status": "RESOLVED",
+      "title": "Group and category hub pages have no narrative prose across any sampled domain",
+      "affected_pages_before": 72,
+      "affected_pages_after": 0,
+      "evidence": "groups/mushrooms/, groups/beef/, fruit-categories/fruit/ and other sampled hubs now render 'About This Group'/'About This Category' sections from the entity's `summary`/`introduction`-derived narrative. groups/beef/ additionally now renders a genuine, previously-invisible FAQ ('Why is beef the classic red wine pairing?' / 'Do all beef cuts pair with the same wine?') — this specific gap (group-tier FAQ rendering) was itself missing from AQ-02A's first pass and was caught and fixed during its own QA verification, confirmed here by re-reading the live page."
+    },
+    {
+      "id": "TC-04",
+      "severity_before": "Major",
+      "status": "UNCHANGED",
+      "title": "Seasonal/occasion guides are short stub pages, not the long-form editorial content their nav placement implies",
+      "affected_pages": 4,
+      "evidence": "christmas-wine-pairing-guide.html, thanksgiving-wine-guide.html, romantic-dinner-wine-guide.html, summer-bbq-wine-guide.html are untouched by AQ-02A (wine-education tier, not food-ontology). Word counts and structure unchanged from AQ-01."
+    },
+    {
+      "id": "TC-05",
+      "severity_before": "Major",
+      "status": "UNCHANGED",
+      "title": "Region pages beyond the flagship /regions/usa/ are noticeably thinner and lack a beginner-explanation section present elsewhere in the same content family",
+      "affected_pages": 47,
+      "evidence": "regions/ is entirely outside AQ-02A's scope (wine-education domain, not food-ontology). Unchanged."
+    },
+    {
+      "id": "TC-06",
+      "severity_before": "Major",
+      "status": "UNCHANGED",
+      "title": "Serving pages lack the 'Beginner explanation' depth present in faults/ and techniques/",
+      "affected_pages": 40,
+      "evidence": "serving/ is outside AQ-02A's scope. Unchanged."
+    },
+    {
+      "id": "TC-07",
+      "severity_before": "Minor",
+      "status": "UNCHANGED",
+      "title": "Generic templated meta descriptions on ingredient pages ignore a better-written field already available",
+      "affected_pages": 956,
+      "evidence": "Re-checked fruits/marionberry/index.html: <meta name=\"description\" content=\"Marionberry (Berries) — Fruits fruit\"> — unchanged. AQ-02A rendered `summary` and `beginner_notes`/`faq` into the page body but did not wire the catalog's `seo_description` field into the page's <meta> description or <title>; the generic templated pattern from AQ-01 still ships in the <head> of every one of these now-content-rich pages."
+    },
+    {
+      "id": "TC-08",
+      "severity_before": "Minor",
+      "status": "UNCHANGED",
+      "title": "One authored catalog summary contains a grammar defect that would ship as-is if rendering were fixed naively",
+      "affected_pages": 1,
+      "evidence": "legumes/fava-bean's summary ('...ingredient — beans use in global pulse cooking pairs with earthy reds...') is now live on the page, grammar defect and all, exactly as AQ-01 predicted would happen if rendering were fixed 'naively.' AQ-02A did not run a copy-edit pass on the ~950 summary fields before publishing them — this instance confirms the risk AQ-01 flagged was real, not hypothetical.",
+      "root_cause": "Content authoring defect in source data, now live. Scope beyond this instance unverified — recommend a copy-edit spot-check pass, see recommended-improvements.md."
+    },
+    {
+      "id": "TC-09",
+      "severity_before": null,
+      "status": "NEW",
+      "title": "Group/category `introduction` field is extracted into the narrative pipeline but never rendered",
+      "severity": "Minor",
+      "affected_pages": 73,
+      "evidence": "lib/food-publication/narrative.js's NARRATIVE_FIELDS registry includes `introduction` for both group and category tiers, and it is correctly extracted into every group/category projection's `narrative` object — but no renderer helper or call site ever reads `narrative.introduction`. Confirmed directly: fruit-categories/fruit/'s catalog `introduction` field ('The Fruit Ontology catalogs canonical culinary fruits...') does not appear anywhere in the rendered page, though its sibling `summary` field does. This is the one place AQ-02A's own Rule 2 ('no field without publication intent — render it or document the suppression') isn't fully satisfied: the field is captured but neither rendered nor documented as intentionally suppressed.",
+      "root_cause": "Renderer gap identified during this rerun's verification pass, not caught by AQ-02A's own QA (which checked summary/beginner_notes/faq rendering but not introduction)."
+    }
+  ],
+  "summary_counts": {
+    "resolved": 2,
+    "partially_resolved": 1,
+    "unchanged": 5,
+    "new": 1,
+    "total_findings": 9,
+    "pages_moved_from_thin_to_narrative": 1252,
+    "pages_still_thin_or_undisclosed": "51 (TC-02 duplicate disclosure) + 4 (TC-04) + 47 (TC-05) + 40 (TC-06) + 73 (TC-09, minor) ≈ 215 pages with a residual finding, down from ~1,240 before AQ-02A"
+  }
+}

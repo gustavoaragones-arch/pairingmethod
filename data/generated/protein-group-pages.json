@@ -65,6 +65,21 @@
         "food.protein.beef.top-sirloin",
         "food.protein.beef.tri-tip"
       ],
+      "narrative": {
+        "faq": [
+          {
+            "a": "Beef protein and intramuscular fat bind with tannin in red wine, softening astringency while the wine's structure matches the meat's richness.",
+            "q": "Why is beef the classic red wine pairing?"
+          },
+          {
+            "a": "No. Ribeye and brisket want bolder, tannic reds; lean round and eye of round suit medium reds or need sauce and marinade to balance high-tannin wines.",
+            "q": "Do all beef cuts pair with the same wine?"
+          }
+        ],
+        "introduction": "Beef encompasses cuts from cattle (Bos taurus), from premium steaks to braising roasts. Marbling, collagen, and cooking method drive wine pairing — tannin meets protein and fat on rich cuts; acidity and lighter body suit lean muscles.",
+        "seo_description": "Beef cuts from ribeye to brisket — learn how marbling and cooking method guide wine pairing for each muscle.",
+        "summary": "Beef cuts from rib, loin, chuck, round, and plate — the foundation of red wine pairing."
+      },
       "parent_category": {
         "id": "food.protein.animal",
         "name": "Animal Protein Foods",
@@ -103,6 +118,21 @@
         "food.protein.cephalopods.squid",
         "food.protein.cephalopods.squid-tube"
       ],
+      "narrative": {
+        "faq": [
+          {
+            "a": "Calamari rings are a prepared product from squid — same species, distinct processing_state and cut metadata.",
+            "q": "Is calamari a separate species?"
+          },
+          {
+            "a": "Tentacles are commercially sold and cooked differently from whole cephalopods — distinct pairing context.",
+            "q": "Why tentacles as separate entities?"
+          }
+        ],
+        "introduction": "Cephalopods — squid, octopus, and cuttlefish — are firm, ink-rich, and grill-friendly. High heat and olive oil preparations pair with Vermentino, Albariño, and southern Italian whites.",
+        "seo_description": "Squid, octopus, cuttlefish — tubes, tentacles, and prepared calamari with seafood vocabulary.",
+        "summary": "Squid, octopus, cuttlefish — tubes, tentacles, and prepared calamari with seafood vocabulary."
+      },
       "parent_category": {
         "id": "food.protein.animal",
         "name": "Animal Protein Foods",
@@ -145,6 +175,21 @@
         "food.protein.crustaceans.shrimp",
         "food.protein.crustaceans.whole-lobster"
       ],
+      "narrative": {
+        "faq": [
+          {
+            "a": "Classic but not mandatory — rich Chardonnay, Albariño, and dry rosé work when butter and citrus lead the plate.",
+            "q": "Does lobster always need Champagne?"
+          },
+          {
+            "a": "Separate species entities with distinct scientific names — prawn typically larger warm-water species.",
+            "q": "How do shrimp and prawn differ in the catalog?"
+          }
+        ],
+        "introduction": "Crustaceans — lobster, crab, shrimp, and crawfish — bring sweet protein and brine. Butter, garlic, and smoke drive wine choice toward Chardonnay, Champagne, and off-dry whites.",
+        "seo_description": "Lobster, crab, shrimp, prawn, and crawfish — portion and whole cuts with seafood vocabulary.",
+        "summary": "Lobster, crab, shrimp, prawn, and crawfish — portion and whole cuts with seafood vocabulary."
+      },
       "parent_category": {
         "id": "food.protein.animal",
         "name": "Animal Protein Foods",
@@ -178,6 +223,11 @@
         "food.protein.cured-meat.prosciutto",
         "food.protein.cured-meat.salami"
       ],
+      "narrative": {
+        "introduction": "Cured meats are salt-cured, smoked, or dry-cured animal proteins with distinct pairing identities — charcuterie, antipasto, and flavoring roles.",
+        "seo_description": "Salami, prosciutto, and cured charcuterie proteins for wine pairing.",
+        "summary": "Salami, prosciutto, and other cured forms with poster-level culinary identity."
+      },
       "parent_category": {
         "id": "food.protein.animal",
         "name": "Animal Protein Foods",
@@ -243,6 +293,21 @@
         "food.protein.fin-fish.whole-branzino",
         "food.protein.fin-fish.whole-salmon"
       ],
+      "narrative": {
+        "faq": [
+          {
+            "a": "High acidity in Sauvignon Blanc and Chardonnay cuts richness; oak and body match salmon and lobster-adjacent preparations.",
+            "q": "Why do fatty fish pair with white wine?"
+          },
+          {
+            "a": "Fin fish emphasize texture and fat; shellfish add brine and sweetness — descriptor and acid balance shift accordingly.",
+            "q": "How is fin fish different from shellfish for pairing?"
+          }
+        ],
+        "introduction": "Fin fish span fatty salmon and tuna to lean cod and sole — acidity-forward whites and sparkling are classic, while grilled swordfish and tuna suit medium reds. Part of the Seafood domain under Animal Protein Foods.",
+        "seo_description": "Globally recognized fin fish — fillets, steaks, and whole fish with species and cut metadata.",
+        "summary": "Globally recognized fin fish — fillets, steaks, and whole fish with species and cut metadata."
+      },
       "parent_category": {
         "id": "food.protein.animal",
         "name": "Animal Protein Foods",
@@ -289,6 +354,21 @@
         "food.protein.grains-wheat-protein.seitan",
         "food.protein.grains-wheat-protein.vital-wheat-gluten"
       ],
+      "narrative": {
+        "faq": [
+          {
+            "a": "Botanical structure uses plant_part and edible_structure — not steak or roast primals.",
+            "q": "Why are plant foods not organized by cuts?"
+          },
+          {
+            "a": "not_applicable — bone metadata is reserved for animal protein foods.",
+            "q": "How does bone_state apply to plants?"
+          }
+        ],
+        "introduction": "Grains and wheat gluten provide complementary plant protein — quinoa to seitan. Included for protein-food completeness, not only high-protein claims.",
+        "seo_description": "Seitan, vital wheat gluten, quinoa, amaranth, buckwheat, farro, oats, and barley.",
+        "summary": "Seitan, vital wheat gluten, quinoa, amaranth, buckwheat, farro, oats, and barley."
+      },
       "parent_category": {
         "id": "food.protein.plant",
         "name": "Plant Protein Foods",
@@ -336,6 +416,21 @@
         "food.protein.lamb.lamb-shoulder",
         "food.protein.lamb.lamb-tenderloin"
       ],
+      "narrative": {
+        "faq": [
+          {
+            "a": "Moderate fat and herbal crusts match medium tannin reds; gamey older lamb wants earthier, structured wines.",
+            "q": "Why is lamb classic with Bordeaux and Rhône reds?"
+          },
+          {
+            "a": "Lean loin and grilled chops suit aromatic whites and rosé; rich shoulder and shank braises want fuller reds.",
+            "q": "Does lamb always pair with red wine?"
+          }
+        ],
+        "introduction": "Lamb is young sheep (Ovis aries) — milder and more tender than mutton, central to Mediterranean, Middle Eastern, and British cooking. Fat content is moderate; herb and spice preparations drive wine pairing as much as cut choice.",
+        "seo_description": "Rack, loin, leg, shoulder, and shank — lamb cuts with intrinsic metadata for wine pairing across roasting, grilling, and braising.",
+        "summary": "Lamb cuts from rack and loin to shoulder, shank, and ground — classic European pairing context."
+      },
       "parent_category": {
         "id": "food.protein.animal",
         "name": "Animal Protein Foods",
@@ -356,6 +451,21 @@
       },
       "member_food_ids": [],
       "member_leaf_ids": [],
+      "narrative": {
+        "faq": [
+          {
+            "a": "Botanical structure uses plant_part and edible_structure — not steak or roast primals.",
+            "q": "Why are plant foods not organized by cuts?"
+          },
+          {
+            "a": "not_applicable — bone metadata is reserved for animal protein foods.",
+            "q": "How does bone_state apply to plants?"
+          }
+        ],
+        "introduction": "Legumes are dried and cooked seeds — chickpeas, lentils, and beans anchor vegetarian protein worldwide. Spice, acid, and smoke drive wine pairing more than tannin.",
+        "seo_description": "Chickpeas, lentils, and beans — botanical legume protein with plant_part and edible_structure metadata.",
+        "summary": "Chickpeas, lentils, and beans — botanical legume protein with plant_part and edible_structure metadata."
+      },
       "parent_category": {
         "id": "food.protein.plant",
         "name": "Plant Protein Foods",
@@ -391,6 +501,21 @@
         "food.protein.mollusks.razor-clam",
         "food.protein.mollusks.scallop"
       ],
+      "narrative": {
+        "faq": [
+          {
+            "a": "High acidity and minerality mirror salinity without overpowering delicate oyster flavor.",
+            "q": "Why are oysters classic with Muscadet?"
+          },
+          {
+            "a": "Scallops are adductor muscle portions; clams and oysters are whole-shellfish entities — different cut_type metadata.",
+            "q": "Are scallops treated differently from clams?"
+          }
+        ],
+        "introduction": "Mollusks — oysters, mussels, clams, and scallops — are briny, tender, and often steamed or raw. Raw oysters want Muscadet and Chablis; seared scallops suit richer whites and light reds.",
+        "seo_description": "Bivalves and gastropods — oysters, mussels, clams, scallops, abalone, and conch.",
+        "summary": "Bivalves and gastropods — oysters, mussels, clams, scallops, abalone, and conch."
+      },
       "parent_category": {
         "id": "food.protein.animal",
         "name": "Animal Protein Foods",
@@ -419,6 +544,21 @@
       },
       "member_food_ids": [],
       "member_leaf_ids": [],
+      "narrative": {
+        "faq": [
+          {
+            "a": "Same species (Agaricus bisporus) but distinct commercial maturity stages with different cooking and pairing context.",
+            "q": "Why are button, cremini, and portobello separate entities?"
+          },
+          {
+            "a": "Mushrooms use fungal_body; plant_part is empty — fungi are not botanical plants.",
+            "q": "How does edible_structure differ from plant_part?"
+          }
+        ],
+        "introduction": "Culinary mushrooms are protein-rich fungi used as center-of-plate or supporting protein — umami drivers for wine pairing through butter, cream, and roast techniques.",
+        "seo_description": "Twelve canonical edible mushrooms with scientific names and fungal_body edible_structure.",
+        "summary": "Twelve globally recognized edible mushrooms from Agaricus to chanterelle."
+      },
       "parent_category": {
         "id": "food.protein.fungi",
         "name": "Fungi Protein Foods",
@@ -448,6 +588,21 @@
         "food.protein.mycoprotein.mycoprotein-pieces",
         "food.protein.mycoprotein.mycoprotein-steak"
       ],
+      "narrative": {
+        "faq": [
+          {
+            "a": "Ontology entities are canonical food products; trademarks belong in editorial content, not permanent graph IDs.",
+            "q": "Why no brand names in the catalog?"
+          },
+          {
+            "a": "Fusarium venenatum — fermented into high-protein food matrix.",
+            "q": "What organism produces mycoprotein?"
+          }
+        ],
+        "introduction": "Mycoprotein is fermented fungal protein sold as formed fillets, pieces, and grounds — generic product classes, not trademarked brand names.",
+        "seo_description": "Generic mycoprotein product classes with processed edible_structure — no trademarked brand entities.",
+        "summary": "Five mycoprotein product forms — fillet, pieces, grounds, steak, and generic base."
+      },
       "parent_category": {
         "id": "food.protein.fungi",
         "name": "Fungi Protein Foods",
@@ -469,6 +624,21 @@
       },
       "member_food_ids": [],
       "member_leaf_ids": [],
+      "narrative": {
+        "faq": [
+          {
+            "a": "Botanical structure uses plant_part and edible_structure — not steak or roast primals.",
+            "q": "Why are plant foods not organized by cuts?"
+          },
+          {
+            "a": "not_applicable — bone metadata is reserved for animal protein foods.",
+            "q": "How does bone_state apply to plants?"
+          }
+        ],
+        "introduction": "Nuts and seeds add fat and texture — almonds to chia. Richness invites oxidative whites, sherry styles, and off-dry pairings.",
+        "seo_description": "Tree nuts and oilseeds — almond through pine nut with nut and seed plant_part metadata.",
+        "summary": "Tree nuts and oilseeds — almond through pine nut with nut and seed plant_part metadata."
+      },
       "parent_category": {
         "id": "food.protein.plant",
         "name": "Plant Protein Foods",
@@ -522,6 +692,21 @@
         "food.protein.pork.pork-tenderloin",
         "food.protein.pork.spare-ribs"
       ],
+      "narrative": {
+        "faq": [
+          {
+            "a": "Lean loin and tenderloin suit aromatic whites and light reds; rich shoulder, belly, and BBQ want fruit-forward reds or sparkling with acidity.",
+            "q": "Why does pork pair with both white and red wine?"
+          },
+          {
+            "a": "Yes — bacon, pancetta, and ham bring salt and smoke; high-tannin reds often clash unless the dish balances fat and sweetness.",
+            "q": "Is cured pork different for pairing?"
+          }
+        ],
+        "introduction": "Pork spans lean loin to rich belly and shoulder — the most versatile everyday meat for global cooking. Cured forms (bacon, pancetta) behave differently from fresh roasts; fat content and salt drive wine pairing more than tannin alone.",
+        "seo_description": "Pork belly to tenderloin — fresh roasts, ribs, and cured charcuterie with intrinsic metadata for wine pairing.",
+        "summary": "Fresh and cured pork cuts from belly, loin, shoulder, and leg."
+      },
       "parent_category": {
         "id": "food.protein.animal",
         "name": "Animal Protein Foods",
@@ -589,6 +774,21 @@
         "food.protein.poultry.whole-quail",
         "food.protein.poultry.whole-turkey"
       ],
+      "narrative": {
+        "faq": [
+          {
+            "a": "Lean breast suits crisp whites and rosé; rich duck, thigh meat, and roast preparations handle light to medium reds.",
+            "q": "Why does poultry pair with both white and red wine?"
+          },
+          {
+            "a": "The species field filters chicken, turkey, duck, goose, and quail without adding hierarchy depth — enabling analytics and search across a flat entity model.",
+            "q": "How does species metadata help?"
+          }
+        ],
+        "introduction": "Poultry spans chicken, turkey, duck, goose, and quail — everyday to celebratory proteins with wide pairing range. Species and cut (white vs dark meat, fat content) matter more than tannin alone for wine matching.",
+        "seo_description": "Chicken to quail — whole birds, breasts, thighs, and ground poultry with species and anatomical metadata for wine pairing.",
+        "summary": "Chicken, turkey, duck, goose, and quail — species-tagged cuts for filtering, pairing, and future dish connectivity."
+      },
       "parent_category": {
         "id": "food.protein.animal",
         "name": "Animal Protein Foods",
@@ -620,6 +820,21 @@
       "member_leaf_ids": [
         "food.protein.soy-foods.soy-milk"
       ],
+      "narrative": {
+        "faq": [
+          {
+            "a": "Botanical structure uses plant_part and edible_structure — not steak or roast primals.",
+            "q": "Why are plant foods not organized by cuts?"
+          },
+          {
+            "a": "not_applicable — bone metadata is reserved for animal protein foods.",
+            "q": "How does bone_state apply to plants?"
+          }
+        ],
+        "introduction": "Soy foods span dried beans, tofu, tempeh, and fermented miso — East Asian protein foundation. Umami, fermentation, and chili guide wine matches.",
+        "seo_description": "Soybeans, tofu, tempeh, natto, TVP, and miso — processed and fermented soy protein products.",
+        "summary": "Soybeans, tofu, tempeh, natto, TVP, and miso — processed and fermented soy protein products."
+      },
       "parent_category": {
         "id": "food.protein.plant",
         "name": "Plant Protein Foods",
@@ -659,6 +874,21 @@
         "food.protein.veal.veal-shoulder",
         "food.protein.veal.veal-tenderloin"
       ],
+      "narrative": {
+        "faq": [
+          {
+            "a": "Mild flavor and lower fat suit crisp whites and light reds; heavy tannic reds can overpower delicate veal.",
+            "q": "Why does veal pair with white wine more often than beef?"
+          },
+          {
+            "a": "Osso buco is braised cross-cut veal shank — marrow-rich, traditionally served with gremolata and Barolo or Barbaresco.",
+            "q": "What is osso buco?"
+          }
+        ],
+        "introduction": "Veal is young cattle (Bos taurus) — pale, delicate, and lean compared to beef. Italian and French traditions center on cutlets, osso buco, and braised breast; mild flavor suits elegant whites and lighter reds.",
+        "seo_description": "Veal cutlets, osso buco shank, loin roasts, and ground veal — intrinsic metadata for wine pairing without graph relationships.",
+        "summary": "Veal cutlets, chops, loin, shank, and ground — delicate protein for classic European wine pairings."
+      },
       "parent_category": {
         "id": "food.protein.animal",
         "name": "Animal Protein Foods",
@@ -723,6 +953,21 @@
         "food.protein.wild-game.wild-boar-loin",
         "food.protein.wild-game.wild-boar-shoulder"
       ],
+      "narrative": {
+        "faq": [
+          {
+            "a": "Wild and pasture-raised game move more and carry less fat — wines need acidity and moderate tannin; avoid drying lean cuts.",
+            "q": "Why is wild game leaner than domestic meat?"
+          },
+          {
+            "a": "Wild boar (Sus scrofa) is gamier and leaner than domestic pork (Sus scrofa domesticus) — pairing often follows Italian game traditions with Sangiovese and Nebbiolo.",
+            "q": "How does wild boar differ from pork?"
+          }
+        ],
+        "introduction": "Wild game spans cervids, bison, rabbit, hare, and wild boar — lean, seasonal proteins with distinct pairing logic. Species tagging separates venison, elk, and boar without adding hierarchy depth.",
+        "seo_description": "Venison, elk, bison, rabbit, hare, and wild boar — game cuts with species metadata for wine pairing and future dish connectivity.",
+        "summary": "Venison, elk, bison, rabbit, hare, and wild boar — internationally recognized game with species and anatomical metadata."
+      },
       "parent_category": {
         "id": "food.protein.animal",
         "name": "Animal Protein Foods",

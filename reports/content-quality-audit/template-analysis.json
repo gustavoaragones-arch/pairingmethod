@@ -1,0 +1,71 @@
+{
+  "rerun_of": "AQ-01",
+  "rerun_phase": "AQ-01R",
+  "rerun_after": "AQ-02A — Publication Completion Architecture",
+  "methodology": "Unchanged from AQ-01: similarity assessed by direct reading and quoting. Each AQ-01 finding re-verified against live pages.",
+  "structural_similarity": {
+    "severity_before": "Critical",
+    "status": "IMPROVED",
+    "finding": "The DOM skeleton itself is intentionally more uniform now, not less — every leaf page follows Hero -> narrative tier -> metadata tier by design, per AQ-02A's shared-helper architecture. What changed is that the content inside that skeleton is no longer identical-shaped-and-empty; it now carries entity-specific sentences. Re-reading fruits/marionberry/, nut-seeds/almond/, and sauce-condiments/chimichurri/ side by side: the section order is identical (as intended — this is a feature, a consistent reading pattern, not a defect) but the 'About This Entry' and 'Wine Pairing Explanation' paragraphs are fully distinct per entity.",
+    "note": "AQ-01 treated structural consistency as acceptable and flagged the absence of any prose slot as the actual problem. That's resolved. A residual concern for a future review: verify the shared-helper architecture doesn't make the site MORE susceptible to a template-detection false-positive on structure alone, now that all 1,166 leaf pages share byte-identical section markup/classes — this rerun did not find evidence that matters in practice (the content varies; automated template detectors generally weight text, not markup), but it's worth noting as an architectural trade-off."
+  },
+  "paragraph_level_duplication": [
+    {
+      "pattern": "Verbatim boilerplate disclaimer sentence",
+      "status": "UNCHANGED",
+      "text": "\"Pairing guidance is based on general culinary principles and may vary by preparation and preference.\"",
+      "note": "Still site-wide, still appropriate for a disclaimer, still contributes to raw text-similarity scores. Unaffected by AQ-02A."
+    },
+    {
+      "pattern": "Verbatim 'definition-block' sentence reused across dish pages",
+      "status": "UNCHANGED",
+      "text": "\"Wine pairing works by balancing intensity, acidity, tannin, fat, and texture between food and wine.\"",
+      "note": "Dish pages and pairings.html/pairing-matrix.html are outside AQ-02A's scope. Unchanged, re-confirmed on wine-with-steak.html."
+    },
+    {
+      "pattern": "Same sentence repeated twice within a single page",
+      "status": "UNCHANGED",
+      "text": "wine-with-steak.html's 'whyIntro' text still appears in both 'Why it works' and 'Why These Wines Work' sections.",
+      "note": "Dish-page template, untouched by AQ-02A."
+    },
+    {
+      "pattern": "Templated 'Why this category matters' sentence with only the category noun swapped",
+      "status": "UNCHANGED",
+      "text": "\"Understanding [X] descriptors helps you read tasting notes, choose wine for a specific dish, and speak the same vocabulary sommeliers use on the floor.\"",
+      "note": "Re-confirmed verbatim on terms/oak/index.html. Wine-descriptor-glossary tier, untouched by AQ-02A."
+    },
+    {
+      "pattern": "Leftover template-variable phrasing shipped verbatim on two different pages",
+      "status": "UNCHANGED",
+      "text": "\"[Wine] is the best if the dish is smoky for [dish] because [reason]...\"",
+      "note": "Re-confirmed verbatim, unchanged, on both wine-with-grilled-steak.html and wine-with-smoked-pork.html. This remains the single most detector-visible AI-content signature on the site and was entirely outside AQ-02A's scope."
+    },
+    {
+      "pattern": "NEW (resolved, not found before): a cross-section duplication risk introduced and then caught within AQ-02A itself",
+      "status": "CAUGHT_AND_FIXED_BEFORE_SHIPPING",
+      "text": "All 204 cheese entities' authored FAQ included a 'What is X?' answer byte-identical to that entity's `summary` field.",
+      "note": "This was found during AQ-02A's own build (not by this rerun) and fixed by adding a de-duplication guard to the shared renderFAQ() helper before the cheese domain's pages were finalized — cited here because it's exactly the kind of duplication AQ-01 was warning about, and it demonstrates the new architecture catching a real instance rather than only avoiding the old one. Verified: zero duplicate-narrative instances across all 1,252 checked pages."
+    }
+  ],
+  "hub_similarity": {
+    "severity_before": "Major",
+    "status": "PARTIALLY_IMPROVED",
+    "finding": "Category hub pages now carry genuine, distinct narrative content (via `summary`) at the top, which directly addresses AQ-01's finding that hub filler prose was identical across unrelated domains. However, the specific sentence AQ-01 quoted as evidence — 'Explore protein foods, wine styles, descriptors, and structured pairings across the knowledge graph.' as the crawl-hint footer — is unchanged, since that text lives in the shared page template's footer, not the per-domain renderer AQ-02A touched.",
+    "evidence": [
+      "categories/animal-protein/index.html, fruit-categories/fruit/index.html, vegetable-categories/vegetable/index.html now each open with a distinct 'About This Category' paragraph drawn from that domain's own catalog summary.",
+      "The footer crawl-hint sentence remains identical across all of them, re-confirmed — a much smaller residual issue than the AQ-01 finding, but not zero."
+    ]
+  },
+  "pairing_explanation_similarity": {
+    "severity_before": "Moderate",
+    "status": "RESOLVED",
+    "finding": "AQ-01 flagged the complete absence of variation in ingredient-page pairing content as itself a template-detection signal, since every page reduced to the identical empty pattern 'Primary wine styles: [link]' regardless of domain. That pattern is gone: every leaf page now carries a distinct rationale sentence specific to that entity before the style links, verified across fruit, nut-seed, herb-spice, grain-starch, fungi, and sauce-condiment domains."
+  },
+  "distinguishing_content_confirmed": {
+    "finding": "Unchanged from AQ-01: faults/, techniques/, and styles/ were outside AQ-02A's scope and were re-spot-checked to confirm they still show genuinely distinct, specific text with no shared template language beyond section headings.",
+    "evidence": [
+      "faults/acetobacter cause (unchanged): 'Acetic acid bacteria... oxidizing ethanol to acetic acid in the presence of oxygen.'",
+      "faults/cork-taint cause (unchanged): 'TCA and related chloroanisole compounds—often from contaminated corks, but also from barrels, cellars, or packaging materials.'"
+    ]
+  }
+}
