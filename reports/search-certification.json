@@ -1,0 +1,53 @@
+{
+  "phase": "AQ-02B2",
+  "title": "Search Completion \u2014 Certification",
+  "date": "2026-08-14",
+  "search_index_entry_count": 1038,
+  "expected_entity_count_across_published_domains": 1038,
+  "per_domain": {
+    "protein": {
+      "expected": 230,
+      "missing": 0
+    },
+    "fruit": {
+      "expected": 127,
+      "missing": 0
+    },
+    "vegetable": {
+      "expected": 79,
+      "missing": 0
+    },
+    "grain-starch": {
+      "expected": 81,
+      "missing": 0
+    },
+    "legume": {
+      "expected": 82,
+      "missing": 0
+    },
+    "nut-seed": {
+      "expected": 96,
+      "missing": 0
+    },
+    "herb-spice": {
+      "expected": 118,
+      "missing": 0
+    },
+    "sweet-flavor": {
+      "expected": 80,
+      "missing": 0
+    },
+    "sauce-condiment": {
+      "expected": 97,
+      "missing": 0
+    },
+    "fungi": {
+      "expected": 48,
+      "missing": 0
+    }
+  },
+  "missing_entities": [],
+  "all_published_entities_searchable": true,
+  "wine_side_search_untouched": true,
+  "methodology": "assets/js/food-ontology-search-index.js was parsed and every slug compared against a full census of every published domain's leaf/group/category catalog entries. wine-side search modules (taxonomy, wine-style, wine-region, wine-serving, winemaking-technique, wine-fault) were not modified, only additively imported into semantic-entry.js alongside the new food index."
+}

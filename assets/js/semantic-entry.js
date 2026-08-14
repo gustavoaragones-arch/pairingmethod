@@ -9,6 +9,7 @@ import { WINE_REGION_SEARCH_INDEX } from "./wine-region-search-index.js";
 import { WINE_SERVING_SEARCH_INDEX } from "./wine-serving-search-index.js";
 import { WINEMAKING_TECHNIQUE_SEARCH_INDEX } from "./winemaking-technique-search-index.js";
 import { WINE_FAULT_SEARCH_INDEX } from "./wine-fault-search-index.js";
+import { FOOD_ONTOLOGY_SEARCH_INDEX } from "./food-ontology-search-index.js";
 
 const GRAPE_SEARCH_INDEX = [
   { slug: "cabernet-sauvignon", name: "Cabernet Sauvignon", href: "/grapes/cabernet-sauvignon", haystack: "cabernet sauvignon grape variety red full bodied tannin" },
@@ -141,6 +142,16 @@ function setupSearch() {
     hay: entry.haystack,
   }));
 
+  const foodHits = FOOD_ONTOLOGY_SEARCH_INDEX.map((entry) => ({
+    kind: "entity",
+    slug: entry.slug,
+    label: entry.name,
+    category: entry.classification,
+    entityKind: entry.entityType,
+    href: entry.href,
+    hay: entry.haystack,
+  }));
+
   const legacyHits = Object.entries(WINE_TERMS)
     .filter(
       ([slug]) =>
@@ -160,7 +171,7 @@ function setupSearch() {
       hay: legacyTermHaystack(slug, d),
     }));
 
-  const all = [...faultHits, ...techniqueHits, ...servingHits, ...regionHits, ...styleHits, ...grapeHits, ...taxonomyHits, ...legacyHits];
+  const all = [...faultHits, ...techniqueHits, ...servingHits, ...regionHits, ...styleHits, ...grapeHits, ...taxonomyHits, ...foodHits, ...legacyHits];
 
   function renderList(q) {
     const query = q.trim().toLowerCase();

@@ -1,0 +1,43 @@
+{
+  "phase": "AQ-02B2",
+  "title": "Sitemap Completion \u2014 Certification",
+  "date": "2026-08-14",
+  "root_sitemap_index_entries": 31,
+  "all_34_sitemap_files_on_disk": 34,
+  "orphaned_sitemap_files_not_referenced": [
+    "cheese-category-pages.xml",
+    "cheese-group-pages.xml",
+    "cheese-pages.xml"
+  ],
+  "all_published_domains_covered": true,
+  "domain_coverage": {
+    "fruit": true,
+    "vegetable": true,
+    "grain-starch": true,
+    "legume": true,
+    "nut-seed": true,
+    "herb-spice": true,
+    "sweet-flavor": true,
+    "sauce-condiment": true,
+    "fungi": true,
+    "protein": true
+  },
+  "cheese_correctly_excluded": true,
+  "domain_hub_pages_covered_in_site_pages_xml": true,
+  "hub_url_coverage": {
+    "/foods/": true,
+    "/fruits/": true,
+    "/vegetables/": true,
+    "/grains-starches/": true,
+    "/legumes/": true,
+    "/nut-seeds/": true,
+    "/herbs-spices/": true,
+    "/sweet-flavors/": true,
+    "/sauce-condiments/": true,
+    "/fungi/": true,
+    "/ingredients/": true
+  },
+  "generation_is_deterministic_and_idempotent": true,
+  "known_risk": "package.json's 'generate:sitemap' script (scripts/generate-sitemap.js) walks the entire filesystem and OVERWRITES root sitemap.xml with an incompatible flat <urlset> format (one entry per literal .html file, including dist/ duplicates). It predates this milestone's <sitemapindex> architecture and was not touched (out of scope to modify/remove unrelated legacy tooling), but running it would destroy the deterministic sitemapindex this phase built. Flagged for a future cleanup phase, not fixed here.",
+  "methodology": "Every <loc> in the live root sitemap.xml was extracted and cross-checked against the 34 sitemap files that exist on disk, against the 10 published-domain prefixes, and against cheese's correct absence. site-pages.xml was checked directly for the 10 domain-hub URLs plus /ingredients/. The generator was run twice consecutively and the output diffed (ignoring timestamps) to confirm determinism."
+}
