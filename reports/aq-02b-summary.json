@@ -1,0 +1,69 @@
+{
+  "phase": "AQ-02B",
+  "title": "Trust & Navigation Completion \u2014 Summary",
+  "date": "2026-08-14",
+  "milestones": {
+    "AQ-02B1": {
+      "title": "Navigation Registry + Hub Integrity",
+      "commit": "86a7163",
+      "result": "PASS",
+      "highlights": [
+        "10 domain hub pages built and live (were all 404)",
+        "/ingredients/ master directory added, linked from every domain hub and 25 core/dish/seasonal static pages",
+        "962/962 leaf pages full-census verified: resolvable Foods-nav target + Ingredients-directory link"
+      ]
+    },
+    "AQ-02B2": {
+      "title": "Search + Sitemap Completion",
+      "commit": "147cc5c",
+      "result": "PASS",
+      "highlights": [
+        "1,038/1,038 leaf+group+category entities across 10 published domains now searchable (was wine-side only)",
+        "sitemap.xml rebuilt deterministically from the published-domain registry every run (was history-dependent merge)",
+        "Known risk documented: legacy generate:sitemap script would corrupt the new sitemapindex if run"
+      ]
+    },
+    "AQ-02B3": {
+      "title": "Relationship Provenance + Narrative Completion",
+      "commit": "08926d6",
+      "result": "PASS",
+      "highlights": [
+        "4,140/4,140 rendered relationships independently verified to trace to a real runtime/editorial/wine edge",
+        "1,692/1,692 wine-side relationship targets verified to be real entities",
+        "Corrected an AQ-01/AQ-01R methodology error: the bearnaise/coconut relationship IS provenanced, prior audits checked the wrong data layer",
+        "TC-09 fixed: group/category introduction field now renders (86/86 verified)"
+      ]
+    },
+    "AQ-02B4": {
+      "title": "Internal Linking + Publication Integrity",
+      "commit": "PENDING",
+      "result": "PASS",
+      "highlights": [
+        "Whole-site reachability crawl found 51 genuinely orphaned pages (protein deprecated entities) - fixed via registry-driven redirects to their canonical replacements",
+        "0 orphan pages after fix (was 51)",
+        "213 knowledge-integrity findings surfaced (204 cheese scientific_name mislabels, 9 squash-family taxonomy drift) - detection only, not fixed, per Rule 4",
+        "43 false-positive findings (beef cuts) caught and corrected before reporting"
+      ]
+    }
+  },
+  "platform_infrastructure_added": [
+    "lib/food-publication/navigation-registry.js \u2014 NavigationRegistry",
+    "lib/food-publication/hub.js \u2014 domain hub generator",
+    "lib/food-publication/ingredients-directory.js \u2014 master directory generator",
+    "lib/food-publication/search-assets.js \u2014 SearchRegistry",
+    "lib/food-publication/sitemap-registry.js \u2014 SitemapRegistry",
+    "lib/food-publication/relationship-provenance.js \u2014 RelationshipProvenanceVerifier",
+    "lib/food-publication/integrity-verifier.js \u2014 PublicationIntegrityVerifier (reachability + knowledge integrity)",
+    "lib/food-publication/redirect-registry.js \u2014 RedirectRegistry"
+  ],
+  "future_domain_guarantee": "All 8 infrastructure modules above are driven by food-domain-config.js's published flag and listPublishedDomainIds() \u2014 a future domain that sets published: true inherits a working hub page, sitemap coverage, search indexing, relationship provenance checking, and redirect generation automatically, with zero domain-specific code required in any of them.",
+  "regression": {
+    "ontology_catalogs_changed": false,
+    "runtime_artifacts_changed": false,
+    "editorial_artifacts_changed": false,
+    "wine_artifacts_changed": false,
+    "governance_docs_changed": false,
+    "migration_artifacts_changed": false,
+    "verification_method": "git status diffed against every protected path after every milestone, before every commit, across all 4 milestones \u2014 zero violations at any point."
+  }
+}

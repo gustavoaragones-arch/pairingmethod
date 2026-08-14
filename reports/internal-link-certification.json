@@ -1,0 +1,24 @@
+{
+  "phase": "AQ-02B4",
+  "title": "Internal Linking — Certification",
+  "date": "2026-08-14",
+  "reachability": {
+    "total_published_pages": 1038,
+    "directly_reachable_via_internal_links": 987,
+    "resolved_via_redirect": 51,
+    "unresolved_orphans": 0,
+    "no_orphan_pages": true,
+    "pages_visited_during_crawl": 1417,
+    "broken_links_encountered_during_crawl": [
+      "/terms/black-fruit",
+      "/terms/red-fruit",
+      "/terms/citrus"
+    ]
+  },
+  "finding": {
+    "description": "A real breadth-first crawl from /ingredients/ and / following every internal href actually present in the live HTML found 51 published leaf pages (all protein-domain deprecated entities: mushrooms, legumes, grains, nuts filed under the deprecated /foods/ taxonomy) with zero incoming links from anywhere on the site — genuinely orphaned, not merely a duplicate-content concern. Root cause: their parent group runtime file (data/runtime/protein-food-groups.json) already lists zero current members for these wholly-migrated groups, which is accurate at the runtime/ontology layer (they have moved to their canonical domain) but left the deprecated HTML pages unlinked from anywhere.",
+    "fix": "Implemented the AQ-01R Priority 4 recommendation: all 51 entities already carry refinement.redirect_required + canonical_publication_path in their catalog record. lib/food-publication/redirect-registry.js generates _redirects entries from this field directly (registry-driven, not hand-maintained) so a visitor or crawler landing on any deprecated URL is redirected to the real, reachable canonical page. Reachability check now treats a page as resolved if either directly linked or correctly redirected to a page that is.",
+    "regression_scope": "Only _redirects (a deploy-config file, not ontology/runtime/editorial/wine/governance) was modified. No catalog, runtime, or HTML content changed to produce this fix."
+  },
+  "per_domain_link_generation_note": "Every published domain's own generate:<domain>-links step already reports 0 broken links and 0 duplicate links on every run this session (confirmed repeatedly across AQ-02A/B1/B2/B3) — this milestone's contribution is the whole-site reachability graph those per-domain reports cannot see."
+}

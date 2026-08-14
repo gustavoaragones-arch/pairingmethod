@@ -1,0 +1,24 @@
+{
+  "phase": "AQ-02B4",
+  "title": "Publication Integrity — Certification",
+  "date": "2026-08-14",
+  "knowledge_integrity": {
+    "total_findings": 213,
+    "by_type": {
+      "non_taxonomic_scientific_name": 204,
+      "taxonomy_drift": 9
+    },
+    "methodology": "Detection only, per Rule 4 (publication consumes, never creates or fixes knowledge). Scans every published domain catalog for: non-taxonomic scientific_name values (an animal binomial on a manufactured/derived-product entity, scoped to avoid false-flagging raw-tissue products like beef cuts where the animal binomial IS correct), taxonomy drift (plant_part vs. parent-group-name mismatches, generalizing the AQ-01/AQ-01R chayote finding), duplicate slugs within a domain tier, and orphaned parent-group/parent-category references. No catalog file was modified.",
+    "findings": {
+      "non_taxonomic_scientific_name": "All 204 cheese entities carry the source milk animal's species binomial (Bos taurus / Capra hircus / Ovis aries) as their own scientific_name — confirmed as the AQ-01 finding, now measured as a full-domain census rather than a single sampled entity. Not yet live (cheese is unpublished to root) but present in the built dist/ output.",
+      "taxonomy_drift": "Generalizes the single chayote example from AQ-01/AQ-01R into a full-domain finding: 9 winter-squash-family vegetables (acorn, butternut, delicata, hubbard, kabocha, spaghetti squash, pumpkin, zucchini, chayote) are all filed under the vegetable domain's root-vegetables group despite carrying plant_part: \"fruit_vegetable\" — a systemic miscategorization pattern, not a one-off.",
+      "duplicate_slugs": 0,
+      "empty_groups": 0,
+      "orphaned_parent_references": 0
+    },
+    "false_positives_corrected_during_this_pass": "An initial version of this check flagged 43 protein-domain beef cuts (ribeye, tenderloin, etc.) for carrying scientific_name: \"Bos taurus\" — this is correct, not an error (a ribeye is literally Bos taurus tissue, the same convention as a fruit's scientific_name being its source plant). The check was rescoped to derived/manufactured-product domains only (cheese) before being reported here."
+  },
+  "internal_linking_summary": "See reports/internal-link-certification.json.",
+  "relationship_provenance_summary": "See reports/relationship-provenance.json (AQ-02B3): 0 unsupported relationships found across a full census of 4,140 checked.",
+  "overall_result": "PASS"
+}
