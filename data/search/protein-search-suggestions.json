@@ -1,11 +1,11 @@
 {
   "meta": {
-    "catalog_version": "2.0.0",
+    "catalog_version": "2.1.0",
     "document_type": "protein_search_suggestions",
     "domain": "protein",
     "food_ontology_version": "1.0",
     "phase": "ONTOLOGY-03E",
-    "suggestion_count": 226
+    "suggestion_count": 230
   },
   "suggestions": [
     {
@@ -432,6 +432,15 @@
       "title": "Crustaceans",
       "tokens": [
         "crustaceans"
+      ],
+      "type": "group"
+    },
+    {
+      "href": "/groups/cured-meat/",
+      "title": "Cured Meat",
+      "tokens": [
+        "cured meat",
+        "cured-meat"
       ],
       "type": "group"
     },
@@ -917,6 +926,14 @@
       "type": "food"
     },
     {
+      "href": "/foods/langoustine/",
+      "title": "Langoustine",
+      "tokens": [
+        "langoustine"
+      ],
+      "type": "food"
+    },
+    {
       "href": "/foods/lamb-leg/",
       "title": "Leg of Lamb",
       "tokens": [
@@ -1362,6 +1379,14 @@
       "type": "food"
     },
     {
+      "href": "/foods/prosciutto/",
+      "title": "Prosciutto",
+      "tokens": [
+        "prosciutto"
+      ],
+      "type": "food"
+    },
+    {
       "href": "/foods/pumpkin-seeds/",
       "title": "Pumpkin Seeds",
       "tokens": [
@@ -1439,6 +1464,14 @@
       "tokens": [
         "ribeye",
         "ribeye steak"
+      ],
+      "type": "food"
+    },
+    {
+      "href": "/foods/salami/",
+      "title": "Salami",
+      "tokens": [
+        "salami"
       ],
       "type": "food"
     },

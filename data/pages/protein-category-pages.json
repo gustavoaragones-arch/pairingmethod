@@ -1,6 +1,6 @@
 {
   "meta": {
-    "catalog_version": "2.0.0",
+    "catalog_version": "2.1.0",
     "domain": "protein",
     "food_ontology_version": "1.0",
     "page_count": 3,
@@ -40,11 +40,18 @@
           "slug": "cephalopods"
         },
         {
-          "food_count": 7,
+          "food_count": 8,
           "href": "/groups/crustaceans/",
           "id": "food.protein.crustaceans",
           "name": "Crustaceans",
           "slug": "crustaceans"
+        },
+        {
+          "food_count": 2,
+          "href": "/groups/cured-meat/",
+          "id": "food.protein.cured-meat",
+          "name": "Cured Meat",
+          "slug": "cured-meat"
         },
         {
           "food_count": 22,
@@ -103,15 +110,15 @@
       },
       "metadata": {
         "canonical": "https://pairingmethod.com/categories/animal-protein/",
-        "description": "Animal Protein Foods — 10 groups and 148 protein foods.",
-        "og_description": "Animal Protein Foods — 10 groups and 148 protein foods.",
+        "description": "Animal Protein Foods — 11 groups and 151 protein foods.",
+        "og_description": "Animal Protein Foods — 11 groups and 151 protein foods.",
         "og_title": "Animal Protein Foods — Protein Food Category",
         "title": "Animal Protein Foods — Protein Food Category"
       },
       "overview": {
         "display_name": "Animal Protein Foods",
-        "food_count": 148,
-        "group_count": 10
+        "food_count": 151,
+        "group_count": 11
       },
       "page_type": "protein_category",
       "projection_id": "food.protein.animal",
@@ -135,7 +142,7 @@
       "canonical_path": "/categories/fungi-protein/",
       "groups": [
         {
-          "food_count": 12,
+          "food_count": 0,
           "href": "/groups/mushrooms/",
           "id": "food.protein.mushrooms",
           "name": "Mushrooms",
@@ -156,14 +163,14 @@
       },
       "metadata": {
         "canonical": "https://pairingmethod.com/categories/fungi-protein/",
-        "description": "Fungi Protein Foods — 2 groups and 17 protein foods.",
-        "og_description": "Fungi Protein Foods — 2 groups and 17 protein foods.",
+        "description": "Fungi Protein Foods — 2 groups and 5 protein foods.",
+        "og_description": "Fungi Protein Foods — 2 groups and 5 protein foods.",
         "og_title": "Fungi Protein Foods — Protein Food Category",
         "title": "Fungi Protein Foods — Protein Food Category"
       },
       "overview": {
         "display_name": "Fungi Protein Foods",
-        "food_count": 17,
+        "food_count": 5,
         "group_count": 2
       },
       "page_type": "protein_category",
@@ -188,28 +195,28 @@
       "canonical_path": "/categories/plant-protein/",
       "groups": [
         {
-          "food_count": 8,
+          "food_count": 2,
           "href": "/groups/grains-wheat-protein/",
           "id": "food.protein.grains-wheat-protein",
           "name": "Grains & Wheat Protein",
           "slug": "grains-wheat-protein"
         },
         {
-          "food_count": 12,
+          "food_count": 0,
           "href": "/groups/legumes/",
           "id": "food.protein.legumes",
           "name": "Legumes",
           "slug": "legumes"
         },
         {
-          "food_count": 12,
+          "food_count": 0,
           "href": "/groups/nuts-seeds/",
           "id": "food.protein.nuts-seeds",
           "name": "Nuts & Seeds",
           "slug": "nuts-seeds"
         },
         {
-          "food_count": 10,
+          "food_count": 1,
           "href": "/groups/soy-foods/",
           "id": "food.protein.soy-foods",
           "name": "Soy Foods",
@@ -223,14 +230,14 @@
       },
       "metadata": {
         "canonical": "https://pairingmethod.com/categories/plant-protein/",
-        "description": "Plant Protein Foods — 4 groups and 42 protein foods.",
-        "og_description": "Plant Protein Foods — 4 groups and 42 protein foods.",
+        "description": "Plant Protein Foods — 4 groups and 3 protein foods.",
+        "og_description": "Plant Protein Foods — 4 groups and 3 protein foods.",
         "og_title": "Plant Protein Foods — Protein Food Category",
         "title": "Plant Protein Foods — Protein Food Category"
       },
       "overview": {
         "display_name": "Plant Protein Foods",
-        "food_count": 42,
+        "food_count": 3,
         "group_count": 4
       },
       "page_type": "protein_category",

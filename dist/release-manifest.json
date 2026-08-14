@@ -1,108 +1,112 @@
 {
   "artifacts": {
-    "catalog": "data/sauce-condiment-catalog.json",
+    "catalog": "data/protein-food-catalog.json",
     "html": [
-      "dist/sauce-condiments",
-      "dist/sauce-condiment-groups",
-      "dist/sauce-condiment-categories"
+      "dist/foods",
+      "dist/groups",
+      "dist/categories"
     ],
     "navigation": [
-      "data/navigation/sauce-condiment-links.json",
-      "data/navigation/sauce-condiment-group-links.json",
-      "data/navigation/sauce-condiment-category-links.json"
+      "data/navigation/protein-food-links.json",
+      "data/navigation/protein-group-links.json",
+      "data/navigation/protein-category-links.json"
     ],
     "pages": [
-      "data/pages/sauce-condiment-pages.json",
-      "data/pages/sauce-condiment-group-pages.json",
-      "data/pages/sauce-condiment-category-pages.json"
+      "data/pages/protein-food-pages.json",
+      "data/pages/protein-group-pages.json",
+      "data/pages/protein-category-pages.json"
     ],
     "projections": [
-      "data/generated/sauce-condiment-pages.json",
-      "data/generated/sauce-condiment-group-pages.json",
-      "data/generated/sauce-condiment-category-pages.json"
+      "data/generated/protein-food-pages.json",
+      "data/generated/protein-group-pages.json",
+      "data/generated/protein-category-pages.json"
     ],
     "relationships": [
-      "data/runtime/sauce-condiment-runtime.json",
-      "data/runtime/sauce-condiment-editorial-relationships.json",
-      "data/runtime/sauce-condiment-wine-relationships.json"
+      "data/runtime/protein-food-relationships.json",
+      "data/runtime/protein-food-editorial-relationships.json",
+      "data/runtime/protein-food-wine-relationships.json"
     ],
     "runtime": [
-      "data/runtime/sauce-condiment-runtime.json"
+      "data/runtime/protein-food-index.json",
+      "data/runtime/protein-food-groups.json",
+      "data/runtime/protein-food-categories.json"
     ],
     "schema": [
-      "data/schema/sauce-condiment-schema.json",
-      "data/schema/sauce-condiment-group-schema.json",
-      "data/schema/sauce-condiment-category-schema.json"
+      "data/schema/protein-food-schema.json",
+      "data/schema/protein-group-schema.json",
+      "data/schema/protein-category-schema.json"
     ],
     "search": [
-      "data/search/sauce-condiment-search-index.json",
-      "data/search/sauce-condiment-group-search-index.json",
-      "data/search/sauce-condiment-category-search-index.json",
-      "data/search/sauce-condiment-search-suggestions.json"
+      "data/search/protein-food-search-index.json",
+      "data/search/protein-group-search-index.json",
+      "data/search/protein-category-search-index.json",
+      "data/search/protein-search-suggestions.json"
     ],
     "sitemaps": [
       "dist/sitemap.xml",
-      "dist/sitemaps/sauce-condiment-pages.xml",
-      "dist/sitemaps/sauce-condiment-group-pages.xml",
-      "dist/sitemaps/sauce-condiment-category-pages.xml",
+      "dist/sitemaps/protein-food-pages.xml",
+      "dist/sitemaps/protein-group-pages.xml",
+      "dist/sitemaps/protein-category-pages.xml",
       "dist/crawl-manifest.json"
     ]
   },
-  "catalog_version": "1.0.0",
+  "catalog_version": "2.1.0",
   "certification": "PASS",
   "checksums": {
-    "catalog": "460f25191fada7e359e51f807634b719a16130826d98995704c751577fe144cf",
+    "catalog": "7c2e51791ea4507b7464a14e61976a46f2de2df49e04fe27a6b0a834cbd8fe18",
     "html": {},
     "navigation": {
-      "data/navigation/sauce-condiment-category-links.json": "b12af14bc6f943c903dc3ca8c99d16cd27df057b748be73c21edde9f4fa2bf38",
-      "data/navigation/sauce-condiment-group-links.json": "7d1e8b3e7624d017eb4d541aa737cf7aeaccbe089f3500a309f20d7a81640a17",
-      "data/navigation/sauce-condiment-links.json": "f96cf80550e6e012c1583dcfdbceb2624bcdc2a1bf5843c0f3e3db6d8a61f84b"
+      "data/navigation/protein-category-links.json": "625a8805ae42c838db9a2b78db040735c42edb17e71f055880807209b673f4a5",
+      "data/navigation/protein-food-links.json": "315f76f975bdb2eda0df2016f690d012594bc1383af85106f44c54f6bbce636a",
+      "data/navigation/protein-group-links.json": "22e86de982db5cd3a4905978befa01945bfbf7790f47034fc178f05efba5d6d3"
     },
     "pages": {
-      "data/pages/sauce-condiment-category-pages.json": "127151cd6cab27f6ea80264c4694ad3dbb8fd921169437a8449b056492b4d46c",
-      "data/pages/sauce-condiment-group-pages.json": "1d33df4591dfc3cd4a946a9b45396c15a6bb3d485d4f5cb281158466bf8ca47d",
-      "data/pages/sauce-condiment-pages.json": "d3b07b952ce75f72092aa0b54ccc26df1192206be9e38f35011958b5d1f3ecff"
+      "data/pages/protein-category-pages.json": "1aa6547481cd5b486bd8c3735f4cd49844d005ac3f8be9586d2c40e2afa41dfd",
+      "data/pages/protein-food-pages.json": "bbeffaf72fc01146494abfbc01f9c3168d6200269216c1d05db5c124a0515d50",
+      "data/pages/protein-group-pages.json": "30138429782caade9e91705d1e010b2006b0ec78accaf04a28385893a35ac2c9"
     },
     "projections": {
-      "data/generated/sauce-condiment-category-pages.json": "27caa03a707f30f8f76b1f1c3b0f594640f7ba235d2098d4b5c3c5fb54f3f35f",
-      "data/generated/sauce-condiment-group-pages.json": "8065f2566005f90b21245c7c230ed16a0612eee67bd8a1a37ab7183ac9f3ab9e",
-      "data/generated/sauce-condiment-pages.json": "9beb537b7867d12b1fc7188236beafa10bcbb96c9e31e50fa6572811ce518051"
+      "data/generated/protein-category-pages.json": "9820ca48a92fec515b79728c1bbb19c9b2703ff1f2a9602147a748777d490f45",
+      "data/generated/protein-food-pages.json": "07e804e7607735db3a8602bbdef78198d5836ea449e2d41854f9992a4b2a780a",
+      "data/generated/protein-group-pages.json": "7bc2eedab6e545afe1b6b914628ad8ee227fce049961eb2e24e697a757bb3a41"
     },
     "relationships": {
-      "data/runtime/sauce-condiment-editorial-relationships.json": "fd271bef9f1780d797b221f4895e212f7780488ea5350bbffc70b1106a8802ad",
-      "data/runtime/sauce-condiment-runtime.json": "5b6cf585528c2b6b8694c9c7e74638f799738e08ab04b5aface8a5c983ec2363",
-      "data/runtime/sauce-condiment-wine-relationships.json": "a64561f4cf6c8d160c0f4b491c53013dca8cc70b05f655db90353b296309fafc"
+      "data/runtime/protein-food-editorial-relationships.json": "71faa169a6c434b550430395dbb7f61c3d06e40626ef8c64811dab0066caf304",
+      "data/runtime/protein-food-relationships.json": "9b01f630b269ee250276f15888dfad8dfd5e35235e624129822168473ee1dbc2",
+      "data/runtime/protein-food-wine-relationships.json": "b417fab911bc6595291f7aa9a06d4f9b05b46b0c467c2fc97f3a33a36f3ec8b5"
     },
     "runtime": {
-      "data/runtime/sauce-condiment-runtime.json": "5b6cf585528c2b6b8694c9c7e74638f799738e08ab04b5aface8a5c983ec2363"
+      "data/runtime/protein-food-categories.json": "1520f9ea7b56314edfa7a9388a3a77f3d43cfa499b548be8eb631c70d5d27c77",
+      "data/runtime/protein-food-groups.json": "b41f9904c3bd679f5d1f70f6fcd4dbeb9a24e221a7c00c41e1c58224cb12d317",
+      "data/runtime/protein-food-index.json": "6cb6c218b4f1808a686dd61c6aa322e2ed36228048869f1afe7f30e897336872"
     },
     "schema": {
-      "data/schema/sauce-condiment-category-schema.json": "f18a3f4fee9bc308b586fbcf87317c1d240c4f54353e22e3d7f1643823679573",
-      "data/schema/sauce-condiment-group-schema.json": "68c1c14b7bb3b6b5cb5c0517bb2b50b173c3ad3c328ba7053c1c82a332f64beb",
-      "data/schema/sauce-condiment-schema.json": "e873ed779044f6c45217437a82e60b9a694a9db0dcf7a83355e3563c00ccc316"
+      "data/schema/protein-category-schema.json": "6665fe3d819d12e0afa091569258cf90ce2ec49626b9ab308e815cb03df1a00c",
+      "data/schema/protein-food-schema.json": "c6ccdb661b011c81d9f17ad1ce06eea2940c67ddf71926cb86ae5f54d669d10c",
+      "data/schema/protein-group-schema.json": "ca78b22b199de6042cc3b90f426bb95b44e6cfac0ea08185d7e1e26223bed5d0"
     },
     "search": {
-      "data/search/sauce-condiment-category-search-index.json": "84e63a0b6d9c825592c7eb44019b8c828734fd97c76f505f827192338f28a515",
-      "data/search/sauce-condiment-group-search-index.json": "86fcd0bf6952a7bf906373f50f230198aa0a5e7a5e01ca424251c38ffe12d76b",
-      "data/search/sauce-condiment-search-index.json": "964e2998187ec45f758c0b4200216e80a60dbca33a1994a4ee43c977d8866abf",
-      "data/search/sauce-condiment-search-suggestions.json": "747a9165ba750716e1e0aca54e3971cda2129713656e371a936b6edb5a2da835"
+      "data/search/protein-category-search-index.json": "7afc6848a88e1e2e23f8ea9edf083a8d1ee52ca9104acaceb7e7ca1ab1bb5c6f",
+      "data/search/protein-food-search-index.json": "902ba215b6d17d77328bac840c53bb559b2f5b2762f53bc19697a3e338afbe16",
+      "data/search/protein-group-search-index.json": "a508cc282c20bbe7fce7eb4b252f94fee27692662d26f53e6dd1235aec3ddee8",
+      "data/search/protein-search-suggestions.json": "023c208d3770f3339a6c3194f01719e607a5f250eb085a25b9b5331b13fce8eb"
     },
     "sitemaps": {
-      "dist/crawl-manifest.json": "8421178f0b6b43bf3581bc61fc9cdff9a53b39a8270056be0f53f8645974b22c",
-      "dist/sitemap.xml": "28392aa8d8b708462f276444f68c600f6be49b70478be82b4a3070abcff842ee",
-      "dist/sitemaps/sauce-condiment-category-pages.xml": "be9327dc9074b4f7827654db820ea96c07330a3135f548d221e5c93c35fd054a",
-      "dist/sitemaps/sauce-condiment-group-pages.xml": "ef9d29ecd9916e4a4a0ca0f53224120152265ec855e3066209c5e10025376b89",
-      "dist/sitemaps/sauce-condiment-pages.xml": "be804e14c32bf82293e10c7e32168116099e0c3a04df1d38e68a77b2ece113fb"
+      "dist/crawl-manifest.json": "283025a65feca3ce5ffcb3d68edfb8e245db8a51efdd5b6e32291b20cafba983",
+      "dist/sitemap.xml": "98773b11fe89f812267aaeb9fd73682b290b7d79578c9cda053340a50323f7ee",
+      "dist/sitemaps/protein-category-pages.xml": "7659642ab90ab4210bbae7c1ec9b75b8f2dda8dff08064e9e97f317a56a166e2",
+      "dist/sitemaps/protein-food-pages.xml": "699f1b6e107ba4ed8d24d6c5c5d4a9b81cd40600be7a9c45d65a12f071d31978",
+      "dist/sitemaps/protein-group-pages.xml": "348cddb7991482bb6dae6b07a6dfc7b09d36f1f46976a7aa5b49768e1766e0e0"
     }
   },
-  "domain": "sauce-condiment",
-  "generated_at": "2026-08-08T01:29:51.118Z",
+  "domain": "protein",
+  "generated_at": "2026-08-14T05:00:22.382Z",
   "pages": {
-    "categories": 1,
-    "groups": 6,
-    "leaf": 90,
-    "total": 97
+    "categories": 3,
+    "groups": 17,
+    "leaf": 210,
+    "total": 230
   },
-  "publication": "sauce-condiment-ontology",
-  "release_version": "2.0.0"
+  "publication": "protein-food-ontology",
+  "release_version": "1.0"
 }

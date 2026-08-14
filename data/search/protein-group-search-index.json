@@ -107,6 +107,7 @@
         "food.protein.crustaceans.crab",
         "food.protein.crustaceans.crawfish",
         "food.protein.crustaceans.king-crab-leg",
+        "food.protein.crustaceans.langoustine",
         "food.protein.crustaceans.lobster-tail",
         "food.protein.crustaceans.prawn",
         "food.protein.crustaceans.shrimp",
@@ -121,6 +122,7 @@
         "crab",
         "crawfish",
         "king-crab",
+        "langoustine",
         "lobster",
         "prawn",
         "shrimp"
@@ -132,9 +134,38 @@
         "crustaceans",
         "fresh",
         "king-crab",
+        "langoustine",
         "lobster",
         "prawn",
         "shrimp"
+      ]
+    },
+    {
+      "canonical_path": "/groups/cured-meat/",
+      "canonical_url": "https://pairingmethod.com/groups/cured-meat/",
+      "category": {
+        "id": "food.protein.animal",
+        "name": "Animal Protein Foods",
+        "slug": "animal-protein"
+      },
+      "display_name": "Cured Meat",
+      "document_type": "protein_group",
+      "id": "food.protein.cured-meat",
+      "member_food_ids": [
+        "food.protein.cured-meat.prosciutto",
+        "food.protein.cured-meat.salami"
+      ],
+      "processing_states_represented": [
+        "cured"
+      ],
+      "projection_id": "food.protein.cured-meat",
+      "slug": "cured-meat",
+      "species_represented": [],
+      "tokens": [
+        "animal protein foods",
+        "cured",
+        "cured meat",
+        "cured-meat"
       ]
     },
     {
@@ -238,43 +269,23 @@
       "document_type": "protein_group",
       "id": "food.protein.grains-wheat-protein",
       "member_food_ids": [
-        "food.protein.grains-wheat-protein.amaranth",
-        "food.protein.grains-wheat-protein.barley",
-        "food.protein.grains-wheat-protein.buckwheat",
-        "food.protein.grains-wheat-protein.farro",
-        "food.protein.grains-wheat-protein.oats",
-        "food.protein.grains-wheat-protein.quinoa",
         "food.protein.grains-wheat-protein.seitan",
         "food.protein.grains-wheat-protein.vital-wheat-gluten"
       ],
       "processing_states_represented": [
-        "dried",
         "processed"
       ],
       "projection_id": "food.protein.grains-wheat-protein",
       "slug": "grains-wheat-protein",
       "species_represented": [
-        "amaranth",
-        "barley",
-        "buckwheat",
-        "farro",
-        "oat",
-        "quinoa",
         "wheat"
       ],
       "tokens": [
-        "amaranth",
-        "barley",
-        "buckwheat",
-        "dried",
-        "farro",
         "grains & wheat protein",
         "grains wheat protein",
         "grains-wheat-protein",
-        "oat",
         "plant protein foods",
         "processed",
-        "quinoa",
         "wheat"
       ]
     },
@@ -328,55 +339,14 @@
       "display_name": "Legumes",
       "document_type": "protein_group",
       "id": "food.protein.legumes",
-      "member_food_ids": [
-        "food.protein.legumes.black-beans",
-        "food.protein.legumes.black-lentils",
-        "food.protein.legumes.cannellini-beans",
-        "food.protein.legumes.chickpeas",
-        "food.protein.legumes.green-lentils",
-        "food.protein.legumes.kidney-beans",
-        "food.protein.legumes.lentils",
-        "food.protein.legumes.lima-beans",
-        "food.protein.legumes.navy-beans",
-        "food.protein.legumes.peas",
-        "food.protein.legumes.pinto-beans",
-        "food.protein.legumes.red-lentils"
-      ],
-      "processing_states_represented": [
-        "dried"
-      ],
+      "member_food_ids": [],
+      "processing_states_represented": [],
       "projection_id": "food.protein.legumes",
       "slug": "legumes",
-      "species_represented": [
-        "black-bean",
-        "black-lentil",
-        "cannellini-bean",
-        "chickpea",
-        "green-lentil",
-        "kidney-bean",
-        "lentil",
-        "lima-bean",
-        "navy-bean",
-        "pea",
-        "pinto-bean",
-        "red-lentil"
-      ],
+      "species_represented": [],
       "tokens": [
-        "black-bean",
-        "black-lentil",
-        "cannellini-bean",
-        "chickpea",
-        "dried",
-        "green-lentil",
-        "kidney-bean",
         "legumes",
-        "lentil",
-        "lima-bean",
-        "navy-bean",
-        "pea",
-        "pinto-bean",
-        "plant protein foods",
-        "red-lentil"
+        "plant protein foods"
       ]
     },
     {
@@ -440,57 +410,14 @@
       "display_name": "Mushrooms",
       "document_type": "protein_group",
       "id": "food.protein.mushrooms",
-      "member_food_ids": [
-        "food.protein.mushrooms.button-mushroom",
-        "food.protein.mushrooms.chanterelle",
-        "food.protein.mushrooms.cremini",
-        "food.protein.mushrooms.enoki",
-        "food.protein.mushrooms.king-oyster",
-        "food.protein.mushrooms.lions-mane",
-        "food.protein.mushrooms.maitake",
-        "food.protein.mushrooms.morel",
-        "food.protein.mushrooms.oyster-mushroom",
-        "food.protein.mushrooms.porcini",
-        "food.protein.mushrooms.portobello",
-        "food.protein.mushrooms.shiitake"
-      ],
-      "processing_states_represented": [
-        "dried",
-        "fresh"
-      ],
+      "member_food_ids": [],
+      "processing_states_represented": [],
       "projection_id": "food.protein.mushrooms",
       "slug": "mushrooms",
-      "species_represented": [
-        "button-mushroom",
-        "chanterelle",
-        "cremini",
-        "enoki",
-        "king-oyster",
-        "lions-mane",
-        "maitake",
-        "morel",
-        "oyster-mushroom",
-        "porcini",
-        "portobello",
-        "shiitake"
-      ],
+      "species_represented": [],
       "tokens": [
-        "button-mushroom",
-        "chanterelle",
-        "cremini",
-        "dried",
-        "enoki",
-        "fresh",
         "fungi protein foods",
-        "king-oyster",
-        "lions-mane",
-        "maitake",
-        "morel",
-        "mushrooms",
-        "oyster-mushroom",
-        "porcini",
-        "portobello",
-        "shiitake"
+        "mushrooms"
       ]
     },
     {
@@ -536,57 +463,16 @@
       "display_name": "Nuts & Seeds",
       "document_type": "protein_group",
       "id": "food.protein.nuts-seeds",
-      "member_food_ids": [
-        "food.protein.nuts-seeds.almonds",
-        "food.protein.nuts-seeds.cashews",
-        "food.protein.nuts-seeds.chia-seeds",
-        "food.protein.nuts-seeds.flaxseed",
-        "food.protein.nuts-seeds.hemp-seeds",
-        "food.protein.nuts-seeds.peanuts",
-        "food.protein.nuts-seeds.pine-nuts",
-        "food.protein.nuts-seeds.pistachios",
-        "food.protein.nuts-seeds.pumpkin-seeds",
-        "food.protein.nuts-seeds.sesame-seeds",
-        "food.protein.nuts-seeds.sunflower-seeds",
-        "food.protein.nuts-seeds.walnuts"
-      ],
-      "processing_states_represented": [
-        "dried"
-      ],
+      "member_food_ids": [],
+      "processing_states_represented": [],
       "projection_id": "food.protein.nuts-seeds",
       "slug": "nuts-seeds",
-      "species_represented": [
-        "almond",
-        "cashew",
-        "chia-seed",
-        "flaxseed",
-        "hemp-seed",
-        "peanut",
-        "pine-nut",
-        "pistachio",
-        "pumpkin-seed",
-        "sesame-seed",
-        "sunflower-seed",
-        "walnut"
-      ],
+      "species_represented": [],
       "tokens": [
-        "almond",
-        "cashew",
-        "chia-seed",
-        "dried",
-        "flaxseed",
-        "hemp-seed",
         "nuts & seeds",
         "nuts seeds",
         "nuts-seeds",
-        "peanut",
-        "pine-nut",
-        "pistachio",
-        "plant protein foods",
-        "pumpkin-seed",
-        "sesame-seed",
-        "sunflower-seed",
-        "walnut"
+        "plant protein foods"
       ]
     },
     {
@@ -709,21 +595,9 @@
       "document_type": "protein_group",
       "id": "food.protein.soy-foods",
       "member_food_ids": [
-        "food.protein.soy-foods.edamame",
-        "food.protein.soy-foods.miso",
-        "food.protein.soy-foods.natto",
-        "food.protein.soy-foods.silken-tofu",
-        "food.protein.soy-foods.soy-curls",
-        "food.protein.soy-foods.soy-milk",
-        "food.protein.soy-foods.soybeans",
-        "food.protein.soy-foods.tempeh",
-        "food.protein.soy-foods.textured-vegetable-protein",
-        "food.protein.soy-foods.tofu-firm"
+        "food.protein.soy-foods.soy-milk"
       ],
       "processing_states_represented": [
-        "dried",
-        "fermented",
-        "fresh",
         "processed"
       ],
       "projection_id": "food.protein.soy-foods",
@@ -732,9 +606,6 @@
         "soybean"
       ],
       "tokens": [
-        "dried",
-        "fermented",
-        "fresh",
         "plant protein foods",
         "processed",
         "soy foods",
@@ -841,8 +712,8 @@
     }
   ],
   "meta": {
-    "catalog_version": "2.0.0",
-    "document_count": 16,
+    "catalog_version": "2.1.0",
+    "document_count": 17,
     "document_type": "protein_group",
     "domain": "protein",
     "food_ontology_version": "1.0",

@@ -1,0 +1,44 @@
+{
+  "phase": "FOOD-14F",
+  "suite_version": "2.1.0",
+  "suite_tag": "food-ontology-suite-v2.1.0",
+  "frozen_checkpoints": {
+    "FOOD-14A": "426d888",
+    "FOOD-14B": "e11cc99",
+    "FOOD-14C": "87bcb69",
+    "FOOD-14D": "59f8da3",
+    "FOOD-14E": "48e3cc6"
+  },
+  "checks": {
+    "runtime_canonical": "PASS",
+    "editorial_canonical": "PASS",
+    "wine_pairing_canonical": "PASS",
+    "ownership_integrity": "PASS",
+    "deprecated_ids": "PASS",
+    "orphan_references": "PASS",
+    "duplicate_canonical_ids": "PASS",
+    "publication_regenerated": "PASS",
+    "deterministic_build": "PASS",
+    "runtime_modified": "false",
+    "editorial_modified": "false",
+    "pairing_modified": "false",
+    "overall_certification": "PASS"
+  },
+  "metrics": {
+    "catalog_entities": 210,
+    "runtime_active_entities": 159,
+    "deprecated_excluded": 51,
+    "editorial_edges": 40,
+    "pairing_edges": 29,
+    "publication_pages": 230,
+    "redirect_entries": 51,
+    "publication_artifacts_changed": false
+  },
+  "publication_reports": {
+    "publication": "reports/publication-certification-report.json",
+    "release": "reports/release-certification-report.json",
+    "publication_generation": "reports/food-ontology-suite-v2.1.0-publication-report.json"
+  },
+  "overall": "PASS",
+  "errors": []
+}

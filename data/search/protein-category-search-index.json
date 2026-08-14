@@ -5,12 +5,13 @@
       "canonical_url": "https://pairingmethod.com/categories/animal-protein/",
       "display_name": "Animal Protein Foods",
       "document_type": "protein_category",
-      "food_count": 148,
-      "group_count": 10,
+      "food_count": 151,
+      "group_count": 11,
       "group_ids": [
         "food.protein.beef",
         "food.protein.cephalopods",
         "food.protein.crustaceans",
+        "food.protein.cured-meat",
         "food.protein.fin-fish",
         "food.protein.lamb",
         "food.protein.mollusks",
@@ -33,10 +34,16 @@
           "slug": "cephalopods"
         },
         {
-          "food_count": 7,
+          "food_count": 8,
           "id": "food.protein.crustaceans",
           "name": "Crustaceans",
           "slug": "crustaceans"
+        },
+        {
+          "food_count": 2,
+          "id": "food.protein.cured-meat",
+          "name": "Cured Meat",
+          "slug": "cured-meat"
         },
         {
           "food_count": 22,
@@ -85,14 +92,15 @@
       "projection_id": "food.protein.animal",
       "slug": "animal-protein",
       "tokens": [
-        "10",
-        "148",
+        "11",
+        "151",
         "animal protein",
         "animal protein foods",
         "animal-protein",
         "beef",
         "cephalopods",
         "crustaceans",
+        "cured meat",
         "fin fish",
         "lamb",
         "mollusks",
@@ -107,7 +115,7 @@
       "canonical_url": "https://pairingmethod.com/categories/fungi-protein/",
       "display_name": "Fungi Protein Foods",
       "document_type": "protein_category",
-      "food_count": 17,
+      "food_count": 5,
       "group_count": 2,
       "group_ids": [
         "food.protein.mushrooms",
@@ -115,7 +123,7 @@
       ],
       "groups": [
         {
-          "food_count": 12,
+          "food_count": 0,
           "id": "food.protein.mushrooms",
           "name": "Mushrooms",
           "slug": "mushrooms"
@@ -131,8 +139,8 @@
       "projection_id": "food.protein.fungi",
       "slug": "fungi-protein",
       "tokens": [
-        "17",
         "2",
+        "5",
         "fungi protein",
         "fungi protein foods",
         "fungi-protein",
@@ -145,7 +153,7 @@
       "canonical_url": "https://pairingmethod.com/categories/plant-protein/",
       "display_name": "Plant Protein Foods",
       "document_type": "protein_category",
-      "food_count": 42,
+      "food_count": 3,
       "group_count": 4,
       "group_ids": [
         "food.protein.grains-wheat-protein",
@@ -155,25 +163,25 @@
       ],
       "groups": [
         {
-          "food_count": 8,
+          "food_count": 2,
           "id": "food.protein.grains-wheat-protein",
           "name": "Grains & Wheat Protein",
           "slug": "grains-wheat-protein"
         },
         {
-          "food_count": 12,
+          "food_count": 0,
           "id": "food.protein.legumes",
           "name": "Legumes",
           "slug": "legumes"
         },
         {
-          "food_count": 12,
+          "food_count": 0,
           "id": "food.protein.nuts-seeds",
           "name": "Nuts & Seeds",
           "slug": "nuts-seeds"
         },
         {
-          "food_count": 10,
+          "food_count": 1,
           "id": "food.protein.soy-foods",
           "name": "Soy Foods",
           "slug": "soy-foods"
@@ -183,8 +191,8 @@
       "projection_id": "food.protein.plant",
       "slug": "plant-protein",
       "tokens": [
+        "3",
         "4",
-        "42",
         "grains & wheat protein",
         "legumes",
         "nuts & seeds",
@@ -196,7 +204,7 @@
     }
   ],
   "meta": {
-    "catalog_version": "2.0.0",
+    "catalog_version": "2.1.0",
     "document_count": 3,
     "document_type": "protein_category",
     "domain": "protein",

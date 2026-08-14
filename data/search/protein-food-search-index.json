@@ -2396,6 +2396,75 @@
       }
     },
     {
+      "canonical_path": "/foods/langoustine/",
+      "canonical_url": "https://pairingmethod.com/foods/langoustine/",
+      "classification": {
+        "category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        },
+        "group": {
+          "id": "food.protein.crustaceans",
+          "name": "Crustaceans",
+          "slug": "crustaceans"
+        },
+        "scientific_name": "Nephrops norvegicus",
+        "species": "langoustine"
+      },
+      "display_name": "Langoustine",
+      "document_type": "protein_food",
+      "id": "food.protein.crustaceans.langoustine",
+      "intrinsic": {
+        "anatomical_cut": "",
+        "bone_state": "boneless",
+        "cut_type": "whole",
+        "fat_content": "lean",
+        "food_category": "animal",
+        "primary_cooking_methods": [
+          "grill",
+          "sauté",
+          "roast"
+        ],
+        "processing_state": "fresh",
+        "recommended_doneness": [
+          "well-done"
+        ],
+        "scientific_name": "Nephrops norvegicus",
+        "species": "langoustine",
+        "texture": [],
+        "typical_descriptors": []
+      },
+      "navigation": {
+        "culinary_role_ids": [],
+        "preparation_ids": [],
+        "similar_food_ids": [],
+        "substitution_ids": []
+      },
+      "projection_id": "food.protein.crustaceans.langoustine",
+      "slug": "langoustine",
+      "tokens": [
+        "animal",
+        "animal protein foods",
+        "boneless",
+        "crustaceans",
+        "fresh",
+        "grill",
+        "langoustine",
+        "lean",
+        "nephrops norvegicus",
+        "roast",
+        "saute",
+        "well-done",
+        "whole"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [],
+        "technique_ids": []
+      }
+    },
+    {
       "canonical_path": "/foods/lobster-tail/",
       "canonical_url": "https://pairingmethod.com/foods/lobster-tail/",
       "classification": {
@@ -2679,6 +2748,137 @@
         "whole",
         "whole lobster",
         "whole-lobster"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/foods/prosciutto/",
+      "canonical_url": "https://pairingmethod.com/foods/prosciutto/",
+      "classification": {
+        "category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        },
+        "group": {
+          "id": "food.protein.cured-meat",
+          "name": "Cured Meat",
+          "slug": "cured-meat"
+        },
+        "scientific_name": "Sus scrofa domesticus",
+        "species": ""
+      },
+      "display_name": "Prosciutto",
+      "document_type": "protein_food",
+      "id": "food.protein.cured-meat.prosciutto",
+      "intrinsic": {
+        "anatomical_cut": "leg",
+        "bone_state": "boneless",
+        "cut_type": "trim",
+        "fat_content": "rich",
+        "food_category": "animal",
+        "primary_cooking_methods": [
+          "slice"
+        ],
+        "processing_state": "cured",
+        "recommended_doneness": [
+          "well-done"
+        ],
+        "scientific_name": "Sus scrofa domesticus",
+        "texture": [],
+        "typical_descriptors": []
+      },
+      "navigation": {
+        "culinary_role_ids": [],
+        "preparation_ids": [],
+        "similar_food_ids": [],
+        "substitution_ids": []
+      },
+      "projection_id": "food.protein.cured-meat.prosciutto",
+      "slug": "prosciutto",
+      "tokens": [
+        "animal",
+        "animal protein foods",
+        "boneless",
+        "cured",
+        "cured meat",
+        "leg",
+        "prosciutto",
+        "rich",
+        "slice",
+        "sus scrofa domesticus",
+        "trim",
+        "well-done"
+      ],
+      "wine_pairing": {
+        "descriptor_ids": [],
+        "style_ids": [],
+        "technique_ids": []
+      }
+    },
+    {
+      "canonical_path": "/foods/salami/",
+      "canonical_url": "https://pairingmethod.com/foods/salami/",
+      "classification": {
+        "category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        },
+        "group": {
+          "id": "food.protein.cured-meat",
+          "name": "Cured Meat",
+          "slug": "cured-meat"
+        },
+        "scientific_name": "Sus scrofa domesticus",
+        "species": ""
+      },
+      "display_name": "Salami",
+      "document_type": "protein_food",
+      "id": "food.protein.cured-meat.salami",
+      "intrinsic": {
+        "anatomical_cut": "trim",
+        "bone_state": "boneless",
+        "cut_type": "trim",
+        "fat_content": "rich",
+        "food_category": "animal",
+        "primary_cooking_methods": [
+          "slice",
+          "pan-sear"
+        ],
+        "processing_state": "cured",
+        "recommended_doneness": [
+          "well-done"
+        ],
+        "scientific_name": "Sus scrofa domesticus",
+        "texture": [],
+        "typical_descriptors": []
+      },
+      "navigation": {
+        "culinary_role_ids": [],
+        "preparation_ids": [],
+        "similar_food_ids": [],
+        "substitution_ids": []
+      },
+      "projection_id": "food.protein.cured-meat.salami",
+      "slug": "salami",
+      "tokens": [
+        "animal",
+        "animal protein foods",
+        "boneless",
+        "cured",
+        "cured meat",
+        "pan-sear",
+        "rich",
+        "salami",
+        "slice",
+        "sus scrofa domesticus",
+        "trim",
+        "well-done"
       ],
       "wine_pairing": {
         "descriptor_ids": [],
@@ -5727,9 +5927,7 @@
         "typical_descriptors": []
       },
       "navigation": {
-        "culinary_role_ids": [
-          "food.protein.legumes.kidney-beans"
-        ],
+        "culinary_role_ids": [],
         "preparation_ids": [],
         "similar_food_ids": [],
         "substitution_ids": []
@@ -5949,9 +6147,7 @@
         "typical_descriptors": []
       },
       "navigation": {
-        "culinary_role_ids": [
-          "food.protein.legumes.lentils"
-        ],
+        "culinary_role_ids": [],
         "preparation_ids": [],
         "similar_food_ids": [],
         "substitution_ids": []
@@ -6097,9 +6293,7 @@
         "typical_descriptors": []
       },
       "navigation": {
-        "culinary_role_ids": [
-          "food.protein.legumes.black-beans"
-        ],
+        "culinary_role_ids": [],
         "preparation_ids": [],
         "similar_food_ids": [],
         "substitution_ids": []
@@ -6172,9 +6366,7 @@
         "typical_descriptors": []
       },
       "navigation": {
-        "culinary_role_ids": [
-          "food.protein.legumes.chickpeas"
-        ],
+        "culinary_role_ids": [],
         "preparation_ids": [],
         "similar_food_ids": [],
         "substitution_ids": []
@@ -7921,9 +8113,7 @@
       ],
       "wine_pairing": {
         "descriptor_ids": [],
-        "style_ids": [
-          "syrah-shiraz"
-        ],
+        "style_ids": [],
         "technique_ids": []
       }
     },
@@ -7995,12 +8185,8 @@
         "whole"
       ],
       "wine_pairing": {
-        "descriptor_ids": [
-          "earthy"
-        ],
-        "style_ids": [
-          "pinot-noir"
-        ],
+        "descriptor_ids": [],
+        "style_ids": [],
         "technique_ids": []
       }
     },
@@ -12523,9 +12709,7 @@
         "culinary_role_ids": [],
         "preparation_ids": [],
         "similar_food_ids": [],
-        "substitution_ids": [
-          "food.protein.beef.ground-beef"
-        ]
+        "substitution_ids": []
       },
       "projection_id": "food.protein.soy-foods.tempeh",
       "slug": "tempeh",
@@ -12547,10 +12731,7 @@
       ],
       "wine_pairing": {
         "descriptor_ids": [],
-        "style_ids": [
-          "gewurztraminer",
-          "pinot-grigio"
-        ],
+        "style_ids": [],
         "technique_ids": []
       }
     },
@@ -12599,9 +12780,7 @@
         "culinary_role_ids": [],
         "preparation_ids": [],
         "similar_food_ids": [],
-        "substitution_ids": [
-          "food.protein.beef.ground-beef"
-        ]
+        "substitution_ids": []
       },
       "projection_id": "food.protein.soy-foods.textured-vegetable-protein",
       "slug": "textured-vegetable-protein",
@@ -12671,9 +12850,7 @@
       },
       "navigation": {
         "culinary_role_ids": [],
-        "preparation_ids": [
-          "preparation.stir-fry"
-        ],
+        "preparation_ids": [],
         "similar_food_ids": [],
         "substitution_ids": []
       },
@@ -12699,10 +12876,7 @@
       ],
       "wine_pairing": {
         "descriptor_ids": [],
-        "style_ids": [
-          "gewurztraminer",
-          "riesling"
-        ],
+        "style_ids": [],
         "technique_ids": []
       }
     },
@@ -14746,8 +14920,8 @@
     }
   ],
   "meta": {
-    "catalog_version": "2.0.0",
-    "document_count": 207,
+    "catalog_version": "2.1.0",
+    "document_count": 210,
     "document_type": "protein_food",
     "domain": "protein",
     "food_ontology_version": "1.0",

@@ -1,9 +1,9 @@
 {
   "meta": {
-    "catalog_version": "2.0.0",
+    "catalog_version": "2.1.0",
     "domain": "protein",
     "food_ontology_version": "1.0",
-    "page_count": 207,
+    "page_count": 210,
     "page_type": "protein_food",
     "phase": "ONTOLOGY-03B"
   },
@@ -1239,17 +1239,7 @@
       "projection_id": "food.protein.legumes.black-beans",
       "related_foods": {
         "common_preparations": [],
-        "culinary_role": [
-          {
-            "confidence": "high",
-            "derived_from": "editorial",
-            "href": "/foods/kidney-beans/",
-            "id": "food.protein.legumes.kidney-beans",
-            "name": "Kidney Beans",
-            "relationship": "shares_culinary_role",
-            "slug": "kidney-beans"
-          }
-        ],
+        "culinary_role": [],
         "similar_foods": [],
         "substitutions": []
       },
@@ -2911,17 +2901,7 @@
       "projection_id": "food.protein.legumes.chickpeas",
       "related_foods": {
         "common_preparations": [],
-        "culinary_role": [
-          {
-            "confidence": "high",
-            "derived_from": "editorial",
-            "href": "/foods/lentils/",
-            "id": "food.protein.legumes.lentils",
-            "name": "Lentils",
-            "relationship": "shares_culinary_role",
-            "slug": "lentils"
-          }
-        ],
+        "culinary_role": [],
         "similar_foods": [],
         "substitutions": []
       },
@@ -7372,17 +7352,7 @@
       "projection_id": "food.protein.legumes.kidney-beans",
       "related_foods": {
         "common_preparations": [],
-        "culinary_role": [
-          {
-            "confidence": "high",
-            "derived_from": "editorial",
-            "href": "/foods/black-beans/",
-            "id": "food.protein.legumes.black-beans",
-            "name": "Black Beans",
-            "relationship": "shares_culinary_role",
-            "slug": "black-beans"
-          }
-        ],
+        "culinary_role": [],
         "similar_foods": [],
         "substitutions": []
       },
@@ -8578,6 +8548,93 @@
           "label": "Foods"
         },
         {
+          "href": "/categories/animal-protein/",
+          "label": "Animal Protein Foods"
+        },
+        {
+          "href": "/groups/crustaceans/",
+          "label": "Crustaceans"
+        },
+        {
+          "href": "/foods/langoustine/",
+          "label": "Langoustine"
+        }
+      ],
+      "canonical_path": "/foods/langoustine/",
+      "characteristics": {
+        "anatomical_cut": "",
+        "bone_state": "boneless",
+        "cut_type": "whole",
+        "fat_content": "lean",
+        "food_category": "animal",
+        "primary_cooking_methods": [
+          "grill",
+          "sauté",
+          "roast"
+        ],
+        "processing_state": "fresh",
+        "recommended_doneness": [
+          "well-done"
+        ],
+        "scientific_name": "Nephrops norvegicus",
+        "species": "langoustine",
+        "texture": [],
+        "typical_descriptors": []
+      },
+      "identity": {
+        "id": "food.protein.crustaceans.langoustine",
+        "slug": "langoustine",
+        "title": "Langoustine"
+      },
+      "metadata": {
+        "canonical": "https://pairingmethod.com/foods/langoustine/",
+        "description": "Langoustine (Crustaceans) — Animal Protein Foods protein food",
+        "og_description": "Langoustine (Crustaceans) — Animal Protein Foods protein food",
+        "og_title": "Langoustine — Protein Food Guide",
+        "title": "Langoustine — Protein Food Guide"
+      },
+      "overview": {
+        "category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        },
+        "display_name": "Langoustine",
+        "group": {
+          "id": "food.protein.crustaceans",
+          "name": "Crustaceans",
+          "slug": "crustaceans"
+        },
+        "scientific_name": "Nephrops norvegicus",
+        "species": "langoustine"
+      },
+      "page_type": "protein_food",
+      "projection_id": "food.protein.crustaceans.langoustine",
+      "related_foods": {
+        "common_preparations": [],
+        "culinary_role": [],
+        "similar_foods": [],
+        "substitutions": []
+      },
+      "slug": "langoustine",
+      "wine_pairing_summary": {
+        "alternative_styles": [],
+        "descriptor_affinities": [],
+        "primary_styles": [],
+        "technique_affinities": []
+      }
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
           "href": "/categories/plant-protein/",
           "label": "Plant Protein Foods"
         },
@@ -8643,17 +8700,7 @@
       "projection_id": "food.protein.legumes.lentils",
       "related_foods": {
         "common_preparations": [],
-        "culinary_role": [
-          {
-            "confidence": "high",
-            "derived_from": "editorial",
-            "href": "/foods/chickpeas/",
-            "id": "food.protein.legumes.chickpeas",
-            "name": "Chickpeas",
-            "relationship": "shares_culinary_role",
-            "slug": "chickpeas"
-          }
-        ],
+        "culinary_role": [],
         "similar_foods": [],
         "substitutions": []
       },
@@ -12296,6 +12343,90 @@
           "label": "Foods"
         },
         {
+          "href": "/categories/animal-protein/",
+          "label": "Animal Protein Foods"
+        },
+        {
+          "href": "/groups/cured-meat/",
+          "label": "Cured Meat"
+        },
+        {
+          "href": "/foods/prosciutto/",
+          "label": "Prosciutto"
+        }
+      ],
+      "canonical_path": "/foods/prosciutto/",
+      "characteristics": {
+        "anatomical_cut": "leg",
+        "bone_state": "boneless",
+        "cut_type": "trim",
+        "fat_content": "rich",
+        "food_category": "animal",
+        "primary_cooking_methods": [
+          "slice"
+        ],
+        "processing_state": "cured",
+        "recommended_doneness": [
+          "well-done"
+        ],
+        "scientific_name": "Sus scrofa domesticus",
+        "texture": [],
+        "typical_descriptors": []
+      },
+      "identity": {
+        "id": "food.protein.cured-meat.prosciutto",
+        "slug": "prosciutto",
+        "title": "Prosciutto"
+      },
+      "metadata": {
+        "canonical": "https://pairingmethod.com/foods/prosciutto/",
+        "description": "Prosciutto (Cured Meat) — Animal Protein Foods protein food",
+        "og_description": "Prosciutto (Cured Meat) — Animal Protein Foods protein food",
+        "og_title": "Prosciutto — Protein Food Guide",
+        "title": "Prosciutto — Protein Food Guide"
+      },
+      "overview": {
+        "category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        },
+        "display_name": "Prosciutto",
+        "group": {
+          "id": "food.protein.cured-meat",
+          "name": "Cured Meat",
+          "slug": "cured-meat"
+        },
+        "scientific_name": "Sus scrofa domesticus",
+        "species": ""
+      },
+      "page_type": "protein_food",
+      "projection_id": "food.protein.cured-meat.prosciutto",
+      "related_foods": {
+        "common_preparations": [],
+        "culinary_role": [],
+        "similar_foods": [],
+        "substitutions": []
+      },
+      "slug": "prosciutto",
+      "wine_pairing_summary": {
+        "alternative_styles": [],
+        "descriptor_affinities": [],
+        "primary_styles": [],
+        "technique_affinities": []
+      }
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
           "href": "/categories/plant-protein/",
           "label": "Plant Protein Foods"
         },
@@ -13025,6 +13156,91 @@
             "slug": "cabernet-sauvignon"
           }
         ],
+        "technique_affinities": []
+      }
+    },
+    {
+      "breadcrumbs": [
+        {
+          "href": "/",
+          "label": "Home"
+        },
+        {
+          "href": "/foods/",
+          "label": "Foods"
+        },
+        {
+          "href": "/categories/animal-protein/",
+          "label": "Animal Protein Foods"
+        },
+        {
+          "href": "/groups/cured-meat/",
+          "label": "Cured Meat"
+        },
+        {
+          "href": "/foods/salami/",
+          "label": "Salami"
+        }
+      ],
+      "canonical_path": "/foods/salami/",
+      "characteristics": {
+        "anatomical_cut": "trim",
+        "bone_state": "boneless",
+        "cut_type": "trim",
+        "fat_content": "rich",
+        "food_category": "animal",
+        "primary_cooking_methods": [
+          "slice",
+          "pan-sear"
+        ],
+        "processing_state": "cured",
+        "recommended_doneness": [
+          "well-done"
+        ],
+        "scientific_name": "Sus scrofa domesticus",
+        "texture": [],
+        "typical_descriptors": []
+      },
+      "identity": {
+        "id": "food.protein.cured-meat.salami",
+        "slug": "salami",
+        "title": "Salami"
+      },
+      "metadata": {
+        "canonical": "https://pairingmethod.com/foods/salami/",
+        "description": "Salami (Cured Meat) — Animal Protein Foods protein food",
+        "og_description": "Salami (Cured Meat) — Animal Protein Foods protein food",
+        "og_title": "Salami — Protein Food Guide",
+        "title": "Salami — Protein Food Guide"
+      },
+      "overview": {
+        "category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        },
+        "display_name": "Salami",
+        "group": {
+          "id": "food.protein.cured-meat",
+          "name": "Cured Meat",
+          "slug": "cured-meat"
+        },
+        "scientific_name": "Sus scrofa domesticus",
+        "species": ""
+      },
+      "page_type": "protein_food",
+      "projection_id": "food.protein.cured-meat.salami",
+      "related_foods": {
+        "common_preparations": [],
+        "culinary_role": [],
+        "similar_foods": [],
+        "substitutions": []
+      },
+      "slug": "salami",
+      "wine_pairing_summary": {
+        "alternative_styles": [],
+        "descriptor_affinities": [],
+        "primary_styles": [],
         "technique_affinities": []
       }
     },
@@ -14011,16 +14227,42 @@
       "page_type": "protein_food",
       "projection_id": "food.protein.soy-foods.silken-tofu",
       "related_foods": {
-        "common_preparations": [],
+        "common_preparations": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "label": "stir fry",
+            "relationship": "commonly_prepared_as",
+            "target": "preparation.stir-fry"
+          }
+        ],
         "culinary_role": [],
         "similar_foods": [],
         "substitutions": []
       },
       "slug": "silken-tofu",
       "wine_pairing_summary": {
-        "alternative_styles": [],
+        "alternative_styles": [
+          {
+            "confidence": "medium",
+            "derived_from": "pairing",
+            "href": "/styles/gewurztraminer/",
+            "name": "gewurztraminer",
+            "relationship": "also_pairs_with_style",
+            "slug": "gewurztraminer"
+          }
+        ],
         "descriptor_affinities": [],
-        "primary_styles": [],
+        "primary_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "pairing",
+            "href": "/styles/riesling/",
+            "name": "riesling",
+            "relationship": "pairs_with_style",
+            "slug": "riesling"
+          }
+        ],
         "technique_affinities": []
       }
     },

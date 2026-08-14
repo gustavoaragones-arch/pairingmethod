@@ -190,6 +190,13 @@
             "title": "Crustaceans"
           },
           {
+            "href": "/groups/cured-meat/",
+            "id": "food.protein.cured-meat",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cured Meat"
+          },
+          {
             "href": "/groups/fin-fish/",
             "id": "food.protein.fin-fish",
             "relationship": "shares_category",
@@ -327,6 +334,13 @@
             "title": "Crustaceans"
           },
           {
+            "href": "/groups/cured-meat/",
+            "id": "food.protein.cured-meat",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cured Meat"
+          },
+          {
             "href": "/groups/fin-fish/",
             "id": "food.protein.fin-fish",
             "relationship": "shares_category",
@@ -406,6 +420,13 @@
             "title": "King Crab Leg"
           },
           {
+            "href": "/foods/langoustine/",
+            "id": "food.protein.crustaceans.langoustine",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Langoustine"
+          },
+          {
             "href": "/foods/lobster-tail/",
             "id": "food.protein.crustaceans.lobster-tail",
             "relationship": "group_contains",
@@ -455,6 +476,13 @@
             "relationship": "shares_category",
             "source": "ontology",
             "title": "Cephalopods"
+          },
+          {
+            "href": "/groups/cured-meat/",
+            "id": "food.protein.cured-meat",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cured Meat"
           },
           {
             "href": "/groups/fin-fish/",
@@ -508,6 +536,108 @@
         ]
       },
       "slug": "crustaceans"
+    },
+    {
+      "canonical_path": "/groups/cured-meat/",
+      "projection_id": "food.protein.cured-meat",
+      "sections": {
+        "member_foods": [
+          {
+            "href": "/foods/prosciutto/",
+            "id": "food.protein.cured-meat.prosciutto",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Prosciutto"
+          },
+          {
+            "href": "/foods/salami/",
+            "id": "food.protein.cured-meat.salami",
+            "relationship": "group_contains",
+            "source": "ontology",
+            "title": "Salami"
+          }
+        ],
+        "parent_category": {
+          "href": "/categories/animal-protein/",
+          "id": "food.protein.animal",
+          "relationship": "belongs_to_category",
+          "source": "ontology",
+          "title": "Animal Protein Foods"
+        },
+        "related_groups": [
+          {
+            "href": "/groups/beef/",
+            "id": "food.protein.beef",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Beef"
+          },
+          {
+            "href": "/groups/cephalopods/",
+            "id": "food.protein.cephalopods",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cephalopods"
+          },
+          {
+            "href": "/groups/crustaceans/",
+            "id": "food.protein.crustaceans",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Crustaceans"
+          },
+          {
+            "href": "/groups/fin-fish/",
+            "id": "food.protein.fin-fish",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Fin Fish"
+          },
+          {
+            "href": "/groups/lamb/",
+            "id": "food.protein.lamb",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Lamb"
+          },
+          {
+            "href": "/groups/mollusks/",
+            "id": "food.protein.mollusks",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Mollusks"
+          },
+          {
+            "href": "/groups/pork/",
+            "id": "food.protein.pork",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Pork"
+          },
+          {
+            "href": "/groups/poultry/",
+            "id": "food.protein.poultry",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Poultry"
+          },
+          {
+            "href": "/groups/veal/",
+            "id": "food.protein.veal",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Veal"
+          },
+          {
+            "href": "/groups/wild-game/",
+            "id": "food.protein.wild-game",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Wild Game"
+          }
+        ]
+      },
+      "slug": "cured-meat"
     },
     {
       "canonical_path": "/groups/fin-fish/",
@@ -699,6 +829,13 @@
             "title": "Crustaceans"
           },
           {
+            "href": "/groups/cured-meat/",
+            "id": "food.protein.cured-meat",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cured Meat"
+          },
+          {
             "href": "/groups/lamb/",
             "id": "food.protein.lamb",
             "relationship": "shares_category",
@@ -749,48 +886,6 @@
       "projection_id": "food.protein.grains-wheat-protein",
       "sections": {
         "member_foods": [
-          {
-            "href": "/foods/amaranth/",
-            "id": "food.protein.grains-wheat-protein.amaranth",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Amaranth"
-          },
-          {
-            "href": "/foods/barley/",
-            "id": "food.protein.grains-wheat-protein.barley",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Barley"
-          },
-          {
-            "href": "/foods/buckwheat/",
-            "id": "food.protein.grains-wheat-protein.buckwheat",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Buckwheat"
-          },
-          {
-            "href": "/foods/farro/",
-            "id": "food.protein.grains-wheat-protein.farro",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Farro"
-          },
-          {
-            "href": "/foods/oats/",
-            "id": "food.protein.grains-wheat-protein.oats",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Oats"
-          },
-          {
-            "href": "/foods/quinoa/",
-            "id": "food.protein.grains-wheat-protein.quinoa",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Quinoa"
-          },
           {
             "href": "/foods/seitan/",
             "id": "food.protein.grains-wheat-protein.seitan",
@@ -959,6 +1054,13 @@
             "title": "Crustaceans"
           },
           {
+            "href": "/groups/cured-meat/",
+            "id": "food.protein.cured-meat",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cured Meat"
+          },
+          {
             "href": "/groups/fin-fish/",
             "id": "food.protein.fin-fish",
             "relationship": "shares_category",
@@ -1008,92 +1110,7 @@
       "canonical_path": "/groups/legumes/",
       "projection_id": "food.protein.legumes",
       "sections": {
-        "member_foods": [
-          {
-            "href": "/foods/black-beans/",
-            "id": "food.protein.legumes.black-beans",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Black Beans"
-          },
-          {
-            "href": "/foods/black-lentils/",
-            "id": "food.protein.legumes.black-lentils",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Black Lentils"
-          },
-          {
-            "href": "/foods/cannellini-beans/",
-            "id": "food.protein.legumes.cannellini-beans",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Cannellini Beans"
-          },
-          {
-            "href": "/foods/chickpeas/",
-            "id": "food.protein.legumes.chickpeas",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Chickpeas"
-          },
-          {
-            "href": "/foods/green-lentils/",
-            "id": "food.protein.legumes.green-lentils",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Green Lentils"
-          },
-          {
-            "href": "/foods/kidney-beans/",
-            "id": "food.protein.legumes.kidney-beans",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Kidney Beans"
-          },
-          {
-            "href": "/foods/lentils/",
-            "id": "food.protein.legumes.lentils",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Lentils"
-          },
-          {
-            "href": "/foods/lima-beans/",
-            "id": "food.protein.legumes.lima-beans",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Lima Beans"
-          },
-          {
-            "href": "/foods/navy-beans/",
-            "id": "food.protein.legumes.navy-beans",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Navy Beans"
-          },
-          {
-            "href": "/foods/peas/",
-            "id": "food.protein.legumes.peas",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Peas"
-          },
-          {
-            "href": "/foods/pinto-beans/",
-            "id": "food.protein.legumes.pinto-beans",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Pinto Beans"
-          },
-          {
-            "href": "/foods/red-lentils/",
-            "id": "food.protein.legumes.red-lentils",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Red Lentils"
-          }
-        ],
+        "member_foods": [],
         "parent_category": {
           "href": "/categories/plant-protein/",
           "id": "food.protein.plant",
@@ -1219,6 +1236,13 @@
             "title": "Crustaceans"
           },
           {
+            "href": "/groups/cured-meat/",
+            "id": "food.protein.cured-meat",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cured Meat"
+          },
+          {
             "href": "/groups/fin-fish/",
             "id": "food.protein.fin-fish",
             "relationship": "shares_category",
@@ -1268,92 +1292,7 @@
       "canonical_path": "/groups/mushrooms/",
       "projection_id": "food.protein.mushrooms",
       "sections": {
-        "member_foods": [
-          {
-            "href": "/foods/button-mushroom/",
-            "id": "food.protein.mushrooms.button-mushroom",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Button Mushroom"
-          },
-          {
-            "href": "/foods/chanterelle/",
-            "id": "food.protein.mushrooms.chanterelle",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Chanterelle Mushroom"
-          },
-          {
-            "href": "/foods/cremini/",
-            "id": "food.protein.mushrooms.cremini",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Cremini Mushroom"
-          },
-          {
-            "href": "/foods/enoki/",
-            "id": "food.protein.mushrooms.enoki",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Enoki Mushroom"
-          },
-          {
-            "href": "/foods/king-oyster/",
-            "id": "food.protein.mushrooms.king-oyster",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "King Oyster Mushroom"
-          },
-          {
-            "href": "/foods/lions-mane/",
-            "id": "food.protein.mushrooms.lions-mane",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Lion's Mane Mushroom"
-          },
-          {
-            "href": "/foods/maitake/",
-            "id": "food.protein.mushrooms.maitake",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Maitake Mushroom"
-          },
-          {
-            "href": "/foods/morel/",
-            "id": "food.protein.mushrooms.morel",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Morel Mushroom"
-          },
-          {
-            "href": "/foods/oyster-mushroom/",
-            "id": "food.protein.mushrooms.oyster-mushroom",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Oyster Mushroom"
-          },
-          {
-            "href": "/foods/porcini/",
-            "id": "food.protein.mushrooms.porcini",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Porcini Mushroom"
-          },
-          {
-            "href": "/foods/portobello/",
-            "id": "food.protein.mushrooms.portobello",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Portobello Mushroom"
-          },
-          {
-            "href": "/foods/shiitake/",
-            "id": "food.protein.mushrooms.shiitake",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Shiitake Mushroom"
-          }
-        ],
+        "member_foods": [],
         "parent_category": {
           "href": "/categories/fungi-protein/",
           "id": "food.protein.fungi",
@@ -1437,92 +1376,7 @@
       "canonical_path": "/groups/nuts-seeds/",
       "projection_id": "food.protein.nuts-seeds",
       "sections": {
-        "member_foods": [
-          {
-            "href": "/foods/almonds/",
-            "id": "food.protein.nuts-seeds.almonds",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Almonds"
-          },
-          {
-            "href": "/foods/cashews/",
-            "id": "food.protein.nuts-seeds.cashews",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Cashews"
-          },
-          {
-            "href": "/foods/chia-seeds/",
-            "id": "food.protein.nuts-seeds.chia-seeds",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Chia Seeds"
-          },
-          {
-            "href": "/foods/flaxseed/",
-            "id": "food.protein.nuts-seeds.flaxseed",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Flaxseed"
-          },
-          {
-            "href": "/foods/hemp-seeds/",
-            "id": "food.protein.nuts-seeds.hemp-seeds",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Hemp Seeds"
-          },
-          {
-            "href": "/foods/peanuts/",
-            "id": "food.protein.nuts-seeds.peanuts",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Peanuts"
-          },
-          {
-            "href": "/foods/pine-nuts/",
-            "id": "food.protein.nuts-seeds.pine-nuts",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Pine Nuts"
-          },
-          {
-            "href": "/foods/pistachios/",
-            "id": "food.protein.nuts-seeds.pistachios",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Pistachios"
-          },
-          {
-            "href": "/foods/pumpkin-seeds/",
-            "id": "food.protein.nuts-seeds.pumpkin-seeds",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Pumpkin Seeds"
-          },
-          {
-            "href": "/foods/sesame-seeds/",
-            "id": "food.protein.nuts-seeds.sesame-seeds",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Sesame Seeds"
-          },
-          {
-            "href": "/foods/sunflower-seeds/",
-            "id": "food.protein.nuts-seeds.sunflower-seeds",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Sunflower Seeds"
-          },
-          {
-            "href": "/foods/walnuts/",
-            "id": "food.protein.nuts-seeds.walnuts",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Walnuts"
-          }
-        ],
+        "member_foods": [],
         "parent_category": {
           "href": "/categories/plant-protein/",
           "id": "food.protein.plant",
@@ -1709,6 +1563,13 @@
             "relationship": "shares_category",
             "source": "ontology",
             "title": "Crustaceans"
+          },
+          {
+            "href": "/groups/cured-meat/",
+            "id": "food.protein.cured-meat",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cured Meat"
           },
           {
             "href": "/groups/fin-fish/",
@@ -1946,6 +1807,13 @@
             "title": "Crustaceans"
           },
           {
+            "href": "/groups/cured-meat/",
+            "id": "food.protein.cured-meat",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cured Meat"
+          },
+          {
             "href": "/groups/fin-fish/",
             "id": "food.protein.fin-fish",
             "relationship": "shares_category",
@@ -1997,74 +1865,11 @@
       "sections": {
         "member_foods": [
           {
-            "href": "/foods/edamame/",
-            "id": "food.protein.soy-foods.edamame",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Edamame"
-          },
-          {
-            "href": "/foods/miso/",
-            "id": "food.protein.soy-foods.miso",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Miso"
-          },
-          {
-            "href": "/foods/natto/",
-            "id": "food.protein.soy-foods.natto",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Natto"
-          },
-          {
-            "href": "/foods/silken-tofu/",
-            "id": "food.protein.soy-foods.silken-tofu",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Silken Tofu"
-          },
-          {
-            "href": "/foods/soy-curls/",
-            "id": "food.protein.soy-foods.soy-curls",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Soy Curls"
-          },
-          {
             "href": "/foods/soy-milk/",
             "id": "food.protein.soy-foods.soy-milk",
             "relationship": "group_contains",
             "source": "ontology",
             "title": "Soy Milk"
-          },
-          {
-            "href": "/foods/soybeans/",
-            "id": "food.protein.soy-foods.soybeans",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Soybeans"
-          },
-          {
-            "href": "/foods/tempeh/",
-            "id": "food.protein.soy-foods.tempeh",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Tempeh"
-          },
-          {
-            "href": "/foods/textured-vegetable-protein/",
-            "id": "food.protein.soy-foods.textured-vegetable-protein",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Textured Vegetable Protein"
-          },
-          {
-            "href": "/foods/tofu-firm/",
-            "id": "food.protein.soy-foods.tofu-firm",
-            "relationship": "group_contains",
-            "source": "ontology",
-            "title": "Tofu (Firm)"
           }
         ],
         "parent_category": {
@@ -2190,6 +1995,13 @@
             "relationship": "shares_category",
             "source": "ontology",
             "title": "Crustaceans"
+          },
+          {
+            "href": "/groups/cured-meat/",
+            "id": "food.protein.cured-meat",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cured Meat"
           },
           {
             "href": "/groups/fin-fish/",
@@ -2420,6 +2232,13 @@
             "title": "Crustaceans"
           },
           {
+            "href": "/groups/cured-meat/",
+            "id": "food.protein.cured-meat",
+            "relationship": "shares_category",
+            "source": "ontology",
+            "title": "Cured Meat"
+          },
+          {
             "href": "/groups/fin-fish/",
             "id": "food.protein.fin-fish",
             "relationship": "shares_category",
@@ -2467,10 +2286,10 @@
     }
   ],
   "meta": {
-    "catalog_version": "2.0.0",
+    "catalog_version": "2.1.0",
     "domain": "protein",
     "food_ontology_version": "1.0",
-    "link_set_count": 16,
+    "link_set_count": 17,
     "link_set_type": "protein_group",
     "phase": "ONTOLOGY-03D"
   }

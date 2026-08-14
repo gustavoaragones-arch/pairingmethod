@@ -1,10 +1,10 @@
 {
   "meta": {
-    "catalog_version": "2.0.0",
+    "catalog_version": "2.1.0",
     "domain": "protein",
     "food_ontology_version": "1.0",
     "phase": "ONTOLOGY-03A",
-    "projection_count": 207,
+    "projection_count": 210,
     "projection_type": "protein_food"
   },
   "projections": [
@@ -2330,6 +2330,71 @@
           "name": "Crustaceans",
           "slug": "crustaceans"
         },
+        "scientific_name": "Nephrops norvegicus",
+        "species": "langoustine"
+      },
+      "editorial_context": {
+        "common_preparations": [],
+        "culinary_role": [],
+        "similar_foods": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.protein.crustaceans.langoustine",
+        "name": "Langoustine",
+        "slug": "langoustine"
+      },
+      "intrinsic": {
+        "anatomical_cut": "",
+        "bone_state": "boneless",
+        "cut_type": "whole",
+        "fat_content": "lean",
+        "food_category": "animal",
+        "primary_cooking_methods": [
+          "grill",
+          "sauté",
+          "roast"
+        ],
+        "processing_state": "fresh",
+        "recommended_doneness": [
+          "well-done"
+        ],
+        "scientific_name": "Nephrops norvegicus",
+        "species": "langoustine",
+        "texture": [],
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        },
+        "parent_group": {
+          "id": "food.protein.crustaceans",
+          "name": "Crustaceans",
+          "slug": "crustaceans"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        },
+        "group": {
+          "id": "food.protein.crustaceans",
+          "name": "Crustaceans",
+          "slug": "crustaceans"
+        },
         "scientific_name": "Homarus americanus",
         "species": "lobster"
       },
@@ -2604,6 +2669,131 @@
           "id": "food.protein.crustaceans",
           "name": "Crustaceans",
           "slug": "crustaceans"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        },
+        "group": {
+          "id": "food.protein.cured-meat",
+          "name": "Cured Meat",
+          "slug": "cured-meat"
+        },
+        "scientific_name": "Sus scrofa domesticus",
+        "species": ""
+      },
+      "editorial_context": {
+        "common_preparations": [],
+        "culinary_role": [],
+        "similar_foods": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.protein.cured-meat.prosciutto",
+        "name": "Prosciutto",
+        "slug": "prosciutto"
+      },
+      "intrinsic": {
+        "anatomical_cut": "leg",
+        "bone_state": "boneless",
+        "cut_type": "trim",
+        "fat_content": "rich",
+        "food_category": "animal",
+        "primary_cooking_methods": [
+          "slice"
+        ],
+        "processing_state": "cured",
+        "recommended_doneness": [
+          "well-done"
+        ],
+        "scientific_name": "Sus scrofa domesticus",
+        "texture": [],
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        },
+        "parent_group": {
+          "id": "food.protein.cured-meat",
+          "name": "Cured Meat",
+          "slug": "cured-meat"
+        }
+      },
+      "wine_context": {
+        "alternative_wine_styles": [],
+        "descriptors": [],
+        "primary_wine_styles": [],
+        "techniques": []
+      }
+    },
+    {
+      "classification": {
+        "category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        },
+        "group": {
+          "id": "food.protein.cured-meat",
+          "name": "Cured Meat",
+          "slug": "cured-meat"
+        },
+        "scientific_name": "Sus scrofa domesticus",
+        "species": ""
+      },
+      "editorial_context": {
+        "common_preparations": [],
+        "culinary_role": [],
+        "similar_foods": [],
+        "substitutions": []
+      },
+      "identity": {
+        "id": "food.protein.cured-meat.salami",
+        "name": "Salami",
+        "slug": "salami"
+      },
+      "intrinsic": {
+        "anatomical_cut": "trim",
+        "bone_state": "boneless",
+        "cut_type": "trim",
+        "fat_content": "rich",
+        "food_category": "animal",
+        "primary_cooking_methods": [
+          "slice",
+          "pan-sear"
+        ],
+        "processing_state": "cured",
+        "recommended_doneness": [
+          "well-done"
+        ],
+        "scientific_name": "Sus scrofa domesticus",
+        "texture": [],
+        "typical_descriptors": []
+      },
+      "structural_context": {
+        "parent_category": {
+          "id": "food.protein.animal",
+          "name": "Animal Protein Foods",
+          "slug": "animal-protein"
+        },
+        "parent_group": {
+          "id": "food.protein.cured-meat",
+          "name": "Cured Meat",
+          "slug": "cured-meat"
         }
       },
       "wine_context": {
@@ -5520,7 +5710,7 @@
             "confidence": "high",
             "derived_from": "editorial",
             "relationship": "shares_culinary_role",
-            "target": "food.protein.legumes.kidney-beans"
+            "target": "food.legume.beans.kidney-bean"
           }
         ],
         "similar_foods": [],
@@ -5725,7 +5915,7 @@
             "confidence": "high",
             "derived_from": "editorial",
             "relationship": "shares_culinary_role",
-            "target": "food.protein.legumes.lentils"
+            "target": "food.legume.lentils.green-lentil"
           }
         ],
         "similar_foods": [],
@@ -5794,7 +5984,14 @@
       },
       "editorial_context": {
         "common_preparations": [],
-        "culinary_role": [],
+        "culinary_role": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "shares_culinary_role",
+            "target": "food.legume.chickpeas.chickpea"
+          }
+        ],
         "similar_foods": [],
         "substitutions": []
       },
@@ -5865,7 +6062,7 @@
             "confidence": "high",
             "derived_from": "editorial",
             "relationship": "shares_culinary_role",
-            "target": "food.protein.legumes.black-beans"
+            "target": "food.legume.beans.black-bean"
           }
         ],
         "similar_foods": [],
@@ -5938,7 +6135,7 @@
             "confidence": "high",
             "derived_from": "editorial",
             "relationship": "shares_culinary_role",
-            "target": "food.protein.legumes.chickpeas"
+            "target": "food.legume.chickpeas.chickpea"
           }
         ],
         "similar_foods": [],
@@ -11693,7 +11890,14 @@
         "species": "soybean"
       },
       "editorial_context": {
-        "common_preparations": [],
+        "common_preparations": [
+          {
+            "confidence": "high",
+            "derived_from": "editorial",
+            "relationship": "commonly_prepared_as",
+            "target": "preparation.stir-fry"
+          }
+        ],
         "culinary_role": [],
         "similar_foods": [],
         "substitutions": []
@@ -11737,9 +11941,23 @@
         }
       },
       "wine_context": {
-        "alternative_wine_styles": [],
+        "alternative_wine_styles": [
+          {
+            "confidence": "medium",
+            "derived_from": "pairing",
+            "relationship": "also_pairs_with_style",
+            "target": "gewurztraminer"
+          }
+        ],
         "descriptors": [],
-        "primary_wine_styles": [],
+        "primary_wine_styles": [
+          {
+            "confidence": "high",
+            "derived_from": "pairing",
+            "relationship": "pairs_with_style",
+            "target": "riesling"
+          }
+        ],
         "techniques": []
       }
     },

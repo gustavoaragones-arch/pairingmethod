@@ -1,10 +1,10 @@
 {
   "meta": {
-    "catalog_version": "2.0.0",
+    "catalog_version": "2.1.0",
     "domain": "protein",
     "food_ontology_version": "1.0",
     "phase": "ONTOLOGY-03C",
-    "schema_count": 207,
+    "schema_count": 210,
     "schema_type": "protein_food"
   },
   "schemas": [
@@ -10608,6 +10608,120 @@
       "slug": "lamb-tenderloin"
     },
     {
+      "canonical_path": "/foods/langoustine/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/foods/langoustine/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/categories/animal-protein/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.animal",
+              "name": "Animal Protein Foods"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/crustaceans/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.crustaceans",
+              "name": "Crustaceans"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/langoustine/#taxon",
+              "@type": "Taxon",
+              "name": "Nephrops norvegicus"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "species",
+              "value": "langoustine"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/foods/langoustine/#breadcrumb"
+          },
+          "description": "Langoustine (Crustaceans) — Animal Protein Foods protein food",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Langoustine — Protein Food Guide",
+          "url": "https://pairingmethod.com/foods/langoustine/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/foods/langoustine/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/animal-protein/",
+              "name": "Animal Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/crustaceans/",
+              "name": "Crustaceans",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/langoustine/",
+              "name": "Langoustine",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/foods/langoustine/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "langoustine",
+          "description": "Langoustine (Crustaceans) — Animal Protein Foods protein food",
+          "identifier": "food.protein.crustaceans.langoustine",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/groups/crustaceans/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.crustaceans",
+            "name": "Crustaceans"
+          },
+          "name": "Langoustine",
+          "url": "https://pairingmethod.com/foods/langoustine/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/foods/langoustine/#taxon",
+          "@type": "Taxon",
+          "alternateName": "langoustine",
+          "name": "Nephrops norvegicus",
+          "taxonRank": "species",
+          "url": "https://pairingmethod.com/foods/langoustine/"
+        }
+      ],
+      "projection_id": "food.protein.crustaceans.langoustine",
+      "slug": "langoustine"
+    },
+    {
       "canonical_path": "/foods/lentils/",
       "json_ld": [
         {
@@ -15212,6 +15326,113 @@
       "slug": "prime-rib"
     },
     {
+      "canonical_path": "/foods/prosciutto/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/foods/prosciutto/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/categories/animal-protein/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.animal",
+              "name": "Animal Protein Foods"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/cured-meat/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.cured-meat",
+              "name": "Cured Meat"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/prosciutto/#taxon",
+              "@type": "Taxon",
+              "name": "Sus scrofa domesticus"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/foods/prosciutto/#breadcrumb"
+          },
+          "description": "Prosciutto (Cured Meat) — Animal Protein Foods protein food",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Prosciutto — Protein Food Guide",
+          "url": "https://pairingmethod.com/foods/prosciutto/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/foods/prosciutto/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/animal-protein/",
+              "name": "Animal Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/cured-meat/",
+              "name": "Cured Meat",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/prosciutto/",
+              "name": "Prosciutto",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/foods/prosciutto/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "prosciutto",
+          "description": "Prosciutto (Cured Meat) — Animal Protein Foods protein food",
+          "identifier": "food.protein.cured-meat.prosciutto",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/groups/cured-meat/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.cured-meat",
+            "name": "Cured Meat"
+          },
+          "name": "Prosciutto",
+          "url": "https://pairingmethod.com/foods/prosciutto/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/foods/prosciutto/#taxon",
+          "@type": "Taxon",
+          "name": "Sus scrofa domesticus",
+          "url": "https://pairingmethod.com/foods/prosciutto/"
+        }
+      ],
+      "projection_id": "food.protein.cured-meat.prosciutto",
+      "slug": "prosciutto"
+    },
+    {
       "canonical_path": "/foods/pumpkin-seeds/",
       "json_ld": [
         {
@@ -16115,6 +16336,113 @@
       ],
       "projection_id": "food.protein.beef.ribeye",
       "slug": "ribeye"
+    },
+    {
+      "canonical_path": "/foods/salami/",
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/foods/salami/#webpage",
+          "@type": "WebPage",
+          "about": [
+            {
+              "@id": "https://pairingmethod.com/categories/animal-protein/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.animal",
+              "name": "Animal Protein Foods"
+            },
+            {
+              "@id": "https://pairingmethod.com/groups/cured-meat/#definedtermset",
+              "@type": "DefinedTermSet",
+              "identifier": "food.protein.cured-meat",
+              "name": "Cured Meat"
+            },
+            {
+              "@id": "https://pairingmethod.com/foods/salami/#taxon",
+              "@type": "Taxon",
+              "name": "Sus scrofa domesticus"
+            }
+          ],
+          "breadcrumb": {
+            "@id": "https://pairingmethod.com/foods/salami/#breadcrumb"
+          },
+          "description": "Salami (Cured Meat) — Animal Protein Foods protein food",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Pairing Method",
+            "url": "https://pairingmethod.com/"
+          },
+          "name": "Salami — Protein Food Guide",
+          "url": "https://pairingmethod.com/foods/salami/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/foods/salami/#breadcrumb",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/",
+              "name": "Home",
+              "position": 1
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/",
+              "name": "Foods",
+              "position": 2
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/categories/animal-protein/",
+              "name": "Animal Protein Foods",
+              "position": 3
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/groups/cured-meat/",
+              "name": "Cured Meat",
+              "position": 4
+            },
+            {
+              "@type": "ListItem",
+              "item": "https://pairingmethod.com/foods/salami/",
+              "name": "Salami",
+              "position": 5
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/foods/salami/#definedterm",
+          "@type": "DefinedTerm",
+          "alternateName": "salami",
+          "description": "Salami (Cured Meat) — Animal Protein Foods protein food",
+          "identifier": "food.protein.cured-meat.salami",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "name": "Pairing Method Food Ontology",
+            "url": "https://pairingmethod.com/"
+          },
+          "isPartOf": {
+            "@id": "https://pairingmethod.com/groups/cured-meat/#definedtermset",
+            "@type": "DefinedTermSet",
+            "identifier": "food.protein.cured-meat",
+            "name": "Cured Meat"
+          },
+          "name": "Salami",
+          "url": "https://pairingmethod.com/foods/salami/"
+        },
+        {
+          "@context": "https://schema.org",
+          "@id": "https://pairingmethod.com/foods/salami/#taxon",
+          "@type": "Taxon",
+          "name": "Sus scrofa domesticus",
+          "url": "https://pairingmethod.com/foods/salami/"
+        }
+      ],
+      "projection_id": "food.protein.cured-meat.salami",
+      "slug": "salami"
     },
     {
       "canonical_path": "/foods/salmon-fillet/",
