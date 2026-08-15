@@ -36,7 +36,9 @@ This process also corrected a real error in the two prior audits (AQ-01, AQ-01R)
 
 A real breadth-first crawl of the live site, starting from `/ingredients/` and `/` and following only hrefs actually present in the HTML, found 51 genuinely orphaned pages — every protein-domain entity marked deprecated in favor of a canonical page elsewhere. Their parent group's own runtime member list is correctly empty (they've migrated), which left the deprecated HTML pages published but linked from nowhere. This is now resolved: all 51 already carried a `canonical_publication_path` in their catalog record, so a registry-driven redirect generator (`lib/food-publication/redirect-registry.js`) produces the missing `_redirects` entries directly from that field. **Orphan count: 51 → 0.**
 
-A knowledge-integrity scan (detection only — publication never edits a catalog) found 213 genuine findings: 204 cheese entities whose `scientific_name` field holds their source milk animal's binomial rather than a valid designation for the cheese itself (the confirmed AQ-01 finding, now measured as a full census), and 9 winter-squash-family vegetables filed under a root-vegetables group despite being botanically fruit-vegetables — generalizing the single chayote example from AQ-01/AQ-01R into a full systemic pattern. Neither was fixed here; both are catalog-layer findings for a future editorial pass, correctly out of scope for a publication-integrity phase.
+A knowledge-integrity scan (detection only — publication never edits a catalog) found 213 findings: 204 cheese entities whose `scientific_name` field holds their source milk animal's binomial rather than a valid designation for the cheese itself (the confirmed AQ-01 finding, now measured as a full census), and 9 winter-squash-family vegetables filed under a root-vegetables group despite being botanically fruit-vegetables — generalizing the single chayote example from AQ-01/AQ-01R into a full systemic pattern.
+
+**Retracted 2026-08-14 (see `reports/aq-03-retraction-notice.md`):** Both findings above were disproven by AQ-03's governance-aware re-verification. `docs/CHEESE_GOVERNANCE.md` §5 documents `scientific_name` as milk-source-only for cheese by design — all 204 entities conform exactly, 0 mismatches. `docs/VEGETABLE_GOVERNANCE.md` names the group "Root Vegetables & Squash" and states squash belongs there explicitly — all 9 entities conform, 0 deviations. Neither was ever a defect; this was a detection-rule error (checking against a generic external expectation instead of this project's own governance), the same failure mode as the AQ-01/AQ-01R bearnaise error below. See `reports/catalog-scientific-identity-audit.json` and `reports/catalog-taxonomy-audit.json` for the replacement, governance-aware findings.
 
 **Verified:** see `reports/internal-link-certification.json` and `reports/publication-integrity-certification.json`.
 
@@ -59,7 +61,7 @@ Eight reusable modules, all registry-driven off `food-domain-config.js`'s `publi
 
 ## Remaining issues (not in scope for AQ-02B, carried forward)
 
-- 204 cheese `scientific_name` mislabels and 9 vegetable taxonomy-drift findings — catalog-layer, need an editorial pass, not a publication fix.
+- ~~204 cheese `scientific_name` mislabels and 9 vegetable taxonomy-drift findings — catalog-layer, need an editorial pass, not a publication fix.~~ **Retracted 2026-08-14** — both disproven by AQ-03; see `reports/aq-03-retraction-notice.md`.
 - The legacy `npm run generate:sitemap` script would corrupt the new sitemapindex if ever run — flagged, not removed (unrelated legacy tooling, out of scope).
 - Cheese domain remains unpublished to root — a go-live decision, not an engineering gap; everything needed is staged.
 - `seo_description` still isn't wired into the `<meta>` description tag (an AQ-01R Priority 4 item, unaddressed by AQ-02B's scope).

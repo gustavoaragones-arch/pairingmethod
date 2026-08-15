@@ -20,7 +20,7 @@
 
 **Templated/boilerplate language in the wine-education tier (unchanged).** The "Why this category matters" noun-swap template and the literal "is the best if the dish is smoky for X" leftover-template phrase are both still live, re-confirmed verbatim. This remains the single most detector-visible AI-content signature on the site — but it's now the *only* one; the food-ontology tier's equivalent issue (near-identical structure, zero unique content) was resolved by AQ-02A.
 
-**Two catalog-layer accuracy findings, now fully documented rather than sampled.** 204 cheese entities carry a mislabeled `scientific_name` (not live — cheese remains unpublished) and 9 winter-squash-family vegetables are taxonomically misfiled. Neither is a publication-layer defect; both need an editorial pass on the underlying catalog, which was correctly out of scope for both AQ-02A and AQ-02B.
+**Two catalog-layer accuracy findings — retracted 2026-08-14.** This report previously stated that 204 cheese entities carry a mislabeled `scientific_name` and 9 winter-squash-family vegetables are taxonomically misfiled. Both were disproven by AQ-03's governance-aware re-verification: `docs/CHEESE_GOVERNANCE.md` §5 documents `scientific_name` as milk-source-only for cheese by design (0/204 mismatches), and `docs/VEGETABLE_GOVERNANCE.md` names the group "Root Vegetables & Squash" and places squash there explicitly (0/9 deviations). Neither is a defect; no editorial pass is needed on either. See `reports/aq-03-retraction-notice.md`.
 
 **`seo_description` still isn't wired into `<meta>` description tags.** Unaddressed across all three measurements.
 

@@ -2,6 +2,10 @@
   "phase": "AQ-02B4",
   "title": "Publication Integrity — Certification",
   "date": "2026-08-14",
+  "retraction_2026_08_14": {
+    "finding": "This report's knowledge_integrity block below asserted 204 cheese scientific_name mislabels and 9 squash-family taxonomy-drift entries as genuine catalog defects.",
+    "correction": "Both were disproven by AQ-03 against the project's own governance. docs/CHEESE_GOVERNANCE.md §5 documents scientific_name as milk-source-only for cheese by design (verified: 0/204 mismatches against the governed 4-entry table). docs/VEGETABLE_GOVERNANCE.md names the group \"Root Vegetables & Squash\" and states squash belongs there explicitly (verified: 0/9 deviations). Neither is a defect. See reports/aq-03-retraction-notice.md for full detail and reports/catalog-scientific-identity-audit.json / reports/catalog-taxonomy-audit.json for the governance-aware re-verification that replaces these findings. The two findings below are retained for historical record only and should not be treated as current."
+  },
   "knowledge_integrity": {
     "total_findings": 213,
     "by_type": {

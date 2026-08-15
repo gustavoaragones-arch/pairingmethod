@@ -36,16 +36,17 @@
     },
     "AQ-02B4": {
       "title": "Internal Linking + Publication Integrity",
-      "commit": "PENDING",
+      "commit": "b08ace7",
       "result": "PASS",
       "highlights": [
         "Whole-site reachability crawl found 51 genuinely orphaned pages (protein deprecated entities) - fixed via registry-driven redirects to their canonical replacements",
         "0 orphan pages after fix (was 51)",
-        "213 knowledge-integrity findings surfaced (204 cheese scientific_name mislabels, 9 squash-family taxonomy drift) - detection only, not fixed, per Rule 4",
+        "213 knowledge-integrity findings surfaced (204 cheese scientific_name mislabels, 9 squash-family taxonomy drift) - detection only, not fixed, per Rule 4 [RETRACTED 2026-08-14, see below]",
         "43 false-positive findings (beef cuts) caught and corrected before reporting"
       ]
     }
   },
+  "retraction_2026_08_14": "The AQ-02B4 knowledge-integrity findings (204 cheese scientific_name mislabels, 9 squash-family taxonomy drift) were both disproven by AQ-03's governance-aware re-verification: cheese's scientific_name is documented milk-source-only by docs/CHEESE_GOVERNANCE.md §5 (0/204 mismatches against the governed table), and squash's root-vegetables placement is explicit, intentional grouping per docs/VEGETABLE_GOVERNANCE.md (0/9 deviations). See reports/aq-03-retraction-notice.md for full detail. This does not affect AQ-02B4's actual deliverables (redirect registry, reachability crawl, orphan-page fix), which remain valid and unaffected.",
   "platform_infrastructure_added": [
     "lib/food-publication/navigation-registry.js \u2014 NavigationRegistry",
     "lib/food-publication/hub.js \u2014 domain hub generator",

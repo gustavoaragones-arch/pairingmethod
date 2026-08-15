@@ -33,7 +33,7 @@ Every score below was re-derived by directly checking the live file tree and re-
 - The wine-education tier's templated language (the "Why this category matters" noun-swap sentence, the leftover "is the best if the dish is smoky for X" phrase) — untouched, re-confirmed.
 - Dead "View Bottle" links and unexplained "Pairing Strength: XX%" scores on dish pages — untouched.
 - `seo_description` still isn't wired into the `<meta>` description tag.
-- Catalog-layer accuracy issues are now *better documented*, not fixed (correctly, per Rule 4 — publication doesn't edit a catalog): 204 cheese entities' scientific-name mislabeling is now measured as a full census rather than a sample (still not live; cheese remains unpublished), and the single chayote taxonomy-drift example is now confirmed as a 9-entity systemic pattern across the whole winter-squash family.
+- Catalog-layer accuracy: the two findings previously reported here (204 cheese entities' "scientific-name mislabeling," a 9-entity squash "taxonomy-drift" pattern) are **retracted as of 2026-08-14**. AQ-03's governance-aware re-verification found both were checked against a generic external expectation rather than this project's own documented governance (`docs/CHEESE_GOVERNANCE.md` §5, `docs/VEGETABLE_GOVERNANCE.md`), which had already made — and recorded — the opposite, intentional decision in both cases. 0/204 and 0/9 deviations from governance, respectively. See `reports/aq-03-retraction-notice.md`.
 
 ## 3. What a manual reviewer would experience now
 
