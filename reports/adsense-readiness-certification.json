@@ -1,0 +1,109 @@
+{
+  "phase": "AQ-06G",
+  "title": "Remaining Risks + Readiness Certification",
+  "date": "2026-08-15",
+  "methodology": "Every item below references either a specific Google policy (verified fresh, AQ-06A/AQ-05C) or a previously-certified finding from this audit chain — nothing speculative, per the ticket's own instruction.",
+  "risk_register": [
+    {
+      "id": "AQ06-HC-01",
+      "category": "quality_concern",
+      "severity": "high",
+      "title": "Templated/jargon-leaking prose across 4 domains (328 leaf + 56 group + 10 category entities)",
+      "reference": "reports/helpful-content-review.json; confirmed firsthand in reports/reviewer-simulation.md",
+      "policy_basis": "Not a policy violation (reports/adsense-policy-review.json) — a Helpful Content / originality quality concern per Google's current Helpful Content guidance (verified AQ-05D).",
+      "action_available_in_this_ticket": "None — summary/seo_description are catalog fields, explicitly excluded from modification under AQ-06's regression rules regardless of policy justification.",
+      "recommended_owner": "A future, scoped catalog/editorial ticket."
+    },
+    {
+      "id": "AQ06-TR-01",
+      "category": "quality_concern",
+      "severity": "medium",
+      "title": "Named-author claim exists only in JSON-LD, invisible to human readers",
+      "reference": "reports/trust-review.json",
+      "policy_basis": "Not a policy violation — a true claim that is under-surfaced, not a false one.",
+      "action_available_in_this_ticket": "None — fixing requires a publication-layer/content change (surfacing the sentence as visible About-page text), which is outside AQ-06's review-only mandate even though it would be simple to do.",
+      "recommended_owner": "A future, small publication content update."
+    },
+    {
+      "id": "AQ06-AD-01",
+      "category": "recommendation",
+      "severity": "medium",
+      "title": "No cookie-consent mechanism for future personalized-ads compliance",
+      "reference": "reports/ad-placement-readiness.json",
+      "policy_basis": "Not a current violation (no ads live) — a prerequisite for compliant personalized-ads serving in consent-regulated regions once ads go live.",
+      "recommended_owner": "Pre-monetization technical work, before enabling ads."
+    },
+    {
+      "id": "AQ06-PRIOR-01",
+      "category": "quality_concern",
+      "severity": "low",
+      "title": "4 dead 'View Bottle' links on Template A dish pages",
+      "reference": "reports/site-quality-review.json, reports/reviewer-simulation.md; originally AQ-01",
+      "policy_basis": "Not a policy violation — a UX defect, confirmed still present.",
+      "recommended_owner": "A quick publication fix, previously scoped in reports/content-quality-audit/recommended-improvements.md."
+    },
+    {
+      "id": "AQ06-PRIOR-02",
+      "category": "quality_concern",
+      "severity": "low",
+      "title": "Unexplained 'Pairing Strength: XX%' confidence scores",
+      "reference": "reports/site-quality-review.json, reports/reviewer-simulation.md; originally AQ-01",
+      "policy_basis": "Not a policy violation — a clarity/trust concern (an unexplained number can read as unsubstantiated to a skeptical reader).",
+      "recommended_owner": "A publication fix (add methodology explanation or remove), previously scoped."
+    },
+    {
+      "id": "AQ06-PRIOR-03",
+      "category": "recommendation",
+      "severity": "low",
+      "title": "Wine-education-tier templated language (category-hub noun-swap sentence)",
+      "reference": "reports/site-quality-review.json; originally AQ-01, carried through every subsequent audit",
+      "policy_basis": "Not a policy violation — the same class of concern as AQ06-HC-01, smaller in scope.",
+      "recommended_owner": "A future editorial pass."
+    },
+    {
+      "id": "AQ06-TR-02",
+      "category": "nice_to_have",
+      "severity": "low",
+      "title": "No food-safety/allergen disclaimer",
+      "reference": "reports/trust-review.json",
+      "policy_basis": "No specific Google requirement for this — a reasonable care signal for the content category, not a compliance gap.",
+      "recommended_owner": "A future disclaimer content addition."
+    },
+    {
+      "id": "AQ06-TR-03",
+      "category": "nice_to_have",
+      "severity": "informational",
+      "title": "Legal pages read as generic multi-product boilerplate rather than site-specific",
+      "reference": "reports/trust-review.json",
+      "policy_basis": "Legitimate, common practice for a small operator — not a defect.",
+      "recommended_owner": "Optional future polish."
+    },
+    {
+      "id": "AQ06-AD-02",
+      "category": "informational",
+      "severity": "informational",
+      "title": "Mobile usability and Core Web Vitals not independently measured",
+      "reference": "reports/ad-placement-readiness.json",
+      "policy_basis": "Outside AQ-06's structured-review scope — flagged honestly rather than assumed clean or assumed broken.",
+      "recommended_owner": "A future, distinct performance audit."
+    }
+  ],
+  "severity_summary": {
+    "critical": 0,
+    "high": 1,
+    "medium": 2,
+    "low": 4,
+    "informational": 2,
+    "future_improvement": 0
+  },
+  "policy_violations": 0,
+  "potential_policy_violations": 0,
+  "quality_concerns": 5,
+  "recommendations": 2,
+  "nice_to_haves": 2,
+  "would_a_manual_reviewer_likely_approve": {
+    "answer": "Likely yes, with one significant risk factor worth disclosing rather than omitting",
+    "reasoning": "0 policy violations across every category Google's Program Policies and Publisher Policies cover (AQ-06A). Real, verifiable business identity and trust infrastructure (AQ-06C). No broken/spam/placeholder-content site-quality issues (AQ-06E). The one high-severity finding (AQ06-HC-01) is a genuine, quantified risk to a favorable holistic impression (Rule 2) — a reviewer whose sampling happens to land disproportionately in the 4 affected domains could form a more negative impression than the site as a whole deserves — but it is not a policy violation, not spam, and not evidence of a low-effort or deceptive site. The overall body of work (majority-strong ingredient content, genuinely expert wine-education core, working navigation/search, real trust signals) supports likely approval, with the templated-content pattern as the clearest, most concrete thing that could cause a rejection or a request for changes if encountered."
+  },
+  "overall_certification": "PASS — no policy violations found. See reports/aq-06-final-certification.md for the full readiness verdict and severity-ranked recommendation."
+}
