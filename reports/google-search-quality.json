@@ -1,0 +1,56 @@
+{
+  "phase": "AQ-05D",
+  "title": "Search Quality Review",
+  "date": "2026-08-15",
+  "methodology_note": "Google's Helpful Content guidance was verified fresh in this session (not carried forward from AQ-01): as of the current documentation, 'Helpful Content System' is no longer a standalone, separately-named ranking update — its signals were folded into Google's core ranking systems. E-E-A-T remains Google's current terminology. Source: https://developers.google.com/search/docs/fundamentals/creating-helpful-content. This review reuses AQ-01/AQ-01R/AQ-01R2's verified E-E-A-T and Helpful Content scores as its evidentiary baseline (re-deriving them from scratch here would be a re-estimate, the exact discipline this audit chain has repeatedly held itself to) and applies two lenses AQ-01 never assessed: internal competition between pages, and Google's current self-assessment framing specifically.",
+  "baseline_scores_reused": {
+    "source": "reports/content-quality-audit/overall-score.json",
+    "helpful_content": 58,
+    "eeat_signals": "66 (documented as a slight undercount pending a formal AQ-01R3 rerun — see reports/aq-03-retraction-notice.md)",
+    "entity_quality": "66 (same undercount caveat)",
+    "overall_score": 66,
+    "overall_tier": "Silver",
+    "note": "Not recomputed here — see methodology_note."
+  },
+  "google_self_assessment_framing_applied": {
+    "content_quality": {
+      "question": "Does the content provide original information, substantial value, and avoid being created primarily to attract search visits?",
+      "assessment": "Satisfies for the food-ontology tier post-AQ-02A: every leaf/group/category page opens with authored, non-templated narrative prose (1,252/1,252, TC-01 RESOLVED) and now carries an authored, entity-specific description in both the meta tag and JSON-LD (AQ-04B). Does not yet fully satisfy for the wine-education tier: the 'Why this category matters' noun-swap sentence and a leftover unedited template variable ('is the best if the dish is smoky for X') remain live and unresolved since AQ-01 — the single clearest content-quality gap left on the site, carried across every audit in this chain without remediation."
+    },
+    "expertise": {
+      "question": "Is authorship clear and verifiable, with evidence of the expertise involved?",
+      "assessment": "Organization schema (index.html, about.html) names the real operating entity (Albor Digital LLC) and the homepage's FAQPage content directly states 'Content is authored by Gustavo Aragones for Pairing Method, with chef-forward, educational intent' — a real, specific authorship claim, not a generic disclaimer. This is a genuine expertise signal Google's guidance explicitly asks for. Individual entity pages do not carry per-page byline/author markup — reasonable for a reference-work format (an encyclopedia entry doesn't need a byline the way a blog post does), consistent with Article schema correctly not being claimed for this content type (AQ-05C)."
+    },
+    "people_first_focus": {
+      "question": "Would someone leave this page feeling they'd learned enough to achieve their goal?",
+      "assessment": "For a food-entity page: yes, on the evidence available — a reader lands on genuine narrative (what the ingredient is, how it's used, wine pairing guidance, a beginner-friendly FAQ) before hitting any structured data table, per AQ-02A's explicit narrative-first architecture rule. For a dish-pairing page: partially — the pairing-matrix confidence scores ('Pairing Strength: 95%') remain unexplained (an AQ-01 Priority 3 finding, still open), which risks a reader trusting or dismissing a number they can't interpret."
+    }
+  },
+  "internal_competition_analysis": {
+    "framing": "New lens AQ-01 did not apply: do multiple pages target the same search intent closely enough that they could cannibalize each other's ranking rather than both ranking well independently?",
+    "candidates_reviewed": "The 8 unresolved canonical-identity variety-pairs from AQ-03 (reports/catalog-canonical-identity.json bucket C) are the site's only structurally-flagged candidates for this risk — pairs of entities sharing a common alternate name, which is exactly the shape of potential search-intent overlap.",
+    "spot_check_evidence": "Sampled mandarin/clementine and lime/key-lime seo_description text directly: all four are specific, differentiated, non-templated (e.g., mandarin's is built around 'loose-skinned... salads, duck, holiday desserts'; clementine's around 'seedless winter citrus... honeyed sweetness... snacking'). This is not duplicate content by any measure — a search-quality evaluator would not flag these as near-duplicate pages.",
+    "conclusion": "Differentiated content substantially reduces (but doesn't fully resolve) internal-competition risk for these 8 pairs. The residual question is not a content-quality defect but the same open editorial/canonical-identity question AQ-03 already surfaced and deliberately left unresolved: are these the same searchable concept users would expect one answer for, or genuinely distinct entities? This review adds evidence relevant to that future decision without making it — consistent with AQ-03's own discipline of not resolving culinary/botanical judgment calls by assumption.",
+    "pages_needing_consolidation": "None identified with confidence. The 8 pairs above are candidates for a future review, not confirmed consolidation targets — their content is differentiated enough that consolidation is not obviously correct, and un-consolidating a wrongly-merged concept is harder than merging a wrongly-split one, so this review does not recommend action either way."
+  },
+  "entity_clarity": {
+    "assessment": "Strong, on verified evidence: 0 duplicate canonical IDs across 1,166 entities (AQ-03), 0 duplicate canonical URLs across all published domains (AQ-05A), every DefinedTerm/DefinedTermSet identifier traces exactly to its catalog canonical id with 0 mismatches (AQ-04C). A search engine building an entity graph from this site has a clean, unambiguous 1:1 mapping between URL and concept for every published page except the 8 variety-pair candidates noted above."
+  },
+  "internal_linking_assessment": {
+    "assessment": "Reused from verified evidence, not re-measured: 0 orphaned pages (AQ-02B4, reconfirmed AQ-05A), 0 unsupported relationships across 4,140 checked (AQ-02B3), every page reachable through 3 independent discovery paths (AQ-05B). From a search-quality perspective this matters because internal links are one of Google's own signals for understanding page importance and topical relationships within a site — a site with verified-complete internal linking gives Google a clean signal to work with, not a noisy or incomplete one."
+  },
+  "search_intent_assessment": {
+    "informational_intent": "Well-served — every entity page answers 'what is X' before anything else, per the narrative-first architecture (AQ-02A).",
+    "comparative_pairing_intent": "Served for wine pairing (every entity carries pairing guidance) but the confidence-score presentation (unexplained percentages) may frustrate a reader trying to use the number, not just read prose around it — an open, previously-identified gap (AQ-01 Priority 3), not new to this review.",
+    "navigational_intent": "Well-served — domain hubs, /ingredients/ directory, and site search all independently verified complete (AQ-02B, AQ-05B)."
+  },
+  "pages_that_satisfy": [
+    "Food-ontology leaf/group/category pages post-AQ-02A/AQ-04B — authored narrative, accurate structured data, specific non-templated descriptions.",
+    "The homepage — real Organization/authorship claims, a working (if now SERP-inert) FAQ section with genuine content."
+  ],
+  "pages_that_disappoint": [
+    "Wine-education tier category hub pages carrying the noun-swap template sentence — the single most detector-visible template signature left on the site, unresolved since AQ-01.",
+    "Dish-pairing pages with unexplained 'Pairing Strength: XX%' scores and (per AQ-01R, still open) dead 'View Bottle' links."
+  ],
+  "overall_certification": "PASS with 2 pre-existing, previously-documented open items carried forward (wine-tier templating, unexplained pairing scores) — neither newly discovered by this review, both already scoped in reports/content-quality-audit/recommended-improvements.md and explicitly out of AQ-05's scope (AQ-05 does not redesign publication)."
+}

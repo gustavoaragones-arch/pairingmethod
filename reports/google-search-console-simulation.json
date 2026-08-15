@@ -1,0 +1,48 @@
+{
+  "phase": "AQ-05E",
+  "title": "Search Console Simulation",
+  "date": "2026-08-15",
+  "disclaimer": "This is a simulation based on the site's actual technical state (verified in AQ-05A/B/C), not observed Google Search Console data. PairingMethod has no Search Console property connected to this audit process. Every claim below is labeled by confidence tier; nothing here should be read as an actual GSC report.",
+  "confidence_tiers_explained": {
+    "high_confidence": "Directly determined by verified technical facts (crawlability, indexability, canonicalization all independently checked in AQ-05A/B) with no Google-side editorial judgment involved.",
+    "medium_confidence": "Plausible based on verified technical facts, but the actual outcome depends partly on a Google-side judgment call (content value, quality scoring) this audit cannot fully predict.",
+    "speculative": "Depends on factors this audit has no visibility into at all (backlink profile, domain authority, actual crawl frequency, competitive landscape, real user click behavior)."
+  },
+  "coverage_report_simulation": {
+    "confidence": "high",
+    "prediction": "All 1,038 published leaf/group/category URLs plus 10 hub pages and /ingredients/ (1,049 total) would show status 'Indexed, not submitted in sitemap' initially becoming 'Submitted and indexed' once crawled, absent any Google-side quality judgment excluding specific pages.",
+    "basis": "0 orphans, 100% sitemap coverage, 0 noindex directives, 0 canonical mismatches — every technical prerequisite for indexing is verified clean (AQ-05A, AQ-05B)."
+  },
+  "duplicate_content_simulation": {
+    "confidence": "high_for_technical_duplicates | medium_for_the_8_variety_pairs",
+    "prediction_technical": "'Duplicate without user-selected canonical' and 'Duplicate, Google chose different canonical than user' — both predicted absent. Every page emits a self-referential, globally-unique canonical URL (AQ-05A: 1,038/1,038 self-consistent, 0 duplicates).",
+    "prediction_editorial": "The 8 AQ-03 canonical-identity variety-pairs (mandarin/clementine, etc.) are technically distinct URLs with differentiated content (AQ-05D spot-check) — Google is unlikely to flag these as duplicate URLs, since duplicate-content detection operates on content similarity, and these pages are not near-duplicates. Medium confidence this holds, since Google's actual similarity threshold is not published."
+  },
+  "canonical_conflicts_simulation": {
+    "confidence": "high",
+    "prediction": "No 'Alternate page with proper canonical tag' or canonical-conflict issues predicted. Every canonical tag is self-referential and matches the page's own served URL exactly (AQ-05A canonical_urls audit, 1,038/1,038 self-consistent)."
+  },
+  "redirect_issues_simulation": {
+    "confidence": "high",
+    "prediction": "51 URLs would show 'Page with redirect' in the Pages report — expected and correct, these are the deliberate 301s for migrated protein entities (AQ-02B4). 0 redirect chains or loops predicted (AQ-05A: 0/51 rules involved in a chain or loop) — each of these 51 is a single, clean hop."
+  },
+  "discovery_gaps_simulation": {
+    "confidence": "medium",
+    "prediction": "No discovery gaps predicted for any currently-published page (3 independent discovery paths verified per page, AQ-05B). The unpublished cheese domain is, correctly, undiscoverable — it is absent from the live root tree entirely (not merely unlinked), so it would not appear in Search Console at all under the current state. If cheese is promoted to root without also being added to the sitemap and navigation in the same step, that would reopen a discovery gap — flagged as a process risk for a future go-live decision, not a current defect."
+  },
+  "unlinked_pages_simulation": {
+    "confidence": "high",
+    "prediction": "0 unlinked/orphaned published pages predicted — directly verified by the AQ-02B4 BFS reachability crawl, reconfirmed in AQ-05A after AQ-04B's full site regeneration (0 orphans, 0 broken links encountered during crawl)."
+  },
+  "indexing_inconsistencies_simulation": {
+    "confidence": "medium",
+    "prediction": "'Crawled - currently not indexed' is possible for a small number of pages purely as a Google-side quality/value judgment (this status is not caused by any technical defect and cannot be ruled out by a technical audit) — if it occurs anywhere, the 8 variety-pair candidates are the most plausible candidates, since they are the pages most likely to read as offering incremental rather than singular value relative to a sibling page. This is a prediction about Google's judgment, not a finding about the site."
+  },
+  "not_assessed_explicitly": {
+    "core_web_vitals_page_experience": "Not measured in this audit — no Lighthouse/PageSpeed run was performed. AQ-05's scope is search quality and structured data, not page-performance auditing. Stating a prediction here would be exactly the kind of unfounded claim Rule 1 prohibits.",
+    "mobile_usability": "Not assessed — no rendered-viewport testing was performed in this ticket.",
+    "manual_actions_security_issues": "No basis to predict either way — these require Google's own detection systems (malware scanning, spam policy violations) this audit cannot simulate.",
+    "actual_click_through_rate_and_ranking_position": "Entirely speculative territory (backlink profile, domain authority, competitive landscape, query-level relevance) — explicitly out of scope, not estimated."
+  },
+  "overall_note": "Every high-confidence prediction above traces to a specific, already-verified technical fact from AQ-05A or AQ-05B — this simulation adds no new claims, only reframes existing verified evidence in Search-Console-report terms. The only genuinely new judgment calls are the medium-confidence items, both flagged as depending on Google's own editorial/quality scoring rather than anything measurable from the repository."
+}

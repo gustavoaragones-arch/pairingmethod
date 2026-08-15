@@ -1,0 +1,34 @@
+{
+  "phase": "AQ-05G",
+  "title": "AI Search Readiness",
+  "date": "2026-08-15",
+  "headline_finding": "Google's own current documentation states there are no special requirements to appear in AI Overviews or AI Mode beyond being indexed and eligible for regular Google Search: 'There are no additional requirements to appear in AI Overviews or AI Mode, nor other special optimizations necessary... You don't need to create new machine readable files, AI text files, or markup to appear in these features.' This is the single most important, and most rule-1-compliant, fact this phase can report: AI-search readiness for this site is not a separate certification from AQ-05A/B/C — it is exactly the same certification, viewed through a different lens. Any AI-specific 'optimization' beyond what AQ-05A-C already certified would be speculative, unfounded work Google explicitly says isn't needed.",
+  "source": "https://developers.google.com/search/docs/appearance/ai-features (fetched fresh this session)",
+  "what_google_says_actually_matters": {
+    "crawling_via_robots_txt": "Certified clean, AQ-05A — global Allow, correct Sitemap directive.",
+    "internal_linking_structure": "Certified clean, AQ-05A/AQ-02B4 — 0 orphans, verified reachability.",
+    "text_based_content_availability": "Strong — every entity page opens with authored narrative prose before any structured data (AQ-02A's narrative-first rule), meaning the actual answerable text a model would extract is present and prioritized in the DOM, not buried after a data table.",
+    "accurate_structured_data": "Certified clean, AQ-04 + AQ-05C — 0 validation issues, 0 ontology-mapping issues, the one identified misrepresentation (cheese Taxon) already corrected.",
+    "page_experience_quality": "Not assessed in this audit (no Core Web Vitals/Lighthouse run — see reports/google-search-console-simulation.json's not_assessed_explicitly section). This is the one item in Google's own list this audit cannot speak to."
+  },
+  "entity_extraction": {
+    "assessment": "Favorable. Every entity page has a single, unambiguous canonical identity (DefinedTerm with a governance-verified catalog id, AQ-04C), a clean breadcrumb hierarchy establishing category membership, and — as of AQ-04B — an authored, specific, non-templated description that states what the entity actually is in one sentence. An extraction system (AI Overview generation, or any LLM-based retrieval) has a clear, single answer to 'what is this page about' rather than a generic template string to work from."
+  },
+  "semantic_consistency": {
+    "assessment": "Favorable, directly improved by AQ-04B. Before the fix, 204 cheese pages carried a JSON-LD claim (Taxon: Bos taurus) that contradicted their own page title and DefinedTerm identity — a semantic inconsistency exactly the kind of thing that degrades an AI system's confidence in a source, or produces a wrong extracted fact ('this page is about cattle'). That inconsistency no longer exists (AQ-04, AQ-05C reconfirmed 0 unexpected types / 0 validation issues)."
+  },
+  "citation_likelihood": {
+    "assessment": "Google's own guidance (above) ties AI Overview citation eligibility directly to standard indexing eligibility, which this site has (AQ-05A/B, PASS). Beyond that baseline, citation likelihood in practice depends heavily on factors this audit has no visibility into — topical authority relative to competing sources, actual query-level relevance, and Google's live ranking systems — and is not estimated here (would be speculation, not assessment)."
+  },
+  "knowledge_graph_clarity": {
+    "assessment": "Strong, on verified evidence: 0 duplicate canonical IDs (AQ-03), 0 duplicate canonical URLs (AQ-05A), 0 ontology-mapping issues (AQ-04C) across 1,166 entities. The one residual ambiguity — the 8 AQ-03 canonical-identity variety-pairs — would surface identically to any knowledge-graph-building consumer, Google's or otherwise; this is an inherited catalog-layer question, not something AQ-05 introduces or can resolve on its own authority (Rule 1 of AQ-03 and AQ-04 both apply here by extension)."
+  },
+  "answer_extraction": {
+    "assessment": "Favorable. The narrative-first architecture (AQ-02A) means the literal first content an extraction system encounters after the page shell is a real, specific answer to 'what is X' — not a data table, not a template. The authored FAQ sections (present on protein and cheese entities, 430/430 verified in AQ-02A) are additionally well-suited to direct question-answering extraction, independent of whether Google's FAQPage rich result exists (it doesn't, as of 2026-05-07 — AQ-05C) — extraction and the FAQ rich result are different mechanisms; losing the rich result doesn't reduce a model's ability to read and use the same Q&A text."
+  },
+  "topic_authority": {
+    "assessment": "Structurally coherent, not independently measurable by this audit. The site's category -> group -> leaf hierarchy (verified accurate, AQ-04C) gives every entity page real topical context (what broader category it belongs to), which is the kind of structural signal that supports a coherent topic-authority read. Whether Google's systems actually credit the site with authority on food/wine pairing topics depends on off-site signals (backlinks, mentions, historical performance) entirely outside this repository's visibility — not estimated."
+  },
+  "what_this_phase_deliberately_does_not_do": "Per the ticket's own instruction ('This is an assessment. Not speculative optimization.') and per Google's own documented position that no AI-specific optimization exists to apply, this phase makes no recommendations to add AI-specific markup, restructure content for 'AI Overview snippet-ability,' or any other speculative technique. The assessment above is a report on where the site already stands, using evidence already certified in AQ-04 and AQ-05A-C.",
+  "overall_certification": "PASS — no gap identified that isn't already either (a) certified clean elsewhere in this initiative, (b) an inherited, deliberately-unresolved catalog-layer question from AQ-03, or (c) explicitly outside what a technical/structural audit can assess (page experience, off-site authority)."
+}
