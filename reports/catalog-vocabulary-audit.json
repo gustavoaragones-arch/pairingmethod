@@ -1,0 +1,12 @@
+{
+  "vocabulary_audit": {
+    "usage_intensity_conformance": {
+      "totalChecked": 678,
+      "findingCount": 0,
+      "findings": [],
+      "allConformant": true
+    },
+    "vegetable_domain_note": "vegetable does not use usage_intensity at all \u2014 confirmed via docs/VEGETABLE_GOVERNANCE.md, which governs culinary_role and flavor_intensity instead (own frozen vocabulary). All 74 vegetable entities verified to have both fields populated with conformant values (0 missing, 0 non-conformant flavor_intensity). Checked before being treated as a gap, not after \u2014 this is a domain design difference, not a defect.",
+    "cheese_frozen_vocabulary_conformance": "8/8 fields (cheese_category, milk_source, aging_class, texture, moisture_class, rind_type, pasteurization, protected_status) checked against docs/CHEESE_GOVERNANCE.md \u00a74's frozen enums across all 204 entities \u2014 0 violations."
+  }
+}

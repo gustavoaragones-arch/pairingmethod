@@ -1,0 +1,123 @@
+{
+  "canonical_identity_audit": {
+    "global_id_uniqueness": "1166 entities checked, 0 duplicate canonical IDs across the entire 11-domain suite.",
+    "alias_collision_scan": {
+      "total_raw_hits": 34,
+      "deduplicated_hits": 31,
+      "bucket_a_migration_explained": {
+        "count": 13,
+        "classification": "NOT a finding \u2014 confirmed against data/protein-migration-map.json. These are documented, governed compatibility aliases from the FOOD-14 protein-domain migration (docs/PROTEIN_REFINEMENT_GOVERNANCE.md \u00a76: \"Compatibility aliases permitted \u2014 Protein may retain editorial references or aliases during transition\"). A deprecated protein entity and its canonical replacement in another domain are supposed to share names during the migration compatibility window.",
+        "examples": [
+          "food.protein.nuts-seeds.chia-seeds <-> food.nut-seed.edible-seeds.chia-seed",
+          "food.protein.mushrooms.oyster-mushroom <-> food.fungi.cultivated-mushrooms.oyster-mushroom",
+          "food.legume.other-legumes.soybean <-> food.protein.soy-foods.edamame",
+          "food.legume.legume-products.tofu <-> food.protein.soy-foods.silken-tofu",
+          "food.fungi.wild-mushrooms.chanterelle <-> food.protein.mushrooms.chanterelle"
+        ]
+      },
+      "bucket_b_processed_form_relationships": {
+        "count": 10,
+        "classification": "Likely correct per PROC-001/SAUCE-002 (a raw ingredient and its processed/composite derivative are legitimately separate canonical entities \u2014 e.g. barley vs. pearl barley matches PROC-001's own 'Rice \u2192 Rice Flour' example pattern exactly), but the catalog's `aliases` field is being used imprecisely: an alias should mean 'the same entity, different name,' not 'the entity this one is derived from.' Recommended for a future governance clarification (e.g. a dedicated `derived_products`/`related_forms` cross-reference field) rather than a data correction \u2014 the underlying separate-entity modeling appears correct.",
+        "entries": [
+          {
+            "entity": "food.protein.grains-wheat-protein.barley",
+            "alias": "pearl barley",
+            "collidesWithCanonicalEntity": "food.grain.processed-grains.pearl-barley"
+          },
+          {
+            "entity": "food.grain.starches.chestnut-starch",
+            "alias": "Chestnut Flour",
+            "collidesWithCanonicalEntity": "food.nut-seed.nut-products.chestnut-flour"
+          },
+          {
+            "entity": "food.grain.pseudocereals.chia",
+            "alias": "Chia Seeds",
+            "collidesWithCanonicalEntity": "food.protein.nuts-seeds.chia-seeds"
+          },
+          {
+            "entity": "food.herb.ground-blended-spices.harissa-spice",
+            "alias": "Harissa",
+            "collidesWithCanonicalEntity": "food.sauce-condiment.condiments.harissa"
+          },
+          {
+            "entity": "food.herb.whole-spices.horseradish",
+            "alias": "Prepared Horseradish",
+            "collidesWithCanonicalEntity": "food.sauce-condiment.condiments.prepared-horseradish"
+          },
+          {
+            "entity": "food.herb.whole-spices.mahleb",
+            "alias": "Mahlab",
+            "collidesWithCanonicalEntity": "food.nut-seed.seed-spices.mahlab"
+          },
+          {
+            "entity": "food.herb.whole-spices.tamarind",
+            "alias": "Tamarind Paste",
+            "collidesWithCanonicalEntity": "food.sauce-condiment.fermented-sauces-pastes.tamarind-paste"
+          },
+          {
+            "entity": "food.herb.whole-spices.vanilla-bean",
+            "alias": "Vanilla Extract",
+            "collidesWithCanonicalEntity": "food.sauce-condiment.condiments.vanilla-extract"
+          },
+          {
+            "entity": "food.herb.whole-spices.wasabi",
+            "alias": "Wasabi Paste",
+            "collidesWithCanonicalEntity": "food.sauce-condiment.condiments.wasabi-paste"
+          },
+          {
+            "entity": "food.sauce-condiment.condiments.wasabi-paste",
+            "alias": "Wasabi",
+            "collidesWithCanonicalEntity": "food.herb.whole-spices.wasabi"
+          }
+        ]
+      },
+      "bucket_c_variety_candidates_for_editorial_review": {
+        "count": 8,
+        "classification": "Genuine candidates for a future editorial pass under CANON-001 (one canonical entity per culinary concept). Each pair may be either (a) legitimately distinct entities that happen to share a common regional/varietal name, correctly modeled as-is, or (b) the same culinary concept that should be consolidated with the sibling name demoted to a pure alias. This audit does not resolve that judgment call \u2014 it requires culinary/botanical domain expertise this process should not substitute for evidence (Rule 3).",
+        "entries": [
+          {
+            "entity": "food.fruit.citrus.lime",
+            "alias": "Key Lime",
+            "collidesWithCanonicalEntity": "food.fruit.citrus.key-lime"
+          },
+          {
+            "entity": "food.fruit.citrus.mandarin",
+            "alias": "Clementine",
+            "collidesWithCanonicalEntity": "food.fruit.citrus.clementine"
+          },
+          {
+            "entity": "food.fruit.citrus.mandarin",
+            "alias": "Tangerine",
+            "collidesWithCanonicalEntity": "food.fruit.citrus.tangerine"
+          },
+          {
+            "entity": "food.fruit.citrus.mandarin",
+            "alias": "Satsuma",
+            "collidesWithCanonicalEntity": "food.fruit.citrus.satsuma"
+          },
+          {
+            "entity": "food.fruit.stone-fruits.sweet-cherry",
+            "alias": "Black Cherry",
+            "collidesWithCanonicalEntity": "food.fruit.stone-fruits.black-cherry"
+          },
+          {
+            "entity": "food.grain.whole-grains.millet",
+            "alias": "Proso Millet",
+            "collidesWithCanonicalEntity": "food.grain.whole-grains.proso-millet"
+          },
+          {
+            "entity": "food.legume.beans.cranberry-bean",
+            "alias": "Borlotti Bean",
+            "collidesWithCanonicalEntity": "food.legume.beans.borlotti-bean"
+          },
+          {
+            "entity": "food.sweet-flavor.sugars.panela",
+            "alias": "Piloncillo",
+            "collidesWithCanonicalEntity": "food.sweet-flavor.sugars.piloncillo"
+          }
+        ]
+      }
+    }
+  },
+  "overall_result": "PASS \u2014 0 confirmed defects (duplicate IDs, vocabulary violations). 18 alias-usage candidates surfaced for editorial review, correctly distinguished from the 13 that are governed and expected."
+}
