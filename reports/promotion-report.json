@@ -1,5 +1,7 @@
 {
   "domains": [
+    "protein",
+    "cheese",
     "fruit",
     "vegetable",
     "grain-starch",
@@ -8,13 +10,15 @@
     "herb-spice",
     "sweet-flavor",
     "sauce-condiment",
-    "fungi",
-    "protein"
+    "fungi"
   ],
   "metrics": {
     "Overall result": "PASS",
-    "Promotion targets": 33,
+    "Promotion targets": 36,
     "Validation errors": 0,
+    "cheese categories pages promoted": 1,
+    "cheese groups pages promoted": 9,
+    "cheese leaf pages promoted": 204,
     "fruit categories pages promoted": 1,
     "fruit groups pages promoted": 7,
     "fruit leaf pages promoted": 119,
@@ -49,6 +53,42 @@
   "overall_result": "PASS",
   "phase": "DEPLOY-01",
   "promoted": [
+    {
+      "domain": "protein",
+      "html_files": 210,
+      "source": "dist/foods",
+      "target": "foods"
+    },
+    {
+      "domain": "protein",
+      "html_files": 17,
+      "source": "dist/groups",
+      "target": "groups"
+    },
+    {
+      "domain": "protein",
+      "html_files": 3,
+      "source": "dist/categories",
+      "target": "categories"
+    },
+    {
+      "domain": "cheese",
+      "html_files": 204,
+      "source": "dist/cheeses",
+      "target": "cheeses"
+    },
+    {
+      "domain": "cheese",
+      "html_files": 9,
+      "source": "dist/cheese-groups",
+      "target": "cheese-groups"
+    },
+    {
+      "domain": "cheese",
+      "html_files": 1,
+      "source": "dist/cheese-categories",
+      "target": "cheese-categories"
+    },
     {
       "domain": "fruit",
       "html_files": 119,
@@ -210,24 +250,6 @@
       "html_files": 1,
       "source": "dist/fungi-categories",
       "target": "fungi-categories"
-    },
-    {
-      "domain": "protein",
-      "html_files": 210,
-      "source": "dist/foods",
-      "target": "foods"
-    },
-    {
-      "domain": "protein",
-      "html_files": 17,
-      "source": "dist/groups",
-      "target": "groups"
-    },
-    {
-      "domain": "protein",
-      "html_files": 3,
-      "source": "dist/categories",
-      "target": "categories"
     },
     {
       "html_files": 0,

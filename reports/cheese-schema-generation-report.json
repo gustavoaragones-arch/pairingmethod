@@ -19,17 +19,17 @@
   },
   "domain": "cheese",
   "metrics": {
-    "Average objects per page": 3.95,
+    "Average objects per page": 3,
     "Category schemas": 1,
     "Deterministic regeneration": "PASS",
     "Duplicate @id": 0,
     "Group schemas": 9,
     "Invalid references": 0,
-    "JSON-LD objects emitted": 846,
+    "JSON-LD objects emitted": 642,
     "Leaf schemas": 204,
     "Overall certification": "PASS",
     "Overall result": "PASS",
-    "Schema types generated": 6,
+    "Schema types generated": 5,
     "Validation errors": 0
   },
   "outputs": [
@@ -45,7 +45,6 @@
     "CollectionPage",
     "DefinedTerm",
     "DefinedTermSet",
-    "Taxon",
     "WebPage"
   ],
   "validation_errors": []
