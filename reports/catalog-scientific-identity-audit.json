@@ -1,0 +1,26 @@
+{
+  "phase": "AQ-03A",
+  "title": "Scientific Identity Verification — Certification",
+  "date": "2026-08-14",
+  "reframing_note": "This phase was originally scoped as \"fix the cheese scientific_name issue\" based on findings in reports/content-quality-audit/entity-sampling.md and eeat-analysis.md (carried from AQ-01/AQ-01R/AQ-01R2) and reports/publication-integrity-certification.json (AQ-02B4). Reading docs/CHEESE_GOVERNANCE.md §5 before making any change revealed that finding was itself incorrect: scientific_name for cheese is explicitly, intentionally, and consistently governed to mean milk-source species, not cheese identity. All 204 cheese entities were verified to conform exactly to the documented 4-entry mapping table (cow/goat/sheep/buffalo), 0 mismatches. That finding is retracted — see reports/aq-03-retraction-notice.md. This phase instead ran a genuine, governance-aware, full-census verification across all 11 domains.",
+  "methodology": "For each domain, scientific_name semantics were read directly from that domain's governance document (not assumed) before checking conformance. Ten domains define it as the entity's own primary species/botanical identity (or an explicit Multiple species/Multiple sources escape value for blends); cheese is the sole documented exception (milk-source species). Format validation accounts for standard botanical conventions (hybrid notation ×, spp. for multi-species genera, subgenus references) rather than a naive Genus-species regex, after an initial version of this check produced 6 false positives by not accounting for these conventions (loganberry, marionberry, plantain, strawberry, triticale, savory — all verified correct on inspection).",
+  "results": {
+    "total_entities_checked": 1166,
+    "genuine_findings": 1,
+    "conformance_rate": "99.91%",
+    "findings": [
+      {
+        "type": "malformed_scientific_name",
+        "domain": "fruit",
+        "entity": "food.fruit.berries.marionberry",
+        "value": "Rubus L. subgenus"
+      }
+    ]
+  },
+  "finding_detail": {
+    "entity": "food.fruit.berries.marionberry",
+    "issue": "scientific_name is \"Rubus L. subgenus\" — incomplete compared to all 5 sibling Rubus-family entries in the same catalog, which correctly show full binomials or hybrid notation (blackberry: Rubus fruticosus; raspberry: Rubus idaeus; boysenberry: Rubus ursinus × idaeus; loganberry: Rubus × loganobaccus; tayberry: Rubus fruticosus × idaeus).",
+    "action_taken": "NOT corrected in this pass. Marionberry is a multi-generation cultivar ('Chehalem' × 'Olallie' blackberry, itself complex Rubus ursinus-lineage parentage) without one universally-agreed single binomial — real botanical nomenclature nuance exists for cultivar parentage notation that this audit is not positioned to resolve by assumption (Rule 3: never replace one assumption with another). Recommended for a future editorial pass with proper botanical sourcing, using the sibling entries' hybrid-notation convention as the pattern to follow once the correct parentage citation is confirmed."
+  },
+  "overall_result": "PASS (1 non-blocking data-completeness finding, deferred to editorial review)"
+}
