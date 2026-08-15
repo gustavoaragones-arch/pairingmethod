@@ -1,0 +1,35 @@
+{
+  "phase": "AQ-03D",
+  "title": "Regeneration Verification + Final Catalog Accuracy Certification",
+  "date": "2026-08-14",
+  "premise": "No catalog corrections were made in AQ-03A-C. Both findings this initiative was originally built to fix (cheese scientific_name, squash-family taxonomy) were retracted after reading governance — the catalog was already correct on both counts. The scientific-identity phase found one non-blocking data-completeness gap (marionberry) that was deliberately not auto-corrected (Rule 3). The canonical-identity phase surfaced 18 alias-usage candidates for future editorial review, also not auto-corrected. Rule 2's regeneration guarantee is therefore verified against a genuinely unchanged catalog layer, which is itself a meaningful thing to prove rather than an anticlimax.",
+  "catalog_diff": {
+    "files_modified": 0,
+    "verification": "git status confirmed zero changes to any data/*-catalog.json file throughout AQ-03A-C."
+  },
+  "regeneration_verification": {
+    "domains_recertified": 11,
+    "results": {
+      "protein": "PASS", "cheese": "PASS", "fruit": "PASS", "vegetable": "PASS",
+      "grain-starch": "PASS", "legume": "PASS", "nut-seed": "PASS", "herb-spice": "PASS",
+      "sweet-flavor": "PASS", "sauce-condiment": "PASS", "fungi": "PASS"
+    },
+    "publication_completeness": "100% across all 11 domains",
+    "unintended_drift": "None — rerunning certification against unchanged catalogs produced zero diffs in data/generated, data/pages, or any publication artifact."
+  },
+  "phase_summary": {
+    "AQ-03A": { "title": "Scientific Identity Verification", "entities_checked": 1166, "confirmed_findings": 1, "report": "reports/catalog-scientific-identity-audit.json" },
+    "AQ-03B": { "title": "Taxonomy / Botanical Classification Verification", "entities_checked": 1166, "confirmed_findings": 0, "report": "reports/catalog-taxonomy-audit.json" },
+    "AQ-03C": { "title": "Vocabulary + Canonical Identity Audit", "entities_checked": 1166, "confirmed_findings": 0, "candidates_for_editorial_review": 18, "report_vocabulary": "reports/catalog-vocabulary-audit.json", "report_canonical": "reports/catalog-canonical-identity.json" }
+  },
+  "success_criteria_assessment": {
+    "no_known_systematic_scientific_name_misuse": "TRUE — 1,165/1,166 entities conform (99.91%); the 1 exception is a data-completeness gap on a single cultivar entity, not a systematic pattern, and not auto-corrected pending editorial sourcing.",
+    "no_known_systematic_taxonomy_drift": "TRUE — 0 structural violations across 1,166 entities; the only two candidate 'drift' patterns identified by prior audits (cheese, squash) were confirmed to be intentional, documented governance, not drift.",
+    "no_unresolved_ownership_ambiguity": "TRUE for structural ownership (0 dangling references, 0 duplicate IDs, 0 cross-domain intrinsic-data duplication detected). PARTIAL for alias-level naming: 34 raw alias collisions surfaced, correctly triaged into governed-and-expected (13), likely-correct-modeling-with-imprecise-field-usage (10), and genuine editorial candidates (8) — none confirmed as errors, all require domain-expert judgment this process should not substitute for.",
+    "governed_vocabulary": "TRUE — every checked vocabulary (usage_intensity across 8 domains, cheese's 8 frozen fields, vegetable's substitute culinary_role/flavor_intensity fields) conforms 100% to governance-documented enums.",
+    "deterministic_regeneration": "TRUE — reconfirmed across all 11 domains with zero drift.",
+    "zero_publication_regressions": "TRUE — all 11 domains recertified PASS, 100% publication completeness, no changes required."
+  },
+  "recommendation": "The Food Ontology Suite's catalog layer can be treated as editorially authoritative on the two specific dimensions this initiative examined (scientific identity, taxonomy/classification) and on structural/vocabulary integrity suite-wide. It is not yet fully closed on canonical-identity precision: 8 variety-pair candidates (e.g. mandarin/clementine, cranberry-bean/borlotti-bean) and 10 processed-form alias-field-usage cases warrant a scoped editorial pass, not because they are confirmed errors but because this audit cannot responsibly resolve culinary/botanical judgment calls by assumption. Recommended next step: a governance-led review of reports/catalog-canonical-identity.json's bucket B and C findings, informed by domain expertise rather than further automated verification.",
+  "overall_certification": "PASS"
+}
