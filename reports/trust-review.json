@@ -1,0 +1,63 @@
+{
+  "phase": "AQ-06C",
+  "title": "Trust Review",
+  "date": "2026-08-15",
+  "about": {
+    "exists": true,
+    "url": "/about",
+    "assessment": "Substantive, specific, not boilerplate. Explains the pairing methodology (intensity alignment, acidity/fat balance, tannin/protein interaction, sweetness/spice balance) in real, checkable detail, and names the operating entity: 'Pairing Method is operated by Albor Digital LLC, an independent digital product studio based in Wyoming, United States.' Contact email present inline."
+  },
+  "contact": {
+    "exists_as_dedicated_page": false,
+    "exists_as_disclosed_channel": true,
+    "assessment": "No standalone /contact page, but contact@pairingmethod.com is present as a visible mailto link on both the homepage and About page, and as a structured ContactPoint in Organization schema. This satisfies the substance of a contact requirement (a real, reachable channel) even without a dedicated page — Google's policies require accurate, complete publisher information, not a specific page structure. Not a defect; a dedicated /contact page would be a minor UX nice-to-have, not a trust gap."
+  },
+  "privacy": {
+    "exists": true,
+    "url": "/privacy",
+    "assessment": "Present, dated (Effective/Last Updated January 1, 2026), names the operating entity, includes a dedicated GDPR legal-basis section, and discloses data collection/use/sharing including third-party services. Adequate for current pre-monetization state; see reports/adsense-policy-review.json for the one minor recommendation (name Google/AdSense specifically once ads go live)."
+  },
+  "terms": {
+    "exists": true,
+    "url": "/terms",
+    "assessment": "Present, dated, standard structure (acceptance of terms, scope across Albor Digital's products). No issues found."
+  },
+  "cookie_policy": {
+    "exists": true,
+    "url": "/cookies",
+    "assessment": "Present, dated, categorizes cookies (Strictly Necessary, Functional, Analytics, Advertising) with retention periods, discloses third-party services by example (Google Analytics, Stripe), and describes user choices including third-party opt-out mechanisms. Notably already forward-declares an 'Advertising' cookie category before any ads are live — good pre-monetization hygiene. One real gap, flagged for AQ-06D: no functioning cookie-consent banner/preference-panel implementation was found in the site's code — the policy text references 'any cookie preference panel we provide' conditionally, and no such panel currently exists. This matters specifically for enabling personalized advertising in regulated regions (EU/UK) once ads go live, not for the current pre-ad state."
+  },
+  "responsible_ai_disclosure": {
+    "exists": true,
+    "location": "disclaimer.html §3 ('AI-Generated Content')",
+    "text": "Where our products incorporate artificial intelligence, outputs are generated algorithmically and may contain errors, omissions, or inaccuracies. AI outputs reflect patterns in training data and do not represent verified facts, professional opinions, or the views of Albor Digital LLC. Users are solely responsible for evaluating and verifying any AI-generated content before acting on it.",
+    "assessment": "A real, substantive AI-disclosure clause exists — this is a genuine, current-best-practice trust signal many sites lack entirely. It is generic, multi-product boilerplate (references 'our products' and 'our tools' rather than Pairing Method specifically) rather than being tailored to this site, and doesn't specifically address whether or how AI assistance was used in authoring the food/wine content itself (as distinct from the pairing engine's AI-powered features) — a more specific disclosure would be a stronger trust signal but the absence of one is a quality recommendation, not a gap that blocks approval."
+  },
+  "medical_or_food_disclaimers": {
+    "exists": true,
+    "location": "disclaimer.html",
+    "assessment": "General disclaimer covers informational-purposes-only framing and professional-advice disclaimers (legal, financial, medical, investment, tax). No food-allergen or food-safety-specific disclaimer was found, which is a real, if minor, gap for a food-content site — a reader with an allergy or dietary restriction gets no explicit caution anywhere in the ingredient content itself. Recommendation, not a policy violation: Google has no specific food-safety-disclaimer requirement, but it's a reasonable trust/care signal for this content category."
+  },
+  "authorship": {
+    "business_level": { "status": "clear", "evidence": "Albor Digital LLC named consistently across Organization schema, About, and all four legal pages." },
+    "individual_level": {
+      "status": "present_but_not_visible",
+      "evidence": "The homepage's FAQPage JSON-LD states 'Content is authored by Gustavo Aragones for Pairing Method, with chef-forward, educational intent' — a specific, real, checkable expertise claim. Verified directly: this text does NOT appear anywhere in the homepage's visible, rendered content — only inside the JSON-LD script block, which a human reviewer reading the page normally would never see.",
+      "finding_id": "AQ06-TR-01",
+      "severity": "medium",
+      "assessment": "This is a genuine trust-signal gap specific to human review (AQ-06's own stated method: simulate an experienced human reviewer, not an automated crawler). The site's single most specific expertise/authorship claim — exactly the kind of signal Google's E-E-A-T guidance asks for — is invisible to the audience that matters most for a manual AdSense review. Not a policy violation (nothing false is claimed; a true claim is simply under-surfaced) and technically simple to address (surface the same sentence as visible text on the About page, where a reviewer would naturally look for it) — but flagged as a real, specific, actionable gap, not a nice-to-have."
+    }
+  },
+  "ownership_transparency": {
+    "status": "clear",
+    "evidence": "Albor Digital LLC, Wyoming, US — consistent across every surface checked (schema, About, all legal pages). No shell-entity or anonymous-ownership signals."
+  },
+  "business_identity": {
+    "status": "clear",
+    "evidence": "Consistent naming, consistent jurisdiction, working contact channel, real (if generic) legal documentation. A reviewer would have no difficulty determining who operates this site."
+  },
+  "quality_observation_not_a_defect": {
+    "generic_legal_language": "privacy.html, terms.html, cookies.html, and disclaimer.html all use language scoped to 'any website, web application, mobile application, or digital tool owned and operated by Albor Digital LLC' rather than language specific to Pairing Method. This is common, legitimate practice for a small operator running a shared policy across a product portfolio and is not a policy violation — Google does not require bespoke per-property legal text — but it reads as templated to a careful reader, a minor professionalism/polish observation worth noting alongside the more significant Helpful Content finding in reports/helpful-content-review.json."
+  },
+  "overall_assessment": "Trust infrastructure is fundamentally sound: real business identity, working contact channel, dated and substantive privacy/terms/cookie policies with a genuine AI-disclosure clause. Two specific, addressable gaps identified: the named-author claim is invisible to human readers (medium severity), and no food-safety/allergen disclaimer exists (low severity, recommendation only). Neither is a policy violation."
+}
