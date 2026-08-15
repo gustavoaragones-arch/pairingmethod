@@ -1,0 +1,125 @@
+{
+  "phase": "AQ-04 (coverage)",
+  "title": "JSON-LD Coverage",
+  "totals": {
+    "leaf_pages": 1166,
+    "leaf_with_json_ld": 1166,
+    "leaf_json_ld_coverage": "100.00%",
+    "leaf_with_taxon": 962,
+    "leaf_with_milk_source_property_value": 204,
+    "leaf_with_species_property_value": 148,
+    "leaf_with_likely_authored_description": 1166,
+    "leaf_authored_description_coverage": "100.00%",
+    "group_pages": 73,
+    "group_with_json_ld": 73,
+    "group_json_ld_coverage": "100.00%",
+    "category_pages": 13,
+    "category_with_json_ld": 13,
+    "category_json_ld_coverage": "100.00%"
+  },
+  "per_domain": {
+    "protein": {
+      "is_derived_product_domain": false,
+      "leaf_pages": 210,
+      "leaf_with_taxon": 210,
+      "leaf_with_milk_source_property_value": 0,
+      "leaf_with_species_property_value": 148,
+      "leaf_with_likely_authored_description": 210,
+      "taxon_coverage_correct": true
+    },
+    "cheese": {
+      "is_derived_product_domain": true,
+      "leaf_pages": 204,
+      "leaf_with_taxon": 0,
+      "leaf_with_milk_source_property_value": 204,
+      "leaf_with_species_property_value": 0,
+      "leaf_with_likely_authored_description": 204,
+      "taxon_coverage_correct": true
+    },
+    "vegetable": {
+      "is_derived_product_domain": false,
+      "leaf_pages": 74,
+      "leaf_with_taxon": 74,
+      "leaf_with_milk_source_property_value": 0,
+      "leaf_with_species_property_value": 0,
+      "leaf_with_likely_authored_description": 74,
+      "taxon_coverage_correct": true
+    },
+    "fungi": {
+      "is_derived_product_domain": false,
+      "leaf_pages": 43,
+      "leaf_with_taxon": 43,
+      "leaf_with_milk_source_property_value": 0,
+      "leaf_with_species_property_value": 0,
+      "leaf_with_likely_authored_description": 43,
+      "taxon_coverage_correct": true
+    },
+    "herb-spice": {
+      "is_derived_product_domain": false,
+      "leaf_pages": 113,
+      "leaf_with_taxon": 113,
+      "leaf_with_milk_source_property_value": 0,
+      "leaf_with_species_property_value": 0,
+      "leaf_with_likely_authored_description": 113,
+      "taxon_coverage_correct": true
+    },
+    "grain-starch": {
+      "is_derived_product_domain": false,
+      "leaf_pages": 76,
+      "leaf_with_taxon": 76,
+      "leaf_with_milk_source_property_value": 0,
+      "leaf_with_species_property_value": 0,
+      "leaf_with_likely_authored_description": 76,
+      "taxon_coverage_correct": true
+    },
+    "fruit": {
+      "is_derived_product_domain": false,
+      "leaf_pages": 119,
+      "leaf_with_taxon": 119,
+      "leaf_with_milk_source_property_value": 0,
+      "leaf_with_species_property_value": 0,
+      "leaf_with_likely_authored_description": 119,
+      "taxon_coverage_correct": true
+    },
+    "nut-seed": {
+      "is_derived_product_domain": false,
+      "leaf_pages": 89,
+      "leaf_with_taxon": 89,
+      "leaf_with_milk_source_property_value": 0,
+      "leaf_with_species_property_value": 0,
+      "leaf_with_likely_authored_description": 89,
+      "taxon_coverage_correct": true
+    },
+    "legume": {
+      "is_derived_product_domain": false,
+      "leaf_pages": 75,
+      "leaf_with_taxon": 75,
+      "leaf_with_milk_source_property_value": 0,
+      "leaf_with_species_property_value": 0,
+      "leaf_with_likely_authored_description": 75,
+      "taxon_coverage_correct": true
+    },
+    "sweet-flavor": {
+      "is_derived_product_domain": false,
+      "leaf_pages": 73,
+      "leaf_with_taxon": 73,
+      "leaf_with_milk_source_property_value": 0,
+      "leaf_with_species_property_value": 0,
+      "leaf_with_likely_authored_description": 73,
+      "taxon_coverage_correct": true
+    },
+    "sauce-condiment": {
+      "is_derived_product_domain": false,
+      "leaf_pages": 90,
+      "leaf_with_taxon": 90,
+      "leaf_with_milk_source_property_value": 0,
+      "leaf_with_species_property_value": 0,
+      "leaf_with_likely_authored_description": 90,
+      "taxon_coverage_correct": true
+    }
+  },
+  "notes": {
+    "taxon_coverage_correct": "True for every domain iff: cheese emits Taxon on 0 leaf pages (derived-product domain, milk source is not cheese identity) and every other domain emits Taxon on 100% of leaf pages that have a scientific_name (own taxonomic identity). Verified per-domain above.",
+    "authored_description_heuristic": "leaf_with_likely_authored_description is a heuristic (excludes strings matching the old generic template's fixed tail shape), not a byte-for-byte match against narrative.seo_description — see reports/schema-inventory.json FIND-02 and the AQ-04B code change for the authoritative fix (projection.narrative?.seo_description with template fallback)."
+  }
+}

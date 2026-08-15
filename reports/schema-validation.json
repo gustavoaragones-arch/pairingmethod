@@ -1,0 +1,56 @@
+{
+  "phase": "AQ-04F",
+  "title": "JSON-LD Validation",
+  "methodology": "Internal, deterministic structural validator: required-property presence per @type (per schema.org's own documented required/recommended properties), @context/@type presence, breadcrumb position-sequence and absolute-URL well-formedness, canonical-host consistency, and a standing regression guard confirming no derived-product-domain (cheese) page re-emits @type Taxon.",
+  "external_validation_note": "validator.schema.org and Google's Rich Results Test are both JavaScript SPAs with no documented, stable public API — confirmed directly (an unauthenticated POST to a guessed endpoint 404s). Scripting against an undocumented internal API would be fragile and, worse, non-reproducible, which would undermine this validator's own determinism standard. External validation was therefore not run programmatically; this report's evidence is the internal structural validator below. Recommended as a manual follow-up, not claimed as done here: paste a handful of representative URLs (one leaf, one group, one category, across a couple of domains) into https://validator.schema.org/ and https://search.google.com/test/rich-results directly.",
+  "total_objects_checked": 4718,
+  "issue_count": 0,
+  "issues": [],
+  "all_valid": true,
+  "per_domain": {
+    "protein": {
+      "objects_checked": 900,
+      "issues_found": 0
+    },
+    "cheese": {
+      "objects_checked": 642,
+      "issues_found": 0
+    },
+    "vegetable": {
+      "objects_checked": 311,
+      "issues_found": 0
+    },
+    "fungi": {
+      "objects_checked": 187,
+      "issues_found": 0
+    },
+    "herb-spice": {
+      "objects_checked": 467,
+      "issues_found": 0
+    },
+    "grain-starch": {
+      "objects_checked": 319,
+      "issues_found": 0
+    },
+    "fruit": {
+      "objects_checked": 500,
+      "issues_found": 0
+    },
+    "nut-seed": {
+      "objects_checked": 377,
+      "issues_found": 0
+    },
+    "legume": {
+      "objects_checked": 321,
+      "issues_found": 0
+    },
+    "sweet-flavor": {
+      "objects_checked": 313,
+      "issues_found": 0
+    },
+    "sauce-condiment": {
+      "objects_checked": 381,
+      "issues_found": 0
+    }
+  }
+}
