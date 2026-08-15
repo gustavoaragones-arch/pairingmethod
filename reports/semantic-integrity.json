@@ -1,0 +1,208 @@
+{
+  "phase": "AQ-04B/C/D",
+  "title": "Semantic Integrity",
+  "date": "2026-08-15",
+  "aq_04b_semantic_corrections": {
+    "title": "Semantic Corrections",
+    "corrections": [
+      {
+        "id": "FIX-01",
+        "finding_ref": "reports/schema-inventory.json FIND-01",
+        "title": "Cheese Taxon misrepresentation",
+        "before": "WebPage.about[] and a standalone top-level block both asserted {\"@type\": \"Taxon\", \"name\": \"Bos taurus\", \"url\": \"https://pairingmethod.com/cheeses/abondance/\"} for every one of 204 cheese leaf pages — a direct claim that the page's subject IS the species Bos taurus, contradicting the same page's own DefinedTerm identity (Abondance).",
+        "decision": "Per the ticket's explicit instruction to investigate whether Taxon 'should disappear, be replaced, or be emitted conditionally' for cheese: replaced. Taxon is now omitted entirely for the cheese domain (Rule 4: omit rather than misrepresent would also have justified pure omission, but the underlying fact — milk source species — is real, governed, and worth keeping visible to machines). The inline about[] entry and the standalone block are both now gated by a new `scientificNameIsOwnIdentity(domain)` check; cheese is the sole domain where it is false.",
+        "after": "WebPage.about[] now includes {\"@type\": \"PropertyValue\", \"name\": \"Milk source species\", \"value\": \"Bos taurus\"} for cheese pages — an accurate attribute claim about the cheese, not an identity claim about the page's subject. The standalone Taxon block is omitted entirely for cheese (buildFoodTaxonSchema now takes an ownIdentity flag and returns null when false).",
+        "files_changed": [
+          "lib/protein-food-schema.js",
+          "lib/food-publication/schema.js"
+        ],
+        "verified": "reports/schema-validation.json's standing regression guard confirms 0 Taxon blocks remain on any cheese page (204/204 clean); reports/jsonld-coverage.json confirms 204/204 cheese leaf pages now carry the PropertyValue instead.",
+        "scope_note": "The other 10 domains are unaffected — scientific_name there is the entity's own taxonomic identity, and Taxon remains correct and unchanged (962/962 non-cheese leaf pages with scientific_name still emit Taxon)."
+      },
+      {
+        "id": "FIX-02",
+        "finding_ref": "reports/schema-inventory.json FIND-02",
+        "title": "description property ignored a 100%-coverage authored field",
+        "before": "page.metadata.description (feeding WebPage/DefinedTerm/CollectionPage/DefinedTermSet.description and og:description and the HTML <meta name=\"description\"> tag) was a generic template, e.g. \"Abondance (Natural Rind) — Cheeses cheese\", even though every one of 1,166 leaf entities, 73 groups, and 13 categories has a fully-authored seo_description field.",
+        "decision": "Use the authored field, with the template retained only as a fallback for the currently-nonexistent case of a domain that hasn't authored seo_description.",
+        "after": "e.g. \"Abondance is a natural rind cow's milk cheese from FR (PDO).\" — specific, non-templated, and identical across the meta tag and every JSON-LD description property (single source of truth).",
+        "files_changed": [
+          "lib/food-publication/pages.js"
+        ],
+        "verified": "reports/jsonld-coverage.json: 1,166/1,166 leaf pages (100%) now show a non-template description by heuristic match; spot-verified byte-for-byte against the catalog's seo_description field for cheese, protein, and fruit samples.",
+        "closes_prior_finding": "This also closes AQ-01R's Priority 3/4 finding ('seo_description still isn't wired into the <meta> description tag'), carried unresolved across AQ-01R2 and AQ-02B — the same root cause fed both the HTML meta tag and every JSON-LD description property."
+      }
+    ],
+    "regeneration": "All 11 domains' pages/schema/HTML artifacts regenerated and recertified PASS after both fixes (per-domain certify-*-release scripts). Root-level promoted copies re-synced via promote-food-release-deploy01.mjs. Zero catalog/runtime/editorial/wine/governance files touched — verified via git status against every protected path."
+  },
+  "aq_04c_ontology_mapping": {
+    "title": "Ontology Mapping Verification",
+    "checks": {
+      "leaf_identifier_checks": 1166,
+      "group_identifier_checks": 73,
+      "category_identifier_checks": 13,
+      "isPartOf_hierarchy_checks": 1166,
+      "hasPart_cross_reference_checks": 1188,
+      "global_at_id_uniqueness_checks": 4460
+    },
+    "issue_count": 0,
+    "all_mapped_correctly": true,
+    "summary": "Every DefinedTerm/DefinedTermSet identifier traces exactly to its catalog canonical id (1,252/1,252 checked), every leaf's isPartOf group reference matches its actual catalog parent (1,166/1,166), every hasPart member/child entry's identifier and name matches the referenced entity's own current catalog id/display_name with zero drift (1,188/1,188), and every @id is globally unique across all 11 domains (4,460/4,460)."
+  },
+  "aq_04d_relationship_semantics": {
+    "title": "Relationship Semantics Review",
+    "finding": "4229 editorial/wine-pairing relationship instances exist in the published page projections (all independently provenance-verified in AQ-02B3), rendered for human readers, and currently expressed in zero JSON-LD properties.",
+    "hierarchical_relationships": {
+      "description": "Categorical/hierarchical relationships (leaf-to-group, group-to-category, breadcrumb ancestry) ARE already expressed in JSON-LD, via isPartOf/hasPart/breadcrumb — and verified accurate in AQ-04C (0 issues across 1,166 isPartOf checks and 1,188 hasPart cross-reference checks). These are the one relationship type schema.org models precisely for DefinedTerm/DefinedTermSet, and this layer already uses it correctly."
+    },
+    "non_hierarchical_relationships": {
+      "status": "deliberately not mapped to JSON-LD",
+      "relationship_instance_totals": {
+        "common_preparations": 14,
+        "culinary_role": 16,
+        "similar_foods": 20,
+        "wine.alternative_styles": 407,
+        "wine.primary_styles": 814,
+        "wine.technique_affinities": 186,
+        "substitutions": 162,
+        "wine.descriptor_affinities": 254,
+        "same_family": 40,
+        "commonly_served_with": 1786,
+        "similar_cheeses": 40,
+        "similar_vegetables": 70,
+        "similar_fungi": 24,
+        "similar_herb_spices": 34,
+        "similar_grain_starches": 38,
+        "similar_fruits": 64,
+        "similar_nuts_seeds": 30,
+        "similar_legumes": 82,
+        "similar_sweet_flavors": 60,
+        "similar_sauce_condiments": 88
+      },
+      "total_instances": 4229,
+      "per_domain": {
+        "protein": {
+          "common_preparations": 14,
+          "culinary_role": 16,
+          "similar_foods": 20,
+          "wine.alternative_styles": 10,
+          "wine.primary_styles": 16,
+          "wine.technique_affinities": 2,
+          "substitutions": 7,
+          "wine.descriptor_affinities": 3
+        },
+        "cheese": {
+          "same_family": 40,
+          "wine.descriptor_affinities": 7,
+          "wine.primary_styles": 41,
+          "commonly_served_with": 22,
+          "similar_cheeses": 40,
+          "wine.alternative_styles": 17,
+          "wine.technique_affinities": 5,
+          "substitutions": 23
+        },
+        "vegetable": {
+          "similar_vegetables": 70,
+          "substitutions": 32,
+          "wine.primary_styles": 72,
+          "commonly_served_with": 91,
+          "wine.technique_affinities": 5,
+          "wine.descriptor_affinities": 15,
+          "wine.alternative_styles": 25
+        },
+        "fungi": {
+          "wine.primary_styles": 43,
+          "commonly_served_with": 65,
+          "similar_fungi": 24,
+          "wine.descriptor_affinities": 14,
+          "wine.alternative_styles": 17,
+          "wine.technique_affinities": 8,
+          "substitutions": 10
+        },
+        "herb-spice": {
+          "commonly_served_with": 246,
+          "wine.primary_styles": 113,
+          "wine.alternative_styles": 54,
+          "wine.descriptor_affinities": 35,
+          "similar_herb_spices": 34,
+          "substitutions": 17,
+          "wine.technique_affinities": 22
+        },
+        "grain-starch": {
+          "similar_grain_starches": 38,
+          "wine.alternative_styles": 43,
+          "wine.descriptor_affinities": 28,
+          "wine.primary_styles": 83,
+          "wine.technique_affinities": 20,
+          "commonly_served_with": 163,
+          "substitutions": 10
+        },
+        "fruit": {
+          "commonly_served_with": 286,
+          "wine.alternative_styles": 68,
+          "wine.descriptor_affinities": 44,
+          "wine.primary_styles": 119,
+          "wine.technique_affinities": 34,
+          "similar_fruits": 64,
+          "substitutions": 15
+        },
+        "nut-seed": {
+          "commonly_served_with": 239,
+          "similar_nuts_seeds": 30,
+          "wine.alternative_styles": 60,
+          "wine.descriptor_affinities": 36,
+          "wine.primary_styles": 89,
+          "wine.technique_affinities": 30,
+          "substitutions": 30
+        },
+        "legume": {
+          "commonly_served_with": 239,
+          "similar_legumes": 82,
+          "wine.alternative_styles": 58,
+          "wine.primary_styles": 75,
+          "wine.technique_affinities": 30,
+          "wine.descriptor_affinities": 36
+        },
+        "sweet-flavor": {
+          "commonly_served_with": 222,
+          "similar_sweet_flavors": 60,
+          "substitutions": 14,
+          "wine.alternative_styles": 55,
+          "wine.descriptor_affinities": 36,
+          "wine.primary_styles": 73,
+          "wine.technique_affinities": 30
+        },
+        "sauce-condiment": {
+          "commonly_served_with": 213,
+          "similar_sauce_condiments": 88,
+          "wine.primary_styles": 90,
+          "substitutions": 4
+        }
+      },
+      "considered_and_rejected": [
+        {
+          "property": "Product.isRelatedTo / Product.isSimilarTo",
+          "verdict": "rejected",
+          "reason": "Correctly scoped for 'same family as' / 'substitute for' relationships, but domain/range is Product, not DefinedTerm. This layer models food entities as DefinedTerm (an ontological concept) deliberately, not Product (a commercial item) — re-typing every entity to unlock this property is a much larger, separate semantic decision than a relationship-exposure fix, out of scope here."
+        },
+        {
+          "property": "CreativeWork.mentions (on the WebPage)",
+          "verdict": "rejected",
+          "reason": "Technically valid (the page's editorial content does discuss the related entity), but flattens 4 distinct, precisely-typed relationships (same_family, commonly_served_with, similar_cheeses, substitutions, plus the wine-side pairs_with_style/pairs_with_descriptor/pairs_with_technique) into one generic, undifferentiated property. A machine consumer reading `mentions` cannot recover which relationship type it was — that loses information Rule 2 (never overload vocabulary) exists to protect."
+        },
+        {
+          "property": "sameAs",
+          "verdict": "rejected — would misrepresent",
+          "reason": "Explicitly reserved for identity equivalence (this entity IS that entity, e.g. a Wikidata link). 'Cheddar and aged-cheddar are in the same family' or 'bearnaise is commonly served with coconut' are not identity claims. Using sameAs here would be a direct Rule 4 violation, not a gray area."
+        }
+      ],
+      "decision": "Per Rule 4 (omit rather than misrepresent), no new JSON-LD property is added for these relationships in AQ-04. The verified relationship graph remains fully accessible to human readers via the rendered 'Related' sections. A future ticket could revisit this specifically as a Product-typing or schema.org extension-vocabulary decision — that is a materially bigger scope change than a relationship-exposure fix and should be evaluated on its own, not folded into a semantic-integrity certification."
+    }
+  },
+  "overall_semantic_integrity": {
+    "assessment": "Every JSON-LD statement currently emitted traces to a governed catalog field (Rule 3), no statement asserts something the catalog doesn't support (Rule 1/2, verified via AQ-04C's 0-issue mapping check), and the one place a statement was misrepresenting governed data (cheese Taxon) is corrected. Where an accurate mapping doesn't exist in schema.org's vocabulary (relationship types), omission was chosen over approximation (Rule 4), consistent with this initiative's own founding principle.",
+    "confirmed_defects": 0,
+    "corrected_defects": 2,
+    "deliberate_omissions": 1
+  }
+}
