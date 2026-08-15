@@ -1,0 +1,24 @@
+{
+  "phase": "AQ-03B",
+  "title": "Taxonomy / Botanical Classification Verification — Certification",
+  "date": "2026-08-14",
+  "reframing_note": "Originally scoped as \"fix the squash-family taxonomy drift.\" docs/VEGETABLE_GOVERNANCE.md names the group itself \"Root Vegetables & Squash\" and states directly: \"Squash and carrot-class roots belong in Root Vegetables.\" All 9 squash-family entities were verified to conform exactly. That finding is retracted — see reports/aq-03-retraction-notice.md.",
+  "named_governance_exceptions_verified": {
+    "NUT-001 (peanut culinary grouping)": "PASS — peanut correctly filed under nut-seed/peanuts group; correctly absent from legume catalog (no cross-domain duplication per LEGUME-001).",
+    "BOTAN-001 (cilantro leaf vs coriander seed)": "PASS — cilantro (fresh-herbs group) and coriander-seed (whole-spices group) are correctly separate canonical entities sharing scientific_name Coriandrum sativum, matching governance's own example exactly.",
+    "BOTAN-001 (dill leaf vs dill seed)": "PASS — dill (fresh-herbs) and dill-seed (whole-spices) correctly separate, same scientific_name Anethum graveolens."
+  },
+  "structural_integrity": {
+    "totalEntities": 1166,
+    "violationCount": 0,
+    "violations": [],
+    "structurallyClean": true
+  },
+  "classification_candidate_scan": {
+    "candidateCount": 0,
+    "candidates": [],
+    "note": "Advisory only — requires governance/editorial confirmation before being treated as a finding."
+  },
+  "methodology": "Two independent checks: (1) structural integrity — every entity's parent_group and every group's parent_category must resolve to a real record, a genuine defect class regardless of culinary judgment; (2) a bounded plant_part-vs-group-name heuristic scan, explicitly advisory-only per the squash lesson — any hit would require governance confirmation before being reported as a finding, not asserted directly.",
+  "overall_result": "PASS"
+}
