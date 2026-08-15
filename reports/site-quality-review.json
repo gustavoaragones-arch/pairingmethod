@@ -1,0 +1,44 @@
+{
+  "phase": "AQ-06E",
+  "title": "Site Quality Review",
+  "date": "2026-08-15",
+  "methodology": "Reuses verified, already-certified evidence from AQ-02B and AQ-05A/B wherever available (re-deriving it would be a re-estimate), adding fresh checks specific to AdSense-review site-quality concerns (placeholder content, spam indicators) that no prior audit specifically targeted.",
+  "broken_pages": { "status": "clean", "evidence": "0 broken links encountered in the AQ-02B4/AQ-05A BFS reachability crawl across the full published site." },
+  "empty_pages": { "status": "clean", "evidence": "0 pages with empty JSON-LD or empty narrative sections (AQ-02A QA, reconfirmed structurally in AQ-04)." },
+  "thin_pages": {
+    "status": "bounded_concern, not clean",
+    "evidence": "100% of leaf/group/category pages have authored narrative content present (reports/google-indexability.json). However, reports/helpful-content-review.json (AQ-06B) found that for 328 leaf entities (4 domains), that content is a single templated sentence with no supplementary depth — thin in substance even though not thin in Google's narrow 'has prose at all' sense. Cross-referenced here rather than re-assessed, to avoid duplicating that finding under a different label."
+  },
+  "duplicate_pages": {
+    "status": "clean_for_URLs; 8_candidates_for_content_overlap_flagged_elsewhere",
+    "evidence": "0 duplicate canonical URLs (AQ-05A, 1,038/1,038 unique). The 8 AQ-03 canonical-identity variety-pairs were separately evaluated for content duplication in AQ-05D and found genuinely differentiated — not duplicate pages by any reasonable reviewer standard."
+  },
+  "navigation": { "status": "clean", "evidence": "10/11 domain hubs live and working, /ingredients/ master directory, working breadcrumbs on every page, working site search covering 1,038 entities (AQ-02B, reconfirmed AQ-05B)." },
+  "search": { "status": "clean", "evidence": "Client-side site search index covers 100% of published food-ontology entities (AQ-02B2)." },
+  "discoverability": { "status": "clean", "evidence": "Every published page reachable through 3 independent discovery paths — navigation, sitemap, search (AQ-05B)." },
+  "internal_links": { "status": "clean", "evidence": "0 unsupported relationships across 4,140 checked (AQ-02B3); 0 orphaned pages (AQ-02B4, reconfirmed AQ-05A after AQ-04B's full regeneration)." },
+  "orphan_pages": { "status": "clean", "evidence": "Same reachability-crawl evidence as internal_links above — 0 orphans among published pages." },
+  "spam_indicators": {
+    "status": "clean",
+    "checks_performed": [
+      "Keyword stuffing: no repeated-keyword-density pattern found in sampled pages beyond normal domain-relevant vocabulary.",
+      "Hidden text/cloaking: no CSS-hidden text blocks or display:none content-stuffing found in sampled templates.",
+      "Doorway pages: no pages exist solely to redirect or funnel to another page without their own content — every page (including the 51 redirected legacy protein URLs) either has real content or is a clean, direct 301, not a soft doorway."
+    ]
+  },
+  "unfinished_sections": {
+    "status": "clean",
+    "evidence": "Direct sitewide grep for 'lorem ipsum', 'coming soon', 'under construction', 'placeholder text', 'TODO:' across all published static HTML: 0 matches."
+  },
+  "placeholder_content": { "status": "clean", "evidence": "Same grep as above — no placeholder markers found anywhere in published content." },
+  "template_leakage": {
+    "status": "confirmed_present, cross-referenced",
+    "evidence": "This is exactly what reports/helpful-content-review.json documents in full (the 'canonical' jargon leak, 328 leaf + 56 group + 10 category entities across 4-5 domains). Included here under its site-quality name for completeness rather than re-analyzed — see that report for the full evidence and severity assessment."
+  },
+  "known_pre_existing_issues_not_new_to_this_review": [
+    "4 dead 'View Bottle' (href=\"#\") links on Template A dish pages — confirmed still present (wine-with-steak.html, wine-with-chicken.html, wine-with-salmon.html, and others), unresolved since AQ-01.",
+    "Unexplained 'Pairing Strength: XX%' confidence scores on dish pages — unresolved since AQ-01.",
+    "Wine-education-tier templated language (category-hub noun-swap sentence) — unresolved since AQ-01."
+  ],
+  "overall_assessment": "Structurally excellent (0 broken/orphaned/duplicate/empty/placeholder pages, fully navigable, fully searchable). The one substantive site-quality concern is the already-documented template-leak/thin-substance issue in 4 domains (reports/helpful-content-review.json), plus 3 smaller pre-existing issues carried forward from AQ-01 that remain unresolved and are outside AQ-06's remediation scope."
+}

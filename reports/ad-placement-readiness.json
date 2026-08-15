@@ -1,0 +1,54 @@
+{
+  "phase": "AQ-06D",
+  "title": "Advertising Readiness Review",
+  "date": "2026-08-15",
+  "current_state": {
+    "ads_implemented": false,
+    "evidence": "No adsbygoogle script, ad-slot markup, ad-container elements, or data-ad-client attributes found anywhere in the site's HTML — confirmed a genuinely clean slate, not a partially-configured or hidden implementation.",
+    "note": "AQ-06 does not insert ads — this phase certifies readiness for future ad placement, per the ticket's explicit instruction."
+  },
+  "page_layout_assessment": {
+    "leaf_entity_pages": "Clear content hierarchy: title -> breadcrumb -> narrative ('About This Entry') -> Wine Pairing Explanation -> Common Culinary Uses -> At a Glance facts -> Taxonomy -> Similar entities -> Descriptors/Techniques -> footer. This structure has natural, well-separated content blocks that could host ads (e.g., after the narrative section, before the facts grid, in the footer region) without needing to interrupt any single block of prose mid-thought — a layout property directly relevant to avoiding Better Ads Standards violations (no ads interrupting content flow).",
+    "group_category_pages": "Similar clear hierarchy: narrative introduction -> member listing. Ad placement between introduction and listing would be natural and non-intrusive.",
+    "assessment": "Favorable. The template architecture (AQ-02A's shared narrative-tier/metadata-tier helpers) produces consistent, predictable section boundaries across all 1,038 published pages — a real advantage for placing ads consistently without page-by-page custom layout work."
+  },
+  "content_to_ad_balance_projection": {
+    "assessment": "For the 726 leaf entities with strong, substantive prose (protein/cheese/fruit/vegetable/grain-starch/fungi), content-to-ad ratio would be favorable at any reasonable ad density. For the 328 entities affected by the templated-content finding (reports/helpful-content-review.json), the single-sentence narrative plus structured facts/links still constitutes real publisher content (not an empty or under-construction page — Google's Inventory Value policy threshold), but the ad-to-content ratio would be less favorable there specifically, since there is less substantive prose to balance against. This is a downstream consequence of the Helpful Content finding, not a separate defect — improving that content would also improve ad-placement headroom on those pages."
+  },
+  "intrusive_elements_check": {
+    "interstitials": "None found.",
+    "popups": "None found.",
+    "auto_playing_media": "None found.",
+    "sticky_elements_that_could_conflict_with_ads": "None found — no existing sticky headers/footers beyond a standard nav bar.",
+    "assessment": "Clean. No existing UI pattern would conflict with standard ad placements (display, in-article, or anchor ads)."
+  },
+  "navigation_assessment": {
+    "assessment": "Reused from AQ-05A/B: 0 orphaned pages, working breadcrumbs, working domain hubs, working site search, 0 broken internal links. A reviewer or Google's ad-placement systems would find a coherent, fully-navigable site — favorable for approval, since broken navigation is a common, real reason for AdSense rejection."
+  },
+  "mobile_usability": {
+    "viewport_meta_tag": true,
+    "responsive_css_media_queries_found": 8,
+    "assessment": "Basic responsive-design signals present (correct viewport meta tag, multiple media query breakpoints in the stylesheet). Not independently verified via actual device/browser rendering or Google's Mobile-Friendly Test in this audit — flagged honestly as unverified rather than assumed, per Rule 1. A real device/Lighthouse pass is recommended before ad implementation, since ad slots are a common source of mobile layout regressions even on an otherwise-responsive site."
+  },
+  "cls_risk_assessment": {
+    "assessment": "Not measured directly (no Lighthouse/Core Web Vitals run performed — consistent with AQ-05's own explicit non-assessment of this dimension). Structurally, the template architecture's fixed section ordering means ad slots could be reserved with explicit dimensions (a standard best practice) without needing bespoke per-page work, which is a favorable precondition for low-CLS ad implementation — but this is a structural observation, not a measured result, and should not be read as a CLS certification."
+  },
+  "ad_placement_conflicts": {
+    "assessment": "None identified. No existing monetization (affiliate links, other ad networks) was found that could create a policy conflict or visual clutter if AdSense were added alongside it."
+  },
+  "prerequisite_gaps_before_enabling_ads": [
+    {
+      "id": "AQ06-AD-01",
+      "severity": "medium",
+      "title": "No cookie-consent mechanism for personalized advertising",
+      "detail": "cookies.html already declares an 'Advertising' cookie category (good pre-monetization hygiene, noted favorably in reports/trust-review.json), but no functioning consent banner/preference panel exists in the site's code. This is required for compliant personalized-ads serving in the EU/UK/other consent-regulated regions once ads go live (Google's own EU User Consent Policy, referenced generally in the Privacy Policies category of the Program Policies) — not a current violation (no ads are live), but a real operational gap to close before enabling ads, not after."
+    },
+    {
+      "id": "AQ06-AD-02",
+      "severity": "low",
+      "title": "ads.txt absent",
+      "detail": "Correctly absent pre-approval (requires a real publisher ID) — listed here as a post-approval action item, not a current gap."
+    }
+  ],
+  "overall_certification": "Structurally ready for ad placement — clear content hierarchy, no intrusive elements, no navigation defects, no existing placement conflicts. Two operational prerequisites (cookie consent mechanism, ads.txt) are correctly not-yet-built for a pre-approval site and should be completed before, not after, ads go live. Mobile usability and CLS were not independently measured and are flagged as such rather than assumed."
+}
