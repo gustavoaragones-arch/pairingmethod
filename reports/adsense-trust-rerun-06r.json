@@ -1,0 +1,29 @@
+{
+  "phase": "AQ-06R4a",
+  "title": "Trust & Business Identity Re-Verification",
+  "date": "2026-08-15",
+  "methodology": "Re-checked every trust surface directly against the live site, not inherited from AQ-06C's findings. No redesign performed — per the ticket, only documented if a genuine new deficiency was found; none was.",
+  "about": { "status": "unchanged, sound", "evidence": "Substantive, specific methodology explanation; names the operating entity (Albor Digital LLC, Wyoming); visible contact email." },
+  "contact": { "status": "unchanged", "evidence": "No dedicated /contact page, but a real, visible, working mailto link on both homepage and About page, plus a structured ContactPoint in Organization schema. Same assessment as AQ-06C: satisfies the substance of a contact requirement." },
+  "business_identity": { "status": "unchanged, consistent", "evidence": "Albor Digital LLC / Wyoming / US consistently represented across Organization schema, About, and all 4 legal pages — re-verified directly this pass, not assumed." },
+  "ownership_transparency": { "status": "unchanged, clear", "evidence": "No shell-entity or anonymous-ownership signals anywhere checked." },
+  "legal_documents": {
+    "privacy": { "status": "unchanged, present, dated", "dates": "Effective Date: January 1, 2026, Last Updated: January 1, 2026" },
+    "terms": { "status": "unchanged, present, dated", "dates": "Effective Date: January 1, 2026, Last Updated: January 1, 2026" },
+    "cookie_policy": { "status": "unchanged, present, dated", "dates": "Effective Date: January 1, 2026" },
+    "disclaimer": { "status": "unchanged, present, dated", "dates": "Effective Date: January 1, 2026" },
+    "date_consistency": "All 4 legal pages carry the same effective date, internally consistent, no stale-looking mismatch."
+  },
+  "responsible_ai_disclosure": { "status": "unchanged, present, genuine", "evidence": "disclaimer.html §3 AI-Generated Content clause re-confirmed present and substantive — still an above-average trust signal for a site this size." },
+  "food_safety_allergen_disclaimer": { "status": "unchanged, still absent", "evidence": "No allergen/food-safety-specific language found in disclaimer.html. Same STILL OPEN, low-severity, non-policy finding as AQ-06C." },
+  "consistency_between_legal_identity_and_public_facing_site": {
+    "status": "confirmed consistent",
+    "evidence": "Business name, jurisdiction, and contact channel match exactly across Organization schema (index.html, about.html), the About page's prose, and all 4 legal pages' 'operated by Albor Digital LLC' framing. No discrepancy found."
+  },
+  "named_author_visibility": {
+    "status": "STILL OPEN, unchanged",
+    "evidence": "The homepage FAQ's specific authorship claim ('Content is authored by Gustavo Aragones...') remains present only in JSON-LD, absent from visible rendered text. Re-confirmed directly this pass. Not touched by AQ-07 or AQ-06R2 (outside their scope — narrative/template content, not homepage static content)."
+  },
+  "deficiencies_found_requiring_redesign": 0,
+  "overall_assessment": "Trust infrastructure remains fundamentally sound, re-verified directly rather than assumed unchanged. No new deficiency found. The 2 pre-existing findings (named-author visibility, no food-safety disclaimer) are unchanged, correctly carried forward as STILL OPEN in the baseline comparison, neither a policy violation."
+}
