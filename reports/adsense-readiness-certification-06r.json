@@ -1,0 +1,80 @@
+{
+  "phase": "AQ-06R8",
+  "title": "Final AdSense Readiness Certification",
+  "date": "2026-08-15",
+  "aq06_baseline": {
+    "result": "Ready after minor fixes",
+    "headline_finding": "AQ06-HC-01 (high severity): templated/jargon-leaking prose across 4 domains (328 leaf + 56 group + 10 category entities), 999 consumer-facing governance-language hits across 402 distinct entities.",
+    "other_findings": "8 additional findings (2 medium, 4 low, 2 informational), none policy violations.",
+    "policy_violations": 0
+  },
+  "aq07_remediation": {
+    "result": "PASS — Editorial Narrative Quality",
+    "scope": "335/1,166 leaf entities, 73/73 groups, 13/13 categories rewritten with entity-specific prose grounded in real governed wine-pairing relationships. 1,252/1,252 SEO descriptions certified.",
+    "gates_passed": "0 unjustified governance-language leaks, 0 critical/high/medium/low grammar defects, 0 collapsed wine narratives, 0 newly introduced unsupported claims."
+  },
+  "aq06_to_aq06r_comparison": {
+    "source": "reports/adsense-rerun-baseline-comparison-06r.json",
+    "closed": 1,
+    "still_open": 6,
+    "regressed": 0,
+    "not_applicable": 2,
+    "reclassified": 0,
+    "note": "AQ06-HC-01, the single high-severity finding, is CLOSED — independently re-verified, not inherited from AQ-07's own claim. No finding silently disappeared."
+  },
+  "current_google_policy_status": {
+    "source": "reports/adsense-policy-rerun-06r.json",
+    "method": "Re-fetched fresh, checked the Publisher Standards change log directly rather than assuming no drift since AQ-06A",
+    "policy_shift_since_aq06": "None found relevant to this site (5 most recent changes: sanctions list, gambling scope, disclosure alignment, regional monetization — none touch content quality, AI-generated content, ad placement, or invalid traffic)",
+    "policy_violations": 0,
+    "policy_risks": 0
+  },
+  "editorial_quality_status": {
+    "source": "reports/adsense-editorial-rerun-06r.json, reports/adsense-editorial-rerun-06r-remediation.json",
+    "aq07_scope_independently_reverified": "0 rendered governance-language hits in catalog-driven pages, confirmed via live-HTML scan, not just catalog re-scan",
+    "new_findings_beyond_aq07_scope": "4 (AQ06R-ED-02 through 05), all publication-template-layer, all remediated within this initiative",
+    "residual_findings": "1 (AQ06R-ED-01), low severity, catalog-layer, documented not fixed per regression rules",
+    "final_site_wide_scan_result": "3 hits remaining across 1,275 published pages, all documented and accounted for"
+  },
+  "trust_status": {
+    "source": "reports/adsense-trust-rerun-06r.json",
+    "new_deficiencies_found": 0,
+    "carried_forward_findings": 2,
+    "assessment": "Sound — real business identity, working contact, dated legal documents, genuine AI-disclosure clause"
+  },
+  "site_quality_status": {
+    "source": "reports/adsense-site-quality-rerun-06r.json",
+    "broken_orphaned_duplicate_pages": 0,
+    "cheese_exposure_check": "0 — confirmed unexposed despite large-scale regeneration",
+    "redirect_chains_loops": 0,
+    "sitemap_coverage": "0 missing, 0 stale"
+  },
+  "ad_placement_readiness": {
+    "source": "reports/adsense-site-quality-rerun-06r.json",
+    "ads_implemented": false,
+    "structural_readiness": "favorable, improved since AQ-06D on the previously-thinnest domains",
+    "prerequisites_before_ad_enablement": ["cookie-consent mechanism", "ads.txt (post-approval)"]
+  },
+  "human_reviewer_simulation": {
+    "source": "reports/adsense-reviewer-simulation-06r.md",
+    "summary": "Substantially improved editorial quality against AQ-06's own baseline on direct re-reading. No signs of mass-generated or low-value publishing. No unfinished sections. Monetization does not appear to be the site's primary purpose."
+  },
+  "remaining_blockers": [],
+  "remaining_non_blocking_recommendations": {
+    "medium": ["Surface the named-author claim as visible About-page text", "Build a cookie-consent mechanism before enabling personalized ads"],
+    "low": ["Fix dead 'View Bottle' links on dish-pairing pages", "Explain or remove 'Pairing Strength: XX%' scores", "Address the residual templated sentence on 3 dish-pairing pages", "Fix the 2 residual protein FAQ entries (catalog-layer)"],
+    "recommendation": ["Add a food-safety/allergen disclaimer", "Name Google/AdSense specifically in the cookie policy once ads go live"]
+  },
+  "overall_readiness_assessment": {
+    "policy_violations": 0,
+    "blockers": 0,
+    "high_severity_open_findings": 0,
+    "aq06_significant_finding_status": "demonstrably closed, independently re-verified",
+    "trust_infrastructure": "sound",
+    "site_quality": "sound",
+    "navigation": "sound",
+    "publication": "complete, all 11 domains regenerate deterministically, cheese correctly withheld",
+    "reviewer_simulation": "favorable"
+  },
+  "final_verdict": "READY FOR ADSENSE SUBMISSION"
+}

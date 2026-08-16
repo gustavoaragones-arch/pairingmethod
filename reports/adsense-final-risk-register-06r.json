@@ -1,0 +1,116 @@
+{
+  "phase": "AQ-06R7",
+  "title": "Final Risk Register",
+  "date": "2026-08-15",
+  "methodology": "Consolidates every finding surfaced across AQ-06R1-R6, each classified BLOCKER/HIGH/MEDIUM/LOW/RECOMMENDATION per the ticket's own definitions: a BLOCKER means 'do not submit until resolved'; a HIGH finding requires a concrete reason it could materially affect review. Ordinary improvement opportunities are never classified as blockers.",
+  "register": [
+    {
+      "id": "AQ06-HC-01",
+      "title": "Templated/jargon-leaking prose across 4 domains",
+      "severity": "CLOSED — not in final register as an open item",
+      "evidence": "reports/adsense-editorial-rerun-06r.json",
+      "source": "AQ-06, remediated by AQ-07, independently re-verified in AQ-06R2",
+      "affected_scope": "was 328-999 hits across 402+ entities; now 0 rendered hits",
+      "remediation_required_before_submission": false
+    },
+    {
+      "id": "AQ06R-ED-02_03_04_05",
+      "title": "Publication-template governance-language leaks (hub pages, wine-tier hubs/headings, site-wide footer)",
+      "severity": "CLOSED — not in final register as an open item",
+      "evidence": "reports/adsense-editorial-rerun-06r-remediation.json",
+      "source": "Discovered and remediated within AQ-06R2/AQ-06R2-FIX",
+      "affected_scope": "was ~1,300+ hits across ~350 pages (10 hubs + 1 directory + 90 wine-tier entity pages + 5 wine-tier hubs + a footer on ~1,261 pages); now 3 remaining, all in a different, documented, catalog-layer category",
+      "remediation_required_before_submission": false
+    },
+    {
+      "id": "AQ06R-ED-01",
+      "title": "2 protein FAQ entries retain pre-remediation text (catalog `faq` field, never checked by AQ-07's scanner)",
+      "severity": "LOW",
+      "evidence": "reports/adsense-editorial-rerun-06r.json",
+      "affected_scope": "2 entities (food.protein.soy-foods.miso, food.protein.mycoprotein.mycoprotein-fillet), visible in the rendered FAQ section only, does not reach meta description or JSON-LD",
+      "current_status": "documented, not fixed — catalog field, off-limits under AQ-06R's own regression rules",
+      "rationale": "Narrow (2 of 1,166+ entities), visible only in a secondary FAQ section a reviewer would need to scroll to and read carefully, not a systemic pattern",
+      "remediation_required_before_submission": false,
+      "recommended_owner": "The same future scoped editorial pass that would own any remaining catalog-layer work"
+    },
+    {
+      "id": "AQ06-TR-01",
+      "title": "Named-author claim exists only in JSON-LD, invisible to human readers",
+      "severity": "MEDIUM",
+      "evidence": "reports/adsense-trust-rerun-06r.json",
+      "affected_scope": "1 page (homepage), 1 claim",
+      "current_status": "STILL OPEN, unchanged since AQ-06",
+      "rationale": "A true claim under-surfaced, not a false one — a real but not policy-relevant trust-signal gap",
+      "remediation_required_before_submission": false
+    },
+    {
+      "id": "AQ06-AD-01",
+      "title": "No cookie-consent mechanism for future personalized-ads compliance",
+      "severity": "MEDIUM",
+      "evidence": "reports/adsense-site-quality-rerun-06r.json",
+      "affected_scope": "site-wide, but only relevant once ads are enabled",
+      "current_status": "STILL OPEN, unchanged since AQ-06",
+      "rationale": "Not a current violation (0 ads live) — a pre-monetization prerequisite, not a submission-time requirement",
+      "remediation_required_before_submission": false,
+      "remediation_required_before": "enabling personalized ads specifically, not before AdSense submission itself"
+    },
+    {
+      "id": "AQ06-PRIOR-01",
+      "title": "4-5 dead 'View Bottle' links on dish-pairing pages",
+      "severity": "LOW",
+      "evidence": "reports/adsense-site-quality-rerun-06r.json baseline comparison",
+      "affected_scope": "5 dish-pairing HTML files",
+      "current_status": "STILL OPEN, unchanged since AQ-01",
+      "remediation_required_before_submission": false
+    },
+    {
+      "id": "AQ06-PRIOR-02",
+      "title": "Unexplained 'Pairing Strength: XX%' confidence scores",
+      "severity": "LOW",
+      "affected_scope": "5 dish-pairing HTML files",
+      "current_status": "STILL OPEN, unchanged since AQ-01",
+      "remediation_required_before_submission": false
+    },
+    {
+      "id": "AQ06-PRIOR-03",
+      "title": "Repeated sentence structure on 3 dish-pairing pages ('{Wine} is the best if the dish is smoky for {dish} because {reason}')",
+      "severity": "LOW",
+      "affected_scope": "3 dish-pairing HTML files — distinct from, and much narrower than, the wine-tier hub/heading jargon already fixed in this initiative",
+      "current_status": "STILL OPEN, unchanged since AQ-01",
+      "remediation_required_before_submission": false
+    },
+    {
+      "id": "AQ06-TR-02",
+      "title": "No food-safety/allergen disclaimer",
+      "severity": "RECOMMENDATION",
+      "affected_scope": "site-wide (absence, not a defect on any specific page)",
+      "current_status": "STILL OPEN, unchanged since AQ-06",
+      "rationale": "No Google policy requires this — a reasonable care signal, not a compliance gap",
+      "remediation_required_before_submission": false
+    },
+    {
+      "id": "AQ06-TR-03",
+      "title": "Legal pages read as generic multi-product boilerplate",
+      "severity": "RECOMMENDATION",
+      "current_status": "NOT APPLICABLE — AQ-06 itself classified this as legitimate practice, not a defect",
+      "remediation_required_before_submission": false
+    },
+    {
+      "id": "AQ06-AD-02",
+      "title": "Mobile usability and Core Web Vitals not independently measured",
+      "severity": "RECOMMENDATION",
+      "current_status": "NOT APPLICABLE — a disclosed scope limitation, not a defect, both in AQ-06 and in AQ-06R's own mandate",
+      "remediation_required_before_submission": false
+    }
+  ],
+  "severity_summary": {
+    "blocker": 0,
+    "high": 0,
+    "medium": 2,
+    "low": 4,
+    "recommendation": 3
+  },
+  "blockers_present": false,
+  "high_findings_present": false,
+  "conclusion": "0 blockers, 0 high-severity findings. The single high-severity finding carried from AQ-06 (AQ06-HC-01) is closed. The most significant findings this re-certification itself surfaced (AQ06R-ED-02 through 05, publication-template jargon reaching a majority of the site's pages) were remediated within this same initiative and are also closed. Every remaining open item is medium or lower, none rises to a submission blocker, and none was manufactured to pad this register — each is either a pre-existing, previously-disclosed, out-of-scope item or a narrow residual explicitly documented rather than fixed per this initiative's own regression rules."
+}
