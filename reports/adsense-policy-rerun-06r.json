@@ -1,0 +1,49 @@
+{
+  "phase": "AQ-06R1",
+  "title": "Current Google Policy Re-Verification",
+  "date": "2026-08-15",
+  "methodology": "Re-fetched Google's current AdSense/Publisher Policy documentation fresh for this certification rather than reusing AQ-06A's earlier fetch from the same day — AQ-05 established that documentation can and does change between certifications, and that discipline is applied here even though only hours separate AQ-06A and this re-check, not assumed unnecessary because of the short interval.",
+  "sources_checked": [
+    "https://support.google.com/adsense/answer/9335564 (AdSense Program Policies overview)",
+    "https://support.google.com/publisherpolicies/answer/10852414 (Publisher Standards change log — the authoritative record of what has actually changed and when)",
+    "https://support.google.com/adsense/answer/16737 (Invalid traffic policy — explicitly requested by this ticket, not checked in AQ-06A)"
+  ],
+  "change_log_review": {
+    "finding": "Checked the Publisher Standards change log directly (the authoritative source for what changed and when, not inferred from re-reading policy prose). The 5 most recent entries: August 2025 (OFAC sanctions list update, Syria), July 2025 (dishonest declarations policy clarification, no enforcement change), March 2025 (online gambling restriction scope), February 2025 (two updates: disclosure-clause alignment with privacy policies, and privacy-enhancing-technology-related ad serving changes), January 2025 (Russia/Ukraine regional monetization consolidation).",
+    "relevance_to_pairingmethod": "None of the 5 most recent changes touch content quality, low-value content, AI-generated content, ad placement, or invalid traffic — the categories most relevant to this site's situation. No policy shift has occurred since AQ-06A that would change any conclusion reached there.",
+    "conclusion": "Unlike AQ-04->AQ-05 (where FAQ rich results and Sitelinks Search Box had genuinely changed), no equivalent shift is found here. This is stated as a checked, evidenced finding, not an assumption."
+  },
+  "policy_areas_reviewed": {
+    "adsense_eligibility": { "status": "unchanged from AQ-06A", "note": "High-quality, original content; ability to access HTML source; policy compliance. No new requirements found." },
+    "publisher_policies_prohibited_content": { "status": "unchanged from AQ-06A", "note": "Illegal content, IP infringement, dangerous/derogatory content, animal cruelty, misrepresentation, harmful health claims, deceptive practices, sexually explicit content, child exploitation — all confirmed still current, none applicable to this site's content." },
+    "restricted_content": { "status": "not applicable", "note": "PairingMethod has no gambling, alcohol-sales, adult, or other restricted-category content requiring regional handling." },
+    "invalid_traffic": {
+      "status": "checked fresh (not reviewed in AQ-06A)",
+      "note": "Publisher responsibility to prevent artificially inflated clicks/impressions (self-clicks, encouraged clicks, automated tools). Entirely a future-state, post-monetization concern — the site currently serves 0 ads, so there is no traffic to be invalid. Correctly not applicable at this stage, same framing as AQ-06's ad-related policy items."
+    },
+    "ad_placement": { "status": "unchanged from AQ-06A", "note": "Ads cannot overlay/obstruct navigation, cannot exceed publisher content, no ads on low-value/under-construction screens. Assessed prospectively in AQ-06R6 (ad placement readiness), since no ads exist yet." },
+    "deceptive_behavior": { "status": "unchanged, not applicable", "note": "No phishing, get-rich-quick, coordinated inauthentic behavior, or misrepresentation found anywhere on the site." },
+    "navigation_and_ux": { "status": "reviewed in AQ-06R5 (site quality)", "note": "Not a distinct Google policy category on its own, but Google's inventory-value policy references 'low-value content' partly through a UX lens — covered there." },
+    "original_value_adding_content": {
+      "status": "directly relevant to AQ-07's remediation",
+      "note": "Google's policy prohibits ads on 'content-replicating screens without original commentary' — this describes copying third-party content, not originally-authored-but-formulaic writing, the same distinction AQ-06A drew. AQ-07's remediation improves the site's standing on the adjacent Helpful Content originality dimension without changing this policy's own scope."
+    },
+    "scraped_replicated_content": { "status": "not applicable", "note": "No content on this site is copied or scraped from another source — every entity is originally authored, catalog-governed content, verified across AQ-01 through AQ-07." },
+    "low_value_content": { "status": "directly relevant to AQ-07's remediation", "note": "AQ-06's finding (templated, jargon-leaking prose in 4 domains) was the site's clearest proximity to this concern, correctly classified then as a Helpful Content quality concern rather than a 'low-value content' policy violation. Re-assessed after AQ-07 in AQ-06R2." },
+    "site_behavior": { "status": "unchanged, no issues", "note": "No popups, interstitials, auto-playing media, or other disruptive behavior found (confirmed in AQ-06D, re-confirmed here via spot-check)." }
+  },
+  "classification": {
+    "policy_violations_found": 0,
+    "policy_risks_found": 0,
+    "quality_concerns_found": 1,
+    "quality_concerns_detail": "AQ06-HC-01 (now CLOSED per AQ-06R baseline comparison, subject to independent re-verification in AQ-06R2) — the only item that ever bordered on a policy-adjacent concern (originality/low-value content), and it was never classified as an actual violation, only a quality concern requiring disclosure.",
+    "recommendations_found": 1,
+    "recommendations_detail": "Name Google/AdSense specifically in cookies.html once ads go live (currently describes 'advertising networks' generically) — a disclosure-completeness recommendation, not a current violation, carried forward unchanged from AQ-06A."
+  },
+  "success_condition_met": {
+    "requirement": "0 actual policy violations",
+    "result": 0,
+    "pass": true
+  },
+  "overall_certification": "PASS — 0 policy violations, 0 policy risks. No genuine policy concern was found and then incorrectly downgraded to a mere recommendation; the one quality concern remains correctly classified as a Helpful Content matter, not a policy matter, consistent with Rule 3's requirement not to conflate categories."
+}

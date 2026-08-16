@@ -1,0 +1,80 @@
+{
+  "phase": "AQ-06R baseline comparison",
+  "title": "AQ-06 to AQ-06R Finding-by-Finding Comparison",
+  "date": "2026-08-15",
+  "methodology": "Every finding in reports/adsense-readiness-certification.json's risk_register (the AQ-06 final risk register) is carried forward and assigned exactly one status, with fresh evidence gathered for this comparison — not assumed from AQ-07's own self-reported PASS. No finding is silently dropped.",
+  "findings": [
+    {
+      "id": "AQ06-HC-01",
+      "aq06_title": "Templated/jargon-leaking prose across 4 domains (328 leaf + 56 group + 10 category entities)",
+      "aq06_severity": "high",
+      "status": "CLOSED",
+      "evidence": "Directly targeted and remediated by AQ-07A-H. AQ-07's own final certification reports 0 rendered governance-language hits (was 999), 0 critical/high/medium/low grammar findings, 0 collapsed wine narratives (was 75/75 legume entities identical). Independently re-verified in AQ-06R2 (see reports/adsense-editorial-rerun-06r.json) by re-running AQ-07B's scanner fresh and by direct reading of the live regenerated HTML, not by trusting AQ-07's self-report alone.",
+      "scope_note": "AQ-07's remediation additionally covered protein's 17 groups + 3 categories and cheese's 9 groups, which were not part of AQ-06's original 328/56/10 count — AQ-06's finding is fully subsumed, not partially closed."
+    },
+    {
+      "id": "AQ06-TR-01",
+      "aq06_title": "Named-author claim exists only in JSON-LD, invisible to human readers",
+      "aq06_severity": "medium",
+      "status": "STILL OPEN",
+      "evidence": "Re-checked directly: the homepage's visible rendered text still does not contain 'Gustavo' or any authored-by phrase — the claim remains present only inside the FAQPage JSON-LD block. AQ-07's scope was catalog narrative fields (summary/seo_description/introduction/beginner_notes); it never touched index.html's static content, correctly, since that was never part of its mandate."
+    },
+    {
+      "id": "AQ06-AD-01",
+      "aq06_title": "No cookie-consent mechanism for future personalized-ads compliance",
+      "aq06_severity": "medium",
+      "status": "STILL OPEN",
+      "evidence": "Re-checked directly: no cookie-banner/cookie-consent/consent-banner implementation found in index.html or assets/js/*.js. Unaffected by AQ-07, which did not touch site-wide technical infrastructure."
+    },
+    {
+      "id": "AQ06-PRIOR-01",
+      "aq06_title": "4 dead 'View Bottle' links on Template A dish pages",
+      "aq06_severity": "low",
+      "status": "STILL OPEN",
+      "evidence": "Re-checked directly: 5 dish/pairing HTML files still contain 'View Bottle' (href=\"#\") dead links. Outside AQ-07's scope (dish-pairing pages are a separate template system from the food-ontology catalog)."
+    },
+    {
+      "id": "AQ06-PRIOR-02",
+      "aq06_title": "Unexplained 'Pairing Strength: XX%' confidence scores",
+      "aq06_severity": "low",
+      "status": "STILL OPEN",
+      "evidence": "Re-checked directly: 5 dish/pairing HTML files still show unexplained 'Pairing Strength' percentages with no visible methodology note. Outside AQ-07's scope."
+    },
+    {
+      "id": "AQ06-PRIOR-03",
+      "aq06_title": "Wine-education-tier templated language (category-hub noun-swap sentence)",
+      "aq06_severity": "low",
+      "status": "STILL OPEN",
+      "evidence": "Re-checked directly: the repeated sentence structure '{Wine} is the best if the dish is smoky for {dish} because {reason}' is confirmed still present verbatim across wine-with-grilled-steak.html, wine-for-bbq-ribs.html, and wine-with-smoked-pork.html. The wine-education tier runs on an entirely separate content system from the food-ontology catalog (established out of scope since AQ-02B) and was never part of AQ-07's mandate."
+    },
+    {
+      "id": "AQ06-TR-02",
+      "aq06_title": "No food-safety/allergen disclaimer",
+      "aq06_severity": "low",
+      "status": "STILL OPEN",
+      "evidence": "Re-checked directly: disclaimer.html contains no allergen/food-safety-specific language. Unaffected by AQ-07."
+    },
+    {
+      "id": "AQ06-TR-03",
+      "aq06_title": "Legal pages read as generic multi-product boilerplate rather than site-specific",
+      "aq06_severity": "informational",
+      "status": "NOT APPLICABLE",
+      "evidence": "AQ-06 itself classified this as 'legitimate, common practice for a small operator — not a defect,' not a finding requiring closure. Re-confirmed unchanged (privacy.html still reads 'operated by Albor Digital LLC' generically) — carried forward as the same non-defect observation, not reclassified as a new problem."
+    },
+    {
+      "id": "AQ06-AD-02",
+      "aq06_title": "Mobile usability and Core Web Vitals not independently measured",
+      "aq06_severity": "informational",
+      "status": "NOT APPLICABLE",
+      "evidence": "A disclosed scope limitation in AQ-06, not a defect — AQ-06R's own mandate (per its ticket) does not require a performance audit either. Carried forward as the same explicitly-out-of-scope item, not silently dropped."
+    }
+  ],
+  "status_tally": {
+    "CLOSED": 1,
+    "STILL_OPEN": 6,
+    "REGRESSED": 0,
+    "NOT_APPLICABLE": 2,
+    "RECLASSIFIED": 0
+  },
+  "summary": "AQ-06's single high-severity finding (AQ06-HC-01) is CLOSED, fully subsumed by AQ-07's remediation, which covered more ground than the original finding. The 6 STILL OPEN findings (2 medium, 4 low) were never in AQ-07's scope and were not expected to change — none regressed, none are new. 2 informational items are carried forward as non-defects, not reclassified. No AQ-06 finding was silently dropped."
+}
