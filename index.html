@@ -91,8 +91,15 @@
     <section id="start-pairing" class="engine-entry engine-hero" aria-label="Pairing engine">
       <div id="pairing-engine-root"></div>
       <div class="matrix-section-header" aria-label="Why these wines match">
-        <h2 class="matrix-section-title">Why These Wines Match</h2>
-        <p class="matrix-section-lede">See how each ingredient scores against wine styles at a glance.</p>
+        <div class="matrix-section-heading">
+          <h2 class="matrix-section-title">Why These Wines Match</h2>
+          <p class="matrix-section-lede">See how each ingredient scores against wine styles at a glance.</p>
+        </div>
+        <ul class="matrix-legend" aria-label="Matrix status legend">
+          <li class="matrix-legend-item"><span class="status-icon status-ideal" aria-hidden="true">✓</span>Ideal Match</li>
+          <li class="matrix-legend-item"><span class="status-icon status-works" aria-hidden="true">−</span>Works Well</li>
+          <li class="matrix-legend-item"><span class="status-icon status-none" aria-hidden="true">×</span>Not a Match</li>
+        </ul>
       </div>
       <div id="matrix-root" aria-label="Pairing matrix heatmap"></div>
       <div id="dynamic-content" aria-label="Pairing insights"></div>

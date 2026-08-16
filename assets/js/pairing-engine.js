@@ -10,7 +10,7 @@ import {
   FILTER_GROUPS,
   CATEGORY_WEIGHTS,
 } from "./pairing-data.js";
-import { renderMatrix } from "./matrix-view.js";
+import { renderMatrix, statusIconHtml } from "./matrix-view.js";
 import { generateContent } from "./content-engine.js";
 import { injectInternalLinks } from "./internal-links.js";
 import {
@@ -271,9 +271,13 @@ function scoreWineStyle(style) {
 
 /**
  * Explain top drivers for this style from current selections (max 3 lines).
+ * Returns the underlying matrix value alongside each line so callers that
+ * want a matching status icon (the "Why This Works" section) can render
+ * one from the same value the matrix itself uses — never a second,
+ * independently-guessed classification.
  * @param {string} style
  */
-function buildReasoning(style) {
+function buildReasoningDetailed(style) {
   const positives = [];
   const negatives = [];
 
@@ -281,11 +285,16 @@ function buildReasoning(style) {
     const val = PAIRING_MATRIX[selection]?.[style];
     if (val === undefined) return;
     const label = humanizeNode(selection);
-    if (val === 3) positives.push(`${label} is an ideal match`);
-    if (val === 0) negatives.push(`${label} conflicts`);
+    if (val === 3) positives.push({ val, text: `${label} is an ideal match` });
+    if (val === 0) negatives.push({ val, text: `${label} conflicts` });
   });
 
   return [...positives.slice(0, 2), ...negatives.slice(0, 1)];
+}
+
+/** Plain-text reasoning lines (result-card use — unchanged shape/behavior). */
+function buildReasoning(style) {
+  return buildReasoningDetailed(style).map((r) => r.text);
 }
 
 function baselineReasons() {
@@ -426,13 +435,15 @@ function formatWhyHtml(content, topRow, selectionCount) {
     return `<p>${escapeHtml(content.why)}</p>`;
   }
 
-  const bullets = buildReasoning(topRow.style).slice(0, 5);
+  const bullets = buildReasoningDetailed(topRow.style).slice(0, 5);
   if (bullets.length === 0) {
     return `<p>${escapeHtml(content.why)}</p>`;
   }
 
   const intro = `Your top match, ${formatStyleTitle(topRow.style)}, aligns with your current ingredient selections.`;
-  const list = bullets.map((b) => `<li>${escapeHtml(b)}</li>`).join("");
+  const list = bullets
+    .map((b) => `<li>${statusIconHtml(b.val)}${escapeHtml(b.text)}</li>`)
+    .join("");
 
   return `<p>${escapeHtml(intro)}</p><ul class="why-bullets">${list}</ul>`;
 }

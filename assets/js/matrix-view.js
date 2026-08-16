@@ -28,11 +28,31 @@ function activeSelectionsOrdered(state) {
   return out;
 }
 
-function getClass(val) {
-  if (val === 3) return "cell-perfect";
-  if (val === 2) return "cell-strong";
-  if (val === 1) return "cell-ok";
-  return "cell-none";
+/**
+ * Single source of truth mapping a 0–3 matrix value to one of the three
+ * approved semantic states. Shared by the matrix cells and the "Why This
+ * Works" bullets (pairing-engine.js imports this) so the same underlying
+ * value always produces the same icon and label everywhere — never a
+ * second, independent classification.
+ * @param {number} val
+ */
+export function getMatchStatus(val) {
+  if (val >= 3) return { symbol: "✓", label: "Ideal Match", cssClass: "status-ideal" };
+  if (val >= 1) return { symbol: "−", label: "Works Well", cssClass: "status-works" };
+  return { symbol: "×", label: "Not a Match", cssClass: "status-none" };
+}
+
+/**
+ * Renders one status icon: colored circle + symbol, never color alone.
+ * Always aria-hidden — the icon is a visual reinforcement of meaning that
+ * an enclosing element or adjacent text already states in full (the
+ * matrix cell's own aria-label, or the "Why This Works" bullet's
+ * sentence). Giving the icon its own aria-label as well would duplicate
+ * that announcement for screen reader users, not add information.
+ */
+export function statusIconHtml(val) {
+  const status = getMatchStatus(val);
+  return `<span class="status-icon ${status.cssClass}" aria-hidden="true">${status.symbol}</span>`;
 }
 
 function formatLabel(str) {
@@ -42,38 +62,12 @@ function formatLabel(str) {
     .join(" ");
 }
 
-function buildTooltip(selection, style, val) {
+/** Accessible per-cell label: "{Food} — {Wine}: {Status}" (never color-only). */
+function cellAriaLabel(selection, style, val) {
   const food = formatLabel(selection);
   const wine = formatLabel(style);
-  if (val === 3) {
-    return `${food} × ${wine}: perfect pairing — structural alignment`;
-  }
-  if (val === 2) {
-    return `${food} × ${wine}: strong pairing — good balance`;
-  }
-  if (val === 1) {
-    return `${food} × ${wine}: acceptable pairing`;
-  }
-  return `${food} × ${wine}: not recommended`;
-}
-
-/**
- * @param {number} val
- * @param {string} selection
- * @param {string} style
- */
-function dot(val, selection, style) {
-  if (!val) return "";
-
-  const tip = escapeHtml(buildTooltip(selection, style, val));
-  return `<span class="matrix-dot" data-tip="${tip}" tabindex="0" role="img" aria-label="${tip}">●</span>`;
-}
-
-function cellTitle(val) {
-  if (val === 3) return "Perfect pairing (poster large dot)";
-  if (val === 2) return "Strong pairing";
-  if (val === 1) return "Acceptable pairing";
-  return "Avoid or poor pairing for this row";
+  const { label } = getMatchStatus(val);
+  return `${food} — ${wine}: ${label}`;
 }
 
 function isTop(style, results) {
@@ -113,11 +107,10 @@ export function renderMatrix(state, results) {
         <div class="matrix-label" role="rowheader">${escapeHtml(formatLabel(sel))}</div>
         ${WINE_STYLES.map((style) => {
           const val = row[style] ?? 0;
-          const cls = getClass(val);
-          const title = escapeHtml(cellTitle(val));
+          const label = escapeHtml(cellAriaLabel(sel, style, val));
           return `
-          <div class="matrix-cell ${cls}" role="gridcell" title="${title}" aria-label="${title}">
-            ${dot(val, sel, style)}
+          <div class="matrix-cell" role="gridcell" aria-label="${label}">
+            ${statusIconHtml(val)}
           </div>
         `;
         }).join("")}
