@@ -18,7 +18,7 @@
           "breadcrumb": {
             "@id": "https://pairingmethod.com/legume-categories/legume/#breadcrumb"
           },
-          "description": "Explore canonical culinary legumes and pulses by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+          "description": "Culinary legumes across six groups: Beans, Peas, Lentils, Chickpeas, Other Legumes, and Legume Products.",
           "isPartOf": {
             "@type": "WebSite",
             "name": "Pairing Method",
@@ -57,7 +57,7 @@
           "@id": "https://pairingmethod.com/legume-categories/legume/#definedtermset",
           "@type": "DefinedTermSet",
           "alternateName": "legume",
-          "description": "Explore canonical culinary legumes and pulses by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+          "description": "Culinary legumes across six groups: Beans, Peas, Lentils, Chickpeas, Other Legumes, and Legume Products.",
           "hasPart": [
             {
               "@id": "https://pairingmethod.com/legume-groups/beans/#definedtermset",

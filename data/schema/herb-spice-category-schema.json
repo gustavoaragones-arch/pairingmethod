@@ -18,7 +18,7 @@
           "breadcrumb": {
             "@id": "https://pairingmethod.com/herb-spice-categories/herb/#breadcrumb"
           },
-          "description": "Explore canonical culinary herbs and spices by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+          "description": "Culinary herbs and spices across four groups: Fresh Herbs, Dried Herbs, Whole Spices, and Ground & Blended Spices.",
           "isPartOf": {
             "@type": "WebSite",
             "name": "Pairing Method",
@@ -57,7 +57,7 @@
           "@id": "https://pairingmethod.com/herb-spice-categories/herb/#definedtermset",
           "@type": "DefinedTermSet",
           "alternateName": "herb",
-          "description": "Explore canonical culinary herbs and spices by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+          "description": "Culinary herbs and spices across four groups: Fresh Herbs, Dried Herbs, Whole Spices, and Ground & Blended Spices.",
           "hasPart": [
             {
               "@id": "https://pairingmethod.com/herb-spice-groups/dried-herbs/#definedtermset",

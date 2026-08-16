@@ -1,24 +1,20 @@
 {
   "domains": [
     "protein",
-    "cheese",
-    "fruit",
     "vegetable",
-    "grain-starch",
-    "legume",
-    "nut-seed",
+    "fungi",
     "herb-spice",
+    "grain-starch",
+    "fruit",
+    "nut-seed",
+    "legume",
     "sweet-flavor",
-    "sauce-condiment",
-    "fungi"
+    "sauce-condiment"
   ],
   "metrics": {
     "Overall result": "PASS",
-    "Promotion targets": 36,
+    "Promotion targets": 33,
     "Validation errors": 0,
-    "cheese categories pages promoted": 1,
-    "cheese groups pages promoted": 9,
-    "cheese leaf pages promoted": 204,
     "fruit categories pages promoted": 1,
     "fruit groups pages promoted": 7,
     "fruit leaf pages promoted": 119,
@@ -72,42 +68,6 @@
       "target": "categories"
     },
     {
-      "domain": "cheese",
-      "html_files": 204,
-      "source": "dist/cheeses",
-      "target": "cheeses"
-    },
-    {
-      "domain": "cheese",
-      "html_files": 9,
-      "source": "dist/cheese-groups",
-      "target": "cheese-groups"
-    },
-    {
-      "domain": "cheese",
-      "html_files": 1,
-      "source": "dist/cheese-categories",
-      "target": "cheese-categories"
-    },
-    {
-      "domain": "fruit",
-      "html_files": 119,
-      "source": "dist/fruits",
-      "target": "fruits"
-    },
-    {
-      "domain": "fruit",
-      "html_files": 7,
-      "source": "dist/fruit-groups",
-      "target": "fruit-groups"
-    },
-    {
-      "domain": "fruit",
-      "html_files": 1,
-      "source": "dist/fruit-categories",
-      "target": "fruit-categories"
-    },
-    {
       "domain": "vegetable",
       "html_files": 74,
       "source": "dist/vegetables",
@@ -124,6 +84,42 @@
       "html_files": 1,
       "source": "dist/vegetable-categories",
       "target": "vegetable-categories"
+    },
+    {
+      "domain": "fungi",
+      "html_files": 43,
+      "source": "dist/fungi",
+      "target": "fungi"
+    },
+    {
+      "domain": "fungi",
+      "html_files": 4,
+      "source": "dist/fungi-groups",
+      "target": "fungi-groups"
+    },
+    {
+      "domain": "fungi",
+      "html_files": 1,
+      "source": "dist/fungi-categories",
+      "target": "fungi-categories"
+    },
+    {
+      "domain": "herb-spice",
+      "html_files": 113,
+      "source": "dist/herbs-spices",
+      "target": "herbs-spices"
+    },
+    {
+      "domain": "herb-spice",
+      "html_files": 4,
+      "source": "dist/herb-spice-groups",
+      "target": "herb-spice-groups"
+    },
+    {
+      "domain": "herb-spice",
+      "html_files": 1,
+      "source": "dist/herb-spice-categories",
+      "target": "herb-spice-categories"
     },
     {
       "domain": "grain-starch",
@@ -144,22 +140,22 @@
       "target": "grain-starch-categories"
     },
     {
-      "domain": "legume",
-      "html_files": 75,
-      "source": "dist/legumes",
-      "target": "legumes"
+      "domain": "fruit",
+      "html_files": 119,
+      "source": "dist/fruits",
+      "target": "fruits"
     },
     {
-      "domain": "legume",
-      "html_files": 6,
-      "source": "dist/legume-groups",
-      "target": "legume-groups"
+      "domain": "fruit",
+      "html_files": 7,
+      "source": "dist/fruit-groups",
+      "target": "fruit-groups"
     },
     {
-      "domain": "legume",
+      "domain": "fruit",
       "html_files": 1,
-      "source": "dist/legume-categories",
-      "target": "legume-categories"
+      "source": "dist/fruit-categories",
+      "target": "fruit-categories"
     },
     {
       "domain": "nut-seed",
@@ -180,22 +176,22 @@
       "target": "nut-seed-categories"
     },
     {
-      "domain": "herb-spice",
-      "html_files": 113,
-      "source": "dist/herbs-spices",
-      "target": "herbs-spices"
+      "domain": "legume",
+      "html_files": 75,
+      "source": "dist/legumes",
+      "target": "legumes"
     },
     {
-      "domain": "herb-spice",
-      "html_files": 4,
-      "source": "dist/herb-spice-groups",
-      "target": "herb-spice-groups"
+      "domain": "legume",
+      "html_files": 6,
+      "source": "dist/legume-groups",
+      "target": "legume-groups"
     },
     {
-      "domain": "herb-spice",
+      "domain": "legume",
       "html_files": 1,
-      "source": "dist/herb-spice-categories",
-      "target": "herb-spice-categories"
+      "source": "dist/legume-categories",
+      "target": "legume-categories"
     },
     {
       "domain": "sweet-flavor",
@@ -232,24 +228,6 @@
       "html_files": 1,
       "source": "dist/sauce-condiment-categories",
       "target": "sauce-condiment-categories"
-    },
-    {
-      "domain": "fungi",
-      "html_files": 43,
-      "source": "dist/fungi",
-      "target": "fungi"
-    },
-    {
-      "domain": "fungi",
-      "html_files": 4,
-      "source": "dist/fungi-groups",
-      "target": "fungi-groups"
-    },
-    {
-      "domain": "fungi",
-      "html_files": 1,
-      "source": "dist/fungi-categories",
-      "target": "fungi-categories"
     },
     {
       "html_files": 0,

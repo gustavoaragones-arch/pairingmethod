@@ -1,0 +1,48 @@
+{
+  "phase": "AQ-07G",
+  "title": "Regeneration and Publication Verification",
+  "date": "2026-08-15",
+  "pipeline_run": {
+    "stages": ["projections", "pages", "schema", "html", "release certification", "search index", "sitemap", "promotion"],
+    "domains_regenerated": 11,
+    "domains_promoted_to_root": 10,
+    "cheese_promoted": false,
+    "cheese_promotion_note": "Explicitly excluded from the promote-food-release-deploy01.mjs argument list (only the 10 published domain ids passed) — cheese remains untracked at the repository root, confirmed via git status showing cheese-categories/, cheese-groups/, cheeses/ still as untracked directories, not staged. This deliberately does not repeat the AQ-04B incident (the promote script's own defaults include cheese) — the lesson from that incident (documented in SEARCH-001, docs/SEARCH_REPRESENTATION_GOVERNANCE.md) was applied here rather than re-learned."
+  },
+  "per_domain_pipeline_results": {
+    "protein": "PASS", "cheese": "PASS (built, not promoted)", "vegetable": "PASS", "fungi": "PASS",
+    "herb-spice": "PASS", "grain-starch": "PASS", "fruit": "PASS", "nut-seed": "PASS",
+    "legume": "PASS", "sweet-flavor": "PASS", "sauce-condiment": "PASS"
+  },
+  "per_domain_release_certification": {
+    "protein": "PASS", "cheese": "PASS", "vegetable": "PASS", "fungi": "PASS",
+    "herb-spice": "PASS", "grain-starch": "PASS", "fruit": "PASS", "nut-seed": "PASS",
+    "legume": "PASS", "sweet-flavor": "PASS", "sauce-condiment": "PASS"
+  },
+  "cross_cutting_verification": {
+    "search_index": { "entries": 1038, "status": "regenerated, matches published entity count exactly" },
+    "sitemap": { "status": "regenerated via the published-domain-aware AQ-02B2 registry script (scripts/generate-sitemap-index.mjs), not the promote script's own flawed builder — diff confirmed as lastmod-timestamp-only, 0 cheese entries" },
+    "relationship_provenance": { "total_checked": 4140, "violations": 0, "wine_targets_checked": 1692, "unknown_targets": 0, "status": "PASS, unchanged from pre-AQ-07 baseline (AQ-02B3/AQ-05A)" },
+    "reachability_orphans": { "total_expected": 1038, "orphan_count": 0, "status": "PASS, unchanged from pre-AQ-07 baseline" },
+    "google_crawlability": "PASS (fresh re-run, AQ-05A's certification)",
+    "google_indexability": "PASS (fresh re-run, AQ-05B's certification)",
+    "google_rich_results": "PASS (fresh re-run, AQ-05C's certification)",
+    "jsonld_validation": { "issues": 0, "status": "PASS (fresh re-run, AQ-04F's certification)" },
+    "ontology_mapping": { "issues": 0, "status": "PASS (fresh re-run, AQ-04C's certification)" }
+  },
+  "live_content_spot_check": {
+    "method": "Read the actual served meta description tag directly from the regenerated root HTML file",
+    "example": "legumes/adzuki-bean/index.html <meta name=\"description\"> now reads the AQ-07C-authored text ('Adzuki beans are small, deep-red Japanese and East Asian beans...'), confirmed live in the file a browser would actually receive, not just in the source catalog."
+  },
+  "regression_verification": {
+    "ontology_changes": false,
+    "catalog_structural_changes": false,
+    "runtime_changes": false,
+    "editorial_relationship_changes": false,
+    "wine_relationship_changes": false,
+    "governance_changes": false,
+    "method": "git status/diff against data/runtime/, lib/editorial/, lib/runtime/, docs/, and every data/*-catalog.json (already committed in prior AQ-07 milestones, confirmed unchanged by this regeneration step) — all clean.",
+    "publication_layer_changes": "Expected and correct: data/projections/*, data/pages/*, data/schema/*, dist/*, root-promoted HTML for all 10 published domains, assets/js/food-ontology-search-index.js, sitemap.xml, release-manifest.json — all downstream regenerated artifacts of the AQ-07C catalog content change, not independent modifications."
+  },
+  "overall_certification": "PASS"
+}

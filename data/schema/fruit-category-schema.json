@@ -18,7 +18,7 @@
           "breadcrumb": {
             "@id": "https://pairingmethod.com/fruit-categories/fruit/#breadcrumb"
           },
-          "description": "Explore canonical culinary fruits and berries by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+          "description": "Culinary fruits across seven groups: Pomes, Stone Fruits, Citrus, Berries, Tropical Fruits, Melons, and Processed Fruits.",
           "isPartOf": {
             "@type": "WebSite",
             "name": "Pairing Method",
@@ -57,7 +57,7 @@
           "@id": "https://pairingmethod.com/fruit-categories/fruit/#definedtermset",
           "@type": "DefinedTermSet",
           "alternateName": "fruit",
-          "description": "Explore canonical culinary fruits and berries by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+          "description": "Culinary fruits across seven groups: Pomes, Stone Fruits, Citrus, Berries, Tropical Fruits, Melons, and Processed Fruits.",
           "hasPart": [
             {
               "@id": "https://pairingmethod.com/fruit-groups/berries/#definedtermset",

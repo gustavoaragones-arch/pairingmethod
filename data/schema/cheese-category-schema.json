@@ -18,7 +18,7 @@
           "breadcrumb": {
             "@id": "https://pairingmethod.com/cheese-categories/cheese/#breadcrumb"
           },
-          "description": "Explore canonical cheeses by taxonomy group — milk source, aging, texture, rind type, and geographic protection status for wine pairing ontology.",
+          "description": "Cheeses across nine style groups: Fresh, Bloomy Rind, Washed Rind, Natural Rind, Blue, Semi-Hard, Hard, Pasta Filata, and Brined.",
           "isPartOf": {
             "@type": "WebSite",
             "name": "Pairing Method",
@@ -57,7 +57,7 @@
           "@id": "https://pairingmethod.com/cheese-categories/cheese/#definedtermset",
           "@type": "DefinedTermSet",
           "alternateName": "cheese",
-          "description": "Explore canonical cheeses by taxonomy group — milk source, aging, texture, rind type, and geographic protection status for wine pairing ontology.",
+          "description": "Cheeses across nine style groups: Fresh, Bloomy Rind, Washed Rind, Natural Rind, Blue, Semi-Hard, Hard, Pasta Filata, and Brined.",
           "hasPart": [
             {
               "@id": "https://pairingmethod.com/cheese-groups/bloomy-rind/#definedtermset",
