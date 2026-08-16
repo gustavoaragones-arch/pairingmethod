@@ -11,13 +11,13 @@
       "entity_type": "grain_starch_category",
       "external_ids": {},
       "id": "food.grain",
-      "introduction": "The Grain & Starch Ontology catalogs canonical culinary grains, pseudocereals, processed grain forms, and starches used worldwide as staple ingredients. This domain models culinary ingredients, not prepared foods or crop science.",
+      "introduction": "This domain covers culinary grains, pseudocereals, processed grain forms, and starches used worldwide as staple ingredients — organized around how they're used in the kitchen, not prepared foods or crop science.",
       "name": "Grains & Starches",
       "scientific_name": "",
-      "seo_description": "Explore canonical culinary grains, pseudocereals, and starches by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+      "seo_description": "Culinary grains, pseudocereals, processed grain forms, and starches across four groups: Whole Grains, Pseudocereals, Processed Grains, and Starches.",
       "seo_title": "Grains & Starches — Food Ontology",
       "slug": "grain-starch",
-      "summary": "Canonical culinary grains and starches across four immutable groups: Whole Grains, Pseudocereals, Processed Grains, and Starches."
+      "summary": "Culinary grains, pseudocereals, processed grain forms, and starches across four groups: Whole Grains, Pseudocereals, Processed Grains, and Starches."
     }
   ],
   "grain_starches": [
@@ -498,12 +498,12 @@
       "related_styles": [],
       "related_techniques": [],
       "scientific_name": "Zea mays",
-      "seo_description": "Field corn grain delivers sweet starchy backbone to polenta, tortillas, and Latin American staples — distinct from fresh sweet corn in the Vegetable Ont...",
+      "seo_description": "Field corn grain delivers sweet starchy backbone to polenta, tortillas, and Latin American staples — distinct from fresh sweet corn (a vegetable), it ...",
       "seo_title": "Corn — Grain & Starch Ontology",
       "similar_grain_starches": [],
       "slug": "corn",
       "substitutions": [],
-      "summary": "Field corn grain delivers sweet starchy backbone to polenta, tortillas, and Latin American staples — distinct from fresh sweet corn in the Vegetable Ontology, it pairs with Viognier, Mexican lagers, and Zinfandel.",
+      "summary": "Field corn grain delivers sweet starchy backbone to polenta, tortillas, and Latin American staples — distinct from fresh sweet corn (a vegetable), it pairs with Viognier, Mexican lagers, and Zinfandel.",
       "texture_profile": [],
       "typical_descriptors": [],
       "usage_intensity": "primary",
@@ -1883,12 +1883,12 @@
       "related_styles": [],
       "related_techniques": [],
       "scientific_name": "Solanum tuberosum",
-      "seo_description": "Potato starch thickens European gravies and gluten-free baking with silky clarity — distinct from the whole potato in the Vegetable Ontology, it pairs w...",
+      "seo_description": "Potato starch thickens European gravies and gluten-free baking with silky clarity — distinct from the whole potato (a vegetable), it pairs with crisp ...",
       "seo_title": "Potato Starch — Grain & Starch Ontology",
       "similar_grain_starches": [],
       "slug": "potato-starch",
       "substitutions": [],
-      "summary": "Potato starch thickens European gravies and gluten-free baking with silky clarity — distinct from the whole potato in the Vegetable Ontology, it pairs with crisp whites and delicate fish wines.",
+      "summary": "Potato starch thickens European gravies and gluten-free baking with silky clarity — distinct from the whole potato (a vegetable), it pairs with crisp whites and delicate fish wines.",
       "texture_profile": [],
       "typical_descriptors": [],
       "usage_intensity": "accent",
@@ -2534,12 +2534,12 @@
       "related_styles": [],
       "related_techniques": [],
       "scientific_name": "Ipomoea batatas",
-      "seo_description": "Sweet potato starch thickens Korean japchae noodles and Asian desserts with subtle sweetness — distinct from the whole tuber in the Vegetable Ontology, ...",
+      "seo_description": "Sweet potato starch thickens Korean japchae noodles and Asian desserts with subtle sweetness — distinct from the whole tuber (a vegetable), it pairs with ...",
       "seo_title": "Sweet Potato Starch — Grain & Starch Ontology",
       "similar_grain_starches": [],
       "slug": "sweet-potato-starch",
       "substitutions": [],
-      "summary": "Sweet potato starch thickens Korean japchae noodles and Asian desserts with subtle sweetness — distinct from the whole tuber in the Vegetable Ontology, it pairs with off-dry whites and light reds.",
+      "summary": "Sweet potato starch thickens Korean japchae noodles and Asian desserts with subtle sweetness — distinct from the whole tuber (a vegetable), it pairs with off-dry whites and light reds.",
       "texture_profile": [],
       "typical_descriptors": [],
       "usage_intensity": "accent",
@@ -3146,14 +3146,14 @@
       "entity_type": "grain_starch_group",
       "external_ids": {},
       "id": "food.grain.whole-grains",
-      "introduction": "Whole grains in the Grain & Starch Ontology — intact or minimally processed cereal grains used as staple bases, including rice, wheat, barley, rye, oats, corn, millet, and sorghum.",
+      "introduction": "Intact or minimally processed cereal grains used as staple bases, including rice, wheat, barley, rye, oats, corn, millet, and sorghum.",
       "name": "Whole Grains",
       "parent_category": "grain-starch",
       "scientific_name": "",
-      "seo_description": "Canonical whole culinary grains — rice, wheat, barley, and related staple ingredients in the PairingMethod Grain & Starch Ontology.",
+      "seo_description": "Whole grains are intact or minimally processed cereal grains that anchor staple dishes worldwide, including rice, wheat, barley, rye, oats, corn, millet ...",
       "seo_title": "Whole Grains — Grain & Starch Ontology",
       "slug": "whole-grains",
-      "summary": "Whole Grains — 22 canonical grains and starches in the Grain & Starch Ontology."
+      "summary": "Whole grains are intact or minimally processed cereal grains that anchor staple dishes worldwide, including rice, wheat, barley, rye, oats, corn, millet, and sorghum."
     },
     {
       "child_slugs": [
@@ -3172,14 +3172,14 @@
       "entity_type": "grain_starch_group",
       "external_ids": {},
       "id": "food.grain.pseudocereals",
-      "introduction": "Pseudocereals in the Grain & Starch Ontology — non-cereal seeds used as staple grains in cooking, including quinoa, buckwheat, and amaranth.",
+      "introduction": "Non-cereal seeds used as staple grains in cooking, including quinoa, buckwheat, and amaranth.",
       "name": "Pseudocereals",
       "parent_category": "grain-starch",
       "scientific_name": "",
-      "seo_description": "Canonical pseudocereals — quinoa, buckwheat, amaranth, and related staple ingredients in the PairingMethod Grain & Starch Ontology.",
+      "seo_description": "Pseudocereals are non-cereal seeds cooked and used like grains, including quinoa, buckwheat, and amaranth.",
       "seo_title": "Pseudocereals — Grain & Starch Ontology",
       "slug": "pseudocereals",
-      "summary": "Pseudocereals — 9 canonical grains and starches in the Grain & Starch Ontology."
+      "summary": "Pseudocereals are non-cereal seeds cooked and used like grains, including quinoa, buckwheat, and amaranth."
     },
     {
       "child_slugs": [
@@ -3214,14 +3214,14 @@
       "entity_type": "grain_starch_group",
       "external_ids": {},
       "id": "food.grain.processed-grains",
-      "introduction": "Processed grains in the Grain & Starch Ontology — milled and processed grain forms that function as canonical culinary ingredients, including wheat flour, rice flour, cornmeal, semolina, and bulgur.",
+      "introduction": "Milled and processed grain forms with established culinary identity, including wheat flour, rice flour, cornmeal, semolina, and bulgur.",
       "name": "Processed Grains",
       "parent_category": "grain-starch",
       "scientific_name": "",
-      "seo_description": "Canonical processed grain ingredients — wheat flour, rice flour, cornmeal, and related staples in the PairingMethod Grain & Starch Ontology.",
+      "seo_description": "Processed grains are milled and processed forms with their own culinary identity distinct from the whole grain, including wheat flour, rice flour ...",
       "seo_title": "Processed Grains — Grain & Starch Ontology",
       "slug": "processed-grains",
-      "summary": "Processed Grains — 25 canonical grains and starches in the Grain & Starch Ontology."
+      "summary": "Processed grains are milled and processed forms with their own culinary identity distinct from the whole grain, including wheat flour, rice flour, cornmeal, semolina, and bulgur."
     },
     {
       "child_slugs": [
@@ -3251,14 +3251,14 @@
       "entity_type": "grain_starch_group",
       "external_ids": {},
       "id": "food.grain.starches",
-      "introduction": "Starches in the Grain & Starch Ontology — isolated culinary starches used as thickeners, coatings, and structural ingredients, including cornstarch, potato starch, and tapioca starch.",
+      "introduction": "Isolated culinary starches used as thickeners, coatings, and structural ingredients, including cornstarch, potato starch, and tapioca starch.",
       "name": "Starches",
       "parent_category": "grain-starch",
       "scientific_name": "",
-      "seo_description": "Canonical culinary starches — cornstarch, potato starch, tapioca starch, and related ingredients in the PairingMethod Grain & Starch Ontology.",
+      "seo_description": "Starches are isolated culinary starches used as thickeners, coatings, and structural ingredients rather than eaten as grains themselves, including ...",
       "seo_title": "Starches — Grain & Starch Ontology",
       "slug": "starches",
-      "summary": "Starches — 20 canonical grains and starches in the Grain & Starch Ontology."
+      "summary": "Starches are isolated culinary starches used as thickeners, coatings, and structural ingredients rather than eaten as grains themselves, including cornstarch, potato starch, and tapioca starch."
     }
   ],
   "meta": {

@@ -11,13 +11,13 @@
       "entity_type": "herb_spice_category",
       "external_ids": {},
       "id": "food.herb",
-      "introduction": "The Herb & Spice Ontology catalogs canonical culinary herbs and spices used worldwide as ingredients. This domain models culinary ingredients, not botanical taxonomy.",
+      "introduction": "This domain covers culinary herbs and spices used worldwide as ingredients — organized around how they're used in the kitchen, not botanical taxonomy.",
       "name": "Herbs & Spices",
       "scientific_name": "",
-      "seo_description": "Explore canonical culinary herbs and spices by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+      "seo_description": "Culinary herbs and spices across four groups: Fresh Herbs, Dried Herbs, Whole Spices, and Ground & Blended Spices.",
       "seo_title": "Herbs & Spices — Food Ontology",
       "slug": "herb",
-      "summary": "Canonical culinary herbs and spices across four immutable groups: Fresh Herbs, Dried Herbs, Whole Spices, and Ground & Blended Spices."
+      "summary": "Culinary herbs and spices across four groups: Fresh Herbs, Dried Herbs, Whole Spices, and Ground & Blended Spices."
     }
   ],
   "groups": [
@@ -54,14 +54,14 @@
       "entity_type": "herb_spice_group",
       "external_ids": {},
       "id": "food.herb.fresh-herbs",
-      "introduction": "Fresh herbs in the Herb & Spice Ontology — leafy and tender culinary herbs used fresh in cooking, including basil, cilantro, parsley, and dill.",
+      "introduction": "Leafy and tender culinary herbs used fresh in cooking, including basil, cilantro, parsley, and dill.",
       "name": "Fresh Herbs",
       "parent_category": "herb",
       "scientific_name": "",
-      "seo_description": "Canonical fresh culinary herbs — basil, cilantro, parsley, and related ingredients in the PairingMethod Herb & Spice Ontology.",
+      "seo_description": "Fresh herbs are leafy, tender, and best used shortly after harvest for their bright, aromatic flavor, including basil, cilantro, parsley, and dill.",
       "seo_title": "Fresh Herbs — Herb & Spice Ontology",
       "slug": "fresh-herbs",
-      "summary": "Fresh Herbs — 25 canonical herbs and spices in the Herb & Spice Ontology."
+      "summary": "Fresh herbs are leafy, tender, and best used shortly after harvest for their bright, aromatic flavor, including basil, cilantro, parsley, and dill."
     },
     {
       "child_slugs": [
@@ -91,14 +91,14 @@
       "entity_type": "herb_spice_group",
       "external_ids": {},
       "id": "food.herb.dried-herbs",
-      "introduction": "Dried herbs in the Herb & Spice Ontology — shelf-stable dried culinary herbs including oregano, thyme, rosemary, and bay leaf.",
+      "introduction": "Shelf-stable dried culinary herbs, including oregano, thyme, rosemary, and bay leaf.",
       "name": "Dried Herbs",
       "parent_category": "herb",
       "scientific_name": "",
-      "seo_description": "Canonical dried culinary herbs — oregano, thyme, rosemary, and related ingredients in the PairingMethod Herb & Spice Ontology.",
+      "seo_description": "Dried herbs are shelf-stable, concentrated versions of fresh herbs with a more intense, sometimes earthier flavor, including oregano, thyme, rosemary, and ...",
       "seo_title": "Dried Herbs — Herb & Spice Ontology",
       "slug": "dried-herbs",
-      "summary": "Dried Herbs — 20 canonical herbs and spices in the Herb & Spice Ontology."
+      "summary": "Dried herbs are shelf-stable, concentrated versions of fresh herbs with a more intense, sometimes earthier flavor, including oregano, thyme, rosemary, and bay leaf."
     },
     {
       "child_slugs": [
@@ -144,14 +144,14 @@
       "entity_type": "herb_spice_group",
       "external_ids": {},
       "id": "food.herb.whole-spices",
-      "introduction": "Whole spices in the Herb & Spice Ontology — intact seeds, pods, bark, and whole spice forms including black pepper, cinnamon sticks, and coriander seed.",
+      "introduction": "Intact seeds, pods, bark, and whole spice forms, including black pepper, cinnamon sticks, and coriander seed.",
       "name": "Whole Spices",
       "parent_category": "herb",
       "scientific_name": "",
-      "seo_description": "Canonical whole spices — black pepper, cinnamon, coriander seed, and related ingredients in the PairingMethod Herb & Spice Ontology.",
+      "seo_description": "Whole spices are intact seeds, pods, and bark that release fuller flavor when toasted or ground fresh, including black pepper, cinnamon sticks, and ...",
       "seo_title": "Whole Spices — Herb & Spice Ontology",
       "slug": "whole-spices",
-      "summary": "Whole Spices — 36 canonical herbs and spices in the Herb & Spice Ontology."
+      "summary": "Whole spices are intact seeds, pods, and bark that release fuller flavor when toasted or ground fresh, including black pepper, cinnamon sticks, and coriander seed."
     },
     {
       "child_slugs": [
@@ -193,14 +193,14 @@
       "entity_type": "herb_spice_group",
       "external_ids": {},
       "id": "food.herb.ground-blended-spices",
-      "introduction": "Ground and blended spices in the Herb & Spice Ontology — ground spice powders and widely recognized spice blends including paprika, turmeric, and garam masala.",
+      "introduction": "Ground spice powders and widely recognized spice blends, including paprika, turmeric, and garam masala.",
       "name": "Ground & Blended Spices",
       "parent_category": "herb",
       "scientific_name": "",
-      "seo_description": "Canonical ground and blended spices — paprika, turmeric, garam masala, and related ingredients in the PairingMethod Herb & Spice Ontology.",
+      "seo_description": "Ground and blended spices are milled spice powders and widely recognized spice blends ready to use straight from the jar, including paprika, turmeric, and ...",
       "seo_title": "Ground & Blended Spices — Herb & Spice Ontology",
       "slug": "ground-blended-spices",
-      "summary": "Ground & Blended Spices — 32 canonical herbs and spices in the Herb & Spice Ontology."
+      "summary": "Ground and blended spices are milled spice powders and widely recognized spice blends ready to use straight from the jar, including paprika, turmeric, and garam masala."
     }
   ],
   "herb_spices": [
@@ -1791,12 +1791,12 @@
       "related_styles": [],
       "related_techniques": [],
       "scientific_name": "Foeniculum vulgare",
-      "seo_description": "Fennel fronds add delicate anise-herb garnish to seafood and salads — distinct from the bulb owned by the Vegetable Ontology, they pair with Vermentino ...",
+      "seo_description": "Fennel fronds add delicate anise-herb garnish to seafood and salads — distinct from the bulb (a vegetable), they pair with Vermentino and coastal whites.",
       "seo_title": "Fennel Frond — Herb & Spice Ontology",
       "similar_herb_spices": [],
       "slug": "fennel-frond",
       "substitutions": [],
-      "summary": "Fennel fronds add delicate anise-herb garnish to seafood and salads — distinct from the bulb owned by the Vegetable Ontology, they pair with Vermentino and coastal whites.",
+      "summary": "Fennel fronds add delicate anise-herb garnish to seafood and salads — distinct from the bulb (a vegetable), they pair with Vermentino and coastal whites.",
       "texture_profile": [],
       "typical_descriptors": [],
       "usage_intensity": "accent",
@@ -3145,12 +3145,12 @@
       "related_styles": [],
       "related_techniques": [],
       "scientific_name": "Brassica nigra",
-      "seo_description": "Mustard seed delivers pungent heat when cracked in Indian tadka and pickling — distinct from mustard greens in the Vegetable Ontology, it pairs with Rie...",
+      "seo_description": "Mustard seed delivers pungent heat when cracked in Indian tadka and pickling — distinct from mustard greens (a vegetable), it pairs with Riesling and ...",
       "seo_title": "Mustard Seed — Herb & Spice Ontology",
       "similar_herb_spices": [],
       "slug": "mustard-seed",
       "substitutions": [],
-      "summary": "Mustard seed delivers pungent heat when cracked in Indian tadka and pickling — distinct from mustard greens in the Vegetable Ontology, it pairs with Riesling and German whites.",
+      "summary": "Mustard seed delivers pungent heat when cracked in Indian tadka and pickling — distinct from mustard greens (a vegetable), it pairs with Riesling and German whites.",
       "texture_profile": [],
       "typical_descriptors": [],
       "usage_intensity": "accent",
@@ -3506,12 +3506,12 @@
       "related_styles": [],
       "related_techniques": [],
       "scientific_name": "Petroselinum crispum",
-      "seo_description": "Parsley adds clean grassy freshness to European, Middle Eastern, and American finishing — flat and curly forms share one canonical identity paired with ...",
+      "seo_description": "Parsley adds clean grassy freshness to European, Middle Eastern, and American finishing — flat and curly forms are treated as the same herb, paired with ...",
       "seo_title": "Parsley — Herb & Spice Ontology",
       "similar_herb_spices": [],
       "slug": "parsley",
       "substitutions": [],
-      "summary": "Parsley adds clean grassy freshness to European, Middle Eastern, and American finishing — flat and curly forms share one canonical identity paired with crisp whites and herb-friendly reds.",
+      "summary": "Parsley adds clean grassy freshness to European, Middle Eastern, and American finishing — flat and curly forms are treated as the same herb, paired with crisp whites and herb-friendly reds.",
       "texture_profile": [],
       "typical_descriptors": [],
       "usage_intensity": "accent",

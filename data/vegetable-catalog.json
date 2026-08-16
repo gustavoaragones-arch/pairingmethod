@@ -11,13 +11,13 @@
       "entity_type": "vegetable_category",
       "external_ids": {},
       "id": "food.vegetable",
-      "introduction": "The Vegetable Ontology catalogs canonical vegetables organized by Canonical Culinary Groups — culinary taxonomy aligned with the Pairing Method poster, not botanical classification.",
+      "introduction": "This domain covers vegetables organized by culinary use, aligned with how a cook would group them, rather than by botanical classification.",
       "name": "Vegetables",
       "scientific_name": "",
-      "seo_description": "Explore canonical vegetables by culinary group — plant part, flavor, texture, and seasonality metadata for wine pairing ontology.",
+      "seo_description": "Vegetables organized by culinary groups — how they're used in the kitchen, not botanical classification: Alliums, Green Vegetables, Root Vegetables & ...",
       "seo_title": "Vegetables — Food Ontology",
       "slug": "vegetable",
-      "summary": "Canonical vegetable entities across four culinary groups: Alliums, Green Vegetables, Root Vegetables, and Nightshades."
+      "summary": "Vegetables organized by culinary groups — how they're used in the kitchen, not botanical classification: Alliums, Green Vegetables, Root Vegetables & Squash, and Nightshades."
     }
   ],
   "groups": [
@@ -37,14 +37,14 @@
       "entity_type": "vegetable_group",
       "external_ids": {},
       "id": "food.vegetable.alliums",
-      "introduction": "Alliums in the Vegetable Ontology — onion, garlic, shallot, and related sulfur-rich culinary vegetables.",
+      "introduction": "Onion, garlic, shallot, and related sulfur-rich culinary vegetables.",
       "name": "Alliums",
       "parent_category": "vegetable",
       "scientific_name": "",
-      "seo_description": "Canonical alliums — garlic, onion, shallot, and related vegetables in the PairingMethod Vegetable Ontology.",
+      "seo_description": "Alliums are sulfur-rich aromatics that form the flavor base of countless savory dishes, including onion, garlic, and shallot.",
       "seo_title": "Alliums — Vegetable Ontology",
       "slug": "alliums",
-      "summary": "Alliums — 8 canonical vegetables in the Vegetable Ontology."
+      "summary": "Alliums are sulfur-rich aromatics that form the flavor base of countless savory dishes, including onion, garlic, and shallot."
     },
     {
       "child_slugs": [
@@ -89,14 +89,14 @@
       "entity_type": "vegetable_group",
       "external_ids": {},
       "id": "food.vegetable.green-vegetables",
-      "introduction": "Green vegetables in the Vegetable Ontology — leafy greens, stems, and green pods used in savory cooking.",
+      "introduction": "Leafy greens, stems, and green pods used in savory cooking.",
       "name": "Green Vegetables",
       "parent_category": "vegetable",
       "scientific_name": "",
-      "seo_description": "Canonical green vegetables — kale, spinach, lettuce, and related entities in the PairingMethod Vegetable Ontology.",
+      "seo_description": "Green vegetables cover leafy greens, stems, and green pods central to savory cooking, from delicate spinach to sturdy kale.",
       "seo_title": "Green Vegetables — Vegetable Ontology",
       "slug": "green-vegetables",
-      "summary": "Green Vegetables — 35 canonical vegetables in the Vegetable Ontology."
+      "summary": "Green vegetables cover leafy greens, stems, and green pods central to savory cooking, from delicate spinach to sturdy kale."
     },
     {
       "child_slugs": [
@@ -128,14 +128,14 @@
       "entity_type": "vegetable_group",
       "external_ids": {},
       "id": "food.vegetable.root-vegetables",
-      "introduction": "Root vegetables and squash in the Vegetable Ontology — carrots, beets, turnips, and winter squash (excluding potato-class starches).",
+      "introduction": "Carrots, beets, turnips, and winter squash, excluding potato-class starches.",
       "name": "Root Vegetables",
       "parent_category": "vegetable",
       "scientific_name": "",
-      "seo_description": "Canonical root vegetables and squash — carrot, beet, butternut, and related entities in the PairingMethod Vegetable Ontology.",
+      "seo_description": "Root vegetables and squash covers earthy roots and winter squash used in roasting, braising, and long-cooked dishes, including carrots, beets, turnips ...",
       "seo_title": "Root Vegetables — Vegetable Ontology",
       "slug": "root-vegetables",
-      "summary": "Root Vegetables — 22 canonical vegetables in the Vegetable Ontology."
+      "summary": "Root vegetables and squash covers earthy roots and winter squash used in roasting, braising, and long-cooked dishes, including carrots, beets, turnips, and winter squash."
     },
     {
       "child_slugs": [
@@ -154,14 +154,14 @@
       "entity_type": "vegetable_group",
       "external_ids": {},
       "id": "food.vegetable.nightshades",
-      "introduction": "Nightshades in the Vegetable Ontology — tomato, eggplant, and pepper-class vegetables in savory culinary context.",
+      "introduction": "Tomato, eggplant, and pepper-class vegetables in savory culinary context.",
       "name": "Nightshades",
       "parent_category": "vegetable",
       "scientific_name": "",
-      "seo_description": "Canonical nightshades — tomato, eggplant, bell pepper, and related entities in the PairingMethod Vegetable Ontology.",
+      "seo_description": "Nightshades bring bold color and flavor to savory cooking, including tomato, eggplant, and pepper-class vegetables.",
       "seo_title": "Nightshades — Vegetable Ontology",
       "slug": "nightshades",
-      "summary": "Nightshades — 9 canonical vegetables in the Vegetable Ontology."
+      "summary": "Nightshades bring bold color and flavor to savory cooking, including tomato, eggplant, and pepper-class vegetables."
     }
   ],
   "meta": {

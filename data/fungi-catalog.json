@@ -11,13 +11,13 @@
       "entity_type": "fungi_category",
       "external_ids": {},
       "id": "food.fungi",
-      "introduction": "The Fungi Ontology catalogs canonical culinary fungi — edible fungi used as culinary ingredients worldwide. This domain models ingredients, not biological taxonomy.",
+      "introduction": "This domain covers edible fungi used as culinary ingredients worldwide — organized around how they're used in the kitchen, not biological taxonomy.",
       "name": "Fungi",
       "scientific_name": "",
-      "seo_description": "Explore canonical culinary fungi by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+      "seo_description": "Edible culinary fungi across four groups: Cultivated Mushrooms, Wild Mushrooms, Truffles, and Specialty Fungi.",
       "seo_title": "Fungi — Food Ontology",
       "slug": "fungi",
-      "summary": "Canonical culinary fungi across four immutable groups: Cultivated Mushrooms, Wild Mushrooms, Truffles, and Specialty Fungi."
+      "summary": "Edible culinary fungi across four groups: Cultivated Mushrooms, Wild Mushrooms, Truffles, and Specialty Fungi."
     }
   ],
   "fungi": [
@@ -1760,14 +1760,14 @@
       "entity_type": "fungi_group",
       "external_ids": {},
       "id": "food.fungi.cultivated-mushrooms",
-      "introduction": "Cultivated mushrooms in the Fungi Ontology — commercially farmed culinary fungi including button, cremini, portobello, shiitake, and oyster mushrooms.",
+      "introduction": "Commercially farmed culinary fungi, including button, cremini, portobello, shiitake, and oyster mushrooms.",
       "name": "Cultivated Mushrooms",
       "parent_category": "fungi",
       "scientific_name": "",
-      "seo_description": "Canonical cultivated mushrooms — button, shiitake, oyster, and related culinary fungi in the PairingMethod Fungi Ontology.",
+      "seo_description": "Cultivated mushrooms are commercially farmed fungi widely available year-round, including button, cremini, portobello, shiitake, and oyster mushrooms.",
       "seo_title": "Cultivated Mushrooms — Fungi Ontology",
       "slug": "cultivated-mushrooms",
-      "summary": "Cultivated Mushrooms — 15 canonical fungi in the Fungi Ontology."
+      "summary": "Cultivated mushrooms are commercially farmed fungi widely available year-round, including button, cremini, portobello, shiitake, and oyster mushrooms."
     },
     {
       "child_slugs": [
@@ -1791,14 +1791,14 @@
       "entity_type": "fungi_group",
       "external_ids": {},
       "id": "food.fungi.wild-mushrooms",
-      "introduction": "Wild mushrooms in the Fungi Ontology — foraged and seasonal culinary fungi including chanterelle, morel, porcini, and matsutake.",
+      "introduction": "Foraged and seasonal culinary fungi, including chanterelle, morel, porcini, and matsutake.",
       "name": "Wild Mushrooms",
       "parent_category": "fungi",
       "scientific_name": "",
-      "seo_description": "Canonical wild mushrooms — chanterelle, morel, porcini, and related foraged fungi in the PairingMethod Fungi Ontology.",
+      "seo_description": "Wild mushrooms are foraged, often seasonal fungi with more distinctive flavors than cultivated varieties, including chanterelle, morel, porcini, and ...",
       "seo_title": "Wild Mushrooms — Fungi Ontology",
       "slug": "wild-mushrooms",
-      "summary": "Wild Mushrooms — 14 canonical fungi in the Fungi Ontology."
+      "summary": "Wild mushrooms are foraged, often seasonal fungi with more distinctive flavors than cultivated varieties, including chanterelle, morel, porcini, and matsutake."
     },
     {
       "child_slugs": [
@@ -1813,14 +1813,14 @@
       "entity_type": "fungi_group",
       "external_ids": {},
       "id": "food.fungi.truffles",
-      "introduction": "Truffles in the Fungi Ontology — luxury culinary fungi including black and white truffle.",
+      "introduction": "Luxury culinary fungi, including black and white truffle.",
       "name": "Truffles",
       "parent_category": "fungi",
       "scientific_name": "",
-      "seo_description": "Canonical truffles — black truffle, white truffle, and related luxury fungi in the PairingMethod Fungi Ontology.",
+      "seo_description": "Truffles are prized, intensely aromatic underground fungi used sparingly to perfume dishes, including black and white truffle.",
       "seo_title": "Truffles — Fungi Ontology",
       "slug": "truffles",
-      "summary": "Truffles — 5 canonical fungi in the Fungi Ontology."
+      "summary": "Truffles are prized, intensely aromatic underground fungi used sparingly to perfume dishes, including black and white truffle."
     },
     {
       "child_slugs": [
@@ -1839,14 +1839,14 @@
       "entity_type": "fungi_group",
       "external_ids": {},
       "id": "food.fungi.specialty-fungi",
-      "introduction": "Specialty fungi in the Fungi Ontology — distinctive culinary fungi including wood ear, lion's mane, beech mushroom, and nameko.",
+      "introduction": "Distinctive culinary fungi, including wood ear, lion's mane, beech mushroom, and nameko.",
       "name": "Specialty Fungi",
       "parent_category": "fungi",
       "scientific_name": "",
-      "seo_description": "Canonical specialty fungi — wood ear, lion's mane, nameko, and related culinary fungi in the PairingMethod Fungi Ontology.",
+      "seo_description": "Specialty fungi cover distinctive mushrooms with unusual textures or flavors that don't fit the cultivated or wild groups neatly, including wood ear ...",
       "seo_title": "Specialty Fungi — Fungi Ontology",
       "slug": "specialty-fungi",
-      "summary": "Specialty Fungi — 9 canonical fungi in the Fungi Ontology."
+      "summary": "Specialty fungi cover distinctive mushrooms with unusual textures or flavors that don't fit the cultivated or wild groups neatly, including wood ear, lion's mane, beech mushroom, and nameko."
     }
   ],
   "meta": {

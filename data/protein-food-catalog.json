@@ -23,7 +23,7 @@
       "domain": "culinary",
       "scientific_name": "",
       "external_ids": {},
-      "introduction": "Animal protein foods include meat, poultry, game, and seafood used as the primary protein on the plate. These entities anchor wine pairing reasoning through fat, protein, and cooking context.",
+      "introduction": "Animal protein foods include meat, poultry, game, and seafood used as the primary protein on the plate — the fat content, texture, and cooking method of each cut anchors its wine pairing logic.",
       "child_slugs": [
         "beef",
         "pork",
@@ -37,9 +37,9 @@
         "cephalopods",
         "cured-meat"
       ],
-      "summary": "Meat, poultry, game, and seafood protein foods for wine pairing — organized by biological group and cut.",
+      "summary": "Meat, poultry, game, and seafood proteins organized by biological group and cut, each with its own wine pairing logic based on fat, texture, and cooking method.",
       "seo_title": "Animal Protein Foods — Food Ontology",
-      "seo_description": "Explore animal protein foods — beef, pork, poultry, seafood, and game — and how each cut pairs with wine through fat, texture, and flavor.",
+      "seo_description": "Meat, poultry, game, and seafood proteins organized by biological group and cut, each with its own wine pairing logic based on fat, texture, and cooking ...",
       "food_category": "animal"
     },
     {
@@ -50,16 +50,16 @@
       "domain": "culinary",
       "scientific_name": "",
       "external_ids": {},
-      "introduction": "Plant protein foods include legumes, soy, grains, nuts, and seeds — foundational for vegetarian pairing and flexitarian plates. Botanical metadata replaces mammalian cut concepts.",
+      "introduction": "Plant protein foods include legumes, soy, grains, nuts, and seeds — foundational for vegetarian pairing and flexitarian plates, where botanical character rather than animal cuts drives pairing.",
       "child_slugs": [
         "legumes",
         "soy-foods",
         "grains-wheat-protein",
         "nuts-seeds"
       ],
-      "summary": "Legumes, soy foods, grains, nuts and seeds — plant_category with plant_part and edible_structure.",
+      "summary": "Legumes, soy foods, grains, nuts, and seeds bring plant-based protein to the plate, foundational for vegetarian and flexitarian pairing.",
       "seo_title": "Plant Protein Foods — Food Ontology",
-      "seo_description": "Legumes, tofu, seitan, quinoa, almonds, and more — plant protein entities with botanical intrinsic metadata.",
+      "seo_description": "Legumes, soy foods, grains, nuts, and seeds bring plant-based protein to the plate, foundational for vegetarian and flexitarian pairing.",
       "food_category": "plant"
     },
     {
@@ -70,14 +70,14 @@
       "domain": "culinary",
       "scientific_name": "",
       "external_ids": {},
-      "introduction": "Fungi protein foods include culinary mushrooms and fermented mycoprotein — umami-rich plant-adjacent proteins. edible_structure marks fungal_body vs processed mycoprotein products.",
+      "introduction": "Fungi protein foods include culinary mushrooms and fermented mycoprotein — umami-rich, plant-adjacent proteins spanning whole mushrooms and processed mycoprotein products.",
       "child_slugs": [
         "mushrooms",
         "mycoprotein"
       ],
-      "summary": "Mushrooms and mycoprotein — final Food Protein Catalog v1 groups.",
+      "summary": "Mushrooms and mycoprotein bring umami-rich, plant-adjacent protein to the plate, from delicate cultivated varieties to hearty meat-alternative forms.",
       "seo_title": "Fungi Protein Foods — Food Ontology",
-      "seo_description": "Button to porcini mushrooms and mycoprotein products — fungi protein with fungal_body and processed edible_structure metadata.",
+      "seo_description": "Mushrooms and mycoprotein bring umami-rich, plant-adjacent protein to the plate, from delicate cultivated varieties to hearty meat-alternative forms.",
       "food_category": "fungi"
     }
   ],
@@ -117,7 +117,7 @@
         "denver-steak",
         "ground-beef"
       ],
-      "summary": "Beef cuts from rib, loin, chuck, round, and plate — the foundation of red wine pairing.",
+      "summary": "Beef cuts from rib, loin, chuck, round, and plate span the full range from tender, quick-cooking steaks to long-braised roasts, each with its own wine pairing logic based on marbling and cooking method.",
       "faq": [
         {
           "q": "Why is beef the classic red wine pairing?",
@@ -129,7 +129,7 @@
         }
       ],
       "seo_title": "Beef Cuts — Protein Food Guide",
-      "seo_description": "Beef cuts from ribeye to brisket — learn how marbling and cooking method guide wine pairing for each muscle.",
+      "seo_description": "Beef cuts from rib, loin, chuck, round, and plate span the full range from tender, quick-cooking steaks to long-braised roasts, each with its own wine ...",
       "food_category": "animal"
     },
     {
@@ -162,7 +162,7 @@
         "country-style-ribs",
         "crown-roast-pork"
       ],
-      "summary": "Fresh and cured pork cuts from belly, loin, shoulder, and leg.",
+      "summary": "Pork spans fresh cuts like belly, loin, and shoulder alongside cured forms, offering everything from delicate roasts to rich, smoky charcuterie.",
       "faq": [
         {
           "q": "Why does pork pair with both white and red wine?",
@@ -174,7 +174,7 @@
         }
       ],
       "seo_title": "Pork Cuts — Protein Food Guide",
-      "seo_description": "Pork belly to tenderloin — fresh roasts, ribs, and cured charcuterie with intrinsic metadata for wine pairing."
+      "seo_description": "Pork spans fresh cuts like belly, loin, and shoulder alongside cured forms, offering everything from delicate roasts to rich, smoky charcuterie."
     },
     {
       "id": "food.protein.lamb",
@@ -201,7 +201,7 @@
         "lamb-breast",
         "lamb-saddle"
       ],
-      "summary": "Lamb cuts from rack and loin to shoulder, shank, and ground — classic European pairing context.",
+      "summary": "Lamb cuts from rack and loin to shoulder, shank, and ground carry a distinctive, slightly gamey richness classic in European cooking and pairing.",
       "faq": [
         {
           "q": "Why is lamb classic with Bordeaux and Rhône reds?",
@@ -213,7 +213,7 @@
         }
       ],
       "seo_title": "Lamb Cuts — Protein Food Guide",
-      "seo_description": "Rack, loin, leg, shoulder, and shank — lamb cuts with intrinsic metadata for wine pairing across roasting, grilling, and braising."
+      "seo_description": "Lamb cuts from rack and loin to shoulder, shank, and ground carry a distinctive, slightly gamey richness classic in European cooking and pairing."
     },
     {
       "id": "food.protein.veal",
@@ -236,7 +236,7 @@
         "veal-breast",
         "ground-veal"
       ],
-      "summary": "Veal cutlets, chops, loin, shank, and ground — delicate protein for classic European wine pairings.",
+      "summary": "Veal's delicate, mild flavor across cutlets, chops, loin, and shank makes it a classic match for lighter, more nuanced European wine pairings.",
       "faq": [
         {
           "q": "Why does veal pair with white wine more often than beef?",
@@ -248,7 +248,7 @@
         }
       ],
       "seo_title": "Veal Cuts — Protein Food Guide",
-      "seo_description": "Veal cutlets, osso buco shank, loin roasts, and ground veal — intrinsic metadata for wine pairing without graph relationships."
+      "seo_description": "Veal's delicate, mild flavor across cutlets, chops, loin, and shank makes it a classic match for lighter, more nuanced European wine pairings."
     },
     {
       "id": "food.protein.poultry",
@@ -285,7 +285,7 @@
         "whole-quail",
         "quail-breast"
       ],
-      "summary": "Chicken, turkey, duck, goose, and quail — species-tagged cuts for filtering, pairing, and future dish connectivity.",
+      "summary": "Poultry spans chicken, turkey, duck, goose, and quail, with flavor and richness varying widely between lean white meat and darker, fattier cuts.",
       "faq": [
         {
           "q": "Why does poultry pair with both white and red wine?",
@@ -297,7 +297,7 @@
         }
       ],
       "seo_title": "Poultry — Protein Food Guide",
-      "seo_description": "Chicken to quail — whole birds, breasts, thighs, and ground poultry with species and anatomical metadata for wine pairing."
+      "seo_description": "Poultry spans chicken, turkey, duck, goose, and quail, with flavor and richness varying widely between lean white meat and darker, fattier cuts."
     },
     {
       "id": "food.protein.wild-game",
@@ -333,7 +333,7 @@
         "wild-boar-shoulder",
         "ground-wild-boar"
       ],
-      "summary": "Venison, elk, bison, rabbit, hare, and wild boar — internationally recognized game with species and anatomical metadata.",
+      "summary": "Wild game includes venison, elk, bison, rabbit, hare, and wild boar — leaner and more intensely flavored than farmed meat, pairing best with bold, structured reds.",
       "faq": [
         {
           "q": "Why is wild game leaner than domestic meat?",
@@ -345,7 +345,7 @@
         }
       ],
       "seo_title": "Wild Game — Protein Food Guide",
-      "seo_description": "Venison, elk, bison, rabbit, hare, and wild boar — game cuts with species metadata for wine pairing and future dish connectivity."
+      "seo_description": "Wild game includes venison, elk, bison, rabbit, hare, and wild boar — leaner and more intensely flavored than farmed meat, pairing best with bold ..."
     },
     {
       "id": "food.protein.fin-fish",
@@ -382,7 +382,7 @@
         "monkfish-tail",
         "whole-branzino"
       ],
-      "summary": "Globally recognized fin fish — fillets, steaks, and whole fish with species and cut metadata.",
+      "summary": "Fin fish spans delicate white fillets to rich, oily species, with fat content and cooking method driving which wine style suits each fish best.",
       "faq": [
         {
           "q": "Why do fatty fish pair with white wine?",
@@ -394,7 +394,7 @@
         }
       ],
       "seo_title": "Fin Fish — Protein Food Guide",
-      "seo_description": "Globally recognized fin fish — fillets, steaks, and whole fish with species and cut metadata."
+      "seo_description": "Fin fish spans delicate white fillets to rich, oily species, with fat content and cooking method driving which wine style suits each fish best."
     },
     {
       "id": "food.protein.crustaceans",
@@ -417,7 +417,7 @@
         "crawfish",
         "langoustine"
       ],
-      "summary": "Lobster, crab, shrimp, prawn, and crawfish — portion and whole cuts with seafood vocabulary.",
+      "summary": "Crustaceans — lobster, crab, shrimp, prawn, and crawfish — bring sweet, briny richness that favors bright, high-acid whites.",
       "faq": [
         {
           "q": "Does lobster always need Champagne?",
@@ -429,7 +429,7 @@
         }
       ],
       "seo_title": "Crustaceans — Protein Food Guide",
-      "seo_description": "Lobster, crab, shrimp, prawn, and crawfish — portion and whole cuts with seafood vocabulary."
+      "seo_description": "Crustaceans — lobster, crab, shrimp, prawn, and crawfish — bring sweet, briny richness that favors bright, high-acid whites."
     },
     {
       "id": "food.protein.mollusks",
@@ -452,7 +452,7 @@
         "razor-clam",
         "conch"
       ],
-      "summary": "Bivalves and gastropods — oysters, mussels, clams, scallops, abalone, and conch.",
+      "summary": "Mollusks cover bivalves and gastropods — oysters, mussels, clams, scallops, abalone, and conch — prized for their briny, mineral-forward flavor.",
       "faq": [
         {
           "q": "Why are oysters classic with Muscadet?",
@@ -464,7 +464,7 @@
         }
       ],
       "seo_title": "Mollusks — Protein Food Guide",
-      "seo_description": "Bivalves and gastropods — oysters, mussels, clams, scallops, abalone, and conch."
+      "seo_description": "Mollusks cover bivalves and gastropods — oysters, mussels, clams, scallops, abalone, and conch — prized for their briny, mineral-forward flavor."
     },
     {
       "id": "food.protein.cephalopods",
@@ -487,7 +487,7 @@
         "octopus-tentacles",
         "calamari-rings"
       ],
-      "summary": "Squid, octopus, cuttlefish — tubes, tentacles, and prepared calamari with seafood vocabulary.",
+      "summary": "Cephalopods — squid, octopus, and cuttlefish — range from tender when quickly seared to chewy if overcooked, served as tubes, tentacles, and prepared calamari.",
       "faq": [
         {
           "q": "Is calamari a separate species?",
@@ -499,7 +499,7 @@
         }
       ],
       "seo_title": "Cephalopods — Protein Food Guide",
-      "seo_description": "Squid, octopus, cuttlefish — tubes, tentacles, and prepared calamari with seafood vocabulary."
+      "seo_description": "Cephalopods — squid, octopus, and cuttlefish — range from tender when quickly seared to chewy if overcooked, served as tubes, tentacles, and prepared ..."
     },
     {
       "id": "food.protein.legumes",
@@ -526,7 +526,7 @@
         "lima-beans",
         "peas"
       ],
-      "summary": "Chickpeas, lentils, and beans — botanical legume protein with plant_part and edible_structure metadata.",
+      "summary": "Legumes bring plant-based protein to the plate — chickpeas, lentils, and beans with an earthy character that pairs well beyond the expected reds.",
       "faq": [
         {
           "q": "Why are plant foods not organized by cuts?",
@@ -538,7 +538,7 @@
         }
       ],
       "seo_title": "Legumes — Protein Food Guide",
-      "seo_description": "Chickpeas, lentils, and beans — botanical legume protein with plant_part and edible_structure metadata."
+      "seo_description": "Legumes bring plant-based protein to the plate — chickpeas, lentils, and beans with an earthy character that pairs well beyond the expected reds."
     },
     {
       "id": "food.protein.soy-foods",
@@ -563,7 +563,7 @@
         "soy-milk",
         "miso"
       ],
-      "summary": "Soybeans, tofu, tempeh, natto, TVP, and miso — processed and fermented soy protein products.",
+      "summary": "Soy foods span fresh and fermented forms — soybeans, tofu, tempeh, natto, textured vegetable protein, and miso — each with a distinct texture and depth of flavor.",
       "faq": [
         {
           "q": "Why are plant foods not organized by cuts?",
@@ -575,7 +575,7 @@
         }
       ],
       "seo_title": "Soy Foods — Protein Food Guide",
-      "seo_description": "Soybeans, tofu, tempeh, natto, TVP, and miso — processed and fermented soy protein products."
+      "seo_description": "Soy foods span fresh and fermented forms — soybeans, tofu, tempeh, natto, textured vegetable protein, and miso — each with a distinct texture and depth of ..."
     },
     {
       "id": "food.protein.grains-wheat-protein",
@@ -598,7 +598,7 @@
         "oats",
         "barley"
       ],
-      "summary": "Seitan, vital wheat gluten, quinoa, amaranth, buckwheat, farro, oats, and barley.",
+      "summary": "Grain-based proteins include wheat gluten forms like seitan alongside protein-rich whole grains such as quinoa, amaranth, buckwheat, farro, oats, and barley.",
       "faq": [
         {
           "q": "Why are plant foods not organized by cuts?",
@@ -610,7 +610,7 @@
         }
       ],
       "seo_title": "Grains & Wheat Protein — Protein Food Guide",
-      "seo_description": "Seitan, vital wheat gluten, quinoa, amaranth, buckwheat, farro, oats, and barley."
+      "seo_description": "Grain-based proteins include wheat gluten forms like seitan alongside protein-rich whole grains such as quinoa, amaranth, buckwheat, farro, oats, and ..."
     },
     {
       "id": "food.protein.nuts-seeds",
@@ -637,7 +637,7 @@
         "sesame-seeds",
         "pine-nuts"
       ],
-      "summary": "Tree nuts and oilseeds — almond through pine nut with nut and seed plant_part metadata.",
+      "summary": "Tree nuts and oilseeds bring concentrated fat and protein to the plate, from almonds to pine nuts, each with its own roasted, buttery, or earthy character.",
       "faq": [
         {
           "q": "Why are plant foods not organized by cuts?",
@@ -649,7 +649,7 @@
         }
       ],
       "seo_title": "Nuts & Seeds — Protein Food Guide",
-      "seo_description": "Tree nuts and oilseeds — almond through pine nut with nut and seed plant_part metadata."
+      "seo_description": "Tree nuts and oilseeds bring concentrated fat and protein to the plate, from almonds to pine nuts, each with its own roasted, buttery, or earthy character."
     },
     {
       "id": "food.protein.mushrooms",
@@ -676,7 +676,7 @@
         "porcini",
         "chanterelle"
       ],
-      "summary": "Twelve globally recognized edible mushrooms from Agaricus to chanterelle.",
+      "summary": "Twelve globally recognized edible mushrooms from Agaricus to chanterelle, prized for their savory, umami-rich depth.",
       "faq": [
         {
           "q": "Why are button, cremini, and portobello separate entities?",
@@ -688,7 +688,7 @@
         }
       ],
       "seo_title": "Mushrooms — Protein Food Guide",
-      "seo_description": "Twelve canonical edible mushrooms with scientific names and fungal_body edible_structure."
+      "seo_description": "Twelve globally recognized edible mushrooms from Agaricus to chanterelle, prized for their savory, umami-rich depth."
     },
     {
       "id": "food.protein.mycoprotein",
@@ -708,7 +708,7 @@
         "mycoprotein-grounds",
         "mycoprotein-steak"
       ],
-      "summary": "Five mycoprotein product forms — fillet, pieces, grounds, steak, and generic base.",
+      "summary": "Mycoprotein is a fermentation-derived meat alternative sold as fillets, pieces, grounds, and steaks, valued for a texture closer to meat than most plant proteins.",
       "faq": [
         {
           "q": "Why no brand names in the catalog?",
@@ -720,7 +720,7 @@
         }
       ],
       "seo_title": "Mycoprotein — Protein Food Guide",
-      "seo_description": "Generic mycoprotein product classes with processed edible_structure — no trademarked brand entities."
+      "seo_description": "Mycoprotein is a fermentation-derived meat alternative sold as fillets, pieces, grounds, and steaks, valued for a texture closer to meat than most plant ..."
     },
     {
       "id": "food.protein.cured-meat",
@@ -736,9 +736,9 @@
         "salami",
         "prosciutto"
       ],
-      "summary": "Salami, prosciutto, and other cured forms with poster-level culinary identity.",
+      "summary": "Cured meats like salami and prosciutto develop concentrated, salty, savory depth through salting, drying, and aging.",
       "seo_title": "Cured Meat — Protein Group Guide",
-      "seo_description": "Salami, prosciutto, and cured charcuterie proteins for wine pairing.",
+      "seo_description": "Cured meats like salami and prosciutto develop concentrated, salty, savory depth through salting, drying, and aging.",
       "refinement": {
         "introduced_phase": "FOOD-14B",
         "governance_rule": "PROTEIN-004"
@@ -10533,7 +10533,7 @@
         "fermented miso"
       ],
       "summary": "Miso is fermented soybean paste — soups, marinades, and glazes. Salty umami pairs with sake, Chenin Blanc, and light Pinot Noir in miso-glazed dishes.",
-      "beginner_notes": "Protein accent in dishes rather than whole-plate portion; canonical fermented soy product.",
+      "beginner_notes": "Miso is typically used as a flavoring accent — stirred into soup, glazes, or marinades — rather than served as the main protein portion of a dish.",
       "faq": [
         {
           "q": "What is Miso?",
@@ -12922,7 +12922,7 @@
         "fungal protein fillet"
       ],
       "summary": "Mycoprotein fillet is formed cut resembling chicken breast — grill and bake applications. Marinades pair with Pinot Grigio, rosé, and soft reds.",
-      "beginner_notes": "Generic fillet form; trademarked retail names are not ontology entities.",
+      "beginner_notes": "This entry covers the generic mycoprotein fillet form rather than any specific trademarked retail product.",
       "faq": [
         {
           "q": "What is Mycoprotein Fillet?",

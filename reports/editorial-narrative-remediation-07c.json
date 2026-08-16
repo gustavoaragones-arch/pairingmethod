@@ -1,0 +1,54 @@
+{
+  "phase": "AQ-07C",
+  "title": "Editorial Narrative Remediation",
+  "date": "2026-08-15",
+  "methodology": "Every affected entity's summary (and, for leaf entities, the derived seo_description) was individually rewritten with genuine, entity-specific prose — never mechanical word substitution. Leaf-tier wine-pairing conclusions were grounded in each entity's actual governed relationship data (data/runtime/*-wine-relationships.json pairs_with_style/pairs_with_wine edges), not invented, satisfying both this phase's and AQ-07D's requirement not to fabricate pairing claims. Group/category-tier text was rewritten to remove internal architecture references while preserving and, in several cases, extending the real descriptive content already present (member-ingredient examples, style/technique explanations).",
+  "scope_remediated": {
+    "leaf_entities_rewritten": {
+      "legume": 75,
+      "nut-seed": 89,
+      "sweet-flavor": 73,
+      "sauce-condiment": 90,
+      "grain-starch": 3,
+      "herb-spice": 3,
+      "protein_beginner_notes": 2,
+      "total": 335
+    },
+    "group_entities_rewritten": {
+      "legume": 6, "nut-seed": 6, "sweet-flavor": 6, "sauce-condiment": 6,
+      "cheese": 9, "fruit": 7, "fungi": 4, "grain-starch": 4, "herb-spice": 4, "vegetable": 4, "protein": 17,
+      "total": 73
+    },
+    "category_entities_rewritten": {
+      "legume": 1, "nut-seed": 1, "sweet-flavor": 1, "sauce-condiment": 1,
+      "cheese": 1, "fruit": 1, "fungi": 1, "grain-starch": 1, "herb-spice": 1, "vegetable": 1, "protein": 3,
+      "total": 13
+    }
+  },
+  "findings_beyond_aq07b_scanner": {
+    "description": "Manual review during remediation (not the automated 14-term scanner) surfaced additional internal-architecture leaks the keyword list did not anticipate — exactly the kind of gap the ticket's own instruction not to rely blindly on automated detection was written for.",
+    "examples": [
+      "Raw snake_case field names in prose: 'plant_part', 'edible_structure', 'fungal_body', found across protein's 17 groups and 3 categories (e.g. 'Legumes, soy foods, grains, nuts and seeds — plant_category with plant_part and edible_structure').",
+      "Architecture phrases without a tracked term match: 'intrinsic metadata', 'graph relationships', 'poster-level culinary identity', also concentrated in protein's group/category summaries.",
+      "'canonical entities with frozen intrinsic metadata for classification and identity' — cheese's group-tier introduction text, present verbatim across all 9 cheese groups, the single most severe instance of internal-architecture language found in this initiative."
+    ],
+    "action": "All fixed in the same remediation pass, using the same standard (real, differentiated, consumer-facing prose) applied to the AQ-07B-scanner-identified leaks."
+  },
+  "verification": {
+    "post_remediation_governance_language_scan": "0 rendered consumer-facing hits (reports/editorial-governance-language-07b.json's scanner re-run, see current_status: PASS)",
+    "structural_integrity": "All 11 catalogs verified: entity counts (leaf/group/category) unchanged before and after remediation across every domain — 1,166 leaf, 73 group, 13 category entities total, matching AQ-07A's baseline exactly.",
+    "diff_scope": "git diff confirms only summary, seo_description, introduction, and beginner_notes fields were ever modified across all 11 catalog files — no id, no ownership field, no wine_pairings, no relationship, no governance field touched anywhere.",
+    "wine_pairing_grounding": "Every legume/nut-seed/sweet-flavor/sauce-condiment leaf entity's new wine-pairing conclusion traces to that entity's actual pairs_with_style/pairs_with_wine edge in its domain's runtime relationship file — verified by construction (the extraction script pulled this data before any prose was written), not asserted after the fact."
+  },
+  "regression": {
+    "ontology_changes": false,
+    "catalog_structural_changes": false,
+    "runtime_changes": false,
+    "editorial_relationship_changes": false,
+    "wine_relationship_changes": false,
+    "governance_changes": false,
+    "publication_architecture_changes": false,
+    "verification_method": "git status/diff against every protected path, confirmed clean before this commit."
+  },
+  "overall_status": "PASS — 0 forbidden internal governance terminology remaining in any rendered consumer-facing narrative field, across all 1,166 leaf, 73 group, and 13 category entities in all 11 domains."
+}

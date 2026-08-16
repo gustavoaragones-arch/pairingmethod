@@ -14,13 +14,13 @@
       "entity_type": "fruit_category",
       "external_ids": {},
       "id": "food.fruit",
-      "introduction": "The Fruit Ontology catalogs canonical culinary fruits, berries, citrus, melons, and fruit-derived ingredients used worldwide in cooking. This domain models culinary ingredients, not horticulture, beverages, or prepared foods.",
+      "introduction": "This domain covers culinary fruits, berries, citrus, melons, and fruit-derived ingredients used worldwide in cooking — organized around how they're used in the kitchen, not horticulture, beverages, or prepared foods.",
       "name": "Fruits",
       "scientific_name": "",
-      "seo_description": "Explore canonical culinary fruits and berries by group — usage intensity, identity, and pairing metadata in the PairingMethod Food Ontology.",
+      "seo_description": "Culinary fruits across seven groups: Pomes, Stone Fruits, Citrus, Berries, Tropical Fruits, Melons, and Processed Fruits.",
       "seo_title": "Fruits — Food Ontology",
       "slug": "fruit",
-      "summary": "Canonical culinary fruits across seven immutable groups: Pomes, Stone Fruits, Citrus, Berries, Tropical Fruits, Melons, and Processed Fruits."
+      "summary": "Culinary fruits across seven groups: Pomes, Stone Fruits, Citrus, Berries, Tropical Fruits, Melons, and Processed Fruits."
     }
   ],
   "fruits": [
@@ -4838,14 +4838,14 @@
       "entity_type": "fruit_group",
       "external_ids": {},
       "id": "food.fruit.pomes",
-      "introduction": "Pomes in the Fruit Ontology — core-bearing fruits used fresh and in cooking, including apple and pear.",
+      "introduction": "Core-bearing fruits used fresh and in cooking, including apple and pear.",
       "name": "Pomes",
       "parent_category": "fruit",
       "scientific_name": "",
-      "seo_description": "Canonical pome fruits — apple, pear, and related culinary ingredients in the PairingMethod Fruit Ontology.",
+      "seo_description": "Pomes are core-bearing fruits like apple and pear, with firm flesh that holds up well to both fresh eating and cooking.",
       "seo_title": "Pomes — Fruit Ontology",
       "slug": "pomes",
-      "summary": "Pomes — 12 canonical fruits in the Fruit Ontology."
+      "summary": "Pomes are core-bearing fruits like apple and pear, with firm flesh that holds up well to both fresh eating and cooking."
     },
     {
       "child_slugs": [
@@ -4872,14 +4872,14 @@
       "entity_type": "fruit_group",
       "external_ids": {},
       "id": "food.fruit.stone-fruits",
-      "introduction": "Stone fruits in the Fruit Ontology — drupes with fleshy mesocarp and hard endocarp, including peach, plum, cherry, and apricot.",
+      "introduction": "Drupes with fleshy flesh surrounding a hard pit, including peach, plum, cherry, and apricot.",
       "name": "Stone Fruits",
       "parent_category": "fruit",
       "scientific_name": "",
-      "seo_description": "Canonical stone fruits — peach, plum, cherry, and related culinary ingredients in the PairingMethod Fruit Ontology.",
+      "seo_description": "Stone fruits are drupes with a soft, fleshy exterior around a hard pit, including peach, plum, cherry, and apricot.",
       "seo_title": "Stone Fruits — Fruit Ontology",
       "slug": "stone-fruits",
-      "summary": "Stone Fruits — 17 canonical fruits in the Fruit Ontology."
+      "summary": "Stone fruits are drupes with a soft, fleshy exterior around a hard pit, including peach, plum, cherry, and apricot."
     },
     {
       "child_slugs": [
@@ -4906,14 +4906,14 @@
       "entity_type": "fruit_group",
       "external_ids": {},
       "id": "food.fruit.citrus",
-      "introduction": "Citrus in the Fruit Ontology — acidic, aromatic fruits used for juice, zest, segments, and cooking, including lemon, lime, orange, and grapefruit.",
+      "introduction": "Acidic, aromatic fruits used for juice, zest, segments, and cooking, including lemon, lime, orange, and grapefruit.",
       "name": "Citrus",
       "parent_category": "fruit",
       "scientific_name": "",
-      "seo_description": "Canonical citrus fruits — lemon, lime, orange, and related culinary ingredients in the PairingMethod Fruit Ontology.",
+      "seo_description": "Citrus fruits bring sharp acidity and aromatic zest to cooking and drinks, used for juice, zest, and segments, including lemon, lime, orange, and ...",
       "seo_title": "Citrus — Fruit Ontology",
       "slug": "citrus",
-      "summary": "Citrus — 17 canonical fruits in the Fruit Ontology."
+      "summary": "Citrus fruits bring sharp acidity and aromatic zest to cooking and drinks, used for juice, zest, and segments, including lemon, lime, orange, and grapefruit."
     },
     {
       "child_slugs": [
@@ -4947,14 +4947,14 @@
       "entity_type": "fruit_group",
       "external_ids": {},
       "id": "food.fruit.berries",
-      "introduction": "Berries in the Fruit Ontology — small, aggregate, and culinary berry-class fruits used fresh and in desserts and sauces, including strawberry, raspberry, blueberry, and blackberry.",
+      "introduction": "Small, culinary berry-class fruits used fresh and in desserts and sauces, including strawberry, raspberry, blueberry, and blackberry.",
       "name": "Berries",
       "parent_category": "fruit",
       "scientific_name": "",
-      "seo_description": "Canonical berries — strawberry, raspberry, blueberry, and related culinary ingredients in the PairingMethod Fruit Ontology.",
+      "seo_description": "Berries are small, often intensely flavored fruits used fresh and in desserts and sauces, including strawberry, raspberry, blueberry, and blackberry.",
       "seo_title": "Berries — Fruit Ontology",
       "slug": "berries",
-      "summary": "Berries — 24 canonical fruits in the Fruit Ontology."
+      "summary": "Berries are small, often intensely flavored fruits used fresh and in desserts and sauces, including strawberry, raspberry, blueberry, and blackberry."
     },
     {
       "child_slugs": [
@@ -4986,14 +4986,14 @@
       "entity_type": "fruit_group",
       "external_ids": {},
       "id": "food.fruit.tropical-fruits",
-      "introduction": "Tropical fruits in the Fruit Ontology — warm-climate fruits with distinct culinary identities, including mango, pineapple, papaya, banana, and coconut.",
+      "introduction": "Warm-climate fruits with distinct culinary identities, including mango, pineapple, papaya, banana, and coconut.",
       "name": "Tropical Fruits",
       "parent_category": "fruit",
       "scientific_name": "",
-      "seo_description": "Canonical tropical fruits — mango, pineapple, coconut, and related culinary ingredients in the PairingMethod Fruit Ontology.",
+      "seo_description": "Tropical fruits bring distinctive warm-climate flavors and textures to cooking, including mango, pineapple, papaya, banana, and coconut.",
       "seo_title": "Tropical Fruits — Fruit Ontology",
       "slug": "tropical-fruits",
-      "summary": "Tropical Fruits — 22 canonical fruits in the Fruit Ontology."
+      "summary": "Tropical fruits bring distinctive warm-climate flavors and textures to cooking, including mango, pineapple, papaya, banana, and coconut."
     },
     {
       "child_slugs": [
@@ -5012,14 +5012,14 @@
       "entity_type": "fruit_group",
       "external_ids": {},
       "id": "food.fruit.melons",
-      "introduction": "Melons in the Fruit Ontology — high-water fruits used fresh and in cold preparations, including watermelon, cantaloupe, and honeydew.",
+      "introduction": "High-water fruits used fresh and in cold preparations, including watermelon, cantaloupe, and honeydew.",
       "name": "Melons",
       "parent_category": "fruit",
       "scientific_name": "",
-      "seo_description": "Canonical melons — watermelon, cantaloupe, honeydew, and related culinary ingredients in the PairingMethod Fruit Ontology.",
+      "seo_description": "Melons are high-water-content fruits best served fresh and cold, including watermelon, cantaloupe, and honeydew.",
       "seo_title": "Melons — Fruit Ontology",
       "slug": "melons",
-      "summary": "Melons — 9 canonical fruits in the Fruit Ontology."
+      "summary": "Melons are high-water-content fruits best served fresh and cold, including watermelon, cantaloupe, and honeydew."
     },
     {
       "child_slugs": [
@@ -5047,14 +5047,14 @@
       "entity_type": "fruit_group",
       "external_ids": {},
       "id": "food.fruit.processed-fruits",
-      "introduction": "Processed fruits in the Fruit Ontology — dried fruits, fruit purées, and fruit pastes with established independent culinary identities governed by FRUIT-001 and PROC-001, including raisin, prune, and date.",
+      "introduction": "Dried fruits, fruit purées, and fruit pastes with independent culinary identity, including raisin, prune, and date.",
       "name": "Processed Fruits",
       "parent_category": "fruit",
       "scientific_name": "",
-      "seo_description": "Canonical processed fruit ingredients — raisins, prunes, dates, and related culinary forms in the PairingMethod Fruit Ontology.",
+      "seo_description": "Processed fruits are dried, puréed, or pasted forms with their own culinary identity distinct from their fresh counterparts, including raisin, prune, and ...",
       "seo_title": "Processed Fruits — Fruit Ontology",
       "slug": "processed-fruits",
-      "summary": "Processed Fruits — 18 canonical fruits in the Fruit Ontology."
+      "summary": "Processed fruits are dried, puréed, or pasted forms with their own culinary identity distinct from their fresh counterparts, including raisin, prune, and date."
     }
   ],
   "meta": {
