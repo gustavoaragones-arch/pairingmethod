@@ -1,0 +1,68 @@
+{
+  "phase": "AQ-07F",
+  "title": "SEO Description Certification",
+  "methodology": "Certifies every published leaf/group/category entity's seo_description for presence, entity-specificity (no duplicate across different entities), absence of internal governance terminology (reusing AQ-07B's term list plus the additional raw-field-name leaks found during AQ-07C/E), and absence of unsupported marketing-superlative claims. Deliberately does not gate on character count — Google's own guidance treats length as informational, not a pass/fail signal (established in AQ-05B).",
+  "total_entities_checked": 1252,
+  "total_with_seo_description": 1252,
+  "coverage": "1252 / 1252",
+  "coverage_percent": "100.00%",
+  "per_domain": {
+    "protein": {
+      "checked": 230,
+      "present": 230
+    },
+    "cheese": {
+      "checked": 214,
+      "present": 214
+    },
+    "fruit": {
+      "checked": 127,
+      "present": 127
+    },
+    "vegetable": {
+      "checked": 79,
+      "present": 79
+    },
+    "grain-starch": {
+      "checked": 81,
+      "present": 81
+    },
+    "legume": {
+      "checked": 82,
+      "present": 82
+    },
+    "nut-seed": {
+      "checked": 96,
+      "present": 96
+    },
+    "herb-spice": {
+      "checked": 118,
+      "present": 118
+    },
+    "sweet-flavor": {
+      "checked": 80,
+      "present": 80
+    },
+    "sauce-condiment": {
+      "checked": 97,
+      "present": 97
+    },
+    "fungi": {
+      "checked": 48,
+      "present": 48
+    }
+  },
+  "duplicate_descriptions_across_different_entities": 0,
+  "findings": [],
+  "findings_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "informational": 0
+  },
+  "quality_gate": {
+    "requirement_100_percent_coverage": true,
+    "requirement_0_governance_leaks": true,
+    "requirement_0_duplicate_descriptions": true
+  },
+  "overall_certification": "PASS"
+}
