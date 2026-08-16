@@ -128,8 +128,8 @@ function renderHub(entities) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Serving &amp; Service — Wine Ontology | Pairing Method</title>
-  <meta name="description" content="Explore ${entities.length} wine serving entities — temperature, glassware, decanting, cellaring, and service mistakes in the Pairing Method knowledge graph.">
+  <title>Serving &amp; Service — Wine Guide | Pairing Method</title>
+  <meta name="description" content="Explore ${entities.length} wine serving topics — temperature, glassware, decanting, cellaring, and common service mistakes to avoid.">
   <link rel="canonical" href="https://pairingmethod.com/serving/">
   <link rel="stylesheet" href="/assets/css/styles.css?v=4">
 </head>
@@ -151,9 +151,9 @@ function renderHub(entities) {
   <main class="container">
     <article class="term-entity">
       <header class="term-entity-hero">
-        <p class="term-entity-label">Wine Ontology</p>
+        <p class="term-entity-label">Wine Serving Guide</p>
         <h1>Serving &amp; Service</h1>
-        <p class="wine-serving-summary">The service layer of the knowledge graph — temperature, glassware, decanting, cellaring, and common mistakes linked to styles, grapes, descriptors, and regions.</p>
+        <p class="wine-serving-summary">Temperature, glassware, decanting, cellaring, and common service mistakes — connected to the styles, grapes, descriptors, and regions each one affects.</p>
       </header>
       ${sections}
     </article>

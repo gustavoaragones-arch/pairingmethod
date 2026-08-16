@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T14:28:04.442Z",
+  "generated_at": "2026-08-16T03:54:33.681Z",
   "region_count": 51,
   "total_edges": 790,
   "style_links": 161,
@@ -56,7 +56,228 @@
         "pairings": [
           "Steak"
         ],
-        "edge_count": 33
+        "edge_count": 33,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "balanced",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "merlot",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "syrah",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "grenache",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "viognier",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "contains",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "rhone-valley",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "alsace",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "beaujolais",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "provence",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "cahors",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "similar_to",
+            "target": "italy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "spain",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "germany",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 36,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -100,7 +321,188 @@
         "pairings": [
           "Roast Chicken"
         ],
-        "edge_count": 24
+        "edge_count": 24,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "herbal",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "rustic",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sangiovese",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "nebbiolo",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-grigio",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "glera",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "moscato",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "sangiovese",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "moscato",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "zinfandel",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "contains",
+            "target": "piedmont",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "tuscany",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "veneto",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "sicily",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "similar_to",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "spain",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "portugal",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 29,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -140,7 +542,174 @@
           "italy"
         ],
         "pairings": [],
-        "edge_count": 22
+        "edge_count": 22,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "leathery",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "spicy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "saline",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "tempranillo",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "grenache",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "albarino",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "macabeo",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "palomino",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "albarino",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cava",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "sherry",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "dry-rose",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "contains",
+            "target": "rioja",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "ribera-del-duero",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "priorat",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "rias-baixas",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "jerez",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "penedes",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "similar_to",
+            "target": "portugal",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "italy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 27,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -173,7 +742,95 @@
           "austria"
         ],
         "pairings": [],
-        "edge_count": 14
+        "edge_count": 14,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "lime",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "peach",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "honeyed",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "contains",
+            "target": "mosel",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "rheingau",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "similar_to",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "austria",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 14,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -205,7 +862,120 @@
           "france"
         ],
         "pairings": [],
-        "edge_count": 14
+        "edge_count": 14,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "saline",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "rich",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "complex",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "touriga-nacional",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "albarino",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sercial",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "malvasia",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "albarino",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "madeira",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "contains",
+            "target": "douro",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "madeira",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "similar_to",
+            "target": "spain",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 18,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -263,7 +1033,265 @@
           "Steak",
           "BBQ Ribs"
         ],
-        "edge_count": 38
+        "edge_count": 38,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "vanilla",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "powerful",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "rich",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "merlot",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "zinfandel",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "zinfandel",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "albarino",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "dry-rose",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "moscato",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "sangiovese",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "viognier",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "contains",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "sonoma",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "willamette-valley",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "similar_to",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "italy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-for-bbq-ribs",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 40,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -313,7 +1341,202 @@
         "pairings": [
           "BBQ Ribs"
         ],
-        "edge_count": 30
+        "edge_count": 30,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "black-pepper",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "powerful",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "citrus-zest",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "syrah",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "moscato",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "sangiovese",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "typical_of_region",
+            "target": "viognier",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "contains",
+            "target": "barossa-valley",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "margaret-river",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "yarra-valley",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "coonawarra",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "clare-valley",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "similar_to",
+            "target": "new-zealand",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-for-bbq-ribs",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 31,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -352,7 +1575,131 @@
         "pairings": [
           "Salmon"
         ],
-        "edge_count": 19
+        "edge_count": 19,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "gooseberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "grassy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "zesty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "gewurztraminer",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "contains",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "central-otago",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "similar_to",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-salmon",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 20,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -385,7 +1732,107 @@
         "pairings": [
           "Steak"
         ],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "plummy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "violet",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "chocolate",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "malbec",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "bonarda",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "torrontes",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "contains",
+            "target": "mendoza",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "similar_to",
+            "target": "chile",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 16,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -425,7 +1872,149 @@
         "pairings": [
           "Steak"
         ],
-        "edge_count": 20
+        "edge_count": 20,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "cassis",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "citrus-zest",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "merlot",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "malbec",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "carmenere",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "contains",
+            "target": "maipo-valley",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "colchagua-valley",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "similar_to",
+            "target": "argentina",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 23,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -456,7 +2045,89 @@
           "france"
         ],
         "pairings": [],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "lime",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "peach",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "black-pepper",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "germany",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 13,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -489,7 +2160,113 @@
           "australia"
         ],
         "pairings": [],
-        "edge_count": 15
+        "edge_count": 15,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "grapefruit",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "spicy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "balanced",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chenin-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "syrah",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "similar_to",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 17,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -524,7 +2301,113 @@
         "pairings": [
           "Steak"
         ],
-        "edge_count": 15
+        "edge_count": 15,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cassis",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "graphite",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "cedar",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "merlot",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-franc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "rhone-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 17,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -562,7 +2445,119 @@
           "Salmon",
           "Roast Chicken"
         ],
-        "edge_count": 17
+        "edge_count": 17,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "silky",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "toasty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "aligote",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "contains",
+            "target": "chablis",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "similar_to",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "willamette-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-salmon",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 18,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -593,7 +2588,83 @@
           "marlborough"
         ],
         "pairings": [],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "citrus-zest",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "clean",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 12,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -627,7 +2698,101 @@
         "pairings": [
           "Creamy Dishes"
         ],
-        "edge_count": 14
+        "edge_count": 14,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "brioche",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "toast",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "citrus-zest",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-meunier",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "penedes",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "veneto",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-creamy-dishes",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 15,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -663,7 +2828,125 @@
           "chablis"
         ],
         "pairings": [],
-        "edge_count": 17
+        "edge_count": 17,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "grassy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "zesty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "quince",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chenin-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-franc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "chenin-blanc",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "dry-rose",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "chablis",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 19,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -697,7 +2980,131 @@
         "pairings": [
           "Steak"
         ],
-        "edge_count": 15
+        "edge_count": 15,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "black-pepper",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "spicy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "herbal",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "syrah",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "grenache",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "viognier",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "mourvedre",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cinsault",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "viognier",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "provence",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "barossa-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 20,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -730,7 +3137,107 @@
           "loire-valley"
         ],
         "pairings": [],
-        "edge_count": 14
+        "edge_count": 14,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "lychee",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "lime",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "spicy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "gewurztraminer",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-grigio",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "gewurztraminer",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "germany",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 16,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -762,7 +3269,89 @@
         "pairings": [
           "Roast Chicken"
         ],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "vibrant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "light-bodied",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "supple",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "gamay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 13,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -795,7 +3384,119 @@
         "pairings": [
           "Salmon"
         ],
-        "edge_count": 14
+        "edge_count": 14,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "strawberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "herbal",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "saline",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "dry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "grenache",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cinsault",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "syrah",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "mourvedre",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "dry-rose",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "provence-rose",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "rhone-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-salmon",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 18,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -825,7 +3526,83 @@
         "pairings": [
           "Steak"
         ],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "plummy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "leathery",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "malbec",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "france",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "mendoza",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 12,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -858,7 +3635,119 @@
           "burgundy"
         ],
         "pairings": [],
-        "edge_count": 14
+        "edge_count": 14,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "tar",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "rose-petal",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "violet",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "austere",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "nebbiolo",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "moscato",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "barbera",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "dolcetto",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "moscato",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "italy",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "contains",
+            "target": "barolo",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "contains",
+            "target": "langhe",
+            "target_kind": "wine_region",
+            "source_field": "subregions"
+          },
+          {
+            "type": "similar_to",
+            "target": "tuscany",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 18,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -887,7 +3776,95 @@
           "burgundy"
         ],
         "pairings": [],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "tar",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "nebbiolo",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "barbera",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "dolcetto",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "piedmont",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "barolo",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "piedmont",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 14,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -918,7 +3895,89 @@
         "pairings": [
           "Steak"
         ],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "tar",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "rose-petal",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "austere",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "nebbiolo",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "nebbiolo",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "piedmont",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "langhe",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "piedmont",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 13,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -950,7 +4009,107 @@
           "rioja"
         ],
         "pairings": [],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "herbal",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "tart",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "rustic",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sangiovese",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "merlot",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "canaiolo",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "sangiovese",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "italy",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "piedmont",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "rioja",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 16,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -983,7 +4142,119 @@
         "pairings": [
           "Roast Chicken"
         ],
-        "edge_count": 14
+        "edge_count": 14,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "peach",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "fresh",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "glera",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-grigio",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "corvina",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "merlot",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "prosecco",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "italy",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "tuscany",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "alsace",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 18,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1013,7 +4284,107 @@
           "spain"
         ],
         "pairings": [],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "spicy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "herbal",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "nerello-mascalese",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "nero-d-avola",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "grillo",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "catarratto",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "sangiovese",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "italy",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "tuscany",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "spain",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 16,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1044,7 +4415,107 @@
         "pairings": [
           "Steak"
         ],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "vanilla",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "leathery",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "balanced",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "tempranillo",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "grenache",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "graciano",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "mazuelo",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "spain",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "ribera-del-duero",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 16,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1076,7 +4547,95 @@
         "pairings": [
           "Steak"
         ],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "leathery",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "vanilla",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "tempranillo",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "merlot",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "tempranillo",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "spain",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "rioja",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "priorat",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 14,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1108,7 +4667,107 @@
           "barossa-valley"
         ],
         "pairings": [],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "spicy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "powerful",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "grenache",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "carignan",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "syrah",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "spain",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "rhone-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "rioja",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "barossa-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 16,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1138,7 +4797,83 @@
         "pairings": [
           "Salmon"
         ],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "peach",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "citrus-zest",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "saline",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "albarino",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "albarino",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "spain",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "portugal",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-salmon",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 12,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1166,7 +4901,89 @@
           "madeira"
         ],
         "pairings": [],
-        "edge_count": 10
+        "edge_count": 10,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "nutty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "saline",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "toasty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "dry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "complex",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "palomino",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pedro-ximenez",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "moscatel",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "sherry",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "spain",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "portugal",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "madeira",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 13,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1197,7 +5014,101 @@
           "rioja"
         ],
         "pairings": [],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "quince",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "citrus-zest",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "toasty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "dry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "macabeo",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "xarel-lo",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "parellada",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cava",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "spain",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "champagne",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "rioja",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 15,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1227,7 +5138,77 @@
           "alsace"
         ],
         "pairings": [],
-        "edge_count": 11
+        "edge_count": 11,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "lime",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "honeyed",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "germany",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "rheingau",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "alsace",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 11,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1258,7 +5239,83 @@
           "alsace"
         ],
         "pairings": [],
-        "edge_count": 12
+        "edge_count": 12,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "peach",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "apricot",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "germany",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "mosel",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "alsace",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 12,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1286,7 +5343,95 @@
           "priorat"
         ],
         "pairings": [],
-        "edge_count": 10
+        "edge_count": 10,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "violet",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "rich",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "spicy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "touriga-nacional",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "tinta-roriz",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "touriga-franca",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "tinta-barroca",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "port",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "portugal",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "rioja",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "priorat",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 14,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1314,7 +5459,95 @@
           "portugal"
         ],
         "pairings": [],
-        "edge_count": 10
+        "edge_count": 10,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "caramel",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "nutty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "orange",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "toasty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "rich",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "complex",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sercial",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "verdelho",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "boal",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "malvasia",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "madeira",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "portugal",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "jerez",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "portugal",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 14,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1351,7 +5584,119 @@
         "pairings": [
           "Steak"
         ],
-        "edge_count": 17
+        "edge_count": 17,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cassis",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "vanilla",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "cedar",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "powerful",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "merlot",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "sonoma",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "mendoza",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 18,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1390,7 +5735,131 @@
           "Salmon",
           "BBQ Ribs"
         ],
-        "edge_count": 19
+        "edge_count": 19,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "jammy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "zinfandel",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "zinfandel",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "willamette-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-salmon",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-for-bbq-ribs",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 20,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1428,7 +5897,126 @@
         "pairings": [
           "Salmon"
         ],
-        "edge_count": 18
+        "edge_count": 18,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "silky",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-grigio",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-grigio",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "albarino",
+            "target_kind": "wine_style",
+            "source_field": "reverse:style.typical_regions",
+            "inferred": true
+          },
+          {
+            "type": "child_of",
+            "target": "usa",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "sonoma",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-salmon",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 19,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1462,7 +6050,113 @@
         "pairings": [
           "BBQ Ribs"
         ],
-        "edge_count": 14
+        "edge_count": 14,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "black-pepper",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "chocolate",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "powerful",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "jammy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "syrah",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "grenache",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "semillon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "grenache",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "rhone-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "coonawarra",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "mendoza",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-for-bbq-ribs",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 17,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1499,7 +6193,119 @@
         "pairings": [
           "Salmon"
         ],
-        "edge_count": 17
+        "edge_count": 17,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cassis",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "citrus-zest",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "semillon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "coonawarra",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-salmon",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 18,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1535,7 +6341,113 @@
         "pairings": [
           "Roast Chicken"
         ],
-        "edge_count": 16
+        "edge_count": 16,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "citrus-zest",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "earthy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "refined",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-meunier",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "chardonnay",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "champagne",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "willamette-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-chicken",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 17,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1571,7 +6483,119 @@
         "pairings": [
           "Steak"
         ],
-        "edge_count": 16
+        "edge_count": 16,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cassis",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "herbal",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "cedar",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "merlot",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "syrah",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "margaret-river",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 18,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1603,7 +6627,95 @@
           "barossa-valley"
         ],
         "pairings": [],
-        "edge_count": 13
+        "edge_count": 13,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "lime",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "citrus-zest",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "floral",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "minerality",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "syrah",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "riesling",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "australia",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "mosel",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "barossa-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 14,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1638,7 +6750,107 @@
           "chablis"
         ],
         "pairings": [],
-        "edge_count": 16
+        "edge_count": 16,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "gooseberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "grassy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "zesty",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "crisp",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "grapefruit",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "chardonnay",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "new-zealand",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "loire-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "central-otago",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "chablis",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          }
+        ],
+        "typed_edge_count": 16,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1673,7 +6885,107 @@
         "pairings": [
           "Salmon"
         ],
-        "edge_count": 15
+        "edge_count": 15,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cherry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "raspberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "bright",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "spicy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "elegant",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-noir",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "pinot-grigio",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "riesling",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "pinot-noir",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "rose",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "new-zealand",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "willamette-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "burgundy",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "marlborough",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-salmon",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 16,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1707,7 +7019,113 @@
         "pairings": [
           "Steak"
         ],
-        "edge_count": 14
+        "edge_count": 14,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "violet",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "plummy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "chocolate",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "malbec",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "bonarda",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "torrontes",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "malbec",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "argentina",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "cahors",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "maipo-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 17,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1742,7 +7160,113 @@
         "pairings": [
           "Steak"
         ],
-        "edge_count": 15
+        "edge_count": 15,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "cassis",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "herbal",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "firm",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "structured",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "merlot",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "carmenere",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "sauvignon-blanc",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "chile",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "mendoza",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "napa-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "bordeaux",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-with-steak",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 17,
+        "source_kind": "wine_region"
       }
     },
     {
@@ -1777,7 +7301,119 @@
         "pairings": [
           "BBQ Ribs"
         ],
-        "edge_count": 15
+        "edge_count": 15,
+        "typed_edges": [
+          {
+            "type": "commonly_expresses",
+            "target": "blackberry",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "plummy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "spicy",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "ripe",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "smooth",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "commonly_expresses",
+            "target": "chocolate",
+            "target_kind": "descriptor",
+            "source_field": "typical_descriptors"
+          },
+          {
+            "type": "common_in_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "carmenere",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "syrah",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "common_in_region",
+            "target": "merlot",
+            "target_kind": "grape_variety",
+            "source_field": "typical_grapes"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "cabernet-sauvignon",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "merlot",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "typical_of_region",
+            "target": "syrah-shiraz",
+            "target_kind": "wine_style",
+            "source_field": "typical_styles"
+          },
+          {
+            "type": "child_of",
+            "target": "chile",
+            "target_kind": "wine_region",
+            "source_field": "parent_region"
+          },
+          {
+            "type": "similar_to",
+            "target": "maipo-valley",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "mendoza",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "similar_to",
+            "target": "rioja",
+            "target_kind": "wine_region",
+            "source_field": "related_regions"
+          },
+          {
+            "type": "pairs_with",
+            "target": "wine-for-bbq-ribs",
+            "target_kind": "pairing",
+            "source_field": "food_pairings"
+          }
+        ],
+        "typed_edge_count": 18,
+        "source_kind": "wine_region"
       }
     }
   ]

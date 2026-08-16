@@ -117,7 +117,7 @@ function renderStylesHub(styles) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wine Styles — Structured Style Guide | Pairing Method</title>
-  <meta name="description" content="Explore ${styles.length} wine styles with structure profiles, typical descriptors, regions, and food pairings — part of the Pairing Method knowledge graph.">
+  <meta name="description" content="Explore ${styles.length} wine styles with structure profiles, typical descriptors, regions, and food pairings.">
   <link rel="canonical" href="https://pairingmethod.com/styles/">
   <link rel="stylesheet" href="/assets/css/styles.css?v=4">
 </head>
@@ -139,9 +139,9 @@ function renderStylesHub(styles) {
   <main class="container">
     <article class="term-entity">
       <header class="term-entity-hero">
-        <p class="term-entity-label">Wine Ontology</p>
+        <p class="term-entity-label">Wine Styles Guide</p>
         <h1>Wine Styles</h1>
-        <p class="wine-style-summary">First-class style entities in the knowledge graph — structure, descriptors, grapes, and pairings for the world's most searched wine styles.</p>
+        <p class="wine-style-summary">Structure, descriptors, grapes, and food pairings for the world's most searched wine styles.</p>
       </header>
       ${sections}
     </article>

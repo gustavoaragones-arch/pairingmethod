@@ -125,7 +125,7 @@ function renderHub(entities) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Winemaking Techniques — Wine Ontology | Pairing Method</title>
+  <title>Winemaking Techniques Guide | Pairing Method</title>
   <meta name="description" content="Explore ${entities.length} winemaking techniques — fermentation, maceration, aging, sparkling, fortification, and stabilization linked to styles, grapes, descriptors, and regions.">
   <link rel="canonical" href="https://pairingmethod.com/techniques/">
   <link rel="stylesheet" href="/assets/css/styles.css?v=4">
@@ -148,9 +148,9 @@ function renderHub(entities) {
   <main class="container">
     <article class="term-entity">
       <header class="term-entity-hero">
-        <p class="term-entity-label">Wine Ontology</p>
+        <p class="term-entity-label">Winemaking Techniques Guide</p>
         <h1>Winemaking Techniques</h1>
-        <p class="winemaking-technique-summary">Production methods across the wine lifecycle — linked to styles, grapes, regions, descriptors, and serving in the knowledge graph.</p>
+        <p class="winemaking-technique-summary">Production methods across the wine lifecycle, and the styles, grapes, regions, and descriptors each one shapes.</p>
       </header>
       ${sections}
     </article>

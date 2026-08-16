@@ -123,8 +123,8 @@ function renderHub(entities) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wine Faults — Wine Ontology | Pairing Method</title>
-  <meta name="description" content="Explore ${entities.length} wine faults — microbial, chemical, physical, and sensory defects linked to descriptors, styles, regions, and winemaking in the knowledge graph.">
+  <title>Wine Faults Guide | Pairing Method</title>
+  <meta name="description" content="Explore ${entities.length} wine faults — microbial, chemical, physical, and sensory defects, with the descriptors, styles, and regions each one affects.">
   <link rel="canonical" href="https://pairingmethod.com/faults/">
   <link rel="stylesheet" href="/assets/css/styles.css?v=4">
 </head>
@@ -146,9 +146,9 @@ function renderHub(entities) {
   <main class="container">
     <article class="term-entity">
       <header class="term-entity-hero">
-        <p class="term-entity-label">Wine Ontology</p>
+        <p class="term-entity-label">Wine Faults Guide</p>
         <h1>Wine Faults</h1>
-        <p class="wine-fault-summary">Causal defect entities — linked to sensory descriptors, styles, regions, techniques, and serving in the knowledge graph.</p>
+        <p class="wine-fault-summary">What causes each defect, and the sensory descriptors, styles, regions, and techniques it's connected to.</p>
       </header>
       ${sections}
     </article>

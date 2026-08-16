@@ -1,0 +1,57 @@
+{
+  "phase": "AQ-06R2-FIX",
+  "title": "Publication Template Governance-Language Remediation",
+  "date": "2026-08-15",
+  "scope_justification": "Per the ticket's explicit authorization: 'If a publication-only defect is discovered and fixing it is clearly necessary for AdSense readiness, it may be remediated only with explicit scope justification and its own milestone.' All findings below are publication-template string literals (no catalog, runtime, editorial-relationship, wine-relationship, or governance file touched), discovered by AQ-06R2's deep live-HTML verification, judged clearly relevant to AdSense readiness because of their reach (near-site-wide) and prominence (page titles, hero labels, footer text on nearly every page), and remediated here as their own explicitly-justified milestone rather than folded silently into a verification report.",
+  "findings_remediated": [
+    {
+      "id": "AQ06R-ED-02",
+      "title": "\"Food Ontology\" hardcoded on all 10 domain hub pages + /ingredients/",
+      "source_files": ["lib/food-publication/hub.js", "lib/food-publication/ingredients-directory.js"],
+      "fix": "Replaced 'Food Ontology' label/title/meta-description text with 'Ingredient Directory' and natural wine-pairing-focused descriptions."
+    },
+    {
+      "id": "AQ06R-ED-03",
+      "title": "\"Related ontology entities\" heading on all 30 wine-fault + 60 winemaking-technique pages",
+      "source_files": ["lib/taxonomy-wine-fault-render.js", "lib/taxonomy-winemaking-technique-render.js"],
+      "fix": "Changed heading text to 'Related entries', matching the natural phrasing already used by every sibling wine-tier page type ('Related regions', 'Related pages')."
+    },
+    {
+      "id": "AQ06R-ED-04",
+      "title": "\"Wine Ontology\" hardcoded on all 5 wine-tier hub pages (faults, techniques, serving, styles, regions)",
+      "discovered": "During remediation of AQ06R-ED-03, found identically in the sibling hub-page templates for serving/styles/regions, not just faults/techniques — same root pattern, same fix.",
+      "source_files": ["scripts/generate-wine-faults.js", "scripts/generate-winemaking-techniques.js", "scripts/generate-wine-serving.js", "scripts/generate-wine-styles.js", "scripts/generate-wine-regions.js"],
+      "fix": "Replaced '{X} — Wine Ontology | Pairing Method' titles and 'Wine Ontology' hero labels with domain-specific, jargon-free equivalents (e.g. 'Wine Faults Guide', 'Winemaking Techniques Guide')."
+    },
+    {
+      "id": "AQ06R-ED-05",
+      "title": "\"knowledge graph\" in a site-wide shared footer element, present on ~1,261 of ~1,275 published pages",
+      "discovered": "While verifying AQ06R-ED-04's fix, a broadened sweep for 'knowledge graph' (a term not in AQ-07B's original 14-word list) found it in a `.crawl-hint` footer paragraph shared by templates/protein-entity-template.html — the single template file every one of the 11 food-ontology domains, all 10 hub pages, and the /ingredients/ directory reuse. It also appeared in 5 wine-tier hub-generation scripts (faults, techniques, serving, styles, regions).",
+      "correctness_note": "This was not only a jargon leak but a factual-accuracy defect: because protein-entity-template.html is shared across all 11 domains, EVERY food-ontology page — including every legume, fruit, and vegetable page — carried the literal, domain-mismatched footer text 'Explore protein foods, wine styles, descriptors, and structured pairings across the knowledge graph,' regardless of which domain the page actually belonged to.",
+      "source_files": ["templates/protein-entity-template.html", "templates/wine-fault-template.html", "templates/wine-region-template.html", "templates/wine-serving-template.html", "templates/wine-style-template.html", "templates/winemaking-technique-template.html"],
+      "fix": "protein-entity-template.html's footer text was replaced with the exact domain-agnostic phrase already used correctly elsewhere in the codebase ('Explore more structured wine pairings across different foods and cooking styles.' — already present in grape-template.html, term-category-template.html, term-descriptor-template.html, high-intent-template.html, and pairing-template.html, so this also brings protein-entity-template.html into consistency with 5 templates that were already correct). The 5 wine-tier templates each kept their own domain-specific, otherwise-accurate sentence, with only the 'across/in the knowledge graph' clause removed."
+    }
+  ],
+  "regeneration_performed": {
+    "html_regenerated_for": "all 11 food-ontology domains (HTML stage only — projections/pages/schema unaffected since only template text changed, not catalog data)",
+    "hub_pages_regenerated": "all 10 domain hubs + /ingredients/ directory",
+    "wine_tier_regenerated": "faults (30), winemaking-techniques (60), serving (40), styles (28), regions (51) — 209 pages + 5 hub pages",
+    "promoted_to_root": "all 10 published food domains (cheese correctly withheld, confirmed via git status showing cheese-groups/cheese-categories/cheeses/ remain untracked)",
+    "sitemap_regenerated": true
+  },
+  "final_verification": {
+    "method": "Full site-wide scan (1,275 published HTML files across all food-ontology domains, hubs, ingredients directory, and the entire wine-education tier) for 'canonical', 'ontology', and 'knowledge graph' in visible text only (HTML attributes and JSON-LD explicitly excluded).",
+    "remaining_hits": 3,
+    "remaining_hits_detail": "Exactly the 3 already-documented, deliberately-not-fixed instances: 2 protein catalog `faq` field entries (AQ06R-ED-01, catalog-layer, off-limits per regression rules) + 1 JSON-LD DefinedTermSet name (legitimate machine-readable technical usage, established out of scope since AQ-04).",
+    "regression_suite_rerun": {
+      "relationship_provenance": "4,140 checked, 0 violations",
+      "reachability_orphans": 0,
+      "google_crawlability": "PASS",
+      "google_indexability": "PASS",
+      "google_rich_results": "PASS",
+      "jsonld_validation": "0 issues"
+    },
+    "catalog_runtime_editorial_wine_governance_touched": false
+  },
+  "overall_result": "All 4 findings (AQ06R-ED-02 through 05) fully remediated and verified live across every affected page. Combined scope: 11 domain-hub-related pages + 209 wine-tier entity pages + 5 wine-tier hubs + ~1,166 food-ontology leaf pages' shared footer = the large majority of the site's published pages now confirmed free of internal-architecture terminology in visible text, not just the catalog-driven entity pages AQ-07 already fixed."
+}
