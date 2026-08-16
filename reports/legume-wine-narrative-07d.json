@@ -1,0 +1,2343 @@
+{
+  "phase": "AQ-07D",
+  "title": "Entity-Specific Wine Narrative Certification",
+  "focus": "Legume domain specifically named in the ticket (AQ-06B found all 75 entities converging on an identical generic wine conclusion), verified alongside the other 3 domains that shared the same original defect pattern.",
+  "legume_specific_certification": {
+    "entities_inspected": 75,
+    "requirement_75_of_75_inspected": true,
+    "summaries_reflecting_real_pairing": "75 / 75",
+    "no_identical_conclusion_where_profiles_differ": true,
+    "no_invented_wine_relationships": "By construction — every summary was authored using the existing pairs_with_style targets extracted from data/runtime/legume-wine-relationships.json before any prose was written, never asserted independently.",
+    "no_changes_to_wine_relationship_artifact": "Confirmed via git status — data/runtime/legume-wine-relationships.json not modified."
+  },
+  "all_domains": [
+    {
+      "domain": "legume",
+      "total_entities": 75,
+      "coverage": "75 / 75",
+      "no_generic_collapse": true,
+      "collapsed_groups_found": 0
+    },
+    {
+      "domain": "nut-seed",
+      "total_entities": 89,
+      "coverage": "89 / 89",
+      "no_generic_collapse": true,
+      "collapsed_groups_found": 0
+    },
+    {
+      "domain": "sweet-flavor",
+      "total_entities": 73,
+      "coverage": "73 / 73",
+      "no_generic_collapse": true,
+      "collapsed_groups_found": 0
+    },
+    {
+      "domain": "sauce-condiment",
+      "total_entities": 90,
+      "coverage": "90 / 90",
+      "no_generic_collapse": true,
+      "collapsed_groups_found": 0
+    }
+  ],
+  "detailed_results_by_domain": {
+    "legume": [
+      {
+        "id": "food.legume.other-legumes.adzuki-bean",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.anasazi-bean",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.black-bean",
+        "primary_wine_targets": [
+          "malbec"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.black-bean-flour",
+        "primary_wine_targets": [
+          "malbec"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.chickpeas.black-chickpea",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.peas.black-eyed-pea",
+        "primary_wine_targets": [
+          "zinfandel"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.other-legumes.black-gram",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.lentils.black-lentil",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.black-turtle-bean",
+        "primary_wine_targets": [
+          "malbec"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.borlotti-bean",
+        "primary_wine_targets": [
+          "nebbiolo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.lentils.brown-lentil",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.butter-bean",
+        "primary_wine_targets": [
+          "viognier"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.cannellini-bean",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.chickpeas.chickpea",
+        "primary_wine_targets": [
+          "dry-rose"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.chickpea-flour",
+        "primary_wine_targets": [
+          "champagne"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.lentils.coral-lentil",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.cranberry-bean",
+        "primary_wine_targets": [
+          "sangiovese"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.fava-bean",
+        "primary_wine_targets": [
+          "sangiovese"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.fava-bean-flour",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.fermented-black-bean",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.peas.field-pea",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.flageolet-bean",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.lentils.golden-lentil",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.great-northern-bean",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.chickpeas.green-chickpea",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.lentils.green-lentil",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.peas.green-pea",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.other-legumes.guar-bean",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.haricot-bean",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.other-legumes.horse-gram",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.other-legumes.hyacinth-bean",
+        "primary_wine_targets": [
+          "viognier"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.other-legumes.jack-bean",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.jacob-cattle-bean",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.kidney-bean",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.lentil-flour",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.lima-bean",
+        "primary_wine_targets": [
+          "chardonnay"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.other-legumes.lupin-bean",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.lupin-flour",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.lentils.macachiados-lentil",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.marrow-bean",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.peas.marrowfat-pea",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.mayocoba-bean",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.miso",
+        "primary_wine_targets": [
+          "sherry"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.other-legumes.moth-bean",
+        "primary_wine_targets": [
+          "grenache"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.other-legumes.mung-bean",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.mung-bean-flour",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.natto",
+        "primary_wine_targets": [
+          "madeira"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.navy-bean",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.pea-flour",
+        "primary_wine_targets": [
+          "sauvignon-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.other-legumes.pigeon-pea",
+        "primary_wine_targets": [
+          "grenache"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.pink-bean",
+        "primary_wine_targets": [
+          "grenache"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.pinto-bean",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.peas.purple-hull-pea",
+        "primary_wine_targets": [
+          "grenache"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.lentils.puy-lentil",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.rattlesnake-bean",
+        "primary_wine_targets": [
+          "zinfandel"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.lentils.red-lentil",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.red-lentil-flour",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.roman-bean",
+        "primary_wine_targets": [
+          "sangiovese"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.scarlet-runner-bean",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.small-red-bean",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.peas.snap-pea",
+        "primary_wine_targets": [
+          "sauvignon-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.peas.snow-pea",
+        "primary_wine_targets": [
+          "dry-rose"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.soldier-bean",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.soy-curls",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.soy-flour",
+        "primary_wine_targets": [
+          "viognier"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.other-legumes.soybean",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.tempeh",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.tepary-bean",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.textured-vegetable-protein",
+        "primary_wine_targets": [
+          "merlot"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.tofu",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.beans.white-bean",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.legume-products.white-bean-flour",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.other-legumes.winged-bean",
+        "primary_wine_targets": [
+          "sauvignon-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.lentils.yellow-lentil",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.legume.peas.yellow-pea",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      }
+    ],
+    "nut-seed": [
+      {
+        "id": "food.nut-seed.tree-nuts.almond",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.almond-butter",
+        "primary_wine_targets": [
+          "viognier"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.almond-flour",
+        "primary_wine_targets": [
+          "champagne"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.almond-meal",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.baru-nut",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.beechnut",
+        "primary_wine_targets": [
+          "nebbiolo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.bitter-almond",
+        "primary_wine_targets": [
+          "chardonnay"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.brazil-nut",
+        "primary_wine_targets": [
+          "malbec"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.brazil-nut-meal",
+        "primary_wine_targets": [
+          "malbec"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.breadfruit-seed",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.breadnut-seed",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.candlenut",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.cashew",
+        "primary_wine_targets": [
+          "viognier"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.cashew-butter",
+        "primary_wine_targets": [
+          "chardonnay"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.cashew-flour",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.chestnut",
+        "primary_wine_targets": [
+          "nebbiolo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.chestnut-flour",
+        "primary_wine_targets": [
+          "nebbiolo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.chia-seed",
+        "primary_wine_targets": [
+          "moscato"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.chia-seed-meal",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.cucumber-seed",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.desert-date-seed",
+        "primary_wine_targets": [
+          "sauvignon-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-spices.egusi-seed",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.flaxseed",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.flaxseed-butter",
+        "primary_wine_targets": [
+          "sauvignon-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.flaxseed-meal",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.ginkgo-nut",
+        "primary_wine_targets": [
+          "nebbiolo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.hazelnut",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.hazelnut-butter",
+        "primary_wine_targets": [
+          "viognier"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.hazelnut-flour",
+        "primary_wine_targets": [
+          "madeira"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.hazelnut-meal",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.hemp-seed",
+        "primary_wine_targets": [
+          "sauvignon-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.hemp-seed-butter",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.hemp-seed-flour",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.hemp-seed-meal",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.hickory-nut",
+        "primary_wine_targets": [
+          "chardonnay"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.jackfruit-seed",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.kola-nut",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-spices.leek-seed",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.lotus-seed",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.macadamia",
+        "primary_wine_targets": [
+          "chardonnay"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.macadamia-butter",
+        "primary_wine_targets": [
+          "prosecco"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-spices.mahlab",
+        "primary_wine_targets": [
+          "viognier"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.melon-seed",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.mongongo-nut",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.niger-seed",
+        "primary_wine_targets": [
+          "sauvignon-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.niger-seed-paste",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.okra-seed",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-spices.onion-seed",
+        "primary_wine_targets": [
+          "viognier"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-spices.palm-kernel-seed",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.palmyra-seed",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.paradise-nut",
+        "primary_wine_targets": [
+          "chardonnay"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.peanuts.peanut",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.peanut-butter",
+        "primary_wine_targets": [
+          "zinfandel"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.pecan",
+        "primary_wine_targets": [
+          "zinfandel"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.pecan-butter",
+        "primary_wine_targets": [
+          "merlot"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.pecan-meal",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-spices.perilla-seed",
+        "primary_wine_targets": [
+          "viognier"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.pili-nut",
+        "primary_wine_targets": [
+          "nebbiolo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.pine-nut",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.pine-nut-paste",
+        "primary_wine_targets": [
+          "prosecco"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.pistachio",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.pistachio-paste",
+        "primary_wine_targets": [
+          "moscato"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.pomegranate-seed",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-spices.poppy-seed",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.psyllium-seed",
+        "primary_wine_targets": [
+          "sauvignon-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.pumpkin-seed",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.pumpkin-seed-butter",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.pumpkin-seed-flour",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.pumpkin-seed-meal",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-spices.radish-seed",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.saba-nut",
+        "primary_wine_targets": [
+          "chardonnay"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.sacha-inchi-butter",
+        "primary_wine_targets": [
+          "viognier"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.sacha-inchi-seed",
+        "primary_wine_targets": [
+          "sauvignon-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.safflower-meal",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.safflower-seed",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.sesame",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.sesame-flour",
+        "primary_wine_targets": [
+          "prosecco"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.sesame-paste",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.squash-seed",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.sunflower-seed",
+        "primary_wine_targets": [
+          "sauvignon-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.sunflower-seed-butter",
+        "primary_wine_targets": [
+          "chardonnay"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.sunflower-seed-flour",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.sunflower-seed-paste",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-products.tahini",
+        "primary_wine_targets": [
+          "sherry"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.tree-nuts.walnut",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.walnut-butter",
+        "primary_wine_targets": [
+          "merlot"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.nut-products.walnut-meal",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.edible-seeds.watermelon-seed",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.nut-seed.seed-spices.wattleseed",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      }
+    ],
+    "sweet-flavor": [
+      {
+        "id": "food.sweet-flavor.natural-sweeteners.agave",
+        "primary_wine_targets": [
+          "viognier"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.alternative-sweeteners.allulose",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.alternative-sweeteners.aspartame",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.syrups.barley-malt-syrup",
+        "primary_wine_targets": [
+          "sherry"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.sugars.beet-sugar",
+        "primary_wine_targets": [
+          "prosecco"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.natural-sweeteners.birch-sugar",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.black-cocoa-powder",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.syrups.blackstrap-molasses",
+        "primary_wine_targets": [
+          "madeira"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.sugars.brown-sugar",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.honey-bee-products.buckwheat-honey",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-bean",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-nibs",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-paste",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-powder",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.sugars.cane-sugar",
+        "primary_wine_targets": [
+          "champagne"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.syrups.cane-syrup",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.natural-sweeteners.carob-powder",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.chocolate-liquor",
+        "primary_wine_targets": [
+          "madeira"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.honey-bee-products.clover-honey",
+        "primary_wine_targets": [
+          "moscato"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-butter",
+        "primary_wine_targets": [
+          "champagne"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-powder",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-presscake",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-solids",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.natural-sweeteners.coconut-sugar",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.honey-bee-products.comb-honey",
+        "primary_wine_targets": [
+          "champagne"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.syrups.corn-syrup",
+        "primary_wine_targets": [
+          "moscato"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.alternative-sweeteners.cyclamate",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.natural-sweeteners.date-syrup",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.defatted-cocoa-powder",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.sugars.demerara-sugar",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.dutch-process-cocoa-powder",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.alternative-sweeteners.erythritol",
+        "primary_wine_targets": [
+          "sauvignon-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.natural-sweeteners.fruit-sugar",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.syrups.glucose-syrup",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.syrups.golden-syrup",
+        "primary_wine_targets": [
+          "sherry"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.natural-sweeteners.grape-sugar",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.ground-cacao",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.high-fat-cocoa-powder",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.honey-bee-products.honey",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.syrups.invert-sugar-syrup",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.sugars.jaggery",
+        "primary_wine_targets": [
+          "champagne"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.natural-sweeteners.lucuma-powder",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.alternative-sweeteners.maltitol",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.honey-bee-products.manuka-honey",
+        "primary_wine_targets": [
+          "champagne"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.sugars.maple-sugar",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.syrups.maple-syrup",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.natural-sweeteners.mesquite-powder",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.syrups.molasses",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.natural-sweeteners.monk-fruit-sweetener",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.sugars.muscovado-sugar",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.natural-cocoa-powder",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.sugars.palm-sugar",
+        "primary_wine_targets": [
+          "champagne"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.syrups.palm-syrup",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.sugars.panela",
+        "primary_wine_targets": [
+          "champagne"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.sugars.piloncillo",
+        "primary_wine_targets": [
+          "champagne"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.raw-cacao",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.sugars.raw-sugar",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.red-cocoa-powder",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.syrups.rice-syrup",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.roasted-cacao-nibs",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.sugars.rock-sugar",
+        "primary_wine_targets": [
+          "champagne"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.ruby-cacao",
+        "primary_wine_targets": [
+          "prosecco"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.alternative-sweeteners.saccharin",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.alternative-sweeteners.sorbitol",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.syrups.sorghum-syrup",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.alternative-sweeteners.stevia",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.alternative-sweeteners.sucralose",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.alternative-sweeteners.tagatose",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.cocoa-chocolate-ingredients.toasted-cacao",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.syrups.treacle",
+        "primary_wine_targets": [
+          "sherry"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.sugars.turbinado-sugar",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.alternative-sweeteners.xylitol",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sweet-flavor.natural-sweeteners.yacon-syrup",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      }
+    ],
+    "sauce-condiment": [
+      {
+        "id": "food.sauce-condiment.oil-based-sauces-dressings.aioli",
+        "primary_wine_targets": [
+          "sauvignon-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.almond-extract",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.savory-spreads-pastes.anchovy-paste",
+        "primary_wine_targets": [
+          "malbec"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.apple-sauce",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.oil-based-sauces-dressings.balsamic-vinaigrette",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.banana-ketchup",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.barbecue-sauce",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.mother-sauces.bearnaise",
+        "primary_wine_targets": [
+          "chardonnay"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.mother-sauces.bechamel",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.black-vinegar",
+        "primary_wine_targets": [
+          "grenache"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.oil-based-sauces-dressings.blue-cheese-dressing",
+        "primary_wine_targets": [
+          "sauvignon-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.brown-sauce",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.oil-based-sauces-dressings.caesar-dressing",
+        "primary_wine_targets": [
+          "dry-rose"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.capers",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.caramel-sauce",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.chili-garlic-sauce",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.chili-sauce",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.oil-based-sauces-dressings.chimichurri",
+        "primary_wine_targets": [
+          "dry-rose"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.chocolate-syrup",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.cornichons",
+        "primary_wine_targets": [
+          "viognier"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.cranberry-jelly",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.cranberry-sauce",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.mother-sauces.demi-glace",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.dijon-mustard",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.doubanjiang",
+        "primary_wine_targets": [
+          "grenache"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.english-mustard",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.mother-sauces.espagnole",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.fermented-black-bean-sauce",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.fish-sauce",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.savory-spreads-pastes.garlic-paste",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.savory-spreads-pastes.gentlemans-relish",
+        "primary_wine_targets": [
+          "port"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.gochujang",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.oil-based-sauces-dressings.green-goddess-dressing",
+        "primary_wine_targets": [
+          "dry-rose"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.harissa",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.hoisin-sauce",
+        "primary_wine_targets": [
+          "grenache"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.mother-sauces.hollandaise",
+        "primary_wine_targets": [
+          "chardonnay"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.hot-sauce",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.maggi-seasoning-sauce",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.mango-chutney",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.marinara-sauce",
+        "primary_wine_targets": [
+          "grenache"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.savory-spreads-pastes.marmite",
+        "primary_wine_targets": [
+          "sherry"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.mother-sauces.mayonnaise",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.mint-jelly",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.mole-sauce",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.savory-spreads-pastes.muhammara",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.mushroom-gravy",
+        "primary_wine_targets": [
+          "zinfandel"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.savory-spreads-pastes.olive-paste",
+        "primary_wine_targets": [
+          "sherry"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.orange-blossom-water",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.oyster-sauce",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.pan-gravy",
+        "primary_wine_targets": [
+          "grenache"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.oil-based-sauces-dressings.pesto",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.pickle-relish",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.pickled-ginger",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.plum-sauce",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.ponzu",
+        "primary_wine_targets": [
+          "grenache"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.prepared-horseradish",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.oil-based-sauces-dressings.ranch-dressing",
+        "primary_wine_targets": [
+          "albarino"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.savory-spreads-pastes.red-pepper-paste",
+        "primary_wine_targets": [
+          "malbec"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.oil-based-sauces-dressings.romesco-sauce",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.rose-water",
+        "primary_wine_targets": [
+          "viognier"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.sambal-oelek",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.mother-sauces.sauce-mornay",
+        "primary_wine_targets": [
+          "chardonnay"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.oil-based-sauces-dressings.sauce-vierge",
+        "primary_wine_targets": [
+          "dry-rose"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.shrimp-paste",
+        "primary_wine_targets": [
+          "zinfandel"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.soy-sauce",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.sriracha",
+        "primary_wine_targets": [
+          "gewurztraminer"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.steak-sauce",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.savory-spreads-pastes.sun-dried-tomato-paste",
+        "primary_wine_targets": [
+          "malbec"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.sweet-and-sour-sauce",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.sweet-pickle-relish",
+        "primary_wine_targets": [
+          "viognier"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.tamarind-paste",
+        "primary_wine_targets": [
+          "syrah-shiraz"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.savory-spreads-pastes.tapenade",
+        "primary_wine_targets": [
+          "sherry"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.tartar-sauce",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.teriyaki-sauce",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.oil-based-sauces-dressings.thousand-island-dressing",
+        "primary_wine_targets": [
+          "chenin-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.tomato-ketchup",
+        "primary_wine_targets": [
+          "zinfandel"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.mother-sauces.tomato-mother-sauce",
+        "primary_wine_targets": [
+          "sangiovese"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.tonkatsu-sauce",
+        "primary_wine_targets": [
+          "malbec"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.savory-spreads-pastes.truffle-paste",
+        "primary_wine_targets": [
+          "zinfandel"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.vanilla-extract",
+        "primary_wine_targets": [
+          "moscato"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.savory-spreads-pastes.vegemite",
+        "primary_wine_targets": [
+          "sherry"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.mother-sauces.veloute",
+        "primary_wine_targets": [
+          "pinot-grigio"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.oil-based-sauces-dressings.vinaigrette",
+        "primary_wine_targets": [
+          "sauvignon-blanc"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.wasabi-paste",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.whole-grain-mustard",
+        "primary_wine_targets": [
+          "viognier"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.table-sauces.worcestershire-sauce",
+        "primary_wine_targets": [
+          "zinfandel"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.xo-sauce",
+        "primary_wine_targets": [
+          "pinot-noir"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.yellow-bean-sauce",
+        "primary_wine_targets": [
+          "tempranillo"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.condiments.yellow-mustard",
+        "primary_wine_targets": [
+          "riesling"
+        ],
+        "summary_reflects_real_pairing": true
+      },
+      {
+        "id": "food.sauce-condiment.fermented-sauces-pastes.yuzu-kosho",
+        "primary_wine_targets": [
+          "grenache"
+        ],
+        "summary_reflects_real_pairing": true
+      }
+    ]
+  },
+  "overall_certification": "PASS"
+}
