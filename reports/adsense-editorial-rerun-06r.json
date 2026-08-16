@@ -1,0 +1,71 @@
+{
+  "phase": "AQ-06R2",
+  "title": "Editorial Remediation Verification",
+  "date": "2026-08-15",
+  "methodology": "Per the ticket's explicit instruction not to blindly trust AQ-07's reports, this phase re-runs AQ-07B's scanner fresh against the current catalog AND, more importantly, scans the actual live/generated HTML a reader or reviewer would receive — not the catalog JSON. This distinction mattered: it found two real, previously-undiscovered leaks that catalog-level scanning could never have caught, because their source is publication-template code, not catalog data.",
+  "catalog_level_reverification": {
+    "method": "Fresh re-run of lib/editorial-audit/governance-language.js (AQ-07B's scanner) against the current catalog state.",
+    "rendered_consumer_facing_hits": 0,
+    "status": "CONFIRMED CLOSED — AQ-07's catalog-level remediation holds under independent re-verification, not just AQ-07's own self-report."
+  },
+  "live_html_deep_scan": {
+    "method": "Scanned 1,048 live, generated root HTML files (all published leaf/group/category pages across all 11 food-ontology domains) for 'canonical'/'ontology' in VISIBLE TEXT ONLY — HTML tags, attributes (including the legitimate <link rel=\"canonical\">), and JSON-LD script blocks explicitly excluded before matching, to avoid the false-positive risk of flagging correct technical markup.",
+    "leaf_group_category_pages_result": "0 hits in any of the 1,038 leaf/group/category pages' visible text — confirms AQ-07C's rewrite is genuinely clean in the actual served HTML, not just in the catalog source.",
+    "residual_finding_1": {
+      "id": "AQ06R-ED-01",
+      "severity": "low",
+      "title": "2 protein FAQ entries retain the pre-AQ-07 text, in a catalog field AQ-07's scanner never checked",
+      "scope": "food.protein.soy-foods.miso and food.protein.mycoprotein.mycoprotein-fillet — their `faq[0].a` array field is a byte-identical, never-updated copy of the OLD beginner_notes text AQ-07E fixed in the `beginner_notes` field itself.",
+      "root_cause": "lib/editorial-audit/governance-language.js's NARRATIVE_FIELDS list (summary, seo_description, beginner_notes, origin_context, introduction) never included `faq`, because faq is an array of {q,a} objects, not a plain string, and the scanner's type check (`typeof value !== 'string'`) silently skipped it. AQ-07's remediation fixed beginner_notes for these 2 entities but never touched the separate, duplicate faq entry.",
+      "visible_impact": "The rendered FAQ section on /foods/miso/ and /foods/mycoprotein-fillet/ still shows 'canonical fermented soy product' / 'ontology entities' as a visible FAQ answer.",
+      "does_not_reach": "Meta description or JSON-LD — faq is not in the rendered-field set that feeds page.metadata.description, confirmed via lib/food-publication/narrative.js's NARRATIVE_FIELDS.",
+      "disposition": "DOCUMENTED, NOT FIXED — faq is a catalog field (data/protein-food-catalog.json), and AQ-06R's regression rules exclude catalog modification even for a defect this narrow and this clearly correct to fix. Left for the same future scoped editorial pass that owns any remaining catalog-layer work.",
+      "does_this_reopen_aq06_hc_01": "No. AQ06-HC-01 described a systemic pattern across 328-999 hits/402+ entities. This is a residual 2-entity miss from a scanner gap, found by deeper verification — a new, narrow, low-severity finding in its own right, not a reopening of the closed systemic finding."
+    },
+    "residual_finding_2": {
+      "id": "AQ06R-ED-02",
+      "severity": "medium",
+      "title": "\"Food Ontology\" is a hardcoded, visible label/title/meta-description on all 10 domain hub pages and the /ingredients/ directory",
+      "scope": "11 pages: /foods/, /fruits/, /vegetables/, /grains-starches/, /legumes/, /nut-seeds/, /herbs-spices/, /sweet-flavors/, /sauce-condiments/, /fungi/, and /ingredients/ — among the highest-traffic, most navigationally important pages on the site (the primary entry point into each food domain).",
+      "evidence": [
+        "Visible page label on every hub: <p class=\"term-entity-label\">Food Ontology</p>",
+        "<title> tag on every hub: \"{Domain} — Food Ontology Directory\"",
+        "<meta name=\"description\"> on every hub: \"Explore N {items} across M groups in the Pairing Method food ontology.\"",
+        "/ingredients/ directory: visible intro paragraph \"The Pairing Method food ontology is organized into...\" and meta description \"Browse every published food domain in the Pairing Method ontology...\""
+      ],
+      "root_cause": "Hardcoded string literals in lib/food-publication/hub.js (lines 72, 138, 140) and lib/food-publication/ingredients-directory.js (lines 43, 100) — publication-template code, not catalog data. AQ-07's remediation scope was catalog narrative fields; hub/directory pages are generated from a different code path entirely and were never in scope.",
+      "why_this_was_never_caught_before": "AQ-06's reviewer simulation sampled a domain hub (fruits/) and described it favorably ('a real introductory paragraph, then organized links') without specifically flagging the 'Food Ontology' label — a plausible miss, since the label is small and the rest of the page reads well; AQ-07's remediation never scanned template code at all, only catalog JSON.",
+      "disposition": "REMEDIATED in this initiative — see the AQ-06R2-FIX milestone. This is a publication-layer defect (not catalog, not runtime, not editorial/wine relationships, not governance), the fix is a narrow string-literal change with no logic/architecture change, and it is clearly relevant to AdSense readiness given these are among the site's most-visited pages. Fixed with explicit scope justification, as its own milestone, per the ticket's explicit authorization for exactly this situation."
+    },
+    "residual_finding_3": {
+      "id": "AQ06R-ED-03",
+      "severity": "medium",
+      "title": "\"Related ontology entities\" is a hardcoded, visible section heading on all wine-fault and winemaking-technique pages",
+      "scope": "90 pages: 30 wine-fault pages + 60 winemaking-technique pages.",
+      "evidence": "<h2 id=\"ontology-heading\">Related ontology entities</h2> — every sibling wine-education tier (terms, styles, regions) uses natural section headings instead ('Related categories', 'Related pages', 'Related regions'), confirming this is a specific, isolated miss in exactly 2 render templates, not a tier-wide pattern.",
+      "root_cause": "Hardcoded string literal in lib/taxonomy-wine-fault-render.js (line 173) and lib/taxonomy-winemaking-technique-render.js (line 179). The wine-education tier is a separate content system from the food-ontology catalog and was never in scope for any AQ-07 phase or any prior AQ-06 check (AQ-06's reviewer simulation praised the wine-education tier's prose quality without specifically checking section-heading text for internal jargon).",
+      "disposition": "REMEDIATED in this initiative — same justification as AQ06R-ED-02: publication-template layer, narrow string-literal fix, directly relevant to AdSense readiness (this is user-visible on every page of two entire wine-education categories), fixed with explicit scope justification as its own milestone."
+    }
+  },
+  "spot_check_sample": {
+    "homepage": "clean — no governance-language leak in visible text (already verified in AQ-06C)",
+    "domain_hubs_sampled": "all 10 — 2 findings (AQ06R-ED-02)",
+    "group_pages_sampled": ["fruit-groups/berries", "legume-groups/beans", "cheese-groups/fresh"],
+    "group_pages_result": "clean — AQ-07C's group-tier rewrite confirmed live and correct",
+    "category_hubs_sampled": ["fruit-categories/fruit", "legume-categories/legume"],
+    "category_hubs_result": "clean",
+    "wine_education_pages_sampled": ["terms/oak", "styles/riesling", "faults/cork-taint", "techniques (via grep sweep)"],
+    "wine_education_result": "1 finding (AQ06R-ED-03), isolated to faults/techniques specifically",
+    "pairing_pages_sampled": ["wine-with-steak.html", "wine-for-bbq-ribs.html"],
+    "pairing_pages_result": "clean of governance-language leaks (unrelated pre-existing issues — dead links, unexplained scores — already tracked as STILL OPEN in the baseline comparison, not new)",
+    "deep_ingredient_pages_sampled": ["legumes/adzuki-bean", "nut-seeds/almond", "sweet-flavors/agave", "sauce-condiments/aioli", "cheese/N-A (unpublished, not live)"],
+    "deep_ingredient_pages_result": "clean — confirmed the AQ-07C rewrite live, not just in the catalog",
+    "aq06_previously_flagged_pages": "Same 4 entities above (legumes/adzuki-bean was AQ-06's own headline example) — directly re-checked, confirmed clean.",
+    "aq07_rewritten_pages": "Sampled across all 4 fully-rewritten domains plus cheese group pages (the 'frozen intrinsic metadata' example) — all confirmed clean live."
+  },
+  "gate_reverification": {
+    "governance_language_zero_unjustified_terms": { "aq07_claim": 0, "aq06r2_independent_result": "0 in catalog-driven pages; 2 new findings in template-driven pages (hub/directory, wine-fault/technique) that were never part of AQ-07's own claim or scope", "status": "AQ-07's claim about its OWN scope holds; AQ-06R2 found adjacent issues outside that scope" },
+    "seo_description_1252_of_1252": { "aq07_claim": "1252/1252", "aq06r2_independent_result": "confirmed via direct meta-tag inspection on multiple sampled pages", "status": "confirmed" }
+  },
+  "overall_status": "AQ-07's own remediation is independently confirmed CLOSED for its actual scope (catalog narrative fields). AQ-06R2's deeper verification found 3 residual/adjacent findings AQ-07 could not have caught (1 low-severity catalog-field miss, documented not fixed; 2 medium-severity publication-template leaks, remediated in this initiative's own scoped milestone)."
+}
