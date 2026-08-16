@@ -1,0 +1,46 @@
+{
+  "phase": "AQ-07H",
+  "title": "Final Editorial Certification",
+  "date": "2026-08-15",
+  "before": {
+    "affected_leaf_entities": "328 / 1166 (governance-language-leak scan, AQ-06B baseline)",
+    "affected_leaf_entities_full_scan": "335 / 1166 (AQ-07B's broader multi-field scan, including 2 protein beginner_notes and 5 previously-undetected grain-starch/herb-spice leaf entities with the 'ontology' term specifically, not just 'canonical')",
+    "affected_groups": "56 / 73 (AQ-06B), extended to 73 / 73 once protein's 17 groups' additional raw-field-name leaks were found during manual AQ-07C review",
+    "affected_categories": "10 / 13 (AQ-06B), extended to 13 / 13 once protein's 3 categories' additional leaks were found",
+    "governance_terminology_leakage": "999 consumer-facing hits across 402 distinct entities (AQ-07B scan of summary/seo_description/beginner_notes/introduction against the 14-term list) — later found to undercount the true scope, since raw field names ('plant_part', 'edible_structure', 'fungal_body') and untracked architecture phrases ('intrinsic metadata', 'graph relationships', 'canonical entities with frozen intrinsic metadata for classification and identity') were not in the original term list and only surfaced during manual review.",
+    "repeated_narrative_patterns": "All 4 originally-affected domains (legume, nut-seed, sweet-flavor, sauce-condiment) used a rigid slot-fill template with grammatically broken construction ('{noun} use in {X} cooking pairs with...').",
+    "legume_wine_repetition": "All 75 legume leaf entities ended with the identical clause 'pairs with earthy reds, aromatic whites, and spice-friendly rosé,' regardless of each entity's actual, distinct governed wine-pairing relationship.",
+    "seo_description_impact": "Affected identically to summary, since seo_description was a truncated copy of summary — meaning the templated, jargon-leaking text reached the live <meta name=\"description\"> tag and every JSON-LD description property for all affected pages (a consequence of AQ-04B correctly wiring seo_description to those surfaces)."
+  },
+  "after": {
+    "remaining_governance_terminology": "0 rendered consumer-facing hits (163 hits remain in a leaf-tier `introduction` field confirmed dead — never rendered for leaf entities per lib/food-publication/narrative.js's own field list — reported separately, not counted).",
+    "remaining_template_constructions": "0 critical findings (AQ-07E: 0 critical, 0 high, 0 medium, 0 low across 3,167 checked narrative-field instances).",
+    "remaining_repeated_wine_conclusions": "0 groups of 3+ entities sharing an identical wine-pairing conclusion despite having different underlying governed pairing profiles, across all 4 previously-affected domains (AQ-07D: legume 75/75, nut-seed 89/89, sweet-flavor 73/73, sauce-condiment 90/90 verified against real relationship data).",
+    "remaining_grammatical_defects": "0 critical, 0 high, 0 medium, 0 low (AQ-07E, fresh re-run). 2 real defects found and fixed during the phase: 1 introduced during AQ-07C's own rewrite (coral-lentil's 'a especially' -> 'an especially'), 1 pre-existing since AQ-06's original investigation (herb-spice mahleb's 'an cherry-pit spice' -> 'a cherry-pit spice', never previously corrected because it carried no forbidden-vocabulary term).",
+    "remaining_intentional_shared_prose": "163 dead leaf-tier `introduction` field duplicates (sweet-flavor + sauce-condiment, never rendered — a catalog-hygiene note, not a live defect) and 1 legitimate scientific-binomial echo ('Solea solea')."
+  },
+  "coverage": {
+    "leaf_entities_rewritten": "335 / 1166",
+    "group_entities_rewritten": "73 / 73",
+    "category_entities_rewritten": "13 / 13",
+    "seo_description_certified": "1252 / 1252",
+    "legume_wine_narratives_verified": "75 / 75",
+    "domains_regenerated_and_republished": "11 / 11 (10 promoted, cheese correctly withheld)"
+  },
+  "quality_gates": {
+    "governance_language_zero_unjustified_terms": { "requirement": "0 unjustified internal governance terms in consumer-facing prose", "result": 0, "pass": true },
+    "grammar_zero_critical_defects": { "requirement": "0 critical grammatical defects", "result": 0, "pass": true },
+    "narrative_no_high_severity_template_prose": { "requirement": "no high-severity generic/template prose remains", "result": 0, "pass": true },
+    "legume_wine_entity_specific": { "requirement": "entity-specific where underlying pairing profiles differ", "result": "legume 75/75, nut-seed 89/89, sweet-flavor 73/73, sauce-condiment 90/90, 0 collapsed groups in any domain", "pass": true },
+    "seo_descriptions_100_percent_valid": { "requirement": "100% of published pages have valid consumer-facing descriptions", "result": "1252/1252", "pass": true },
+    "zero_newly_introduced_unsupported_claims": { "requirement": "0 newly introduced unsupported claims", "result": 0, "pass": true },
+    "zero_unintended_architecture_changes": { "requirement": "0 unintended ontology/runtime/editorial/wine/governance changes", "result": "confirmed via git status/diff at every milestone", "pass": true },
+    "all_domains_regenerate_deterministically": { "requirement": "all published domains regenerate deterministically", "result": "11/11 PASS (AQ-07G)", "pass": true },
+    "regression_aq02b_aq04_aq05_clean": { "requirement": "AQ-02B, AQ-04, and AQ-05 certification checks remain clean", "result": "all re-run fresh in AQ-07G: relationship provenance PASS, reachability PASS, crawlability PASS, indexability PASS, rich results PASS, JSON-LD validation PASS, ontology mapping PASS", "pass": true }
+  },
+  "overall_certification": "PASS — Editorial Narrative Quality",
+  "handoff": {
+    "next_step": "AQ-06R — re-run the AdSense reviewer simulation against the now-improved live publication.",
+    "not_performed_here": "AQ-07 deliberately does not re-certify AdSense readiness itself, per the ticket's explicit instruction. This certification proves the editorial remediation; AQ-06R is a separate, independently-verified checkpoint against the AQ-06 baseline."
+  }
+}
