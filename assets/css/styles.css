@@ -2455,8 +2455,110 @@ body.term-modal-open {
   display: none;
 }
 
+/* PAIRING-UI-02 — "Why This Works" + "Related Pairings & Resources" as a
+   matched pair of editorial cards beneath the matrix. Presentation only:
+   the two elements are the same #dynamic-content / #internal-links this
+   page has always rendered into, now placed inside a shared grid wrapper
+   (.engine-explanation-grid, added in index.html markup only — no change
+   to how either is populated). */
+.page-home .engine-explanation-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1.4rem;
+  align-items: start;
+  margin-top: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .page-home .engine-explanation-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
 .page-home .internal-links {
-  margin-top: 1rem;
+  margin-top: 0;
+}
+
+/* Matching card treatment — same family, same weight, aligned top edges. */
+.page-home #dynamic-content .dynamic-section,
+.page-home .internal-links-inner {
+  height: 100%;
+  margin-top: 0;
+  padding: 20px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.page-home #dynamic-content .dynamic-section h2:first-of-type,
+.page-home .internal-links-inner h2 {
+  margin-top: 0;
+  font-size: 1.15rem;
+  color: var(--wine-red);
+}
+
+.page-home .internal-links-lede {
+  margin: 0.35rem 0 0.9rem;
+}
+
+/* "Serving Tips" — secondary subsection heading within the same card,
+   distinct from the card's own title above it. */
+.page-home #dynamic-content .dynamic-section h2:not(:first-of-type) {
+  margin-top: 1.1rem;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  color: var(--wine-red);
+}
+
+/* Related Pairings & Resources — editorial rows (icon | text | chevron)
+   replacing the plain bulleted list. Link selection/order/text/hrefs are
+   unchanged (assets/js/internal-links.js) — this only restyles how each
+   existing link is presented. */
+.page-home .internal-links-list.resource-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.75rem;
+}
+
+.page-home .internal-links-list.resource-list li {
+  margin-bottom: 0;
+}
+
+.page-home .resource-row {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.65rem 0.1rem;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.page-home .internal-links-list.resource-list li:last-child .resource-row {
+  border-bottom: none;
+}
+
+.page-home .resource-row:hover .resource-text {
+  text-decoration: underline;
+}
+
+.page-home .resource-icon {
+  display: flex;
+  flex-shrink: 0;
+  color: var(--wine-red);
+}
+
+.page-home .resource-text {
+  flex: 1 1 auto;
+  font-size: 0.92rem;
+}
+
+.page-home .resource-row .resource-chevron {
+  flex-shrink: 0;
+  margin-left: auto;
+  color: var(--wine-accent);
 }
 
 .page-home .sommelier-think,
