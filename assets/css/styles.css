@@ -17,6 +17,17 @@
   --wine-accent: #c19a6b;
   --wine-muted: #78716c;
   --border-subtle: #ddd0c4;
+  --success: #1f5a36;
+  --danger: #a13a3a;
+  /* Typography system (PAIRING-UI-03) */
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-editorial: "Cormorant Garamond", Georgia, serif;
+  --font-body: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  /* Card/control radius (PAIRING-UI-03) — the site already applied one
+     shared corner-radius value across cards, buttons, and controls
+     alike; this keeps that unified language, refreshed to the
+     approved editorial radius. */
+  --radius: 8px;
   /* Legacy aliases (existing rules) */
   --bg: var(--bg-main);
   --text: var(--text-primary);
@@ -36,7 +47,7 @@ section {
 }
 
 body {
-  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: var(--font-body);
   background-color: var(--bg-main);
   color: var(--text-primary);
   line-height: 1.6;
@@ -51,7 +62,7 @@ body.has-term-sticky {
 /* Container */
 
 .container {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 2rem 1.5rem 4rem;
 }
@@ -68,7 +79,7 @@ header > .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.25rem 1.5rem;
+  padding: 0.75rem 1.5rem;
 }
 
 .logo {
@@ -87,31 +98,32 @@ header > .container {
 }
 
 nav a {
-  margin-left: 1.5rem;
+  margin-left: 2rem;
   text-decoration: none;
   color: var(--text-primary);
   font-size: 0.85rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  transition: color 0.15s ease;
 }
 
 nav a:hover {
   color: var(--wine-red);
-  text-decoration: underline;
 }
 
 /* Typography */
 
 h2,
 h3 {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-editorial);
   letter-spacing: -0.01em;
+  line-height: 1.2;
 }
 
 h1 {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: var(--font-display);
   font-weight: 600;
-  font-size: 40px;
+  font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1.2;
   letter-spacing: -0.01em;
   color: #2a1a1a;
@@ -196,10 +208,10 @@ main.container > p,
 }
 
 .engine-entry #pairing-engine-root {
-  background: linear-gradient(to bottom, #ffffff, #fbf8f6);
-  border: 1px solid rgba(122, 44, 58, 0.1);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.04);
-  border-radius: 12px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-subtle);
+  box-shadow: none;
+  border-radius: var(--radius);
   padding: 24px;
 }
 
@@ -249,13 +261,13 @@ main.container > p,
 }
 
 h2 {
-  font-size: 26px;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
   font-weight: 500;
   margin: 2rem 0 10px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: clamp(1.15rem, 1.8vw, 1.35rem);
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
@@ -293,7 +305,7 @@ a {
 
 /* Sommelier verdict — authority block above engine */
 .sommelier-verdict {
-  background: linear-gradient(135deg, #faf7f5 0%, #f3ebe6 100%);
+  background: var(--bg-soft);
   border: 1px solid var(--border-subtle);
   border-left: 4px solid var(--wine-accent, var(--wine-red));
   padding: 1.25rem 1.35rem;
@@ -305,7 +317,7 @@ a {
   font-size: 1.1rem;
   margin: 0 0 0.65rem;
   color: var(--wine-accent, var(--wine-red));
-  font-family: var(--font-serif, Georgia, serif);
+  font-family: var(--font-editorial);
 }
 
 .sommelier-verdict p {
@@ -333,7 +345,7 @@ a {
   background: var(--card-bg);
   padding: 1.5rem;
   border: 1px solid var(--border-subtle);
-  border-radius: 3px;
+  border-radius: var(--radius);
   margin-bottom: 1rem;
   box-shadow: none;
 }
@@ -350,7 +362,7 @@ a {
   margin-top: 3rem;
   padding: 28px;
   background: var(--card-bg);
-  border-radius: 3px;
+  border-radius: var(--radius);
   border: 1px solid var(--border-subtle);
   box-shadow: none;
 }
@@ -526,7 +538,7 @@ a {
 
 .confidence-badge.ideal {
   background: #e8f3ec;
-  color: #1f5a36;
+  color: var(--success);
 }
 
 .confidence-badge.strong {
@@ -554,7 +566,7 @@ a {
   border-left: 4px solid var(--wine-gold);
   padding: 1rem 1rem 1rem 16px;
   margin-top: 1rem;
-  border-radius: 3px;
+  border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.65);
   transition:
     transform 0.18s ease,
@@ -565,19 +577,15 @@ a {
 }
 
 .result-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .result-card.top-result {
   border: 2px solid rgba(107, 41, 64, 0.35);
   border-left: 5px solid var(--wine-accent);
-  background: linear-gradient(
-    to right,
-    rgba(193, 154, 107, 0.14),
-    rgba(255, 255, 255, 0.92)
-  );
-  box-shadow: 0 10px 28px rgba(107, 41, 64, 0.1);
+  background: rgba(193, 154, 107, 0.08);
+  box-shadow: none;
   padding: 1.2rem 1.15rem 1.15rem 18px;
 }
 
@@ -676,7 +684,7 @@ button {
   background-color: var(--accent);
   color: white;
   border: none;
-  border-radius: 3px;
+  border-radius: var(--radius);
   cursor: pointer;
   font-weight: 500;
   transition: all 0.15s ease;
@@ -741,7 +749,9 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 1.25rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.5rem 1.25rem;
 }
 
 nav ul li { margin: 0; }
@@ -750,11 +760,11 @@ nav ul a {
   margin-left: 0;
   text-decoration: none;
   color: var(--text-primary);
+  transition: color 0.15s ease;
 }
 
 nav ul a:hover {
   color: var(--wine-red);
-  text-decoration: underline;
 }
 
 .direct-answer p {
@@ -777,7 +787,7 @@ nav ul a:hover {
   background: var(--card-bg);
   padding: 1.5rem;
   border: 1px solid var(--border-subtle);
-  border-radius: 3px;
+  border-radius: var(--radius);
   margin-bottom: 1rem;
   box-shadow: none;
 }
@@ -844,7 +854,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 .matrix {
   margin-top: 2rem;
   border: 1px solid var(--border);
-  border-radius: 3px;
+  border-radius: var(--radius);
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
@@ -907,7 +917,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   padding: 2rem;
   background: white;
   border: 1px solid var(--border);
-  border-radius: 3px;
+  border-radius: var(--radius);
 }
 
 .print-cta p {
@@ -931,7 +941,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   background: white;
   border: 1px solid var(--border);
   padding: 1.5rem;
-  border-radius: 3px;
+  border-radius: var(--radius);
   margin-bottom: 1rem;
 }
 
@@ -971,7 +981,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   margin-top: 3rem;
   padding: 2rem;
   background: var(--bg-soft);
-  border-radius: 3px;
+  border-radius: var(--radius);
   text-align: center;
 }
 
@@ -1110,7 +1120,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 #matrix-root .matrix {
   margin-top: 0;
   border: 1px solid var(--border);
-  border-radius: 3px;
+  border-radius: var(--radius);
   overflow-x: auto;
   overflow-y: hidden;
   font-size: 0.9rem;
@@ -1171,7 +1181,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .status-icon.status-ideal {
-  background: #1f5a36;
+  background: var(--success);
 }
 
 .status-icon.status-works {
@@ -1179,7 +1189,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .status-icon.status-none {
-  background: #a13a3a;
+  background: var(--danger);
 }
 
 #matrix-root .matrix-cell .status-icon {
@@ -1202,7 +1212,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   padding: 28px;
   background: var(--card-bg);
   border: 1px solid var(--border-subtle);
-  border-radius: 3px;
+  border-radius: var(--radius);
   box-shadow: none;
 }
 
@@ -1231,7 +1241,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   margin-top: 2rem;
   padding: 1.25rem 1.5rem;
   border: 1px solid var(--border);
-  border-radius: 3px;
+  border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.6);
 }
 
@@ -1246,7 +1256,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   padding: 1.5rem;
   background: white;
   border: 1px solid var(--border);
-  border-radius: 3px;
+  border-radius: var(--radius);
 }
 
 #dynamic-content .dynamic-section > h2:first-of-type {
@@ -1325,7 +1335,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   border: 1px solid var(--border);
   padding: 0.45rem 0.85rem;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: var(--radius);
   color: var(--text);
   font-weight: 500;
   font-size: 0.88rem;
@@ -1399,7 +1409,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .site-footer .container {
-  max-width: 900px;
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1.5rem;
@@ -1414,7 +1424,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .footer-logo {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.2rem;
   color: #f0e6e0;
 }
@@ -1425,7 +1435,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .site-footer h4 {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-editorial);
   margin-bottom: 10px;
   color: #f0e6e0;
   font-size: 1rem;
@@ -1447,7 +1457,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   display: block;
   margin-bottom: 10px;
   font-size: 1rem;
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-editorial);
   font-weight: 600;
   color: #f0e6e0;
 }
@@ -1485,7 +1495,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 
 /* Indexing / crawl: subtle topical line above copyright */
 .crawl-hint {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 1rem 1.5rem 0;
   text-align: center;
@@ -1502,7 +1512,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   padding: 28px;
   background: var(--card-bg);
   border: 1px solid var(--border-subtle);
-  border-radius: 3px;
+  border-radius: var(--radius);
   box-shadow: none;
 }
 
@@ -1550,7 +1560,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   padding: 28px;
   background: var(--card-bg);
   border: 1px solid var(--border-subtle);
-  border-radius: 3px;
+  border-radius: var(--radius);
   box-shadow: none;
   opacity: 0.92;
 }
@@ -1575,7 +1585,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   padding: 0.65rem 0.9rem;
   font-size: 1rem;
   border: 1px solid var(--border);
-  border-radius: 3px;
+  border-radius: var(--radius);
   background: #fff;
 }
 
@@ -1590,7 +1600,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   max-height: 280px;
   overflow-y: auto;
   border: 1px solid var(--border-subtle);
-  border-radius: 3px;
+  border-radius: var(--radius);
   background: #fff;
   box-shadow: none;
 }
@@ -1666,7 +1676,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   font-weight: 600;
   cursor: pointer;
   padding: 0.5rem 1.1rem;
-  border-radius: 999px;
+  border-radius: var(--radius);
   border: 2px solid #f7f3ee;
   background: var(--accent);
   color: #fff;
@@ -1707,7 +1717,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .explanation-title {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.45rem;
   margin: 0 0 1rem;
   color: var(--wine-deep);
@@ -1740,12 +1750,12 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   padding: 1.1rem 1.2rem;
   background: var(--card-bg);
   border: 1px solid var(--border-subtle);
-  border-radius: 3px;
+  border-radius: var(--radius);
   box-shadow: none;
 }
 
 .engine-feedback-title {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.05rem;
   margin: 0 0 0.5rem;
   color: var(--accent);
@@ -1772,12 +1782,12 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   padding: 1.15rem 1.25rem;
   background: #fff;
   border: 1px solid var(--border-subtle);
-  border-radius: 3px;
+  border-radius: var(--radius);
   box-shadow: none;
 }
 
 .definition-box h2 {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.2rem;
   margin: 0 0 0.65rem;
 }
@@ -1799,7 +1809,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   padding: 0.85rem 1rem;
   background: rgba(255, 255, 255, 0.75);
   border: 1px solid var(--border);
-  border-radius: 3px;
+  border-radius: var(--radius);
 }
 
 .term-graph-label {
@@ -1824,12 +1834,12 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   margin: 2rem 0;
   padding: 1.1rem 1.2rem;
   background: rgba(107, 41, 64, 0.04);
-  border-radius: 3px;
+  border-radius: var(--radius);
   border: 1px solid var(--border);
 }
 
 .term-to-pairing h2 {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.2rem;
   margin: 0 0 0.65rem;
 }
@@ -1846,7 +1856,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 
 /* Term pages — pairing intent + cross-links */
 .term-pairing-intent-h2 {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.15rem;
   font-weight: 600;
   margin: 0.35rem 0 1rem;
@@ -1857,12 +1867,12 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   margin: 1.5rem 0 1.75rem;
   padding: 1.1rem 1.2rem;
   background: rgba(107, 41, 64, 0.04);
-  border-radius: 3px;
+  border-radius: var(--radius);
   border-left: 4px solid var(--accent);
 }
 
 .term-intent h2 {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.2rem;
   margin: 0 0 0.65rem;
 }
@@ -1880,7 +1890,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .term-cross-density h2 {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.15rem;
   margin: 0 0 0.65rem;
 }
@@ -1902,11 +1912,11 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   padding: 1.15rem 1.25rem;
   background: rgba(255, 255, 255, 0.85);
   border: 1px solid var(--border);
-  border-radius: 3px;
+  border-radius: var(--radius);
 }
 
 .term-deep-links h2 {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.15rem;
   margin: 0 0 0.65rem;
 }
@@ -1926,7 +1936,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 .seo-block {
   background: var(--card-bg);
   border: 1px solid var(--border-subtle);
-  border-radius: 3px;
+  border-radius: var(--radius);
   padding: 28px;
   box-shadow: none;
 }
@@ -1983,7 +1993,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   color: var(--accent);
   text-decoration: none;
   border: 1px solid var(--border);
-  border-radius: 3px;
+  border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.9);
 }
 
@@ -2097,7 +2107,7 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .structure-breakdown-title {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.05rem;
   margin: 0 0 0.5rem;
 }
@@ -2133,7 +2143,7 @@ body.term-modal-open {
   width: 100%;
   max-width: 640px;
   background: var(--card-bg);
-  border-radius: 3px;
+  border-radius: var(--radius);
   border: 1px solid var(--border-subtle);
   box-shadow: none;
   padding: 1.5rem 1.5rem 2rem;
@@ -2157,7 +2167,7 @@ body.term-modal-open {
 }
 
 .term-modal-title {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.5rem;
   margin: 0 2rem 0.5rem 0;
   padding-right: 1rem;
@@ -2248,7 +2258,7 @@ body.term-modal-open {
 .term-modal-pill {
   display: inline-block;
   padding: 0.1rem 0.45rem;
-  border-radius: 3px;
+  border-radius: var(--radius);
   font-size: 0.78rem;
   font-weight: 600;
   border: 1px solid color-mix(in srgb, var(--cat, #999) 55%, white);
@@ -2260,7 +2270,7 @@ body.term-modal-open {
   font-size: 0.8rem;
   font-weight: 600;
   padding: 0.2rem 0.55rem;
-  border-radius: 3px;
+  border-radius: var(--radius);
   margin-bottom: 0.75rem;
   border: 1px solid color-mix(in srgb, var(--cat, #999) 50%, white);
   color: var(--cat, #333);
@@ -2300,7 +2310,7 @@ body.term-modal-open {
 }
 
 .term-page h2 {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.2rem;
   margin-top: 1.5rem;
 }
@@ -2315,7 +2325,7 @@ body.term-modal-open {
   margin-top: 2rem;
   font-size: 0.8rem;
   color: var(--text-muted);
-  max-width: 900px;
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 1.5rem 2rem;
@@ -2415,9 +2425,9 @@ body.term-modal-open {
 
 .page-home #matrix-root .matrix {
   border: 2px solid rgba(107, 41, 64, 0.22);
-  border-radius: 6px;
-  background: linear-gradient(to bottom, #ffffff, #faf6f3);
-  box-shadow: 0 10px 28px rgba(107, 41, 64, 0.08);
+  border-radius: var(--radius);
+  background: var(--card-bg);
+  box-shadow: none;
 }
 
 .page-home #dynamic-content .dynamic-section {
@@ -2581,7 +2591,7 @@ body.term-modal-open {
 .think-card {
   padding: 0.9rem 1rem;
   border: 1px solid var(--border-subtle);
-  border-radius: 3px;
+  border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.85);
 }
 
@@ -2664,7 +2674,7 @@ body.term-modal-open {
   gap: 0.35rem;
   padding: 1rem 1.1rem;
   border: 1px solid var(--border-subtle);
-  border-radius: 3px;
+  border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.9);
   text-decoration: none;
   color: inherit;
@@ -2673,8 +2683,8 @@ body.term-modal-open {
 
 .pairing-card:hover {
   border-color: rgba(107, 41, 64, 0.35);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
-  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transform: translateY(-1px);
 }
 
 .pairing-card-icon {
@@ -2708,9 +2718,9 @@ body.term-modal-open {
   margin: 1rem 0 1.4rem;
   padding: 1.5rem 1.65rem;
   border: 2px solid rgba(107, 41, 64, 0.25);
-  border-radius: 6px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(250, 247, 245, 0.95));
-  box-shadow: 0 10px 24px rgba(107, 41, 64, 0.08);
+  border-radius: var(--radius);
+  background: var(--card-bg);
+  box-shadow: none;
   text-align: center;
 }
 
@@ -2728,7 +2738,7 @@ body.term-modal-open {
 .explore-pairings-btn {
   display: inline-block;
   padding: 0.65rem 1.25rem;
-  border-radius: 3px;
+  border-radius: var(--radius);
   background: var(--accent);
   color: #fff;
   font-weight: 600;
@@ -2747,7 +2757,7 @@ body.term-modal-open {
 }
 
 .homepage-closing {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto 0;
   padding: 1.25rem 1.5rem 1.75rem;
   text-align: center;
@@ -2757,7 +2767,7 @@ body.term-modal-open {
 }
 
 .footer-trust {
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 1.25rem 1.5rem 0.5rem;
   text-align: center;
@@ -2887,7 +2897,7 @@ body.term-modal-open {
 }
 
 .term-category-hero h1 {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: var(--font-display);
   font-size: clamp(1.75rem, 4vw, 2.35rem);
   margin: 0 0 0.75rem;
   color: #2a1a1a;
@@ -2905,7 +2915,7 @@ body.term-modal-open {
 }
 
 .term-category-section h2 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.45rem;
   margin: 0 0 0.85rem;
   color: #2a1a1a;
@@ -2926,7 +2936,7 @@ body.term-modal-open {
   padding: 0.85rem 1rem;
   background: rgba(107, 41, 64, 0.04);
   border: 1px solid var(--border-subtle);
-  border-radius: 3px;
+  border-radius: var(--radius);
   font-size: 0.92rem;
 }
 
@@ -2986,7 +2996,7 @@ body.term-modal-open {
   padding: 0.4rem 0.85rem;
   background: #fff;
   border: 1px solid var(--border-subtle);
-  border-radius: 3px;
+  border-radius: var(--radius);
   color: var(--accent);
   font-weight: 600;
   text-decoration: none;
@@ -3017,11 +3027,11 @@ body.term-modal-open {
   padding: 1rem 1.1rem;
   background: #fff;
   border: 1px solid var(--border-subtle);
-  border-radius: 3px;
+  border-radius: var(--radius);
 }
 
 .term-category-card-title {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.15rem;
   margin: 0 0 0.45rem;
 }
@@ -3157,7 +3167,7 @@ body.term-modal-open {
 }
 
 .term-entity-hero h1 {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: var(--font-display);
   font-size: clamp(1.75rem, 4vw, 2.35rem);
   margin: 0;
   color: #2a1a1a;
@@ -3168,7 +3178,7 @@ body.term-modal-open {
 }
 
 .term-entity-section h2 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.45rem;
   margin: 0 0 0.85rem;
   color: #2a1a1a;
@@ -3236,7 +3246,7 @@ body.term-modal-open {
   padding: 1rem 1.1rem;
   background: rgba(107, 41, 64, 0.03);
   border: 1px solid var(--border-subtle);
-  border-radius: 3px;
+  border-radius: var(--radius);
   max-width: 22rem;
 }
 
@@ -3403,7 +3413,7 @@ body.term-modal-open {
 }
 
 .grape-entity-page .grape-profile-bucket h3 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: var(--font-editorial);
   font-size: 1.15rem;
   margin: 0 0 0.65rem;
 }

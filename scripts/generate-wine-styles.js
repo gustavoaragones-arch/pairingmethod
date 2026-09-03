@@ -119,7 +119,7 @@ function renderStylesHub(styles) {
   <title>Wine Styles — Structured Style Guide | Pairing Method</title>
   <meta name="description" content="Explore ${styles.length} wine styles with structure profiles, typical descriptors, regions, and food pairings.">
   <link rel="canonical" href="https://pairingmethod.com/styles/">
-  <link rel="stylesheet" href="/assets/css/styles.css?v=4">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=5">
 </head>
 <body class="wine-style-hub-page term-entity-page">
   <header>

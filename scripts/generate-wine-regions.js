@@ -119,7 +119,7 @@ function renderRegionsHub(regions) {
   <title>Wine Regions — Structured Region Guide | Pairing Method</title>
   <meta name="description" content="Explore ${regions.length} wine regions with climate, grapes, styles, and food pairings.">
   <link rel="canonical" href="https://pairingmethod.com/regions/">
-  <link rel="stylesheet" href="/assets/css/styles.css?v=4">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=5">
 </head>
 <body class="wine-region-hub-page term-entity-page">
   <header>

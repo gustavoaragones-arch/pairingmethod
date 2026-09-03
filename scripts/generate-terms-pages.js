@@ -377,7 +377,7 @@ function pageHtml(slug, def) {
   <meta property="og:url" content="${pageOgUrl}">
   <meta property="og:title" content="${escapeHtml(title)}">
   <meta property="og:description" content="${escapeHtml(def.definition.slice(0, 200))}">
-  <link rel="stylesheet" href="/assets/css/styles.css?v=4">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=5">
   <script type="application/ld+json">
   ${JSON.stringify({
     "@context": "https://schema.org",

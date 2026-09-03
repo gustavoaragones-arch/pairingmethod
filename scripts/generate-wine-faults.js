@@ -126,7 +126,7 @@ function renderHub(entities) {
   <title>Wine Faults Guide | Pairing Method</title>
   <meta name="description" content="Explore ${entities.length} wine faults — microbial, chemical, physical, and sensory defects, with the descriptors, styles, and regions each one affects.">
   <link rel="canonical" href="https://pairingmethod.com/faults/">
-  <link rel="stylesheet" href="/assets/css/styles.css?v=4">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=5">
 </head>
 <body class="wine-fault-hub-page term-entity-page">
   <header>

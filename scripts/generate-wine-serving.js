@@ -131,7 +131,7 @@ function renderHub(entities) {
   <title>Serving &amp; Service — Wine Guide | Pairing Method</title>
   <meta name="description" content="Explore ${entities.length} wine serving topics — temperature, glassware, decanting, cellaring, and common service mistakes to avoid.">
   <link rel="canonical" href="https://pairingmethod.com/serving/">
-  <link rel="stylesheet" href="/assets/css/styles.css?v=4">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=5">
 </head>
 <body class="wine-serving-hub-page term-entity-page">
   <header>

@@ -128,7 +128,7 @@ function renderHub(entities) {
   <title>Winemaking Techniques Guide | Pairing Method</title>
   <meta name="description" content="Explore ${entities.length} winemaking techniques — fermentation, maceration, aging, sparkling, fortification, and stabilization linked to styles, grapes, descriptors, and regions.">
   <link rel="canonical" href="https://pairingmethod.com/techniques/">
-  <link rel="stylesheet" href="/assets/css/styles.css?v=4">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=5">
 </head>
 <body class="winemaking-technique-hub-page term-entity-page">
   <header>
