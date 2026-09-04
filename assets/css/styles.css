@@ -113,15 +113,18 @@ nav a:hover {
 
 /* Typography */
 
+h1,
 h2,
-h3 {
-  font-family: var(--font-editorial);
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-body);
   letter-spacing: -0.01em;
   line-height: 1.2;
 }
 
 h1 {
-  font-family: var(--font-display);
   font-weight: 600;
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1.2;
@@ -317,7 +320,6 @@ a {
   font-size: 1.1rem;
   margin: 0 0 0.65rem;
   color: var(--wine-accent, var(--wine-red));
-  font-family: var(--font-editorial);
 }
 
 .sommelier-verdict p {
@@ -1435,7 +1437,6 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .site-footer h4 {
-  font-family: var(--font-editorial);
   margin-bottom: 10px;
   color: #f0e6e0;
   font-size: 1rem;
@@ -1457,7 +1458,6 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
   display: block;
   margin-bottom: 10px;
   font-size: 1rem;
-  font-family: var(--font-editorial);
   font-weight: 600;
   color: #f0e6e0;
 }
@@ -1717,7 +1717,6 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .explanation-title {
-  font-family: var(--font-editorial);
   font-size: 1.45rem;
   margin: 0 0 1rem;
   color: var(--wine-deep);
@@ -1755,7 +1754,6 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .engine-feedback-title {
-  font-family: var(--font-editorial);
   font-size: 1.05rem;
   margin: 0 0 0.5rem;
   color: var(--accent);
@@ -1787,7 +1785,6 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .definition-box h2 {
-  font-family: var(--font-editorial);
   font-size: 1.2rem;
   margin: 0 0 0.65rem;
 }
@@ -1839,7 +1836,6 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .term-to-pairing h2 {
-  font-family: var(--font-editorial);
   font-size: 1.2rem;
   margin: 0 0 0.65rem;
 }
@@ -1856,7 +1852,6 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 
 /* Term pages — pairing intent + cross-links */
 .term-pairing-intent-h2 {
-  font-family: var(--font-editorial);
   font-size: 1.15rem;
   font-weight: 600;
   margin: 0.35rem 0 1rem;
@@ -1872,7 +1867,6 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .term-intent h2 {
-  font-family: var(--font-editorial);
   font-size: 1.2rem;
   margin: 0 0 0.65rem;
 }
@@ -1890,7 +1884,6 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .term-cross-density h2 {
-  font-family: var(--font-editorial);
   font-size: 1.15rem;
   margin: 0 0 0.65rem;
 }
@@ -1916,7 +1909,6 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .term-deep-links h2 {
-  font-family: var(--font-editorial);
   font-size: 1.15rem;
   margin: 0 0 0.65rem;
 }
@@ -2107,7 +2099,6 @@ main ul { margin-bottom: 1rem; padding-left: 1.5rem; }
 }
 
 .structure-breakdown-title {
-  font-family: var(--font-editorial);
   font-size: 1.05rem;
   margin: 0 0 0.5rem;
 }
@@ -2167,7 +2158,6 @@ body.term-modal-open {
 }
 
 .term-modal-title {
-  font-family: var(--font-editorial);
   font-size: 1.5rem;
   margin: 0 2rem 0.5rem 0;
   padding-right: 1rem;
@@ -2310,7 +2300,6 @@ body.term-modal-open {
 }
 
 .term-page h2 {
-  font-family: var(--font-editorial);
   font-size: 1.2rem;
   margin-top: 1.5rem;
 }
@@ -2897,7 +2886,6 @@ body.term-modal-open {
 }
 
 .term-category-hero h1 {
-  font-family: var(--font-display);
   font-size: clamp(1.75rem, 4vw, 2.35rem);
   margin: 0 0 0.75rem;
   color: #2a1a1a;
@@ -2915,7 +2903,6 @@ body.term-modal-open {
 }
 
 .term-category-section h2 {
-  font-family: var(--font-editorial);
   font-size: 1.45rem;
   margin: 0 0 0.85rem;
   color: #2a1a1a;
@@ -3031,7 +3018,6 @@ body.term-modal-open {
 }
 
 .term-category-card-title {
-  font-family: var(--font-editorial);
   font-size: 1.15rem;
   margin: 0 0 0.45rem;
 }
@@ -3167,7 +3153,6 @@ body.term-modal-open {
 }
 
 .term-entity-hero h1 {
-  font-family: var(--font-display);
   font-size: clamp(1.75rem, 4vw, 2.35rem);
   margin: 0;
   color: #2a1a1a;
@@ -3178,7 +3163,6 @@ body.term-modal-open {
 }
 
 .term-entity-section h2 {
-  font-family: var(--font-editorial);
   font-size: 1.45rem;
   margin: 0 0 0.85rem;
   color: #2a1a1a;
@@ -3413,7 +3397,6 @@ body.term-modal-open {
 }
 
 .grape-entity-page .grape-profile-bucket h3 {
-  font-family: var(--font-editorial);
   font-size: 1.15rem;
   margin: 0 0 0.65rem;
 }
