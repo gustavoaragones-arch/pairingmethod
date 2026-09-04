@@ -1,0 +1,1959 @@
+{
+  "phase": "PAIRING-EAT-02",
+  "generatedAt": "2026-09-04T19:56:38.199Z",
+  "local": {
+    "migrationCount": 51,
+    "redirectRuleCount": 102,
+    "proteinSitemapUrlCount": 159,
+    "publicationSitemapUrlCount": 1655,
+    "deploymentHtmlCounts": {
+      "leaf": 210,
+      "groups": 17,
+      "categories": 3,
+      "total": 230
+    },
+    "deploymentSitemapCounts": {
+      "leaf": 159,
+      "groups": 17,
+      "categories": 3,
+      "total": 179
+    },
+    "redirectRequiredSourcesInProteinSitemap": 0,
+    "migrationsPassing": 51,
+    "ctaPagesPassing": 5,
+    "deadViewBottleControls": 0,
+    "migrationRows": [
+      {
+        "number": 1,
+        "source": "/foods/amaranth/",
+        "target": "/grains-starches/amaranth/",
+        "slashRedirect": {
+          "target": "/grains-starches/amaranth/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/grains-starches/amaranth/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/grains-starches/amaranth/",
+        "result": "PASS"
+      },
+      {
+        "number": 2,
+        "source": "/foods/barley/",
+        "target": "/grains-starches/barley/",
+        "slashRedirect": {
+          "target": "/grains-starches/barley/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/grains-starches/barley/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/grains-starches/barley/",
+        "result": "PASS"
+      },
+      {
+        "number": 3,
+        "source": "/foods/buckwheat/",
+        "target": "/grains-starches/buckwheat/",
+        "slashRedirect": {
+          "target": "/grains-starches/buckwheat/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/grains-starches/buckwheat/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/grains-starches/buckwheat/",
+        "result": "PASS"
+      },
+      {
+        "number": 4,
+        "source": "/foods/farro/",
+        "target": "/grains-starches/farro/",
+        "slashRedirect": {
+          "target": "/grains-starches/farro/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/grains-starches/farro/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/grains-starches/farro/",
+        "result": "PASS"
+      },
+      {
+        "number": 5,
+        "source": "/foods/oats/",
+        "target": "/grains-starches/oats/",
+        "slashRedirect": {
+          "target": "/grains-starches/oats/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/grains-starches/oats/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/grains-starches/oats/",
+        "result": "PASS"
+      },
+      {
+        "number": 6,
+        "source": "/foods/quinoa/",
+        "target": "/grains-starches/quinoa/",
+        "slashRedirect": {
+          "target": "/grains-starches/quinoa/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/grains-starches/quinoa/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/grains-starches/quinoa/",
+        "result": "PASS"
+      },
+      {
+        "number": 7,
+        "source": "/foods/black-beans/",
+        "target": "/legumes/black-bean/",
+        "slashRedirect": {
+          "target": "/legumes/black-bean/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/black-bean/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/black-bean/",
+        "result": "PASS"
+      },
+      {
+        "number": 8,
+        "source": "/foods/black-lentils/",
+        "target": "/legumes/black-lentil/",
+        "slashRedirect": {
+          "target": "/legumes/black-lentil/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/black-lentil/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/black-lentil/",
+        "result": "PASS"
+      },
+      {
+        "number": 9,
+        "source": "/foods/cannellini-beans/",
+        "target": "/legumes/cannellini-bean/",
+        "slashRedirect": {
+          "target": "/legumes/cannellini-bean/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/cannellini-bean/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/cannellini-bean/",
+        "result": "PASS"
+      },
+      {
+        "number": 10,
+        "source": "/foods/chickpeas/",
+        "target": "/legumes/chickpea/",
+        "slashRedirect": {
+          "target": "/legumes/chickpea/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/chickpea/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/chickpea/",
+        "result": "PASS"
+      },
+      {
+        "number": 11,
+        "source": "/foods/green-lentils/",
+        "target": "/legumes/green-lentil/",
+        "slashRedirect": {
+          "target": "/legumes/green-lentil/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/green-lentil/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/green-lentil/",
+        "result": "PASS"
+      },
+      {
+        "number": 12,
+        "source": "/foods/kidney-beans/",
+        "target": "/legumes/kidney-bean/",
+        "slashRedirect": {
+          "target": "/legumes/kidney-bean/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/kidney-bean/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/kidney-bean/",
+        "result": "PASS"
+      },
+      {
+        "number": 13,
+        "source": "/foods/lentils/",
+        "target": "/legumes/green-lentil/",
+        "slashRedirect": {
+          "target": "/legumes/green-lentil/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/green-lentil/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/green-lentil/",
+        "result": "PASS"
+      },
+      {
+        "number": 14,
+        "source": "/foods/lima-beans/",
+        "target": "/legumes/lima-bean/",
+        "slashRedirect": {
+          "target": "/legumes/lima-bean/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/lima-bean/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/lima-bean/",
+        "result": "PASS"
+      },
+      {
+        "number": 15,
+        "source": "/foods/navy-beans/",
+        "target": "/legumes/navy-bean/",
+        "slashRedirect": {
+          "target": "/legumes/navy-bean/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/navy-bean/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/navy-bean/",
+        "result": "PASS"
+      },
+      {
+        "number": 16,
+        "source": "/foods/peas/",
+        "target": "/legumes/green-pea/",
+        "slashRedirect": {
+          "target": "/legumes/green-pea/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/green-pea/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/green-pea/",
+        "result": "PASS"
+      },
+      {
+        "number": 17,
+        "source": "/foods/pinto-beans/",
+        "target": "/legumes/pinto-bean/",
+        "slashRedirect": {
+          "target": "/legumes/pinto-bean/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/pinto-bean/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/pinto-bean/",
+        "result": "PASS"
+      },
+      {
+        "number": 18,
+        "source": "/foods/red-lentils/",
+        "target": "/legumes/red-lentil/",
+        "slashRedirect": {
+          "target": "/legumes/red-lentil/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/red-lentil/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/red-lentil/",
+        "result": "PASS"
+      },
+      {
+        "number": 19,
+        "source": "/foods/button-mushroom/",
+        "target": "/fungi/button-mushroom/",
+        "slashRedirect": {
+          "target": "/fungi/button-mushroom/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/fungi/button-mushroom/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/fungi/button-mushroom/",
+        "result": "PASS"
+      },
+      {
+        "number": 20,
+        "source": "/foods/chanterelle/",
+        "target": "/fungi/chanterelle/",
+        "slashRedirect": {
+          "target": "/fungi/chanterelle/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/fungi/chanterelle/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/fungi/chanterelle/",
+        "result": "PASS"
+      },
+      {
+        "number": 21,
+        "source": "/foods/cremini/",
+        "target": "/fungi/cremini/",
+        "slashRedirect": {
+          "target": "/fungi/cremini/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/fungi/cremini/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/fungi/cremini/",
+        "result": "PASS"
+      },
+      {
+        "number": 22,
+        "source": "/foods/enoki/",
+        "target": "/fungi/enoki/",
+        "slashRedirect": {
+          "target": "/fungi/enoki/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/fungi/enoki/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/fungi/enoki/",
+        "result": "PASS"
+      },
+      {
+        "number": 23,
+        "source": "/foods/king-oyster/",
+        "target": "/fungi/king-oyster/",
+        "slashRedirect": {
+          "target": "/fungi/king-oyster/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/fungi/king-oyster/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/fungi/king-oyster/",
+        "result": "PASS"
+      },
+      {
+        "number": 24,
+        "source": "/foods/lions-mane/",
+        "target": "/fungi/lions-mane/",
+        "slashRedirect": {
+          "target": "/fungi/lions-mane/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/fungi/lions-mane/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/fungi/lions-mane/",
+        "result": "PASS"
+      },
+      {
+        "number": 25,
+        "source": "/foods/maitake/",
+        "target": "/fungi/maitake/",
+        "slashRedirect": {
+          "target": "/fungi/maitake/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/fungi/maitake/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/fungi/maitake/",
+        "result": "PASS"
+      },
+      {
+        "number": 26,
+        "source": "/foods/morel/",
+        "target": "/fungi/morel/",
+        "slashRedirect": {
+          "target": "/fungi/morel/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/fungi/morel/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/fungi/morel/",
+        "result": "PASS"
+      },
+      {
+        "number": 27,
+        "source": "/foods/oyster-mushroom/",
+        "target": "/fungi/oyster-mushroom/",
+        "slashRedirect": {
+          "target": "/fungi/oyster-mushroom/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/fungi/oyster-mushroom/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/fungi/oyster-mushroom/",
+        "result": "PASS"
+      },
+      {
+        "number": 28,
+        "source": "/foods/porcini/",
+        "target": "/fungi/porcini/",
+        "slashRedirect": {
+          "target": "/fungi/porcini/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/fungi/porcini/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/fungi/porcini/",
+        "result": "PASS"
+      },
+      {
+        "number": 29,
+        "source": "/foods/portobello/",
+        "target": "/fungi/portobello/",
+        "slashRedirect": {
+          "target": "/fungi/portobello/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/fungi/portobello/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/fungi/portobello/",
+        "result": "PASS"
+      },
+      {
+        "number": 30,
+        "source": "/foods/shiitake/",
+        "target": "/fungi/shiitake/",
+        "slashRedirect": {
+          "target": "/fungi/shiitake/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/fungi/shiitake/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/fungi/shiitake/",
+        "result": "PASS"
+      },
+      {
+        "number": 31,
+        "source": "/foods/almonds/",
+        "target": "/nut-seeds/almond/",
+        "slashRedirect": {
+          "target": "/nut-seeds/almond/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/nut-seeds/almond/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/almond/",
+        "result": "PASS"
+      },
+      {
+        "number": 32,
+        "source": "/foods/cashews/",
+        "target": "/nut-seeds/cashew/",
+        "slashRedirect": {
+          "target": "/nut-seeds/cashew/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/nut-seeds/cashew/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/cashew/",
+        "result": "PASS"
+      },
+      {
+        "number": 33,
+        "source": "/foods/chia-seeds/",
+        "target": "/nut-seeds/chia-seed/",
+        "slashRedirect": {
+          "target": "/nut-seeds/chia-seed/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/nut-seeds/chia-seed/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/chia-seed/",
+        "result": "PASS"
+      },
+      {
+        "number": 34,
+        "source": "/foods/flaxseed/",
+        "target": "/nut-seeds/flaxseed/",
+        "slashRedirect": {
+          "target": "/nut-seeds/flaxseed/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/nut-seeds/flaxseed/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/flaxseed/",
+        "result": "PASS"
+      },
+      {
+        "number": 35,
+        "source": "/foods/hemp-seeds/",
+        "target": "/nut-seeds/hemp-seed/",
+        "slashRedirect": {
+          "target": "/nut-seeds/hemp-seed/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/nut-seeds/hemp-seed/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/hemp-seed/",
+        "result": "PASS"
+      },
+      {
+        "number": 36,
+        "source": "/foods/peanuts/",
+        "target": "/nut-seeds/peanut/",
+        "slashRedirect": {
+          "target": "/nut-seeds/peanut/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/nut-seeds/peanut/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/peanut/",
+        "result": "PASS"
+      },
+      {
+        "number": 37,
+        "source": "/foods/pine-nuts/",
+        "target": "/nut-seeds/pine-nut/",
+        "slashRedirect": {
+          "target": "/nut-seeds/pine-nut/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/nut-seeds/pine-nut/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/pine-nut/",
+        "result": "PASS"
+      },
+      {
+        "number": 38,
+        "source": "/foods/pistachios/",
+        "target": "/nut-seeds/pistachio/",
+        "slashRedirect": {
+          "target": "/nut-seeds/pistachio/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/nut-seeds/pistachio/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/pistachio/",
+        "result": "PASS"
+      },
+      {
+        "number": 39,
+        "source": "/foods/pumpkin-seeds/",
+        "target": "/nut-seeds/pumpkin-seed/",
+        "slashRedirect": {
+          "target": "/nut-seeds/pumpkin-seed/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/nut-seeds/pumpkin-seed/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/pumpkin-seed/",
+        "result": "PASS"
+      },
+      {
+        "number": 40,
+        "source": "/foods/sesame-seeds/",
+        "target": "/nut-seeds/sesame/",
+        "slashRedirect": {
+          "target": "/nut-seeds/sesame/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/nut-seeds/sesame/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/sesame/",
+        "result": "PASS"
+      },
+      {
+        "number": 41,
+        "source": "/foods/sunflower-seeds/",
+        "target": "/nut-seeds/sunflower-seed/",
+        "slashRedirect": {
+          "target": "/nut-seeds/sunflower-seed/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/nut-seeds/sunflower-seed/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/sunflower-seed/",
+        "result": "PASS"
+      },
+      {
+        "number": 42,
+        "source": "/foods/walnuts/",
+        "target": "/nut-seeds/walnut/",
+        "slashRedirect": {
+          "target": "/nut-seeds/walnut/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/nut-seeds/walnut/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/walnut/",
+        "result": "PASS"
+      },
+      {
+        "number": 43,
+        "source": "/foods/edamame/",
+        "target": "/legumes/soybean/",
+        "slashRedirect": {
+          "target": "/legumes/soybean/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/soybean/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/soybean/",
+        "result": "PASS"
+      },
+      {
+        "number": 44,
+        "source": "/foods/miso/",
+        "target": "/legumes/miso/",
+        "slashRedirect": {
+          "target": "/legumes/miso/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/miso/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/miso/",
+        "result": "PASS"
+      },
+      {
+        "number": 45,
+        "source": "/foods/natto/",
+        "target": "/legumes/natto/",
+        "slashRedirect": {
+          "target": "/legumes/natto/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/natto/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/natto/",
+        "result": "PASS"
+      },
+      {
+        "number": 46,
+        "source": "/foods/silken-tofu/",
+        "target": "/legumes/tofu/",
+        "slashRedirect": {
+          "target": "/legumes/tofu/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/tofu/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/tofu/",
+        "result": "PASS"
+      },
+      {
+        "number": 47,
+        "source": "/foods/soy-curls/",
+        "target": "/legumes/soy-curls/",
+        "slashRedirect": {
+          "target": "/legumes/soy-curls/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/soy-curls/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/soy-curls/",
+        "result": "PASS"
+      },
+      {
+        "number": 48,
+        "source": "/foods/soybeans/",
+        "target": "/legumes/soybean/",
+        "slashRedirect": {
+          "target": "/legumes/soybean/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/soybean/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/soybean/",
+        "result": "PASS"
+      },
+      {
+        "number": 49,
+        "source": "/foods/tempeh/",
+        "target": "/legumes/tempeh/",
+        "slashRedirect": {
+          "target": "/legumes/tempeh/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/tempeh/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/tempeh/",
+        "result": "PASS"
+      },
+      {
+        "number": 50,
+        "source": "/foods/textured-vegetable-protein/",
+        "target": "/legumes/textured-vegetable-protein/",
+        "slashRedirect": {
+          "target": "/legumes/textured-vegetable-protein/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/textured-vegetable-protein/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/textured-vegetable-protein/",
+        "result": "PASS"
+      },
+      {
+        "number": 51,
+        "source": "/foods/tofu-firm/",
+        "target": "/legumes/tofu/",
+        "slashRedirect": {
+          "target": "/legumes/tofu/",
+          "status": "301"
+        },
+        "noSlashRedirect": {
+          "target": "/legumes/tofu/",
+          "status": "301"
+        },
+        "targetIsMigrationSource": false,
+        "sourcePresentInProteinSitemap": false,
+        "targetPresentInPublicationSitemap": true,
+        "targetFilePresent": true,
+        "targetCanonical": "https://pairingmethod.com/legumes/tofu/",
+        "result": "PASS"
+      }
+    ],
+    "ctaRows": [
+      {
+        "file": "wine-with-steak.html",
+        "viewBottleCount": 0,
+        "deadBottleCount": 0,
+        "canonical": "https://pairingmethod.com/wine-with-steak",
+        "result": "PASS"
+      },
+      {
+        "file": "wine-with-chicken.html",
+        "viewBottleCount": 0,
+        "deadBottleCount": 0,
+        "canonical": "https://pairingmethod.com/wine-with-chicken",
+        "result": "PASS"
+      },
+      {
+        "file": "wine-with-salmon.html",
+        "viewBottleCount": 0,
+        "deadBottleCount": 0,
+        "canonical": "https://pairingmethod.com/wine-with-salmon",
+        "result": "PASS"
+      },
+      {
+        "file": "wine-for-bbq-ribs.html",
+        "viewBottleCount": 0,
+        "deadBottleCount": 0,
+        "canonical": "https://pairingmethod.com/wine-for-bbq-ribs",
+        "result": "PASS"
+      },
+      {
+        "file": "wine-for-thanksgiving-turkey.html",
+        "viewBottleCount": 0,
+        "deadBottleCount": 0,
+        "canonical": "https://pairingmethod.com/wine-for-thanksgiving-turkey",
+        "result": "PASS"
+      }
+    ],
+    "result": "PASS"
+  },
+  "production": {
+    "sitemapStatus": 200,
+    "verified": 51,
+    "redirectPassing": 0,
+    "sitemapSourcesRemoved": 0,
+    "canonicalTargetsPassing": 51,
+    "loops": 0,
+    "homepageFallbacks": 0,
+    "unexpectedSource200s": 51,
+    "ctaPagesPassing": 0,
+    "deadViewBottleControls": 15,
+    "rows": [
+      {
+        "number": 1,
+        "source": "/foods/amaranth/",
+        "target": "/grains-starches/amaranth/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/amaranth/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/grains-starches/amaranth/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 2,
+        "source": "/foods/barley/",
+        "target": "/grains-starches/barley/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/barley/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/grains-starches/barley/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 3,
+        "source": "/foods/buckwheat/",
+        "target": "/grains-starches/buckwheat/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/buckwheat/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/grains-starches/buckwheat/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 4,
+        "source": "/foods/farro/",
+        "target": "/grains-starches/farro/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/farro/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/grains-starches/farro/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 5,
+        "source": "/foods/oats/",
+        "target": "/grains-starches/oats/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/oats/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/grains-starches/oats/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 6,
+        "source": "/foods/quinoa/",
+        "target": "/grains-starches/quinoa/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/quinoa/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/grains-starches/quinoa/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 7,
+        "source": "/foods/black-beans/",
+        "target": "/legumes/black-bean/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/black-beans/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/black-bean/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 8,
+        "source": "/foods/black-lentils/",
+        "target": "/legumes/black-lentil/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/black-lentils/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/black-lentil/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 9,
+        "source": "/foods/cannellini-beans/",
+        "target": "/legumes/cannellini-bean/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/cannellini-beans/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/cannellini-bean/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 10,
+        "source": "/foods/chickpeas/",
+        "target": "/legumes/chickpea/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/chickpeas/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/chickpea/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 11,
+        "source": "/foods/green-lentils/",
+        "target": "/legumes/green-lentil/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/green-lentils/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/green-lentil/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 12,
+        "source": "/foods/kidney-beans/",
+        "target": "/legumes/kidney-bean/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/kidney-beans/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/kidney-bean/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 13,
+        "source": "/foods/lentils/",
+        "target": "/legumes/green-lentil/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/lentils/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/green-lentil/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 14,
+        "source": "/foods/lima-beans/",
+        "target": "/legumes/lima-bean/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/lima-beans/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/lima-bean/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 15,
+        "source": "/foods/navy-beans/",
+        "target": "/legumes/navy-bean/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/navy-beans/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/navy-bean/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 16,
+        "source": "/foods/peas/",
+        "target": "/legumes/green-pea/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/peas/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/green-pea/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 17,
+        "source": "/foods/pinto-beans/",
+        "target": "/legumes/pinto-bean/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/pinto-beans/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/pinto-bean/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 18,
+        "source": "/foods/red-lentils/",
+        "target": "/legumes/red-lentil/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/red-lentils/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/red-lentil/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 19,
+        "source": "/foods/button-mushroom/",
+        "target": "/fungi/button-mushroom/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/button-mushroom/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/fungi/button-mushroom/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 20,
+        "source": "/foods/chanterelle/",
+        "target": "/fungi/chanterelle/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/chanterelle/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/fungi/chanterelle/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 21,
+        "source": "/foods/cremini/",
+        "target": "/fungi/cremini/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/cremini/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/fungi/cremini/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 22,
+        "source": "/foods/enoki/",
+        "target": "/fungi/enoki/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/enoki/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/fungi/enoki/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 23,
+        "source": "/foods/king-oyster/",
+        "target": "/fungi/king-oyster/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/king-oyster/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/fungi/king-oyster/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 24,
+        "source": "/foods/lions-mane/",
+        "target": "/fungi/lions-mane/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/lions-mane/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/fungi/lions-mane/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 25,
+        "source": "/foods/maitake/",
+        "target": "/fungi/maitake/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/maitake/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/fungi/maitake/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 26,
+        "source": "/foods/morel/",
+        "target": "/fungi/morel/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/morel/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/fungi/morel/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 27,
+        "source": "/foods/oyster-mushroom/",
+        "target": "/fungi/oyster-mushroom/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/oyster-mushroom/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/fungi/oyster-mushroom/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 28,
+        "source": "/foods/porcini/",
+        "target": "/fungi/porcini/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/porcini/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/fungi/porcini/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 29,
+        "source": "/foods/portobello/",
+        "target": "/fungi/portobello/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/portobello/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/fungi/portobello/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 30,
+        "source": "/foods/shiitake/",
+        "target": "/fungi/shiitake/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/shiitake/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/fungi/shiitake/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 31,
+        "source": "/foods/almonds/",
+        "target": "/nut-seeds/almond/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/almonds/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/almond/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 32,
+        "source": "/foods/cashews/",
+        "target": "/nut-seeds/cashew/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/cashews/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/cashew/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 33,
+        "source": "/foods/chia-seeds/",
+        "target": "/nut-seeds/chia-seed/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/chia-seeds/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/chia-seed/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 34,
+        "source": "/foods/flaxseed/",
+        "target": "/nut-seeds/flaxseed/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/flaxseed/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/flaxseed/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 35,
+        "source": "/foods/hemp-seeds/",
+        "target": "/nut-seeds/hemp-seed/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/hemp-seeds/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/hemp-seed/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 36,
+        "source": "/foods/peanuts/",
+        "target": "/nut-seeds/peanut/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/peanuts/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/peanut/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 37,
+        "source": "/foods/pine-nuts/",
+        "target": "/nut-seeds/pine-nut/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/pine-nuts/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/pine-nut/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 38,
+        "source": "/foods/pistachios/",
+        "target": "/nut-seeds/pistachio/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/pistachios/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/pistachio/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 39,
+        "source": "/foods/pumpkin-seeds/",
+        "target": "/nut-seeds/pumpkin-seed/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/pumpkin-seeds/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/pumpkin-seed/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 40,
+        "source": "/foods/sesame-seeds/",
+        "target": "/nut-seeds/sesame/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/sesame-seeds/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/sesame/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 41,
+        "source": "/foods/sunflower-seeds/",
+        "target": "/nut-seeds/sunflower-seed/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/sunflower-seeds/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/sunflower-seed/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 42,
+        "source": "/foods/walnuts/",
+        "target": "/nut-seeds/walnut/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/walnuts/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/nut-seeds/walnut/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 43,
+        "source": "/foods/edamame/",
+        "target": "/legumes/soybean/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/edamame/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/soybean/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 44,
+        "source": "/foods/miso/",
+        "target": "/legumes/miso/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/miso/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/miso/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 45,
+        "source": "/foods/natto/",
+        "target": "/legumes/natto/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/natto/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/natto/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 46,
+        "source": "/foods/silken-tofu/",
+        "target": "/legumes/tofu/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/silken-tofu/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/tofu/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 47,
+        "source": "/foods/soy-curls/",
+        "target": "/legumes/soy-curls/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/soy-curls/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/soy-curls/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 48,
+        "source": "/foods/soybeans/",
+        "target": "/legumes/soybean/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/soybeans/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/soybean/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 49,
+        "source": "/foods/tempeh/",
+        "target": "/legumes/tempeh/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/tempeh/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/tempeh/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 50,
+        "source": "/foods/textured-vegetable-protein/",
+        "target": "/legumes/textured-vegetable-protein/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/textured-vegetable-protein/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/textured-vegetable-protein/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      },
+      {
+        "number": 51,
+        "source": "/foods/tofu-firm/",
+        "target": "/legumes/tofu/",
+        "sourceStatus": 200,
+        "location": null,
+        "finalStatus": 200,
+        "finalUrl": "https://pairingmethod.com/foods/tofu-firm/",
+        "hops": 0,
+        "loop": false,
+        "homepageFallback": false,
+        "unexpectedSource200": true,
+        "targetStatus": 200,
+        "targetCanonical": "https://pairingmethod.com/legumes/tofu/",
+        "sourcePresentInProteinSitemap": true,
+        "result": "FAIL"
+      }
+    ],
+    "ctaRows": [
+      {
+        "file": "wine-with-steak.html",
+        "status": 200,
+        "finalUrl": "https://pairingmethod.com/wine-with-steak",
+        "viewBottleCount": 3,
+        "deadBottleCount": 3,
+        "result": "FAIL"
+      },
+      {
+        "file": "wine-with-chicken.html",
+        "status": 200,
+        "finalUrl": "https://pairingmethod.com/wine-with-chicken",
+        "viewBottleCount": 3,
+        "deadBottleCount": 3,
+        "result": "FAIL"
+      },
+      {
+        "file": "wine-with-salmon.html",
+        "status": 200,
+        "finalUrl": "https://pairingmethod.com/wine-with-salmon",
+        "viewBottleCount": 3,
+        "deadBottleCount": 3,
+        "result": "FAIL"
+      },
+      {
+        "file": "wine-for-bbq-ribs.html",
+        "status": 200,
+        "finalUrl": "https://pairingmethod.com/wine-for-bbq-ribs",
+        "viewBottleCount": 3,
+        "deadBottleCount": 3,
+        "result": "FAIL"
+      },
+      {
+        "file": "wine-for-thanksgiving-turkey.html",
+        "status": 200,
+        "finalUrl": "https://pairingmethod.com/wine-for-thanksgiving-turkey",
+        "viewBottleCount": 3,
+        "deadBottleCount": 3,
+        "result": "FAIL"
+      }
+    ],
+    "result": "FAIL"
+  }
+}
