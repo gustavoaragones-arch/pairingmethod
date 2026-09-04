@@ -1,17 +1,25 @@
 {
   "meta": {
-    "phase": "LANG-01",
+    "phase": "LANG-02",
     "title": "Spanish Regional Vocabulary — Declarative Schema",
-    "status": "schema_only",
-    "note": "This file establishes the vocabulary data contract only. It intentionally contains zero populated entries — LANG-01 is an architecture/governance phase and must not translate content or invent regional terminology. A future LANG-02+ phase populates `entries` under editorial review; this file's `schema` block is what governs that future population, the same way each data/*-catalog.json's own `schema` block governs its entities today.",
+    "status": "populated",
+    "note": "LANG-01 established this file's schema only (zero entries). LANG-02 (terminology research phase) populated the entries below with researched Spanish vocabulary mapped onto existing canonical ontology entity_ids. See reports/spanish-vocabulary-research-lang02.json for methodology, coverage, and flagged unresolved terminology (notably a pre-existing bare-slug identity collision between grape-catalog.json/wine-style-catalog.json and between wine-style-catalog.json/wine-region-catalog.json, which the current schema cannot represent as distinct entities).",
     "language_registry": "lib/language-config.js",
     "governance_document": "docs/LANGUAGE_GOVERNANCE.md"
   },
   "schema": {
     "entry_contract": {
       "description": "One vocabulary entry maps ONE existing, language-neutral ontology entity_id to ONE Spanish regional profile's preferred term and known aliases. An entry never creates a new entity, never redefines entity identity, and never exists for a language other than Spanish (English needs no vocabulary layer — see docs/LANGUAGE_GOVERNANCE.md §7).",
-      "required_fields": ["entity_id", "language", "region", "preferred", "aliases"],
-      "optional_fields": ["notes"],
+      "required_fields": [
+        "entity_id",
+        "language",
+        "region",
+        "preferred",
+        "aliases"
+      ],
+      "optional_fields": [
+        "notes"
+      ],
       "field_contracts": {
         "entity_id": {
           "type": "string",
@@ -20,12 +28,20 @@
         },
         "language": {
           "type": "string",
-          "enum": ["es"],
+          "enum": [
+            "es"
+          ],
           "description": "MUST be \"es\". This schema exists for Spanish regional vocabulary specifically; a future additional language would get its own schema file and registry entry, not a value in this enum."
         },
         "region": {
           "type": "string",
-          "enum": ["neutral", "mx", "es", "cl", "ca"],
+          "enum": [
+            "neutral",
+            "mx",
+            "es",
+            "cl",
+            "ca"
+          ],
           "description": "MUST be one of the five registered regional profile ids in lib/language-config.js. \"ca\" denotes the Central America vocabulary profile — never Canada, never an ISO 3166 code, never a distinct publication."
         },
         "preferred": {
@@ -56,5 +72,4270 @@
       "notes": "Illustrative only — LANG-01 does not populate real Spanish terminology."
     }
   },
-  "entries": []
+  "entries": [
+    {
+      "entity_id": "cabernet-sauvignon",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cabernet Sauvignon",
+      "aliases": [],
+      "notes": "Shared slug between grape-catalog.json and wine-style-catalog.json — see LANG-02 research report's stop-condition flag."
+    },
+    {
+      "entity_id": "merlot",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Merlot",
+      "aliases": []
+    },
+    {
+      "entity_id": "pinot-noir",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pinot Noir",
+      "aliases": [],
+      "notes": "Shared slug between grape-catalog.json and wine-style-catalog.json — see LANG-02 research report's stop-condition flag."
+    },
+    {
+      "entity_id": "syrah-shiraz",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Syrah",
+      "aliases": [
+        "Shiraz"
+      ],
+      "notes": "\"Syrah\" is the standard term in Spanish-language wine writing; \"Shiraz\" (the Australian/South African usage) is kept as an alias since it appears on imported labels."
+    },
+    {
+      "entity_id": "malbec",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Malbec",
+      "aliases": []
+    },
+    {
+      "entity_id": "grenache",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Garnacha",
+      "aliases": [
+        "Grenache"
+      ],
+      "notes": "Garnacha is a Spanish grape originating in Aragón; the Spanish name is the primary term in Spanish-language wine writing, with the French \"Grenache\" as a recognized alias for imported/international bottlings."
+    },
+    {
+      "entity_id": "sangiovese",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Sangiovese",
+      "aliases": []
+    },
+    {
+      "entity_id": "nebbiolo",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Nebbiolo",
+      "aliases": []
+    },
+    {
+      "entity_id": "tempranillo",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Tempranillo",
+      "aliases": []
+    },
+    {
+      "entity_id": "zinfandel",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Zinfandel",
+      "aliases": []
+    },
+    {
+      "entity_id": "chardonnay",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Chardonnay",
+      "aliases": [],
+      "notes": "Shared slug between grape-catalog.json and wine-style-catalog.json — see LANG-02 research report's stop-condition flag."
+    },
+    {
+      "entity_id": "sauvignon-blanc",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Sauvignon Blanc",
+      "aliases": [],
+      "notes": "Shared slug between grape-catalog.json and wine-style-catalog.json — see LANG-02 research report's stop-condition flag."
+    },
+    {
+      "entity_id": "riesling",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Riesling",
+      "aliases": [],
+      "notes": "Shared slug between grape-catalog.json and wine-style-catalog.json — see LANG-02 research report's stop-condition flag."
+    },
+    {
+      "entity_id": "pinot-grigio",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pinot Grigio",
+      "aliases": [
+        "Pinot Gris"
+      ]
+    },
+    {
+      "entity_id": "chenin-blanc",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Chenin Blanc",
+      "aliases": []
+    },
+    {
+      "entity_id": "viognier",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Viognier",
+      "aliases": []
+    },
+    {
+      "entity_id": "gewurztraminer",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Gewürztraminer",
+      "aliases": []
+    },
+    {
+      "entity_id": "albarino",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Albariño",
+      "aliases": []
+    },
+    {
+      "entity_id": "champagne",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Champán",
+      "aliases": [
+        "Champagne"
+      ],
+      "notes": "\"Champán\" is the standard Spanish-language adaptation; the French spelling \"Champagne\" is a common alias, especially on imported labeling. ENTITY IDENTITY NOTE: the bare slug \"champagne\" is shared by wine-style-catalog.json (this wine style) and wine-region-catalog.json (the region) — same pre-existing bare-slug collision pattern as the grape/wine-style entities above. The correct Spanish term is identical either way, so this is a practical accommodation given identical values, NOT a resolution of the underlying identity-model gap. Flagged for Director review."
+    },
+    {
+      "entity_id": "prosecco",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Prosecco",
+      "aliases": []
+    },
+    {
+      "entity_id": "cava",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cava",
+      "aliases": []
+    },
+    {
+      "entity_id": "rose",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Rosado",
+      "aliases": []
+    },
+    {
+      "entity_id": "dry-rose",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Rosado Seco",
+      "aliases": []
+    },
+    {
+      "entity_id": "provence-rose",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Rosado de Provenza",
+      "aliases": []
+    },
+    {
+      "entity_id": "port",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Oporto",
+      "aliases": [
+        "Vino de Oporto",
+        "Port"
+      ],
+      "notes": "\"Oporto\" is the established Spanish name for Port wine, after the Portuguese city. \"Port\" appears as an alias from English-language labeling."
+    },
+    {
+      "entity_id": "madeira",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Madeira",
+      "aliases": [],
+      "notes": "ENTITY IDENTITY NOTE: the bare slug \"madeira\" is shared by wine-style-catalog.json (this wine style) and wine-region-catalog.json (the region) — same pre-existing bare-slug collision pattern as the grape/wine-style entities above. The correct Spanish term is identical either way, so this is a practical accommodation given identical values, NOT a resolution of the underlying identity-model gap. Flagged for Director review."
+    },
+    {
+      "entity_id": "sherry",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Jerez",
+      "aliases": [
+        "Sherry"
+      ],
+      "notes": "\"Jerez\" is the Spanish name (the wine's own denomination of origin, Jerez de la Frontera); \"Sherry\" is the English-market name and a common alias."
+    },
+    {
+      "entity_id": "moscato",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Moscato",
+      "aliases": [
+        "Moscatel"
+      ],
+      "notes": "\"Moscato\" (Italian) is used for the Italian style specifically; \"Moscatel\" is the Spanish-language grape/wine name generally and is kept as alias since both appear on Spanish-language retail."
+    },
+    {
+      "entity_id": "food.protein.animal",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Proteína Animal",
+      "aliases": [
+        "Alimentos de Origen Animal"
+      ]
+    },
+    {
+      "entity_id": "food.protein.plant",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Proteína Vegetal",
+      "aliases": [
+        "Alimentos de Origen Vegetal"
+      ]
+    },
+    {
+      "entity_id": "food.protein.fungi",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Proteína de Hongos",
+      "aliases": [
+        "Proteína Fúngica"
+      ]
+    },
+    {
+      "entity_id": "food.protein.beef",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Res",
+      "aliases": [
+        "Vacuno",
+        "Carne de Res"
+      ]
+    },
+    {
+      "entity_id": "food.protein.beef",
+      "language": "es",
+      "region": "cl",
+      "preferred": "Vacuno",
+      "aliases": [
+        "Res"
+      ],
+      "notes": "\"Vacuno\" is the standard everyday term for beef in Chile; \"res\" is understood but less commonly used as the primary category label."
+    },
+    {
+      "entity_id": "food.protein.pork",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cerdo",
+      "aliases": [
+        "Carne de Cerdo",
+        "Puerco"
+      ]
+    },
+    {
+      "entity_id": "food.protein.pork",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Puerco",
+      "aliases": [
+        "Cerdo"
+      ],
+      "notes": "\"Puerco\" is widely used colloquially in Mexico alongside \"cerdo\"; both are correct, \"puerco\" is the more common spoken form."
+    },
+    {
+      "entity_id": "food.protein.lamb",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cordero",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.veal",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Ternera",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.poultry",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Aves",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.wild-game",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Caza",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.fin-fish",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pescado",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.crustaceans",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Crustáceos",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.mollusks",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Moluscos",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.cephalopods",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cefalópodos",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.legumes",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Legumbres",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.soy-foods",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Productos de Soya",
+      "aliases": [
+        "Productos de Soja"
+      ]
+    },
+    {
+      "entity_id": "food.protein.soy-foods",
+      "language": "es",
+      "region": "es",
+      "preferred": "Productos de Soja",
+      "aliases": [
+        "Productos de Soya"
+      ],
+      "notes": "In Spain \"soja\" is the standard form; \"soya\" is the standard form across most of Latin America (kept as the neutral term for broader reach)."
+    },
+    {
+      "entity_id": "food.protein.grains-wheat-protein",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Proteína de Granos y Trigo",
+      "aliases": [
+        "Proteína Vegetal de Grano"
+      ]
+    },
+    {
+      "entity_id": "food.protein.nuts-seeds",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frutos Secos y Semillas",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.mushrooms",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Hongos",
+      "aliases": [
+        "Setas"
+      ]
+    },
+    {
+      "entity_id": "food.protein.mushrooms",
+      "language": "es",
+      "region": "es",
+      "preferred": "Setas",
+      "aliases": [
+        "Hongos"
+      ]
+    },
+    {
+      "entity_id": "food.protein.mycoprotein",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Micoproteína",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.cured-meat",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Embutidos y Curados",
+      "aliases": [
+        "Fiambres"
+      ]
+    },
+    {
+      "entity_id": "food.protein.beef.ribeye",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Rib Eye",
+      "aliases": [
+        "Bife de Ojo"
+      ]
+    },
+    {
+      "entity_id": "food.protein.beef.tenderloin",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Filete",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.beef.tenderloin",
+      "language": "es",
+      "region": "es",
+      "preferred": "Solomillo",
+      "aliases": [
+        "Filete"
+      ]
+    },
+    {
+      "entity_id": "food.protein.beef.t-bone",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "T-Bone",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.beef.porterhouse",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Porterhouse",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.beef.brisket",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pecho de Res",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.beef.chuck-roast",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Aguja",
+      "aliases": [
+        "Diezmillo"
+      ]
+    },
+    {
+      "entity_id": "food.protein.beef.short-rib",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Costilla Corta",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.beef.short-rib",
+      "language": "es",
+      "region": "cl",
+      "preferred": "Asado de Tira",
+      "aliases": [
+        "Costilla Corta"
+      ]
+    },
+    {
+      "entity_id": "food.protein.beef.flank-steak",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Falda",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.beef.skirt-steak",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Entraña",
+      "aliases": [
+        "Arrachera"
+      ]
+    },
+    {
+      "entity_id": "food.protein.beef.skirt-steak",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Arrachera",
+      "aliases": [
+        "Entraña"
+      ]
+    },
+    {
+      "entity_id": "food.protein.beef.ground-beef",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Carne Molida",
+      "aliases": [
+        "Carne Picada"
+      ]
+    },
+    {
+      "entity_id": "food.protein.beef.ground-beef",
+      "language": "es",
+      "region": "es",
+      "preferred": "Carne Picada",
+      "aliases": [
+        "Carne Molida"
+      ]
+    },
+    {
+      "entity_id": "food.protein.pork.pork-belly",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Panceta",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.pork.pork-loin",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Lomo de Cerdo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.pork.pork-shoulder",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Paleta de Cerdo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.pork.pork-tenderloin",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Solomillo de Cerdo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.pork.ham",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Jamón",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.pork.bacon",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Tocino",
+      "aliases": [
+        "Bacon"
+      ]
+    },
+    {
+      "entity_id": "food.protein.pork.bacon",
+      "language": "es",
+      "region": "es",
+      "preferred": "Bacon",
+      "aliases": [
+        "Tocino",
+        "Panceta Ahumada"
+      ]
+    },
+    {
+      "entity_id": "food.protein.lamb.lamb-leg",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pierna de Cordero",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.lamb.lamb-shank",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Jarrete de Cordero",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.lamb.lamb-chop",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Chuleta de Cordero",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.poultry.whole-chicken",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pollo Entero",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.poultry.chicken-breast",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pechuga de Pollo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.poultry.chicken-thigh",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Muslo de Pollo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.poultry.whole-turkey",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pavo Entero",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.poultry.duck-breast",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pechuga de Pato",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.fin-fish.salmon-fillet",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Filete de Salmón",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.fin-fish.tuna-steak",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Filete de Atún",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.fin-fish.cod-fillet",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Filete de Bacalao",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.fin-fish.sardine",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Sardina",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.fin-fish.anchovy",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Anchoa",
+      "aliases": [
+        "Boquerón"
+      ],
+      "notes": "In Spain, 'boquerón' properly names the fresh anchovy and 'anchoa' the cured/salted product; both are offered as recognized alternates here since the catalog entity does not distinguish preparation state."
+    },
+    {
+      "entity_id": "food.protein.crustaceans.whole-lobster",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Langosta",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.crustaceans.shrimp",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Camarón",
+      "aliases": [
+        "Gamba"
+      ]
+    },
+    {
+      "entity_id": "food.protein.crustaceans.shrimp",
+      "language": "es",
+      "region": "es",
+      "preferred": "Gamba",
+      "aliases": [
+        "Camarón"
+      ]
+    },
+    {
+      "entity_id": "food.protein.crustaceans.prawn",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Langostino",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.crustaceans.crab",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cangrejo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.mollusks.oyster",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Ostra",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.mollusks.mussel",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Mejillón",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.mollusks.clam",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Almeja",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.mollusks.scallop",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Vieira",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.cephalopods.squid",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Calamar",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.protein.cephalopods.octopus",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pulpo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.cheese",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Quesos",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.cheese.fresh",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Quesos Frescos",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.cheese.bloomy-rind",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Quesos de Corteza Enmohecida",
+      "aliases": [
+        "Quesos de Corteza Blanca"
+      ]
+    },
+    {
+      "entity_id": "food.cheese.washed-rind",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Quesos de Corteza Lavada",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.cheese.natural-rind",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Quesos de Corteza Natural",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.cheese.blue",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Quesos Azules",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.cheese.semi-hard",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Quesos Semiduros",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.cheese.hard",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Quesos Duros",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.cheese.pasta-filata",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Quesos de Pasta Hilada",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.cheese.brined",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Quesos en Salmuera",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.cheese.fresh.cottage-cheese",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Queso Cottage",
+      "aliases": [],
+      "notes": "Kept as a descriptive loanword rather than 'Requesón', which properly names a distinct whey cheese, not cottage cheese."
+    },
+    {
+      "entity_id": "food.cheese.fresh.cream-cheese",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Queso Crema",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.cheese.fresh.cream-cheese",
+      "language": "es",
+      "region": "es",
+      "preferred": "Queso para Untar",
+      "aliases": [
+        "Queso Crema"
+      ]
+    },
+    {
+      "entity_id": "food.cheese.fresh.queso-blanco",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Queso Blanco",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.cheese.fresh.queso-fresco",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Queso Fresco",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.cheese.brined.cotija",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cotija",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.cheese.brined.queso-de-mano",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Queso de Mano",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frutas",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.pomes.apple",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Manzana",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits.avocado",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Aguacate",
+      "aliases": [
+        "Palta"
+      ],
+      "notes": "\"Aguacate\" is understood everywhere and is the standard term in Mexico, Central America, and Spain; Chile's distinct everyday term is encoded below."
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits.avocado",
+      "language": "es",
+      "region": "cl",
+      "preferred": "Palta",
+      "aliases": [
+        "Aguacate"
+      ],
+      "notes": "\"Palta\" is the standard everyday term across the Southern Cone (Chile, Argentina, Peru, Uruguay, Bolivia)."
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits.banana",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Plátano",
+      "aliases": [
+        "Banana"
+      ]
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits.banana",
+      "language": "es",
+      "region": "cl",
+      "preferred": "Plátano",
+      "aliases": [
+        "Banana"
+      ],
+      "notes": "Kept identical to neutral — Chile also uses \"plátano\"/\"banana\" interchangeably with no strong regional preference distinct from the neutral form; no separate regional row is warranted here, unlike avocado/beans/peanuts above."
+    },
+    {
+      "entity_id": "food.fruit.berries.blueberry",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Arándano",
+      "aliases": [
+        "Arándano Azul"
+      ]
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits.coconut",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Coco",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.berries.cranberry",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Arándano Rojo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits.date",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Dátil",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits.fig",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Higo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.berries.grape",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Uva",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.citrus.grapefruit",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Toronja",
+      "aliases": [
+        "Pomelo"
+      ],
+      "notes": "\"Toronja\" is standard in Mexico, Central America, and much of Latin America; \"pomelo\" is standard in Spain and the Southern Cone."
+    },
+    {
+      "entity_id": "food.fruit.citrus.grapefruit",
+      "language": "es",
+      "region": "es",
+      "preferred": "Pomelo",
+      "aliases": [
+        "Toronja"
+      ],
+      "notes": "Standard term in Spain."
+    },
+    {
+      "entity_id": "food.fruit.citrus.grapefruit",
+      "language": "es",
+      "region": "cl",
+      "preferred": "Pomelo",
+      "aliases": [
+        "Toronja"
+      ],
+      "notes": "Standard term in Chile and the Southern Cone."
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits.guava",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Guayaba",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits.kiwi",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Kiwi",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.citrus.lemon",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Limón",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.citrus.lime",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Lima",
+      "aliases": [
+        "Limón"
+      ],
+      "notes": "\"Lima\" is the technically precise neutral term; in much everyday Latin American Spanish \"limón\" is used for both lemon and lime, kept as alias for recognition, not promoted to preferred since it would collide with the lemon entity's own preferred term."
+    },
+    {
+      "entity_id": "food.fruit.citrus.mandarin",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Mandarina",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits.mango",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Mango",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.citrus.orange",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Naranja",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits.papaya",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Papaya",
+      "aliases": [
+        "Lechosa",
+        "Fruta Bomba"
+      ],
+      "notes": "\"Papaya\" is broadly understood everywhere; \"lechosa\" (Venezuela/Dominican Republic) and \"fruta bomba\" (Cuba) are notable aliases from other Spanish-speaking regions outside the 5 approved profiles, kept for recognition only."
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits.passion-fruit",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Maracuyá",
+      "aliases": [
+        "Fruta de la Pasión"
+      ]
+    },
+    {
+      "entity_id": "food.fruit.stone-fruits.peach",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Durazno",
+      "aliases": [
+        "Melocotón"
+      ],
+      "notes": "\"Durazno\" is standard across most of Latin America; Spain's distinct standard term is encoded below."
+    },
+    {
+      "entity_id": "food.fruit.stone-fruits.peach",
+      "language": "es",
+      "region": "es",
+      "preferred": "Melocotón",
+      "aliases": [
+        "Durazno"
+      ],
+      "notes": "Standard term in Spain."
+    },
+    {
+      "entity_id": "food.fruit.pomes.pear",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pera",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits.pineapple",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Piña",
+      "aliases": [
+        "Ananá"
+      ]
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits.plantain",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Plátano Macho",
+      "aliases": [
+        "Plátano para Freír"
+      ]
+    },
+    {
+      "entity_id": "food.fruit.stone-fruits.plum",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Ciruela",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits.pomegranate",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Granada",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.berries.raspberry",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frambuesa",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.berries.strawberry",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Fresa",
+      "aliases": [
+        "Frutilla"
+      ],
+      "notes": "\"Fresa\" is standard in Mexico, Central America, and Spain; the Southern Cone's distinct everyday term is encoded below."
+    },
+    {
+      "entity_id": "food.fruit.berries.strawberry",
+      "language": "es",
+      "region": "cl",
+      "preferred": "Frutilla",
+      "aliases": [
+        "Fresa"
+      ],
+      "notes": "\"Frutilla\" is the standard everyday term across the Southern Cone."
+    },
+    {
+      "entity_id": "food.fruit.stone-fruits.sweet-cherry",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cereza",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.melons.watermelon",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Sandía",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.pomes",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frutas de Pepita",
+      "aliases": [
+        "Pomáceas"
+      ]
+    },
+    {
+      "entity_id": "food.fruit.stone-fruits",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frutas de Hueso",
+      "aliases": [
+        "Frutas de Carozo"
+      ]
+    },
+    {
+      "entity_id": "food.fruit.stone-fruits",
+      "language": "es",
+      "region": "cl",
+      "preferred": "Frutas de Carozo",
+      "aliases": [
+        "Frutas de Hueso"
+      ],
+      "notes": "\"Carozo\" is the everyday Southern-Cone term for a stone-fruit pit; \"frutas de carozo\" is the natural regional phrasing in Chile."
+    },
+    {
+      "entity_id": "food.fruit.citrus",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cítricos",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.berries",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Bayas",
+      "aliases": [
+        "Berries",
+        "Frutos del Bosque"
+      ]
+    },
+    {
+      "entity_id": "food.fruit.tropical-fruits",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frutas Tropicales",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.melons",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Melones",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fruit.processed-fruits",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frutas Procesadas",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.vegetable",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Verduras",
+      "aliases": [
+        "Vegetales"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.alliums",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Aliáceas",
+      "aliases": [
+        "Familia de la Cebolla"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.green-vegetables",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Verduras de Hoja Verde",
+      "aliases": [
+        "Vegetales Verdes"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.root-vegetables",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Verduras de Raíz",
+      "aliases": [
+        "Tubérculos y Raíces"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.nightshades",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Solanáceas",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.vegetable.green-vegetables.artichoke",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Alcachofa",
+      "aliases": [
+        "Alcaucil"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.green-vegetables.asparagus",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Espárrago",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.vegetable.root-vegetables.beet",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Remolacha",
+      "aliases": [
+        "Betabel"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.root-vegetables.beet",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Betabel",
+      "aliases": [
+        "Remolacha"
+      ],
+      "notes": "Standard everyday term in Mexico."
+    },
+    {
+      "entity_id": "food.vegetable.nightshades.bell-pepper",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pimiento",
+      "aliases": [
+        "Chile Morrón",
+        "Pimentón"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.nightshades.bell-pepper",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Pimiento Morrón",
+      "aliases": [
+        "Pimiento"
+      ],
+      "notes": "Common everyday phrasing in Mexico to distinguish sweet bell peppers from chile peppers generally."
+    },
+    {
+      "entity_id": "food.vegetable.green-vegetables.broccoli",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Brócoli",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.vegetable.green-vegetables.brussels-sprouts",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Coles de Bruselas",
+      "aliases": [
+        "Repollitos de Bruselas"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.green-vegetables.cabbage",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Repollo",
+      "aliases": [
+        "Col"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.green-vegetables.cabbage",
+      "language": "es",
+      "region": "es",
+      "preferred": "Col",
+      "aliases": [
+        "Repollo"
+      ],
+      "notes": "Standard everyday term in Spain."
+    },
+    {
+      "entity_id": "food.vegetable.root-vegetables.carrot",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Zanahoria",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.vegetable.green-vegetables.cauliflower",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Coliflor",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.vegetable.green-vegetables.celery",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Apio",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.vegetable.root-vegetables.chayote",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Chayote",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.vegetable.root-vegetables.chayote",
+      "language": "es",
+      "region": "ca",
+      "preferred": "Güisquil",
+      "aliases": [
+        "Chayote"
+      ],
+      "notes": "Standard everyday term for chayote in Guatemala, El Salvador, and Honduras."
+    },
+    {
+      "entity_id": "food.vegetable.nightshades.eggplant",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Berenjena",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.vegetable.alliums.garlic",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Ajo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.vegetable.green-vegetables.green-bean",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Ejote",
+      "aliases": [
+        "Judía Verde",
+        "Chaucha",
+        "Vainita"
+      ],
+      "notes": "\"Ejote\" is standard in Mexico and much of Central America; Spain and the Southern Cone have distinct standard terms encoded below."
+    },
+    {
+      "entity_id": "food.vegetable.green-vegetables.green-bean",
+      "language": "es",
+      "region": "es",
+      "preferred": "Judía Verde",
+      "aliases": [
+        "Ejote"
+      ],
+      "notes": "Standard term in Spain."
+    },
+    {
+      "entity_id": "food.vegetable.green-vegetables.green-bean",
+      "language": "es",
+      "region": "cl",
+      "preferred": "Poroto Verde",
+      "aliases": [
+        "Ejote",
+        "Chaucha"
+      ],
+      "notes": "Standard everyday term in Chile."
+    },
+    {
+      "entity_id": "food.vegetable.nightshades.jalapeno-pepper",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Chile Jalapeño",
+      "aliases": [
+        "Jalapeño"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.green-vegetables.kale",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Col Rizada",
+      "aliases": [
+        "Kale"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.green-vegetables.lettuce",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Lechuga",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.vegetable.alliums.onion",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cebolla",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.vegetable.root-vegetables.pumpkin",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Calabaza",
+      "aliases": [
+        "Zapallo"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.root-vegetables.pumpkin",
+      "language": "es",
+      "region": "cl",
+      "preferred": "Zapallo",
+      "aliases": [
+        "Calabaza"
+      ],
+      "notes": "Standard everyday term across the Southern Cone."
+    },
+    {
+      "entity_id": "food.vegetable.root-vegetables.radish",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Rábano",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.vegetable.alliums.scallion",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cebolleta",
+      "aliases": [
+        "Cebollín",
+        "Cebolla de Verdeo"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.green-vegetables.spinach",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Espinaca",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.vegetable.nightshades.tomatillo",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Tomatillo",
+      "aliases": [
+        "Tomate Verde"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.nightshades.tomato",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Tomate",
+      "aliases": [
+        "Jitomate"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.nightshades.tomato",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Jitomate",
+      "aliases": [
+        "Tomate"
+      ],
+      "notes": "Standard everyday term in central Mexico (distinguishing red tomato from tomatillo/\"tomate verde\")."
+    },
+    {
+      "entity_id": "food.vegetable.root-vegetables.turnip",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Nabo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.vegetable.root-vegetables.zucchini",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Calabacín",
+      "aliases": [
+        "Calabacita",
+        "Zapallo Italiano"
+      ]
+    },
+    {
+      "entity_id": "food.vegetable.root-vegetables.zucchini",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Calabacita",
+      "aliases": [
+        "Calabacín"
+      ],
+      "notes": "Standard everyday term in Mexico."
+    },
+    {
+      "entity_id": "food.vegetable.root-vegetables.zucchini",
+      "language": "es",
+      "region": "cl",
+      "preferred": "Zapallo Italiano",
+      "aliases": [
+        "Calabacín"
+      ],
+      "notes": "Standard everyday term in Chile."
+    },
+    {
+      "entity_id": "food.grain",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cereales y Almidones",
+      "aliases": [
+        "Granos y Almidones"
+      ]
+    },
+    {
+      "entity_id": "food.grain.pseudocereals.amaranth",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Amaranto",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.whole-grains.barley",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cebada",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.pseudocereals.buckwheat",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Trigo Sarraceno",
+      "aliases": [
+        "Alforfón"
+      ]
+    },
+    {
+      "entity_id": "food.grain.whole-grains.corn",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Maíz",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.processed-grains.cornmeal",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Harina de Maíz",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.starches.cornstarch",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Maicena",
+      "aliases": [
+        "Fécula de Maíz",
+        "Almidón de Maíz"
+      ],
+      "notes": "\"Maicena\" (originally a brand name) has become the everyday generic term across most of the Spanish-speaking world, similar to \"Kleenex\" in English; \"fécula/almidón de maíz\" is the formal/technical term, kept as alias."
+    },
+    {
+      "entity_id": "food.grain.processed-grains.couscous",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cuscús",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.whole-grains.farro",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Farro",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.processed-grains.hominy",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Maíz Pozolero",
+      "aliases": [
+        "Nixtamal",
+        "Mote"
+      ],
+      "notes": "\"Nixtamal\"/\"maíz pozolero\" is standard in Mexico; \"mote\" is the standard term in the Southern Cone. No single neutral term is truly universal here, so the Mexico-oriented \"maíz pozolero\" is kept neutral (broadest recognizability) with both regional terms as aliases rather than fabricating a separate cl entry not clearly evidenced for THIS specific processed form."
+    },
+    {
+      "entity_id": "food.grain.whole-grains.millet",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Mijo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.whole-grains.oats",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Avena",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.starches.potato-starch",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Almidón de Papa",
+      "aliases": [
+        "Fécula de Papa",
+        "Almidón de Patata"
+      ]
+    },
+    {
+      "entity_id": "food.grain.starches.potato-starch",
+      "language": "es",
+      "region": "es",
+      "preferred": "Fécula de Patata",
+      "aliases": [
+        "Almidón de Papa"
+      ],
+      "notes": "Spain uses \"patata\" for potato; standard term follows accordingly."
+    },
+    {
+      "entity_id": "food.grain.pseudocereals.quinoa",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Quinua",
+      "aliases": [
+        "Quinoa"
+      ]
+    },
+    {
+      "entity_id": "food.grain.whole-grains.rice",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Arroz",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.whole-grains.rye",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Centeno",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.whole-grains.sorghum",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Sorgo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.starches.tapioca-starch",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Almidón de Tapioca",
+      "aliases": [
+        "Fécula de Yuca",
+        "Fécula de Mandioca"
+      ]
+    },
+    {
+      "entity_id": "food.grain.whole-grains.wheat",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Trigo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.processed-grains.wheat-flour",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Harina de Trigo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.whole-grains.wild-rice",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Arroz Silvestre",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.whole-grains",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cereales Integrales",
+      "aliases": [
+        "Granos Enteros"
+      ]
+    },
+    {
+      "entity_id": "food.grain.pseudocereals",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pseudocereales",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.processed-grains",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cereales Procesados",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.grain.starches",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Almidones",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.legume",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Legumbres",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.legume.beans",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frijoles",
+      "aliases": [
+        "Judías",
+        "Porotos",
+        "Alubias"
+      ],
+      "notes": "\"Frijoles\" is the most broadly understood neutral term across Latin America; Spain and Chile use different primary terms, encoded as regional preferred entries below."
+    },
+    {
+      "entity_id": "food.legume.beans",
+      "language": "es",
+      "region": "es",
+      "preferred": "Judías",
+      "aliases": [
+        "Alubias",
+        "Frijoles"
+      ],
+      "notes": "Standard term in Spain; \"alubias\" is a common regional synonym within Spain itself."
+    },
+    {
+      "entity_id": "food.legume.beans",
+      "language": "es",
+      "region": "cl",
+      "preferred": "Porotos",
+      "aliases": [
+        "Frijoles"
+      ],
+      "notes": "\"Porotos\" is the standard everyday term across the Southern Cone (Chile, Argentina, Uruguay, Peru, Bolivia)."
+    },
+    {
+      "entity_id": "food.legume.peas",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Guisantes",
+      "aliases": [
+        "Arvejas",
+        "Chícharos"
+      ]
+    },
+    {
+      "entity_id": "food.legume.peas",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Chícharos",
+      "aliases": [
+        "Guisantes"
+      ],
+      "notes": "Standard everyday term in Mexico."
+    },
+    {
+      "entity_id": "food.legume.peas",
+      "language": "es",
+      "region": "cl",
+      "preferred": "Arvejas",
+      "aliases": [
+        "Guisantes"
+      ],
+      "notes": "Standard everyday term in Chile and much of South America."
+    },
+    {
+      "entity_id": "food.legume.lentils",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Lentejas",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.legume.chickpeas",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Garbanzos",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.legume.other-legumes",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Otras Legumbres",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.legume.legume-products",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Productos de Legumbres",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.legume.beans.black-bean",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frijol Negro",
+      "aliases": [
+        "Poroto Negro"
+      ]
+    },
+    {
+      "entity_id": "food.legume.beans.black-bean",
+      "language": "es",
+      "region": "cl",
+      "preferred": "Poroto Negro",
+      "aliases": [
+        "Frijol Negro"
+      ]
+    },
+    {
+      "entity_id": "food.legume.chickpeas.chickpea",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Garbanzo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.legume.beans.fava-bean",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Haba",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.legume.peas.green-pea",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Guisante Verde",
+      "aliases": [
+        "Arveja Verde",
+        "Chícharo"
+      ]
+    },
+    {
+      "entity_id": "food.legume.beans.kidney-bean",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frijol Rojo",
+      "aliases": [
+        "Poroto Rojo",
+        "Alubia Roja"
+      ]
+    },
+    {
+      "entity_id": "food.legume.beans.kidney-bean",
+      "language": "es",
+      "region": "cl",
+      "preferred": "Poroto Rojo",
+      "aliases": [
+        "Frijol Rojo"
+      ]
+    },
+    {
+      "entity_id": "food.legume.legume-products.miso",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Miso",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.legume.other-legumes.mung-bean",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frijol Mungo",
+      "aliases": [
+        "Poroto Mungo",
+        "Soja Verde"
+      ]
+    },
+    {
+      "entity_id": "food.legume.legume-products.natto",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Natto",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.legume.beans.navy-bean",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frijol Blanco Pequeño",
+      "aliases": [
+        "Alubia Pequeña"
+      ]
+    },
+    {
+      "entity_id": "food.legume.beans.pinto-bean",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frijol Pinto",
+      "aliases": [
+        "Poroto Pinto"
+      ]
+    },
+    {
+      "entity_id": "food.legume.lentils.red-lentil",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Lenteja Roja",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.legume.other-legumes.soybean",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Soya",
+      "aliases": [
+        "Soja"
+      ]
+    },
+    {
+      "entity_id": "food.legume.other-legumes.soybean",
+      "language": "es",
+      "region": "es",
+      "preferred": "Soja",
+      "aliases": [
+        "Soya"
+      ]
+    },
+    {
+      "entity_id": "food.legume.legume-products.tempeh",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Tempeh",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.legume.legume-products.tofu",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Tofu",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.legume.beans.white-bean",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frijol Blanco",
+      "aliases": [
+        "Alubia Blanca",
+        "Poroto Blanco"
+      ]
+    },
+    {
+      "entity_id": "food.nut-seed",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frutos Secos y Semillas",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.nut-seed.tree-nuts",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frutos Secos de Árbol",
+      "aliases": [
+        "Nueces de Árbol"
+      ]
+    },
+    {
+      "entity_id": "food.nut-seed.peanuts",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Maní",
+      "aliases": [
+        "Cacahuate",
+        "Cacahuete"
+      ],
+      "notes": "\"Maní\" is the broadest neutral term across most of Latin America and is well understood in Spain; Mexico's distinct everyday term is encoded below."
+    },
+    {
+      "entity_id": "food.nut-seed.peanuts",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Cacahuate",
+      "aliases": [
+        "Maní"
+      ],
+      "notes": "Standard everyday term in Mexico."
+    },
+    {
+      "entity_id": "food.nut-seed.peanuts",
+      "language": "es",
+      "region": "es",
+      "preferred": "Cacahuete",
+      "aliases": [
+        "Maní"
+      ],
+      "notes": "Standard everyday term in Spain."
+    },
+    {
+      "entity_id": "food.nut-seed.edible-seeds",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Semillas Comestibles",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.nut-seed.seed-spices",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Semillas Especiadas",
+      "aliases": [
+        "Especias de Semilla"
+      ]
+    },
+    {
+      "entity_id": "food.nut-seed.nut-products",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Productos de Frutos Secos",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.nut-seed.seed-products",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Productos de Semillas",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.nut-seed.tree-nuts.almond",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Almendra",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.nut-seed.tree-nuts.cashew",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Anacardo",
+      "aliases": [
+        "Marañón",
+        "Nuez de la India"
+      ],
+      "notes": "\"Anacardo\" is the broadest neutral/Spain term; \"marañón\" is common in Central America and parts of South America, \"nuez de la India\" in Mexico — kept as aliases since no single one is dominant enough across all 5 profiles to promote to a regional preferred without stronger evidence."
+    },
+    {
+      "entity_id": "food.nut-seed.tree-nuts.chestnut",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Castaña",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.nut-seed.edible-seeds.chia-seed",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Chía",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.nut-seed.edible-seeds.flaxseed",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Linaza",
+      "aliases": [
+        "Semilla de Lino"
+      ]
+    },
+    {
+      "entity_id": "food.nut-seed.tree-nuts.hazelnut",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Avellana",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.nut-seed.peanuts.peanut",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Maní",
+      "aliases": [
+        "Cacahuate",
+        "Cacahuete"
+      ],
+      "notes": "Mirrors the food.nut-seed.peanuts GROUP entry's regional split (see above) at the individual-entity level."
+    },
+    {
+      "entity_id": "food.nut-seed.peanuts.peanut",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Cacahuate",
+      "aliases": [
+        "Maní"
+      ]
+    },
+    {
+      "entity_id": "food.nut-seed.peanuts.peanut",
+      "language": "es",
+      "region": "es",
+      "preferred": "Cacahuete",
+      "aliases": [
+        "Maní"
+      ]
+    },
+    {
+      "entity_id": "food.nut-seed.tree-nuts.pine-nut",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Piñón",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.nut-seed.tree-nuts.pistachio",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pistacho",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.nut-seed.edible-seeds.pumpkin-seed",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Semilla de Calabaza",
+      "aliases": [
+        "Pepita de Calabaza"
+      ]
+    },
+    {
+      "entity_id": "food.nut-seed.edible-seeds.pumpkin-seed",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Pepita",
+      "aliases": [
+        "Semilla de Calabaza"
+      ],
+      "notes": "Common everyday term in Mexico, especially the toasted/salted snack form."
+    },
+    {
+      "entity_id": "food.nut-seed.edible-seeds.sesame",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Ajonjolí",
+      "aliases": [
+        "Sésamo"
+      ]
+    },
+    {
+      "entity_id": "food.nut-seed.edible-seeds.sesame",
+      "language": "es",
+      "region": "es",
+      "preferred": "Sésamo",
+      "aliases": [
+        "Ajonjolí"
+      ]
+    },
+    {
+      "entity_id": "food.nut-seed.edible-seeds.sunflower-seed",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Semilla de Girasol",
+      "aliases": [
+        "Pipa de Girasol"
+      ]
+    },
+    {
+      "entity_id": "food.nut-seed.edible-seeds.sunflower-seed",
+      "language": "es",
+      "region": "es",
+      "preferred": "Pipa de Girasol",
+      "aliases": [
+        "Semilla de Girasol"
+      ],
+      "notes": "Common everyday term in Spain, especially the roasted/salted snack form."
+    },
+    {
+      "entity_id": "food.nut-seed.tree-nuts.walnut",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Nuez",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Hierbas y Especias",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.fresh-herbs",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Hierbas Frescas",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.dried-herbs",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Hierbas Secas",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.whole-spices",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Especias Enteras",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.ground-blended-spices",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Especias Molidas y Mezclas",
+      "aliases": [
+        "Especias Molidas y Combinadas"
+      ]
+    },
+    {
+      "entity_id": "food.herb.fresh-herbs.basil",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Albahaca",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.dried-herbs.bay-leaf",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Laurel",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.whole-spices.black-pepper",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pimienta Negra",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.ground-blended-spices.chili-powder",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Chile en Polvo",
+      "aliases": [
+        "Chili en Polvo"
+      ]
+    },
+    {
+      "entity_id": "food.herb.fresh-herbs.cilantro",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cilantro",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.whole-spices.cinnamon",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Canela",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.whole-spices.clove",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Clavo de Olor",
+      "aliases": [
+        "Clavo"
+      ]
+    },
+    {
+      "entity_id": "food.herb.whole-spices.coriander-seed",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Semilla de Cilantro",
+      "aliases": [
+        "Cilantro en Grano"
+      ]
+    },
+    {
+      "entity_id": "food.herb.whole-spices.cumin-seed",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Comino",
+      "aliases": [
+        "Semilla de Comino"
+      ]
+    },
+    {
+      "entity_id": "food.herb.whole-spices.ginger",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Jengibre",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.dried-herbs.indian-bay-leaf",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Hoja de Laurel Indio",
+      "aliases": [
+        "Tej Patta"
+      ],
+      "notes": "Distinct plant (Cinnamomum tamala) from the European bay leaf; name kept descriptive rather than conflated with 'Laurel'."
+    },
+    {
+      "entity_id": "food.herb.ground-blended-spices.kashmiri-chili",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Chile Kashmiri",
+      "aliases": [
+        "Chile Cachemira"
+      ]
+    },
+    {
+      "entity_id": "food.herb.dried-herbs.mexican-oregano",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Orégano Mexicano",
+      "aliases": [],
+      "notes": "Botanically distinct from Mediterranean oregano (Lippia graveolens vs Origanum vulgare); the qualifying name is already the correct Spanish term, not a regionalization of a neutral term."
+    },
+    {
+      "entity_id": "food.herb.fresh-herbs.mint",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Menta",
+      "aliases": [
+        "Hierbabuena"
+      ]
+    },
+    {
+      "entity_id": "food.herb.fresh-herbs.mint",
+      "language": "es",
+      "region": "es",
+      "preferred": "Hierbabuena",
+      "aliases": [
+        "Menta"
+      ],
+      "notes": "Everyday culinary term in Spain (e.g. té con hierbabuena, mint used with lamb); 'menta' skews toward the flavor/candy sense."
+    },
+    {
+      "entity_id": "food.herb.whole-spices.nutmeg",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Nuez Moscada",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.dried-herbs.oregano",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Orégano",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.ground-blended-spices.paprika",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pimentón",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.fresh-herbs.parsley",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Perejil",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.dried-herbs.rosemary",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Romero",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.dried-herbs.thyme",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Tomillo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.ground-blended-spices.turmeric",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cúrcuma",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.herb.whole-spices.vanilla-bean",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Vaina de Vainilla",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sweet-flavor",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Sabores Dulces",
+      "aliases": [
+        "Endulzantes"
+      ]
+    },
+    {
+      "entity_id": "food.sweet-flavor.sugars",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Azúcares",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sweet-flavor.syrups",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Jarabes",
+      "aliases": [
+        "Siropes"
+      ]
+    },
+    {
+      "entity_id": "food.sweet-flavor.honey-bee-products",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Miel y Productos de la Abeja",
+      "aliases": [
+        "Miel y Derivados de Abeja"
+      ]
+    },
+    {
+      "entity_id": "food.sweet-flavor.natural-sweeteners",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Endulzantes Naturales",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sweet-flavor.alternative-sweeteners",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Endulzantes Alternativos",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sweet-flavor.cocoa-chocolate-ingredients",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Ingredientes de Cacao y Chocolate",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sweet-flavor.natural-sweeteners.agave",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Néctar de Agave",
+      "aliases": [
+        "Jarabe de Agave",
+        "Miel de Agave"
+      ]
+    },
+    {
+      "entity_id": "food.sweet-flavor.syrups.blackstrap-molasses",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Melaza Negra",
+      "aliases": [
+        "Melaza de Caña Oscura"
+      ]
+    },
+    {
+      "entity_id": "food.sweet-flavor.sugars.brown-sugar",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Azúcar Morena",
+      "aliases": [
+        "Azúcar Negra"
+      ]
+    },
+    {
+      "entity_id": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-bean",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Grano de Cacao",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sweet-flavor.sugars.cane-sugar",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Azúcar de Caña",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sweet-flavor.cocoa-chocolate-ingredients.chocolate-liquor",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Licor de Cacao",
+      "aliases": [
+        "Pasta de Cacao"
+      ],
+      "notes": "Not an alcoholic beverage — 'licor' here is the traditional (if confusing) technical term for the fluid roasted-cacao mass; 'Pasta de Cacao' is offered as a clearer alias."
+    },
+    {
+      "entity_id": "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-butter",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Manteca de Cacao",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-powder",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cacao en Polvo",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sweet-flavor.natural-sweeteners.coconut-sugar",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Azúcar de Coco",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sweet-flavor.syrups.corn-syrup",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Jarabe de Maíz",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sweet-flavor.syrups.corn-syrup",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Miel de Maíz",
+      "aliases": [
+        "Jarabe de Maíz"
+      ],
+      "notes": "Common everyday term in Mexico despite containing no honey."
+    },
+    {
+      "entity_id": "food.sweet-flavor.honey-bee-products.honey",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Miel",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sweet-flavor.syrups.maple-syrup",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Jarabe de Arce",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sweet-flavor.syrups.maple-syrup",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Miel de Maple",
+      "aliases": [
+        "Jarabe de Arce"
+      ]
+    },
+    {
+      "entity_id": "food.sweet-flavor.syrups.molasses",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Melaza",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sweet-flavor.sugars.panela",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Panela",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sweet-flavor.sugars.piloncillo",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Piloncillo",
+      "aliases": [],
+      "notes": "Mexican unrefined cane sugar cone; kept distinct from the catalog's separate 'panela' entity, which is the pan-Latin-American term for a related but separately-cataloged product."
+    },
+    {
+      "entity_id": "food.sweet-flavor.sugars.raw-sugar",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Azúcar Cruda",
+      "aliases": [
+        "Azúcar Sin Refinar"
+      ]
+    },
+    {
+      "entity_id": "food.sweet-flavor.sugars.rock-sugar",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Azúcar de Roca",
+      "aliases": [
+        "Azúcar Cande"
+      ]
+    },
+    {
+      "entity_id": "food.sweet-flavor.alternative-sweeteners.stevia",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Stevia",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Salsas y Condimentos",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.mother-sauces",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Salsas Madre",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.table-sauces",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Salsas de Mesa",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.condiments",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Condimentos",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.fermented-sauces-pastes",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Salsas y Pastas Fermentadas",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.oil-based-sauces-dressings",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Salsas y Aderezos a Base de Aceite",
+      "aliases": [
+        "Aliños a Base de Aceite"
+      ]
+    },
+    {
+      "entity_id": "food.sauce-condiment.savory-spreads-pastes",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Untables y Pastas Saladas",
+      "aliases": [
+        "Untables Salados"
+      ]
+    },
+    {
+      "entity_id": "food.sauce-condiment.oil-based-sauces-dressings.aioli",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Alioli",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.condiments.almond-extract",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Extracto de Almendra",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.table-sauces.apple-sauce",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Puré de Manzana",
+      "aliases": [],
+      "notes": "Standard Spanish term; not 'salsa de manzana', which reads as a savory sauce rather than the smooth cooked-apple preparation."
+    },
+    {
+      "entity_id": "food.sauce-condiment.table-sauces.barbecue-sauce",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Salsa Barbacoa",
+      "aliases": [
+        "Salsa BBQ"
+      ]
+    },
+    {
+      "entity_id": "food.sauce-condiment.condiments.capers",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Alcaparras",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.condiments.cornichons",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pepinillos",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.table-sauces.cranberry-sauce",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Salsa de Arándano Rojo",
+      "aliases": [],
+      "notes": "Qualified as 'rojo' to distinguish from arándano azul (blueberry)."
+    },
+    {
+      "entity_id": "food.sauce-condiment.condiments.dijon-mustard",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Mostaza de Dijon",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.condiments.english-mustard",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Mostaza Inglesa",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.fermented-sauces-pastes.fish-sauce",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Salsa de Pescado",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.table-sauces.hot-sauce",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Salsa Picante",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.mother-sauces.mayonnaise",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Mayonesa",
+      "aliases": [
+        "Mahonesa"
+      ],
+      "notes": "'Mahonesa' is the historically original Spanish spelling (from Mahón, Menorca) and remains a recognized formal alias in Spain, though 'Mayonesa' is now the standard everyday term everywhere."
+    },
+    {
+      "entity_id": "food.sauce-condiment.table-sauces.mole-sauce",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Mole",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.condiments.orange-blossom-water",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Agua de Azahar",
+      "aliases": [],
+      "notes": "Established Spanish culinary term, not a literal translation of 'orange blossom'."
+    },
+    {
+      "entity_id": "food.sauce-condiment.condiments.prepared-horseradish",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Rábano Picante Preparado",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.oil-based-sauces-dressings.romesco-sauce",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Salsa Romesco",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.condiments.rose-water",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Agua de Rosas",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.fermented-sauces-pastes.soy-sauce",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Salsa de Soya",
+      "aliases": [
+        "Salsa de Soja"
+      ]
+    },
+    {
+      "entity_id": "food.sauce-condiment.fermented-sauces-pastes.soy-sauce",
+      "language": "es",
+      "region": "es",
+      "preferred": "Salsa de Soja",
+      "aliases": [
+        "Salsa de Soya"
+      ]
+    },
+    {
+      "entity_id": "food.sauce-condiment.table-sauces.tomato-ketchup",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Kétchup",
+      "aliases": [
+        "Catsup"
+      ]
+    },
+    {
+      "entity_id": "food.sauce-condiment.table-sauces.tomato-ketchup",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Catsup",
+      "aliases": [
+        "Kétchup"
+      ]
+    },
+    {
+      "entity_id": "food.sauce-condiment.condiments.vanilla-extract",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Extracto de Vainilla",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.oil-based-sauces-dressings.vinaigrette",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Vinagreta",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.condiments.whole-grain-mustard",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Mostaza en Grano",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.sauce-condiment.table-sauces.worcestershire-sauce",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Salsa Inglesa",
+      "aliases": [
+        "Salsa Worcestershire"
+      ],
+      "notes": "'Salsa Inglesa' is the established everyday term across the Spanish-speaking world, not a literal translation."
+    },
+    {
+      "entity_id": "food.sauce-condiment.condiments.yellow-mustard",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Mostaza Amarilla",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fungi",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Hongos",
+      "aliases": [
+        "Setas"
+      ],
+      "notes": "\"Hongos\" is the broadest, most universally understood neutral term across the Spanish-speaking world."
+    },
+    {
+      "entity_id": "food.fungi",
+      "language": "es",
+      "region": "es",
+      "preferred": "Setas",
+      "aliases": [
+        "Hongos"
+      ],
+      "notes": "In Spain, \"setas\" is the standard culinary term for edible mushrooms; \"hongos\" reads as more technical/mycological and can carry a mold connotation. Reversed preference from neutral, not a new fact."
+    },
+    {
+      "entity_id": "food.fungi.truffles.black-truffle",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Trufa Negra",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fungi.cultivated-mushrooms.button-mushroom",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Champiñón",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fungi.wild-mushrooms.chanterelle",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Rebozuelo",
+      "aliases": [
+        "Cantarela"
+      ]
+    },
+    {
+      "entity_id": "food.fungi.cultivated-mushrooms.cremini",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cremini",
+      "aliases": [
+        "Champiñón Marrón"
+      ]
+    },
+    {
+      "entity_id": "food.fungi.cultivated-mushrooms.cremini",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Champiñón Café",
+      "aliases": [
+        "Cremini"
+      ]
+    },
+    {
+      "entity_id": "food.fungi.cultivated-mushrooms.enoki",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Enoki",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fungi.cultivated-mushrooms.king-oyster",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Seta de Cardo",
+      "aliases": [],
+      "notes": "Established Spanish common name for Pleurotus eryngii, not a literal translation of 'king oyster'."
+    },
+    {
+      "entity_id": "food.fungi.specialty-fungi.lions-mane",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Melena de León",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fungi.cultivated-mushrooms.maitake",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Maitake",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fungi.wild-mushrooms.morel",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Colmenilla",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fungi.cultivated-mushrooms.oyster-mushroom",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Seta de Ostra",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fungi.wild-mushrooms.porcini",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Porcini",
+      "aliases": [
+        "Boletus"
+      ]
+    },
+    {
+      "entity_id": "food.fungi.wild-mushrooms.porcini",
+      "language": "es",
+      "region": "es",
+      "preferred": "Boletus",
+      "aliases": [
+        "Porcini"
+      ],
+      "notes": "The everyday market/menu term in Spain for Boletus edulis."
+    },
+    {
+      "entity_id": "food.fungi.cultivated-mushrooms.portobello",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Portobello",
+      "aliases": [
+        "Champiñón Portobello"
+      ]
+    },
+    {
+      "entity_id": "food.fungi.cultivated-mushrooms.shiitake",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Shiitake",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fungi.truffles.summer-truffle",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Trufa de Verano",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fungi.truffles.white-truffle",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Trufa Blanca",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fungi.specialty-fungi.wood-ear",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Oreja de Judas",
+      "aliases": [
+        "Hongo Oreja",
+        "Hongo Negro Chino"
+      ]
+    },
+    {
+      "entity_id": "food.fungi.cultivated-mushrooms",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Hongos Cultivados",
+      "aliases": [
+        "Setas Cultivadas"
+      ]
+    },
+    {
+      "entity_id": "food.fungi.cultivated-mushrooms",
+      "language": "es",
+      "region": "es",
+      "preferred": "Setas Cultivadas",
+      "aliases": [
+        "Hongos Cultivados"
+      ]
+    },
+    {
+      "entity_id": "food.fungi.wild-mushrooms",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Hongos Silvestres",
+      "aliases": [
+        "Setas Silvestres"
+      ]
+    },
+    {
+      "entity_id": "food.fungi.wild-mushrooms",
+      "language": "es",
+      "region": "es",
+      "preferred": "Setas Silvestres",
+      "aliases": [
+        "Hongos Silvestres"
+      ]
+    },
+    {
+      "entity_id": "food.fungi.truffles",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Trufas",
+      "aliases": []
+    },
+    {
+      "entity_id": "food.fungi.specialty-fungi",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Hongos Especiales",
+      "aliases": [
+        "Setas Especiales"
+      ]
+    },
+    {
+      "entity_id": "brettanomyces",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Brettanomyces",
+      "aliases": [
+        "Bret"
+      ]
+    },
+    {
+      "entity_id": "cork-taint",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Sabor a Corcho",
+      "aliases": [
+        "TCA"
+      ]
+    },
+    {
+      "entity_id": "oxidation",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Oxidación",
+      "aliases": []
+    },
+    {
+      "entity_id": "reduction",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Reducción",
+      "aliases": []
+    },
+    {
+      "entity_id": "volatile-acidity",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Acidez Volátil",
+      "aliases": []
+    },
+    {
+      "entity_id": "sulfur-dioxide-excess",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Exceso de Sulfuroso",
+      "aliases": [
+        "Exceso de Dióxido de Azufre"
+      ]
+    },
+    {
+      "entity_id": "hydrogen-sulfide",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Sulfuro de Hidrógeno",
+      "aliases": [
+        "Ácido Sulfhídrico"
+      ]
+    },
+    {
+      "entity_id": "heat-damage",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Daño por Calor",
+      "aliases": [
+        "Cocción"
+      ]
+    },
+    {
+      "entity_id": "mouse-taint",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Sabor a Ratón",
+      "aliases": []
+    },
+    {
+      "entity_id": "premature-oxidation",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Oxidación Prematura",
+      "aliases": []
+    },
+    {
+      "entity_id": "cloudiness",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Turbidez",
+      "aliases": []
+    },
+    {
+      "entity_id": "bottle-shock",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Shock de Botella",
+      "aliases": [],
+      "notes": "Colloquial term describing a wine's temporarily muted aromatics right after bottling or shipping."
+    },
+    {
+      "entity_id": "smoke-taint",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Contaminación por Humo",
+      "aliases": []
+    },
+    {
+      "entity_id": "ice-cold",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Muy Frío",
+      "aliases": [
+        "Helado"
+      ]
+    },
+    {
+      "entity_id": "chilled",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frío",
+      "aliases": []
+    },
+    {
+      "entity_id": "cool",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Fresco",
+      "aliases": []
+    },
+    {
+      "entity_id": "cellar-temperature",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Temperatura de Bodega",
+      "aliases": []
+    },
+    {
+      "entity_id": "room-temperature",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Temperatura Ambiente",
+      "aliases": []
+    },
+    {
+      "entity_id": "universal-wine-glass",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Copa Universal",
+      "aliases": []
+    },
+    {
+      "entity_id": "bordeaux-glass",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Copa Bordeaux",
+      "aliases": []
+    },
+    {
+      "entity_id": "burgundy-glass",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Copa Borgoña",
+      "aliases": []
+    },
+    {
+      "entity_id": "champagne-flute",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Copa Flauta",
+      "aliases": [
+        "Flauta de Champán"
+      ]
+    },
+    {
+      "entity_id": "coupe",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Copa Coupe",
+      "aliases": [
+        "Copa Ancha"
+      ]
+    },
+    {
+      "entity_id": "no-decanting",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Sin Decantar",
+      "aliases": []
+    },
+    {
+      "entity_id": "splash-decant",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Decantación Rápida",
+      "aliases": []
+    },
+    {
+      "entity_id": "extended-decant",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Decantación Prolongada",
+      "aliases": []
+    },
+    {
+      "entity_id": "drink-now",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Listo para Beber",
+      "aliases": []
+    },
+    {
+      "entity_id": "peak-window",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Ventana de Madurez Óptima",
+      "aliases": []
+    },
+    {
+      "entity_id": "mature",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Maduro",
+      "aliases": []
+    },
+    {
+      "entity_id": "served-too-cold",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Servido Demasiado Frío",
+      "aliases": []
+    },
+    {
+      "entity_id": "served-too-warm",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Servido Demasiado Caliente",
+      "aliases": []
+    },
+    {
+      "entity_id": "wrong-glass",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Copa Incorrecta",
+      "aliases": []
+    },
+    {
+      "entity_id": "alcoholic-fermentation",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Fermentación Alcohólica",
+      "aliases": []
+    },
+    {
+      "entity_id": "malolactic-fermentation",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Fermentación Maloláctica",
+      "aliases": []
+    },
+    {
+      "entity_id": "carbonic-maceration",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Maceración Carbónica",
+      "aliases": []
+    },
+    {
+      "entity_id": "maceration",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Maceración",
+      "aliases": []
+    },
+    {
+      "entity_id": "skin-contact",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Contacto con Hollejos",
+      "aliases": [
+        "Maceración con Piel"
+      ]
+    },
+    {
+      "entity_id": "lees-aging",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Crianza sobre Lías",
+      "aliases": []
+    },
+    {
+      "entity_id": "batonnage",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Batonnage",
+      "aliases": [
+        "Removido de Lías"
+      ]
+    },
+    {
+      "entity_id": "barrel-aging",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Crianza en Barrica",
+      "aliases": []
+    },
+    {
+      "entity_id": "new-french-oak",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Roble Francés Nuevo",
+      "aliases": []
+    },
+    {
+      "entity_id": "new-american-oak",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Roble Americano Nuevo",
+      "aliases": []
+    },
+    {
+      "entity_id": "traditional-method",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Método Tradicional",
+      "aliases": [
+        "Método Champenoise"
+      ]
+    },
+    {
+      "entity_id": "charmant-method",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Método Charmat",
+      "aliases": []
+    },
+    {
+      "entity_id": "fortification",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Fortificación",
+      "aliases": []
+    },
+    {
+      "entity_id": "fortification",
+      "language": "es",
+      "region": "es",
+      "preferred": "Encabezado",
+      "aliases": [
+        "Fortificación"
+      ],
+      "notes": "Traditional Jerez (Sherry) industry term for fortification with grape spirit."
+    },
+    {
+      "entity_id": "solera-system",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Sistema de Solera",
+      "aliases": [],
+      "notes": "Traditional Sherry/Jerez aging system; the Spanish term is the internationally adopted name, not a translation."
+    },
+    {
+      "entity_id": "fining",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Clarificación",
+      "aliases": []
+    },
+    {
+      "entity_id": "filtration",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Filtración",
+      "aliases": []
+    },
+    {
+      "entity_id": "late-harvest",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Vendimia Tardía",
+      "aliases": []
+    },
+    {
+      "entity_id": "noble-rot-production",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Podredumbre Noble",
+      "aliases": []
+    },
+    {
+      "entity_id": "blending",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Ensamblaje",
+      "aliases": [
+        "Coupage",
+        "Mezcla"
+      ]
+    },
+    {
+      "entity_id": "riddling",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Removido",
+      "aliases": [
+        "Remuage"
+      ]
+    },
+    {
+      "entity_id": "disgorgement",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Degüelle",
+      "aliases": []
+    },
+    {
+      "entity_id": "flower",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Flor",
+      "aliases": []
+    },
+    {
+      "entity_id": "herb",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Hierba",
+      "aliases": []
+    },
+    {
+      "entity_id": "oak",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Roble",
+      "aliases": []
+    },
+    {
+      "entity_id": "fruit",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Fruta",
+      "aliases": []
+    },
+    {
+      "entity_id": "spice",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Especia",
+      "aliases": []
+    },
+    {
+      "entity_id": "alcohol",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Alcohol",
+      "aliases": []
+    },
+    {
+      "entity_id": "acidity",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Acidez",
+      "aliases": []
+    },
+    {
+      "entity_id": "tannin",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Tanino",
+      "aliases": []
+    },
+    {
+      "entity_id": "yeast",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Levadura",
+      "aliases": []
+    },
+    {
+      "entity_id": "body",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cuerpo",
+      "aliases": []
+    },
+    {
+      "entity_id": "minerality",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Mineralidad",
+      "aliases": []
+    },
+    {
+      "entity_id": "graphite",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Grafito",
+      "aliases": []
+    },
+    {
+      "entity_id": "petrichor",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Petricor",
+      "aliases": []
+    },
+    {
+      "entity_id": "violet",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Violeta",
+      "aliases": []
+    },
+    {
+      "entity_id": "lavender",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Lavanda",
+      "aliases": []
+    },
+    {
+      "entity_id": "smoky",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Ahumado",
+      "aliases": []
+    },
+    {
+      "entity_id": "charcoal",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Carbón",
+      "aliases": []
+    },
+    {
+      "entity_id": "toasty",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Tostado",
+      "aliases": []
+    },
+    {
+      "entity_id": "nutty",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "A Frutos Secos",
+      "aliases": []
+    },
+    {
+      "entity_id": "coconut",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Coco",
+      "aliases": []
+    },
+    {
+      "entity_id": "caramel",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Caramelo",
+      "aliases": []
+    },
+    {
+      "entity_id": "vanilla",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Vainilla",
+      "aliases": []
+    },
+    {
+      "entity_id": "buttery",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Mantecoso",
+      "aliases": []
+    },
+    {
+      "entity_id": "creamy",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cremoso",
+      "aliases": []
+    },
+    {
+      "entity_id": "spicy",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Especiado",
+      "aliases": []
+    },
+    {
+      "entity_id": "black-pepper",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pimienta Negra",
+      "aliases": []
+    },
+    {
+      "entity_id": "anise",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Anís",
+      "aliases": []
+    },
+    {
+      "entity_id": "clove",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Clavo",
+      "aliases": []
+    },
+    {
+      "entity_id": "cinnamon",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Canela",
+      "aliases": []
+    },
+    {
+      "entity_id": "nutmeg",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Nuez Moscada",
+      "aliases": []
+    },
+    {
+      "entity_id": "saffron",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Azafrán",
+      "aliases": []
+    },
+    {
+      "entity_id": "ginger",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Jengibre",
+      "aliases": []
+    },
+    {
+      "entity_id": "barnyard",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "A Establo",
+      "aliases": [],
+      "notes": "Classic Brettanomyces-associated tasting note; established idiomatic Spanish enology phrase, not a literal translation."
+    },
+    {
+      "entity_id": "earthy",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Terroso",
+      "aliases": []
+    },
+    {
+      "entity_id": "elegant",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Elegante",
+      "aliases": []
+    },
+    {
+      "entity_id": "complex",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Complejo",
+      "aliases": []
+    },
+    {
+      "entity_id": "fruit-ripeness",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Madurez de la Fruta",
+      "aliases": []
+    },
+    {
+      "entity_id": "red-fruit",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Fruta Roja",
+      "aliases": []
+    },
+    {
+      "entity_id": "strawberry",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Fresa",
+      "aliases": []
+    },
+    {
+      "entity_id": "raspberry",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Frambuesa",
+      "aliases": []
+    },
+    {
+      "entity_id": "cherry",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cereza",
+      "aliases": []
+    },
+    {
+      "entity_id": "blueberry",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Arándano Azul",
+      "aliases": []
+    },
+    {
+      "entity_id": "blackberry",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Mora",
+      "aliases": []
+    },
+    {
+      "entity_id": "black-fruit",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Fruta Negra",
+      "aliases": []
+    },
+    {
+      "entity_id": "cassis",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Casis",
+      "aliases": [
+        "Grosella Negra"
+      ]
+    },
+    {
+      "entity_id": "berry",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Baya",
+      "aliases": [
+        "Frutos del Bosque"
+      ]
+    },
+    {
+      "entity_id": "citrus",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cítrico",
+      "aliases": []
+    },
+    {
+      "entity_id": "lime",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Lima",
+      "aliases": []
+    },
+    {
+      "entity_id": "lemon",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Limón",
+      "aliases": []
+    },
+    {
+      "entity_id": "orange",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Naranja",
+      "aliases": []
+    },
+    {
+      "entity_id": "grapefruit",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Pomelo",
+      "aliases": [
+        "Toronja"
+      ]
+    },
+    {
+      "entity_id": "grapefruit",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Toronja",
+      "aliases": [
+        "Pomelo"
+      ]
+    },
+    {
+      "entity_id": "stone-fruit",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Fruta de Hueso",
+      "aliases": []
+    },
+    {
+      "entity_id": "apricot",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Albaricoque",
+      "aliases": [
+        "Chabacano"
+      ]
+    },
+    {
+      "entity_id": "apricot",
+      "language": "es",
+      "region": "mx",
+      "preferred": "Chabacano",
+      "aliases": [
+        "Albaricoque"
+      ]
+    },
+    {
+      "entity_id": "nectarine",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Nectarina",
+      "aliases": []
+    },
+    {
+      "entity_id": "peach",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Durazno",
+      "aliases": [
+        "Melocotón"
+      ]
+    },
+    {
+      "entity_id": "peach",
+      "language": "es",
+      "region": "es",
+      "preferred": "Melocotón",
+      "aliases": [
+        "Durazno"
+      ]
+    },
+    {
+      "entity_id": "tropical-fruit",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Fruta Tropical",
+      "aliases": []
+    },
+    {
+      "entity_id": "banana",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Plátano",
+      "aliases": []
+    },
+    {
+      "entity_id": "pineapple",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Piña",
+      "aliases": []
+    },
+    {
+      "entity_id": "lychee",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Lichi",
+      "aliases": []
+    },
+    {
+      "entity_id": "melon",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Melón",
+      "aliases": []
+    },
+    {
+      "entity_id": "apple",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Manzana",
+      "aliases": []
+    },
+    {
+      "entity_id": "light-bodied",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Ligero de Cuerpo",
+      "aliases": []
+    },
+    {
+      "entity_id": "full-bodied",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Con Cuerpo",
+      "aliases": [
+        "Corpulento"
+      ]
+    },
+    {
+      "entity_id": "astringent",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Astringente",
+      "aliases": []
+    },
+    {
+      "entity_id": "crisp",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Fresco",
+      "aliases": [
+        "Vivo"
+      ]
+    },
+    {
+      "entity_id": "leathery",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "A Cuero",
+      "aliases": []
+    },
+    {
+      "entity_id": "structured",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Estructurado",
+      "aliases": []
+    },
+    {
+      "entity_id": "silky",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Sedoso",
+      "aliases": []
+    },
+    {
+      "entity_id": "round",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Redondo",
+      "aliases": []
+    },
+    {
+      "entity_id": "velvety",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Aterciopelado",
+      "aliases": []
+    },
+    {
+      "entity_id": "tannic",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Tánico",
+      "aliases": []
+    },
+    {
+      "entity_id": "floral",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Floral",
+      "aliases": []
+    },
+    {
+      "entity_id": "tobacco",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Tabaco",
+      "aliases": []
+    },
+    {
+      "entity_id": "cedar",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Cedro",
+      "aliases": []
+    },
+    {
+      "entity_id": "saline",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Salino",
+      "aliases": []
+    },
+    {
+      "entity_id": "balanced",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Equilibrado",
+      "aliases": []
+    },
+    {
+      "entity_id": "toffee",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Toffee",
+      "aliases": []
+    },
+    {
+      "entity_id": "honeyed",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Amielado",
+      "aliases": [
+        "Con Notas de Miel"
+      ]
+    },
+    {
+      "entity_id": "marmalade",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Mermelada",
+      "aliases": []
+    },
+    {
+      "entity_id": "rustic",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Rústico",
+      "aliases": []
+    },
+    {
+      "entity_id": "dry",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Seco",
+      "aliases": []
+    },
+    {
+      "entity_id": "sweet",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Dulce",
+      "aliases": []
+    },
+    {
+      "entity_id": "off-dry",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Semiseco",
+      "aliases": []
+    },
+    {
+      "entity_id": "oxidized",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Oxidado",
+      "aliases": []
+    },
+    {
+      "entity_id": "dirty",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Sucio",
+      "aliases": []
+    },
+    {
+      "entity_id": "long",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Largo",
+      "aliases": []
+    },
+    {
+      "entity_id": "persistent",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "Persistente",
+      "aliases": []
+    }
+  ]
 }
