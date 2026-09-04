@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "phase": "LANG-01",
+    "title": "Spanish Regional Vocabulary — Declarative Schema",
+    "status": "schema_only",
+    "note": "This file establishes the vocabulary data contract only. It intentionally contains zero populated entries — LANG-01 is an architecture/governance phase and must not translate content or invent regional terminology. A future LANG-02+ phase populates `entries` under editorial review; this file's `schema` block is what governs that future population, the same way each data/*-catalog.json's own `schema` block governs its entities today.",
+    "language_registry": "lib/language-config.js",
+    "governance_document": "docs/LANGUAGE_GOVERNANCE.md"
+  },
+  "schema": {
+    "entry_contract": {
+      "description": "One vocabulary entry maps ONE existing, language-neutral ontology entity_id to ONE Spanish regional profile's preferred term and known aliases. An entry never creates a new entity, never redefines entity identity, and never exists for a language other than Spanish (English needs no vocabulary layer — see docs/LANGUAGE_GOVERNANCE.md §7).",
+      "required_fields": ["entity_id", "language", "region", "preferred", "aliases"],
+      "optional_fields": ["notes"],
+      "field_contracts": {
+        "entity_id": {
+          "type": "string",
+          "description": "MUST reference an existing, unmodified canonical entity id from an existing data/*-catalog.json (e.g. food.fruit.tropical-fruits.avocado). A vocabulary entry MUST NOT be the source of a new entity id — it is a projection onto an id that already exists in the language-neutral ontology.",
+          "example": "food.fruit.tropical-fruits.avocado"
+        },
+        "language": {
+          "type": "string",
+          "enum": ["es"],
+          "description": "MUST be \"es\". This schema exists for Spanish regional vocabulary specifically; a future additional language would get its own schema file and registry entry, not a value in this enum."
+        },
+        "region": {
+          "type": "string",
+          "enum": ["neutral", "mx", "es", "cl", "ca"],
+          "description": "MUST be one of the five registered regional profile ids in lib/language-config.js. \"ca\" denotes the Central America vocabulary profile — never Canada, never an ISO 3166 code, never a distinct publication."
+        },
+        "preferred": {
+          "type": "string",
+          "description": "The term that SHOULD normally appear in generated Spanish copy for this entity, in this regional profile. Exactly one preferred term per (entity_id, language, region) triple — never a list."
+        },
+        "aliases": {
+          "type": "array",
+          "items": "string",
+          "description": "Recognized alternative terms for the same entity in this regional profile. Aliases exist for recognition, search terminology, vocabulary resolution, entity matching, and future localization/search features — they are NOT candidates for automatic promotion into rendered copy. An alias array MAY be empty; it is never required to be non-empty.",
+          "default": []
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional terminology note — e.g. why a regional term was chosen, a register/formality distinction, a disambiguation from a false-friend term. Editorial metadata only; never rendered directly as-is without review."
+        }
+      },
+      "uniqueness_contract": "At most one entry per (entity_id, language, region) triple. Multiple entries for the same entity_id across different regions are expected and normal — that is the whole point of the regional layer.",
+      "fallback_contract": "A missing entry for (entity_id, es, <region>) is not an error — see docs/LANGUAGE_GOVERNANCE.md §10. Resolution falls back to (entity_id, es, neutral), then to the entity's approved language-neutral fallback (its existing English display_name, never a fabricated Spanish term). Most entities are expected to need zero regional overrides and rely entirely on this fallback."
+    },
+    "example_shape_for_illustration_only": {
+      "note": "Illustrates the intended shape. This is NOT a populated entry and MUST NOT be treated as real vocabulary data — see meta.status above.",
+      "entity_id": "food.fruit.tropical-fruits.avocado",
+      "language": "es",
+      "region": "neutral",
+      "preferred": "EXAMPLE_ONLY_NOT_POPULATED",
+      "aliases": [],
+      "notes": "Illustrative only — LANG-01 does not populate real Spanish terminology."
+    }
+  },
+  "entries": []
+}

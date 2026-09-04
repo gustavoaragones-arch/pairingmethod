@@ -1,0 +1,169 @@
+{
+  "phase": "LANG-01A",
+  "title": "Language & Regional Vocabulary Governance Verification (Hardened)",
+  "total_checks": 15,
+  "passed": 15,
+  "failed": 0,
+  "checks": [
+    {
+      "id": "V1_english_default",
+      "description": "English remains the default publication.",
+      "pass": true,
+      "evidence": {
+        "defaultLanguageId": "en"
+      }
+    },
+    {
+      "id": "V2_spanish_registered",
+      "description": "Spanish is registered as a supported language.",
+      "pass": true,
+      "evidence": {
+        "registeredLanguageIds": [
+          "en",
+          "es"
+        ]
+      }
+    },
+    {
+      "id": "V3_exactly_one_spanish_publication_definition",
+      "description": "Exactly one Spanish publication DEFINITION exists in the registry (urlPrefix \"/es\") and it is currently UNPUBLISHED — this check certifies the registry's declared state, not generated output (V12/V13 certify output separately).",
+      "pass": true,
+      "evidence": {
+        "esUrlPrefix": "/es",
+        "esPublished": false,
+        "noSiblingCountryEntries": true
+      }
+    },
+    {
+      "id": "V4_five_regional_profiles",
+      "description": "Exactly five Spanish vocabulary profiles exist: neutral, mx, es, cl, ca.",
+      "pass": true,
+      "evidence": {
+        "profiles": [
+          "ca",
+          "cl",
+          "es",
+          "mx",
+          "neutral"
+        ]
+      }
+    },
+    {
+      "id": "V5_no_country_specific_publication",
+      "description": "No regional profile carries publication-like fields (url prefix, sitemap, canonical, etc.) — profiles are vocabulary metadata only.",
+      "pass": true,
+      "evidence": {
+        "offenders": []
+      }
+    },
+    {
+      "id": "V6_no_spanish_country_url_namespace",
+      "description": "No /es-XX/ country-specific URL namespace directory exists anywhere in the repository tree (recursive scan, not limited to top level).",
+      "pass": true,
+      "evidence": {
+        "offenders": [],
+        "directoriesScanned": 2834,
+        "excludedDirectories": [
+          ".git"
+        ],
+        "exclusionJustification": ".git is VCS storage, not repository content, and cannot hold a publication directory."
+      }
+    },
+    {
+      "id": "V7_entity_identity_language_independent",
+      "description": "Schema contract requires entity_id to reference an existing ontology id (checked now). Populated-entry cross-reference validation is a SEPARATE, deferred concern — LANG-01 is schema-only (entries: []), so there is nothing yet to cross-reference; this PASSES on the schema contract alone and explicitly states population validation is deferred, rather than implying entries were checked.",
+      "pass": true,
+      "evidence": {
+        "schema_contract_valid": true,
+        "entries_count": 0,
+        "population_validation_status": "deferred_schema_only",
+        "population_validation_note": "LANG-02+ MUST validate each populated entry's entity_id against the live catalogs before this check can certify populated data — that validation does not exist yet and this check does not claim it does."
+      }
+    },
+    {
+      "id": "V8_vocabulary_data_driven",
+      "description": "No source file in lib/, scripts/, or assets/js/ hardcodes regional-vocabulary branching — strict/loose equality on region or profile against any of the 5 approved profile ids, switch/case on a profile id, or a hardcoded object literal keyed by all 5 profile ids (a de-facto vocabulary map in code). lib/language-config.js (the approved registry) and this verification tooling are excluded — see SELF_REFERENTIAL_FILES.",
+      "pass": true,
+      "evidence": {
+        "offenders": [],
+        "filesScanned": 401,
+        "patternsChecked": [
+          "region_strict_equality",
+          "region_loose_equality",
+          "profile_strict_equality",
+          "profile_loose_equality",
+          "switch_case_on_profile_id",
+          "hardcoded_five_profile_key_map"
+        ]
+      }
+    },
+    {
+      "id": "V9_preferred_vs_alias_distinct",
+      "description": "Preferred term (single string) and aliases (array) are declared as distinct field types in the schema.",
+      "pass": true,
+      "evidence": {
+        "preferredType": "string",
+        "aliasesType": "array"
+      }
+    },
+    {
+      "id": "V10_fallback_resolves_to_neutral",
+      "description": "The regional fallback chain's root profile is \"neutral\".",
+      "pass": true,
+      "evidence": {
+        "fallbackRootProfileId": "neutral"
+      }
+    },
+    {
+      "id": "V11_pairing_engine_language_neutral",
+      "description": "The pairing engine (pairing-engine.js, pairing-data.js, engine.js, matrix-view.js) contains no Spanish localization strings used as machine values, no language-selection branching (language/lang/locale compared against \"es\"), and no regional-profile branching (the same structural patterns V8 checks for application code generally, applied specifically here). The Spanish-word check is one additional signal, not the sole mechanism.",
+      "pass": true,
+      "evidence": {
+        "filesChecked": 4,
+        "offenders": []
+      }
+    },
+    {
+      "id": "V12_no_spanish_pages_generated",
+      "description": "No /es/ directory exists in the published output.",
+      "pass": true,
+      "evidence": {
+        "esDirectoryExists": false
+      }
+    },
+    {
+      "id": "V13_no_spanish_sitemap_urls",
+      "description": "sitemap.xml contains no /es/ URLs and no sitemap-es reference.",
+      "pass": true,
+      "evidence": {
+        "sitemapChecked": "/Users/gus/Documents/APPS/pairingmethod/sitemap.xml",
+        "hasEsUrls": false
+      }
+    },
+    {
+      "id": "V14_english_sole_default_and_sole_published",
+      "description": "REGISTRY-LEVEL check only: English is the default language, English is published, Spanish is not published, and no other language is published — i.e. listPublishedLanguageIds() === [\"en\"]. This does NOT itself prove English publication files are unchanged on disk; that evidence comes from `git status`/`git diff`, reported separately by the calling script.",
+      "pass": true,
+      "evidence": {
+        "defaultLanguageId": "en",
+        "publishedLanguageIds": [
+          "en"
+        ],
+        "englishIsDefault": true,
+        "englishIsPublished": true,
+        "spanishIsNotPublished": true,
+        "noOtherLanguagePublished": true
+      }
+    },
+    {
+      "id": "V16_configuration_deterministic",
+      "description": "lib/language-config.js contains no non-deterministic construct.",
+      "pass": true,
+      "evidence": {
+        "nonDeterministicConstructFound": false
+      }
+    }
+  ],
+  "note": "This module performs registry-, schema-, and repository-tree-level checks only. It has no git dependency by design (matching lib/schema-audit and lib/search-audit's established pattern). Two categories of evidence it explicitly does NOT itself provide — (a) that existing English publication files, sitemap.xml, and ontology/runtime/editorial/wine data are byte-unchanged, and (b) that no populated vocabulary entry (there are currently none) resolves to a nonexistent catalog entity — are provided by the calling script via `git status`/`git diff` and by V7's explicit population-validation-deferred status respectively.",
+  "overall_certification": "PASS"
+}
