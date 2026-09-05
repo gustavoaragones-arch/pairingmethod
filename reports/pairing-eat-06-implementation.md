@@ -81,4 +81,42 @@ Renderer hash: `2f9e60ef217963a02f14caf8b601e056962c349eb45c3999d8f61c5c20ed7f48
 
 Verifier deterministic across two consecutive runs: **PASS**
 
-Audit mode: LOCAL AUDIT ONLY — PRODUCTION NOT TESTED
+## LOCAL IMPLEMENTATION: PASS
+
+- Implementation commit: `fbf9323ca4f5cc54d82a0643f25e57ce1b8a7194`
+- Message: `PAIRING-EAT-06 — Enrich fungi pages with relationship-derived wine explanations`
+- Pushed to `origin/main`: yes
+- `HEAD == origin/main`: yes
+- Local verifier: **25/25 PASS**
+- Fungi URLs / HTML / Why sections / unique explanations: **43/43**
+
+Historical local verification evidence remains in `reports/pairing-eat-06-verification.json` (`verification` block, audit mode LOCAL AUDIT ONLY).
+
+## PRODUCTION: PASS
+
+- Production verification timestamp: **2026-09-05T02:56:29.867Z**
+- Deployed SHA: `fbf9323ca4f5cc54d82a0643f25e57ce1b8a7194`
+- Pushed SHA: `fbf9323ca4f5cc54d82a0643f25e57ce1b8a7194`
+- Deployed == pushed: **yes** (all 43 fungi pages byte-match committed HTML after Cloudflare Pages auto-deploy)
+
+| Check | Result |
+|---|---|
+| HTTP 200 (43 fungi URLs) | 43/43 |
+| Why These Wines Work heading | 43/43 |
+| Relationship-derived paragraphs (`data-source`, `data-target`, `data-relationship`) | 43/43 |
+| Canonical integrity | 43/43 |
+| Unique explanations (local commit) | 43/43 |
+| Sitemap unchanged | PASS (43 fungi URLs, no adds/removes) |
+| Redirects unchanged at commit | PASS |
+| Protected paths / pairing engine | PASS |
+| Cheese publication withheld | PASS (`/cheeses/` → 404) |
+| Content safety (no first-hand tasting claims) | PASS |
+| Browser QA (1440×900, 390×844; cauliflower-mushroom, porcini, matsutake) | PASS |
+
+Priority production samples verified live:
+
+- `/fungi/cauliflower-mushroom/` — 1 relationship paragraph (Chardonnay / `pairs_with_style`)
+- `/fungi/porcini/` — 3 paragraphs (Nebbiolo, Sangiovese, earthy descriptor)
+- `/fungi/matsutake/` — 3 paragraphs (Riesling, Champagne, herbal descriptor)
+
+Full production evidence: `reports/pairing-eat-06-verification.json` → `production_after`.

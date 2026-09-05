@@ -3409,5 +3409,114 @@
     ],
     "rendererHash": "2f9e60ef217963a02f14caf8b601e056962c349eb45c3999d8f61c5c20ed7f48"
   },
+  "local_implementation": {
+    "status": "PASS",
+    "implementationCommitSha": "fbf9323ca4f5cc54d82a0643f25e57ce1b8a7194",
+    "implementationCommitMessage": "PAIRING-EAT-06 — Enrich fungi pages with relationship-derived wine explanations",
+    "pushedToOriginMain": true,
+    "headEqualsOriginMain": true,
+    "verifier": "25/25 PASS",
+    "fungiUrls": "43/43",
+    "whyTheseWinesWork": "43/43",
+    "uniqueExplanations": "43/43",
+    "note": "Historical local verification block above remains unchanged. This section records post-commit local state only."
+  },
+  "production_after": {
+    "status": "PASS",
+    "verifiedAt": "2026-09-05T02:56:29.867Z",
+    "pushedCommitSha": "fbf9323ca4f5cc54d82a0643f25e57ce1b8a7194",
+    "deployedCommitSha": "fbf9323ca4f5cc54d82a0643f25e57ce1b8a7194",
+    "deployedEqualsPushed": true,
+    "deployEvidence": "Cloudflare Pages GitHub-connected auto-deploy completed after push to origin/main. All 43 production fungi pages byte-match committed fungi/*/index.html (SHA256). Stratified samples: cauliflower-mushroom, porcini, matsutake, shiitake, morel.",
+    "httpResults": {
+      "total": 43,
+      "http200": 43,
+      "homepageFallback": 0,
+      "unexpectedRedirect": 0
+    },
+    "whyTheseWinesWorkCoverage": {
+      "total": 43,
+      "headingPresent": 43,
+      "relationshipParagraphsPresent": 43,
+      "relationshipAttributesPresent": 43
+    },
+    "canonicalResults": {
+      "total": 43,
+      "pass": 43
+    },
+    "relationshipDerivedContent": {
+      "model": "data/runtime/fungi-wine-relationships.json → lib/fungi-wine-pairing-explanation.js → lib/taxonomy-fungi-render.js → fungi leaf pages",
+      "runtimeJsonAltered": false,
+      "relationshipTypesAltered": false,
+      "pairingScoresAltered": false,
+      "pairingEngineAltered": false
+    },
+    "sitemapRegression": {
+      "sitemapXmlUnchanged": true,
+      "fungiSitemapUrlCount": 43,
+      "fungiUrlsAdded": 0,
+      "fungiUrlsRemoved": 0,
+      "fungiUrlsMatchLocal": true
+    },
+    "redirectsRegression": {
+      "localRedirectsUnchangedAtCommit": true,
+      "note": "_redirects is not publicly served (HTTP 404 on direct fetch); regression certified via committed artifact at fbf9323c plus unchanged sitemap/canonical targets."
+    },
+    "protectedSystemsRegression": {
+      "pairingEngineLive": true,
+      "cheesePublicationWithheld": true,
+      "eat01ThroughEat05ArtifactsUnchangedInCommit": true
+    },
+    "contentSafetyScan": {
+      "pagesScanned": 43,
+      "unsupportedExpertiseClaims": [],
+      "genericFallbackLanguage": [],
+      "result": "PASS"
+    },
+    "priorityPages": [
+      {
+        "url": "https://pairingmethod.com/fungi/cauliflower-mushroom/",
+        "status": 200,
+        "canonicalOk": true,
+        "whyHeading": true,
+        "reasonCount": 1,
+        "byteMatchCommit": true
+      },
+      {
+        "url": "https://pairingmethod.com/fungi/porcini/",
+        "status": 200,
+        "canonicalOk": true,
+        "whyHeading": true,
+        "reasonCount": 3,
+        "byteMatchCommit": true
+      },
+      {
+        "url": "https://pairingmethod.com/fungi/matsutake/",
+        "status": 200,
+        "canonicalOk": true,
+        "whyHeading": true,
+        "reasonCount": 3,
+        "byteMatchCommit": true
+      }
+    ],
+    "browserQa": {
+      "engine": "Chrome (Cursor IDE browser MCP)",
+      "viewports": ["1440x900", "390x844"],
+      "pages": [
+        "/fungi/cauliflower-mushroom/",
+        "/fungi/porcini/",
+        "/fungi/matsutake/"
+      ],
+      "whyHeadingVisible": true,
+      "proseReadable": true,
+      "horizontalOverflow": false,
+      "brokenWineLinksInWhySection": 0,
+      "whySectionTermAutoLinkFragmentation": false,
+      "existingCardsIntact": true,
+      "consoleErrorsFromDeployment": [],
+      "result": "PASS"
+    },
+    "overall": "PASS"
+  },
   "deterministic": true
 }
