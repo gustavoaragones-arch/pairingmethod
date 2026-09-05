@@ -601,8 +601,72 @@
     "baselineBugConfirmed": true
   },
   "production_after": {
-    "status": "NOT PERFORMED",
-    "note": "PAIRING-EAT-03 has not been deployed. Per Director instruction, production verification of the fix must occur only after deployment. Do not treat this script's local PASS as a production certification."
+    "status": "PERFORMED",
+    "deployedCommitSha": "2a2095bee76fadb6ac18dc72018a705e19f81bcc",
+    "pushedCommitSha": "2a2095bee76fadb6ac18dc72018a705e19f81bcc",
+    "deployedEqualsPushed": true,
+    "note": "Live HTTP evidence gathered by directly fetching https://pairingmethod.com/ and its routes after Cloudflare Pages' GitHub-connected auto-deploy completed for the pushed commit. Read-only fetches only — no deployment action was performed by this script/session beyond the git push that triggered Cloudflare's own build.",
+    "previously_failing_routes": {
+      "expected": "HTTP 404, not homepage content, for all five",
+      "rows": [
+        { "url": "/definitely-not-a-real-page-9f2c3", "status": 404, "isHomepageContent": false, "title": "Page Not Found — Pairing Method", "result": "PASS" },
+        { "url": "/contact", "status": 404, "isHomepageContent": false, "title": "Page Not Found — Pairing Method", "result": "PASS" },
+        { "url": "/ads.txt", "status": 404, "isHomepageContent": false, "title": "Page Not Found — Pairing Method", "result": "PASS" },
+        { "url": "/es/", "status": 404, "isHomepageContent": false, "title": "Page Not Found — Pairing Method", "result": "PASS" },
+        { "url": "/cheeses/brie-de-meaux/", "status": 404, "isHomepageContent": false, "title": "Page Not Found — Pairing Method", "result": "PASS" }
+      ],
+      "allPass": true
+    },
+    "valid_published_routes": {
+      "expected": "HTTP 200, own content",
+      "rows": [
+        { "url": "/", "status": 200, "title": "Sommelier Wine Pairing Recommendations | Pairing Method", "result": "PASS" },
+        { "url": "/about", "status": 200, "title": "About — Pairing Method", "result": "PASS" },
+        { "url": "/pairings", "status": 200, "title": "Wine Pairing Guides | Pairing Method", "result": "PASS" },
+        { "url": "/nut-seeds/almond/", "status": 200, "title": "Almond — Nut & Seed Guide", "result": "PASS" },
+        { "url": "/styles/riesling/", "status": 200, "title": "Riesling — Wine Style Guide, Profile & Food Pairing | Pairing Method", "result": "PASS" },
+        { "url": "/terms/minerality", "status": 200, "title": "Minerality in Wine — Inorganic Descriptor & Pairing Guide | Pairing Method", "result": "PASS" }
+      ],
+      "allPass": true
+    },
+    "special_endpoints": {
+      "expected": "HTTP 200, endpoint-specific content-type, not homepage HTML",
+      "rows": [
+        { "url": "/robots.txt", "status": 200, "contentType": "text/plain; charset=utf-8", "isHomepageContent": false, "result": "PASS" },
+        { "url": "/sitemap.xml", "status": 200, "contentType": "application/xml", "isHomepageContent": false, "result": "PASS" }
+      ],
+      "allPass": true
+    },
+    "existing_redirects": {
+      "expected": "HTTP 301 to governed target; target resolves 200",
+      "rows": [
+        { "url": "/foods/almonds/", "status": 301, "location": "/nut-seeds/almond/", "targetStatus": 200, "result": "PASS" },
+        { "url": "/terms/tannin", "status": 301, "location": "/terms/tannin/", "targetStatus": 200, "result": "PASS" }
+      ],
+      "allPass": true
+    },
+    "faq_production_certification": {
+      "faqPageJsonLdCount": 1,
+      "jsonLdFaqCount": 2,
+      "visibleFaqCount": 2,
+      "matchedFaqCount": 2,
+      "unmatchedJsonLdCount": 0,
+      "unmatchedVisibleCount": 0,
+      "jsonLdQuestions": ["What is Pairing Method?", "How does the pairing engine work?"],
+      "organizationAndWebSitePresent": true,
+      "jsonLdTypesPresent": ["Organization", "FAQPage", "WebSite"],
+      "result": "PASS"
+    },
+    "404_page_quality": {
+      "title": "Page Not Found — Pairing Method",
+      "hasNoindex": true,
+      "robotsMetaContent": "noindex, follow",
+      "hasHomepageCanonical": false,
+      "returnsHttp200": false,
+      "exposesAccidentalPublishedRoute": false,
+      "result": "PASS"
+    },
+    "overall_production_result": "PASS"
   },
   "deferred_findings": [
     {
@@ -618,5 +682,5 @@
       "disposition": "Correction deferred until production 404 behavior is certified post-deployment. NOT modified in this phase — outside this ticket's authorized file scope (scripts/verify-pairing-eat-03.mjs and reports/pairing-eat-03-verification.json only)."
     }
   ],
-  "final_result": "LOCAL PASS — PRODUCTION VERIFICATION PENDING DEPLOYMENT"
+  "final_result": "PASS — local structural verification and live production HTTP verification both confirmed"
 }
