@@ -1,0 +1,622 @@
+{
+  "phase": "PAIRING-EAT-03",
+  "generatedAt": "2026-09-05T01:13:31.402Z",
+  "local_verification": {
+    "total_checks": 8,
+    "passed": 8,
+    "failed": 0,
+    "checks": [
+      {
+        "id": "route_inventory_structural",
+        "description": "Every route in the inventory has a local file-presence state consistent with its declared class (existence proves VALID_PUBLISHED_ROUTE/VALID_SPECIAL_ENDPOINT; absence proves UNKNOWN/UNPUBLISHED/UNPUBLISHED_SPECIAL_ENDPOINT are not accidentally published). This check proves local file-presence state only — it does NOT prove production HTTP-status behavior; see production_after.",
+        "pass": true,
+        "rows": [
+          {
+            "url": "/",
+            "class": "VALID_PUBLISHED_ROUTE",
+            "localFile": "index.html",
+            "fileExistsLocally": true,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 200,
+              "expectedHomepageContent": false,
+              "note": "Serves its own real content."
+            }
+          },
+          {
+            "url": "/about",
+            "class": "VALID_PUBLISHED_ROUTE",
+            "localFile": "about.html",
+            "fileExistsLocally": true,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 200,
+              "expectedHomepageContent": false,
+              "note": "Serves its own real content."
+            }
+          },
+          {
+            "url": "/pairings",
+            "class": "VALID_PUBLISHED_ROUTE",
+            "localFile": "pairings.html",
+            "fileExistsLocally": true,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 200,
+              "expectedHomepageContent": false,
+              "note": "Serves its own real content."
+            }
+          },
+          {
+            "url": "/nut-seeds/almond/",
+            "class": "VALID_PUBLISHED_ROUTE",
+            "localFile": "nut-seeds/almond/index.html",
+            "fileExistsLocally": true,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 200,
+              "expectedHomepageContent": false,
+              "note": "Serves its own real content."
+            }
+          },
+          {
+            "url": "/styles/riesling/",
+            "class": "VALID_PUBLISHED_ROUTE",
+            "localFile": "styles/riesling/index.html",
+            "fileExistsLocally": true,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 200,
+              "expectedHomepageContent": false,
+              "note": "Serves its own real content."
+            }
+          },
+          {
+            "url": "/terms/minerality",
+            "class": "VALID_PUBLISHED_ROUTE",
+            "localFile": "terms/minerality.html",
+            "fileExistsLocally": true,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 200,
+              "expectedHomepageContent": false,
+              "note": "Serves its own real content."
+            }
+          },
+          {
+            "url": "/robots.txt",
+            "class": "VALID_SPECIAL_ENDPOINT",
+            "localFile": "robots.txt",
+            "fileExistsLocally": true,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 200,
+              "expectedHomepageContent": false,
+              "note": "Endpoint-specific response (e.g. text/plain for robots.txt, application/xml for sitemap.xml) — not HTML homepage content."
+            }
+          },
+          {
+            "url": "/sitemap.xml",
+            "class": "VALID_SPECIAL_ENDPOINT",
+            "localFile": "sitemap.xml",
+            "fileExistsLocally": true,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 200,
+              "expectedHomepageContent": false,
+              "note": "Endpoint-specific response (e.g. text/plain for robots.txt, application/xml for sitemap.xml) — not HTML homepage content."
+            }
+          },
+          {
+            "url": "/ads.txt",
+            "class": "UNPUBLISHED_SPECIAL_ENDPOINT",
+            "localFile": "ads.txt",
+            "note": "No local ads.txt file exists before AdSense approval, and none should be fabricated — it requires a real publisher ID that does not exist yet. This is a correct, intentional absence, not a gap. It must never fall through to homepage HTML 200; intended production behavior is a genuine 404, identical to any other nonexistent resource.",
+            "fileExistsLocally": false,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 404,
+              "expectedContentType": "null-or-not-applicable",
+              "expectedHomepageContent": false
+            }
+          },
+          {
+            "url": "/foods/almonds/",
+            "class": "REDIRECT",
+            "localFile": null,
+            "redirectTarget": "/nut-seeds/almond/",
+            "fileExistsLocally": null,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 301,
+              "expectedHomepageContent": false,
+              "note": "Redirects (301) to its governed target per _redirects; the target itself then serves 200."
+            }
+          },
+          {
+            "url": "/terms/tannin",
+            "class": "REDIRECT",
+            "localFile": null,
+            "redirectTarget": "/terms/tannin/",
+            "fileExistsLocally": null,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 301,
+              "expectedHomepageContent": false,
+              "note": "Redirects (301) to its governed target per _redirects; the target itself then serves 200."
+            }
+          },
+          {
+            "url": "/es/",
+            "class": "UNPUBLISHED_RESERVED_ROUTE",
+            "localFile": null,
+            "note": "Spanish registered as vocabulary data (LANG-01/LANG-02) but explicitly published:false — see docs/LANGUAGE_GOVERNANCE.md. No /es/ directory exists.",
+            "fileExistsLocally": null,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 404,
+              "expectedHomepageContent": false,
+              "note": "Intentionally not published (e.g. Spanish, cheese) — must 404, must never silently serve homepage content."
+            }
+          },
+          {
+            "url": "/cheeses/brie-de-meaux/",
+            "class": "UNPUBLISHED_RESERVED_ROUTE",
+            "localFile": null,
+            "note": "Cheese domain built but published:false in lib/food-domain-config.js. Local-only untracked artifacts exist at cheeses/brie-de-meaux/ but are never committed, so are absent from the deployed repository entirely.",
+            "fileExistsLocally": null,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 404,
+              "expectedHomepageContent": false,
+              "note": "Intentionally not published (e.g. Spanish, cheese) — must 404, must never silently serve homepage content."
+            }
+          },
+          {
+            "url": "/contact",
+            "class": "UNKNOWN_NONEXISTENT_ROUTE",
+            "localFile": null,
+            "note": "Not a published route in this repository. Per the ticket, this phase does not invent a contact page — it must follow correct unpublished/unknown behavior (404), same as any nonexistent path.",
+            "fileExistsLocally": null,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 404,
+              "expectedHomepageContent": false,
+              "note": "No published route exists at this path — must 404, must never silently serve homepage content."
+            }
+          },
+          {
+            "url": "/definitely-not-a-real-page-9f2c3",
+            "class": "UNKNOWN_NONEXISTENT_ROUTE",
+            "localFile": null,
+            "fileExistsLocally": null,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 404,
+              "expectedHomepageContent": false,
+              "note": "No published route exists at this path — must 404, must never silently serve homepage content."
+            }
+          },
+          {
+            "url": "/definitely-not-a-real-page-9f2c3/",
+            "class": "UNKNOWN_NONEXISTENT_ROUTE",
+            "localFile": null,
+            "fileExistsLocally": null,
+            "structuralCheckPass": true,
+            "expectedProduction": {
+              "expectedStatus": 404,
+              "expectedHomepageContent": false,
+              "note": "No published route exists at this path — must 404, must never silently serve homepage content."
+            }
+          }
+        ],
+        "expectedProductionBehaviorByClass": {
+          "VALID_PUBLISHED_ROUTE": {
+            "expectedStatus": 200,
+            "expectedHomepageContent": false,
+            "note": "Serves its own real content."
+          },
+          "VALID_SPECIAL_ENDPOINT": {
+            "expectedStatus": 200,
+            "expectedHomepageContent": false,
+            "note": "Endpoint-specific response (e.g. text/plain for robots.txt, application/xml for sitemap.xml) — not HTML homepage content."
+          },
+          "REDIRECT": {
+            "expectedStatus": 301,
+            "expectedHomepageContent": false,
+            "note": "Redirects (301) to its governed target per _redirects; the target itself then serves 200."
+          },
+          "UNPUBLISHED_RESERVED_ROUTE": {
+            "expectedStatus": 404,
+            "expectedHomepageContent": false,
+            "note": "Intentionally not published (e.g. Spanish, cheese) — must 404, must never silently serve homepage content."
+          },
+          "UNKNOWN_NONEXISTENT_ROUTE": {
+            "expectedStatus": 404,
+            "expectedHomepageContent": false,
+            "note": "No published route exists at this path — must 404, must never silently serve homepage content."
+          },
+          "UNPUBLISHED_SPECIAL_ENDPOINT": {
+            "expectedStatus": 404,
+            "expectedContentType": "null-or-not-applicable",
+            "expectedHomepageContent": false,
+            "note": "Correctly absent pre-approval special endpoint (currently only /ads.txt). No fabricated file, no fabricated publisher ID — the correct production behavior for a resource that legitimately does not exist yet is a genuine 404, never homepage HTML 200."
+          }
+        }
+      },
+      {
+        "id": "P1A_404_page_structural_prerequisite",
+        "description": "STRUCTURAL PREREQUISITE ONLY: a top-level 404.html exists, is noindex, has its own title, and does not carry a canonical pointing back at the homepage. Per Cloudflare Pages' documented behavior, this file's presence is what DISABLES the default SPA-fallback-to-index.html mechanism — but this check only confirms the file is present and correctly authored. It does NOT execute a request against Cloudflare's edge and does NOT prove actual HTTP-status behavior in production. Local verification cannot certify HTTP status; only a post-deployment production check (see production_after) can confirm unmatched routes actually return 404 rather than 200.",
+        "pass": true,
+        "evidence": {
+          "fileExists": true,
+          "hasNoindex": true,
+          "hasTitle": true,
+          "hasHomepageCanonical": false
+        },
+        "provesProductionHttpStatus": false
+      },
+      {
+        "id": "P1A_no_new_catchall_redirect",
+        "description": "No wildcard catch-all redirect/rewrite to index.html (e.g. `/* /index.html 200`) exists in _redirects.",
+        "pass": true,
+        "evidence": {
+          "offenders": []
+        }
+      },
+      {
+        "id": "P1A_no_new_routing_framework",
+        "description": "No new routing framework/mechanism (_routes.json, functions/, _worker.js) was introduced — the fix uses only Cloudflare Pages' existing static-site 404.html convention.",
+        "pass": true,
+        "evidence": {
+          "offenders": []
+        }
+      },
+      {
+        "id": "P1A_redirects_file_unchanged",
+        "description": "_redirects is byte-identical to HEAD — P1-A's fix does not touch existing redirect rules.",
+        "pass": true,
+        "evidence": {
+          "gitDiffNameOnly": ""
+        }
+      },
+      {
+        "id": "P1B_faq_jsonld_visible_parity",
+        "description": "Homepage FAQPage JSON-LD exists exactly once, every JSON-LD question+answer has an exact visible DOM counterpart (question text and answer text both match), and every visible FAQ item has a JSON-LD counterpart — zero entries on either side without a match.",
+        "pass": true,
+        "evidence": {
+          "faqPageBlockCount": 1,
+          "jsonLdQuestions": [
+            "What is Pairing Method?",
+            "How does the pairing engine work?"
+          ],
+          "visibleQuestions": [
+            "What is Pairing Method?",
+            "How does the pairing engine work?"
+          ],
+          "jsonLdFaqCount": 2,
+          "visibleFaqCount": 2,
+          "matchedFaqCount": 2,
+          "unmatchedJsonLdCount": 0,
+          "unmatchedVisibleCount": 0,
+          "entriesWithoutVisibleCounterpart": [],
+          "visibleWithoutJsonLdCounterpart": []
+        }
+      },
+      {
+        "id": "P1B_unrelated_schema_intact",
+        "description": "Organization and WebSite JSON-LD blocks remain present and unmodified — only FAQPage was touched.",
+        "pass": true,
+        "evidence": {
+          "types": [
+            "Organization",
+            "FAQPage",
+            "WebSite"
+          ],
+          "orgIntact": true
+        }
+      },
+      {
+        "id": "protected_paths_untouched",
+        "description": "No protected file (ontology/runtime/editorial/wine data, pairing engine, Spanish system, sitemap, legal pages) is modified (tracked) or staged. Evaluated ONLY against the actual EAT-03 tracked/staged diff — pre-existing untracked noise is reported separately below and is never treated as an EAT-03 modification, never evaluated against the protected-prefix list, and never deleted or altered by this check.",
+        "pass": true,
+        "evidence": {
+          "trackedModifiedFiles": [
+            "index.html"
+          ],
+          "stagedFiles": [],
+          "untrackedFiles": [
+            ".regression-baseline/protein-artifacts.sha256",
+            "404.html",
+            "cheese-categories/cheese/index.html",
+            "cheese-groups/bloomy-rind/index.html",
+            "cheese-groups/blue/index.html",
+            "cheese-groups/brined/index.html",
+            "cheese-groups/fresh/index.html",
+            "cheese-groups/hard/index.html",
+            "cheese-groups/natural-rind/index.html",
+            "cheese-groups/pasta-filata/index.html",
+            "cheese-groups/semi-hard/index.html",
+            "cheese-groups/washed-rind/index.html",
+            "cheeses/abondance/index.html",
+            "cheeses/affine-trappe/index.html",
+            "cheeses/aged-cheddar/index.html",
+            "cheeses/aged-gouda/index.html",
+            "cheeses/akawi/index.html",
+            "cheeses/anthotyro/index.html",
+            "cheeses/appenzeller/index.html",
+            "cheeses/asiago-pressato/index.html",
+            "cheeses/asiago-stravecchio/index.html",
+            "cheeses/baladi/index.html",
+            "cheeses/banon/index.html",
+            "cheeses/baron-bigod/index.html",
+            "cheeses/basket-cheese/index.html",
+            "cheeses/bavarian-blue/index.html",
+            "cheeses/beaufort/index.html",
+            "cheeses/beemster-classic/index.html",
+            "cheeses/beenleigh-blue/index.html",
+            "cheeses/berkswell/index.html",
+            "cheeses/bitto/index.html",
+            "cheeses/bleu-dauvergne/index.html",
+            "cheeses/bleu-de-bresse/index.html",
+            "cheeses/bleu-de-chevre/index.html",
+            "cheeses/bleu-de-gex/index.html",
+            "cheeses/bleu-de-termignon/index.html",
+            "cheeses/bleu-du-vercors/index.html",
+            "cheeses/bocconcini/index.html",
+            "cheeses/boulette-davesnes/index.html",
+            "cheeses/boursault/index.html",
+            "cheeses/bra/index.html",
+            "cheeses/brie-de-meaux/index.html",
+            "cheeses/brie-de-melun/index.html",
+            "cheeses/brie-de-nangis/index.html",
+            "cheeses/brillat-savarin/index.html",
+            "cheeses/bryndza/index.html",
+            "cheeses/burrata/index.html",
+            "cheeses/cabrales/index.html",
+            "cheeses/caciocavallo-silano/index.html",
+            "cheeses/caciocavallo/index.html",
+            "cheeses/cambozola/index.html",
+            "cheeses/camembert-de-normandie/index.html",
+            "cheeses/cantal-jeune/index.html",
+            "cheeses/cantal-vieux/index.html",
+            "cheeses/caprice-des-dieux/index.html",
+            "cheeses/cashel-blue/index.html",
+            "cheeses/castelleno/index.html",
+            "cheeses/castello-blue/index.html",
+            "cheeses/castelmagno/index.html",
+            "cheeses/chabichou-du-poitou/index.html",
+            "cheeses/chaource/index.html",
+            "cheeses/cheddar/index.html",
+            "cheeses/chevrotin/index.html",
+            "cheeses/clothbound-cheddar/index.html",
+            "cheeses/colby/index.html",
+            "cheeses/comte-extra/index.html",
+            "cheeses/comte/index.html",
+            "cheeses/cotija/index.html",
+            "cheeses/cottage-cheese/index.html",
+            "cheeses/coulommiers/index.html",
+            "cheeses/cream-cheese/index.html",
+            "cheeses/cremeux-de-bourgogne/index.html",
+            "cheeses/cremont/index.html",
+            "cheeses/crescenza/index.html",
+            "cheeses/crottin-de-chavignol/index.html",
+            "cheeses/cyseela/index.html",
+            "cheeses/danish-blue/index.html",
+            "cheeses/dauphinoise-washed/index.html",
+            "cheeses/delice-de-bourgogne/index.html",
+            "cheeses/dorblu/index.html",
+            "cheeses/double-gloucester/index.html",
+            "cheeses/dubliner/index.html",
+            "cheeses/edam/index.html",
+            "cheeses/emmental/index.html",
+            "cheeses/epoisses/index.html",
+            "cheeses/feta/index.html",
+            "cheeses/fiore-sardo/index.html",
+            "cheeses/fontal/index.html",
+            "cheeses/fontina/index.html",
+            "cheeses/fourme-dambert/index.html",
+            "cheeses/fourme-de-montbrison/index.html",
+            "cheeses/fresh-goat-cheese/index.html",
+            "cheeses/fromage-blanc/index.html",
+            "cheeses/garrotxa/index.html",
+            "cheeses/goat-brie/index.html",
+            "cheeses/goat-chevre-log/index.html",
+            "cheeses/gorgonzola-dolce/index.html",
+            "cheeses/gorgonzola-picante/index.html",
+            "cheeses/gorgonzola/index.html",
+            "cheeses/gouda-young/index.html",
+            "cheeses/grana-padano/index.html",
+            "cheeses/graviera-cyprus/index.html",
+            "cheeses/gruyere-reserve/index.html",
+            "cheeses/gruyere/index.html",
+            "cheeses/halloumi/index.html",
+            "cheeses/havarti/index.html",
+            "cheeses/herve/index.html",
+            "cheeses/humboldt-fog/index.html",
+            "cheeses/ibores/index.html",
+            "cheeses/idiazabal/index.html",
+            "cheeses/index.html",
+            "cheeses/jarlsberg/index.html",
+            "cheeses/kashar/index.html",
+            "cheeses/kashkaval-pasta/index.html",
+            "cheeses/kashkaval/index.html",
+            "cheeses/kasseri/index.html",
+            "cheeses/kefalotyri/index.html",
+            "cheeses/labneh/index.html",
+            "cheeses/laguiole/index.html",
+            "cheeses/lancashire/index.html",
+            "cheeses/langres/index.html",
+            "cheeses/le-roule/index.html",
+            "cheeses/leerdammer/index.html",
+            "cheeses/leyden/index.html",
+            "cheeses/limburger/index.html",
+            "cheeses/livarot/index.html",
+            "cheeses/maasdam/index.html",
+            "cheeses/mahon/index.html",
+            "cheeses/manchego-curado/index.html",
+            "cheeses/manchego-viejo/index.html",
+            "cheeses/maroilles/index.html",
+            "cheeses/mascarpone/index.html",
+            "cheeses/mimolette/index.html",
+            "cheeses/mizithra-salted/index.html",
+            "cheeses/mont-dor/index.html",
+            "cheeses/montasio/index.html",
+            "cheeses/monterey-jack/index.html",
+            "cheeses/morbier/index.html",
+            "cheeses/mozzarella-di-bufala/index.html",
+            "cheeses/mozzarella-fior-di-latte/index.html",
+            "cheeses/munster/index.html",
+            "cheeses/nabulsi/index.html",
+            "cheeses/neufchatel/index.html",
+            "cheeses/nodini/index.html",
+            "cheeses/oaxaca/index.html",
+            "cheeses/ossau-iraty/index.html",
+            "cheeses/paneer/index.html",
+            "cheeses/parmesan/index.html",
+            "cheeses/parmigiano-reggiano/index.html",
+            "cheeses/pecorino-di-filiano/index.html",
+            "cheeses/pecorino-pepato/index.html",
+            "cheeses/pecorino-romano/index.html",
+            "cheeses/pecorino-sardo/index.html",
+            "cheeses/pecorino-siciliano/index.html",
+            "cheeses/pecorino-toscano/index.html",
+            "cheeses/persille-du-beaujolais/index.html",
+            "cheeses/petit-suisse/index.html",
+            "cheeses/piave-vecchio/index.html",
+            "cheeses/piave/index.html",
+            "cheeses/point-reyes-blue/index.html",
+            "cheeses/pont-leveque/index.html",
+            "cheeses/port-salut/index.html",
+            "cheeses/provolone-dolce/index.html",
+            "cheeses/provolone-picante/index.html",
+            "cheeses/provolone-valpadana/index.html",
+            "cheeses/provolone/index.html",
+            "cheeses/pyrenees-tomme/index.html",
+            "cheeses/quark/index.html",
+            "cheeses/queso-blanco/index.html",
+            "cheeses/queso-de-mano/index.html",
+            "cheeses/queso-fresco/index.html",
+            "cheeses/raclette-de-savoie/index.html",
+            "cheeses/raclette-french/index.html",
+            "cheeses/raclette/index.html",
+            "cheeses/ragusano/index.html",
+            "cheeses/raschera/index.html",
+            "cheeses/reblochon/index.html",
+            "cheeses/red-leicester/index.html",
+            "cheeses/reggianito/index.html",
+            "cheeses/ricotta-salata/index.html",
+            "cheeses/ricotta/index.html",
+            "cheeses/roquefort/index.html",
+            "cheeses/saint-agur/index.html",
+            "cheeses/saint-andre/index.html",
+            "cheeses/saint-felicien/index.html",
+            "cheeses/saint-marcellin/index.html",
+            "cheeses/saint-nectaire/index.html",
+            "cheeses/saint-paulin/index.html",
+            "cheeses/salers/index.html",
+            "cheeses/sbrinz/index.html",
+            "cheeses/scamorza-affumicata/index.html",
+            "cheeses/scamorza-fresh/index.html",
+            "cheeses/schlossberger/index.html",
+            "cheeses/selles-sur-cher/index.html",
+            "cheeses/shropshire-blue/index.html",
+            "cheeses/sirene/index.html",
+            "cheeses/stichelton/index.html",
+            "cheeses/stilton/index.html",
+            "cheeses/stracciatella/index.html",
+            "cheeses/string-cheese/index.html",
+            "cheeses/swiss/index.html",
+            "cheeses/taleggio/index.html",
+            "cheeses/telemea/index.html",
+            "cheeses/tete-de-moine/index.html",
+            "cheeses/tilsit/index.html",
+            "cheeses/tome-des-bauges/index.html",
+            "cheeses/tomme-au-raisin/index.html",
+            "cheeses/tomme-corse/index.html",
+            "cheeses/tomme-de-brebis/index.html",
+            "cheeses/tomme-de-savoie/index.html",
+            "cheeses/tunworth/index.html",
+            "cheeses/vacherin-fribourgeois/index.html",
+            "cheeses/valdeon/index.html",
+            "cheeses/valencay/index.html",
+            "cheeses/vieux-paris/index.html",
+            "cheeses/wensleydale/index.html",
+            "cheeses/zamorano/index.html",
+            "logo-vector_.ai",
+            "reports/pairing-eat-01-audit.md",
+            "reports/pairing-eat-03-verification.json",
+            "scripts/verify-pairing-eat-03.mjs",
+            "terms/acidity.html",
+            "terms/black-fruit.html",
+            "terms/body.html",
+            "terms/citrus.html",
+            "terms/melon.html",
+            "terms/oak.html",
+            "terms/red-fruit.html",
+            "terms/stone-fruit.html",
+            "terms/tannin.html",
+            "terms/tropical-fruit.html"
+          ],
+          "protectedOffenders": []
+        }
+      }
+    ],
+    "overall": "PASS"
+  },
+  "production_before": {
+    "note": "Read-only fetch of the CURRENTLY DEPLOYED production site (pre-EAT-03, commit 549b5240) — documents the baseline bug this phase fixes. No deployment was performed to gather this evidence.",
+    "rows": [
+      {
+        "url": "/definitely-not-a-real-page-9f2c3",
+        "status": 200,
+        "isHomepageContent": true,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "url": "/contact",
+        "status": 200,
+        "isHomepageContent": true,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "url": "/ads.txt",
+        "status": 200,
+        "isHomepageContent": true,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "url": "/es/",
+        "status": 200,
+        "isHomepageContent": true,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "url": "/cheeses/brie-de-meaux/",
+        "status": 200,
+        "isHomepageContent": true,
+        "contentType": "text/html; charset=utf-8"
+      }
+    ],
+    "baselineBugConfirmed": true
+  },
+  "production_after": {
+    "status": "NOT PERFORMED",
+    "note": "PAIRING-EAT-03 has not been deployed. Per Director instruction, production verification of the fix must occur only after deployment. Do not treat this script's local PASS as a production certification."
+  },
+  "deferred_findings": [
+    {
+      "file": "lib/search-audit/rich-results.js",
+      "finding": "FAQPage description text still references 3 authored Q&A pairs, including the removed authorship question ('Who writes the content').",
+      "currentState": "Homepage now intentionally contains 2 visible/JSON-LD FAQ entries, not 3.",
+      "disposition": "Stale descriptive metadata only — this is static prose, not a computed assertion, so it does not fail any check. Deferred to a separate maintenance cleanup. NOT modified in this phase."
+    },
+    {
+      "file": "lib/search-audit/crawlability.js",
+      "finding": "soft_404_check hardcodes the claim that Cloudflare Pages' default behavior (absent a custom 404.html) already returned a genuine 404 status, not a soft-404.",
+      "currentState": "Authoritative Cloudflare Pages documentation (fetched directly, not assumed) confirms the OPPOSITE was true absent a 404.html: Cloudflare treats the site as an SPA and serves index.html with HTTP 200 for any unmatched path. This pre-existing incorrect assumption is very likely why this module's report diverged from live production evidence, as PAIRING-EAT-01 itself noted.",
+      "disposition": "Correction deferred until production 404 behavior is certified post-deployment. NOT modified in this phase — outside this ticket's authorized file scope (scripts/verify-pairing-eat-03.mjs and reports/pairing-eat-03-verification.json only)."
+    }
+  ],
+  "final_result": "LOCAL PASS — PRODUCTION VERIFICATION PENDING DEPLOYMENT"
+}
