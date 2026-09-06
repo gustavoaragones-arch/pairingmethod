@@ -295,8 +295,55 @@
     "overall": "PASS"
   },
   "production_after": {
-    "status": "NOT PERFORMED",
-    "note": "PAIRING-EAT-11 has not been committed, pushed, or deployed. Production verification does not occur in this phase."
+    "status": "PERFORMED",
+    "deployedCommitSha": "b457fd311be74fa48b432e400749e4dbf9e697b3",
+    "pushedCommitSha": "b457fd311be74fa48b432e400749e4dbf9e697b3",
+    "deployedEqualsPushed": true,
+    "note": "Live HTTP/DOM evidence gathered by directly fetching all 5 affected canonical production pages, all 6 out-of-scope generated pages, and running real-Chrome QA, after Cloudflare Pages' GitHub-connected auto-deploy completed for the pushed commit. Read-only checks only.",
+    "affected_pages": {
+      "wine-with-steak": { "status": 200, "hasNewHeading": true, "hasOldHeading": false, "hasNewAriaLabel": true, "matchesBaseline": true, "canonical": "https://pairingmethod.com/wine-with-steak", "jsonLdBlockCount": 3, "titleUnchanged": true },
+      "wine-with-chicken": { "status": 200, "hasNewHeading": true, "hasOldHeading": false, "hasNewAriaLabel": true, "matchesBaseline": true, "canonical": "https://pairingmethod.com/wine-with-chicken", "jsonLdBlockCount": 3, "titleUnchanged": true },
+      "wine-with-salmon": { "status": 200, "hasNewHeading": true, "hasOldHeading": false, "hasNewAriaLabel": true, "matchesBaseline": true, "canonical": "https://pairingmethod.com/wine-with-salmon", "jsonLdBlockCount": 3, "titleUnchanged": true },
+      "wine-for-bbq-ribs": { "status": 200, "hasNewHeading": true, "hasOldHeading": false, "hasNewAriaLabel": true, "matchesBaseline": true, "canonical": "https://pairingmethod.com/wine-for-bbq-ribs", "jsonLdBlockCount": 3, "titleUnchanged": true },
+      "wine-for-thanksgiving-turkey": { "status": 200, "hasNewHeading": true, "hasOldHeading": false, "hasNewAriaLabel": true, "matchesBaseline": true, "canonical": "https://pairingmethod.com/wine-for-thanksgiving-turkey", "jsonLdBlockCount": 3, "titleUnchanged": true }
+    },
+    "all5Return200": true,
+    "all5HaveNewHeading": true,
+    "all5OldHeadingAbsent": true,
+    "score_ranking_confidence_regression": {
+      "note": "All 15 wine-card values (wine name, confidence label, numeric Pairing Strength score, position) re-extracted from live production and compared against the pre-implementation HEAD baseline.",
+      "all15ValuesMatchBaseline": true,
+      "offenders": []
+    },
+    "canonical_check": { "offenders": [], "result": "PASS" },
+    "json_ld_check": { "note": "3 JSON-LD blocks present on every affected page, consistent with pre-implementation state.", "offenders": [], "result": "PASS" },
+    "title_meta_check": { "note": "Page <title> tags unchanged (still contain pre-existing '+ Sommelier Pairing Guide' descriptive text — out of this phase's scope per SEO/metadata preservation instruction; only the on-page <h2> heading and its aria-label were in scope).", "result": "PASS" },
+    "out_of_scope_pages_unaffected": {
+      "note": "All 6 generated pages sharing the old 'Sommelier Verdict' heading (via scripts/pairing-seo.js) confirmed unaffected by this deployment.",
+      "pages_checked": ["wine-with-grilled-steak", "wine-with-roasted-chicken", "wine-with-fried-fish", "wine-with-spicy-food", "wine-with-creamy-dishes", "wine-with-smoked-pork"],
+      "all_status_200": true,
+      "all_still_have_old_heading": true,
+      "all_do_not_have_new_heading": true,
+      "result": "PASS"
+    },
+    "browser_qa_production": {
+      "note": "Real Chrome (playwright-core, channel: chrome) against live production canonical URLs, all 5 affected pages.",
+      "pages_tested": ["/wine-with-steak", "/wine-with-chicken", "/wine-with-salmon", "/wine-for-bbq-ribs", "/wine-for-thanksgiving-turkey"],
+      "viewports": ["1440x900", "390x844"],
+      "all_headings_correct": true,
+      "all_no_horizontal_overflow": true,
+      "consoleErrorsCausedByThisPhase": 0,
+      "consoleErrorsObservedButUnrelated": ["favicon.ico 404 — pre-existing, unrelated to this phase"],
+      "result": "PASS"
+    },
+    "deployment_identity": {
+      "deployedSha": "b457fd311be74fa48b432e400749e4dbf9e697b3",
+      "pushedSha": "b457fd311be74fa48b432e400749e4dbf9e697b3",
+      "headSha": "b457fd311be74fa48b432e400749e4dbf9e697b3",
+      "originMainSha": "b457fd311be74fa48b432e400749e4dbf9e697b3",
+      "allEqual": true
+    },
+    "overall_production_result": "PASS"
   },
-  "final_result": "LOCAL PASS — DIRECTOR REVIEW REQUIRED"
+  "final_result": "PASS — local structural verification and live production HTTP/DOM verification both confirmed"
 }
