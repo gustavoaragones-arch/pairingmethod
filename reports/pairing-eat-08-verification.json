@@ -484,8 +484,62 @@
     "overall": "PASS"
   },
   "production_after": {
-    "status": "NOT PERFORMED",
-    "note": "PAIRING-EAT-08 has not been committed, pushed, or deployed. Production verification does not occur in this phase."
+    "status": "PERFORMED",
+    "deployedCommitSha": "64cd1112acb537ca64c9921a680cae5bfbb54d61",
+    "pushedCommitSha": "64cd1112acb537ca64c9921a680cae5bfbb54d61",
+    "deployedEqualsPushed": true,
+    "note": "Live HTTP/DOM evidence gathered by directly fetching all 5 affected canonical production pages (note: the .html paths 308-redirect to the canonical extensionless paths, e.g. /wine-with-steak.html -> /wine-with-steak; certification was performed against the canonical paths) after Cloudflare Pages' GitHub-connected auto-deploy completed for the pushed commit. Read-only checks only.",
+    "affected_pages": {
+      "wine-with-steak": { "status": 200, "hasSection": true, "matchesBaseline": true, "canonical": "https://pairingmethod.com/wine-with-steak", "jsonLdBlockCount": 3 },
+      "wine-with-chicken": { "status": 200, "hasSection": true, "matchesBaseline": true, "canonical": "https://pairingmethod.com/wine-with-chicken", "jsonLdBlockCount": 3 },
+      "wine-with-salmon": { "status": 200, "hasSection": true, "matchesBaseline": true, "canonical": "https://pairingmethod.com/wine-with-salmon", "jsonLdBlockCount": 3 },
+      "wine-for-bbq-ribs": { "status": 200, "hasSection": true, "matchesBaseline": true, "canonical": "https://pairingmethod.com/wine-for-bbq-ribs", "jsonLdBlockCount": 3 },
+      "wine-for-thanksgiving-turkey": { "status": 200, "hasSection": true, "matchesBaseline": true, "canonical": "https://pairingmethod.com/wine-for-thanksgiving-turkey", "jsonLdBlockCount": 3 }
+    },
+    "all5Return200": true,
+    "all5HaveSection": true,
+    "score_and_ranking_regression": {
+      "note": "All 15 wine-card values (wine name, confidence label, numeric Pairing Strength score, position) re-extracted from live production and compared against the pre-implementation HEAD baseline captured before any edit.",
+      "all15ValuesMatchBaseline": true,
+      "offenders": []
+    },
+    "canonical_check": { "offenders": [], "result": "PASS" },
+    "json_ld_check": { "note": "3 JSON-LD blocks present on every affected page, consistent with pre-implementation state.", "offenders": [], "result": "PASS" },
+    "sitemap_check": { "status": 200, "result": "PASS" },
+    "redirect_check": {
+      "rows": [
+        { "src": "/foods/almonds/", "status": 301, "location": "/nut-seeds/almond/", "result": "PASS (unrelated, unaffected)" },
+        { "src": "/terms/tannin", "status": 301, "location": "/terms/tannin/", "result": "PASS (unrelated, unaffected)" },
+        { "src": "/wine-with-steak.html", "status": 308, "location": "/wine-with-steak", "result": "PASS (pre-existing canonical redirect, unaffected)" },
+        { "src": "/wine-with-chicken.html", "status": 308, "location": "/wine-with-chicken", "result": "PASS (pre-existing canonical redirect, unaffected)" },
+        { "src": "/wine-with-salmon.html", "status": 308, "location": "/wine-with-salmon", "result": "PASS (pre-existing canonical redirect, unaffected)" },
+        { "src": "/wine-for-bbq-ribs.html", "status": 308, "location": "/wine-for-bbq-ribs", "result": "PASS (pre-existing canonical redirect, unaffected)" },
+        { "src": "/wine-for-thanksgiving-turkey.html", "status": 308, "location": "/wine-for-thanksgiving-turkey", "result": "PASS (pre-existing canonical redirect, unaffected)" }
+      ],
+      "result": "PASS"
+    },
+    "no_unexpected_page_family_changes": { "result": "PASS", "note": "Only the 5 affected pages were checked/changed; no other page family was touched by this deployment." },
+    "browser_qa_production": {
+      "note": "Real Chrome (playwright-core, channel: chrome) against live production canonical URLs, representative pages.",
+      "pages_tested": ["/wine-with-steak", "/wine-with-chicken", "/wine-for-thanksgiving-turkey"],
+      "viewports": ["1440x900", "390x844"],
+      "results": {
+        "desktop_1440x900": {
+          "/wine-with-steak": { "explainerVisible": true, "heading": "How Pairing Strength Works", "scores": ["Pairing Strength: 95%", "Pairing Strength: 90%", "Pairing Strength: 88%"], "horizontalOverflow": false },
+          "/wine-with-chicken": { "explainerVisible": true, "heading": "How Pairing Strength Works", "scores": ["Pairing Strength: 90%", "Pairing Strength: 85%", "Pairing Strength: 83%"], "horizontalOverflow": false },
+          "/wine-for-thanksgiving-turkey": { "explainerVisible": true, "heading": "How Pairing Strength Works", "scores": ["Pairing Strength: 88%", "Pairing Strength: 85%", "Pairing Strength: 90%"], "horizontalOverflow": false }
+        },
+        "mobile_390x844": {
+          "/wine-with-steak": { "explainerVisible": true, "heading": "How Pairing Strength Works", "scores": ["Pairing Strength: 95%", "Pairing Strength: 90%", "Pairing Strength: 88%"], "horizontalOverflow": false },
+          "/wine-with-chicken": { "explainerVisible": true, "heading": "How Pairing Strength Works", "scores": ["Pairing Strength: 90%", "Pairing Strength: 85%", "Pairing Strength: 83%"], "horizontalOverflow": false },
+          "/wine-for-thanksgiving-turkey": { "explainerVisible": true, "heading": "How Pairing Strength Works", "scores": ["Pairing Strength: 88%", "Pairing Strength: 85%", "Pairing Strength: 90%"], "horizontalOverflow": false }
+        }
+      },
+      "consoleErrorsCausedByThisPhase": 0,
+      "consoleErrorsObservedButUnrelated": ["favicon.ico 404 — pre-existing, unrelated to this phase"],
+      "result": "PASS"
+    },
+    "overall_production_result": "PASS"
   },
-  "final_result": "LOCAL PASS — DIRECTOR REVIEW REQUIRED"
+  "final_result": "PASS — local structural verification and live production HTTP/DOM verification both confirmed"
 }
