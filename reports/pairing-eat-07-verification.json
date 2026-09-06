@@ -1237,8 +1237,86 @@
     "overall": "PASS"
   },
   "production_after": {
-    "status": "NOT PERFORMED",
-    "note": "PAIRING-EAT-07 has not been committed, pushed, or deployed. Production verification does not occur in this phase."
+    "status": "PERFORMED",
+    "deployedCommitSha": "7e3c41a1a6d9b568c6b87808f3e23ae260729c9b",
+    "pushedCommitSha": "7e3c41a1a6d9b568c6b87808f3e23ae260729c9b",
+    "deployedEqualsPushed": true,
+    "note": "Live HTTP/DOM evidence gathered by directly fetching all 254 enriched production pages plus representative spot checks, after Cloudflare Pages' GitHub-connected auto-deploy completed for the pushed commit. Read-only checks only.",
+    "enriched_pages": {
+      "totalExpected": 254,
+      "totalChecked": 254,
+      "perDomainCounts": { "vegetable": 72, "herb-spice": 113, "grain-starch": 69 },
+      "pagesReturning200": 254,
+      "all254Return200": true,
+      "pagesWithSection": 254,
+      "all254HaveSection": true,
+      "result": "PASS"
+    },
+    "reason_paragraphs": {
+      "totalExpected": 447,
+      "totalFound": 447,
+      "totalBacked": 447,
+      "all447ParagraphsBacked": true,
+      "unbackedParagraphOffenders": [],
+      "result": "PASS"
+    },
+    "wine_style_link_resolution": {
+      "offenders": [],
+      "result": "PASS"
+    },
+    "canonical_urls": {
+      "offenders": [],
+      "result": "PASS"
+    },
+    "sitemap_check": {
+      "status": 200,
+      "result": "PASS"
+    },
+    "redirect_check": {
+      "rows": [
+        { "src": "/foods/almonds/", "status": 301, "location": "/nut-seeds/almond/", "pass": true },
+        { "src": "/terms/tannin", "status": 301, "location": "/terms/tannin/", "pass": true }
+      ],
+      "result": "PASS"
+    },
+    "blocked_domains_unchanged_spotcheck": {
+      "note": "3 representative slugs fetched per blocked domain (fruits, nut-seeds, legumes, sweet-flavors) — all return 200 with no 'why-these-wines' section marker anywhere in the page, confirming zero enrichment leaked into these domains in production.",
+      "domains_checked": ["fruits", "nut-seeds", "legumes", "sweet-flavors"],
+      "offenders": [],
+      "result": "PASS"
+    },
+    "group_category_pages_unchanged_spotcheck": {
+      "note": "8 representative group/category pages (vegetable, herb-spice, grain-starch groups+categories, plus protein groups+categories) fetched — all return 200 with no 'why-these-wines' section marker, confirming deferred group/category scope was not touched in production.",
+      "pages_checked": [
+        "/vegetable-groups/alliums/", "/vegetable-categories/vegetable/",
+        "/herb-spice-groups/dried-herbs/", "/herb-spice-categories/herb/",
+        "/grain-starch-groups/processed-grains/", "/grain-starch-categories/grain-starch/",
+        "/groups/beef/", "/categories/animal-protein/"
+      ],
+      "offenders": [],
+      "result": "PASS"
+    },
+    "browser_qa_production": {
+      "note": "Real Chrome (playwright-core, channel: chrome) against live production, representative pages per enriched domain.",
+      "pages_tested": ["/vegetables/garlic/", "/herbs-spices/clove/", "/grains-starches/amaranth-flour/"],
+      "viewports": ["1440x900", "390x844"],
+      "results": {
+        "desktop_1440x900": {
+          "/vegetables/garlic/": { "sectionVisible": true, "horizontalOverflow": false, "wineStyleLinkCount": 2 },
+          "/herbs-spices/clove/": { "sectionVisible": true, "horizontalOverflow": false, "wineStyleLinkCount": 2 },
+          "/grains-starches/amaranth-flour/": { "sectionVisible": true, "horizontalOverflow": false, "wineStyleLinkCount": 1 }
+        },
+        "mobile_390x844": {
+          "/vegetables/garlic/": { "sectionVisible": true, "horizontalOverflow": false, "wineStyleLinkCount": 2 },
+          "/herbs-spices/clove/": { "sectionVisible": true, "horizontalOverflow": false, "wineStyleLinkCount": 2 },
+          "/grains-starches/amaranth-flour/": { "sectionVisible": true, "horizontalOverflow": false, "wineStyleLinkCount": 1 }
+        }
+      },
+      "consoleErrorsCausedByThisPhase": 0,
+      "consoleErrorsObservedButUnrelated": ["favicon.ico 404 — pre-existing, unrelated to this phase"],
+      "result": "PASS"
+    },
+    "overall_production_result": "PASS"
   },
-  "final_result": "LOCAL PASS — DIRECTOR REVIEW REQUIRED"
+  "final_result": "PASS — local structural verification and live production HTTP/DOM verification both confirmed"
 }
