@@ -1,0 +1,58 @@
+{
+  "phase": "PAIRING-EAT-10",
+  "generatedAt": "2026-09-06T05:00:00.000Z",
+  "note": "Machine-readable claim-to-source matrix. Every rendered citation maps to exactly one claim id; every claim id maps to exactly one source. No orphan citations, no orphan source records.",
+  "records": [
+    {
+      "page": "faults/cork-taint/index.html",
+      "claim_id": "cork-taint.how_it_occurs",
+      "exact_claim_text": "Chlorophenols from sanitizers, wood treatments, or environmental exposure convert to TCA via fungal metabolism. The compound transfers to wine at parts-per-trillion thresholds through cork contact or cellar contamination.",
+      "claim_category": "B — specific scientific/chemical claim",
+      "source_id": "awri-wine-faults-taints",
+      "source_title": "Wine flavours, faults and taints",
+      "publisher": "The Australian Wine Research Institute (AWRI)",
+      "url": "https://www.awri.com.au/industry_support/winemaking_resources/sensory_assessment/recognition-of-wine-faults-and-taints/wine_faults/",
+      "source_type": "professional oenology research institute — technical reference",
+      "why_source_supports_claim": "Direct page verification confirmed: 'TCA is generally formed as a result of moulds growing on cork and coming into contact with trichlorophenol... Some moulds can detoxify the trichlorophenol and related chlorophenols by adding a methyl group to the benzene ring to form TCA' (chlorophenol-to-TCA fungal conversion mechanism, matching the claim) and 'TCA can be formed in oak, and as a result wines can have a TCA taint without any contact with cork' (supporting the non-cork-contact transfer claim). The specific 'parts-per-trillion' threshold figure and 'packaging materials' as a contamination source are NOT independently confirmed by this source — citation is scoped to the chlorophenol/fungal-conversion mechanism only.",
+      "verified": true,
+      "verified_at": "2026-09-06",
+      "citation_rendered": true,
+      "rendered_location": "faults/cork-taint/index.html, immediately following the 'How it occurs' paragraph, inside <section class=\"wine-fault-occurs\">"
+    },
+    {
+      "page": "faults/brettanomyces/index.html",
+      "claim_id": "brettanomyces.cause",
+      "exact_claim_text": "Spoilage yeast (Brettanomyces bruxellensis and related strains) metabolizing hydroxycinnamic acids into volatile phenols.",
+      "claim_category": "C — microbial/biochemical claim",
+      "source_id": "awri-brettanomyces-faq",
+      "source_title": "Brettanomyces (FAQ)",
+      "publisher": "The Australian Wine Research Institute (AWRI)",
+      "url": "https://www.awri.com.au/industry_support/winemaking_resources/frequently_asked_questions/brettanomyces-faq/",
+      "source_type": "professional oenology research institute — technical reference",
+      "why_source_supports_claim": "Direct page verification confirmed: '\"Brettanomyces\" (\"Brett\") is a type of yeast commonly found in wineries, which has the potential to cause significant spoilage in wines, through the production of volatile phenol compounds' and '4-EP and 4-EG, the two main compounds associated with \"Brett\", originate from two hydroxycinnamic acid precursors: p-coumaric and ferulic acids' (spoilage-yeast-to-volatile-phenol-via-hydroxycinnamic-acid mechanism, matching the claim's core chemistry). CAVEAT recorded honestly: this specific AWRI page uses the genus-level term 'Brettanomyces' throughout and does not itself name the species 'bruxellensis'. Species-level identification is standard/uncontroversial in the wine-spoilage literature (corroborated independently by other search results naming 'Brettanomyces bruxellensis' directly in peer-reviewed titles), but this exact source is scoped to the mechanism/sensory-outcome claim, not independently re-confirming the species-name detail.",
+      "verified": true,
+      "verified_at": "2026-09-06",
+      "citation_rendered": true,
+      "rendered_location": "faults/brettanomyces/index.html, immediately following the 'Cause' paragraph, inside <section class=\"wine-fault-cause\">"
+    }
+  ],
+  "orphan_check": {
+    "claims_without_rendered_citation": [],
+    "citations_without_claim_mapping": [],
+    "sources_without_any_claim": []
+  },
+  "candidates_evaluated_but_not_cited": [
+    {
+      "fault_id": "hydrogen-sulfide",
+      "claim": "Yeast reducing sulfur-containing amino acids under nutrient deficiency, high solids, or reductive ferment conditions.",
+      "candidate_source": "AWRI 'Yeast Assimilable Nitrogen (YAN)' page (https://www.awri.com.au/industry_support/winemaking_resources/wine_fermentation/yan/)",
+      "reason_not_cited": "Direct page verification found the source confirms the correlation between nitrogen deficiency and H2S development ('Nitrogen supplements can reduce the risk of... hydrogen sulfide and reductive character') but does NOT explicitly detail the specific sulfur-containing-amino-acid mechanism named in the site's claim. Per the claim-matching standard ('if a source only indirectly supports the claim, do not cite it'), this candidate was rejected rather than cited on a partial match."
+    },
+    {
+      "fault_id": "volatile-acidity",
+      "claim": "Elevated acetic acid and related volatile acids from bacterial activity, oxidation, or stressed fermentations.",
+      "candidate_source": "not researched in depth — time/scope-bounded to the two EAT-09-named candidates plus one additional evaluation (hydrogen-sulfide)",
+      "reason_not_cited": "No citation added. Per the ticket's explicit 'do not force every fault page' instruction, this phase implemented the two EAT-09-flagged candidates (cork-taint, Brettanomyces) plus evaluated one additional candidate (hydrogen-sulfide) to demonstrate the same standard applied consistently. Further fault pages were not exhaustively researched in this pass — documented as a legitimate scope boundary, not a gap requiring correction."
+    }
+  ]
+}

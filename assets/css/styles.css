@@ -3590,6 +3590,13 @@ body.term-modal-open {
   margin: 0.5rem 0 1rem;
 }
 
+.wine-fault-source-note {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--muted);
+  margin: 0.75rem 0 0;
+}
+
 .term-entity-kind {
   font-size: 0.8rem;
   color: var(--muted);

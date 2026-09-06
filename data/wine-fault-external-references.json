@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "phase": "PAIRING-EAT-10",
+    "description": "Narrowly-scoped, claim-matched external reference registry for wine-fault scientific/domain claims only. This is NOT the same structure as data/relationship-evidence.json — that file's 'evidence' field is internal reasoning support for the site's own relationship graph. This file holds independently-verified EXTERNAL sources, deliberately named to avoid that terminology collision (per PAIRING-EAT-09's explicit finding). Never attach a record here to Pairing Strength, wine rankings, or any Pairing Method editorial/model output — only to the specific general-domain scientific/technical claim named in claims_supported.",
+    "record_count": 2,
+    "not_to_be_used_for": ["Pairing Strength", "wine rankings", "Top Pick", "Why These Wines Work", "pairing scores", "pairing relationships", "editorial verdicts"]
+  },
+  "sources": [
+    {
+      "id": "awri-wine-faults-taints",
+      "source_title": "Wine flavours, faults and taints",
+      "publisher": "The Australian Wine Research Institute (AWRI)",
+      "authors": null,
+      "publication_date": null,
+      "url": "https://www.awri.com.au/industry_support/winemaking_resources/sensory_assessment/recognition-of-wine-faults-and-taints/wine_faults/",
+      "source_type": "professional oenology research institute — technical reference",
+      "verified_at": "2026-09-06",
+      "claims_supported": [
+        {
+          "fault_id": "cork-taint",
+          "field": "how_it_occurs",
+          "exact_claim_text": "Chlorophenols from sanitizers, wood treatments, or environmental exposure convert to TCA via fungal metabolism. The compound transfers to wine at parts-per-trillion thresholds through cork contact or cellar contamination.",
+          "why_source_supports_claim": "AWRI's page states, on direct verification: 'TCA is generally formed as a result of moulds growing on cork and coming into contact with trichlorophenol... Some moulds can detoxify the trichlorophenol and related chlorophenols by adding a methyl group to the benzene ring to form TCA' — directly confirming the chlorophenol-to-TCA fungal/mould conversion mechanism. It also confirms 'TCA can be formed in oak, and as a result wines can have a TCA taint without any contact with cork,' supporting the claim that transfer occurs via non-cork contamination routes as well. The page does not independently confirm the specific 'parts-per-trillion' threshold figure or 'packaging materials' as a source — the citation is scoped to the chlorophenol/fungal-conversion mechanism only, not every clause in the paragraph."
+        }
+      ]
+    },
+    {
+      "id": "awri-brettanomyces-faq",
+      "source_title": "Brettanomyces (FAQ)",
+      "publisher": "The Australian Wine Research Institute (AWRI)",
+      "authors": null,
+      "publication_date": null,
+      "url": "https://www.awri.com.au/industry_support/winemaking_resources/frequently_asked_questions/brettanomyces-faq/",
+      "source_type": "professional oenology research institute — technical reference",
+      "verified_at": "2026-09-06",
+      "claims_supported": [
+        {
+          "fault_id": "brettanomyces",
+          "field": "cause",
+          "exact_claim_text": "Spoilage yeast (Brettanomyces bruxellensis and related strains) metabolizing hydroxycinnamic acids into volatile phenols.",
+          "why_source_supports_claim": "AWRI's FAQ states, on direct verification: 'Brettanomyces (\"Brett\") is a type of yeast commonly found in wineries, which has the potential to cause significant spoilage in wines, through the production of volatile phenol compounds' and '4-EP and 4-EG, the two main compounds associated with \"Brett\", originate from two hydroxycinnamic acid precursors: p-coumaric and ferulic acids' — directly confirming the spoilage-yeast-to-volatile-phenol-via-hydroxycinnamic-acid mechanism. CAVEAT recorded honestly: this AWRI page uses the genus-level term 'Brettanomyces' throughout and does not itself name the species 'bruxellensis' specifically. Brettanomyces bruxellensis is the standard, uncontroversial species identification in the wine-spoilage literature (corroborated by independent search results naming it directly, e.g. peer-reviewed titles referencing 'Brettanomyces bruxellensis phenotypic diversity' and 'Dekkera/Brettanomyces bruxellensis'), but this specific citation is scoped to the mechanism/sensory-outcome claim, not to the species-name detail."
+        }
+      ]
+    }
+  ]
+}

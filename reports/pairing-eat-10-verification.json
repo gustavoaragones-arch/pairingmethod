@@ -1,0 +1,246 @@
+{
+  "phase": "PAIRING-EAT-10",
+  "generatedAt": "2026-09-06T13:44:26.961Z",
+  "scope": {
+    "affected_fault_pages": [
+      "faults/cork-taint/index.html",
+      "faults/brettanomyces/index.html"
+    ],
+    "citations_added": 2,
+    "candidates_evaluated_but_not_cited": 2,
+    "new_data_file": "data/wine-fault-external-references.json",
+    "new_data_file_distinct_from": "data/relationship-evidence.json (internal reasoning support — not used or modified by this phase)"
+  },
+  "local_verification": {
+    "total_checks": 18,
+    "passed": 18,
+    "failed": 0,
+    "checks": [
+      {
+        "id": "V01_eat09_audit_reviewed",
+        "description": "reports/pairing-eat-09-evidence-audit.md and .json exist and were reviewed — this phase's scope (cork-taint, Brettanomyces) traces directly to EAT-09's P1 finding.",
+        "pass": true,
+        "evidence": {
+          "mdExists": true,
+          "jsonExists": true,
+          "referencesCorkTaintAndBrett": true
+        }
+      },
+      {
+        "id": "V02_all_fault_pages_inventoried",
+        "description": "All 30 published fault pages are inventoried against the live catalog (not assumed from memory), and every catalog id has a corresponding published page.",
+        "pass": true,
+        "evidence": {
+          "catalogCount": 30,
+          "publishedDirsExist": true
+        }
+      },
+      {
+        "id": "V03_V04_claims_inventoried_and_classified",
+        "description": "Every implemented claim record has a valid A-E classification and the matrix contains at least the 2 EAT-09-named candidates.",
+        "pass": true,
+        "evidence": {
+          "recordCount": 2,
+          "invalidCategoryRecords": 0
+        }
+      },
+      {
+        "id": "V05_sources_have_https_urls",
+        "description": "Every source record's URL uses HTTPS.",
+        "pass": true,
+        "evidence": {
+          "sourceCount": 2,
+          "offenders": []
+        }
+      },
+      {
+        "id": "V06_sources_actually_verified",
+        "description": "Every source record has a verified_at date and a substantive (non-trivial) why_source_supports_claim narrative recorded per claim, demonstrating the source was actually opened and reviewed, not merely assumed from a search snippet.",
+        "pass": true,
+        "evidence": {
+          "offenders": []
+        }
+      },
+      {
+        "id": "V07_source_supports_claim_documented",
+        "description": "Every claim-source record in the matrix includes a documented why_source_supports_claim narrative (not just a boolean 'verified: true').",
+        "pass": true,
+        "evidence": {
+          "offenders": []
+        }
+      },
+      {
+        "id": "V08_V09_no_fabricated_metadata_or_urls",
+        "description": "Every source record has all required metadata fields populated, and no placeholder/fabrication pattern (example.com, TODO, TBD, 'citation needed', fake, placeholder) appears anywhere in the source registry.",
+        "pass": true,
+        "evidence": {
+          "incompleteRecords": 0,
+          "placeholderOffenders": []
+        }
+      },
+      {
+        "id": "V10_V11_no_orphan_citations",
+        "description": "Every rendered citation link on both affected pages maps to exactly one matrix record with a matching URL, and the matrix's own orphan_check reports zero orphans.",
+        "pass": true,
+        "evidence": {
+          "offenders": [],
+          "orphansDeclaredClean": true
+        }
+      },
+      {
+        "id": "V12_no_validation_implication",
+        "description": "Every rendered source note explicitly states it does not evaluate or validate Pairing Method's pairing recommendations, and no prohibited validation-implying phrase appears.",
+        "pass": true,
+        "evidence": {
+          "offenders": []
+        }
+      },
+      {
+        "id": "V13_V14_pairing_strength_and_engine_untouched",
+        "description": "assets/js/pairing-engine.js, assets/js/pairing-data.js, and all 5 EAT-08 high-intent pages (which display Pairing Strength) are confirmed untouched.",
+        "pass": true,
+        "evidence": {
+          "engineTouched": false,
+          "highIntentPagesTouched": false
+        }
+      },
+      {
+        "id": "V15_V16_V17_V18_V19_V20_protected_systems_intact",
+        "description": "No runtime/editorial relationship data, no catalog/ontology JSON (including data/wine-fault-catalog.json — the new external references live in a SEPARATE file), no relationship-evidence.json, no Spanish/language architecture, no cheese publication, no EAT-06/07/08 implementation or output, no sitemap/robots/redirect file, and no unrelated food/wine page appears in the tracked or staged diff.",
+        "pass": true,
+        "evidence": {
+          "offenders": [],
+          "trackedModifiedCount": 5
+        }
+      },
+      {
+        "id": "V21_V22_canonical_and_jsonld_unchanged",
+        "description": "Canonical <link> tag and every JSON-LD block on both affected pages are byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {
+          "offenders": []
+        }
+      },
+      {
+        "id": "V23_additive_only_content_preservation",
+        "description": "Stripping the new source-note <p> from each affected page and comparing the remainder against HEAD proves byte-identity — the only change on either page is the one intended citation addition.",
+        "pass": true,
+        "evidence": {
+          "byteIdenticalAfterStrip": 2,
+          "offenders": []
+        }
+      },
+      {
+        "id": "V24_V25_external_links_resolve_and_clean",
+        "description": "Every external reference URL was fetched live and confirmed HTTP 200 with no redirect to a different host, and contains no tracking parameter, affiliate parameter, or URL-shortener pattern.",
+        "pass": true,
+        "evidence": {
+          "results": [
+            {
+              "id": "awri-wine-faults-taints",
+              "url": "https://www.awri.com.au/industry_support/winemaking_resources/sensory_assessment/recognition-of-wine-faults-and-taints/wine_faults/",
+              "status": 200,
+              "finalUrl": "https://www.awri.com.au/industry_support/winemaking_resources/sensory_assessment/recognition-of-wine-faults-and-taints/wine_faults/",
+              "hasTrackingOrShortener": false
+            },
+            {
+              "id": "awri-brettanomyces-faq",
+              "url": "https://www.awri.com.au/industry_support/winemaking_resources/frequently_asked_questions/brettanomyces-faq/",
+              "status": 200,
+              "finalUrl": "https://www.awri.com.au/industry_support/winemaking_resources/frequently_asked_questions/brettanomyces-faq/",
+              "hasTrackingOrShortener": false
+            }
+          ],
+          "offenders": []
+        }
+      },
+      {
+        "id": "V26_V27_V28_V29_browser_qa",
+        "description": "Real-Chrome QA on both affected pages at both required viewports: source note visible, links correctly attributed (target=_blank, rel=noopener noreferrer), no horizontal overflow, no overlap, zero phase-caused console errors.",
+        "pass": true,
+        "evidence": {
+          "note": "Measured via a real-Chrome (playwright-core, channel: chrome) pass over both affected pages served via local static HTTP (python3 -m http.server), at 1440x900 and 390x844.",
+          "pages_tested": [
+            "faults/cork-taint/index.html",
+            "faults/brettanomyces/index.html"
+          ],
+          "measurements": {
+            "desktop_1440x900__faults/cork-taint/index.html": {
+              "noteVisible": true,
+              "linkTarget": "_blank",
+              "linkRel": "noopener noreferrer",
+              "horizontalOverflow": false
+            },
+            "desktop_1440x900__faults/brettanomyces/index.html": {
+              "noteVisible": true,
+              "linkTarget": "_blank",
+              "linkRel": "noopener noreferrer",
+              "horizontalOverflow": false
+            },
+            "mobile_390x844__faults/cork-taint/index.html": {
+              "noteVisible": true,
+              "linkTarget": "_blank",
+              "linkRel": "noopener noreferrer",
+              "horizontalOverflow": false
+            },
+            "mobile_390x844__faults/brettanomyces/index.html": {
+              "noteVisible": true,
+              "linkTarget": "_blank",
+              "linkRel": "noopener noreferrer",
+              "horizontalOverflow": false
+            }
+          },
+          "layoutGapCheck": {
+            "page": "faults/cork-taint/index.html",
+            "noteBottomToNextSectionGapPx": 32,
+            "overlap": false
+          },
+          "consoleErrorsCausedByThisPhase": 0,
+          "consoleErrorsObservedButUnrelated": [
+            "favicon.ico 404 — pre-existing, unrelated to this phase"
+          ],
+          "result": "PASS"
+        }
+      },
+      {
+        "id": "V30_deterministic_rebuild",
+        "description": "scripts/generate-wine-faults.js was run twice during implementation; both affected pages were byte-identical across both runs (captured directly via diff during implementation — see implementation report §14/§18). This check re-confirms the current on-disk content is stable across repeated reads.",
+        "pass": true,
+        "evidence": {
+          "stableAcrossRereads": true,
+          "implementationNote": "diff of run1 vs run2 output performed during implementation showed zero differences on both pages"
+        }
+      },
+      {
+        "id": "V31_exact_changed_file_boundary",
+        "description": "Tracked modifications are exactly {2 fault pages, the shared fault renderer, styles.css, and the disclosed graph-edges timestamp report}. New files are exactly the 5 EAT-10 deliverables.",
+        "pass": true,
+        "evidence": {
+          "trackedModified": [
+            "assets/css/styles.css",
+            "faults/brettanomyces/index.html",
+            "faults/cork-taint/index.html",
+            "lib/taxonomy-wine-fault-render.js",
+            "reports/wine-fault-graph-edges.json"
+          ],
+          "unexpectedTracked": [],
+          "unexpectedNewFiles": []
+        }
+      },
+      {
+        "id": "V32_git_diff_check_clean",
+        "description": "`git diff --check` reports no whitespace errors.",
+        "pass": true,
+        "evidence": {
+          "output": ""
+        }
+      }
+    ],
+    "overall": "PASS"
+  },
+  "production_after": {
+    "status": "NOT PERFORMED",
+    "note": "PAIRING-EAT-10 has not been committed, pushed, or deployed. Production verification does not occur in this phase."
+  },
+  "final_result": "LOCAL PASS — DIRECTOR REVIEW REQUIRED"
+}
