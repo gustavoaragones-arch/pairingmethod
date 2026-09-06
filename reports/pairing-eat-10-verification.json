@@ -239,8 +239,64 @@
     "overall": "PASS"
   },
   "production_after": {
-    "status": "NOT PERFORMED",
-    "note": "PAIRING-EAT-10 has not been committed, pushed, or deployed. Production verification does not occur in this phase."
+    "status": "PERFORMED",
+    "deployedCommitSha": "4791959e4c512a36bd1f57b4fcbf894af0fca4df",
+    "pushedCommitSha": "4791959e4c512a36bd1f57b4fcbf894af0fca4df",
+    "deployedEqualsPushed": true,
+    "note": "Live HTTP/DOM evidence gathered by directly fetching both affected production pages, all 28 other fault pages, both external AWRI URLs, and representative unrelated protected systems, after Cloudflare Pages' GitHub-connected auto-deploy completed for the pushed commit. Read-only checks only.",
+    "citation_production_checks": {
+      "cork_taint": { "status": 200, "citationCount": 1, "hrefMatches": "https://www.awri.com.au/industry_support/winemaking_resources/sensory_assessment/recognition-of-wine-faults-and-taints/wine_faults/", "disclaimerPresent": true, "result": "PASS" },
+      "brettanomyces": { "status": 200, "citationCount": 1, "hrefMatches": "https://www.awri.com.au/industry_support/winemaking_resources/frequently_asked_questions/brettanomyces-faq/", "disclaimerPresent": true, "result": "PASS" },
+      "external_url_resolution": {
+        "cork_taint_source": { "status": 200, "redirects": 0 },
+        "brettanomyces_source": { "status": 200, "redirects": 0 },
+        "no_tracking_shortener_or_affiliate": true,
+        "result": "PASS"
+      }
+    },
+    "content_integrity": {
+      "other_28_fault_pages_unaffected": { "checked": 28, "offenders": [], "result": "PASS" },
+      "canonical_unchanged": { "cork_taint": "https://pairingmethod.com/faults/cork-taint/", "brettanomyces": "https://pairingmethod.com/faults/brettanomyces/", "result": "PASS" },
+      "json_ld_unchanged": { "cork_taint_block_count": 3, "brettanomyces_block_count": 3, "result": "PASS" },
+      "title_meta_unchanged": {
+        "cork_taint_title": "Cork Taint (TCA) — Wine Fault Guide | Pairing Method",
+        "brettanomyces_title": "Brettanomyces — Wine Fault Guide | Pairing Method",
+        "result": "PASS"
+      }
+    },
+    "protected_system_regression": {
+      "sitemap_status": 200,
+      "robots_status": 200,
+      "unrelated_redirect_spotcheck": { "src": "/foods/almonds/", "status": 301, "location": "/nut-seeds/almond/", "result": "PASS" },
+      "pairing_strength_unchanged_spotcheck": { "page": "/wine-with-steak", "values": ["95%", "90%", "88%"], "matchesBaseline": true, "result": "PASS" },
+      "result": "PASS"
+    },
+    "browser_qa_production": {
+      "note": "Real Chrome (playwright-core, channel: chrome) against live production, both affected pages.",
+      "pages_tested": ["/faults/cork-taint/", "/faults/brettanomyces/"],
+      "viewports": ["1440x900", "390x844"],
+      "results": {
+        "desktop_1440x900": {
+          "/faults/cork-taint/": { "noteVisible": true, "target": "_blank", "rel": "noopener noreferrer", "horizontalOverflow": false },
+          "/faults/brettanomyces/": { "noteVisible": true, "target": "_blank", "rel": "noopener noreferrer", "horizontalOverflow": false }
+        },
+        "mobile_390x844": {
+          "/faults/cork-taint/": { "noteVisible": true, "target": "_blank", "rel": "noopener noreferrer", "horizontalOverflow": false },
+          "/faults/brettanomyces/": { "noteVisible": true, "target": "_blank", "rel": "noopener noreferrer", "horizontalOverflow": false }
+        }
+      },
+      "consoleErrorsCausedByThisPhase": 0,
+      "consoleErrorsObservedButUnrelated": ["favicon.ico 404 — pre-existing, unrelated to this phase"],
+      "result": "PASS"
+    },
+    "deployment_identity": {
+      "deployedSha": "4791959e4c512a36bd1f57b4fcbf894af0fca4df",
+      "pushedSha": "4791959e4c512a36bd1f57b4fcbf894af0fca4df",
+      "headSha": "4791959e4c512a36bd1f57b4fcbf894af0fca4df",
+      "originMainSha": "4791959e4c512a36bd1f57b4fcbf894af0fca4df",
+      "allEqual": true
+    },
+    "overall_production_result": "PASS"
   },
-  "final_result": "LOCAL PASS — DIRECTOR REVIEW REQUIRED"
+  "final_result": "PASS — local structural verification and live production HTTP/DOM verification both confirmed"
 }
