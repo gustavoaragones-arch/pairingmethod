@@ -1,0 +1,1244 @@
+{
+  "phase": "PAIRING-EAT-07",
+  "generatedAt": "2026-09-06T03:13:52.808Z",
+  "scope_decision": {
+    "enriched_leaf_domains": [
+      "vegetable",
+      "herb-spice",
+      "grain-starch"
+    ],
+    "blocked_leaf_domains": [
+      "fruit",
+      "nut-seed",
+      "legume",
+      "sweet-flavor"
+    ],
+    "blocked_reason": "100% of authoritative wine-relationship evidence text for these domains matched an internal-governance-code pattern (e.g. 'per LEGUME-PAIR-001 culinary function pairing — not botanical classification alone') rather than genuine reader-facing prose. Rendering it verbatim would violate the ticket's explicit prohibition on generic/templated fallback content; fabricating replacement prose would violate the no-invention rule. Left unmodified, recorded here as requiring upstream evidence-text remediation before enrichment is possible.",
+    "group_category_pages_deferred": true,
+    "group_category_deferred_reason": "No existing precedent (including EAT-06's fungi implementation) establishes a group/category-level wine-relationship aggregation pattern — every existing wine-relationship edge's source is a LEAF entity id, never a group or category id. A legitimate, non-fabricating design (rolling up member leaf entities' edges by frequency) is architecturally feasible but was not implemented this pass — it is a new pattern requiring its own design review, not a safe extension of an already-validated pattern the way the leaf-level generalization was."
+  },
+  "evidence_quality_by_domain": {
+    "vegetable": {
+      "totalEdges": 117,
+      "cleanEdges": 117,
+      "flaggedEdges": 0,
+      "entitiesWithCleanEdge": [
+        "food.vegetable.alliums.chive",
+        "food.vegetable.alliums.garlic",
+        "food.vegetable.alliums.garlic-chives",
+        "food.vegetable.alliums.leek",
+        "food.vegetable.alliums.onion",
+        "food.vegetable.alliums.ramp",
+        "food.vegetable.alliums.scallion",
+        "food.vegetable.alliums.shallot",
+        "food.vegetable.green-vegetables.artichoke",
+        "food.vegetable.green-vegetables.arugula",
+        "food.vegetable.green-vegetables.asparagus",
+        "food.vegetable.green-vegetables.bamboo-shoot",
+        "food.vegetable.green-vegetables.bitter-melon",
+        "food.vegetable.green-vegetables.bok-choy",
+        "food.vegetable.green-vegetables.broccoli",
+        "food.vegetable.green-vegetables.brussels-sprouts",
+        "food.vegetable.green-vegetables.cabbage",
+        "food.vegetable.green-vegetables.cauliflower",
+        "food.vegetable.green-vegetables.celery",
+        "food.vegetable.green-vegetables.collard-greens",
+        "food.vegetable.green-vegetables.cucumber",
+        "food.vegetable.green-vegetables.dandelion-greens",
+        "food.vegetable.green-vegetables.endive",
+        "food.vegetable.green-vegetables.fennel",
+        "food.vegetable.green-vegetables.garden-pea",
+        "food.vegetable.green-vegetables.green-bean",
+        "food.vegetable.green-vegetables.kale",
+        "food.vegetable.green-vegetables.kohlrabi",
+        "food.vegetable.green-vegetables.lettuce",
+        "food.vegetable.green-vegetables.mustard-greens",
+        "food.vegetable.green-vegetables.napa-cabbage",
+        "food.vegetable.green-vegetables.okra",
+        "food.vegetable.green-vegetables.radicchio",
+        "food.vegetable.green-vegetables.rapini",
+        "food.vegetable.green-vegetables.rhubarb",
+        "food.vegetable.green-vegetables.snow-pea",
+        "food.vegetable.green-vegetables.sorrel",
+        "food.vegetable.green-vegetables.spinach",
+        "food.vegetable.green-vegetables.swiss-chard",
+        "food.vegetable.green-vegetables.water-spinach",
+        "food.vegetable.green-vegetables.watercress",
+        "food.vegetable.nightshades.anaheim-pepper",
+        "food.vegetable.nightshades.bell-pepper",
+        "food.vegetable.nightshades.eggplant",
+        "food.vegetable.nightshades.habanero-pepper",
+        "food.vegetable.nightshades.jalapeno-pepper",
+        "food.vegetable.nightshades.poblano-pepper",
+        "food.vegetable.nightshades.serrano-pepper",
+        "food.vegetable.nightshades.tomatillo",
+        "food.vegetable.nightshades.tomato",
+        "food.vegetable.root-vegetables.acorn-squash",
+        "food.vegetable.root-vegetables.beet",
+        "food.vegetable.root-vegetables.burdock-root",
+        "food.vegetable.root-vegetables.butternut-squash",
+        "food.vegetable.root-vegetables.carrot",
+        "food.vegetable.root-vegetables.celeriac",
+        "food.vegetable.root-vegetables.chayote",
+        "food.vegetable.root-vegetables.delicata-squash",
+        "food.vegetable.root-vegetables.hubbard-squash",
+        "food.vegetable.root-vegetables.jicama",
+        "food.vegetable.root-vegetables.kabocha-squash",
+        "food.vegetable.root-vegetables.lotus-root",
+        "food.vegetable.root-vegetables.parsnip",
+        "food.vegetable.root-vegetables.pumpkin",
+        "food.vegetable.root-vegetables.radish",
+        "food.vegetable.root-vegetables.rutabaga",
+        "food.vegetable.root-vegetables.salsify",
+        "food.vegetable.root-vegetables.scorzonera",
+        "food.vegetable.root-vegetables.spaghetti-squash",
+        "food.vegetable.root-vegetables.sunchokes",
+        "food.vegetable.root-vegetables.turnip",
+        "food.vegetable.root-vegetables.zucchini"
+      ],
+      "entitiesWithOnlyFlaggedEdges": []
+    },
+    "herb-spice": {
+      "totalEdges": 224,
+      "cleanEdges": 224,
+      "flaggedEdges": 0,
+      "entitiesWithCleanEdge": [
+        "food.herb.dried-herbs.bay-leaf",
+        "food.herb.dried-herbs.boldo",
+        "food.herb.dried-herbs.celery-leaf",
+        "food.herb.dried-herbs.fenugreek-leaves",
+        "food.herb.dried-herbs.hoja-santa",
+        "food.herb.dried-herbs.hyssop",
+        "food.herb.dried-herbs.indian-bay-leaf",
+        "food.herb.dried-herbs.kaffir-lime-leaves",
+        "food.herb.dried-herbs.lavender",
+        "food.herb.dried-herbs.lemon-myrtle",
+        "food.herb.dried-herbs.marjoram",
+        "food.herb.dried-herbs.mexican-oregano",
+        "food.herb.dried-herbs.oregano",
+        "food.herb.dried-herbs.rosemary",
+        "food.herb.dried-herbs.rue",
+        "food.herb.dried-herbs.sage",
+        "food.herb.dried-herbs.savory",
+        "food.herb.dried-herbs.summer-savory",
+        "food.herb.dried-herbs.thyme",
+        "food.herb.dried-herbs.winter-savory",
+        "food.herb.fresh-herbs.anise-hyssop",
+        "food.herb.fresh-herbs.basil",
+        "food.herb.fresh-herbs.borage",
+        "food.herb.fresh-herbs.chervil",
+        "food.herb.fresh-herbs.chives",
+        "food.herb.fresh-herbs.cilantro",
+        "food.herb.fresh-herbs.culantro",
+        "food.herb.fresh-herbs.curry-leaves",
+        "food.herb.fresh-herbs.dill",
+        "food.herb.fresh-herbs.epazote",
+        "food.herb.fresh-herbs.fennel-frond",
+        "food.herb.fresh-herbs.garlic-chives",
+        "food.herb.fresh-herbs.lemon-balm",
+        "food.herb.fresh-herbs.lemongrass",
+        "food.herb.fresh-herbs.lovage",
+        "food.herb.fresh-herbs.mint",
+        "food.herb.fresh-herbs.mitsuba",
+        "food.herb.fresh-herbs.pandan-leaf",
+        "food.herb.fresh-herbs.papalo",
+        "food.herb.fresh-herbs.parsley",
+        "food.herb.fresh-herbs.salad-burnet",
+        "food.herb.fresh-herbs.shiso",
+        "food.herb.fresh-herbs.sorrel",
+        "food.herb.fresh-herbs.tarragon",
+        "food.herb.fresh-herbs.vietnamese-coriander",
+        "food.herb.ground-blended-spices.aleppo-pepper",
+        "food.herb.ground-blended-spices.ancho-chile-powder",
+        "food.herb.ground-blended-spices.baharat",
+        "food.herb.ground-blended-spices.berbere",
+        "food.herb.ground-blended-spices.cajun-seasoning",
+        "food.herb.ground-blended-spices.cayenne-pepper",
+        "food.herb.ground-blended-spices.chaat-masala",
+        "food.herb.ground-blended-spices.chili-powder",
+        "food.herb.ground-blended-spices.chinese-five-spice",
+        "food.herb.ground-blended-spices.chipotle-powder",
+        "food.herb.ground-blended-spices.curry-powder",
+        "food.herb.ground-blended-spices.dukkah",
+        "food.herb.ground-blended-spices.garam-masala",
+        "food.herb.ground-blended-spices.harissa-spice",
+        "food.herb.ground-blended-spices.herbes-de-provence",
+        "food.herb.ground-blended-spices.jerk-seasoning",
+        "food.herb.ground-blended-spices.kashmiri-chili",
+        "food.herb.ground-blended-spices.lemon-pepper",
+        "food.herb.ground-blended-spices.old-bay-seasoning",
+        "food.herb.ground-blended-spices.panch-phoron",
+        "food.herb.ground-blended-spices.paprika",
+        "food.herb.ground-blended-spices.poultry-seasoning",
+        "food.herb.ground-blended-spices.quatre-epices",
+        "food.herb.ground-blended-spices.ras-el-hanout",
+        "food.herb.ground-blended-spices.red-pepper-flakes",
+        "food.herb.ground-blended-spices.shichimi-togarashi",
+        "food.herb.ground-blended-spices.sumac",
+        "food.herb.ground-blended-spices.tandoori-masala",
+        "food.herb.ground-blended-spices.turmeric",
+        "food.herb.ground-blended-spices.urfa-biber",
+        "food.herb.ground-blended-spices.vadouvan",
+        "food.herb.ground-blended-spices.zaatar",
+        "food.herb.whole-spices.ajwain",
+        "food.herb.whole-spices.allspice",
+        "food.herb.whole-spices.annatto-seed",
+        "food.herb.whole-spices.asafoetida",
+        "food.herb.whole-spices.black-cardamom",
+        "food.herb.whole-spices.black-pepper",
+        "food.herb.whole-spices.caraway-seed",
+        "food.herb.whole-spices.celery-seed",
+        "food.herb.whole-spices.cinnamon",
+        "food.herb.whole-spices.clove",
+        "food.herb.whole-spices.coriander-seed",
+        "food.herb.whole-spices.cubeb-pepper",
+        "food.herb.whole-spices.cumin-seed",
+        "food.herb.whole-spices.dill-seed",
+        "food.herb.whole-spices.fennel-seed",
+        "food.herb.whole-spices.fenugreek-seed",
+        "food.herb.whole-spices.galangal",
+        "food.herb.whole-spices.ginger",
+        "food.herb.whole-spices.grains-of-paradise",
+        "food.herb.whole-spices.green-cardamom",
+        "food.herb.whole-spices.green-peppercorn",
+        "food.herb.whole-spices.horseradish",
+        "food.herb.whole-spices.juniper-berry",
+        "food.herb.whole-spices.long-pepper",
+        "food.herb.whole-spices.mace",
+        "food.herb.whole-spices.mahleb",
+        "food.herb.whole-spices.mustard-seed",
+        "food.herb.whole-spices.nigella-seed",
+        "food.herb.whole-spices.nutmeg",
+        "food.herb.whole-spices.pink-peppercorn",
+        "food.herb.whole-spices.saffron",
+        "food.herb.whole-spices.star-anise",
+        "food.herb.whole-spices.tamarind",
+        "food.herb.whole-spices.vanilla-bean",
+        "food.herb.whole-spices.wasabi",
+        "food.herb.whole-spices.white-pepper"
+      ],
+      "entitiesWithOnlyFlaggedEdges": []
+    },
+    "grain-starch": {
+      "totalEdges": 174,
+      "cleanEdges": 144,
+      "flaggedEdges": 30,
+      "entitiesWithCleanEdge": [
+        "food.grain.processed-grains.amaranth-flour",
+        "food.grain.processed-grains.barley-flour",
+        "food.grain.processed-grains.buckwheat-flour",
+        "food.grain.processed-grains.bulgur",
+        "food.grain.processed-grains.cornmeal",
+        "food.grain.processed-grains.couscous",
+        "food.grain.processed-grains.farina",
+        "food.grain.processed-grains.freekeh",
+        "food.grain.processed-grains.grits",
+        "food.grain.processed-grains.hominy",
+        "food.grain.processed-grains.masa-harina",
+        "food.grain.processed-grains.matzo-meal",
+        "food.grain.processed-grains.millet-flour",
+        "food.grain.processed-grains.oat-flour",
+        "food.grain.processed-grains.pearl-barley",
+        "food.grain.processed-grains.polenta-meal",
+        "food.grain.processed-grains.quinoa-flour",
+        "food.grain.processed-grains.rice-flour",
+        "food.grain.processed-grains.rye-flour",
+        "food.grain.processed-grains.semolina",
+        "food.grain.processed-grains.sorghum-flour",
+        "food.grain.processed-grains.spelt-flour",
+        "food.grain.processed-grains.teff-flour",
+        "food.grain.processed-grains.whole-wheat-flour",
+        "food.grain.pseudocereals.amaranth",
+        "food.grain.pseudocereals.buckwheat",
+        "food.grain.pseudocereals.chia",
+        "food.grain.pseudocereals.kaniwa",
+        "food.grain.pseudocereals.mesquite-flour",
+        "food.grain.pseudocereals.perilla-seed",
+        "food.grain.pseudocereals.plantain-flour",
+        "food.grain.pseudocereals.quinoa",
+        "food.grain.pseudocereals.wattleseed",
+        "food.grain.starches.chestnut-starch",
+        "food.grain.starches.glutinous-rice-starch",
+        "food.grain.starches.kudzu-starch",
+        "food.grain.starches.lotus-root-starch",
+        "food.grain.starches.pea-starch",
+        "food.grain.starches.potato-flour",
+        "food.grain.starches.rice-starch",
+        "food.grain.starches.sago-starch",
+        "food.grain.starches.sorghum-starch",
+        "food.grain.starches.tapioca-starch",
+        "food.grain.starches.water-chestnut-starch",
+        "food.grain.starches.waxy-corn-starch",
+        "food.grain.starches.waxy-rice-starch",
+        "food.grain.starches.wheat-starch",
+        "food.grain.whole-grains.barley",
+        "food.grain.whole-grains.barnyard-millet",
+        "food.grain.whole-grains.corn",
+        "food.grain.whole-grains.einkorn",
+        "food.grain.whole-grains.farro",
+        "food.grain.whole-grains.finger-millet",
+        "food.grain.whole-grains.fonio",
+        "food.grain.whole-grains.foxtail-millet",
+        "food.grain.whole-grains.jobs-tears",
+        "food.grain.whole-grains.khorasan-wheat",
+        "food.grain.whole-grains.millet",
+        "food.grain.whole-grains.oats",
+        "food.grain.whole-grains.pearl-millet",
+        "food.grain.whole-grains.proso-millet",
+        "food.grain.whole-grains.rice",
+        "food.grain.whole-grains.rye",
+        "food.grain.whole-grains.sorghum",
+        "food.grain.whole-grains.spelt",
+        "food.grain.whole-grains.teff",
+        "food.grain.whole-grains.triticale",
+        "food.grain.whole-grains.wheat",
+        "food.grain.whole-grains.wild-rice"
+      ],
+      "entitiesWithOnlyFlaggedEdges": [
+        "food.grain.processed-grains.wheat-flour",
+        "food.grain.starches.arrowroot-starch",
+        "food.grain.starches.cornstarch",
+        "food.grain.starches.mung-bean-starch",
+        "food.grain.starches.potato-starch",
+        "food.grain.starches.sweet-potato-starch",
+        "food.grain.starches.taro-starch"
+      ]
+    },
+    "fruit": {
+      "totalEdges": 265,
+      "cleanEdges": 0,
+      "flaggedEdges": 265,
+      "entitiesWithCleanEdge": [],
+      "entitiesWithOnlyFlaggedEdges": [
+        "food.fruit.berries.acai",
+        "food.fruit.berries.barberry",
+        "food.fruit.berries.black-currant",
+        "food.fruit.berries.blackberry",
+        "food.fruit.berries.blueberry",
+        "food.fruit.berries.boysenberry",
+        "food.fruit.berries.cloudberry",
+        "food.fruit.berries.cranberry",
+        "food.fruit.berries.elderberry",
+        "food.fruit.berries.goji-berry",
+        "food.fruit.berries.gooseberry",
+        "food.fruit.berries.grape",
+        "food.fruit.berries.huckleberry",
+        "food.fruit.berries.juniper-berry",
+        "food.fruit.berries.lingonberry",
+        "food.fruit.berries.loganberry",
+        "food.fruit.berries.marionberry",
+        "food.fruit.berries.mulberry",
+        "food.fruit.berries.raspberry",
+        "food.fruit.berries.red-currant",
+        "food.fruit.berries.sea-buckthorn",
+        "food.fruit.berries.strawberry",
+        "food.fruit.berries.tayberry",
+        "food.fruit.berries.wineberry",
+        "food.fruit.citrus.bergamot",
+        "food.fruit.citrus.blood-orange",
+        "food.fruit.citrus.calamansi",
+        "food.fruit.citrus.citron",
+        "food.fruit.citrus.clementine",
+        "food.fruit.citrus.grapefruit",
+        "food.fruit.citrus.key-lime",
+        "food.fruit.citrus.kumquat",
+        "food.fruit.citrus.lemon",
+        "food.fruit.citrus.lime",
+        "food.fruit.citrus.mandarin",
+        "food.fruit.citrus.orange",
+        "food.fruit.citrus.pomelo",
+        "food.fruit.citrus.satsuma",
+        "food.fruit.citrus.sudachi",
+        "food.fruit.citrus.tangerine",
+        "food.fruit.citrus.yuzu",
+        "food.fruit.melons.canary-melon",
+        "food.fruit.melons.cantaloupe",
+        "food.fruit.melons.casaba-melon",
+        "food.fruit.melons.crenshaw-melon",
+        "food.fruit.melons.galia-melon",
+        "food.fruit.melons.honeydew",
+        "food.fruit.melons.horned-melon",
+        "food.fruit.melons.piel-de-sapo",
+        "food.fruit.melons.watermelon",
+        "food.fruit.pomes.apple",
+        "food.fruit.pomes.asian-pear",
+        "food.fruit.pomes.crabapple",
+        "food.fruit.pomes.hawthorn",
+        "food.fruit.pomes.loquat",
+        "food.fruit.pomes.medlar",
+        "food.fruit.pomes.pear",
+        "food.fruit.pomes.quince",
+        "food.fruit.pomes.rowan",
+        "food.fruit.pomes.serviceberry",
+        "food.fruit.pomes.sorb-apple",
+        "food.fruit.pomes.tejocote",
+        "food.fruit.processed-fruits.banana-chips",
+        "food.fruit.processed-fruits.candied-orange-peel",
+        "food.fruit.processed-fruits.coconut-milk",
+        "food.fruit.processed-fruits.currants",
+        "food.fruit.processed-fruits.desiccated-coconut",
+        "food.fruit.processed-fruits.dried-apple",
+        "food.fruit.processed-fruits.dried-apricot",
+        "food.fruit.processed-fruits.dried-blueberry",
+        "food.fruit.processed-fruits.dried-cherry",
+        "food.fruit.processed-fruits.dried-cranberry",
+        "food.fruit.processed-fruits.dried-date",
+        "food.fruit.processed-fruits.dried-fig",
+        "food.fruit.processed-fruits.dried-mango",
+        "food.fruit.processed-fruits.dried-pineapple",
+        "food.fruit.processed-fruits.golden-raisin",
+        "food.fruit.processed-fruits.prune",
+        "food.fruit.processed-fruits.raisin",
+        "food.fruit.processed-fruits.sultanas",
+        "food.fruit.stone-fruits.apricot",
+        "food.fruit.stone-fruits.aprium",
+        "food.fruit.stone-fruits.black-cherry",
+        "food.fruit.stone-fruits.damson",
+        "food.fruit.stone-fruits.flat-peach",
+        "food.fruit.stone-fruits.greengage",
+        "food.fruit.stone-fruits.mirabelle",
+        "food.fruit.stone-fruits.montmorency-cherry",
+        "food.fruit.stone-fruits.mume",
+        "food.fruit.stone-fruits.nectarine",
+        "food.fruit.stone-fruits.peach",
+        "food.fruit.stone-fruits.plum",
+        "food.fruit.stone-fruits.pluot",
+        "food.fruit.stone-fruits.sand-cherry",
+        "food.fruit.stone-fruits.sloe",
+        "food.fruit.stone-fruits.sour-cherry",
+        "food.fruit.stone-fruits.sweet-cherry",
+        "food.fruit.tropical-fruits.avocado",
+        "food.fruit.tropical-fruits.banana",
+        "food.fruit.tropical-fruits.coconut",
+        "food.fruit.tropical-fruits.date",
+        "food.fruit.tropical-fruits.dragon-fruit",
+        "food.fruit.tropical-fruits.durian",
+        "food.fruit.tropical-fruits.fig",
+        "food.fruit.tropical-fruits.guava",
+        "food.fruit.tropical-fruits.jackfruit",
+        "food.fruit.tropical-fruits.kiwi",
+        "food.fruit.tropical-fruits.lychee",
+        "food.fruit.tropical-fruits.mango",
+        "food.fruit.tropical-fruits.mangosteen",
+        "food.fruit.tropical-fruits.papaya",
+        "food.fruit.tropical-fruits.passion-fruit",
+        "food.fruit.tropical-fruits.persimmon",
+        "food.fruit.tropical-fruits.pineapple",
+        "food.fruit.tropical-fruits.plantain",
+        "food.fruit.tropical-fruits.pomegranate",
+        "food.fruit.tropical-fruits.rambutan",
+        "food.fruit.tropical-fruits.starfruit",
+        "food.fruit.tropical-fruits.tamarind"
+      ]
+    },
+    "nut-seed": {
+      "totalEdges": 215,
+      "cleanEdges": 0,
+      "flaggedEdges": 215,
+      "entitiesWithCleanEdge": [],
+      "entitiesWithOnlyFlaggedEdges": [
+        "food.nut-seed.edible-seeds.breadfruit-seed",
+        "food.nut-seed.edible-seeds.breadnut-seed",
+        "food.nut-seed.edible-seeds.chia-seed",
+        "food.nut-seed.edible-seeds.cucumber-seed",
+        "food.nut-seed.edible-seeds.desert-date-seed",
+        "food.nut-seed.edible-seeds.flaxseed",
+        "food.nut-seed.edible-seeds.hemp-seed",
+        "food.nut-seed.edible-seeds.hemp-seed-meal",
+        "food.nut-seed.edible-seeds.jackfruit-seed",
+        "food.nut-seed.edible-seeds.lotus-seed",
+        "food.nut-seed.edible-seeds.melon-seed",
+        "food.nut-seed.edible-seeds.niger-seed",
+        "food.nut-seed.edible-seeds.okra-seed",
+        "food.nut-seed.edible-seeds.palmyra-seed",
+        "food.nut-seed.edible-seeds.pomegranate-seed",
+        "food.nut-seed.edible-seeds.psyllium-seed",
+        "food.nut-seed.edible-seeds.pumpkin-seed",
+        "food.nut-seed.edible-seeds.sacha-inchi-seed",
+        "food.nut-seed.edible-seeds.safflower-meal",
+        "food.nut-seed.edible-seeds.safflower-seed",
+        "food.nut-seed.edible-seeds.sesame",
+        "food.nut-seed.edible-seeds.squash-seed",
+        "food.nut-seed.edible-seeds.sunflower-seed",
+        "food.nut-seed.edible-seeds.watermelon-seed",
+        "food.nut-seed.nut-products.almond-butter",
+        "food.nut-seed.nut-products.almond-flour",
+        "food.nut-seed.nut-products.almond-meal",
+        "food.nut-seed.nut-products.brazil-nut-meal",
+        "food.nut-seed.nut-products.cashew-butter",
+        "food.nut-seed.nut-products.cashew-flour",
+        "food.nut-seed.nut-products.chestnut-flour",
+        "food.nut-seed.nut-products.hazelnut-butter",
+        "food.nut-seed.nut-products.hazelnut-flour",
+        "food.nut-seed.nut-products.hazelnut-meal",
+        "food.nut-seed.nut-products.macadamia-butter",
+        "food.nut-seed.nut-products.peanut-butter",
+        "food.nut-seed.nut-products.pecan-butter",
+        "food.nut-seed.nut-products.pecan-meal",
+        "food.nut-seed.nut-products.pine-nut-paste",
+        "food.nut-seed.nut-products.pistachio-paste",
+        "food.nut-seed.nut-products.walnut-butter",
+        "food.nut-seed.nut-products.walnut-meal",
+        "food.nut-seed.peanuts.peanut",
+        "food.nut-seed.seed-products.chia-seed-meal",
+        "food.nut-seed.seed-products.flaxseed-butter",
+        "food.nut-seed.seed-products.flaxseed-meal",
+        "food.nut-seed.seed-products.hemp-seed-butter",
+        "food.nut-seed.seed-products.hemp-seed-flour",
+        "food.nut-seed.seed-products.niger-seed-paste",
+        "food.nut-seed.seed-products.pumpkin-seed-butter",
+        "food.nut-seed.seed-products.pumpkin-seed-flour",
+        "food.nut-seed.seed-products.pumpkin-seed-meal",
+        "food.nut-seed.seed-products.sacha-inchi-butter",
+        "food.nut-seed.seed-products.sesame-flour",
+        "food.nut-seed.seed-products.sesame-paste",
+        "food.nut-seed.seed-products.sunflower-seed-butter",
+        "food.nut-seed.seed-products.sunflower-seed-flour",
+        "food.nut-seed.seed-products.sunflower-seed-paste",
+        "food.nut-seed.seed-products.tahini",
+        "food.nut-seed.seed-spices.egusi-seed",
+        "food.nut-seed.seed-spices.leek-seed",
+        "food.nut-seed.seed-spices.mahlab",
+        "food.nut-seed.seed-spices.onion-seed",
+        "food.nut-seed.seed-spices.palm-kernel-seed",
+        "food.nut-seed.seed-spices.perilla-seed",
+        "food.nut-seed.seed-spices.poppy-seed",
+        "food.nut-seed.seed-spices.radish-seed",
+        "food.nut-seed.seed-spices.wattleseed",
+        "food.nut-seed.tree-nuts.almond",
+        "food.nut-seed.tree-nuts.baru-nut",
+        "food.nut-seed.tree-nuts.beechnut",
+        "food.nut-seed.tree-nuts.bitter-almond",
+        "food.nut-seed.tree-nuts.brazil-nut",
+        "food.nut-seed.tree-nuts.candlenut",
+        "food.nut-seed.tree-nuts.cashew",
+        "food.nut-seed.tree-nuts.chestnut",
+        "food.nut-seed.tree-nuts.ginkgo-nut",
+        "food.nut-seed.tree-nuts.hazelnut",
+        "food.nut-seed.tree-nuts.hickory-nut",
+        "food.nut-seed.tree-nuts.kola-nut",
+        "food.nut-seed.tree-nuts.macadamia",
+        "food.nut-seed.tree-nuts.mongongo-nut",
+        "food.nut-seed.tree-nuts.paradise-nut",
+        "food.nut-seed.tree-nuts.pecan",
+        "food.nut-seed.tree-nuts.pili-nut",
+        "food.nut-seed.tree-nuts.pine-nut",
+        "food.nut-seed.tree-nuts.pistachio",
+        "food.nut-seed.tree-nuts.saba-nut",
+        "food.nut-seed.tree-nuts.walnut"
+      ]
+    },
+    "legume": {
+      "totalEdges": 199,
+      "cleanEdges": 0,
+      "flaggedEdges": 199,
+      "entitiesWithCleanEdge": [],
+      "entitiesWithOnlyFlaggedEdges": [
+        "food.legume.beans.anasazi-bean",
+        "food.legume.beans.black-bean",
+        "food.legume.beans.black-turtle-bean",
+        "food.legume.beans.borlotti-bean",
+        "food.legume.beans.butter-bean",
+        "food.legume.beans.cannellini-bean",
+        "food.legume.beans.cranberry-bean",
+        "food.legume.beans.fava-bean",
+        "food.legume.beans.flageolet-bean",
+        "food.legume.beans.great-northern-bean",
+        "food.legume.beans.haricot-bean",
+        "food.legume.beans.jacob-cattle-bean",
+        "food.legume.beans.kidney-bean",
+        "food.legume.beans.lima-bean",
+        "food.legume.beans.marrow-bean",
+        "food.legume.beans.mayocoba-bean",
+        "food.legume.beans.navy-bean",
+        "food.legume.beans.pink-bean",
+        "food.legume.beans.pinto-bean",
+        "food.legume.beans.rattlesnake-bean",
+        "food.legume.beans.roman-bean",
+        "food.legume.beans.scarlet-runner-bean",
+        "food.legume.beans.small-red-bean",
+        "food.legume.beans.soldier-bean",
+        "food.legume.beans.tepary-bean",
+        "food.legume.beans.white-bean",
+        "food.legume.chickpeas.black-chickpea",
+        "food.legume.chickpeas.chickpea",
+        "food.legume.chickpeas.green-chickpea",
+        "food.legume.legume-products.black-bean-flour",
+        "food.legume.legume-products.chickpea-flour",
+        "food.legume.legume-products.fava-bean-flour",
+        "food.legume.legume-products.fermented-black-bean",
+        "food.legume.legume-products.lentil-flour",
+        "food.legume.legume-products.lupin-flour",
+        "food.legume.legume-products.miso",
+        "food.legume.legume-products.mung-bean-flour",
+        "food.legume.legume-products.natto",
+        "food.legume.legume-products.pea-flour",
+        "food.legume.legume-products.red-lentil-flour",
+        "food.legume.legume-products.soy-curls",
+        "food.legume.legume-products.soy-flour",
+        "food.legume.legume-products.tempeh",
+        "food.legume.legume-products.textured-vegetable-protein",
+        "food.legume.legume-products.tofu",
+        "food.legume.legume-products.white-bean-flour",
+        "food.legume.lentils.black-lentil",
+        "food.legume.lentils.brown-lentil",
+        "food.legume.lentils.coral-lentil",
+        "food.legume.lentils.golden-lentil",
+        "food.legume.lentils.green-lentil",
+        "food.legume.lentils.macachiados-lentil",
+        "food.legume.lentils.puy-lentil",
+        "food.legume.lentils.red-lentil",
+        "food.legume.lentils.yellow-lentil",
+        "food.legume.other-legumes.adzuki-bean",
+        "food.legume.other-legumes.black-gram",
+        "food.legume.other-legumes.guar-bean",
+        "food.legume.other-legumes.horse-gram",
+        "food.legume.other-legumes.hyacinth-bean",
+        "food.legume.other-legumes.jack-bean",
+        "food.legume.other-legumes.lupin-bean",
+        "food.legume.other-legumes.moth-bean",
+        "food.legume.other-legumes.mung-bean",
+        "food.legume.other-legumes.pigeon-pea",
+        "food.legume.other-legumes.soybean",
+        "food.legume.other-legumes.winged-bean",
+        "food.legume.peas.black-eyed-pea",
+        "food.legume.peas.field-pea",
+        "food.legume.peas.green-pea",
+        "food.legume.peas.marrowfat-pea",
+        "food.legume.peas.purple-hull-pea",
+        "food.legume.peas.snap-pea",
+        "food.legume.peas.snow-pea",
+        "food.legume.peas.yellow-pea"
+      ]
+    },
+    "sweet-flavor": {
+      "totalEdges": 194,
+      "cleanEdges": 0,
+      "flaggedEdges": 194,
+      "entitiesWithCleanEdge": [],
+      "entitiesWithOnlyFlaggedEdges": [
+        "food.sweet-flavor.alternative-sweeteners.allulose",
+        "food.sweet-flavor.alternative-sweeteners.aspartame",
+        "food.sweet-flavor.alternative-sweeteners.cyclamate",
+        "food.sweet-flavor.alternative-sweeteners.erythritol",
+        "food.sweet-flavor.alternative-sweeteners.maltitol",
+        "food.sweet-flavor.alternative-sweeteners.saccharin",
+        "food.sweet-flavor.alternative-sweeteners.sorbitol",
+        "food.sweet-flavor.alternative-sweeteners.stevia",
+        "food.sweet-flavor.alternative-sweeteners.sucralose",
+        "food.sweet-flavor.alternative-sweeteners.tagatose",
+        "food.sweet-flavor.alternative-sweeteners.xylitol",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.black-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-bean",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-nibs",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-paste",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.chocolate-liquor",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-butter",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-presscake",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.cocoa-solids",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.defatted-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.dutch-process-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.ground-cacao",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.high-fat-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.natural-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.raw-cacao",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.red-cocoa-powder",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.roasted-cacao-nibs",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.ruby-cacao",
+        "food.sweet-flavor.cocoa-chocolate-ingredients.toasted-cacao",
+        "food.sweet-flavor.honey-bee-products.buckwheat-honey",
+        "food.sweet-flavor.honey-bee-products.clover-honey",
+        "food.sweet-flavor.honey-bee-products.comb-honey",
+        "food.sweet-flavor.honey-bee-products.honey",
+        "food.sweet-flavor.honey-bee-products.manuka-honey",
+        "food.sweet-flavor.natural-sweeteners.agave",
+        "food.sweet-flavor.natural-sweeteners.birch-sugar",
+        "food.sweet-flavor.natural-sweeteners.carob-powder",
+        "food.sweet-flavor.natural-sweeteners.coconut-sugar",
+        "food.sweet-flavor.natural-sweeteners.date-syrup",
+        "food.sweet-flavor.natural-sweeteners.fruit-sugar",
+        "food.sweet-flavor.natural-sweeteners.grape-sugar",
+        "food.sweet-flavor.natural-sweeteners.lucuma-powder",
+        "food.sweet-flavor.natural-sweeteners.mesquite-powder",
+        "food.sweet-flavor.natural-sweeteners.monk-fruit-sweetener",
+        "food.sweet-flavor.natural-sweeteners.yacon-syrup",
+        "food.sweet-flavor.sugars.beet-sugar",
+        "food.sweet-flavor.sugars.brown-sugar",
+        "food.sweet-flavor.sugars.cane-sugar",
+        "food.sweet-flavor.sugars.demerara-sugar",
+        "food.sweet-flavor.sugars.jaggery",
+        "food.sweet-flavor.sugars.maple-sugar",
+        "food.sweet-flavor.sugars.muscovado-sugar",
+        "food.sweet-flavor.sugars.palm-sugar",
+        "food.sweet-flavor.sugars.panela",
+        "food.sweet-flavor.sugars.piloncillo",
+        "food.sweet-flavor.sugars.raw-sugar",
+        "food.sweet-flavor.sugars.rock-sugar",
+        "food.sweet-flavor.sugars.turbinado-sugar",
+        "food.sweet-flavor.syrups.barley-malt-syrup",
+        "food.sweet-flavor.syrups.blackstrap-molasses",
+        "food.sweet-flavor.syrups.cane-syrup",
+        "food.sweet-flavor.syrups.corn-syrup",
+        "food.sweet-flavor.syrups.glucose-syrup",
+        "food.sweet-flavor.syrups.golden-syrup",
+        "food.sweet-flavor.syrups.invert-sugar-syrup",
+        "food.sweet-flavor.syrups.maple-syrup",
+        "food.sweet-flavor.syrups.molasses",
+        "food.sweet-flavor.syrups.palm-syrup",
+        "food.sweet-flavor.syrups.rice-syrup",
+        "food.sweet-flavor.syrups.sorghum-syrup",
+        "food.sweet-flavor.syrups.treacle"
+      ]
+    }
+  },
+  "local_verification": {
+    "total_checks": 15,
+    "passed": 15,
+    "failed": 0,
+    "checks": [
+      {
+        "id": "V01_V02_inventory_and_eat05_reconciliation",
+        "description": "Exact in-scope page inventory (leaf/group/category counts per domain) reconciles exactly against the EAT-05 published-count baseline.",
+        "pass": true,
+        "evidence": {
+          "inventory": {
+            "vegetable": {
+              "leaf_count": 74,
+              "group_count": 4,
+              "category_count": 1
+            },
+            "herb-spice": {
+              "leaf_count": 113,
+              "group_count": 4,
+              "category_count": 1
+            },
+            "grain-starch": {
+              "leaf_count": 76,
+              "group_count": 4,
+              "category_count": 1
+            },
+            "fruit": {
+              "leaf_count": 119,
+              "group_count": 7,
+              "category_count": 1
+            },
+            "nut-seed": {
+              "leaf_count": 89,
+              "group_count": 6,
+              "category_count": 1
+            },
+            "legume": {
+              "leaf_count": 75,
+              "group_count": 6,
+              "category_count": 1
+            },
+            "sweet-flavor": {
+              "leaf_count": 73,
+              "group_count": 6,
+              "category_count": 1
+            },
+            "protein": {
+              "leaf_count": null,
+              "group_count": 17,
+              "category_count": 3
+            }
+          },
+          "mismatches": []
+        }
+      },
+      {
+        "id": "V03_V04_regeneration_scope",
+        "description": "Only vegetable/herb-spice/grain-starch leaf pages were regenerated (non-zero changes); fruit/nut-seed/legume/sweet-flavor leaf pages are byte-unchanged (evidence-quality block); zero group/category pages changed anywhere; zero out-of-scope family (protein leaf, sauce-condiment, fungi, sweet-flavor-category) pages changed.",
+        "pass": true,
+        "evidence": {
+          "perDomainChanged": {
+            "vegetable": 72,
+            "herb-spice": 113,
+            "grain-starch": 69,
+            "fruit": 0,
+            "nut-seed": 0,
+            "legume": 0,
+            "sweet-flavor": 0
+          },
+          "groupCategoryChanged": [],
+          "outOfScopeChanged": []
+        }
+      },
+      {
+        "id": "V05_V11_V12_V13_additive_only_structure_preserved",
+        "description": "For every modified leaf page, the new 'Why These Wines Work' <section> is removed using its exact structural marker (the literal wrapper renderNarrativeSection() emits), and the remaining document is proven BYTE-IDENTICAL to the HEAD version — not inferred from absence of removed diff lines. This simultaneously proves introduction, taxonomy content, wine-pairing links outside the new section, breadcrumbs, canonical, JSON-LD, navigation, and metadata are all unchanged, since any change to any of them would break byte-identity. Individual structural-area diffs are reported for any file that fails this proof.",
+        "pass": true,
+        "evidence": {
+          "filesChecked": 254,
+          "byteIdenticalAfterStrip": 254,
+          "offenders": []
+        }
+      },
+      {
+        "id": "V06_V07_V08_enrichment_coverage_relationship_backed",
+        "description": "For each enriched domain, the number of leaf pages carrying a 'Why These Wines Work' section exactly equals the number of entities with at least one display-suitable wine-relationship edge in the authoritative data, and every rendered reason paragraph carries its source/target/relationship attribution.",
+        "pass": true,
+        "evidence": {
+          "vegetable": {
+            "leafTotal": 74,
+            "entitiesWithCleanEdgeInData": 72,
+            "pagesWithSection": 72,
+            "pagesWithRelationshipAttrs": 72,
+            "coverageMatchesData": true
+          },
+          "herb-spice": {
+            "leafTotal": 113,
+            "entitiesWithCleanEdgeInData": 113,
+            "pagesWithSection": 113,
+            "pagesWithRelationshipAttrs": 113,
+            "coverageMatchesData": true
+          },
+          "grain-starch": {
+            "leafTotal": 76,
+            "entitiesWithCleanEdgeInData": 69,
+            "pagesWithSection": 69,
+            "pagesWithRelationshipAttrs": 69,
+            "coverageMatchesData": true
+          }
+        }
+      },
+      {
+        "id": "V09_V10_no_generic_fallback_no_fabricated_claims",
+        "description": "No rendered leaf page contains templated/governance-code-leaked evidence text or a fabricated first-hand/expert-credential claim pattern.",
+        "pass": true,
+        "evidence": {
+          "offenders": []
+        }
+      },
+      {
+        "id": "V14_V15_V16_V17_V18_V19_V20_V21_V22_V23_protected_paths_untouched",
+        "description": "No protected system (runtime/editorial relationship data, wine/grape/cheese catalogs, pairing engine, language/Spanish system, sitemap/redirect architecture, legal pages, deferred audit modules, fungi's own explanation module, out-of-scope food families, cheese publication, prior EAT reports) appears in the tracked or staged diff. Pre-existing untracked noise is reported separately and never evaluated against the protected list.",
+        "pass": true,
+        "evidence": {
+          "protectedOffendersCount": 0,
+          "protectedOffenders": [],
+          "trackedModifiedFileCount": 515,
+          "stagedFileCount": 0,
+          "untrackedFileCount": 235
+        }
+      },
+      {
+        "id": "V24_deterministic_rebuild",
+        "description": "Each domain's own HTML-generation stage (lib/food-publication/html.js) ran a built-in first-pass/second-pass byte-identity check and reported PASS for every in-scope domain, including the four where the render itself is a no-op due to the evidence-quality block.",
+        "pass": true,
+        "evidence": {
+          "vegetable": {
+            "found": true,
+            "deterministicRegeneration": "PASS",
+            "overallResult": "PASS"
+          },
+          "herb-spice": {
+            "found": true,
+            "deterministicRegeneration": "PASS",
+            "overallResult": "PASS"
+          },
+          "grain-starch": {
+            "found": true,
+            "deterministicRegeneration": "PASS",
+            "overallResult": "PASS"
+          },
+          "fruit": {
+            "found": true,
+            "deterministicRegeneration": "PASS",
+            "overallResult": "PASS"
+          },
+          "nut-seed": {
+            "found": true,
+            "deterministicRegeneration": "PASS",
+            "overallResult": "PASS"
+          },
+          "legume": {
+            "found": true,
+            "deterministicRegeneration": "PASS",
+            "overallResult": "PASS"
+          },
+          "sweet-flavor": {
+            "found": true,
+            "deterministicRegeneration": "PASS",
+            "overallResult": "PASS"
+          }
+        }
+      },
+      {
+        "id": "V25_duplication_similarity_audit",
+        "description": "Distinguishes exact-duplicate-text detection (hard validation, checked across every enriched entity) from pairwise Jaccard similarity measurement (diagnostic evidence only, computed over a deterministic lexicographically-sorted 30-entity sample, no arbitrary failure threshold applied).",
+        "pass": true,
+        "evidence": {
+          "vegetable": {
+            "entitiesWithSection": 72,
+            "hard_validation__exact_duplicate_detection": {
+              "scope": "all enriched entities in this domain",
+              "exactDuplicateParagraphCount": 0
+            },
+            "diagnostic_evidence__similarity_measurement": {
+              "scope": "deterministic sample: entity slugs sorted lexicographically, first 30 taken",
+              "sampleSize": 30,
+              "sampleFirstSlug": "acorn-squash",
+              "sampleLastSlug": "garlic",
+              "avgPairwiseSimilaritySample": 0.208,
+              "maxPairwiseSimilaritySample": 0.5,
+              "maxSimilarityPair": [
+                "bamboo-shoot",
+                "bok-choy"
+              ],
+              "note": "No pass/fail threshold is applied to this measurement — it is diagnostic evidence for human review, per the ticket's explicit instruction not to introduce an arbitrary similarity threshold."
+            }
+          },
+          "herb-spice": {
+            "entitiesWithSection": 113,
+            "hard_validation__exact_duplicate_detection": {
+              "scope": "all enriched entities in this domain",
+              "exactDuplicateParagraphCount": 0
+            },
+            "diagnostic_evidence__similarity_measurement": {
+              "scope": "deterministic sample: entity slugs sorted lexicographically, first 30 taken",
+              "sampleSize": 30,
+              "sampleFirstSlug": "ajwain",
+              "sampleLastSlug": "coriander-seed",
+              "avgPairwiseSimilaritySample": 0.233,
+              "maxPairwiseSimilaritySample": 0.595,
+              "maxSimilarityPair": [
+                "cinnamon",
+                "clove"
+              ],
+              "note": "No pass/fail threshold is applied to this measurement — it is diagnostic evidence for human review, per the ticket's explicit instruction not to introduce an arbitrary similarity threshold."
+            }
+          },
+          "grain-starch": {
+            "entitiesWithSection": 69,
+            "hard_validation__exact_duplicate_detection": {
+              "scope": "all enriched entities in this domain",
+              "exactDuplicateParagraphCount": 0
+            },
+            "diagnostic_evidence__similarity_measurement": {
+              "scope": "deterministic sample: entity slugs sorted lexicographically, first 30 taken",
+              "sampleSize": 30,
+              "sampleFirstSlug": "amaranth",
+              "sampleLastSlug": "matzo-meal",
+              "avgPairwiseSimilaritySample": 0.219,
+              "maxPairwiseSimilaritySample": 0.5,
+              "maxSimilarityPair": [
+                "kudzu-starch",
+                "lotus-root-starch"
+              ],
+              "note": "No pass/fail threshold is applied to this measurement — it is diagnostic evidence for human review, per the ticket's explicit instruction not to introduce an arbitrary similarity threshold."
+            }
+          }
+        }
+      },
+      {
+        "id": "V26_content_origin_and_no_padding",
+        "description": "New-section prose is structurally derived from actual relationship records; no independent filler block is present. For every enriched page: every rendered pairing-reason paragraph's (source, relationship, target) triple is cross-checked against the domain's actual filtered wine-relationship edges (not assumed); the section is confirmed to contain ONLY pairing-reason paragraphs plus the required heading (no independent filler prose); reason-count and word-count distributions are reported per bucket; and a real Pearson correlation coefficient between reason count and section word count is calculated (not claimed without computing it) to show word count tracks the actual number of relationship records rendered, rather than being fixed.",
+        "pass": true,
+        "evidence": {
+          "vegetable": {
+            "entitiesChecked": 72,
+            "paragraphsTotal": 114,
+            "paragraphsAllBackedByRecord": 114,
+            "allParagraphsBackedByRecord": true,
+            "entitiesWithNoStrayContent": 72,
+            "allEntitiesFreeOfStrayContent": true,
+            "reasonCountDistribution": {
+              "1": 38,
+              "2": 26,
+              "3": 8
+            },
+            "wordCountDistributionByReasonCount": {
+              "1": {
+                "entityCount": 38,
+                "avgWords": 15.1,
+                "minWords": 12,
+                "maxWords": 21
+              },
+              "2": {
+                "entityCount": 26,
+                "avgWords": 29.3,
+                "minWords": 23,
+                "maxWords": 36
+              },
+              "3": {
+                "entityCount": 8,
+                "avgWords": 46.1,
+                "minWords": 42,
+                "maxWords": 54
+              }
+            },
+            "pearsonCorrelationReasonCountVsWordCount": 0.964,
+            "distinctWordCountsAcrossBuckets": true
+          },
+          "herb-spice": {
+            "entitiesChecked": 113,
+            "paragraphsTotal": 203,
+            "paragraphsAllBackedByRecord": 203,
+            "allParagraphsBackedByRecord": true,
+            "entitiesWithNoStrayContent": 113,
+            "allEntitiesFreeOfStrayContent": true,
+            "reasonCountDistribution": {
+              "1": 56,
+              "2": 24,
+              "3": 33
+            },
+            "wordCountDistributionByReasonCount": {
+              "1": {
+                "entityCount": 56,
+                "avgWords": 16.6,
+                "minWords": 12,
+                "maxWords": 22
+              },
+              "2": {
+                "entityCount": 24,
+                "avgWords": 28.9,
+                "minWords": 25,
+                "maxWords": 35
+              },
+              "3": {
+                "entityCount": 33,
+                "avgWords": 43.6,
+                "minWords": 38,
+                "maxWords": 54
+              }
+            },
+            "pearsonCorrelationReasonCountVsWordCount": 0.963,
+            "distinctWordCountsAcrossBuckets": true
+          },
+          "grain-starch": {
+            "entitiesChecked": 69,
+            "paragraphsTotal": 130,
+            "paragraphsAllBackedByRecord": 130,
+            "allParagraphsBackedByRecord": true,
+            "entitiesWithNoStrayContent": 69,
+            "allEntitiesFreeOfStrayContent": true,
+            "reasonCountDistribution": {
+              "1": 31,
+              "2": 15,
+              "3": 23
+            },
+            "wordCountDistributionByReasonCount": {
+              "1": {
+                "entityCount": 31,
+                "avgWords": 20.1,
+                "minWords": 13,
+                "maxWords": 27
+              },
+              "2": {
+                "entityCount": 15,
+                "avgWords": 33.3,
+                "minWords": 27,
+                "maxWords": 37
+              },
+              "3": {
+                "entityCount": 23,
+                "avgWords": 51,
+                "minWords": 40,
+                "maxWords": 64
+              }
+            },
+            "pearsonCorrelationReasonCountVsWordCount": 0.951,
+            "distinctWordCountsAcrossBuckets": true
+          }
+        }
+      },
+      {
+        "id": "V27_internal_links_indexability_preserved",
+        "description": "Every wine-style link introduced by the new section resolves to a real, existing published wine-style page.",
+        "pass": true,
+        "evidence": {
+          "linksChecked": 368,
+          "offenders": []
+        }
+      },
+      {
+        "id": "V28_diff_scope_verification",
+        "description": "Every tracked-modified file belongs to the expected EAT-07 change set (7 renderer edits, 3 domains' leaf HTML + dist mirror, per-domain html-render-report.json files).",
+        "pass": true,
+        "evidence": {
+          "trackedModifiedFileCount": 515,
+          "unexpected": []
+        }
+      },
+      {
+        "id": "V29_browser_qa",
+        "description": "Real-Chrome QA across representative enriched pages at both required viewports.",
+        "pass": true,
+        "evidence": {
+          "note": "Measured via a real-Chrome (playwright-core, channel: chrome) pass over representative pages served via local static HTTP (python3 -m http.server), at 1440x900 and 390x844. Per-page section visibility, overflow, and wine-style-link validity were checked with live DOM queries, not assumed.",
+          "pages_tested": [
+            "vegetables/garlic/",
+            "herbs-spices/clove/",
+            "grains-starches/amaranth-flour/"
+          ],
+          "measurements": {
+            "desktop_1440x900__vegetables/garlic/": {
+              "sectionVisible": true,
+              "horizontalOverflow": false,
+              "wineStyleLinkCount": 2,
+              "allLinksResolveToStylesPath": true
+            },
+            "desktop_1440x900__herbs-spices/clove/": {
+              "sectionVisible": true,
+              "horizontalOverflow": false,
+              "wineStyleLinkCount": 2,
+              "allLinksResolveToStylesPath": true
+            },
+            "desktop_1440x900__grains-starches/amaranth-flour/": {
+              "sectionVisible": true,
+              "horizontalOverflow": false,
+              "wineStyleLinkCount": 1,
+              "allLinksResolveToStylesPath": true
+            },
+            "mobile_390x844__vegetables/garlic/": {
+              "sectionVisible": true,
+              "horizontalOverflow": false,
+              "wineStyleLinkCount": 2,
+              "allLinksResolveToStylesPath": true
+            },
+            "mobile_390x844__herbs-spices/clove/": {
+              "sectionVisible": true,
+              "horizontalOverflow": false,
+              "wineStyleLinkCount": 2,
+              "allLinksResolveToStylesPath": true
+            },
+            "mobile_390x844__grains-starches/amaranth-flour/": {
+              "sectionVisible": true,
+              "horizontalOverflow": false,
+              "wineStyleLinkCount": 1,
+              "allLinksResolveToStylesPath": true
+            }
+          },
+          "consoleErrorsCausedByThisPhase": 0,
+          "consoleErrorsObservedButUnrelated": [
+            "Failed to load resource: the server responded with a status of 404 (File not found)  — pre-existing favicon.ico request, not caused by this phase"
+          ],
+          "result": "PASS"
+        }
+      },
+      {
+        "id": "V30_eat05_baseline_vs_eat07_supplemental_measurement",
+        "description": "Explicitly distinguishes the EAT-05 baseline value (recorded in reports/pairing-eat-05-content-quality.md at the time of that audit) from an EAT-07 supplemental measurement computed this run over the same sampled entities, using EAT-05's own extraction functions reproduced verbatim from scripts/verify-pairing-eat-05.mjs (read-only reference — that file was not modified). This is a like-for-like methodology reproduction, not an approximation. Reported as a measured delta, not a pass/fail threshold — the ticket explicitly rejects word-count as a success criterion.",
+        "pass": true,
+        "evidence": {
+          "vegetable": {
+            "eat05_baseline_value": {
+              "source": "reports/pairing-eat-05-content-quality.md, §7 per-family results",
+              "substantiveWordsAvg": 46
+            },
+            "eat07_supplemental_measurement": {
+              "source": "computed by this verifier, this run, over the same sampled entity slugs, using scripts/verify-pairing-eat-05.mjs's own extraction pipeline reproduced verbatim (stripTags/extractMainHtml/extractParagraphs/wordCount) — a like-for-like methodology match, not an approximation",
+              "substantiveWordsAvgSample": 69
+            },
+            "delta": 23
+          },
+          "herb-spice": {
+            "eat05_baseline_value": {
+              "source": "reports/pairing-eat-05-content-quality.md, §7 per-family results",
+              "substantiveWordsAvg": 54
+            },
+            "eat07_supplemental_measurement": {
+              "source": "computed by this verifier, this run, over the same sampled entity slugs, using scripts/verify-pairing-eat-05.mjs's own extraction pipeline reproduced verbatim (stripTags/extractMainHtml/extractParagraphs/wordCount) — a like-for-like methodology match, not an approximation",
+              "substantiveWordsAvgSample": 82
+            },
+            "delta": 28
+          },
+          "grain-starch": {
+            "eat05_baseline_value": {
+              "source": "reports/pairing-eat-05-content-quality.md, §7 per-family results",
+              "substantiveWordsAvg": 48
+            },
+            "eat07_supplemental_measurement": {
+              "source": "computed by this verifier, this run, over the same sampled entity slugs, using scripts/verify-pairing-eat-05.mjs's own extraction pipeline reproduced verbatim (stripTags/extractMainHtml/extractParagraphs/wordCount) — a like-for-like methodology match, not an approximation",
+              "substantiveWordsAvgSample": 76
+            },
+            "delta": 28
+          }
+        }
+      },
+      {
+        "id": "V_blocked_domain_evidence_numbers_exact",
+        "description": "Confirms the exact evidence-quality figures for every blocked/partially-blocked domain: fruit 265/265 flagged, nut-seed 215/215 flagged, legume 199/199 flagged, sweet-flavor 194/194 flagged, grain-starch 30 flagged/144 clean of 174. These relationship evidence fields were NOT rewritten and no replacement reader-facing prose was created from them — this check only confirms the classification numbers, it does not modify data/runtime/*-wine-relationships.json.",
+        "pass": true,
+        "evidence": {
+          "expected": {
+            "fruit": {
+              "totalEdges": 265,
+              "flaggedEdges": 265,
+              "cleanEdges": 0
+            },
+            "nut-seed": {
+              "totalEdges": 215,
+              "flaggedEdges": 215,
+              "cleanEdges": 0
+            },
+            "legume": {
+              "totalEdges": 199,
+              "flaggedEdges": 199,
+              "cleanEdges": 0
+            },
+            "sweet-flavor": {
+              "totalEdges": 194,
+              "flaggedEdges": 194,
+              "cleanEdges": 0
+            },
+            "grain-starch": {
+              "totalEdges": 174,
+              "flaggedEdges": 30,
+              "cleanEdges": 144
+            }
+          },
+          "actual": {
+            "fruit": {
+              "totalEdges": 265,
+              "flaggedEdges": 265,
+              "cleanEdges": 0
+            },
+            "nut-seed": {
+              "totalEdges": 215,
+              "flaggedEdges": 215,
+              "cleanEdges": 0
+            },
+            "legume": {
+              "totalEdges": 199,
+              "flaggedEdges": 199,
+              "cleanEdges": 0
+            },
+            "sweet-flavor": {
+              "totalEdges": 194,
+              "flaggedEdges": 194,
+              "cleanEdges": 0
+            },
+            "grain-starch": {
+              "totalEdges": 174,
+              "flaggedEdges": 30,
+              "cleanEdges": 144
+            }
+          },
+          "mismatches": []
+        }
+      },
+      {
+        "id": "V_group_category_deferment_explicit",
+        "description": "Zero group pages changed (any domain), zero category pages changed (any domain), protein group/category pages unchanged, and no group/category wine-relationship aggregation module was introduced under any name. Group/category-level wine aggregation remains deferred as a separate architecture/design decision because every existing wine-relationship edge's source is a leaf entity id — there is no validated precedent (fungi/EAT-06 included) for deriving a group- or category-level explanation from the existing relationship graph.",
+        "pass": true,
+        "evidence": {
+          "groupChanged": [],
+          "categoryChanged": [],
+          "proteinGroupChanged": [],
+          "proteinCategoryChanged": [],
+          "suspiciousNewFiles": []
+        }
+      }
+    ],
+    "overall": "PASS"
+  },
+  "production_after": {
+    "status": "NOT PERFORMED",
+    "note": "PAIRING-EAT-07 has not been committed, pushed, or deployed. Production verification does not occur in this phase."
+  },
+  "final_result": "LOCAL PASS — DIRECTOR REVIEW REQUIRED"
+}
