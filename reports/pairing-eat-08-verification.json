@@ -1,0 +1,491 @@
+{
+  "phase": "PAIRING-EAT-08",
+  "generatedAt": "2026-09-06T03:33:40.284Z",
+  "scope_decision": {
+    "affected_pages": [
+      "wine-with-steak.html",
+      "wine-with-chicken.html",
+      "wine-with-salmon.html",
+      "wine-for-bbq-ribs.html",
+      "wine-for-thanksgiving-turkey.html"
+    ],
+    "reference_template": "templates/high-intent-template.html",
+    "architecture_note": "This page family has no active generator/build pipeline — the 5 pages are static, hand-authored HTML, and templates/high-intent-template.html is a documentation-only reference (only read by this verifier and the EAT-05 auditor, never executed to produce output). The explanation was therefore applied identically to all 5 live pages AND to the reference template, rather than to a single shared render function, because no such function exists for this family."
+  },
+  "local_verification": {
+    "total_checks": 14,
+    "passed": 14,
+    "failed": 0,
+    "checks": [
+      {
+        "id": "V01_V02_implementation_located",
+        "description": "Pairing Strength is a static, hand-authored numeric value embedded directly in 5 published high-intent HTML pages (and mirrored in the reference template) — it is NOT computed by assets/js/pairing-engine.js or assets/js/pairing-data.js at runtime (neither file contains the string 'Pairing Strength'), and NOT present on any of the 11 other high-intent/seasonal pages (exhaustively checked, not assumed from the EAT-05 5-page sample).",
+        "pass": true,
+        "evidence": {
+          "pairingEngineContainsString": false,
+          "pairingDataContainsString": false,
+          "allAffectedPagesContainString": true,
+          "referenceTemplateContainsString": true,
+          "unexpectedPagesWithString": [],
+          "conclusion": "Pairing Strength values are static content, not a client/server-computed runtime value. See implementation report §3 for full discovery narrative."
+        }
+      },
+      {
+        "id": "V03_V04_V05_score_baseline_and_regression",
+        "description": "Score baseline was captured from the HEAD (pre-implementation) version of each affected page — wine name, confidence label, numeric Pairing Strength value, and card position/ranking — then re-extracted from the current working tree. Every value must match exactly (semantic re-extraction, not a raw byte diff, so this also proves ranking/ordering is unchanged). assets/js/pairing-engine.js and assets/js/pairing-data.js (the calculation logic) are also confirmed untouched.",
+        "pass": true,
+        "evidence": {
+          "baselineFromHead": {
+            "wine-with-steak.html": [
+              {
+                "position": 1,
+                "wine": "Cabernet Sauvignon",
+                "confidence_label": "Best classic pairing",
+                "score": 95
+              },
+              {
+                "position": 2,
+                "wine": "Syrah",
+                "confidence_label": "Best if the dish is smoky",
+                "score": 90
+              },
+              {
+                "position": 3,
+                "wine": "Malbec",
+                "confidence_label": "Most versatile choice",
+                "score": 88
+              }
+            ],
+            "wine-with-chicken.html": [
+              {
+                "position": 1,
+                "wine": "Sauvignon Blanc",
+                "confidence_label": "Most versatile choice",
+                "score": 90
+              },
+              {
+                "position": 2,
+                "wine": "Chardonnay (Unoaked)",
+                "confidence_label": "Best restaurant-style pairing",
+                "score": 85
+              },
+              {
+                "position": 3,
+                "wine": "Pinot Noir",
+                "confidence_label": "Best classic pairing",
+                "score": 83
+              }
+            ],
+            "wine-with-salmon.html": [
+              {
+                "position": 1,
+                "wine": "Pinot Noir",
+                "confidence_label": "Safest high-confidence pairing",
+                "score": 92
+              },
+              {
+                "position": 2,
+                "wine": "Chardonnay (Oaked)",
+                "confidence_label": "Best restaurant-style pairing",
+                "score": 88
+              },
+              {
+                "position": 3,
+                "wine": "Sauvignon Blanc",
+                "confidence_label": "Most versatile choice",
+                "score": 84
+              }
+            ],
+            "wine-for-bbq-ribs.html": [
+              {
+                "position": 1,
+                "wine": "Zinfandel",
+                "confidence_label": "Best if the dish is smoky",
+                "score": 88
+              },
+              {
+                "position": 2,
+                "wine": "Riesling (Off-Dry)",
+                "confidence_label": "Most food-friendly option",
+                "score": 85
+              },
+              {
+                "position": 3,
+                "wine": "Syrah",
+                "confidence_label": "Best classic pairing",
+                "score": 82
+              }
+            ],
+            "wine-for-thanksgiving-turkey.html": [
+              {
+                "position": 1,
+                "wine": "Pinot Noir",
+                "confidence_label": "Most food-friendly option",
+                "score": 88
+              },
+              {
+                "position": 2,
+                "wine": "Chardonnay (Oaked or Unoaked)",
+                "confidence_label": "Best restaurant-style pairing",
+                "score": 85
+              },
+              {
+                "position": 3,
+                "wine": "Riesling (Off-Dry)",
+                "confidence_label": "Most versatile choice",
+                "score": 90
+              }
+            ]
+          },
+          "currentWorking": {
+            "wine-with-steak.html": [
+              {
+                "position": 1,
+                "wine": "Cabernet Sauvignon",
+                "confidence_label": "Best classic pairing",
+                "score": 95
+              },
+              {
+                "position": 2,
+                "wine": "Syrah",
+                "confidence_label": "Best if the dish is smoky",
+                "score": 90
+              },
+              {
+                "position": 3,
+                "wine": "Malbec",
+                "confidence_label": "Most versatile choice",
+                "score": 88
+              }
+            ],
+            "wine-with-chicken.html": [
+              {
+                "position": 1,
+                "wine": "Sauvignon Blanc",
+                "confidence_label": "Most versatile choice",
+                "score": 90
+              },
+              {
+                "position": 2,
+                "wine": "Chardonnay (Unoaked)",
+                "confidence_label": "Best restaurant-style pairing",
+                "score": 85
+              },
+              {
+                "position": 3,
+                "wine": "Pinot Noir",
+                "confidence_label": "Best classic pairing",
+                "score": 83
+              }
+            ],
+            "wine-with-salmon.html": [
+              {
+                "position": 1,
+                "wine": "Pinot Noir",
+                "confidence_label": "Safest high-confidence pairing",
+                "score": 92
+              },
+              {
+                "position": 2,
+                "wine": "Chardonnay (Oaked)",
+                "confidence_label": "Best restaurant-style pairing",
+                "score": 88
+              },
+              {
+                "position": 3,
+                "wine": "Sauvignon Blanc",
+                "confidence_label": "Most versatile choice",
+                "score": 84
+              }
+            ],
+            "wine-for-bbq-ribs.html": [
+              {
+                "position": 1,
+                "wine": "Zinfandel",
+                "confidence_label": "Best if the dish is smoky",
+                "score": 88
+              },
+              {
+                "position": 2,
+                "wine": "Riesling (Off-Dry)",
+                "confidence_label": "Most food-friendly option",
+                "score": 85
+              },
+              {
+                "position": 3,
+                "wine": "Syrah",
+                "confidence_label": "Best classic pairing",
+                "score": 82
+              }
+            ],
+            "wine-for-thanksgiving-turkey.html": [
+              {
+                "position": 1,
+                "wine": "Pinot Noir",
+                "confidence_label": "Most food-friendly option",
+                "score": 88
+              },
+              {
+                "position": 2,
+                "wine": "Chardonnay (Oaked or Unoaked)",
+                "confidence_label": "Best restaurant-style pairing",
+                "score": 85
+              },
+              {
+                "position": 3,
+                "wine": "Riesling (Off-Dry)",
+                "confidence_label": "Most versatile choice",
+                "score": 90
+              }
+            ]
+          },
+          "mismatches": [],
+          "pairingEngineAndDataUnchanged": true
+        }
+      },
+      {
+        "id": "V06_page_family_inventory",
+        "description": "Exhaustive inventory of every published page family displaying Pairing Strength: exactly 5 pages (wine-with-steak, wine-with-chicken, wine-with-salmon, wine-for-bbq-ribs, wine-for-thanksgiving-turkey), all belonging to the 'high-intent pairing guide' family. The other 6 wine-with-* pages and all 5 seasonal/event guides do NOT display Pairing Strength (confirmed by direct grep of all 11 other high-intent/seasonal published pages, not assumed).",
+        "pass": true,
+        "evidence": {
+          "affectedPages": [
+            "wine-with-steak.html",
+            "wine-with-chicken.html",
+            "wine-with-salmon.html",
+            "wine-for-bbq-ribs.html",
+            "wine-for-thanksgiving-turkey.html"
+          ],
+          "confirmedNotAffected": [
+            "wine-with-creamy-dishes.html",
+            "wine-with-fried-fish.html",
+            "wine-with-grilled-steak.html",
+            "wine-with-roasted-chicken.html",
+            "wine-with-smoked-pork.html",
+            "wine-with-spicy-food.html",
+            "christmas-wine-pairing-guide.html",
+            "romantic-dinner-wine-guide.html",
+            "seasonal-wine-guides.html",
+            "summer-bbq-wine-guide.html",
+            "thanksgiving-wine-guide.html"
+          ]
+        }
+      },
+      {
+        "id": "V07_V08_V09_V10_explanation_content_and_no_prohibited_claims",
+        "description": "Every affected page (and the reference template) contains the exact required heading, all 3 exact required paragraphs (including the model-output/no-guarantee disclaimer paragraph), inside the correct section marker — and the NEW explainer section's own text (scoped extraction, not a whole-page scan that would false-positive on pre-existing unrelated markup like the confidence-label class attribute) contains no prohibited authority/validation-claim pattern (accuracy, confidence, likelihood, success rate, scientifically validated, expert/sommelier score, professional rating, guaranteed, certified/master sommelier, etc.).",
+        "pass": true,
+        "evidence": {
+          "perPage": {
+            "wine-with-steak.html": {
+              "hasHeading": true,
+              "hasAllParagraphs": true,
+              "hasSectionMarker": true,
+              "prohibitedMatches": []
+            },
+            "wine-with-chicken.html": {
+              "hasHeading": true,
+              "hasAllParagraphs": true,
+              "hasSectionMarker": true,
+              "prohibitedMatches": []
+            },
+            "wine-with-salmon.html": {
+              "hasHeading": true,
+              "hasAllParagraphs": true,
+              "hasSectionMarker": true,
+              "prohibitedMatches": []
+            },
+            "wine-for-bbq-ribs.html": {
+              "hasHeading": true,
+              "hasAllParagraphs": true,
+              "hasSectionMarker": true,
+              "prohibitedMatches": []
+            },
+            "wine-for-thanksgiving-turkey.html": {
+              "hasHeading": true,
+              "hasAllParagraphs": true,
+              "hasSectionMarker": true,
+              "prohibitedMatches": []
+            },
+            "templates/high-intent-template.html": {
+              "hasHeading": true,
+              "hasAllParagraphs": true,
+              "hasSectionMarker": true,
+              "prohibitedMatches": []
+            }
+          },
+          "offenders": []
+        }
+      },
+      {
+        "id": "V11_V12_V13_V14_V15_no_url_seo_or_schema_changes",
+        "description": "No new HTML files created; sitemap.xml/sitemaps/, _redirects, robots.txt untouched; canonical <link> tag and every JSON-LD block on each affected page are byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {
+          "sitemapTouched": false,
+          "redirectsTouched": false,
+          "robotsTouched": false,
+          "noNewHtmlFiles": [],
+          "canonicalOffenders": [],
+          "jsonLdOffenders": []
+        }
+      },
+      {
+        "id": "V16_V17_V18_protected_data_systems_unchanged",
+        "description": "Pairing data files (assets/js/pairing-engine.js, assets/js/pairing-data.js), all data/runtime/ and data/editorial/ relationship files, every catalog/ontology JSON, and the EAT-06/EAT-07 implementation files (fungi + food-tail render/explanation modules and their published output) are all confirmed untouched.",
+        "pass": true,
+        "evidence": {
+          "offenders": [],
+          "trackedModifiedCount": 6,
+          "stagedCount": 0,
+          "untrackedCount": 234
+        }
+      },
+      {
+        "id": "V19_no_unrelated_page_family_modifications",
+        "description": "Every tracked-modified file is one of the 5 affected pages or the shared reference template — nothing else.",
+        "pass": true,
+        "evidence": {
+          "trackedModified": [
+            "templates/high-intent-template.html",
+            "wine-for-bbq-ribs.html",
+            "wine-for-thanksgiving-turkey.html",
+            "wine-with-chicken.html",
+            "wine-with-salmon.html",
+            "wine-with-steak.html"
+          ],
+          "unexpected": []
+        }
+      },
+      {
+        "id": "V20_deterministic_rebuild",
+        "description": "This page family has no build/generation step (static hand-authored HTML) — determinism is verified by re-running the score and explanation extraction twice against the same files and requiring identical output (no timestamp/randomness contamination possible since nothing is generated).",
+        "pass": true,
+        "evidence": {
+          "scoreExtractionStable": true,
+          "explainerExtractionStable": true
+        }
+      },
+      {
+        "id": "V_content_integrity_additive_only",
+        "description": "Following the same discipline established in PAIRING-EAT-07A: the new 'How Pairing Strength Works' section is stripped from each affected page using its exact structural marker, and the remainder is required to be BYTE-IDENTICAL to HEAD. This proves the only content change on each page is the one intended new section — nothing else (wine cards, confidence labels, scores, JSON-LD, breadcrumbs, other sections) was touched.",
+        "pass": true,
+        "evidence": {
+          "filesChecked": 5,
+          "byteIdenticalAfterStrip": 5,
+          "offenders": []
+        }
+      },
+      {
+        "id": "V21_V22_V23_V24_browser_qa",
+        "description": "Real-Chrome QA across representative affected pages at both required viewports: explainer visible, heading correct, scores visually unchanged, no horizontal overflow, no overlap with neighboring sections, zero phase-caused console errors.",
+        "pass": true,
+        "evidence": {
+          "note": "Measured via a real-Chrome (playwright-core, channel: chrome) pass over representative pages served via local static HTTP (python3 -m http.server), at 1440x900 and 390x844. Section visibility, score text, layout gaps, and overflow were checked with live DOM queries.",
+          "pages_tested": [
+            "wine-with-steak.html",
+            "wine-with-chicken.html",
+            "wine-for-thanksgiving-turkey.html"
+          ],
+          "measurements": {
+            "desktop_1440x900__wine-with-steak.html": {
+              "explainerVisible": true,
+              "headingCorrect": true,
+              "scoresUnchanged": true,
+              "horizontalOverflow": false
+            },
+            "desktop_1440x900__wine-with-chicken.html": {
+              "explainerVisible": true,
+              "headingCorrect": true,
+              "scoresUnchanged": true,
+              "horizontalOverflow": false
+            },
+            "desktop_1440x900__wine-for-thanksgiving-turkey.html": {
+              "explainerVisible": true,
+              "headingCorrect": true,
+              "scoresUnchanged": true,
+              "horizontalOverflow": false
+            },
+            "mobile_390x844__wine-with-steak.html": {
+              "explainerVisible": true,
+              "headingCorrect": true,
+              "scoresUnchanged": true,
+              "horizontalOverflow": false
+            },
+            "mobile_390x844__wine-with-chicken.html": {
+              "explainerVisible": true,
+              "headingCorrect": true,
+              "scoresUnchanged": true,
+              "horizontalOverflow": false
+            },
+            "mobile_390x844__wine-for-thanksgiving-turkey.html": {
+              "explainerVisible": true,
+              "headingCorrect": true,
+              "scoresUnchanged": true,
+              "horizontalOverflow": false
+            }
+          },
+          "layoutGapCheck": {
+            "prevSibling": "SECTION.top-wines",
+            "nextSibling": "SECTION.recommendation-block",
+            "gapBeforePx": 40,
+            "gapAfterPx": 48,
+            "overlap": false
+          },
+          "consoleErrorsCausedByThisPhase": 0,
+          "consoleErrorsObservedButUnrelated": [
+            "favicon.ico 404 — pre-existing, unrelated to this phase"
+          ],
+          "result": "PASS"
+        }
+      },
+      {
+        "id": "V25_accessibility_semantic_heading",
+        "description": "Every affected page's explainer section has a proper aria-label, a semantic <h2> heading as its first child, contains only static server-rendered content (no button/details/summary/hover-only JS handlers — no keyboard-hidden or hover-dependent content), and does not depend on JavaScript to be visible (plain <section>/<h2>/<p> — same static markup as the rest of the page).",
+        "pass": true,
+        "evidence": {
+          "offenders": []
+        }
+      },
+      {
+        "id": "V26_shared_rendering_path",
+        "description": "This page family (5 static high-intent HTML pages) has no active build/generator pipeline (confirmed: no scripts/*.mjs references templates/high-intent-template.html for generation, only this verifier and the EAT-05 auditor reference it as a documentation artifact). Given that architectural reality, the 'shared rendering path' requirement is satisfied the only way available to it: templates/high-intent-template.html holds the single authoritative canonical definition of the explanation block, and every one of the 5 live pages carries the byte-identical block (verified by direct string comparison against the template's own copy) — one authoritative explanation, no page-specific variants, no duplicated-but-drifted copies.",
+        "pass": true,
+        "evidence": {
+          "templateHasBlock": true,
+          "allPagesIdenticalBlock": true
+        }
+      },
+      {
+        "id": "V27_exact_changed_file_boundary",
+        "description": "The tracked-modified file set is EXACTLY {5 affected pages, 1 reference template} — no more, no fewer.",
+        "pass": true,
+        "evidence": {
+          "trackedModified": [
+            "templates/high-intent-template.html",
+            "wine-for-bbq-ribs.html",
+            "wine-for-thanksgiving-turkey.html",
+            "wine-with-chicken.html",
+            "wine-with-salmon.html",
+            "wine-with-steak.html"
+          ],
+          "unexpectedTracked": [],
+          "missingExpected": []
+        }
+      },
+      {
+        "id": "V28_git_diff_check_clean",
+        "description": "`git diff --check` reports no whitespace errors.",
+        "pass": true,
+        "evidence": {
+          "output": ""
+        }
+      }
+    ],
+    "overall": "PASS"
+  },
+  "production_after": {
+    "status": "NOT PERFORMED",
+    "note": "PAIRING-EAT-08 has not been committed, pushed, or deployed. Production verification does not occur in this phase."
+  },
+  "final_result": "LOCAL PASS — DIRECTOR REVIEW REQUIRED"
+}
