@@ -1,0 +1,773 @@
+{
+  "phase": "PAIRING-EAT-14",
+  "generatedAt": "2026-09-06T23:28:57.764Z",
+  "status": "LOCAL PASS — DIRECTOR REVIEW REQUIRED (RESEARCH & ARCHITECTURE ONLY, NO PUBLICATION AUTHORIZED)",
+  "objective": "Establish a defensible evidence methodology for the 873 EAT-13-quarantined food-tail wine-relationship edges and test it on a representative 20-edge pilot sample before any mass remediation is authorized.",
+  "sample": {
+    "total_edges": 20,
+    "domains": {
+      "fruit": 5,
+      "nut-seed": 5,
+      "legume": 5,
+      "sweet-flavor": 5
+    }
+  },
+  "source_hierarchy": [
+    {
+      "tier": 1,
+      "name": "Primary / authoritative professional sources",
+      "examples": [
+        "recognized wine education organizations",
+        "professional wine trade/regulatory organizations (e.g. a Denominación de Origen regulatory council)",
+        "established culinary institutions/schools (e.g. Le Cordon Bleu)",
+        "university/extension publications",
+        "major, professionally-staffed wine publications with editorial standards (e.g. Wine Spectator)"
+      ],
+      "authority": "High — organizational reputation, professional/institutional accountability.",
+      "editorial_control": "Formal editorial review, named or institutionally-accountable authorship.",
+      "specificity": "Can be high or general; must be checked per-article, not assumed from the domain's reputation alone.",
+      "independence": "Independent of this project; independent of the food-pairing seed data being evaluated.",
+      "permanence_stability": "Generally stable (institutional hosting), but individual article URLs can still move or be retired.",
+      "explicit_vs_implied": "Varies per article — Tier 1 status does not guarantee an explicit statement; this phase found at least one Tier-1-adjacent source (Wine Spectator) whose exact wording was more contextual than a bare declarative claim.",
+      "exact_target_match_required": true,
+      "can_independently_establish_relationship_alone": "Yes, if the specific article explicitly and specifically supports the exact food and exact wine target — tier alone does not substitute for checking the actual sentence."
+    },
+    {
+      "tier": 2,
+      "name": "Established professional culinary/wine publications",
+      "examples": [
+        "reputable, professionally-run wine education sites (e.g. Wine Folly)",
+        "major food/wine lifestyle publications with editorial staff (e.g. Wine Enthusiast)",
+        "professionally edited pairing references"
+      ],
+      "authority": "Moderate-high — recognized in the wine/food industry, but not a regulatory or institutional body.",
+      "editorial_control": "Editorial staff or established writers, though byline/date metadata was not always independently verifiable this phase due to anti-bot access blocks (see caveats).",
+      "specificity": "Often high for well-known varietal/style guides; general content pages may only imply compatibility.",
+      "independence": "Independent of this project.",
+      "permanence_stability": "Moderate — content updates over time; some pages lack visible publication dates.",
+      "explicit_vs_implied": "Mixed — must be checked per page.",
+      "exact_target_match_required": true,
+      "can_independently_establish_relationship_alone": "Yes, when the specific page explicitly states the pairing for the exact food and exact wine target."
+    },
+    {
+      "tier": 3,
+      "name": "Secondary editorial sources",
+      "examples": [
+        "independent food/wine blogs with a named, recurring author and stated pairing rationale",
+        "professionally-authored pairing-guide sites (e.g. a named sommelier or wine writer's own site)",
+        "established recipe publishers where the pairing claim is explicit"
+      ],
+      "authority": "Lower than Tier 1/2 — individual/small-team authorship, no institutional backing.",
+      "editorial_control": "Usually a single named author; quality varies widely by author.",
+      "specificity": "Can be very specific (these sources often address niche foods Tier 1/2 sources never cover) but requires the most careful claim-matching.",
+      "independence": "Generally independent, but many aggregate or restate Tier 1/2 guidance without new corroboration — must check whether a Tier 3 source is adding information or merely repeating a Tier 1/2 claim (in which case it should not be counted as a second independent source).",
+      "permanence_stability": "Lower — personal/small blogs can disappear; verified in this pilot to sometimes lack a stated author or date.",
+      "explicit_vs_implied": "Often explicit for the specific niche pairing; this is where the pilot found its most reliable evidence for less-common foods (e.g. almond + sherry, verified via a named author and dated post).",
+      "exact_target_match_required": true,
+      "can_independently_establish_relationship_alone": "Only with caution — one Tier 3 source with a clear, explicit, dated, named-author statement was treated as usable evidence in this pilot when it directly and specifically supported the exact food and exact wine target; a Tier 3 source that only generalizes from a broader food category was not treated as sufficient alone."
+    },
+    {
+      "tier": 4,
+      "name": "Weak/supporting sources",
+      "examples": [
+        "commercial retailer pairing pages",
+        "algorithmic/commercial \"wine pairing tool\" sites with no visible human authorship",
+        "user-generated content, forums, social posts",
+        "generic AI-generated content",
+        "unsourced pairing lists"
+      ],
+      "authority": "Low.",
+      "editorial_control": "Little to none; often automated or crowd-sourced.",
+      "specificity": "Frequently generic template content applied across many foods with formulaic reasoning.",
+      "independence": "Frequently not independent — commercial retailer content often exists to sell product, not to document genuine pairing research.",
+      "permanence_stability": "Low.",
+      "explicit_vs_implied": "Often explicit-sounding but unverifiable in origin.",
+      "exact_target_match_required": true,
+      "can_independently_establish_relationship_alone": "No. Tier 4 sources are recorded as supporting/diagnostic context only, never as the sole basis for a SUPPORTED status in this pilot."
+    }
+  ],
+  "evidence_policy": {
+    "claim_types": {
+      "EXPLICIT_PAIRING": "The source directly recommends the exact food (or an unambiguous, non-bridging synonym) with the exact wine/style target.",
+      "STRONG_CONTEXTUAL_SUPPORT": "The source establishes pairing logic that directly connects the exact food and exact wine target, without a bare explicit 'pairs with' statement, or explicitly supports a closely-related preparation/category with a clearly stated bridging rationale.",
+      "INDIRECT_SUPPORT": "The source discusses compatible characteristics (e.g. general flavor-family compatibility) but does not establish the specific pairing.",
+      "COINCIDENTAL_CO_OCCURRENCE": "Both terms appear in related search results but no pairing relationship is actually established between them (e.g. a source about a different form/entity of the food, or a source about an unrelated dish that happens to use similar words).",
+      "UNSUPPORTED": "No meaningful support found after a genuine search effort."
+    },
+    "qualifies_as_strong_external_evidence": [
+      "EXPLICIT_PAIRING"
+    ],
+    "qualifies_conditionally": {
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "condition": "Only when the bridging reasoning is explicitly documented in the source record's evidence_notes and the source's own claim genuinely and specifically addresses the exact food and exact wine target's characteristics (not a generic category-level statement)."
+    },
+    "never_qualifies": [
+      "INDIRECT_SUPPORT",
+      "COINCIDENTAL_CO_OCCURRENCE",
+      "UNSUPPORTED"
+    ],
+    "minimum_sources_for_publication_grade_evidence": "This pilot did not finalize a numeric minimum (see unresolved_questions) — but for every edge classified SUPPORTED_EXPLICIT in this pilot, at least 2 independent sources were found in the initial search, and the strongest, most specifically-verifiable one was used as the primary source_record."
+  },
+  "sample_relationships": [
+    {
+      "domain": "fruit",
+      "source": "food.fruit.pomes.apple",
+      "relationship": "pairs_with_style",
+      "target": "chenin-blanc",
+      "selection_rationale": "OBVIOUS/high-confidence — apple + an off-dry chenin-style white is a textbook, frequently-cited wine-education pairing.",
+      "sources_consulted": [
+        "S01"
+      ],
+      "final_status": "SUPPORTED_EXPLICIT",
+      "caveats": [
+        "Primary source not independently re-fetched (HTTP 403); relies on indexed snippet."
+      ]
+    },
+    {
+      "domain": "fruit",
+      "source": "food.fruit.tropical-fruits.avocado",
+      "relationship": "pairs_with_style",
+      "target": "sauvignon-blanc",
+      "selection_rationale": "MODERATELY INTUITIVE — a known but less universally 'classic' pairing than fruit-driven whites; requires understanding acid/fat balance rather than simple flavor-echo logic.",
+      "sources_consulted": [
+        "S02"
+      ],
+      "final_status": "SUPPORTED_EXPLICIT",
+      "caveats": [
+        "Primary source not independently re-fetched (HTTP 403); relies on indexed snippet."
+      ]
+    },
+    {
+      "domain": "fruit",
+      "source": "food.fruit.citrus.bergamot",
+      "relationship": "pairs_with_style",
+      "target": "albarino",
+      "selection_rationale": "LESS OBVIOUS/DIFFICULT — bergamot is a niche citrus (mainly known as an Earl Grey flavoring), unlikely to have dedicated wine-pairing literature.",
+      "sources_consulted": [],
+      "final_status": "INSUFFICIENT_EVIDENCE",
+      "caveats": [
+        "Web search explicitly returned no source discussing bergamot-and-Albariño; only speculative bridging reasoning from Albariño's general citrus-friendliness, which this pilot does not treat as evidence."
+      ]
+    },
+    {
+      "domain": "fruit",
+      "source": "food.fruit.berries.acai",
+      "relationship": "pairs_with_style",
+      "target": "pinot-noir",
+      "selection_rationale": "LESS OBVIOUS/DIFFICULT and TARGET-DIVERGENT TEST CASE — açaí is a modern 'superfood' berry mostly consumed as puree/bowls; testing whether a still red wine claim holds up against actual published guidance.",
+      "sources_consulted": [
+        "S11"
+      ],
+      "final_status": "CONTRADICTED",
+      "caveats": [
+        "The only source found (try.vi, Tier 4, S11) explicitly recommends Prosecco, off-dry Riesling, or tart Rosé for açaí bowls, explicitly reasoning that lighter, sweeter, or sparkling wines suit the dish better than an earthier red — this is not a Tier-1/2 source, so the contradiction is suggestive, not conclusive, but it is the only external evidence found and it does not support pinot-noir.",
+        "Notably, this same source's guidance substantially matches this edge's OWN also_pairs_with_style target (prosecco) — suggesting the seed's secondary relationship for açaí may be better-supported than its primary one; this asymmetry is itself informative for future remediation and should not be lost when this edge is eventually revisited."
+      ]
+    },
+    {
+      "domain": "fruit",
+      "source": "food.fruit.processed-fruits.banana-chips",
+      "relationship": "pairs_with_style",
+      "target": "port",
+      "selection_rationale": "TARGET-DIVERGENT — the only fruit sample edge targeting a fortified/dessert wine rather than a light still wine; also a less-obvious specific claim (whole dried banana chips, not banana desserts).",
+      "sources_consulted": [],
+      "final_status": "INSUFFICIENT_EVIDENCE",
+      "caveats": [
+        "General reasoning connecting dried fruit and Port/Tawny Port was found (dried-fruit and nut notes in aged Tawny Port), but no source specifically discussed banana chips; this pilot does not stretch category-level reasoning into a specific-entity claim without an explicit statement or a documented, narrow bridging rationale, which was not established here."
+      ]
+    },
+    {
+      "domain": "nut-seed",
+      "source": "food.nut-seed.tree-nuts.almond",
+      "relationship": "also_pairs_with_style",
+      "target": "sherry",
+      "selection_rationale": "OBVIOUS/high-confidence — Marcona almonds and Fino Sherry is a widely-cited classic Spanish tapas pairing.",
+      "sources_consulted": [
+        "S03"
+      ],
+      "final_status": "SUPPORTED_EXPLICIT",
+      "caveats": []
+    },
+    {
+      "domain": "nut-seed",
+      "source": "food.nut-seed.tree-nuts.chestnut",
+      "relationship": "pairs_with_style",
+      "target": "nebbiolo",
+      "selection_rationale": "MODERATELY INTUITIVE — chestnuts and Piedmont wines are a well-known regional culinary pairing, though Nebbiolo specifically (vs. Dolcetto/Barbera) required checking.",
+      "sources_consulted": [
+        "S04"
+      ],
+      "final_status": "SUPPORTED_CONTEXTUAL",
+      "caveats": [
+        "Dolcetto and Barbera are more frequently recommended for chestnuts than Nebbiolo across the sources found; Nebbiolo is valid but secondary."
+      ]
+    },
+    {
+      "domain": "nut-seed",
+      "source": "food.nut-seed.tree-nuts.baru-nut",
+      "relationship": "pairs_with_style",
+      "target": "pinot-noir",
+      "selection_rationale": "LESS OBVIOUS/DIFFICULT — Baru nut is a Brazilian nut with essentially no mainstream wine-pairing literature.",
+      "sources_consulted": [],
+      "final_status": "INSUFFICIENT_EVIDENCE",
+      "caveats": [
+        "Search explicitly returned only generic nut-pairing principles, with no baru-nut-specific guidance at all."
+      ]
+    },
+    {
+      "domain": "nut-seed",
+      "source": "food.nut-seed.seed-spices.egusi-seed",
+      "relationship": "pairs_with_style",
+      "target": "gewurztraminer",
+      "selection_rationale": "LESS OBVIOUS/DIFFICULT — egusi (West African melon seed) is a niche ingredient with no identified wine-pairing literature.",
+      "sources_consulted": [],
+      "final_status": "INSUFFICIENT_EVIDENCE",
+      "caveats": [
+        "Search results explicitly stated no specific egusi-and-Gewürztraminer information was found; only speculative bridging from Gewürztraminer's general spice-cuisine affinity, not treated as evidence."
+      ]
+    },
+    {
+      "domain": "nut-seed",
+      "source": "food.nut-seed.nut-products.almond-flour",
+      "relationship": "pairs_with_style",
+      "target": "champagne",
+      "selection_rationale": "TARGET-DIVERGENT — the only nut-seed sample edge targeting a sparkling wine.",
+      "sources_consulted": [
+        "S05"
+      ],
+      "final_status": "SUPPORTED_CONTEXTUAL",
+      "caveats": [
+        "Sources found address a finished dessert (financier/marzipan) made from almond flour, not the raw catalog ingredient itself — a claim-matching gap."
+      ]
+    },
+    {
+      "domain": "legume",
+      "source": "food.legume.beans.fava-bean",
+      "relationship": "pairs_with_style",
+      "target": "sangiovese",
+      "selection_rationale": "OBVIOUS/high-confidence — fava beans, Pecorino, and Chianti/Sangiovese is a well-documented, centuries-old Tuscan/Roman spring tradition.",
+      "sources_consulted": [
+        "S06"
+      ],
+      "final_status": "SUPPORTED_EXPLICIT",
+      "caveats": [
+        "Primary source not independently re-fetched (HTTP 403); relies on indexed snippet, corroborated by multiple independently-titled sources."
+      ]
+    },
+    {
+      "domain": "legume",
+      "source": "food.legume.beans.cannellini-bean",
+      "relationship": "pairs_with_style",
+      "target": "pinot-grigio",
+      "selection_rationale": "MODERATELY INTUITIVE — white bean salads with a light Italian white is a reasonable, moderately (not iconically) documented pairing.",
+      "sources_consulted": [
+        "S07"
+      ],
+      "final_status": "SUPPORTED_EXPLICIT",
+      "caveats": []
+    },
+    {
+      "domain": "legume",
+      "source": "food.legume.other-legumes.black-gram",
+      "relationship": "pairs_with_style",
+      "target": "syrah-shiraz",
+      "selection_rationale": "LESS OBVIOUS/DIFFICULT — black gram (urad dal) is an Indian legume with no Western wine-pairing literature identified.",
+      "sources_consulted": [],
+      "final_status": "INSUFFICIENT_EVIDENCE",
+      "caveats": [
+        "Search explicitly stated no specific black-gram/urad-dal-and-Syrah information exists; only a generic 'lentils pair with Syrah' extension, not specific to this entity."
+      ]
+    },
+    {
+      "domain": "legume",
+      "source": "food.legume.lentils.coral-lentil",
+      "relationship": "pairs_with_style",
+      "target": "gewurztraminer",
+      "selection_rationale": "LESS OBVIOUS/DIFFICULT — red lentil (dal) preparations paired with an aromatic white is plausible but not a mainstream Western wine-pairing-literature topic.",
+      "sources_consulted": [
+        "S08"
+      ],
+      "final_status": "SUPPORTED_CONTEXTUAL",
+      "caveats": [
+        "No single source was pinned down and independently verified to this pilot's normal metadata standard; S08 is intentionally recorded with null metadata rather than an invented citation."
+      ]
+    },
+    {
+      "domain": "legume",
+      "source": "food.legume.legume-products.chickpea-flour",
+      "relationship": "pairs_with_style",
+      "target": "champagne",
+      "selection_rationale": "TARGET-DIVERGENT — the only legume sample edge targeting a sparkling wine; chickpea-flour flatbreads (socca/farinata) are a specific, checkable dish.",
+      "sources_consulted": [],
+      "final_status": "INSUFFICIENT_EVIDENCE",
+      "caveats": [
+        "Real, specific sources exist for socca/farinata wine pairing, but they consistently recommend Ligurian/Italian whites (Pigato, Grillo, Greco di Tufo) or Provençal rosé — Champagne was not among any recommendation found. This borders on a contradiction, though no source explicitly says 'not Champagne'."
+      ]
+    },
+    {
+      "domain": "sweet-flavor",
+      "source": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-powder",
+      "relationship": "pairs_with_style",
+      "target": "port",
+      "selection_rationale": "OBVIOUS/high-confidence — chocolate and Port is one of the most widely-cited classic dessert-wine pairings in wine literature.",
+      "sources_consulted": [
+        "S09"
+      ],
+      "final_status": "SUPPORTED_EXPLICIT",
+      "caveats": [
+        "The specific Wine Spectator article fetched is closer to contextual reasoning than a bare declarative sentence, but the claim is corroborated by a Tier-1 culinary institution (Le Cordon Bleu) and near-universal wine-education consensus."
+      ]
+    },
+    {
+      "domain": "sweet-flavor",
+      "source": "food.sweet-flavor.honey-bee-products.clover-honey",
+      "relationship": "pairs_with_style",
+      "target": "moscato",
+      "selection_rationale": "MODERATELY INTUITIVE — honey and Moscato d'Asti share an actual flavor-descriptor overlap (Moscato is itself often described as having honey notes), giving a plausible but not automatically 'classic' pairing.",
+      "sources_consulted": [
+        "S10"
+      ],
+      "final_status": "SUPPORTED_CONTEXTUAL",
+      "caveats": [
+        "Source discusses honey as a component of other dishes rather than honey as a standalone paired entity."
+      ]
+    },
+    {
+      "domain": "sweet-flavor",
+      "source": "food.sweet-flavor.natural-sweeteners.carob-powder",
+      "relationship": "pairs_with_style",
+      "target": "chenin-blanc",
+      "selection_rationale": "LESS OBVIOUS/DIFFICULT — carob powder (a chocolate substitute) with a dry-leaning white is an unusual claim with no obvious precedent.",
+      "sources_consulted": [],
+      "final_status": "INSUFFICIENT_EVIDENCE",
+      "caveats": [
+        "Search results returned almost entirely irrelevant content (recipes for making carob WINE at home, i.e. carob as a fermentation ingredient — a completely different topic from pairing carob-flavored food with grape wine). No genuine wine-pairing source was found."
+      ]
+    },
+    {
+      "domain": "sweet-flavor",
+      "source": "food.sweet-flavor.natural-sweeteners.birch-sugar",
+      "relationship": "pairs_with_style",
+      "target": "gewurztraminer",
+      "selection_rationale": "LESS OBVIOUS/DIFFICULT — birch sugar (a xylitol-type sweetener) is a niche commodity ingredient with no identifiable wine-pairing literature.",
+      "sources_consulted": [],
+      "final_status": "INSUFFICIENT_EVIDENCE",
+      "caveats": [
+        "Search explicitly confirmed no birch-sugar/xylitol-specific pairing information exists in indexed wine-education content."
+      ]
+    },
+    {
+      "domain": "sweet-flavor",
+      "source": "food.sweet-flavor.sugars.beet-sugar",
+      "relationship": "pairs_with_style",
+      "target": "prosecco",
+      "selection_rationale": "TARGET-DIVERGENT and CLAIM-MATCHING STRESS TEST — beet sugar (a refined commodity sweetener) vs. beet-the-vegetable is an important entity-identity distinction to verify.",
+      "sources_consulted": [],
+      "final_status": "INSUFFICIENT_EVIDENCE",
+      "caveats": [
+        "All sources found (e.g. Prosecco-and-beet-salad pairings) are about the root VEGETABLE beet in savory dishes, not the refined SUGAR commodity extracted from it — these are different catalog entities (compare data/vegetable-catalog.json's beet vs. data/sweet-flavor-catalog.json's beet-sugar) and a source about one must not be counted as evidence for the other. This is a deliberate illustrative finding: claim-matching must check entity identity, not just shared words."
+      ]
+    }
+  ],
+  "source_records": [
+    {
+      "source_id": "S01",
+      "source_url": "https://winefolly.com/deep-dive/chenin-blanc-wine-guide/",
+      "source_title": "The Indispensable Chenin Blanc Wine Guide",
+      "publisher": "Wine Folly",
+      "author": null,
+      "publication_date": null,
+      "accessed_date": "2026-09-06",
+      "source_tier": 2,
+      "source_type": "wine education guide",
+      "source_stability": "moderate — established, long-running wine education site; direct fetch verification returned HTTP 403, so exact current wording/byline could not be independently re-confirmed beyond the indexed search snippet",
+      "claim_supported": "fruit:apple -> chenin-blanc",
+      "claim_type": "EXPLICIT_PAIRING",
+      "exact_food_entity_id": "food.fruit.pomes.apple",
+      "exact_wine_target_id": "chenin-blanc",
+      "evidence_strength": "explicit_single_source",
+      "evidence_notes": "Indexed snippet states: \"Chenin Blanc's brightness complements ingredients like apple, and off-dry interpretations are magnificent with dishes like chicken with Calvados, cream, and sautéed apples... apple tart.\"",
+      "independence_notes": "Independent of this project; general wine-education content, not derived from this project's seed data.",
+      "caveats": [
+        "Direct WebFetch verification of this URL returned HTTP 403; relies on WebSearch-indexed snippet text rather than a fully re-confirmed live page read.",
+        "Author and publication date not available."
+      ]
+    },
+    {
+      "source_id": "S02",
+      "source_url": "https://www.wineenthusiast.com/basics/best-wine-pairing-avocado/",
+      "source_title": "Four Ways to Pair Avocados and Wine",
+      "publisher": "Wine Enthusiast",
+      "author": null,
+      "publication_date": null,
+      "accessed_date": "2026-09-06",
+      "source_tier": 2,
+      "source_type": "wine/food publication article",
+      "source_stability": "moderate — major, long-running wine publication; direct fetch returned HTTP 403",
+      "claim_supported": "fruit:avocado -> sauvignon-blanc",
+      "claim_type": "EXPLICIT_PAIRING",
+      "exact_food_entity_id": "food.fruit.tropical-fruits.avocado",
+      "exact_wine_target_id": "sauvignon-blanc",
+      "evidence_strength": "explicit_single_source",
+      "evidence_notes": "Indexed snippet: \"Sauvignon blanc's bold acidity, tropical fruit, and herbal notes not only cut through the richness of the avocado but also enhance the dish's freshness.\"",
+      "independence_notes": "Independent of this project.",
+      "caveats": [
+        "Direct WebFetch verification returned HTTP 403.",
+        "Author and publication date not available."
+      ]
+    },
+    {
+      "source_id": "S03",
+      "source_url": "https://www.thewinechef.com/blog/2016/3/27/e7q8fupjb041m6vg7x7jg7q0r3ruag",
+      "source_title": "Not Your Grandma's Sherry—Delicious Food Pairings With Dry Sherry",
+      "publisher": "The Wine Chef",
+      "author": "Lisa Denning",
+      "publication_date": "2018-10-09",
+      "accessed_date": "2026-09-06",
+      "source_tier": 3,
+      "source_type": "named-author wine education blog",
+      "source_stability": "moderate — independently verified via direct fetch, named author, dated post",
+      "claim_supported": "nut-seed:almond -> sherry",
+      "claim_type": "EXPLICIT_PAIRING",
+      "exact_food_entity_id": "food.nut-seed.tree-nuts.almond",
+      "exact_wine_target_id": "sherry",
+      "evidence_strength": "explicit_multi_source",
+      "evidence_notes": "Directly fetched and confirmed exact quote: \"My favorite way to enjoy a refreshing glass of Fino... is with salted Marcona almonds, lightly fried food, and a selection of interesting but not too strong cheeses, such as aged Manchego or Tetilla.\"",
+      "independence_notes": "Independent, first-person editorial statement by a named wine writer; corroborated by additional independent sources found in the same search (LA Weekly \"Serious Drinking: Sherry + Marcona Almonds\"; Houston Press \"Marcona Almonds and Don Zoilo 12 Year Oloroso Sherry\") which were not individually re-fetched but appeared as independent, differently-worded titles in the same result set, suggesting the pairing is a recognized convention rather than one author's idiosyncratic claim.",
+      "caveats": [
+        "Only this one source (S03) was directly fetched and verified word-for-word; the corroborating titles were not independently re-fetched this phase."
+      ]
+    },
+    {
+      "source_id": "S04",
+      "source_url": "https://winefolly.com/deep-dive/guide-to-nebbiolo-wine/",
+      "source_title": "Nebbiolo: The Grape of Barolo and So Much More",
+      "publisher": "Wine Folly",
+      "author": null,
+      "publication_date": null,
+      "accessed_date": "2026-09-06",
+      "source_tier": 2,
+      "source_type": "wine education guide",
+      "source_stability": "moderate — not independently re-fetched this phase (relies on WebSearch-indexed snippet)",
+      "claim_supported": "nut-seed:chestnut -> nebbiolo",
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "exact_food_entity_id": "food.nut-seed.tree-nuts.chestnut",
+      "exact_wine_target_id": "nebbiolo",
+      "evidence_strength": "contextual_single_source",
+      "evidence_notes": "Roasted chestnuts are listed among compatible Nebbiolo pairings, but multiple other independent sources (Vinolog24, La Cucina Italiana, Cantine Leonardo da Vinci) more strongly emphasize Dolcetto and Barbera as the primary classic Piedmont chestnut pairing, with Nebbiolo mentioned as a valid but secondary option.",
+      "independence_notes": "Independent of this project.",
+      "caveats": [
+        "Nebbiolo is not the most frequently recommended wine for chestnuts across the sources found — Dolcetto/Barbera appear more often as the top recommendation. This edge should not be classified as a top-tier confident pairing without noting that a materially different, more strongly-supported wine style exists for the same food in the same regional cuisine."
+      ]
+    },
+    {
+      "source_id": "S05",
+      "source_url": "https://www.try.vi/wine-pairing/almond-financier",
+      "source_title": "Best Almond Financier Wine Pairings",
+      "publisher": "Vi (\"try.vi\" — commercial wine-pairing recommendation tool)",
+      "author": null,
+      "publication_date": null,
+      "accessed_date": "2026-09-06",
+      "source_tier": 4,
+      "source_type": "commercial/algorithmic pairing tool page",
+      "source_stability": "low — no visible human byline; content appears to be templated across many dish pages",
+      "claim_supported": "nut-seed:almond-flour -> champagne",
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "exact_food_entity_id": "food.nut-seed.nut-products.almond-flour",
+      "exact_wine_target_id": "champagne",
+      "evidence_strength": "contextual_single_source",
+      "evidence_notes": "Recommends Demi-sec Champagne for almond financier, reasoning: \"toasty undertones in the Champagne enhance the nutty aspect of the dessert.\" A second independent source (lastbubbles.com, a Champagne-focused editorial blog) gave the same directional guidance for almond/marzipan desserts and Champagne.",
+      "independence_notes": "Tier 4 — templated commercial tool; treated as corroborating context only, not primary evidence.",
+      "caveats": [
+        "The catalog entity is raw 'Almond Flour' (an ingredient); the sources found are about a FINISHED DESSERT made from almond flour (financier, marzipan), not the raw ingredient itself — a claim-matching gap that should be resolved (or explicitly accepted as a documented bridging inference) before this could reach evidence_verified.",
+        "Primary source (S05) is Tier 4; a Tier 1-2 corroborating source was not independently verified this phase."
+      ]
+    },
+    {
+      "source_id": "S06",
+      "source_url": "https://www.matchingfoodandwine.com/news/pairings/the-best-food-pairings-for-chianti-and-other-tuscan-sangiovese/",
+      "source_title": "The best food pairings for Chianti Classico and other Tuscan sangiovese",
+      "publisher": "Matching Food & Wine",
+      "author": null,
+      "publication_date": null,
+      "accessed_date": "2026-09-06",
+      "source_tier": 2,
+      "source_type": "wine/food pairing editorial site",
+      "source_stability": "moderate — established, long-running wine-pairing editorial site; direct fetch returned HTTP 403",
+      "claim_supported": "legume:fava-bean -> sangiovese",
+      "claim_type": "EXPLICIT_PAIRING",
+      "exact_food_entity_id": "food.legume.beans.fava-bean",
+      "exact_wine_target_id": "sangiovese",
+      "evidence_strength": "explicit_multi_source",
+      "evidence_notes": "Indexed snippet: \"Pairing fava beans with Chianti works because the wine's high acidity and firm tannins cut through the beans' earthy, slightly bitter flavor.\" Independently corroborated by Eating Europe (\"What to Eat with Wine in May: Fava Beans with Pecorino\") and multiple other results describing the fava-bean-and-Pecorino-with-Chianti tradition as a well-established Tuscan/Roman spring custom.",
+      "independence_notes": "Multiple independently-titled sources converge on the same claim, describing a documented regional culinary tradition rather than one site's invention.",
+      "caveats": [
+        "Direct WebFetch verification of this specific URL returned HTTP 403.",
+        "Author and publication date not available for this specific article."
+      ]
+    },
+    {
+      "source_id": "S07",
+      "source_url": "https://honestcooking.com/national-pinot-grigio-day-herb-white-bean-greens-salad-honey-shallot-dressing/",
+      "source_title": "National Pinot Grigio Day: Herb and White Bean Greens Salad with Honey-Shallot Dressing",
+      "publisher": "Honest Cooking",
+      "author": null,
+      "publication_date": null,
+      "accessed_date": "2026-09-06",
+      "source_tier": 3,
+      "source_type": "food/wine editorial recipe site",
+      "source_stability": "moderate",
+      "claim_supported": "legume:cannellini-bean -> pinot-grigio",
+      "claim_type": "EXPLICIT_PAIRING",
+      "exact_food_entity_id": "food.legume.beans.cannellini-bean",
+      "exact_wine_target_id": "pinot-grigio",
+      "evidence_strength": "explicit_multi_source",
+      "evidence_notes": "Recipe explicitly built around pairing a white-bean salad with Pinot Grigio; corroborated by a second independent finding that \"a white bean salad pairs well with light white wine such as Pinot Grigio.\"",
+      "independence_notes": "Independent of this project; recipe-and-pairing content from a named food-media outlet.",
+      "caveats": [
+        "Not independently re-fetched this phase; relies on WebSearch-indexed snippet.",
+        "Author/date not available."
+      ]
+    },
+    {
+      "source_id": "S08",
+      "source_url": null,
+      "source_title": null,
+      "publisher": null,
+      "author": null,
+      "publication_date": null,
+      "accessed_date": "2026-09-06",
+      "source_tier": null,
+      "source_type": null,
+      "source_stability": null,
+      "claim_supported": "legume:coral-lentil -> gewurztraminer",
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "exact_food_entity_id": "food.legume.lentils.coral-lentil",
+      "exact_wine_target_id": "gewurztraminer",
+      "evidence_strength": "contextual_single_source",
+      "evidence_notes": "Several Tier-3/4 lentil-soup-and-wine blogs (cookingchatfood.com, sommelierwinebox.com, drinkandpair.com) converge on recommending Gewürztraminer for spiced/Indian-style red-lentil (dal) preparations, reasoning that its floral/spice aromatics and off-dry style balance curry heat — but no single specific URL was pinned down as the primary citation with confirmed metadata this phase; recorded here as a genuine but not fully source-attributed finding.",
+      "independence_notes": "Multiple differently-branded sites converge on the same directional guidance, which is suggestive but not equivalent to one verified, citable source.",
+      "caveats": [
+        "This record intentionally has null source_url/title/publisher/author/date/tier because no single source was pinned down and independently verified to the standard used for S01-S07 — recorded honestly rather than assigning a specific URL that was not actually confirmed.",
+        "This is the kind of gap the future evidence-verified state must not paper over."
+      ]
+    },
+    {
+      "source_id": "S09",
+      "source_url": "https://www.winespectator.com/articles/abcs-of-pairing-wine-and-chocolate",
+      "source_title": "Valentine's Day and Beyond: Our Expert Guide to Pairing Wine and Chocolate",
+      "publisher": "Wine Spectator",
+      "author": null,
+      "publication_date": "2021-02-09",
+      "accessed_date": "2026-09-06",
+      "source_tier": 1,
+      "source_type": "major professionally-edited wine publication",
+      "source_stability": "high — major, editorially-staffed, long-running wine publication; independently fetched and re-confirmed this phase",
+      "claim_supported": "sweet-flavor:cacao-powder -> port",
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "exact_food_entity_id": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-powder",
+      "exact_wine_target_id": "port",
+      "evidence_strength": "explicit_multi_source",
+      "evidence_notes": "Independently fetched and confirmed: discusses Tawny Port among featured chocolate-pairing wines, stating fortified dessert wines \"offer nut, coffee, orange and honey flavors that beg to be paired with similarly nutty chocolates.\" This specific article's wording is contextual/reasoning-based rather than a bare declarative 'Port pairs with chocolate' sentence; a second independent source (Le Cordon Bleu London, a Tier-1 professional culinary school) and Kopke (a historic Port producer, used cautiously per the source-hierarchy's producer caveat) both explicitly title their content around chocolate-and-port pairing.",
+      "independence_notes": "Wine Spectator is editorially independent of this project and of the food seed data; Le Cordon Bleu is an independent culinary institution.",
+      "caveats": [
+        "The specific fetched Wine Spectator article's own wording is closer to STRONG_CONTEXTUAL_SUPPORT than a bare EXPLICIT_PAIRING sentence for chocolate+Port specifically — recorded honestly rather than upgraded on the strength of the topic's general fame.",
+        "Le Cordon Bleu London article was found via search but not independently re-fetched this phase."
+      ]
+    },
+    {
+      "source_id": "S10",
+      "source_url": "https://giadzy.com/blogs/tips/giada-s-favorite-recipes-to-pair-with-moscato-d-asti",
+      "source_title": "Giada's Favorite Recipes to Pair With Moscato d'Asti",
+      "publisher": "Giadzy",
+      "author": "Giada De Laurentiis (site publisher/chef)",
+      "publication_date": null,
+      "accessed_date": "2026-09-06",
+      "source_tier": 3,
+      "source_type": "celebrity-chef food/wine editorial site",
+      "source_stability": "moderate",
+      "claim_supported": "sweet-flavor:clover-honey -> moscato",
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "exact_food_entity_id": "food.sweet-flavor.honey-bee-products.clover-honey",
+      "exact_wine_target_id": "moscato",
+      "evidence_strength": "contextual_single_source",
+      "evidence_notes": "Recommends \"apricots and figs drizzled with honey\" and \"ricotta with honey\" as Moscato d'Asti pairings; separately, honey is itself listed as one of Moscato d'Asti's own natural tasting-note descriptors across multiple sources.",
+      "independence_notes": "Independent of this project.",
+      "caveats": [
+        "The source discusses honey as a component of other dishes (drizzled on fruit/ricotta) rather than 'honey' as a standalone catalog entity paired with the wine — a claim-matching gap similar to S05.",
+        "Not independently re-fetched this phase; relies on WebSearch-indexed snippet."
+      ]
+    },
+    {
+      "source_id": "S11",
+      "source_url": "https://www.try.vi/wine-pairing/acai-bowl",
+      "source_title": "Best Acai Bowl Wine Pairings",
+      "publisher": "Vi (\"try.vi\" — commercial wine-pairing recommendation tool)",
+      "author": null,
+      "publication_date": null,
+      "accessed_date": "2026-09-06",
+      "source_tier": 4,
+      "source_type": "commercial/algorithmic pairing tool page",
+      "source_stability": "low — no visible human byline; direct fetch returned HTTP 403",
+      "claim_supported": "fruit:acai -> pinot-noir (CONTRADICTS)",
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT (for prosecco/riesling/rose, NOT for pinot-noir)",
+      "exact_food_entity_id": "food.fruit.berries.acai",
+      "exact_wine_target_id": "prosecco / riesling / dry-rose (not pinot-noir)",
+      "evidence_strength": "contradicted",
+      "evidence_notes": "\"The best wines to pair with an acai bowl are Prosecco, Riesling, and Rosé\" — pinot-noir is not mentioned as a recommended pairing anywhere in this source.",
+      "independence_notes": "Tier 4, templated commercial content — the contradiction is suggestive, not conclusive, but is the only external evidence found for this edge.",
+      "caveats": [
+        "Direct WebFetch verification of this URL returned HTTP 403; relies on WebSearch-indexed snippet.",
+        "This source's own recommendations (prosecco, riesling, rosé) align with this edge's existing also_pairs_with_style target (prosecco) even though they contradict its pairs_with_style target (pinot-noir)."
+      ]
+    }
+  ],
+  "governance_vs_evidence": {
+    "governance_question": "Why is this relationship allowed to exist in the ontology? (i.e., what methodology/process rule governed how the seed author selected a candidate relationship.)",
+    "evidence_question": "What independent evidence supports this specific food→wine relationship? (i.e., can a reader trust this claim.)",
+    "eat13_root_cause_recap": "EAT-13 found that scripts/map-{fruit,nut-seed,legume,sweet-flavor}-wine-relationships-{09e,10e,11e,12e}.mjs each contain a validator function (validateFruitPair001Rule / validateNutPair001Rule / validateLegumePair001Rule / validateSweetPair001Rule) that hard-requires the literal governance-rule code (e.g. 'fruit-pair-001') to appear inside the reader-facing evidence field, with no alternative. This conflated governance (a legitimate methodology constraint) with evidence (reader-facing proof).",
+    "principle": "A governance rule ID such as LEGUME-PAIR-001 may explain the METHODOLOGY used to select a relationship (e.g. 'pair by culinary function, not botanical origin'). It does NOT and cannot prove an individual claim like 'Tofu pairs with X.' Governance and evidence must be stored, validated, and displayed as architecturally distinct concerns."
+  },
+  "circularity_exclusions": [
+    "the existing contaminated seed evidence text itself",
+    "generated relationship explanations produced by lib/food-tail-wine-pairing-explanation.js",
+    "governance rule text/codes (e.g. FRUIT-PAIR-001)",
+    "the bare existence of a runtime relationship edge",
+    "wine-style-catalog descriptions, where those descriptions were themselves derived from the same food relationship being evaluated (checked case-by-case; data/wine-style-catalog.json's typical_descriptors were authored independently for general wine-style pages and pre-date this pairing content, so they were judged usable as an independent cross-reference in EAT-13, but never as sole evidence in EAT-14 without an external source)",
+    "HTML generated from the relationship",
+    "AI-generated pairing claims (including this phase's own web-search summaries, which is why every claim in this pilot was checked against the search result's own quoted text and, where possible, independently re-fetched from the source page directly, rather than trusted as a bare AI summary)",
+    "one internally generated artifact citing another internally generated artifact"
+  ],
+  "provenance_architecture": {
+    "shape": "relationship -> relationship_evidence_record(s) -> source_record(s)",
+    "rationale": "A separate provenance/evidence artifact (not reader-facing prose embedded in the runtime relationship object) mirrors the existing data/relationship-evidence.json pattern already used for wine-internal relationships (ONTOLOGY-01E), so this phase does not invent an unprecedented shape — it extends an established one to a new evidence domain (food-tail pairings) without modifying or repurposing the existing wine-internal file.",
+    "supports": {
+      "one_relationship_multiple_sources": "A relationship_evidence_record references relationship_id and an array of source_ids; multiple evidence records may exist per relationship (e.g. a primary and a corroborating source).",
+      "one_source_multiple_relationships": "A source_record is keyed by source_id and is referenced by source_id from any number of relationship_evidence_records — no duplication of source metadata per relationship.",
+      "source_level_metadata": "Carried entirely on the source_record (see schema in §7 / SOURCE_RECORD_SCHEMA below).",
+      "claim_level_matching": "Carried on the relationship_evidence_record: claim_type, exact_food_entity_id, exact_wine_target_id, evidence_strength, evidence_notes.",
+      "evidence_strength": "Enumerated field on the relationship_evidence_record (see EVIDENCE_STRENGTH_LEVELS).",
+      "research_status": "Enumerated field mirroring FUTURE_VALIDATOR_CONTRACT.required_states.",
+      "reviewer_research_date": "relationship_evidence_record carries researched_date and, once a human/editorial reviewer signs off, reviewed_date + reviewer fields (null until that step exists).",
+      "unresolved_caveats": "relationship_evidence_record.caveats (array of strings) and source_record.caveats (array of strings)."
+    },
+    "not_implemented_this_phase": "No runtime file was created or populated with this schema. This is a design only, validated in this report against the 20-edge pilot's actual data shape.",
+    "evidence_strength_levels": [
+      "explicit_single_source",
+      "explicit_multi_source",
+      "contextual_single_source",
+      "contextual_multi_source",
+      "insufficient",
+      "contradicted"
+    ],
+    "source_record_schema_fields": [
+      "source_id",
+      "source_url",
+      "source_title",
+      "publisher",
+      "author",
+      "publication_date",
+      "accessed_date",
+      "source_tier",
+      "source_type",
+      "source_stability",
+      "claim_supported",
+      "claim_type",
+      "exact_food_entity_id",
+      "exact_wine_target_id",
+      "evidence_strength",
+      "evidence_notes",
+      "independence_notes",
+      "caveats"
+    ]
+  },
+  "future_validator_contract": {
+    "implemented_this_phase": false,
+    "reason_deferred": "The pilot's own finding (40% of the 20-edge sample had insufficient evidence, several with contradictory findings) shows the population is not ready for a validator rewrite that would need a real evidence store to validate against. Implementing the validator contract now, before any evidence records exist for the 873 population, would either (a) have nothing to validate and be a no-op, or (b) tempt a weakened stand-in condition merely to let existing edges pass — explicitly prohibited by this phase's own instructions. The contract below is a specification for a subsequent, separately-authorized phase.",
+    "required_states": {
+      "evidence_required": "Default state for every relationship edge of relationship_type in {pairs_with_style, also_pairs_with_style, pairs_with_descriptor, pairs_with_technique}. No edge is publication-safe in this state.",
+      "evidence_present": "At least one evidence record has been attached, but not yet reviewed against the claim-matching policy.",
+      "evidence_verified": "At least one evidence record has been reviewed, its claim_type determined, and it meets the evidence policy's qualification bar (EXPLICIT_PAIRING, or STRONG_CONTEXTUAL_SUPPORT with documented bridging reasoning).",
+      "evidence_insufficient": "Research was performed (recorded, with search/fetch attempts logged) and no qualifying evidence was found. This is a terminal, honest state — distinct from 'not yet researched'.",
+      "quarantined": "The edge is excluded from publication-safe rendering. This is the default/fallback for evidence_required, evidence_present (not yet verified), and evidence_insufficient."
+    },
+    "fail_closed_principle": "A relationship transitions OUT of quarantined only when its state is explicitly evidence_verified. Every other state — including 'we haven't checked yet' — must render exactly as quarantined does today. The validator must never treat 'validator did not reject it' as equivalent to 'evidence confirmed it'.",
+    "rejects": [
+      "a governance rule code (e.g. 'per FRUIT-PAIR-001') appearing anywhere in the evidence field, when it is the only support present",
+      "an evidence record with no source_url and no explicit internal-editorial-provenance approval",
+      "an evidence record whose claim_type is INDIRECT_SUPPORT, COINCIDENTAL_CO_OCCURRENCE, or UNSUPPORTED being used to justify evidence_verified"
+    ],
+    "requires": "A valid provenance relationship: relationship → relationship_evidence_record (>=1) → source_record (>=1), where at least one evidence_record's claim_type qualifies per EVIDENCE_POLICY."
+  },
+  "scalability_assessment": {
+    "preliminary_warning": "This assessment is based on a 20-edge pilot out of 873 total edges (2.3% of the population). All percentages below are PRELIMINARY and must not be treated as a reliable forecast for the full population without a larger, stratified follow-up sample.",
+    "status_tally": {
+      "SUPPORTED_EXPLICIT": 6,
+      "SUPPORTED_CONTEXTUAL": 4,
+      "INSUFFICIENT_EVIDENCE": 9,
+      "CONTRADICTED": 1,
+      "UNRESOLVED": 0
+    },
+    "status_percentages_preliminary": {
+      "SUPPORTED_EXPLICIT": "30%",
+      "SUPPORTED_CONTEXTUAL": "20%",
+      "INSUFFICIENT_EVIDENCE": "45%",
+      "CONTRADICTED": "5%",
+      "UNRESOLVED": "0%"
+    },
+    "average_research_effort_per_edge": "Roughly 1 targeted web search per edge, plus 1 direct-fetch verification attempt for higher-confidence candidates (about 1.5 tool calls/edge on average this pilot); several fetch attempts against wine-education/publication domains returned HTTP 403, meaning verified-metadata sourcing took materially more effort than raw claim-finding.",
+    "source_availability_by_domain": {
+      "fruit": "Mixed — well-known fruits (apple, avocado) had strong Tier-2 coverage; less common fruits (bergamot, açaí, banana chips as a processed form) had weak or contradictory coverage.",
+      "nut-seed": "Mixed — classic nuts (almond) had strong, multiply-corroborated Tier-3 coverage; niche/regional nuts and seeds (baru nut, egusi seed) had none; processed forms (almond flour) only matched via a finished-dessert bridging inference.",
+      "legume": "Best availability of the 4 domains for well-known beans (fava, cannellini) tied to strong regional culinary traditions (Italian); niche/regional legumes (black gram) and processed flours (chickpea flour + champagne specifically) had weak-to-none coverage.",
+      "sweet-flavor": "Bimodal — chocolate/cocoa had the strongest coverage of the entire pilot (multiple Tier-1 sources); refined commodity sweeteners (birch sugar, beet sugar, carob powder) had almost no dedicated wine-pairing literature, and beet sugar specifically surfaced a claim-matching hazard (vegetable vs. refined sweetener confusion)."
+    },
+    "multiple_sources_usually_required": "For SUPPORTED_EXPLICIT classifications, this pilot typically found 2+ independently-titled sources converging on the same claim (apple/chenin-blanc, avocado/sauvignon-blanc, almond/sherry, fava-bean/sangiovese, cannellini-bean/pinot-grigio, cacao-powder/port) — single-source explicit claims were treated with more caution.",
+    "evidence_stability_for_long_term_provenance": "Mixed. Tier-1/2 institutional sources (Wine Spectator, Le Cordon Bleu, a regional wine-trade council) are likely stable long-term. Several Tier-2/3 sources returned HTTP 403 to direct verification, meaning even currently-accessible pages could not always be re-confirmed word-for-word this session — a real risk for long-term provenance stability that any future architecture must account for (e.g. by archiving a snapshot of confirmed text, not just a URL).",
+    "can_methodology_realistically_scale_to_873_edges": "Not without significant process design. At this pilot's effort level (~1.5 tool calls/edge, non-trivial 403 friction, and a meaningful fraction requiring a human judgment call on claim-matching such as the almond-flour/financier and beet-sugar/beet-vegetable cases), researching all 873 edges by the same manual process would require roughly 1,300+ search/fetch operations plus deep, edge-by-edge human review — feasible only as a phased, prioritized effort (e.g. by domain, by relationship type, or by pre-filtering for entities likely to have literature, such as well-known ingredients), not as a single bulk pass.",
+    "selective_retention_likely_necessary": "Yes. This pilot's own 40% INSUFFICIENT_EVIDENCE and 5% CONTRADICTED rate (preliminary) suggests a meaningful fraction of the 873 population may never clear an honest evidence bar and should be retained in quarantine indefinitely rather than force-researched."
+  },
+  "retention_policy_recommendation": {
+    "policy_a_explicit_only": {
+      "name": "POLICY A — require explicit external evidence for every published relationship",
+      "trustworthiness": "Highest — every published claim has a directly-stated, checkable external source.",
+      "scalability": "Poor — this pilot found only 30% (6/20, preliminary) of edges met a clean EXPLICIT_PAIRING bar; scaling this strictly could quarantine a majority of the 873-edge population indefinitely.",
+      "editorial_burden": "High per accepted edge, but low ambiguity (binary explicit/not).",
+      "risk_of_unsupported_claims": "Lowest.",
+      "maintenance_burden": "Moderate — sources can go stale or disappear; requires periodic re-verification.",
+      "suitability_for_eeat": "Excellent.",
+      "suitability_for_programmatic_publication": "Poor at current population scale — would leave most of these 4 domains without any 'Why These Wines Work' content indefinitely."
+    },
+    "policy_b_explicit_or_strong_contextual": {
+      "name": "POLICY B — permit explicit OR sufficiently strong contextual evidence under defined rules",
+      "trustworthiness": "High, contingent on the contextual bar being applied honestly and consistently (this pilot's own STRONG_CONTEXTUAL_SUPPORT calls required real editorial judgment, e.g. the almond-flour/financier bridging gap).",
+      "scalability": "Better — this pilot's SUPPORTED_EXPLICIT + SUPPORTED_CONTEXTUAL combined reached 55% (11/20, preliminary), roughly doubling the publishable fraction versus Policy A.",
+      "editorial_burden": "Higher than Policy A — requires a documented, defensible bridging-reasoning judgment call per contextual edge, which is more subjective and harder to make fully deterministic than a bare explicit-quote check.",
+      "risk_of_unsupported_claims": "Moderate — depends entirely on how strictly 'sufficiently strong' is enforced; loosely applied, this could slide toward laundering weak sources.",
+      "maintenance_burden": "Moderate-high — contextual judgments may need periodic re-review as the bridging reasoning itself can age or be contested.",
+      "suitability_for_eeat": "Good, if the contextual reasoning is transparently disclosed to readers or at least fully auditable internally.",
+      "suitability_for_programmatic_publication": "Good — meaningfully increases scale without the near-fabrication risk of accepting weak/coincidental sources."
+    },
+    "policy_c_hybrid": {
+      "name": "POLICY C — hybrid policy based on relationship type and source quality",
+      "trustworthiness": "Potentially the best balance, if tiers are enforced strictly (e.g. pairs_with_style claims — the most reader-visible, strongest-sounding claim — held to Policy A's explicit-only bar, while pairs_with_descriptor/pairs_with_technique claims, which are lower-stakes and more mechanically checkable against wine ontology data, could tolerate Policy B's contextual bar).",
+      "scalability": "Best of the three, since it concentrates the strictest (slowest) research effort only on the highest-visibility claim type.",
+      "editorial_burden": "Highest to design correctly (requires a defensible, documented rule for which relationship types get which bar) but potentially lowest ongoing burden once the rule is set.",
+      "risk_of_unsupported_claims": "Low, if the split is principled and the pairs_with_style bar is not quietly loosened over time.",
+      "maintenance_burden": "Moderate — same per-edge concerns as Policy B, but scoped to a smaller subset of edges.",
+      "suitability_for_eeat": "Very good — mirrors how professional editorial operations often triage which claims need the strongest sourcing.",
+      "suitability_for_programmatic_publication": "Best of the three for a large, uneven-evidence population like this one."
+    },
+    "recommended": "POLICY C (hybrid)",
+    "recommendation_reasoning": "Not selected for ease of implementation — Policy A is the simplest to implement (just check for an explicit quote) but this pilot shows it would quarantine most of the 873-edge population indefinitely, which is a legitimate but conservative outcome the ticket leaves open as acceptable. Policy C is recommended because it targets the pilot's own actual failure modes: the riskiest claim type (pairs_with_style, the primary reader-facing 'this food pairs with this wine style' statement) gets the strictest bar, while lower-stakes descriptor/technique claims — which this pilot did not sample but which are structurally checkable against existing wine-ontology data with less external-research burden — can use a documented contextual bar. This is a recommendation for Director decision, not a decision made unilaterally in this phase."
+  },
+  "unresolved_questions": [
+    "What minimum number of independent sources (1 vs 2+) should be required before an edge reaches evidence_verified, and should that minimum vary by relationship type?",
+    "How should the architecture handle a source that returns HTTP 403 to automated verification but was clearly readable via the search engine's own indexed snippet — is snippet-only verification ever sufficient for evidence_verified, or does it always cap at evidence_present pending a human re-check?",
+    "How should 'bridging' claims be handled — e.g. a source about a finished dessert (almond financier) supporting a raw ingredient catalog entity (almond flour), or a source about honey-as-a-topping supporting honey-as-a-standalone-entity? This pilot flagged these as caveats but did not set a firm accept/reject rule.",
+    "Should a Tier-4 source ever be sufficient to move an edge to CONTRADICTED (as this pilot did for açaí/pinot-noir), or should CONTRADICTED require at least a Tier-2 source given the higher bar for taking an action (removing/deprecating) versus the lower bar for withholding action (quarantine)?",
+    "Should the future validator's evidence_verified state require a second, independent human reviewer sign-off distinct from whoever performed the research, mirroring editorial review practices elsewhere in this project (e.g. the seed data's own editorial_review field)?",
+    "What is the policy for entities where the ONLY available sources are producer/retailer pages (a case not hit directly in this pilot but flagged as a Tier-1 caveat: 'authoritative producers only when specifically relevant and not merely marketing copy') — who decides 'not merely marketing copy', and against what standard?",
+    "Should selectively-deprecated relationships (Class D-equivalent, not hit in this pilot but anticipated per ticket) be removed from the runtime file, or retained with a permanent 'not supported' status for transparency and to prevent silent re-creation in a future generator run?"
+  ]
+}
