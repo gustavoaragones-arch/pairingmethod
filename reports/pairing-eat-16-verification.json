@@ -1,0 +1,870 @@
+{
+  "phase": "PAIRING-EAT-16",
+  "generatedAt": "2026-09-07T00:18:04.657Z",
+  "status": "LOCAL PASS — DIRECTOR REVIEW REQUIRED (ARCHITECTURE/VALIDATOR IMPLEMENTATION ONLY, NO PUBLICATION AUTHORIZED)",
+  "scope": {
+    "objective": "Implement the evidence provenance architecture and fail-closed validator distinguishing evidence_required/evidence_present/evidence_verified/evidence_insufficient/quarantined/deprecated_unsupported, per EAT-15's authoritative policy.",
+    "not_a_research_phase": true,
+    "does_not_remediate_873_edges": true
+  },
+  "provenance_store_summary": {
+    "source_records_count": 4,
+    "relationship_evidence_records_count": 4,
+    "note": "Seeded with 4 real, honestly re-expressed EAT-14 pilot records to prove the architecture against genuine historical data. None reach evidence_verified. The 873 EAT-13-quarantined runtime edges are NOT represented in this store and remain fully quarantined, untouched."
+  },
+  "local_verification": {
+    "total_checks": 84,
+    "passed": 84,
+    "failed": 0,
+    "checks": [
+      {
+        "id": "FIXTURE_PASS_directly_verified_exact_entity_explicit",
+        "category": "fixtures",
+        "description": "Fixture suite: PASS_directly_verified_exact_entity_explicit (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "eligible": true,
+            "reasons": []
+          },
+          "expectedFunction": "evaluateEvidenceVerifiedEligibility",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_PASS_directly_verified_unambiguous_synonym_explicit",
+        "category": "fixtures",
+        "description": "Fixture suite: PASS_directly_verified_unambiguous_synonym_explicit (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "eligible": true,
+            "reasons": []
+          },
+          "expectedFunction": "evaluateEvidenceVerifiedEligibility",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_PASS_qualifying_multi_source_evidence",
+        "category": "fixtures",
+        "description": "Fixture suite: PASS_qualifying_multi_source_evidence (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "eligible": true,
+            "reasons": []
+          },
+          "expectedFunction": "evaluateEvidenceVerifiedEligibility",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_governance_id_only_evidence",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_governance_id_only_evidence (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": true,
+          "expectedFunction": "containsGovernanceIdAsEvidence",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_snippet_only_marked_verified",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_snippet_only_marked_verified (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "allowed": false,
+            "reason": "evidence_verified eligibility failed: source_verification_state 'SOURCE_SNIPPET_ONLY' cannot support evidence_verified (only SOURCE_DIRECTLY_VERIFIED or SOURCE_ARCHIVED_VERIFIED may)"
+          },
+          "expectedFunction": "canTransition",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_source_unverified_marked_verified",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_source_unverified_marked_verified (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "allowed": false,
+            "reason": "evidence_verified eligibility failed: schema: evidence_strength inconsistency: stored='explicit_multi_source' expected='explicit_single_source' (derived from claim_type='EXPLICIT_PAIRING', sourceCount=1, contradiction_status='none'); source_verification_state 'SOURCE_UNVERIFIED' cannot support evidence_verified (only SOURCE_DIRECTLY_VERIFIED or SOURCE_ARCHIVED_VERIFIED may); fewer than 2 independent sources, and the single-source high-quality exception (Tier 1-2, directly/archived verified, non-capped source_type) is not met"
+          },
+          "expectedFunction": "canTransition",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_contextual_evidence_without_url",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_contextual_evidence_without_url (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "eligible": false,
+            "reasons": [
+              "schema: evidence_strength inconsistency: stored='explicit_multi_source' expected='contextual_single_source' (derived from claim_type='STRONG_CONTEXTUAL_SUPPORT', sourceCount=1, contradiction_status='none')",
+              "claim_type must be EXPLICIT_PAIRING for evidence_verified regardless of relationship_type (got 'STRONG_CONTEXTUAL_SUPPORT')"
+            ]
+          },
+          "expectedFunction": "evaluateEvidenceVerifiedEligibility",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_contextual_evidence_without_bridge",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_contextual_evidence_without_bridge (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "valid": false,
+            "errors": [
+              "invalid bridge_type: NOT_A_REAL_BRIDGE_TYPE",
+              "evidence_strength inconsistency: stored='explicit_multi_source' expected='contextual_multi_source' (derived from claim_type='STRONG_CONTEXTUAL_SUPPORT', sourceCount=2, contradiction_status='none')"
+            ]
+          },
+          "expectedFunction": "validateRelationshipEvidenceRecordSchema",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_pairs_with_style_with_contextual_only_claim",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_pairs_with_style_with_contextual_only_claim (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "eligible": false,
+            "reasons": [
+              "schema: evidence_strength inconsistency: stored='explicit_multi_source' expected='contextual_multi_source' (derived from claim_type='STRONG_CONTEXTUAL_SUPPORT', sourceCount=2, contradiction_status='none')",
+              "claim_type must be EXPLICIT_PAIRING for evidence_verified regardless of relationship_type (got 'STRONG_CONTEXTUAL_SUPPORT')"
+            ]
+          },
+          "expectedFunction": "evaluateEvidenceVerifiedEligibility",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_name_echo_presented_as_explicit",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_name_echo_presented_as_explicit (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "eligible": false,
+            "reasons": [
+              "name_echo_risk is true but name_echo_reviewed is not true — a name-echo risk condition must be explicitly acknowledged by review, never silently passed as strong evidence"
+            ]
+          },
+          "expectedFunction": "evaluateEvidenceVerifiedEligibility",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_producer_only_evidence_attempting_verification",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_producer_only_evidence_attempting_verification (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "eligible": false,
+            "reasons": [
+              "schema: evidence_strength inconsistency: stored='explicit_multi_source' expected='explicit_single_source' (derived from claim_type='EXPLICIT_PAIRING', sourceCount=1, contradiction_status='none')",
+              "no qualifying independent source (all sources are producer/retailer/algorithmic/user-generated, which cannot alone establish evidence_verified)",
+              "fewer than 2 independent sources, and the single-source high-quality exception (Tier 1-2, directly/archived verified, non-capped source_type) is not met"
+            ]
+          },
+          "expectedFunction": "evaluateEvidenceVerifiedEligibility",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_reviewer_equals_researcher",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_reviewer_equals_researcher (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "eligible": false,
+            "reasons": [
+              "schema: reviewer_id must be distinct from researcher_id (identity collision)",
+              "reviewer_id must be distinct from researcher_id (identity collision)"
+            ]
+          },
+          "expectedFunction": "evaluateEvidenceVerifiedEligibility",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_tier4_contradiction_causing_deprecation",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_tier4_contradiction_causing_deprecation (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "allowed": false,
+            "reason": "evidence_present -> deprecated_unsupported is not a defined transition"
+          },
+          "expectedFunction": "canTransition",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_deprecated_relationship_remaining_publication_eligible",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_deprecated_relationship_remaining_publication_eligible (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": false,
+          "expectedFunction": "isPublicationSafe",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_unknown_relationship_id",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_unknown_relationship_id (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "valid": false,
+            "errors": [
+              "missing relationship_id"
+            ]
+          },
+          "expectedFunction": "validateRelationshipEvidenceRecordSchema",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_unknown_source_id",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_unknown_source_id (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "valid": false,
+            "errors": [
+              "dangling source reference: NONEXISTENT-SOURCE-ID"
+            ]
+          },
+          "expectedFunction": "validateRelationshipEvidenceRecordReferences",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_dangling_entity_reference",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_dangling_entity_reference (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "valid": false,
+            "errors": [
+              "unknown wine target: not-a-real-wine-style-slug for pairs_with_style",
+              "dangling source reference: FIXTURE-SRC-1",
+              "dangling source reference: FIXTURE-SRC-2"
+            ]
+          },
+          "expectedFunction": "validateRelationshipEvidenceRecordReferences",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_invalid_evidence_strength",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_invalid_evidence_strength (real_validator)",
+        "pass": true,
+        "evidence": {
+          "result": {
+            "valid": false,
+            "errors": [
+              "invalid evidence_strength: super_duper_strong"
+            ]
+          },
+          "expectedFunction": "validateRelationshipEvidenceRecordSchema",
+          "coverage": "real_validator"
+        }
+      },
+      {
+        "id": "FIXTURE_FAIL_circular_evidence_internal_url",
+        "category": "fixtures",
+        "description": "Fixture suite: FAIL_circular_evidence_internal_url (policy_unit)",
+        "pass": true,
+        "evidence": {
+          "standalone": true,
+          "coverage": "policy_unit",
+          "reason": "isCircularSourceUrl() is a verifier-local convenience helper (mirroring the pattern already used in EAT-13/14/15's own verifiers) — it is not exported from lib/food-tail-evidence-provenance.js, so this fixture is honestly labeled policy_unit rather than claiming production-validator coverage it does not have."
+        }
+      },
+      {
+        "id": "A01_lib_module_exists",
+        "category": "A_module_integrity",
+        "description": "lib/food-tail-evidence-provenance.js exists.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "A02_provenance_store_files_exist",
+        "category": "A_module_integrity",
+        "description": "Both provenance store JSON files exist.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "A03_enums_exported_and_frozen",
+        "category": "A_module_integrity",
+        "description": "All core enums are exported and frozen (Object.isFrozen).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "A04_relationship_status_enum_complete",
+        "category": "A_module_integrity",
+        "description": "RELATIONSHIP_STATUSES includes exactly the 6 required states.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "B01_all_seeded_records_schema_valid",
+        "category": "B_real_store",
+        "description": "All 4 seeded relationship_evidence_records pass schema validation.",
+        "pass": true,
+        "evidence": {
+          "failures": []
+        }
+      },
+      {
+        "id": "B02_all_seeded_records_references_resolve",
+        "category": "B_real_store",
+        "description": "All 4 seeded records' food entity, wine target, and source references resolve against live data.",
+        "pass": true,
+        "evidence": {
+          "failures": []
+        }
+      },
+      {
+        "id": "B03_all_seeded_sources_schema_valid",
+        "category": "B_real_store",
+        "description": "All 4 seeded source_records pass schema validation.",
+        "pass": true,
+        "evidence": {
+          "failures": []
+        }
+      },
+      {
+        "id": "B04_no_seeded_record_marked_evidence_verified",
+        "category": "B_real_store",
+        "description": "None of the 4 seeded (real, historical) records is marked evidence_verified — none actually qualifies under the hardened architecture.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "B05_all_seeded_records_correctly_ineligible",
+        "category": "B_real_store",
+        "description": "Live-recomputed eligibility for all 4 seeded records is 'not eligible' (matches their stored non-verified status) — this is computed, not asserted.",
+        "pass": true,
+        "evidence": {
+          "eligibilityResults": [
+            {
+              "id": "eat14-pilot:nut-seed:almond-flour:pairs_with_style:champagne",
+              "eligible": false,
+              "reasons": [
+                "claim_type must be EXPLICIT_PAIRING for evidence_verified regardless of relationship_type (got 'STRONG_CONTEXTUAL_SUPPORT')",
+                "source_verification_state 'SOURCE_SNIPPET_ONLY' cannot support evidence_verified (only SOURCE_DIRECTLY_VERIFIED or SOURCE_ARCHIVED_VERIFIED may)",
+                "bridge_type 'PREPARATION_DERIVED' requires a documented_bridge_rule, none present",
+                "no qualifying independent source (all sources are producer/retailer/algorithmic/user-generated, which cannot alone establish evidence_verified)",
+                "fewer than 2 independent sources, and the single-source high-quality exception (Tier 1-2, directly/archived verified, non-capped source_type) is not met",
+                "evidence_verified requires a non-null reviewer_id distinct from researcher_id"
+              ]
+            },
+            {
+              "id": "eat14-pilot:legume:coral-lentil:pairs_with_style:gewurztraminer",
+              "eligible": false,
+              "reasons": [
+                "claim_type must be EXPLICIT_PAIRING for evidence_verified regardless of relationship_type (got 'STRONG_CONTEXTUAL_SUPPORT')",
+                "source_verification_state 'SOURCE_UNVERIFIED' cannot support evidence_verified (only SOURCE_DIRECTLY_VERIFIED or SOURCE_ARCHIVED_VERIFIED may)",
+                "bridge_type 'DISH_DERIVED' requires a documented_bridge_rule, none present",
+                "fewer than 2 independent sources, and the single-source high-quality exception (Tier 1-2, directly/archived verified, non-capped source_type) is not met",
+                "evidence_verified requires a non-null reviewer_id distinct from researcher_id"
+              ]
+            },
+            {
+              "id": "eat14-pilot:sweet-flavor:cacao-powder:pairs_with_style:port",
+              "eligible": false,
+              "reasons": [
+                "claim_type must be EXPLICIT_PAIRING for evidence_verified regardless of relationship_type (got 'STRONG_CONTEXTUAL_SUPPORT')",
+                "evidence_verified requires a non-null reviewer_id distinct from researcher_id"
+              ]
+            },
+            {
+              "id": "eat14-pilot:sweet-flavor:clover-honey:pairs_with_style:moscato",
+              "eligible": false,
+              "reasons": [
+                "claim_type must be EXPLICIT_PAIRING for evidence_verified regardless of relationship_type (got 'STRONG_CONTEXTUAL_SUPPORT')",
+                "source_verification_state 'SOURCE_SNIPPET_ONLY' cannot support evidence_verified (only SOURCE_DIRECTLY_VERIFIED or SOURCE_ARCHIVED_VERIFIED may)",
+                "bridge_type 'DISH_DERIVED' requires a documented_bridge_rule, none present",
+                "fewer than 2 independent sources, and the single-source high-quality exception (Tier 1-2, directly/archived verified, non-capped source_type) is not met",
+                "evidence_verified requires a non-null reviewer_id distinct from researcher_id"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "B06_eat14_s09_inconsistency_documented_and_corrected",
+        "category": "B_real_store",
+        "description": "The re-expressed EAT-14 S09 record's evidence_strength in the NEW store matches computeExpectedEvidenceStrength for its claim_type (the original EAT-14 report's inconsistency is documented in caveats, not silently duplicated in the new store).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "B07_no_duplicate_relationship_ids",
+        "category": "B_real_store",
+        "description": "No duplicate relationship_id in the store.",
+        "pass": true,
+        "evidence": {
+          "dupRel": []
+        }
+      },
+      {
+        "id": "B08_no_duplicate_source_ids",
+        "category": "B_real_store",
+        "description": "No duplicate source_id in the store.",
+        "pass": true,
+        "evidence": {
+          "dupSrc": []
+        }
+      },
+      {
+        "id": "B09_no_dangling_source_references",
+        "category": "B_real_store",
+        "description": "No relationship record references a source_id absent from the source store.",
+        "pass": true,
+        "evidence": {
+          "dangling": []
+        }
+      },
+      {
+        "id": "C01_evidence_required_cannot_jump_to_verified",
+        "category": "C_status_model",
+        "description": "evidence_required -> evidence_verified is not a defined transition (must go through evidence_present first).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "C02_deprecated_is_terminal",
+        "category": "C_status_model",
+        "description": "deprecated_unsupported has no outbound transitions defined.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "C03_quarantined_reachable_from_every_active_state",
+        "category": "C_status_model",
+        "description": "quarantined is a defined fallback destination from evidence_required, evidence_present, evidence_verified, and evidence_insufficient.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "C04_evidence_verified_transition_recomputes_eligibility_live",
+        "category": "C_status_model",
+        "description": "canTransition to evidence_verified re-runs evaluateEvidenceVerifiedEligibility rather than trusting a pre-set flag (adversarial: a record claiming eligible fields but missing reviewer_id is still rejected).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "D01_contextual_never_becomes_explicit_regardless_of_count",
+        "category": "D_evidence_strength",
+        "description": "computeExpectedEvidenceStrength never returns an explicit_* value for STRONG_CONTEXTUAL_SUPPORT.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "D02_indirect_support_always_insufficient",
+        "category": "D_evidence_strength",
+        "description": "computeExpectedEvidenceStrength always returns 'insufficient' for INDIRECT_SUPPORT regardless of source count.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "D03_contradiction_status_overrides_claim_type",
+        "category": "D_evidence_strength",
+        "description": "A contradicted contradiction_status forces evidence_strength to 'contradicted' regardless of claim_type.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E01_exact_token_overlap_positive",
+        "category": "E_name_echo",
+        "description": "Class A — exact token overlap: detectNameEcho('Almond', 'Almond') === true.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E02_exact_token_overlap_negative",
+        "category": "E_name_echo",
+        "description": "No exact token overlap for an unrelated pair: detectNameEcho('Apple', 'Chenin Blanc') === false.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E03_morphological_derivation_positive_honey_honeyed",
+        "category": "E_name_echo",
+        "description": "Class B — single '-ed' derivational suffix: detectNameEcho('Honey', 'Honeyed') === true (the exact EAT-15 motivating case; previously false under the pre-EAT-16B implementation).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E04_morphological_derivation_negative",
+        "category": "E_name_echo",
+        "description": "The '-ed' suffix rule does not fire for an unrelated pair that happens to end in '-ed': detectNameEcho('Fava Bean', 'Aged') === false (no shared stem).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E05_alias_synonym_positive_cacao_powder_chocolate",
+        "category": "E_name_echo",
+        "description": "Class C — documented wine-descriptor alias via one recognized ingredient synonym: detectNameEcho('Cacao Powder', 'Chocolate') === true (the exact second EAT-15 motivating case; previously false under the pre-EAT-16B implementation). Mechanism: 'cacao' -> 'cocoa' (INGREDIENT_SYNONYMS) matches 'chocolate' descriptor's own real search_aliases, which include 'cocoa'.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E06_deterministic_derivational_or_alias_case_supported_by_project_vocabulary",
+        "category": "E_name_echo",
+        "description": "A fourth positive case drawn directly from the wine ontology's own documented data: 'Honey' (food) vs 'Honeyed' (descriptor) is independently reproducible via the alias table alone (honeyed's real search_aliases include 'honey'), demonstrating the alias mechanism and the morphological rule agree on this case rather than relying on only one of them.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E07_unrelated_negative_1",
+        "category": "E_name_echo",
+        "description": "Unrelated pair (no token, morphological, or alias relationship): detectNameEcho('Miso', 'Rich') === false.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E08_unrelated_negative_2",
+        "category": "E_name_echo",
+        "description": "A second, independent unrelated pair confirms the negative result is not specific to one example: detectNameEcho('Fava Bean', 'Earthy') === false.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E09_no_meaningful_lexical_relationship_negative",
+        "category": "E_name_echo",
+        "description": "A pair with literally no shared characters/roots at all: detectNameEcho('Chickpea', 'Nebbiolo') === false.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E10_semantically_related_but_not_name_derived_negative",
+        "category": "E_name_echo",
+        "description": "CRITICAL negative case per ticket §5/§6.8: Blueberry (food) and Bright (wine descriptor) are a REAL, conceptually-paired edge from EAT-15's own descriptor pilot (blueberry is commonly described as a bright/tart berry) — genuinely semantically related in culinary/wine literature, but NOT name-derived (no shared token, suffix, or alias). detectNameEcho('Blueberry', 'Bright') === false confirms the detector does not overgeneralize to conceptual/culinary relatedness.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E11_case_normalization",
+        "category": "E_name_echo",
+        "description": "Case differences do not change the result: detectNameEcho('HONEY', 'honeyed') === true, matching the canonical-lowercase-form result.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E12_punctuation_normalization",
+        "category": "E_name_echo",
+        "description": "Harmless punctuation does not change the result: detectNameEcho('Honey!', 'Honeyed,') === true.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E13_strict_boolean_contract",
+        "category": "E_name_echo",
+        "description": "detectNameEcho always returns a strict boolean (true/false), never a string, object, null, undefined, or numeric score, across both a positive and a negative call.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E14_name_echo_risk_true_blocks_unreviewed_record",
+        "category": "E_name_echo",
+        "description": "A record with name_echo_risk true and name_echo_reviewed false is ineligible for evidence_verified (duplicate confirmation via direct function call, not just the fixture). name_echo_risk remains a boolean risk signal on the record — this check confirms it is NOT itself a new claim/evidence/status enum, only a gate input.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E15_name_echo_risk_true_but_reviewed_does_not_block_on_that_ground_alone",
+        "category": "E_name_echo",
+        "description": "A record with name_echo_risk true AND name_echo_reviewed true is not rejected on name-echo grounds specifically (though may still fail other gates) — confirms detection triggers a review requirement, not an automatic rejection.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "F01_all_capped_source_types_rejected_alone",
+        "category": "F_source_type_policy",
+        "description": "Every SOURCE_TYPES_NEVER_SUFFICIENT_ALONE type independently fails the sole-source eligibility check.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "F02_editorial_institutional_professional_not_capped",
+        "category": "F_source_type_policy",
+        "description": "EDITORIAL_SOURCE, INSTITUTIONAL_SOURCE, and PROFESSIONAL_SOURCE are not in the capped list.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "G01_governance_detector_flags_real_contaminated_runtime_text",
+        "category": "G_governance_detection",
+        "description": "containsGovernanceIdAsEvidence() correctly flags a REAL sample of contaminated evidence text drawn live from the actual runtime relationship files (not a synthetic string).",
+        "pass": true,
+        "evidence": {
+          "sample": {
+            "domain": "fruit",
+            "evidence": "Açaí also pairs with prosecco when Açaí berry brightness in compote and dessert garnish appears in composed plates per FRUIT-PAIR-001."
+          }
+        }
+      },
+      {
+        "id": "G02_governance_detector_matches_eat07_eat13_pattern_across_all_873_edges",
+        "category": "G_governance_detection",
+        "description": "The new containsGovernanceIdAsEvidence() detector agrees exactly with the original EAT-07/EAT-13 contamination regex across all 873 real runtime edges (no drift in detection logic).",
+        "pass": true,
+        "evidence": {
+          "checkedCount": 873
+        }
+      },
+      {
+        "id": "G03_no_circular_source_urls_in_real_store",
+        "category": "G_governance_detection",
+        "description": "No source_record in the seeded store has a circular (internal-project) source_url.",
+        "pass": true,
+        "evidence": {
+          "circularOffenders": []
+        }
+      },
+      {
+        "id": "H01_publication_safe_requires_evidence_verified",
+        "category": "H_publication_safety",
+        "description": "isPublicationSafe returns false for every non-evidence_verified status.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "H02_publication_safe_false_if_contradicted_even_if_verified",
+        "category": "H_publication_safety",
+        "description": "isPublicationSafe returns false if contradiction_status is not 'none', even when relationship_status is evidence_verified.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "H03_no_seeded_record_is_publication_safe",
+        "category": "H_publication_safety",
+        "description": "None of the 4 seeded real records is publication-safe.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "H04_publication_safety_predicate_not_wired_into_renderer",
+        "category": "H_publication_safety",
+        "description": "lib/food-tail-wine-pairing-explanation.js is byte-identical to HEAD — the new predicate is defined and tested but not integrated into live rendering this phase.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "H05_renderer_source_confirmed_not_importing_provenance_module",
+        "category": "H_publication_safety",
+        "description": "Provenance publication predicate exists and is tested, but is not yet wired into live rendering: a direct source-text scan of lib/food-tail-wine-pairing-explanation.js confirms it contains no reference to 'food-tail-evidence-provenance', no call to isPublicationSafe(), and no call to evaluateEvidenceVerifiedEligibility().",
+        "pass": true,
+        "evidence": {
+          "importsProvenanceModule": false,
+          "callsIsPublicationSafe": false,
+          "callsEvaluateEligibility": false
+        }
+      },
+      {
+        "id": "I01_no_mapper_scripts_modified",
+        "category": "I_mapper_protection",
+        "description": "None of the 4 contaminated mapper scripts was modified this phase — the root-cause validator design flaw is superseded by the new independent provenance layer rather than edited in place.",
+        "pass": true,
+        "evidence": {
+          "offenders": []
+        }
+      },
+      {
+        "id": "I02_no_seed_files_modified",
+        "category": "I_mapper_protection",
+        "description": "None of the 4 seed files was modified.",
+        "pass": true,
+        "evidence": {
+          "seedOffenders": []
+        }
+      },
+      {
+        "id": "I03_legacy_relationship_evidence_json_untouched",
+        "category": "I_mapper_protection",
+        "description": "data/relationship-evidence.json (ONTOLOGY-01C.6 wine-internal evidence) is byte-identical to HEAD — not repurposed or modified.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "I04_legacy_system_confirmed_scoped_to_wine_internal",
+        "category": "I_mapper_protection",
+        "description": "data/relationship-evidence.json's own meta confirms it is the ONTOLOGY-01E wine-internal evidence system, structurally distinct from the new food-tail provenance store.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "I05_new_module_does_not_import_legacy_evidence_module",
+        "category": "I_mapper_protection",
+        "description": "lib/food-tail-evidence-provenance.js does not import lib/relationship-evidence.js or lib/relationship-evidence-types.js.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "J01_no_runtime_relationship_files_modified",
+        "category": "J_no_remediation",
+        "description": "All 4 runtime relationship files are byte-identical to HEAD — none of the 873 edges was regenerated, remediated, or reclassified.",
+        "pass": true,
+        "evidence": {
+          "offenders": []
+        }
+      },
+      {
+        "id": "J02_873_edge_population_unchanged",
+        "category": "J_no_remediation",
+        "description": "Total runtime edge count across the 4 domains is still exactly 873.",
+        "pass": true,
+        "evidence": {
+          "totalRuntimeEdges": 873
+        }
+      },
+      {
+        "id": "J03_no_catalog_files_modified",
+        "category": "J_no_remediation",
+        "description": "All 4 catalogs are byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {
+          "catalogOffenders": []
+        }
+      },
+      {
+        "id": "K01_no_engine_changes",
+        "category": "K_production_immutability",
+        "description": "pairing-engine.js and pairing-data.js are byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {
+          "engineOffenders": []
+        }
+      },
+      {
+        "id": "K02_no_html_changes",
+        "category": "K_production_immutability",
+        "description": "All leaf HTML pages across the 4 target domains remain byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {
+          "count": 0
+        }
+      },
+      {
+        "id": "K03_no_sitemap_redirect_language_legal_changes",
+        "category": "K_production_immutability",
+        "description": "sitemap.xml, _redirects, language-config.js, spanish-vocabulary.json, robots.txt, and legal pages are byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {
+          "siteOffenders": []
+        }
+      },
+      {
+        "id": "L01_store_deterministic_across_reads",
+        "category": "L_determinism",
+        "description": "Relationship store content is byte-identical across repeated reads.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "L02_eligibility_evaluation_deterministic",
+        "category": "L_determinism",
+        "description": "Re-running eligibility evaluation twice in-process produces identical results.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "M01_no_tracked_modifications",
+        "category": "M_git_scope",
+        "description": "No tracked file is modified.",
+        "pass": true,
+        "evidence": {
+          "trackedModified": []
+        }
+      },
+      {
+        "id": "M02_nothing_staged",
+        "category": "M_git_scope",
+        "description": "Nothing is staged.",
+        "pass": true,
+        "evidence": {
+          "stagedFiles": []
+        }
+      },
+      {
+        "id": "M03_only_eat16_new_files",
+        "category": "M_git_scope",
+        "description": "The only new untracked files beyond known pre-existing noise are this phase's own deliverables.",
+        "pass": true,
+        "evidence": {
+          "unexpectedNewFiles": []
+        }
+      },
+      {
+        "id": "M04_no_prior_phase_deliverables_modified",
+        "category": "M_git_scope",
+        "description": "No EAT-01 through EAT-15 report or verifier was modified.",
+        "pass": true,
+        "evidence": {
+          "priorPhaseOffenders": []
+        }
+      },
+      {
+        "id": "M05_protected_paths_untouched",
+        "category": "M_git_scope",
+        "description": "No protected path appears in the tracked or staged diff.",
+        "pass": true,
+        "evidence": {
+          "protectedOffenders": []
+        }
+      },
+      {
+        "id": "N01_fixture_suite_has_3_pass_16_fail",
+        "category": "N_fixture_completeness",
+        "description": "Fixture suite contains exactly 3 PASS and 16 FAIL cases as required.",
+        "pass": true,
+        "evidence": {
+          "passCount": 3,
+          "failCount": 16
+        }
+      },
+      {
+        "id": "N02_fixture_coverage_claims_independently_reverified",
+        "category": "N_fixture_completeness",
+        "description": "Every fixture's coverage claim is independently re-verified: real_validator fixtures are re-invoked a second time via dynamic lookup of their declared expectedFunction on the EP module and must reproduce a passing result from that exact function (not merely a plausible fixture.kind label); policy_unit fixtures must carry an explicit, honest reason_not_real_validator. Fails loudly on any fixture that claims validator coverage it does not actually exercise.",
+        "pass": true,
+        "evidence": {
+          "n02Failures": [],
+          "realValidatorCount": 18,
+          "policyUnitCount": 1
+        }
+      }
+    ],
+    "overall": "PASS"
+  },
+  "production_status": {
+    "status": "NOT PERFORMED",
+    "note": "PAIRING-EAT-16 has not been committed, pushed, or deployed."
+  }
+}
