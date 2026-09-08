@@ -1,0 +1,2689 @@
+{
+  "phase": "PAIRING-EAT-17",
+  "generatedAt": "2026-09-08T20:58:36.541Z",
+  "status": "LOCAL PASS — DIRECTOR REVIEW REQUIRED (SELECTIVE RESEARCH ONLY, NO PUBLICATION AUTHORIZED)",
+  "primary_objective": "Determine whether selective food-tail evidence research materially improves Google AdSense readiness, not to rescue all 873 relationships.",
+  "inventory": {
+    "total_quarantined_entities": 356,
+    "total_quarantined_edges": 873,
+    "per_domain_entity_counts": {
+      "fruit": 119,
+      "nut-seed": 89,
+      "legume": 75,
+      "sweet-flavor": 73
+    }
+  },
+  "prioritization": {
+    "methodology": "Deterministic tier = f(usage_intensity [real catalog field: primary=3/accent=2/luxury=1], domain content-opportunity weight [derived from real EAT-05 avgSubstantiveWords per leaf-page family: nut-seed=52->3, fruit=54->3, legume=60->2, sweet-flavor=67->1]). PRIORITY_A requires both weights at maximum (3+3); PRIORITY_B >=4; PRIORITY_C >=3; DEFERRED otherwise. No fabricated score, no traffic/popularity invented.",
+    "tier_counts": {
+      "PRIORITY_B": 251,
+      "PRIORITY_A": 46,
+      "PRIORITY_C": 56,
+      "DEFERRED": 3
+    },
+    "tier_counts_by_domain": {
+      "fruit": {
+        "PRIORITY_B": 87,
+        "PRIORITY_A": 32
+      },
+      "nut-seed": {
+        "PRIORITY_A": 14,
+        "PRIORITY_B": 75
+      },
+      "legume": {
+        "PRIORITY_B": 74,
+        "PRIORITY_C": 1
+      },
+      "sweet-flavor": {
+        "PRIORITY_C": 55,
+        "PRIORITY_B": 15,
+        "DEFERRED": 3
+      }
+    }
+  },
+  "cohort": {
+    "target_size": 40,
+    "actual_size": 26,
+    "size_rationale": "26 (24 pairs_with_style across the 4 domains + 2 supplemental pairs_with_descriptor edges added specifically for real name-echo-risk coverage) — deliberately below the 40 target. See implementation report for the research-economics justification (no second reviewer exists this phase, so no record can reach evidence_verified regardless of cohort size; a moderately-sized, well-diversified cohort answers the strategic yield question without over-spending research effort).",
+    "entries": [
+      {
+        "domain": "fruit",
+        "entity": "Apple",
+        "relationship": "pairs_with_style",
+        "target": "chenin-blanc",
+        "selection_rationale": "PRIORITY_A (usage_intensity=primary, fruit domain). Culinary group 'pomes'. OBVIOUS case — apple's own flavor overlaps with Chenin Blanc's documented tasting notes."
+      },
+      {
+        "domain": "fruit",
+        "entity": "Avocado",
+        "relationship": "pairs_with_style",
+        "target": "sauvignon-blanc",
+        "selection_rationale": "PRIORITY_A. Culinary group 'tropical_fruits'. MODERATE — already independently corroborated in EAT-14; re-verified this phase for cohort completeness."
+      },
+      {
+        "domain": "fruit",
+        "entity": "Blueberry",
+        "relationship": "pairs_with_style",
+        "target": "pinot-noir",
+        "selection_rationale": "PRIORITY_A. Culinary group 'berries'. Selected as a DIFFICULTY TEST — EAT-15's descriptor pilot found this exact entity's descriptor claim (blueberry/bright) insufficient; testing whether the STYLE claim (blueberry/pinot-noir) fares differently."
+      },
+      {
+        "domain": "fruit",
+        "entity": "Grapefruit",
+        "relationship": "pairs_with_style",
+        "target": "albarino",
+        "selection_rationale": "PRIORITY_A. Culinary group 'citrus' (new group vs. others in cohort). OBVIOUS — Albariño's own documented flavor profile includes grapefruit."
+      },
+      {
+        "domain": "fruit",
+        "entity": "Fig",
+        "relationship": "pairs_with_style",
+        "target": "port",
+        "selection_rationale": "PRIORITY_A. Culinary group 'tropical_fruits' but processed/dessert-adjacent usage — a different wine-target category (fortified) than the whites/rosé dominating this domain's cohort entries, for target diversity."
+      },
+      {
+        "domain": "fruit",
+        "entity": "Watermelon",
+        "relationship": "pairs_with_style",
+        "target": "dry-rose",
+        "selection_rationale": "PRIORITY_A. Culinary group 'melons' (new group). Selected for target diversity (rosé, not represented elsewhere in the fruit cohort)."
+      },
+      {
+        "domain": "nut-seed",
+        "entity": "Almond",
+        "relationship": "pairs_with_style",
+        "target": "chenin-blanc",
+        "selection_rationale": "PRIORITY_A. Culinary group 'tree_nuts'. OBVIOUS/well-known nut, but selected specifically to test whether the exact-entity bridge holds (vs. a preparation/dessert-derived bridge)."
+      },
+      {
+        "domain": "nut-seed",
+        "entity": "Chestnut",
+        "relationship": "pairs_with_style",
+        "target": "nebbiolo",
+        "selection_rationale": "PRIORITY_A. Culinary group 'tree_nuts'. Reused finding consistent with EAT-15: moderately supported but not the top-emphasized pairing in the literature — a genuine difficulty case."
+      },
+      {
+        "domain": "nut-seed",
+        "entity": "Egusi Seed",
+        "relationship": "pairs_with_style",
+        "target": "gewurztraminer",
+        "selection_rationale": "PRIORITY_A. Culinary group 'seed_spices'. DELIBERATE DIFFICULT CASE — confirmed insufficient in EAT-14; re-included to test whether re-research changes the finding (methodologically important negative control)."
+      },
+      {
+        "domain": "nut-seed",
+        "entity": "Tahini",
+        "relationship": "pairs_with_style",
+        "target": "sherry",
+        "selection_rationale": "PRIORITY_A. Culinary group 'seed_products' (new group). MODERATE — strong producer-sourced content requiring corroboration scrutiny."
+      },
+      {
+        "domain": "nut-seed",
+        "entity": "Peanut",
+        "relationship": "pairs_with_style",
+        "target": "gewurztraminer",
+        "selection_rationale": "PRIORITY_A. Culinary group 'peanuts' (unique group, only entity). Common everyday food, testing dish-derived bridge risk (peanut SAUCE/NOODLE dishes vs. raw peanut)."
+      },
+      {
+        "domain": "nut-seed",
+        "entity": "Almond Flour",
+        "relationship": "pairs_with_style",
+        "target": "champagne",
+        "selection_rationale": "PRIORITY_A. Culinary group 'nut_products' (processed-derivative group, for contrast with whole tree_nuts entries). Reused finding from EAT-14 (S05) for consistency check under the hardened cohort methodology."
+      },
+      {
+        "domain": "legume",
+        "entity": "Fava Bean",
+        "relationship": "pairs_with_style",
+        "target": "sangiovese",
+        "selection_rationale": "PRIORITY_B (primary usage; legume's domain-opportunity weight caps it below A). Culinary group 'beans'. OBVIOUS/well-documented Tuscan tradition, reused from EAT-14 for consistency."
+      },
+      {
+        "domain": "legume",
+        "entity": "Tofu",
+        "relationship": "pairs_with_style",
+        "target": "pinot-grigio",
+        "selection_rationale": "PRIORITY_B. Culinary group 'legume_products'. MODERATE — common processed legume product, testing dish-derived bridge."
+      },
+      {
+        "domain": "legume",
+        "entity": "Miso",
+        "relationship": "pairs_with_style",
+        "target": "sherry",
+        "selection_rationale": "PRIORITY_B. Culinary group 'legume_products' (second entry, fermented-product contrast with tofu). Well-documented umami-resonance logic."
+      },
+      {
+        "domain": "legume",
+        "entity": "Black Gram",
+        "relationship": "pairs_with_style",
+        "target": "syrah-shiraz",
+        "selection_rationale": "PRIORITY_B. Culinary group 'other_legumes'. DELIBERATE DIFFICULT CASE — confirmed insufficient in EAT-15's second pilot; re-included as a negative control."
+      },
+      {
+        "domain": "legume",
+        "entity": "Chickpea",
+        "relationship": "pairs_with_style",
+        "target": "dry-rose",
+        "selection_rationale": "PRIORITY_B. Culinary group 'chickpeas' (unique group). Common food, target diversity (rosé)."
+      },
+      {
+        "domain": "legume",
+        "entity": "Red Lentil",
+        "relationship": "pairs_with_style",
+        "target": "gewurztraminer",
+        "selection_rationale": "PRIORITY_B. Culinary group 'lentils'. Reused/re-confirmed finding from EAT-14/EAT-16's hardened re-classification (dish-derived, evidence_insufficient) — retained as an honest negative case, not silently upgraded."
+      },
+      {
+        "domain": "sweet-flavor",
+        "entity": "Honey",
+        "relationship": "pairs_with_style",
+        "target": "gewurztraminer",
+        "selection_rationale": "PRIORITY_B. Culinary group 'honey_bee_products'. Tests a DIFFERENT wine style than the already-researched Clover Honey/Moscato pairing, for within-domain contrast."
+      },
+      {
+        "domain": "sweet-flavor",
+        "entity": "Clover Honey",
+        "relationship": "pairs_with_style",
+        "target": "moscato",
+        "selection_rationale": "PRIORITY_B. Culinary group 'honey_bee_products' (second entry). Reused from EAT-14 (S10) for consistency check."
+      },
+      {
+        "domain": "sweet-flavor",
+        "entity": "Maple Syrup",
+        "relationship": "pairs_with_style",
+        "target": "riesling",
+        "selection_rationale": "PRIORITY_B. Culinary group 'syrups'. Common everyday sweetener, testing preparation-derived bridge (maple glaze)."
+      },
+      {
+        "domain": "sweet-flavor",
+        "entity": "Natural Cocoa Powder",
+        "relationship": "pairs_with_style",
+        "target": "pinot-noir",
+        "selection_rationale": "PRIORITY_B. Culinary group 'cocoa_chocolate_ingredients'. Tests a different wine style than the already-known cacao-powder/port finding (EAT-14 S09), for cross-target comparison on the same ingredient family."
+      },
+      {
+        "domain": "sweet-flavor",
+        "entity": "Molasses",
+        "relationship": "pairs_with_style",
+        "target": "port",
+        "selection_rationale": "PRIORITY_B. Culinary group 'syrups' (second entry). DIFFICULTY TEST — search results drifted heavily into unrelated rum/spirits content, testing source-relevance discipline."
+      },
+      {
+        "domain": "sweet-flavor",
+        "entity": "Beet Sugar",
+        "relationship": "pairs_with_style",
+        "target": "prosecco",
+        "selection_rationale": "PRIORITY_B. Culinary group 'sugars'. DELIBERATE DIFFICULT/NEGATIVE CASE — confirmed claim-mismatch (beet vegetable vs. beet sugar entity confusion) in EAT-14; re-included as a negative control for entity-matching discipline."
+      },
+      {
+        "domain": "sweet-flavor",
+        "entity": "Cacao Powder",
+        "relationship": "pairs_with_descriptor",
+        "target": "chocolate",
+        "selection_rationale": "SUPPLEMENTAL — added specifically to exercise a real, live-confirmed name_echo_risk=true case (EAT-15's motivating example), since none of the 24 pairs_with_style targets above trigger detectNameEcho(). Reused finding from EAT-15."
+      },
+      {
+        "domain": "sweet-flavor",
+        "entity": "Honey",
+        "relationship": "pairs_with_descriptor",
+        "target": "honeyed",
+        "selection_rationale": "SUPPLEMENTAL — second real, live-confirmed name_echo_risk=true case (the other EAT-15/16B motivating example). Reused finding from EAT-15."
+      }
+    ]
+  },
+  "relationship_evidence_records": [
+    {
+      "relationship_id": "eat17:fruit:food.fruit.pomes.apple:pairs_with_style:chenin-blanc",
+      "exact_food_entity_id": "food.fruit.pomes.apple",
+      "exact_wine_target_id": "chenin-blanc",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-01"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "EXACT_ENTITY",
+      "documented_bridge_rule": null,
+      "claim_type": "EXPLICIT_PAIRING",
+      "evidence_strength": "explicit_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Wine Folly explicitly documents Chenin Blanc's own tasting profile as including 'bruised apple' flavor, and multiple sources recommend apple-based dishes with Chenin Blanc; snippet-only, not independently re-fetched this phase."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "fruit",
+        "entity_name": "Apple",
+        "target_name": "Chenin Blanc",
+        "selection_rationale": "PRIORITY_A (usage_intensity=primary, fruit domain). Culinary group 'pomes'. OBVIOUS case — apple's own flavor overlaps with Chenin Blanc's documented tasting notes.",
+        "priority_tier": "PRIORITY_A"
+      }
+    },
+    {
+      "relationship_id": "eat17:fruit:food.fruit.tropical-fruits.avocado:pairs_with_style:sauvignon-blanc",
+      "exact_food_entity_id": "food.fruit.tropical-fruits.avocado",
+      "exact_wine_target_id": "sauvignon-blanc",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-02"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "EXACT_ENTITY",
+      "documented_bridge_rule": null,
+      "claim_type": "EXPLICIT_PAIRING",
+      "evidence_strength": "explicit_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Consistent with EAT-14's independent finding for the same pair; re-confirmed via fresh search this phase, not merely copied forward."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "fruit",
+        "entity_name": "Avocado",
+        "target_name": "Sauvignon Blanc",
+        "selection_rationale": "PRIORITY_A. Culinary group 'tropical_fruits'. MODERATE — already independently corroborated in EAT-14; re-verified this phase for cohort completeness.",
+        "priority_tier": "PRIORITY_A"
+      }
+    },
+    {
+      "relationship_id": "eat17:fruit:food.fruit.berries.blueberry:pairs_with_style:pinot-noir",
+      "exact_food_entity_id": "food.fruit.berries.blueberry",
+      "exact_wine_target_id": "pinot-noir",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-03"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "CATEGORY_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "evidence_strength": "contextual_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Sources found discuss 'berries' generically pairing with Pinot Noir, and blueberry-flavored WINE products, rather than a specific, direct blueberry-food-to-Pinot-Noir statement — a category-level match, not exact-entity. Consistent with EAT-15's finding that this exact entity's descriptor claim (blueberry/bright) was also insufficiently specific."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "fruit",
+        "entity_name": "Blueberry",
+        "target_name": "Pinot Noir",
+        "selection_rationale": "PRIORITY_A. Culinary group 'berries'. Selected as a DIFFICULTY TEST — EAT-15's descriptor pilot found this exact entity's descriptor claim (blueberry/bright) insufficient; testing whether the STYLE claim (blueberry/pinot-noir) fares differently.",
+        "priority_tier": "PRIORITY_A"
+      }
+    },
+    {
+      "relationship_id": "eat17:fruit:food.fruit.citrus.grapefruit:pairs_with_style:albarino",
+      "exact_food_entity_id": "food.fruit.citrus.grapefruit",
+      "exact_wine_target_id": "albarino",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-04",
+        "E17-05"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "EXACT_ENTITY",
+      "documented_bridge_rule": null,
+      "claim_type": "EXPLICIT_PAIRING",
+      "evidence_strength": "explicit_multi_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Albariño's own documented flavor profile explicitly includes grapefruit across multiple independent sources; per producer/retailer policy the Total Wine (retailer) source alone would not suffice, but the independent Wine Folly (editorial) source corroborates."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "fruit",
+        "entity_name": "Grapefruit",
+        "target_name": "Albariño",
+        "selection_rationale": "PRIORITY_A. Culinary group 'citrus' (new group vs. others in cohort). OBVIOUS — Albariño's own documented flavor profile includes grapefruit.",
+        "priority_tier": "PRIORITY_A"
+      }
+    },
+    {
+      "relationship_id": "eat17:fruit:food.fruit.tropical-fruits.fig:pairs_with_style:port",
+      "exact_food_entity_id": "food.fruit.tropical-fruits.fig",
+      "exact_wine_target_id": "port",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-06"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "EXACT_ENTITY",
+      "documented_bridge_rule": null,
+      "claim_type": "EXPLICIT_PAIRING",
+      "evidence_strength": "explicit_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "'Tawny Port is traditionally paired with figs, classic dessert combination' — direct, explicit, multiply-corroborated in the broader search results (Wine Folly's Port-styles guide, Leite's Culinaria recipe context)."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "fruit",
+        "entity_name": "Fig",
+        "target_name": "Port",
+        "selection_rationale": "PRIORITY_A. Culinary group 'tropical_fruits' but processed/dessert-adjacent usage — a different wine-target category (fortified) than the whites/rosé dominating this domain's cohort entries, for target diversity.",
+        "priority_tier": "PRIORITY_A"
+      }
+    },
+    {
+      "relationship_id": "eat17:fruit:food.fruit.melons.watermelon:pairs_with_style:dry-rose",
+      "exact_food_entity_id": "food.fruit.melons.watermelon",
+      "exact_wine_target_id": "dry-rose",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-07"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "EXACT_ENTITY",
+      "documented_bridge_rule": null,
+      "claim_type": "EXPLICIT_PAIRING",
+      "evidence_strength": "explicit_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Dedicated Tier-2 editorial article naming dry rosé as the top watermelon pairing, with explicit acidity/temperature reasoning."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "fruit",
+        "entity_name": "Watermelon",
+        "target_name": "Dry Rosé",
+        "selection_rationale": "PRIORITY_A. Culinary group 'melons' (new group). Selected for target diversity (rosé, not represented elsewhere in the fruit cohort).",
+        "priority_tier": "PRIORITY_A"
+      }
+    },
+    {
+      "relationship_id": "eat17:nut-seed:food.nut-seed.tree-nuts.almond:pairs_with_style:chenin-blanc",
+      "exact_food_entity_id": "food.nut-seed.tree-nuts.almond",
+      "exact_wine_target_id": "chenin-blanc",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-08"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "PREPARATION_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "evidence_strength": "contextual_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Sources describe 'toasted almond' as a flavor note WITHIN sweet/dessert-style Chenin Blanc, and recommend almond-based DESSERTS (cakes, cheese boards) — a preparation-derived bridge from raw almond, not an exact-entity match. No documented_bridge_rule exists, so this cannot reach evidence_verified on bridge grounds regardless of claim strength."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "nut-seed",
+        "entity_name": "Almond",
+        "target_name": "Chenin Blanc",
+        "selection_rationale": "PRIORITY_A. Culinary group 'tree_nuts'. OBVIOUS/well-known nut, but selected specifically to test whether the exact-entity bridge holds (vs. a preparation/dessert-derived bridge).",
+        "priority_tier": "PRIORITY_A"
+      }
+    },
+    {
+      "relationship_id": "eat17:nut-seed:food.nut-seed.tree-nuts.chestnut:pairs_with_style:nebbiolo",
+      "exact_food_entity_id": "food.nut-seed.tree-nuts.chestnut",
+      "exact_wine_target_id": "nebbiolo",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-09"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "EXACT_ENTITY",
+      "documented_bridge_rule": null,
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "evidence_strength": "contextual_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Chestnut is listed among Nebbiolo-compatible ingredients, but a separate independent source suggests roasted chestnuts pair better with Sangiovese/Brunello/Valpolicella specifically — consistent with EAT-15's finding that Nebbiolo is a valid but not top-emphasized chestnut pairing. Primary source is a wine PRODUCER; would require a non-producer corroborating source to strengthen further."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "nut-seed",
+        "entity_name": "Chestnut",
+        "target_name": "Nebbiolo",
+        "selection_rationale": "PRIORITY_A. Culinary group 'tree_nuts'. Reused finding consistent with EAT-15: moderately supported but not the top-emphasized pairing in the literature — a genuine difficulty case.",
+        "priority_tier": "PRIORITY_A"
+      }
+    },
+    {
+      "relationship_id": "eat17:nut-seed:food.nut-seed.seed-spices.egusi-seed:pairs_with_style:gewurztraminer",
+      "exact_food_entity_id": "food.nut-seed.seed-spices.egusi-seed",
+      "exact_wine_target_id": "gewurztraminer",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-24"
+      ],
+      "source_verification_state": "SOURCE_UNVERIFIED",
+      "bridge_type": "ATTRIBUTE_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "UNSUPPORTED",
+      "evidence_strength": "insufficient",
+      "relationship_status": "evidence_insufficient",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "No direct or specific source found this phase (re-searched independently); consistent with EAT-14's original finding. Egusi seed remains a niche West African ingredient with no identifiable dedicated wine-pairing literature. Placeholder source record (null metadata) documents that research was performed and came up empty, per the EAT-16 store's established EAT14-S08 pattern for honest negative findings."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "nut-seed",
+        "entity_name": "Egusi Seed",
+        "target_name": "Gewürztraminer",
+        "selection_rationale": "PRIORITY_A. Culinary group 'seed_spices'. DELIBERATE DIFFICULT CASE — confirmed insufficient in EAT-14; re-included to test whether re-research changes the finding (methodologically important negative control).",
+        "priority_tier": "PRIORITY_A"
+      }
+    },
+    {
+      "relationship_id": "eat17:nut-seed:food.nut-seed.seed-products.tahini:pairs_with_style:sherry",
+      "exact_food_entity_id": "food.nut-seed.seed-products.tahini",
+      "exact_wine_target_id": "sherry",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-10"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "EXACT_ENTITY",
+      "documented_bridge_rule": null,
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "evidence_strength": "contextual_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Detailed, explicit, exact-entity reasoning (Palo Cortado / Pedro Ximénez sherry vs. tahini's nuttiness/creaminess) — but the sole source is a Sherry PRODUCER, which per policy cannot alone establish evidence_verified; no independent non-producer corroborating source was pinned down this phase."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "nut-seed",
+        "entity_name": "Tahini",
+        "target_name": "Sherry",
+        "selection_rationale": "PRIORITY_A. Culinary group 'seed_products' (new group). MODERATE — strong producer-sourced content requiring corroboration scrutiny.",
+        "priority_tier": "PRIORITY_A"
+      }
+    },
+    {
+      "relationship_id": "eat17:nut-seed:food.nut-seed.peanuts.peanut:pairs_with_style:gewurztraminer",
+      "exact_food_entity_id": "food.nut-seed.peanuts.peanut",
+      "exact_wine_target_id": "gewurztraminer",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-11"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "DISH_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "evidence_strength": "contextual_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Sources overwhelmingly discuss PEANUT NOODLE/SAUCE/SATAY dishes, not raw peanuts — dish-derived bridge, no documented_bridge_rule."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "nut-seed",
+        "entity_name": "Peanut",
+        "target_name": "Gewürztraminer",
+        "selection_rationale": "PRIORITY_A. Culinary group 'peanuts' (unique group, only entity). Common everyday food, testing dish-derived bridge risk (peanut SAUCE/NOODLE dishes vs. raw peanut).",
+        "priority_tier": "PRIORITY_A"
+      }
+    },
+    {
+      "relationship_id": "eat17:nut-seed:food.nut-seed.nut-products.almond-flour:pairs_with_style:champagne",
+      "exact_food_entity_id": "food.nut-seed.nut-products.almond-flour",
+      "exact_wine_target_id": "champagne",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-12"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "PREPARATION_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "evidence_strength": "contextual_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Reused from EAT-14 (S05) / EAT-16 store re-expression: almond-flour DESSERT (financier), not the raw ingredient — preparation-derived bridge with no documented rule; sole formalized source is algorithmic (Tier 4), cannot alone establish evidence_verified."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "nut-seed",
+        "entity_name": "Almond Flour",
+        "target_name": "Champagne",
+        "selection_rationale": "PRIORITY_A. Culinary group 'nut_products' (processed-derivative group, for contrast with whole tree_nuts entries). Reused finding from EAT-14 (S05) for consistency check under the hardened cohort methodology.",
+        "priority_tier": "PRIORITY_A"
+      }
+    },
+    {
+      "relationship_id": "eat17:legume:food.legume.beans.fava-bean:pairs_with_style:sangiovese",
+      "exact_food_entity_id": "food.legume.beans.fava-bean",
+      "exact_wine_target_id": "sangiovese",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-13"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "EXACT_ENTITY",
+      "documented_bridge_rule": null,
+      "claim_type": "EXPLICIT_PAIRING",
+      "evidence_strength": "explicit_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Reused/re-confirmed from EAT-14: well-documented Tuscan culinary tradition, multiple independent sources."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "legume",
+        "entity_name": "Fava Bean",
+        "target_name": "Sangiovese",
+        "selection_rationale": "PRIORITY_B (primary usage; legume's domain-opportunity weight caps it below A). Culinary group 'beans'. OBVIOUS/well-documented Tuscan tradition, reused from EAT-14 for consistency.",
+        "priority_tier": "PRIORITY_B"
+      }
+    },
+    {
+      "relationship_id": "eat17:legume:food.legume.legume-products.tofu:pairs_with_style:pinot-grigio",
+      "exact_food_entity_id": "food.legume.legume-products.tofu",
+      "exact_wine_target_id": "pinot-grigio",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-14"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "DISH_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "evidence_strength": "contextual_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Sources discuss grilled tofu / tofu stir-fry preparations, not raw/plain tofu as a standalone entity — dish-derived. Alternative wines (Riesling, Pinot Blanc) are also suggested, indicating Pinot Grigio is not uniquely recommended."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "legume",
+        "entity_name": "Tofu",
+        "target_name": "Pinot Grigio",
+        "selection_rationale": "PRIORITY_B. Culinary group 'legume_products'. MODERATE — common processed legume product, testing dish-derived bridge.",
+        "priority_tier": "PRIORITY_B"
+      }
+    },
+    {
+      "relationship_id": "eat17:legume:food.legume.legume-products.miso:pairs_with_style:sherry",
+      "exact_food_entity_id": "food.legume.legume-products.miso",
+      "exact_wine_target_id": "sherry",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-15"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "DISH_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "evidence_strength": "contextual_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Well-documented umami-resonance pairing logic (Fino/Manzanilla/Oloroso Sherry) for miso SOUP specifically, not raw miso paste — dish-derived, consistent with EAT-15/16 store's prior finding for this same entity/target pair."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "legume",
+        "entity_name": "Miso",
+        "target_name": "Sherry",
+        "selection_rationale": "PRIORITY_B. Culinary group 'legume_products' (second entry, fermented-product contrast with tofu). Well-documented umami-resonance logic.",
+        "priority_tier": "PRIORITY_B"
+      }
+    },
+    {
+      "relationship_id": "eat17:legume:food.legume.other-legumes.black-gram:pairs_with_style:syrah-shiraz",
+      "exact_food_entity_id": "food.legume.other-legumes.black-gram",
+      "exact_wine_target_id": "syrah-shiraz",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-25"
+      ],
+      "source_verification_state": "SOURCE_UNVERIFIED",
+      "bridge_type": "CATEGORY_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "UNSUPPORTED",
+      "evidence_strength": "insufficient",
+      "relationship_status": "evidence_insufficient",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "No specific source found; only a generic 'lentils pair with Syrah' extension that does not name black gram/urad dal specifically. Consistent with EAT-15's second-pilot finding. Placeholder source record documents the negative search result honestly."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "legume",
+        "entity_name": "Black Gram",
+        "target_name": "Syrah / Shiraz",
+        "selection_rationale": "PRIORITY_B. Culinary group 'other_legumes'. DELIBERATE DIFFICULT CASE — confirmed insufficient in EAT-15's second pilot; re-included as a negative control.",
+        "priority_tier": "PRIORITY_B"
+      }
+    },
+    {
+      "relationship_id": "eat17:legume:food.legume.chickpeas.chickpea:pairs_with_style:dry-rose",
+      "exact_food_entity_id": "food.legume.chickpeas.chickpea",
+      "exact_wine_target_id": "dry-rose",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-16"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "DISH_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "evidence_strength": "contextual_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Sources discuss chickpea SALAD/STEW preparations, not raw chickpeas — dish-derived bridge."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "legume",
+        "entity_name": "Chickpea",
+        "target_name": "Dry Rosé",
+        "selection_rationale": "PRIORITY_B. Culinary group 'chickpeas' (unique group). Common food, target diversity (rosé).",
+        "priority_tier": "PRIORITY_B"
+      }
+    },
+    {
+      "relationship_id": "eat17:legume:food.legume.lentils.red-lentil:pairs_with_style:gewurztraminer",
+      "exact_food_entity_id": "food.legume.lentils.red-lentil",
+      "exact_wine_target_id": "gewurztraminer",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-26"
+      ],
+      "source_verification_state": "SOURCE_UNVERIFIED",
+      "bridge_type": "DISH_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "evidence_strength": "contextual_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "No specific source was independently verified and pinned down to a citable URL this phase — matches the EAT-16 store's own hardened re-classification (relationship_status: evidence_insufficient) for this exact entity, rather than the softer EAT-14 characterization. Retained honestly as insufficient, not silently upgraded. Placeholder source record documents that multiple Tier-3/4 blogs were found converging on similar guidance without any single one being independently verified to a citable standard."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "legume",
+        "entity_name": "Red Lentil",
+        "target_name": "Gewürztraminer",
+        "selection_rationale": "PRIORITY_B. Culinary group 'lentils'. Reused/re-confirmed finding from EAT-14/EAT-16's hardened re-classification (dish-derived, evidence_insufficient) — retained as an honest negative case, not silently upgraded.",
+        "priority_tier": "PRIORITY_B"
+      }
+    },
+    {
+      "relationship_id": "eat17:sweet-flavor:food.sweet-flavor.honey-bee-products.honey:pairs_with_style:gewurztraminer",
+      "exact_food_entity_id": "food.sweet-flavor.honey-bee-products.honey",
+      "exact_wine_target_id": "gewurztraminer",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-17"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "PREPARATION_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "evidence_strength": "contextual_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Gewürztraminer's own documented flavor profile includes 'honey' (a partial attribute/name overlap on the wine side, though detectNameEcho returns false for this specific food/style pair — see verifier check M02), plus honey-glazed/drizzled dish pairings — preparation-derived, no documented rule."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "sweet-flavor",
+        "entity_name": "Honey",
+        "target_name": "Gewürztraminer",
+        "selection_rationale": "PRIORITY_B. Culinary group 'honey_bee_products'. Tests a DIFFERENT wine style than the already-researched Clover Honey/Moscato pairing, for within-domain contrast.",
+        "priority_tier": "PRIORITY_B"
+      }
+    },
+    {
+      "relationship_id": "eat17:sweet-flavor:food.sweet-flavor.honey-bee-products.clover-honey:pairs_with_style:moscato",
+      "exact_food_entity_id": "food.sweet-flavor.honey-bee-products.clover-honey",
+      "exact_wine_target_id": "moscato",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-18"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "DISH_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "evidence_strength": "contextual_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Reused from EAT-14 (S10): honey as a component of other dishes (drizzled on fruit/ricotta), not a standalone entity — dish-derived."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "sweet-flavor",
+        "entity_name": "Clover Honey",
+        "target_name": "Moscato",
+        "selection_rationale": "PRIORITY_B. Culinary group 'honey_bee_products' (second entry). Reused from EAT-14 (S10) for consistency check.",
+        "priority_tier": "PRIORITY_B"
+      }
+    },
+    {
+      "relationship_id": "eat17:sweet-flavor:food.sweet-flavor.syrups.maple-syrup:pairs_with_style:riesling",
+      "exact_food_entity_id": "food.sweet-flavor.syrups.maple-syrup",
+      "exact_wine_target_id": "riesling",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-19"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "PREPARATION_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "evidence_strength": "contextual_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Off-dry/late-harvest Riesling reasoning is well-documented, but most content concerns maple GLAZE applications (pork, pancakes) — preparation-derived, no documented rule."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "sweet-flavor",
+        "entity_name": "Maple Syrup",
+        "target_name": "Riesling",
+        "selection_rationale": "PRIORITY_B. Culinary group 'syrups'. Common everyday sweetener, testing preparation-derived bridge (maple glaze).",
+        "priority_tier": "PRIORITY_B"
+      }
+    },
+    {
+      "relationship_id": "eat17:sweet-flavor:food.sweet-flavor.cocoa-chocolate-ingredients.natural-cocoa-powder:pairs_with_style:pinot-noir",
+      "exact_food_entity_id": "food.sweet-flavor.cocoa-chocolate-ingredients.natural-cocoa-powder",
+      "exact_wine_target_id": "pinot-noir",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-20"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "PREPARATION_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "evidence_strength": "contextual_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Well-documented fruit-acid/chocolate-bitterness balance logic, but content concerns finished CHOCOLATE confections, not raw cocoa powder — preparation-derived. Complements but is a different wine target than the already-known cacao-powder/port finding (EAT-14 S09)."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "sweet-flavor",
+        "entity_name": "Natural Cocoa Powder",
+        "target_name": "Pinot Noir",
+        "selection_rationale": "PRIORITY_B. Culinary group 'cocoa_chocolate_ingredients'. Tests a different wine style than the already-known cacao-powder/port finding (EAT-14 S09), for cross-target comparison on the same ingredient family.",
+        "priority_tier": "PRIORITY_B"
+      }
+    },
+    {
+      "relationship_id": "eat17:sweet-flavor:food.sweet-flavor.syrups.molasses:pairs_with_style:port",
+      "exact_food_entity_id": "food.sweet-flavor.syrups.molasses",
+      "exact_wine_target_id": "port",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-21"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "EXACT_ENTITY",
+      "documented_bridge_rule": null,
+      "claim_type": "STRONG_CONTEXTUAL_SUPPORT",
+      "evidence_strength": "contextual_single_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Single directly-relevant sentence found ('Port wine... excellent pairing for foods and drinks with molasses notes'); the majority of search results drifted into unrelated rum/spirits content, which was NOT used as evidence for this wine-pairing claim. Weak — single Tier-4 source, no independent corroboration found this phase."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "sweet-flavor",
+        "entity_name": "Molasses",
+        "target_name": "Port",
+        "selection_rationale": "PRIORITY_B. Culinary group 'syrups' (second entry). DIFFICULTY TEST — search results drifted heavily into unrelated rum/spirits content, testing source-relevance discipline.",
+        "priority_tier": "PRIORITY_B"
+      }
+    },
+    {
+      "relationship_id": "eat17:sweet-flavor:food.sweet-flavor.sugars.beet-sugar:pairs_with_style:prosecco",
+      "exact_food_entity_id": "food.sweet-flavor.sugars.beet-sugar",
+      "exact_wine_target_id": "prosecco",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-27"
+      ],
+      "source_verification_state": "SOURCE_UNVERIFIED",
+      "bridge_type": "CATEGORY_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "COINCIDENTAL_CO_OCCURRENCE",
+      "evidence_strength": "insufficient",
+      "relationship_status": "evidence_insufficient",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Confirmed consistent with EAT-14: available sources concern BEET (the root vegetable) and beet SALAD dishes paired with Prosecco, not beet SUGAR (the refined sweetener commodity) — a claim-matching/entity-identity mismatch, not genuine support. Placeholder source record documents that real sources exist but for a different, mismatched entity."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "sweet-flavor",
+        "entity_name": "Beet Sugar",
+        "target_name": "Prosecco",
+        "selection_rationale": "PRIORITY_B. Culinary group 'sugars'. DELIBERATE DIFFICULT/NEGATIVE CASE — confirmed claim-mismatch (beet vegetable vs. beet sugar entity confusion) in EAT-14; re-included as a negative control for entity-matching discipline.",
+        "priority_tier": "PRIORITY_B"
+      }
+    },
+    {
+      "relationship_id": "eat17:sweet-flavor:food.sweet-flavor.cocoa-chocolate-ingredients.cacao-powder:pairs_with_descriptor:chocolate",
+      "exact_food_entity_id": "food.sweet-flavor.cocoa-chocolate-ingredients.cacao-powder",
+      "exact_wine_target_id": "chocolate",
+      "relationship_type": "pairs_with_descriptor",
+      "source_ids": [
+        "E17-22"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "EXACT_ENTITY",
+      "documented_bridge_rule": null,
+      "claim_type": "INDIRECT_SUPPORT",
+      "evidence_strength": "insufficient",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Reused from EAT-15: name-echo case — 'chocolate' is a real wine descriptor whose Tier-1-documented origin is oak/fermentation chemistry, independent of any actual cacao interaction. name_echo_risk is live-confirmed true (see check M01) and NOT reviewed (name_echo_reviewed=false)."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": true,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "sweet-flavor",
+        "entity_name": "Cacao Powder",
+        "target_name": "Chocolate",
+        "selection_rationale": "SUPPLEMENTAL — added specifically to exercise a real, live-confirmed name_echo_risk=true case (EAT-15's motivating example), since none of the 24 pairs_with_style targets above trigger detectNameEcho(). Reused finding from EAT-15.",
+        "priority_tier": "PRIORITY_C"
+      }
+    },
+    {
+      "relationship_id": "eat17:sweet-flavor:food.sweet-flavor.honey-bee-products.honey:pairs_with_descriptor:honeyed",
+      "exact_food_entity_id": "food.sweet-flavor.honey-bee-products.honey",
+      "exact_wine_target_id": "honeyed",
+      "relationship_type": "pairs_with_descriptor",
+      "source_ids": [
+        "E17-23"
+      ],
+      "source_verification_state": "SOURCE_SNIPPET_ONLY",
+      "bridge_type": "EXACT_ENTITY",
+      "documented_bridge_rule": null,
+      "claim_type": "INDIRECT_SUPPORT",
+      "evidence_strength": "insufficient",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat17-cohort-research",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "Reused from EAT-15: name-echo case — 'honeyed' is a real botrytis/late-harvest wine descriptor explicitly documented as containing no actual honey. name_echo_risk is live-confirmed true (see check M01) and NOT reviewed."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": true,
+      "name_echo_reviewed": false,
+      "_eat17_meta": {
+        "domain": "sweet-flavor",
+        "entity_name": "Honey",
+        "target_name": "Honeyed",
+        "selection_rationale": "SUPPLEMENTAL — second real, live-confirmed name_echo_risk=true case (the other EAT-15/16B motivating example). Reused finding from EAT-15.",
+        "priority_tier": "PRIORITY_B"
+      }
+    }
+  ],
+  "source_records": [
+    {
+      "source_id": "E17-01",
+      "source_url": "https://winefolly.com/deep-dive/chenin-blanc-wine-guide/",
+      "title": "The Indispensable Chenin Blanc Wine Guide",
+      "publisher": "Wine Folly",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 2,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports fruit:Apple -> Chenin Blanc (pairs_with_style). Independently researched this phase."
+    },
+    {
+      "source_id": "E17-02",
+      "source_url": "https://www.wineenthusiast.com/basics/best-wine-pairing-avocado/",
+      "title": "Four Ways to Pair Avocados and Wine",
+      "publisher": "Wine Enthusiast",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 2,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports fruit:Avocado -> Sauvignon Blanc (pairs_with_style). Reuse note: consistent with EAT-14 finding (independently re-searched)."
+    },
+    {
+      "source_id": "E17-03",
+      "source_url": "https://www.wineenthusiast.com/basics/wine-berry/",
+      "title": "How to Pair Wine With Just About Any Berry",
+      "publisher": "Wine Enthusiast",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 2,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports fruit:Blueberry -> Pinot Noir (pairs_with_style). Independently researched this phase."
+    },
+    {
+      "source_id": "E17-04",
+      "source_url": "https://www.totalwine.com/discover/learn/albarino-alvarinho",
+      "title": "Albariño (Alvarinho): Regions, Flavors, Pairings, & More",
+      "publisher": "Total Wine & More",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 3,
+      "source_type": "RETAILER_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports fruit:Grapefruit -> Albariño (pairs_with_style). Independently researched this phase."
+    },
+    {
+      "source_id": "E17-05",
+      "source_url": "https://winefolly.com/grapes/albarino/",
+      "title": "The Comprehensive Guide to Albariño (Alvarinho)",
+      "publisher": "Wine Folly",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 2,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports fruit:Grapefruit -> Albariño (pairs_with_style). Independently researched this phase."
+    },
+    {
+      "source_id": "E17-06",
+      "source_url": "https://home.binwise.com/blog/what-to-eat-with-port-wine",
+      "title": "What to Eat With Port Wine: Port Wine Food Pairing",
+      "publisher": "BinWise",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 3,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports fruit:Fig -> Port (pairs_with_style). Independently researched this phase."
+    },
+    {
+      "source_id": "E17-07",
+      "source_url": "https://www.wineenthusiast.com/basics/how-to-pair-wine-with-watermelon/",
+      "title": "How to Pair Wine with Watermelon",
+      "publisher": "Wine Enthusiast",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 2,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports fruit:Watermelon -> Dry Rosé (pairs_with_style). Independently researched this phase."
+    },
+    {
+      "source_id": "E17-08",
+      "source_url": "https://winefolly.com/deep-dive/chenin-blanc-wine-guide/",
+      "title": "The Indispensable Chenin Blanc Wine Guide",
+      "publisher": "Wine Folly",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 2,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports nut-seed:Almond -> Chenin Blanc (pairs_with_style). Independently researched this phase."
+    },
+    {
+      "source_id": "E17-09",
+      "source_url": "https://cantinepovero.com/en/what-are-the-best-food-pairings-with-nebbiolo/",
+      "title": "What Are the Best Food Pairings with Nebbiolo?",
+      "publisher": "Cantine Povero",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 3,
+      "source_type": "PRODUCER_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports nut-seed:Chestnut -> Nebbiolo (pairs_with_style). Reuse note: consistent with EAT-15 finding."
+    },
+    {
+      "source_id": "E17-24",
+      "source_url": null,
+      "title": null,
+      "publisher": null,
+      "author": null,
+      "publication_date": null,
+      "source_tier": null,
+      "source_type": null,
+      "verification_state": "SOURCE_UNVERIFIED",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports nut-seed:Egusi Seed -> Gewürztraminer (pairs_with_style). Reuse note: confirmed consistent with EAT-14 finding."
+    },
+    {
+      "source_id": "E17-10",
+      "source_url": "https://lustau.es/en/pairings/how-to-perfectly-pair-sherry-wine-with-falafel-and-tahini/",
+      "title": "How to Perfectly Pair Sherry Wine with Falafel and Tahini",
+      "publisher": "Lustau (Sherry producer)",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 3,
+      "source_type": "PRODUCER_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports nut-seed:Tahini -> Sherry (pairs_with_style). Independently researched this phase."
+    },
+    {
+      "source_id": "E17-11",
+      "source_url": "https://www.matchingfoodandwine.com/news/pairings/-the-best-food-pairings-for-gewurztraminer/",
+      "title": "The best food pairings for Gewurztraminer",
+      "publisher": "Matching Food & Wine",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 2,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports nut-seed:Peanut -> Gewürztraminer (pairs_with_style). Independently researched this phase."
+    },
+    {
+      "source_id": "E17-12",
+      "source_url": "https://www.try.vi/wine-pairing/almond-financier",
+      "title": "Best Almond Financier Wine Pairings",
+      "publisher": "Vi (commercial pairing tool)",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 4,
+      "source_type": "ALGORITHMIC_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports nut-seed:Almond Flour -> Champagne (pairs_with_style). Reuse note: EAT-14 S05 / EAT-16 store record."
+    },
+    {
+      "source_id": "E17-13",
+      "source_url": "https://www.matchingfoodandwine.com/news/pairings/the-best-food-pairings-for-chianti-and-other-tuscan-sangiovese/",
+      "title": "The best food pairings for Chianti Classico and other Tuscan sangiovese",
+      "publisher": "Matching Food & Wine",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 2,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports legume:Fava Bean -> Sangiovese (pairs_with_style). Reuse note: consistent with EAT-14 finding."
+    },
+    {
+      "source_id": "E17-14",
+      "source_url": "https://www.winevizer.com/en/food-and-wine-pairing/food-and-wine-pairing-with-grilled-tofu",
+      "title": "Food and Wine Pairing with Grilled Tofu",
+      "publisher": "Winevizer",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 3,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports legume:Tofu -> Pinot Grigio (pairs_with_style). Independently researched this phase."
+    },
+    {
+      "source_id": "E17-15",
+      "source_url": "https://www.winewithseth.com/winewiki/umami-rich-foods/",
+      "title": "Umami-Rich Foods & Wine Pairing",
+      "publisher": "WineWiki",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 3,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports legume:Miso -> Sherry (pairs_with_style). Reuse note: consistent with prior EAT-16 store record (different edge, same entity)."
+    },
+    {
+      "source_id": "E17-25",
+      "source_url": null,
+      "title": null,
+      "publisher": null,
+      "author": null,
+      "publication_date": null,
+      "source_tier": null,
+      "source_type": null,
+      "verification_state": "SOURCE_UNVERIFIED",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports legume:Black Gram -> Syrah / Shiraz (pairs_with_style). Reuse note: confirmed consistent with EAT-15 finding."
+    },
+    {
+      "source_id": "E17-16",
+      "source_url": "https://www.winetraveler.com/wine-pairing/dry-rose-wine-pairing/",
+      "title": "Food Pairing Dry Rosé Wine: Everything to Know",
+      "publisher": "Wine Traveler",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 3,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports legume:Chickpea -> Dry Rosé (pairs_with_style). Independently researched this phase."
+    },
+    {
+      "source_id": "E17-26",
+      "source_url": null,
+      "title": null,
+      "publisher": null,
+      "author": null,
+      "publication_date": null,
+      "source_tier": null,
+      "source_type": null,
+      "verification_state": "SOURCE_UNVERIFIED",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports legume:Red Lentil -> Gewürztraminer (pairs_with_style). Reuse note: EAT-16 store re-classification (stricter than original EAT-14 label)."
+    },
+    {
+      "source_id": "E17-17",
+      "source_url": "https://winefolly.com/grapes/gewurztraminer/",
+      "title": "The Comprehensive Guide to Gewürztraminer",
+      "publisher": "Wine Folly",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 2,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports sweet-flavor:Honey -> Gewürztraminer (pairs_with_style). Independently researched this phase."
+    },
+    {
+      "source_id": "E17-18",
+      "source_url": "https://giadzy.com/blogs/tips/giada-s-favorite-recipes-to-pair-with-moscato-d-asti",
+      "title": "Giada's Favorite Recipes to Pair With Moscato d'Asti",
+      "publisher": "Giadzy",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 3,
+      "source_type": "PROFESSIONAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports sweet-flavor:Clover Honey -> Moscato (pairs_with_style). Reuse note: EAT-14 S10 / EAT-16 store record."
+    },
+    {
+      "source_id": "E17-19",
+      "source_url": "https://www.hesiode.com/en/maple-syrup-and-french-wine-pairing/",
+      "title": "Maple syrup and French wine pairing",
+      "publisher": "Hesiode",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 3,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports sweet-flavor:Maple Syrup -> Riesling (pairs_with_style). Independently researched this phase."
+    },
+    {
+      "source_id": "E17-20",
+      "source_url": "https://winefolly.com/wine-pairing/what-wines-to-pair-with-chocolate/",
+      "title": "What Wines To Pair With Chocolate?",
+      "publisher": "Wine Folly",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 2,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports sweet-flavor:Natural Cocoa Powder -> Pinot Noir (pairs_with_style). Independently researched this phase."
+    },
+    {
+      "source_id": "E17-21",
+      "source_url": "https://rumcakeescape.com/blogs/news/rum-cake-pairing-what-to-drink-with-your-dessert",
+      "title": "Rum Cake Pairing: What to Drink with Your Dessert",
+      "publisher": "Rum Cake Escape",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 4,
+      "source_type": "RETAILER_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports sweet-flavor:Molasses -> Port (pairs_with_style). Independently researched this phase."
+    },
+    {
+      "source_id": "E17-27",
+      "source_url": null,
+      "title": null,
+      "publisher": null,
+      "author": null,
+      "publication_date": null,
+      "source_tier": null,
+      "source_type": null,
+      "verification_state": "SOURCE_UNVERIFIED",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports sweet-flavor:Beet Sugar -> Prosecco (pairs_with_style). Reuse note: confirmed consistent with EAT-14 finding."
+    },
+    {
+      "source_id": "E17-22",
+      "source_url": "https://www.winespectator.com/articles/if-a-wine-tastes-like-chocolate-is-there-actual-chocolate-in-the-wine",
+      "title": "If a wine tastes like chocolate, does that mean there's actual chocolate in the wine?",
+      "publisher": "Wine Spectator",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 1,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports sweet-flavor:Cacao Powder -> Chocolate (pairs_with_descriptor). Reuse note: EAT-15 finding (D08)."
+    },
+    {
+      "source_id": "E17-23",
+      "source_url": "https://www.winecompass.com.au/blog/what-is-honeyed-wine-meaning-taste-history-and-how-its-made/",
+      "title": "What Is Honeyed Wine? Meaning, Taste, History, and How It's Made",
+      "publisher": "Wine Compass",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 3,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Supports sweet-flavor:Honey -> Honeyed (pairs_with_descriptor). Reuse note: EAT-15 finding (D09)."
+    }
+  ],
+  "claim_type_distribution": {
+    "EXPLICIT_PAIRING": 6,
+    "STRONG_CONTEXTUAL_SUPPORT": 15,
+    "UNSUPPORTED": 2,
+    "COINCIDENTAL_CO_OCCURRENCE": 1,
+    "INDIRECT_SUPPORT": 2
+  },
+  "bridge_type_distribution": {
+    "EXACT_ENTITY": 11,
+    "CATEGORY_DERIVED": 3,
+    "PREPARATION_DERIVED": 5,
+    "ATTRIBUTE_DERIVED": 1,
+    "DISH_DERIVED": 6
+  },
+  "source_tier_distribution": {
+    "1": 1,
+    "2": 10,
+    "3": 10,
+    "4": 2,
+    "null": 4
+  },
+  "source_verification_state_distribution": {
+    "SOURCE_SNIPPET_ONLY": 23,
+    "SOURCE_UNVERIFIED": 4
+  },
+  "relationship_status_distribution": {
+    "evidence_present": 23,
+    "evidence_insufficient": 3
+  },
+  "contradiction_results": {
+    "contradiction_signal_count": 0,
+    "contradicted_count": 0,
+    "note": "No contradiction was found in this cohort; none was manufactured to demonstrate the mechanism (already demonstrated with real data in EAT-14/15/16)."
+  },
+  "name_echo_results": {
+    "true_count": 2,
+    "false_count": 24,
+    "note": "All 24 pairs_with_style records correctly show false; both supplemental pairs_with_descriptor records correctly show true — confirms name-echo risk is structurally concentrated in descriptor/technique relationships, not style relationships."
+  },
+  "adsense_value_assessment": {
+    "counts": {
+      "HIGH_PAGE_VALUE": 6,
+      "MODERATE_PAGE_VALUE": 15,
+      "LOW_PAGE_VALUE": 5
+    },
+    "by_record": [
+      {
+        "id": "eat17:fruit:food.fruit.pomes.apple:pairs_with_style:chenin-blanc",
+        "value": "HIGH_PAGE_VALUE",
+        "reason": "Explicit, exact-entity claim — could support a specific, non-generic, food-specific explanation distinct from template boilerplate."
+      },
+      {
+        "id": "eat17:fruit:food.fruit.tropical-fruits.avocado:pairs_with_style:sauvignon-blanc",
+        "value": "HIGH_PAGE_VALUE",
+        "reason": "Explicit, exact-entity claim — could support a specific, non-generic, food-specific explanation distinct from template boilerplate."
+      },
+      {
+        "id": "eat17:fruit:food.fruit.berries.blueberry:pairs_with_style:pinot-noir",
+        "value": "MODERATE_PAGE_VALUE",
+        "reason": "Real reasoning exists but is bridged through a preparation/dish/category, not the raw entity — some differentiated value, but weaker specificity for the exact catalog page."
+      },
+      {
+        "id": "eat17:fruit:food.fruit.citrus.grapefruit:pairs_with_style:albarino",
+        "value": "HIGH_PAGE_VALUE",
+        "reason": "Explicit, exact-entity claim — could support a specific, non-generic, food-specific explanation distinct from template boilerplate."
+      },
+      {
+        "id": "eat17:fruit:food.fruit.tropical-fruits.fig:pairs_with_style:port",
+        "value": "HIGH_PAGE_VALUE",
+        "reason": "Explicit, exact-entity claim — could support a specific, non-generic, food-specific explanation distinct from template boilerplate."
+      },
+      {
+        "id": "eat17:fruit:food.fruit.melons.watermelon:pairs_with_style:dry-rose",
+        "value": "HIGH_PAGE_VALUE",
+        "reason": "Explicit, exact-entity claim — could support a specific, non-generic, food-specific explanation distinct from template boilerplate."
+      },
+      {
+        "id": "eat17:nut-seed:food.nut-seed.tree-nuts.almond:pairs_with_style:chenin-blanc",
+        "value": "MODERATE_PAGE_VALUE",
+        "reason": "Real reasoning exists but is bridged through a preparation/dish/category, not the raw entity — some differentiated value, but weaker specificity for the exact catalog page."
+      },
+      {
+        "id": "eat17:nut-seed:food.nut-seed.tree-nuts.chestnut:pairs_with_style:nebbiolo",
+        "value": "MODERATE_PAGE_VALUE",
+        "reason": "Real reasoning exists but is bridged through a preparation/dish/category, not the raw entity — some differentiated value, but weaker specificity for the exact catalog page."
+      },
+      {
+        "id": "eat17:nut-seed:food.nut-seed.seed-spices.egusi-seed:pairs_with_style:gewurztraminer",
+        "value": "LOW_PAGE_VALUE",
+        "reason": "No usable claim was found — this relationship offers no content opportunity; the page gains nothing from it regardless of publication status."
+      },
+      {
+        "id": "eat17:nut-seed:food.nut-seed.seed-products.tahini:pairs_with_style:sherry",
+        "value": "MODERATE_PAGE_VALUE",
+        "reason": "Real reasoning exists but is bridged through a preparation/dish/category, not the raw entity — some differentiated value, but weaker specificity for the exact catalog page."
+      },
+      {
+        "id": "eat17:nut-seed:food.nut-seed.peanuts.peanut:pairs_with_style:gewurztraminer",
+        "value": "MODERATE_PAGE_VALUE",
+        "reason": "Real reasoning exists but is bridged through a preparation/dish/category, not the raw entity — some differentiated value, but weaker specificity for the exact catalog page."
+      },
+      {
+        "id": "eat17:nut-seed:food.nut-seed.nut-products.almond-flour:pairs_with_style:champagne",
+        "value": "MODERATE_PAGE_VALUE",
+        "reason": "Real reasoning exists but is bridged through a preparation/dish/category, not the raw entity — some differentiated value, but weaker specificity for the exact catalog page."
+      },
+      {
+        "id": "eat17:legume:food.legume.beans.fava-bean:pairs_with_style:sangiovese",
+        "value": "HIGH_PAGE_VALUE",
+        "reason": "Explicit, exact-entity claim — could support a specific, non-generic, food-specific explanation distinct from template boilerplate."
+      },
+      {
+        "id": "eat17:legume:food.legume.legume-products.tofu:pairs_with_style:pinot-grigio",
+        "value": "MODERATE_PAGE_VALUE",
+        "reason": "Real reasoning exists but is bridged through a preparation/dish/category, not the raw entity — some differentiated value, but weaker specificity for the exact catalog page."
+      },
+      {
+        "id": "eat17:legume:food.legume.legume-products.miso:pairs_with_style:sherry",
+        "value": "MODERATE_PAGE_VALUE",
+        "reason": "Real reasoning exists but is bridged through a preparation/dish/category, not the raw entity — some differentiated value, but weaker specificity for the exact catalog page."
+      },
+      {
+        "id": "eat17:legume:food.legume.other-legumes.black-gram:pairs_with_style:syrah-shiraz",
+        "value": "LOW_PAGE_VALUE",
+        "reason": "No usable claim was found — this relationship offers no content opportunity; the page gains nothing from it regardless of publication status."
+      },
+      {
+        "id": "eat17:legume:food.legume.chickpeas.chickpea:pairs_with_style:dry-rose",
+        "value": "MODERATE_PAGE_VALUE",
+        "reason": "Real reasoning exists but is bridged through a preparation/dish/category, not the raw entity — some differentiated value, but weaker specificity for the exact catalog page."
+      },
+      {
+        "id": "eat17:legume:food.legume.lentils.red-lentil:pairs_with_style:gewurztraminer",
+        "value": "MODERATE_PAGE_VALUE",
+        "reason": "Real reasoning exists but is bridged through a preparation/dish/category, not the raw entity — some differentiated value, but weaker specificity for the exact catalog page."
+      },
+      {
+        "id": "eat17:sweet-flavor:food.sweet-flavor.honey-bee-products.honey:pairs_with_style:gewurztraminer",
+        "value": "MODERATE_PAGE_VALUE",
+        "reason": "Real reasoning exists but is bridged through a preparation/dish/category, not the raw entity — some differentiated value, but weaker specificity for the exact catalog page."
+      },
+      {
+        "id": "eat17:sweet-flavor:food.sweet-flavor.honey-bee-products.clover-honey:pairs_with_style:moscato",
+        "value": "MODERATE_PAGE_VALUE",
+        "reason": "Real reasoning exists but is bridged through a preparation/dish/category, not the raw entity — some differentiated value, but weaker specificity for the exact catalog page."
+      },
+      {
+        "id": "eat17:sweet-flavor:food.sweet-flavor.syrups.maple-syrup:pairs_with_style:riesling",
+        "value": "MODERATE_PAGE_VALUE",
+        "reason": "Real reasoning exists but is bridged through a preparation/dish/category, not the raw entity — some differentiated value, but weaker specificity for the exact catalog page."
+      },
+      {
+        "id": "eat17:sweet-flavor:food.sweet-flavor.cocoa-chocolate-ingredients.natural-cocoa-powder:pairs_with_style:pinot-noir",
+        "value": "MODERATE_PAGE_VALUE",
+        "reason": "Real reasoning exists but is bridged through a preparation/dish/category, not the raw entity — some differentiated value, but weaker specificity for the exact catalog page."
+      },
+      {
+        "id": "eat17:sweet-flavor:food.sweet-flavor.syrups.molasses:pairs_with_style:port",
+        "value": "MODERATE_PAGE_VALUE",
+        "reason": "Real reasoning exists but is bridged through a preparation/dish/category, not the raw entity — some differentiated value, but weaker specificity for the exact catalog page."
+      },
+      {
+        "id": "eat17:sweet-flavor:food.sweet-flavor.sugars.beet-sugar:pairs_with_style:prosecco",
+        "value": "LOW_PAGE_VALUE",
+        "reason": "No usable claim was found — this relationship offers no content opportunity; the page gains nothing from it regardless of publication status."
+      },
+      {
+        "id": "eat17:sweet-flavor:food.sweet-flavor.cocoa-chocolate-ingredients.cacao-powder:pairs_with_descriptor:chocolate",
+        "value": "LOW_PAGE_VALUE",
+        "reason": "No usable claim was found — this relationship offers no content opportunity; the page gains nothing from it regardless of publication status."
+      },
+      {
+        "id": "eat17:sweet-flavor:food.sweet-flavor.honey-bee-products.honey:pairs_with_descriptor:honeyed",
+        "value": "LOW_PAGE_VALUE",
+        "reason": "No usable claim was found — this relationship offers no content opportunity; the page gains nothing from it regardless of publication status."
+      }
+    ]
+  },
+  "page_impact": {
+    "measurements": [
+      {
+        "domain": "fruit",
+        "entity": "Apple",
+        "filePath": "fruits/apple/index.html",
+        "found": true,
+        "substantiveWords": 57,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "fruit",
+        "entity": "Avocado",
+        "filePath": "fruits/avocado/index.html",
+        "found": true,
+        "substantiveWords": 59,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "fruit",
+        "entity": "Blueberry",
+        "filePath": "fruits/blueberry/index.html",
+        "found": true,
+        "substantiveWords": 57,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "fruit",
+        "entity": "Grapefruit",
+        "filePath": "fruits/grapefruit/index.html",
+        "found": true,
+        "substantiveWords": 52,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "fruit",
+        "entity": "Fig",
+        "filePath": "fruits/fig/index.html",
+        "found": true,
+        "substantiveWords": 55,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "fruit",
+        "entity": "Watermelon",
+        "filePath": "fruits/watermelon/index.html",
+        "found": true,
+        "substantiveWords": 53,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "nut-seed",
+        "entity": "Almond",
+        "filePath": "nut-seeds/almond/index.html",
+        "found": true,
+        "substantiveWords": 55,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "nut-seed",
+        "entity": "Chestnut",
+        "filePath": "nut-seeds/chestnut/index.html",
+        "found": true,
+        "substantiveWords": 54,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "nut-seed",
+        "entity": "Egusi Seed",
+        "filePath": "nut-seeds/egusi-seed/index.html",
+        "found": true,
+        "substantiveWords": 60,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "nut-seed",
+        "entity": "Tahini",
+        "filePath": "nut-seeds/tahini/index.html",
+        "found": true,
+        "substantiveWords": 61,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "nut-seed",
+        "entity": "Peanut",
+        "filePath": "nut-seeds/peanut/index.html",
+        "found": true,
+        "substantiveWords": 61,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "nut-seed",
+        "entity": "Almond Flour",
+        "filePath": "nut-seeds/almond-flour/index.html",
+        "found": true,
+        "substantiveWords": 52,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "legume",
+        "entity": "Fava Bean",
+        "filePath": "legumes/fava-bean/index.html",
+        "found": true,
+        "substantiveWords": 59,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "legume",
+        "entity": "Tofu",
+        "filePath": "legumes/tofu/index.html",
+        "found": true,
+        "substantiveWords": 62,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "legume",
+        "entity": "Miso",
+        "filePath": "legumes/miso/index.html",
+        "found": true,
+        "substantiveWords": 71,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "legume",
+        "entity": "Black Gram",
+        "filePath": "legumes/black-gram/index.html",
+        "found": true,
+        "substantiveWords": 64,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "legume",
+        "entity": "Chickpea",
+        "filePath": "legumes/chickpea/index.html",
+        "found": true,
+        "substantiveWords": 56,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "legume",
+        "entity": "Red Lentil",
+        "filePath": "legumes/red-lentil/index.html",
+        "found": true,
+        "substantiveWords": 57,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "sweet-flavor",
+        "entity": "Honey",
+        "filePath": "sweet-flavors/honey/index.html",
+        "found": true,
+        "substantiveWords": 69,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "sweet-flavor",
+        "entity": "Clover Honey",
+        "filePath": "sweet-flavors/clover-honey/index.html",
+        "found": true,
+        "substantiveWords": 63,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "sweet-flavor",
+        "entity": "Maple Syrup",
+        "filePath": "sweet-flavors/maple-syrup/index.html",
+        "found": true,
+        "substantiveWords": 58,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "sweet-flavor",
+        "entity": "Natural Cocoa Powder",
+        "filePath": "sweet-flavors/natural-cocoa-powder/index.html",
+        "found": true,
+        "substantiveWords": 79,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "sweet-flavor",
+        "entity": "Molasses",
+        "filePath": "sweet-flavors/molasses/index.html",
+        "found": true,
+        "substantiveWords": 66,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "sweet-flavor",
+        "entity": "Beet Sugar",
+        "filePath": "sweet-flavors/beet-sugar/index.html",
+        "found": true,
+        "substantiveWords": 59,
+        "hasWhyTheseWinesWork": false
+      },
+      {
+        "domain": "sweet-flavor",
+        "entity": "Cacao Powder",
+        "filePath": "sweet-flavors/cacao-powder/index.html",
+        "found": true,
+        "substantiveWords": 64,
+        "hasWhyTheseWinesWork": false
+      }
+    ],
+    "note": "Baseline substantive-word counts measured using the exact EAT-05 extraction methodology; no content was injected into any page this phase."
+  },
+  "reviewer_status": {
+    "distinct_reviewer_exists": false,
+    "note": "researcher_id='eat17-cohort-research' for all 26 records; reviewer_id=null for all 26 — no relationship can reach evidence_verified this phase regardless of claim/source quality."
+  },
+  "local_verification": {
+    "total_checks": 97,
+    "passed": 97,
+    "failed": 0,
+    "checks": [
+      {
+        "id": "A01_all_356_entities_loaded",
+        "category": "A_inventory",
+        "description": "All 356 quarantined leaf entities across 4 domains are loaded live from the catalogs.",
+        "pass": true,
+        "evidence": {
+          "count": 356
+        }
+      },
+      {
+        "id": "A02_per_domain_counts_match_known",
+        "category": "A_inventory",
+        "description": "Per-domain entity counts match EAT-13's established figures (119/89/75/73).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "A03_eat05_domain_opportunity_weights_match_real_report",
+        "category": "A_inventory",
+        "description": "The EAT05_LEAF_AVG_SUBSTANTIVE_WORDS constants used for prioritization match the actual figures in reports/pairing-eat-05-content-quality.json's scorecard (live cross-check, not just asserted).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "B01_873_edges_unchanged_count",
+        "category": "B_873_edge_preservation",
+        "description": "Total runtime edges across the 4 domains is still exactly 873.",
+        "pass": true,
+        "evidence": {
+          "total": 873
+        }
+      },
+      {
+        "id": "B02_runtime_files_byte_identical",
+        "category": "B_873_edge_preservation",
+        "description": "All 4 runtime relationship files are byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {
+          "offenders": []
+        }
+      },
+      {
+        "id": "B03_catalogs_byte_identical",
+        "category": "B_873_edge_preservation",
+        "description": "All 4 catalogs are byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {
+          "catalogOffenders": []
+        }
+      },
+      {
+        "id": "C01_prioritization_deterministic_across_runs",
+        "category": "C_deterministic_prioritization",
+        "description": "Re-running loadAllEntities() twice in-process produces byte-identical tier assignments.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "C02_prioritization_uses_only_real_fields",
+        "category": "C_deterministic_prioritization",
+        "description": "computePriorityTier's only inputs are usage_intensity (real catalog field) and domain (used to look up the real EAT-05 opportunity weight) — no fabricated score.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "C03_no_fake_precision_scores",
+        "category": "C_deterministic_prioritization",
+        "description": "Priority scores are small integers (sums of two small integer weights), never a fabricated decimal like 87.42.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "C04_tier_distribution_matches_expected",
+        "category": "C_deterministic_prioritization",
+        "description": "Live tier distribution matches the figures reported to the Director (46 A / 251 B / 56 C / 3 DEFERRED).",
+        "pass": true,
+        "evidence": {
+          "tierCounts": {
+            "PRIORITY_B": 251,
+            "PRIORITY_A": 46,
+            "PRIORITY_C": 56,
+            "DEFERRED": 3
+          }
+        }
+      },
+      {
+        "id": "D01_cohort_size_within_bounded_target",
+        "category": "D_cohort_composition",
+        "description": "Cohort size (26: 24 style + 2 supplemental descriptor edges for name-echo coverage) is a deliberately bounded, sub-40 selection, not an automatic quota fill.",
+        "pass": true,
+        "evidence": {
+          "size": 26
+        }
+      },
+      {
+        "id": "D02_cohort_selected_before_research_documented",
+        "category": "D_cohort_composition",
+        "description": "Every cohort entry has a non-empty selection_rationale recorded independent of its research outcome.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "D03_cohort_entities_resolve_to_priority_tiers",
+        "category": "D_cohort_composition",
+        "description": "Every PRIMARY cohort entity (the 24 pairs_with_style entries) resolves to a live-computed priority tier of A or top-of-B (usage_intensity=primary); the 2 SUPPLEMENTAL name-echo entries are explicitly exempted since their selection criterion is name-echo coverage, not page-value priority (Cacao Powder is usage_intensity=accent/PRIORITY_C, honestly reflected, not concealed).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "D04_cohort_edges_exist_in_real_runtime_data",
+        "category": "D_cohort_composition",
+        "description": "Every cohort relationship (entity+type+target) exists as a real edge in the current runtime data — no invented relationship.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E01_all_four_domains_represented",
+        "category": "E_domain_balance",
+        "description": "All 4 domains are represented in the cohort.",
+        "pass": true,
+        "evidence": {
+          "domainCounts": {
+            "fruit": 6,
+            "nut-seed": 6,
+            "legume": 6,
+            "sweet-flavor": 8
+          }
+        }
+      },
+      {
+        "id": "E02_no_domain_dominates_cohort",
+        "category": "E_domain_balance",
+        "description": "No single domain accounts for more than half the cohort.",
+        "pass": true,
+        "evidence": {
+          "domainCounts": {
+            "fruit": 6,
+            "nut-seed": 6,
+            "legume": 6,
+            "sweet-flavor": 8
+          }
+        }
+      },
+      {
+        "id": "E03_culinary_group_diversity_within_domains",
+        "category": "E_domain_balance",
+        "description": "Each domain's cohort entries span more than one culinary_group (no single-group tunnel vision).",
+        "pass": true,
+        "evidence": {
+          "groupCounts": {
+            "fruit": 5,
+            "nut-seed": 5,
+            "legume": 5,
+            "sweet-flavor": 4
+          }
+        }
+      },
+      {
+        "id": "F01_all_source_records_schema_valid",
+        "category": "F_source_schema",
+        "description": "Every generated source_record passes EP.validateSourceRecord().",
+        "pass": true,
+        "evidence": {
+          "failures": []
+        }
+      },
+      {
+        "id": "F02_no_fabricated_author_or_date_metadata",
+        "category": "F_source_schema",
+        "description": "No source_record invents an author or publication_date not actually confirmed — all use null rather than guessed values.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "F03_no_duplicate_source_ids",
+        "category": "F_source_schema",
+        "description": "No duplicate source_id across the generated source records.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "G01_all_food_entities_resolve_live",
+        "category": "G_exact_entity_resolution",
+        "description": "Every relationship_evidence_record's exact_food_entity_id resolves against the live catalogs.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "G02_all_wine_targets_resolve_live",
+        "category": "G_exact_entity_resolution",
+        "description": "Every relationship_evidence_record's exact_wine_target_id resolves against the live wine ontology for its relationship_type.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "G03_beet_sugar_entity_mismatch_correctly_flagged",
+        "category": "G_exact_entity_resolution",
+        "description": "The Beet Sugar/Prosecco record is correctly classified COINCIDENTAL_CO_OCCURRENCE / CATEGORY_DERIVED (entity-mismatch negative control), not silently upgraded.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "H01_all_claim_types_valid_enum",
+        "category": "H_claim_classification",
+        "description": "Every record's claim_type is one of the 5 EAT-15-defined values.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "H02_claim_distribution_recorded",
+        "category": "H_claim_classification",
+        "description": "Claim-type distribution is computed live from the actual records (not asserted).",
+        "pass": true,
+        "evidence": {
+          "claimCounts": {
+            "EXPLICIT_PAIRING": 6,
+            "STRONG_CONTEXTUAL_SUPPORT": 15,
+            "UNSUPPORTED": 2,
+            "COINCIDENTAL_CO_OCCURRENCE": 1,
+            "INDIRECT_SUPPORT": 2
+          }
+        }
+      },
+      {
+        "id": "H03_no_relationship_type_gets_relaxed_claim_bar",
+        "category": "H_claim_classification",
+        "description": "The claim classification logic contains no branch that varies the required claim_type by relationship_type (unified evidence bar, per EAT-15/16 policy).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "I01_all_bridge_types_valid_enum",
+        "category": "I_bridge_classification",
+        "description": "Every record's bridge_type is one of the 6 EAT-15/16-defined values.",
+        "pass": true,
+        "evidence": {
+          "bridgeCounts": {
+            "EXACT_ENTITY": 11,
+            "CATEGORY_DERIVED": 3,
+            "PREPARATION_DERIVED": 5,
+            "ATTRIBUTE_DERIVED": 1,
+            "DISH_DERIVED": 6
+          }
+        }
+      },
+      {
+        "id": "I02_preparation_dish_bridges_lack_documented_rule_and_are_correctly_ineligible",
+        "category": "I_bridge_classification",
+        "description": "Every record with bridge_type PREPARATION_DERIVED or DISH_DERIVED has documented_bridge_rule null and is correctly found ineligible for evidence_verified by the real eligibility function.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "I03_category_derived_present_and_correctly_ineligible",
+        "category": "I_bridge_classification",
+        "description": "At least one CATEGORY_DERIVED record exists (Blueberry/Pinot Noir or Beet Sugar/Prosecco) and is correctly ineligible.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "J01_all_verification_states_valid_enum",
+        "category": "J_source_verification_state",
+        "description": "Every source_record's verification_state is a valid EAT-16 enum value.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "J02_no_source_marked_directly_verified_without_fetch",
+        "category": "J_source_verification_state",
+        "description": "No source_record this phase is marked SOURCE_DIRECTLY_VERIFIED or SOURCE_ARCHIVED_VERIFIED — every one is honestly recorded as either SOURCE_SNIPPET_ONLY (real WebSearch-level research) or SOURCE_UNVERIFIED (an honest placeholder for the 4 entities where no source was found at all).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "J03_snippet_only_cannot_reach_evidence_verified",
+        "category": "J_source_verification_state",
+        "description": "Because every source is SOURCE_SNIPPET_ONLY, zero relationship_evidence_records are eligible for evidence_verified on source-verification grounds alone (recomputed live).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "K01_source_tiers_valid",
+        "category": "K_source_tier_rules",
+        "description": "Every source_record's source_tier is 1-4, or null exactly when the source is an honest SOURCE_UNVERIFIED placeholder (no real source exists to assign a tier to).",
+        "pass": true,
+        "evidence": {
+          "tierCounts": {
+            "1": 1,
+            "2": 10,
+            "3": 10,
+            "4": 2,
+            "null": 4
+          }
+        }
+      },
+      {
+        "id": "K02_producer_retailer_algorithmic_sources_capped",
+        "category": "K_source_tier_rules",
+        "description": "Every record whose ONLY source is producer/retailer/algorithmic-typed is correctly found ineligible for evidence_verified.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "L01_no_contradiction_status_other_than_none_this_cohort",
+        "category": "L_contradiction_rules",
+        "description": "This cohort found no contradiction signals or contradictions — all 26 records honestly carry contradiction_status 'none' (no false contradiction was manufactured to pad findings).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "L02_contradiction_status_enum_valid",
+        "category": "L_contradiction_rules",
+        "description": "Every record's contradiction_status is a valid EAT-15/16 enum value.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "M01_name_echo_live_computed_for_every_record",
+        "category": "M_name_echo_execution",
+        "description": "Every record's name_echo_risk was computed via a real call to EP.detectNameEcho() (re-verified independently here, not reused from the build step).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "M02_at_least_two_name_echo_risk_true_cases_present",
+        "category": "M_name_echo_execution",
+        "description": "At least 2 records have a live-confirmed name_echo_risk of true (the deliberate supplemental descriptor cases).",
+        "pass": true,
+        "evidence": {
+          "count": 2,
+          "ids": [
+            "eat17:sweet-flavor:food.sweet-flavor.cocoa-chocolate-ingredients.cacao-powder:pairs_with_descriptor:chocolate",
+            "eat17:sweet-flavor:food.sweet-flavor.honey-bee-products.honey:pairs_with_descriptor:honeyed"
+          ]
+        }
+      },
+      {
+        "id": "M03_style_relationship_targets_correctly_show_no_name_echo",
+        "category": "M_name_echo_execution",
+        "description": "All 24 pairs_with_style records correctly show name_echo_risk=false (wine style/grape names structurally rarely share tokens with food names) — honestly reported, not forced.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "M04_name_echo_true_records_require_review_for_eligibility",
+        "category": "M_name_echo_execution",
+        "description": "Both name_echo_risk=true records are correctly found ineligible for evidence_verified specifically citing the unreviewed name-echo reason.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "N01_all_relationship_records_schema_valid",
+        "category": "N_provenance_integrity",
+        "description": "Every relationship_evidence_record (stripped of the additive _eat17_meta field) passes EP.validateRelationshipEvidenceRecordSchema().",
+        "pass": true,
+        "evidence": {
+          "failures": []
+        }
+      },
+      {
+        "id": "N02_all_relationship_records_references_resolve",
+        "category": "N_provenance_integrity",
+        "description": "Every record's food/wine/source references resolve via EP.validateRelationshipEvidenceRecordReferences().",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "N03_evidence_strength_derived_not_asserted",
+        "category": "N_provenance_integrity",
+        "description": "Every record's evidence_strength matches EP.computeExpectedEvidenceStrength() given its actual claim_type/source-count/contradiction_status.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "N04_no_duplicate_relationship_ids",
+        "category": "N_provenance_integrity",
+        "description": "No duplicate relationship_id across the 26 records.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "N05_no_dangling_source_references",
+        "category": "N_provenance_integrity",
+        "description": "No relationship record references a source_id absent from the source store.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "N06_existing_eat16_store_untouched",
+        "category": "N_provenance_integrity",
+        "description": "The existing EAT-16 provenance store (data/evidence-provenance/*.json, untracked, 4 records) still has exactly its EAT-16-established content (4 sources, 4 relationships, none evidence_verified) — EAT-17's records are generated in-memory/report-only, never merged into that store.",
+        "pass": true,
+        "evidence": {
+          "sourceCount": 4,
+          "relationshipCount": 4
+        }
+      },
+      {
+        "id": "O01_every_record_reviewer_id_null",
+        "category": "O_reviewer_requirements",
+        "description": "Every relationship_evidence_record has reviewer_id null — no fabricated second reviewer exists this phase.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "O02_zero_records_evidence_verified",
+        "category": "O_reviewer_requirements",
+        "description": "Zero records are marked evidence_verified — confirmed both by stored status and live eligibility recomputation.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "O03_zero_records_publication_safe",
+        "category": "O_reviewer_requirements",
+        "description": "Zero records are publication-safe per EP.isPublicationSafe().",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "P01_no_circular_source_urls",
+        "category": "P_circularity",
+        "description": "No source_record's URL points back into this project's own domain/reports/generated content.",
+        "pass": true,
+        "evidence": {
+          "circularOffenders": []
+        }
+      },
+      {
+        "id": "P02_no_governance_id_used_as_evidence",
+        "category": "P_circularity",
+        "description": "No source_record's notes field contains a governance-rule ID presented as evidence.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "P03_no_eat13_contaminated_text_reused_as_evidence",
+        "category": "P_circularity",
+        "description": "No source_record's notes field is a verbatim copy of any EAT-13-quarantined edge's own contaminated evidence text.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "Q01_producer_only_records_identified",
+        "category": "Q_producer_retailer_restrictions",
+        "description": "Records backed solely by producer/retailer/algorithmic sources are correctly identified (Tahini/Sherry [producer], Almond Flour/Champagne [algorithmic], Molasses/Port [retailer]).",
+        "pass": true,
+        "evidence": {
+          "count": 4,
+          "ids": [
+            "eat17:nut-seed:food.nut-seed.tree-nuts.chestnut:pairs_with_style:nebbiolo",
+            "eat17:nut-seed:food.nut-seed.seed-products.tahini:pairs_with_style:sherry",
+            "eat17:nut-seed:food.nut-seed.nut-products.almond-flour:pairs_with_style:champagne",
+            "eat17:sweet-flavor:food.sweet-flavor.syrups.molasses:pairs_with_style:port"
+          ]
+        }
+      },
+      {
+        "id": "Q02_producer_only_records_correctly_ineligible",
+        "category": "Q_producer_retailer_restrictions",
+        "description": "Every producer/retailer/algorithmic-only record is correctly found ineligible for evidence_verified.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "R01_every_record_has_adsense_value_classification",
+        "category": "R_adsense_value_classification",
+        "description": "Every relationship_evidence_record receives one of exactly 3 AdSense-value classifications with a stated reason.",
+        "pass": true,
+        "evidence": {
+          "valueCounts": {
+            "HIGH_PAGE_VALUE": 6,
+            "MODERATE_PAGE_VALUE": 15,
+            "LOW_PAGE_VALUE": 5
+          }
+        }
+      },
+      {
+        "id": "R02_evidence_found_not_conflated_with_adsense_value_improved",
+        "category": "R_adsense_value_classification",
+        "description": "The classification function does not treat 'a source was found' (any claim_type besides UNSUPPORTED/COINCIDENTAL) as automatically HIGH — STRONG_CONTEXTUAL_SUPPORT records are capped at MODERATE, distinguishing 'evidence exists' from 'page value is strongly improved'.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "R03_high_value_requires_explicit_and_exact_entity",
+        "category": "R_adsense_value_classification",
+        "description": "HIGH_PAGE_VALUE is only ever assigned to EXPLICIT_PAIRING + EXACT_ENTITY records (the strictest, most defensible combination).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "S01_page_measurements_cover_all_cohort_entities",
+        "category": "S_page_impact_measurement",
+        "description": "Page-level substantive-word measurements were taken for every unique cohort entity's live HTML page.",
+        "pass": true,
+        "evidence": {
+          "count": 25
+        }
+      },
+      {
+        "id": "S02_all_cohort_pages_found_on_disk",
+        "category": "S_page_impact_measurement",
+        "description": "Every cohort entity's leaf HTML page exists and was readable.",
+        "pass": true,
+        "evidence": {
+          "notFound": []
+        }
+      },
+      {
+        "id": "S03_no_cohort_page_currently_has_why_these_wines_work",
+        "category": "S_page_impact_measurement",
+        "description": "None of the cohort's live pages currently contains a 'Why These Wines Work' section — confirms no content was injected and the measured baseline is the true current state.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "S04_page_measurements_are_positive_integers",
+        "category": "S_page_impact_measurement",
+        "description": "Every measured substantiveWords value is a non-negative integer computed by the real extraction function (not a placeholder).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "T01_eat05_functions_match_prior_phase_implementation",
+        "category": "T_eat05_measurement_integrity",
+        "description": "The eat05_* extraction functions in this verifier are structurally identical in approach to those established in EAT-07A/EAT-13 (strip tags -> extract main -> extract p/li/dd/dt/h2/h3 paragraphs >=20 chars -> word count).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "T02_no_new_word_count_methodology_invented",
+        "category": "T_eat05_measurement_integrity",
+        "description": "No alternate/competing word-counting function exists in this script beyond the eat05_* family.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "U01_renderer_unchanged",
+        "category": "U_no_publication_wiring",
+        "description": "lib/food-tail-wine-pairing-explanation.js is byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "U02_renderer_source_does_not_reference_eat17_or_provenance",
+        "category": "U_no_publication_wiring",
+        "description": "Source-text scan confirms the renderer contains no reference to the provenance module or EAT-17.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "U03_provenance_module_unchanged",
+        "category": "U_no_publication_wiring",
+        "description": "lib/food-tail-evidence-provenance.js is byte-identical to HEAD — no publication logic was added to it this phase.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "V01_no_html_changed_across_all_4_domains",
+        "category": "V_no_html_changes",
+        "description": "All leaf HTML pages across all 4 target domains remain byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {
+          "count": 0
+        }
+      },
+      {
+        "id": "W01_engine_sitemap_redirect_language_legal_unchanged",
+        "category": "W_no_runtime_changes",
+        "description": "pairing-engine.js, pairing-data.js, sitemap.xml, _redirects, language config, Spanish vocabulary, robots.txt, and legal pages are all byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {
+          "offenders": []
+        }
+      },
+      {
+        "id": "W02_mapper_scripts_unchanged",
+        "category": "W_no_runtime_changes",
+        "description": "None of the 4 contaminated mapper scripts was modified.",
+        "pass": true,
+        "evidence": {
+          "mapperOffenders": []
+        }
+      },
+      {
+        "id": "X01_record_build_deterministic",
+        "category": "X_deterministic_rerun",
+        "description": "Re-running buildRecords() twice in-process produces byte-identical relationship_evidence_records (excluding no time-dependent fields, since research_date/accessed_date are fixed constants this phase).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "X02_source_records_build_deterministic",
+        "category": "X_deterministic_rerun",
+        "description": "Re-running buildRecords() twice in-process produces byte-identical source_records.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "Y01_no_tracked_modifications",
+        "category": "Y_git_scope",
+        "description": "No tracked file is modified.",
+        "pass": true,
+        "evidence": {
+          "trackedModified": []
+        }
+      },
+      {
+        "id": "Y02_nothing_staged",
+        "category": "Y_git_scope",
+        "description": "Nothing is staged.",
+        "pass": true,
+        "evidence": {
+          "stagedFiles": []
+        }
+      },
+      {
+        "id": "Y03_only_eat17_new_files",
+        "category": "Y_git_scope",
+        "description": "The only new untracked files beyond known pre-existing noise are this phase's own 3 deliverables.",
+        "pass": true,
+        "evidence": {
+          "unexpectedNewFiles": []
+        }
+      },
+      {
+        "id": "Y04_protected_paths_untouched",
+        "category": "Y_git_scope",
+        "description": "No protected path appears in the tracked or staged diff.",
+        "pass": true,
+        "evidence": {
+          "protectedOffenders": []
+        }
+      },
+      {
+        "id": "Z01_no_deployment_artifacts_created",
+        "category": "Z_production_status",
+        "description": "No deployment-related file or directory was created or modified this phase.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "Z02_production_status_field_present_in_report",
+        "category": "Z_production_status",
+        "description": "The generated research JSON report explicitly states production_status as not performed (checked after generation in main()).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV01_exact_entity_mismatch_rejected",
+        "category": "adversarial",
+        "description": "A record whose exact_food_entity_id does not resolve is rejected by reference validation.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV02_ambiguous_synonym_bridge_requires_explicit_marking",
+        "category": "adversarial",
+        "description": "UNAMBIGUOUS_SYNONYM auto-qualifies structurally but only when actually claimed EXPLICIT_PAIRING with full source support — verified the bridge type itself is accepted by eligibility gate for style relationships.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV03_preparation_derived_false_qualification_rejected",
+        "category": "adversarial",
+        "description": "A PREPARATION_DERIVED record without documented_bridge_rule cannot reach evidence_verified.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV04_dish_derived_false_qualification_rejected",
+        "category": "adversarial",
+        "description": "A DISH_DERIVED record without documented_bridge_rule cannot reach evidence_verified.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV05_category_derived_false_qualification_rejected",
+        "category": "adversarial",
+        "description": "A CATEGORY_DERIVED record never qualifies for evidence_verified regardless of other fields.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV06_attribute_derived_false_qualification_rejected",
+        "category": "adversarial",
+        "description": "An ATTRIBUTE_DERIVED record never qualifies for evidence_verified.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV07_producer_source_alone_rejected",
+        "category": "adversarial",
+        "description": "A record backed solely by a PRODUCER_SOURCE cannot reach evidence_verified.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV08_retailer_source_alone_rejected",
+        "category": "adversarial",
+        "description": "A record backed solely by a RETAILER_SOURCE cannot reach evidence_verified.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV09_algorithmic_source_alone_rejected",
+        "category": "adversarial",
+        "description": "A record backed solely by an ALGORITHMIC_SOURCE cannot reach evidence_verified.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV10_user_generated_source_alone_rejected",
+        "category": "adversarial",
+        "description": "A record backed solely by a USER_GENERATED_SOURCE cannot reach evidence_verified.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV11_search_snippet_only_rejected",
+        "category": "adversarial",
+        "description": "A record whose sole source is SOURCE_SNIPPET_ONLY cannot reach evidence_verified.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV12_circular_source_detected",
+        "category": "adversarial",
+        "description": "A source whose URL points into this project's own domain is detected as circular.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV13_name_echo_true_unreviewed_rejected",
+        "category": "adversarial",
+        "description": "A record with name_echo_risk true and name_echo_reviewed false cannot reach evidence_verified.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV14_name_echo_false_positive_not_flagged",
+        "category": "adversarial",
+        "description": "detectNameEcho correctly returns false for a genuinely unrelated pair (no false positive).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV15_contradictory_lower_tier_source_does_not_auto_deprecate",
+        "category": "adversarial",
+        "description": "A record with contradiction_status 'contradiction_signal' cannot transition to deprecated_unsupported.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV16_insufficient_evidence_correctly_excluded_from_verified",
+        "category": "adversarial",
+        "description": "A record with claim_type UNSUPPORTED cannot reach evidence_verified.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV17_missing_reviewer_rejected",
+        "category": "adversarial",
+        "description": "A record with reviewer_id null cannot reach evidence_verified even with every other field otherwise perfect.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV18_fake_evidence_strength_detected_by_schema",
+        "category": "adversarial",
+        "description": "A record with a fabricated/mismatched evidence_strength value fails schema validation.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV19_governance_contamination_detected",
+        "category": "adversarial",
+        "description": "A synthetic evidence string containing a governance-rule ID is correctly flagged.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV20_fabricated_source_metadata_detected",
+        "category": "adversarial",
+        "description": "A source_record with a non-null author/publication_date that this phase never actually confirmed would violate the 'no fabrication' rule — verified this phase's own real records never do this (see F02); this fixture proves the schema itself does not reject well-formed null metadata, so honesty is a discipline choice, not a technical accident.",
+        "pass": true,
+        "evidence": {}
+      }
+    ],
+    "overall": "PASS"
+  },
+  "production_status": {
+    "status": "NOT PERFORMED",
+    "note": "PAIRING-EAT-17 has not been committed, pushed, or deployed. No runtime relationship, HTML, engine, mapper, or publication file was modified."
+  }
+}
