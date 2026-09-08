@@ -1,0 +1,1018 @@
+{
+  "phase": "PAIRING-EAT-20",
+  "generatedAt": "2026-09-08T22:42:11.143Z",
+  "status": "LOCAL PASS — DIRECTOR REVIEW REQUIRED (POLICY GATE ONLY, NO PUBLICATION AUTHORIZED)",
+  "prior_phase": "PAIRING-EAT-19 CLOSED / PASS — baseline preserved byte-for-byte",
+  "two_candidate_cohort": [
+    {
+      "domain": "fruit",
+      "entityName": "Avocado",
+      "target": "sauvignon-blanc",
+      "targetName": "Sauvignon Blanc"
+    },
+    {
+      "domain": "fruit",
+      "entityName": "Watermelon",
+      "target": "dry-rose",
+      "targetName": "Dry Rosé"
+    }
+  ],
+  "forbidden_cohort_excluded": [
+    {
+      "entityName": "Apple",
+      "target": "chenin-blanc"
+    },
+    {
+      "entityName": "Grapefruit",
+      "target": "albarino"
+    },
+    {
+      "entityName": "Fig",
+      "target": "port"
+    },
+    {
+      "entityName": "Fava Bean",
+      "target": "sangiovese"
+    }
+  ],
+  "human_review_workflow": {
+    "workflow_steps": [
+      "Research evidence (EAT-19 sources carried forward — no new research)",
+      "Source verification (unchanged from EAT-19)",
+      "Claim / bridge / target validation",
+      "Researcher record (researcher_id: eat20-policy-gate)",
+      "Independent human review (BLOCKED — no genuine reviewer in this environment)",
+      "reviewer_id + review_date (NOT SET — prerequisite unmet)",
+      "EP.evaluateEvidenceVerifiedEligibility()",
+      "EP.canTransition(..., evidence_verified)",
+      "EP.isPublicationSafe()"
+    ],
+    "human_reviewer_available": false,
+    "reviewer_id": null,
+    "review_date": null,
+    "human_review_gate_externally_blocked": true,
+    "fabricated_identity_prohibited": true,
+    "note": "Human review confirms evidence against established policy; it does not create new policy silently."
+  },
+  "avocado_bridge_policy_decision": {
+    "bridge_type": "DISH_DERIVED",
+    "evidence_scope": [
+      "avocado dishes (E18-02)",
+      "guacamole (E19-01)"
+    ],
+    "bridge_rule_required": true,
+    "bridge_rule_exists_in_project": false,
+    "bridge_rule_proposed": "PROPOSED-AVO-BRIDGE-01 (NOT ADOPTED): Bridge DISH_DERIVED evidence to food.fruit.tropical-fruits.avocado only when a qualifying source explicitly names guacamole as the paired dish AND cites avocado fat/creaminess as the stated pairing driver for the recommended wine. Excludes: raw avocado alone; generic 'avocado dishes'; avocado toast; avocado salad; avocado-based sauces; dishes where avocado is one of several co-primary components (e.g. guacamole+salsa combo articles) unless the source isolates avocado as the driver.",
+    "bridge_rule_adopted": false,
+    "adopted_rule_text": null,
+    "rejected_overbroad_rule": "All dishes containing ingredient X map to raw catalog entity X for evidence purposes.",
+    "can_formally_justify_without_adopted_rule": false,
+    "eat19_conclusion_preserved": true,
+    "outcome": "DEFERRED",
+    "outcome_reason": "No defensible bridge rule adopted. EAT-15 requires documented_bridge_rule for DISH_DERIVED. Verified contexts (avocado dishes, guacamole) are not interchangeable with raw avocado entity without an explicit, narrow, auditable rule.",
+    "why_proposed_rule_not_adopted": [
+      "PROPOSED-AVO-BRIDGE-01 still excludes E18-02 'avocado dishes' phrasing without a named dish.",
+      "Guacamole ≠ avocado toast ≠ avocado salad ≠ raw avocado.",
+      "E19-01 recommends wine for guacamole AND salsa together — multi-component dish context.",
+      "A broad 'dish contains ingredient' rule was explicitly rejected."
+    ],
+    "qualifying_direct_sources": [
+      "E18-02",
+      "E19-01"
+    ]
+  },
+  "watermelon_target_policy_decision": {
+    "runtime_target": "dry-rose",
+    "exact_entity_status": "EXACT_ENTITY for watermelon itself (E18-04 primary scope)",
+    "generic_rose_evidence": {
+      "source_id": "E18-04",
+      "wording": "generic rosé",
+      "scope": "watermelon entity (article centers watermelon; title references salad pairings)",
+      "supports_dry_rose_slug": false
+    },
+    "dry_rose_evidence": {
+      "source_id": "E19-05",
+      "wording": "dry Rosé de Provence AOC",
+      "scope": "watermelon feta salad dish context",
+      "supports_exact_entity_watermelon_alone": false
+    },
+    "dish_context_limitation": "E19-05 pairing is for salad composition, not isolated raw watermelon entity.",
+    "wine_taxonomy_relationship": {
+      "rose_slug": "rose",
+      "dry_rose_slug": "dry-rose",
+      "catalog_entries_distinct": true,
+      "related_styles_or_substitutes_link": true,
+      "catalog_faq_dry_vs_regular": "Dry rosé vs regular rosé FAQ exists on dry-rose catalog entry — editorial catalog content, not evidence-provenance bridge.",
+      "suitable_for_evidence_layer_bridge_without_director_decision": false
+    },
+    "editorial_alias_not_evidence": "lib/editorial-audit/wine-narrative.js WINE_NAME_VARIANTS['dry-rose'] includes 'rosé' for AQ-07D prose matching only — not promoted to evidence taxonomy.",
+    "taxonomy_bridge_rule_proposed": "PROPOSED-WM-TARGET-01 (NOT ADOPTED): Generic rosé evidence at EXACT_ENTITY food scope may satisfy the dry-rose runtime target when wine-style-catalog.json lists dry-rose among related_styles/substitutes of rose.",
+    "taxonomy_bridge_rule_adopted": false,
+    "policy_outcome_code": "C",
+    "policy_outcome_label": "Evidence supports generic rosé at entity scope (E18-04) and dry rosé only in dish context (E19-05); insufficient to equate rosé→dry-rose for runtime target without adopted rule.",
+    "dry_rose_supported_at_runtime_target": false,
+    "runtime_target_unchanged": true,
+    "qualifying_direct_sources": [
+      "E18-04",
+      "E19-05"
+    ]
+  },
+  "relationship_evidence_records": [
+    {
+      "relationship_id": "eat20:fruit:food.fruit.tropical-fruits.avocado:pairs_with_style:sauvignon-blanc",
+      "exact_food_entity_id": "food.fruit.tropical-fruits.avocado",
+      "exact_wine_target_id": "sauvignon-blanc",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-02",
+        "E18-02",
+        "E19-01"
+      ],
+      "source_verification_state": "SOURCE_DIRECTLY_VERIFIED",
+      "bridge_type": "DISH_DERIVED",
+      "documented_bridge_rule": null,
+      "claim_type": "EXPLICIT_PAIRING",
+      "evidence_strength": "explicit_multi_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat20-policy-gate",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "E17-02 remains SOURCE_SNIPPET_ONLY (HTTP 403).",
+        "Qualifying sources address avocado dishes or guacamole — not raw avocado entity.",
+        "PROPOSED-AVO-BRIDGE-01 documented but NOT adopted."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat20_meta": {
+        "entity_name": "Avocado",
+        "target_name": "Sauvignon Blanc",
+        "outcome": "DEFERRED",
+        "outcome_reason": "EAT-20 bridge policy: no documented_bridge_rule adopted. Human review unavailable (reviewer_id null). EP.evaluateEvidenceVerifiedEligibility() rejects even with hypothetical reviewer due to missing bridge rule.",
+        "qualifying_direct_sources": [
+          "E18-02",
+          "E19-01"
+        ],
+        "eat19_relationship_id": "eat19:fruit:food.fruit.tropical-fruits.avocado:pairs_with_style:sauvignon-blanc",
+        "human_review_complete": false
+      }
+    },
+    {
+      "relationship_id": "eat20:fruit:food.fruit.melons.watermelon:pairs_with_style:dry-rose",
+      "exact_food_entity_id": "food.fruit.melons.watermelon",
+      "exact_wine_target_id": "dry-rose",
+      "relationship_type": "pairs_with_style",
+      "source_ids": [
+        "E17-07",
+        "E18-04",
+        "E19-05"
+      ],
+      "source_verification_state": "SOURCE_DIRECTLY_VERIFIED",
+      "bridge_type": "EXACT_ENTITY",
+      "documented_bridge_rule": null,
+      "claim_type": "EXPLICIT_PAIRING",
+      "evidence_strength": "explicit_multi_source",
+      "relationship_status": "evidence_present",
+      "researcher_id": "eat20-policy-gate",
+      "reviewer_id": null,
+      "research_date": "2026-09-08",
+      "review_date": null,
+      "caveats": [
+        "E17-07 remains SOURCE_SNIPPET_ONLY (HTTP 403).",
+        "E18-04 uses generic rosé wording, not dry rosé.",
+        "E19-05 dry Rosé de Provence is in salad dish context.",
+        "PROPOSED-WM-TARGET-01 documented but NOT adopted."
+      ],
+      "contradiction_status": "none",
+      "name_echo_risk": false,
+      "name_echo_reviewed": false,
+      "_eat20_meta": {
+        "entity_name": "Watermelon",
+        "target_name": "Dry Rosé",
+        "outcome": "DEFERRED",
+        "outcome_reason": "Human review unavailable (reviewer_id null). EAT-20 target policy: generic rosé (E18-04) does not prove dry-rose runtime target; dry rosé (E19-05) is dish-context only. No taxonomy bridge rule adopted.",
+        "qualifying_direct_sources": [
+          "E18-04",
+          "E19-05"
+        ],
+        "eat19_relationship_id": "eat19:fruit:food.fruit.melons.watermelon:pairs_with_style:dry-rose",
+        "human_review_complete": false
+      }
+    }
+  ],
+  "source_records": [
+    {
+      "source_id": "E17-02",
+      "source_url": "https://www.wineenthusiast.com/basics/best-wine-pairing-avocado/",
+      "title": "Four Ways to Pair Avocados and Wine",
+      "publisher": "Wine Enthusiast",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 2,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Re-fetch attempted EAT-19: HTTP 403 Forbidden. Not upgraded."
+    },
+    {
+      "source_id": "E17-07",
+      "source_url": "https://www.wineenthusiast.com/basics/how-to-pair-wine-with-watermelon/",
+      "title": "How to Pair Wine with Watermelon",
+      "publisher": "Wine Enthusiast",
+      "author": null,
+      "publication_date": null,
+      "source_tier": 2,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_SNIPPET_ONLY",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Re-fetch attempted EAT-19: HTTP 403 Forbidden. Not upgraded."
+    },
+    {
+      "source_id": "E18-02",
+      "source_url": "https://www.nataliemaclean.com/blog/avocados-wine/",
+      "title": "Avocados & Wine",
+      "publisher": "Natalie MacLean (independent sommelier/wine writer)",
+      "author": "Natalie MacLean",
+      "publication_date": "2011-03-14",
+      "source_tier": 2,
+      "source_type": "PROFESSIONAL_SOURCE",
+      "verification_state": "SOURCE_DIRECTLY_VERIFIED",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Re-confirmed EAT-19 via direct fetch: 'MacLean suggests pairing avocado dishes with zesty whites, such as New Zealand Sauvignon Blanc.' Wording is avocado DISHES, not raw avocado alone."
+    },
+    {
+      "source_id": "E18-04",
+      "source_url": "https://bestwinepair.com/watermelon-salad-wine-pairing/",
+      "title": "8 Refreshing Watermelon Salad Wine Pairings",
+      "publisher": "Best Wine Pair",
+      "author": "Sophie A. Somm",
+      "publication_date": "2025-07-20",
+      "source_tier": 3,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_DIRECTLY_VERIFIED",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Re-confirmed EAT-19: 'rosé wines create a natural symphony with watermelon's sweet, juicy notes.' Watermelon itself is the subject; source says rosé generically, not explicitly dry rosé."
+    },
+    {
+      "source_id": "E19-01",
+      "source_url": "https://www.foodrepublic.com/1563257/expert-wine-pairing-guacamole-salsa/",
+      "title": "An Expert Weighs In On The Best Wine To Drink With Guacamole And Salsa",
+      "publisher": "Food Republic",
+      "author": "Annie Epstein",
+      "publication_date": "2024-04-19",
+      "source_tier": 2,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_DIRECTLY_VERIFIED",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Directly fetched EAT-19. Master Sommelier Catherine Fallis recommends '2021 Spy Valley Sauvignon Blanc Marlborough' for guacamole AND salsa together. Explicit pairing for GUACAMOLE (avocado dish), not raw avocado entity. Independent of MacLean publisher."
+    },
+    {
+      "source_id": "E19-02",
+      "source_url": "https://www.wsjwine.com/wine-blog/wine-and-food/sauvignon-blanc-food-pairing-guide",
+      "title": "Comprehensive Sauvignon Blanc Food Pairing Guide",
+      "publisher": "WSJ Wine (operated by Direct Wines, Inc. — wine retailer)",
+      "author": "Courtney, Personal Wine Advisor",
+      "publication_date": "2026-03-18",
+      "source_tier": 4,
+      "source_type": "RETAILER_SOURCE",
+      "verification_state": "SOURCE_DIRECTLY_VERIFIED",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Directly fetched EAT-19. Text confirms 'Guacamole: The creamy texture of avocado calls for acidity—Sauvignon Blanc provides it.' Content is real but publisher is a wine retailer (Direct Wines, Inc.) — SOURCE_DIRECTLY_VERIFIED for honesty, classified RETAILER_SOURCE and excluded from qualifying independent count per EAT-15/16."
+    },
+    {
+      "source_id": "E19-03",
+      "source_url": "https://mywinecanada.com/blogs/wineblog/summertime-ode-pink-wine-watermelon",
+      "title": "A Summertime Ode to Pink Wine and Watermelon",
+      "publisher": "My Wine Canada (online wine retailer)",
+      "author": "Ben MacPhee-Sigurdson",
+      "publication_date": null,
+      "source_tier": 4,
+      "source_type": "RETAILER_SOURCE",
+      "verification_state": "SOURCE_DIRECTLY_VERIFIED",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Directly fetched EAT-19: 'there's a little bit of magic when you pair a rosé with watermelon.' Article discusses dry rosé virtues elsewhere but pairing sentence uses generic rosé. Retailer site — excluded from qualifying independent count."
+    },
+    {
+      "source_id": "E19-04",
+      "source_url": "https://coolenator.com/es/blogs/wine-beer-enjoyment/best-wines-to-pair-with-watermelon-summer-fruits",
+      "title": "Best Wines to Pair with Watermelon & Summer Fruits",
+      "publisher": "Coolenator (commercial wine-cooler retailer)",
+      "author": null,
+      "publication_date": "2026-08-27",
+      "source_tier": 4,
+      "source_type": "RETAILER_SOURCE",
+      "verification_state": "SOURCE_DIRECTLY_VERIFIED",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Directly fetched EAT-19. Explicit heading 'Dry Rosé' with 'Rosé is the perfect match for watermelon.' Commercial/retailer blog — excluded from qualifying independent count despite explicit dry rosé wording."
+    },
+    {
+      "source_id": "E19-05",
+      "source_url": "https://perfectpairings.wine/watermelon-and-feta-salad-with-mint-and-black-pepper/",
+      "title": "Watermelon feta salad with mint and black pepper",
+      "publisher": "Wein zum Essen / perfectpairings.wine",
+      "author": "Foodie",
+      "publication_date": "2026-05-07",
+      "source_tier": 3,
+      "source_type": "EDITORIAL_SOURCE",
+      "verification_state": "SOURCE_DIRECTLY_VERIFIED",
+      "accessed_date": "2026-09-08",
+      "archive_status": "not_archived",
+      "archive_reference": null,
+      "content_hash": null,
+      "notes": "Directly fetched EAT-19 (curl). Recipe schema: 'Best accompanied by a dry Rosé de Provence AOC.' Pairing is for watermelon feta SALAD (dish context), not raw watermelon alone; explicitly says dry rosé. Independent publisher from BestWinePair."
+    }
+  ],
+  "source_research": {
+    "new_sources_added": 0,
+    "note": "EAT-20 is a decision/review gate — EAT-19 sources reused without broad re-search."
+  },
+  "evidence_verified_count": 0,
+  "publication_safe_count": 0,
+  "eat19_baseline_preservation": {
+    "verification_json_byte_identical": true,
+    "script_byte_identical": true,
+    "implementation_byte_identical": true
+  },
+  "eat16_provenance_store": {
+    "modified": false,
+    "source_count": 4,
+    "relationship_count": 4
+  },
+  "local_verification": {
+    "total_checks": 82,
+    "passed": 82,
+    "failed": 0,
+    "checks": [
+      {
+        "id": "A01_exactly_two_candidates",
+        "category": "A_two_candidate_cohort",
+        "description": "Exactly 2 candidates (Avocado→SB, Watermelon→Dry Rosé).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "A02_exactly_two_records",
+        "category": "A_two_candidate_cohort",
+        "description": "Exactly 2 relationship_evidence_records.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "A03_matches_eat19_cohort",
+        "category": "A_two_candidate_cohort",
+        "description": "Cohort matches closed EAT-19 Director list.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "B01_forbidden_absent",
+        "category": "B_forbidden_candidate_exclusion",
+        "description": "Apple, Grapefruit, Fig, Fava Bean absent from records.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "B02_eat19_forbidden_list_matches",
+        "category": "B_forbidden_candidate_exclusion",
+        "description": "Forbidden list matches EAT-19 baseline.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "C01_no_human_reviewer",
+        "category": "C_human_review_availability",
+        "description": "No genuine human reviewer available in this execution environment.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "C02_reviewer_id_null",
+        "category": "C_human_review_availability",
+        "description": "reviewer_id null on both records.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "C03_review_date_null",
+        "category": "C_human_review_availability",
+        "description": "review_date null on both records.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "C04_human_review_gate_blocked",
+        "category": "C_human_review_availability",
+        "description": "Human-review gate reports incomplete for both.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "D01_no_fabricated_reviewer_on_records",
+        "category": "D_no_fabricated_reviewer",
+        "description": "No AI/script reviewer_id on committed records.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "D02_composer_not_genuine",
+        "category": "D_no_fabricated_reviewer",
+        "description": "reviewer_id 'composer' fails genuine human review gate.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E01_researcher_present",
+        "category": "E_researcher_reviewer_distinctness",
+        "description": "researcher_id present (eat20-policy-gate).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E02_collision_rejected_by_ep",
+        "category": "E_researcher_reviewer_distinctness",
+        "description": "EP rejects reviewer_id === researcher_id.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "E03_reviewer_without_review_date_incomplete",
+        "category": "F_review_date_requirement",
+        "description": "Reviewer without review_date fails human-review gate.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "F01_sources_from_eat19_baseline",
+        "category": "G_source_verification_state",
+        "description": "SOURCE_RECORDS loaded from EAT-19 JSON unchanged count.",
+        "pass": true,
+        "evidence": {
+          "count": 9
+        }
+      },
+      {
+        "id": "F02_no_new_source_ids",
+        "category": "G_source_verification_state",
+        "description": "No new source_ids introduced in EAT-20.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "F03_qualifying_counts_unchanged",
+        "category": "G_source_verification_state",
+        "description": "Qualifying direct source counts match EAT-19.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "G01_avocado_publishers_distinct",
+        "category": "H_source_independence",
+        "description": "Avocado qualifying sources have distinct publishers.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "G02_watermelon_publishers_distinct",
+        "category": "H_source_independence",
+        "description": "Watermelon qualifying sources have distinct publishers.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "G03_no_duplicate_urls",
+        "category": "H_source_independence",
+        "description": "No duplicate source_url.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "H01_retailer_excluded",
+        "category": "I_source_type_restrictions",
+        "description": "Retailer sources excluded from qualifying count.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "H02_snippet_only_cannot_verify",
+        "category": "I_source_type_restrictions",
+        "description": "E17-07 snippet-only cannot alone verify.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "I01_dish_derived",
+        "category": "J_avocado_bridge_classification",
+        "description": "Avocado bridge_type DISH_DERIVED.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "I02_not_exact_entity",
+        "category": "J_avocado_bridge_classification",
+        "description": "Avocado not promoted to EXACT_ENTITY.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "J01_rule_null_on_record",
+        "category": "K_avocado_documented_bridge_rule",
+        "description": "documented_bridge_rule remains null on record.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "J02_eat15_requires_rule",
+        "category": "K_avocado_documented_bridge_rule",
+        "description": "EAT-15 bridge_policy marks DISH_DERIVED as requires_explicit_bridge_rule.",
+        "pass": true,
+        "evidence": {
+          "policy": "DISH_DERIVED.requires_explicit_bridge_rule"
+        }
+      },
+      {
+        "id": "J03_proposed_rule_not_adopted",
+        "category": "K_avocado_documented_bridge_rule",
+        "description": "PROPOSED-AVO-BRIDGE-01 documented but bridge_rule_adopted false.",
+        "pass": true,
+        "evidence": {
+          "proposed": "PROPOSED-AVO-BRIDGE-01 (NOT ADOPTED): Bridge DISH_DERIVED evidence to food.fruit.tropical-fruits.avocado only when a qua"
+        }
+      },
+      {
+        "id": "J04_no_rule_in_eat15_json",
+        "category": "K_avocado_documented_bridge_rule",
+        "description": "No avocado bridge rule added to EAT-15 policy file.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "K01_hypothetical_reviewer_still_fails_ep",
+        "category": "L_avocado_hypothetical_review",
+        "description": "Hypothetical reviewer does NOT fix Avocado EP eligibility (missing bridge rule).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "K02_adopting_proposed_rule_would_need_director",
+        "category": "L_avocado_hypothetical_review",
+        "description": "Even if proposed rule were applied on record, phase did not adopt it.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "L01_exact_entity",
+        "category": "M_watermelon_exact_entity",
+        "description": "Watermelon bridge_type EXACT_ENTITY.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "M01_e18_04_generic_rose",
+        "category": "N_watermelon_target_specificity",
+        "description": "E18-04 notes use generic rosé not dry rosé.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "M02_e19_05_dry_in_dish",
+        "category": "N_watermelon_target_specificity",
+        "description": "E19-05 dry rosé in salad/dish context.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "M03_policy_outcome_c",
+        "category": "N_watermelon_target_specificity",
+        "description": "Target policy outcome C — dry rosé dish context; generic rosé entity scope.",
+        "pass": true,
+        "evidence": {
+          "runtime_target": "dry-rose",
+          "exact_entity_status": "EXACT_ENTITY for watermelon itself (E18-04 primary scope)",
+          "generic_rose_evidence": {
+            "source_id": "E18-04",
+            "wording": "generic rosé",
+            "scope": "watermelon entity (article centers watermelon; title references salad pairings)",
+            "supports_dry_rose_slug": false
+          },
+          "dry_rose_evidence": {
+            "source_id": "E19-05",
+            "wording": "dry Rosé de Provence AOC",
+            "scope": "watermelon feta salad dish context",
+            "supports_exact_entity_watermelon_alone": false
+          },
+          "dish_context_limitation": "E19-05 pairing is for salad composition, not isolated raw watermelon entity.",
+          "wine_taxonomy_relationship": {
+            "rose_slug": "rose",
+            "dry_rose_slug": "dry-rose",
+            "catalog_entries_distinct": true,
+            "related_styles_or_substitutes_link": true,
+            "catalog_faq_dry_vs_regular": "Dry rosé vs regular rosé FAQ exists on dry-rose catalog entry — editorial catalog content, not evidence-provenance bridge.",
+            "suitable_for_evidence_layer_bridge_without_director_decision": false
+          },
+          "editorial_alias_not_evidence": "lib/editorial-audit/wine-narrative.js WINE_NAME_VARIANTS['dry-rose'] includes 'rosé' for AQ-07D prose matching only — not promoted to evidence taxonomy.",
+          "taxonomy_bridge_rule_proposed": "PROPOSED-WM-TARGET-01 (NOT ADOPTED): Generic rosé evidence at EXACT_ENTITY food scope may satisfy the dry-rose runtime target when wine-style-catalog.json lists dry-rose among related_styles/substitutes of rose.",
+          "taxonomy_bridge_rule_adopted": false,
+          "policy_outcome_code": "C",
+          "policy_outcome_label": "Evidence supports generic rosé at entity scope (E18-04) and dry rosé only in dish context (E19-05); insufficient to equate rosé→dry-rose for runtime target without adopted rule.",
+          "dry_rose_supported_at_runtime_target": false,
+          "runtime_target_unchanged": true,
+          "qualifying_direct_sources": [
+            "E18-04",
+            "E19-05"
+          ]
+        }
+      },
+      {
+        "id": "M04_runtime_target_unchanged",
+        "category": "N_watermelon_target_specificity",
+        "description": "Runtime target remains dry-rose slug.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "N01_rose_and_dry_rose_distinct_slugs",
+        "category": "O_wine_taxonomy_inspection",
+        "description": "Catalog has distinct rose and dry-rose slugs.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "N02_related_styles_exist",
+        "category": "O_wine_taxonomy_inspection",
+        "description": "Catalog links rose↔dry-rose via related_styles/substitutes.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "N03_taxonomy_not_evidence_bridge",
+        "category": "O_wine_taxonomy_inspection",
+        "description": "Catalog taxonomy alone insufficient for evidence bridge without Director rule.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "O01_editorial_module_unchanged",
+        "category": "P_no_editorial_alias_misuse",
+        "description": "wine-narrative.js byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "O02_alias_not_promoted",
+        "category": "P_no_editorial_alias_misuse",
+        "description": "WINE_NAME_VARIANTS dry-rose aliases not adopted as evidence rule.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "P01_both_explicit",
+        "category": "Q_claim_type",
+        "description": "Both EXPLICIT_PAIRING.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "Q01_strength_derived",
+        "category": "R_evidence_strength_derivation",
+        "description": "evidence_strength matches EP.computeExpectedEvidenceStrength.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "R01_none",
+        "category": "S_contradiction_state",
+        "description": "contradiction_status none both.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "S01_live_detect",
+        "category": "T_name_echo_execution",
+        "description": "name_echo_risk live via EP.detectNameEcho.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "S02_both_false",
+        "category": "T_name_echo_execution",
+        "description": "Both name_echo_risk false.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "T01_zero_evidence_verified",
+        "category": "U_live_evidence_eligibility",
+        "description": "Zero records pass EP.evaluateEvidenceVerifiedEligibility.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "T02_watermelon_hypothetical_ep_pass",
+        "category": "U_live_evidence_eligibility",
+        "description": "Watermelon passes EP with hypothetical reviewer (bridge/sources OK).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "T03_watermelon_target_policy_still_blocks_director_gate",
+        "category": "U_live_evidence_eligibility",
+        "description": "EAT-20 target policy: dry-rose not supported at runtime target without adopted taxonomy rule.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "U01_zero_publication_safe",
+        "category": "V_live_publication_safety",
+        "description": "Zero isPublicationSafe.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "U02_evidence_present_not_publication_safe",
+        "category": "V_live_publication_safety",
+        "description": "evidence_present does not imply publication_safe.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "V01_source_schema",
+        "category": "W_provenance_schema",
+        "description": "All sources pass EP.validateSourceRecord.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "V02_relationship_schema",
+        "category": "W_provenance_schema",
+        "description": "Records pass schema (meta stripped).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "V03_refs_resolve",
+        "category": "W_provenance_references",
+        "description": "References resolve via EP.validateRelationshipEvidenceRecordReferences.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "V04_eat16_store_unchanged",
+        "category": "W_provenance_schema",
+        "description": "EAT-16 provenance store unchanged (4+4 seed).",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "W01_eat19_json_byte_identical",
+        "category": "Y_eat19_baseline_preservation",
+        "description": "EAT-19 verification JSON byte-identical to snapshot at phase start.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "W02_eat19_script_byte_identical",
+        "category": "Y_eat19_baseline_preservation",
+        "description": "EAT-19 verifier script byte-identical to snapshot.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "W03_eat19_impl_byte_identical",
+        "category": "Y_eat19_baseline_preservation",
+        "description": "EAT-19 implementation md byte-identical to snapshot.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "W04_eat19_conclusions_not_rewritten",
+        "category": "Y_eat19_baseline_preservation",
+        "description": "EAT-19 evidence_verified_count remains 0 in baseline file.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "X01_provenance_module_unchanged",
+        "category": "Z_eat16_baseline_preservation",
+        "description": "food-tail-evidence-provenance.js byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "Y01_873_edges",
+        "category": "AA_873_edge_immutability",
+        "description": "873 runtime edges unchanged.",
+        "pass": true,
+        "evidence": {
+          "total": 873
+        }
+      },
+      {
+        "id": "Y02_runtime_byte_identical",
+        "category": "AB_runtime_byte_identity",
+        "description": "Runtime relationship files byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {
+          "offenders": []
+        }
+      },
+      {
+        "id": "Z01_avocado_html",
+        "category": "AC_html_immutability",
+        "description": "fruits/avocado/index.html byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "Z02_watermelon_html",
+        "category": "AC_html_immutability",
+        "description": "fruits/watermelon/index.html byte-identical to HEAD.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "AA01_explanation_unchanged",
+        "category": "AD_renderer_mapper_non_wiring",
+        "description": "food-tail-wine-pairing-explanation.js unchanged.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "AA02_pairing_engine_unchanged",
+        "category": "AD_renderer_mapper_non_wiring",
+        "description": "pairing-engine.js unchanged.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "AB01_build_deterministic",
+        "category": "AE_deterministic_output",
+        "description": "buildRecords() deterministic.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "AC01_no_unexpected_untracked",
+        "category": "AF_git_scope",
+        "description": "Only expected phase artifacts beyond known noise.",
+        "pass": true,
+        "evidence": {
+          "unexpected": []
+        }
+      },
+      {
+        "id": "AC02_nothing_staged",
+        "category": "AF_git_scope",
+        "description": "Nothing staged.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "AC03_protected_not_modified",
+        "category": "AG_protected_paths",
+        "description": "Protected prefixes not in tracked diff (excluding EAT-20 writes).",
+        "pass": true,
+        "evidence": {
+          "trackedModified": []
+        }
+      },
+      {
+        "id": "AD01_no_deploy",
+        "category": "AI_no_deployment",
+        "description": "No commit/push/deploy.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV01_reviewer_equals_researcher",
+        "category": "AJ_adversarial_reviewer",
+        "description": "reviewer_id == researcher_id rejected by EP.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV02_fabricated_composer",
+        "category": "AJ_adversarial_reviewer",
+        "description": "Fabricated 'composer' fails human-review gate.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV03_dish_derived_null_rule",
+        "category": "AK_adversarial_bridge",
+        "description": "DISH_DERIVED null documented_bridge_rule rejected.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV04_generic_dish_bridge_rejected",
+        "category": "AK_adversarial_bridge",
+        "description": "Generic 'all dishes containing ingredient' bridge not adopted.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV05_rosé_without_taxonomy_rule",
+        "category": "AL_adversarial_rose_dry_rose",
+        "description": "Generic rosé without adopted taxonomy rule does not support dry-rose target.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV06_retailer_only",
+        "category": "AM_adversarial_retailer",
+        "description": "Retailer-only backing rejected.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV07_snippet_only",
+        "category": "AM_adversarial_retailer",
+        "description": "Snippet-only rejected.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV08_pairingmethod_url",
+        "category": "AM_adversarial_retailer",
+        "description": "PairingMethod URL flagged as circular evidence.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV09_governance_id",
+        "category": "AM_adversarial_retailer",
+        "description": "Governance ID contamination helper works.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV10_no_review_date",
+        "category": "AJ_adversarial_reviewer",
+        "description": "Human reviewer without review_date incomplete.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV11_manual_verified_while_ineligible",
+        "category": "AJ_adversarial_reviewer",
+        "description": "Cannot assume evidence_verified while EP eligibility false.",
+        "pass": true,
+        "evidence": {}
+      },
+      {
+        "id": "ADV12_publication_not_from_present",
+        "category": "AJ_adversarial_reviewer",
+        "description": "publication_safe not assumed from evidence_present.",
+        "pass": true,
+        "evidence": {}
+      }
+    ],
+    "overall": "PASS"
+  },
+  "production_status": {
+    "status": "NOT PERFORMED",
+    "note": "No commit, push, or deploy per EAT-20 scope."
+  },
+  "commit_push_status": {
+    "committed": false,
+    "pushed": false
+  },
+  "strategic_recommendation": {
+    "policy_resolved": "Partially — bridge and target questions analyzed; no new rules adopted.",
+    "evidence_verified": "0/2 — human review gate externally blocked; Avocado also blocked by missing bridge rule.",
+    "publication_safe": "0/2 — separate gate; not authorized.",
+    "publication_authorized": false,
+    "next_steps": [
+      "Obtain genuine out-of-band human reviewer (distinct from researcher) with review_date.",
+      "Director decision: adopt narrow DISH_DERIVED bridge rule for avocado contexts OR keep Avocado deferred.",
+      "Director decision: adopt rosé→dry-rose evidence taxonomy bridge OR accept runtime target mismatch OR change runtime target in future phase.",
+      "Do not wire provenance into publication until Director authorizes a publication phase."
+    ]
+  }
+}
