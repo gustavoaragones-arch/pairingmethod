@@ -43,8 +43,8 @@ export function buildSommelierVerdictHtml(opts) {
   const wine = escapeHtml(opts.wine);
   const dish = escapeHtml(opts.dishContext);
   const reasoning = escapeHtml(opts.reasoning);
-  return `      <section class="sommelier-verdict" aria-label="Sommelier verdict">
-        <h2>Sommelier Verdict</h2>
+  return `      <section class="sommelier-verdict" aria-label="Pairing Method verdict">
+        <h2>Pairing Method Verdict</h2>
         <p><strong>${wine}</strong> is the ${phrase} for ${dish} because ${reasoning}.</p>
       </section>`;
 }

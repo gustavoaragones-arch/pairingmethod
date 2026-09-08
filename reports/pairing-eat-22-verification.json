@@ -1,0 +1,1112 @@
+{
+  "phase": "PAIRING-EAT-22",
+  "generatedAt": "2026-09-08T23:45:51.981Z",
+  "status": "LOCAL PASS — DIRECTOR REVIEW REQUIRED",
+  "remediation": {
+    "P1_LEGAL_01": "PASS",
+    "P1_LEGAL_02": "PASS",
+    "P1_TRUST_01": "PASS"
+  },
+  "files_changed": [
+    "disclaimer.html",
+    "privacy.html",
+    "scripts/pairing-seo.js",
+    "wine-with-grilled-steak.html",
+    "wine-with-roasted-chicken.html",
+    "wine-with-fried-fish.html",
+    "wine-with-spicy-food.html",
+    "wine-with-creamy-dishes.html",
+    "wine-with-smoked-pork.html"
+  ],
+  "baseline_six_pages": {
+    "wine-with-grilled-steak.html": {
+      "sha256": "3c533a48543879e6b68c06db773194175548d4f22e841aa850faa12f0f187a5d"
+    },
+    "wine-with-roasted-chicken.html": {
+      "sha256": "c31105c00a3b086918a43dd2f7383f669b2f85f02848dd53512eea7006d77057"
+    },
+    "wine-with-fried-fish.html": {
+      "sha256": "9bd906586bd845fabe33542932c19ae106759e2b2c5702b20e22eb118109c0af"
+    },
+    "wine-with-spicy-food.html": {
+      "sha256": "8326a49efab0e5bd656008c4acda6a0dcc9cc41a4c088951e8079422c67c9794"
+    },
+    "wine-with-creamy-dishes.html": {
+      "sha256": "f2cd506f7f36d8c13ebf023580c2f98d5aae31a6e790607a2628d2587f4a7b9c"
+    },
+    "wine-with-smoked-pork.html": {
+      "sha256": "531030a6e02d5dc167bd4c84eb0a9ba58e4944e62dd1f3d641198ef5e905db07"
+    }
+  },
+  "eat21_regression": {
+    "status": "LOCAL PASS — DIRECTOR REVIEW REQUIRED",
+    "final_gate": "B. READY WITH NON-MATERIAL NOTES",
+    "checks": "131/133 PASS, 0 FAIL",
+    "P0": 0,
+    "P1": 0,
+    "adsense_submission_authorized": false
+  },
+  "local_verification": {
+    "total_checks": 109,
+    "passed": 108,
+    "failed": 0,
+    "manual": 1,
+    "checks": [
+      {
+        "id": "L01_no_canada_us",
+        "category": "legal_p1_01",
+        "description": "Disclaimer no longer states operated from Canada and the United States.",
+        "result": "PASS",
+        "evidence": {
+          "present": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "L02_wyoming_operator",
+        "category": "legal_p1_01",
+        "description": "Disclaimer §7 aligns with Wyoming operator (Terms/About authoritative).",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "L03_terms_unchanged",
+        "category": "legal_p1_01",
+        "description": "terms.html byte-identical to git HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "L04_about_unchanged",
+        "category": "legal_p1_01",
+        "description": "about.html byte-identical to git HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "L05_org_schema_wyoming",
+        "category": "legal_p1_01",
+        "description": "Disclaimer Organization schema still Wyoming.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "P01_no_terms_intro",
+        "category": "legal_p1_02",
+        "description": "Privacy intro no longer says 'These terms apply'.",
+        "result": "PASS",
+        "evidence": {
+          "present": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "P02_privacy_intro_describes_policy",
+        "category": "legal_p1_02",
+        "description": "Privacy intro describes Privacy Policy applicability.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "P03_privacy_sections_preserved",
+        "category": "legal_p1_02",
+        "description": "Privacy retains GDPR/legal bases section headings.",
+        "result": "PASS",
+        "evidence": {
+          "hasLegalBases": true
+        }
+      },
+      {
+        "id": "G01_generator_heading",
+        "category": "verdict_generator",
+        "description": "pairing-seo.js emits Pairing Method Verdict heading.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "G02_generator_aria",
+        "category": "verdict_generator",
+        "description": "pairing-seo.js emits Pairing Method verdict aria-label.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "G03_generator_no_sommelier_verdict_heading",
+        "category": "verdict_generator",
+        "description": "pairing-seo.js buildSommelierVerdictHtml has no Sommelier Verdict heading.",
+        "result": "PASS",
+        "evidence": {
+          "sample": "      <section class=\"sommelier-verdict\" aria-label=\"Pairing Method verdict\">\n        <h2>Pairing Method Verdict</h2>\n        <p><strong>Test</strong> is the best classic pairing for dish because reason.</p>\n      </section>",
+          "containsSommelierVerdict": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "G04_unrelated_sommelier_seo_preserved",
+        "category": "verdict_generator",
+        "description": "Unrelated Sommelier Pairing Guide title pattern preserved in generator.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "G05_confidence_fallback_preserved",
+        "category": "verdict_generator",
+        "description": "CONFIDENCE_LABELS fallback 'Sommelier fallback pairing' unchanged (not global removal).",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "G06_template_uses_placeholder",
+        "category": "verdict_generator",
+        "description": "pairing-template.html uses SOMMELIER_VERDICT_HTML placeholder.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "G07_generate_pages_six_slugs",
+        "category": "verdict_generator",
+        "description": "generate-pages.js combinations include exactly six wine-with-* slugs.",
+        "result": "PASS",
+        "evidence": {
+          "slugs": [
+            "wine-with-grilled-steak",
+            "wine-with-roasted-chicken",
+            "wine-with-fried-fish",
+            "wine-with-spicy-food",
+            "wine-with-creamy-dishes",
+            "wine-with-smoked-pork"
+          ],
+          "count": 6
+        }
+      },
+      {
+        "id": "wine_with_grilled_steak_pairing_method_verdict",
+        "category": "verdict_pages",
+        "description": "wine-with-grilled-steak.html has Pairing Method Verdict.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "wine_with_grilled_steak_no_sommelier_verdict",
+        "category": "verdict_pages",
+        "description": "wine-with-grilled-steak.html lacks Sommelier Verdict heading.",
+        "result": "PASS",
+        "evidence": {
+          "present": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "wine_with_grilled_steak_aria_pm",
+        "category": "verdict_pages",
+        "description": "wine-with-grilled-steak.html aria-label Pairing Method verdict.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "wine_with_grilled_steak_aria_no_som",
+        "category": "verdict_pages",
+        "description": "wine-with-grilled-steak.html no Sommelier verdict aria-label.",
+        "result": "PASS",
+        "evidence": {
+          "present": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "wine_with_roasted_chicken_pairing_method_verdict",
+        "category": "verdict_pages",
+        "description": "wine-with-roasted-chicken.html has Pairing Method Verdict.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "wine_with_roasted_chicken_no_sommelier_verdict",
+        "category": "verdict_pages",
+        "description": "wine-with-roasted-chicken.html lacks Sommelier Verdict heading.",
+        "result": "PASS",
+        "evidence": {
+          "present": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "wine_with_roasted_chicken_aria_pm",
+        "category": "verdict_pages",
+        "description": "wine-with-roasted-chicken.html aria-label Pairing Method verdict.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "wine_with_roasted_chicken_aria_no_som",
+        "category": "verdict_pages",
+        "description": "wine-with-roasted-chicken.html no Sommelier verdict aria-label.",
+        "result": "PASS",
+        "evidence": {
+          "present": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "wine_with_fried_fish_pairing_method_verdict",
+        "category": "verdict_pages",
+        "description": "wine-with-fried-fish.html has Pairing Method Verdict.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "wine_with_fried_fish_no_sommelier_verdict",
+        "category": "verdict_pages",
+        "description": "wine-with-fried-fish.html lacks Sommelier Verdict heading.",
+        "result": "PASS",
+        "evidence": {
+          "present": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "wine_with_fried_fish_aria_pm",
+        "category": "verdict_pages",
+        "description": "wine-with-fried-fish.html aria-label Pairing Method verdict.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "wine_with_fried_fish_aria_no_som",
+        "category": "verdict_pages",
+        "description": "wine-with-fried-fish.html no Sommelier verdict aria-label.",
+        "result": "PASS",
+        "evidence": {
+          "present": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "wine_with_spicy_food_pairing_method_verdict",
+        "category": "verdict_pages",
+        "description": "wine-with-spicy-food.html has Pairing Method Verdict.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "wine_with_spicy_food_no_sommelier_verdict",
+        "category": "verdict_pages",
+        "description": "wine-with-spicy-food.html lacks Sommelier Verdict heading.",
+        "result": "PASS",
+        "evidence": {
+          "present": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "wine_with_spicy_food_aria_pm",
+        "category": "verdict_pages",
+        "description": "wine-with-spicy-food.html aria-label Pairing Method verdict.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "wine_with_spicy_food_aria_no_som",
+        "category": "verdict_pages",
+        "description": "wine-with-spicy-food.html no Sommelier verdict aria-label.",
+        "result": "PASS",
+        "evidence": {
+          "present": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "wine_with_creamy_dishes_pairing_method_verdict",
+        "category": "verdict_pages",
+        "description": "wine-with-creamy-dishes.html has Pairing Method Verdict.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "wine_with_creamy_dishes_no_sommelier_verdict",
+        "category": "verdict_pages",
+        "description": "wine-with-creamy-dishes.html lacks Sommelier Verdict heading.",
+        "result": "PASS",
+        "evidence": {
+          "present": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "wine_with_creamy_dishes_aria_pm",
+        "category": "verdict_pages",
+        "description": "wine-with-creamy-dishes.html aria-label Pairing Method verdict.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "wine_with_creamy_dishes_aria_no_som",
+        "category": "verdict_pages",
+        "description": "wine-with-creamy-dishes.html no Sommelier verdict aria-label.",
+        "result": "PASS",
+        "evidence": {
+          "present": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "wine_with_smoked_pork_pairing_method_verdict",
+        "category": "verdict_pages",
+        "description": "wine-with-smoked-pork.html has Pairing Method Verdict.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "wine_with_smoked_pork_no_sommelier_verdict",
+        "category": "verdict_pages",
+        "description": "wine-with-smoked-pork.html lacks Sommelier Verdict heading.",
+        "result": "PASS",
+        "evidence": {
+          "present": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "wine_with_smoked_pork_aria_pm",
+        "category": "verdict_pages",
+        "description": "wine-with-smoked-pork.html aria-label Pairing Method verdict.",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "wine_with_smoked_pork_aria_no_som",
+        "category": "verdict_pages",
+        "description": "wine-with-smoked-pork.html no Sommelier verdict aria-label.",
+        "result": "PASS",
+        "evidence": {
+          "present": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "wine-with-grilled-steak_content_unchanged_except_verdict",
+        "category": "pairing_integrity",
+        "description": "wine-with-grilled-steak.html identical to HEAD except verdict label strings.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-grilled-steak_canonical_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-grilled-steak.html canonical unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "current": "https://pairingmethod.com/wine-with-grilled-steak",
+          "head": "https://pairingmethod.com/wine-with-grilled-steak",
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-grilled-steak_title_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-grilled-steak.html title unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-grilled-steak_meta_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-grilled-steak.html meta description unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-grilled-steak_verdict_body_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-grilled-steak.html verdict paragraph body unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-roasted-chicken_content_unchanged_except_verdict",
+        "category": "pairing_integrity",
+        "description": "wine-with-roasted-chicken.html identical to HEAD except verdict label strings.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-roasted-chicken_canonical_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-roasted-chicken.html canonical unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "current": "https://pairingmethod.com/wine-with-roasted-chicken",
+          "head": "https://pairingmethod.com/wine-with-roasted-chicken",
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-roasted-chicken_title_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-roasted-chicken.html title unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-roasted-chicken_meta_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-roasted-chicken.html meta description unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-roasted-chicken_verdict_body_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-roasted-chicken.html verdict paragraph body unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-fried-fish_content_unchanged_except_verdict",
+        "category": "pairing_integrity",
+        "description": "wine-with-fried-fish.html identical to HEAD except verdict label strings.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-fried-fish_canonical_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-fried-fish.html canonical unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "current": "https://pairingmethod.com/wine-with-fried-fish",
+          "head": "https://pairingmethod.com/wine-with-fried-fish",
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-fried-fish_title_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-fried-fish.html title unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-fried-fish_meta_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-fried-fish.html meta description unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-fried-fish_verdict_body_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-fried-fish.html verdict paragraph body unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-spicy-food_content_unchanged_except_verdict",
+        "category": "pairing_integrity",
+        "description": "wine-with-spicy-food.html identical to HEAD except verdict label strings.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-spicy-food_canonical_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-spicy-food.html canonical unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "current": "https://pairingmethod.com/wine-with-spicy-food",
+          "head": "https://pairingmethod.com/wine-with-spicy-food",
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-spicy-food_title_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-spicy-food.html title unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-spicy-food_meta_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-spicy-food.html meta description unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-spicy-food_verdict_body_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-spicy-food.html verdict paragraph body unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-creamy-dishes_content_unchanged_except_verdict",
+        "category": "pairing_integrity",
+        "description": "wine-with-creamy-dishes.html identical to HEAD except verdict label strings.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-creamy-dishes_canonical_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-creamy-dishes.html canonical unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "current": "https://pairingmethod.com/wine-with-creamy-dishes",
+          "head": "https://pairingmethod.com/wine-with-creamy-dishes",
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-creamy-dishes_title_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-creamy-dishes.html title unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-creamy-dishes_meta_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-creamy-dishes.html meta description unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-creamy-dishes_verdict_body_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-creamy-dishes.html verdict paragraph body unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-smoked-pork_content_unchanged_except_verdict",
+        "category": "pairing_integrity",
+        "description": "wine-with-smoked-pork.html identical to HEAD except verdict label strings.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-smoked-pork_canonical_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-smoked-pork.html canonical unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "current": "https://pairingmethod.com/wine-with-smoked-pork",
+          "head": "https://pairingmethod.com/wine-with-smoked-pork",
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-smoked-pork_title_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-smoked-pork.html title unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-smoked-pork_meta_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-smoked-pork.html meta description unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "wine-with-smoked-pork_verdict_body_unchanged",
+        "category": "pairing_integrity",
+        "description": "wine-with-smoked-pork.html verdict paragraph body unchanged.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "EAT11_wine-with-steak.html_unchanged",
+        "category": "eat11_preservation",
+        "description": "wine-with-steak.html byte-identical to HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "EAT11_wine-with-chicken.html_unchanged",
+        "category": "eat11_preservation",
+        "description": "wine-with-chicken.html byte-identical to HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "EAT11_wine-with-salmon.html_unchanged",
+        "category": "eat11_preservation",
+        "description": "wine-with-salmon.html byte-identical to HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "EAT11_wine-for-bbq-ribs.html_unchanged",
+        "category": "eat11_preservation",
+        "description": "wine-for-bbq-ribs.html byte-identical to HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "EAT11_wine-for-thanksgiving-turkey.html_unchanged",
+        "category": "eat11_preservation",
+        "description": "wine-for-thanksgiving-turkey.html byte-identical to HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PUB_sitemap_unchanged",
+        "category": "publication_integrity",
+        "description": "sitemap.xml byte-identical to HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PUB_robots_unchanged",
+        "category": "publication_integrity",
+        "description": "robots.txt byte-identical to HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PUB_redirects_unchanged",
+        "category": "publication_integrity",
+        "description": "_redirects byte-identical to HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "QZ_no_gov_html",
+        "category": "publication_integrity",
+        "description": "Food-tail HTML still free of governance evidence strings.",
+        "result": "PASS",
+        "evidence": {
+          "count": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "ADS_no_script",
+        "category": "adsense_safety",
+        "description": "No adsbygoogle in repo HTML sample.",
+        "result": "PASS",
+        "evidence": {
+          "count": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "ADS_no_ads_txt",
+        "category": "adsense_safety",
+        "description": "No ads.txt file.",
+        "result": "PASS",
+        "evidence": {
+          "exists": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "PROT_assets_js_pairing-engine_js",
+        "category": "protected_paths",
+        "description": "assets/js/pairing-engine.js unchanged from HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PROT_assets_js_pairing-data_js",
+        "category": "protected_paths",
+        "description": "assets/js/pairing-data.js unchanged from HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PROT_assets_js_matrix-view_js",
+        "category": "protected_paths",
+        "description": "assets/js/matrix-view.js unchanged from HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PROT_lib_food-tail-evidence-provenance_js",
+        "category": "protected_paths",
+        "description": "lib/food-tail-evidence-provenance.js unchanged from HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PROT_lib_food-tail-wine-pairing-explanation_js",
+        "category": "protected_paths",
+        "description": "lib/food-tail-wine-pairing-explanation.js unchanged from HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PROT_data_runtime_fruit-wine-relationships_json",
+        "category": "protected_paths",
+        "description": "data/runtime/fruit-wine-relationships.json unchanged from HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PROT_data_runtime_nut-seed-wine-relationships_json",
+        "category": "protected_paths",
+        "description": "data/runtime/nut-seed-wine-relationships.json unchanged from HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PROT_data_runtime_legume-wine-relationships_json",
+        "category": "protected_paths",
+        "description": "data/runtime/legume-wine-relationships.json unchanged from HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PROT_data_runtime_sweet-flavor-wine-relationships_json",
+        "category": "protected_paths",
+        "description": "data/runtime/sweet-flavor-wine-relationships.json unchanged from HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PROT_sitemap_xml",
+        "category": "protected_paths",
+        "description": "sitemap.xml unchanged from HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PROT_robots_txt",
+        "category": "protected_paths",
+        "description": "robots.txt unchanged from HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PROT__redirects",
+        "category": "protected_paths",
+        "description": "_redirects unchanged from HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PROT_about_html",
+        "category": "protected_paths",
+        "description": "about.html unchanged from HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PROT_terms_html",
+        "category": "protected_paths",
+        "description": "terms.html unchanged from HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "PROT_index_html",
+        "category": "protected_paths",
+        "description": "index.html unchanged from HEAD.",
+        "result": "PASS",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "HOME_sommelier_title_preserved",
+        "category": "unrelated_terminology",
+        "description": "index.html title still contains Sommelier (out of scope).",
+        "result": "PASS",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "DIFF_only_expected_files",
+        "category": "change_boundary",
+        "description": "Tracked diff limited to EAT-22 scope files.",
+        "result": "PASS",
+        "evidence": {
+          "trackedDiff": [
+            "disclaimer.html",
+            "privacy.html",
+            "scripts/pairing-seo.js",
+            "wine-with-creamy-dishes.html",
+            "wine-with-fried-fish.html",
+            "wine-with-grilled-steak.html",
+            "wine-with-roasted-chicken.html",
+            "wine-with-smoked-pork.html",
+            "wine-with-spicy-food.html"
+          ],
+          "unexpected": []
+        }
+      },
+      {
+        "id": "REG21_disclaimer_jurisdiction",
+        "category": "eat21_regression",
+        "description": "EAT-21 LEGAL_disclaimer_jurisdiction_mismatch would PASS.",
+        "result": "PASS",
+        "evidence": {
+          "wouldFail": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "REG21_privacy_intro",
+        "category": "eat21_regression",
+        "description": "EAT-21 LEGAL_privacy_intro_wording would PASS.",
+        "result": "PASS",
+        "evidence": {
+          "wouldFail": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "REG21_wine-with-grilled-steak.html_sommelier",
+        "category": "eat21_regression",
+        "description": "EAT-21 HI_GEN wine-with-grilled-steak.html sommelier check would PASS.",
+        "result": "PASS",
+        "evidence": {
+          "hasSommelierHeading": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "REG21_wine-with-roasted-chicken.html_sommelier",
+        "category": "eat21_regression",
+        "description": "EAT-21 HI_GEN wine-with-roasted-chicken.html sommelier check would PASS.",
+        "result": "PASS",
+        "evidence": {
+          "hasSommelierHeading": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "REG21_wine-with-fried-fish.html_sommelier",
+        "category": "eat21_regression",
+        "description": "EAT-21 HI_GEN wine-with-fried-fish.html sommelier check would PASS.",
+        "result": "PASS",
+        "evidence": {
+          "hasSommelierHeading": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "REG21_wine-with-spicy-food.html_sommelier",
+        "category": "eat21_regression",
+        "description": "EAT-21 HI_GEN wine-with-spicy-food.html sommelier check would PASS.",
+        "result": "PASS",
+        "evidence": {
+          "hasSommelierHeading": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "REG21_wine-with-creamy-dishes.html_sommelier",
+        "category": "eat21_regression",
+        "description": "EAT-21 HI_GEN wine-with-creamy-dishes.html sommelier check would PASS.",
+        "result": "PASS",
+        "evidence": {
+          "hasSommelierHeading": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "REG21_wine-with-smoked-pork.html_sommelier",
+        "category": "eat21_regression",
+        "description": "EAT-21 HI_GEN wine-with-smoked-pork.html sommelier check would PASS.",
+        "result": "PASS",
+        "evidence": {
+          "hasSommelierHeading": false,
+          "expected": false
+        }
+      },
+      {
+        "id": "BQA_chrome_matrix",
+        "cat": "browser_qa",
+        "description": "Full 10-page desktop/mobile Chrome QA per EAT-22 §11 — MANUAL_REVIEW_REQUIRED unless Director spot-check recorded.",
+        "result": "MANUAL_REVIEW_REQUIRED",
+        "evidence": {
+          "pages": [
+            "wine-with-grilled-steak.html",
+            "wine-with-roasted-chicken.html",
+            "wine-with-fried-fish.html",
+            "wine-with-spicy-food.html",
+            "wine-with-creamy-dishes.html",
+            "wine-with-smoked-pork.html",
+            "disclaimer.html",
+            "privacy.html"
+          ]
+        }
+      },
+      {
+        "id": "REG21_full_verifier_ran",
+        "category": "eat21_regression",
+        "description": "EAT-21 verifier executed.",
+        "result": "PASS",
+        "evidence": {
+          "ran": true
+        }
+      },
+      {
+        "id": "REG21_p1_count_zero",
+        "category": "eat21_regression",
+        "description": "EAT-21 reports zero P1 findings after remediation.",
+        "result": "PASS",
+        "evidence": {
+          "P1": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "REG21_gate_not_blocked",
+        "category": "eat21_regression",
+        "description": "EAT-21 final gate no longer C (material blockers cleared).",
+        "result": "PASS",
+        "evidence": {
+          "final_gate": "B. READY WITH NON-MATERIAL NOTES",
+          "blocked": false,
+          "expectedBlocked": false
+        }
+      }
+    ]
+  },
+  "commit_push_status": {
+    "committed": false,
+    "pushed": false
+  }
+}
