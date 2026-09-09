@@ -1,0 +1,2765 @@
+{
+  "phase": "PAIRING-EAT-23A",
+  "hardening": "EAT-23A fail-closed predicate model",
+  "generatedAt": "2026-09-09T00:24:06.392Z",
+  "production_sha": "2e65685ee251b0898a05f6a0a2b8dda1a45122d6",
+  "status": "AUDIT PASS — DIRECTOR REVIEW REQUIRED",
+  "final_classification": "B. READY WITH NON-MATERIAL NOTES — SUBMISSION AUTHORIZED",
+  "adsense_submission_authorized": true,
+  "material_blockers": {
+    "P0": 0,
+    "P1": 0,
+    "total": 0,
+    "items": []
+  },
+  "non_material_notes": [
+    {
+      "id": "P2_HOME_01_sommelier_title",
+      "description": "Homepage title/meta references Sommelier.",
+      "evidence": {
+        "observed_fact": {
+          "titleContainsSommelier": true
+        },
+        "director_classification_note": "Director classifies as non-material: descriptive methodology SEO framing, not credentialed human endorsement claim.",
+        "verifier_proves_materiality": false
+      }
+    },
+    {
+      "id": "P2_QUAR_01_unfiltered_links",
+      "description": "Food-tail pages may list wine-style links from unfiltered runtime graph.",
+      "evidence": {
+        "observed_fact": {
+          "evidenceProseSuppressedByEAT07": true,
+          "whyTheseWinesSectionsInHtml": 0
+        },
+        "director_classification_note": "Director classifies as non-material while EAT-07 prose quarantine remains active.",
+        "verifier_proves_materiality": false
+      }
+    },
+    {
+      "id": "P2_LEGAL_03_boilerplate",
+      "description": "Disclaimer §4 contains shared Albor market-data boilerplate.",
+      "evidence": {
+        "observed_fact": {
+          "section4ContainsMarketDataLanguage": true
+        },
+        "director_classification_note": "Director classifies as non-material; operator identity and AI disclosure remain clear.",
+        "verifier_proves_materiality": false
+      }
+    }
+  ],
+  "p2_methodology": {
+    "observed_fact": "Recorded by verifier as deterministic predicate or inventory count.",
+    "policy_interpretation": "Documented in director_classification_note; not objectively proven by script.",
+    "director_classification": "Final submission authorization requires Director review of P2 notes."
+  },
+  "google_policy_basis": [
+    "https://support.google.com/adsense/answer/9724",
+    "https://support.google.com/adsense/answer/7299563",
+    "https://support.google.com/adsense/answer/12176698",
+    "https://support.google.com/adsense/answer/48182",
+    "https://support.google.com/adsense/answer/10502938",
+    "https://support.google.com/adsense/answer/12131223",
+    "https://support.google.com/adsense/answer/12171612"
+  ],
+  "activation_separation": {
+    "authorized_now": [
+      "AdSense account/site submission (#1)"
+    ],
+    "not_authorized": [
+      "ads.txt configuration (#4)",
+      "ad-code activation (#5)",
+      "live ad serving (#6)"
+    ],
+    "post_approval": "Configure ads.txt and insert ad code only after Google approval."
+  },
+  "local_verification": {
+    "total_checks": 245,
+    "passed": 241,
+    "failed": 0,
+    "manual": 1,
+    "not_verified": 0,
+    "non_material_notes": 3,
+    "checks": [
+      {
+        "id": "BASE_head_equals_production_sha",
+        "category": "baseline",
+        "description": "git HEAD === PRODUCTION_SHA.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "actual": "2e65685ee251b0898a05f6a0a2b8dda1a45122d6",
+          "expected": "2e65685ee251b0898a05f6a0a2b8dda1a45122d6"
+        }
+      },
+      {
+        "id": "BASE_origin_main_equals_production_sha",
+        "category": "baseline",
+        "description": "origin/main === PRODUCTION_SHA.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "actual": "2e65685ee251b0898a05f6a0a2b8dda1a45122d6",
+          "expected": "2e65685ee251b0898a05f6a0a2b8dda1a45122d6"
+        }
+      },
+      {
+        "id": "BASE_head_equals_origin_main",
+        "category": "baseline",
+        "description": "HEAD === origin/main.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "actual": "2e65685ee251b0898a05f6a0a2b8dda1a45122d6",
+          "expected": "2e65685ee251b0898a05f6a0a2b8dda1a45122d6"
+        }
+      },
+      {
+        "id": "HTTP_homepage",
+        "category": "live_production_http",
+        "description": "https://pairingmethod.com/ returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "HTTP_about",
+        "category": "live_production_http",
+        "description": "https://pairingmethod.com/about returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/about",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "HTTP_privacy",
+        "category": "live_production_http",
+        "description": "https://pairingmethod.com/privacy returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/privacy",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "HTTP_terms",
+        "category": "live_production_http",
+        "description": "https://pairingmethod.com/terms returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/terms",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "HTTP_disclaimer",
+        "category": "live_production_http",
+        "description": "https://pairingmethod.com/disclaimer returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/disclaimer",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "HTTP_pairings_hub",
+        "category": "live_production_http",
+        "description": "https://pairingmethod.com/pairings/ returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/pairings/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "HTTP_steak_guide",
+        "category": "live_production_http",
+        "description": "https://pairingmethod.com/wine-with-steak/ returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/wine-with-steak/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "HTTP_chicken_guide",
+        "category": "live_production_http",
+        "description": "https://pairingmethod.com/wine-with-chicken/ returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/wine-with-chicken/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "HTTP_salmon_guide",
+        "category": "live_production_http",
+        "description": "https://pairingmethod.com/wine-with-salmon/ returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/wine-with-salmon/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "HTTP_bbq_ribs",
+        "category": "live_production_http",
+        "description": "https://pairingmethod.com/wine-for-bbq-ribs/ returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/wine-for-bbq-ribs/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "HTTP_thanksgiving",
+        "category": "live_production_http",
+        "description": "https://pairingmethod.com/wine-for-thanksgiving-turkey/ returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/wine-for-thanksgiving-turkey/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "HTTP_robots",
+        "category": "live_production_http",
+        "description": "https://pairingmethod.com/robots.txt returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/robots.txt",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "HTTP_sitemap",
+        "category": "live_production_http",
+        "description": "https://pairingmethod.com/sitemap.xml returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/sitemap.xml",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "HTTP_rep_protein",
+        "category": "live_production_http",
+        "description": "Representative protein returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/foods/salmon-fillet/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_protein_title",
+        "category": "live_content_quality",
+        "description": "/foods/salmon-fillet/ title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/foods/salmon-fillet/",
+          "titleLength": 34
+        }
+      },
+      {
+        "id": "CONTENT_rep_protein_canonical",
+        "category": "live_content_quality",
+        "description": "/foods/salmon-fillet/ canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/foods/salmon-fillet/",
+          "canonical": "https://pairingmethod.com/foods/salmon-fillet/"
+        }
+      },
+      {
+        "id": "CONTENT_rep_protein_substance",
+        "category": "live_content_quality",
+        "description": "/foods/salmon-fillet/ substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/foods/salmon-fillet/",
+          "words": 117,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_protein_no_fallback",
+        "category": "live_content_quality",
+        "description": "/foods/salmon-fillet/ not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/foods/salmon-fillet/"
+        }
+      },
+      {
+        "id": "HTTP_rep_vegetable",
+        "category": "live_production_http",
+        "description": "Representative vegetable returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/vegetables/asparagus/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_vegetable_title",
+        "category": "live_content_quality",
+        "description": "/vegetables/asparagus/ title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/vegetables/asparagus/",
+          "titleLength": 27
+        }
+      },
+      {
+        "id": "CONTENT_rep_vegetable_canonical",
+        "category": "live_content_quality",
+        "description": "/vegetables/asparagus/ canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/vegetables/asparagus/",
+          "canonical": "https://pairingmethod.com/vegetables/asparagus/"
+        }
+      },
+      {
+        "id": "CONTENT_rep_vegetable_substance",
+        "category": "live_content_quality",
+        "description": "/vegetables/asparagus/ substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/vegetables/asparagus/",
+          "words": 102,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_vegetable_no_fallback",
+        "category": "live_content_quality",
+        "description": "/vegetables/asparagus/ not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/vegetables/asparagus/"
+        }
+      },
+      {
+        "id": "HTTP_rep_herb_spice",
+        "category": "live_production_http",
+        "description": "Representative herb_spice returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/herbs-spices/basil/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_herb_spice_title",
+        "category": "live_content_quality",
+        "description": "/herbs-spices/basil/ title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/herbs-spices/basil/",
+          "titleLength": 32
+        }
+      },
+      {
+        "id": "CONTENT_rep_herb_spice_canonical",
+        "category": "live_content_quality",
+        "description": "/herbs-spices/basil/ canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/herbs-spices/basil/",
+          "canonical": "https://pairingmethod.com/herbs-spices/basil/"
+        }
+      },
+      {
+        "id": "CONTENT_rep_herb_spice_substance",
+        "category": "live_content_quality",
+        "description": "/herbs-spices/basil/ substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/herbs-spices/basil/",
+          "words": 117,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_herb_spice_no_fallback",
+        "category": "live_content_quality",
+        "description": "/herbs-spices/basil/ not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/herbs-spices/basil/"
+        }
+      },
+      {
+        "id": "HTTP_rep_grain_starch",
+        "category": "live_production_http",
+        "description": "Representative grain_starch returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/grains-starches/quinoa/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_grain_starch_title",
+        "category": "live_content_quality",
+        "description": "/grains-starches/quinoa/ title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/grains-starches/quinoa/",
+          "titleLength": 36
+        }
+      },
+      {
+        "id": "CONTENT_rep_grain_starch_canonical",
+        "category": "live_content_quality",
+        "description": "/grains-starches/quinoa/ canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/grains-starches/quinoa/",
+          "canonical": "https://pairingmethod.com/grains-starches/quinoa/"
+        }
+      },
+      {
+        "id": "CONTENT_rep_grain_starch_substance",
+        "category": "live_content_quality",
+        "description": "/grains-starches/quinoa/ substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/grains-starches/quinoa/",
+          "words": 126,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_grain_starch_no_fallback",
+        "category": "live_content_quality",
+        "description": "/grains-starches/quinoa/ not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/grains-starches/quinoa/"
+        }
+      },
+      {
+        "id": "HTTP_rep_fruit",
+        "category": "live_production_http",
+        "description": "Representative fruit returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/fruits/avocado/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_fruit_title",
+        "category": "live_content_quality",
+        "description": "/fruits/avocado/ title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/fruits/avocado/",
+          "titleLength": 21
+        }
+      },
+      {
+        "id": "CONTENT_rep_fruit_canonical",
+        "category": "live_content_quality",
+        "description": "/fruits/avocado/ canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/fruits/avocado/",
+          "canonical": "https://pairingmethod.com/fruits/avocado/"
+        }
+      },
+      {
+        "id": "CONTENT_rep_fruit_substance",
+        "category": "live_content_quality",
+        "description": "/fruits/avocado/ substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/fruits/avocado/",
+          "words": 59,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_fruit_no_fallback",
+        "category": "live_content_quality",
+        "description": "/fruits/avocado/ not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/fruits/avocado/"
+        }
+      },
+      {
+        "id": "HTTP_rep_nut_seed",
+        "category": "live_production_http",
+        "description": "Representative nut_seed returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/nut-seeds/walnut/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_nut_seed_title",
+        "category": "live_content_quality",
+        "description": "/nut-seeds/walnut/ title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/nut-seeds/walnut/",
+          "titleLength": 29
+        }
+      },
+      {
+        "id": "CONTENT_rep_nut_seed_canonical",
+        "category": "live_content_quality",
+        "description": "/nut-seeds/walnut/ canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/nut-seeds/walnut/",
+          "canonical": "https://pairingmethod.com/nut-seeds/walnut/"
+        }
+      },
+      {
+        "id": "CONTENT_rep_nut_seed_substance",
+        "category": "live_content_quality",
+        "description": "/nut-seeds/walnut/ substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/nut-seeds/walnut/",
+          "words": 58,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_nut_seed_no_fallback",
+        "category": "live_content_quality",
+        "description": "/nut-seeds/walnut/ not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/nut-seeds/walnut/"
+        }
+      },
+      {
+        "id": "HTTP_rep_legume",
+        "category": "live_production_http",
+        "description": "Representative legume returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/legumes/chickpea/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_legume_title",
+        "category": "live_content_quality",
+        "description": "/legumes/chickpea/ title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/legumes/chickpea/",
+          "titleLength": 23
+        }
+      },
+      {
+        "id": "CONTENT_rep_legume_canonical",
+        "category": "live_content_quality",
+        "description": "/legumes/chickpea/ canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/legumes/chickpea/",
+          "canonical": "https://pairingmethod.com/legumes/chickpea/"
+        }
+      },
+      {
+        "id": "CONTENT_rep_legume_substance",
+        "category": "live_content_quality",
+        "description": "/legumes/chickpea/ substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/legumes/chickpea/",
+          "words": 56,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_legume_no_fallback",
+        "category": "live_content_quality",
+        "description": "/legumes/chickpea/ not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/legumes/chickpea/"
+        }
+      },
+      {
+        "id": "HTTP_rep_sweet_flavor",
+        "category": "live_production_http",
+        "description": "Representative sweet_flavor returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/sweet-flavors/honey/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_sweet_flavor_title",
+        "category": "live_content_quality",
+        "description": "/sweet-flavors/honey/ title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/sweet-flavors/honey/",
+          "titleLength": 26
+        }
+      },
+      {
+        "id": "CONTENT_rep_sweet_flavor_canonical",
+        "category": "live_content_quality",
+        "description": "/sweet-flavors/honey/ canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/sweet-flavors/honey/",
+          "canonical": "https://pairingmethod.com/sweet-flavors/honey/"
+        }
+      },
+      {
+        "id": "CONTENT_rep_sweet_flavor_substance",
+        "category": "live_content_quality",
+        "description": "/sweet-flavors/honey/ substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/sweet-flavors/honey/",
+          "words": 69,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_sweet_flavor_no_fallback",
+        "category": "live_content_quality",
+        "description": "/sweet-flavors/honey/ not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/sweet-flavors/honey/"
+        }
+      },
+      {
+        "id": "HTTP_rep_fungi",
+        "category": "live_production_http",
+        "description": "Representative fungi returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/fungi/shiitake/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_fungi_title",
+        "category": "live_content_quality",
+        "description": "/fungi/shiitake/ title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/fungi/shiitake/",
+          "titleLength": 22
+        }
+      },
+      {
+        "id": "CONTENT_rep_fungi_canonical",
+        "category": "live_content_quality",
+        "description": "/fungi/shiitake/ canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/fungi/shiitake/",
+          "canonical": "https://pairingmethod.com/fungi/shiitake/"
+        }
+      },
+      {
+        "id": "CONTENT_rep_fungi_substance",
+        "category": "live_content_quality",
+        "description": "/fungi/shiitake/ substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/fungi/shiitake/",
+          "words": 111,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_fungi_no_fallback",
+        "category": "live_content_quality",
+        "description": "/fungi/shiitake/ not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/fungi/shiitake/"
+        }
+      },
+      {
+        "id": "HTTP_rep_wine_style",
+        "category": "live_production_http",
+        "description": "Representative wine_style returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/styles/pinot-noir/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_wine_style_title",
+        "category": "live_content_quality",
+        "description": "/styles/pinot-noir/ title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/styles/pinot-noir/",
+          "titleLength": 74
+        }
+      },
+      {
+        "id": "CONTENT_rep_wine_style_canonical",
+        "category": "live_content_quality",
+        "description": "/styles/pinot-noir/ canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/styles/pinot-noir/",
+          "canonical": "https://pairingmethod.com/styles/pinot-noir/"
+        }
+      },
+      {
+        "id": "CONTENT_rep_wine_style_substance",
+        "category": "live_content_quality",
+        "description": "/styles/pinot-noir/ substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/styles/pinot-noir/",
+          "words": 134,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_wine_style_no_fallback",
+        "category": "live_content_quality",
+        "description": "/styles/pinot-noir/ not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/styles/pinot-noir/"
+        }
+      },
+      {
+        "id": "HTTP_rep_wine_fault",
+        "category": "live_production_http",
+        "description": "Representative wine_fault returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/faults/cork-taint/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_wine_fault_title",
+        "category": "live_content_quality",
+        "description": "/faults/cork-taint/ title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/faults/cork-taint/",
+          "titleLength": 52
+        }
+      },
+      {
+        "id": "CONTENT_rep_wine_fault_canonical",
+        "category": "live_content_quality",
+        "description": "/faults/cork-taint/ canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/faults/cork-taint/",
+          "canonical": "https://pairingmethod.com/faults/cork-taint/"
+        }
+      },
+      {
+        "id": "CONTENT_rep_wine_fault_substance",
+        "category": "live_content_quality",
+        "description": "/faults/cork-taint/ substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/faults/cork-taint/",
+          "words": 292,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_wine_fault_no_fallback",
+        "category": "live_content_quality",
+        "description": "/faults/cork-taint/ not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/faults/cork-taint/"
+        }
+      },
+      {
+        "id": "HTTP_rep_grape",
+        "category": "live_production_http",
+        "description": "Representative grape returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/grapes/pinot-noir",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_grape_title",
+        "category": "live_content_quality",
+        "description": "/grapes/pinot-noir title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/grapes/pinot-noir",
+          "titleLength": 38
+        }
+      },
+      {
+        "id": "CONTENT_rep_grape_canonical",
+        "category": "live_content_quality",
+        "description": "/grapes/pinot-noir canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/grapes/pinot-noir",
+          "canonical": "https://pairingmethod.com/grapes/pinot-noir"
+        }
+      },
+      {
+        "id": "CONTENT_rep_grape_substance",
+        "category": "live_content_quality",
+        "description": "/grapes/pinot-noir substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/grapes/pinot-noir",
+          "words": 168,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_grape_no_fallback",
+        "category": "live_content_quality",
+        "description": "/grapes/pinot-noir not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/grapes/pinot-noir"
+        }
+      },
+      {
+        "id": "HTTP_rep_technique",
+        "category": "live_production_http",
+        "description": "Representative technique returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/techniques/carbonic-maceration/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_technique_title",
+        "category": "live_content_quality",
+        "description": "/techniques/carbonic-maceration/ title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/techniques/carbonic-maceration/",
+          "titleLength": 60
+        }
+      },
+      {
+        "id": "CONTENT_rep_technique_canonical",
+        "category": "live_content_quality",
+        "description": "/techniques/carbonic-maceration/ canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/techniques/carbonic-maceration/",
+          "canonical": "https://pairingmethod.com/techniques/carbonic-maceration/"
+        }
+      },
+      {
+        "id": "CONTENT_rep_technique_substance",
+        "category": "live_content_quality",
+        "description": "/techniques/carbonic-maceration/ substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/techniques/carbonic-maceration/",
+          "words": 156,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_technique_no_fallback",
+        "category": "live_content_quality",
+        "description": "/techniques/carbonic-maceration/ not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/techniques/carbonic-maceration/"
+        }
+      },
+      {
+        "id": "HTTP_rep_region",
+        "category": "live_production_http",
+        "description": "Representative region returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/regions/burgundy/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_region_title",
+        "category": "live_content_quality",
+        "description": "/regions/burgundy/ title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/regions/burgundy/",
+          "titleLength": 73
+        }
+      },
+      {
+        "id": "CONTENT_rep_region_canonical",
+        "category": "live_content_quality",
+        "description": "/regions/burgundy/ canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/regions/burgundy/",
+          "canonical": "https://pairingmethod.com/regions/burgundy/"
+        }
+      },
+      {
+        "id": "CONTENT_rep_region_substance",
+        "category": "live_content_quality",
+        "description": "/regions/burgundy/ substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/regions/burgundy/",
+          "words": 76,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_region_no_fallback",
+        "category": "live_content_quality",
+        "description": "/regions/burgundy/ not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/regions/burgundy/"
+        }
+      },
+      {
+        "id": "HTTP_rep_seasonal",
+        "category": "live_production_http",
+        "description": "Representative seasonal returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/seasonal-wine-guides",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_seasonal_title",
+        "category": "live_content_quality",
+        "description": "/seasonal-wine-guides title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/seasonal-wine-guides",
+          "titleLength": 37
+        }
+      },
+      {
+        "id": "CONTENT_rep_seasonal_canonical",
+        "category": "live_content_quality",
+        "description": "/seasonal-wine-guides canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/seasonal-wine-guides",
+          "canonical": "https://pairingmethod.com/seasonal-wine-guides"
+        }
+      },
+      {
+        "id": "CONTENT_rep_seasonal_substance",
+        "category": "live_content_quality",
+        "description": "/seasonal-wine-guides substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/seasonal-wine-guides",
+          "words": 71,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_seasonal_no_fallback",
+        "category": "live_content_quality",
+        "description": "/seasonal-wine-guides not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/seasonal-wine-guides"
+        }
+      },
+      {
+        "id": "HTTP_rep_term",
+        "category": "live_production_http",
+        "description": "Representative term returns 200.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/terms/tannin/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "CONTENT_rep_term_title",
+        "category": "live_content_quality",
+        "description": "/terms/tannin/ title non-empty.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/terms/tannin/",
+          "titleLength": 71
+        }
+      },
+      {
+        "id": "CONTENT_rep_term_canonical",
+        "category": "live_content_quality",
+        "description": "/terms/tannin/ canonical present.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/terms/tannin/",
+          "canonical": "https://pairingmethod.com/terms/tannin/"
+        }
+      },
+      {
+        "id": "CONTENT_rep_term_substance",
+        "category": "live_content_quality",
+        "description": "/terms/tannin/ substantive words >= 25.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/terms/tannin/",
+          "words": 397,
+          "threshold": 25
+        }
+      },
+      {
+        "id": "CONTENT_rep_term_no_fallback",
+        "category": "live_content_quality",
+        "description": "/terms/tannin/ not homepage fallback.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/terms/tannin/"
+        }
+      },
+      {
+        "id": "HTTP_alias__pairing-guides_",
+        "category": "live_production_http",
+        "description": "/pairing-guides/ returns 404.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "note": "Hub at /pairings/",
+          "actual": 404,
+          "expected": 404
+        }
+      },
+      {
+        "id": "HTTP_alias__contact",
+        "category": "live_production_http",
+        "description": "/contact returns 404.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "note": "Contact via mailto on legal pages",
+          "actual": 404,
+          "expected": 404
+        }
+      },
+      {
+        "id": "ERR_4ec4bbc6",
+        "category": "error_route_behavior",
+        "description": "/this-route-does-not-exist-eat23 returns 404.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "ads_txt_intentionally_inactive": false,
+          "actual": 404,
+          "expected": 404
+        }
+      },
+      {
+        "id": "ERR_f9e9e651",
+        "category": "error_route_behavior",
+        "description": "/contact-invalid-test returns 404.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "ads_txt_intentionally_inactive": false,
+          "actual": 404,
+          "expected": 404
+        }
+      },
+      {
+        "id": "ERR_884a40f8",
+        "category": "error_route_behavior",
+        "description": "/es/ returns 404.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "ads_txt_intentionally_inactive": false,
+          "actual": 404,
+          "expected": 404
+        }
+      },
+      {
+        "id": "ERR_50cbbcad",
+        "category": "error_route_behavior",
+        "description": "/cheeses/ returns 404.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "ads_txt_intentionally_inactive": false,
+          "actual": 404,
+          "expected": 404
+        }
+      },
+      {
+        "id": "ERR_0c1bf0dd",
+        "category": "error_route_behavior",
+        "description": "/ads.txt returns 404.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "ads_txt_intentionally_inactive": true,
+          "actual": 404,
+          "expected": 404
+        }
+      },
+      {
+        "id": "INV_sitemap_children",
+        "category": "publication_integrity",
+        "description": "Child sitemap count === 31.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "childSitemapLocs": 31,
+          "actual": 31,
+          "expected": 31
+        }
+      },
+      {
+        "id": "INV_sitemap_urls",
+        "category": "publication_integrity",
+        "description": "Total sitemap URLs === 1441.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "sitemapUrlTotal": 1441,
+          "actual": 1441,
+          "expected": 1441
+        }
+      },
+      {
+        "id": "INV_no_cheese_sitemap",
+        "category": "publication_integrity",
+        "description": "Zero cheese child sitemaps in index.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "cheeseInIndex": 0,
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "INV_no_es_sitemap",
+        "category": "publication_integrity",
+        "description": "Zero /es/ URLs in sitemap union.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "esInSitemap": 0,
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "SMAP_no_duplicates",
+        "category": "publication_integrity",
+        "description": "Zero duplicate sitemap URLs.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "duplicateSitemapUrls": 0,
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "ROBOTS_sitemap_ref",
+        "category": "publication_integrity",
+        "description": "robots.txt sitemap directive present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "ROBOTS_allow_root",
+        "category": "publication_integrity",
+        "description": "robots.txt allows root.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "SMAP_live_robots_match",
+        "category": "publication_integrity",
+        "description": "Production robots.txt === repo.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "SMAP_live_sitemap_match",
+        "category": "publication_integrity",
+        "description": "Production sitemap.xml === repo.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "match": true
+        }
+      },
+      {
+        "id": "CANON_index_html",
+        "category": "publication_integrity",
+        "description": "index.html canonical matches fixture.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "actual": "https://pairingmethod.com/",
+          "expectedCanon": "https://pairingmethod.com/",
+          "expected": "https://pairingmethod.com/"
+        }
+      },
+      {
+        "id": "CANON_about_html",
+        "category": "publication_integrity",
+        "description": "about.html canonical matches fixture.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "actual": "https://pairingmethod.com/about",
+          "expectedCanon": "https://pairingmethod.com/about",
+          "expected": "https://pairingmethod.com/about"
+        }
+      },
+      {
+        "id": "CANON_fruits_avocado_index_html",
+        "category": "publication_integrity",
+        "description": "fruits/avocado/index.html canonical matches fixture.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "actual": "https://pairingmethod.com/fruits/avocado/",
+          "expectedCanon": "https://pairingmethod.com/fruits/avocado/",
+          "expected": "https://pairingmethod.com/fruits/avocado/"
+        }
+      },
+      {
+        "id": "CANON_wine-with-steak_html",
+        "category": "publication_integrity",
+        "description": "wine-with-steak.html canonical matches fixture.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "actual": "https://pairingmethod.com/wine-with-steak",
+          "expectedCanon": "https://pairingmethod.com/wine-with-steak",
+          "expected": "https://pairingmethod.com/wine-with-steak"
+        }
+      },
+      {
+        "id": "EAT05_fruit_words",
+        "category": "content_quality",
+        "description": "fruits/avocado/index.html words >= 40.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "words": 59,
+          "minWords": 40
+        }
+      },
+      {
+        "id": "EAT05_fruit_title",
+        "category": "content_quality",
+        "description": "fruits/avocado/index.html has title.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "titleLength": 21
+        }
+      },
+      {
+        "id": "EAT05_fruit_canonical",
+        "category": "content_quality",
+        "description": "fruits/avocado/index.html has canonical.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "canonical": "https://pairingmethod.com/fruits/avocado/"
+        }
+      },
+      {
+        "id": "EAT05_fruit_no_fallback",
+        "category": "content_quality",
+        "description": "fruits/avocado/index.html not homepage fallback.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "file": "fruits/avocado/index.html"
+        }
+      },
+      {
+        "id": "EAT05_fungi_words",
+        "category": "content_quality",
+        "description": "fungi/button-mushroom/index.html words >= 80.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "words": 115,
+          "minWords": 80
+        }
+      },
+      {
+        "id": "EAT05_fungi_title",
+        "category": "content_quality",
+        "description": "fungi/button-mushroom/index.html has title.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "titleLength": 29
+        }
+      },
+      {
+        "id": "EAT05_fungi_canonical",
+        "category": "content_quality",
+        "description": "fungi/button-mushroom/index.html has canonical.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "canonical": "https://pairingmethod.com/fungi/button-mushroom/"
+        }
+      },
+      {
+        "id": "EAT05_fungi_no_fallback",
+        "category": "content_quality",
+        "description": "fungi/button-mushroom/index.html not homepage fallback.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "file": "fungi/button-mushroom/index.html"
+        }
+      },
+      {
+        "id": "EAT05_vegetable_words",
+        "category": "content_quality",
+        "description": "vegetables/asparagus/index.html words >= 40.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "words": 102,
+          "minWords": 40
+        }
+      },
+      {
+        "id": "EAT05_vegetable_title",
+        "category": "content_quality",
+        "description": "vegetables/asparagus/index.html has title.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "titleLength": 27
+        }
+      },
+      {
+        "id": "EAT05_vegetable_canonical",
+        "category": "content_quality",
+        "description": "vegetables/asparagus/index.html has canonical.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "canonical": "https://pairingmethod.com/vegetables/asparagus/"
+        }
+      },
+      {
+        "id": "EAT05_vegetable_no_fallback",
+        "category": "content_quality",
+        "description": "vegetables/asparagus/index.html not homepage fallback.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "file": "vegetables/asparagus/index.html"
+        }
+      },
+      {
+        "id": "EAT05_protein_words",
+        "category": "content_quality",
+        "description": "foods/salmon-fillet/index.html words >= 80.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "words": 117,
+          "minWords": 80
+        }
+      },
+      {
+        "id": "EAT05_protein_title",
+        "category": "content_quality",
+        "description": "foods/salmon-fillet/index.html has title.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "titleLength": 34
+        }
+      },
+      {
+        "id": "EAT05_protein_canonical",
+        "category": "content_quality",
+        "description": "foods/salmon-fillet/index.html has canonical.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "canonical": "https://pairingmethod.com/foods/salmon-fillet/"
+        }
+      },
+      {
+        "id": "EAT05_protein_no_fallback",
+        "category": "content_quality",
+        "description": "foods/salmon-fillet/index.html not homepage fallback.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "file": "foods/salmon-fillet/index.html"
+        }
+      },
+      {
+        "id": "EAT05_wine_style_words",
+        "category": "content_quality",
+        "description": "styles/pinot-noir/index.html words >= 60.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "words": 134,
+          "minWords": 60
+        }
+      },
+      {
+        "id": "EAT05_wine_style_title",
+        "category": "content_quality",
+        "description": "styles/pinot-noir/index.html has title.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "titleLength": 74
+        }
+      },
+      {
+        "id": "EAT05_wine_style_canonical",
+        "category": "content_quality",
+        "description": "styles/pinot-noir/index.html has canonical.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "canonical": "https://pairingmethod.com/styles/pinot-noir/"
+        }
+      },
+      {
+        "id": "EAT05_wine_style_no_fallback",
+        "category": "content_quality",
+        "description": "styles/pinot-noir/index.html not homepage fallback.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "file": "styles/pinot-noir/index.html"
+        }
+      },
+      {
+        "id": "EAT05_grain_words",
+        "category": "content_quality",
+        "description": "grains-starches/quinoa/index.html words >= 40.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "words": 126,
+          "minWords": 40
+        }
+      },
+      {
+        "id": "EAT05_grain_title",
+        "category": "content_quality",
+        "description": "grains-starches/quinoa/index.html has title.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "titleLength": 36
+        }
+      },
+      {
+        "id": "EAT05_grain_canonical",
+        "category": "content_quality",
+        "description": "grains-starches/quinoa/index.html has canonical.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "canonical": "https://pairingmethod.com/grains-starches/quinoa/"
+        }
+      },
+      {
+        "id": "EAT05_grain_no_fallback",
+        "category": "content_quality",
+        "description": "grains-starches/quinoa/index.html not homepage fallback.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "file": "grains-starches/quinoa/index.html"
+        }
+      },
+      {
+        "id": "EAT05_herb_words",
+        "category": "content_quality",
+        "description": "herbs-spices/basil/index.html words >= 40.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "words": 117,
+          "minWords": 40
+        }
+      },
+      {
+        "id": "EAT05_herb_title",
+        "category": "content_quality",
+        "description": "herbs-spices/basil/index.html has title.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "titleLength": 32
+        }
+      },
+      {
+        "id": "EAT05_herb_canonical",
+        "category": "content_quality",
+        "description": "herbs-spices/basil/index.html has canonical.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "canonical": "https://pairingmethod.com/herbs-spices/basil/"
+        }
+      },
+      {
+        "id": "EAT05_herb_no_fallback",
+        "category": "content_quality",
+        "description": "herbs-spices/basil/index.html not homepage fallback.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "file": "herbs-spices/basil/index.html"
+        }
+      },
+      {
+        "id": "EAT05_legume_words",
+        "category": "content_quality",
+        "description": "legumes/chickpea/index.html words >= 40.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "words": 56,
+          "minWords": 40
+        }
+      },
+      {
+        "id": "EAT05_legume_title",
+        "category": "content_quality",
+        "description": "legumes/chickpea/index.html has title.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "titleLength": 23
+        }
+      },
+      {
+        "id": "EAT05_legume_canonical",
+        "category": "content_quality",
+        "description": "legumes/chickpea/index.html has canonical.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "canonical": "https://pairingmethod.com/legumes/chickpea/"
+        }
+      },
+      {
+        "id": "EAT05_legume_no_fallback",
+        "category": "content_quality",
+        "description": "legumes/chickpea/index.html not homepage fallback.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "file": "legumes/chickpea/index.html"
+        }
+      },
+      {
+        "id": "CONTENT_no_spanish_dir",
+        "category": "content_quality",
+        "description": "No /es/ directory.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "esDirExists": false
+        }
+      },
+      {
+        "id": "CONTENT_no_cheese_published",
+        "category": "content_quality",
+        "description": "Cheese domain unpublished.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "published": false
+        }
+      },
+      {
+        "id": "LEGAL_disclaimer_wyoming",
+        "category": "trust_legal",
+        "description": "Disclaimer Wyoming operator wording.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "matched": true
+        }
+      },
+      {
+        "id": "LEGAL_disclaimer_no_canada_us",
+        "category": "trust_legal",
+        "description": "Disclaimer lacks Canada/US contradiction.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "matched": false
+        }
+      },
+      {
+        "id": "LEGAL_privacy_intro",
+        "category": "trust_legal",
+        "description": "Privacy intro corrected.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "matched": true
+        }
+      },
+      {
+        "id": "LEGAL_privacy_no_terms_intro",
+        "category": "trust_legal",
+        "description": "Privacy lacks Terms-style intro.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "containsWrongIntro": false
+        }
+      },
+      {
+        "id": "LEGAL_terms_contact",
+        "category": "trust_legal",
+        "description": "Terms contact email.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "matched": true
+        }
+      },
+      {
+        "id": "LEGAL_about_contact",
+        "category": "trust_legal",
+        "description": "About contact email.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "matched": true
+        }
+      },
+      {
+        "id": "LEGAL_privacy_contact",
+        "category": "trust_legal",
+        "description": "Privacy contact email.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "matched": true
+        }
+      },
+      {
+        "id": "TRUST_about_How_Pairing_Method_Is_Built",
+        "category": "trust_legal",
+        "description": "About contains 'How Pairing Method Is Built'.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "heading": "How Pairing Method Is Built",
+          "present": true
+        }
+      },
+      {
+        "id": "TRUST_about_Our_Approach",
+        "category": "trust_legal",
+        "description": "About contains 'Our Approach'.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "heading": "Our Approach",
+          "present": true
+        }
+      },
+      {
+        "id": "TRUST_about_Who_Operates_Pairing_Method",
+        "category": "trust_legal",
+        "description": "About contains 'Who Operates Pairing Method'.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "heading": "Who Operates Pairing Method",
+          "present": true
+        }
+      },
+      {
+        "id": "TRUST_about_Editorial_Transparency",
+        "category": "trust_legal",
+        "description": "About contains 'Editorial Transparency'.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "heading": "Editorial Transparency",
+          "present": true
+        }
+      },
+      {
+        "id": "TRUST_org_schema_wyoming",
+        "category": "trust_legal",
+        "description": "Disclaimer Organization schema Wyoming.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "matched": true
+        }
+      },
+      {
+        "id": "TRUST_ai_disclosure",
+        "category": "trust_legal",
+        "description": "Disclaimer AI section.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "matched": true
+        }
+      },
+      {
+        "id": "LEGAL_privacy.html_dated",
+        "category": "trust_legal",
+        "description": "privacy.html has 2026 date.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "matched": true
+        }
+      },
+      {
+        "id": "LEGAL_terms.html_dated",
+        "category": "trust_legal",
+        "description": "terms.html has 2026 date.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "matched": true
+        }
+      },
+      {
+        "id": "LEGAL_disclaimer.html_dated",
+        "category": "trust_legal",
+        "description": "disclaimer.html has 2026 date.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "matched": true
+        }
+      },
+      {
+        "id": "LIVE_LEGAL_disclaimer_wyoming",
+        "category": "live_trust_legal",
+        "description": "Production disclaimer Wyoming.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {}
+      },
+      {
+        "id": "LIVE_LEGAL_privacy_intro",
+        "category": "live_trust_legal",
+        "description": "Production privacy intro.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {}
+      },
+      {
+        "id": "LIVE_LEGAL_privacy_no_terms",
+        "category": "live_trust_legal",
+        "description": "Production privacy lacks wrong intro.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {}
+      },
+      {
+        "id": "AUTH_wine-with-grilled-steak.html_pmv",
+        "category": "authority_framing",
+        "description": "wine-with-grilled-steak.html Pairing Method Verdict present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "AUTH_wine-with-grilled-steak.html_no_som_h2",
+        "category": "authority_framing",
+        "description": "wine-with-grilled-steak.html lacks Sommelier Verdict h2.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": false
+        }
+      },
+      {
+        "id": "AUTH_wine-with-roasted-chicken.html_pmv",
+        "category": "authority_framing",
+        "description": "wine-with-roasted-chicken.html Pairing Method Verdict present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "AUTH_wine-with-roasted-chicken.html_no_som_h2",
+        "category": "authority_framing",
+        "description": "wine-with-roasted-chicken.html lacks Sommelier Verdict h2.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": false
+        }
+      },
+      {
+        "id": "AUTH_wine-with-fried-fish.html_pmv",
+        "category": "authority_framing",
+        "description": "wine-with-fried-fish.html Pairing Method Verdict present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "AUTH_wine-with-fried-fish.html_no_som_h2",
+        "category": "authority_framing",
+        "description": "wine-with-fried-fish.html lacks Sommelier Verdict h2.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": false
+        }
+      },
+      {
+        "id": "AUTH_wine-with-spicy-food.html_pmv",
+        "category": "authority_framing",
+        "description": "wine-with-spicy-food.html Pairing Method Verdict present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "AUTH_wine-with-spicy-food.html_no_som_h2",
+        "category": "authority_framing",
+        "description": "wine-with-spicy-food.html lacks Sommelier Verdict h2.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": false
+        }
+      },
+      {
+        "id": "AUTH_wine-with-creamy-dishes.html_pmv",
+        "category": "authority_framing",
+        "description": "wine-with-creamy-dishes.html Pairing Method Verdict present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "AUTH_wine-with-creamy-dishes.html_no_som_h2",
+        "category": "authority_framing",
+        "description": "wine-with-creamy-dishes.html lacks Sommelier Verdict h2.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": false
+        }
+      },
+      {
+        "id": "AUTH_wine-with-smoked-pork.html_pmv",
+        "category": "authority_framing",
+        "description": "wine-with-smoked-pork.html Pairing Method Verdict present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "AUTH_wine-with-smoked-pork.html_no_som_h2",
+        "category": "authority_framing",
+        "description": "wine-with-smoked-pork.html lacks Sommelier Verdict h2.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": false
+        }
+      },
+      {
+        "id": "AUTH_wine-with-steak.html_pmv",
+        "category": "authority_framing",
+        "description": "wine-with-steak.html Pairing Method Verdict present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "AUTH_wine-with-chicken.html_pmv",
+        "category": "authority_framing",
+        "description": "wine-with-chicken.html Pairing Method Verdict present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "AUTH_wine-with-salmon.html_pmv",
+        "category": "authority_framing",
+        "description": "wine-with-salmon.html Pairing Method Verdict present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "AUTH_wine-for-bbq-ribs.html_pmv",
+        "category": "authority_framing",
+        "description": "wine-for-bbq-ribs.html Pairing Method Verdict present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "AUTH_wine-for-thanksgiving-turkey.html_pmv",
+        "category": "authority_framing",
+        "description": "wine-for-thanksgiving-turkey.html Pairing Method Verdict present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "AUTH_zero_sommelier_verdict_h2",
+        "category": "authority_framing",
+        "description": "Zero Sommelier Verdict h2 across scoped guides.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "sommelierH2Count": 0,
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "AUTH_no_person_reviewer_schema",
+        "category": "authority_framing",
+        "description": "No Person reviewer schema on About.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "badPersonSchema": false
+        }
+      },
+      {
+        "id": "LIVE_AUTH_wine-with-grilled-steak_pmv",
+        "category": "live_authority_framing",
+        "description": "Production wine-with-grilled-steak PMV.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {}
+      },
+      {
+        "id": "LIVE_AUTH_wine-with-grilled-steak_no_som",
+        "category": "live_authority_framing",
+        "description": "Production wine-with-grilled-steak no Sommelier h2.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {}
+      },
+      {
+        "id": "LIVE_AUTH_wine-with-roasted-chicken_pmv",
+        "category": "live_authority_framing",
+        "description": "Production wine-with-roasted-chicken PMV.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {}
+      },
+      {
+        "id": "LIVE_AUTH_wine-with-roasted-chicken_no_som",
+        "category": "live_authority_framing",
+        "description": "Production wine-with-roasted-chicken no Sommelier h2.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {}
+      },
+      {
+        "id": "LIVE_AUTH_wine-with-fried-fish_pmv",
+        "category": "live_authority_framing",
+        "description": "Production wine-with-fried-fish PMV.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {}
+      },
+      {
+        "id": "LIVE_AUTH_wine-with-fried-fish_no_som",
+        "category": "live_authority_framing",
+        "description": "Production wine-with-fried-fish no Sommelier h2.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {}
+      },
+      {
+        "id": "LIVE_AUTH_wine-with-spicy-food_pmv",
+        "category": "live_authority_framing",
+        "description": "Production wine-with-spicy-food PMV.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {}
+      },
+      {
+        "id": "LIVE_AUTH_wine-with-spicy-food_no_som",
+        "category": "live_authority_framing",
+        "description": "Production wine-with-spicy-food no Sommelier h2.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {}
+      },
+      {
+        "id": "LIVE_AUTH_wine-with-creamy-dishes_pmv",
+        "category": "live_authority_framing",
+        "description": "Production wine-with-creamy-dishes PMV.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {}
+      },
+      {
+        "id": "LIVE_AUTH_wine-with-creamy-dishes_no_som",
+        "category": "live_authority_framing",
+        "description": "Production wine-with-creamy-dishes no Sommelier h2.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {}
+      },
+      {
+        "id": "LIVE_AUTH_wine-with-smoked-pork_pmv",
+        "category": "live_authority_framing",
+        "description": "Production wine-with-smoked-pork PMV.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {}
+      },
+      {
+        "id": "LIVE_AUTH_wine-with-smoked-pork_no_som",
+        "category": "live_authority_framing",
+        "description": "Production wine-with-smoked-pork no Sommelier h2.",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {}
+      },
+      {
+        "id": "P2_HOME_01_sommelier_title",
+        "category": "p2_review",
+        "description": "Homepage title/meta references Sommelier.",
+        "result": "NON_MATERIAL_NOTE",
+        "method": "DIRECTOR_CLASSIFICATION",
+        "evidence": {
+          "observed_fact": {
+            "titleContainsSommelier": true
+          },
+          "director_classification_note": "Director classifies as non-material: descriptive methodology SEO framing, not credentialed human endorsement claim.",
+          "verifier_proves_materiality": false
+        }
+      },
+      {
+        "id": "P2_QUAR_01_unfiltered_links",
+        "category": "p2_review",
+        "description": "Food-tail pages may list wine-style links from unfiltered runtime graph.",
+        "result": "NON_MATERIAL_NOTE",
+        "method": "DIRECTOR_CLASSIFICATION",
+        "evidence": {
+          "observed_fact": {
+            "evidenceProseSuppressedByEAT07": true,
+            "whyTheseWinesSectionsInHtml": 0
+          },
+          "director_classification_note": "Director classifies as non-material while EAT-07 prose quarantine remains active.",
+          "verifier_proves_materiality": false
+        }
+      },
+      {
+        "id": "P2_LEGAL_03_boilerplate",
+        "category": "p2_review",
+        "description": "Disclaimer §4 contains shared Albor market-data boilerplate.",
+        "result": "NON_MATERIAL_NOTE",
+        "method": "DIRECTOR_CLASSIFICATION",
+        "evidence": {
+          "observed_fact": {
+            "section4ContainsMarketDataLanguage": true
+          },
+          "director_classification_note": "Director classifies as non-material; operator identity and AI disclosure remain clear.",
+          "verifier_proves_materiality": false
+        }
+      },
+      {
+        "id": "QZ_food_tail_pages",
+        "category": "quarantine_safety",
+        "description": "Food-tail pages >= 350.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "ftPages": 356,
+          "min": 350
+        }
+      },
+      {
+        "id": "QZ_zero_why_sections",
+        "category": "quarantine_safety",
+        "description": "Why These Wines Work count === 0.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "ftWhy": 0,
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "QZ_zero_governance_html",
+        "category": "quarantine_safety",
+        "description": "Governance string count === 0.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "ftGov": 0,
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "QZ_873_runtime_edges",
+        "category": "quarantine_safety",
+        "description": "Runtime edge total === 873.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "runtimeTotal": 873,
+          "actual": 873,
+          "expected": 873
+        }
+      },
+      {
+        "id": "QZ_live_fruits_no_why",
+        "category": "quarantine_safety",
+        "description": "fruits/acai/index.html lacks Why These Wines Work.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "hasWhy": false
+        }
+      },
+      {
+        "id": "QZ_live_legumes_no_why",
+        "category": "quarantine_safety",
+        "description": "legumes/adzuki-bean/index.html lacks Why These Wines Work.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "hasWhy": false
+        }
+      },
+      {
+        "id": "QZ_live_nut_seeds_no_why",
+        "category": "quarantine_safety",
+        "description": "nut-seeds/almond/index.html lacks Why These Wines Work.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "hasWhy": false
+        }
+      },
+      {
+        "id": "QZ_live_sweet_flavors_no_why",
+        "category": "quarantine_safety",
+        "description": "sweet-flavors/agave/index.html lacks Why These Wines Work.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "hasWhy": false
+        }
+      },
+      {
+        "id": "POLICY_no_adsbygoogle_root",
+        "category": "policy_risk",
+        "description": "Root HTML adsbygoogle hits === 0.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "rootHtmlAdsHits": 0,
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "POLICY_no_malware_patterns",
+        "category": "policy_risk",
+        "description": "Homepage lacks malware patterns.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "matched": false
+        }
+      },
+      {
+        "id": "POLICY_no_prohibited_homepage",
+        "category": "policy_risk",
+        "description": "Homepage lacks prohibited category signals.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "matched": false
+        }
+      },
+      {
+        "id": "ADS_no_local_ads_txt",
+        "category": "adsense_state",
+        "description": "ads.txt absent locally.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "exists": false
+        }
+      },
+      {
+        "id": "ADS_no_publisher_id",
+        "category": "adsense_state",
+        "description": "No ca-pub in index.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "matched": false
+        }
+      },
+      {
+        "id": "ADS_no_ad_placeholders",
+        "category": "adsense_state",
+        "description": "Ad placeholders in six guides === 0.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "adPlaceholderCount": 0,
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "SCHEMA_home_faqpage",
+        "category": "structured_data",
+        "description": "Homepage FAQPage JSON-LD.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "SCHEMA_home_website",
+        "category": "structured_data",
+        "description": "Homepage WebSite JSON-LD.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "present": true
+        }
+      },
+      {
+        "id": "SCHEMA_json_valid_index_html",
+        "category": "structured_data",
+        "description": "index.html JSON-LD parse errors === 0.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "blocks": 3,
+          "parseErrors": 0,
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "SCHEMA_org_wyoming_index_html",
+        "category": "structured_data",
+        "description": "index.html Organization Wyoming when org present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "hasOrg": true,
+          "wyOk": true
+        }
+      },
+      {
+        "id": "SCHEMA_json_valid_about_html",
+        "category": "structured_data",
+        "description": "about.html JSON-LD parse errors === 0.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "blocks": 2,
+          "parseErrors": 0,
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "SCHEMA_org_wyoming_about_html",
+        "category": "structured_data",
+        "description": "about.html Organization Wyoming when org present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "hasOrg": true,
+          "wyOk": true
+        }
+      },
+      {
+        "id": "SCHEMA_json_valid_fruits_avocado_index_html",
+        "category": "structured_data",
+        "description": "fruits/avocado/index.html JSON-LD parse errors === 0.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "blocks": 4,
+          "parseErrors": 0,
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "SCHEMA_org_wyoming_fruits_avocado_index_html",
+        "category": "structured_data",
+        "description": "fruits/avocado/index.html Organization Wyoming when org present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "hasOrg": false,
+          "wyOk": true
+        }
+      },
+      {
+        "id": "SCHEMA_json_valid_styles_pinot-noir_index_html",
+        "category": "structured_data",
+        "description": "styles/pinot-noir/index.html JSON-LD parse errors === 0.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "blocks": 3,
+          "parseErrors": 0,
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "SCHEMA_org_wyoming_styles_pinot-noir_index_html",
+        "category": "structured_data",
+        "description": "styles/pinot-noir/index.html Organization Wyoming when org present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "hasOrg": false,
+          "wyOk": true
+        }
+      },
+      {
+        "id": "SCHEMA_json_valid_wine-with-steak_html",
+        "category": "structured_data",
+        "description": "wine-with-steak.html JSON-LD parse errors === 0.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "blocks": 3,
+          "parseErrors": 0,
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "SCHEMA_org_wyoming_wine-with-steak_html",
+        "category": "structured_data",
+        "description": "wine-with-steak.html Organization Wyoming when org present.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "hasOrg": true,
+          "wyOk": true
+        }
+      },
+      {
+        "id": "LINK_no_cheese_in_published",
+        "category": "publication_integrity",
+        "description": "Published HTML pages linking /cheeses/ === 0.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "cheeseLinkPages": 0,
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "FAULT_cork-taint_one_note",
+        "category": "content_quality",
+        "description": "cork-taint exactly one source note.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "notes": 1,
+          "actual": 1,
+          "expected": 1
+        }
+      },
+      {
+        "id": "FAULT_cork-taint_disclaimer",
+        "category": "content_quality",
+        "description": "cork-taint non-endorsement disclaimer.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "disclaimerOk": true
+        }
+      },
+      {
+        "id": "FAULT_brettanomyces_one_note",
+        "category": "content_quality",
+        "description": "brettanomyces exactly one source note.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "notes": 1,
+          "actual": 1,
+          "expected": 1
+        }
+      },
+      {
+        "id": "FAULT_brettanomyces_disclaimer",
+        "category": "content_quality",
+        "description": "brettanomyces non-endorsement disclaimer.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "disclaimerOk": true
+        }
+      },
+      {
+        "id": "E20_evidence_verified_zero",
+        "category": "evidence_provenance",
+        "description": "EAT-20 evidence_verified_count === 0.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "E20_publication_safe_zero",
+        "category": "evidence_provenance",
+        "description": "EAT-20 publication_safe_count === 0.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "SMAP_live_93da07f2",
+        "category": "live_production_http",
+        "description": "Sitemap sample 200: https://pairingmethod.com/fruit-categories/fruit/",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/fruit-categories/fruit/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "SMAP_live_5770eed6",
+        "category": "live_production_http",
+        "description": "Sitemap sample 200: https://pairingmethod.com/grains-starches/spelt-flour/",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/grains-starches/spelt-flour/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "SMAP_live_fbc3402a",
+        "category": "live_production_http",
+        "description": "Sitemap sample 200: https://pairingmethod.com/nut-seeds/chia-seed/",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/nut-seeds/chia-seed/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "SMAP_live_25562b29",
+        "category": "live_production_http",
+        "description": "Sitemap sample 200: https://pairingmethod.com/groups/lamb/",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/groups/lamb/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "SMAP_live_af19b6ac",
+        "category": "live_production_http",
+        "description": "Sitemap sample 200: https://pairingmethod.com/serving/short-term-aging/",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/serving/short-term-aging/",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "SMAP_live_89e278ca",
+        "category": "live_production_http",
+        "description": "Sitemap sample 200: https://pairingmethod.com/terms/quince",
+        "result": "PASS",
+        "method": "LIVE_HTTP",
+        "evidence": {
+          "url": "https://pairingmethod.com/terms/quince",
+          "actual": 200,
+          "expected": 200
+        }
+      },
+      {
+        "id": "BQA_chrome_desktop_mobile",
+        "category": "browser_qa",
+        "description": "Real Chrome desktop 1440×900 and mobile 390×844 (§4). Verifier does NOT perform visual inspection.",
+        "result": "MANUAL_REVIEW_REQUIRED",
+        "method": "MANUAL_REVIEW",
+        "evidence": {
+          "pages": [
+            "/",
+            "/wine-with-steak/",
+            "/foods/salmon-fillet/",
+            "/terms/tannin/",
+            "/faults/cork-taint/",
+            "/disclaimer"
+          ],
+          "viewports": [
+            "1440x900",
+            "390x844"
+          ],
+          "evidence_location": "reports/pairing-eat-23-implementation.md § Browser / Manual Checks"
+        }
+      },
+      {
+        "id": "NO_MOD_protected_hashes",
+        "category": "no_modification",
+        "description": "Protected hash drift === 0.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "hashDrift": [],
+          "actual": 0,
+          "expected": 0
+        }
+      },
+      {
+        "id": "NO_MOD_git_tracked",
+        "category": "no_modification",
+        "description": "Only EAT-23 audit files tracked-modified.",
+        "result": "PASS",
+        "method": "AUTOMATED",
+        "evidence": {
+          "trackedModified": [],
+          "unexpectedTracked": [],
+          "actual": 0,
+          "expected": 0
+        }
+      }
+    ]
+  },
+  "commit_push_deploy": {
+    "committed": false,
+    "pushed": false,
+    "deployed": false
+  },
+  "hashDrift": [],
+  "failed": []
+}
